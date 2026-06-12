@@ -87,6 +87,318 @@
       "reference": "GESTATIONAL DM: \"diabetes diagnosed within the first trimester be classified as preexisting pregestational diabetes rather than GDM... Most women with GDM revert to normal glucose tolerance postpartum but have a substantial risk (35–60%) of developing DM in the next 10–20 years.\""
     },
     {
+      "id": "h2-089-n7",
+      "type": "note",
+      "subtopic": "Diagnosis — Reasoning",
+      "title": "Why an abnormal screening test must be repeated on a separate day",
+      "content": "A diagnosis of diabetes commits a patient to lifelong disease labeling, monitoring, insurance/financial consequences, and treatment. Single glucose or HbA1c measurements carry biological and analytic variability, and glucose intolerance can revert toward normal (e.g., after acute illness or stress).\n\nTherefore, unless there is unequivocal hyperglycemia with acute metabolic decompensation (or a markedly elevated glucose), an abnormal screening result is confirmed by a second test on a different day before the label 'diabetes' is applied. The same logic lets the diagnosis be withdrawn if values revert to normal.",
+      "keyPoints": [
+        "Confirm before you commit — the diagnosis has medical and financial weight.",
+        "Exception: symptomatic, markedly high glucose with decompensation needs no second test.",
+        "Reversion to normal can de-label a patient."
+      ],
+      "reference": "DIAGNOSIS: \"The diagnosis of DM has profound implications for an individual from both a medical and a financial standpoint. Thus, abnormalities on screening tests for diabetes should be repeated before making a definitive diagnosis... These criteria also allow for the diagnosis of DM to be withdrawn in situations when the glucose intolerance reverts to normal.\""
+    },
+    {
+      "id": "h2-089-n8",
+      "type": "note",
+      "subtopic": "Beta-cell physiology — Reasoning",
+      "title": "How glucose triggers insulin secretion — and why sulfonylureas work",
+      "content": "Mechanism chain: glucose enters the beta cell via a glucose transporter → glucokinase phosphorylates it (the RATE-LIMITING, glucose-sensing step) → glycolysis raises ATP → ATP closes the ATP-sensitive K+ channel → membrane depolarizes → voltage-gated Ca2+ channels open → Ca2+ influx triggers insulin granule exocytosis.\n\nClinical consequences:\n• The K+ channel has a sulfonylurea/meglitinide binding subunit plus the Kir6.2 pore — so sulfonylureas close it pharmacologically and force insulin release (hence their hypoglycemia risk).\n• Glucokinase is the 'glucose sensor' — inactivating mutations cause MODY (mild stable hyperglycemia); activating mutations cause hyperinsulinemic hypoglycemia.",
+      "keyPoints": [
+        "Glucokinase = rate-limiting glucose sensor.",
+        "Sulfonylureas act on the K-ATP channel → glucose-independent insulin release → hypoglycemia risk.",
+        "This pathway links a molecular step to MODY and to drug action."
+      ],
+      "reference": "INSULIN SECRETION: \"Glucose phosphorylation by glucokinase is the rate-limiting step... Inhibition of this K+ channel induces beta cell membrane depolarization, which opens voltage-dependent calcium channels... one is the binding site for certain oral hypoglycemics (e.g., sulfonylureas, meglitinides).\""
+    },
+    {
+      "id": "h2-089-n9",
+      "type": "note",
+      "subtopic": "Incretins — Reasoning",
+      "title": "Why incretin-based drugs rarely cause hypoglycemia",
+      "content": "GLP-1 and GIP amplify insulin secretion ONLY when blood glucose is above the fasting level, and they simultaneously suppress glucagon. This glucose-dependence is the key: as glucose falls toward normal, the incretin stimulus to insulin switches off.\n\nClinical consequence: GLP-1 receptor agonists and DPP-4 inhibitors (which prolong endogenous GLP-1) have low intrinsic hypoglycemia risk when used without insulin or sulfonylureas — a major reason they are favored in type 2 DM.",
+      "keyPoints": [
+        "Glucose-dependent insulin stimulus = built-in hypoglycemia safety.",
+        "Incretins also suppress glucagon, adding glucose-lowering effect.",
+        "Hypoglycemia risk rises mainly when combined with insulin/sulfonylureas."
+      ],
+      "reference": "INSULIN SECRETION: \"GLP-1... and GIP are incretin hormones... but they have this effect only when the blood glucose is above the fasting level. Incretin hormones also suppress glucagon production and secretion.\""
+    },
+    {
+      "id": "h2-089-n10",
+      "type": "note",
+      "subtopic": "Type 2 — Reasoning",
+      "title": "Why type 2 DM raises fasting vs postprandial glucose differently",
+      "content": "Two organs, two glucose problems:\n• LIVER: insulin resistance fails to suppress gluconeogenesis, so hepatic glucose output rises → this predominantly drives FASTING hyperglycemia (and explains why metformin, which curbs hepatic glucose output, lowers FPG).\n• MUSCLE: impaired insulin-stimulated GLUT4-mediated uptake means ingested glucose is cleared poorly → this predominantly drives POSTPRANDIAL hyperglycemia.\n\nKnowing which is elevated guides therapy choice and timing.",
+      "keyPoints": [
+        "Fasting hyperglycemia ≈ liver; postprandial ≈ muscle.",
+        "Mechanistic basis for choosing/timing glucose-lowering agents.",
+        "Increased glucagon compounds hepatic glucose output."
+      ],
+      "reference": "PATHOPHYSIOLOGY — TYPE 2 DM: \"Increased hepatic glucose output predominantly accounts for increased FPG levels, whereas decreased peripheral glucose utilization results in postprandial hyperglycemia.\""
+    },
+    {
+      "id": "h2-089-n11",
+      "type": "note",
+      "subtopic": "Type 2 — Reasoning",
+      "title": "How visceral obesity drives insulin resistance",
+      "content": "Visceral fat is metabolically active and pathogenic, not inert storage:\n1. Expanded adipocyte mass releases more free fatty acids (FFAs); visceral depots drain into the PORTAL circulation, exposing the liver directly → promotes hepatic glucose production and VLDL output.\n2. FFAs and lipid intermediates impair muscle glucose uptake and beta-cell function.\n3. Adipokine shift: pro-inflammatory products (TNF-α, IL-6, resistin) rise while insulin-sensitizing adiponectin falls.\n4. Adipose-resident macrophages generate metabolic inflammation that feeds back to worsen insulin resistance.",
+      "keyPoints": [
+        "Portal drainage of visceral fat = direct hepatic FFA load.",
+        "Low adiponectin + high inflammatory adipokines worsen resistance.",
+        "Explains why central adiposity matters more than total weight."
+      ],
+      "reference": "PATHOPHYSIOLOGY — TYPE 2 DM: \"The venous drainage of the visceral adipose beds is the portal circulation... the production by adipocytes of adiponectin, an insulin-sensitizing peptide, is reduced in obesity... adipose resident macrophages are an important source of metabolic inflammation.\""
+    },
+    {
+      "id": "h2-089-n12",
+      "type": "note",
+      "subtopic": "Type 2 — Reasoning",
+      "title": "Why 'glucose toxicity' makes early glucose-lowering worthwhile",
+      "content": "Chronic hyperglycemia paradoxically impairs beta-cell function ('glucose toxicity'), and elevated free fatty acids do the same ('lipotoxicity'). This creates a vicious cycle: high glucose → worse beta-cell function → higher glucose.\n\nBecause this impairment is partly REVERSIBLE, improving glycemic control often restores some endogenous insulin secretion. Clinically, this is a rationale for promptly lowering very high glucose (sometimes with temporary insulin) rather than delaying.",
+      "keyPoints": [
+        "Hyperglycemia itself worsens beta-cell function (reversible).",
+        "Lowering glucose can recover secretory capacity.",
+        "Supports early/aggressive control of marked hyperglycemia."
+      ],
+      "reference": "IMPAIRED INSULIN SECRETION: \"chronic hyperglycemia paradoxically impairs islet function ('glucose toxicity') and leads to a worsening of hyperglycemia. Improvement in glycemic control is often associated with improved islet function.\""
+    },
+    {
+      "id": "h2-089-n13",
+      "type": "note",
+      "subtopic": "Type 1 — Reasoning",
+      "title": "How beta cells are destroyed in type 1 DM — and why antibodies are only markers",
+      "content": "Destruction is cell-mediated, not antibody-mediated. CD8+ cytotoxic T cells directly kill beta cells; cytokines (TNF-α, IFN-γ, IL-1) and reactive oxygen species from infiltrating immune cells add damage. Beta cells worsen their own fate by presenting modified 'neoantigens' and upregulating MHC class I.\n\nIslet autoantibodies (GAD, IA-2, ZnT8, insulin) are biomarkers of this autoimmune process — useful to detect and predict disease — but they do NOT directly cause beta-cell death. This is why disease-modifying therapy targets T cells (e.g., anti-CD3 teplizumab), not antibodies.",
+      "keyPoints": [
+        "CD8+ T-cell cytotoxicity is the main killer.",
+        "Autoantibodies = markers, not effectors.",
+        "Explains why immunotherapy targets the T-cell process."
+      ],
+      "reference": "TYPE 1 DM Pathophysiology: \"the antibodies do not have a direct role in beta cell death. Beta cell destruction is mostly likely mediated by direct CD8+ T cell-mediated cytotoxicity.\""
+    },
+    {
+      "id": "h2-089-n14",
+      "type": "note",
+      "subtopic": "Type 1 — Reasoning",
+      "title": "Why ≥2 islet autoantibodies define stage 1 and enable pre-clinical treatment",
+      "content": "In high-genetic-risk children, the presence of two or more islet autoantibodies confers ~70% risk of type 1 DM by 10 years and >80% by 15 years — a risk high enough to define disease onset before any hyperglycemia. Hence staging: stage 1 = ≥2 autoantibodies + normoglycemia; stage 2 = autoantibodies + dysglycemia; stage 3 = clinical disease.\n\nThis matters because it creates a treatable pre-clinical window: teplizumab given in stage 2 delayed progression to stage 3 by a median of 32.5 months. Screening relatives/at-risk individuals for autoantibodies can therefore change outcomes.",
+      "keyPoints": [
+        "≥2 autoantibodies = stage 1 (disease begins before symptoms).",
+        "Staging creates a window for disease-modifying therapy.",
+        "Teplizumab in stage 2 delays clinical onset ~32.5 months."
+      ],
+      "reference": "TYPE 1 DM: \"the presence of two or more ICAs... was associated with a nearly 70% risk... after 10 years... the development of multiple autoantibodies is now defined as the onset of stage 1 type 1 DM.\""
+    },
+    {
+      "id": "h2-089-n15",
+      "type": "note",
+      "subtopic": "Classification — Reasoning",
+      "title": "Why adult-onset type 1 DM is missed — and how to catch it",
+      "content": "Up to ~40% of type 1 DM begins after age 30, and these adults are frequently misdiagnosed as type 2 because clinicians anchor on age and body habitus. Misclassification delays appropriate insulin and risks DKA.\n\nHow to avoid it: in an adult with type-1 features — younger age, presentation with ketoacidosis, lean body habitus, or rapid need for insulin — measure islet autoantibodies (present in >85% of new-onset type 1). A low/absent C-peptide also supports insulin deficiency.",
+      "keyPoints": [
+        "Don't let age/BMI alone assign 'type 2'.",
+        "Type-1 red flags: DKA, lean, young-ish, rapid insulin need.",
+        "Confirm with islet autoantibodies ± C-peptide."
+      ],
+      "reference": "TYPE 1 DM: \"as many as 40% of individuals who develop type 1 DM have onset at over the age of 30. Many individuals with adult-onset type 1 DM are initially misdiagnosed with type 2 DM... Measurement of ICAs is recommended for adults who have phenotypic features similar to those in classic type 1 DM.\""
+    },
+    {
+      "id": "h2-089-n16",
+      "type": "note",
+      "subtopic": "Diagnosis — Reasoning",
+      "title": "Why HbA1c can mislead — and the work-around",
+      "content": "HbA1c reflects glycation of hemoglobin over the red cell lifespan, so anything that changes hemoglobin structure or red-cell turnover distorts it. Hemoglobinopathies and certain ancestries can shift HbA1c away from the true glucose exposure, and conditions with altered RBC survival (e.g., hemolysis, recent transfusion) do likewise.\n\nWork-around: when HbA1c reliability is doubtful — and specifically for cystic-fibrosis-related and post-transplant diabetes — use glucose-based testing (FPG or OGTT) instead.",
+      "keyPoints": [
+        "HbA1c depends on RBC lifespan and hemoglobin type.",
+        "Use FPG/OGTT when HbA1c is unreliable.",
+        "CF-related and post-transplant diabetes: screen with OGTT."
+      ],
+      "reference": "DIAGNOSIS: \"some clinical conditions (e.g., hemoglobinopathies) and ancestry may influence the HbA1c.\" / SCREENING: \"Screening for cystic fibrosis-related diabetes... and posttransplantation diabetes should use OGTT rather than HbA1c.\""
+    },
+    {
+      "id": "h2-089-n17",
+      "type": "note",
+      "subtopic": "Pregnancy — Reasoning",
+      "title": "Why first-trimester hyperglycemia is preexisting diabetes, not GDM",
+      "content": "The insulin resistance of pregnancy is produced by placental/hormonal changes that become significant in the SECOND and THIRD trimesters. GDM is, by definition, glucose intolerance that develops then.\n\nTherefore, diabetes-range hyperglycemia detected in the FIRST trimester predates that physiologic resistance and is classified as preexisting (pregestational) diabetes. The distinction matters: pregestational diabetes carries higher risk of congenital anomalies and needs different counseling and management.",
+      "keyPoints": [
+        "Pregnancy insulin resistance peaks in 2nd/3rd trimester.",
+        "First-trimester diabetes = preexisting, not GDM.",
+        "Classification changes risk assessment and management."
+      ],
+      "reference": "GESTATIONAL DM: \"Glucose intolerance developing during the second or third trimester of pregnancy is classified as gestational diabetes mellitus... the ADA recommends that diabetes diagnosed within the first trimester be classified as preexisting pregestational diabetes rather than GDM.\""
+    },
+    {
+      "id": "h2-089-n18",
+      "type": "note",
+      "subtopic": "Insulin pharmacology — Reasoning",
+      "title": "How the portal–peripheral insulin gradient shapes insulin therapy",
+      "content": "Endogenous insulin is secreted into the portal vein, and the liver clears ~50% on first pass, creating a ~2:1 portal-to-peripheral insulin gradient. The liver thus normally sees twice the insulin that peripheral tissues do.\n\nClinical consequence: subcutaneously injected (exogenous) insulin enters the systemic circulation directly and bypasses this physiologic portal gradient. This non-physiologic distribution is one reason exogenous insulin cannot perfectly reproduce normal hepatic vs peripheral insulin action — relevant to dosing and to the design of insulin regimens.",
+      "keyPoints": [
+        "Liver clears ~50% of insulin first-pass → 2:1 portal:peripheral gradient.",
+        "Injected insulin bypasses the portal-first physiology.",
+        "Explains imperfect mimicry of normal insulin action by SC insulin."
+      ],
+      "reference": "INSULIN ACTION: \"A large portion (50%) of secreted insulin is cleared by the liver in this first pass, yielding a portal-to-peripheral insulin concentration gradient of ~2:1, with important implications for the clinical use of exogenous insulin.\""
+    },
+    {
+      "id": "h2-089-n19",
+      "type": "note",
+      "subtopic": "Type 2 — Reasoning",
+      "title": "Why insulin resistance in type 2 DM is a 'postreceptor' defect",
+      "content": "Insulin receptor number and tyrosine-kinase activity in muscle are reduced in type 2 DM, but these changes are largely SECONDARY to hyperinsulinemia rather than the primary problem. The dominant lesion lies downstream ('postreceptor') in the phosphorylation/dephosphorylation signaling cascade.\n\nContributors: accumulation of intramyocellular lipid intermediates that impair mitochondrial oxidative phosphorylation, reduced insulin-stimulated ATP production, reactive oxygen species, and low-grade inflammation — all blunting GLUT4 translocation and glucose uptake. Importantly, mitogenic (growth) signaling pathways are NOT resistant, so hyperinsulinemia may still drive atherogenesis.",
+      "keyPoints": [
+        "Primary defect is downstream of the receptor (signaling), not receptor loss.",
+        "Lipid intermediates + inflammation impair GLUT4-mediated uptake.",
+        "Mitogenic pathways stay insulin-sensitive → potential atherogenic effect of hyperinsulinemia."
+      ],
+      "reference": "Metabolic Abnormalities: \"'postreceptor' defects in insulin-regulated phosphorylation/dephosphorylation appear to play the predominant role in insulin resistance... not all insulin signal transduction pathways are resistant... potentially accelerating diabetes-related conditions such as atherosclerosis.\""
+    },
+    {
+      "id": "h2-089-n20",
+      "type": "note",
+      "subtopic": "Type 2 — Reasoning",
+      "title": "How the atherogenic dyslipidemia of type 2 DM arises",
+      "content": "Reasoning chain: insulin resistance in adipose tissue → increased lipolysis → more free fatty acids delivered to the liver → increased hepatic VLDL-triglyceride synthesis and secretion. The result is the characteristic pattern: HIGH triglycerides, LOW HDL, and increased small dense LDL particles.\n\nThis pattern is especially atherogenic and helps explain why cardiovascular disease is the leading cause of death in diabetes — and why lipid management is central to diabetes care. Retained hepatic lipid can also produce MASLD.",
+      "keyPoints": [
+        "FFA flux → hepatic VLDL → ↑TG, ↓HDL, small dense LDL.",
+        "Small dense LDL is particularly atherogenic.",
+        "Underpins the CV risk that dominates diabetes mortality."
+      ],
+      "reference": "INCREASED HEPATIC GLUCOSE AND LIPID PRODUCTION: \"lipolysis and free fatty acid flux from adipocytes are increased... leading to increased VLDL-triglyceride synthesis... This is also responsible for the dyslipidemia found in type 2 DM (elevated triglycerides, reduced HDL, and increased small dense LDL particles).\""
+    },
+    {
+      "id": "h2-089-n21",
+      "type": "note",
+      "subtopic": "Prediabetes — Reasoning",
+      "title": "Why prediabetes deserves active intervention",
+      "content": "Glucose risk is CONTINUOUS, not a step function — complication risk rises smoothly across the prediabetes range rather than switching on at the diabetes threshold. People with HbA1c 5.7–6.4%, IFG, or IGT are at increased risk both of progressing to type 2 DM and of cardiovascular disease.\n\nThe magnitude is substantial: an HbA1c of 6.0–6.5% carries ~25.5% 5-year risk of progressing to type 2 DM. This is why prediabetes triggers lifestyle counseling and CV risk reduction, not just observation. Note IFG, IGT and HbA1c identify overlapping but non-identical individuals (different mechanisms).",
+      "keyPoints": [
+        "Risk is continuous — don't dismiss 'just prediabetes'.",
+        "HbA1c 6.0–6.5% → ~25.5% 5-year progression risk.",
+        "Counsel on lifestyle + cardiovascular risk reduction."
+      ],
+      "reference": "DIAGNOSIS: \"the risk for comorbidities increasing continuously rather than discretely... those with a value of 6.0–6.5% (42–48 mmol/mol) having a 25.5% 5-year risk of progressing to type 2 DM.\""
+    },
+    {
+      "id": "h2-089-n22",
+      "type": "note",
+      "subtopic": "Beta-cell biology",
+      "title": "Insulin biosynthesis: preproinsulin → proinsulin → insulin + C-peptide + amylin",
+      "content": "Beta cells make preproinsulin (86 aa) → cleavage of the signal peptide gives proinsulin → removal of a 31-residue internal fragment yields mature insulin (A + B chains, disulfide-linked) plus C-peptide. Insulin and C-peptide are stored and co-secreted in equimolar amounts; C-peptide is cleared more slowly. Beta cells also co-secrete amylin (IAPP, 37 aa).",
+      "keyPoints": [
+        "C-peptide is co-secreted 1:1 with insulin → marker of endogenous secretion.",
+        "Elevated proinsulin signals beta-cell dysfunction (type 1 and 2).",
+        "Amylin/IAPP forms islet amyloid in type 2 DM; an analogue is used therapeutically."
+      ],
+      "reference": "INSULIN BIOSYNTHESIS: \"insulin is initially synthesized as a single-chain 86-amino-acid precursor polypeptide, preproinsulin... Cleavage of an internal 31-residue fragment from proinsulin generates C-peptide... Pancreatic beta cells co-secrete islet amyloid polypeptide (IAPP) or amylin.\""
+    },
+    {
+      "id": "h2-089-n23",
+      "type": "note",
+      "subtopic": "Classification — Secondary causes",
+      "title": "Secondary diabetes: endocrinopathies and drugs to recognize",
+      "content": "Always consider a secondary, potentially reversible cause:\n• Endocrinopathies (counter-regulatory hormone excess): acromegaly, Cushing's syndrome, glucagonoma, pheochromocytoma, hyperthyroidism, somatostatinoma, aldosteronoma.\n• Drugs/chemicals: glucocorticoids, calcineurin and mTOR inhibitors (post-transplant), second-generation antipsychotics, thiazides, statins, nicotinic acid, protease inhibitors/other HIV therapies, pentamidine, β-agonists.\n• Pancreatic disease: pancreatitis, pancreatectomy, cystic fibrosis, hemochromatosis.",
+      "keyPoints": [
+        "Treating/removing the cause can improve glycemia.",
+        "Post-transplant: calcineurin/mTOR inhibitors + glucocorticoids are common culprits.",
+        "Screen after pancreatitis and in hemochromatosis."
+      ],
+      "reference": "Table 415-1 (III.D, F, G): endocrinopathies \"acromegaly, Cushing's syndrome, glucagonoma, pheochromocytoma, hyperthyroidism...\"; drug-induced \"glucocorticoids, calcineurin and mTOR inhibitors... antipsychotics... thiazides...\"; exocrine \"pancreatitis... cystic fibrosis, hemochromatosis.\""
+    },
+    {
+      "id": "h2-089-n24",
+      "type": "note",
+      "subtopic": "Classification — MODY",
+      "title": "MODY (monogenic diabetes): recognize it because it changes treatment",
+      "content": "MODY is monogenic, autosomal-dominant diabetes with onset usually <25 years and impaired insulin secretion, classically in lean, non-ketotic patients with a strong multi-generational family history.\n\nWhy it matters clinically: subtype dictates therapy — HNF1A/HNF4A MODY is often exquisitely sulfonylurea-responsive (can come off insulin), while glucokinase (GCK) MODY causes mild stable fasting hyperglycemia that frequently needs NO treatment. Mislabeling as type 1 or type 2 leads to inappropriate insulin.",
+      "keyPoints": [
+        "Think MODY: young, lean, non-ketotic, autosomal-dominant family history.",
+        "HNF1A/HNF4A → sulfonylurea-responsive.",
+        "GCK → mild, often needs no therapy."
+      ],
+      "reference": "OTHER TYPES OF DM: \"Monogenic diabetes... (MODY) are types of DM characterized by autosomal dominant inheritance, early onset of hyperglycemia (usually <25 years...), and impaired insulin secretion.\""
+    },
+    {
+      "id": "h2-089-n25",
+      "type": "note",
+      "subtopic": "Classification — Atypical",
+      "title": "Atypical and ketosis-prone diabetes",
+      "content": "Some diabetes blends type 1 and type 2 features without a single-gene cause: e.g., a type 2 phenotype before puberty, a type 2 phenotype in very lean people, or a type 1 phenotype with NO autoantibodies.\n\nKetosis-prone diabetes is a key example: patients present with DKA yet do NOT require long-term exogenous insulin afterward. Many are of African American or Asian heritage. Recognizing this avoids committing a patient to unnecessary lifelong insulin.",
+      "keyPoints": [
+        "DKA at presentation does not always mean lifelong insulin.",
+        "Ketosis-prone diabetes often in African American/Asian patients.",
+        "Reassess insulin need after stabilization."
+      ],
+      "reference": "ATYPICAL DIABETES: \"ketosis-prone diabetes, where individuals present with ketoacidosis but do not require long-term exogenous insulin therapy. Many of these individuals are African American or Asian in heritage.\""
+    },
+    {
+      "id": "h2-089-n26",
+      "type": "note",
+      "subtopic": "Management — Metabolic surgery",
+      "title": "Bariatric surgery in type 2 DM: remission, relapse, and lifelong needs",
+      "content": "Metabolic/bariatric surgery markedly improves type 2 DM: the Swedish Obese Subjects study showed a 78% reduction in incident type 2 DM, and ~68% of operated patients achieved initial remission within 5 years. Benefit is greatest in EARLIER-stage disease (shorter duration, not on insulin, lower HbA1c).\n\nCaveats: about one-third relapse within 5 years; perioperative mortality is generally <1%. After restrictive-malabsorptive procedures (e.g., RYGB), patients need LIFELONG supplementation and monitoring for deficiencies of vitamin B12, iron, folate, calcium, and vitamin D.",
+      "keyPoints": [
+        "Best remission with earlier-stage disease; ~1/3 relapse.",
+        "RYGB → lifelong B12, iron, folate, calcium, vitamin D.",
+        "Rapid glycemic benefit from caloric restriction + gut-hormone changes."
+      ],
+      "reference": "Obesity/Bariatric section: \"a marked reduction (i.e., by 78%) in the incidence of type 2 diabetes... 68.2% of patients experienced an initial complete remission... one-third redeveloped type 2 diabetes within 5 years... require lifelong supplementation with these micronutrients.\""
+    },
+    {
+      "id": "h2-089-n27",
+      "type": "note",
+      "subtopic": "Type 1 — Reasoning",
+      "title": "Why a negative family history can't reassure against type 1 DM",
+      "content": "Type 1 DM risk in relatives is real but LOW in absolute terms: ~1–9% if a parent is affected, ~6–7% in a sibling, and identical-twin concordance is only 30–70% — proving strong non-genetic (environmental) contributions. Consequently, >80% of people with type 1 DM have NO affected first-degree relative.\n\nClinical reasoning: absence of family history therefore does not exclude type 1 DM, and its presence only modestly raises risk. Diagnosis rests on phenotype plus autoantibodies, not on family history.",
+      "keyPoints": [
+        "Parent affected → child risk only ~1–9%.",
+        ">80% of type 1 patients have no affected relative.",
+        "Twin concordance 30–70% → big environmental component."
+      ],
+      "reference": "GENETIC CONSIDERATIONS: \"the risk is relatively low: 1–9% if the parent has type 1 DM and 6–7% in a sibling... the majority of individuals with type 1 DM (>80%) do not have a relative with this disorder.\""
+    },
+    {
+      "id": "h2-089-n28",
+      "type": "note",
+      "subtopic": "Beta-cell physiology — Reasoning",
+      "title": "Why loss of first-phase insulin response is an early warning",
+      "content": "Insulin secretion is biphasic: a rapid first phase then a sustained second phase. Impaired first-phase, glucose-stimulated insulin release is among the EARLIEST detectable abnormalities in both type 1 and type 2 DM — appearing years before overt hyperglycemia.\n\nWhy it matters: it marks subclinical beta-cell dysfunction, supports the staging/prediction models (especially in type 1), and explains why postprandial glucose rises before fasting glucose as disease evolves. Notably, response to non-glucose secretagogues (e.g., arginine) is initially preserved.",
+      "keyPoints": [
+        "First-phase insulin loss is an early, subclinical marker.",
+        "Glucose-stimulated secretion fails before non-glucose secretagogue response.",
+        "Helps explain early postprandial hyperglycemia."
+      ],
+      "reference": "INSULIN SECRETION / TYPE 2 DM: \"Impaired first-phase insulin responses are among the earliest detectable abnormalities during the progression in both type 1 and type 2 diabetes... The response to other nonglucose secretagogues, such as arginine, is preserved.\""
+    },
+    {
+      "id": "h2-089-n29",
+      "type": "note",
+      "subtopic": "Pathophysiology — C-peptide reasoning",
+      "title": "Why C-peptide answers 'is this insulin endogenous or injected?'",
+      "content": "Because C-peptide is cleaved from proinsulin and co-secreted 1:1 with endogenous insulin — but is absent from manufactured insulin — it tracks the beta cell's own output. In a hypoglycemic patient:\n• High insulin + HIGH C-peptide → endogenous hyperinsulinism (e.g., insulinoma, sulfonylurea effect).\n• High insulin + LOW/absent C-peptide → exogenous (injected) insulin.\nThis single discriminator is central to the workup of hypoglycemia and to assessing residual beta-cell function in established diabetes.",
+      "keyPoints": [
+        "Injected insulin contains no C-peptide.",
+        "High insulin + low C-peptide = exogenous insulin.",
+        "Also gauges residual endogenous secretion in diabetes."
+      ],
+      "reference": "INSULIN BIOSYNTHESIS: \"Because C-peptide is cleared more slowly than insulin, it is a useful marker of insulin secretion and allows discrimination of endogenous and exogenous sources of insulin in the evaluation of hypoglycemia.\""
+    },
+    {
+      "id": "h2-089-n30",
+      "type": "note",
+      "subtopic": "Burden — Reasoning",
+      "title": "Why screening and tight control are justified: the complication burden",
+      "content": "Diabetes is the leading U.S. cause of end-stage renal disease, nontraumatic lower-extremity amputation, and adult blindness, and cardiovascular disease is the main cause of death in people with diabetes. Type 2 DM may be present for up to a decade before diagnosis, and some patients already have complications at diagnosis.\n\nReasoning: because damage accrues silently and early, asymptomatic screening (HbA1c/FPG) and prompt risk-factor control can alter the natural history — the explicit rationale for systematic screening programs.",
+      "keyPoints": [
+        "Diabetes drives ESRD, amputation, and adult blindness; CVD drives mortality.",
+        "Up to ~10 years of silent disease before diagnosis.",
+        "Early detection + control can change the trajectory."
+      ],
+      "reference": "Opening + SCREENING: \"DM is the leading cause of end-stage renal disease (ESRD), nontraumatic lower-extremity amputations, and adult blindness... type 2 DM may be present for up to a decade before diagnosis... treatment of type 2 DM may favorably alter the natural history.\""
+    },
+    {
       "id": "h2-089-mcq1",
       "type": "mcq",
       "subtopic": "Diagnosis",
