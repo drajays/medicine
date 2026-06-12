@@ -1,0 +1,1127 @@
+{
+  "id": "h2-077",
+  "volume": 2,
+  "chapterNo": "396",
+  "title": "Hyperthyroidism and Other Causes of Thyrotoxicosis",
+  "section": "Endocrinology and Metabolism — Thyroid",
+  "authors": "Anthony P. Weetman, Susan J. Mandel, J. Larry Jameson",
+  "sourceFile": "Harrison2_chapters/077_Hyperthyroidism_and_Other_Causes_of_Thyrotoxicosis/content.md",
+  "items": [
+    {
+      "id": "h2-077-n1",
+      "type": "note",
+      "subtopic": "Definitions",
+      "title": "Thyrotoxicosis vs hyperthyroidism — why the distinction matters",
+      "content": "Thyrotoxicosis = the state of thyroid hormone EXCESS (from any source). Hyperthyroidism = excess thyroid hormone PRODUCTION by an overactive gland.\n\nWhy it matters clinically: not all thyrotoxicosis is hyperthyroidism. Destructive thyroiditis, factitious hormone ingestion, and iodine excess cause thyrotoxicosis WITHOUT a hyperfunctioning gland — and these show LOW radioiodine uptake. Mislabeling these as Graves' (and giving antithyroid drugs or radioiodine) is ineffective and inappropriate.",
+      "keyPoints": [
+        "High-uptake thyrotoxicosis = true hyperthyroidism (Graves', toxic MNG, toxic adenoma).",
+        "Low-uptake thyrotoxicosis = thyroiditis, factitia, iodine excess, struma ovarii.",
+        "Uptake/scan separates the two and changes treatment."
+      ],
+      "reference": "THYROTOXICOSIS: \"Thyrotoxicosis is defined as the state of thyroid hormone excess and is not synonymous with hyperthyroidism, which is the result of excessive thyroid function.\""
+    },
+    {
+      "id": "h2-077-n2",
+      "type": "note",
+      "subtopic": "Graves' — Pathogenesis",
+      "title": "How Graves' disease causes hyperthyroidism",
+      "content": "Mechanism: thyroid-stimulating immunoglobulins (TSIs) — measured clinically as TSH-receptor antibodies (TRAb) — bind and activate the TSH receptor, driving continuous hormone synthesis and gland growth independent of pituitary TSH (which is therefore suppressed).\n\nClinical consequences:\n• TRAb confirms Graves' when clinical features are ambiguous.\n• TSIs cross the placenta → can cause fetal/neonatal thyrotoxicosis, so TRAb is monitored in pregnant Graves' patients.\n• Because coexisting lymphocytic thyroiditis also affects function, TSI level does not correlate tightly with hormone levels.",
+      "keyPoints": [
+        "TSI/TRAb stimulate the TSH receptor → autonomous hormone output.",
+        "TRAb crosses the placenta → neonatal thyrotoxicosis risk.",
+        "TPO and Tg antibodies coexist in up to 80%."
+      ],
+      "reference": "Pathogenesis: \"The hyperthyroidism of Graves' disease is caused by thyroid-stimulating immunoglobulins (TSIs)... high levels of TSI can cross the placenta and cause neonatal thyrotoxicosis.\""
+    },
+    {
+      "id": "h2-077-n3",
+      "type": "note",
+      "subtopic": "Graves' — Epidemiology",
+      "title": "Graves' disease: who gets it",
+      "content": "Graves' disease accounts for 60–80% of all thyrotoxicosis. It affects up to 2% of women and is ~10× less common in men, typically presenting between ages 20 and 50.\n\nEnvironmental triggers/risk factors: high iodine intake, smoking (a MAJOR risk factor for ophthalmopathy), stress, the postpartum period (3-fold increase), and immune reconstitution (after HAART or alemtuzumab) or immune checkpoint inhibitors (nivolumab, pembrolizumab).",
+      "keyPoints": [
+        "Most common cause of thyrotoxicosis (60–80%).",
+        "Women >> men; smoking strongly linked to eye disease.",
+        "Can be triggered by checkpoint inhibitors and immune reconstitution."
+      ],
+      "reference": "Epidemiology: \"Graves' disease accounts for 60–80% of thyrotoxicosis... occurs in up to 2% of women but is one-tenth as frequent in men... a threefold increase in the occurrence of Graves' disease in the postpartum period.\""
+    },
+    {
+      "id": "h2-077-n4",
+      "type": "note",
+      "subtopic": "Diagnosis — Reasoning",
+      "title": "Why the radionuclide scan is decisive in thyrotoxicosis",
+      "content": "After biochemistry confirms thyrotoxicosis (suppressed TSH, high free T4/T3), the cause must be found because treatment differs entirely. The radionuclide (99mTc, 123I, 131I) scan/uptake separates the mechanisms:\n• DIFFUSE high uptake → Graves'.\n• Focal/patchy uptake → toxic adenoma or toxic MNG.\n• LOW/absent uptake → destructive thyroiditis, factitious ingestion, iodine excess, or ectopic thyroid (struma ovarii).\nColor-flow Doppler ultrasound is a radiation-free alternative (increased flow in Graves', reduced in thyroiditis).",
+      "keyPoints": [
+        "Uptake pattern assigns the cause → assigns the treatment.",
+        "Low uptake = do NOT give antithyroid drugs/radioiodine.",
+        "Doppler US is a radiation-free substitute."
+      ],
+      "reference": "Differential Diagnosis: \"a radionuclide (99mTc, 123I, or 131I) scan and uptake... will distinguish the diffuse, high uptake of Graves' disease from destructive thyroiditis, ectopic thyroid tissue, and factitious thyrotoxicosis.\""
+    },
+    {
+      "id": "h2-077-n5",
+      "type": "note",
+      "subtopic": "Diagnosis — Reasoning",
+      "title": "How to tell factitious thyrotoxicosis from destructive thyroiditis",
+      "content": "Both can show LOW radionuclide uptake, so uptake alone won't separate them. The discriminator is thyroglobulin (Tg):\n• Destructive thyroiditis releases preformed hormone AND Tg from damaged follicles → Tg is HIGH.\n• Factitious thyrotoxicosis (exogenous hormone ingestion) suppresses endogenous gland activity → Tg is LOW.\nSo low uptake + LOW Tg points to exogenous hormone; low uptake + HIGH Tg points to thyroiditis.",
+      "keyPoints": [
+        "Low uptake is common to both.",
+        "High Tg = thyroiditis; low Tg = factitia.",
+        "Clinical history (access to thyroid hormone) supports factitia."
+      ],
+      "reference": "OTHER CAUSES: \"thyrotoxicosis factitia can be distinguished from destructive thyroiditis by the clinical features and low levels of Tg.\""
+    },
+    {
+      "id": "h2-077-n6",
+      "type": "note",
+      "subtopic": "Antithyroid drugs — Mechanism",
+      "title": "How thionamides work — and why PTU is special",
+      "content": "Methimazole, carbimazole (its prodrug), and propylthiouracil (PTU) all inhibit thyroid peroxidase (TPO), blocking iodide oxidation/organification and thus new hormone synthesis. They also lower thyroid antibody levels and enhance remission.\n\nPTU additionally inhibits peripheral T4→T3 conversion — useful in SEVERE thyrotoxicosis/thyroid storm. But PTU has a short half-life (90 min vs methimazole 6 h) requiring frequent dosing, and is hepatotoxic, so the FDA limits PTU to: first-trimester pregnancy, thyroid storm, and methimazole intolerance.",
+      "keyPoints": [
+        "All thionamides block TPO (synthesis).",
+        "PTU also blocks T4→T3 — its niche in storm and severe disease.",
+        "PTU hepatotoxicity → restricted indications; methimazole is first-line otherwise."
+      ],
+      "reference": "TREATMENT: \"All inhibit the function of TPO... Propylthiouracil inhibits deiodination of T4→T3... the FDA has limited indications for its use to the first trimester of pregnancy, the treatment of thyroid storm, and patients with minor adverse reactions to methimazole.\""
+    },
+    {
+      "id": "h2-077-n7",
+      "type": "note",
+      "subtopic": "Antithyroid drugs — Monitoring",
+      "title": "Why TSH is useless early — monitor free T4 instead",
+      "content": "After starting an antithyroid drug, the pituitary's TSH stays suppressed for months even as hormone levels fall, because the thyrotroph axis is slow to reset after prolonged thyrotoxicosis. Most patients are not euthyroid until 6–8 weeks.\n\nTherefore, titrate therapy on UNBOUND (free) T4 at 4–6 week reviews, not TSH. Once TSH suppression lifts, TSH can then be used to fine-tune. Relying on TSH early would lead to over-treatment and iatrogenic hypothyroidism.",
+      "keyPoints": [
+        "TSH lags for months — don't titrate on it early.",
+        "Use free T4 to adjust dose at 4–6 weeks.",
+        "Euthyroidism typically takes 6–8 weeks."
+      ],
+      "reference": "TREATMENT: \"TSH levels often remain suppressed for several months and therefore do not provide a sensitive index of treatment response... the dose is titrated based on unbound T4 levels.\""
+    },
+    {
+      "id": "h2-077-n8",
+      "type": "note",
+      "subtopic": "Antithyroid drugs — Safety",
+      "title": "Why agranulocytosis must be managed by counseling, not blood-count monitoring",
+      "content": "Agranulocytosis is the most important antithyroid-drug toxicity (<1%). Its onset is IDIOSYNCRATIC and ABRUPT — so scheduled prospective CBC monitoring does not reliably catch it and is not useful.\n\nInstead, every patient gets WRITTEN instructions: if sore throat, fever, or mouth ulcers develop, STOP the drug immediately and get an urgent CBC. If a major reaction (agranulocytosis, hepatitis, vasculitis) occurs, the drug is stopped and NEVER restarted (and cross-reactions mean caution switching).",
+      "keyPoints": [
+        "Don't schedule routine CBCs — onset is sudden/idiosyncratic.",
+        "Sore throat/fever/mouth ulcers → stop drug + urgent CBC.",
+        "Major reaction = permanent discontinuation."
+      ],
+      "reference": "TREATMENT: \"It is essential that antithyroid drugs are stopped and not restarted if a patient develops major side effects... It is not useful to monitor blood counts prospectively, because the onset of agranulocytosis is idiosyncratic and abrupt.\""
+    },
+    {
+      "id": "h2-077-n9",
+      "type": "note",
+      "subtopic": "Thyroid storm — Reasoning",
+      "title": "Why iodide is given an hour AFTER propylthiouracil in thyroid storm",
+      "content": "Stable iodide blocks thyroid hormone release (Wolff-Chaikoff effect) and is part of storm treatment — but iodide is also SUBSTRATE for hormone synthesis. If given before the gland is blocked, that iodine could be organified into NEW hormone, worsening the crisis (Jod-Basedow risk).\n\nSequence: give PTU (or methimazole) first to block TPO/organification; then ~1 hour later add SSKI. The delay ensures the antithyroid drug prevents the iodine load from being made into hormone. PTU is preferred in storm because it also blocks T4→T3 conversion.",
+      "keyPoints": [
+        "Antithyroid drug FIRST, iodide ~1 h later.",
+        "Iodide before blockade → substrate for new hormone (harm).",
+        "PTU preferred in storm (blocks T4→T3)."
+      ],
+      "reference": "TREATMENT: \"One hour after the first dose of propylthiouracil or methimazole, stable iodide (5 drops SSKI every 6 h) is given... the delay allows the antithyroid drug to prevent the excess iodine from being incorporated into new hormone.\""
+    },
+    {
+      "id": "h2-077-n10",
+      "type": "note",
+      "subtopic": "Thyroid storm — Management",
+      "title": "Thyroid storm: recognition and the full treatment bundle",
+      "content": "Thyroid storm is a life-threatening exacerbation: fever, delirium/seizures/coma, vomiting, diarrhea, jaundice; mortality 4–17% even treated. Usually precipitated by acute illness, surgery (especially thyroid), or radioiodine in a partially/untreated patient.\n\nBundle: (1) PTU large dose (500–1000 mg load, 250 mg q4h) — blocks synthesis and T4→T3; (2) SSKI 1 h later — blocks release; (3) propranolol (high dose also reduces T4→T3; esmolol if heart-failure concern); (4) glucocorticoids (hydrocortisone) — reduce conversion and cover adrenal reserve; (5) treat the precipitant, cooling, fluids, ± cholestyramine.",
+      "keyPoints": [
+        "PTU → iodide (1 h later) → β-blocker → glucocorticoid.",
+        "Always find/treat the precipitating illness.",
+        "Propranolol and glucocorticoids also lower T4→T3."
+      ],
+      "reference": "TREATMENT: \"Thyrotoxic crisis... presents as a life-threatening exacerbation... Large doses of propylthiouracil... one hour after... stable iodide... Propranolol should also be given... glucocorticoids (e.g., hydrocortisone...).\""
+    },
+    {
+      "id": "h2-077-n11",
+      "type": "note",
+      "subtopic": "Radioiodine — Reasoning",
+      "title": "Why pretreat with antithyroid drugs before radioiodine in high-risk patients",
+      "content": "Radioiodine destroys thyroid cells but transiently releases stored hormone, risking a thyrotoxic crisis — dangerous in the elderly or those with cardiac disease. Pretreatment with an antithyroid drug for ≥1 month (plus a β-blocker) depletes stored hormone and lowers this risk.\n\nTiming details: methimazole/carbimazole must be STOPPED 2–3 days before 131I to allow good iodine uptake, and can resume 3–7 days after. PTU has a prolonged radioPROTECTIVE effect, so it must be stopped longer beforehand or a larger 131I dose is needed.",
+      "keyPoints": [
+        "Pretreat elderly/cardiac patients ≥1 month to avoid post-RAI crisis.",
+        "Stop methimazole 2–3 days pre-RAI for uptake.",
+        "PTU is radioprotective — stop it well in advance."
+      ],
+      "reference": "TREATMENT: \"There is a small risk of thyrotoxic crisis... after radioiodine, which can be minimized by pretreatment with antithyroid drugs for at least a month... Carbimazole or methimazole must be stopped 2–3 days before radioiodine... Propylthiouracil appears to have a prolonged radioprotective effect.\""
+    },
+    {
+      "id": "h2-077-n12",
+      "type": "note",
+      "subtopic": "Radioiodine — Contraindications",
+      "title": "Radioiodine: contraindications and the ophthalmopathy caveat",
+      "content": "Absolute contraindications: pregnancy and breast-feeding (patients may conceive 6 months after treatment).\n\nEye-disease caveat: radioiodine can WORSEN Graves' ophthalmopathy, especially in smokers. Glucocorticoid cover (prednisone tapered over 6–12 weeks) can prevent exacerbation, but radioiodine should generally be AVOIDED in active moderate-to-severe eye disease. Antithyroid drugs and surgery have no adverse effect on the eye disease. Post-RAI hypothyroidism is expected (10–20% in year 1, then ~5%/year).",
+      "keyPoints": [
+        "Pregnancy/breast-feeding = absolute contraindication; conceive ≥6 months later.",
+        "RAI can worsen eye disease (smokers) → steroid cover or avoid in active disease.",
+        "Plan for lifelong LT4 — hypothyroidism is the expected endpoint."
+      ],
+      "reference": "TREATMENT: \"Pregnancy and breast-feeding are absolute contraindications to radioiodine... Radioiodine treatment for hyperthyroidism worsens the eye disease in a small proportion of patients (especially smokers).\""
+    },
+    {
+      "id": "h2-077-n13",
+      "type": "note",
+      "subtopic": "Pregnancy — Reasoning",
+      "title": "Why PTU is used in the first trimester and methimazole thereafter",
+      "content": "Methimazole/carbimazole in early pregnancy carry a rare but serious teratogenic risk — methimazole embryopathy (aplasia cutis, choanal atresia, tracheoesophageal fistula). PTU lacks this embryopathy, so it is preferred in the FIRST trimester.\n\nBut PTU is hepatotoxic, so after 14–16 weeks therapy is switched to methimazole (conversion ~15–20 mg PTU : 1 mg methimazole). Dose is titrated to keep maternal free T4 at or just above the pregnancy reference range, because excess drug crosses the placenta and can cause fetal hypothyroidism/goiter.",
+      "keyPoints": [
+        "First trimester: PTU (avoids methimazole embryopathy).",
+        "After 14–16 weeks: switch to methimazole (PTU hepatotoxicity).",
+        "Target free T4 at/just above the upper pregnancy range."
+      ],
+      "reference": "TREATMENT: \"propylthiouracil should be used until 14–16 weeks' gestation because of the risk of rare cases of methimazole/carbimazole embryopathy, including aplasia cutis... propylthiouracil should be limited to the first trimester and then maternal therapy should be converted to methimazole.\""
+    },
+    {
+      "id": "h2-077-n14",
+      "type": "note",
+      "subtopic": "Cardiac — Reasoning",
+      "title": "Why you treat the thyroid first in thyrotoxic atrial fibrillation",
+      "content": "Atrial fibrillation complicates thyrotoxicosis (especially age >50). Crucially, treating the thyrotoxic state alone restores normal sinus rhythm in up to 75% of patients without underlying heart disease — so rendering the patient euthyroid is the primary therapy.\n\nPractical points: most revert spontaneously with control of hyperthyroidism, so long-term anticoagulation is often unnecessary (decide with cardiology/CHA2DS2-VASc). Thyrotoxicosis alters drug handling: lower warfarin doses are needed, and higher digoxin doses.",
+      "keyPoints": [
+        "Make the patient euthyroid → up to 75% revert to sinus rhythm.",
+        "Long-term anticoagulation often not needed once euthyroid.",
+        "Thyrotoxic state ↓warfarin requirement, ↑digoxin requirement."
+      ],
+      "reference": "Clinical Manifestations: \"Treatment of the thyrotoxic state alone converts atrial fibrillation to normal sinus rhythm in up to 75% of patients without an underlying cardiac problem.\""
+    },
+    {
+      "id": "h2-077-n15",
+      "type": "note",
+      "subtopic": "Elderly — Reasoning",
+      "title": "Why thyrotoxicosis is missed in the elderly (apathetic thyrotoxicosis)",
+      "content": "In older patients the classic hyperadrenergic features may be blunted or absent. Instead, thyrotoxicosis can present with only fatigue and weight loss — 'apathetic thyrotoxicosis' — and may be mistaken for depression or occult malignancy.\n\nClinical lesson: check TSH/free T4 in any older patient with unexplained weight loss, fatigue, or new atrial fibrillation. A suppressed TSH unmasks the diagnosis where the usual signs are silent.",
+      "keyPoints": [
+        "Elderly may present only with weight loss/fatigue.",
+        "Easily mistaken for depression or cancer.",
+        "Low threshold to check TSH in unexplained weight loss/AF."
+      ],
+      "reference": "Clinical Manifestations: \"In the elderly, features of thyrotoxicosis may be subtle or masked, and patients may present mainly with fatigue and weight loss, a condition known as apathetic thyrotoxicosis.\""
+    },
+    {
+      "id": "h2-077-n16",
+      "type": "note",
+      "subtopic": "Ophthalmopathy — Mechanism",
+      "title": "How Graves' ophthalmopathy develops — and why teprotumumab works",
+      "content": "Activated T cells infiltrate the extraocular muscles; cytokines (IFN-γ, TNF, IL-1) activate orbital fibroblasts to synthesize glycosaminoglycans that trap water → muscle swelling; increased retrobulbar fat adds to expansion. Raised intra-orbital pressure → proptosis, diplopia, and (worst) optic-nerve compression. The TSH-R is expressed in orbital tissue, and aberrant IGF-1 receptor signaling on fibroblasts drives the process.\n\nThis mechanism is the rationale for teprotumumab, an IGF-1R monoclonal antibody — first-line for active moderate-to-severe eye disease with significant proptosis/diplopia.",
+      "keyPoints": [
+        "Glycosaminoglycan-driven muscle swelling + fat expansion → proptosis.",
+        "IGF-1R signaling is the drug target (teprotumumab).",
+        "Optic-nerve compression is the sight-threatening endpoint."
+      ],
+      "reference": "Pathogenesis: \"the release of cytokines... results in fibroblast activation and increased synthesis of glycosaminoglycans that trap water... aberrant signaling via insulin-like growth factor 1 receptors (IGF-1R)... the basis for new monoclonal antibody treatments (e.g., teprotumumab).\""
+    },
+    {
+      "id": "h2-077-n17",
+      "type": "note",
+      "subtopic": "Ophthalmopathy — Management",
+      "title": "Graves' eye disease: matching treatment to severity",
+      "content": "• Mild: no active treatment — usually improves spontaneously. Stop smoking, control thyroid levels, artificial tears, dark glasses, elevate head of bed.\n• Moderate-to-severe ACTIVE disease: IV methylprednisolone pulses (preferred over oral); teprotumumab (IGF-1R mAb) is first-line when there is significant proptosis/diplopia; rituximab/tocilizumab are second-line.\n• Sight-threatening (optic-nerve compression or corneal breakdown): EMERGENCY high-dose IV glucocorticoids; if poor response in ~2 weeks → surgical orbital decompression.",
+      "keyPoints": [
+        "Smoking cessation + euthyroidism underpin all management.",
+        "IV (not oral) steroids for moderate-severe active disease.",
+        "Optic-nerve compression = emergency steroids ± decompression."
+      ],
+      "reference": "TREATMENT (ophthalmopathy): \"Moderate-to-severe ophthalmopathy... is usually treated with IV methylprednisolone... Teprotumumab... recommended as first-line... Sight-threatening ophthalmopathy due to optic nerve compression... requires immediate high-dose IV glucocorticoids.\""
+    },
+    {
+      "id": "h2-077-n18",
+      "type": "note",
+      "subtopic": "Subacute thyroiditis — Reasoning",
+      "title": "Why antithyroid drugs don't work in subacute thyroiditis",
+      "content": "Subacute (de Quervain's/granulomatous/viral) thyroiditis causes thyrotoxicosis by RELEASE of preformed hormone from inflamed, damaged follicles — the gland is not overproducing hormone. Hence radioiodine uptake is LOW (<5%), and antithyroid drugs (which block synthesis) have no role.\n\nManagement targets inflammation and symptoms: high-dose aspirin/NSAIDs (± PPI), glucocorticoids (prednisone tapered over 6–8 weeks) if severe, and β-blockers for adrenergic symptoms. The illness evolves through thyrotoxic → hypothyroid → recovery phases over ~6 months; ~15% develop permanent hypothyroidism.",
+      "keyPoints": [
+        "Thyrotoxicosis from hormone release, not overproduction → low uptake.",
+        "NSAIDs/steroids + β-blockers; NO antithyroid drugs.",
+        "Triphasic course; 15% become permanently hypothyroid."
+      ],
+      "reference": "Subacute Thyroiditis TREATMENT: \"antithyroid drugs play no role in treatment of the thyrotoxic phase\"; Pathophysiology: \"During this destructive phase, radioactive iodine uptake is low or undetectable.\""
+    },
+    {
+      "id": "h2-077-n19",
+      "type": "note",
+      "subtopic": "Subacute thyroiditis — Diagnosis",
+      "title": "Recognizing subacute thyroiditis",
+      "content": "Classic picture: a painful, exquisitely tender goiter (pain referred to jaw/ear), often after a viral upper-respiratory illness; women affected 3× more than men, peak age 30–50. Has also followed SARS-CoV-2 infection or COVID vaccination.\n\nLabs: thyrotoxic phase with HIGH ESR, suppressed TSH, LOW radioiodine uptake, NEGATIVE thyroid antibodies. The T4/T3 ratio is higher than in Graves'/autonomy (because release reflects stored hormone, which is mostly T4).",
+      "keyPoints": [
+        "Painful tender goiter + high ESR + low uptake.",
+        "Antibodies negative (vs Hashimoto/silent).",
+        "Higher T4:T3 ratio than Graves'."
+      ],
+      "reference": "Laboratory Evaluation: \"The diagnosis is confirmed by a high ESR and low uptake of radioiodine (<5%)... thyroid antibodies are negative... The T4/T3 ratio is lower than in Graves'.\""
+    },
+    {
+      "id": "h2-077-n20",
+      "type": "note",
+      "subtopic": "Silent/postpartum thyroiditis",
+      "title": "Silent and postpartum thyroiditis — and how to separate from subacute",
+      "content": "Painless ('silent') thyroiditis occurs in autoimmune-prone patients; postpartum thyroiditis is the same process within 3–6 months of delivery (up to 5% of women; 3× more common in type 1 diabetes). Course mirrors subacute thyroiditis: brief thyrotoxicosis (2–4 weeks) → hypothyroidism (4–12 weeks) → resolution.\n\nDistinguished from SUBACUTE thyroiditis by: painLESS goiter, NORMAL ESR, and POSITIVE TPO antibodies. Management: β-blockers for symptoms; NO glucocorticoids; transient LT4 if hypothyroid (withdraw at 6–9 months). Watch for later permanent hypothyroidism and recurrence in future pregnancies.",
+      "keyPoints": [
+        "Painless + normal ESR + TPO-Ab positive = silent/postpartum.",
+        "No steroids; β-blockers ± short-term LT4.",
+        "3× more common in type 1 diabetes; can recur postpartum."
+      ],
+      "reference": "SILENT THYROIDITIS: \"silent thyroiditis can be distinguished from subacute thyroiditis by a normal ESR and the presence of TPO antibodies. Glucocorticoid treatment is not indicated.\""
+    },
+    {
+      "id": "h2-077-n21",
+      "type": "note",
+      "subtopic": "Acute (suppurative) thyroiditis",
+      "title": "Acute suppurative thyroiditis: a surgical/infectious emergency",
+      "content": "Rare bacterial infection of the thyroid. In children/young adults the usual route is a piriform sinus (a fourth-branchial-pouch remnant, predominantly LEFT-sided); in the elderly, a long-standing goiter or malignancy is a risk factor.\n\nPresentation: thyroid pain (referred to throat/ears), tender often-asymmetric goiter, fever, dysphagia, overlying erythema, lymphadenopathy. Labs: high ESR and WBC, usually NORMAL thyroid function. FNA shows neutrophils; culture guides antibiotics. Drain abscesses; immunocompromised patients can have fungal/mycobacterial/Pneumocystis thyroiditis.",
+      "keyPoints": [
+        "Children: think piriform sinus (left-sided).",
+        "Fever + tender erythematous goiter + ↑ESR/WBC, normal TFTs.",
+        "FNA culture-directed antibiotics ± drainage."
+      ],
+      "reference": "ACUTE THYROIDITIS: \"the most common cause is the presence of a piriform sinus... Such sinuses are predominantly left-sided... Antibiotic treatment is guided initially by Gram stain... Surgery may be needed to drain an abscess.\""
+    },
+    {
+      "id": "h2-077-n22",
+      "type": "note",
+      "subtopic": "Sick euthyroid — Reasoning",
+      "title": "Why you shouldn't test thyroid function in the acutely ill",
+      "content": "Severe illness alters thyroid tests without true thyroid disease ('sick euthyroid'/nonthyroidal illness), driven by cytokines (e.g., IL-6). The hallmark is LOW T3 (impaired peripheral T4→T3 conversion, raised reverse T3) with normal T4 and TSH; a falling T4 (low-T4 syndrome) signals severe illness and poor prognosis.\n\nBecause results are misleading and usually adaptive, routine thyroid testing in acutely ill patients should be avoided unless thyroid disease is strongly suspected. A TSH <0.01 mIU/L, however, suggests genuine thyroid disease. Thyroid hormone treatment is generally NOT given — monitor and retest during recovery.",
+      "keyPoints": [
+        "Low T3, normal T4/TSH, high rT3 = sick euthyroid.",
+        "Don't test (or treat) routinely in acute illness.",
+        "TSH <0.01 points to true thyroid disease."
+      ],
+      "reference": "SICK EUTHYROID SYNDROME: \"the routine testing of thyroid function should be avoided in acutely ill patients... if the serum TSH is undetectable (<0.01 mIU/L), primary thyroid disease is more likely.\""
+    },
+    {
+      "id": "h2-077-n23",
+      "type": "note",
+      "subtopic": "Amiodarone — Mechanism",
+      "title": "How amiodarone disrupts thyroid function",
+      "content": "Amiodarone is 39% iodine by weight, so a 200 mg/day dose delivers a massive iodine load (>40× normal); because it is stored in fat, effects persist >6 months after stopping. It also inhibits deiodinase (↓T4→T3) and its metabolites weakly antagonize thyroid hormone.\n\nNet effects: (1) transient suppression; (2) euthyroid hyperthyroxinemia (↓T4→T3) or increased LT4 needs; (3) hypothyroidism in iodine-susceptible patients; (4) thyrotoxicosis — type 1 (Jod-Basedow from the iodine load, in MNG/incipient Graves') or type 2 (destructive thyroiditis from a direct toxic effect).",
+      "keyPoints": [
+        "Huge iodine load + long fat storage (>6 months).",
+        "Can cause both hypo- and hyperthyroidism.",
+        "Type 1 thyrotoxicosis = iodine-induced; type 2 = thyroiditis."
+      ],
+      "reference": "AMIODARONE: \"it contains 39% iodine by weight... high iodine levels persist for >6 months... thyrotoxicosis that may be caused by either a Jod-Basedow effect... or a thyroiditis-like condition.\""
+    },
+    {
+      "id": "h2-077-n24",
+      "type": "note",
+      "subtopic": "TSH-secreting adenoma",
+      "title": "Why an 'inappropriately normal' TSH in a thyrotoxic patient is a red flag",
+      "content": "Normally, high thyroid hormone suppresses TSH to near-undetectable. A TSH-secreting pituitary adenoma instead produces an INAPPROPRIATELY normal or elevated TSH despite high T4/T3 and a diffuse goiter — the pituitary is the driver.\n\nDiagnostic clues: elevated α-subunit of TSH and a pituitary tumor on MRI/CT. This 'secondary hyperthyroidism' must be separated from assay interference and thyroid hormone resistance. Management combines transsphenoidal surgery, sometimes irradiation and octreotide, with antithyroid drugs/radioiodine to control thyrotoxicosis.",
+      "keyPoints": [
+        "High T4/T3 with non-suppressed TSH = think TSH-oma (or resistance).",
+        "Elevated α-subunit + pituitary mass support the diagnosis.",
+        "Surgery-based treatment; control thyrotoxicosis separately."
+      ],
+      "reference": "OTHER CAUSES: \"TSH-secreting pituitary adenoma... characterized by the presence of an inappropriately normal or increased TSH level in a patient with hyperthyroidism... Elevated levels of the α subunit of TSH... support this diagnosis.\""
+    },
+    {
+      "id": "h2-077-n25",
+      "type": "note",
+      "subtopic": "Diagnosis",
+      "title": "Why a normal TSH rules out Graves' as the cause of a goiter",
+      "content": "TSH is the most sensitive screen for thyroid dysfunction. In thyrotoxicosis of any primary thyroid cause, TSH is suppressed. Therefore a strictly NORMAL TSH (with normal free T4/T3) excludes thyrotoxicosis — and specifically excludes Graves' disease as the explanation for a diffuse goiter.\n\nThis lets clinicians quickly exclude thyrotoxic mimics (panic attacks, mania, pheochromocytoma, malignancy-related weight loss) with a single sensitive test.",
+      "keyPoints": [
+        "Normal TSH + normal free T4/T3 excludes thyrotoxicosis.",
+        "Normal TSH excludes Graves' as cause of diffuse goiter.",
+        "Efficiently rules out thyrotoxic mimics."
+      ],
+      "reference": "Differential Diagnosis: \"The diagnosis of thyrotoxicosis can be easily excluded if the TSH and unbound T4 and T3 levels are normal. A normal TSH also excludes Graves' disease as a cause of diffuse goiter.\""
+    },
+    {
+      "id": "h2-077-n26",
+      "type": "note",
+      "subtopic": "Antithyroid drugs — Outcomes",
+      "title": "Antithyroid drug remission: rates and who relapses",
+      "content": "With a titration regimen, maximum remission (30–60%) is reached by 12–18 months, and is higher in patients whose TRAb becomes undetectable. Patients are followed closely for relapse in the first year and at least annually after.\n\nPredictors of RELAPSE after stopping: younger age, male sex, smoking, severe hyperthyroidism, large goiter, history of allergy, and persistent TRAb. These factors help decide between a drug trial vs definitive therapy (radioiodine/surgery).",
+      "keyPoints": [
+        "Remission 30–60% by 12–18 months; better if TRAb clears.",
+        "Relapse risk: young, male, smoker, severe disease, large goiter, persistent TRAb.",
+        "Use predictors to choose definitive therapy."
+      ],
+      "reference": "TREATMENT: \"Maximum remission rates (30–60%) are achieved by 12–18 months for the titration regimen and are higher in patients in whom TRAb levels are no longer detected... Younger patients, males, smokers... most likely to relapse.\""
+    },
+    {
+      "id": "h2-077-n27",
+      "type": "note",
+      "subtopic": "Surgery",
+      "title": "Thyroidectomy for Graves': preparation and complications",
+      "content": "Total/near-total thyroidectomy is an option after relapse, for very large goiters, or by patient preference. Preparation: render euthyroid with antithyroid drugs, then potassium iodide (SSKI 1–2 drops tid for 10 days) to reduce gland vascularity and avoid thyrotoxic crisis.\n\nKey complications (uncommon in expert hands): bleeding, laryngeal edema, hypoparathyroidism (→ hypocalcemia), and recurrent laryngeal nerve injury (→ hoarse voice). Recurrence is <2%; hypothyroidism rate resembles that after radioiodine.",
+      "keyPoints": [
+        "Pre-op: antithyroid drugs to euthyroid, then SSKI ×10 days.",
+        "Watch hypoparathyroidism (hypocalcemia) and RLN injury.",
+        "Expect post-op hypothyroidism; recurrence <2%."
+      ],
+      "reference": "TREATMENT: \"Careful control of thyrotoxicosis with antithyroid drugs, followed by potassium iodide (SSKI...) is needed prior to surgery... The major complications... bleeding, laryngeal edema, hypoparathyroidism, and damage to the recurrent laryngeal nerves.\""
+    },
+    {
+      "id": "h2-077-n28",
+      "type": "note",
+      "subtopic": "Neuromuscular",
+      "title": "Thyrotoxic periodic paralysis",
+      "content": "Thyrotoxicosis can trigger hypokalemic periodic paralysis — episodes of acute proximal weakness from intracellular potassium shift. It is particularly common in Asian males but occurs across ethnic groups.\n\nManagement: β-blockers help acutely (and prevent attacks) pending correction of the thyrotoxicosis; definitively, rendering the patient euthyroid abolishes the predisposition. Recognize it in a thyrotoxic patient presenting with sudden weakness and low potassium.",
+      "keyPoints": [
+        "Hypokalemic paralysis, especially Asian males.",
+        "β-blockers acutely; cure by treating thyrotoxicosis.",
+        "Consider thyroid testing in unexplained hypokalemic paralysis."
+      ],
+      "reference": "Clinical Manifestations: \"Thyrotoxicosis is sometimes associated with a form of hypokalemic periodic paralysis; this disorder is particularly common in Asian males.\" TREATMENT: \"Beta blockers are also useful in patients with thyrotoxic periodic paralysis.\""
+    },
+    {
+      "id": "h2-077-n29",
+      "type": "note",
+      "subtopic": "Riedel's thyroiditis",
+      "title": "Riedel's thyroiditis: the goiter that mimics cancer",
+      "content": "Riedel's thyroiditis is a rare disorder of middle-aged women: dense fibrosis replaces gland architecture and extends beyond the capsule, producing a HARD, fixed, often asymmetric, painless goiter with compressive symptoms (esophagus, trachea, neck veins, recurrent laryngeal nerve). The hard fixed mass mimics malignancy.\n\nThyroid function is usually normal. Because FNA is typically inadequate, OPEN biopsy is required for diagnosis. It is part of the IgG4-related disease spectrum (with fibrosis at other sites). Treatment: glucocorticoids/immunomodulators, tamoxifen, or surgery for compression.",
+      "keyPoints": [
+        "Hard, fixed goiter → suspect malignancy; needs OPEN biopsy.",
+        "Usually euthyroid; compressive local symptoms.",
+        "Part of IgG4-related disease; treat with steroids/tamoxifen/surgery."
+      ],
+      "reference": "CHRONIC THYROIDITIS: \"Riedel's thyroiditis... presents with an insidious, painless goiter... The goiter is hard, nontender, often asymmetric, and fixed, leading to suspicion of a malignancy. Diagnosis requires open biopsy... association between Riedel's thyroiditis and IgG4-related disease.\""
+    },
+    {
+      "id": "h2-077-n30",
+      "type": "note",
+      "subtopic": "Myxedema coma",
+      "title": "Why external rewarming can kill in myxedema coma — and how to treat",
+      "content": "Myxedema coma (severe decompensated hypothyroidism; 20–40% mortality) features reduced consciousness, hypothermia, and hypoventilation (hypoxia/hypercapnia drive the coma), plus hypoglycemia and dilutional hyponatremia. It strikes the elderly, precipitated by infection, sedatives, cold, MI, or GI bleed.\n\nKey reasoning: aggressive EXTERNAL warming causes peripheral vasodilation and cardiovascular collapse — so use passive warming (space blankets); active external warming only if temp <30°C. Treat with IV LT4 loading (200–400 µg) ± T3, IV hydrocortisone (impaired adrenal reserve), ventilatory support, broad-spectrum antibiotics, and avoid hypotonic fluids (worsen hyponatremia).",
+      "keyPoints": [
+        "Passive rewarming; aggressive external warming → CV collapse.",
+        "Give hydrocortisone (adrenal reserve impaired) before/with thyroid hormone.",
+        "Support ventilation; avoid hypotonic fluids and sedatives."
+      ],
+      "reference": "Myxedema coma: \"External warming is indicated only if the temperature is <30°C, as it can result in cardiovascular collapse... Parenteral hydrocortisone (50 mg every 6 h) should be administered because there is impaired adrenal reserve.\""
+    },
+    {
+      "id": "h2-077-mcq1",
+      "type": "mcq",
+      "subtopic": "Diagnosis",
+      "question": "A 38-year-old woman has biochemical thyrotoxicosis (suppressed TSH, high free T4/T3). A radionuclide scan shows LOW, near-absent uptake. Which is the most likely cause?",
+      "options": [
+        "Graves' disease",
+        "Destructive (subacute) thyroiditis",
+        "Toxic multinodular goiter",
+        "Toxic adenoma"
+      ],
+      "correctOption": 1,
+      "explanation": "Low/absent radioiodine uptake indicates the gland is not overproducing hormone — typical of destructive thyroiditis (also factitia, iodine excess, struma ovarii). Graves', toxic MNG, and toxic adenoma all show INCREASED uptake (diffuse for Graves', focal for the others).",
+      "reference": "Diagnosis/Other causes: low-uptake thyrotoxicosis includes \"destructive thyroiditis... thyrotoxicosis factitia, iodine excess... ectopic thyroid tissue.\""
+    },
+    {
+      "id": "h2-077-mcq2",
+      "type": "mcq",
+      "subtopic": "Diagnosis",
+      "question": "A thyrotoxic patient has low radioiodine uptake. To distinguish factitious thyrotoxicosis from destructive thyroiditis, which test is most useful?",
+      "options": [
+        "TSH-receptor antibody (TRAb)",
+        "Serum thyroglobulin (Tg)",
+        "Free T3",
+        "Thyroid ultrasound"
+      ],
+      "correctOption": 1,
+      "explanation": "Both cause low uptake. Thyroglobulin separates them: destructive thyroiditis releases Tg from damaged follicles (HIGH Tg), whereas exogenous hormone ingestion (factitia) suppresses the gland (LOW Tg).",
+      "reference": "OTHER CAUSES: \"thyrotoxicosis factitia can be distinguished from destructive thyroiditis by the clinical features and low levels of Tg.\""
+    },
+    {
+      "id": "h2-077-mcq3",
+      "type": "mcq",
+      "subtopic": "Treatment — Thyroid storm",
+      "question": "In managing thyroid storm, why is stable iodide (SSKI) given about one hour AFTER the first dose of propylthiouracil rather than simultaneously?",
+      "options": [
+        "To reduce gastrointestinal irritation from iodide",
+        "So the antithyroid drug first blocks organification, preventing the iodine load from being made into new hormone",
+        "Because iodide is inactivated by propylthiouracil",
+        "To allow time for beta blockade to take effect"
+      ],
+      "correctOption": 1,
+      "explanation": "Iodide blocks hormone release (Wolff-Chaikoff) but is also substrate for synthesis. Giving the thionamide first blocks TPO/organification, so the subsequent iodine load cannot be incorporated into new hormone (avoiding a Jod-Basedow exacerbation).",
+      "reference": "TREATMENT: \"the delay allows the antithyroid drug to prevent the excess iodine from being incorporated into new hormone.\""
+    },
+    {
+      "id": "h2-077-mcq4",
+      "type": "mcq",
+      "subtopic": "Treatment — Thyroid storm",
+      "question": "Which antithyroid drug is preferred in thyroid storm, and why?",
+      "options": [
+        "Methimazole, because of its long half-life",
+        "Propylthiouracil, because it also blocks peripheral T4→T3 conversion",
+        "Carbimazole, because it is a prodrug",
+        "Potassium iodide alone, because it blocks release"
+      ],
+      "correctOption": 1,
+      "explanation": "Propylthiouracil is favored in storm because, in addition to blocking synthesis (TPO), it inhibits peripheral conversion of T4 to the more active T3 — advantageous in severe thyrotoxicosis. High-dose propranolol and glucocorticoids also reduce T4→T3 conversion.",
+      "reference": "TREATMENT: \"the drug's inhibitory action on T4→T3 conversion makes it the antithyroid drug of choice.\""
+    },
+    {
+      "id": "h2-077-mcq5",
+      "type": "mcq",
+      "subtopic": "Treatment — Drug safety",
+      "question": "A patient on methimazole calls reporting sudden sore throat, fever, and mouth ulcers. What is the most appropriate immediate action?",
+      "options": [
+        "Reassure and continue the drug; this is a minor effect",
+        "Stop the drug immediately and obtain an urgent complete blood count",
+        "Halve the dose and recheck in 2 weeks",
+        "Add an antihistamine and continue"
+      ],
+      "correctOption": 1,
+      "explanation": "Sore throat, fever, and mouth ulcers are the warning symptoms of agranulocytosis (<1%). The drug must be stopped immediately and an urgent CBC obtained. Onset is idiosyncratic and abrupt, so prospective routine monitoring is not useful — patient counseling is the safeguard.",
+      "reference": "TREATMENT: \"Written instructions should be provided regarding the symptoms of possible agranulocytosis (e.g., sore throat, fever, mouth ulcers) and the need to stop treatment pending an urgent complete blood count.\""
+    },
+    {
+      "id": "h2-077-mcq6",
+      "type": "mcq",
+      "subtopic": "Treatment — Monitoring",
+      "question": "Six weeks after starting methimazole for Graves' disease, a patient's free T4 has normalized but TSH remains suppressed. What should guide dose titration at this point?",
+      "options": [
+        "TSH, because it is the most sensitive test",
+        "Unbound (free) T4, because TSH stays suppressed for months",
+        "Total T3 only",
+        "Thyroglobulin level"
+      ],
+      "correctOption": 1,
+      "explanation": "After prolonged thyrotoxicosis the pituitary TSH remains suppressed for months and is not a reliable early index. Titrate on unbound (free) T4. Once TSH suppression resolves, TSH can then be used to fine-tune therapy.",
+      "reference": "TREATMENT: \"TSH levels often remain suppressed for several months and therefore do not provide a sensitive index of treatment response... the dose is titrated based on unbound T4 levels.\""
+    },
+    {
+      "id": "h2-077-mcq7",
+      "type": "mcq",
+      "subtopic": "Treatment — Pregnancy",
+      "question": "A woman with Graves' disease who needs continued antithyroid therapy is in her first trimester of pregnancy. Which drug is preferred and why?",
+      "options": [
+        "Methimazole, because it has a longer half-life",
+        "Propylthiouracil, because methimazole carries a risk of embryopathy (aplasia cutis, choanal atresia)",
+        "Radioiodine, because it is rapid",
+        "Carbimazole, because it is a prodrug"
+      ],
+      "correctOption": 1,
+      "explanation": "In the first trimester, propylthiouracil is preferred because methimazole/carbimazole can cause embryopathy (aplasia cutis, choanal atresia, tracheoesophageal fistula). After 14–16 weeks therapy is switched to methimazole due to PTU hepatotoxicity. Radioiodine is absolutely contraindicated in pregnancy.",
+      "reference": "TREATMENT: \"propylthiouracil should be used until 14–16 weeks' gestation because of the risk of rare cases of methimazole/carbimazole embryopathy, including aplasia cutis.\""
+    },
+    {
+      "id": "h2-077-mcq8",
+      "type": "mcq",
+      "subtopic": "Treatment — Radioiodine",
+      "question": "Before giving radioiodine to an elderly Graves' patient with cardiac disease, why is pretreatment with an antithyroid drug recommended?",
+      "options": [
+        "To improve radioiodine uptake",
+        "To deplete stored hormone and reduce the risk of a post-radioiodine thyrotoxic crisis",
+        "To prevent hypothyroidism",
+        "To shrink the goiter permanently"
+      ],
+      "correctOption": 1,
+      "explanation": "Radioiodine transiently releases stored hormone and can precipitate thyrotoxic crisis — dangerous in elderly/cardiac patients. Pretreatment with an antithyroid drug (≥1 month) plus a beta blocker depletes stored hormone and mitigates this. Note methimazole must be stopped 2–3 days before 131I to allow uptake.",
+      "reference": "TREATMENT: \"There is a small risk of thyrotoxic crisis... which can be minimized by pretreatment with antithyroid drugs for at least a month... Antecedent treatment... should be considered for all elderly patients or for those with cardiac problems.\""
+    },
+    {
+      "id": "h2-077-mcq9",
+      "type": "mcq",
+      "subtopic": "Treatment — Radioiodine",
+      "question": "Radioiodine is being considered for a Graves' patient who is a smoker with active moderate-to-severe ophthalmopathy. What is the best course?",
+      "options": [
+        "Proceed with radioiodine; eye disease is unaffected",
+        "Generally avoid radioiodine in active moderate-to-severe eye disease; if used, give glucocorticoid cover",
+        "Give radioiodine plus immediate orbital decompression",
+        "Switch to lifelong methimazole only because surgery worsens eye disease"
+      ],
+      "correctOption": 1,
+      "explanation": "Radioiodine can worsen Graves' ophthalmopathy, especially in smokers. It should generally be avoided in active moderate-to-severe eye disease; when radioiodine is used in at-risk patients, prednisone cover (tapered over 6–12 weeks) can prevent exacerbation. Antithyroid drugs and surgery do not adversely affect the eye disease.",
+      "reference": "TREATMENT: \"Radioiodine treatment... worsens the eye disease in a small proportion of patients (especially smokers)... radioiodine should generally be avoided in patients with active moderate-to-severe eye disease.\""
+    },
+    {
+      "id": "h2-077-mcq10",
+      "type": "mcq",
+      "subtopic": "Cardiac management",
+      "question": "A 58-year-old with new atrial fibrillation is found to be thyrotoxic from Graves' disease. Regarding rhythm management, which statement is correct?",
+      "options": [
+        "Immediate electrical cardioversion is required before treating the thyroid",
+        "Treating the thyrotoxicosis alone restores sinus rhythm in up to 75% without underlying heart disease",
+        "Lifelong anticoagulation is mandatory in all cases",
+        "Digoxin requirements are reduced in the thyrotoxic state"
+      ],
+      "correctOption": 1,
+      "explanation": "Rendering the patient euthyroid converts AF to sinus rhythm in up to 75% of those without underlying heart disease, so treating the thyroid is primary. Long-term anticoagulation is often unnecessary once euthyroid (decide with CHA2DS2-VASc/cardiology). Thyrotoxicosis increases digoxin requirement and decreases warfarin requirement.",
+      "reference": "Clinical Manifestations: \"Treatment of the thyrotoxic state alone converts atrial fibrillation to normal sinus rhythm in up to 75% of patients without an underlying cardiac problem.\""
+    },
+    {
+      "id": "h2-077-mcq11",
+      "type": "mcq",
+      "subtopic": "Geriatrics",
+      "question": "An 80-year-old presents with isolated weight loss and fatigue, initially attributed to depression or occult cancer. TSH is undetectable. Which diagnosis should be considered?",
+      "options": [
+        "Apathetic thyrotoxicosis",
+        "Subclinical hypothyroidism",
+        "Sick euthyroid syndrome",
+        "Riedel's thyroiditis"
+      ],
+      "correctOption": 0,
+      "explanation": "In the elderly, thyrotoxicosis may present only with fatigue and weight loss ('apathetic thyrotoxicosis') and is easily mistaken for depression or malignancy. A suppressed TSH is the clue — a reason to check thyroid function in any older patient with unexplained weight loss.",
+      "reference": "Clinical Manifestations: \"patients may present mainly with fatigue and weight loss, a condition known as apathetic thyrotoxicosis... apathetic thyrotoxicosis may be mistaken for depression in the elderly.\""
+    },
+    {
+      "id": "h2-077-mcq12",
+      "type": "mcq",
+      "subtopic": "Ophthalmopathy",
+      "question": "A Graves' patient develops decreasing visual acuity and impaired color vision with optic-nerve compression. What is the appropriate management?",
+      "options": [
+        "Reassurance and artificial tears",
+        "Emergency high-dose IV glucocorticoids, with orbital decompression if poor response",
+        "Start teprotumumab and review in 3 months",
+        "Low-dose oral prednisone"
+      ],
+      "correctOption": 1,
+      "explanation": "Optic-nerve compression is sight-threatening and an emergency: immediate high-dose IV glucocorticoids, and surgical orbital decompression if there is a poor response within ~2 weeks. Artificial tears suit mild disease; teprotumumab is first-line for active moderate-to-severe disease but is not the emergency response to optic neuropathy.",
+      "reference": "TREATMENT: \"Sight-threatening ophthalmopathy due to optic nerve compression or corneal damage is an emergency that requires immediate high-dose IV glucocorticoids... surgical orbital decompression should be considered.\""
+    },
+    {
+      "id": "h2-077-mcq13",
+      "type": "mcq",
+      "subtopic": "Ophthalmopathy",
+      "question": "Which is recommended as first-line therapy for active moderate-to-severe Graves' ophthalmopathy with significant proptosis or diplopia?",
+      "options": [
+        "Oral prednisone taper",
+        "Teprotumumab (an IGF-1 receptor monoclonal antibody)",
+        "External beam orbital radiotherapy",
+        "Rituximab"
+      ],
+      "correctOption": 1,
+      "explanation": "Teprotumumab, an IGF-1R inhibitor, improves proptosis, diplopia, activity score, and quality of life and is recommended first-line for active moderate-to-severe disease with significant proptosis/diplopia (availability/cost permitting). IV (not oral) methylprednisolone is the steroid option; rituximab/tocilizumab are second-line.",
+      "reference": "TREATMENT: \"Teprotumumab... is recommended as first-line treatment in patients with active moderate-to-severe ophthalmopathy with significant proptosis or diplopia.\""
+    },
+    {
+      "id": "h2-077-mcq14",
+      "type": "mcq",
+      "subtopic": "Subacute thyroiditis",
+      "question": "A 40-year-old woman has a painful, tender goiter after a viral illness, with thyrotoxic labs, a markedly elevated ESR, low radioiodine uptake, and negative thyroid antibodies. What is the appropriate treatment of the thyrotoxic phase?",
+      "options": [
+        "Methimazole",
+        "Radioiodine ablation",
+        "NSAIDs/aspirin (or glucocorticoids if severe) plus a beta blocker for symptoms",
+        "Total thyroidectomy"
+      ],
+      "correctOption": 2,
+      "explanation": "This is subacute (de Quervain's) thyroiditis: thyrotoxicosis from hormone release, not overproduction (low uptake). Antithyroid drugs have no role. Treat with high-dose aspirin/NSAIDs (steroids if severe) and a beta blocker for adrenergic symptoms; the course is self-limited over ~6 months.",
+      "reference": "Subacute Thyroiditis TREATMENT: \"antithyroid drugs play no role in treatment of the thyrotoxic phase... Relatively large doses of aspirin... or NSAIDs are sufficient... glucocorticoids should be given\" if severe."
+    },
+    {
+      "id": "h2-077-mcq15",
+      "type": "mcq",
+      "subtopic": "Thyroiditis — Differentiation",
+      "question": "Which set of findings best distinguishes silent (painless/postpartum) thyroiditis from subacute (de Quervain's) thyroiditis?",
+      "options": [
+        "Painful goiter, high ESR, negative antibodies",
+        "Painless goiter, normal ESR, positive TPO antibodies",
+        "Painful goiter, high uptake, positive TRAb",
+        "Painless goiter, high ESR, negative antibodies"
+      ],
+      "correctOption": 1,
+      "explanation": "Silent/postpartum thyroiditis is painLESS, with a NORMAL ESR and POSITIVE TPO antibodies (underlying autoimmunity). Subacute thyroiditis is painful with a HIGH ESR and NEGATIVE antibodies. Both show low uptake during the thyrotoxic phase.",
+      "reference": "SILENT THYROIDITIS: \"silent thyroiditis can be distinguished from subacute thyroiditis by a normal ESR and the presence of TPO antibodies.\""
+    },
+    {
+      "id": "h2-077-mcq16",
+      "type": "mcq",
+      "subtopic": "Postpartum thyroiditis",
+      "question": "Postpartum thyroiditis is most strongly associated with which condition, and how should the thyrotoxic phase be managed?",
+      "options": [
+        "Type 1 diabetes mellitus; manage symptoms with a beta blocker (no glucocorticoids)",
+        "Type 2 diabetes; treat with methimazole",
+        "Graves' disease; give radioiodine",
+        "Pheochromocytoma; give alpha blockade"
+      ],
+      "correctOption": 0,
+      "explanation": "Postpartum thyroiditis (a form of silent thyroiditis) is ~3× more common in women with type 1 diabetes and linked to antepartum TPO antibodies. The brief thyrotoxic phase is due to hormone release, so antithyroid drugs/glucocorticoids are not used; beta blockers control symptoms. Transient LT4 may be needed in the hypothyroid phase.",
+      "reference": "SILENT THYROIDITIS: \"three times more common in women with type 1 diabetes mellitus... Glucocorticoid treatment is not indicated... Severe thyrotoxic symptoms can be managed with a brief course of propranolol.\""
+    },
+    {
+      "id": "h2-077-mcq17",
+      "type": "mcq",
+      "subtopic": "Acute thyroiditis",
+      "question": "A child presents with fever, a tender erythematous neck mass, dysphagia, elevated WBC/ESR, and normal thyroid function. What underlying anatomical abnormality is most likely, and what is the treatment?",
+      "options": [
+        "Thyroglossal duct cyst; observation",
+        "Piriform sinus (usually left-sided); antibiotics guided by FNA culture, with drainage if abscess",
+        "Branchial cleft cyst; radioiodine",
+        "Lingual thyroid; levothyroxine"
+      ],
+      "correctOption": 1,
+      "explanation": "This is acute suppurative thyroiditis. In children the usual cause is a piriform sinus (fourth-branchial-pouch remnant, predominantly left-sided) seeding infection. Thyroid function is typically normal; treat with culture-directed antibiotics and drain any abscess.",
+      "reference": "ACUTE THYROIDITIS: \"the most common cause is the presence of a piriform sinus... Such sinuses are predominantly left-sided... Antibiotic treatment is guided initially by Gram stain... Surgery may be needed to drain an abscess.\""
+    },
+    {
+      "id": "h2-077-mcq18",
+      "type": "mcq",
+      "subtopic": "Sick euthyroid",
+      "question": "An intubated patient in the ICU has a low total/free T3, normal T4, and normal TSH, with elevated reverse T3. What is the best management of these thyroid findings?",
+      "options": [
+        "Start levothyroxine immediately",
+        "Start liothyronine (T3)",
+        "Recognize sick euthyroid syndrome; do not give thyroid hormone, monitor and retest during recovery",
+        "Give radioiodine"
+      ],
+      "correctOption": 2,
+      "explanation": "Low T3 with normal T4/TSH and high reverse T3 is the classic sick euthyroid (nonthyroidal illness) pattern — an adaptive change, not thyroid disease. Routine thyroid testing in the acutely ill should be avoided, and thyroid hormone treatment is generally not given; monitor and retest as the patient recovers. (A TSH <0.01 would suggest true thyroid disease.)",
+      "reference": "SICK EUTHYROID SYNDROME: \"The most common hormone pattern... is a decrease in total and unbound T3 levels (low T3 syndrome) with normal levels of T4 and TSH... Treatment of NTI with thyroid hormone... is controversial, but most authorities recommend monitoring... without administering thyroid hormone.\""
+    },
+    {
+      "id": "h2-077-mcq19",
+      "type": "mcq",
+      "subtopic": "Amiodarone",
+      "question": "Why does amiodarone so frequently disturb thyroid function?",
+      "options": [
+        "It directly stimulates the TSH receptor",
+        "It contains 39% iodine by weight, delivers a large iodine load, and is stored in fat for months",
+        "It is a thyroid hormone analogue that suppresses the pituitary permanently",
+        "It blocks intestinal iodine absorption"
+      ],
+      "correctOption": 1,
+      "explanation": "Amiodarone is 39% iodine by weight, so usual doses cause a massive iodine load; because it is stored in adipose tissue, effects persist >6 months after stopping. It also inhibits deiodinase. It can cause hypothyroidism or thyrotoxicosis (type 1 Jod-Basedow in MNG/Graves'; type 2 destructive thyroiditis).",
+      "reference": "AMIODARONE: \"it contains 39% iodine by weight... high iodine levels persist for >6 months after discontinuation... thyrotoxicosis that may be caused by either a Jod-Basedow effect... or a thyroiditis-like condition.\""
+    },
+    {
+      "id": "h2-077-mcq20",
+      "type": "mcq",
+      "subtopic": "TSH-secreting adenoma",
+      "question": "A patient has elevated free T4 and T3 with a diffuse goiter, but TSH is 'inappropriately' normal rather than suppressed. Which finding would best support a TSH-secreting pituitary adenoma?",
+      "options": [
+        "Elevated TSH α-subunit and a pituitary mass on MRI",
+        "High TRAb titer",
+        "Low radioiodine uptake",
+        "Elevated thyroglobulin"
+      ],
+      "correctOption": 0,
+      "explanation": "A non-suppressed TSH with high thyroid hormones suggests a TSH-secreting adenoma (or thyroid hormone resistance). An elevated α-subunit of TSH and a pituitary tumor on MRI/CT support the diagnosis. TRAb indicates Graves'; low uptake indicates thyroiditis/factitia.",
+      "reference": "OTHER CAUSES: \"an inappropriately normal or increased TSH level in a patient with hyperthyroidism... Elevated levels of the α subunit of TSH... support this diagnosis, which can be confirmed by demonstrating the pituitary tumor on MRI or CT.\""
+    },
+    {
+      "id": "h2-077-mcq21",
+      "type": "mcq",
+      "subtopic": "Diagnosis",
+      "question": "A patient is worried about thyrotoxicosis because of palpitations and anxiety. Which single result most efficiently excludes thyrotoxicosis (and Graves' disease as a cause of a diffuse goiter)?",
+      "options": [
+        "Normal thyroglobulin",
+        "Normal TSH with normal free T4 and T3",
+        "Negative TPO antibodies",
+        "Normal ESR"
+      ],
+      "correctOption": 1,
+      "explanation": "A normal TSH together with normal unbound T4 and T3 excludes thyrotoxicosis; a normal TSH also excludes Graves' disease as the cause of a diffuse goiter. TSH is the most sensitive screen because even mild hormone excess suppresses it.",
+      "reference": "Differential Diagnosis: \"The diagnosis of thyrotoxicosis can be easily excluded if the TSH and unbound T4 and T3 levels are normal. A normal TSH also excludes Graves' disease as a cause of diffuse goiter.\""
+    },
+    {
+      "id": "h2-077-mcq22",
+      "type": "mcq",
+      "subtopic": "Treatment — PTU indications",
+      "question": "Because of its hepatotoxicity, propylthiouracil's FDA-approved indications are limited to which of the following?",
+      "options": [
+        "All newly diagnosed Graves' disease",
+        "First-trimester pregnancy, thyroid storm, and patients with minor reactions to methimazole",
+        "Toxic adenoma and toxic multinodular goiter only",
+        "Subacute thyroiditis"
+      ],
+      "correctOption": 1,
+      "explanation": "Due to hepatotoxicity, the FDA limits propylthiouracil to first-trimester pregnancy, thyroid storm, and patients with minor adverse reactions to methimazole. Methimazole is otherwise first-line. Liver function should be monitored when PTU is used.",
+      "reference": "TREATMENT: \"the FDA has limited indications for its use to the first trimester of pregnancy, the treatment of thyroid storm, and patients with minor adverse reactions to methimazole.\""
+    },
+    {
+      "id": "h2-077-mcq23",
+      "type": "mcq",
+      "subtopic": "Treatment — Surgery prep",
+      "question": "A patient is scheduled for thyroidectomy for Graves' disease. What preoperative preparation reduces the risk of thyrotoxic crisis and gland vascularity?",
+      "options": [
+        "Radioiodine the day before surgery",
+        "Render euthyroid with antithyroid drugs, then potassium iodide (SSKI) for ~10 days before surgery",
+        "High-dose aspirin for 1 week",
+        "No preparation is needed"
+      ],
+      "correctOption": 1,
+      "explanation": "Before thyroidectomy, control thyrotoxicosis with antithyroid drugs to achieve euthyroidism, then give potassium iodide (SSKI 1–2 drops tid for ~10 days) to reduce gland vascularity and avoid thyrotoxic crisis intraoperatively.",
+      "reference": "TREATMENT: \"Careful control of thyrotoxicosis with antithyroid drugs, followed by potassium iodide (SSKI; 1–2 drops orally tid for 10 days), is needed prior to surgery to avoid thyrotoxic crisis and to reduce the vascularity of the gland.\""
+    },
+    {
+      "id": "h2-077-mcq24",
+      "type": "mcq",
+      "subtopic": "Treatment — Surgery complications",
+      "question": "After total thyroidectomy a patient develops perioral numbness and carpopedal spasm. Which complication is most likely?",
+      "options": [
+        "Recurrent laryngeal nerve injury",
+        "Hypoparathyroidism causing hypocalcemia",
+        "Laryngeal edema",
+        "Postoperative bleeding"
+      ],
+      "correctOption": 1,
+      "explanation": "Perioral numbness and carpopedal spasm are signs of hypocalcemia from inadvertent hypoparathyroidism — a recognized thyroidectomy complication. Recurrent laryngeal nerve injury causes hoarseness; bleeding and laryngeal edema threaten the airway. All are uncommon in expert hands.",
+      "reference": "TREATMENT: \"The major complications of surgery—bleeding, laryngeal edema, hypoparathyroidism, and damage to the recurrent laryngeal nerves—are unusual when the procedure is performed by highly experienced surgeons.\""
+    },
+    {
+      "id": "h2-077-mcq25",
+      "type": "mcq",
+      "subtopic": "Neuromuscular",
+      "question": "A young Asian man presents with sudden severe proximal weakness and hypokalemia and is found to be thyrotoxic. Besides correcting the thyrotoxicosis, what provides acute symptom control?",
+      "options": [
+        "Methimazole alone",
+        "A beta blocker (e.g., propranolol)",
+        "Intravenous calcium",
+        "Radioiodine"
+      ],
+      "correctOption": 1,
+      "explanation": "This is thyrotoxic hypokalemic periodic paralysis, particularly common in Asian males. Beta blockers help acutely and prevent attacks pending correction of thyrotoxicosis; definitive cure is rendering the patient euthyroid.",
+      "reference": "Clinical Manifestations/TREATMENT: \"a form of hypokalemic periodic paralysis; this disorder is particularly common in Asian males... Beta blockers are also useful in patients with thyrotoxic periodic paralysis, pending correction of thyrotoxicosis.\""
+    },
+    {
+      "id": "h2-077-mcq26",
+      "type": "mcq",
+      "subtopic": "Antithyroid drugs — Outcomes",
+      "question": "After 12–18 months of antithyroid drug therapy for Graves', which factor predicts a HIGHER chance of durable remission?",
+      "options": [
+        "Persistent detectable TRAb",
+        "Undetectable TRAb at the end of treatment",
+        "Male sex and smoking",
+        "Large goiter"
+      ],
+      "correctOption": 1,
+      "explanation": "Remission (30–60% by 12–18 months) is higher in patients whose TRAb becomes undetectable. Persistent TRAb, younger age, male sex, smoking, severe disease, and large goiter predict relapse — useful for choosing definitive therapy instead.",
+      "reference": "TREATMENT: \"Maximum remission rates (30–60%)... are higher in patients in whom TRAb levels are no longer detected than in those with TRAb persistence... Younger patients, males, smokers... most likely to relapse.\""
+    },
+    {
+      "id": "h2-077-mcq27",
+      "type": "mcq",
+      "subtopic": "Riedel's thyroiditis",
+      "question": "A middle-aged woman has a hard, fixed, painless goiter causing dysphagia; FNA is non-diagnostic. Which statement is most accurate?",
+      "options": [
+        "This is almost certainly Graves' disease",
+        "Open biopsy is needed; Riedel's thyroiditis is part of the IgG4-related disease spectrum",
+        "Radioiodine is first-line treatment",
+        "Thyroid function is typically markedly hyperthyroid"
+      ],
+      "correctOption": 1,
+      "explanation": "A hard, fixed, painless goiter mimicking malignancy in a middle-aged woman suggests Riedel's thyroiditis. FNA is usually inadequate, so OPEN biopsy is required. It is associated with IgG4-related disease, and thyroid function is usually normal. Treatment: glucocorticoids/immunomodulators, tamoxifen, or surgery for compression.",
+      "reference": "CHRONIC THYROIDITIS: \"The goiter is hard, nontender, often asymmetric, and fixed, leading to suspicion of a malignancy. Diagnosis requires open biopsy as FNA biopsy is usually inadequate... association between Riedel's thyroiditis and IgG4-related disease.\""
+    },
+    {
+      "id": "h2-077-mcq28",
+      "type": "mcq",
+      "subtopic": "Drug-induced thyroiditis",
+      "question": "A patient on the immune checkpoint inhibitor pembrolizumab for melanoma develops painless thyroiditis. How should this be managed?",
+      "options": [
+        "Stop all cancer therapy permanently and start methimazole",
+        "Manage as silent thyroiditis (symptomatic beta blockade ± transient LT4); routine thyroid function monitoring is recommended",
+        "Give radioiodine ablation",
+        "High-dose aspirin only"
+      ],
+      "correctOption": 1,
+      "explanation": "Checkpoint inhibitors (pembrolizumab, nivolumab) cause painless thyroiditis in 5–20% of treated patients; it is managed like silent thyroiditis (beta blockers for thyrotoxic symptoms, transient LT4 for the hypothyroid phase). Routine thyroid function monitoring during therapy is recommended.",
+      "reference": "DRUG-INDUCED THYROIDITIS: \"Thyroiditis occurs in 5–20% of cancer patients treated with the immune checkpoint inhibitors pembrolizumab or nivolumab. In all cases, treatment is the same as silent thyroiditis. Routine monitoring of thyroid function tests is recommended.\""
+    },
+    {
+      "id": "h2-077-mcq29",
+      "type": "mcq",
+      "subtopic": "Myxedema coma",
+      "question": "An elderly hypothyroid patient in myxedema coma is hypothermic at 28°C. Regarding rewarming, what is correct?",
+      "options": [
+        "Aggressive active external rewarming for all patients",
+        "Use passive rewarming (space blankets); active external warming only if temperature <30°C, because rapid warming can cause cardiovascular collapse",
+        "Do not warm at all",
+        "Immersion in warm water is preferred"
+      ],
+      "correctOption": 1,
+      "explanation": "In myxedema coma, aggressive external rewarming causes peripheral vasodilation and cardiovascular collapse. Use passive rewarming (space blankets); active external warming is reserved for temperatures <30°C. Also give IV levothyroxine, hydrocortisone (impaired adrenal reserve), ventilatory support, and avoid hypotonic fluids.",
+      "reference": "Myxedema coma: \"External warming is indicated only if the temperature is <30°C, as it can result in cardiovascular collapse... Space blankets should be used to prevent further heat loss.\""
+    },
+    {
+      "id": "h2-077-mcq30",
+      "type": "mcq",
+      "subtopic": "Myxedema coma",
+      "question": "Why is parenteral hydrocortisone given in myxedema coma?",
+      "options": [
+        "To increase T4→T3 conversion",
+        "Because there is impaired adrenal reserve in profound hypothyroidism",
+        "To rewarm the patient",
+        "To treat hyponatremia directly"
+      ],
+      "correctOption": 1,
+      "explanation": "Hydrocortisone (e.g., 50 mg q6h) is given because profound hypothyroidism is associated with impaired adrenal reserve, and thyroid hormone replacement could precipitate adrenal crisis if unrecognized coexisting adrenal insufficiency is present. Supportive care also addresses hyponatremia/hypoglycemia and ventilation.",
+      "reference": "Myxedema coma: \"Parenteral hydrocortisone (50 mg every 6 h) should be administered because there is impaired adrenal reserve in profound hypothyroidism.\""
+    },
+    {
+      "id": "h2-077-mcq31",
+      "type": "mcq",
+      "subtopic": "Laboratory",
+      "question": "A thyrotoxic patient has a suppressed TSH but a NORMAL free T4; only the free T3 is elevated. What does this represent?",
+      "options": [
+        "T4 toxicosis",
+        "T3 toxicosis",
+        "Sick euthyroid syndrome",
+        "Subclinical hyperthyroidism"
+      ],
+      "correctOption": 1,
+      "explanation": "Isolated elevation of T3 with a suppressed TSH (and normal T4) is T3 toxicosis, seen in 2–5% of Graves' patients (more in borderline-iodine areas). The converse, T4 toxicosis (high T4, normal T3), occurs with iodine-induced hyperthyroidism providing surplus substrate.",
+      "reference": "Laboratory Evaluation: \"In 2–5% of patients... only T3 is increased (T3 toxicosis). The converse state of T4 toxicosis... is occasionally seen when hyperthyroidism is induced by excess iodine.\""
+    },
+    {
+      "id": "h2-077-mcq32",
+      "type": "mcq",
+      "subtopic": "Symptom control",
+      "question": "While waiting for antithyroid drugs to take effect in a newly diagnosed thyrotoxic patient, what is the best agent to control adrenergic symptoms (tremor, tachycardia)?",
+      "options": [
+        "Potassium iodide",
+        "A beta blocker such as propranolol or atenolol",
+        "Glucocorticoids",
+        "Digoxin"
+      ],
+      "correctOption": 1,
+      "explanation": "Beta blockers (propranolol 20–40 mg q6h or longer-acting selective β1 blockers like atenolol) control adrenergic symptoms early, before antithyroid drugs take effect, and are useful in thyrotoxic periodic paralysis. High-dose propranolol also modestly reduces T4→T3 conversion.",
+      "reference": "TREATMENT: \"Propranolol (20–40 mg every 6 h) or longer-acting selective β1 receptor blockers such as atenolol may be helpful to control adrenergic symptoms, especially in the early stages before antithyroid drugs take effect.\""
+    },
+    {
+      "id": "h2-077-tf1",
+      "type": "true_false",
+      "subtopic": "Definitions",
+      "statement": "All thyrotoxicosis is caused by an overactive (hyperfunctioning) thyroid gland.",
+      "correctAnswer": false,
+      "explanation": "False. Thyrotoxicosis (hormone excess) can occur without hyperthyroidism — e.g., destructive thyroiditis, factitious hormone ingestion, and iodine excess produce thyrotoxicosis with LOW gland uptake.",
+      "reference": "THYROTOXICOSIS: thyrotoxicosis \"is not synonymous with hyperthyroidism, which is the result of excessive thyroid function.\""
+    },
+    {
+      "id": "h2-077-tf2",
+      "type": "true_false",
+      "subtopic": "Diagnosis",
+      "statement": "Diffuse, increased radioiodine uptake on thyroid scan is characteristic of Graves' disease.",
+      "correctAnswer": true,
+      "explanation": "True. Graves' disease shows diffuse high uptake, distinguishing it from destructive thyroiditis/factitia/iodine excess (low uptake) and from toxic adenoma/MNG (focal uptake).",
+      "reference": "Differential Diagnosis: a scan \"will distinguish the diffuse, high uptake of Graves' disease from destructive thyroiditis... and factitious thyrotoxicosis.\""
+    },
+    {
+      "id": "h2-077-tf3",
+      "type": "true_false",
+      "subtopic": "Drug safety",
+      "statement": "Routine scheduled blood counts reliably prevent agranulocytosis from antithyroid drugs.",
+      "correctAnswer": false,
+      "explanation": "False. The onset of agranulocytosis is idiosyncratic and abrupt, so prospective routine CBC monitoring is not useful. Patients are instead counseled to stop the drug and get an urgent CBC if sore throat/fever/mouth ulcers occur.",
+      "reference": "TREATMENT: \"It is not useful to monitor blood counts prospectively, because the onset of agranulocytosis is idiosyncratic and abrupt.\""
+    },
+    {
+      "id": "h2-077-tf4",
+      "type": "true_false",
+      "subtopic": "Pregnancy",
+      "statement": "Radioiodine is a safe option for hyperthyroidism during pregnancy.",
+      "correctAnswer": false,
+      "explanation": "False. Pregnancy and breast-feeding are absolute contraindications to radioiodine. Antithyroid drugs are used instead (PTU in the first trimester); patients may conceive 6 months after radioiodine.",
+      "reference": "TREATMENT: \"Pregnancy and breast-feeding are absolute contraindications to radioiodine treatment.\""
+    },
+    {
+      "id": "h2-077-tf5",
+      "type": "true_false",
+      "subtopic": "Subacute thyroiditis",
+      "statement": "Antithyroid drugs are an effective treatment for the thyrotoxic phase of subacute thyroiditis.",
+      "correctAnswer": false,
+      "explanation": "False. Subacute thyroiditis causes thyrotoxicosis by hormone RELEASE (low uptake), not overproduction, so antithyroid drugs play no role. Treat with NSAIDs/aspirin (or glucocorticoids if severe) and beta blockers for symptoms.",
+      "reference": "Subacute Thyroiditis TREATMENT: \"antithyroid drugs play no role in treatment of the thyrotoxic phase.\""
+    },
+    {
+      "id": "h2-077-tf6",
+      "type": "true_false",
+      "subtopic": "Cardiac",
+      "statement": "Most patients with thyrotoxic atrial fibrillation and no underlying heart disease revert to sinus rhythm once they are made euthyroid.",
+      "correctAnswer": true,
+      "explanation": "True. Treating the thyrotoxic state alone converts AF to sinus rhythm in up to 75% of patients without underlying cardiac disease, so rendering the patient euthyroid is the primary therapy.",
+      "reference": "Clinical Manifestations: \"Treatment of the thyrotoxic state alone converts atrial fibrillation to normal sinus rhythm in up to 75% of patients.\""
+    },
+    {
+      "id": "h2-077-tf7",
+      "type": "true_false",
+      "subtopic": "Treatment — Radioiodine",
+      "statement": "Methimazole should be continued through the day of radioiodine administration to maximize uptake.",
+      "correctAnswer": false,
+      "explanation": "False. Methimazole/carbimazole must be stopped 2–3 days before radioiodine to achieve optimum iodine uptake (and can be restarted 3–7 days after). PTU has a prolonged radioprotective effect and must be stopped even longer beforehand.",
+      "reference": "TREATMENT: \"Carbimazole or methimazole must be stopped 2–3 days before radioiodine administration to achieve optimum iodine uptake.\""
+    },
+    {
+      "id": "h2-077-tf8",
+      "type": "true_false",
+      "subtopic": "Sick euthyroid",
+      "statement": "Thyroid function tests should be checked routinely in all acutely ill ICU patients.",
+      "correctAnswer": false,
+      "explanation": "False. Severe illness alters thyroid tests without true thyroid disease (sick euthyroid), so routine testing in acutely ill patients should be avoided unless thyroid disease is strongly suspected; results are otherwise misleading.",
+      "reference": "SICK EUTHYROID SYNDROME: \"the routine testing of thyroid function should be avoided in acutely ill patients.\""
+    },
+    {
+      "id": "h2-077-tf9",
+      "type": "true_false",
+      "subtopic": "Graves' — eye disease",
+      "statement": "Graves' ophthalmopathy can occur even in patients who are not hyperthyroid (euthyroid Graves' eye disease).",
+      "correctAnswer": true,
+      "explanation": "True. Thyroid eye disease occurs in the absence of hyperthyroidism in about 10% of patients (most have autoimmune hypothyroidism or thyroid antibodies); the eye disease can precede or follow the thyrotoxicosis by years.",
+      "reference": "Clinical Manifestations: \"This condition is also called thyroid eye disease (TED) because it occurs in the absence of hyperthyroidism in 10% of patients.\""
+    },
+    {
+      "id": "h2-077-tf10",
+      "type": "true_false",
+      "subtopic": "Thyroid storm",
+      "statement": "In thyroid storm, stable iodide should be given before the antithyroid drug to block hormone release as fast as possible.",
+      "correctAnswer": false,
+      "explanation": "False. Iodide is given about one hour AFTER propylthiouracil/methimazole, so the antithyroid drug first blocks organification and the iodine load cannot be converted into new hormone. Giving iodide first risks fueling synthesis.",
+      "reference": "TREATMENT: \"One hour after the first dose of propylthiouracil or methimazole, stable iodide... is given... the delay allows the antithyroid drug to prevent the excess iodine from being incorporated into new hormone.\""
+    },
+    {
+      "id": "h2-077-tf11",
+      "type": "true_false",
+      "subtopic": "Silent thyroiditis",
+      "statement": "Glucocorticoids are indicated for the routine treatment of silent (painless) thyroiditis.",
+      "correctAnswer": false,
+      "explanation": "False. Glucocorticoids are not indicated in silent thyroiditis. Severe thyrotoxic symptoms are managed with a brief course of propranolol, and transient levothyroxine may be needed for the hypothyroid phase.",
+      "reference": "SILENT THYROIDITIS: \"Glucocorticoid treatment is not indicated for silent thyroiditis.\""
+    },
+    {
+      "id": "h2-077-tf12",
+      "type": "true_false",
+      "subtopic": "Smoking",
+      "statement": "Smoking is a major risk factor for the development of Graves' ophthalmopathy.",
+      "correctAnswer": true,
+      "explanation": "True. Smoking is a moderate risk factor for Graves' disease itself and a MAJOR risk factor for ophthalmopathy; smoking cessation is a core part of eye-disease management and reduces the risk of radioiodine-induced eye worsening.",
+      "reference": "Pathogenesis: \"Smoking is a moderate risk factor for Graves' disease and a major risk factor for the development of ophthalmopathy.\""
+    },
+    {
+      "id": "h2-077-tf13",
+      "type": "true_false",
+      "subtopic": "Diagnosis",
+      "statement": "A normal serum TSH effectively excludes thyrotoxicosis.",
+      "correctAnswer": true,
+      "explanation": "True. Because TSH is the most sensitive index, a normal TSH (with normal free T4/T3) excludes thyrotoxicosis and excludes Graves' disease as the cause of a diffuse goiter.",
+      "reference": "Differential Diagnosis: \"The diagnosis of thyrotoxicosis can be easily excluded if the TSH and unbound T4 and T3 levels are normal.\""
+    },
+    {
+      "id": "h2-077-tf14",
+      "type": "true_false",
+      "subtopic": "Drug-induced",
+      "statement": "Immune checkpoint inhibitors such as nivolumab and pembrolizumab can cause thyroiditis.",
+      "correctAnswer": true,
+      "explanation": "True. Checkpoint inhibitors cause thyroiditis in 5–20% of treated cancer patients, managed like silent thyroiditis, with routine thyroid function monitoring recommended during therapy.",
+      "reference": "DRUG-INDUCED THYROIDITIS: \"Thyroiditis occurs in 5–20% of cancer patients treated with the immune checkpoint inhibitors pembrolizumab or nivolumab.\""
+    },
+    {
+      "id": "h2-077-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Diagnosis",
+      "assertion": "A low radioiodine uptake in a thyrotoxic patient argues against Graves' disease.",
+      "reason": "Graves' disease is caused by TSH-receptor-stimulating antibodies that drive increased iodine trapping and hormone synthesis.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Because TSI stimulate the gland to trap iodine and synthesize hormone, Graves' shows HIGH uptake; therefore low uptake points away from Graves' (toward thyroiditis/factitia/iodine excess).",
+      "reference": "Pathogenesis + Differential Diagnosis: TSI drive synthesis; scan shows \"the diffuse, high uptake of Graves' disease.\""
+    },
+    {
+      "id": "h2-077-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Thyroid storm",
+      "assertion": "Propylthiouracil is the preferred thionamide in thyroid storm.",
+      "reason": "Propylthiouracil inhibits peripheral conversion of T4 to T3 in addition to blocking new hormone synthesis.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. In severe thyrotoxicosis, PTU's additional blockade of T4→T3 conversion (on top of TPO inhibition) makes it the antithyroid drug of choice for storm.",
+      "reference": "TREATMENT: \"the drug's inhibitory action on T4→T3 conversion makes it the antithyroid drug of choice.\""
+    },
+    {
+      "id": "h2-077-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Monitoring",
+      "assertion": "TSH is not a reliable measure of treatment response in the first weeks of antithyroid therapy.",
+      "reason": "TSH secretion remains suppressed for several months after prolonged thyrotoxicosis even as thyroid hormone levels fall.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Because the thyrotroph axis stays suppressed for months, TSH lags behind clinical improvement; free T4 is used to titrate early therapy.",
+      "reference": "TREATMENT: \"TSH levels often remain suppressed for several months and therefore do not provide a sensitive index of treatment response.\""
+    },
+    {
+      "id": "h2-077-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Pregnancy",
+      "assertion": "Propylthiouracil, not methimazole, is preferred for treating Graves' disease in the first trimester.",
+      "reason": "Methimazole/carbimazole can cause a characteristic embryopathy (e.g., aplasia cutis, choanal atresia).",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. The teratogenic risk of methimazole/carbimazole embryopathy is why PTU is used in the first trimester; therapy is then switched to methimazole after 14–16 weeks because of PTU hepatotoxicity.",
+      "reference": "TREATMENT: \"propylthiouracil should be used until 14–16 weeks' gestation because of the risk of rare cases of methimazole/carbimazole embryopathy.\""
+    },
+    {
+      "id": "h2-077-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Subacute thyroiditis",
+      "assertion": "Antithyroid drugs are ineffective for the thyrotoxic phase of subacute thyroiditis.",
+      "reason": "The thyrotoxicosis results from release of preformed hormone from damaged follicles rather than from increased synthesis.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Since thionamides block synthesis, and subacute thyroiditis causes thyrotoxicosis by hormone release (low uptake), antithyroid drugs do not help; NSAIDs/steroids and beta blockers are used.",
+      "reference": "Pathophysiology/TREATMENT: thyrotoxicosis from \"release of Tg and thyroid hormones\"; \"antithyroid drugs play no role in treatment of the thyrotoxic phase.\""
+    },
+    {
+      "id": "h2-077-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Radioiodine",
+      "assertion": "Elderly or cardiac Graves' patients should be pretreated with an antithyroid drug before radioiodine.",
+      "reason": "Radioiodine transiently releases stored thyroid hormone and can precipitate a thyrotoxic crisis.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Because 131I can release stored hormone and trigger crisis, pretreatment depletes stored hormone, reducing risk in vulnerable (elderly/cardiac) patients.",
+      "reference": "TREATMENT: \"There is a small risk of thyrotoxic crisis... after radioiodine, which can be minimized by pretreatment with antithyroid drugs for at least a month.\""
+    },
+    {
+      "id": "h2-077-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Myxedema coma",
+      "assertion": "Aggressive external rewarming should be avoided in myxedema coma.",
+      "reason": "Rapid external warming causes peripheral vasodilation that can precipitate cardiovascular collapse.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Passive rewarming is used; active external warming is reserved for temperature <30°C precisely because rapid warming risks vasodilatory cardiovascular collapse.",
+      "reference": "Myxedema coma: \"External warming is indicated only if the temperature is <30°C, as it can result in cardiovascular collapse.\""
+    },
+    {
+      "id": "h2-077-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Factitia",
+      "assertion": "A low serum thyroglobulin in a thyrotoxic patient with low uptake suggests factitious (exogenous) thyrotoxicosis.",
+      "reason": "Exogenous thyroid hormone suppresses endogenous gland activity and thyroglobulin release.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Exogenous hormone suppresses the gland, so thyroglobulin is low; in contrast, destructive thyroiditis (also low uptake) releases thyroglobulin, raising it.",
+      "reference": "OTHER CAUSES: \"thyrotoxicosis factitia can be distinguished from destructive thyroiditis by the clinical features and low levels of Tg.\""
+    },
+    {
+      "id": "h2-077-ar9",
+      "type": "assertion_reason",
+      "subtopic": "Sick euthyroid",
+      "assertion": "In a critically ill patient, a low T3 with normal T4 and TSH usually should not be treated with thyroid hormone.",
+      "reason": "The low-T3 state of nonthyroidal illness is generally an adaptive response to severe illness.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. The low-T3 state is considered adaptive (it can be induced by fasting), so thyroid hormone is generally not given; monitoring during recovery is recommended.",
+      "reference": "SICK EUTHYROID SYNDROME: \"It is generally assumed that this low T3 state is adaptive, because it can be induced in normal individuals by fasting.\""
+    },
+    {
+      "id": "h2-077-ar10",
+      "type": "assertion_reason",
+      "subtopic": "Amiodarone",
+      "assertion": "Amiodarone can disturb thyroid function for many months after it is stopped.",
+      "reason": "Amiodarone is stored in adipose tissue, so its high iodine load persists for over six months after discontinuation.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Because amiodarone (39% iodine by weight) is stored in fat, high iodine levels and thyroid effects persist >6 months after stopping the drug.",
+      "reference": "AMIODARONE: \"because amiodarone is stored in adipose tissue, high iodine levels persist for >6 months after discontinuation of the drug.\""
+    },
+    {
+      "id": "h2-077-ar11",
+      "type": "assertion_reason",
+      "subtopic": "Diagnosis",
+      "assertion": "A non-suppressed TSH in a patient with clearly elevated free T4 and T3 warrants pituitary evaluation.",
+      "reason": "A TSH-secreting pituitary adenoma produces inappropriately normal or elevated TSH despite high thyroid hormone levels.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Normally high thyroid hormone suppresses TSH; failure of suppression suggests a TSH-secreting adenoma (or hormone resistance), prompting α-subunit measurement and pituitary imaging.",
+      "reference": "OTHER CAUSES: \"an inappropriately normal or increased TSH level in a patient with hyperthyroidism, diffuse goiter, and elevated T4 and T3 levels.\""
+    },
+    {
+      "id": "h2-077-ar12",
+      "type": "assertion_reason",
+      "subtopic": "Ophthalmopathy",
+      "assertion": "Teprotumumab is used to treat Graves' ophthalmopathy.",
+      "reason": "Teprotumumab blocks the insulin-like growth factor 1 receptor (IGF-1R) implicated in orbital fibroblast activation.",
+      "correctOption": 0,
+      "explanation": "Both true and the reason explains the assertion. Aberrant IGF-1R signaling on orbital fibroblasts drives the glycosaminoglycan accumulation of thyroid eye disease; teprotumumab inhibits IGF-1R, improving proptosis and diplopia in active moderate-to-severe disease.",
+      "reference": "Pathogenesis/TREATMENT: \"aberrant signaling via insulin-like growth factor 1 receptors (IGF-1R)... Teprotumumab, a monoclonal antibody inhibitor of the IGF-1 receptor.\""
+    }
+  ]
+}
