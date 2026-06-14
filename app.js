@@ -105,7 +105,15 @@ async function showCatalog(){
   </div>`;
 
   for (const sec of CATALOG.sections){
-    html += '<div class="section-head">'+esc(sec.name)+'</div>';
+    const readyCount = sec.chapters.filter(ch => ch.status === 'ready' && ch.file).length;
+    const hasNext = nextUp && sec.chapters.some(ch => ch.id === nextUp.id);
+    const expanded = readyCount > 0 || hasNext;
+    html += `<div class="section-head${expanded?'':' collapsed'}" data-toggle>
+      <span class="section-arrow">▾</span>
+      <span class="section-name">${esc(sec.name)}</span>
+      <span class="section-count">${readyCount}/${sec.chapters.length}</span>
+    </div>`;
+    html += `<div class="section-body"${expanded?'':' hidden'}>`;
     for (const ch of sec.chapters){
       const ready = ch.status === 'ready' && ch.file;
       const isNext = nextUp && ch.id === nextUp.id;
@@ -122,10 +130,17 @@ async function showCatalog(){
         </div>
       </div>`;
     }
+    html += `</div>`;
   }
   app.innerHTML = html;
   app.querySelectorAll('.chap-card:not(.disabled)').forEach(card => {
     card.addEventListener('click', () => openChapter(card.dataset.file));
+  });
+  app.querySelectorAll('.section-head').forEach(head => {
+    head.addEventListener('click', () => {
+      head.classList.toggle('collapsed');
+      head.nextElementSibling.hidden = head.classList.contains('collapsed');
+    });
   });
 }
 

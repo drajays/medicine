@@ -28,7 +28,12 @@ main{max-width:880px;margin:0 auto;padding:16px 16px 80px}
 .loading{color:var(--muted);text-align:center;padding:60px 0}
 
 /* Chapter list */
-.section-head{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:22px 4px 10px;font-weight:700}
+.section-head{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:22px 4px 10px;font-weight:700;display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none}
+.section-head:hover{color:var(--text)}
+.section-arrow{display:inline-block;font-size:11px;transition:transform .15s;flex:none}
+.section-head.collapsed .section-arrow{transform:rotate(-90deg)}
+.section-name{flex:1}
+.section-count{font-size:11px;font-weight:700;color:var(--muted);background:var(--surface-2);padding:2px 8px;border-radius:999px;letter-spacing:0;text-transform:none}
 .chap-card{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px;cursor:pointer;box-shadow:var(--shadow);transition:transform .08s,border-color .12s}
 .chap-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .chap-card.disabled{opacity:.55;cursor:default}
