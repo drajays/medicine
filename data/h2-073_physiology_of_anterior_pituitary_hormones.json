@@ -1,0 +1,956 @@
+{
+  "id": "h2-073",
+  "volume": 2,
+  "chapterNo": "390",
+  "title": "Physiology of Anterior Pituitary Hormones",
+  "section": "Endocrinology and Metabolism — Pituitary",
+  "authors": "Shlomo Melmed, J. Larry Jameson",
+  "sourceFile": "Harrison2_chapters/073_Physiology_of_Anterior_Pituitary_Hormones/content.md",
+  "items": [
+    {
+      "id": "h2-073-n1",
+      "type": "note",
+      "subtopic": "Anatomy — Hypothalamic-Pituitary Portal System",
+      "title": "How the hypothalamic-pituitary portal system gives the anterior pituitary privileged exposure to releasing factors",
+      "content": "The anterior pituitary is supplied primarily by the hypothalamic-pituitary portal plexus rather than by direct systemic arterial blood.\nThis portal vasculature carries hypothalamic releasing and inhibiting hormones directly to anterior pituitary cells at high local concentration, with minimal systemic dilution.\nBecause hypothalamic peptides are secreted in pulses, the portal system faithfully transmits this pulsatile signal, and the anterior pituitary responds by releasing its own hormones in discrete pulses into the systemic circulation.\nThis anatomic arrangement is the structural basis for the pulsatile, hypothalamus-dependent secretion that characterizes every anterior pituitary hormone axis.",
+      "keyPoints": [
+        "The hypothalamic-pituitary portal plexus is the major blood source for the anterior pituitary.",
+        "It transmits hypothalamic peptide pulses without significant systemic dilution.",
+        "Anterior pituitary cells release their hormones as discrete pulses in response."
+      ],
+      "reference": "ANATOMY: \"The hypothalamic-pituitary portal plexus provides the major blood source for the anterior pituitary, allowing reliable transmission of hypothalamic peptide pulses without significant systemic dilution; consequently, anterior pituitary cells are exposed to specific releasing or inhibiting factors and in turn release their respective hormones as discrete pulses into the systemic circulation.\""
+    },
+    {
+      "id": "h2-073-n2",
+      "type": "note",
+      "subtopic": "Anatomy — Posterior Pituitary Innervation",
+      "title": "Why the posterior pituitary is uniquely vulnerable to stalk and hypothalamic lesions",
+      "content": "Unlike the anterior pituitary, which depends on portal blood flow carrying hypothalamic releasing factors, the posterior pituitary is directly innervated by hypothalamic neurons via the supraopticohypophyseal and tuberohypophyseal nerve tracts running through the pituitary stalk.\nArginine vasopressin (AVP) and oxytocin are synthesized in hypothalamic neuronal cell bodies and transported down these axons for release from posterior pituitary nerve terminals.\nBecause posterior pituitary hormone release depends on the physical integrity of these axonal projections rather than on a vascular portal signal, any lesion that damages the pituitary stalk or hypothalamus (trauma, surgery, infiltrative disease) can directly disrupt AVP and oxytocin release — explaining why arginine vasopressin deficiency so often accompanies stalk lesions.",
+      "keyPoints": [
+        "The posterior pituitary is directly innervated by hypothalamic neurons via the pituitary stalk.",
+        "AVP and oxytocin are produced by hypothalamic neurons and transported down axons to the posterior lobe.",
+        "Stalk or hypothalamic lesions can directly disrupt AVP/oxytocin release because they damage these neural tracts, not a vascular portal pathway.",
+        "See [[h2-076]] for disorders of the neurohypophysis (AVP deficiency)."
+      ],
+      "reference": "ANATOMY: \"In contrast to the anterior pituitary, the posterior lobe is directly innervated by hypothalamic neurons (supraopticohypophyseal and tuberohypophyseal nerve tracts) via the pituitary stalk... Thus, posterior pituitary production of arginine vasopressin (AVP) and oxytocin is particularly sensitive to neuronal damage by lesions that affect the pituitary stalk or hypothalamus.\""
+    },
+    {
+      "id": "h2-073-n3",
+      "type": "note",
+      "subtopic": "Pituitary Development — Transcription Factors",
+      "title": "How a cascade of transcription factors (Prop-1, Pit-1, T-Pit, SF-1, DAX-1) commits pituitary precursor cells to specific hormone-secreting lineages",
+      "content": "Anterior pituitary cells arise from pluripotent Sox2-expressing precursor cells in Rathke's pouch through a stepwise program of lineage-specific transcription factors and locally produced growth factor gradients.\nProp-1 acts early and is required for Pit-1 function; it induces development of Pit-1-dependent lineages as well as gonadotropes.\nPit-1, in turn, determines cell-specific expression of GH, PRL, and TSH in somatotropes, lactotropes, and thyrotropes — with estrogen receptor expression favoring the PRL (lactotrope) program and thyrotrope embryonic factor (TEF) favoring TSH expression.\nGonadotrope development additionally requires SF-1 and DAX-1, while corticotrope (POMC-expressing) development requires T-Pit.\nBecause each factor acts at a distinct branch point, inherited mutations of Pit-1, Prop-1, SF-1, DAX-1, or T-Pit produce characteristically different patterns of selective or combined pituitary hormone deficiency.",
+      "keyPoints": [
+        "Prop-1 acts upstream of and is required for Pit-1 function; it also directs gonadotrope development.",
+        "Pit-1 governs GH, PRL, and TSH expression in somatotropes, lactotropes, and thyrotropes.",
+        "Gonadotrope development additionally requires SF-1 and DAX-1; corticotrope development requires T-Pit.",
+        "Mutations in these factors produce distinct selective or combined pituitary hormone deficit syndromes — see [[h2-074]] for clinical patterns (e.g., PROP1, Pit-1 mutations)."
+      ],
+      "reference": "PITUITARY DEVELOPMENT: \"The transcription factor Prop-1 induces pituitary development of Pit-1-specific lineages as well as gonadotropes. The transcription factor Pit-1 determines cell-specific expression of GH, PRL, and TSH in somatotropes, lactotropes, and thyrotropes... Development of corticotrope cells, which express the proopiomelanocortin (POMC) gene, requires the T-Pit transcription factor. Abnormalities of pituitary development can be caused by inherited mutations of developmental transcription factors including Pit-1, Prop-1, SF-1, DAX-1, and T-Pit, resulting in selective or combined pituitary hormone deficit syndromes.\""
+    },
+    {
+      "id": "h2-073-n4",
+      "type": "note",
+      "subtopic": "Prolactin — Synthesis",
+      "title": "Lactotrope biology: a shared precursor with somatotropes and pregnancy-induced hyperplasia",
+      "content": "Prolactin-secreting lactotropes make up about 20% of anterior pituitary cells.\nLactotropes and somatotropes (GH-secreting cells) arise from a common precursor cell, which explains why a single pituitary tumor can sometimes co-secrete both PRL and GH (a mammosomatotrope tumor).\nDuring pregnancy and the first months of lactation, lactotrope cell hyperplasia develops as a normal, transient, estrogen-driven adaptation that increases PRL production to support milk synthesis.",
+      "keyPoints": [
+        "Lactotropes constitute ~20% of anterior pituitary cells and share a common precursor with somatotropes.",
+        "This shared lineage explains tumors that co-secrete PRL and GH.",
+        "Pregnancy and early lactation cause estrogen-driven, transient lactotrope hyperplasia."
+      ],
+      "reference": "PROLACTIN (Synthesis): \"PRL is synthesized in lactotropes, which constitute ~20% of anterior pituitary cells. Lactotropes and somatotropes are derived from a common precursor cell that may give rise to a tumor that secretes both PRL and GH. Lactotrope cell hyperplasia develops during pregnancy and the first few months of lactation. These transient functional changes in the lactotrope population are induced by estrogen to increase PRL production.\""
+    },
+    {
+      "id": "h2-073-n5",
+      "type": "note",
+      "subtopic": "Prolactin — Regulation (Dopamine)",
+      "title": "Why pituitary stalk lesions cause hyperprolactinemia even though PRL is a pituitary hormone",
+      "content": "Prolactin is unusual among anterior pituitary hormones because its dominant hypothalamic control is INHIBITORY rather than stimulatory: dopamine, acting on pituitary D2 receptors, tonically suppresses lactotrope PRL synthesis and secretion.\nBecause suppression — not stimulation — is the default hypothalamic signal, any process that interrupts delivery of hypothalamic dopamine to the lactotropes (such as pituitary stalk section from head trauma or a compressive mass lesion at the skull base) removes this brake and results in spontaneous PRL hypersecretion.\nThis 'disconnection' or 'stalk-effect' hyperprolactinemia is a key reason why a mildly elevated PRL in a patient with a large pituitary or hypothalamic mass does not necessarily indicate a PRL-secreting tumor.",
+      "keyPoints": [
+        "Dopamine, via pituitary D2 receptors, provides tonic inhibitory control of PRL secretion.",
+        "Loss of hypothalamic dopamine delivery (e.g., stalk section from trauma or a compressive mass) causes disinhibition and hyperprolactinemia.",
+        "Targeted D2 receptor knockout in mice causes hyperprolactinemia and lactotrope proliferation, confirming the mechanism."
+      ],
+      "reference": "PROLACTIN (Secretion): \"PRL is unique among the pituitary hormones in that the predominant hypothalamic control mechanism is inhibitory, reflecting tonic dopamine-mediated suppression of PRL release. This regulatory pathway accounts for the spontaneous PRL hypersecretion that occurs with pituitary stalk section, often a consequence of head trauma or compressive mass lesions at the skull base. Pituitary dopamine type 2 (D2) receptors mediate inhibition of PRL synthesis and secretion.\""
+    },
+    {
+      "id": "h2-073-n6",
+      "type": "note",
+      "subtopic": "Prolactin — Action",
+      "title": "How hyperprolactinemia produces infertility and decreased libido in both women and men",
+      "content": "Prolactin's physiologic role is to promote and sustain lactation while suppressing reproductive function — a strategy that prevents a new pregnancy during lactation.\nIt achieves this reproductive suppression at multiple levels: PRL inhibits hypothalamic GnRH and pituitary gonadotropin secretion, and it directly impairs gonadal steroidogenesis.\nIn women, PRL blocks folliculogenesis and inhibits granulosa cell aromatase activity, producing hypoestrogenism and anovulation, and it has a luteolytic effect that shortens or weakens the luteal phase.\nIn men, PRL-induced attenuation of LH secretion lowers testosterone and decreases spermatogenesis.\nThe net clinical result in patients with pathologic hyperprolactinemia (e.g., from a prolactinoma) is decreased libido and reduced fertility in both sexes.",
+      "keyPoints": [
+        "PRL suppresses GnRH and gonadotropin secretion and directly impairs gonadal steroidogenesis.",
+        "In women: anovulation, hypoestrogenism, and a shortened luteal phase.",
+        "In men: low testosterone and decreased spermatogenesis via attenuated LH.",
+        "Net effect: decreased libido and reduced fertility in hyperprolactinemic patients of either sex."
+      ],
+      "reference": "PROLACTIN (Action): \"PRL inhibits reproductive function by suppressing hypothalamic gonadotropin-releasing hormone (GnRH) and pituitary gonadotropin secretion and by impairing gonadal steroidogenesis in both women and men... In men, attenuated LH secretion leads to low testosterone levels and decreased spermatogenesis. These hormonal changes decrease libido and reduce fertility in patients with hyperprolactinemia.\""
+    },
+    {
+      "id": "h2-073-n7",
+      "type": "note",
+      "subtopic": "Growth Hormone — Synthesis",
+      "title": "Growth hormone is the most abundant anterior pituitary hormone, produced from a five-gene cluster",
+      "content": "Somatotropes, the GH-producing cells, make up to 50% of all anterior pituitary cells — by far the largest cell population, reflecting the high production demands of GH.\nSomatotrope development and GH gene transcription depend on the Pit-1 transcription factor.\nFive distinct genes encode GH and related proteins. The main pituitary gene (hGH-N) generates two alternatively spliced products: the predominant 22-kDa GH (191 amino acids) and a less abundant 20-kDa variant with similar biologic activity. Separate genes in the cluster encode a placental GH variant (hGH-V) and human chorionic somatotropin (HCS), expressed by the placenta rather than the pituitary.",
+      "keyPoints": [
+        "Somatotropes constitute up to 50% of anterior pituitary cells — the largest single population.",
+        "GH gene transcription requires the Pit-1 transcription factor.",
+        "The hGH-N gene produces 22-kDa (predominant) and 20-kDa GH isoforms via alternative splicing; placental genes produce hGH-V and HCS."
+      ],
+      "reference": "GROWTH HORMONE (Synthesis): \"GH is the most abundant anterior pituitary hormone, and GH-secreting somatotrope cells constitute up to 50% of the total anterior pituitary cell population... Five distinct genes encode GH and related proteins. The pituitary GH gene (hGH-N) produces two alternatively spliced products that give rise to 22-kDa GH (191 amino acids) and a less abundant 20-kDa GH molecule with similar biologic activity.\""
+    },
+    {
+      "id": "h2-073-n8",
+      "type": "note",
+      "subtopic": "Growth Hormone — Secretion Regulation",
+      "title": "How GHRH and somatostatin reciprocally sculpt the pulsatile pattern of GH secretion",
+      "content": "GH secretion is governed by two opposing hypothalamic peptides acting on the somatotrope.\nGHRH, a 44-amino-acid hypothalamic peptide, is secreted in discrete spikes that trigger discrete GH secretory pulses — it sets the TIMING and AMPLITUDE of GH bursts.\nSomatostatin (SRIF), by contrast, does not generate pulses but instead sets the BASAL (interpulse) tone of GH secretion by tonically restraining it.\nGhrelin and synthetic GHS-R agonists add a third input, stimulating GH release both directly and by inducing GHRH.\nThe net pulsatile GH profile that clinicians measure is therefore the product of GHRH-driven pulses superimposed on a somatostatin-set baseline, modulated by ghrelin, IGF-1 feedback, estrogen (stimulatory), and chronic glucocorticoid excess (suppressive).",
+      "keyPoints": [
+        "GHRH triggers discrete GH pulses; somatostatin (SRIF) sets basal GH secretory tone between pulses.",
+        "Ghrelin stimulates GH release both directly and via GHRH induction.",
+        "IGF-1 feeds back to inhibit GH; estrogen stimulates GH; chronic glucocorticoid excess suppresses GH (causing growth delay in children)."
+      ],
+      "reference": "GROWTH HORMONE (Secretion): \"GH-releasing hormone (GHRH) is a 44-amino-acid hypothalamic peptide that stimulates GH synthesis and release... Somatostatin (somatotropin-release inhibiting factor [SRIF])... inhibits GH secretion. GHRH is secreted in discrete spikes that elicit GH pulses, whereas SRIF sets basal GH secretory tone.\""
+    },
+    {
+      "id": "h2-073-n9",
+      "type": "note",
+      "subtopic": "Growth Hormone — Diagnostic Limitations",
+      "title": "Why a single random GH measurement cannot diagnose adult GH deficiency",
+      "content": "Because GH secretion is highly pulsatile with long quiescent periods, a single random blood sample is unlikely to capture a secretory pulse even in a perfectly healthy person.\nUsing standard assays, random GH levels are undetectable in about half of daytime samples from healthy adults, and are also undetectable (<1 µg/L) in most obese and elderly subjects (who have physiologically reduced GH secretion).\nAs a result, a low or undetectable random GH level is just as likely to reflect normal interpulse physiology as true GH deficiency — a single random GH measurement cannot distinguish a GH-deficient adult from a healthy one, which is why provocative (stimulation) testing is required for diagnosis.",
+      "keyPoints": [
+        "Random GH is undetectable in ~50% of daytime samples from healthy adults.",
+        "Random GH is also undetectable (<1 µg/L) in most obese and elderly subjects without GH deficiency.",
+        "Single random GH measurements cannot distinguish AGHD from normal GH status; provocative testing is required."
+      ],
+      "reference": "GROWTH HORMONE (Secretion): \"Using standard assays, random GH measurements are undetectable in ~50% of daytime samples obtained from healthy subjects and are also undetectable (<1 µg/L) in most obese and elderly subjects. Thus, single random GH measurements do not distinguish patients with adult GH deficiency from those with GH levels in the normal range.\""
+    },
+    {
+      "id": "h2-073-n10",
+      "type": "note",
+      "subtopic": "Growth Hormone — Action",
+      "title": "How GH directly alters metabolism while also driving linear bone growth through IGF-1",
+      "content": "GH has direct metabolic actions independent of IGF-1: it induces protein synthesis and nitrogen retention (anabolic), impairs glucose tolerance by antagonizing insulin action (a key reason for hyperglycemia in acromegaly and for hypoglycemia risk when GH is deficient), and stimulates lipolysis — increasing circulating fatty acids, reducing omental (visceral) fat, and increasing lean body mass.\nGH also promotes renal retention of sodium, potassium, and water, and elevates serum inorganic phosphate.\nLinear bone growth, by contrast, depends on the combined action of GH and locally produced IGF-1: GH stimulates epiphyseal prechondrocyte differentiation, these cells then produce IGF-1 locally, and IGF-1 in turn drives further proliferation of the same precursor cells — an integrated endocrine-paracrine loop.",
+      "keyPoints": [
+        "GH directly promotes protein synthesis/nitrogen retention and lipolysis, and antagonizes insulin action on glucose.",
+        "GH promotes sodium, potassium, and water retention and raises serum phosphate.",
+        "Linear growth depends on GH-stimulated epiphyseal prechondrocytes producing local IGF-1, which then drives further proliferation."
+      ],
+      "reference": "GROWTH HORMONE (Action): \"GH induces protein synthesis and nitrogen retention and also impairs glucose tolerance by antagonizing insulin action. GH also stimulates lipolysis, leading to increased circulating fatty acid levels, reduced omental fat mass, and enhanced lean body mass. GH promotes sodium, potassium, and water retention and elevates serum levels of inorganic phosphate... GH stimulates epiphyseal prechondrocyte differentiation. These precursor cells produce IGF-1 locally, and their proliferation is also responsive to the growth factor.\""
+    },
+    {
+      "id": "h2-073-n11",
+      "type": "note",
+      "subtopic": "Insulin-Like Growth Factors — IGF-1 and Catabolic States",
+      "title": "Why IGF-1 levels fall in malnutrition and critical illness even when pituitary GH secretion is intact",
+      "content": "Most of GH's growth-promoting effects are mediated indirectly through IGF-1, which is produced mainly by the liver under GH stimulation.\nHowever, hepatic IGF-1 production also requires adequate nutritional substrate and an intact, GH-responsive liver. In hypocaloric states the liver becomes relatively GH-resistant — GH receptor signaling and downstream IGF-1 generation are blunted despite normal or even increased GH secretion.\nThis is why IGF-1 levels are characteristically LOW in cachexia, malnutrition, and sepsis, even though the underlying GH axis itself may be intact or hyperactive — a dissociation that can confound interpretation of IGF-1 as a 'GH status' marker in sick patients.",
+      "keyPoints": [
+        "Hypocaloric states cause hepatic GH resistance, uncoupling GH secretion from IGF-1 production.",
+        "IGF-1 is low in cachexia, malnutrition, and sepsis despite potentially normal/elevated GH.",
+        "This dissociation limits the use of IGF-1 as a GH-status marker in catabolic illness."
+      ],
+      "reference": "Insulin-Like Growth Factors: \"Hypocaloric states are associated with GH resistance; IGF-1 levels are therefore low with cachexia, malnutrition, and sepsis.\""
+    },
+    {
+      "id": "h2-073-n12",
+      "type": "note",
+      "subtopic": "IGF-1 Physiology — Therapeutic Use",
+      "title": "Recombinant IGF-1 therapy: indications in GH-resistance syndromes and its dose-dependent adverse effects",
+      "content": "Because patients with GH-resistance syndromes (such as GH receptor mutations causing Laron syndrome) cannot generate adequate IGF-1 in response to GH, recombinant IGF-1 is approved for direct replacement in these conditions.\nPhysiologically, injected IGF-1 lowers blood glucose (acting like insulin) and improves insulin sensitivity in severe insulin-resistant states; in cachectic patients, IGF-1 infusion enhances nitrogen retention and lowers cholesterol, and longer-term subcutaneous dosing is anabolic.\nHowever, IGF-1's adverse effect profile mirrors its mechanism: overdose can cause hypoglycemia, hypotension, fluid retention, temporomandibular jaw pain, and increased intracranial pressure (all reversible), and case reports describe retinal damage and avascular femoral head necrosis. Chronic excess administration would be expected to produce an acromegaly-like phenotype.",
+      "keyPoints": [
+        "Recombinant IGF-1 is approved for GH-resistance syndromes (e.g., GH receptor defects/Laron syndrome).",
+        "IGF-1 lowers glucose and is anabolic; dose-dependent adverse effects include hypoglycemia, hypotension, fluid retention, jaw pain, and raised intracranial pressure.",
+        "Chronic IGF-1 excess would be expected to mimic acromegaly."
+      ],
+      "reference": "IGF-1 PHYSIOLOGY: \"IGF-1 is approved for use in patients with GH-resistance syndromes... IGF-1 side effects are dose dependent, and overdose may result in hypoglycemia, hypotension, fluid retention, temporomandibular jaw pain, and increased intracranial pressure, all of which are reversible. Retinal damage and avascular femoral head necrosis have been reported. Chronic excess IGF-1 administration presumably would result in features of acromegaly.\""
+    },
+    {
+      "id": "h2-073-n13",
+      "type": "note",
+      "subtopic": "ACTH — Synthesis",
+      "title": "How ACTH and several other bioactive peptides are all derived from a single POMC precursor",
+      "content": "Corticotrope cells, about 20% of the anterior pituitary cell population, do not synthesize ACTH as a standalone gene product. Instead, they produce a large precursor protein, proopiomelanocortin (POMC, 266 amino acids), which is cleaved into multiple bioactive peptides: ACTH (39 amino acids) itself, plus β-lipotropin, β-endorphin, met-enkephalin, α-melanocyte-stimulating hormone (α-MSH), and corticotropin-like intermediate lobe protein (CLIP).\nTranscription of the POMC gene is tightly controlled: glucocorticoids potently SUPPRESS it (negative feedback), while corticotropin-releasing hormone (CRH), AVP, and proinflammatory cytokines (notably IL-6 and leukemia inhibitory factor) INDUCE it.\nCRH itself is a 41-amino-acid hypothalamic peptide synthesized in the paraventricular nucleus (and higher brain centers), acting via a corticotrope GPCR to drive POMC transcription — making CRH the predominant physiologic stimulus for ACTH synthesis and release.",
+      "keyPoints": [
+        "ACTH, β-lipotropin, β-endorphin, met-enkephalin, α-MSH, and CLIP are all cleavage products of the single POMC precursor.",
+        "Glucocorticoids suppress POMC transcription; CRH, AVP, and proinflammatory cytokines (IL-6, leukemia inhibitory factor) induce it.",
+        "CRH is the predominant hypothalamic stimulator of ACTH synthesis and release, acting via a corticotrope GPCR."
+      ],
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Synthesis): \"ACTH (39 amino acids) is derived from the POMC precursor protein (266 amino acids) that also generates several other peptides, including β-lipotropin, β-endorphin, met-enkephalin, α-melanocyte-stimulating hormone (α-MSH), and corticotropin-like intermediate lobe protein (CLIP). The POMC gene is potently suppressed by glucocorticoids and induced by corticotropin-releasing hormone (CRH), AVP, and proinflammatory cytokines, including IL-6, as well as leukemia inhibitory factor.\""
+    },
+    {
+      "id": "h2-073-n14",
+      "type": "note",
+      "subtopic": "ACTH — Secretion and Feedback",
+      "title": "Why ACTH levels become extremely high in primary adrenal failure but low in pituitary (secondary) adrenal insufficiency",
+      "content": "Cortisol normally suppresses the HPA axis at two levels simultaneously: it inhibits hypothalamic CRH release AND directly attenuates pituitary POMC gene transcription and ACTH release.\nIn primary adrenal failure (e.g., Addison's disease), the adrenal gland cannot produce cortisol, so this negative feedback signal is lost entirely. The hypothalamus and pituitary, sensing essentially zero cortisol, drive CRH and POMC/ACTH production to maximum — resulting in the markedly (often dramatically) elevated ACTH levels characteristic of primary adrenal insufficiency.\nBy contrast, in pituitary (secondary) adrenal insufficiency, the corticotrope itself is damaged or deficient, so ACTH cannot rise appropriately regardless of how low cortisol falls — explaining why secondary adrenal insufficiency presents with LOW or inappropriately normal ACTH despite low cortisol.",
+      "keyPoints": [
+        "Cortisol suppresses the HPA axis via hypothalamic CRH inhibition AND direct pituitary POMC suppression.",
+        "Loss of cortisol feedback (primary adrenal failure) removes this brake, producing extremely high ACTH.",
+        "In secondary (pituitary) adrenal insufficiency, ACTH cannot rise despite low cortisol because the corticotrope itself is the defective component — see [[h2-074]] for the clinical correlate."
+      ],
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"Glucocorticoid-mediated negative regulation of the hypothalamic-pituitary-adrenal (HPA) axis occurs as a consequence of both hypothalamic CRH suppression and direct attenuation of pituitary POMC gene expression and ACTH release. In contrast, loss of cortisol feedback inhibition, as occurs in primary adrenal failure, results in extremely high ACTH levels.\""
+    },
+    {
+      "id": "h2-073-n15",
+      "type": "note",
+      "subtopic": "ACTH — Circadian Rhythm",
+      "title": "How the ACTH/cortisol circadian rhythm is generated by changes in pulse amplitude, not pulse frequency",
+      "content": "ACTH secretion is pulsatile and follows a reproducible circadian rhythm: levels peak around 6:00 A.M. and reach their nadir around midnight. Because adrenal cortisol output is driven by ACTH, cortisol secretion follows the same diurnal pattern with a delay.\nMechanistically, this rhythm arises from variation in the AMPLITUDE of ACTH secretory pulses across the day — not from a change in how often pulses occur (pulse frequency stays relatively constant).\nSuperimposed on this baseline circadian pattern, ACTH secretion is acutely increased by physical and psychological stress, exercise, acute illness, and insulin-induced hypoglycemia — all of which can transiently override the normal diurnal trough.",
+      "keyPoints": [
+        "ACTH and cortisol follow a circadian rhythm peaking near 6:00 A.M. and reaching a nadir near midnight.",
+        "The rhythm is generated by changes in ACTH pulse AMPLITUDE, not pulse frequency.",
+        "Stress, exercise, acute illness, and insulin-induced hypoglycemia acutely increase ACTH on top of this baseline rhythm."
+      ],
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"ACTH secretion is pulsatile and exhibits a characteristic circadian rhythm, peaking at about 6:00 A.M. and reaching a nadir about midnight. Adrenal glucocorticoid secretion, which is driven by ACTH, follows a parallel diurnal pattern. ACTH circadian rhythmicity is determined by variations in secretory pulse amplitude rather than changes in pulse frequency. Superimposed on this endogenous rhythm, ACTH levels are increased by physical and psychological stress, exercise, acute illness, and insulin-induced hypoglycemia.\""
+    },
+    {
+      "id": "h2-073-n16",
+      "type": "note",
+      "subtopic": "ACTH — Stress and Critical Illness",
+      "title": "How inflammatory cytokines activate the HPA axis during sepsis while simultaneously blunting its negative feedback",
+      "content": "Acute inflammatory or septic insults activate the HPA axis through an integrated set of signals: proinflammatory cytokines, bacterial toxins, and direct neural input all converge on the hypothalamus.\nThe key cytokines involved — TNF, IL-1, IL-2, IL-6, and leukemia inhibitory factor — form an overlapping cascade that stimulates hypothalamic CRH and AVP release, pituitary POMC gene expression, and even local pituitary paracrine cytokine signaling.\nThe resulting rise in cortisol helps restrain the inflammatory response and protect the host. However, these same cytokines paradoxically induce central glucocorticoid receptor RESISTANCE — impairing the normal negative-feedback suppression of the HPA axis by cortisol.\nThe net effect during critical illness is therefore a 'turned up but poorly braked' HPA axis: high ACTH/cortisol output that is less responsive than normal to negative feedback, reflecting integrated hypothalamic, pituitary, and peripheral cytokine signaling.",
+      "keyPoints": [
+        "TNF, IL-1, IL-2, IL-6, and leukemia inhibitory factor activate hypothalamic CRH/AVP and pituitary POMC expression during sepsis.",
+        "The resulting cortisol rise restrains inflammation and supports host defense.",
+        "Cytokines also induce central glucocorticoid receptor resistance, impairing normal negative feedback on the HPA axis."
+      ],
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"Acute inflammatory or septic insults activate the HPA axis through the integrated actions of proinflammatory cytokines, bacterial toxins, and neural signals. The overlapping cascade of ACTH-inducing cytokines (tumor necrosis factor [TNF]; IL-1, -2, and -6; and leukemia inhibitory factor) activates hypothalamic CRH and AVP secretion, pituitary POMC gene expression, and local pituitary paracrine cytokine networks... Concomitantly, cytokine-mediated central glucocorticoid receptor resistance impairs glucocorticoid suppression of the HPA.\""
+    },
+    {
+      "id": "h2-073-n17",
+      "type": "note",
+      "subtopic": "Gonadotropins — Synthesis",
+      "title": "Gonadotropin structure: a shared alpha subunit with hormone-specific beta subunits",
+      "content": "Gonadotrope cells make up about 10% of anterior pituitary cells and synthesize two distinct gonadotropins, LH and FSH.\nLH, FSH, TSH, and human chorionic gonadotropin (hCG) all belong to the same glycoprotein hormone family and share an identical alpha subunit.\nWhat distinguishes these hormones functionally is their hormone-specific beta subunit, each encoded by a separate gene — the beta subunit confers the receptor-binding specificity that determines whether a given hormone acts as LH, FSH, TSH, or hCG.",
+      "keyPoints": [
+        "LH and FSH (and also TSH and hCG) share a common alpha subunit.",
+        "Hormone-specific beta subunits (separate genes) confer functional specificity.",
+        "Gonadotropes constitute ~10% of anterior pituitary cells."
+      ],
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Gonadotrope cells constitute ~10% of anterior pituitary cells and produce two gonadotropin hormones—LH and FSH. Like TSH and human chorionic gonadotropin, LH and FSH are glycoprotein hormones that contain α and β subunits. The α subunit is common to these glycoprotein hormones; specificity of hormone function is conferred by the β subunits, which are expressed by separate genes.\""
+    },
+    {
+      "id": "h2-073-n18",
+      "type": "note",
+      "subtopic": "Gonadotropins — GnRH Pulsatility",
+      "title": "How GnRH pulse frequency, not just GnRH presence, determines whether gonadotropes are stimulated or desensitized — the basis for GnRH agonist therapy",
+      "content": "GnRH is secreted by the hypothalamus in discrete pulses every 60-120 minutes, and each pulse elicits a corresponding LH/FSH pulse from the pituitary gonadotropes.\nThe critical biological fact is that PULSATILITY itself, not merely the presence of GnRH, is what gonadotropes require: intermittent GnRH pulses PRIME gonadotrope responsiveness and sustain LH/FSH secretion, whereas CONTINUOUS (non-pulsatile) GnRH exposure causes the gonadotropes to become desensitized and shut down gonadotropin output.\nThis principle is directly exploited therapeutically: long-acting GnRH AGONISTS, by providing constant rather than pulsatile receptor occupancy, paradoxically SUPPRESS gonadotropin secretion. This is why they are used to suppress gonadotropins in children with central precocious puberty, to lower testosterone in men with prostate cancer, and in some ovulation-induction protocols to first 'down-regulate' endogenous gonadotropins before controlled stimulation.",
+      "keyPoints": [
+        "GnRH pulses occur every 60-120 minutes and drive corresponding LH/FSH pulses.",
+        "Pulsatile GnRH primes gonadotrope responsiveness; continuous GnRH exposure causes desensitization.",
+        "Long-acting GnRH agonists exploit this to SUPPRESS gonadotropins — used in precocious puberty, prostate cancer, and ovulation-induction protocols."
+      ],
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"GnRH is secreted in discrete pulses every 60–120 min, and the pulses in turn elicit LH and FSH pulses... The pulsatile mode of GnRH input is essential to its action; pulses prime gonadotrope responsiveness, whereas continuous GnRH exposure induces desensitization. Based on this phenomenon, long-acting GnRH agonists are used to suppress gonadotropin levels in children with precocious puberty and in men with prostate cancer... and are used in some ovulation-induction protocols to reduce levels of endogenous gonadotropins.\""
+    },
+    {
+      "id": "h2-073-n19",
+      "type": "note",
+      "subtopic": "Gonadotropins — Estrogen Feedback",
+      "title": "How estrogen switches from negative to positive feedback on the gonadotropin axis to trigger the LH surge",
+      "content": "Estrogen's effect on gonadotropin secretion depends on its level and rate of change, not just its presence.\nChronically elevated (steady-state) estrogen levels are INHIBITORY to GnRH/LH-FSH secretion — the classic negative-feedback arrangement.\nHowever, RISING estrogen levels — as occur during late follicular maturation just before ovulation — exert POSITIVE feedback: they enhance pituitary responsiveness to GnRH and increase both the frequency and amplitude of gonadotropin pulses, producing the midcycle LH surge that triggers ovulation.\nProgesterone adds another layer of modulation: it slows GnRH pulse frequency (contributing to the lower-frequency, higher-amplitude pulse pattern of the luteal phase) while simultaneously enhancing the gonadotrope's response to each GnRH pulse that does occur.",
+      "keyPoints": [
+        "Chronic, steady-state estrogen exerts negative feedback on GnRH/gonadotropin secretion.",
+        "Rising estrogen (late follicular phase) exerts positive feedback, increasing GnRH pulse frequency/amplitude and pituitary sensitivity — producing the LH surge.",
+        "Progesterone slows GnRH pulse frequency but enhances gonadotrope responsiveness to each pulse."
+      ],
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Estrogens act at both the hypothalamus and the pituitary to modulate gonadotropin secretion. Chronic estrogen exposure is inhibitory, whereas rising estrogen levels, as occur during the preovulatory surge, exert positive feedback to enhance pituitary responsiveness and to increase gonadotropin pulse frequency and amplitude. Progesterone slows GnRH pulse frequency but enhances gonadotropin responses to GnRH.\""
+    },
+    {
+      "id": "h2-073-n20",
+      "type": "note",
+      "subtopic": "Gonadotropins — Inhibin/Activin",
+      "title": "How inhibin and activin provide a GnRH-independent layer of selective FSH regulation",
+      "content": "While GnRH is the principal regulator of both LH and FSH, FSH synthesis is additionally fine-tuned by gonadal peptides of the TGF-beta superfamily that act independently of GnRH.\nInhibin selectively SUPPRESSES FSH synthesis (without comparably affecting LH), while activin selectively STIMULATES FSH synthesis.\nThis gonad-to-pituitary feedback loop allows FSH levels to be adjusted based on signals from the gonads themselves (e.g., reflecting follicle number or Sertoli cell activity) independent of the hypothalamic GnRH pulse generator that governs LH and FSH together.",
+      "keyPoints": [
+        "Inhibin (a TGF-beta family gonadal peptide) selectively suppresses FSH.",
+        "Activin (also TGF-beta family) selectively stimulates FSH synthesis.",
+        "This provides GnRH-independent, gonad-derived fine control of FSH specifically."
+      ],
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Although GnRH is the main regulator of LH and FSH secretion, FSH synthesis is also under distinct control by the gonadal peptides inhibin and activin, members of the transforming growth factor β (TGF-β) family. Inhibin selectively suppresses FSH, whereas activin stimulates FSH synthesis.\""
+    },
+    {
+      "id": "h2-073-n21",
+      "type": "note",
+      "subtopic": "Thyroid-Stimulating Hormone — Synthesis and Secretion",
+      "title": "TSH structure and regulation: a shared alpha subunit, TRH stimulation, and thyroid hormone as the dominant brake",
+      "content": "Thyrotrope cells, which secrete TSH, make up only about 5% of the anterior pituitary cell population — the smallest of the major trophic cell populations.\nLike LH and FSH, TSH shares the common glycoprotein hormone alpha subunit but has its own specific TSH beta subunit that confers receptor specificity.\nTRH, a hypothalamic tripeptide, acts on a pituitary GPCR to stimulate TSH synthesis and secretion — and, as a secondary effect, also stimulates lactotropes to release PRL.\nHowever, TRH stimulation is normally overridden by a more powerful negative signal: thyroid hormones (T4/T3) are the predominant negative regulator of TSH production, with dopamine, somatostatin, and glucocorticoids providing additional suppressive input.",
+      "keyPoints": [
+        "Thyrotropes constitute ~5% of anterior pituitary cells.",
+        "TSH shares the common glycoprotein alpha subunit but has a specific TSH beta subunit.",
+        "TRH stimulates TSH (and also PRL) secretion, but thyroid hormones are the dominant negative regulator of TSH, overriding TRH; dopamine, somatostatin, and glucocorticoids also suppress TSH."
+      ],
+      "reference": "THYROID-STIMULATING HORMONE (Synthesis and Secretion): \"TSH-secreting thyrotrope cells constitute 5% of the anterior pituitary cell population. TSH shares a common α subunit with LH and FSH but contains a specific TSH β subunit. TRH is a hypothalamic tripeptide... that acts through a pituitary GPCR to stimulate TSH synthesis and secretion; it also stimulates the lactotrope cell to secrete PRL. TSH secretion is stimulated by TRH, whereas thyroid hormones, dopamine, somatostatin, and glucocorticoids suppress TSH by overriding TRH induction. Thyroid hormones are the predominant negative regulator of TSH production.\""
+    },
+    {
+      "id": "h2-073-n22",
+      "type": "note",
+      "subtopic": "Thyroid-Stimulating Hormone — Thyrotrope Hyperplasia",
+      "title": "Why longstanding untreated primary hypothyroidism can produce thyrotrope hyperplasia that mimics a pituitary mass on MRI",
+      "content": "Because thyroid hormone is the dominant negative regulator of both TSH secretion and thyrotrope cell proliferation, any process that chronically removes thyroid hormone feedback will chronically drive thyrotrope activity.\nConditions that destroy or impair the thyroid gland — surgical thyroidectomy, radiation-induced hypothyroidism, chronic thyroiditis, or prolonged goitrogen exposure — all remove this negative feedback and raise TSH.\nIf primary hypothyroidism goes UNTREATED for a long time, the chronic loss of feedback can drive not just elevated TSH levels but actual thyrotrope cell HYPERPLASIA, which can enlarge the pituitary gland enough to be visible on MRI — potentially mimicking a pituitary adenoma.\nThis is a clinically important pitfall: a 'pituitary mass' found incidentally in a patient with untreated hypothyroidism may simply be reactive thyrotrope hyperplasia that regresses with thyroid hormone replacement, not a true tumor.",
+      "keyPoints": [
+        "Loss of thyroid hormone feedback (thyroidectomy, radiation, thyroiditis, goitrogens) raises TSH by removing the dominant brake on thyrotropes.",
+        "Longstanding untreated primary hypothyroidism can cause thyrotrope hyperplasia and pituitary enlargement visible on MRI.",
+        "This reactive enlargement can mimic a pituitary adenoma but may regress with thyroid hormone replacement."
+      ],
+      "reference": "THYROID-STIMULATING HORMONE (Synthesis and Secretion): \"Thyrotrope cell proliferation and TSH secretion are both induced when negative feedback inhibition by thyroid hormones is removed. Thus, thyroid damage (including surgical thyroidectomy), radiation-induced hypothyroidism, chronic thyroiditis, and prolonged goitrogen exposure are associated with increased TSH levels. Longstanding untreated hypothyroidism can lead to elevated TSH levels, which may be associated with thyrotrope hyperplasia and pituitary enlargement and may sometimes be evident on magnetic resonance imaging.\""
+    },
+    {
+      "id": "h2-073-n23",
+      "type": "note",
+      "subtopic": "Thyroid-Stimulating Hormone — Action",
+      "title": "Why a single TSH measurement is diagnostically sufficient, unlike most other pulsatile pituitary hormones",
+      "content": "Most anterior pituitary hormones (GH, ACTH, LH/FSH) show large pulsatile excursions that make a single random measurement difficult to interpret without knowing where in the pulse cycle the sample was drawn.\nTSH is different: although it is technically secreted in pulses, these pulses have low amplitude, and TSH itself has a relatively long circulating half-life. Both features smooth out the moment-to-moment fluctuations that complicate interpretation of other pituitary hormones.\nAs a result, a single TSH measurement at any time of day reliably reflects the overall (integrated) circulating TSH level — which is why TSH, unlike GH or ACTH, can be used as a simple one-time screening and monitoring test in routine clinical practice.",
+      "keyPoints": [
+        "TSH pulses have low amplitude, and TSH has a relatively long half-life.",
+        "These features make single random TSH measurements reliably reflect overall circulating levels.",
+        "This is in contrast to GH, ACTH, and gonadotropins, which require provocative or repeated/pooled sampling for accurate interpretation."
+      ],
+      "reference": "THYROID-STIMULATING HORMONE (Action): \"TSH is secreted in pulses, although the excursions are modest in comparison to other pituitary hormones because of the low amplitude of the pulses and the relatively long half-life of TSH. Consequently, single determinations of TSH suffice to precisely assess its circulating levels.\""
+    },
+    {
+      "id": "h2-073-n24",
+      "type": "note",
+      "subtopic": "Growth Hormone — Receptor Antagonism (Pegvisomant)",
+      "title": "How pegvisomant treats acromegaly by binding the GH receptor without activating it",
+      "content": "Normal GH signaling requires GH to bind a preformed GH receptor dimer, inducing the conformational change (internal rotation) that activates downstream JAK/STAT signaling.\nPegvisomant is a modified GH analogue engineered to bind the GH receptor with high affinity but to be INCAPABLE of triggering the receptor activation step — it occupies the receptor without transmitting the signal, acting as a competitive antagonist that blocks endogenous GH from signaling.\nBecause it works entirely at the receptor level (downstream of the pituitary tumor itself), pegvisomant is approved for acromegaly and is particularly useful when IGF-1 remains elevated despite other treatments, since it directly normalizes the peripheral consequences of GH excess regardless of the tumor's own GH output.",
+      "keyPoints": [
+        "GH receptor activation normally requires receptor dimerization plus a conformational (internal rotation) change to engage JAK/STAT signaling.",
+        "Pegvisomant binds the GH receptor but cannot trigger this activating conformational change, acting as a competitive GH receptor antagonist.",
+        "It is approved for treatment of acromegaly, acting peripherally regardless of pituitary tumor GH secretion — see [[h2-075]] for clinical use and monitoring."
+      ],
+      "reference": "GROWTH HORMONE (Action): \"GH analogues that bind to the receptor but are incapable of mediating receptor signaling are potent antagonists of GH action. A GH receptor antagonist (pegvisomant) is approved for treatment of acromegaly.\""
+    },
+    {
+      "id": "h2-073-n25",
+      "type": "note",
+      "subtopic": "Prolactin — Receptor Signaling",
+      "title": "How PRL receptor mutations reveal both the JAK/STAT signaling pathway and PRL's essential role in lactation",
+      "content": "The PRL receptor belongs to the type I cytokine receptor family, which also includes the GH and IL-6 receptors — a structural relationship that explains why PRL, GH, and certain cytokines all signal through the same downstream JAK/STAT machinery.\nLigand binding causes the PRL receptor to dimerize, activating Janus kinase (JAK), which then enables STAT proteins to translocate to the nucleus and switch on target genes.\nNatural human PRL receptor mutations provide a clear genotype-phenotype demonstration of this pathway's importance: heterozygous mutations cause PRL insensitivity, hyperprolactinemia (since target tissues don't respond, less negative feedback occurs), and oligomenorrhea, while HOMOZYGOUS mutations cause agalactia (complete absence of milk production) — directly demonstrating that functional PRL receptor signaling is REQUIRED for lactation.",
+      "keyPoints": [
+        "The PRL receptor is a type I cytokine receptor (same family as GH and IL-6 receptors), signaling via JAK/STAT.",
+        "Heterozygous PRL receptor mutations cause PRL insensitivity, hyperprolactinemia, and oligomenorrhea.",
+        "Homozygous PRL receptor mutations cause agalactia, proving PRL action is necessary for lactation."
+      ],
+      "reference": "PROLACTIN (Action): \"The PRL receptor is a member of the type I cytokine receptor family that also includes GH and interleukin (IL) 6 receptors. Ligand binding induces receptor dimerization and intracellular signaling by Janus kinase (JAK), which stimulates translocation of the signal transduction and activators of transcription (STAT) family to activate target genes. Mutations of the PRL receptor result in PRL insensitivity, hyperprolactinemia, and oligomenorrhea. When homozygous, PRL receptor mutations cause agalactia, demonstrating that PRL action is necessary for lactation.\""
+    },
+    {
+      "id": "h2-073-mcq1",
+      "type": "mcq",
+      "subtopic": "Anatomy — Hypothalamic-Pituitary Portal System",
+      "question": "A lesion selectively disrupts the hypothalamic-pituitary portal vasculature without directly damaging the posterior pituitary or its neural tracts. What is the most likely consequence?",
+      "options": [
+        "No effect, since anterior pituitary cells have an independent systemic arterial supply",
+        "Anterior pituitary cells lose exposure to hypothalamic releasing and inhibiting factors, disrupting normal pulsatile anterior pituitary hormone secretion",
+        "Posterior pituitary hormone secretion (AVP, oxytocin) would be primarily affected",
+        "Anterior pituitary hormone secretion would increase uniformly across all axes"
+      ],
+      "correctOption": 1,
+      "explanation": "The anterior pituitary depends on the hypothalamic-pituitary portal plexus to deliver hypothalamic releasing/inhibiting factors at high local concentration. Disrupting this portal vasculature removes anterior pituitary cells' main source of hypothalamic regulatory signals, impairing their normal pulsatile hormone secretion. The posterior pituitary, by contrast, depends on direct neural innervation, not portal blood flow.",
+      "reference": "ANATOMY: \"The hypothalamic-pituitary portal plexus provides the major blood source for the anterior pituitary, allowing reliable transmission of hypothalamic peptide pulses without significant systemic dilution; consequently, anterior pituitary cells are exposed to specific releasing or inhibiting factors and in turn release their respective hormones as discrete pulses into the systemic circulation.\""
+    },
+    {
+      "id": "h2-073-mcq2",
+      "type": "mcq",
+      "subtopic": "Anatomy — Posterior Pituitary Innervation",
+      "question": "A patient undergoes neurosurgery that transects the pituitary stalk, damaging the supraopticohypophyseal and tuberohypophyseal neural tracts. Which hormone deficiency is most directly explained by this neural (rather than vascular) injury?",
+      "options": [
+        "GH deficiency",
+        "ACTH deficiency",
+        "Arginine vasopressin (AVP) deficiency",
+        "TSH deficiency"
+      ],
+      "correctOption": 2,
+      "explanation": "AVP and oxytocin are synthesized by hypothalamic neurons and transported down axons through the pituitary stalk to the posterior pituitary for release. Stalk transection directly damages these neural tracts, making AVP deficiency the most directly explained consequence — unlike anterior pituitary hormones, which depend on portal blood flow rather than direct innervation.",
+      "reference": "ANATOMY: \"In contrast to the anterior pituitary, the posterior lobe is directly innervated by hypothalamic neurons (supraopticohypophyseal and tuberohypophyseal nerve tracts) via the pituitary stalk... Thus, posterior pituitary production of arginine vasopressin (AVP) and oxytocin is particularly sensitive to neuronal damage by lesions that affect the pituitary stalk or hypothalamus.\""
+    },
+    {
+      "id": "h2-073-mcq3",
+      "type": "mcq",
+      "subtopic": "Pituitary Development — Transcription Factors",
+      "question": "A child has combined deficiency of GH, PRL, TSH, AND gonadotropins. Based on the hierarchical relationships among pituitary developmental transcription factors, a mutation in which gene would best explain this BROAD pattern, including gonadotrope involvement?",
+      "options": [
+        "Pit-1",
+        "T-Pit",
+        "Prop-1",
+        "Thyrotrope embryonic factor (TEF)"
+      ],
+      "correctOption": 2,
+      "explanation": "Prop-1 acts upstream of and is required for Pit-1 function (which governs GH, PRL, and TSH) and is also required for gonadotrope development. A PROP1 mutation therefore produces a broader combined deficiency encompassing GH, PRL, TSH, AND gonadotropins, whereas Pit-1 mutations alone spare gonadotropins.",
+      "reference": "PITUITARY DEVELOPMENT: \"The transcription factor Prop-1 induces pituitary development of Pit-1-specific lineages as well as gonadotropes. The transcription factor Pit-1 determines cell-specific expression of GH, PRL, and TSH in somatotropes, lactotropes, and thyrotropes.\""
+    },
+    {
+      "id": "h2-073-mcq4",
+      "type": "mcq",
+      "subtopic": "Prolactin — Synthesis",
+      "question": "A pituitary tumor is found on immunostaining to co-secrete both prolactin and growth hormone. What is the embryologic basis for this combined secretory pattern?",
+      "options": [
+        "Lactotropes and somatotropes are derived from a common precursor cell",
+        "Lactotropes and corticotropes are derived from a common precursor cell",
+        "All anterior pituitary cell types differentiate completely independently with no shared precursors",
+        "This pattern occurs only in malignant pituitary carcinoma, never in adenomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Lactotropes (PRL-secreting) and somatotropes (GH-secreting) arise from a common precursor cell, which is why a single tumor — a mammosomatotrope adenoma — can co-secrete both PRL and GH.",
+      "reference": "PROLACTIN (Synthesis): \"PRL is synthesized in lactotropes, which constitute ~20% of anterior pituitary cells. Lactotropes and somatotropes are derived from a common precursor cell that may give rise to a tumor that secretes both PRL and GH.\""
+    },
+    {
+      "id": "h2-073-mcq5",
+      "type": "mcq",
+      "subtopic": "Prolactin — Regulation (Dopamine)",
+      "question": "A patient with a large nonfunctioning pituitary macroadenoma compressing the pituitary stalk is found to have a mildly elevated serum PRL of 60 µg/L (reference upper limit ~25 µg/L). What is the most likely explanation?",
+      "options": [
+        "A co-existing prolactinoma must be present, since any PRL elevation indicates a PRL-secreting tumor",
+        "Disruption of hypothalamic dopamine delivery to lactotropes ('stalk effect'), producing disinhibited PRL release",
+        "The tumor is secreting TRH, which is the primary physiologic regulator of PRL",
+        "This level of PRL elevation is inconsistent with a nonfunctioning adenoma and mandates immediate surgery regardless of other findings"
+      ],
+      "correctOption": 1,
+      "explanation": "PRL is unique in being predominantly under tonic INHIBITORY dopaminergic control. A stalk-compressing mass can interrupt hypothalamic dopamine delivery to lactotropes, causing disinhibited ('stalk effect') hyperprolactinemia — typically more modest than the very high levels seen with large prolactinomas.",
+      "reference": "PROLACTIN (Secretion): \"PRL is unique among the pituitary hormones in that the predominant hypothalamic control mechanism is inhibitory, reflecting tonic dopamine-mediated suppression of PRL release. This regulatory pathway accounts for the spontaneous PRL hypersecretion that occurs with pituitary stalk section, often a consequence of head trauma or compressive mass lesions at the skull base.\""
+    },
+    {
+      "id": "h2-073-mcq6",
+      "type": "mcq",
+      "subtopic": "Prolactin — Action",
+      "question": "A man with a prolactin-secreting macroadenoma presents with decreased libido, low serum testosterone, and reduced sperm count. What is the most likely mechanism linking hyperprolactinemia to these findings?",
+      "options": [
+        "PRL suppresses hypothalamic GnRH and pituitary gonadotropin secretion and impairs gonadal steroidogenesis, producing a hypogonadotropic state",
+        "PRL has no direct effect on the male reproductive axis",
+        "The findings represent coincidental primary testicular failure unrelated to the pituitary tumor",
+        "PRL stimulates excess LH secretion, leading to Leydig cell exhaustion and secondary hypogonadism"
+      ],
+      "correctOption": 0,
+      "explanation": "PRL suppresses GnRH and gonadotropin secretion and directly impairs gonadal steroidogenesis. In men this produces attenuated LH-driven testosterone synthesis and decreased spermatogenesis, manifesting as decreased libido and reduced fertility.",
+      "reference": "PROLACTIN (Action): \"PRL inhibits reproductive function by suppressing hypothalamic gonadotropin-releasing hormone (GnRH) and pituitary gonadotropin secretion and by impairing gonadal steroidogenesis in both women and men... In men, attenuated LH secretion leads to low testosterone levels and decreased spermatogenesis.\""
+    },
+    {
+      "id": "h2-073-mcq7",
+      "type": "mcq",
+      "subtopic": "Growth Hormone — Synthesis",
+      "question": "Which anterior pituitary cell type constitutes the largest proportion of the gland (up to 50% of cells), and which transcription factor governs its hormone gene transcription?",
+      "options": [
+        "Lactotropes; Prop-1",
+        "Somatotropes; Pit-1",
+        "Corticotropes; T-Pit",
+        "Gonadotropes; SF-1"
+      ],
+      "correctOption": 1,
+      "explanation": "Somatotropes, which secrete GH, constitute up to 50% of anterior pituitary cells — the largest population — and their development and GH gene transcription depend on the Pit-1 transcription factor.",
+      "reference": "GROWTH HORMONE (Synthesis): \"GH is the most abundant anterior pituitary hormone, and GH-secreting somatotrope cells constitute up to 50% of the total anterior pituitary cell population... Somatotrope development and GH transcription are determined by expression of the cell-specific Pit-1 nuclear transcription factor.\""
+    },
+    {
+      "id": "h2-073-mcq8",
+      "type": "mcq",
+      "subtopic": "Growth Hormone — Secretion Regulation",
+      "question": "A hypothetical drug selectively blocks somatostatin receptor subtypes SST2 and SST5 on pituitary somatotropes. What effect on GH secretion would be expected?",
+      "options": [
+        "Decreased GH pulse amplitude with preserved basal tone",
+        "Increased basal (interpulse) GH secretion, because somatostatin's tonic restraint on basal GH tone is removed",
+        "No effect, since somatostatin only regulates ACTH secretion",
+        "Complete and permanent cessation of GH secretion"
+      ],
+      "correctOption": 1,
+      "explanation": "GHRH generates discrete GH pulses, while somatostatin (SRIF) sets the basal (interpulse) secretory tone by tonically restraining GH release. Blocking the somatostatin receptor subtypes (SST2/SST5) that mediate GH suppression would remove this tonic restraint and raise basal GH secretion.",
+      "reference": "GROWTH HORMONE (Secretion): \"GHRH is secreted in discrete spikes that elicit GH pulses, whereas SRIF sets basal GH secretory tone... Somatostatin binds to five distinct receptor subtypes (SST1 to SST5); SST2 and SST5 subtypes preferentially suppress GH (and TSH) secretion.\""
+    },
+    {
+      "id": "h2-073-mcq9",
+      "type": "mcq",
+      "subtopic": "Growth Hormone — Diagnostic Limitations",
+      "question": "A 55-year-old obese man being evaluated for possible adult GH deficiency has an undetectable random GH level (<0.1 µg/L). How should this single result be interpreted?",
+      "options": [
+        "This single value is diagnostic of adult GH deficiency",
+        "Undetectable random GH is common in healthy obese and elderly individuals, so this result alone cannot distinguish GH deficiency from normal status; provocative testing is needed",
+        "This finding excludes any pituitary pathology entirely",
+        "GH replacement should be started immediately on the basis of this result alone"
+      ],
+      "correctOption": 1,
+      "explanation": "Because GH secretion is pulsatile, random GH is undetectable (<1 µg/L) in most obese and elderly subjects without GH deficiency, and in about half of daytime samples from healthy adults generally. A single random GH level therefore cannot distinguish GH deficiency from normal GH status.",
+      "reference": "GROWTH HORMONE (Secretion): \"Using standard assays, random GH measurements are undetectable in ~50% of daytime samples obtained from healthy subjects and are also undetectable (<1 µg/L) in most obese and elderly subjects. Thus, single random GH measurements do not distinguish patients with adult GH deficiency from those with GH levels in the normal range.\""
+    },
+    {
+      "id": "h2-073-mcq10",
+      "type": "mcq",
+      "subtopic": "Growth Hormone — Action",
+      "question": "A patient with active acromegaly develops new-onset hyperglycemia. Which direct physiologic action of GH best explains this finding?",
+      "options": [
+        "GH directly stimulates pancreatic insulin secretion, causing hyperinsulinemic hypoglycemia",
+        "GH antagonizes insulin action on glucose metabolism, impairing glucose tolerance",
+        "GH suppresses hepatic gluconeogenesis, lowering blood glucose",
+        "GH has no direct effect on glucose metabolism"
+      ],
+      "correctOption": 1,
+      "explanation": "GH directly impairs glucose tolerance by antagonizing insulin action — a key mechanism behind the insulin resistance and hyperglycemia seen in acromegaly.",
+      "reference": "GROWTH HORMONE (Action): \"GH induces protein synthesis and nitrogen retention and also impairs glucose tolerance by antagonizing insulin action.\""
+    },
+    {
+      "id": "h2-073-mcq11",
+      "type": "mcq",
+      "subtopic": "Insulin-Like Growth Factors — IGF-1 and Catabolic States",
+      "question": "A critically ill patient in the ICU has a low serum IGF-1 level, while random GH sampling shows elevated GH levels. What is the most likely explanation for this discordance?",
+      "options": [
+        "Laboratory error — GH and IGF-1 should always move in parallel",
+        "Hepatic GH resistance induced by the hypocaloric/catabolic state, blunting IGF-1 generation despite preserved or increased GH secretion",
+        "This pattern indicates a GH-secreting pituitary tumor (acromegaly)",
+        "IGF-1 is not regulated by GH in critically ill patients and this finding is expected at baseline"
+      ],
+      "correctOption": 1,
+      "explanation": "Hypocaloric states are associated with hepatic GH resistance, so IGF-1 generation is blunted (low IGF-1) even when GH secretion is normal or elevated — a dissociation characteristic of cachexia, malnutrition, and sepsis.",
+      "reference": "Insulin-Like Growth Factors: \"Hypocaloric states are associated with GH resistance; IGF-1 levels are therefore low with cachexia, malnutrition, and sepsis.\""
+    },
+    {
+      "id": "h2-073-mcq12",
+      "type": "mcq",
+      "subtopic": "IGF-1 Physiology — Therapeutic Use",
+      "question": "A child with Laron syndrome (a GH receptor mutation causing GH insensitivity) is being considered for hormonal therapy. What is the most appropriate treatment, and what adverse effect should be monitored during dose titration?",
+      "options": [
+        "Recombinant GH, since high-dose GH can overcome the receptor defect",
+        "Recombinant IGF-1 therapy, monitoring for dose-dependent hypoglycemia, hypotension, fluid retention, and increased intracranial pressure",
+        "Pegvisomant, to further block residual GH receptor activity",
+        "Glucocorticoid replacement to stimulate growth"
+      ],
+      "correctOption": 1,
+      "explanation": "Because the GH receptor itself is defective in Laron syndrome, GH cannot generate IGF-1. Recombinant IGF-1 is approved for GH-resistance syndromes, bypassing the defective receptor, but its dose-dependent adverse effects (hypoglycemia, hypotension, fluid retention, jaw pain, raised intracranial pressure) require monitoring.",
+      "reference": "IGF-1 PHYSIOLOGY: \"IGF-1 is approved for use in patients with GH-resistance syndromes... IGF-1 side effects are dose dependent, and overdose may result in hypoglycemia, hypotension, fluid retention, temporomandibular jaw pain, and increased intracranial pressure, all of which are reversible.\""
+    },
+    {
+      "id": "h2-073-mcq13",
+      "type": "mcq",
+      "subtopic": "ACTH — Synthesis",
+      "question": "A patient with an ACTH-secreting pituitary tumor (Cushing's disease) develops diffuse skin and gum-line hyperpigmentation. Which co-secreted POMC-derived peptide best explains this finding?",
+      "options": [
+        "β-endorphin",
+        "Met-enkephalin",
+        "α-melanocyte-stimulating hormone (α-MSH)",
+        "Corticotropin-like intermediate lobe protein (CLIP), which has no melanocyte activity"
+      ],
+      "correctOption": 2,
+      "explanation": "ACTH and α-MSH are both cleavage products of the same POMC precursor. α-MSH (and the melanocortin activity of ACTH itself) stimulates melanocytes, producing the hyperpigmentation seen with conditions of very high POMC-derived peptide output, such as ACTH-dependent Cushing's syndrome or primary adrenal failure.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Synthesis): \"ACTH (39 amino acids) is derived from the POMC precursor protein (266 amino acids) that also generates several other peptides, including β-lipotropin, β-endorphin, met-enkephalin, α-melanocyte-stimulating hormone (α-MSH), and corticotropin-like intermediate lobe protein (CLIP).\""
+    },
+    {
+      "id": "h2-073-mcq14",
+      "type": "mcq",
+      "subtopic": "ACTH — Secretion and Feedback",
+      "question": "A patient with autoimmune adrenalitis (primary adrenal insufficiency) and a patient with pituitary ACTH deficiency (secondary adrenal insufficiency) both present with low serum cortisol. Which finding would best distinguish the two conditions?",
+      "options": [
+        "ACTH level: markedly elevated in primary adrenal failure (due to loss of cortisol feedback), but low or inappropriately normal in secondary adrenal insufficiency",
+        "Both conditions produce identical ACTH levels, so ACTH cannot distinguish them",
+        "ACTH is informative only when cortisol is normal",
+        "Serum sodium level distinguishes the two conditions equally well in all cases"
+      ],
+      "correctOption": 0,
+      "explanation": "Loss of cortisol feedback in primary adrenal failure removes the normal brake on hypothalamic CRH and pituitary POMC/ACTH, producing extremely high ACTH. In secondary adrenal insufficiency, the corticotrope itself is deficient, so ACTH remains low or inappropriately normal despite low cortisol.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"Glucocorticoid-mediated negative regulation of the hypothalamic-pituitary-adrenal (HPA) axis occurs as a consequence of both hypothalamic CRH suppression and direct attenuation of pituitary POMC gene expression and ACTH release. In contrast, loss of cortisol feedback inhibition, as occurs in primary adrenal failure, results in extremely high ACTH levels.\""
+    },
+    {
+      "id": "h2-073-mcq15",
+      "type": "mcq",
+      "subtopic": "ACTH — Circadian Rhythm",
+      "question": "To capture the normal circadian PEAK of ACTH secretion, at approximately what time of day should a blood sample be drawn?",
+      "options": [
+        "Around midnight",
+        "Around 6:00 A.M.",
+        "Mid-afternoon (around 2:00-4:00 P.M.)",
+        "ACTH shows no circadian variation, so timing is irrelevant"
+      ],
+      "correctOption": 1,
+      "explanation": "ACTH secretion follows a characteristic circadian rhythm, peaking at about 6:00 A.M. and reaching its nadir around midnight, with parallel diurnal variation in adrenal cortisol output.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"ACTH secretion is pulsatile and exhibits a characteristic circadian rhythm, peaking at about 6:00 A.M. and reaching a nadir about midnight.\""
+    },
+    {
+      "id": "h2-073-mcq16",
+      "type": "mcq",
+      "subtopic": "ACTH — Stress and Critical Illness",
+      "question": "A patient with severe sepsis has persistently elevated serum cortisol but shows a blunted suppression response to dexamethasone testing. What is the most likely explanation?",
+      "options": [
+        "Primary adrenal failure",
+        "Cytokine-mediated central glucocorticoid receptor resistance, which impairs normal HPA negative feedback despite cytokine-driven activation of CRH/ACTH/cortisol",
+        "Isolated pituitary ACTH deficiency",
+        "Excess hypothalamic somatostatin secretion"
+      ],
+      "correctOption": 1,
+      "explanation": "During acute inflammatory/septic illness, proinflammatory cytokines activate the HPA axis (raising ACTH and cortisol) while simultaneously inducing central glucocorticoid receptor resistance, which impairs the normal negative-feedback suppression of the HPA axis — explaining a blunted dexamethasone suppression response despite an intact (indeed activated) axis.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"The resulting cortisol elevation restrains the inflammatory response and enables host protection. Concomitantly, cytokine-mediated central glucocorticoid receptor resistance impairs glucocorticoid suppression of the HPA.\""
+    },
+    {
+      "id": "h2-073-mcq17",
+      "type": "mcq",
+      "subtopic": "Gonadotropins — Synthesis",
+      "question": "A pituitary tumor secretes markedly excess free alpha-subunit without a corresponding rise in intact LH, FSH, or TSH. What does this pattern most directly reflect about gonadotropin/glycoprotein hormone biology?",
+      "options": [
+        "Hormone specificity is conferred by the beta subunit (expressed from separate genes), while the alpha subunit is common to LH, FSH, TSH, and hCG and can be secreted independently in excess",
+        "This is normal physiology, since free alpha subunit is always secreted in excess of intact hormone",
+        "This pattern indicates a defect in the GnRH receptor",
+        "This pattern indicates excess TRH secretion driving alpha-subunit production"
+      ],
+      "correctOption": 0,
+      "explanation": "LH, FSH, TSH, and hCG share a common alpha subunit, while hormone-specific beta subunits (from separate genes) confer functional specificity and are required for forming the intact, biologically active hormone. Some gonadotrope tumors can hypersecrete free alpha subunit disproportionately to intact hormone.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Like TSH and human chorionic gonadotropin, LH and FSH are glycoprotein hormones that contain α and β subunits. The α subunit is common to these glycoprotein hormones; specificity of hormone function is conferred by the β subunits, which are expressed by separate genes.\""
+    },
+    {
+      "id": "h2-073-mcq18",
+      "type": "mcq",
+      "subtopic": "Gonadotropins — GnRH Pulsatility",
+      "question": "A boy with central precocious puberty is started on a long-acting GnRH agonist. What is the expected effect on his gonadotropin levels, and why?",
+      "options": [
+        "Gonadotropins will increase further, since GnRH agonists directly stimulate GnRH receptors",
+        "Gonadotropins will be suppressed, because continuous (non-pulsatile) receptor occupancy desensitizes the gonadotropes",
+        "There will be no effect, since GnRH agonists act only directly on the gonads",
+        "Gonadotropin secretion will become more pulsatile and physiologic"
+      ],
+      "correctOption": 1,
+      "explanation": "Pulsatile GnRH input primes gonadotrope responsiveness, whereas continuous (non-pulsatile) GnRH receptor occupancy from long-acting agonists induces desensitization, suppressing gonadotropin secretion — the basis for using GnRH agonists to treat central precocious puberty.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"The pulsatile mode of GnRH input is essential to its action; pulses prime gonadotrope responsiveness, whereas continuous GnRH exposure induces desensitization. Based on this phenomenon, long-acting GnRH agonists are used to suppress gonadotropin levels in children with precocious puberty.\""
+    },
+    {
+      "id": "h2-073-mcq19",
+      "type": "mcq",
+      "subtopic": "Gonadotropins — Estrogen Feedback",
+      "question": "During the late follicular phase of the menstrual cycle, rapidly rising estrogen levels trigger the midcycle LH surge. What is the mechanism underlying this switch from negative to positive feedback?",
+      "options": [
+        "Rising estrogen levels enhance pituitary responsiveness to GnRH and increase GnRH pulse frequency and amplitude",
+        "Estrogen directly binds and activates the LH receptor in the ovary, bypassing the pituitary",
+        "Estrogen suppresses progesterone, and falling progesterone is the actual trigger for the LH surge",
+        "Rising estrogen levels have no effect on gonadotropin secretion"
+      ],
+      "correctOption": 0,
+      "explanation": "While chronic estrogen exposure is inhibitory, the rapidly rising estrogen of the late follicular phase exerts positive feedback — enhancing pituitary sensitivity to GnRH and increasing gonadotropin pulse frequency and amplitude — producing the LH surge that triggers ovulation.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Chronic estrogen exposure is inhibitory, whereas rising estrogen levels, as occur during the preovulatory surge, exert positive feedback to enhance pituitary responsiveness and to increase gonadotropin pulse frequency and amplitude.\""
+    },
+    {
+      "id": "h2-073-mcq20",
+      "type": "mcq",
+      "subtopic": "Gonadotropins — Inhibin/Activin",
+      "question": "A man has isolated elevation of FSH with normal LH and normal testosterone, and testicular biopsy shows impaired spermatogenesis with reduced Sertoli cell inhibin production. What best explains the isolated FSH elevation?",
+      "options": [
+        "Reduced inhibin removes its selective suppression of FSH, producing a compensatory FSH rise that occurs largely independent of the GnRH-LH axis",
+        "Isolated FSH elevation always indicates a pituitary FSH-secreting adenoma",
+        "Inhibin has no physiologic role in regulating FSH",
+        "This pattern reflects excess activin suppression of FSH"
+      ],
+      "correctOption": 0,
+      "explanation": "Inhibin, produced by Sertoli cells, selectively suppresses FSH independent of GnRH. Reduced inhibin (from impaired Sertoli cell function/spermatogenesis) removes this selective brake, allowing FSH to rise in isolation while LH and testosterone (governed mainly by the GnRH-LH-Leydig cell axis) remain normal.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"FSH synthesis is also under distinct control by the gonadal peptides inhibin and activin, members of the transforming growth factor β (TGF-β) family. Inhibin selectively suppresses FSH, whereas activin stimulates FSH synthesis.\""
+    },
+    {
+      "id": "h2-073-mcq21",
+      "type": "mcq",
+      "subtopic": "Thyroid-Stimulating Hormone — Synthesis and Secretion",
+      "question": "A patient on a high-dose dopamine infusion for septic shock is found to have a low TSH level despite a low-normal free T4. What is the most likely explanation?",
+      "options": [
+        "Dopamine suppresses TSH secretion, overriding TRH stimulation and contributing to a 'sick euthyroid'-like pattern during critical illness",
+        "Dopamine has no effect on TSH secretion",
+        "This pattern indicates primary hypothyroidism requiring high-dose levothyroxine",
+        "This pattern indicates a TSH-secreting pituitary adenoma"
+      ],
+      "correctOption": 0,
+      "explanation": "Dopamine is one of several factors (along with thyroid hormones, somatostatin, and glucocorticoids) that suppress TSH secretion by overriding TRH stimulation — relevant to the low TSH often seen in critically ill patients on dopamine infusions.",
+      "reference": "THYROID-STIMULATING HORMONE (Synthesis and Secretion): \"TSH secretion is stimulated by TRH, whereas thyroid hormones, dopamine, somatostatin, and glucocorticoids suppress TSH by overriding TRH induction.\""
+    },
+    {
+      "id": "h2-073-mcq22",
+      "type": "mcq",
+      "subtopic": "Thyroid-Stimulating Hormone — Thyrotrope Hyperplasia",
+      "question": "A patient with longstanding untreated Hashimoto's thyroiditis is incidentally found to have an enlarged pituitary gland on MRI and a markedly elevated TSH. What is the most appropriate initial management?",
+      "options": [
+        "Immediate transsphenoidal surgery for a presumed pituitary adenoma",
+        "Levothyroxine replacement, since the pituitary enlargement likely reflects reactive thyrotrope hyperplasia that may regress with treatment of the underlying hypothyroidism",
+        "Pituitary irradiation",
+        "Dopamine agonist therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Longstanding untreated primary hypothyroidism removes thyroid hormone negative feedback, which can drive thyrotrope hyperplasia and pituitary enlargement visible on MRI, mimicking an adenoma. The appropriate first step is thyroid hormone replacement, which may reverse the pituitary enlargement.",
+      "reference": "THYROID-STIMULATING HORMONE (Synthesis and Secretion): \"Longstanding untreated hypothyroidism can lead to elevated TSH levels, which may be associated with thyrotrope hyperplasia and pituitary enlargement and may sometimes be evident on magnetic resonance imaging.\""
+    },
+    {
+      "id": "h2-073-mcq23",
+      "type": "mcq",
+      "subtopic": "Thyroid-Stimulating Hormone — Action",
+      "question": "Unlike GH, ACTH, and the gonadotropins, a single random TSH measurement is generally considered diagnostically reliable. What property of TSH secretion explains this?",
+      "options": [
+        "TSH pulses have low amplitude and TSH has a relatively long circulating half-life, both of which smooth out moment-to-moment fluctuations",
+        "TSH is not secreted in a pulsatile manner at all",
+        "TSH has an extremely short half-life, eliminating any variability between measurements",
+        "TSH levels are constant because TSH is not subject to feedback regulation"
+      ],
+      "correctOption": 0,
+      "explanation": "Although TSH is secreted in pulses, the low amplitude of these pulses combined with TSH's relatively long half-life means a single measurement closely reflects the integrated circulating level — unlike GH, ACTH, or gonadotropins, which require provocative or repeated sampling.",
+      "reference": "THYROID-STIMULATING HORMONE (Action): \"TSH is secreted in pulses, although the excursions are modest in comparison to other pituitary hormones because of the low amplitude of the pulses and the relatively long half-life of TSH. Consequently, single determinations of TSH suffice to precisely assess its circulating levels.\""
+    },
+    {
+      "id": "h2-073-mcq24",
+      "type": "mcq",
+      "subtopic": "Growth Hormone — Receptor Antagonism (Pegvisomant)",
+      "question": "A patient with acromegaly has persistently elevated IGF-1 despite transsphenoidal surgery and somatostatin receptor ligand therapy. Pegvisomant is added. What is its mechanism of action?",
+      "options": [
+        "It is a somatostatin analogue that further suppresses pituitary GH secretion",
+        "It is a modified GH analogue that binds the GH receptor without activating downstream signaling, blocking peripheral GH action regardless of pituitary GH output",
+        "It is a dopamine agonist that shrinks the tumor directly",
+        "It directly inhibits the IGF-1 receptor on target tissues"
+      ],
+      "correctOption": 1,
+      "explanation": "Pegvisomant binds the GH receptor with high affinity but cannot trigger the conformational change required for JAK/STAT signaling, acting as a competitive GH receptor antagonist. This normalizes peripheral IGF-1 regardless of how much GH the pituitary tumor continues to secrete.",
+      "reference": "GROWTH HORMONE (Action): \"GH analogues that bind to the receptor but are incapable of mediating receptor signaling are potent antagonists of GH action. A GH receptor antagonist (pegvisomant) is approved for treatment of acromegaly.\""
+    },
+    {
+      "id": "h2-073-mcq25",
+      "type": "mcq",
+      "subtopic": "Prolactin — Receptor Signaling",
+      "question": "A woman with a homozygous PRL receptor mutation is unable to produce breast milk after delivery, despite having normal-to-elevated serum PRL levels. What does this finding demonstrate?",
+      "options": [
+        "Serum PRL level is more important than PRL receptor function for lactation",
+        "Functional PRL receptor signaling (via JAK/STAT) is required for lactation — elevated circulating PRL alone is insufficient if the receptor cannot transduce the signal",
+        "This finding is unrelated to PRL physiology and suggests an oxytocin defect instead",
+        "PRL receptor mutations have no clinical consequences"
+      ],
+      "correctOption": 1,
+      "explanation": "Homozygous PRL receptor mutations cause agalactia despite normal or elevated PRL, directly demonstrating that PRL action — mediated through receptor dimerization and JAK/STAT signaling — is required for lactation, not just the presence of circulating PRL.",
+      "reference": "PROLACTIN (Action): \"Mutations of the PRL receptor result in PRL insensitivity, hyperprolactinemia, and oligomenorrhea. When homozygous, PRL receptor mutations cause agalactia, demonstrating that PRL action is necessary for lactation.\""
+    },
+    {
+      "id": "h2-073-mcq26",
+      "type": "mcq",
+      "subtopic": "Gonadotropins — Action in Men and Women",
+      "question": "A man is found to have isolated FSH deficiency with normal LH and normal serum testosterone. What is the most likely clinical consequence?",
+      "options": [
+        "Impaired spermatogenesis with preserved testosterone production, since FSH regulates seminiferous tubule function and spermatogenesis while LH drives Leydig cell testosterone synthesis",
+        "Complete absence of testosterone production",
+        "Anovulation, since FSH acts only in women",
+        "No clinical consequence, since FSH has no independent role in men"
+      ],
+      "correctOption": 0,
+      "explanation": "In men, LH induces Leydig cell testosterone synthesis while FSH independently stimulates seminiferous tubule development and regulates spermatogenesis. Isolated FSH deficiency with normal LH would therefore be expected to impair spermatogenesis while testosterone (LH-dependent) remains normal.",
+      "reference": "GONADOTROPINS: FSH AND LH (Action): \"In men, LH induces Leydig cell testosterone synthesis and secretion, and FSH stimulates seminiferous tubule development and regulates spermatogenesis.\""
+    },
+    {
+      "id": "h2-073-tf1",
+      "type": "true_false",
+      "subtopic": "Anatomy — Hypothalamic-Pituitary Portal System",
+      "statement": "The hypothalamic-pituitary portal vasculature is the primary route by which the anterior pituitary is exposed to hypothalamic releasing and inhibiting factors.",
+      "correctAnswer": true,
+      "explanation": "The portal plexus delivers hypothalamic peptides to the anterior pituitary at high concentration without systemic dilution, allowing pulsatile regulation of anterior pituitary hormone secretion.",
+      "reference": "ANATOMY: \"The hypothalamic-pituitary portal plexus provides the major blood source for the anterior pituitary, allowing reliable transmission of hypothalamic peptide pulses without significant systemic dilution.\""
+    },
+    {
+      "id": "h2-073-tf2",
+      "type": "true_false",
+      "subtopic": "Anatomy — Posterior Pituitary Innervation",
+      "statement": "Unlike the anterior pituitary, the posterior pituitary receives direct neuronal innervation from the hypothalamus via the supraopticohypophyseal and tuberohypophyseal tracts.",
+      "correctAnswer": true,
+      "explanation": "The posterior pituitary is directly innervated by hypothalamic neurons through these tracts, making it particularly sensitive to stalk or hypothalamic lesions, in contrast to the anterior pituitary's reliance on portal blood flow.",
+      "reference": "ANATOMY: \"In contrast to the anterior pituitary, the posterior lobe is directly innervated by hypothalamic neurons (supraopticohypophyseal and tuberohypophyseal nerve tracts) via the pituitary stalk.\""
+    },
+    {
+      "id": "h2-073-tf3",
+      "type": "true_false",
+      "subtopic": "Pituitary Development — Transcription Factors",
+      "statement": "Prop-1 acts downstream of Pit-1 in the transcription factor cascade governing pituitary cell differentiation.",
+      "correctAnswer": false,
+      "explanation": "Prop-1 acts upstream of Pit-1 — it induces development of Pit-1-dependent lineages (somatotropes, lactotropes, thyrotropes) as well as gonadotropes, which are Pit-1-independent.",
+      "reference": "PITUITARY DEVELOPMENT: \"The transcription factor Prop-1 induces pituitary development of Pit-1-specific lineages as well as gonadotropes.\""
+    },
+    {
+      "id": "h2-073-tf4",
+      "type": "true_false",
+      "subtopic": "Prolactin — Regulation (Dopamine)",
+      "statement": "Prolactin secretion is predominantly under tonic stimulatory control by hypothalamic dopamine.",
+      "correctAnswer": false,
+      "explanation": "PRL is unique among anterior pituitary hormones in being under predominantly INHIBITORY hypothalamic control via tonic dopamine signaling; interruption of this pathway (e.g., stalk lesions) causes hyperprolactinemia.",
+      "reference": "PROLACTIN (Secretion): \"PRL is unique among the pituitary hormones in that the predominant hypothalamic control mechanism is inhibitory, reflecting tonic dopamine-mediated suppression of PRL release.\""
+    },
+    {
+      "id": "h2-073-tf5",
+      "type": "true_false",
+      "subtopic": "Prolactin — Action",
+      "statement": "Hyperprolactinemia can cause infertility in both men and women by suppressing GnRH and gonadotropin secretion.",
+      "correctAnswer": true,
+      "explanation": "PRL inhibits hypothalamic GnRH and pituitary gonadotropin secretion and impairs gonadal steroidogenesis in both sexes, producing infertility and decreased libido.",
+      "reference": "PROLACTIN (Action): \"PRL inhibits reproductive function by suppressing hypothalamic gonadotropin-releasing hormone (GnRH) and pituitary gonadotropin secretion and by impairing gonadal steroidogenesis in both women and men.\""
+    },
+    {
+      "id": "h2-073-tf6",
+      "type": "true_false",
+      "subtopic": "Growth Hormone — Diagnostic Limitations",
+      "statement": "A single random GH measurement reliably distinguishes adult GH deficiency from normal GH secretory status.",
+      "correctAnswer": false,
+      "explanation": "Random GH is undetectable in about half of daytime samples from healthy adults and in most obese or elderly subjects, so it cannot distinguish GH deficiency from normal status; provocative testing is required.",
+      "reference": "GROWTH HORMONE (Secretion): \"Thus, single random GH measurements do not distinguish patients with adult GH deficiency from those with GH levels in the normal range.\""
+    },
+    {
+      "id": "h2-073-tf7",
+      "type": "true_false",
+      "subtopic": "Growth Hormone — Action",
+      "statement": "GH directly impairs glucose tolerance by antagonizing insulin action, in addition to its growth-promoting effects mediated by IGF-1.",
+      "correctAnswer": true,
+      "explanation": "GH has direct metabolic actions independent of IGF-1, including protein anabolism, lipolysis, and insulin antagonism that impairs glucose tolerance.",
+      "reference": "GROWTH HORMONE (Action): \"GH induces protein synthesis and nitrogen retention and also impairs glucose tolerance by antagonizing insulin action.\""
+    },
+    {
+      "id": "h2-073-tf8",
+      "type": "true_false",
+      "subtopic": "Insulin-Like Growth Factors — IGF-1 and Catabolic States",
+      "statement": "IGF-1 levels are typically elevated in malnourished or critically ill patients due to compensatory hepatic upregulation.",
+      "correctAnswer": false,
+      "explanation": "Hypocaloric/catabolic states cause hepatic GH resistance, so IGF-1 generation is blunted (low, not elevated) despite normal or increased GH secretion.",
+      "reference": "Insulin-Like Growth Factors: \"Hypocaloric states are associated with GH resistance; IGF-1 levels are therefore low with cachexia, malnutrition, and sepsis.\""
+    },
+    {
+      "id": "h2-073-tf9",
+      "type": "true_false",
+      "subtopic": "ACTH — Secretion and Feedback",
+      "statement": "ACTH levels are markedly elevated in primary adrenal insufficiency due to loss of cortisol negative feedback.",
+      "correctAnswer": true,
+      "explanation": "Loss of cortisol feedback in primary adrenal failure removes the normal restraint on hypothalamic CRH and pituitary POMC/ACTH, producing extremely high ACTH levels.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"In contrast, loss of cortisol feedback inhibition, as occurs in primary adrenal failure, results in extremely high ACTH levels.\""
+    },
+    {
+      "id": "h2-073-tf10",
+      "type": "true_false",
+      "subtopic": "ACTH — Circadian Rhythm",
+      "statement": "ACTH secretion peaks around midnight and reaches its nadir around 6:00 A.M.",
+      "correctAnswer": false,
+      "explanation": "The pattern is reversed: ACTH peaks at about 6:00 A.M. and reaches its nadir around midnight.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"ACTH secretion is pulsatile and exhibits a characteristic circadian rhythm, peaking at about 6:00 A.M. and reaching a nadir about midnight.\""
+    },
+    {
+      "id": "h2-073-tf11",
+      "type": "true_false",
+      "subtopic": "Gonadotropins — GnRH Pulsatility",
+      "statement": "Continuous, non-pulsatile occupancy of the GnRH receptor desensitizes gonadotropes and suppresses gonadotropin secretion, forming the basis for GnRH agonist therapy in central precocious puberty.",
+      "correctAnswer": true,
+      "explanation": "While pulsatile GnRH primes gonadotrope responsiveness, continuous receptor occupancy from long-acting GnRH agonists desensitizes gonadotropes and suppresses gonadotropin secretion — the rationale for their use in central precocious puberty.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Based on this phenomenon, long-acting GnRH agonists are used to suppress gonadotropin levels in children with precocious puberty.\""
+    },
+    {
+      "id": "h2-073-tf12",
+      "type": "true_false",
+      "subtopic": "Gonadotropins — Inhibin/Activin",
+      "statement": "Inhibin selectively suppresses FSH secretion, while activin stimulates FSH synthesis.",
+      "correctAnswer": true,
+      "explanation": "Inhibin and activin, members of the TGF-β family, provide GnRH-independent regulation of FSH: inhibin selectively suppresses FSH, while activin stimulates FSH synthesis.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Inhibin selectively suppresses FSH, whereas activin stimulates FSH synthesis.\""
+    },
+    {
+      "id": "h2-073-tf13",
+      "type": "true_false",
+      "subtopic": "Thyroid-Stimulating Hormone — Action",
+      "statement": "A single TSH measurement is generally diagnostically sufficient because TSH pulses have low amplitude and TSH has a relatively long half-life.",
+      "correctAnswer": true,
+      "explanation": "Unlike GH, ACTH, and gonadotropins, TSH's low-amplitude pulsatility and long half-life mean a single measurement closely reflects circulating levels.",
+      "reference": "THYROID-STIMULATING HORMONE (Action): \"TSH is secreted in pulses, although the excursions are modest in comparison to other pituitary hormones because of the low amplitude of the pulses and the relatively long half-life of TSH. Consequently, single determinations of TSH suffice to precisely assess its circulating levels.\""
+    },
+    {
+      "id": "h2-073-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Prolactin — Regulation (Dopamine)",
+      "assertion": "Patients with pituitary stalk compression often have mildly elevated serum PRL levels.",
+      "reason": "Stalk compression disrupts hypothalamic dopamine delivery to lactotropes, removing the normal tonic inhibitory control of PRL secretion.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: because dopamine tonically inhibits PRL, disrupting its delivery via stalk compression disinhibits lactotropes, producing the 'stalk effect' hyperprolactinemia.",
+      "reference": "PROLACTIN (Secretion): \"This regulatory pathway accounts for the spontaneous PRL hypersecretion that occurs with pituitary stalk section, often a consequence of head trauma or compressive mass lesions at the skull base.\""
+    },
+    {
+      "id": "h2-073-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Prolactin — Action",
+      "assertion": "Men with hyperprolactinemia commonly have decreased libido and reduced sperm counts.",
+      "reason": "PRL directly stimulates pituitary gonadotropin secretion, leading to Leydig cell exhaustion.",
+      "correctOption": 2,
+      "explanation": "The assertion is true — hyperprolactinemia causes hypogonadal symptoms in men. However, the reason is false: PRL SUPPRESSES, not stimulates, GnRH and gonadotropin secretion; this suppression (not Leydig cell exhaustion from excess stimulation) is the actual mechanism.",
+      "reference": "PROLACTIN (Action): \"PRL inhibits reproductive function by suppressing hypothalamic gonadotropin-releasing hormone (GnRH) and pituitary gonadotropin secretion and by impairing gonadal steroidogenesis in both women and men. In men, attenuated LH secretion leads to low testosterone levels and decreased spermatogenesis.\""
+    },
+    {
+      "id": "h2-073-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Growth Hormone — Diagnostic Limitations",
+      "assertion": "A single random GH level cannot reliably exclude adult GH deficiency.",
+      "reason": "GH is secreted in a pulsatile manner and is undetectable in roughly half of daytime samples even from healthy individuals.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: because pulsatile GH secretion produces undetectable troughs even in healthy people, a single low or undetectable GH value cannot establish a diagnosis of GH deficiency.",
+      "reference": "GROWTH HORMONE (Secretion): \"Using standard assays, random GH measurements are undetectable in ~50% of daytime samples obtained from healthy subjects... Thus, single random GH measurements do not distinguish patients with adult GH deficiency from those with GH levels in the normal range.\""
+    },
+    {
+      "id": "h2-073-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Insulin-Like Growth Factors — IGF-1 and Catabolic States",
+      "assertion": "IGF-1 levels are low in critically ill, malnourished patients despite normal or elevated GH secretion.",
+      "reason": "Hypocaloric and catabolic states induce hepatic GH resistance, impairing IGF-1 generation.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: GH resistance in catabolic states uncouples GH secretion from IGF-1 generation, producing low IGF-1 despite preserved or elevated GH.",
+      "reference": "Insulin-Like Growth Factors: \"Hypocaloric states are associated with GH resistance; IGF-1 levels are therefore low with cachexia, malnutrition, and sepsis.\""
+    },
+    {
+      "id": "h2-073-ar5",
+      "type": "assertion_reason",
+      "subtopic": "IGF-1 Physiology — Therapeutic Use",
+      "assertion": "Patients with Laron syndrome (GH receptor mutations) do not benefit from recombinant GH but may respond to recombinant IGF-1.",
+      "reason": "IGF-1 acts downstream of the GH receptor, so recombinant IGF-1 therapy can bypass a defective GH receptor.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: since the GH signal transduction defect lies at the receptor itself, supplying GH is futile, while IGF-1 (the downstream mediator) can be administered directly and is approved for GH-resistance syndromes.",
+      "reference": "IGF-1 PHYSIOLOGY: \"IGF-1 is approved for use in patients with GH-resistance syndromes, including mutations of the GH receptor (Laron dwarfism)... and IGF-1 gene defects.\""
+    },
+    {
+      "id": "h2-073-ar6",
+      "type": "assertion_reason",
+      "subtopic": "ACTH — Synthesis",
+      "assertion": "Patients with ACTH-dependent Cushing's syndrome can develop diffuse hyperpigmentation.",
+      "reason": "ACTH and α-melanocyte-stimulating hormone (α-MSH) are both cleavage products of the same POMC precursor and both have melanocyte-stimulating activity.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: shared derivation from POMC means that conditions with markedly increased POMC processing generate excess melanocortin peptides, producing hyperpigmentation.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Synthesis): \"ACTH (39 amino acids) is derived from the POMC precursor protein (266 amino acids) that also generates several other peptides, including... α-melanocyte-stimulating hormone (α-MSH).\""
+    },
+    {
+      "id": "h2-073-ar7",
+      "type": "assertion_reason",
+      "subtopic": "ACTH — Secretion and Feedback",
+      "assertion": "ACTH levels are markedly elevated in primary adrenal insufficiency but low or inappropriately normal in secondary (pituitary) adrenal insufficiency.",
+      "reason": "Cortisol normally provides negative feedback on hypothalamic CRH and pituitary POMC/ACTH; loss of adrenal cortisol output removes this feedback, whereas corticotrope deficiency limits ACTH output regardless of feedback status.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: the divergent ACTH levels reflect where the defect lies — adrenal (primary, feedback lost → high ACTH) versus pituitary (secondary, corticotrope itself deficient → low ACTH).",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"Glucocorticoid-mediated negative regulation of the hypothalamic-pituitary-adrenal (HPA) axis occurs as a consequence of both hypothalamic CRH suppression and direct attenuation of pituitary POMC gene expression and ACTH release. In contrast, loss of cortisol feedback inhibition, as occurs in primary adrenal failure, results in extremely high ACTH levels.\""
+    },
+    {
+      "id": "h2-073-ar8",
+      "type": "assertion_reason",
+      "subtopic": "ACTH — Stress and Critical Illness",
+      "assertion": "Cortisol levels remain elevated during severe sepsis despite a blunted response to dexamethasone suppression testing.",
+      "reason": "Proinflammatory cytokines activate the HPA axis while concurrently inducing central glucocorticoid receptor resistance that impairs normal negative feedback.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: cytokine-driven HPA activation raises cortisol, while cytokine-induced glucocorticoid receptor resistance blunts the feedback suppression normally seen with dexamethasone.",
+      "reference": "ADRENOCORTICOTROPIC HORMONE (Secretion): \"The resulting cortisol elevation restrains the inflammatory response and enables host protection. Concomitantly, cytokine-mediated central glucocorticoid receptor resistance impairs glucocorticoid suppression of the HPA.\""
+    },
+    {
+      "id": "h2-073-ar9",
+      "type": "assertion_reason",
+      "subtopic": "Gonadotropins — GnRH Pulsatility",
+      "assertion": "GnRH agonists are used therapeutically to suppress gonadotropin secretion in central precocious puberty.",
+      "reason": "Continuous, non-pulsatile occupancy of the GnRH receptor desensitizes gonadotropes, in contrast to the priming effect of pulsatile GnRH exposure.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: the desensitizing effect of sustained GnRH receptor occupancy is the pharmacologic basis for using long-acting GnRH agonists to suppress gonadotropins in precocious puberty.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"The pulsatile mode of GnRH input is essential to its action; pulses prime gonadotrope responsiveness, whereas continuous GnRH exposure induces desensitization. Based on this phenomenon, long-acting GnRH agonists are used to suppress gonadotropin levels in children with precocious puberty.\""
+    },
+    {
+      "id": "h2-073-ar10",
+      "type": "assertion_reason",
+      "subtopic": "Gonadotropins — Estrogen Feedback",
+      "assertion": "The midcycle LH surge is triggered by estrogen acting through positive feedback on the pituitary.",
+      "reason": "Estrogen exerts exclusively negative feedback on gonadotropin secretion throughout the menstrual cycle.",
+      "correctOption": 2,
+      "explanation": "The assertion is true — the preovulatory rise in estrogen triggers the LH surge via positive feedback. However, the reason is false: estrogen's feedback is context-dependent — chronically inhibitory, but switching to positive feedback when levels rise rapidly in the late follicular phase.",
+      "reference": "GONADOTROPINS: FSH AND LH (Synthesis and Secretion): \"Chronic estrogen exposure is inhibitory, whereas rising estrogen levels, as occur during the preovulatory surge, exert positive feedback to enhance pituitary responsiveness and to increase gonadotropin pulse frequency and amplitude.\""
+    },
+    {
+      "id": "h2-073-ar11",
+      "type": "assertion_reason",
+      "subtopic": "Thyroid-Stimulating Hormone — Thyrotrope Hyperplasia",
+      "assertion": "Longstanding untreated primary hypothyroidism can cause pituitary enlargement that mimics a pituitary adenoma on MRI.",
+      "reason": "Loss of thyroid hormone negative feedback in primary hypothyroidism can lead to thyrotrope hyperplasia.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the reason correctly explains the assertion: chronically elevated TSH drive from unopposed TRH stimulation causes thyrotrope hyperplasia, which can enlarge the pituitary gland and mimic an adenoma on imaging.",
+      "reference": "THYROID-STIMULATING HORMONE (Synthesis and Secretion): \"Longstanding untreated hypothyroidism can lead to elevated TSH levels, which may be associated with thyrotrope hyperplasia and pituitary enlargement and may sometimes be evident on magnetic resonance imaging.\""
+    }
+  ]
+}
