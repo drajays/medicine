@@ -111,4 +111,25 @@ main{max-width:880px;margin:0 auto;padding:16px 16px 80px}
 .scorebar{position:sticky;bottom:0;background:var(--surface);border-top:1px solid var(--border);padding:10px 16px;font-size:13px;color:var(--muted);text-align:center;display:none}
 .scorebar.show{display:block}
 .empty{text-align:center;color:var(--muted);padding:50px 16px}
+
+/* Hot Topics */
+.hot-topics-banner{background:linear-gradient(135deg,#fff4e6 0%,#ffe8cc 100%);border:1px solid #f0c070;border-radius:var(--radius);padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+[data-theme="dark"] .hot-topics-banner{background:linear-gradient(135deg,#2a1f0f 0%,#3d2a12 100%);border-color:#6b4a1a}
+.hot-topics-title{font-size:16px;font-weight:700;margin-bottom:4px;color:#c45c00}
+[data-theme="dark"] .hot-topics-title{color:#f0a040}
+.hot-topics-desc{font-size:13px;color:var(--muted);margin-bottom:6px}
+.hot-topics-totals{font-size:12.5px;font-weight:600;color:var(--text)}
+.hot-section-head .section-name{color:#c45c00}
+[data-theme="dark"] .hot-section-head .section-name{color:#f0a040}
+.hot-card{border-color:#f0c070}
+.hot-card:hover{border-color:#e09020}
+[data-theme="dark"] .hot-card{border-color:#6b4a1a}
+.hot-icon{background:linear-gradient(135deg,#fff4e6,#ffe0b0)!important;color:#c45c00!important;font-size:18px!important}
+[data-theme="dark"] .hot-icon{background:linear-gradient(135deg,#3d2a12,#5a3d18)!important;color:#f0a040!important}
+.harrison-divider{display:flex;align-items:center;gap:12px;margin:28px 4px 18px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.harrison-divider::before,.harrison-divider::after{content:"";flex:1;height:1px;background:var(--border)}
+.hot-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;background:#fff4e6;color:#c45c00;margin-bottom:8px;border:1px solid #f0c070}
+[data-theme="dark"] .hot-badge{background:#3d2a12;color:#f0a040;border-color:#6b4a1a}
+.hot-header .chap-subtitle{font-size:14px;color:var(--muted);margin:-2px 0 6px;font-style:italic}
+
 @media(max-width:600px){.topbar h1{font-size:15px}.chap-header h2{font-size:18px}}

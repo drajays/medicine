@@ -16,6 +16,7 @@ const themeBtn = document.getElementById('themeBtn');
 let CATALOG = null;
 let currentChapter = null;
 let activeTab = 'notes';
+let viewMode = 'catalog'; /* catalog | harrison | hot_topic */
 
 /* ---------- theme ---------- */
 (function initTheme(){
@@ -28,7 +29,10 @@ themeBtn.addEventListener('click', () => {
   localStorage.setItem('h22_theme', cur);
 });
 
-backBtn.addEventListener('click', showCatalog);
+backBtn.addEventListener('click', () => {
+  if (viewMode === 'catalog') return;
+  showCatalog();
+});
 
 /* ---------- utils ---------- */
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
@@ -52,11 +56,33 @@ async function loadJSON(path){
 })();
 
 /* ---------- catalog view ---------- */
+async function loadTopicCounts(entries, prefix){
+  const counts = {};
+  const ready = entries.filter(ch => ch.status === 'ready' && ch.file);
+  await Promise.all(ready.map(async ch => {
+    try {
+      const data = await loadJSON('data/' + ch.file);
+      const items = data.items || [];
+      counts[ch.id] = {
+        notes: items.filter(i=>i.type==='note').length,
+        mcq: items.filter(i=>i.type==='mcq').length,
+        tf: items.filter(i=>i.type==='true_false').length,
+        ar: items.filter(i=>i.type==='assertion_reason').length,
+        total: items.length
+      };
+    } catch(e){ counts[ch.id] = null; }
+  }));
+  return counts;
+}
+
 async function showCatalog(){
   currentChapter = null;
+  viewMode = 'catalog';
   backBtn.hidden = true;
   titleEl.textContent = CATALOG.title || "Harrison's 22e";
   window.scrollTo(0,0);
+
+  const hotTopics = CATALOG.hotTopics?.topics || [];
 
   if (!CATALOG._counts){
     app.innerHTML = '<div class="loading">Loading catalog…</div>';
@@ -76,6 +102,7 @@ async function showCatalog(){
         };
       } catch(e){ CATALOG._counts[ch.id] = null; }
     }));
+    CATALOG._hotCounts = await loadTopicCounts(hotTopics);
   }
 
   const allChapters = CATALOG.sections.flatMap(s => s.chapters);
@@ -92,6 +119,48 @@ async function showCatalog(){
   }, {notes:0, mcq:0, tf:0, ar:0, items:0});
 
   let html = '<div class="intro-card">Clinically-focused MCQs (diagnosis, management &amp; treatment), chapter notes, true/false and assertion–reason questions — each linked to the Harrison\'s source text. <b>Endocrinology is generated first.</b></div>';
+
+  /* Hot Topics section */
+  if (CATALOG.hotTopics){
+    const ht = CATALOG.hotTopics;
+    const htReady = hotTopics.filter(t => t.status === 'ready' && t.file);
+    const htTotals = htReady.reduce((acc, t) => {
+      const c = CATALOG._hotCounts?.[t.id];
+      if (c){ acc.notes+=c.notes; acc.mcq+=c.mcq; acc.tf+=c.tf; acc.ar+=c.ar; acc.items+=c.total; }
+      return acc;
+    }, {notes:0, mcq:0, tf:0, ar:0, items:0});
+
+    html += `<div class="hot-topics-banner">
+      <div class="hot-topics-title">🔥 ${esc(ht.title || 'Hot Topics')}</div>
+      <div class="hot-topics-desc">${esc(ht.description || '')}</div>
+      ${htTotals.items ? `<div class="hot-topics-totals">${htTotals.items} items — ${htTotals.notes} notes · ${htTotals.mcq} MCQs · ${htTotals.tf} T/F · ${htTotals.ar} A-R</div>` : ''}
+    </div>`;
+
+    html += `<div class="section-head hot-section-head">
+      <span class="section-arrow">▾</span>
+      <span class="section-name">${esc(ht.title || 'Hot Topics')}</span>
+      <span class="section-count">${htReady.length}/${hotTopics.length}</span>
+    </div>`;
+    html += `<div class="section-body">`;
+    for (const t of hotTopics){
+      const ready = t.status === 'ready' && t.file;
+      const pill = ready ? '<span class="pill ready">ready</span>' : '<span class="pill pending">pending</span>';
+      const c = ready ? CATALOG._hotCounts?.[t.id] : null;
+      const sub = ready
+        ? (c ? `${c.total} items · ${c.notes}N / ${c.mcq}Q / ${c.tf}T / ${c.ar}A` : 'Tap to study')
+        : 'Awaiting authoring';
+      html += `<div class="chap-card hot-card ${ready?'':'disabled'}" data-file="${ready?esc(t.file):''}" data-kind="hot">
+        <div class="chap-no hot-icon">🔥</div>
+        <div class="chap-meta">
+          <div class="chap-title">${esc(t.title)} ${pill}</div>
+          <div class="chap-sub">${esc(t.subtitle||t.category||'')}${sub ? ' · '+sub : ''}</div>
+        </div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  html += `<div class="harrison-divider"><span>Harrison's 22e Chapters</span></div>`;
 
   html += `<div class="progress-card">
     <div class="progress-stats">
@@ -134,7 +203,10 @@ async function showCatalog(){
   }
   app.innerHTML = html;
   app.querySelectorAll('.chap-card:not(.disabled)').forEach(card => {
-    card.addEventListener('click', () => openChapter(card.dataset.file));
+    card.addEventListener('click', () => {
+      const kind = card.dataset.kind || 'harrison';
+      openChapter(card.dataset.file, kind);
+    });
   });
   app.querySelectorAll('.section-head').forEach(head => {
     head.addEventListener('click', () => {
@@ -144,16 +216,18 @@ async function showCatalog(){
   });
 }
 
-/* ---------- chapter view ---------- */
-async function openChapter(file){
-  app.innerHTML = '<div class="loading">Loading chapter…</div>';
+/* ---------- chapter / topic view ---------- */
+async function openChapter(file, kind){
+  app.innerHTML = '<div class="loading">Loading…</div>';
   try {
     currentChapter = await loadJSON('data/' + file);
   } catch(e){
-    app.innerHTML = '<div class="empty">Could not load chapter.</div>';
+    app.innerHTML = '<div class="empty">Could not load content.</div>';
     return;
   }
+  viewMode = kind === 'hot' ? 'hot_topic' : 'harrison';
   backBtn.hidden = false;
+  backBtn.textContent = viewMode === 'hot_topic' ? '‹ Hot Topics' : '‹ Chapters';
   activeTab = 'notes';
   renderChapter();
   window.scrollTo(0,0);
@@ -171,13 +245,20 @@ function counts(){
 
 function renderChapter(){
   const ch = currentChapter;
-  titleEl.textContent = 'Ch ' + (ch.chapterNo||'') ;
+  const isHot = ch.topicType === 'hot_topic' || viewMode === 'hot_topic';
+  titleEl.textContent = isHot ? (ch.title || 'Hot Topic') : ('Ch ' + (ch.chapterNo||''));
   const n = counts();
   const tab = (id,label,cnt)=>`<button class="tab ${activeTab===id?'active':''}" data-tab="${id}">${label}<br><span class="cnt">${cnt}</span></button>`;
 
-  let html = `<div class="chap-header">
+  const byline = isHot
+    ? `${esc(ch.section||'Hot Topics')}${ch.category?' · '+esc(ch.category):''}${ch.authors?' · '+esc(ch.authors):''}`
+    : `Chapter ${esc(ch.chapterNo||'')} · ${esc(ch.section||'')}${ch.authors?' · '+esc(ch.authors):''}`;
+
+  let html = `<div class="chap-header${isHot?' hot-header':''}">
+      ${isHot ? '<div class="hot-badge">🔥 Hot Topic</div>' : ''}
       <h2>${esc(ch.title)}</h2>
-      <div class="by">Chapter ${esc(ch.chapterNo||'')} · ${esc(ch.section||'')}${ch.authors?' · '+esc(ch.authors):''}</div>
+      ${ch.subtitle ? `<div class="chap-subtitle">${esc(ch.subtitle)}</div>` : ''}
+      <div class="by">${byline}</div>
     </div>
     <div class="tabs">
       ${tab('notes','Notes',n.notes)}
