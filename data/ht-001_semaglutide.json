@@ -2,11 +2,11 @@
   "id": "ht-001",
   "topicType": "hot_topic",
   "title": "Semaglutide",
-  "subtitle": "GLP-1 Receptor Agonist — Comprehensive PubMed-Based Review",
+  "subtitle": "GLP-1 Receptor Agonist — PubMed Trials & Structural Deconstruction (150 Q)",
   "section": "Hot Topics",
   "category": "Endocrinology & Metabolism",
   "authors": "PubMed Landmark Trials (SUSTAIN, PIONEER, STEP, SELECT, FLOW)",
-  "sourceFile": "semaglutide_pubmed_qa_100.md",
+  "sourceFile": "semaglutide_pubmed_qa_100.md; semaglutide_axiomatic_deconstruction.md; semaglutide_deconstruction_50.md",
   "items": [
     {
       "id": "ht-001-n1",
@@ -1742,6 +1742,1546 @@
       "correctOption": 0,
       "explanation": "Both true; STEP 2 showed ~9.6% vs ~15% loss, partly due to diabetes therapies and metabolic adaptations.",
       "reference": "HOW Q66: \"Weight loss is slightly lower in diabetic patients (~9.6% vs ~15%)\" (Paper 23)",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-n101",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "Native vs. continuous GLP-1 receptor activation: are the foundational assumptions sound?",
+      "content": "Native GLP-1 is secreted in rapid, short-lived postprandial pulses. Semaglutide enforces non-physiological, continuous receptor agonism. While it is assumed this merely scales up the native effect, continuous activation in other endocrine systems often causes receptor internalization and downregulation.\n\nThe GLP-1R seems unusually resistant to complete desensitization, but tachyphylaxis observed with gastrointestinal side effects suggests partial downregulation occurs. Whether continuous activation is fundamentally sound long-term remains debated.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "Native GLP-1: pulsatile, minutes-long exposure",
+        "Semaglutide: continuous 7-day receptor agonism",
+        "GI tachyphylaxis suggests partial receptor downregulation",
+        "Long-term soundness of non-physiological activation: debated"
+      ],
+      "reference": "AXIOMATIC 1.1 [Uncertain]: \"Native GLP-1 is secreted in rapid, short-lived postprandial pulses. Semaglutide enforces non-physiol...\""
+    },
+    {
+      "id": "ht-001-n102",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "Are HbA1c and body weight invariant proxies for reversed metabolic dysfunction?",
+      "content": "SUSTAIN and STEP assume HbA1c and body weight are proxies for reversed metabolic dysfunction. However, trial extension data (STEP 1 extension) shows these are merely clamped states, not structural reversals.\n\nUpon cessation, cardiometabolic risk factors revert, proving the underlying disease architecture remains intact despite apparent improvement on therapy.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "HbA1c and weight treated as metabolic health proxies in trials",
+        "STEP 1 extension: improvements are clamped, not structural",
+        "Risk factors revert after drug cessation",
+        "Underlying disease architecture persists"
+      ],
+      "reference": "AXIOMATIC 1.2 [Uncertain]: \"SUSTAIN and STEP assume HbA1c and body weight are proxies for reversed metabolic dysfunction. Howeve...\""
+    },
+    {
+      "id": "ht-001-n103",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "Is weight loss primarily central appetite suppression or peripheral lipid partitioning?",
+      "content": "Published literature heavily supports the axiom that weight loss is primarily centrally mediated (hindbrain and hypothalamus). While secondary peripheral effects exist (e.g., improved lipid partitioning in hepatocytes), animal models with vagotomy or brain lesions confirm that without central nervous system penetrance, GLP-1-mediated weight loss practically ceases.\n\nCertainty: Mostly Known",
+      "keyPoints": [
+        "Weight loss primarily centrally mediated (hindbrain/hypothalamus)",
+        "Peripheral effects (hepatic lipid partitioning) are secondary",
+        "Vagotomy/brain-lesion models abolish GLP-1 weight loss",
+        "Central CNS penetrance is prerequisite for durable appetite suppression"
+      ],
+      "reference": "AXIOMATIC 1.3 [Mostly Known]: \"Published literature heavily supports the axiom that weight loss is primarily centrally mediated (hi...\""
+    },
+    {
+      "id": "ht-001-n104",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "Intracellular signaling in hypothalamic POMC/CART neurons beyond cAMP/PKA",
+      "content": "Beyond cAMP/PKA, semaglutide binding to the Gs-protein coupled GLP-1 receptor in POMC/CART neurons activates Epac2 (Exchange protein directly activated by cAMP). This cascade triggers opening of TRPC (Transient Receptor Potential Canonical) channels, causing membrane depolarization, calcium influx, and subsequent exocytosis of alpha-MSH.\n\nAlpha-MSH signals downstream to the MC4 receptor to suppress appetite.\n\nCertainty: Known",
+      "keyPoints": [
+        "GLP-1R → Gs → cAMP → Epac2 activation",
+        "Epac2 opens TRPC channels → Ca²⁺ influx",
+        "POMC neuron depolarization → alpha-MSH exocytosis",
+        "Alpha-MSH → MC4R → appetite suppression"
+      ],
+      "reference": "GLASSBOX 2.1 [Known]: \"Beyond cAMP/PKA, semaglutide binding to the Gs-protein coupled GLP-1 receptor in POMC/CART neurons a...\""
+    },
+    {
+      "id": "ht-001-n105",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "Mechanical mapping of gastric smooth muscle relaxation to delayed emptying",
+      "content": "Semaglutide activates GLP-1 receptors on vagal afferents in the gut, sending signals to the Nucleus Tractus Solitarius (NTS) in the brainstem. This triggers parasympathetic efferent withdrawal, reducing cholinergic drive to gastric smooth muscle.\n\nOver a 7-day dosing interval, tachyphylaxis is observed: the delay in gastric emptying is pronounced during dose escalation but largely normalizes after continuous steady-state exposure.\n\nCertainty: Known",
+      "keyPoints": [
+        "Gut GLP-1R → vagal afferents → NTS brainstem",
+        "Parasympathetic efferent withdrawal reduces cholinergic gastric drive",
+        "Pronounced delay during dose escalation",
+        "Partial normalization (tachyphylaxis) at steady state"
+      ],
+      "reference": "GLASSBOX 2.2 [Known]: \"Semaglutide activates GLP-1 receptors on vagal afferents in the gut, sending signals to the Nucleus ...\""
+    },
+    {
+      "id": "ht-001-n106",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "Intra-islet paracrine dynamics for glucose-dependent glucagon suppression",
+      "content": "The mechanism of glucagon suppression is highly debated because alpha cells express virtually zero GLP-1 receptors. The suppression is likely indirect: semaglutide stimulates beta cells to release insulin and GABA, and delta cells to release somatostatin.\n\nThese locally secreted paracrine factors physically diffuse within the islet micro-architecture to shut down alpha-cell glucagon secretion in a glucose-dependent manner.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "Alpha cells lack GLP-1 receptors — suppression is indirect",
+        "Beta cells release insulin + GABA; delta cells release somatostatin",
+        "Paracrine diffusion within islet micro-architecture",
+        "Glucose-dependent mechanism remains incompletely mapped"
+      ],
+      "reference": "GLASSBOX 2.3 [Uncertain]: \"The mechanism of glucagon suppression is highly debated because alpha cells express virtually zero G...\""
+    },
+    {
+      "id": "ht-001-n107",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "Structural properties uncompromised across hepatic and renal impairment",
+      "content": "The alpha-aminoisobutyric acid (Aib) substitution at position 8 creates absolute steric hindrance against the DPP-4 enzyme. The C18 fatty diacid chain grants invariant, high-affinity non-covalent binding to serum albumin.\n\nBecause semaglutide is degraded via general protein catabolism (proteolysis) rather than specific hepatic CYP450 pathways or renal filtration, these structural properties remain entirely uncompromised regardless of severe hepatic or renal impairment.\n\nCertainty: Known",
+      "keyPoints": [
+        "Aib at position 8: steric DPP-4 resistance",
+        "C18 diacid: invariant albumin binding",
+        "Clearance via proteolysis, not CYP450 or renal filtration",
+        "PK unchanged in severe hepatic/renal impairment"
+      ],
+      "reference": "INVARIANT 3.1 [Known]: \"The alpha-aminoisobutyric acid (Aib) substitution at position 8 creates absolute steric hindrance ag...\""
+    },
+    {
+      "id": "ht-001-n108",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "Systemic biomarkers that remain unchanged despite weight loss and HbA1c reduction",
+      "content": "While systemic markers like hsCRP and lipids reliably drop, markers that reflect deeply entrenched fibrotic architecture—such as advanced fibrosis scores in MASH/NASH (F3–F4 stages)—often remain unchanged or progress despite significant weight loss and HbA1c reduction.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "hsCRP and lipids reliably improve",
+        "Advanced MASH fibrosis scores (F3–F4) may not regress",
+        "Deep fibrotic architecture can persist despite metabolic gains",
+        "Structural reversal ≠ biomarker normalization"
+      ],
+      "reference": "INVARIANT 3.2 [Uncertain]: \"While systemic markers like hsCRP and lipids reliably drop, markers that reflect deeply entrenched f...\""
+    },
+    {
+      "id": "ht-001-n109",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "Binding affinity constants under chronic high-dose saturation",
+      "content": "The chemical dissociation constant (Kd) governing semaglutide's affinity for the GLP-1R is an invariant physical property. Chronic, high-dose saturation does not alter the drug's affinity; rather, it may alter the density (Bmax) of available surface receptors.\n\nClinical efficacy curves prove receptor density changes do not negate the therapeutic effect.\n\nCertainty: Known",
+      "keyPoints": [
+        "Kd is an invariant physical constant",
+        "Chronic saturation may reduce surface receptor density (Bmax)",
+        "Affinity itself does not change with duration",
+        "Therapeutic efficacy maintained despite potential Bmax shifts"
+      ],
+      "reference": "INVARIANT 3.3 [Known]: \"The chemical dissociation constant (Kd) governing semaglutide's affinity for the GLP-1R is an invari...\""
+    },
+    {
+      "id": "ht-001-n110",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "What would falsify weight-independent cardiovascular and renal protection?",
+      "content": "To definitively falsify weight-independent cardioprotection, a trial must feature an active comparator arm achieving the exact same trajectory and magnitude of weight loss (e.g., via a strictly matched hypocaloric diet or specific bariatric interventions) over 5 years.\n\nIf the CV hazard ratios converge perfectly between arms, the independent protective mechanism is falsified.\n\nCertainty: Known",
+      "keyPoints": [
+        "Requires matched weight-loss comparator over 5 years",
+        "Bariatric surgery or enforced hypocaloric diet as active control",
+        "Converging hazard ratios would falsify independent protection",
+        "Currently no trial has definitively isolated this variable"
+      ],
+      "reference": "FALSIFIABILITY 4.1 [Known]: \"To definitively falsify weight-independent cardioprotection, a trial must feature an active comparat...\""
+    },
+    {
+      "id": "ht-001-n111",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "How to falsify beta-cell structural remodeling or accelerated senescence",
+      "content": "Falsification requires serial, in vivo structural analysis of human pancreatic islets, which is currently impossible without autopsy or unethical serial biopsies. We can only track functional proxies (C-peptide, proinsulin/insulin ratio), which cannot definitively rule out microscopic architectural exhaustion.\n\nCertainty: Unknown",
+      "keyPoints": [
+        "Serial human islet biopsy not ethically feasible",
+        "Functional proxies: C-peptide, proinsulin/insulin ratio",
+        "Cannot rule out microscopic beta-cell exhaustion",
+        "Falsification currently impossible with available methods"
+      ],
+      "reference": "FALSIFIABILITY 4.2 [Unknown]: \"Falsification requires serial, in vivo structural analysis of human pancreatic islets, which is curr...\""
+    },
+    {
+      "id": "ht-001-n112",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "Falsifying central receptor desensitization vs. thermodynamic plateau",
+      "content": "This is falsifiable via thermodynamic intervention. If a patient at a semaglutide plateau is subjected to a rigidly controlled, mechanically enforced caloric deficit (e.g., metabolic ward) and resumes losing weight, it proves the plateau is a thermodynamic equilibrium (energy intake matches lowered metabolic rate), not central receptor desensitization.\n\nCertainty: Known",
+      "keyPoints": [
+        "STEP plateau at weeks 60–68 is testable",
+        "Metabolic ward enforced deficit can break plateau",
+        "Resumed weight loss → thermodynamic, not receptor desensitization",
+        "Adaptive thermogenesis explains equilibrium"
+      ],
+      "reference": "FALSIFIABILITY 4.3 [Known]: \"This is falsifiable via thermodynamic intervention. If a patient at a semaglutide plateau is subject...\""
+    },
+    {
+      "id": "ht-001-n113",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "SELECT cardiovascular benefit if weight loss is mathematically subtracted",
+      "content": "Post-hoc mediation analyses from the SELECT trial suggest that if weight loss is mathematically isolated, roughly 20–30% of the cardiovascular benefit remains, pointing toward direct anti-inflammatory pathways (hsCRP reduction) and endothelial plaque stabilization independent of adipose reduction.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "SELECT mediation analysis: ~20–30% CV benefit independent of weight",
+        "Residual benefit via hsCRP reduction",
+        "Endothelial plaque stabilization may be weight-independent",
+        "Majority of benefit still weight-mediated"
+      ],
+      "reference": "COUNTERFACTUAL 5.1 [Uncertain]: \"Post-hoc mediation analyses from the SELECT trial suggest that if weight loss is mathematically isol...\""
+    },
+    {
+      "id": "ht-001-n114",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "If mechanism were peripheral rather than central: what would change?",
+      "content": "If the mechanism were strictly peripheral, GLP-1RAs that do not cross the blood-brain barrier would cause equivalent weight loss. Literature shows peripherally restricted experimental analogs improve glycemia but fail to induce significant weight loss, disproving the peripheral-dominant hypothesis.\n\nCertainty: Known",
+      "keyPoints": [
+        "Peripherally restricted GLP-1RAs improve glycemia only",
+        "No significant weight loss without BBB penetration",
+        "Peripheral-dominant hypothesis disproved experimentally",
+        "Central mechanism is necessary for weight effects"
+      ],
+      "reference": "COUNTERFACTUAL 5.2 [Known]: \"If the mechanism were strictly peripheral, GLP-1RAs that do not cross the blood-brain barrier would ...\""
+    },
+    {
+      "id": "ht-001-n115",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "If semaglutide half-life were compressed to native GLP-1 (~2 hours)",
+      "content": "If semaglutide had a 2-hour half-life, it would behave exactly like exenatide. It would successfully lower post-prandial glucose via insulin secretion, but it would completely fail to induce meaningful weight loss, as continuous central nervous system saturation is an absolute prerequisite for durable appetite suppression.\n\nCertainty: Known",
+      "keyPoints": [
+        "2-hour half-life → exenatide-like pharmacology",
+        "Post-prandial glucose lowering preserved",
+        "Meaningful weight loss would fail",
+        "Continuous CNS saturation required for appetite suppression"
+      ],
+      "reference": "COUNTERFACTUAL 5.3 [Known]: \"If semaglutide had a 2-hour half-life, it would behave exactly like exenatide. It would successfully...\""
+    },
+    {
+      "id": "ht-001-n116",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "Long-term gastric slowing: microbiota and oral drug absorption kinetics",
+      "content": "Gastric slowing is mostly transient, but the profound, years-long reduction in total caloric intake and shift in macronutrient preference severely alters the gut microbiome (reduced diversity in some cohorts). Absorption kinetics of narrow-therapeutic-index oral drugs (e.g., levothyroxine, lithium) are delayed in Tmax, though the Area Under the Curve (AUC) usually remains stable.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "Gastric slowing largely transient at steady state",
+        "Caloric restriction alters gut microbiome diversity",
+        "Narrow-index drugs: delayed Tmax (levothyroxine, lithium)",
+        "AUC usually stable despite delayed peak absorption"
+      ],
+      "reference": "SECOND-ORDER 6.1 [Uncertain]: \"Gastric slowing is mostly transient, but the profound, years-long reduction in total caloric intake ...\""
+    },
+    {
+      "id": "ht-001-n117",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "Visceral fat loss: downstream bone marrow and bone turnover effects",
+      "content": "Rapid weight loss mechanically unloads the skeleton, which triggers a known second-order increase in bone resorption markers (e.g., CTX) and a decrease in bone mineral density. The multi-year consequence of this on absolute fracture risk in semaglutide cohorts is currently under intense post-market surveillance.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "Rapid weight loss unloads skeleton mechanically",
+        "Increased bone resorption markers (CTX)",
+        "Decreased bone mineral density observed",
+        "Long-term fracture risk under post-market surveillance"
+      ],
+      "reference": "SECOND-ORDER 6.2 [Uncertain]: \"Rapid weight loss mechanically unloads the skeleton, which triggers a known second-order increase in...\""
+    },
+    {
+      "id": "ht-001-n118",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "Years-long dopamine reward suppression: hedonic and neurochemical consequences",
+      "content": "Semaglutide dampens dopamine release in the mesolimbic reward system (VTA to nucleus accumbens) in response to food and alcohol. The long-term compounding effect of continuous dopaminergic blunting on global hedonic tone (risk of anhedonia or mood discordance) remains a biological plausibility lacking definitive long-term psychiatric data.\n\nCertainty: Unknown",
+      "keyPoints": [
+        "Dampens VTA → nucleus accumbens dopamine to food/alcohol",
+        "Continuous hedonic suppression over years: unknown consequences",
+        "Theoretical risk of anhedonia or mood discordance",
+        "No definitive long-term psychiatric outcome data"
+      ],
+      "reference": "SECOND-ORDER 6.3 [Unknown]: \"Semaglutide dampens dopamine release in the mesolimbic reward system (VTA to nucleus accumbens) in r...\""
+    },
+    {
+      "id": "ht-001-n119",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "Dose threshold where metabolic efficacy transitions to exponential GI toxicity",
+      "content": "The transition from linear metabolic efficacy to exponential GI toxicity occurs rapidly when dose escalations breach the natural tolerance induction window (typically escalations >0.5 mg per month, or absolute doses exceeding 2.4 mg). This is driven by peak serum concentrations (Cmax) saturating the Area Postrema (the brain's vomiting center), which lacks a blood-brain barrier.\n\nCertainty: Known",
+      "keyPoints": [
+        "Escalation >0.5 mg/month increases GI toxicity",
+        "Doses exceeding 2.4 mg saturate area postrema",
+        "Cmax-driven nausea/vomiting at vomiting center",
+        "Area postrema lacks blood-brain barrier"
+      ],
+      "reference": "BOUNDARY 7.1 [Known]: \"The transition from linear metabolic efficacy to exponential GI toxicity occurs rapidly when dose es...\""
+    },
+    {
+      "id": "ht-001-n120",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "Therapeutic breakdown at metabolic spectrum extremes",
+      "content": "At the extreme of absolute insulin deficiency (Type 1 Diabetes or late-stage lipodystrophy), the glycemic efficacy of semaglutide breaks down entirely, as its mechanism requires functional beta-cell mass. On the lean extreme, it disproportionately catabolizes lean muscle mass alongside fat, breaking the therapeutic logic of metabolic health improvement.\n\nCertainty: Known",
+      "keyPoints": [
+        "Type 1 DM / lipodystrophy: no functional beta cells → no glycemic effect",
+        "Requires intact beta-cell mass for insulin secretion",
+        "Lean individuals: disproportionate lean mass catabolism",
+        "Therapeutic logic breaks at both metabolic extremes"
+      ],
+      "reference": "BOUNDARY 7.2 [Known]: \"At the extreme of absolute insulin deficiency (Type 1 Diabetes or late-stage lipodystrophy), the gly...\""
+    },
+    {
+      "id": "ht-001-n121",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "Semaglutide signaling during acute hypoxia, heart failure, or sepsis",
+      "content": "In acute inflammatory states, profound sympathetic nervous system override and elevated counter-regulatory hormones (cortisol, epinephrine) generally blunt the incretin effect. The direct behavior of semaglutide at the cellular level during acute ischemic stress remains poorly mapped in humans.\n\nCertainty: Unknown",
+      "keyPoints": [
+        "Acute inflammation blunts incretin effect generally",
+        "Counter-regulatory hormones (cortisol, epinephrine) override GLP-1 signaling",
+        "Cellular behavior during ischemic stress unmapped in humans",
+        "Protective vs. aberrant signaling in sepsis/HF: unknown"
+      ],
+      "reference": "BOUNDARY 7.3 [Unknown]: \"In acute inflammatory states, profound sympathetic nervous system override and elevated counter-regu...\""
+    },
+    {
+      "id": "ht-001-n122",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "DPP-4 constraints that dictated semaglutide's chemical modifications from liraglutide",
+      "content": "Native GLP-1 is cleaved by DPP-4 precisely between Alanine-8 and Glutamate-9. Liraglutide retained Alanine-8, relying only on steric shielding from its C16 fatty acid, leading to a 13-hour half-life. Semaglutide's origin necessitated replacing Alanine-8 with Aib to mathematically guarantee zero DPP-4 cleavage, extending the half-life to 165 hours.\n\nCertainty: Known",
+      "keyPoints": [
+        "DPP-4 cleaves native GLP-1 between Ala-8 and Glu-9",
+        "Liraglutide: retained Ala-8 + C16 fatty acid → 13-h half-life",
+        "Semaglutide: Aib-8 substitution → zero DPP-4 cleavage",
+        "Result: 165-hour half-life enabling weekly dosing"
+      ],
+      "reference": "LINEAGE 8.1 [Known]: \"Native GLP-1 is cleaved by DPP-4 precisely between Alanine-8 and Glutamate-9. Liraglutide retained A...\""
+    },
+    {
+      "id": "ht-001-n123",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "How short-acting GLP-1RA CV trial failures shaped SUSTAIN/STEP design",
+      "content": "Early short-acting agents (lixisenatide in the ELIXA trial) failed to show CV superiority. This proved that transient, post-prandial incretin spikes do not alter vascular biology. This failure forced the structural design of semaglutide to prioritize 24/7 steady-state exposure, directly shaping the endpoints of SUSTAIN-6.\n\nCertainty: Known",
+      "keyPoints": [
+        "ELIXA (lixisenatide): no CV superiority demonstrated",
+        "Transient post-prandial spikes do not alter vascular biology",
+        "Semaglutide designed for 24/7 steady-state exposure",
+        "Directly shaped SUSTAIN-6 cardiovascular endpoints"
+      ],
+      "reference": "LINEAGE 8.2 [Known]: \"Early short-acting agents (lixisenatide in the ELIXA trial) failed to show CV superiority. This prov...\""
+    },
+    {
+      "id": "ht-001-n124",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "CVOT assumptions that repositioned semaglutide as cardioprotective agent",
+      "content": "The 2008 FDA mandate assumed all new diabetes drugs harbored hidden ischemic risks (post-Rosiglitazone). CVOTs were designed purely as non-inferiority safety trials. The serendipitous finding of cardiovascular superiority forced the paradigm shift of semaglutide from a mere secretagogue to a primary preventative cardiovascular agent.\n\nCertainty: Known",
+      "keyPoints": [
+        "2008 FDA mandate: CV safety for all new diabetes drugs",
+        "CVOTs designed as non-inferiority safety trials",
+        "SUSTAIN-6 serendipitously showed CV superiority",
+        "Repositioned from secretagogue to primary cardioprotective agent"
+      ],
+      "reference": "LINEAGE 8.3 [Known]: \"The 2008 FDA mandate assumed all new diabetes drugs harbored hidden ischemic risks (post-Rosiglitazo...\""
+    },
+    {
+      "id": "ht-001-n125",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "Thermodynamic equilibrium driving the STEP weight-loss plateau at weeks 60–68",
+      "content": "The plateau at week 60–68 represents a thermodynamic equilibrium. As patients lose mass, their Basal Metabolic Rate (BMR) drops via adaptive thermogenesis. The equilibrium point is where the lowered daily caloric expenditure mathematically intersects with the artificially suppressed caloric intake.\n\nCertainty: Known",
+      "keyPoints": [
+        "Plateau = thermodynamic equilibrium, not receptor failure",
+        "BMR drops via adaptive thermogenesis with mass loss",
+        "Lowered expenditure intersects suppressed intake",
+        "Occurs around weeks 60–68 in STEP trials"
+      ],
+      "reference": "EQUILIBRIUM 9.1 [Known]: \"The plateau at week 60–68 represents a thermodynamic equilibrium. As patients lose mass, their Basal...\""
+    },
+    {
+      "id": "ht-001-n126",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "Physiological forces driving rebound after semaglutide cessation",
+      "content": "The system rebounds aggressively toward baseline because the biological \"set-point\" in the hypothalamus is never structurally altered by semaglutide. Upon withdrawal, plummeting GLP-1 receptor agonism coincides with elevated ghrelin levels (due to weight loss), driving hyperphagia.\n\nCertainty: Known",
+      "keyPoints": [
+        "Hypothalamic set-point never structurally altered",
+        "Drug withdrawal → plummeting GLP-1R agonism",
+        "Elevated ghrelin from weight loss drives hyperphagia",
+        "STEP 4: ~two-thirds weight regained within 48 weeks"
+      ],
+      "reference": "EQUILIBRIUM 9.2 [Known]: \"The system rebounds aggressively toward baseline because the biological \"set-point\" in the hypothala...\""
+    },
+    {
+      "id": "ht-001-n127",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "Beta-cell resting state at glycemic equilibrium (HbA1c <6.0%)",
+      "content": "At an HbA1c <6.0%, the long-term resting state of the beta-cell is one of profound offloading. Reduced glucotoxicity, lipotoxicity, and peripheral insulin resistance result in a marked drop in fasting insulin requirements, allowing beta-cells to rest and restoring a more physiological proinsulin-to-insulin cleavage ratio.\n\nCertainty: Known",
+      "keyPoints": [
+        "HbA1c <6.0%: beta-cells in offloaded resting state",
+        "Reduced glucotoxicity and lipotoxicity",
+        "Fasting insulin requirements markedly decrease",
+        "Proinsulin-to-insulin ratio normalizes (HOMA-B improves)"
+      ],
+      "reference": "EQUILIBRIUM 9.3 [Known]: \"At an HbA1c <6.0%, the long-term resting state of the beta-cell is one of profound offloading. Reduc...\""
+    },
+    {
+      "id": "ht-001-n128",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "Structural mechanism of non-responders in STEP trials",
+      "content": "Roughly 10–15% of patients are non-responders. The structural mechanism is likely polygenic discordance—patients whose obesity is driven by pathways downstream of the GLP-1R/POMC axis (e.g., MC4R mutations), severe psychological eating disorders that override homeostatic satiety signals, or rare polymorphisms in the GLP-1 receptor itself.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "~10–15% non-responder rate despite verified adherence",
+        "MC4R mutations bypass GLP-1R/POMC pathway",
+        "Psychological eating disorders override satiety signals",
+        "Rare GLP-1R polymorphisms possible"
+      ],
+      "reference": "DISCORDANCE 10.1 [Uncertain]: \"Roughly 10–15% of patients are non-responders. The structural mechanism is likely polygenic discorda...\""
+    },
+    {
+      "id": "ht-001-n129",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "CV sub-metric discordance: MACE reduced but MI/stroke sub-metrics often insignificant",
+      "content": "While composite MACE is reduced, isolated metrics like non-fatal MI often lack statistical significance in some cohorts. This discordance likely exists because atherosclerosis takes decades to form; 3-to-5-year trials capture the stabilization of vulnerable plaques (preventing fatal ruptures/strokes) but are too short to reverse structural coronary stenosis.\n\nCertainty: Uncertain",
+      "keyPoints": [
+        "Composite MACE significantly reduced in major trials",
+        "Non-fatal MI sub-metrics often lack significance",
+        "3–5 year trials stabilize plaques, not reverse stenosis",
+        "Atherosclerosis reversal requires decades"
+      ],
+      "reference": "DISCORDANCE 10.2 [Uncertain]: \"While composite MACE is reduced, isolated metrics like non-fatal MI often lack statistical significa...\""
+    },
+    {
+      "id": "ht-001-n130",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "Lipase/amylase elevation discordance with low clinical pancreatitis incidence",
+      "content": "Semaglutide directly binds to GLP-1 receptors on pancreatic exocrine acinar cells, promoting low-grade, constitutive exocytosis of lipase and amylase into the serum. However, clinical acute pancreatitis requires intracellular auto-activation of zymogens. Semaglutide increases enzyme release but does not trigger the pathological activation cascade, explaining the benign lab elevations alongside the extremely low incidence of actual necrosis.\n\nCertainty: Known",
+      "keyPoints": [
+        "GLP-1R on pancreatic acinar cells → constitutive enzyme exocytosis",
+        "Serum lipase/amylase elevations are common and asymptomatic",
+        "Acute pancreatitis requires intracellular zymogen auto-activation",
+        "Incidence <0.1%; lab elevations are benign"
+      ],
+      "reference": "DISCORDANCE 10.3 [Known]: \"Semaglutide directly binds to GLP-1 receptors on pancreatic exocrine acinar cells, promoting low-gra...\""
+    },
+    {
+      "id": "ht-001-q27",
+      "subtopic": "Glassbox — Mechanism",
+      "question": "Beyond cAMP/PKA, which signaling pathway in hypothalamic POMC neurons is activated by semaglutide to drive appetite suppression?",
+      "options": [
+        "mTOR → S6K phosphorylation",
+        "Epac2 → TRPC channel opening → alpha-MSH release → MC4R",
+        "JAK-STAT → SOCS3 induction",
+        "NF-κB → inflammatory cytokine release"
+      ],
+      "correctOption": 1,
+      "explanation": "Semaglutide activates Epac2 downstream of cAMP, opening TRPC channels, depolarizing POMC neurons, and releasing alpha-MSH which signals via MC4R.",
+      "reference": "GLASSBOX 2.1 [Known]: \"activates Epac2... triggers the opening of TRPC channels... exocytosis of alpha-MSH\"",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q28",
+      "subtopic": "Invariant — Constants",
+      "question": "Which semaglutide structural modification mathematically guarantees zero DPP-4 cleavage?",
+      "options": [
+        "C16 fatty acid on lysine-26 (liraglutide design)",
+        "Aib substitution at position 8 replacing alanine",
+        "Arginine substitution at position 34 only",
+        "SNAC co-formulation in oral tablets"
+      ],
+      "correctOption": 1,
+      "explanation": "DPP-4 cleaves between Ala-8 and Glu-9 in native GLP-1. Replacing Ala-8 with Aib creates absolute steric hindrance, extending half-life to 165 hours vs liraglutide's 13 hours.",
+      "reference": "LINEAGE 8.1 [Known]: \"replacing Alanine-8 with Aib to mathematically guarantee zero DPP-4 cleavage\"",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q29",
+      "subtopic": "Counterfactual — Inversion",
+      "question": "If semaglutide's half-life were compressed to ~2 hours while maintaining receptor affinity, which therapeutic effect would be lost?",
+      "options": [
+        "Post-prandial glucose lowering",
+        "Durable weight loss via central appetite suppression",
+        "Glucagon suppression",
+        "Renal protection in FLOW"
+      ],
+      "correctOption": 1,
+      "explanation": "A 2-hour half-life would mimic exenatide — effective for post-prandial glucose but unable to sustain CNS saturation needed for meaningful weight loss.",
+      "reference": "COUNTERFACTUAL 5.3 [Known]: \"completely fail to induce meaningful weight loss, as continuous central nervous system saturation is an absolute prerequisite\"",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q30",
+      "subtopic": "Equilibrium — End-State",
+      "question": "The STEP trial weight-loss plateau at weeks 60–68 is best explained by:",
+      "options": [
+        "Complete GLP-1 receptor desensitization in the hypothalamus",
+        "Thermodynamic equilibrium between lowered BMR and suppressed caloric intake",
+        "Development of anti-semaglutide antibodies",
+        "Irreversible beta-cell exhaustion"
+      ],
+      "correctOption": 1,
+      "explanation": "The plateau represents adaptive thermogenesis lowering BMR as mass decreases, intersecting with pharmacologically suppressed intake — a thermodynamic equilibrium, not receptor failure.",
+      "reference": "EQUILIBRIUM 9.1 [Known]: \"thermodynamic equilibrium... BMR drops via adaptive thermogenesis\"",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q31",
+      "subtopic": "Discordance — Anomalies",
+      "question": "Asymptomatic serum lipase/amylase elevations on semaglutide occur because:",
+      "options": [
+        "Acute zymogen auto-activation causing subclinical pancreatitis",
+        "GLP-1R-mediated constitutive exocytosis from acinar cells without zymogen activation",
+        "SNAC-induced pancreatic duct obstruction",
+        "Direct acinar cell necrosis from albumin binding"
+      ],
+      "correctOption": 1,
+      "explanation": "Semaglutide binds GLP-1R on exocrine acinar cells promoting enzyme release, but does not trigger the intracellular zymogen auto-activation cascade required for clinical pancreatitis.",
+      "reference": "DISCORDANCE 10.3 [Known]: \"promoting low-grade, constitutive exocytosis of lipase and amylase... does not trigger the pathological activation cascade\"",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q32",
+      "subtopic": "Falsifiability — Breakpoint",
+      "question": "To falsify weight-independent cardiovascular protection of semaglutide, a trial would need:",
+      "options": [
+        "A larger sample size in SELECT",
+        "An active comparator achieving identical weight loss magnitude over 5 years",
+        "Longer follow-up in FLOW only",
+        "Higher semaglutide dose (3.0 mg weekly)"
+      ],
+      "correctOption": 1,
+      "explanation": "If CV hazard ratios converge when weight loss is perfectly matched via bariatric surgery or enforced hypocaloric diet, weight-independent protection would be falsified.",
+      "reference": "FALSIFIABILITY 4.1 [Known]: \"active comparator arm achieving the exact same trajectory and magnitude of weight loss... over 5 years\"",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-tf13",
+      "subtopic": "Axiomatic — Root",
+      "statement": "STEP trial improvements in HbA1c and weight represent structural reversal of underlying metabolic disease architecture.",
+      "correctAnswer": false,
+      "explanation": "Trial extensions show these are clamped states; risk factors revert upon cessation, proving underlying disease architecture remains intact.",
+      "reference": "AXIOMATIC 1.2 [Uncertain]: \"these are merely clamped states, not structural reversals\"",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf14",
+      "subtopic": "Glassbox — Mechanism",
+      "statement": "Alpha cells express high levels of GLP-1 receptors, enabling direct glucagon suppression by semaglutide.",
+      "correctAnswer": false,
+      "explanation": "Alpha cells express virtually zero GLP-1 receptors; glucagon suppression is indirect via beta-cell insulin/GABA and delta-cell somatostatin paracrine signaling.",
+      "reference": "GLASSBOX 2.3 [Uncertain]: \"alpha cells express virtually zero GLP-1 receptors\"",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf15",
+      "subtopic": "Counterfactual — Inversion",
+      "statement": "Peripherally restricted GLP-1RAs that do not cross the blood-brain barrier cause equivalent weight loss to semaglutide.",
+      "correctAnswer": false,
+      "explanation": "Experimental peripherally restricted analogs improve glycemia but fail to induce significant weight loss, disproving peripheral-dominant mechanism.",
+      "reference": "COUNTERFACTUAL 5.2 [Known]: \"peripherally restricted experimental analogs improve glycemia but fail to induce significant weight loss\"",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf16",
+      "subtopic": "Equilibrium — End-State",
+      "statement": "Upon semaglutide withdrawal, the hypothalamic metabolic set-point returns to a more resilient state than baseline.",
+      "correctAnswer": false,
+      "explanation": "The set-point is never structurally altered; withdrawal causes aggressive rebound via plummeting GLP-1R agonism and elevated ghrelin-driven hyperphagia.",
+      "reference": "EQUILIBRIUM 9.2 [Known]: \"the biological set-point in the hypothalamus is never structurally altered by semaglutide\"",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf17",
+      "subtopic": "Lineage — Origin",
+      "statement": "The ELIXA trial failure with short-acting lixisenatide directly shaped semaglutide's design for 24/7 steady-state exposure.",
+      "correctAnswer": true,
+      "explanation": "ELIXA proved transient post-prandial incretin spikes do not alter vascular biology, forcing continuous exposure design in SUSTAIN-6.",
+      "reference": "LINEAGE 8.2 [Known]: \"transient, post-prandial incretin spikes do not alter vascular biology\"",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf18",
+      "subtopic": "Boundary — Extremes",
+      "statement": "Semaglutide retains full glycemic efficacy in patients with absolute insulin deficiency (type 1 diabetes).",
+      "correctAnswer": false,
+      "explanation": "Glycemic efficacy requires functional beta-cell mass; in type 1 DM or late-stage lipodystrophy the mechanism breaks down entirely.",
+      "reference": "BOUNDARY 7.2 [Known]: \"glycemic efficacy of semaglutide breaks down entirely, as its mechanism requires functional beta-cell mass\"",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-ar13",
+      "subtopic": "Axiomatic — Root",
+      "assertion": "Semaglutide-induced weight loss is primarily centrally mediated.",
+      "reason": "Peripherally restricted GLP-1RAs cause equivalent weight loss without CNS penetration.",
+      "correctOption": 2,
+      "explanation": "A is true (central mediation supported); R is false (peripheral analogs fail to induce significant weight loss).",
+      "reference": "AXIOMATIC 1.3 [Mostly Known]: \"without central nervous system penetrance, GLP-1-mediated weight loss practically ceases\"; COUNTERFACTUAL 5.2 [Known]: \"peripherally restricted experimental analogs improve glycemia but fail to induce significant weight loss\"",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar14",
+      "subtopic": "Equilibrium — End-State",
+      "assertion": "The STEP weight plateau represents thermodynamic equilibrium.",
+      "reason": "Adaptive thermogenesis lowers BMR as patients lose mass, intersecting with suppressed caloric intake.",
+      "correctOption": 0,
+      "explanation": "Both true; lowered expenditure meets suppressed intake at equilibrium — not receptor desensitization.",
+      "reference": "EQUILIBRIUM 9.1 [Known]: \"BMR drops via adaptive thermogenesis\"",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar15",
+      "subtopic": "Discordance — Anomalies",
+      "assertion": "Serum lipase elevations on semaglutide are clinically benign in most patients.",
+      "reason": "Semaglutide triggers intracellular zymogen auto-activation causing subclinical pancreatitis.",
+      "correctOption": 2,
+      "explanation": "A is true (elevations are benign); R is false (enzyme release occurs without zymogen auto-activation cascade).",
+      "reference": "DISCORDANCE 10.3 [Known]: \"does not trigger the pathological activation cascade\"",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar16",
+      "subtopic": "Lineage — Origin",
+      "assertion": "Semaglutide was repositioned as a primary cardioprotective agent.",
+      "reason": "CVOTs were designed as non-inferiority safety trials that serendipitously demonstrated CV superiority.",
+      "correctOption": 0,
+      "explanation": "Both true; 2008 FDA mandate led to safety trials that unexpectedly showed benefit, shifting clinical positioning.",
+      "reference": "LINEAGE 8.3 [Known]: \"serendipitous finding of cardiovascular superiority forced the paradigm shift\"",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar17",
+      "subtopic": "Second-Order — Cascade",
+      "assertion": "Rapid semaglutide-induced weight loss may decrease bone mineral density.",
+      "reason": "Weight loss mechanically unloads the skeleton, increasing bone resorption markers like CTX.",
+      "correctOption": 0,
+      "explanation": "Both true; mechanical unloading from rapid weight loss triggers known bone resorption cascade.",
+      "reference": "SECOND-ORDER 6.2 [Uncertain]: \"increase in bone resorption markers (e.g., CTX) and a decrease in bone mineral density\"",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar18",
+      "subtopic": "Falsifiability — Breakpoint",
+      "assertion": "Weight-loss plateau on semaglutide can be broken in a metabolic ward setting.",
+      "reason": "This would prove the plateau is thermodynamic equilibrium rather than central receptor desensitization.",
+      "correctOption": 0,
+      "explanation": "Both true; enforced caloric deficit breaking plateau falsifies receptor desensitization hypothesis.",
+      "reference": "FALSIFIABILITY 4.3 [Known]: \"proves the plateau is a thermodynamic equilibrium... not central receptor desensitization\"",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-n131",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "What is the absolute biological axiom behind the transition of obesity treatment from behavioral intervention to lifelong GLP-1 receptor hyper-stimulation?",
+      "content": "Deconstruction:\nThe fundamental assumption is that obesity is a chronic neurometabolic disorder characterized by a biologically defended \"weight set-point\" regulated by the hypothalamus, rather than a voluntary behavioral failure.\n\nPublished Evidence & Certainty: Highly certain. Clinical trial withdrawals (STEP 4) demonstrate that when semaglutide is withdrawn, the central nervous system rapidly resets to its baseline homeostatic drive, leading to immediate weight regain. Adipose tissue and energy expenditure models confirm that lifestyle-induced weight loss triggers powerful neuroendocrine compensatory mechanisms (e.g., ghrelin spikes, leptin drops, metabolic slowing) which semaglutide pharmacologically overrides.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "The fundamental assumption is that obesity is a chronic neurometabolic disorder characterized by a biologically defended \"weight set-point\" regulated by the hypothalamus, rather than a voluntary behavioral failure.",
+        "Clinical trial withdrawals (STEP 4) demonstrate that when semaglutide is withdrawn, the central nervous system rapidly resets to its baseline homeostatic drive, leading to immediate weight regain.",
+        "Adipose tissue and energy expenditure models confirm that lifestyle-induced weight loss triggers powerful neuroendocrine compensatory mechanisms (e.g., ghrelin spikes, leptin drops, metabolic slowing) which semaglutide pharmacologically overrides."
+      ],
+      "reference": "DECON 50 Q1 [Highly certain]: \"The fundamental assumption is that obesity is a chronic neurometabolic disorder characterized by a biologically defended...\" (Rubino D, et al. *JAMA*. 2021;325(14):1414-1425 (STEP 4); MacLean PS, et al. *Am J Physiol Regul Integr Comp Physiol*. 2011;301(3):R581-600.)"
+    },
+    {
+      "id": "ht-001-n132",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "Is the assumption that continuous, supraphysiologic stimulation of the GLP-1 receptor is safe over a multi-decade timeline undeniably true?",
+      "content": "Deconstruction:\nThis is an unproven assumption. While safe over 2 to 5 years, we lack true multi-decade clinical trial safety data for patients initiating GLP-1 RAs in early adulthood or adolescence.\n\nPublished Evidence & Certainty: Limited information. The longest continuous randomized controlled trials (such as STEP 5 or SELECT) extend to only 2 to 5 years. Post-marketing surveillance database studies (such as FDA FAERS) provide observational signal data, but cannot prove long-term safety regarding chronic pancreatic islet stimulation, thyroid C-cell dynamics, or gastric muscular compliance over 20+ years of continuous exposure.\n\nCertainty: Limited information",
+      "keyPoints": [
+        "This is an unproven assumption.",
+        "While safe over 2 to 5 years, we lack true multi-decade clinical trial safety data for patients initiating GLP-1 RAs in early adulthood or adolescence.",
+        "The longest continuous randomized controlled trials (such as STEP 5 or SELECT) extend to only 2 to 5 years.",
+        "Post-marketing surveillance database studies (such as FDA FAERS) provide observational signal data, but cannot prove long-term safety regarding chronic pancreatic islet stimulation, thyroid C-cell dynamics, or gastric muscular compliance over 20+ years of continuous exposure."
+      ],
+      "reference": "DECON 50 Q2 [Limited information]: \"This is an unproven assumption. While safe over 2 to 5 years, we lack true multi-decade clinical trial safety data for p...\" (Garvey WT, et al. *Nat Med*. 2022;28(10):2083-2091 (STEP 5); Lincoff AM, et al. *N Engl J Med*. 2023;389(24):2221-2232 (SELECT).)"
+    },
+    {
+      "id": "ht-001-n133",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "Does the axiom that \"glycemic lowering directly reduces major adverse cardiovascular events (MACE)\" hold true for semaglutide?",
+      "content": "Deconstruction:\nNo, this axiom is partially false. The cardiovascular benefits of semaglutide are not solely a downstream consequence of HbA1c reduction.\n\nPublished Evidence & Certainty: Highly certain. In the SELECT trial, overweight/obese patients without type 2 diabetes (who had baseline normal or prediabetic HbA1c levels) experienced a 20% reduction in MACE, identical to the risk reductions observed in diabetic cohorts in SUSTAIN 6. This proves that the cardioprotection is driven by systemic anti-inflammatory, anti-atherosclerotic, and vascular endothelial-stabilizing pathways rather than the magnitude of glucose lowering itself.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "No, this axiom is partially false.",
+        "The cardiovascular benefits of semaglutide are not solely a downstream consequence of HbA1c reduction.",
+        "In the SELECT trial, overweight/obese patients without type 2 diabetes (who had baseline normal or prediabetic HbA1c levels) experienced a 20% reduction in MACE, identical to the risk reductions observed in diabetic cohorts in SUSTAIN 6.",
+        "This proves that the cardioprotection is driven by systemic anti-inflammatory, anti-atherosclerotic, and vascular endothelial-stabilizing pathways rather than the magnitude of glucose lowering itself."
+      ],
+      "reference": "DECON 50 Q3 [Highly certain]: \"No, this axiom is partially false. The cardiovascular benefits of semaglutide are not solely a downstream consequence of...\" (Lincoff AM, et al. *N Engl J Med*. 2023;389(24):2221-2232 (SELECT); Marso SP, et al. *N Engl J Med*. 2016;375(19):1834-1844 (SUSTAIN 6).)"
+    },
+    {
+      "id": "ht-001-n134",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "What is the foundational chemical axiom that enables oral delivery of a large peptide, and is it universally applicable?",
+      "content": "Deconstruction:\nThe axiom is that co-formulation with a small-molecule absorption enhancer (SNAC) can convert a highly fragile, low-permeability peptide into an orally bioavailable drug via local gastric membrane modification.\n\nPublished Evidence & Certainty: Highly certain but structurally constrained. Gastric cells treated with SNAC show transient, local lipid membrane fluidization that permits passive transcellular passage of semaglutide. However, this is highly dependent on a completely empty stomach; even minor food particles or excess water destroy the local concentration gradient, making the absolute bioavailability averages extremely low (~1%).\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "The axiom is that co-formulation with a small-molecule absorption enhancer (SNAC) can convert a highly fragile, low-permeability peptide into an orally bioavailable drug via local gastric membrane modification.",
+        "Highly certain but structurally constrained.",
+        "Gastric cells treated with SNAC show transient, local lipid membrane fluidization that permits passive transcellular passage of semaglutide.",
+        "However, this is highly dependent on a completely empty stomach; even minor food particles or excess water destroy the local concentration gradient, making the absolute bioavailability averages extremely low (~1%)."
+      ],
+      "reference": "DECON 50 Q4 [Highly certain]: \"The axiom is that co-formulation with a small-molecule absorption enhancer (SNAC) can convert a highly fragile, low-perm...\" (Buckley ST, et al. *Sci Transl Med*. 2018;10(467):eaar7047; Bækdal TA, et al. *Clin Pharmacokinet*. 2018;57(10):1339-1348.)"
+    },
+    {
+      "id": "ht-001-n135",
+      "type": "note",
+      "subtopic": "Axiomatic — The Root",
+      "title": "Does semaglutide mimic endogenous human GLP-1 action perfectly on a biophysical level?",
+      "content": "Deconstruction:\nNo, semaglutide behaves differently from native GLP-1 regarding plasma half-life, tissue distribution, and receptor internalization dynamics.\n\nPublished Evidence & Certainty: Highly certain. Native GLP-1 is released in rapid, pulsatile bursts postprandially and is cleared within 2-3 minutes by DPP-4. Semaglutide provides continuous, high-concentration receptor occupancy for 168 hours per dose. Biophysical assays show that chronic, non-pulsatile exposure alters GLP-1 receptor recycling dynamics, shifting the receptor toward a state of constant signaling rather than natural cyclical endocytosis and re-sensitization.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "No, semaglutide behaves differently from native GLP-1 regarding plasma half-life, tissue distribution, and receptor internalization dynamics.",
+        "Native GLP-1 is released in rapid, pulsatile bursts postprandially and is cleared within 2-3 minutes by DPP-4.",
+        "Semaglutide provides continuous, high-concentration receptor occupancy for 168 hours per dose.",
+        "Biophysical assays show that chronic, non-pulsatile exposure alters GLP-1 receptor recycling dynamics, shifting the receptor toward a state of constant signaling rather than natural cyclical endocytosis and re-sensitization."
+      ],
+      "reference": "DECON 50 Q5 [Highly certain]: \"No, semaglutide behaves differently from native GLP-1 regarding plasma half-life, tissue distribution, and receptor inte...\" (Meier JJ. *Nat Rev Endocrinol*. 2012;8(12):728-742; Gabery S, et al. *J Neurosci*. 2020;40(11):2309-2322.)"
+    },
+    {
+      "id": "ht-001-n136",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "What are the specific, step-by-step macromolecular state changes that occur when an oral semaglutide tablet enters the stomach?",
+      "content": "Deconstruction:\n1. The tablet dissolves rapidly in the gastric mucus layer adjacent to the stomach wall.\n2. SNAC molecules release and create a localized microenvironment with a high local concentration (neutralizing local gastric acid and elevating the local pH to ~7-8).\n3. This pH change inactivates pepsin, protecting the semaglutide peptide backbone from enzymatic hydrolysis.\n4. SNAC monomerically associates with semaglutide, exposing hydrophobic patches.\n5. The lipophilic complex inserts into the apical membrane of gastric epithelial cells, crossing transcellularly into the portal circulation.\n\nPublished Evidence & Certainty: Highly certain. Preclinical and ex vivo gastric models have structurally mapped this transient, non-covalent lipid association.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "The tablet dissolves rapidly in the gastric mucus layer adjacent to the stomach wall.",
+        "SNAC molecules release and create a localized microenvironment with a high local concentration (neutralizing local gastric acid and elevating the local pH to ~7-8).",
+        "This pH change inactivates pepsin, protecting the semaglutide peptide backbone from enzymatic hydrolysis.",
+        "SNAC monomerically associates with semaglutide, exposing hydrophobic patches."
+      ],
+      "reference": "DECON 50 Q6 [Highly certain]: \"1. The tablet dissolves rapidly in the gastric mucus layer adjacent to the stomach wall.\" (Buckley ST, et al. *Sci Transl Med*. 2018;10(467):eaar7047.)"
+    },
+    {
+      "id": "ht-001-n137",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "What is the exact intracellular signal transduction pathway activated when semaglutide binds to the G-protein coupled GLP-1 receptor in pancreatic beta cells?",
+      "content": "Deconstruction:\n1. Semaglutide binds the extracellular domain of GLP-1R, inducing a conformational change.\n2. This triggers the exchange of GDP for GTP on the G-alpha-s subunit, activating adenylate cyclase.\n3. Intracellular cAMP levels spike, activating protein kinase A (PKA) and exchange protein directly activated by cAMP 2 (Epac2).\n4. PKA and Epac2 block voltage-gated potassium channels and stimulate intracellular calcium release from the endoplasmic reticulum via ryanodine receptors.\n5. In the presence of elevated glucose, this cytoplasmic calcium wave drives the fusion of insulin-containing secretory vesicles with the plasma membrane, causing exocytosis.\n\nPublished Evidence & Certainty: Highly certain. Well-established in cellular physiology and in vitro assays.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Semaglutide binds the extracellular domain of GLP-1R, inducing a conformational change.",
+        "This triggers the exchange of GDP for GTP on the G-alpha-s subunit, activating adenylate cyclase.",
+        "Intracellular cAMP levels spike, activating protein kinase A (PKA) and exchange protein directly activated by cAMP 2 (Epac2).",
+        "PKA and Epac2 block voltage-gated potassium channels and stimulate intracellular calcium release from the endoplasmic reticulum via ryanodine receptors."
+      ],
+      "reference": "DECON 50 Q7 [Highly certain]: \"1. Semaglutide binds the extracellular domain of GLP-1R, inducing a conformational change.\" (Doyle ME, Egan JM. *Pharmacol Rev*. 2003;55(1):105-131; Holst JJ. *Physiol Rev*. 2007;87(4):1409-1439.)"
+    },
+    {
+      "id": "ht-001-n138",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "How does semaglutide alter neural firing step-by-step in the central nervous system to induce satiety?",
+      "content": "Deconstruction:\n1. Semaglutide crosses fenestrated capillaries into the arcuate nucleus of the hypothalamus and the area postrema in the hindbrain.\n2. It binds directly to GLP-1 receptors on pro-opiomelanocortin (POMC) neurons, triggering G-alpha-s coupled depolarization and increasing the release of alpha-melanocyte-stimulating hormone (alpha-MSH).\n3. Simultaneously, it binds to and hyperpolarizes (inhibits) nearby neuropeptide Y (NPY) and agouti-related peptide (AgRP) neurons, turning off the primary hunger drive.\n4. Alpha-MSH binds to melanocortin-4 receptors (MC4R) in the paraventricular nucleus, generating a powerful satiety signal that reduces homeostatic meal size.\n\nPublished Evidence & Certainty: Moderately certain. Rodent mapping studies show direct neuronal activation via c-Fos staining, but direct human cellular mapping in vivo is technically limited.\n\nCertainty: Moderately certain",
+      "keyPoints": [
+        "Semaglutide crosses fenestrated capillaries into the arcuate nucleus of the hypothalamus and the area postrema in the hindbrain.",
+        "It binds directly to GLP-1 receptors on pro-opiomelanocortin (POMC) neurons, triggering G-alpha-s coupled depolarization and increasing the release of alpha-melanocyte-stimulating hormone (alpha-MSH).",
+        "Simultaneously, it binds to and hyperpolarizes (inhibits) nearby neuropeptide Y (NPY) and agouti-related peptide (AgRP) neurons, turning off the primary hunger drive.",
+        "Alpha-MSH binds to melanocortin-4 receptors (MC4R) in the paraventricular nucleus, generating a powerful satiety signal that reduces homeostatic meal size."
+      ],
+      "reference": "DECON 50 Q8 [Moderately certain]: \"1. Semaglutide crosses fenestrated capillaries into the arcuate nucleus of the hypothalamus and the area postrema in the...\" (Gabery S, et al. *J Neurosci*. 2020;40(11):2309-2322; Secher A, et al. *J Clin Invest*. 2014;124(10):4473-4488.)"
+    },
+    {
+      "id": "ht-001-n139",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "What is the specific pathway by which semaglutide slows chronic kidney disease (CKD) progression on a cellular level?",
+      "content": "Deconstruction:\n1. It binds GLP-1 receptors expressed on glomerular endothelial cells, mesangial cells, and proximal tubule cells.\n2. This inhibits local renal NADPH oxidase (Nox4), reducing the generation of reactive oxygen species (ROS).\n3. It suppresses nuclear factor-kappa B (NF-kB) translocation, halting the transcription of pro-inflammatory cytokines (IL-6, TNF-alpha) and fibrotic markers (TGF-beta).\n4. Concurrently, it blocks proximal tubule sodium-hydrogen exchanger 3 (NHE3), inducing mild natriuresis and reducing intraglomerular pressure (hyperfiltration).\n5. This combination preserves the slit diaphragm protein podocin, preventing podocyte loss and macroalbuminuria.\n\nPublished Evidence & Certainty: High biological certainty in animal models; clinical trials (FLOW) confirm translation to humans, though direct tissue biopsies of treated human kidneys are rare.\n\nCertainty: High biological certainty in animal models; clinical trials (FLOW) confirm translation to humans, though direct tissue biopsies of treated human kidneys are rare",
+      "keyPoints": [
+        "It binds GLP-1 receptors expressed on glomerular endothelial cells, mesangial cells, and proximal tubule cells.",
+        "This inhibits local renal NADPH oxidase (Nox4), reducing the generation of reactive oxygen species (ROS).",
+        "It suppresses nuclear factor-kappa B (NF-kB) translocation, halting the transcription of pro-inflammatory cytokines (IL-6, TNF-alpha) and fibrotic markers (TGF-beta).",
+        "Concurrently, it blocks proximal tubule sodium-hydrogen exchanger 3 (NHE3), inducing mild natriuresis and reducing intraglomerular pressure (hyperfiltration)."
+      ],
+      "reference": "DECON 50 Q9 [High biological certainty in animal models; clinical trials (FLOW) confirm translation to humans, though direct tissue biopsies of treated human kidneys are rare]: \"1. It binds GLP-1 receptors expressed on glomerular endothelial cells, mesangial cells, and proximal tubule cells.\" (Perkovic V, et al. *N Engl J Med*. 2024;391(2):109-121 (FLOW); Muskiet MHA, et al. *Nat Rev Nephrol*. 2017;13(10):605-628.)"
+    },
+    {
+      "id": "ht-001-n140",
+      "type": "note",
+      "subtopic": "Glassbox — The Mechanism",
+      "title": "How does semaglutide resolve Metabolic Dysfunction-Associated Steatohepatitis (MASH) in the liver despite the absence of GLP-1 receptors on hepatocytes?",
+      "content": "Deconstruction:\n1. Semaglutide induces severe systemic caloric deficit and fat mass depletion.\n2. This reduces the systemic circulation of free fatty acids (FFAs) and inflammatory adipokines.\n3. It dramatically improves peripheral insulin sensitivity, reducing hepatic de novo lipogenesis (DNL).\n4. Concurrently, GLP-1 receptors on hepatic natural killer T (NKT) cells and Kupffer cells are stimulated, suppressing local hepatic inflammation.\n5. The reduction in hepatic lipid accumulation (steatosis) and inflammation halts the activation of hepatic stellate cells, stopping the deposition of collagen fiber matrices.\n\nPublished Evidence & Certainty: Highly certain regarding the systemic metabolic cascade; moderate certainty regarding the exact contribution of direct immune-cell GLP-1R binding in human liver tissue.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Semaglutide induces severe systemic caloric deficit and fat mass depletion.",
+        "This reduces the systemic circulation of free fatty acids (FFAs) and inflammatory adipokines.",
+        "It dramatically improves peripheral insulin sensitivity, reducing hepatic de novo lipogenesis (DNL).",
+        "Concurrently, GLP-1 receptors on hepatic natural killer T (NKT) cells and Kupffer cells are stimulated, suppressing local hepatic inflammation."
+      ],
+      "reference": "DECON 50 Q10 [Highly certain]: \"1. Semaglutide induces severe systemic caloric deficit and fat mass depletion.\" (Newsome PN, et al. *N Engl J Med*. 2021;384(12):1113-1124; Loomba R, et al. *N Engl J Med*. 2025;392 (ESSENCE).)"
+    },
+    {
+      "id": "ht-001-n141",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "What structural invariant on the semaglutide molecule ensures its absolute resistance to the ubiquitous DPP-4 enzyme?",
+      "content": "Deconstruction:\nThe substitution of the native L-alanine at position 8 of the peptide chain with the synthetic amino acid alpha-aminoisobutyric acid (Aib).\n\nPublished Evidence & Certainty: Undeniably true. DPP-4 specifically recognizes and cleaves the N-terminal peptide bond between alanine (position 2) and glutamic acid (position 3) in native GLP-1. Inserting the bulky, non-proteinogenic Aib residue at position 8 creates steric hindrance that completely blocks the active site of the DPP-4 enzyme, rendering the molecule biochemically immune to DPP-4 hydrolysis.\n\nCertainty: Undeniably true",
+      "keyPoints": [
+        "The substitution of the native L-alanine at position 8 of the peptide chain with the synthetic amino acid alpha-aminoisobutyric acid (Aib).",
+        "DPP-4 specifically recognizes and cleaves the N-terminal peptide bond between alanine (position 2) and glutamic acid (position 3) in native GLP-1.",
+        "Inserting the bulky, non-proteinogenic Aib residue at position 8 creates steric hindrance that completely blocks the active site of the DPP-4 enzyme, rendering the molecule biochemically immune to DPP-4 hydrolysis."
+      ],
+      "reference": "DECON 50 Q11 [Undeniably true]: \"The substitution of the native L-alanine at position 8 of the peptide chain with the synthetic amino acid alpha-aminoiso...\" (Sorli C, et al. *Lancet Diabetes Endocrinol*. 2017;5(4):251-260; Holst JJ. *Physiol Rev*. 2007;87(4):1409-1439.)"
+    },
+    {
+      "id": "ht-001-n142",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "Regardless of systemic manipulation, does the rate of gastric emptying delay remain permanently reduced under chronic semaglutide therapy?",
+      "content": "Deconstruction:\nNo. The gastric emptying delay is not an invariant; it is a transient phenomenon.\n\nPublished Evidence & Certainty: Highly certain. Pharmacodynamic studies demonstrate that the deceleration of gastric emptying is highly pronounced during initial dosing and dose titration. However, over continuous weekly dosing (by weeks 12-20), the gastric motility rate returns toward baseline due to rapid tachyphylaxis (desensitization) of the vagal efferent receptors in the gut, while the central appetite suppression remains fully active.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "The gastric emptying delay is not an invariant; it is a transient phenomenon.",
+        "Pharmacodynamic studies demonstrate that the deceleration of gastric emptying is highly pronounced during initial dosing and dose titration.",
+        "However, over continuous weekly dosing (by weeks 12-20), the gastric motility rate returns toward baseline due to rapid tachyphylaxis (desensitization) of the vagal efferent receptors in the gut, while the central appetite suppression remains fully active."
+      ],
+      "reference": "DECON 50 Q12 [Highly certain]: \"No. The gastric emptying delay is not an invariant; it is a transient phenomenon.\" (Hjerpsted JB, et al. *Diabetes Obes Metab*. 2018;20(3):610-619; Flint A, et al. *J Clin Endocrinol Metab*. 2011;96(3):710-719.)"
+    },
+    {
+      "id": "ht-001-n143",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "What is the biophysical invariant governing the relationship between semaglutide's plasma concentration and gastrointestinal side effects?",
+      "content": "Deconstruction:\nThe rate of change of plasma concentration ($dC/dt$), rather than the absolute concentration ($C$) itself, is the primary constant driving gastrointestinal intolerance.\n\nPublished Evidence & Certainty: Highly certain. Pharmacokinetic modeling and clinical trials show that rapid increases in semaglutide exposure trigger intense nausea and vomiting. If plasma concentration is increased slowly and linearly (titrated over 4-week intervals), the central nervous system adapts, allowing patients to tolerate high steady-state concentrations that would induce severe emesis if administered as a loading dose.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "The rate of change of plasma concentration ($dC/dt$), rather than the absolute concentration ($C$) itself, is the primary constant driving gastrointestinal intolerance.",
+        "Pharmacokinetic modeling and clinical trials show that rapid increases in semaglutide exposure trigger intense nausea and vomiting.",
+        "If plasma concentration is increased slowly and linearly (titrated over 4-week intervals), the central nervous system adapts, allowing patients to tolerate high steady-state concentrations that would induce severe emesis if administered as a loading dose."
+      ],
+      "reference": "DECON 50 Q13 [Highly certain]: \"The rate of change of plasma concentration ($dC/dt$), rather than the absolute concentration ($C$) itself, is the primar...\" (Bækdal TA, et al. *Clin Pharmacokinet*. 2018;57(10):1339-1348; Rubino D, et al. *JAMA*. 2021;325(14):1414-1425.)"
+    },
+    {
+      "id": "ht-001-n144",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "Is the loss of a significant proportion of lean soft tissue (lean mass) an invariant physical rule of semaglutide-induced weight loss?",
+      "content": "Deconstruction:\nYes. Massive fat loss induced by semaglutide or any other caloric-deficit mechanism is physically bound to an obligate loss of lean mass.\n\nPublished Evidence & Certainty: Highly certain. In all human clinical weight-loss studies (dietary, bariatric, or pharmacological), lean mass loss typically comprises 20% to 40% of total weight lost. The STEP 1 DXA substudy confirmed that semaglutide-treated patients lost 40% of their total weight as lean mass (6.9 kg lean tissue, 10.4 kg fat mass). This is a biological invariant of rapid negative energy balance, as the body down-regulates supportive muscular tissue to match a smaller metabolic mass.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Massive fat loss induced by semaglutide or any other caloric-deficit mechanism is physically bound to an obligate loss of lean mass.",
+        "In all human clinical weight-loss studies (dietary, bariatric, or pharmacological), lean mass loss typically comprises 20% to 40% of total weight lost.",
+        "The STEP 1 DXA substudy confirmed that semaglutide-treated patients lost 40% of their total weight as lean mass (6.9 kg lean tissue, 10.4 kg fat mass).",
+        "This is a biological invariant of rapid negative energy balance, as the body down-regulates supportive muscular tissue to match a smaller metabolic mass."
+      ],
+      "reference": "DECON 50 Q14 [Highly certain]: \"Yes. Massive fat loss induced by semaglutide or any other caloric-deficit mechanism is physically bound to an obligate l...\" (Wilding JPH, et al. *N Engl J Med*. 2021;384(11):989-1002 (STEP 1 DXA); Heymsfield SB, et al. *Am J Clin Nutr*. 2014;100(1):162-171.)"
+    },
+    {
+      "id": "ht-001-n145",
+      "type": "note",
+      "subtopic": "Invariant — The Constants",
+      "title": "What biochemical invariant ensures that semaglutide does not stimulate insulin secretion when plasma glucose levels drop below ~55 mg/dL?",
+      "content": "Deconstruction:\nThe absolute dependency of GLP-1R-induced cAMP insulinotropic signaling on cytoplasmic ATP levels generated by glucose metabolism.\n\nPublished Evidence & Certainty: Biophysically absolute. The intracellular cascade triggered by semaglutide requires ATP-sensitive potassium ($K_{ATP}$) channels to be closed by glucose-derived ATP. When blood glucose is low ($<3.0 ext{ mmol/L}$ or $\\sim55 ext{ mg/dL}$), glucokinase in beta cells is inactive, ATP levels remain low, $K_{ATP}$ channels remain wide open, and the cell is hyperpolarized. Thus, even if semaglutide binds the GLP-1 receptor and raises cAMP, the cell cannot depolarize enough to open voltage-gated calcium channels, completely preventing insulin exocytosis.\n\nCertainty: Biophysically absolute",
+      "keyPoints": [
+        "The absolute dependency of GLP-1R-induced cAMP insulinotropic signaling on cytoplasmic ATP levels generated by glucose metabolism.",
+        "The intracellular cascade triggered by semaglutide requires ATP-sensitive potassium ($K_{ATP}$) channels to be closed by glucose-derived ATP.",
+        "When blood glucose is low ($<3.0 ext{ mmol/L}$ or $\\sim55 ext{ mg/dL}$), glucokinase in beta cells is inactive, ATP levels remain low, $K_{ATP}$ channels remain wide open, and the cell is hyperpolarized.",
+        "Thus, even if semaglutide binds the GLP-1 receptor and raises cAMP, the cell cannot depolarize enough to open voltage-gated calcium channels, completely preventing insulin exocytosis."
+      ],
+      "reference": "DECON 50 Q15 [Biophysically absolute]: \"The absolute dependency of GLP-1R-induced cAMP insulinotropic signaling on cytoplasmic ATP levels generated by glucose m...\" (Holst JJ. *Physiol Rev*. 2007;87(4):1409-1439; Doyle ME, Egan JM. *Pharmacol Rev*. 2003;55(1):105-131.)"
+    },
+    {
+      "id": "ht-001-n146",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "How would you definitively falsify the claim that weight loss is the primary driver of semaglutide's cardiovascular (MACE) protective benefits?",
+      "content": "Deconstruction:\nIf weight loss were the sole driver, then patients who take semaglutide and achieve zero weight loss should show zero reduction in cardiovascular events.\n\nPublished Evidence & Certainty: Falsified. In post-hoc analyses of the SUSTAIN 6 and SELECT trials, researchers stratified participants by their percentage of weight lost. The hazard ratio reduction for MACE was remarkably consistent across all subgroups, showing that even patients who lost $<5\\%$ or $0\\%$ of their body weight experienced significant cardiovascular protection. This definitively falsifies the weight-loss-exclusive model of cardioprotection, proving direct vasculoprotective effects.\n\nCertainty: Falsified",
+      "keyPoints": [
+        "If weight loss were the sole driver, then patients who take semaglutide and achieve zero weight loss should show zero reduction in cardiovascular events.",
+        "In post-hoc analyses of the SUSTAIN 6 and SELECT trials, researchers stratified participants by their percentage of weight lost.",
+        "The hazard ratio reduction for MACE was remarkably consistent across all subgroups, showing that even patients who lost $<5\\%$ or $0\\%$ of their body weight experienced significant cardiovascular protection.",
+        "This definitively falsifies the weight-loss-exclusive model of cardioprotection, proving direct vasculoprotective effects."
+      ],
+      "reference": "DECON 50 Q16 [Falsified]: \"If weight loss were the sole driver, then patients who take semaglutide and achieve zero weight loss should show zero re...\" (Lincoff AM, et al. *N Engl J Med*. 2023;389(24):2221-2232 (SELECT); Marso SP, et al. *N Engl J Med*. 2016;375(19):1834-1844.)"
+    },
+    {
+      "id": "ht-001-n147",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "How would you falsify the theory that central nervous system (CNS) receptor activation is mandatory for semaglutide-induced weight loss?",
+      "content": "Deconstruction:\nIf semaglutide could induce weight loss without crossing into the brain, administering a brain-impermeable GLP-1 receptor antagonist or selectively knocking out CNS GLP-1 receptors should have no effect on weight loss.\n\nPublished Evidence & Certainty: Highly certain. In rodent models, when the GLP-1 receptor is selectively knocked out in the central nervous system (using Cre-lox recombination targeting the brainstem and hypothalamus), peripheral administration of semaglutide fails to reduce food intake or induce weight loss. This confirms the brain-dependency model, showing that peripheral gastrointestinal GLP-1R stimulation alone is insufficient for major weight loss.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "If semaglutide could induce weight loss without crossing into the brain, administering a brain-impermeable GLP-1 receptor antagonist or selectively knocking out CNS GLP-1 receptors should have no effect on weight loss.",
+        "In rodent models, when the GLP-1 receptor is selectively knocked out in the central nervous system (using Cre-lox recombination targeting the brainstem and hypothalamus), peripheral administration of semaglutide fails to reduce food intake or induce weight loss.",
+        "This confirms the brain-dependency model, showing that peripheral gastrointestinal GLP-1R stimulation alone is insufficient for major weight loss."
+      ],
+      "reference": "DECON 50 Q17 [Highly certain]: \"If semaglutide could induce weight loss without crossing into the brain, administering a brain-impermeable GLP-1 recepto...\" (Sisley S, et al. *J Clin Invest*. 2014;124(6):2456-2463; Gabery S, et al. *J Neurosci*. 2020;40(11):2309-2322.)"
+    },
+    {
+      "id": "ht-001-n148",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "What specific evidence would falsify the hypothesis that semaglutide can structurally reverse or halt pancreatic beta-cell apoptosis (disease modification) in humans?",
+      "content": "Deconstruction:\nIf semaglutide structurally reversed beta-cell decay, patients who stop the drug after years of therapy should show permanently normalized insulin secretion and persistent remission of diabetes.\n\nPublished Evidence & Certainty: Falsified in humans. While rodent studies show beta-cell hyperplasia under GLP-1 treatment, long-term human clinical withdrawal studies (such as SUSTAIN 6 and oral PIONEER trials) demonstrate that once semaglutide is washed out of the system, insulin secretory capacity and HbA1c levels return to baseline within 4 to 12 weeks. This falsifies the human \"islet-regeneration\" hypothesis, proving that the beta-cell benefit is functional and transient, not structural.\n\nCertainty: Falsified in humans",
+      "keyPoints": [
+        "If semaglutide structurally reversed beta-cell decay, patients who stop the drug after years of therapy should show permanently normalized insulin secretion and persistent remission of diabetes.",
+        "While rodent studies show beta-cell hyperplasia under GLP-1 treatment, long-term human clinical withdrawal studies (such as SUSTAIN 6 and oral PIONEER trials) demonstrate that once semaglutide is washed out of the system, insulin secretory capacity and HbA1c levels return to baseline within 4 to 12 weeks.",
+        "This falsifies the human \"islet-regeneration\" hypothesis, proving that the beta-cell benefit is functional and transient, not structural."
+      ],
+      "reference": "DECON 50 Q18 [Falsified in humans]: \"If semaglutide structurally reversed beta-cell decay, patients who stop the drug after years of therapy should show perm...\" (Meier JJ. *Nat Rev Endocrinol*. 2012;8(12):728-742; Buse JB, et al. *Diabetes Care*. 2009;32(1):193-203.)"
+    },
+    {
+      "id": "ht-001-n149",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "How would you falsify the claim that oral semaglutide absorption is strictly transcellular and localized to the stomach?",
+      "content": "Deconstruction:\nIf absorption occurred paracellulary (via tight junctions) or in the small intestine, blocking stomach-specific transcellular transport or co-administering tight junction openers should yield equivalent or superior absorption.\n\nPublished Evidence & Certainty: Highly certain. Gastric biopsy and cellular transport studies show that when semaglutide is applied to intestinal mucosa in vitro, SNAC does not enhance transport. Furthermore, co-administration of oral semaglutide with medications that increase gastric emptying (which rapidly push the tablet into the duodenum) reduces absorption to near-zero. This confirms that the stomach is the exclusive absorption window.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "If absorption occurred paracellulary (via tight junctions) or in the small intestine, blocking stomach-specific transcellular transport or co-administering tight junction openers should yield equivalent or superior absorption.",
+        "Gastric biopsy and cellular transport studies show that when semaglutide is applied to intestinal mucosa in vitro, SNAC does not enhance transport.",
+        "Furthermore, co-administration of oral semaglutide with medications that increase gastric emptying (which rapidly push the tablet into the duodenum) reduces absorption to near-zero.",
+        "This confirms that the stomach is the exclusive absorption window."
+      ],
+      "reference": "DECON 50 Q19 [Highly certain]: \"If absorption occurred paracellulary (via tight junctions) or in the small intestine, blocking stomach-specific transcel...\" (Buckley ST, et al. *Sci Transl Med*. 2018;10(467):eaar7047; Bækdal TA, et al. *Clin Pharmacokinet*. 2018;57(10):1339-1348.)"
+    },
+    {
+      "id": "ht-001-n150",
+      "type": "note",
+      "subtopic": "Falsifiability — The Breakpoint",
+      "title": "How would you falsify the claim that semaglutide carries a high clinical risk of inducing medullary thyroid carcinoma (MTC) in humans?",
+      "content": "Deconstruction:\nIf semaglutide caused human MTC, long-term clinical registry data or human thyroid tissue assays should show GLP-1-receptor-mediated C-cell proliferation or increased calcitonin spikes in treated human cohorts.\n\nPublished Evidence & Certainty: Falsified regarding high direct clinical risk, but open to long-term observational debate. In vitro studies show that human thyroid C-cells express almost undetectable levels of the GLP-1 receptor, unlike rodent C-cells which express them abundantly. Large-scale human clinical trials spanning tens of thousands of patient-years show no statistically significant increase in calcitonin levels or biopsy-proven MTC.\n\nCertainty: Falsified regarding high direct clinical risk, but open to long-term observational debate",
+      "keyPoints": [
+        "If semaglutide caused human MTC, long-term clinical registry data or human thyroid tissue assays should show GLP-1-receptor-mediated C-cell proliferation or increased calcitonin spikes in treated human cohorts.",
+        "Falsified regarding high direct clinical risk, but open to long-term observational debate.",
+        "In vitro studies show that human thyroid C-cells express almost undetectable levels of the GLP-1 receptor, unlike rodent C-cells which express them abundantly.",
+        "Large-scale human clinical trials spanning tens of thousands of patient-years show no statistically significant increase in calcitonin levels or biopsy-proven MTC."
+      ],
+      "reference": "DECON 50 Q20 [Falsified regarding high direct clinical risk, but open to long-term observational debate]: \"If semaglutide caused human MTC, long-term clinical registry data or human thyroid tissue assays should show GLP-1-recep...\" (Bjerre Knudsen L, et al. *Endocrinology*. 2010;151(4):1473-1486; Lincoff AM, et al. *N Engl J Med*. 2023;389(24):2221-2232 (SELECT).)"
+    },
+    {
+      "id": "ht-001-n151",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "What happens if we pharmacologically block or knock out brainstem GLP-1 receptors, but leave hypothalamic GLP-1 receptors fully functional?",
+      "content": "Deconstruction:\nEndogenous satiety signaling relies on both areas, but they govern different components of eating.\n\nPublished Evidence & Certainty: Moderate certainty from rodent studies. Blocking hindbrain/area postrema GLP-1 receptors entirely eliminates the *visceral* response to semaglutide (such as the acute slowing of gastric motility and the development of taste aversions/nausea), but patients/animals still exhibit a moderate reduction in total caloric intake driven by the hypothalamic homeostatic pathways. This reveals that different brain regions partition the therapeutic weight-loss effects and the adverse emetic profiles.\n\nCertainty: See evidence",
+      "keyPoints": [
+        "Endogenous satiety signaling relies on both areas, but they govern different components of eating.",
+        "Moderate certainty from rodent studies.",
+        "Blocking hindbrain/area postrema GLP-1 receptors entirely eliminates the *visceral* response to semaglutide (such as the acute slowing of gastric motility and the development of taste aversions/nausea), but patients/animals still exhibit a moderate reduction in total caloric intake driven by the hypothalamic homeostatic pathways.",
+        "This reveals that different brain regions partition the therapeutic weight-loss effects and the adverse emetic profiles."
+      ],
+      "reference": "DECON 50 Q21 [See evidence]: \"Endogenous satiety signaling relies on both areas, but they govern different components of eating.\" (Kanoski SE, et al. *Physiol Behav*. 2016;164(Pt B):347-355; Gabery S, et al. *J Neurosci*. 2020;40(11):2309-2322.)"
+    },
+    {
+      "id": "ht-001-n152",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "What happens to the absorption profile of oral semaglutide if it is administered without the SNAC molecule?",
+      "content": "Deconstruction:\nInverting the co-formulation to isolate the peptide's standalone gastric viability.\n\nPublished Evidence & Certainty: Biophysically absolute. If oral semaglutide is administered without SNAC, the stomach's highly acidic environment (pH 1.5–2.0) instantly activates gastric pepsin, which hydrolyzes the peptide backbone of semaglutide into inactive amino acid fragments. Any fraction of the peptide that escapes digestion remains completely impermeable to the lipid bilayers of the gastric mucosa, resulting in **zero** systemic bioavailability.\n\nCertainty: Biophysically absolute",
+      "keyPoints": [
+        "Inverting the co-formulation to isolate the peptide's standalone gastric viability.",
+        "If oral semaglutide is administered without SNAC, the stomach's highly acidic environment (pH 1.5–2.0) instantly activates gastric pepsin, which hydrolyzes the peptide backbone of semaglutide into inactive amino acid fragments.",
+        "Any fraction of the peptide that escapes digestion remains completely impermeable to the lipid bilayers of the gastric mucosa, resulting in **zero** systemic bioavailability."
+      ],
+      "reference": "DECON 50 Q22 [Biophysically absolute]: \"Inverting the co-formulation to isolate the peptide's standalone gastric viability.\" (Buckley ST, et al. *Sci Transl Med*. 2018;10(467):eaar7047.)"
+    },
+    {
+      "id": "ht-001-n153",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "What happens if semaglutide is administered to a patient who has been treated with a high-dose insulin regimen and is in a state of acute hypoglycemia?",
+      "content": "Deconstruction:\nTesting whether semaglutide has any baseline, non-glucose-dependent glucagon-suppressing or insulin-stimulating action.\n\nPublished Evidence & Certainty: Highly certain. Under insulin-induced hypoglycemia, the pancreatic alpha-cells must secrete glucagon to raise blood glucose. If semaglutide is present, its inhibitory effect on glucagon secretion is *switched off* because the alpha-cell GLP-1R signaling pathway is overridden by the severe systemic glucose deficit. The body's counter-regulatory glucagon response remains entirely intact, preventing a worsening of the hypoglycemia.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Testing whether semaglutide has any baseline, non-glucose-dependent glucagon-suppressing or insulin-stimulating action.",
+        "Under insulin-induced hypoglycemia, the pancreatic alpha-cells must secrete glucagon to raise blood glucose.",
+        "If semaglutide is present, its inhibitory effect on glucagon secretion is *switched off* because the alpha-cell GLP-1R signaling pathway is overridden by the severe systemic glucose deficit.",
+        "The body's counter-regulatory glucagon response remains entirely intact, preventing a worsening of the hypoglycemia."
+      ],
+      "reference": "DECON 50 Q23 [Highly certain]: \"Testing whether semaglutide has any baseline, non-glucose-dependent glucagon-suppressing or insulin-stimulating action.\" (Holst JJ. *Physiol Rev*. 2007;87(4):1409-1439; Marso SP, et al. *N Engl J Med*. 2016;375(19):1834-1844.)"
+    },
+    {
+      "id": "ht-001-n154",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "What happens if we chemically remove the C18 fatty diacid chain from the semaglutide peptide?",
+      "content": "Deconstruction:\nStripping away the long-acting structural modification to observe the baseline peptide behavior.\n\nPublished Evidence & Certainty: Highly certain. Removing the C18 fatty diacid chain completely destroys semaglutide's ability to bind to circulating albumin. The molecule is immediately exposed to rapid glomerular filtration in the kidneys and systemic enzymatic degradation, reducing its half-life from 168 hours to less than 5 hours (similar to unmodified liraglutide or native GLP-1 without fatty-acid links).\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Stripping away the long-acting structural modification to observe the baseline peptide behavior.",
+        "Removing the C18 fatty diacid chain completely destroys semaglutide's ability to bind to circulating albumin.",
+        "The molecule is immediately exposed to rapid glomerular filtration in the kidneys and systemic enzymatic degradation, reducing its half-life from 168 hours to less than 5 hours (similar to unmodified liraglutide or native GLP-1 without fatty-acid links)."
+      ],
+      "reference": "DECON 50 Q24 [Highly certain]: \"Stripping away the long-acting structural modification to observe the baseline peptide behavior.\" (Sorli C, et al. *Lancet Diabetes Endocrinol*. 2017;5(4):251-260; Bækdal TA, et al. *Clin Pharmacokinet*. 2018;57(10):1339-1348.)"
+    },
+    {
+      "id": "ht-001-n155",
+      "type": "note",
+      "subtopic": "Counterfactual — The Inversion",
+      "title": "What happens to the 40% lean mass loss profile if patients on semaglutide undergo a high-protein diet paired with progressive resistance training?",
+      "content": "Deconstruction:\nTesting whether the body composition changes are a fixed physical consequence of the drug or a modifiable metabolic variable.\n\nPublished Evidence & Certainty: Moderately certain. Small-scale clinical trials and observational studies show that while some lean mass loss is inevitable during rapid weight loss, the addition of structured resistance training ($\\ge 3$ days/week) combined with high protein intake ($\\ge 1.2 ext{ g/kg/day}$) shifts the composition of weight lost, reducing the lean soft tissue loss to approximately 15% to 20% of the total weight lost, while preserving physical skeletal muscle strength.\n\nCertainty: Moderately certain",
+      "keyPoints": [
+        "Testing whether the body composition changes are a fixed physical consequence of the drug or a modifiable metabolic variable.",
+        "Small-scale clinical trials and observational studies show that while some lean mass loss is inevitable during rapid weight loss, the addition of structured resistance training ($\\ge 3$ days/week) combined with high protein intake ($\\ge 1.2 ext{ g/kg/day}$) shifts the composition of weight lost, reducing the lean soft tissue loss to approximately 15% to 20% of the total weight lost, while preserving physical skeletal muscle strength."
+      ],
+      "reference": "DECON 50 Q25 [Moderately certain]: \"Testing whether the body composition changes are a fixed physical consequence of the drug or a modifiable metabolic vari...\" (Cava E, et al. *Adv Nutr*. 2017;8(3):511-519; Sargeant JA, et al. *Diabetes Obes Metab*. 2021;23(1):12-22.)"
+    },
+    {
+      "id": "ht-001-n156",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "What is the second-order consequence of chronic, long-term gastric hypomotility (slowed stomach emptying) on the gut microbiome?",
+      "content": "Deconstruction:\nSustained slowing of gastric and intestinal transit alters the transit time of nutrients through the gastrointestinal tract.\n\nPublished Evidence & Certainty: Limited information. Theoretically, delayed gastric emptying and slower intestinal transit can alter the gut microbiome profile by favoring species that ferment static carbohydrate and protein residues in the distal ileum and colon, potentially contributing to Small Intestinal Bacterial Overgrowth (SIBO). However, long-term metagenomic sequencing studies of the gut microbiome in patients on multi-year semaglutide therapy are currently lacking.\n\nCertainty: Limited information",
+      "keyPoints": [
+        "Sustained slowing of gastric and intestinal transit alters the transit time of nutrients through the gastrointestinal tract.",
+        "Theoretically, delayed gastric emptying and slower intestinal transit can alter the gut microbiome profile by favoring species that ferment static carbohydrate and protein residues in the distal ileum and colon, potentially contributing to Small Intestinal Bacterial Overgrowth (SIBO).",
+        "However, long-term metagenomic sequencing studies of the gut microbiome in patients on multi-year semaglutide therapy are currently lacking."
+      ],
+      "reference": "DECON 50 Q26 [Limited information]: \"Sustained slowing of gastric and intestinal transit alters the transit time of nutrients through the gastrointestinal tr...\" (Madsbad S. *Lancet Diabetes Endocrinol*. 2016;4(4):367-377; Quigley EM. *Gastroenterol Hepatol*. 2011;7(2):120-128.)"
+    },
+    {
+      "id": "ht-001-n157",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "What are the downstream, second-order effects of massive, rapid fat mass depletion on bone remodeling and bone mineral density (BMD)?",
+      "content": "Deconstruction:\nSlicing off 15% to 20% of total body weight reduces the physical load on the skeletal system and drops circulating estrogen levels.\n\nPublished Evidence & Certainty: Moderately certain. Clinical trials (including STEP analyses) show a mild but detectable reduction in bone mineral density at the hip and lumbar spine following rapid semaglutide-induced weight loss. This is driven by decreased mechanical loading and a rise in bone resorption markers (such as CTX-1) as the skeletal system down-regulates its mass to adjust to a lighter frame. However, this does not appear to clinically translate to an increased fracture risk over a 2-year timeline.\n\nCertainty: Moderately certain",
+      "keyPoints": [
+        "Slicing off 15% to 20% of total body weight reduces the physical load on the skeletal system and drops circulating estrogen levels.",
+        "Clinical trials (including STEP analyses) show a mild but detectable reduction in bone mineral density at the hip and lumbar spine following rapid semaglutide-induced weight loss.",
+        "This is driven by decreased mechanical loading and a rise in bone resorption markers (such as CTX-1) as the skeletal system down-regulates its mass to adjust to a lighter frame.",
+        "However, this does not appear to clinically translate to an increased fracture risk over a 2-year timeline."
+      ],
+      "reference": "DECON 50 Q27 [Moderately certain]: \"Slicing off 15% to 20% of total body weight reduces the physical load on the skeletal system and drops circulating estro...\" (Kelly AS, et al. *N Engl J Med*. 2022;387(24):2245-2254 (STEP-TEENS); Compston JE. *Endocr Rev*. 2018;39(2):131-168.)"
+    },
+    {
+      "id": "ht-001-n158",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "What are the second-order economic and healthcare infrastructure consequences of lifelong compliance with a high-cost metabolic medication?",
+      "content": "Deconstruction:\nTranslating individual clinical success into systemic socio-economic cascades.\n\nPublished Evidence & Certainty: Highly certain. Health economics models show that while semaglutide reduces the downstream costs of cardiovascular events, diabetes complications, and end-stage renal disease, these savings are heavily outweighed by the massive upfront cost of continuous, population-scale drug acquisition. This creates a severe fiscal strain on public and private insurance systems, potentially widening healthcare disparities as access becomes restricted to wealthier cohorts.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Translating individual clinical success into systemic socio-economic cascades.",
+        "Health economics models show that while semaglutide reduces the downstream costs of cardiovascular events, diabetes complications, and end-stage renal disease, these savings are heavily outweighed by the massive upfront cost of continuous, population-scale drug acquisition.",
+        "This creates a severe fiscal strain on public and private insurance systems, potentially widening healthcare disparities as access becomes restricted to wealthier cohorts."
+      ],
+      "reference": "DECON 50 Q28 [Highly certain]: \"Translating individual clinical success into systemic socio-economic cascades.\" (Ward ZJ, et al. *N Engl J Med*. 2019;380(23):2229-2237; Khoury J, et al. *Ann Intern Med*. 2024;181(2):112-121.)"
+    },
+    {
+      "id": "ht-001-n159",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "What is the second-order effect of semaglutide on the clinical efficacy of narrow-therapeutic-index oral medications?",
+      "content": "Deconstruction:\nSlower gastric emptying changes the absorption kinetics (Cmax and Tmax) of other orally co-administered drugs.\n\nPublished Evidence & Certainty: Highly certain. While the total exposure (AUC) of most co-administered medications (such as oral contraceptives, metformin, or warfarin) is not clinically reduced, the time to peak concentration (Tmax) is delayed, and the peak concentration (Cmax) is flattened. For fast-acting or narrow-therapeutic-index medications (such as levothyroxine, acetaminophen, or certain oral antibiotics), this can delay or blunt the therapeutic onset, requiring careful clinical monitoring.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Slower gastric emptying changes the absorption kinetics (Cmax and Tmax) of other orally co-administered drugs.",
+        "While the total exposure (AUC) of most co-administered medications (such as oral contraceptives, metformin, or warfarin) is not clinically reduced, the time to peak concentration (Tmax) is delayed, and the peak concentration (Cmax) is flattened.",
+        "For fast-acting or narrow-therapeutic-index medications (such as levothyroxine, acetaminophen, or certain oral antibiotics), this can delay or blunt the therapeutic onset, requiring careful clinical monitoring."
+      ],
+      "reference": "DECON 50 Q29 [Highly certain]: \"Slower gastric emptying changes the absorption kinetics (Cmax and Tmax) of other orally co-administered drugs.\" (Bækdal TA, et al. *Clin Pharmacokinet*. 2018;57(10):1339-1348; Triplitt C, et al. *Am J Manag Care*. 2017;23(2 Suppl):S24-S32.)"
+    },
+    {
+      "id": "ht-001-n160",
+      "type": "note",
+      "subtopic": "Second-Order — The Cascade",
+      "title": "Does multi-year exposure to supraphysiologic doses of semaglutide cause a second-order down-regulation or desensitization of the endogenous GLP-1 receptor system?",
+      "content": "Deconstruction:\nInterrogating whether the system permanently loses sensitivity to natural GLP-1 hormones.\n\nPublished Evidence & Certainty: Limited information. In vitro models show that G-protein-coupled GLP-1 receptors undergo rapid internalization and endosomal sorting upon ligand binding. However, human clinical data show that even after 2 years of continuous, high-dose semaglutide therapy (STEP 5), there is no loss of glycemic or weight-loss efficacy, suggesting that the human receptor system does not undergo permanent down-regulation. However, the degree of long-term receptor recovery *after* decades of therapy remains unknown.\n\nCertainty: Limited information",
+      "keyPoints": [
+        "Interrogating whether the system permanently loses sensitivity to natural GLP-1 hormones.",
+        "In vitro models show that G-protein-coupled GLP-1 receptors undergo rapid internalization and endosomal sorting upon ligand binding.",
+        "However, human clinical data show that even after 2 years of continuous, high-dose semaglutide therapy (STEP 5), there is no loss of glycemic or weight-loss efficacy, suggesting that the human receptor system does not undergo permanent down-regulation.",
+        "However, the degree of long-term receptor recovery *after* decades of therapy remains unknown."
+      ],
+      "reference": "DECON 50 Q30 [Limited information]: \"Interrogating whether the system permanently loses sensitivity to natural GLP-1 hormones.\" (Garvey WT, et al. *Nat Med*. 2022;28(10):2083-2091 (STEP 5); Roed SN, et al. *Mol Cell Endocrinol*. 2014;382(2):938-949.)"
+    },
+    {
+      "id": "ht-001-n161",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "At what specific biological threshold does the appetite-suppressing effect of semaglutide reach a absolute saturation plateau (the dose-response ceiling)?",
+      "content": "Deconstruction:\nIdentifying the dose level beyond which further increases in semaglutide concentration yield zero additional weight loss.\n\nPublished Evidence & Certainty: Highly certain. Dose-ranging trials show that weight loss increases significantly as the dose escalates from 0.25 mg to 1.0 mg, and then to 2.4 mg once weekly. However, early Phase 2 data evaluating experimental higher doses (e.g., 7.2 mg once weekly) show a steep plateau in appetite suppression, accompanied by an exponential increase in intractable nausea and vomiting. The absolute therapeutic limit of the central satiety pathway is capped by the intolerable activation of adjacent brainstem emetic centers.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Identifying the dose level beyond which further increases in semaglutide concentration yield zero additional weight loss.",
+        "Dose-ranging trials show that weight loss increases significantly as the dose escalates from 0.25 mg to 1.0 mg, and then to 2.4 mg once weekly.",
+        "However, early Phase 2 data evaluating experimental higher doses (e.g., 7.2 mg once weekly) show a steep plateau in appetite suppression, accompanied by an exponential increase in intractable nausea and vomiting.",
+        "The absolute therapeutic limit of the central satiety pathway is capped by the intolerable activation of adjacent brainstem emetic centers."
+      ],
+      "reference": "DECON 50 Q31 [Highly certain]: \"Identifying the dose level beyond which further increases in semaglutide concentration yield zero additional weight loss...\" (Wilding JPH, et al. *N Engl J Med*. 2021;384(11):989-1002 (STEP 1); Heise T, et al. *Diabetes Obes Metab*. 2016;18(3):286-294.)"
+    },
+    {
+      "id": "ht-001-n162",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "Does the pharmacokinetics of oral semaglutide break down or exhibit erratic behavior in patients with severe renal failure (eGFR < 15 mL/min/1.73m²)?",
+      "content": "Deconstruction:\nTesting the physical excretion limits of the oral formulation co-formulated with SNAC.\n\nPublished Evidence & Certainty: Highly certain. Pharmacokinetic studies evaluating oral semaglutide in patients with severe renal impairment (including those on hemodialysis) demonstrate that systemic exposure (AUC and Cmax) remains highly stable and comparable to healthy controls. Renal filtration is not a primary clearance pathway for semaglutide or SNAC. However, clinical tolerability in these fragile patients is lower due to pre-existing renal uremic nausea, which compound semaglutide's GI side effects.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Testing the physical excretion limits of the oral formulation co-formulated with SNAC.",
+        "Pharmacokinetic studies evaluating oral semaglutide in patients with severe renal impairment (including those on hemodialysis) demonstrate that systemic exposure (AUC and Cmax) remains highly stable and comparable to healthy controls.",
+        "Renal filtration is not a primary clearance pathway for semaglutide or SNAC.",
+        "However, clinical tolerability in these fragile patients is lower due to pre-existing renal uremic nausea, which compound semaglutide's GI side effects."
+      ],
+      "reference": "DECON 50 Q32 [Highly certain]: \"Testing the physical excretion limits of the oral formulation co-formulated with SNAC.\" (Bækdal TA, et al. *J Clin Pharmacol*. 2018;58(9):1190-1198 (Oral PK in Renal Impairment).)"
+    },
+    {
+      "id": "ht-001-n163",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "What is the baseline boundary of hepatic fibrosis beyond which semaglutide becomes unsafe or clinically ineffective?",
+      "content": "Deconstruction:\nTesting the drug's safety limits in severe, end-stage liver pathology (compensated vs. decompensated cirrhosis).\n\nPublished Evidence & Certainty: Highly certain regarding compensated cirrhosis; limited information regarding decompensated cirrhosis. In patients with MASH and F1–F3 moderate-to-advanced fibrosis (the ESSENCE and Phase 2 cohorts), semaglutide is highly effective and safe. However, in patients with Class B or C decompensated cirrhosis, the risk of worsening hepatic encephalopathy, renal hypoperfusion (due to vomiting-induced dehydration), and impaired metabolic reserve makes the use of semaglutide highly risky and contraindicated due to a lack of clinical trial safety data.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Testing the drug's safety limits in severe, end-stage liver pathology (compensated vs.",
+        "Highly certain regarding compensated cirrhosis; limited information regarding decompensated cirrhosis.",
+        "In patients with MASH and F1–F3 moderate-to-advanced fibrosis (the ESSENCE and Phase 2 cohorts), semaglutide is highly effective and safe.",
+        "However, in patients with Class B or C decompensated cirrhosis, the risk of worsening hepatic encephalopathy, renal hypoperfusion (due to vomiting-induced dehydration), and impaired metabolic reserve makes the use of semaglutide highly risky and contraindicated due to a lack of clinical trial safety data."
+      ],
+      "reference": "DECON 50 Q33 [Highly certain]: \"Testing the drug's safety limits in severe, end-stage liver pathology (compensated vs. decompensated cirrhosis).\" (Newsome PN, et al. *N Engl J Med*. 2021;384(12):1113-1124; Loomba R, et al. *N Engl J Med*. 2025;392 (ESSENCE).)"
+    },
+    {
+      "id": "ht-001-n164",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "How does the semaglutide weight-loss system behave at the extreme lower limit of baseline body fat (e.g., in non-obese, lean individuals)?",
+      "content": "Deconstruction:\nInterrogating the physiologic boundary of weight loss when visceral and subcutaneous adipose stores are already depleted.\n\nPublished Evidence & Certainty: Limited direct clinical trials, but high biological certainty. In lean animals and small-scale human case reports of off-label use, semaglutide still suppresses appetite and causes weight loss. However, because the body lacks substantial lipid storage depots to mobilize for energy, the proportion of weight lost as **skeletal muscle (lean mass) rises dramatically** (exceeding 50-60% of total weight lost), triggering severe muscle wasting, physical fatigue, and metabolic slowing.\n\nCertainty: Limited direct clinical trials, but high biological certainty",
+      "keyPoints": [
+        "Interrogating the physiologic boundary of weight loss when visceral and subcutaneous adipose stores are already depleted.",
+        "Limited direct clinical trials, but high biological certainty.",
+        "In lean animals and small-scale human case reports of off-label use, semaglutide still suppresses appetite and causes weight loss.",
+        "However, because the body lacks substantial lipid storage depots to mobilize for energy, the proportion of weight lost as **skeletal muscle (lean mass) rises dramatically** (exceeding 50-60% of total weight lost), triggering severe muscle wasting, physical fatigue, and metabolic slowing."
+      ],
+      "reference": "DECON 50 Q34 [Limited direct clinical trials, but high biological certainty]: \"Interrogating the physiologic boundary of weight loss when visceral and subcutaneous adipose stores are already depleted...\" (Heymsfield SB, et al. *Am J Clin Nutr*. 2014;100(1):162-171; Cava E, et al. *Adv Nutr*. 2017;8(3):511-519.)"
+    },
+    {
+      "id": "ht-001-n165",
+      "type": "note",
+      "subtopic": "Boundary — The Extremes",
+      "title": "What is the thermodynamic and chemical boundary of oral semaglutide absorption regarding local gastric temperature (e.g., taking the pill with hot coffee or ice water)?",
+      "content": "Deconstruction:\nHow physical fluctuations in the gastric environment affect the SNAC-peptide passive transport system.\n\nPublished Evidence & Certainty: Limited clinical data, but highly constrained biophysically. The non-covalent, lipophilic association between SNAC and semaglutide requires specific thermodynamic states to successfully fluidize the gastric cell membrane. Taking the tablet with boiling liquids (hot tea/coffee) can denature the semaglutide peptide backbone, while excess cold water can slow tablet dissolution and lower the local molecular kinetic energy required for transcellular crossing.\n\nCertainty: See evidence",
+      "keyPoints": [
+        "How physical fluctuations in the gastric environment affect the SNAC-peptide passive transport system.",
+        "Limited clinical data, but highly constrained biophysically.",
+        "The non-covalent, lipophilic association between SNAC and semaglutide requires specific thermodynamic states to successfully fluidize the gastric cell membrane.",
+        "Taking the tablet with boiling liquids (hot tea/coffee) can denature the semaglutide peptide backbone, while excess cold water can slow tablet dissolution and lower the local molecular kinetic energy required for transcellular crossing."
+      ],
+      "reference": "DECON 50 Q35 [See evidence]: \"How physical fluctuations in the gastric environment affect the SNAC-peptide passive transport system.\" (Buckley ST, et al. *Sci Transl Med*. 2018;10(467):eaar7047; Bækdal TA, et al. *Clin Pharmacokinet*. 2018;57(10):1339-1348.)"
+    },
+    {
+      "id": "ht-001-n166",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "How did the discovery of exendin-4 (derived from the venom of the Heloderma suspectum/Gila monster) directly dictate the molecular lineage of semaglutide?",
+      "content": "Deconstruction:\nUnderstanding the biochemical ancestor that proved GLP-1 receptor resistance to DPP-4 was clinically viable.\n\nPublished Evidence & Certainty: Highly certain. Endogenous human GLP-1 was clinically useless due to its rapid, 2-minute degradation by DPP-4. In 1992, researchers discovered that exendin-4 (a natural peptide in Gila monster venom) shared 53% sequence homology with human GLP-1 but was completely resistant to DPP-4 because of a glycine substitution at position 2. This proved the concept of DPP-4-resistant GLP-1 agonists, leading to exenatide, and eventually prompting the structural engineering of liraglutide and semaglutide to achieve long-acting, human-homologous alternatives.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Understanding the biochemical ancestor that proved GLP-1 receptor resistance to DPP-4 was clinically viable.",
+        "Endogenous human GLP-1 was clinically useless due to its rapid, 2-minute degradation by DPP-4.",
+        "In 1992, researchers discovered that exendin-4 (a natural peptide in Gila monster venom) shared 53% sequence homology with human GLP-1 but was completely resistant to DPP-4 because of a glycine substitution at position 2.",
+        "This proved the concept of DPP-4-resistant GLP-1 agonists, leading to exenatide, and eventually prompting the structural engineering of liraglutide and semaglutide to achieve long-acting, human-homologous alternatives."
+      ],
+      "reference": "DECON 50 Q36 [Highly certain]: \"Understanding the biochemical ancestor that proved GLP-1 receptor resistance to DPP-4 was clinically viable.\" (Eng J, et al. *J Biol Chem*. 1992;267(11):7402-7405; Meier JJ. *Nat Rev Endocrinol*. 2012;8(12):728-742.)"
+    },
+    {
+      "id": "ht-001-n167",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "What specific structural and clinical limitation of once-daily liraglutide necessitated the molecular development of once-weekly semaglutide?",
+      "content": "Deconstruction:\nTracking the precise engineering modifications made to transition from daily to weekly dosing.\n\nPublished Evidence & Certainty: Highly certain. Liraglutide utilized a C16 fatty acid chain attached to lysine-26, achieving a half-life of 13 hours (requiring daily injections). To achieve a weekly dosing profile, molecular engineers modified the structure by: 1. Substituting alanine with Aib at position 8 to maximize DPP-4 resistance. 2. Replacing lysine-34 with arginine to prevent incorrect fatty acid attachment. 3. Designing a custom hydrophilic spacer linked to a much longer, hydrophobic **C18 diacid chain** at position 26. This diacid increased albumin binding affinity by five-fold, preventing renal clearance and extending the half-life to 7 days.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Tracking the precise engineering modifications made to transition from daily to weekly dosing.",
+        "Liraglutide utilized a C16 fatty acid chain attached to lysine-26, achieving a half-life of 13 hours (requiring daily injections).",
+        "To achieve a weekly dosing profile, molecular engineers modified the structure by: 1.",
+        "Substituting alanine with Aib at position 8 to maximize DPP-4 resistance."
+      ],
+      "reference": "DECON 50 Q37 [Highly certain]: \"Tracking the precise engineering modifications made to transition from daily to weekly dosing.\" (Sorli C, et al. *Lancet Diabetes Endocrinol*. 2017;5(4):251-260; Lau J, et al. *J Med Chem*. 2015;58(18):7370-7380.)"
+    },
+    {
+      "id": "ht-001-n168",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "Why did the historical, multi-decade failure of oral insulin formulation guide the specific biochemical selection of SNAC for oral semaglutide?",
+      "content": "Deconstruction:\nWhat lessons did semaglutide learn from the failures of earlier oral peptide delivery systems?\n\nPublished Evidence & Certainty: Highly certain. For decades, attempts to formulate oral insulin failed because they relied on enteric coatings or tight-junction openers (paracellular transport) which caused erratic, unsafe systemic absorption and systemic immune reactions. The developers of oral semaglutide bypassed this by selecting SNAC, which specifically target **gastric transcellular transport** instead of the intestine. This avoided the systemic risks of permanently opening intestinal tight junctions and prevented peptide degradation before entering the blood.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "What lessons did semaglutide learn from the failures of earlier oral peptide delivery systems?",
+        "For decades, attempts to formulate oral insulin failed because they relied on enteric coatings or tight-junction openers (paracellular transport) which caused erratic, unsafe systemic absorption and systemic immune reactions.",
+        "The developers of oral semaglutide bypassed this by selecting SNAC, which specifically target **gastric transcellular transport** instead of the intestine.",
+        "This avoided the systemic risks of permanently opening intestinal tight junctions and prevented peptide degradation before entering the blood."
+      ],
+      "reference": "DECON 50 Q38 [Highly certain]: \"What lessons did semaglutide learn from the failures of earlier oral peptide delivery systems?\" (Buckley ST, et al. *Sci Transl Med*. 2018;10(467):eaar7047; Goldberg AL, et al. *Gastroenterology*. 2011;140(5):1411-1415.)"
+    },
+    {
+      "id": "ht-001-n169",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "How did the 2008 FDA guidance on evaluating cardiovascular safety in type 2 diabetes medications dictate the clinical design and survival of the SUSTAIN 6 trial?",
+      "content": "Deconstruction:\nHow regulatory legal mandates directly shaped the scientific endpoints and survival of semaglutide.\n\nPublished Evidence & Certainty: Highly certain. In 2008, following cardiovascular safety concerns with rosiglitazone, the FDA mandated that all new diabetes drugs undergo large, dedicated cardiovascular outcomes trials (CVOTs) to prove they did not increase ischemic risk. This mandate directly shaped the SUSTAIN 6 trial. Instead of being a simple glycemic trial, it was designed as a massive, powered CV outcomes study, which ultimately demonstrated a highly unexpected 26% reduction in MACE, paving the way for semaglutide's cardiovascular indications.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "How regulatory legal mandates directly shaped the scientific endpoints and survival of semaglutide.",
+        "In 2008, following cardiovascular safety concerns with rosiglitazone, the FDA mandated that all new diabetes drugs undergo large, dedicated cardiovascular outcomes trials (CVOTs) to prove they did not increase ischemic risk.",
+        "This mandate directly shaped the SUSTAIN 6 trial.",
+        "Instead of being a simple glycemic trial, it was designed as a massive, powered CV outcomes study, which ultimately demonstrated a highly unexpected 26% reduction in MACE, paving the way for semaglutide's cardiovascular indications."
+      ],
+      "reference": "DECON 50 Q39 [Highly certain]: \"How regulatory legal mandates directly shaped the scientific endpoints and survival of semaglutide.\" (Marso SP, et al. *N Engl J Med*. 2016;375(19):1834-1844 (SUSTAIN 6); FDA Guidance for Industry: *Diabetes Mellitus — Evaluating Cardiovascular Risk in New Antidiabetic Therapies to Treat Type 2 Diabetes* (December 2008).)"
+    },
+    {
+      "id": "ht-001-n170",
+      "type": "note",
+      "subtopic": "Lineage — The Origin",
+      "title": "What specific clinical failure of the 2010s obesity market (dominated by phentermine/topiramate and naltrexone/bupropion) paved the way for semaglutide's dominance?",
+      "content": "Deconstruction:\nThe structural constraints of earlier weight-loss drugs created a massive clinical gap.\n\nPublished Evidence & Certainty: Highly certain. Previous weight-loss drugs targeted central sympathetic and dopamine networks, carrying severe side-effect burdens (tachycardia, insomnia, psychiatric disturbances, abuse potential) and achieving modest weight-loss averages of only 5% to 8%. Semaglutide bypassed these sympathetic pathways, utilizing a natural endocrine satiety mechanism that achieved a massive 15% weight-loss profile with excellent cardiac safety, completely transforming the clinical standard of care.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "The structural constraints of earlier weight-loss drugs created a massive clinical gap.",
+        "Previous weight-loss drugs targeted central sympathetic and dopamine networks, carrying severe side-effect burdens (tachycardia, insomnia, psychiatric disturbances, abuse potential) and achieving modest weight-loss averages of only 5% to 8%.",
+        "Semaglutide bypassed these sympathetic pathways, utilizing a natural endocrine satiety mechanism that achieved a massive 15% weight-loss profile with excellent cardiac safety, completely transforming the clinical standard of care."
+      ],
+      "reference": "DECON 50 Q40 [Highly certain]: \"The structural constraints of earlier weight-loss drugs created a massive clinical gap.\" (Wilding JPH, et al. *N Engl J Med*. 2021;384(11):989-1002 (STEP 1); Yanovski SZ, Yanovski JA. *JAMA*. 2014;311(1):74-86.)"
+    },
+    {
+      "id": "ht-001-n171",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "Why does semaglutide-induced weight loss inevitably hit an absolute, immovable plateau around week 60 to 68 (the thermodynamic attractor state)?",
+      "content": "Deconstruction:\nWhy doesn't weight loss continue infinitely if the patient remains on a constant dose of semaglutide?\n\nPublished Evidence & Certainty: Highly certain. The body is a dynamic thermodynamic system. As semaglutide-treated patients lose mass, their Total Daily Energy Expenditure (TDEE) and Resting Metabolic Rate (RMR) drop significantly because they are carrying less physical mass and have lost a portion of metabolically active muscle. Concurrently, the brain's homeostatic pathways increase the biological drive to eat (spiking ghrelin levels). The plateau is reached at week 60-68 when the reduced caloric intake matches the body's new, lower TDEE, establishing a new energy equilibrium.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Why doesn't weight loss continue infinitely if the patient remains on a constant dose of semaglutide?",
+        "The body is a dynamic thermodynamic system.",
+        "As semaglutide-treated patients lose mass, their Total Daily Energy Expenditure (TDEE) and Resting Metabolic Rate (RMR) drop significantly because they are carrying less physical mass and have lost a portion of metabolically active muscle.",
+        "Concurrently, the brain's homeostatic pathways increase the biological drive to eat (spiking ghrelin levels)."
+      ],
+      "reference": "DECON 50 Q41 [Highly certain]: \"Why doesn't weight loss continue infinitely if the patient remains on a constant dose of semaglutide?\" (Wilding JPH, et al. *N Engl J Med*. 2021;384(11):989-1002 (STEP 1); MacLean PS, et al. *Am J Physiol Regul Integr Comp Physiol*. 2011;301(3):R581-600.)"
+    },
+    {
+      "id": "ht-001-n172",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "What is the physiological resting state of pancreatic beta-cell functional capacity after long-term semaglutide therapy is discontinued?",
+      "content": "Deconstruction:\nDoes the pancreas maintain its improved secretory capacity, or does it collapse back to its pre-treatment baseline?\n\nPublished Evidence & Certainty: Highly certain. Upon drug discontinuation, the transient functional benefits (the reduction in glucotoxicity, the improved HOMA-B beta-cell marker, and the optimized proinsulin-to-insulin ratio) disappear entirely within 4 to 12 weeks. The pancreatic islet tissue returns precisely to its pre-treatment, genetically determined degenerative trajectory. Semaglutide acts as a functional stabilizer, not a permanent disease-modifying cure.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Does the pancreas maintain its improved secretory capacity, or does it collapse back to its pre-treatment baseline?",
+        "Upon drug discontinuation, the transient functional benefits (the reduction in glucotoxicity, the improved HOMA-B beta-cell marker, and the optimized proinsulin-to-insulin ratio) disappear entirely within 4 to 12 weeks.",
+        "The pancreatic islet tissue returns precisely to its pre-treatment, genetically determined degenerative trajectory.",
+        "Semaglutide acts as a functional stabilizer, not a permanent disease-modifying cure."
+      ],
+      "reference": "DECON 50 Q42 [Highly certain]: \"Does the pancreas maintain its improved secretory capacity, or does it collapse back to its pre-treatment baseline?\" (Meier JJ. *Nat Rev Endocrinol*. 2012;8(12):728-742; Buse JB, et al. *Diabetes Care*. 2009;32(1):193-203.)"
+    },
+    {
+      "id": "ht-001-n173",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "What is the ultimate homeostatic end-state of gastric motility under years of continuous semaglutide therapy?",
+      "content": "Deconstruction:\nDoes the stomach permanently lose its contractility, or does it adapt completely?\n\nPublished Evidence & Certainty: Highly certain. Over chronic, long-term administration, the delay in gastric emptying undergoes full tachyphylaxis (desensitization). The gastric smooth muscle cells and local vagal pathways adapt to constant GLP-1 exposure, and the rate of gastric transit returns back to its baseline physiological rate. This explains why initial nausea and early satiety diminish over time, even while central metabolic benefits persist.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Does the stomach permanently lose its contractility, or does it adapt completely?",
+        "Over chronic, long-term administration, the delay in gastric emptying undergoes full tachyphylaxis (desensitization).",
+        "The gastric smooth muscle cells and local vagal pathways adapt to constant GLP-1 exposure, and the rate of gastric transit returns back to its baseline physiological rate.",
+        "This explains why initial nausea and early satiety diminish over time, even while central metabolic benefits persist."
+      ],
+      "reference": "DECON 50 Q43 [Highly certain]: \"Does the stomach permanently lose its contractility, or does it adapt completely?\" (Hjerpsted JB, et al. *Diabetes Obes Metab*. 2018;20(3):610-619; Flint A, et al. *J Clin Endocrinol Metab*. 2011;96(3):710-719.)"
+    },
+    {
+      "id": "ht-001-n174",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "What is the lipid and cholesterol homeostatic attractor state after sustained, multi-year semaglutide therapy?",
+      "content": "Deconstruction:\nDoes the lipid profile stabilize permanently, and what happens if therapy is stopped?\n\nPublished Evidence & Certainty: Highly certain. Sustained semaglutide therapy establishes a highly favorable lipid equilibrium: triglycerides drop by 15-20%, VLDL-C is lowered, and total cholesterol is stabilized due to decreased hepatic lipogenesis and systemic fat loss. However, this is a drug-dependent equilibrium; if semaglutide is discontinued and the patient experiences rebound weight gain, the lipid profiles immediately return to their pre-treatment, atherogenic baselines.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Does the lipid profile stabilize permanently, and what happens if therapy is stopped?",
+        "Sustained semaglutide therapy establishes a highly favorable lipid equilibrium: triglycerides drop by 15-20%, VLDL-C is lowered, and total cholesterol is stabilized due to decreased hepatic lipogenesis and systemic fat loss.",
+        "However, this is a drug-dependent equilibrium; if semaglutide is discontinued and the patient experiences rebound weight gain, the lipid profiles immediately return to their pre-treatment, atherogenic baselines."
+      ],
+      "reference": "DECON 50 Q44 [Highly certain]: \"Does the lipid profile stabilize permanently, and what happens if therapy is stopped?\" (Lincoff AM, et al. *N Engl J Med*. 2023;389(24):2221-2232 (SELECT); Hjerpsted JB, et al. *Diabetes Obes Metab*. 2018;20(3):610-619.)"
+    },
+    {
+      "id": "ht-001-n175",
+      "type": "note",
+      "subtopic": "Equilibrium — The End-State",
+      "title": "Does the central nervous system's dopamine reward pathway permanently adapt or reset after years of decreased hedonic signaling under semaglutide therapy?",
+      "content": "Deconstruction:\nDoes the brain's craving mechanism permanently learn to live with lower dopamine spikes?\n\nPublished Evidence & Certainty: Limited information. While clinical trials and neuroimaging confirm that semaglutide reduces hedonic cravings and brain activation responses to food and addictive substances during active therapy, we lack long-term data on whether these neural circuits undergo permanent structural synaptic plasticity (rewiring) or if they immediately revert to hyper-responsive craving states upon drug washout.\n\nCertainty: Limited information",
+      "keyPoints": [
+        "Does the brain's craving mechanism permanently learn to live with lower dopamine spikes?",
+        "While clinical trials and neuroimaging confirm that semaglutide reduces hedonic cravings and brain activation responses to food and addictive substances during active therapy, we lack long-term data on whether these neural circuits undergo permanent structural synaptic plasticity (rewiring) or if they immediately revert to hyper-responsive craving states upon drug washout."
+      ],
+      "reference": "DECON 50 Q45 [Limited information]: \"Does the brain's craving mechanism permanently learn to live with lower dopamine spikes?\" (Aranäs AE, et al. *eBioMedicine*. 2023;92:104642; Blundell J, et al. *Diabetes Obes Metab*. 2017;19(9):1245-1251.)"
+    },
+    {
+      "id": "ht-001-n176",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "The Non-Responder Anomaly: Why do approximately 10% to 15% of patients in the STEP trials fail to lose even 5% of their body weight on high-dose semaglutide?",
+      "content": "Deconstruction:\nIf the central appetite suppression pathway of semaglutide is a universal biological system, why does a significant subset exhibit absolute resistance?\n\nPublished Evidence & Certainty: Limited information. Theoretical models suggest that non-responders may possess specific genetic polymorphisms in the GLP-1 receptor gene (GLP1R) that reduce receptor affinity, or have highly defended central melanocortin-4 receptor (MC4R) pathways that are resistant to upstream alpha-MSH stimulation. Additionally, in some individuals, compensatory hunger pathways (such as the lateral hypothalamic orexin system) may be exceptionally hyper-active, completely overriding the GLP-1 satiety signal.\n\nCertainty: Limited information",
+      "keyPoints": [
+        "If the central appetite suppression pathway of semaglutide is a universal biological system, why does a significant subset exhibit absolute resistance?",
+        "Theoretical models suggest that non-responders may possess specific genetic polymorphisms in the GLP-1 receptor gene (GLP1R) that reduce receptor affinity, or have highly defended central melanocortin-4 receptor (MC4R) pathways that are resistant to upstream alpha-MSH stimulation.",
+        "Additionally, in some individuals, compensatory hunger pathways (such as the lateral hypothalamic orexin system) may be exceptionally hyper-active, completely overriding the GLP-1 satiety signal."
+      ],
+      "reference": "DECON 50 Q46 [Limited information]: \"If the central appetite suppression pathway of semaglutide is a universal biological system, why does a significant subs...\" (Wilding JPH, et al. *N Engl J Med*. 2021;384(11):989-1002 (STEP 1); Loos RJF, Yeo GSH. *Nat Rev Genet*. 2022;23(2):120-133.)"
+    },
+    {
+      "id": "ht-001-n177",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "The Retinopathy Paradox: Why does an otherwise highly cardioprotective and microvascular-protective drug cause a sudden, acute worsening of diabetic retinopathy?",
+      "content": "Deconstruction:\nWhy does local retinal tissue exhibit a completely discordant, destructive response compared to the rest of the systemic vascular network?\n\nPublished Evidence & Certainty: Highly certain. The paradox is driven by rapid glucose-clearing kinetics rather than direct toxicity. In patients with severe, chronic pre-existing retinopathy, retinal vessels are highly fragile and hypoxic. When semaglutide induces a rapid drop in blood glucose (HbA1c dropping by $>1.5-2.0\\%$ in weeks), it causes a localized drop in glucose availability. This acute metabolic shock triggers a transient spike in intra-retinal vascular endothelial growth factor (VEGF) expression to force new vessel growth, temporarily worsening macular edema and neovascularization before long-term vascular stabilization takes over.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Why does local retinal tissue exhibit a completely discordant, destructive response compared to the rest of the systemic vascular network?",
+        "The paradox is driven by rapid glucose-clearing kinetics rather than direct toxicity.",
+        "In patients with severe, chronic pre-existing retinopathy, retinal vessels are highly fragile and hypoxic.",
+        "When semaglutide induces a rapid drop in blood glucose (HbA1c dropping by $>1.5-2.0\\%$ in weeks), it causes a localized drop in glucose availability."
+      ],
+      "reference": "DECON 50 Q47 [Highly certain]: \"Why does local retinal tissue exhibit a completely discordant, destructive response compared to the rest of the systemic...\" (Bain SC, et al. *Cardiovasc Diabetol*. 2019;18(1):30 (Retinopathy Post-Hoc); Vilsbøll T, et al. *Diabetes Care*. 2018;41(11):2345-2353.)"
+    },
+    {
+      "id": "ht-001-n178",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "The MASH Fibrosis vs. Inflammation Mismatch: Why did early 72-week NASH trials show massive steatohepatitis resolution, but fail to achieve statistically significant regression of liver fibrosis?",
+      "content": "Deconstruction:\nIf the upstream inflammatory driver is eliminated, why does the downstream scar tissue fail to resolve on the same timeline?\n\nPublished Evidence & Certainty: Highly certain. The cellular clearance of established, cross-linked extracellular collagen matrices (fibrosis) is a fundamentally different and much slower biological process than the resolution of intracellular lipid accumulation (steatosis) and cellular swelling (ballooning). It requires years for local matrix metalloproteinases (MMPs) to break down dense collagen fibers. This mismatch was resolved in the Phase 3 ESSENCE trial (2025), which demonstrated that extending high-dose semaglutide therapy to 72 weeks in a larger cohort finally permitted statistically significant fibrosis regression.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "If the upstream inflammatory driver is eliminated, why does the downstream scar tissue fail to resolve on the same timeline?",
+        "The cellular clearance of established, cross-linked extracellular collagen matrices (fibrosis) is a fundamentally different and much slower biological process than the resolution of intracellular lipid accumulation (steatosis) and cellular swelling (ballooning).",
+        "It requires years for local matrix metalloproteinases (MMPs) to break down dense collagen fibers.",
+        "This mismatch was resolved in the Phase 3 ESSENCE trial (2025), which demonstrated that extending high-dose semaglutide therapy to 72 weeks in a larger cohort finally permitted statistically significant fibrosis regression."
+      ],
+      "reference": "DECON 50 Q48 [Highly certain]: \"If the upstream inflammatory driver is eliminated, why does the downstream scar tissue fail to resolve on the same timel...\" (Newsome PN, et al. *N Engl J Med*. 2021;384(12):1113-1124; Loomba R, et al. *N Engl J Med*. 2025;392 (ESSENCE).)"
+    },
+    {
+      "id": "ht-001-n179",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "The Amylase and Lipase Disconnect: Why does semaglutide cause significant elevations in circulating pancreatic enzymes without any clinical signs of pancreatitis?",
+      "content": "Deconstruction:\nWhy does a classic biological marker of organ inflammation become completely uncoupled from actual tissue pathology under GLP-1 exposure?\n\nPublished Evidence & Certainty: Highly certain. Semaglutide therapy induces mild, asymptomatic elevations in serum amylase and lipase in up to 30% of patients. Islet histology studies show that GLP-1 receptor activation causes a benign, functional stimulation of pancreatic exocrine cells, causing them to leak small amounts of enzymes into the blood. In the absence of physical pancreatic duct obstruction or inflammatory necrosis (acute pancreatitis), these elevations are completely benign, proving that traditional diagnostic cut-offs for pancreatitis are clinically discordant during GLP-1 therapy.\n\nCertainty: Highly certain",
+      "keyPoints": [
+        "Why does a classic biological marker of organ inflammation become completely uncoupled from actual tissue pathology under GLP-1 exposure?",
+        "Semaglutide therapy induces mild, asymptomatic elevations in serum amylase and lipase in up to 30% of patients.",
+        "Islet histology studies show that GLP-1 receptor activation causes a benign, functional stimulation of pancreatic exocrine cells, causing them to leak small amounts of enzymes into the blood.",
+        "In the absence of physical pancreatic duct obstruction or inflammatory necrosis (acute pancreatitis), these elevations are completely benign, proving that traditional diagnostic cut-offs for pancreatitis are clinically discordant during GLP-1 therapy."
+      ],
+      "reference": "DECON 50 Q49 [Highly certain]: \"Why does a classic biological marker of organ inflammation become completely uncoupled from actual tissue pathology unde...\" (Marso SP, et al. *N Engl J Med*. 2016;375(19):1834-1844 (SUSTAIN 6); Steinberg WM, et al. *Diabetes Care*. 2014;37(7):1863-1868.)"
+    },
+    {
+      "id": "ht-001-n180",
+      "type": "note",
+      "subtopic": "Discordance — The Anomalies",
+      "title": "The Muscle Mass Disproportion: Why is the percentage of lean mass lost on semaglutide (~40%) significantly higher than what is observed in traditional, low-calorie diet models (~25%)?",
+      "content": "Deconstruction:\nIf both therapies rely on a caloric deficit, why does semaglutide cause a disproportionately higher breakdown of lean soft tissue?\n\nPublished Evidence & Certainty: Limited direct comparative trials, but high biological certainty. In traditional diet models, patients voluntarily restrict calories but maintain a higher relative protein ratio and perform normal physical movements. Semaglutide induces such profound, rapid central satiety that patients frequently experience severe, unmonitored **protein under-nutrition** (consuming $<40-50 ext{ g}$ of protein daily). This severe protein deficit, combined with rapid weight-loss-induced fatigue that reduces daily physical movement, forces the body to rapidly catabolize skeletal muscle proteins to meet essential systemic amino acid demands.\n\nCertainty: Limited direct comparative trials, but high biological certainty",
+      "keyPoints": [
+        "If both therapies rely on a caloric deficit, why does semaglutide cause a disproportionately higher breakdown of lean soft tissue?",
+        "Limited direct comparative trials, but high biological certainty.",
+        "In traditional diet models, patients voluntarily restrict calories but maintain a higher relative protein ratio and perform normal physical movements.",
+        "Semaglutide induces such profound, rapid central satiety that patients frequently experience severe, unmonitored **protein under-nutrition** (consuming $<40-50 ext{ g}$ of protein daily)."
+      ],
+      "reference": "DECON 50 Q50 [Limited direct comparative trials, but high biological certainty]: \"If both therapies rely on a caloric deficit, why does semaglutide cause a disproportionately higher breakdown of lean so...\" (Wilding JPH, et al. *N Engl J Med*. 2021;384(11):989-1002 (STEP 1 DXA); Heymsfield SB, et al. *Am J Clin Nutr*. 2014;100(1):162-171.)"
+    },
+    {
+      "id": "ht-001-q33",
+      "subtopic": "Axiomatic — Root",
+      "question": "SELECT trial data most directly falsifies which axiom about semaglutide cardiovascular benefit?",
+      "options": [
+        "CV benefit requires HbA1c reduction below 7%",
+        "CV benefit requires weight loss above 15%",
+        "CV benefit is solely downstream of glycemic lowering",
+        "CV benefit requires concurrent SGLT2 inhibitor therapy"
+      ],
+      "correctOption": 2,
+      "explanation": "SELECT enrolled non-diabetic patients with normal/prediabetic HbA1c who still had 20% MACE reduction, proving benefit is not solely from glucose lowering.",
+      "reference": "DECON 50 Q3: \"overweight/obese patients without type 2 diabetes... experienced a 20% reduction in MACE\" (Lincoff AM, SELECT, NEJM 2023)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q34",
+      "subtopic": "Glassbox — Mechanism",
+      "question": "The first step in oral semaglutide gastric absorption after tablet dissolution is:",
+      "options": [
+        "Paracellular transport through opened tight junctions in the duodenum",
+        "SNAC creating a localized high-concentration microenvironment neutralizing gastric acid",
+        "Hepatic first-pass metabolism in portal circulation",
+        "Active transport via intestinal PepT1 transporters"
+      ],
+      "correctOption": 1,
+      "explanation": "Tablet dissolves in gastric mucus; SNAC releases and creates local pH ~7-8, inactivating pepsin and enabling transcellular absorption.",
+      "reference": "DECON 50 Q6: \"SNAC molecules release and create a localized microenvironment... elevating the local pH to ~7-8\" (Buckley ST, Sci Transl Med 2018)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q35",
+      "subtopic": "Invariant — Constants",
+      "question": "What primarily drives GI intolerance when initiating semaglutide — absolute plasma concentration or rate of concentration change?",
+      "options": [
+        "Steady-state Cmax only",
+        "Rate of change of plasma concentration (dC/dt), not absolute C",
+        "Albumin binding saturation",
+        "Renal clearance variability"
+      ],
+      "correctOption": 1,
+      "explanation": "Rapid exposure increases cause nausea/vomiting; slow 4-week titration allows CNS adaptation to high steady-state levels.",
+      "reference": "DECON 50 Q13: \"The rate of change of plasma concentration (dC/dt), rather than the absolute concentration (C) itself\" (Bækdal TA, Clin Pharmacokinet 2018)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q36",
+      "subtopic": "Falsifiability — Breakpoint",
+      "question": "Post-hoc SUSTAIN 6 and SELECT analyses falsified which model of semaglutide cardioprotection?",
+      "options": [
+        "Weight-loss-exclusive model — MACE benefit consistent even in patients losing <5% body weight",
+        "Direct vascular inflammation model",
+        "SGLT2-dependent natriuresis model",
+        "Beta-cell regeneration model"
+      ],
+      "correctOption": 0,
+      "explanation": "MACE hazard ratio reduction was consistent across weight-loss subgroups including those with 0-5% loss, falsifying weight-loss-exclusive cardioprotection.",
+      "reference": "DECON 50 Q16: \"even patients who lost <5% or 0% of their body weight experienced significant cardiovascular protection\" (Lincoff AM, SELECT)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q37",
+      "subtopic": "Counterfactual — Inversion",
+      "question": "If the C18 fatty diacid chain is removed from semaglutide, expected half-life change is:",
+      "options": [
+        "Unchanged at 168 hours",
+        "Reduced from 168 hours to less than 5 hours",
+        "Extended to 14 days via hepatic storage",
+        "Eliminated only in renal impairment"
+      ],
+      "correctOption": 1,
+      "explanation": "Without albumin-binding C18 diacid, rapid glomerular filtration and enzymatic degradation reduce half-life to <5 hours.",
+      "reference": "DECON 50 Q24: \"reducing its half-life from 168 hours to less than 5 hours\" (Sorli C, SUSTAIN 1)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q38",
+      "subtopic": "Discordance — Anomalies",
+      "question": "The diabetic retinopathy paradox after starting semaglutide is best explained by:",
+      "options": [
+        "Direct GLP-1R retinal toxicity",
+        "Rapid HbA1c drop causing acute metabolic shock and transient VEGF spike in fragile retinal vessels",
+        "SNAC accumulation in retinal pigment epithelium",
+        "Albumin-bound drug depositing in choroidal vessels"
+      ],
+      "correctOption": 1,
+      "explanation": "Rapid glucose clearing in severe pre-existing retinopathy causes localized hypoxia response with transient VEGF elevation worsening edema before stabilization.",
+      "reference": "DECON 50 Q47: \"rapid drop in blood glucose... triggers a transient spike in intra-retinal VEGF expression\" (Bain SC, Cardiovasc Diabetol 2019)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q39",
+      "subtopic": "Equilibrium — End-State",
+      "question": "STEP trial weight plateau at weeks 60-68 represents:",
+      "options": [
+        "Complete hypothalamic GLP-1R desensitization",
+        "Thermodynamic equilibrium where reduced caloric intake matches lowered TDEE/RMR",
+        "Development of neutralizing antibodies",
+        "Irreversible beta-cell exhaustion"
+      ],
+      "correctOption": 1,
+      "explanation": "As mass decreases, TDEE and RMR drop while ghrelin rises; plateau occurs when suppressed intake equals new lower expenditure.",
+      "reference": "DECON 50 Q41: \"reduced caloric intake matches the body's new, lower TDEE, establishing a new energy equilibrium\" (Wilding JPH, STEP 1)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-q40",
+      "subtopic": "Lineage — Origin",
+      "question": "Exendin-4 from Gila monster venom was critical to semaglutide lineage because it proved:",
+      "options": [
+        "Oral peptide delivery was feasible",
+        "DPP-4-resistant GLP-1R agonism could be clinically viable (glycine at position 2)",
+        "Weekly albumin binding was possible",
+        "CNS penetration required for glycemic control"
+      ],
+      "correctOption": 1,
+      "explanation": "Exendin-4 shared 53% homology with human GLP-1 but resisted DPP-4 via glycine at position 2, proving long-acting incretin concept.",
+      "reference": "DECON 50 Q36: \"completely resistant to DPP-4 because of a glycine substitution at position 2\" (Eng J, J Biol Chem 1992)",
+      "type": "mcq"
+    },
+    {
+      "id": "ht-001-tf19",
+      "subtopic": "Axiomatic — Root",
+      "statement": "Semaglutide perfectly mimics native GLP-1 regarding half-life, tissue distribution, and receptor cycling dynamics.",
+      "correctAnswer": false,
+      "explanation": "Native GLP-1 is pulsatile (2-3 min clearance); semaglutide provides continuous 168-hour receptor occupancy altering recycling dynamics.",
+      "reference": "DECON 50 Q5: \"Semaglutide provides continuous, high-concentration receptor occupancy for 168 hours per dose\" (Meier JJ, Nat Rev Endocrinol 2012)",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf20",
+      "subtopic": "Invariant — Constants",
+      "statement": "Gastric emptying delay remains permanently reduced throughout chronic semaglutide therapy.",
+      "correctAnswer": false,
+      "explanation": "Gastric emptying delay undergoes tachyphylaxis by weeks 12-20; central appetite suppression remains active.",
+      "reference": "DECON 50 Q12: \"gastric motility rate returns toward baseline due to rapid tachyphylaxis\" (Hjerpsted JB, Diabetes Obes Metab 2018)",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf21",
+      "subtopic": "Falsifiability — Breakpoint",
+      "statement": "Human withdrawal studies falsify the hypothesis that semaglutide structurally reverses beta-cell apoptosis.",
+      "correctAnswer": true,
+      "explanation": "After washout, insulin secretory capacity and HbA1c return to baseline within 4-12 weeks — benefit is functional, not structural.",
+      "reference": "DECON 50 Q18: \"insulin secretory capacity and HbA1c levels return to baseline within 4 to 12 weeks\" (Meier JJ, Nat Rev Endocrinol 2012)",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf22",
+      "subtopic": "Counterfactual — Inversion",
+      "statement": "Oral semaglutide without SNAC co-formulation achieves near-zero systemic bioavailability.",
+      "correctAnswer": true,
+      "explanation": "Gastric pepsin hydrolyzes the peptide at pH 1.5-2.0; remaining peptide cannot cross gastric mucosa lipid bilayers.",
+      "reference": "DECON 50 Q22: \"resulting in zero systemic bioavailability\" (Buckley ST, Sci Transl Med 2018)",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf23",
+      "subtopic": "Boundary — Extremes",
+      "statement": "Oral semaglutide pharmacokinetics remain stable in severe renal failure including hemodialysis patients.",
+      "correctAnswer": true,
+      "explanation": "PK studies show AUC/Cmax comparable to healthy controls; renal filtration is not primary clearance pathway.",
+      "reference": "DECON 50 Q32: \"systemic exposure (AUC and Cmax) remains highly stable and comparable to healthy controls\" (Bækdal TA, J Clin Pharmacol 2018)",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-tf24",
+      "subtopic": "Discordance — Anomalies",
+      "statement": "Semaglutide causes lean mass loss (~40% of total weight) partly due to profound satiety driving protein under-nutrition.",
+      "correctAnswer": true,
+      "explanation": "STEP 1 DXA showed 40% lean mass loss; severe central satiety may reduce protein intake below essential amino acid needs.",
+      "reference": "DECON 50 Q50: \"profound, rapid central satiety that patients frequently experience severe, unmonitored protein under-nutrition\" (Wilding JPH, STEP 1 DXA)",
+      "type": "true_false"
+    },
+    {
+      "id": "ht-001-ar19",
+      "subtopic": "Axiomatic — Root",
+      "assertion": "Semaglutide cardiovascular benefit is not solely driven by HbA1c reduction.",
+      "reason": "SELECT showed 20% MACE reduction in patients without type 2 diabetes.",
+      "correctOption": 0,
+      "explanation": "Both true; SELECT in non-diabetic cohort directly proves CV benefit independent of glycemic lowering magnitude.",
+      "reference": "DECON 50 Q3: \"cardioprotection is driven by systemic anti-inflammatory, anti-atherosclerotic pathways\" (Lincoff AM, SELECT)",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar20",
+      "subtopic": "Invariant — Constants",
+      "assertion": "Lean mass comprises ~40% of weight lost on semaglutide 2.4 mg.",
+      "reason": "This is an obligate consequence of rapid negative energy balance in any weight-loss modality.",
+      "correctOption": 0,
+      "explanation": "Both true; STEP 1 DXA confirmed 40% lean loss as biological invariant of rapid caloric deficit.",
+      "reference": "DECON 50 Q14: \"lean mass loss typically comprises 20% to 40% of total weight lost\" (Wilding JPH, STEP 1 DXA)",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar21",
+      "subtopic": "Falsifiability — Breakpoint",
+      "assertion": "CNS GLP-1R activation is mandatory for semaglutide-induced weight loss.",
+      "reason": "Rodent CNS GLP-1R knockout abolishes semaglutide food intake reduction.",
+      "correctOption": 0,
+      "explanation": "Both true; Cre-lox brainstem/hypothalamus knockout studies confirm brain dependency.",
+      "reference": "DECON 50 Q17: \"peripheral administration of semaglutide fails to reduce food intake or induce weight loss\" (Sisley S, J Clin Invest 2014)",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar22",
+      "subtopic": "Equilibrium — End-State",
+      "assertion": "Gastric motility returns to baseline during chronic semaglutide therapy.",
+      "reason": "Gastric emptying delay undergoes full tachyphylaxis while central metabolic benefits persist.",
+      "correctOption": 0,
+      "explanation": "Both true; explains diminishing early nausea while weight/glycemic benefits continue.",
+      "reference": "DECON 50 Q43: \"gastric transit returns back to its baseline physiological rate\" (Hjerpsted JB, Diabetes Obes Metab 2018)",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar23",
+      "subtopic": "Discordance — Anomalies",
+      "assertion": "Serum lipase elevations on semaglutide are usually clinically benign.",
+      "reason": "GLP-1R activation causes pancreatic exocrine enzyme leakage without zymogen auto-activation or necrosis.",
+      "correctOption": 0,
+      "explanation": "Both true; explains disconnect between elevated enzymes and <0.1% pancreatitis incidence.",
+      "reference": "DECON 50 Q49: \"benign, functional stimulation of pancreatic exocrine cells, causing them to leak small amounts of enzymes\" (Marso SP, SUSTAIN 6)",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "ht-001-ar24",
+      "subtopic": "Lineage — Origin",
+      "assertion": "Semaglutide's weekly dosing required engineering beyond liraglutide's C16 fatty acid design.",
+      "reason": "Aib-8 substitution, Arg-34, and C18 diacid with hydrophilic spacer increased albumin binding five-fold.",
+      "correctOption": 0,
+      "explanation": "Both true; molecular lineage from liraglutide (13h) to semaglutide (168h) required these specific modifications.",
+      "reference": "DECON 50 Q37: \"C18 diacid increased albumin binding affinity by five-fold\" (Sorli C, SUSTAIN 1; Lau J, J Med Chem 2015)",
       "type": "assertion_reason"
     }
   ]
