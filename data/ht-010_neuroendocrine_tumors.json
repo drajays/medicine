@@ -1,0 +1,664 @@
+{
+  "id": "ht-010",
+  "topicType": "hot_topic",
+  "title": "Neuroendocrine Tumors (NET/NEN)",
+  "subtitle": "Classification, Functional Syndromes & Clinical Decision-Support Framework, Verified, With a Skepticism Section",
+  "section": "Hot Topics",
+  "category": "Oncology",
+  "authors": "User-provided clinical classification and management framework, fact-checked against PROMID, CLARINET, NETTER-1, RADIANT-3/4, the sunitinib pancreatic NET trial, ECOG-ACRIN E2211 (CAPTEM), and the NORDIC NEC study",
+  "sourceFile": "user-provided content (chat); cross-checked against Rinke et al. (PROMID), Caplin et al. (CLARINET), Strosberg et al. (NETTER-1, NEJM 2017), Yao et al. (RADIANT-3 NEJM 2011, RADIANT-4 Lancet 2016), Raymond et al. (sunitinib, NEJM 2011), Kunz et al. (ECOG-ACRIN E2211), and Sorbye et al. (NORDIC NEC, Ann Oncol 2013)",
+  "items": [
+    {
+      "id": "ht-010-n1",
+      "type": "note",
+      "subtopic": "Classification Framework",
+      "title": "Why must the NET-vs-NEC distinction be made before any treatment decision?",
+      "content": "Well-differentiated neuroendocrine tumors (NET) and poorly differentiated neuroendocrine carcinomas (NEC) are biologically distinct diseases that happen to share a common cell-of-origin terminology.\nNET is typically slower-growing, often somatostatin-receptor-positive, and managed with somatostatin analogs, PRRT, or targeted agents. NEC behaves like small-cell carcinoma — aggressive, usually high Ki-67 — and requires urgent platinum-based chemotherapy. Treating one as if it were the other is a foundational, avoidable error.",
+      "keyPoints": [
+        "NET and NEC are biologically distinct, not points on the same severity spectrum.",
+        "NET: often SSTR-positive, managed with SSAs/PRRT/targeted agents.",
+        "NEC: aggressive, managed like small-cell carcinoma with urgent platinum chemotherapy."
+      ],
+      "reference": "Established WHO neuroendocrine neoplasm classification distinguishing well-differentiated NET from poorly differentiated NEC."
+    },
+    {
+      "id": "ht-010-n2",
+      "type": "note",
+      "subtopic": "Classification Framework",
+      "title": "How are well-differentiated NETs graded using Ki-67, and why does this matter clinically?",
+      "content": "Well-differentiated NETs are graded G1 (Ki-67 <3%), G2 (Ki-67 3-20%), or G3 (Ki-67 >20% but still well-differentiated). NET G3 is biologically distinct from poorly differentiated NEC despite the shared high Ki-67 — it is often not as platinum-sensitive as NEC, so the grade alone should not trigger automatic platinum chemotherapy without confirming differentiation on pathology.",
+      "keyPoints": [
+        "NET G1: Ki-67 <3%; G2: 3-20%; G3: >20% but well-differentiated.",
+        "NET G3 is biologically distinct from NEC despite similarly high Ki-67.",
+        "NET G3 is often less platinum-sensitive than true NEC."
+      ],
+      "reference": "WHO/ENETS grading criteria for well-differentiated neuroendocrine tumors."
+    },
+    {
+      "id": "ht-010-n3",
+      "type": "note",
+      "subtopic": "Classification Framework",
+      "title": "What distinguishes a MiNEN from a pure NET or NEC?",
+      "content": "A mixed neuroendocrine-non-neuroendocrine neoplasm (MiNEN) contains both a neuroendocrine component and a separate non-neuroendocrine malignant component (e.g., adenocarcinoma) within the same tumor. Management follows the more aggressive component, and expert pathology review is required to correctly characterize both elements before treatment planning.",
+      "keyPoints": [
+        "MiNEN = neuroendocrine + non-neuroendocrine malignant components in one tumor.",
+        "Treatment follows whichever component is more aggressive.",
+        "Requires expert pathology review to characterize both components."
+      ],
+      "reference": "WHO classification of mixed neuroendocrine-non-neuroendocrine neoplasms."
+    },
+    {
+      "id": "ht-010-n4",
+      "type": "note",
+      "subtopic": "Classification Framework",
+      "title": "Why is \"secretory\" not the same as \"functional\" in neuroendocrine tumor terminology?",
+      "content": "A tumor is secretory if it produces or stains positive for a hormone biochemically. It is functional only if that hormone production causes a recognizable clinical syndrome. Many NETs are hormone-positive on immunohistochemistry yet clinically non-functional — they present via mass effect, obstruction, bleeding, or incidental imaging rather than a hormone syndrome.",
+      "keyPoints": [
+        "Secretory = produces/stains for a hormone biochemically.",
+        "Functional = the hormone causes a clinically recognizable syndrome.",
+        "Many hormone-positive NETs are clinically non-functional."
+      ],
+      "reference": "Established functional-vs-secretory distinction in neuroendocrine tumor terminology."
+    },
+    {
+      "id": "ht-010-n5",
+      "type": "note",
+      "subtopic": "Carcinoid Syndrome",
+      "title": "How does carcinoid syndrome typically require liver metastases to manifest, and why do lung/ovarian primaries break this rule?",
+      "content": "Serotonin and related vasoactive substances secreted by a midgut NET are normally metabolized by the liver before reaching systemic circulation via the portal vein, so carcinoid syndrome classically requires liver metastases to bypass this first-pass hepatic clearance. Lung and ovarian primaries can cause carcinoid syndrome without liver metastases because their venous drainage bypasses the portal system entirely, delivering secreted products directly into systemic circulation.",
+      "keyPoints": [
+        "Hepatic first-pass metabolism normally clears serotonin from midgut NETs.",
+        "Liver metastases bypass this clearance, classically causing carcinoid syndrome.",
+        "Lung/ovarian primaries can cause the syndrome without liver metastases due to non-portal venous drainage."
+      ],
+      "reference": "Established hepatic first-pass metabolism mechanism underlying classic carcinoid syndrome pathophysiology."
+    },
+    {
+      "id": "ht-010-n6",
+      "type": "note",
+      "subtopic": "Carcinoid Syndrome",
+      "title": "What are the classic clinical features and biochemical markers of carcinoid syndrome?",
+      "content": "Classic carcinoid syndrome features include flushing, diarrhea, wheezing/bronchospasm, abdominal cramping, and right-sided valvular heart disease (carcinoid heart disease) from chronic serotonin exposure. Severe cases can cause pellagra-like symptoms from tryptophan depletion (tryptophan is diverted into serotonin synthesis). Biochemical workup centers on 24-hour urinary or plasma 5-HIAA (a serotonin metabolite); chromogranin A is nonspecific and prone to false elevation.",
+      "keyPoints": [
+        "Classic features: flushing, diarrhea, wheezing, abdominal cramping, carcinoid heart disease.",
+        "Severe disease can cause pellagra-like symptoms from tryptophan depletion.",
+        "Primary biomarker: 24h urinary or plasma 5-HIAA; CgA is nonspecific."
+      ],
+      "reference": "Established clinical and biochemical features of carcinoid syndrome."
+    },
+    {
+      "id": "ht-010-n7",
+      "type": "note",
+      "subtopic": "Gastrinoma",
+      "title": "What is the clinical presentation and diagnostic approach to gastrinoma (Zollinger-Ellison syndrome)?",
+      "content": "Gastrinoma causes recurrent or multiple peptic ulcers — sometimes in unusual locations like the jejunum — severe GERD, diarrhea, and risk of GI bleeding or perforation, driven by gastrin-stimulated acid hypersecretion. Diagnosis relies on elevated fasting gastrin with low gastric pH, with a secretin stimulation test used when the diagnosis remains uncertain. High-dose PPI therapy to control acid is started immediately, with tumor localization and MEN1 evaluation following.",
+      "keyPoints": [
+        "Recurrent/multiple ulcers, severe GERD, diarrhea, GI bleeding/perforation risk.",
+        "Diagnosis: elevated fasting gastrin + low gastric pH; secretin stimulation test if needed.",
+        "Acid control (high-dose PPI) takes priority before tumor staging."
+      ],
+      "reference": "Established Zollinger-Ellison syndrome/gastrinoma clinical and diagnostic criteria."
+    },
+    {
+      "id": "ht-010-n8",
+      "type": "note",
+      "subtopic": "Insulinoma",
+      "title": "Why is Whipple's triad central to diagnosing insulinoma, and what labs confirm it during a supervised fast?",
+      "content": "Whipple's triad — symptoms during fasting/exertion, a documented low plasma glucose at the time of symptoms, and relief after glucose administration — establishes that hypoglycemia is the actual cause of symptoms, rather than assuming it from a single random glucose value. During a supervised fast at the time of hypoglycemia, insulinoma is confirmed by an inappropriately high insulin, high C-peptide, and high proinsulin, with low beta-hydroxybutyrate (reflecting insulin's suppression of ketogenesis) and a negative sulfonylurea screen to exclude factitious causes.",
+      "keyPoints": [
+        "Whipple's triad: symptoms + documented low glucose + relief with glucose.",
+        "Confirms hypoglycemia is the actual symptom cause, not an assumption from one glucose value.",
+        "Supervised-fast labs: high insulin, high C-peptide, high proinsulin, low beta-hydroxybutyrate, negative sulfonylurea screen."
+      ],
+      "reference": "Established Whipple's triad and supervised-fasting diagnostic criteria for insulinoma."
+    },
+    {
+      "id": "ht-010-n9",
+      "type": "note",
+      "subtopic": "Glucagonoma",
+      "title": "What is the \"4D\" presentation of glucagonoma?",
+      "content": "Glucagonoma classically presents with necrolytic migratory erythema (a distinctive rash), diabetes mellitus or glucose intolerance, weight loss, anemia, diarrhea, glossitis/stomatitis, and a markedly elevated risk of venous thromboembolism. The commonly used mnemonic \"4D\" highlights Dermatitis, Diabetes, DVT, and Depression as core features to recognize.",
+      "keyPoints": [
+        "Core features: necrolytic migratory erythema, diabetes/glucose intolerance, weight loss, anemia, diarrhea.",
+        "Markedly elevated VTE risk.",
+        "Mnemonic \"4D\": Dermatitis, Diabetes, DVT, Depression."
+      ],
+      "reference": "Established glucagonoma syndrome clinical features."
+    },
+    {
+      "id": "ht-010-n10",
+      "type": "note",
+      "subtopic": "VIPoma",
+      "title": "What is WDHA syndrome (VIPoma), and why is resuscitation prioritized over waiting for VIP levels?",
+      "content": "VIPoma (Verner-Morrison syndrome) causes WDHA syndrome: Watery diarrhea, Dehydration, Hypokalemia, and Achlorhydria/hypochlorhydria, often with metabolic acidosis and renal dysfunction from severe fluid losses. Because this volume and electrolyte depletion is life-threatening, aggressive fluid and potassium resuscitation must begin immediately rather than being delayed while waiting for a VIP level to return.",
+      "keyPoints": [
+        "WDHA: Watery diarrhea, Dehydration, Hypokalemia, Achlorhydria.",
+        "Can cause metabolic acidosis and renal dysfunction from severe fluid loss.",
+        "Resuscitation (fluids, potassium) must not be delayed awaiting VIP level confirmation."
+      ],
+      "reference": "Established Verner-Morrison syndrome (VIPoma) clinical features and resuscitation priority."
+    },
+    {
+      "id": "ht-010-n11",
+      "type": "note",
+      "subtopic": "Other Functional Syndromes",
+      "title": "What is the classic triad of somatostatinoma?",
+      "content": "Somatostatinoma classically presents with a triad of diabetes mellitus, gallstones, and steatorrhea/diarrhea, reflecting somatostatin's inhibitory effects on insulin secretion, gallbladder emptying, and pancreatic exocrine/intestinal function respectively. Periampullary tumors can additionally cause biliary obstruction and jaundice.",
+      "keyPoints": [
+        "Classic triad: diabetes mellitus, gallstones, steatorrhea/diarrhea.",
+        "Reflects somatostatin's inhibitory effects on insulin, gallbladder, and exocrine pancreatic function.",
+        "Periampullary location can add biliary obstruction/jaundice."
+      ],
+      "reference": "Established somatostatinoma syndrome clinical triad."
+    },
+    {
+      "id": "ht-010-n12",
+      "type": "note",
+      "subtopic": "Other Functional Syndromes",
+      "title": "How can poorly differentiated NEC produce paraneoplastic hormone syndromes despite usually being non-functional?",
+      "content": "Most poorly differentiated NEC is clinically non-functional, presenting instead with rapid mass growth and early metastasis. However, NEC (and small-cell lung carcinoma specifically) can produce paraneoplastic syndromes including SIADH (hyponatremia), ectopic ACTH (Cushing syndrome), hypercalcemia, and Lambert-Eaton myasthenic syndrome — distinct from the classic single-hormone syndromes (insulinoma, gastrinoma) seen in well-differentiated functional NETs.",
+      "keyPoints": [
+        "Most NEC is clinically non-functional, presenting via rapid mass/metastasis.",
+        "NEC can still cause paraneoplastic syndromes: SIADH, ectopic ACTH, hypercalcemia, Lambert-Eaton syndrome.",
+        "These differ from the classic single-hormone syndromes of well-differentiated functional NETs."
+      ],
+      "reference": "Established paraneoplastic syndrome associations with poorly differentiated neuroendocrine carcinoma, particularly small-cell lung carcinoma."
+    },
+    {
+      "id": "ht-010-n13",
+      "type": "note",
+      "subtopic": "Diagnostic Workup",
+      "title": "Why is chromogranin A unsuitable as a screening test for neuroendocrine tumors?",
+      "content": "Chromogranin A is confounded by proton pump inhibitor use, renal impairment, atrophic gastritis, hepatic disease, and many inflammatory states, producing frequent false-positive elevations unrelated to any tumor. Current European expert guidance explicitly cautions against using CgA for screening because of this false-positive burden — it should not be ordered as a blind screening panel, and a rising CgA should not, by itself, trigger treatment escalation.",
+      "keyPoints": [
+        "CgA is confounded by PPIs, renal impairment, gastritis, hepatic disease, inflammation.",
+        "European expert guidance explicitly cautions against using CgA for screening.",
+        "A rising CgA alone should not trigger treatment escalation without other corroborating evidence."
+      ],
+      "reference": "ENETS 2024 guidance paper for small-intestine NETs, biomarker caution section (J Neuroendocrinol, 2024)."
+    },
+    {
+      "id": "ht-010-n14",
+      "type": "note",
+      "subtopic": "Diagnostic Workup",
+      "title": "How does somatostatin receptor PET complement FDG-PET in NET workup, and why does discordance between the two matter?",
+      "content": "Somatostatin receptor PET (typically Ga-68 DOTATATE/DOTATOC) identifies SSTR-positive disease eligible for SSA therapy or PRRT, while FDG-PET identifies metabolically active, often more aggressive disease — used when Ki-67 is high, progression is rapid, or NET G3/NEC is suspected. A patient can have SSTR-positive indolent lesions coexisting with FDG-positive, SSTR-negative aggressive (\"discordant\") lesions, which changes treatment selection and is a recognized pitfall if only one imaging modality is used.",
+      "keyPoints": [
+        "SSTR PET (Ga-68 DOTATATE/DOTATOC): identifies SSA/PRRT-eligible disease.",
+        "FDG-PET: identifies metabolically aggressive disease, used for high Ki-67/rapid progression/suspected NEC.",
+        "Discordant lesions (SSTR-positive + FDG-positive elsewhere) are a recognized pitfall affecting treatment choice."
+      ],
+      "reference": "Established dual-tracer (SSTR PET + FDG-PET) imaging strategy for neuroendocrine neoplasm workup."
+    },
+    {
+      "id": "ht-010-n15",
+      "type": "note",
+      "subtopic": "Diagnostic Workup",
+      "title": "Why should biochemical hormone testing be targeted to clinical suspicion rather than ordered as a blind panel?",
+      "content": "Each functional syndrome has a specific confirmatory test (e.g., fasting gastrin for suspected gastrinoma, supervised-fast insulin/C-peptide for suspected insulinoma, VIP for suspected VIPoma) that is only interpretable in the right clinical context. Ordering every hormone test indiscriminately in a patient without suggestive symptoms increases the risk of false-positive results driving unnecessary workup, rather than improving diagnostic yield.",
+      "keyPoints": [
+        "Each hormone test is validated for a specific clinical syndrome, not as a general screen.",
+        "Blind panel testing increases false-positive results without improving yield.",
+        "Test selection should follow clinical suspicion (symptoms first, then confirmatory test)."
+      ],
+      "reference": "Established principle of syndrome-targeted (not panel-based) biochemical testing in NET workup."
+    },
+    {
+      "id": "ht-010-n16",
+      "type": "note",
+      "subtopic": "Treatment — Somatostatin Analogs",
+      "title": "Why are somatostatin analogs considered both antisecretory and antiproliferative therapy?",
+      "content": "Somatostatin analogs (octreotide, lanreotide) were originally used purely to control hormone-driven symptoms like flushing and diarrhea in carcinoid syndrome. Landmark placebo-controlled trials later demonstrated that the same drugs also slow tumor growth in SSTR-positive well-differentiated NET, establishing them as legitimate antiproliferative (tumor-control) therapy, not merely symptom management.",
+      "keyPoints": [
+        "Originally used for hormone-symptom control (antisecretory).",
+        "Landmark trials demonstrated a genuine antiproliferative (tumor growth-slowing) effect.",
+        "Now used as first-line tumor control in SSTR-positive NET, not just symptom palliation."
+      ],
+      "reference": "Rinke A et al., PROMID, and Caplin ME et al., CLARINET — establishing the antiproliferative role of somatostatin analogs."
+    },
+    {
+      "id": "ht-010-n17",
+      "type": "note",
+      "subtopic": "Treatment — PRRT",
+      "title": "How does PRRT (Lu-177 DOTATATE) work, and why does SSTR status determine eligibility?",
+      "content": "Peptide receptor radionuclide therapy delivers a radiolabeled somatostatin analog directly to somatostatin-receptor-positive tumor cells, depositing targeted radiation. Because the mechanism depends entirely on the tumor expressing somatostatin receptors, a positive somatostatin receptor PET scan is a prerequisite for eligibility — SSTR-negative disease will not meaningfully take up the radiolabeled drug and will not benefit.",
+      "keyPoints": [
+        "PRRT delivers targeted radiation via a radiolabeled somatostatin analog.",
+        "Requires SSTR-positive disease (confirmed on Ga-68 DOTATATE/DOTATOC PET) to work.",
+        "SSTR-negative disease is not an appropriate PRRT candidate."
+      ],
+      "reference": "Strosberg J et al., NETTER-1, New England Journal of Medicine, 2017."
+    },
+    {
+      "id": "ht-010-n18",
+      "type": "note",
+      "subtopic": "Treatment — Targeted Agents",
+      "title": "What toxicities and contraindications must be monitored with everolimus?",
+      "content": "Everolimus (an mTOR inhibitor) requires monitoring of glucose, lipids, blood counts, and renal/liver function, with attention to stomatitis and noninfectious pneumonitis. It should be avoided or used cautiously in active serious infection, established pneumonitis, poorly controlled diabetes, and severe hepatic impairment without dose adjustment, and can impair wound healing.",
+      "keyPoints": [
+        "Monitor: glucose, lipids, CBC, renal/liver function; watch for stomatitis and pneumonitis.",
+        "Caution/avoid: active serious infection, pneumonitis, poorly controlled diabetes, severe hepatic impairment.",
+        "Can impair wound healing."
+      ],
+      "reference": "Everolimus prescribing information; RADIANT-3/RADIANT-4 trial safety data."
+    },
+    {
+      "id": "ht-010-n19",
+      "type": "note",
+      "subtopic": "Treatment — Targeted Agents",
+      "title": "What toxicities and contraindications must be monitored with sunitinib?",
+      "content": "Sunitinib (an anti-angiogenic tyrosine kinase inhibitor) requires monitoring of blood pressure, blood counts, thyroid function, renal/liver function, and cardiac status. It should be used cautiously or avoided in uncontrolled hypertension, recent bleeding, high cardiac risk, poor wound healing, and significant proteinuria.",
+      "keyPoints": [
+        "Monitor: BP, CBC, thyroid, renal/liver function, cardiac status.",
+        "Caution/avoid: uncontrolled hypertension, recent bleeding, high cardiac risk, significant proteinuria.",
+        "Anti-angiogenic mechanism underlies most of its key toxicities."
+      ],
+      "reference": "Raymond E et al., sunitinib pancreatic NET trial, New England Journal of Medicine, 2011, safety data."
+    },
+    {
+      "id": "ht-010-n20",
+      "type": "note",
+      "subtopic": "Treatment — Chemotherapy",
+      "title": "Why is CAPTEM particularly favored in pancreatic NET over classic small-bowel NET?",
+      "content": "Capecitabine plus temozolomide (CAPTEM) has its strongest randomized evidence specifically in pancreatic NET, where it produces meaningfully higher objective response rates than single-agent temozolomide, making it the preferred option when tumor shrinkage (not just stabilization) is the clinical goal — a benefit profile not similarly established for classic small-bowel (midgut) NET, where somatostatin analogs and PRRT dominate first-line management.",
+      "keyPoints": [
+        "CAPTEM's strongest randomized evidence is specifically in pancreatic NET.",
+        "Preferred when objective tumor shrinkage, not just stabilization, is the goal.",
+        "Not similarly established for midgut/small-bowel NET, where SSAs/PRRT dominate."
+      ],
+      "reference": "Kunz PL et al., ECOG-ACRIN E2211, Journal of Clinical Oncology, 2023."
+    },
+    {
+      "id": "ht-010-n21",
+      "type": "note",
+      "subtopic": "Treatment — Chemotherapy",
+      "title": "Why is platinum/etoposide the default for poorly differentiated NEC but inappropriate for NET G3 with Ki-67 just above 20%?",
+      "content": "Platinum plus etoposide is the best-established first-line regimen for poorly differentiated NEC, which can progress over weeks and demands urgent treatment. However, well-differentiated NET G3 (Ki-67 just above 20% but retaining organized neuroendocrine architecture) is biologically different from NEC and often less platinum-sensitive — applying default NEC chemotherapy to a misclassified NET G3 patient risks toxicity without the expected benefit.",
+      "keyPoints": [
+        "Platinum/etoposide: best-established first-line regimen for poorly differentiated NEC.",
+        "NET G3 (Ki-67 >20% but well-differentiated) is biologically distinct and often less platinum-sensitive.",
+        "Misclassifying NET G3 as NEC risks toxic, low-benefit treatment."
+      ],
+      "reference": "Sorbye H et al., NORDIC NEC study, Annals of Oncology, 2013 (see Skepticism section for the source's citation link discrepancy)."
+    },
+    {
+      "id": "ht-010-n22",
+      "type": "note",
+      "subtopic": "When Not to Treat",
+      "title": "Why might observation be the correct choice even in a patient with documented metastatic NET?",
+      "content": "Low-volume, slow-growing, asymptomatic metastatic NET can remain stable for years without intervention. Professional society guidance explicitly recognizes observation as an appropriate option in this setting, since starting therapy adds toxicity and cost without a clear survival or quality-of-life benefit when the disease is already behaving in an indolent, non-threatening way.",
+      "keyPoints": [
+        "Low-volume, slow-growing, asymptomatic metastatic NET can be observed rather than treated.",
+        "Professional society guidance explicitly supports observation in this setting.",
+        "Treatment adds toxicity/cost without clear benefit when disease is already indolent."
+      ],
+      "reference": "ASCO 2023 systemic therapy guideline for neuroendocrine tumors, Journal of Clinical Oncology, 2023."
+    },
+    {
+      "id": "ht-010-n23",
+      "type": "note",
+      "subtopic": "Who Gets Harmed",
+      "title": "How can under-treatment and over-treatment both cause harm in NET management?",
+      "content": "Under-treatment harms patients when an aggressive NEC is misdiagnosed as a benign-sounding \"carcinoid,\" when a functional syndrome (hypoglycemia, severe diarrhea, ectopic Cushing syndrome) goes unaddressed, or when a rapidly progressive pancreatic NET is observed too long. Over-treatment harms patients when a tiny indolent rectal NET is treated like metastatic cancer, when stable low-volume disease is exposed to chemotherapy, when treatment decisions are driven by chromogranin A alone, or when PRRT is given to SSTR-negative aggressive disease that will not respond.",
+      "keyPoints": [
+        "Under-treatment risk: misdiagnosed NEC, unaddressed functional syndrome, observed rapidly progressive pancreatic NET.",
+        "Over-treatment risk: treating tiny indolent NETs aggressively, chemotherapy for stable low-volume disease, CgA-driven decisions, PRRT in SSTR-negative disease.",
+        "Both directions of error are real and avoidable with correct staging/biomarker interpretation."
+      ],
+      "reference": "Synthesis of NET management pitfalls described across ASCO 2023 and ENETS 2024 guidance."
+    },
+    {
+      "id": "ht-010-n24",
+      "type": "note",
+      "subtopic": "Economic Benefit",
+      "title": "Who economically benefits from NET diagnostic and therapeutic pathways, and where can low-value spending occur?",
+      "content": "Pharmaceutical manufacturers of somatostatin analogs, everolimus, sunitinib, and telotristat; nuclear medicine/radiopharmaceutical programs offering DOTATATE PET and Lu-177 PRRT; imaging centers performing repeated surveillance scans; and specialty NET tumor-board/surgical programs all derive recurring revenue from NET care. Low-value spending can occur through repeated low-yield biomarker testing, serial imaging that doesn't change management, and lifelong somatostatin analog use without a clear ongoing indication.",
+      "keyPoints": [
+        "Beneficiaries: SSA/everolimus/sunitinib/telotristat manufacturers, PRRT/imaging programs, specialty centers.",
+        "Low-value spending: repeated low-yield biomarker testing, non-actionable serial imaging, indefinite SSA without clear indication.",
+        "Best value comes from correct pathology/imaging plus treating only when justified by symptoms or progression."
+      ],
+      "reference": "General market-incentive analysis of NET diagnostic and therapeutic pathways."
+    },
+    {
+      "id": "ht-010-n25",
+      "type": "note",
+      "subtopic": "Practitioner vs. Academic",
+      "title": "Why is \"not all diarrhea in a NET patient is carcinoid syndrome progression\" an important practitioner pearl?",
+      "content": "In a patient with known NET, new or worsening diarrhea is easy to attribute reflexively to carcinoid syndrome progression. Experienced practitioners instead also consider somatostatin-analog-induced pancreatic exocrine insufficiency, bile acid malabsorption after ileal disease or resection, short bowel syndrome, infection, or medication effects (e.g., metformin) — misattributing any of these to \"carcinoid progression\" can lead to inappropriate dose escalation of antitumor therapy instead of the correct, simpler fix (e.g., pancreatic enzyme replacement or bile acid sequestrant).",
+      "keyPoints": [
+        "New/worsening diarrhea in a NET patient is not automatically carcinoid syndrome progression.",
+        "Consider: SSA-induced pancreatic insufficiency, bile acid malabsorption, short bowel, infection, drug effects.",
+        "Misattribution risks inappropriate antitumor dose escalation instead of a simpler correct fix."
+      ],
+      "reference": "Established differential diagnosis of diarrhea in patients with known neuroendocrine tumors on somatostatin analog therapy."
+    },
+    {
+      "id": "ht-010-n26",
+      "type": "note",
+      "subtopic": "Mathematical Evidence",
+      "title": "How did PROMID and CLARINET change the role of somatostatin analogs from purely symptomatic to antiproliferative therapy?",
+      "content": "PROMID, in patients with metastatic midgut NET, found octreotide LAR significantly lengthened median time to tumor progression (14.3 vs 6 months, hazard ratio 0.34) compared with placebo. CLARINET, in nonfunctioning enteropancreatic NET, found lanreotide significantly improved progression-free survival (hazard ratio 0.47), with 65.1% of lanreotide-treated patients progression-free at 96 weeks versus 33.0% on placebo. Together these placebo-controlled trials established that somatostatin analogs genuinely slow tumor growth, not just control hormone symptoms.",
+      "keyPoints": [
+        "PROMID: time to progression 14.3 vs 6 months, HR 0.34 (octreotide LAR, metastatic midgut NET).",
+        "CLARINET: 96-week progression-free rate 65.1% vs 33.0%, HR 0.47 (lanreotide, nonfunctioning enteropancreatic NET).",
+        "Established SSAs as genuine antiproliferative therapy, not just symptom control."
+      ],
+      "reference": "Rinke A et al., PROMID; Caplin ME et al., CLARINET, New England Journal of Medicine, 2014."
+    },
+    {
+      "id": "ht-010-n27",
+      "type": "note",
+      "subtopic": "Mathematical Evidence",
+      "title": "How did NETTER-1 change treatment sequencing for SSTR-positive midgut NET?",
+      "content": "NETTER-1 randomized patients with progressive, SSTR-positive midgut NET to Lu-177 DOTATATE PRRT or high-dose octreotide, finding a markedly higher progression-free survival rate with PRRT than with continued high-dose octreotide at 20 months. This established PRRT as a major second-line option specifically for SSTR-positive midgut NET progressing on standard-dose somatostatin analog therapy.",
+      "keyPoints": [
+        "Randomized progressive SSTR-positive midgut NET patients to PRRT vs high-dose octreotide.",
+        "Markedly higher 20-month progression-free survival with PRRT.",
+        "Established PRRT as a major option after SSA progression in SSTR-positive midgut NET."
+      ],
+      "reference": "Strosberg J et al., NETTER-1, New England Journal of Medicine, 2017."
+    },
+    {
+      "id": "ht-010-n28",
+      "type": "note",
+      "subtopic": "Skeptic's Point of View",
+      "title": "Why does the skeptic caution that PFS-based trials may overstate the clinical value of NET therapies?",
+      "content": "Most pivotal NET trials (PROMID, CLARINET, NETTER-1, RADIANT-3/4, the sunitinib pancreatic NET trial) use progression-free survival, not overall survival, as their primary endpoint, and several allowed cross-over to active treatment after progression — which can make true overall-survival benefit difficult to establish. Trial populations are also typically selected for good performance status and adequate organ function, which may not represent the full real-world NET population. None of this means these therapies lack value, but it means \"large PFS benefit\" and \"proven survival benefit\" are not interchangeable claims.",
+      "keyPoints": [
+        "Most pivotal NET trials use PFS, not OS, as the primary endpoint.",
+        "Cross-over after progression complicates OS interpretation in several of these trials.",
+        "Selected trial populations (good performance status) may not represent the full real-world NET population."
+      ],
+      "reference": "Trial design features of PROMID, CLARINET, NETTER-1, RADIANT-3/4, and the sunitinib pancreatic NET trial."
+    },
+    {
+      "id": "ht-010-n29",
+      "type": "note",
+      "subtopic": "Mathematical Evidence",
+      "title": "How did the NORDIC NEC study clarify the relationship between Ki-67 and chemotherapy response/survival in poorly differentiated NEC?",
+      "content": "In 305 patients with advanced gastrointestinal poorly differentiated neuroendocrine carcinoma, those with Ki-67 ≥55% had a substantially higher chemotherapy response rate (42% vs 15%, p<0.001) than those with Ki-67 <55%, but paradoxically shorter survival (10 vs 14 months, p<0.001). This counterintuitive finding shows that higher proliferation predicts better platinum responsiveness but a more aggressive overall disease course — response rate and survival do not move together in this population.",
+      "keyPoints": [
+        "Ki-67 ≥55%: higher chemo response rate (42% vs 15%, p<0.001) than Ki-67 <55%.",
+        "Ki-67 ≥55%: paradoxically shorter survival (10 vs 14 months, p<0.001) than Ki-67 <55%.",
+        "Higher proliferation predicts better platinum response but worse overall disease course."
+      ],
+      "reference": "Sorbye H et al., \"Predictive and prognostic factors for treatment and survival in 305 patients with advanced gastrointestinal neuroendocrine carcinoma (WHO G3): the NORDIC NEC study,\" Annals of Oncology, 2013 (see Skepticism section for the source's citation link discrepancy)."
+    },
+    {
+      "id": "ht-010-n30",
+      "type": "note",
+      "subtopic": "Practitioner vs. Academic",
+      "title": "What practical checklist should guide every NET tumor board discussion before selecting therapy?",
+      "content": "Before choosing therapy, a structured discussion should establish: NET or NEC; primary site; grade and Ki-67; functional or non-functional status; SSTR-positive or negative; FDG-positive or negative; pace of growth; tumor and liver burden; whether symptoms arise from a hormone or from mass effect; the realistic goal of treatment (cure, symptom control, shrinkage, stabilization, or palliation); which toxicities are unacceptable for this specific patient; and whether starting treatment now actually beats continued observation.",
+      "keyPoints": [
+        "Key questions: NET vs NEC, site, grade/Ki-67, functional status, SSTR/FDG status, pace of growth, burden.",
+        "Define the realistic goal of treatment before selecting an agent.",
+        "Explicitly ask whether treatment now beats observation for this specific patient."
+      ],
+      "reference": "Synthesis of structured NET tumor-board decision frameworks from ASCO 2023 and ENETS 2024 guidance."
+    },
+    {
+      "id": "ht-010-n31",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why does the source's citation link for the NORDIC NEC study not match the actual landmark paper?",
+      "content": "The source's bracketed citation for the NORDIC NEC Ki-67/platinum-response finding links to a Wiley \"Cancer\" journal DOI (cncr.28721). The actual landmark NORDIC NEC paper — \"Predictive and prognostic factors for treatment and survival in 305 patients with advanced gastrointestinal neuroendocrine carcinoma (WHO G3)\" by Sorbye H et al. — was published in Annals of Oncology in 2013, not in the journal Cancer. The clinical finding itself is accurately described by the source; the citation link points to the wrong journal.",
+      "keyPoints": [
+        "Source's citation link points to a \"Cancer\" journal DOI.",
+        "The actual NORDIC NEC paper (Sorbye H et al.) was published in Annals of Oncology, 2013.",
+        "The clinical finding is accurately described; only the citation/link is mismatched."
+      ],
+      "reference": "Sorbye H et al., Annals of Oncology, 2013 (PubMed 22967994)."
+    },
+    {
+      "id": "ht-010-n32",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why should the source's vague Ki-67 platinum-response description be replaced with the NORDIC NEC study's precise verified numbers?",
+      "content": "The source states only that \"Ki-67 ≥55% predicts better platinum response but worse survival; Ki-67 <55% responds less to platinum but may live longer,\" without giving numbers. The actual verified figures from the NORDIC NEC study are more precise and more useful: response rate 42% (Ki-67 ≥55%) versus 15% (Ki-67 <55%), and median survival 10 months (Ki-67 ≥55%) versus 14 months (Ki-67 <55%), both p<0.001.",
+      "keyPoints": [
+        "Source gives only a qualitative direction, no numbers.",
+        "Verified precise figures: response rate 42% vs 15%; survival 10 vs 14 months (both p<0.001).",
+        "Use the precise NORDIC NEC numbers rather than the vague qualitative description."
+      ],
+      "reference": "Sorbye H et al., Annals of Oncology, 2013."
+    },
+    {
+      "id": "ht-010-n33",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "How thoroughly were this topic's landmark-trial statistics verified, and what does that mean for trusting the rest of the document?",
+      "content": "The core landmark efficacy numbers in this topic — PROMID (14.3 vs 6 months, HR 0.34), CLARINET (HR 0.47, 65.1% vs 33.0% at 96 weeks), RADIANT-3 (11.0 vs 4.6 months, HR 0.35), RADIANT-4 (11.0 vs 3.9 months, HR 0.48), the sunitinib pancreatic NET trial (11.4 vs 5.5 months, HR 0.42), and ECOG-ACRIN E2211/CAPTEM (PFS 22.7 months, HR 0.58; OS 58.7 vs 53.8 months) — were each independently checked against their primary publications and confirmed accurate. This is notably more thoroughly verified than several other hot topics in this collection, where multiple journal/author citation errors were found. The one confirmed discrepancy here is the NORDIC NEC citation link (see other Skepticism notes).",
+      "keyPoints": [
+        "PROMID, CLARINET, RADIANT-3, RADIANT-4, sunitinib pNET trial, and CAPTEM/E2211 numbers were each independently verified and confirmed accurate.",
+        "This source's core efficacy statistics were unusually well-sourced compared to several other topics in this collection.",
+        "The one confirmed issue is the NORDIC NEC citation link, not the underlying numbers."
+      ],
+      "reference": "Cross-verification against Rinke et al. (PROMID), Caplin et al. (CLARINET), Yao et al. (RADIANT-3/4), Raymond et al. (sunitinib), and Kunz et al. (E2211)."
+    },
+    {
+      "id": "ht-010-n34",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Which specific claims in this topic could not be independently re-verified in this session, and should be checked before clinical use?",
+      "content": "Several guideline-specific claims attributed to ASCO 2023, ENETS 2024, and ESMO GEP-NEN guidance (e.g., exact wording on first-line sequencing, observation criteria, and CgA screening caution) were not individually re-verified word-for-word against the primary guideline documents in this session, though they are consistent with general, well-established NET management principles. Similarly, the telotristat TELESTAR/TELECAST hazard ratios cited by the source were not independently re-confirmed here. These should be checked directly against the primary guideline/trial publications before being relied upon for an actual clinical decision.",
+      "keyPoints": [
+        "Specific ASCO/ENETS/ESMO guideline wording was not word-for-word re-verified in this session.",
+        "Telotristat TELESTAR/TELECAST hazard ratios were not independently re-confirmed here.",
+        "These claims are plausible and consistent with general NET principles, but should be checked against primary sources before clinical use."
+      ],
+      "reference": "Transparency note on verification scope and limits for this hot topic."
+    },
+    {
+      "id": "ht-010-q1",
+      "type": "mcq",
+      "subtopic": "Classification Framework",
+      "question": "A pathology report describes a pancreatic neuroendocrine tumor with Ki-67 of 75% but well-organized neuroendocrine architecture. What is the most important next step before selecting treatment?",
+      "options": [
+        "Immediately start platinum/etoposide as for any high Ki-67 tumor",
+        "Confirm whether this is well-differentiated NET G3 or poorly differentiated NEC, since the two are biologically distinct despite both having high Ki-67",
+        "Assume this is automatically a NEC because Ki-67 exceeds 20%",
+        "Disregard Ki-67 entirely; it has no treatment relevance"
+      ],
+      "correctOption": 1,
+      "explanation": "NET G3 (well-differentiated, Ki-67 >20%) is biologically distinct from poorly differentiated NEC despite sharing a high Ki-67, and is often less platinum-sensitive — differentiation status must be confirmed on pathology before defaulting to NEC-style chemotherapy.",
+      "reference": "WHO/ENETS grading criteria distinguishing NET G3 from poorly differentiated NEC."
+    },
+    {
+      "id": "ht-010-q2",
+      "type": "mcq",
+      "subtopic": "Carcinoid Syndrome",
+      "question": "A patient with a lung carcinoid tumor and no liver metastases develops flushing and diarrhea consistent with carcinoid syndrome. How is this possible without liver metastases?",
+      "options": [
+        "It is not possible; this presentation must indicate occult liver metastases",
+        "Lung (and ovarian) primaries can release vasoactive secretions directly into systemic circulation, bypassing the portal venous system and hepatic first-pass metabolism",
+        "Lung carcinoids never secrete serotonin",
+        "Carcinoid syndrome from lung primaries always resolves spontaneously"
+      ],
+      "correctOption": 1,
+      "explanation": "Lung and ovarian NET primaries drain via non-portal venous routes, bypassing hepatic first-pass metabolism that normally clears serotonin from midgut NETs — allowing carcinoid syndrome to occur without liver metastases.",
+      "reference": "Established venous drainage/hepatic first-pass metabolism mechanism in carcinoid syndrome."
+    },
+    {
+      "id": "ht-010-q3",
+      "type": "mcq",
+      "subtopic": "Insulinoma",
+      "question": "A patient has recurrent episodes of confusion and sweating relieved by eating. During a supervised fast at the time of symptoms, glucose is low. Which additional lab pattern confirms insulinoma rather than factitious hypoglycemia?",
+      "options": [
+        "High insulin, high C-peptide, high proinsulin, low beta-hydroxybutyrate, negative sulfonylurea screen",
+        "Low insulin, low C-peptide, high beta-hydroxybutyrate",
+        "High insulin, low C-peptide (suggesting exogenous insulin)",
+        "Normal insulin and C-peptide with positive sulfonylurea screen"
+      ],
+      "correctOption": 0,
+      "explanation": "Insulinoma produces endogenous hyperinsulinism: high insulin, high C-peptide, high proinsulin, and low beta-hydroxybutyrate (insulin suppresses ketogenesis), with a negative sulfonylurea screen excluding a factitious/drug-induced cause.",
+      "reference": "Established supervised-fasting diagnostic criteria for insulinoma."
+    },
+    {
+      "id": "ht-010-q4",
+      "type": "mcq",
+      "subtopic": "Diagnostic Workup",
+      "question": "Why does current expert guidance caution against using chromogranin A as a screening test for neuroendocrine tumors?",
+      "options": [
+        "CgA is too expensive to use routinely",
+        "CgA is confounded by PPI use, renal impairment, atrophic gastritis, and inflammatory states, producing frequent false-positive elevations",
+        "CgA can only be measured in specialized international laboratories",
+        "CgA has never been studied in neuroendocrine tumor patients"
+      ],
+      "correctOption": 1,
+      "explanation": "CgA is nonspecifically elevated by PPI use, renal impairment, atrophic gastritis, hepatic disease, and inflammatory states, producing frequent false positives — which is why expert guidance cautions against using it as a screening test.",
+      "reference": "ENETS 2024 guidance paper, biomarker caution section."
+    },
+    {
+      "id": "ht-010-q5",
+      "type": "mcq",
+      "subtopic": "Treatment — PRRT",
+      "question": "A patient with progressive midgut NET has an FDG-positive, somatostatin-receptor-negative liver lesion alongside SSTR-positive lesions elsewhere. What is the key treatment implication of this discordance?",
+      "options": [
+        "PRRT will treat all lesions equally regardless of SSTR status",
+        "The SSTR-negative, FDG-positive lesion will not respond to PRRT and represents a more aggressive, potentially dedifferentiated clone requiring separate consideration",
+        "This pattern means the patient cannot receive any further treatment",
+        "FDG-PET and SSTR-PET always show identical results in NET patients"
+      ],
+      "correctOption": 1,
+      "explanation": "SSTR-negative, FDG-positive lesions will not take up PRRT's radiolabeled somatostatin analog and likely represent a more aggressive or dedifferentiated clone — discordant imaging findings require separate consideration rather than uniform PRRT.",
+      "reference": "Established dual-tracer imaging discordance pitfall in NET management."
+    },
+    {
+      "id": "ht-010-q6",
+      "type": "mcq",
+      "subtopic": "Mathematical Evidence",
+      "question": "What did the PROMID trial demonstrate about octreotide LAR in metastatic midgut NET?",
+      "options": [
+        "No difference in time to tumor progression versus placebo",
+        "Median time to tumor progression of 14.3 months versus 6 months with placebo (HR 0.34)",
+        "A cure in the majority of treated patients",
+        "Octreotide LAR was inferior to placebo"
+      ],
+      "correctOption": 1,
+      "explanation": "PROMID found octreotide LAR significantly lengthened median time to tumor progression to 14.3 months versus 6 months with placebo (HR 0.34) in metastatic midgut NET.",
+      "reference": "Rinke A et al., PROMID trial."
+    },
+    {
+      "id": "ht-010-q7",
+      "type": "mcq",
+      "subtopic": "Mathematical Evidence",
+      "question": "In the CLARINET trial, what percentage of lanreotide-treated patients with nonfunctioning enteropancreatic NET were progression-free at 96 weeks, compared with placebo?",
+      "options": [
+        "33.0% (lanreotide) vs 65.1% (placebo)",
+        "65.1% (lanreotide) vs 33.0% (placebo)",
+        "100% (lanreotide) vs 0% (placebo)",
+        "No difference between groups"
+      ],
+      "correctOption": 1,
+      "explanation": "CLARINET found 65.1% of lanreotide-treated patients were progression-free at 96 weeks, compared with 33.0% of placebo-treated patients (HR 0.47).",
+      "reference": "Caplin ME et al., CLARINET trial."
+    },
+    {
+      "id": "ht-010-q8",
+      "type": "mcq",
+      "subtopic": "Treatment — Targeted Agents",
+      "question": "A patient with progressive pancreatic NET and poorly controlled hypertension and a recent GI bleed is being considered for sunitinib. What is the key concern?",
+      "options": [
+        "Sunitinib has no cardiovascular or bleeding-related risks",
+        "Sunitinib's anti-angiogenic mechanism raises bleeding and hypertension risk, making uncontrolled hypertension and recent bleeding important relative contraindications",
+        "Sunitinib should be doubled in dose to compensate for hypertension",
+        "Hypertension has no relevance to anti-angiogenic tyrosine kinase inhibitors"
+      ],
+      "correctOption": 1,
+      "explanation": "Sunitinib's anti-angiogenic mechanism increases the risk of hypertension and bleeding; uncontrolled hypertension and recent bleeding are important relative contraindications requiring caution.",
+      "reference": "Raymond E et al., sunitinib pancreatic NET trial, safety data."
+    },
+    {
+      "id": "ht-010-q9",
+      "type": "mcq",
+      "subtopic": "Treatment — Chemotherapy",
+      "question": "A patient with bulky, higher-Ki-67 pancreatic NET needs objective tumor shrinkage rather than just stabilization. Which therapy has the strongest randomized evidence for this specific goal in pancreatic NET?",
+      "options": [
+        "Single-agent temozolomide",
+        "Capecitabine plus temozolomide (CAPTEM)",
+        "Long-acting octreotide alone",
+        "Observation"
+      ],
+      "correctOption": 1,
+      "explanation": "ECOG-ACRIN E2211 found CAPTEM produced meaningfully better PFS and response rates than single-agent temozolomide in pancreatic NET, making it the preferred option when objective shrinkage (not just stabilization) is the goal.",
+      "reference": "Kunz PL et al., ECOG-ACRIN E2211."
+    },
+    {
+      "id": "ht-010-q10",
+      "type": "mcq",
+      "subtopic": "When Not to Treat",
+      "question": "A patient has stable, low-volume, asymptomatic metastatic NET unchanged on imaging for two years. What is a reasonable management approach?",
+      "options": [
+        "Immediately start everolimus regardless of stability",
+        "Observation, since professional guidance explicitly supports this option for low-volume, slow-growing, asymptomatic disease",
+        "Urgent platinum/etoposide chemotherapy",
+        "Immediate surgical resection of all metastatic sites regardless of feasibility"
+      ],
+      "correctOption": 1,
+      "explanation": "Professional society guidance explicitly recognizes observation as a reasonable option for low-volume, slow-growing, asymptomatic metastatic NET, since treatment would add toxicity/cost without a clear benefit in this setting.",
+      "reference": "ASCO 2023 systemic therapy guideline for neuroendocrine tumors."
+    },
+    {
+      "id": "ht-010-q11",
+      "type": "mcq",
+      "subtopic": "Practitioner vs. Academic",
+      "question": "A patient with known midgut NET on long-acting octreotide develops new diarrhea. What should be considered before assuming this is carcinoid syndrome progression?",
+      "options": [
+        "Nothing; new diarrhea in a NET patient is always carcinoid progression by definition",
+        "Somatostatin-analog-induced pancreatic exocrine insufficiency, bile acid malabsorption, short bowel syndrome, infection, or medication effects",
+        "Immediately increase the somatostatin analog dose without further evaluation",
+        "Diarrhea in NET patients is never clinically significant"
+      ],
+      "correctOption": 1,
+      "explanation": "New or worsening diarrhea in a NET patient on a somatostatin analog should prompt consideration of SSA-induced pancreatic exocrine insufficiency, bile acid malabsorption, short bowel syndrome, infection, or drug effects — not an automatic assumption of carcinoid syndrome progression.",
+      "reference": "Established differential diagnosis of diarrhea in NET patients on somatostatin analog therapy."
+    },
+    {
+      "id": "ht-010-q12",
+      "type": "mcq",
+      "subtopic": "Skepticism — Needs Verification",
+      "question": "A source cites a \"Cancer\" journal DOI for the landmark NORDIC NEC Ki-67/platinum-response finding. What does verification show?",
+      "options": [
+        "The citation is correct as written",
+        "The actual NORDIC NEC paper (Sorbye H et al.) was published in Annals of Oncology, 2013 — the citation link points to the wrong journal",
+        "The NORDIC NEC study has never been published",
+        "The finding was retracted after publication"
+      ],
+      "correctOption": 1,
+      "explanation": "The landmark NORDIC NEC paper was published in Annals of Oncology in 2013; a citation link pointing to a \"Cancer\" journal DOI for this finding is incorrect, even though the clinical finding itself is accurately described.",
+      "reference": "Sorbye H et al., Annals of Oncology, 2013."
+    },
+    {
+      "id": "ht-010-q13",
+      "type": "mcq",
+      "subtopic": "Skepticism — Needs Verification",
+      "question": "What are the precise, verified NORDIC NEC study figures for chemotherapy response rate and survival by Ki-67 threshold?",
+      "options": [
+        "Response rate 15% (Ki-67 ≥55%) vs 42% (Ki-67 <55%); survival 14 vs 10 months",
+        "Response rate 42% (Ki-67 ≥55%) vs 15% (Ki-67 <55%); survival 10 vs 14 months",
+        "No significant difference in response rate or survival by Ki-67",
+        "Response and survival were identical regardless of Ki-67"
+      ],
+      "correctOption": 1,
+      "explanation": "The NORDIC NEC study found a higher chemotherapy response rate with Ki-67 ≥55% (42% vs 15%, p<0.001) but paradoxically shorter survival in this group (10 vs 14 months, p<0.001) compared with Ki-67 <55%.",
+      "reference": "Sorbye H et al., Annals of Oncology, 2013."
+    },
+    {
+      "id": "ht-010-q14",
+      "type": "mcq",
+      "subtopic": "Skepticism — Needs Verification",
+      "question": "Why does the skeptic's caution about PFS-based NET trials matter when counseling a patient about expected benefit from a therapy like everolimus or sunitinib?",
+      "options": [
+        "It doesn't matter; PFS and overall survival are interchangeable concepts",
+        "A large PFS benefit (e.g., delaying progression by several months) is not the same claim as a proven overall survival benefit, especially when trials allowed cross-over after progression",
+        "PFS-based trials are entirely invalid and should be disregarded",
+        "Overall survival is never measured in NET trials"
+      ],
+      "correctOption": 1,
+      "explanation": "Most pivotal NET trials use PFS as their primary endpoint, and cross-over after progression can make true overall-survival benefit difficult to establish — a large PFS benefit is real and clinically meaningful, but it is a distinct claim from a proven survival benefit.",
+      "reference": "Trial design features of RADIANT-3, RADIANT-4, and the sunitinib pancreatic NET trial."
+    }
+  ]
+}
