@@ -1,0 +1,450 @@
+{
+  "id": "ht-004",
+  "topicType": "hot_topic",
+  "title": "Atorvastatin vs. Rosuvastatin",
+  "subtitle": "Pharmacokinetics, Renal/Metabolic Harms & Outcome Trials — Verified, With a Skepticism Section",
+  "section": "Hot Topics",
+  "category": "Clinical Pharmacology",
+  "authors": "User-provided clinical/trial summary, fact-checked against primary trial publications",
+  "sourceFile": "user-provided content (chat); cross-checked against SATURN (NEJM), LODESTAR (JAMA/BMJ), PLANET I/II (Lancet Diabetes Endocrinol), STELLAR/VOYAGER (Am J Cardiol), PULSAR (Trials), and the Lancet 2022 CTT statin-muscle-symptoms meta-analysis",
+  "items": [
+    {
+      "id": "ht-004-n1",
+      "type": "note",
+      "subtopic": "Pharmacokinetics",
+      "title": "Why does atorvastatin's lipophilicity let it penetrate extrahepatic tissue like muscle, while rosuvastatin's hydrophilicity limits this?",
+      "content": "Atorvastatin is highly lipophilic, which lets it cross cell membranes broadly, including into extrahepatic tissues such as skeletal muscle.\nRosuvastatin is highly hydrophilic and depends on the OATP1B1 hepatic transporter for cellular uptake, which concentrates its action more selectively in the liver and limits diffusion into peripheral tissue.",
+      "keyPoints": [
+        "Atorvastatin: lipophilic, diffuses into extrahepatic tissue (e.g., muscle).",
+        "Rosuvastatin: hydrophilic, hepatic-uptake-dependent (OATP1B1), more liver-selective."
+      ],
+      "reference": "Standard PDE5-unrelated pharmacology references for statin lipophilicity/hydrophilicity and tissue distribution (e.g., rosuvastatin clinical pharmacology reviews, PMC3303484)."
+    },
+    {
+      "id": "ht-004-n2",
+      "type": "note",
+      "subtopic": "Pharmacokinetics",
+      "title": "How do atorvastatin and rosuvastatin differ in their primary metabolism and elimination pathways?",
+      "content": "Atorvastatin undergoes extensive hepatic metabolism via CYP3A4, making it dependent on that enzyme system for clearance.\nRosuvastatin undergoes only minimal CYP450 metabolism (mostly via CYP2C9), relies on the OATP1B1 transporter for hepatic uptake, and is excreted largely unchanged.",
+      "keyPoints": [
+        "Atorvastatin: extensively metabolized via CYP3A4.",
+        "Rosuvastatin: minimal CYP450 metabolism (mostly CYP2C9); excreted largely unchanged; OATP1B1-dependent uptake."
+      ],
+      "reference": "Rosuvastatin clinical pharmacology review describing OATP1B1/BCRP-dependent disposition and minimal CYP450 metabolism (escholarship.org/uc/item/4tm6h696)."
+    },
+    {
+      "id": "ht-004-n3",
+      "type": "note",
+      "subtopic": "Administration",
+      "title": "What dosing flexibility do both atorvastatin and rosuvastatin share because of their pharmacokinetics?",
+      "content": "Both drugs have long elimination half-lives (atorvastatin ~14 hours, with active metabolites extending effective activity; rosuvastatin ~19 hours), so unlike short-acting statins such as simvastatin, both can be dosed at any time of day, independent of meals.",
+      "keyPoints": [
+        "Atorvastatin half-life ~14 hours (active metabolites prolong effect).",
+        "Rosuvastatin half-life ~19 hours.",
+        "Both can be taken at any time of day, with or without food."
+      ],
+      "reference": "Standard statin pharmacokinetic comparisons (half-life and dosing-time flexibility) in clinical pharmacology references."
+    },
+    {
+      "id": "ht-004-n4",
+      "type": "note",
+      "subtopic": "Harms & Contraindications",
+      "title": "Why does co-administering a strong CYP3A4 inhibitor with atorvastatin raise myopathy/rhabdomyolysis risk?",
+      "content": "Because atorvastatin clearance depends heavily on CYP3A4, drugs that strongly inhibit this enzyme — macrolide antibiotics, azole antifungals, amiodarone, diltiazem, and grapefruit juice — reduce atorvastatin's metabolism, raising its plasma concentration (AUC) and increasing the risk of dose-dependent muscle toxicity, up to rhabdomyolysis.",
+      "keyPoints": [
+        "Atorvastatin clearance depends on CYP3A4.",
+        "Strong CYP3A4 inhibitors (macrolides, azoles, amiodarone, diltiazem, grapefruit juice) raise atorvastatin exposure.",
+        "Increased exposure raises myopathy/rhabdomyolysis risk."
+      ],
+      "reference": "Established statin drug-interaction pharmacology (CYP3A4-dependent clearance and myopathy risk) in clinical pharmacology references."
+    },
+    {
+      "id": "ht-004-n5",
+      "type": "note",
+      "subtopic": "Harms & Contraindications",
+      "title": "Why do patients of Asian descent require a lower starting dose of rosuvastatin?",
+      "content": "The FDA label recommends a lower starting dose of rosuvastatin for Asian patients because of an observed approximately 2-fold higher rosuvastatin systemic exposure in this population.\nThis is largely driven by a higher prevalence of reduced-function SLCO1B1 variants (which encode the OATP1B1 hepatic transporter) in East Asians (~14%) compared with white populations (~2.7%) — meaning the underlying driver is genetic transporter variants, not ethnicity itself; genotype is a better predictor of exposure than ethnicity alone.",
+      "keyPoints": [
+        "FDA label: ~2-fold higher rosuvastatin systemic exposure observed in Asian patients → lower starting dose recommended.",
+        "Driven by higher prevalence of reduced-function SLCO1B1 (OATP1B1) variants in East Asians (~14%) vs whites (~2.7%).",
+        "Genotype, not ethnicity per se, is the better predictor of exposure."
+      ],
+      "reference": "FDA Crestor (rosuvastatin) prescribing information dosing guidance for Asian patients (accessdata.fda.gov/drugsatfda_docs/label/2023/021366s045lbl.pdf); SLCO1B1 variant prevalence data (escholarship.org/uc/item/4tm6h696)."
+    },
+    {
+      "id": "ht-004-n6",
+      "type": "note",
+      "subtopic": "Harms & Contraindications",
+      "title": "How did high-dose rosuvastatin's renal findings lead to a clinical dose cap?",
+      "content": "High-dose rosuvastatin (40 mg) has been associated with tubular toxicity producing dipstick-positive proteinuria and microscopic hematuria, and with a higher incidence of acute kidney injury and doubling of serum creatinine compared with rosuvastatin 10 mg or atorvastatin 80 mg in the PLANET trials.\nThis renal signal at the highest dose is part of why 40 mg is treated as a ceiling dose used cautiously, reserved for patients not reaching goals on lower doses.",
+      "keyPoints": [
+        "High-dose (40 mg) rosuvastatin: dipstick-positive proteinuria, microscopic hematuria (tubular toxicity).",
+        "PLANET trials: more AKI and creatinine doubling with rosuvastatin 40 mg than with 10 mg or atorvastatin 80 mg.",
+        "40 mg is used as a cautious ceiling dose, not a default starting dose."
+      ],
+      "reference": "PLANET I/PLANET II safety findings: \"Acute kidney injury and doubling of serum creatinine concentration were more common among patients taking rosuvastatin 40 mg than among those taking rosuvastatin 10 mg or atorvastatin 80 mg\" (thelancet.com/journals/landia/article/PIIS2213-8587(14)70246-3)."
+    },
+    {
+      "id": "ht-004-n7",
+      "type": "note",
+      "subtopic": "Harms & Contraindications",
+      "title": "What did the PLANET I and PLANET II trials find about proteinuria and renal function with atorvastatin vs. rosuvastatin?",
+      "content": "In PLANET I (diabetic patients) and PLANET II (non-diabetic patients), high-dose atorvastatin (80 mg) reduced urinary protein-to-creatinine ratio more than rosuvastatin (10 or 40 mg) without worsening eGFR, whereas rosuvastatin 40 mg did not meaningfully reduce proteinuria and was associated with a significant eGFR decline (about -3.3 mL/min at 52 weeks in PLANET II).",
+      "keyPoints": [
+        "Atorvastatin 80 mg: reduced proteinuria, no eGFR decline.",
+        "Rosuvastatin 40 mg: little/no proteinuria reduction, eGFR declined ~3.3 mL/min at 52 weeks (PLANET II).",
+        "Both trials used patients with moderate proteinuria already on ACE inhibitors/ARBs."
+      ],
+      "reference": "PLANET II results: \"the atorvastatin 80 mg group...no change [in eGFR]...-3.30 ml/min in the rosuvastatin 40 mg group (p=0.019)\" (academic.oup.com/ndt/article/34/10/1699/5089142; thelancet.com/journals/landia)."
+    },
+    {
+      "id": "ht-004-n8",
+      "type": "note",
+      "subtopic": "Why to Give",
+      "title": "Why are pleiotropic effects considered part of the rationale for statin therapy beyond LDL lowering?",
+      "content": "Statins are credited with effects beyond pure LDL reduction, including stabilization of the fibrous cap in atheromatous plaques, reduction of oxidized LDL, down-regulation of inflammatory cytokines such as hsCRP, and improved endothelial nitric oxide synthase (eNOS) function — together contributing to plaque stability and reduced cardiovascular events independent of the absolute LDL number achieved.",
+      "keyPoints": [
+        "Plaque fibrous cap stabilization.",
+        "Reduced oxidized LDL and inflammatory markers (hsCRP).",
+        "Improved eNOS/endothelial function."
+      ],
+      "reference": "Established statin pleiotropic-effects literature (plaque stabilization, hsCRP reduction, eNOS) underlying trials such as JUPITER (NEJM 2008)."
+    },
+    {
+      "id": "ht-004-n9",
+      "type": "note",
+      "subtopic": "Mathematical Evidence",
+      "title": "How does the SATURN trial's \"surrogate vs. hard outcome\" lesson inform how clinicians should weigh LDL-lowering magnitude?",
+      "content": "In SATURN, rosuvastatin 40 mg lowered LDL more than atorvastatin 80 mg (62.6 vs 70.2 mg/dL achieved), but the trial's primary IVUS endpoint — percent atheroma volume regression — was statistically similar between groups (-1.22% vs -0.99%, p=0.17).\nThis teaches that a larger numeric LDL reduction does not automatically translate into proportionally greater plaque regression, let alone fewer hard clinical events — a recurring theme also seen later in LODESTAR's hard-outcome comparison.",
+      "keyPoints": [
+        "Rosuvastatin 40 mg achieved lower LDL than atorvastatin 80 mg in SATURN.",
+        "Percent atheroma volume regression was statistically similar (-1.22% vs -0.99%, p=0.17).",
+        "Bigger LDL drop ≠ proportionally bigger regression or outcome benefit."
+      ],
+      "reference": "SATURN primary outcome: \"median change in atheroma volume, was -1.22% in the rosuvastatin group versus -0.99% in the atorvastatin group (p = 0.17)\" — published in the New England Journal of Medicine (see Skepticism section for the source's journal citation error)."
+    },
+    {
+      "id": "ht-004-n10",
+      "type": "note",
+      "subtopic": "Mathematical Evidence",
+      "title": "What did the LODESTAR trial find regarding hard cardiovascular outcomes between rosuvastatin and atorvastatin?",
+      "content": "In a secondary, drug-level analysis of the LODESTAR trial (4,400 patients with coronary artery disease, randomized to rosuvastatin n=2204 or atorvastatin n=2196), the 3-year primary outcome (MACCE: death, MI, stroke, or unplanned coronary revascularization) was statistically similar: 8.7% with rosuvastatin vs 8.2% with atorvastatin (p=0.58).",
+      "keyPoints": [
+        "LODESTAR drug-level analysis: 4,400 patients, rosuvastatin n=2204 vs atorvastatin n=2196.",
+        "3-year MACCE: 8.7% vs 8.2%, p=0.58 — not statistically different."
+      ],
+      "reference": "\"The primary outcome was not significantly different between the rosuvastatin and atorvastatin groups: 8.7% vs. 8.2%, respectively, P = 0.58\" — published in BMJ, Oct 2023 (doi: 10.1136/bmj-2023-075837) (see Skepticism section for the source's journal citation error)."
+    },
+    {
+      "id": "ht-004-n11",
+      "type": "note",
+      "subtopic": "Mathematical Evidence",
+      "title": "How does LODESTAR's diabetes and cataract signal change the calculus of choosing between rosuvastatin and atorvastatin?",
+      "content": "Despite comparable MACCE, the same LODESTAR drug-level analysis found rosuvastatin associated with significantly more new-onset diabetes requiring medication (7.2% vs 5.3%, HR 1.39, p=0.03) and more cataract surgery (2.5% vs 1.5%, HR 1.66, p=0.02) than atorvastatin — metabolic and ocular costs not captured by LDL numbers or even by the primary cardiovascular endpoint.",
+      "keyPoints": [
+        "New-onset diabetes requiring medication: 7.2% (rosuvastatin) vs 5.3% (atorvastatin), p=0.03.",
+        "Cataract surgery: 2.5% vs 1.5%, p=0.02.",
+        "These harms occurred despite similar hard cardiovascular outcomes."
+      ],
+      "reference": "\"...higher incidence of new onset diabetes mellitus requiring initiation of antidiabetics (7.2% v 5.3%...P=0.03) and cataract surgery (2.5% v 1.5%...P=0.02)\" — BMJ 2023;383:e075837."
+    },
+    {
+      "id": "ht-004-n12",
+      "type": "note",
+      "subtopic": "Economic Benefit",
+      "title": "Who economically benefits from atorvastatin and rosuvastatin now that both are generic?",
+      "content": "With both drugs now off-patent, the largest economic beneficiaries are pharmacy benefit managers (PBMs) and health systems, which capture volume discounts on cheap generics and avoid the much larger downstream costs of cardiovascular events (e.g., CABG surgery, PCI/stenting) that effective statin therapy helps prevent — a contrast to the earlier branded-drug era when Pfizer (Lipitor) and AstraZeneca (Crestor) captured tens of billions in revenue.",
+      "keyPoints": [
+        "Both drugs are now generic.",
+        "PBMs and health systems benefit via volume discounts and avoided downstream cardiovascular procedure costs.",
+        "Historically, Pfizer/Lipitor and AstraZeneca/Crestor captured large branded-era revenue."
+      ],
+      "reference": "General pharmaceutical market-dynamics knowledge regarding statin patent expiry and generic competition (Lipitor/Crestor branded-era revenue history)."
+    },
+    {
+      "id": "ht-004-n13",
+      "type": "note",
+      "subtopic": "Historical Pattern",
+      "title": "How did the incumbent-vs-challenger marketing dynamic play out between atorvastatin and rosuvastatin?",
+      "content": "Atorvastatin established market dominance first, backed by hard-outcome trials (e.g., CARDS, ASCOT-LLA).\nRosuvastatin entered later and was marketed heavily on the strength of a surrogate marker — its superior per-milligram LDL-lowering shown in STELLAR — branding it the \"superstatin.\" Pursuing that surrogate aggressively at 80 mg led to rhabdomyolysis/renal failure signals in early trials, after which the FDA capped rosuvastatin at 40 mg. Decades later, head-to-head hard-outcome data (LODESTAR) showed the deeper LDL-lowering did not translate into fewer hard events, while revealing rosuvastatin's metabolic/ocular toxicity signals.",
+      "keyPoints": [
+        "Atorvastatin: established via hard-outcome trials.",
+        "Rosuvastatin: marketed on surrogate (LDL-lowering) superiority (STELLAR).",
+        "80 mg dose abandoned after rhabdomyolysis/renal signals; FDA capped at 40 mg.",
+        "LODESTAR later showed comparable hard outcomes despite the LDL difference."
+      ],
+      "reference": "STELLAR trial dose-response data (Am J Cardiol 2003) and rosuvastatin 80 mg dose-cap history; LODESTAR hard-outcome comparison (BMJ 2023)."
+    },
+    {
+      "id": "ht-004-n14",
+      "type": "note",
+      "subtopic": "Practitioner vs. Academic",
+      "title": "Why does an expert practitioner's statin choice sometimes diverge from a purely LDL-target-driven academic framework?",
+      "content": "An academic, target-driven framework favors whichever statin achieves a deeper percentage LDL drop. A practitioner weighing the PLANET trials' renal findings and the LODESTAR diabetes/cataract signal may instead favor atorvastatin for a patient with diabetic nephropathy or pre-diabetes, accepting a marginal LDL difference in exchange for avoiding renal and metabolic harms — prioritizing biological/clinical outcomes over the surrogate marker.",
+      "keyPoints": [
+        "Academic framework: optimizes for deepest LDL drop.",
+        "Practitioner framework: weighs renal (PLANET) and metabolic (LODESTAR diabetes) trade-offs alongside LDL target.",
+        "Patient-specific risk factors (nephropathy, pre-diabetes) can outweigh a small LDL difference."
+      ],
+      "reference": "PLANET I/II renal findings and LODESTAR diabetes/cataract signal, synthesized as a clinical decision-making framework (not itself a trial-tested algorithm)."
+    },
+    {
+      "id": "ht-004-n15",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why does the SATURN trial's journal citation in the source not check out?",
+      "content": "The source cites SATURN as \"JAMA, 2011.\" SATURN was actually published in the New England Journal of Medicine (Nicholls SJ et al., NEJM 2011;365:2078-2087).\nThe quantitative claims themselves check out — percent atheroma volume regression of -1.22% (rosuvastatin) vs -0.99% (atorvastatin), p=0.17 — but the journal attribution is wrong.",
+      "keyPoints": [
+        "Source says SATURN was published in JAMA — incorrect.",
+        "SATURN was published in the New England Journal of Medicine (2011).",
+        "The PAV numbers and p-value cited are accurate; only the journal is wrong."
+      ],
+      "reference": "SATURN trial, Nicholls SJ et al., \"Effect of Two Intensive Statin Regimens on Progression of Coronary Disease,\" New England Journal of Medicine, 2011."
+    },
+    {
+      "id": "ht-004-n16",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why is PULSAR's \"mathematically superior\" claim for rosuvastatin overstated, and is the journal citation correct?",
+      "content": "The source cites PULSAR as published in \"Cardiovasc Drugs Ther, 2006\" and describes rosuvastatin 10 mg as \"mathematically superior\" to atorvastatin 20 mg for hitting lipid targets.\nPULSAR was actually published in the journal Trials (BioMed Central) in 2006, not Cardiovascular Drugs and Therapy. Its actual result — LDL-C change of -45% (rosuvastatin) vs -43% (atorvastatin) — was only borderline significant (p=0.05), a much weaker finding than \"mathematically superior\" implies.",
+      "keyPoints": [
+        "Source's journal (\"Cardiovasc Drugs Ther\") is wrong — PULSAR was published in Trials.",
+        "Actual LDL-C difference: -45% vs -43%, p=0.05 (borderline, not a decisive \"mathematically superior\" result).",
+        "Direction of effect favors rosuvastatin, but the magnitude/significance is overstated."
+      ],
+      "reference": "PULSAR trial, \"Comparison of the efficacy and safety of rosuvastatin 10 mg and atorvastatin 20 mg...,\" Trials, 2006 (link.springer.com/article/10.1186/1745-6215-7-35)."
+    },
+    {
+      "id": "ht-004-n17",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why is VOYAGER's journal citation wrong, and does the patient count check out?",
+      "content": "The source cites VOYAGER as published in \"Atherosclerosis, 2010\" with 32,256 patients.\nThe original VOYAGER individual-patient-data meta-analysis was published in the American Journal of Cardiology (2010), not Atherosclerosis (later VOYAGER sub-analyses were published in Atherosclerosis in subsequent years, which may be the source of the confusion). The patient count is close but not exact: the original pooled analysis included 32,258 patients, not 32,256.",
+      "keyPoints": [
+        "Source's journal (\"Atherosclerosis\") is wrong for the original 2010 VOYAGER analysis — it was the American Journal of Cardiology.",
+        "Later VOYAGER sub-analyses were published in Atherosclerosis, which likely explains the mix-up.",
+        "Patient count: 32,258 (verified), not 32,256 as stated — a minor but real discrepancy."
+      ],
+      "reference": "VOYAGER meta-analysis, \"Meta-analysis of comparative efficacy of increasing dose of Atorvastatin versus Rosuvastatin versus Simvastatin...,\" American Journal of Cardiology, 2010 (pubmed.ncbi.nlm.nih.gov/20102893)."
+    },
+    {
+      "id": "ht-004-n18",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why does the source's \"LODESTAR, Lancet 2023\" citation conflate two different papers?",
+      "content": "The source attributes all LODESTAR findings (including the 8.7%/8.2% MACCE and the diabetes/cataract numbers) to \"Lancet, 2023.\"\nIn reality, LODESTAR's primary trial result (treat-to-target vs. high-intensity statin strategy, not specifically rosuvastatin vs. atorvastatin) was published in JAMA (2023). The specific drug-level rosuvastatin-vs-atorvastatin comparison — which is what the cited 8.7%/8.2% MACCE and 7.2%/5.3% diabetes and 2.5%/1.5% cataract figures actually come from — was a separate secondary analysis published in BMJ (Oct 2023). Neither of these papers was published in the Lancet (though related LODESTAR sub-analyses did appear in Lancet's eClinicalMedicine).",
+      "keyPoints": [
+        "LODESTAR's primary strategy trial: published in JAMA (2023), not Lancet.",
+        "The specific drug-level numbers cited (MACCE, diabetes, cataract) come from a separate BMJ (2023) secondary analysis.",
+        "The underlying numbers themselves are accurate (verified) — only the journal attribution is wrong/conflated."
+      ],
+      "reference": "LODESTAR primary trial, JAMA 2023 (Hong MK et al.); secondary drug-level analysis, BMJ 2023;383:e075837."
+    },
+    {
+      "id": "ht-004-n19",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why is the \"20 mg rosuvastatin ≈ 80 mg atorvastatin, 2.5-3x potency\" equivalence overstated?",
+      "content": "The source claims rosuvastatin is roughly 2.5 to 3 times more potent per milligram than atorvastatin, such that 20 mg rosuvastatin equals 80 mg atorvastatin in LDL-lowering.\nPooled dose-response data (STELLAR, and the 32,258-patient VOYAGER analysis) instead show a much smaller difference: rosuvastatin lowers LDL by a mean of only about 8.2 percentage points more than atorvastatin across matched doses, consistent with roughly 1.5-times the potency, not 2.5-3x. By that data, rosuvastatin 20 mg is roughly equivalent to atorvastatin 40 mg, not 80 mg.",
+      "keyPoints": [
+        "Source claims ~2.5-3x potency and 20 mg rosuvastatin ≈ 80 mg atorvastatin.",
+        "Pooled trial data (STELLAR/VOYAGER) support closer to ~1.5x potency.",
+        "A more defensible equivalence is rosuvastatin 20 mg ≈ atorvastatin 40 mg, not 80 mg."
+      ],
+      "reference": "STELLAR trial dose-response data (Am J Cardiol 2003); VOYAGER individual-patient-data meta-analysis (Am J Cardiol 2010) — \"rosuvastatin 10 to 80 mg reduced LDL cholesterol by a mean of 8.2% more than atorvastatin 10 to 80 mg.\""
+    },
+    {
+      "id": "ht-004-n20",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why might the skeptic's own \"1 in 10\" NNH figure for statin muscle symptoms be inflated?",
+      "content": "The source's skeptic argument cites a Number Needed to Harm of roughly 1 in 10 for statin-associated muscle symptoms (SAMS), implying that is the true pharmacological harm rate.\nHigh-quality blinded evidence complicates this: the BMJ 2021 StatinWISE series of randomised, placebo-controlled n-of-1 trials and a 2022 Lancet individual-participant-data meta-analysis from the Cholesterol Treatment Trialists' Collaboration both found that when a patient reports muscle symptoms on a statin, the probability it is actually caused by the statin (rather than the nocebo effect) is under 10%. The commonly cited ~1-in-10 self-reported/observational rate substantially overstates the blinded, placebo-adjusted pharmacological harm rate.",
+      "keyPoints": [
+        "Self-reported/observational SAMS rate (~1 in 10) is what the source's NNH figure reflects.",
+        "Blinded n-of-1 trials (BMJ 2021, StatinWISE) and the Lancet 2022 CTT meta-analysis found <10% probability a reported symptom is truly statin-caused.",
+        "The skeptic's own NNH figure likely overstates true pharmacological harm due to the nocebo effect."
+      ],
+      "reference": "StatinWISE n-of-1 trials, BMJ 2021 (ncbi.nlm.nih.gov/pmc/articles/PMC7903384); CTT Collaboration individual-participant-data meta-analysis, The Lancet, 2022 (thelancet.com/journals/lancet/article/PIIS0140-6736(22)01545-8)."
+    },
+    {
+      "id": "ht-004-q1",
+      "type": "mcq",
+      "subtopic": "Harms & Contraindications",
+      "question": "A patient stable on atorvastatin 40 mg is started on clarithromycin for a respiratory infection. What is the most important concern?",
+      "options": [
+        "No interaction; atorvastatin is renally cleared",
+        "Clarithromycin (a strong CYP3A4 inhibitor) can raise atorvastatin exposure, increasing myopathy/rhabdomyolysis risk",
+        "Clarithromycin will reduce atorvastatin's LDL-lowering effect",
+        "This combination requires switching to a higher atorvastatin dose"
+      ],
+      "correctOption": 1,
+      "explanation": "Atorvastatin clearance depends heavily on CYP3A4. Strong CYP3A4 inhibitors like macrolide antibiotics (clarithromycin), azole antifungals, amiodarone, and diltiazem raise atorvastatin's AUC, increasing the risk of dose-dependent myopathy and rhabdomyolysis.",
+      "reference": "Established statin drug-interaction pharmacology (CYP3A4-dependent clearance and myopathy risk)."
+    },
+    {
+      "id": "ht-004-q2",
+      "type": "mcq",
+      "subtopic": "Harms & Contraindications",
+      "question": "A clinician is starting rosuvastatin in a patient of East Asian descent. What dosing adjustment is recommended, and why?",
+      "options": [
+        "No adjustment needed; ethnicity does not affect rosuvastatin pharmacokinetics",
+        "A higher starting dose, because Asian patients metabolize rosuvastatin faster",
+        "A lower starting dose, because of an approximately 2-fold higher systemic exposure linked to a higher prevalence of reduced-function SLCO1B1 (OATP1B1) variants",
+        "Avoid rosuvastatin entirely in this population"
+      ],
+      "correctOption": 2,
+      "explanation": "The FDA label recommends a lower starting dose of rosuvastatin in Asian patients because of an observed ~2-fold higher systemic exposure, driven by a higher prevalence of reduced-function SLCO1B1 variants (encoding OATP1B1) in East Asian populations compared with whites.",
+      "reference": "FDA Crestor (rosuvastatin) prescribing information, dosing guidance for Asian patients."
+    },
+    {
+      "id": "ht-004-q3",
+      "type": "mcq",
+      "subtopic": "Harms & Contraindications",
+      "question": "A diabetic patient with moderate proteinuria on an ACE inhibitor is being considered for high-intensity statin therapy. Based on the PLANET trials, which choice and finding is most accurate?",
+      "options": [
+        "Rosuvastatin 40 mg reduces proteinuria more than atorvastatin 80 mg",
+        "Atorvastatin 80 mg reduced proteinuria without worsening eGFR; rosuvastatin 40 mg did not meaningfully reduce proteinuria and was associated with eGFR decline",
+        "Neither drug has any renal effect in diabetic patients",
+        "Both drugs equally worsen renal function at high doses"
+      ],
+      "correctOption": 1,
+      "explanation": "In PLANET I (diabetic) and PLANET II (non-diabetic) patients, atorvastatin 80 mg reduced urinary protein-to-creatinine ratio without worsening eGFR, while rosuvastatin 40 mg showed little proteinuria benefit and was associated with a significant eGFR decline.",
+      "reference": "PLANET I/PLANET II renal findings, Lancet Diabetes & Endocrinology, 2015."
+    },
+    {
+      "id": "ht-004-q4",
+      "type": "mcq",
+      "subtopic": "Mathematical Evidence",
+      "question": "In the SATURN trial, rosuvastatin 40 mg achieved a lower LDL than atorvastatin 80 mg. What did this translate to in terms of coronary atheroma regression?",
+      "options": [
+        "A proportionally greater, statistically significant regression in atheroma volume with rosuvastatin",
+        "A statistically similar percent atheroma volume regression between the two drugs (-1.22% vs -0.99%, p=0.17)",
+        "Atorvastatin showed significantly more regression despite the smaller LDL drop",
+        "Neither drug showed any atheroma regression"
+      ],
+      "correctOption": 1,
+      "explanation": "Despite achieving a lower LDL, rosuvastatin's percent atheroma volume regression (-1.22%) was not statistically different from atorvastatin's (-0.99%), p=0.17 — illustrating that a larger surrogate (LDL) improvement does not guarantee a proportionally larger improvement in the actual disease-relevant endpoint.",
+      "reference": "SATURN trial primary outcome, New England Journal of Medicine, 2011."
+    },
+    {
+      "id": "ht-004-q5",
+      "type": "mcq",
+      "subtopic": "Mathematical Evidence",
+      "question": "According to the LODESTAR trial's drug-level secondary analysis, how did rosuvastatin and atorvastatin compare on the 3-year composite MACCE outcome?",
+      "options": [
+        "Rosuvastatin was significantly superior (lower MACCE)",
+        "Atorvastatin was significantly superior (lower MACCE)",
+        "The two were statistically comparable (8.7% vs 8.2%, p=0.58)",
+        "MACCE could not be assessed due to high dropout"
+      ],
+      "correctOption": 2,
+      "explanation": "The LODESTAR drug-level analysis found no statistically significant difference in the 3-year composite MACCE outcome between rosuvastatin (8.7%) and atorvastatin (8.2%), p=0.58.",
+      "reference": "LODESTAR secondary drug-level analysis, BMJ 2023;383:e075837."
+    },
+    {
+      "id": "ht-004-q6",
+      "type": "mcq",
+      "subtopic": "Mathematical Evidence",
+      "question": "Despite comparable cardiovascular outcomes in LODESTAR, what safety signal favored atorvastatin over rosuvastatin?",
+      "options": [
+        "Atorvastatin caused more myopathy overall",
+        "Rosuvastatin was associated with significantly higher rates of new-onset diabetes requiring medication and cataract surgery",
+        "Atorvastatin caused significantly more strokes",
+        "There was no difference in any safety outcome"
+      ],
+      "correctOption": 1,
+      "explanation": "Rosuvastatin was associated with significantly more new-onset diabetes requiring antidiabetic medication (7.2% vs 5.3%, p=0.03) and cataract surgery (2.5% vs 1.5%, p=0.02) compared with atorvastatin, despite similar cardiovascular outcomes.",
+      "reference": "LODESTAR secondary drug-level analysis, BMJ 2023;383:e075837."
+    },
+    {
+      "id": "ht-004-q7",
+      "type": "mcq",
+      "subtopic": "Administration",
+      "question": "A patient asks whether atorvastatin or rosuvastatin must be taken at bedtime like simvastatin. What is the correct counseling point?",
+      "options": [
+        "Yes, both must be taken at bedtime for maximal effect",
+        "No — both have long half-lives (atorvastatin ~14h, rosuvastatin ~19h) and can be dosed at any time of day, independent of meals",
+        "Only rosuvastatin can be taken any time; atorvastatin must be taken at night",
+        "Both must be taken with a high-fat meal to ensure absorption"
+      ],
+      "correctOption": 1,
+      "explanation": "Unlike short-acting statins such as simvastatin, both atorvastatin and rosuvastatin have long enough half-lives that they can be dosed at any time of day, independent of meals.",
+      "reference": "Standard statin pharmacokinetic comparisons (half-life and dosing-time flexibility)."
+    },
+    {
+      "id": "ht-004-q8",
+      "type": "mcq",
+      "subtopic": "Skepticism — Needs Verification",
+      "question": "A study guide cites the SATURN trial as having been published in JAMA in 2011. Checking the primary literature, what is the most accurate correction?",
+      "options": [
+        "The citation is correct as written",
+        "SATURN was actually published in the New England Journal of Medicine, not JAMA",
+        "SATURN was published in the Lancet",
+        "SATURN was never published in a peer-reviewed journal"
+      ],
+      "correctOption": 1,
+      "explanation": "SATURN (Nicholls SJ et al., \"Effect of Two Intensive Statin Regimens on Progression of Coronary Disease\") was published in the New England Journal of Medicine in 2011, not JAMA.",
+      "reference": "SATURN trial, New England Journal of Medicine, 2011."
+    },
+    {
+      "id": "ht-004-q9",
+      "type": "mcq",
+      "subtopic": "Skepticism — Needs Verification",
+      "question": "A source claims rosuvastatin 20 mg is mathematically equivalent to atorvastatin 80 mg in LDL-lowering efficacy, citing a 2.5-3x potency advantage. What does pooled dose-response trial data (STELLAR/VOYAGER) actually support?",
+      "options": [
+        "The claim is accurate as stated",
+        "Rosuvastatin has roughly 1.5x the potency of atorvastatin per milligram, making rosuvastatin 20 mg closer to atorvastatin 40 mg, not 80 mg",
+        "Atorvastatin is actually more potent per milligram than rosuvastatin",
+        "The two drugs have identical potency at every dose"
+      ],
+      "correctOption": 1,
+      "explanation": "Pooled dose-response data show rosuvastatin lowers LDL by only about 8.2 percentage points more than atorvastatin across matched doses (roughly 1.5x potency), supporting an equivalence closer to rosuvastatin 20 mg ≈ atorvastatin 40 mg — not the 2.5-3x/80 mg equivalence often quoted.",
+      "reference": "STELLAR trial (Am J Cardiol 2003) and VOYAGER meta-analysis (Am J Cardiol 2010) dose-response data."
+    },
+    {
+      "id": "ht-004-q10",
+      "type": "mcq",
+      "subtopic": "Skepticism — Needs Verification",
+      "question": "A skeptic argues the Number Needed to Harm for statin-associated muscle symptoms is about 1 in 10, based on observational/self-reported rates. What does high-quality blinded evidence suggest about this figure?",
+      "options": [
+        "Blinded trials confirm the 1-in-10 rate is entirely pharmacological",
+        "Blinded n-of-1 trials and individual-patient-data meta-analyses suggest most reported muscle symptoms are due to the nocebo effect, with under 10% probability that a given report is truly statin-caused",
+        "Muscle symptoms only occur with rosuvastatin, never atorvastatin",
+        "No blinded data exists on this question"
+      ],
+      "correctOption": 1,
+      "explanation": "The BMJ 2021 StatinWISE n-of-1 trials and the 2022 Lancet CTT individual-participant-data meta-analysis found that when patients report muscle symptoms on a statin, there is less than a 10% probability it is actually caused by the statin rather than the nocebo effect — suggesting observational NNH figures substantially overstate true pharmacological harm.",
+      "reference": "StatinWISE n-of-1 trials, BMJ 2021; CTT Collaboration meta-analysis, The Lancet, 2022."
+    },
+    {
+      "id": "ht-004-q11",
+      "type": "mcq",
+      "subtopic": "Historical Pattern",
+      "question": "Why was rosuvastatin's maximum approved dose capped at 40 mg rather than allowing 80 mg as initially studied?",
+      "options": [
+        "80 mg showed no additional LDL-lowering benefit",
+        "Early trials of rosuvastatin 80 mg showed unacceptable rhabdomyolysis/renal toxicity signals",
+        "80 mg was never studied in any trial",
+        "Patent restrictions prevented marketing an 80 mg dose"
+      ],
+      "correctOption": 1,
+      "explanation": "Rosuvastatin 80 mg was associated with rhabdomyolysis and renal toxicity signals in early development, leading the FDA to cap the approved maximum dose at 40 mg.",
+      "reference": "Rosuvastatin dose-development history and FDA labeling maximum-dose rationale."
+    },
+    {
+      "id": "ht-004-q12",
+      "type": "mcq",
+      "subtopic": "Why to Give",
+      "question": "Beyond LDL reduction, which mechanism is part of the pleiotropic rationale for statin therapy?",
+      "options": [
+        "Direct inhibition of platelet aggregation only",
+        "Stabilization of the atheromatous plaque's fibrous cap and improved endothelial nitric oxide synthase (eNOS) function",
+        "Direct anticoagulant activity equivalent to warfarin",
+        "Stimulation of hepatic LDL receptor degradation"
+      ],
+      "correctOption": 1,
+      "explanation": "Statins' pleiotropic effects include stabilizing the fibrous cap of atheromatous plaques, reducing oxidized LDL and inflammatory cytokines (hsCRP), and improving eNOS-mediated endothelial function — effects beyond simple LDL-receptor-mediated cholesterol lowering.",
+      "reference": "Established statin pleiotropic-effects literature underlying trials such as JUPITER (NEJM 2008)."
+    }
+  ]
+}

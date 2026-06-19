@@ -279,6 +279,9 @@ function renderTab(){
   if (activeTab==='notes'){
     list = items.filter(i=>i.type==='note');
     html = list.map(renderNote).join('') || emptyMsg();
+    body.innerHTML = html;
+    wireSkepticismToggles(body);
+    return;
   } else if (activeTab==='mcq'){
     list = items.filter(i=>i.type==='mcq');
     html = list.map((q,i)=>renderMCQ(q,i+1)).join('') || emptyMsg();
@@ -300,19 +303,51 @@ function refBlock(ref){
   return `<div class="ref"><span class="ref-h">Source</span>${esc(ref)}</div>`;
 }
 
+const SKEPTICISM_SUBTOPIC = 'Skepticism — Needs Verification';
+
+function verifiedKey(noteId){ return 'h22_verified::' + (currentChapter?.id||'') + '::' + noteId; }
+function isVerified(noteId){ return localStorage.getItem(verifiedKey(noteId)) === '1'; }
+
 function renderNote(nte){
   let kp = '';
   if (nte.keyPoints && nte.keyPoints.length){
     kp = '<div class="kp"><div class="kp-h">Key clinical points</div><ul>'+
       nte.keyPoints.map(k=>'<li>'+esc(k)+'</li>').join('')+'</ul></div>';
   }
-  return `<div class="note">
+  const isSkeptic = nte.subtopic === SKEPTICISM_SUBTOPIC;
+  let skepticBlock = '';
+  if (isSkeptic){
+    const verified = isVerified(nte.id);
+    skepticBlock = `<div class="skeptic-toggle" data-note-id="${esc(nte.id)}">
+      <label class="skeptic-check">
+        <input type="checkbox" ${verified?'checked':''}>
+        <span class="skeptic-badge ${verified?'verified':'unverified'}">${verified ? '✓ Verified' : '⚠ Needs Verification'}</span>
+      </label>
+    </div>`;
+  }
+  return `<div class="note${isSkeptic?' skeptic-note':''}">
     <div class="sub">${esc(nte.subtopic||'')}</div>
+    ${skepticBlock}
     <h3>${esc(nte.title||'')}</h3>
     <div class="body">${esc(nte.content||'')}</div>
     ${kp}
     ${refBlock(nte.reference)}
   </div>`;
+}
+
+function wireSkepticismToggles(scope){
+  scope.querySelectorAll('.skeptic-toggle').forEach(toggle => {
+    const noteId = toggle.dataset.noteId;
+    const checkbox = toggle.querySelector('input[type="checkbox"]');
+    const badge = toggle.querySelector('.skeptic-badge');
+    checkbox.addEventListener('change', () => {
+      const verified = checkbox.checked;
+      localStorage.setItem(verifiedKey(noteId), verified ? '1' : '0');
+      badge.textContent = verified ? '✓ Verified' : '⚠ Needs Verification';
+      badge.classList.toggle('verified', verified);
+      badge.classList.toggle('unverified', !verified);
+    });
+  });
 }
 
 function renderMCQ(q, idx){
