@@ -16,7 +16,8 @@ const themeBtn = document.getElementById('themeBtn');
 let CATALOG = null;
 let currentChapter = null;
 let activeTab = 'notes';
-let viewMode = 'catalog'; /* catalog | harrison | hot_topic | case_report */
+let viewMode = 'catalog'; /* catalog | harrison | hot_topic | case_report | clinical_trial */
+let trialFilter = 'all'; /* all | nejm | general */
 
 /* ---------- theme ---------- */
 (function initTheme(){
@@ -77,6 +78,45 @@ async function loadContentCounts(entries){
   return counts;
 }
 
+async function loadTrialCounts(entries){
+  const counts = {};
+  const ready = entries.filter(ch => ch.status === 'ready' && ch.file);
+  await Promise.all(ready.map(async ch => {
+    try {
+      const data = await loadJSON('data/' + ch.file);
+      const items = data.items || [];
+      counts[ch.id] = {
+        notes: items.filter(i=>i.type==='note').length,
+        inclusion: (data.inclusionCriteria||[]).length,
+        exclusion: (data.exclusionCriteria||[]).length,
+        takeaways: (data.keyTakeaways||[]).length,
+        mcq: items.filter(i=>i.type==='mcq').length,
+        tf: items.filter(i=>i.type==='true_false').length,
+        why: items.filter(i=>i.type==='why').length,
+        how: items.filter(i=>i.type==='how').length,
+        shortanswer: items.filter(i=>i.type==='shortanswer').length,
+        refs: items.filter(i=>i.referenceNumber).length,
+        total: items.length + (data.inclusionCriteria||[]).length + (data.exclusionCriteria||[]).length + (data.keyTakeaways||[]).length
+      };
+    } catch(e){ counts[ch.id] = null; }
+  }));
+  return counts;
+}
+
+function trialCardSub(counts, pending){
+  if (pending) return 'Awaiting authoring';
+  if (!counts) return 'Tap to study';
+  const parts = [];
+  if (counts.refs) parts.push(`${counts.refs} refs`);
+  if (counts.why) parts.push(`${counts.why} why`);
+  if (counts.how) parts.push(`${counts.how} how`);
+  if (counts.mcq) parts.push(`${counts.mcq} mcq`);
+  if (counts.tf) parts.push(`${counts.tf} tf`);
+  if (counts.shortanswer) parts.push(`${counts.shortanswer} sa`);
+  if (parts.length) return parts.join(' · ');
+  return `${counts.total} items`;
+}
+
 async function showCatalog(){
   currentChapter = null;
   viewMode = 'catalog';
@@ -86,6 +126,7 @@ async function showCatalog(){
 
   const hotTopics = CATALOG.hotTopics?.topics || [];
   const caseReports = CATALOG.caseReports?.reports || [];
+  const trials = CATALOG.trials?.entries || [];
 
   if (!CATALOG._counts){
     app.innerHTML = '<div class="loading">Loading catalog…</div>';
@@ -109,6 +150,7 @@ async function showCatalog(){
     }));
     CATALOG._hotCounts = await loadContentCounts(hotTopics);
     CATALOG._caseCounts = await loadContentCounts(caseReports);
+    CATALOG._trialCounts = await loadTrialCounts(trials);
   }
 
   const allChapters = CATALOG.sections.flatMap(s => s.chapters);
@@ -206,6 +248,67 @@ async function showCatalog(){
     html += `</div>`;
   }
 
+  /* Trials section */
+  if (CATALOG.trials){
+    const tr = CATALOG.trials;
+    const subsections = tr.subsections || [{ id: 'general', title: 'General' }];
+    const trReady = trials.filter(t => t.status === 'ready' && t.file);
+    const trTotals = trReady.reduce((acc, t) => {
+      const c = CATALOG._trialCounts?.[t.id];
+      if (c){
+        acc.notes+=c.notes; acc.inclusion+=c.inclusion; acc.exclusion+=c.exclusion;
+        acc.takeaways+=c.takeaways; acc.mcq+=c.mcq; acc.tf+=c.tf; acc.why+=c.why; acc.how+=c.how;
+        acc.shortanswer+=c.shortanswer; acc.refs+=c.refs||0; acc.items+=c.total;
+      }
+      return acc;
+    }, {notes:0, inclusion:0, exclusion:0, takeaways:0, mcq:0, tf:0, why:0, how:0, shortanswer:0, refs:0, items:0});
+
+    html += `<div class="trials-banner">
+      <div class="trials-title">📊 ${esc(tr.title || 'Trials')}</div>
+      <div class="trials-desc">${esc(tr.description || '')}</div>
+      ${trTotals.items ? `<div class="trials-totals">${trTotals.items} items — ${trTotals.refs ? trTotals.refs+' ref-Q · ' : ''}${trTotals.notes} notes · ${trTotals.mcq} MCQs · ${trTotals.tf} T/F · ${trTotals.why} Why · ${trTotals.how} How · ${trTotals.shortanswer} Short</div>` : ''}
+      <div class="trial-filter-chips">
+        <button type="button" class="trial-chip${trialFilter==='all'?' active':''}" data-trial-filter="all">All</button>
+        ${subsections.map(s=>`<button type="button" class="trial-chip${trialFilter===s.id?' active':''}" data-trial-filter="${esc(s.id)}">${esc(s.title)}</button>`).join('')}
+      </div>
+    </div>`;
+
+    const grouped = {};
+    for (const t of trials){
+      const sub = t.subsection || 'general';
+      if (!grouped[sub]) grouped[sub] = [];
+      grouped[sub].push(t);
+    }
+
+    for (const sub of subsections){
+      const list = grouped[sub.id] || [];
+      if (!list.length) continue;
+      if (trialFilter !== 'all' && trialFilter !== sub.id) continue;
+      const subReady = list.filter(t => t.status === 'ready' && t.file).length;
+      const subMeta = subsections.find(s => s.id === sub.id);
+      html += `<div class="section-head trial-section-head trial-subsection-head">
+        <span class="section-arrow">▾</span>
+        <span class="section-name">${sub.id === 'nejm' ? '📰 ' : ''}${esc(subMeta?.title || sub.id)}</span>
+        <span class="section-count">${subReady}/${list.length}</span>
+      </div>`;
+      html += `<div class="section-body">`;
+      for (const t of list){
+        const ready = t.status === 'ready' && t.file;
+        const pill = ready ? '<span class="pill ready">ready</span>' : '<span class="pill pending">pending</span>';
+        const c = ready ? CATALOG._trialCounts?.[t.id] : null;
+        const subLine = trialCardSub(c, !ready);
+        html += `<div class="chap-card trial-card ${sub.id==='nejm'?'nejm-trial-card':''} ${ready?'':'disabled'}" data-file="${ready?esc(t.file):''}" data-kind="trial" data-subsection="${esc(sub.id)}">
+          <div class="chap-no trial-icon">${sub.id==='nejm'?'📰':'📊'}</div>
+          <div class="chap-meta">
+            <div class="chap-title">${esc(t.title)} ${pill}</div>
+            <div class="chap-sub">${esc(t.subtitle||t.category||'')}${subLine ? ' · '+subLine : ''}</div>
+          </div>
+        </div>`;
+      }
+      html += `</div>`;
+    }
+  }
+
   html += `<div class="harrison-divider"><span>Harrison's 22e Chapters</span></div>`;
 
   html += `<div class="progress-card">
@@ -260,6 +363,13 @@ async function showCatalog(){
       head.nextElementSibling.hidden = head.classList.contains('collapsed');
     });
   });
+  app.querySelectorAll('.trial-chip').forEach(chip => {
+    chip.addEventListener('click', (e) => {
+      e.stopPropagation();
+      trialFilter = chip.dataset.trialFilter || 'all';
+      showCatalog();
+    });
+  });
 }
 
 /* ---------- chapter / topic view ---------- */
@@ -271,12 +381,29 @@ async function openChapter(file, kind){
     app.innerHTML = '<div class="empty">Could not load content.</div>';
     return;
   }
-  viewMode = kind === 'hot' ? 'hot_topic' : (kind === 'case' ? 'case_report' : 'harrison');
+  viewMode = kind === 'hot' ? 'hot_topic' : (kind === 'case' ? 'case_report' : (kind === 'trial' ? 'clinical_trial' : 'harrison'));
   backBtn.hidden = false;
-  backBtn.textContent = viewMode === 'hot_topic' ? '‹ Hot Topics' : (viewMode === 'case_report' ? '‹ Case Reports' : '‹ Chapters');
-  activeTab = viewMode === 'case_report' ? 'notes' : 'notes';
+  backBtn.textContent = viewMode === 'hot_topic' ? '‹ Hot Topics' : (viewMode === 'case_report' ? '‹ Case Reports' : (viewMode === 'clinical_trial' ? '‹ Trials' : '‹ Chapters'));
+  activeTab = 'notes';
   renderChapter();
   window.scrollTo(0,0);
+}
+
+function trialCounts(){
+  const ch = currentChapter;
+  const c = ch.items || [];
+  return {
+    notes: c.filter(i=>i.type==='note').length,
+    inclusion: (ch.inclusionCriteria||[]).length,
+    exclusion: (ch.exclusionCriteria||[]).length,
+    takeaways: (ch.keyTakeaways||[]).length,
+    mcq: c.filter(i=>i.type==='mcq').length,
+    tf: c.filter(i=>i.type==='true_false').length,
+    ar: c.filter(i=>i.type==='assertion_reason').length,
+    why: c.filter(i=>i.type==='why').length,
+    how: c.filter(i=>i.type==='how').length,
+    shortanswer: c.filter(i=>i.type==='shortanswer').length
+  };
 }
 
 function counts(){
@@ -324,34 +451,107 @@ function renderCaseDescription(ch){
   </div>`;
 }
 
+function renderTrialSummary(ch){
+  const d = ch.trialDesign || {};
+  const ts = ch.trialSummary || {};
+  const h = ts.headings || {};
+  let meta = '';
+  if (d.year || d.design || d.sampleSize || h.design || h.population){
+    meta = `<div class="trial-meta-grid">
+      ${d.year ? `<div class="trial-meta-item"><span class="trial-label">Year</span>${esc(String(d.year))}</div>` : ''}
+      ${(h.design || d.design) ? `<div class="trial-meta-item wide"><span class="trial-label">Design</span>${esc(h.design || d.design)}</div>` : ''}
+      ${d.sampleSize ? `<div class="trial-meta-item wide"><span class="trial-label">Sample Size</span>${esc(d.sampleSize)}</div>` : ''}
+      ${(h.followUp || d.duration) ? `<div class="trial-meta-item"><span class="trial-label">Follow-up</span>${esc(h.followUp || d.duration)}</div>` : ''}
+      ${(h.intervention || d.intervention) ? `<div class="trial-meta-item wide"><span class="trial-label">Intervention</span>${esc(h.intervention || d.intervention)}</div>` : ''}
+      ${(h.comparator || d.comparator) ? `<div class="trial-meta-item wide"><span class="trial-label">Comparator</span>${esc(h.comparator || d.comparator)}</div>` : ''}
+      ${(d.primaryEndpoint || ts.outcomes?.[0]?.definition) ? `<div class="trial-meta-item wide"><span class="trial-label">Primary Endpoint</span>${esc(d.primaryEndpoint || ts.outcomes[0].definition)}</div>` : ''}
+      ${h.nct ? `<div class="trial-meta-item"><span class="trial-label">NCT</span>${esc(h.nct)}</div>` : ''}
+      ${h.funding ? `<div class="trial-meta-item wide"><span class="trial-label">Funding</span>${esc(h.funding)}</div>` : ''}
+    </div>`;
+  }
+  let headingBlocks = '';
+  if (h.background || h.objective){
+    headingBlocks = '<div class="trial-heading-blocks">';
+    if (h.background) headingBlocks += `<div class="trial-heading-block"><span class="trial-label">Background</span><div class="trial-heading-text">${esc(h.background)}</div></div>`;
+    if (h.objective && h.objective !== h.background) headingBlocks += `<div class="trial-heading-block"><span class="trial-label">Objective</span><div class="trial-heading-text">${esc(h.objective)}</div></div>`;
+    headingBlocks += '</div>';
+  }
+  let outcomesHtml = '';
+  if (ts.outcomes?.length){
+    outcomesHtml = '<div class="trial-outcomes"><div class="trial-label">Key Outcomes</div>' +
+      ts.outcomes.map(o => {
+        const effect = o.effect ? `<div class="trial-outcome-effect">${esc(o.effect.measure || '')} ${o.effect.value != null ? esc(String(o.effect.value)) : ''}${o.effect.ci95 ? ' (95% CI '+esc(o.effect.ci95)+')' : ''}</div>` : '';
+        const results = o.results?.length ? '<ul class="trial-outcome-arms">' + o.results.map(r => `<li><b>${esc(r.arm)}:</b> ${esc(r.value||'')}${r.rate ? ' · '+esc(r.rate) : ''}</li>`).join('') + '</ul>' : '';
+        return `<div class="trial-outcome-card ${esc(o.type||'secondary')}">
+          <div class="trial-outcome-label">${esc(o.label||'Outcome')}</div>
+          ${o.definition ? `<div class="trial-outcome-def">${esc(o.definition)}</div>` : ''}
+          ${results}${effect}
+          ${o.interpretation ? `<div class="trial-outcome-interp">${esc(o.interpretation)}</div>` : ''}
+        </div>`;
+      }).join('') + '</div>';
+  }
+  let safety = '';
+  if (ts.safetyHighlights?.length){
+    safety = '<div class="trial-safety"><div class="trial-label">Safety Highlights</div><ul>' +
+      ts.safetyHighlights.map(s => `<li>${esc(s)}</li>`).join('') + '</ul></div>';
+  }
+  const bottomLine = ts.clinicalBottomLine || ts.conclusion;
+  return `<div class="trial-summary-block">
+    <div class="trial-badge">📊 Trial Summary${ch.subsection==='nejm' ? ' <span class="nejm-badge-inline">NEJM</span>' : ''}</div>
+    ${d.fullName ? `<div class="trial-full-name">${esc(d.fullName)}</div>` : ''}
+    ${d.overview ? `<div class="trial-overview">${esc(d.overview)}</div>` : ''}
+    ${headingBlocks}
+    ${meta}
+    ${outcomesHtml}
+    ${safety}
+    ${bottomLine ? `<div class="trial-bottom-line"><span class="trial-label">Clinical Bottom Line</span>${esc(bottomLine)}</div>` : ''}
+  </div>`;
+}
+
+function renderCriteriaList(title, items, cssClass){
+  if (!items?.length) return '';
+  return `<div class="trial-criteria-block ${cssClass}">
+    <div class="trial-label">${esc(title)}</div>
+    <ul>${items.map(i=>'<li>'+esc(i)+'</li>').join('')}</ul>
+  </div>`;
+}
+
 function renderChapter(){
   const ch = currentChapter;
   const isHot = ch.topicType === 'hot_topic' || viewMode === 'hot_topic';
   const isCase = ch.reportType === 'case_report' || viewMode === 'case_report';
-  titleEl.textContent = isCase ? (ch.title || 'Case Report') : (isHot ? (ch.title || 'Hot Topic') : ('Ch ' + (ch.chapterNo||'')));
-  const n = counts();
+  const isTrial = ch.trialType === 'clinical_trial' || viewMode === 'clinical_trial';
+  titleEl.textContent = isTrial ? (ch.title || 'Trial') : (isCase ? (ch.title || 'Case Report') : (isHot ? (ch.title || 'Hot Topic') : ('Ch ' + (ch.chapterNo||''))));
+  const n = isTrial ? trialCounts() : counts();
   const tab = (id,label,cnt)=>`<button class="tab ${activeTab===id?'active':''}" data-tab="${id}">${label}<br><span class="cnt">${cnt}</span></button>`;
 
-  const byline = isCase
+  const byline = isTrial
+    ? `${esc(ch.section||'Trials')}${ch.category?' · '+esc(ch.category):''}${ch.authors?' · '+esc(ch.authors):''}`
+    : isCase
     ? `${esc(ch.section||'Case Reports')}${ch.category?' · '+esc(ch.category):''}${ch.authors?' · '+esc(ch.authors):''}`
     : isHot
     ? `${esc(ch.section||'Hot Topics')}${ch.category?' · '+esc(ch.category):''}${ch.authors?' · '+esc(ch.authors):''}`
     : `Chapter ${esc(ch.chapterNo||'')} · ${esc(ch.section||'')}${ch.authors?' · '+esc(ch.authors):''}`;
 
-  let html = `<div class="chap-header${isHot?' hot-header':''}${isCase?' case-header':''}">
+  const isNejm = ch.subsection === 'nejm';
+  let html = `<div class="chap-header${isHot?' hot-header':''}${isCase?' case-header':''}${isTrial?' trial-header':''}${isNejm?' nejm-header':''}">
       ${isHot ? '<div class="hot-badge">🔥 Hot Topic</div>' : ''}
       ${isCase ? '<div class="case-badge-inline">📋 Case Report</div>' : ''}
+      ${isTrial ? `<div class="trial-badge-inline">📊 Clinical Trial${isNejm ? ' · <span class="nejm-badge-inline">NEJM</span>' : ''}</div>` : ''}
       <h2>${esc(ch.title)}</h2>
       ${ch.subtitle ? `<div class="chap-subtitle">${esc(ch.subtitle)}</div>` : ''}
       <div class="by">${byline}</div>
     </div>
     ${isCase ? renderCaseDescription(ch) : ''}
-    <div class="tabs${isCase?' tabs-case':''}">
+    ${isTrial ? renderTrialSummary(ch) : ''}
+    <div class="tabs${isCase||isTrial||(n.why||n.how||n.shortanswer)?' tabs-scroll':''}">
       ${tab('notes','Notes',n.notes)}
+      ${isTrial ? tab('inclusion','Inclusion',n.inclusion)+tab('exclusion','Exclusion',n.exclusion)+tab('takeaways','Takeaways',n.takeaways) : ''}
       ${tab('mcq','MCQs',n.mcq)}
       ${tab('tf','True/False',n.tf)}
-      ${tab('ar','Assertion–Reason',n.ar)}
-      ${isCase ? tab('why','Why',n.why)+tab('how','How',n.how) : ''}
+      ${!isTrial ? tab('ar','Assertion–Reason',n.ar) : ''}
+      ${(n.why || n.how) ? tab('why','Why',n.why)+tab('how','How',n.how) : ''}
+      ${n.shortanswer ? tab('shortanswer','Short Answer',n.shortanswer) : ''}
     </div>
     <div id="tabBody"></div>`;
   app.innerHTML = html;
@@ -369,6 +569,21 @@ function renderTab(){
     body.innerHTML = html;
     wireSkepticismToggles(body);
     return;
+  } else if (activeTab==='inclusion'){
+    html = renderCriteriaList('Inclusion Criteria', currentChapter.inclusionCriteria, 'inclusion-criteria') || emptyMsg();
+    body.innerHTML = html;
+    return;
+  } else if (activeTab==='exclusion'){
+    html = renderCriteriaList('Exclusion Criteria', currentChapter.exclusionCriteria, 'exclusion-criteria') || emptyMsg();
+    body.innerHTML = html;
+    return;
+  } else if (activeTab==='takeaways'){
+    const tk = currentChapter.keyTakeaways || [];
+    html = tk.length
+      ? `<div class="trial-takeaways-block">${tk.map((t,i)=>`<div class="note trial-takeaway"><div class="q-top"><span class="q-type">Takeaway ${i+1}</span></div><div class="body">${esc(t)}</div></div>`).join('')}</div>`
+      : emptyMsg();
+    body.innerHTML = html;
+    return;
   } else if (activeTab==='mcq'){
     list = items.filter(i=>i.type==='mcq');
     html = list.map((q,i)=>renderMCQ(q,i+1)).join('') || emptyMsg();
@@ -381,6 +596,12 @@ function renderTab(){
   } else if (activeTab==='how'){
     list = items.filter(i=>i.type==='how');
     html = list.map((q,i)=>renderWhyHow(q,i+1,'How')).join('') || emptyMsg();
+  } else if (activeTab==='shortanswer'){
+    list = items.filter(i=>i.type==='shortanswer');
+    html = list.map((q,i)=>renderShortAnswer(q,i+1)).join('') || emptyMsg();
+    body.innerHTML = html;
+    wireShortAnswers(body);
+    return;
   } else {
     list = items.filter(i=>i.type==='assertion_reason');
     html = list.map((q,i)=>renderAR(q,i+1)).join('') || emptyMsg();
@@ -475,13 +696,36 @@ function renderWhyHow(q, idx, label){
     kp = '<div class="kp"><div class="kp-h">Key clinical points</div><ul>'+
       q.keyPoints.map(k=>'<li>'+esc(k)+'</li>').join('')+'</ul></div>';
   }
-  return `<div class="note why-how-note">
+  return `<div class="note why-how-note${viewMode==='clinical_trial'?' trial-why-how':''}">
     <div class="q-top"><span class="q-type">${esc(label)} ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span></div>
     <h3>${esc(q.question||'')}</h3>
     <div class="body why-how-answer"><span class="why-how-label">Answer:</span> ${esc(q.answer||'')}</div>
     ${kp}
     ${refBlock(q.reference)}
   </div>`;
+}
+
+function renderShortAnswer(q, idx){
+  const refNum = q.referenceNumber ? `<span class="ref-num">Ref ${q.referenceNumber}</span>` : '';
+  return `<div class="q shortanswer-q" data-type="shortanswer">
+    <div class="q-top"><span class="q-type">Short Answer ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span>${refNum}</div>
+    <div class="q-stem">${esc(q.question)}</div>
+    <textarea class="sa-input" rows="3" placeholder="Type your answer…"></textarea>
+    <button type="button" class="sa-reveal-btn">Reveal model answer</button>
+    <div class="explain sa-answer"><div class="sa-model-label">Model answer</div><div class="exp-text">${esc(q.modelAnswer||'')}</div>${refBlock(q.reference)}</div>
+  </div>`;
+}
+
+function wireShortAnswers(scope){
+  scope.querySelectorAll('.shortanswer-q').forEach(qEl => {
+    const btn = qEl.querySelector('.sa-reveal-btn');
+    const exp = qEl.querySelector('.explain');
+    btn.addEventListener('click', () => {
+      exp.classList.add('show');
+      btn.disabled = true;
+      btn.textContent = 'Answer revealed';
+    });
+  });
 }
 
 function renderAR(q, idx){

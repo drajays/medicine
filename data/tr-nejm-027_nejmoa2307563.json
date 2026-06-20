@@ -1,0 +1,724 @@
+{
+  "id": "tr-nejm-027",
+  "trialType": "clinical_trial",
+  "subsection": "nejm",
+  "sourceKey": "NEJMoa2307563",
+  "paperType": "rct",
+  "title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes",
+  "subtitle": "SELECT — Semaglutide CV Outcomes in Obesity without Diabetes",
+  "section": "Trials",
+  "category": "Cardiology & Endocrinology",
+  "authors": "World Obesity Federation. World obesity atlas 2023 (https://data.worldobesity.or",
+  "sourceFile": "noupload/NEJM/nejmoa2307563/paper.md",
+  "bibliography": [
+    {
+      "number": 1,
+      "entry": "World Obesity Federation. World obesity atlas 2023 (https://data.worldobesity.org/publications/?cat=19)."
+    },
+    {
+      "number": 2,
+      "entry": "The GBD 2015 Obesity Collaborators. Health effects of overweight and obesity in 195 countries over 25 years. N Engl J Med 2017;377:13-27."
+    },
+    {
+      "number": 3,
+      "entry": "Bogers RP, Bemelmans WJE, Hoogenveen RT, et al. Association of overweight with increased risk of coronary heart disease partly independent of blood pressure and cholesterol levels: a meta-analysis of 21 cohort studies including more than 300 000 persons. Arch Intern Med 2007;167:1720-8."
+    },
+    {
+      "number": 4,
+      "entry": "Hubert HB, Feinleib M, McNamara PM, Castelli WP. Obesity as an independent risk factor for cardiovascular disease: a 26-year follow-up of participants in the Framingham Heart Study. Circulation 1983;67:968-77."
+    },
+    {
+      "number": 5,
+      "entry": "Global Burden of Metabolic Risk Factors for Chronic Diseases Collaboration (BMI Mediated Effects). Metabolic mediators of the effects of body-mass index, overweight, and obesity on coronary heart disease and stroke: a pooled analysis of 97 prospective cohorts with 1·8 million participants. Lancet 2014;383:970-83."
+    },
+    {
+      "number": 6,
+      "entry": "Wilson PWF, Bozeman SR, Burton TM, Hoaglin DC, Ben-Joseph R, Pashos CL. Prediction of first events of coronary heart disease and stroke with consideration of adiposity. Circulation 2008;118:124-30."
+    },
+    {
+      "number": 7,
+      "entry": "Cholesterol Treatment Trialists' (CTT) Collaboration. Efficacy and safety of more intensive lowering of LDL cholesterol: a meta-analysis of data from 170,000 participants in 26 randomised trials. Lancet 2010;376:1670-81. blood-pressure control. N Engl J Med 2015;373:2103-16."
+    },
+    {
+      "number": 8,
+      "entry": "The SPRINT Research Group. A randomized trial of intensive versus standard"
+    },
+    {
+      "number": 9,
+      "entry": "McGuire DK, Shih WJ, Cosentino F, et al. Association of SGLT2 inhibitors with cardiovascular and kidney outcomes in patients with type 2 diabetes: a meta-analysis. JAMA Cardiol 2021;6:148-58."
+    },
+    {
+      "number": 10,
+      "entry": "Sattar N, Lee MMY, Kristensen SL, et al. Cardiovascular, mortality, and kidney outcomes with GLP-1 receptor agonists in patients with type 2 diabetes: a systematic review and meta-analysis of randomised trials. Lancet Diabetes Endocrinol 2021;9:653-62."
+    },
+    {
+      "number": 11,
+      "entry": "Ma C, Avenell A, Bolland M, et al. Effects of weight loss interventions for adults who are obese on mortality, cardiovascular disease, and cancer: systematic review and meta-analysis. BMJ 2017;359:j4849."
+    },
+    {
+      "number": 12,
+      "entry": "Bohula EA, Wiviott SD, McGuire DK, et al. Cardiovascular safety of lorcaserin in overweight or obese patients. N Engl J Med 2018;379:1107-17."
+    },
+    {
+      "number": 13,
+      "entry": "James WPT, Caterson ID, Coutinho W, et al. Effect of sibutramine on cardiovascular outcomes in overweight and obese subjects. N Engl J Med 2010;363:905-17."
+    },
+    {
+      "number": 14,
+      "entry": "The Look AHEAD Research Group. Cardiovascular effects of intensive lifestyle intervention in type 2 diabetes. N Engl J Med 2013;369:145-54."
+    },
+    {
+      "number": 15,
+      "entry": "Nissen SE, Wolski KE, Prcela L, et al. Effect of naltrexone-bupropion on major adverse cardiovascular events in overweight and obese patients with cardiovascular risk factors: a randomized clinical trial. JAMA 2016;315:990-1004."
+    },
+    {
+      "number": 16,
+      "entry": "Drucker DJ. The cardiovascular biology of glucagon-like peptide-1. Cell Metab 2016;24:15-30."
+    },
+    {
+      "number": 17,
+      "entry": "Drucker DJ, Nauck MA. The incretin system: glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors in type 2 diabetes. Lancet 2006;368:1696-705."
+    },
+    {
+      "number": 18,
+      "entry": "Garvey WT, Batterham RL, Bhatta M, et al. Two-year effects of semaglutide in adults with overweight or obesity: the STEP 5 trial. Nat Med 2022;28:2083-91."
+    },
+    {
+      "number": 19,
+      "entry": "Ryan DH, Lingvay I, Colhoun HM, et al. Semaglutide effects on cardiovascular outcomes in people with overweight or obesity (SELECT) rationale and design. Am Heart J 2020;229:61-9."
+    },
+    {
+      "number": 20,
+      "entry": "Wassmer G, Brannath W. Group sequential and confirmatory adaptive designs in clinical trials. Cham, Switzerland: Springer, 2016."
+    },
+    {
+      "number": 21,
+      "entry": "Glimm E, Maurer W, Bretz F. Hierarchical testing of multiple endpoints in group-sequential trials. Stat Med 2010;29:219-28."
+    },
+    {
+      "number": 22,
+      "entry": "Devlin NJ, Shah KK, Feng Y, Mulhern B, van Hout B. Valuing health-related quality of life: an EQ-5D-5L value set for England. Health Econ 2018;27:7-22."
+    },
+    {
+      "number": 23,
+      "entry": "Lingvay I, Brown-Frandsen K, Colhoun HM, et al. Semaglutide for cardiovascular event reduction in people with overweight or obesity: SELECT study baseline characteristics. Obesity (Silver Spring) 2023;31:111-22."
+    },
+    {
+      "number": 24,
+      "entry": "Andersen PK, Borgun O, Gill RD, Keiding N. Statistical models based on counting processes. New York: Springer, 1993."
+    },
+    {
+      "number": 25,
+      "entry": "Trujillo JM, Nuffer W, Smith BA. GLP-1 receptor agonists: an updated review of head-to-head clinical studies. Ther Adv Endocrinol Metab 2021;12:2042018821997320."
+    },
+    {
+      "number": 26,
+      "entry": "Gorgojo-Martínez JJ, Mezquita-Raya P, Carretero-Gómez J, et al. Clinical recommendations to manage gastrointestinal adverse events in patients treated with Glp-1 receptor agonists: a multidisciplinary nary expert consensus. J Clin Med 2022;12:145."
+    },
+    {
+      "number": 27,
+      "entry": "He L, Wang J, Ping F, et al. Association of glucagon-like peptide-1 receptor agonist use with risk of gallbladder and biliary diseases: a systematic review and meta-analysis of randomized clinical trials. JAMA Intern Med 2022;182:513-9."
+    },
+    {
+      "number": 28,
+      "entry": "Wing RR, Lang W, Wadden TA, et al. Benefits of modest weight loss in improving cardiovascular risk factors in overweight and obese individuals with type 2 diabetes. Diabetes Care 2011;34:1481-6."
+    },
+    {
+      "number": 29,
+      "entry": "Heymsfield SB, Wadden TA. Mechanisms, pathophysiology, and management of obesity. N Engl J Med 2017;376:254-66."
+    },
+    {
+      "number": 30,
+      "entry": "Iacobellis G. Epicardial adipose tissue in contemporary cardiology. Nat Rev Cardiol 2022;19:593-606."
+    },
+    {
+      "number": 31,
+      "entry": "Magkos F, Fraterrigo G, Yoshino J, et al. Effects of moderate and subsequent progressive weight loss on metabolic function and adipose tissue biology in humans with obesity. Cell Metab 2016;23:591-601."
+    },
+    {
+      "number": 32,
+      "entry": "The Look AHEAD Research Group. Association of the magnitude of weight loss and changes in physical fitness with long-term cardiovascular disease out- comes in overweight or obese people with type 2 diabetes: a post-hoc analysis of the Look AHEAD randomised clinical trial. Lancet Diabetes Endocrinol 2016;4:P913-P921."
+    },
+    {
+      "number": 33,
+      "entry": "Mentias A, Aminian A, Youssef D, et al. Long-term cardiovascular outcomes after bariatric surgery in the Medicare population. J Am Coll Cardiol 2022;79:1429-37."
+    },
+    {
+      "number": 34,
+      "entry": "Sjöström L, Peltonen M, Jacobson P, et al. Bariatric surgery and long-term cardiovascular events. JAMA 2012;307:56-65."
+    },
+    {
+      "number": 35,
+      "entry": "Lewington S, Clarke R, Qizlibash N, Peto R, Collins R, Prospective Studies Collaboration. Age-specific relevance of usual blood pressure to vascular mortality: a meta-analysis of individual data for one million adults in 61 prospective studies. Lancet 2002;360:1903-13."
+    },
+    {
+      "number": 36,
+      "entry": "Asher J, Houston M. Statins and C-reactive protein levels. J Clin Hypertens (Greenwich) 2007;9:622-8."
+    },
+    {
+      "number": 37,
+      "entry": "Einarson TR, Acs A, Ludwig C, Panton UH. Prevalence of cardiovascular disease in type 2 diabetes: a systematic literature review of scientific evidence from across the world in 2007-2017. Cardiovasc Diabetol 2018;17:83."
+    },
+    {
+      "number": 38,
+      "entry": "ElSayed NA, Aleppo G, Aroda VR, et al. Cardiovascular disease and risk management: standards of care in diabetes — 2023. Diabetes Care 2023;46:Suppl 1:S158-S190."
+    },
+    {
+      "number": 39,
+      "entry": "ElSayed NA, Aleppo G, Aroda VR, et al. Obesity and weight management for the prevention and treatment of type 2 diabetes: standards of care in diabetes — 2023. Diabetes Care 2023;46:Suppl 1:S128-S139."
+    },
+    {
+      "number": 40,
+      "entry": "Husain M, Birkenfeld AL, Donsmark M, et al. Oral semaglutide and cardiovascular outcomes in patients with type 2 diabetes. N Engl J Med 2019;381:841-51."
+    },
+    {
+      "number": 41,
+      "entry": "Marso SP, Bain SC, Consoli A, et al. Semaglutide and cardiovascular outcomes in patients with type 2 diabetes. N Engl J Med 2016;375:1834-44."
+    },
+    {
+      "number": 42,
+      "entry": "Mak K-H, Vidal-Petiot E, Young R, et al. Prevalence of diabetes and impact on cardiovascular events and mortality in patients with chronic coronary syndromes, across multiple geographical regions and ethnicities. Eur J Prev Cardiol 2022;28:1795-806."
+    },
+    {
+      "number": 43,
+      "entry": "Lawal Y, Bello F, Kaoje YS. Prediabetes deserves more attention: a review. Clin Diabetes 2020;38:328-38. Copyright © 2023 Massachusetts Medical Society."
+    }
+  ],
+  "trialDesign": {
+    "fullName": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes",
+    "overview": "## BACKGROUND Semaglutide, a glucagon-like peptide-1 receptor agonist, has been shown to reduce the risk of adverse cardiovascular events in patients with diabetes. Whether semaglutide can reduce cardiovascular risk associated with overweight and obesity in the absence of diabetes is unknown.",
+    "design": "In a multicenter, double-blind, randomized, placebo-controlled, event-driven superiority trial, we enrolled patients 45 years of age or older who had preexisting cardiovascular disease and a body-mass index index (the weight in kilograms divided by the square of the height in meters) of 27 or greate",
+    "population": "enrolled patients 45 years of age or older who had preexisting cardiovascular disease and a body-mass index index (the weight in kilograms divided by the square of the height in meters) of 27 or greater but no history of diabetes.",
+    "comparator": "placebo",
+    "primaryEndpoint": "primary cardiovascular endpoint event occurred in 569 of the 8803 patients (6."
+  },
+  "trialSummary": {
+    "headings": {
+      "background": "Semaglutide, a glucagon-like peptide-1 receptor agonist, has been shown to reduce the risk of adverse cardiovascular events in patients with diabetes. Whether semaglutide can reduce cardiovascular risk associated with overweight and obesity in the absence of diabetes is unknown.",
+      "objective": "Semaglutide, a glucagon-like peptide-1 receptor agonist, has been shown to reduce the risk of adverse cardiovascular events in patients with diabetes. Whether semaglutide can reduce cardiovascular risk associated with overweight and obesity in the absence of diabetes is unknown.",
+      "design": "In a multicenter, double-blind, randomized, placebo-controlled, event-driven superiority trial, we enrolled patients 45 years of age or older who had preexisting cardiovascular disease and a body-mass index index (the weight in kilograms divided by the square of the height in meters) of 27 or greate",
+      "population": "enrolled patients 45 years of age or older who had preexisting cardiovascular disease and a body-mass index index (the weight in kilograms divided by the square of the height in meters) of 27 or greater but no history of diabetes.",
+      "comparator": "placebo",
+      "funding": "Novo Nordisk",
+      "nct": "NCT03574597",
+      "doi": "10.1056/NEJMoa2307563"
+    },
+    "outcomes": [
+      {
+        "label": "Primary outcome (extracted)",
+        "type": "primary",
+        "definition": "primary cardiovascular endpoint event occurred in 569 of the 8803 patients (6.",
+        "interpretation": "In patients with preexisting cardiovascular disease and overweight or obesity but without diabetes, weekly subcutaneous semaglutide at a dose of 2.4 mg was superior to placebo in reducing the incidence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke at a mean ",
+        "effect": {
+          "measure": "HR",
+          "value": 0.8
+        }
+      }
+    ],
+    "safetyHighlights": [
+      "Adverse events leading to permanent discontinuation of the trial product occurred in 1461 patients (16."
+    ],
+    "conclusion": "In patients with preexisting cardiovascular disease and overweight or obesity but without diabetes, weekly subcutaneous semaglutide at a dose of 2.4 mg was superior to placebo in reducing the incidence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke at a mean follow-up of 39.8 months. (Funded by Novo Nordisk; SELECT ClinicalTrials.gov number, NCT03574597.) The authors' affiliations are listed in the Appendix. Dr. Lincoff can be contacted at lincofa@ccf.org or at the Department of Cardiovascular Medicine, Cleveland Clinic, 9500 Euclid Ave., J2-3, Clevelan",
+    "clinicalBottomLine": "In patients with preexisting cardiovascular disease and overweight or obesity but without diabetes, weekly subcutaneous semaglutide at a dose of 2.4 mg was superior to placebo in reducing the incidence of death from cardiovascular causes, nonfatal my"
+  },
+  "inclusionCriteria": [],
+  "exclusionCriteria": [],
+  "keyTakeaways": [
+    "In patients with preexisting cardiovascular disease and overweight or obesity but without diabetes, weekly subcutaneous semaglutide at a dose of 2.4 mg was superior to placebo in reducing the incidence of death from cardiovascular causes, nonfatal my",
+    "In patients with preexisting cardiovascular disease and overweight or obesity but without diabetes, weekly subcutaneous semaglutide at a dose of 2.4 mg was superior to placebo in reducing the incidence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke at a mean "
+  ],
+  "items": [
+    {
+      "id": "tr-nejm-027-q1",
+      "referenceNumber": 1,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 1 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 1: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — World Obesity Federation. World obesity atlas 2023 (https://data.worldobesity.org/publications/?cat=19)."
+    },
+    {
+      "id": "tr-nejm-027-q2",
+      "referenceNumber": 2,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 2 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "50%"
+      ],
+      "correctOption": 3,
+      "explanation": "The nephropathy end point was a five-component composite of death from renal causes, initiation of long-term renal replacement therapy (dialysis or transplantation), onset of a persistent eGFR lower than 15 ml per minute per 1.73 m , persistent 50% reduction in eGFR relative to baseline, or onset of persistent macroalbuminuria (urinary albumin-to-creatine ratio, >300 mg per gram).",
+      "reference": "Ref 2: \"The nephropathy end point was a five-component composite of death from renal causes, initiation of long-term renal replacement therapy (dialysis or transplantat...\" — The GBD 2015 Obesity Collaborators. Health effects of overweight and obesity in 195 countries over 25 years. N Engl J Me"
+    },
+    {
+      "id": "tr-nejm-027-q3",
+      "referenceNumber": 3,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 3 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 3: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — Bogers RP, Bemelmans WJE, Hoogenveen RT, et al. Association of overweight with increased risk of coronary heart disease "
+    },
+    {
+      "id": "tr-nejm-027-q4",
+      "referenceNumber": 4,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 4 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 4: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — Hubert HB, Feinleib M, McNamara PM, Castelli WP. Obesity as an independent risk factor for cardiovascular disease: a 26-"
+    },
+    {
+      "id": "tr-nejm-027-q5",
+      "referenceNumber": 5,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 5 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 5: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — Global Burden of Metabolic Risk Factors for Chronic Diseases Collaboration (BMI Mediated Effects). Metabolic mediators o"
+    },
+    {
+      "id": "tr-nejm-027-q6",
+      "referenceNumber": 6,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 6 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 6: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — Wilson PWF, Bozeman SR, Burton TM, Hoaglin DC, Ben-Joseph R, Pashos CL. Prediction of first events of coronary heart dis"
+    },
+    {
+      "id": "tr-nejm-027-q7",
+      "referenceNumber": 7,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 7 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 7: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — Cholesterol Treatment Trialists' (CTT) Collaboration. Efficacy and safety of more intensive lowering of LDL cholesterol:"
+    },
+    {
+      "id": "tr-nejm-027-q8",
+      "referenceNumber": 8,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 8 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 8: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — The SPRINT Research Group. A randomized trial of intensive versus standard"
+    },
+    {
+      "id": "tr-nejm-027-q9",
+      "referenceNumber": 9,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 9 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 9: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — McGuire DK, Shih WJ, Cosentino F, et al. Association of SGLT2 inhibitors with cardiovascular and kidney outcomes in pati"
+    },
+    {
+      "id": "tr-nejm-027-sa10",
+      "referenceNumber": 10,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 10?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 10: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — Sattar N, Lee MMY, Kristensen SL, et al. Cardiovascular, mortality, and kidney outcomes with GLP-1 receptor agonists in "
+    },
+    {
+      "id": "tr-nejm-027-how11",
+      "referenceNumber": 11,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 11 relate to SELECT?",
+      "answer": "Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trials have uniformly failed to do so. The reductions in body weight achieved with other nonsurgical approaches have been substantially lower than the mean 9.4% decrease observed with semaglutide in this trial, and a post hoc analysis of data from a previous trial has suggested that cardiovascular risk might be decreased among patients who lose at least 10% of their body weight. Similarly, bariatric surgery, in which reductions in body weight of more than 20% can be achieved, has been associated with fewer cardiovascular events than usual care. However, the data are consistent with the between-group difference in the incidence of cardiovascular disease emerging early in this trial, which suggests that more rapid treatment-induced physiological changes beyond the magnitude of body-weight loss may have mediated at least part of the cardiovascular benefit.",
+      "reference": "Ref 11: \"Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trial...\" — Ma C, Avenell A, Bolland M, et al. Effects of weight loss interventions for adults who are obese on mortality, cardiovas"
+    },
+    {
+      "id": "tr-nejm-027-q12",
+      "referenceNumber": 12,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 12 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 12: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — Bohula EA, Wiviott SD, McGuire DK, et al. Cardiovascular safety of lorcaserin in overweight or obese patients. N Engl J "
+    },
+    {
+      "id": "tr-nejm-027-q13",
+      "referenceNumber": 13,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 13 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 13: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — James WPT, Caterson ID, Coutinho W, et al. Effect of sibutramine on cardiovascular outcomes in overweight and obese subj"
+    },
+    {
+      "id": "tr-nejm-027-how14",
+      "referenceNumber": 14,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 14 relate to SELECT?",
+      "answer": "Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trials have uniformly failed to do so. The reductions in body weight achieved with other nonsurgical approaches have been substantially lower than the mean 9.4% decrease observed with semaglutide in this trial, and a post hoc analysis of data from a previous trial has suggested that cardiovascular risk might be decreased among patients who lose at least 10% of their body weight. Similarly, bariatric surgery, in which reductions in body weight of more than 20% can be achieved, has been associated with fewer cardiovascular events than usual care. However, the data are consistent with the between-group difference in the incidence of cardiovascular disease emerging early in this trial, which suggests that more rapid treatment-induced physiological changes beyond the magnitude of body-weight loss may have mediated at least part of the cardiovascular benefit.",
+      "reference": "Ref 14: \"Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trial...\" — The Look AHEAD Research Group. Cardiovascular effects of intensive lifestyle intervention in type 2 diabetes. N Engl J M"
+    },
+    {
+      "id": "tr-nejm-027-q15",
+      "referenceNumber": 15,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 15 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4 million deaths globally in 2015, more than two thirds of which were caused by cardiovascular diseases. Overweight and obesity are independently associated with an increased risk of cardiovascular events, even after the influence of metabolic cardiovascular risk factors linked to excess weight has been accounted for. Although reducing the risk of cardiovascular disease by treating dyslipidemia, hypertension, and diabetes is standard evidence-based practice, the concept of treating obesity to reduce the risk of cardiovascular complications has been hampered by the lack of evidence from trials indicating that lifestyle or pharmacologic interventions for overweight or obesity improve cardiovascular outcomes.",
+      "reference": "Ref 15: \"MORE THAN HALF THE WORLD POPULATION is projected to have overweight or obesity by the year 2035. High body-mass index (BMI) is estimated to have accounted for 4...\" — Nissen SE, Wolski KE, Prcela L, et al. Effect of naltrexone-bupropion on major adverse cardiovascular events in overweig"
+    },
+    {
+      "id": "tr-nejm-027-why16",
+      "referenceNumber": 16,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammati…",
+      "answer": "Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammation, improve endothelial and left ventricular function, promote plaque stability, and decrease platelet aggregation. In this trial, semaglutide was associated with changes in multiple biomarkers of cardiovascular risk, including blood pressure, waist circumference, glycemic control, nephropathy, and levels of lipids and C-reactive protein. For perspective, the observed decrease of 3.3 mm Hg in systolic blood pressure in this trial is greater than the decrease of 2 mm Hg predicted by a meta-analysis to yield a 7% reduction in vascular mortality, and the 37.8-percentage-point decrease in the high-sensitivity C-reactive protein level with semaglutide in this trial is similar to that reported with statins. These changes in cardiovascular biomarkers are notable for having been achieved on a background of high rates of use of statins, antihypertensive agents, and other evidence-based medications for atherosclerotic disease. Although our understanding of the mechanisms of cardiovascular protection with semaglutide remains speculative, the consistent effects on cardiometabolic risk factors support the hypothesis that clinical benefit is achieved through multiple interrelated pathways",
+      "reference": "Ref 16: \"Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammation, improve endothelial and left ventric...\" — Drucker DJ. The cardiovascular biology of glucagon-like peptide-1. Cell Metab 2016;24:15-30."
+    },
+    {
+      "id": "tr-nejm-027-how17",
+      "referenceNumber": 17,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 17 relate to SELECT?",
+      "answer": "Agonists of the glucagon-like peptide-1 (GLP-1) receptor are used in the management of type 2 diabetes and overweight or obesity and have been shown to reduce the risk of major adverse cardiovascular events in patients with type 2 diabetes who are at high cardiovascular risk. Although these agents affect a broad range of metabolic pathways associated with glucose metabolism, energy homeostasis, and inflammation that might be hypothesized to also improve cardiovascular outcomes among people who do not have diabetes, it is unknown whether GLP-1 receptor agonists can reduce the cardiovascular risk associated with overweight and obesity. Semaglutide, a long-acting analogue of GLP-1, administered at a dose of 2.4 mg subcutaneously once weekly for 104 weeks, was found to reduce body weight by a mean of 15.2% among patients with overweight or obesity who did not have diabetes. In the Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity (SELECT) trial, we tested the hypothesis that the addition of semaglutide to standard care would be superior to placebo in reducing the risk of major adverse cardiovascular events among patients with overweight or obesity and preexisting cardiovascular disease who did not have diabetes.",
+      "reference": "Ref 17: \"Agonists of the glucagon-like peptide-1 (GLP-1) receptor are used in the management of type 2 diabetes and overweight or obesity and have been shown to reduce t...\" — Drucker DJ, Nauck MA. The incretin system: glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibito"
+    },
+    {
+      "id": "tr-nejm-027-how18",
+      "referenceNumber": 18,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 18 relate to SELECT?",
+      "answer": "Agonists of the glucagon-like peptide-1 (GLP-1) receptor are used in the management of type 2 diabetes and overweight or obesity and have been shown to reduce the risk of major adverse cardiovascular events in patients with type 2 diabetes who are at high cardiovascular risk. Although these agents affect a broad range of metabolic pathways associated with glucose metabolism, energy homeostasis, and inflammation that might be hypothesized to also improve cardiovascular outcomes among people who do not have diabetes, it is unknown whether GLP-1 receptor agonists can reduce the cardiovascular risk associated with overweight and obesity. Semaglutide, a long-acting analogue of GLP-1, administered at a dose of 2.4 mg subcutaneously once weekly for 104 weeks, was found to reduce body weight by a mean of 15.2% among patients with overweight or obesity who did not have diabetes. In the Semaglutide Effects on Cardiovascular Outcomes in People with Overweight or Obesity (SELECT) trial, we tested the hypothesis that the addition of semaglutide to standard care would be superior to placebo in reducing the risk of major adverse cardiovascular events among patients with overweight or obesity and preexisting cardiovascular disease who did not have diabetes.",
+      "reference": "Ref 18: \"Agonists of the glucagon-like peptide-1 (GLP-1) receptor are used in the management of type 2 diabetes and overweight or obesity and have been shown to reduce t...\" — Garvey WT, Batterham RL, Bhatta M, et al. Two-year effects of semaglutide in adults with overweight or obesity: the STEP"
+    },
+    {
+      "id": "tr-nejm-027-why19",
+      "referenceNumber": 19,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: We conducted this multicenter, double-blind, randomized, placebo-controlled, event-driven superiority trial at 804 clini…",
+      "answer": "We conducted this multicenter, double-blind, randomized, placebo-controlled, event-driven superiority trial at 804 clinical sites in 41 countries (details are provided in the Supplementary Appendix, available with the full text of this article at NEJM.org). The trial design has been published previously. The trial protocol (available at NEJM.org) was designed by the sponsor, Novo Nordisk, and the academic steering committee. Details of the organization of the trial are provided in the Supplementary Appendix. National and institutional regulatory and ethical authorities approved the protocol, and all the patients provided written informed consent. The first and last authors vouch for the accuracy and completeness of the data and for the fidelity of the trial to the protocol",
+      "reference": "Ref 19: \"We conducted this multicenter, double-blind, randomized, placebo-controlled, event-driven superiority trial at 804 clinical sites in 41 countries (details are p...\" — Ryan DH, Lingvay I, Colhoun HM, et al. Semaglutide effects on cardiovascular outcomes in people with overweight or obesi"
+    },
+    {
+      "id": "tr-nejm-027-sa20",
+      "referenceNumber": 20,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 20?",
+      "modelAnswer": "Efficacy analyses were based on the intention-to-treat principle and included all unique patients who underwent randomization irrespective of adherence to semaglutide or placebo or changes to background medications. Data from patients who withdrew from the trial, died from causes not included in the",
+      "reference": "Ref 20: \"Efficacy analyses were based on the intention-to-treat principle and included all unique patients who underwent randomization irrespective of adherence to semag...\" — Wassmer G, Brannath W. Group sequential and confirmatory adaptive designs in clinical trials. Cham, Switzerland: Springe"
+    },
+    {
+      "id": "tr-nejm-027-why21",
+      "referenceNumber": 21,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: If primary end-point events occurred in a smaller percentage of patients treated with semaglutide than with placebo, con…",
+      "answer": "If primary end-point events occurred in a smaller percentage of patients treated with semaglutide than with placebo, confirmatory secondary end points were to be evaluated in the following hierarchical order: death from cardiovascular causes, the heart failure composite end point, and death from any cause. A gatekeeping testing strategy was used, with statistical significance at each step required in order to test the next hypothesis, with the use of a separate alpha-spending function as described by Glimm and colleagues to preserve the studywise one-sided type 1 error at 2.5%. Although the statistical analysis plan specified that one-sided P values would be used for hypothesis testing, results are reported here with two-sided P values. Continuous supportive secondary end points (changes from baseline to week 104) were assessed by analysis of covariance, with multiple imputation used for missing values under a missing-at-random assumption; because these supportive end points were not adjusted for multiplicity, confidence intervals should not be used in place of a hypothesis test. All statistical analyses were performed with SAS software, version 9.4 TS1M5 (SAS Institute)",
+      "reference": "Ref 21: \"If primary end-point events occurred in a smaller percentage of patients treated with semaglutide than with placebo, confirmatory secondary end points were to b...\" — Glimm E, Maurer W, Bretz F. Hierarchical testing of multiple endpoints in group-sequential trials. Stat Med 2010;29:219-"
+    },
+    {
+      "id": "tr-nejm-027-q22",
+      "referenceNumber": 22,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 22 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "The EuroQol 5-Dimension 5-Level (EQ-5D-5L) index score ranges from 0 to 1, with higher scores indicating better patient-reported health status. The index score is calculated only if responses are available from all five questions. The EuroQol 5-Dimension Visual Analogue Scale (EQ-5D-VAS) score ranges from 0 to 100, with higher scores indicating better patient-reported health status.",
+      "reference": "Ref 22: \"The EuroQol 5-Dimension 5-Level (EQ-5D-5L) index score ranges from 0 to 1, with higher scores indicating better patient-reported health status. The index score ...\" — Devlin NJ, Shah KK, Feng Y, Mulhern B, van Hout B. Valuing health-related quality of life: an EQ-5D-5L value set for Eng"
+    },
+    {
+      "id": "tr-nejm-027-how23",
+      "referenceNumber": 23,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 23 relate to SELECT?",
+      "answer": "summarized in Table 1 and Table S1 in the Supplementary Appendix, and the representativeness of patients enrolled in the trial is shown in Table S2; detailed characteristics of the pooled patient population (before the randomization assignments were revealed) have been reported previously. The mean ( SD) age of the patients was years, and 12,732 patients (72.3%) were male. The mean BMI was , and 12,580 patients (71.5%) met the BMI criterion for obesity ( ). The mean glycated hemoglobin level was , and 11,696 patients (66.4%) met the glycated hemoglobin criterion for prediabetes (defined as a mean level of 5.7 to 6.4%). More than three quarters of the patients had had a previous myocardial infarction, and nearly one quarter had chronic heart failure. The use of guideline-based medical therapies for cardiovascular disease appeared to be well balanced between the groups. Most of the patients were receiving lipid-lowering medications (90.1%) and platelet-aggregation inhibitors (86.2%), 70.2% of the patients were taking beta-blockers, 45.0% were taking angiotensin-converting-enzyme inhibitors, and 29.5% were taking angiotensin-receptor blockers.",
+      "reference": "Ref 23: \"summarized in Table 1 and Table S1 in the Supplementary Appendix, and the representativeness of patients enrolled in the trial is shown in Table S2; detailed ch...\" — Lingvay I, Brown-Frandsen K, Colhoun HM, et al. Semaglutide for cardiovascular event reduction in people with overweight"
+    },
+    {
+      "id": "tr-nejm-027-sa24",
+      "referenceNumber": 24,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 24?",
+      "modelAnswer": "Panel A shows the cumulative incidence of the primary cardiovascular composite end point (death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke). Panel B shows the cumulative incidence of the first confirmatory secondary end point (death from cardiovascular causes). Pa",
+      "reference": "Ref 24: \"Panel A shows the cumulative incidence of the primary cardiovascular composite end point (death from cardiovascular causes, nonfatal myocardial infarction, or n...\" — Andersen PK, Borgun O, Gill RD, Keiding N. Statistical models based on counting processes. New York: Springer, 1993."
+    },
+    {
+      "id": "tr-nejm-027-why25",
+      "referenceNumber": 25,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: GLP-1 receptor agonists are recognized to have cardioprotective effects in patients with type 2 diabetes. We conducted t…",
+      "answer": "GLP-1 receptor agonists are recognized to have cardioprotective effects in patients with type 2 diabetes. We conducted this trial to determine whether semaglutide, a potent long-acting medication in this class, would diminish excess cardiovascular risk associated with overweight",
+      "reference": "Ref 25: \"GLP-1 receptor agonists are recognized to have cardioprotective effects in patients with type 2 diabetes. We conducted this trial to determine whether semagluti...\" — Trujillo JM, Nuffer W, Smith BA. GLP-1 receptor agonists: an updated review of head-to-head clinical studies. Ther Adv E"
+    },
+    {
+      "id": "tr-nejm-027-q26",
+      "referenceNumber": 26,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 26 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "ment with GLP-1 receptor agonists, particularly at initiation and dose escalation. The incidence of gallbladder-related disorders was higher with semaglutide than with placebo, an association that has also been reported previously. Nonetheless, serious adverse events related to gastrointestinal disease, acute kidney failure, pancreatitis, cancers, or psychiatric disorders were not more frequent with semaglutide than with placebo.",
+      "reference": "Ref 26: \"ment with GLP-1 receptor agonists, particularly at initiation and dose escalation. The incidence of gallbladder-related disorders was higher with semaglutide th...\" — Gorgojo-Martínez JJ, Mezquita-Raya P, Carretero-Gómez J, et al. Clinical recommendations to manage gastrointestinal adve"
+    },
+    {
+      "id": "tr-nejm-027-q27",
+      "referenceNumber": 27,
+      "type": "mcq",
+      "subtopic": "SELECT",
+      "question": "Which finding is supported by reference 27 in SELECT?",
+      "options": [
+        "Placebo response only",
+        "Not reported in this trial",
+        "Opposite direction of effect",
+        "See reference text"
+      ],
+      "correctOption": 3,
+      "explanation": "ment with GLP-1 receptor agonists, particularly at initiation and dose escalation. The incidence of gallbladder-related disorders was higher with semaglutide than with placebo, an association that has also been reported previously. Nonetheless, serious adverse events related to gastrointestinal disease, acute kidney failure, pancreatitis, cancers, or psychiatric disorders were not more frequent with semaglutide than with placebo.",
+      "reference": "Ref 27: \"ment with GLP-1 receptor agonists, particularly at initiation and dose escalation. The incidence of gallbladder-related disorders was higher with semaglutide th...\" — He L, Wang J, Ping F, et al. Association of glucagon-like peptide-1 receptor agonist use with risk of gallbladder and bi"
+    },
+    {
+      "id": "tr-nejm-027-why28",
+      "referenceNumber": 28,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: Mechanisms of cardiovascular risk reduction with semaglutide may include those related to physiological benefits from th…",
+      "answer": "Mechanisms of cardiovascular risk reduction with semaglutide may include those related to physiological benefits from the reduction of excess abnormal body fat and actions of semaglutide other than weight loss. Weight loss across a spectrum of elevated BMIs produces not only improvements in glucose levels and the traditional cardiovascular intermediate risk factors but also reductions in ectopic adipose tissue depots that may contribute to atherosclerosis and myocardial dysfunction. Perivascular and epicardial adipose tissue impose direct adverse effects on the vascular endothelium and myocardial",
+      "reference": "Ref 28: \"Mechanisms of cardiovascular risk reduction with semaglutide may include those related to physiological benefits from the reduction of excess abnormal body fat ...\" — Wing RR, Lang W, Wadden TA, et al. Benefits of modest weight loss in improving cardiovascular risk factors in overweight"
+    },
+    {
+      "id": "tr-nejm-027-why29",
+      "referenceNumber": 29,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: Mechanisms of cardiovascular risk reduction with semaglutide may include those related to physiological benefits from th…",
+      "answer": "Mechanisms of cardiovascular risk reduction with semaglutide may include those related to physiological benefits from the reduction of excess abnormal body fat and actions of semaglutide other than weight loss. Weight loss across a spectrum of elevated BMIs produces not only improvements in glucose levels and the traditional cardiovascular intermediate risk factors but also reductions in ectopic adipose tissue depots that may contribute to atherosclerosis and myocardial dysfunction. Perivascular and epicardial adipose tissue impose direct adverse effects on the vascular endothelium and myocardial",
+      "reference": "Ref 29: \"Mechanisms of cardiovascular risk reduction with semaglutide may include those related to physiological benefits from the reduction of excess abnormal body fat ...\" — Heymsfield SB, Wadden TA. Mechanisms, pathophysiology, and management of obesity. N Engl J Med 2017;376:254-66."
+    },
+    {
+      "id": "tr-nejm-027-why30",
+      "referenceNumber": 30,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: dium. In addition, reductions in excess abnormal body fat ameliorate the systemic proinflammatory and prothrombotic mili…",
+      "answer": "dium. In addition, reductions in excess abnormal body fat ameliorate the systemic proinflammatory and prothrombotic milieu associated with obesity",
+      "reference": "Ref 30: \"dium. In addition, reductions in excess abnormal body fat ameliorate the systemic proinflammatory and prothrombotic milieu associated with obesity.\" — Iacobellis G. Epicardial adipose tissue in contemporary cardiology. Nat Rev Cardiol 2022;19:593-606."
+    },
+    {
+      "id": "tr-nejm-027-why31",
+      "referenceNumber": 31,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: dium. In addition, reductions in excess abnormal body fat ameliorate the systemic proinflammatory and prothrombotic mili…",
+      "answer": "dium. In addition, reductions in excess abnormal body fat ameliorate the systemic proinflammatory and prothrombotic milieu associated with obesity",
+      "reference": "Ref 31: \"dium. In addition, reductions in excess abnormal body fat ameliorate the systemic proinflammatory and prothrombotic milieu associated with obesity.\" — Magkos F, Fraterrigo G, Yoshino J, et al. Effects of moderate and subsequent progressive weight loss on metabolic functi"
+    },
+    {
+      "id": "tr-nejm-027-how32",
+      "referenceNumber": 32,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 32 relate to SELECT?",
+      "answer": "Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trials have uniformly failed to do so. The reductions in body weight achieved with other nonsurgical approaches have been substantially lower than the mean 9.4% decrease observed with semaglutide in this trial, and a post hoc analysis of data from a previous trial has suggested that cardiovascular risk might be decreased among patients who lose at least 10% of their body weight. Similarly, bariatric surgery, in which reductions in body weight of more than 20% can be achieved, has been associated with fewer cardiovascular events than usual care. However, the data are consistent with the between-group difference in the incidence of cardiovascular disease emerging early in this trial, which suggests that more rapid treatment-induced physiological changes beyond the magnitude of body-weight loss may have mediated at least part of the cardiovascular benefit.",
+      "reference": "Ref 32: \"Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trial...\" — The Look AHEAD Research Group. Association of the magnitude of weight loss and changes in physical fitness with long-ter"
+    },
+    {
+      "id": "tr-nejm-027-how33",
+      "referenceNumber": 33,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 33 relate to SELECT?",
+      "answer": "Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trials have uniformly failed to do so. The reductions in body weight achieved with other nonsurgical approaches have been substantially lower than the mean 9.4% decrease observed with semaglutide in this trial, and a post hoc analysis of data from a previous trial has suggested that cardiovascular risk might be decreased among patients who lose at least 10% of their body weight. Similarly, bariatric surgery, in which reductions in body weight of more than 20% can be achieved, has been associated with fewer cardiovascular events than usual care. However, the data are consistent with the between-group difference in the incidence of cardiovascular disease emerging early in this trial, which suggests that more rapid treatment-induced physiological changes beyond the magnitude of body-weight loss may have mediated at least part of the cardiovascular benefit.",
+      "reference": "Ref 33: \"Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trial...\" — Mentias A, Aminian A, Youssef D, et al. Long-term cardiovascular outcomes after bariatric surgery in the Medicare popula"
+    },
+    {
+      "id": "tr-nejm-027-how34",
+      "referenceNumber": 34,
+      "type": "how",
+      "subtopic": "SELECT",
+      "question": "How does the process described in reference 34 relate to SELECT?",
+      "answer": "Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trials have uniformly failed to do so. The reductions in body weight achieved with other nonsurgical approaches have been substantially lower than the mean 9.4% decrease observed with semaglutide in this trial, and a post hoc analysis of data from a previous trial has suggested that cardiovascular risk might be decreased among patients who lose at least 10% of their body weight. Similarly, bariatric surgery, in which reductions in body weight of more than 20% can be achieved, has been associated with fewer cardiovascular events than usual care. However, the data are consistent with the between-group difference in the incidence of cardiovascular disease emerging early in this trial, which suggests that more rapid treatment-induced physiological changes beyond the magnitude of body-weight loss may have mediated at least part of the cardiovascular benefit.",
+      "reference": "Ref 34: \"Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous trial...\" — Sjöström L, Peltonen M, Jacobson P, et al. Bariatric surgery and long-term cardiovascular events. JAMA 2012;307:56-65."
+    },
+    {
+      "id": "tr-nejm-027-why35",
+      "referenceNumber": 35,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammati…",
+      "answer": "Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammation, improve endothelial and left ventricular function, promote plaque stability, and decrease platelet aggregation. In this trial, semaglutide was associated with changes in multiple biomarkers of cardiovascular risk, including blood pressure, waist circumference, glycemic control, nephropathy, and levels of lipids and C-reactive protein. For perspective, the observed decrease of 3.3 mm Hg in systolic blood pressure in this trial is greater than the decrease of 2 mm Hg predicted by a meta-analysis to yield a 7% reduction in vascular mortality, and the 37.8-percentage-point decrease in the high-sensitivity C-reactive protein level with semaglutide in this trial is similar to that reported with statins. These changes in cardiovascular biomarkers are notable for having been achieved on a background of high rates of use of statins, antihypertensive agents, and other evidence-based medications for atherosclerotic disease. Although our understanding of the mechanisms of cardiovascular protection with semaglutide remains speculative, the consistent effects on cardiometabolic risk factors support the hypothesis that clinical benefit is achieved through multiple interrelated pathways",
+      "reference": "Ref 35: \"Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammation, improve endothelial and left ventric...\" — Lewington S, Clarke R, Qizlibash N, Peto R, Collins R, Prospective Studies Collaboration. Age-specific relevance of usua"
+    },
+    {
+      "id": "tr-nejm-027-why36",
+      "referenceNumber": 36,
+      "type": "why",
+      "subtopic": "SELECT",
+      "question": "Why is the following clinically relevant in SELECT? Context: Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammati…",
+      "answer": "Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammation, improve endothelial and left ventricular function, promote plaque stability, and decrease platelet aggregation. In this trial, semaglutide was associated with changes in multiple biomarkers of cardiovascular risk, including blood pressure, waist circumference, glycemic control, nephropathy, and levels of lipids and C-reactive protein. For perspective, the observed decrease of 3.3 mm Hg in systolic blood pressure in this trial is greater than the decrease of 2 mm Hg predicted by a meta-analysis to yield a 7% reduction in vascular mortality, and the 37.8-percentage-point decrease in the high-sensitivity C-reactive protein level with semaglutide in this trial is similar to that reported with statins. These changes in cardiovascular biomarkers are notable for having been achieved on a background of high rates of use of statins, antihypertensive agents, and other evidence-based medications for atherosclerotic disease. Although our understanding of the mechanisms of cardiovascular protection with semaglutide remains speculative, the consistent effects on cardiometabolic risk factors support the hypothesis that clinical benefit is achieved through multiple interrelated pathways",
+      "reference": "Ref 36: \"Medications in the GLP-1 receptor agonist class have been shown in animals with or without diabetes to reduce inflammation, improve endothelial and left ventric...\" — Asher J, Houston M. Statins and C-reactive protein levels. J Clin Hypertens (Greenwich) 2007;9:622-8."
+    },
+    {
+      "id": "tr-nejm-027-sa37",
+      "referenceNumber": 37,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 37?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 37: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — Einarson TR, Acs A, Ludwig C, Panton UH. Prevalence of cardiovascular disease in type 2 diabetes: a systematic literatur"
+    },
+    {
+      "id": "tr-nejm-027-sa38",
+      "referenceNumber": 38,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 38?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 38: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — ElSayed NA, Aleppo G, Aroda VR, et al. Cardiovascular disease and risk management: standards of care in diabetes — 2023."
+    },
+    {
+      "id": "tr-nejm-027-sa39",
+      "referenceNumber": 39,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 39?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 39: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — ElSayed NA, Aleppo G, Aroda VR, et al. Obesity and weight management for the prevention and treatment of type 2 diabetes"
+    },
+    {
+      "id": "tr-nejm-027-sa40",
+      "referenceNumber": 40,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 40?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 40: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — Husain M, Birkenfeld AL, Donsmark M, et al. Oral semaglutide and cardiovascular outcomes in patients with type 2 diabete"
+    },
+    {
+      "id": "tr-nejm-027-sa41",
+      "referenceNumber": 41,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 41?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 41: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — Marso SP, Bain SC, Consoli A, et al. Semaglutide and cardiovascular outcomes in patients with type 2 diabetes. N Engl J "
+    },
+    {
+      "id": "tr-nejm-027-sa42",
+      "referenceNumber": 42,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 42?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 42: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — Mak K-H, Vidal-Petiot E, Young R, et al. Prevalence of diabetes and impact on cardiovascular events and mortality in pat"
+    },
+    {
+      "id": "tr-nejm-027-sa43",
+      "referenceNumber": 43,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From SELECT, what is the key numeric finding cited in reference 43?",
+      "modelAnswer": "Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 receptor agonists in patients with diabetes who need cardiovascular risk reduction, weight management, or both. Major adverse cardiovascular events",
+      "reference": "Ref 43: \"Recommendations for the treatment of type 2 diabetes have long targeted cardiovascular risk reduction, and current guidelines recommend the use of GLP-1 recepto...\" — Lawal Y, Bello F, Kaoje YS. Prediabetes deserves more attention: a review. Clin Diabetes 2020;38:328-38. Copyright © 202"
+    }
+  ]
+}

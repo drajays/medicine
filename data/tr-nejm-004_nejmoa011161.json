@@ -1,0 +1,484 @@
+{
+  "id": "tr-nejm-004",
+  "trialType": "clinical_trial",
+  "subsection": "nejm",
+  "sourceKey": "NEJMoa011161",
+  "paperType": "rct",
+  "title": "RENAAL",
+  "subtitle": "RENAAL — Losartan in Diabetic Nephropathy",
+  "section": "Trials",
+  "category": "Nephrology",
+  "authors": "Lewis EJ, Hunsicker LG, Bain RP, Rohde RD. The effect of angiotensin-converting-",
+  "sourceFile": "noupload/NEJM/nejmoa011161/paper.md",
+  "bibliography": [
+    {
+      "number": 1,
+      "entry": "Lewis EJ, Hunsicker LG, Bain RP, Rohde RD. The effect of angiotensin-converting-enzyme inhibition on diabetic nephropathy. N Engl J Med 1993;329:1456-62."
+    },
+    {
+      "number": 2,
+      "entry": "Maschio G, Alberti D, Janin G, et al. Effect of the angiotensin-converting-enzyme inhibitor benazepril on the progression of chronic renal insufficiency. N Engl J Med 1996;334:939-45."
+    },
+    {
+      "number": 3,
+      "entry": "Randomised placebo-controlled trial of effect of ramipril on decline in glomerular filtration rate and risk of terminal renal failure in proteinuric, non-diabetic nephropathy: the GISEN Group. Lancet 1997;349:1857-63."
+    },
+    {
+      "number": 4,
+      "entry": "Brenner BM, Cooper ME, de Zeeuw D, et al. The Losartan Renal Protection Study: rationale, study design and baseline characteristics of RENAAL (Reduction of Endpoints in NIDDM with the Angiotensin II Antagonist Losartan). J Renin Angiotensin Aldosterone Syst 2000;1(4):328-35."
+    },
+    {
+      "number": 5,
+      "entry": "Mann JFE, Gerstein HC, Pogue J, Bosch J, Yusuf S. Renal insufficiency as a predictor of cardiovascular outcomes and the impact of ramipril: the HOPE randomized trial. Ann Intern Med 2001;134:629-36."
+    },
+    {
+      "number": 6,
+      "entry": "Mitch WE, Walser M, Buffington GA, Lemann J Jr. A simple method of estimating progression of chronic renal failure. Lancet 1976;2:1326-8."
+    },
+    {
+      "number": 7,
+      "entry": "Cox DR. Regression models and life-tables. J R Stat Soc [B] 1972;34:187-220."
+    },
+    {
+      "number": 8,
+      "entry": "Kaplan EL, Meier P. Nonparametric estimation from incomplete observations. J Am Stat Assoc 1958;53:457-81."
+    },
+    {
+      "number": 9,
+      "entry": "The mixed procedure. In: SAS Institute. SAS/STAT software: changes and enhancements through release 6.12. Cary, N.C.: SAS Institute, 1977: 573-701."
+    },
+    {
+      "number": 10,
+      "entry": "O'Brien PC, Fleming TR. A multiple testing procedure for clinical trials. Biometrics 1979;35:549-56."
+    },
+    {
+      "number": 11,
+      "entry": "Black HR, Kuller LH, O'Rourke MF, et al. The first report of the Systolic and Pulse Pressure (SYPP) working group. J Hypertens 1999;17:Suppl 5:S3-S14."
+    },
+    {
+      "number": 12,
+      "entry": "Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D. A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. Ann Intern Med 1999;130:461-70."
+    },
+    {
+      "number": 13,
+      "entry": "Levey AS, Greene T, Kusek JW, Beck GJ. A simplified equation to predict glomerular filtration rate from serum creatinine. J Am Soc Nephrol 2000;11:155A. abstract."
+    },
+    {
+      "number": 14,
+      "entry": "Walker WG, Hermann J, Anderson J, Zachary J, Russell RP. Blood pressure (BP) control slows decline of glomerular filtration rate (GFR) in hypertensive NIDDM patients. J Am Soc Nephrol 1992;3:339. abstract."
+    },
+    {
+      "number": 15,
+      "entry": "Lebovitz HE, Wiegmann TB, Cnaan A, et al. Renal protective effects of enalapril in hypertensive NIDDM: role of baseline albuminuria. Kidney Int Suppl 1994;45:S150-S155."
+    },
+    {
+      "number": 16,
+      "entry": "Bakris GL, Copley JB, Vicknair N, Sadler R, Leurgans S. Calcium channel blockers versus other antihypertensive therapies on progression of NIDDM associated nephropathy. Kidney Int 1996;50:1641-50."
+    },
+    {
+      "number": 17,
+      "entry": "Nielsen FS, Rossing P, Gall MA, Skott P, Smidt UM, Parving HH. Long-term effect of lisinopril and atenolol on kidney function in hypertensive NIDDM subjects with diabetic nephropathy. Diabetes 1997;46:1182-8."
+    },
+    {
+      "number": 18,
+      "entry": "Fogari R, Zoppi A, Corradi L, et al. Long-term effects of ramipril and nitrendipine on albuminuria in hypertensive patients with type II diabetes and impaired renal function. J Hum Hypertens 1999;13:47-53."
+    },
+    {
+      "number": 19,
+      "entry": "Estacio RO, Jeffers BW, Gifford N, Schrier RW. Effect of blood pressure control on diabetic microvascular complications in patients with hypertension and type 2 diabetes. Diabetes Care 2000;23:Suppl 2:B54-B64."
+    },
+    {
+      "number": 20,
+      "entry": "Heart Outcomes Prevention Evaluation (HOPE) Study Investigators. Effects of ramipril on cardiovascular and microvascular outcomes in people with diabetes mellitus: results of the HOPE study and MICRO-HOPE substudy. Lancet 2000;355:253-9."
+    },
+    {
+      "number": 21,
+      "entry": "Ravid M, Savin H, Jutrin I, Bental T, Katz B, Lishner M. Long-term stabilizing effect of angiotensin-converting enzyme inhibition on plasma creatinine and on proteinuria in normotensive type II diabetic patients. Ann Intern Med 1993;118:577-81."
+    },
+    {
+      "number": 22,
+      "entry": "Ahmad J, Siddiqui MA, Ahmad H. Effective postponement of diabetic nephropathy with enalapril in normotensive type 2 diabetic patients with microalbuminuria. Diabetes Care 1997;20:1576-81."
+    },
+    {
+      "number": 23,
+      "entry": "Ruggenenti P, Perna A, Gherardi G, Benini R, Remuzzi G. Chronic proteinuric nephropathies: outcomes and response to treatment in a prospective cohort of 352 patients with different patterns of renal injury. Am J Kidney Dis 2000;35:1155-65."
+    },
+    {
+      "number": 24,
+      "entry": "Efficacy of atenolol and captopril in reducing risk of macrovascular and microvascular complications in type 2 diabetes. UKPDS 39: U.K. Prospective Diabetes Study Group. BMJ 1998;317:713-20."
+    },
+    {
+      "number": 25,
+      "entry": "Agodoa LY, Appel L, Bakris GL, et al. Effect of ramipril vs amlodipine on renal outcomes in hypertensive nephrosclerosis: a randomized controlled trial. JAMA 2001;285:2719-28."
+    },
+    {
+      "number": 26,
+      "entry": "Estacio RO, Jeffers BW, Hiatt WR, Biggerstaff SL, Gifford N, Schrier RW. The effect of nisoldipine as compared with enalapril on cardiovascular outcomes in patients with non-insulin-dependent diabetes and hypertension. N Engl J Med 1998;338:645-52."
+    },
+    {
+      "number": 27,
+      "entry": "Tatti P, Pahor M, Byington RP, et al. Outcome results of the Fosinopril versus Amlodipine Cardiovascular Events Randomized Trial (FACET) in patients with hypertension and NIDDM. Diabetes Care 1998;21:597-603."
+    },
+    {
+      "number": 28,
+      "entry": "Lewis EJ, Hunsicker LG, Clarke WR, et al. Renoprotective effect of the angiotensin-receptor antagonist irbesartan in patients with nephropathy due to type 2 diabetes. N Engl J Med 2001;345:851-60."
+    },
+    {
+      "number": 29,
+      "entry": "Parving H-H, Lehnert H, Bröchner-Mortensen J, Gomis R, Andersen S, Arner P. The effect of irbesartan on the development of diabetic ne-"
+    },
+    {
+      "number": 30,
+      "entry": "Bauer JH, Reams GP. Antihypertensive drugs. In: Brenner BM, ed. The kidney. 6th ed. Philadelphia: W.B. Saunders, 2000:2253-97."
+    },
+    {
+      "number": 31,
+      "entry": "The SOLVD Investigators. Effect of enalapril on mortality and the development of heart failure in asymptomatic patients with reduced left ventricular ejection fractions. N Engl J Med 1992;327:685-91."
+    },
+    {
+      "number": 32,
+      "entry": "The Heart Outcomes Prevention Evaluation Study Investigators. Effects of an angiotensin-converting-enzyme inhibitor, ramipril, on cardiovascular events in high-risk patients. N Engl J Med 2000;342:145-53."
+    },
+    {
+      "number": 33,
+      "entry": "National Institutes of Health. Excerpts from the United States Renal Data System's 2000 annual data report: atlas of end-stage renal disease in the United States: incidence and prevalence of ESRD. Am J Kidney Dis 2000;36:Suppl 2:S37-S54."
+    },
+    {
+      "number": 34,
+      "entry": "National Institutes of Health. Excerpts from the United States Renal Data System's 2000 annual data report: atlas of end-stage renal disease in the United States: economic costs of ESRD. Am J Kidney Dis 2000;36:Suppl 2:S163-S176. Copyright © 2001 Massachusetts Medical Society. # The New England Journal of Medicine Copyright © 2001 by the Massachusetts Medical Society VOLUME 345 SEPTEMBER 20, 2001 NUMBER 12"
+    }
+  ],
+  "trialDesign": {
+    "fullName": "EFFECTS OF LOSARTAN ON RENAL AND CARDIOVASCULAR OUTCOMES IN PATIENTS WITH TYPE 2 DIABETES AND NEPHROPATHY",
+    "overview": "Background Diabetic nephropathy is the leading cause of end-stage renal disease. Interruption of the renin-angiotensin system slows the progression of renal disease in patients with type 1 diabetes, but similar data are not available for patients with type 2, the most common form of diabetes. We assessed the role of the angiotensin-II-receptor antagonist losartan in patients with type 2 diabetes and nephropathy. Methods A total of 1513 patients were enrolled in this randomized, double-blind stud",
+    "design": "randomized, placebo-controlled study designed to evaluate the renoprotective effects of losartan in 1513 patients with type 2 diabetes and nephropathy.",
+    "population": "patients with type 2 diabetes and nephropathy.",
+    "comparator": "placebo"
+  },
+  "trialSummary": {
+    "headings": {
+      "design": "randomized, placebo-controlled study designed to evaluate the renoprotective effects of losartan in 1513 patients with type 2 diabetes and nephropathy.",
+      "population": "patients with type 2 diabetes and nephropathy.",
+      "comparator": "placebo"
+    },
+    "outcomes": [],
+    "conclusion": "Our study establishes that losartan, along with conventional antihypertensive treatment as needed, confers strong renal protection in patients with type 2 diabetes and nephropathy. The risk of the primary end point, a composite of a doubling of the serum creatinine concentration, end-stage renal disease, or death from any cause, was reduced by 16 percent with losartan. The primary benefit appeared to be the effect on the renal components of this composite end point. In particular, the risk of end-stage renal disease was reduced by 28 percent with losartan during an average follow-up of 3.4 yea",
+    "clinicalBottomLine": "Our study establishes that losartan, along with conventional antihypertensive treatment as needed, confers strong renal protection in patients with type 2 diabetes and nephropathy. The risk of the primary end point, a composite of a doubling of the s"
+  },
+  "inclusionCriteria": [],
+  "exclusionCriteria": [
+    "excluded by design from the study, may be effective in reducing the incidence of cardiovascular events in patients with renal impairment, includ ing those with diabetes."
+  ],
+  "keyTakeaways": [
+    "Our study establishes that losartan, along with conventional antihypertensive treatment as needed, confers strong renal protection in patients with type 2 diabetes and nephropathy. The risk of the primary end point, a composite of a doubling of the s",
+    "Our study establishes that losartan, along with conventional antihypertensive treatment as needed, confers strong renal protection in patients with type 2 diabetes and nephropathy. The risk of the primary end point, a composite of a doubling of the serum creatinine concentration, end-stage renal dis"
+  ],
+  "items": [
+    {
+      "id": "tr-nejm-004-how1",
+      "referenceNumber": 1,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 1 relate to RENAAL?",
+      "answer": "INTERRUPTION of the renin–angiotensin system with angiotensin-I–converting enzyme inhibitors slows the progression of renal disease both in patients with type 1 diabetes and in nondiabetic patients who have overt nephropathy. However, postponing end-stage renal disease in patients with type 2 diabetes, the leading cause of chronic renal failure in many countries, remains an elusive goal. We undertook a study in patients with type 2 diabetes and nephropathy in order to determine whether the angiotensin-II–receptor antagonist losartan, alone or in combination with conventional antihypertensive therapy, would increase the time to a doubling of the serum creatinine concentration, the onset of end-stage renal disease, or death. In addition, we assessed the effects of losartan and placebo on the following secondary end points: a composite of morbidity and mortality from cardiovascular causes, proteinuria, and the rate of progression of renal disease.",
+      "reference": "Ref 1: \"INTERRUPTION of the renin–angiotensin system with angiotensin-I–converting enzyme inhibitors slows the progression of renal disease both in patients with type 1...\" — Lewis EJ, Hunsicker LG, Bain RP, Rohde RD. The effect of angiotensin-converting-enzyme inhibition on diabetic nephropath"
+    },
+    {
+      "id": "tr-nejm-004-how2",
+      "referenceNumber": 2,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 2 relate to RENAAL?",
+      "answer": "INTERRUPTION of the renin–angiotensin system with angiotensin-I–converting enzyme inhibitors slows the progression of renal disease both in patients with type 1 diabetes and in nondiabetic patients who have overt nephropathy. However, postponing end-stage renal disease in patients with type 2 diabetes, the leading cause of chronic renal failure in many countries, remains an elusive goal. We undertook a study in patients with type 2 diabetes and nephropathy in order to determine whether the angiotensin-II–receptor antagonist losartan, alone or in combination with conventional antihypertensive therapy, would increase the time to a doubling of the serum creatinine concentration, the onset of end-stage renal disease, or death. In addition, we assessed the effects of losartan and placebo on the following secondary end points: a composite of morbidity and mortality from cardiovascular causes, proteinuria, and the rate of progression of renal disease.",
+      "reference": "Ref 2: \"INTERRUPTION of the renin–angiotensin system with angiotensin-I–converting enzyme inhibitors slows the progression of renal disease both in patients with type 1...\" — Maschio G, Alberti D, Janin G, et al. Effect of the angiotensin-converting-enzyme inhibitor benazepril on the progressio"
+    },
+    {
+      "id": "tr-nejm-004-how3",
+      "referenceNumber": 3,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 3 relate to RENAAL?",
+      "answer": "INTERRUPTION of the renin–angiotensin system with angiotensin-I–converting enzyme inhibitors slows the progression of renal disease both in patients with type 1 diabetes and in nondiabetic patients who have overt nephropathy. However, postponing end-stage renal disease in patients with type 2 diabetes, the leading cause of chronic renal failure in many countries, remains an elusive goal. We undertook a study in patients with type 2 diabetes and nephropathy in order to determine whether the angiotensin-II–receptor antagonist losartan, alone or in combination with conventional antihypertensive therapy, would increase the time to a doubling of the serum creatinine concentration, the onset of end-stage renal disease, or death. In addition, we assessed the effects of losartan and placebo on the following secondary end points: a composite of morbidity and mortality from cardiovascular causes, proteinuria, and the rate of progression of renal disease.",
+      "reference": "Ref 3: \"INTERRUPTION of the renin–angiotensin system with angiotensin-I–converting enzyme inhibitors slows the progression of renal disease both in patients with type 1...\" — Randomised placebo-controlled trial of effect of ramipril on decline in glomerular filtration rate and risk of terminal "
+    },
+    {
+      "id": "tr-nejm-004-why4",
+      "referenceNumber": 4,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: The Reduction of Endpoints in NIDDM with the Angiotensin II Antagonist Losartan Study was an investigator-initiated, mul…",
+      "answer": "The Reduction of Endpoints in NIDDM with the Angiotensin II Antagonist Losartan Study was an investigator-initiated, multinational, double-blind, randomized, placebo-controlled study designed to evaluate the renoprotective effects of losartan in 1513 patients with type 2 diabetes and nephropathy. The study design has been described previously. In brief, 250 centers in 28 countries in Asia, Europe, Central America, South America, and North America participated. The study protocol was approved by the institutional review board of each center, and all patients gave written informed consent. The study was overseen by steering and safety committees, each of which contained one nonvoting member who was an employee of the sponsoring pharmaceutical company. The steering committee oversaw the study design, the conduct of the trial, and the management and analysis of the data. A writing subcommittee of the steering committee prepared this report. An independent end-points committee whose members were unaware of the patients' treatment assignments reviewed the data to determine which patients had reached the end points",
+      "reference": "Ref 4: \"The Reduction of Endpoints in NIDDM with the Angiotensin II Antagonist Losartan Study was an investigator-initiated, multinational, double-blind, randomized, pl...\" — Brenner BM, Cooper ME, de Zeeuw D, et al. The Losartan Renal Protection Study: rationale, study design and baseline char"
+    },
+    {
+      "id": "tr-nejm-004-how5",
+      "referenceNumber": 5,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 5 relate to RENAAL?",
+      "answer": "There was no significant difference between the losartan group and the placebo group in the composite secondary end point of morbidity and mortality from cardiovascular causes. This similarity of incidence may have resulted in part from the relatively small sample and the strict criteria for enrollment that excluded patients at high risk for cardiovascular events including heart failure. We did find a significant difference in favor of losartan with regard to the rate of a first hospitalization for heart failure, a component of this secondary composite end point. This finding in patients without clinical heart failure at base line accords well with findings from the Studies of Left Ventricular Dysfunction Prevention study. That study, however, did not include patients with impaired renal function. The Heart Outcomes Prevention Evaluation (HOPE) Study and its substudy of patients with diabetes, MICRO-HOPE, showed benefits of angiotensin-I-converting enzyme inhibition in terms of the signs and symptoms of heart failure but failed to show significant differences in hospitalizations for heart failure. Furthermore, the evaluation of a subgroup of the HOPE population with renal insufficiency did not show a significant effect on this outcome. Our findings suggest that angiotensin II blockade in patients with renal disease decreases the risk of overt heart failure resulting in hospitalization.",
+      "reference": "Ref 5: \"There was no significant difference between the losartan group and the placebo group in the composite secondary end point of morbidity and mortality from cardio...\" — Mann JFE, Gerstein HC, Pogue J, Bosch J, Yusuf S. Renal insufficiency as a predictor of cardiovascular outcomes and the "
+    },
+    {
+      "id": "tr-nejm-004-why6",
+      "referenceNumber": 6,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: The analyses of the progression of renal disease and changes in the level of proteinuria were based on an on-treatment a…",
+      "answer": "The analyses of the progression of renal disease and changes in the level of proteinuria were based on an on-treatment approach. For the analysis of the progression of renal disease, we compared the slopes of the reciprocal of the serum creatinine concentration of the two treatment groups using a linear random-effects model. Changes in the level of proteinuria in the two groups were compared by means of a mixed-effects model whose terms included the treatment at each point and the baseline level of proteinuria",
+      "reference": "Ref 6: \"The analyses of the progression of renal disease and changes in the level of proteinuria were based on an on-treatment approach. For the analysis of the progres...\" — Mitch WE, Walser M, Buffington GA, Lemann J Jr. A simple method of estimating progression of chronic renal failure. Lanc"
+    },
+    {
+      "id": "tr-nejm-004-sa7",
+      "referenceNumber": 7,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From RENAAL, what is the key numeric finding cited in reference 7?",
+      "modelAnswer": "Analyses of the primary and secondary end points were performed according to the intention-to-treat principle; we included data from all randomized patients (with the exception of three patients who were lost to follow-up), from the time of randomization through the date of study termination. In a s",
+      "reference": "Ref 7: \"Analyses of the primary and secondary end points were performed according to the intention-to-treat principle; we included data from all randomized patients (wi...\" — Cox DR. Regression models and life-tables. J R Stat Soc [B] 1972;34:187-220."
+    },
+    {
+      "id": "tr-nejm-004-sa8",
+      "referenceNumber": 8,
+      "type": "shortanswer",
+      "subtopic": "Key Outcome",
+      "question": "From RENAAL, what is the key numeric finding cited in reference 8?",
+      "modelAnswer": "Analyses of the primary and secondary end points were performed according to the intention-to-treat principle; we included data from all randomized patients (with the exception of three patients who were lost to follow-up), from the time of randomization through the date of study termination. In a s",
+      "reference": "Ref 8: \"Analyses of the primary and secondary end points were performed according to the intention-to-treat principle; we included data from all randomized patients (wi...\" — Kaplan EL, Meier P. Nonparametric estimation from incomplete observations. J Am Stat Assoc 1958;53:457-81."
+    },
+    {
+      "id": "tr-nejm-004-why9",
+      "referenceNumber": 9,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: The analyses of the progression of renal disease and changes in the level of proteinuria were based on an on-treatment a…",
+      "answer": "The analyses of the progression of renal disease and changes in the level of proteinuria were based on an on-treatment approach. For the analysis of the progression of renal disease, we compared the slopes of the reciprocal of the serum creatinine concentration of the two treatment groups using a linear random-effects model. Changes in the level of proteinuria in the two groups were compared by means of a mixed-effects model whose terms included the treatment at each point and the baseline level of proteinuria",
+      "reference": "Ref 9: \"The analyses of the progression of renal disease and changes in the level of proteinuria were based on an on-treatment approach. For the analysis of the progres...\" — The mixed procedure. In: SAS Institute. SAS/STAT software: changes and enhancements through release 6.12. Cary, N.C.: SA"
+    },
+    {
+      "id": "tr-nejm-004-why10",
+      "referenceNumber": 10,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: Because one interim analysis used a stopping boundary that was based on an alpha spending function of the O'Brien–Flemin…",
+      "answer": "Because one interim analysis used a stopping boundary that was based on an alpha spending function of the O'Brien–Fleming type, a critical P value of 0.048 was required for the primary hypothesis. For other outcomes, a P value of less than 0.05 was considered to indicate statistical significance. All statistical tests were two-sided",
+      "reference": "Ref 10: \"Because one interim analysis used a stopping boundary that was based on an alpha spending function of the O'Brien–Fleming type, a critical P value of 0.048 was ...\" — O'Brien PC, Fleming TR. A multiple testing procedure for clinical trials. Biometrics 1979;35:549-56."
+    },
+    {
+      "id": "tr-nejm-004-why11",
+      "referenceNumber": 11,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: The pulse pressure was calculated as systolic arterial pressure – diastolic arterial pressure…",
+      "answer": "The pulse pressure was calculated as systolic arterial pressure – diastolic arterial pressure",
+      "reference": "Ref 11: \"The pulse pressure was calculated as systolic arterial pressure – diastolic arterial pressure.\" — Black HR, Kuller LH, O'Rourke MF, et al. The first report of the Systolic and Pulse Pressure (SYPP) working group. J Hyp"
+    },
+    {
+      "id": "tr-nejm-004-why12",
+      "referenceNumber": 12,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D. A more accurate method to estimate glomerular filtration rate …",
+      "answer": "Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D. A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction equation. Ann Intern Med 1999;130:461-70",
+      "reference": "Ref 12: \"Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D. A more accurate method to estimate glomerular filtration rate from serum creatinine: a new prediction ...\" — Levey AS, Bosch JP, Lewis JB, Greene T, Rogers N, Roth D. A more accurate method to estimate glomerular filtration rate "
+    },
+    {
+      "id": "tr-nejm-004-why13",
+      "referenceNumber": 13,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: Levey AS, Greene T, Kusek JW, Beck GJ. A simplified equation to predict glomerular filtration rate from serum creatinine…",
+      "answer": "Levey AS, Greene T, Kusek JW, Beck GJ. A simplified equation to predict glomerular filtration rate from serum creatinine. J Am Soc Nephrol 2000;11:155A. abstract",
+      "reference": "Ref 13: \"Levey AS, Greene T, Kusek JW, Beck GJ. A simplified equation to predict glomerular filtration rate from serum creatinine. J Am Soc Nephrol 2000;11:155A. abstrac...\" — Levey AS, Greene T, Kusek JW, Beck GJ. A simplified equation to predict glomerular filtration rate from serum creatinine"
+    },
+    {
+      "id": "tr-nejm-004-how14",
+      "referenceNumber": 14,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 14 relate to RENAAL?",
+      "answer": "and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis that corrected for these small differences confirmed that the renal protection conferred by losartan exceeded that attributable to any small differences in blood pressure. This study extends our knowledge of the efficacy of antihypertensive therapy in patients with type 2 diabetes and nephropathy. Previous studies involving angiotensin-I-converting enzyme inhibitors have demonstrated beneficial effects on proteinuria but have not demonstrated the superiority of blockade of the renin–angiotensin system in slowing the progression to end-stage renal disease over non-blockade forms of therapy. Indeed, studies of the effects of angiotensin-I-converting enzyme inhibitors",
+      "reference": "Ref 14: \"and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis...\" — Walker WG, Hermann J, Anderson J, Zachary J, Russell RP. Blood pressure (BP) control slows decline of glomerular filtrat"
+    },
+    {
+      "id": "tr-nejm-004-how15",
+      "referenceNumber": 15,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 15 relate to RENAAL?",
+      "answer": "and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis that corrected for these small differences confirmed that the renal protection conferred by losartan exceeded that attributable to any small differences in blood pressure. This study extends our knowledge of the efficacy of antihypertensive therapy in patients with type 2 diabetes and nephropathy. Previous studies involving angiotensin-I-converting enzyme inhibitors have demonstrated beneficial effects on proteinuria but have not demonstrated the superiority of blockade of the renin–angiotensin system in slowing the progression to end-stage renal disease over non-blockade forms of therapy. Indeed, studies of the effects of angiotensin-I-converting enzyme inhibitors",
+      "reference": "Ref 15: \"and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis...\" — Lebovitz HE, Wiegmann TB, Cnaan A, et al. Renal protective effects of enalapril in hypertensive NIDDM: role of baseline "
+    },
+    {
+      "id": "tr-nejm-004-how16",
+      "referenceNumber": 16,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 16 relate to RENAAL?",
+      "answer": "and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis that corrected for these small differences confirmed that the renal protection conferred by losartan exceeded that attributable to any small differences in blood pressure. This study extends our knowledge of the efficacy of antihypertensive therapy in patients with type 2 diabetes and nephropathy. Previous studies involving angiotensin-I-converting enzyme inhibitors have demonstrated beneficial effects on proteinuria but have not demonstrated the superiority of blockade of the renin–angiotensin system in slowing the progression to end-stage renal disease over non-blockade forms of therapy. Indeed, studies of the effects of angiotensin-I-converting enzyme inhibitors",
+      "reference": "Ref 16: \"and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis...\" — Bakris GL, Copley JB, Vicknair N, Sadler R, Leurgans S. Calcium channel blockers versus other antihypertensive therapies"
+    },
+    {
+      "id": "tr-nejm-004-how17",
+      "referenceNumber": 17,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 17 relate to RENAAL?",
+      "answer": "and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis that corrected for these small differences confirmed that the renal protection conferred by losartan exceeded that attributable to any small differences in blood pressure. This study extends our knowledge of the efficacy of antihypertensive therapy in patients with type 2 diabetes and nephropathy. Previous studies involving angiotensin-I-converting enzyme inhibitors have demonstrated beneficial effects on proteinuria but have not demonstrated the superiority of blockade of the renin–angiotensin system in slowing the progression to end-stage renal disease over non-blockade forms of therapy. Indeed, studies of the effects of angiotensin-I-converting enzyme inhibitors",
+      "reference": "Ref 17: \"and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis...\" — Nielsen FS, Rossing P, Gall MA, Skott P, Smidt UM, Parving HH. Long-term effect of lisinopril and atenolol on kidney fun"
+    },
+    {
+      "id": "tr-nejm-004-how18",
+      "referenceNumber": 18,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 18 relate to RENAAL?",
+      "answer": "and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis that corrected for these small differences confirmed that the renal protection conferred by losartan exceeded that attributable to any small differences in blood pressure. This study extends our knowledge of the efficacy of antihypertensive therapy in patients with type 2 diabetes and nephropathy. Previous studies involving angiotensin-I-converting enzyme inhibitors have demonstrated beneficial effects on proteinuria but have not demonstrated the superiority of blockade of the renin–angiotensin system in slowing the progression to end-stage renal disease over non-blockade forms of therapy. Indeed, studies of the effects of angiotensin-I-converting enzyme inhibitors",
+      "reference": "Ref 18: \"and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis...\" — Fogari R, Zoppi A, Corradi L, et al. Long-term effects of ramipril and nitrendipine on albuminuria in hypertensive patie"
+    },
+    {
+      "id": "tr-nejm-004-how19",
+      "referenceNumber": 19,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 19 relate to RENAAL?",
+      "answer": "and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis that corrected for these small differences confirmed that the renal protection conferred by losartan exceeded that attributable to any small differences in blood pressure. This study extends our knowledge of the efficacy of antihypertensive therapy in patients with type 2 diabetes and nephropathy. Previous studies involving angiotensin-I-converting enzyme inhibitors have demonstrated beneficial effects on proteinuria but have not demonstrated the superiority of blockade of the renin–angiotensin system in slowing the progression to end-stage renal disease over non-blockade forms of therapy. Indeed, studies of the effects of angiotensin-I-converting enzyme inhibitors",
+      "reference": "Ref 19: \"and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis...\" — Estacio RO, Jeffers BW, Gifford N, Schrier RW. Effect of blood pressure control on diabetic microvascular complications "
+    },
+    {
+      "id": "tr-nejm-004-how20",
+      "referenceNumber": 20,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 20 relate to RENAAL?",
+      "answer": "and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis that corrected for these small differences confirmed that the renal protection conferred by losartan exceeded that attributable to any small differences in blood pressure. This study extends our knowledge of the efficacy of antihypertensive therapy in patients with type 2 diabetes and nephropathy. Previous studies involving angiotensin-I-converting enzyme inhibitors have demonstrated beneficial effects on proteinuria but have not demonstrated the superiority of blockade of the renin–angiotensin system in slowing the progression to end-stage renal disease over non-blockade forms of therapy. Indeed, studies of the effects of angiotensin-I-converting enzyme inhibitors",
+      "reference": "Ref 20: \"and the placebo group. We cannot exclude the possibility that this small difference had a beneficial effect on the renal outcomes. However, statistical analysis...\" — Heart Outcomes Prevention Evaluation (HOPE) Study Investigators. Effects of ramipril on cardiovascular and microvascular"
+    },
+    {
+      "id": "tr-nejm-004-why21",
+      "referenceNumber": 21,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the abse…",
+      "answer": "on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angiotensin-I–converting enzyme inhibitors and angiotensin II antagonists, any extrapolation from the results obtained with different classes of drugs is speculative at best",
+      "reference": "Ref 21: \"on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angio...\" — Ravid M, Savin H, Jutrin I, Bental T, Katz B, Lishner M. Long-term stabilizing effect of angiotensin-converting enzyme i"
+    },
+    {
+      "id": "tr-nejm-004-why22",
+      "referenceNumber": 22,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the abse…",
+      "answer": "on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angiotensin-I–converting enzyme inhibitors and angiotensin II antagonists, any extrapolation from the results obtained with different classes of drugs is speculative at best",
+      "reference": "Ref 22: \"on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angio...\" — Ahmad J, Siddiqui MA, Ahmad H. Effective postponement of diabetic nephropathy with enalapril in normotensive type 2 diab"
+    },
+    {
+      "id": "tr-nejm-004-why23",
+      "referenceNumber": 23,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the abse…",
+      "answer": "on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angiotensin-I–converting enzyme inhibitors and angiotensin II antagonists, any extrapolation from the results obtained with different classes of drugs is speculative at best",
+      "reference": "Ref 23: \"on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angio...\" — Ruggenenti P, Perna A, Gherardi G, Benini R, Remuzzi G. Chronic proteinuric nephropathies: outcomes and response to trea"
+    },
+    {
+      "id": "tr-nejm-004-why24",
+      "referenceNumber": 24,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the abse…",
+      "answer": "on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angiotensin-I–converting enzyme inhibitors and angiotensin II antagonists, any extrapolation from the results obtained with different classes of drugs is speculative at best",
+      "reference": "Ref 24: \"on the progression of renal disease and end-stage renal failure have yielded conflicting results. Therefore, in the absence of a direct comparison between angio...\" — Efficacy of atenolol and captopril in reducing risk of macrovascular and microvascular complications in type 2 diabetes."
+    },
+    {
+      "id": "tr-nejm-004-how25",
+      "referenceNumber": 25,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 25 relate to RENAAL?",
+      "answer": "The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-lowering agents, as part of sound medical practice. Similarly, simultaneous therapy with calcium-channel antagonists did not detract from the beneficial effects of losartan, despite the recent controversy regarding the role of calcium-channel antagonists in the protection of the kidneys and the heart. In this regard, it should be noted that in related studies in patients with type 1 and type 2 diabetes, the benefits of captopril or irbesartan were not tested in the presence of concurrent calcium-channel antagonists therapy. Furthermore, calcium-channel antagonists have been shown to augment the production of angiotensin II, a response that may be counteracted by concomitant angiotensin-II-receptor blockade.",
+      "reference": "Ref 25: \"The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-loweri...\" — Agodoa LY, Appel L, Bakris GL, et al. Effect of ramipril vs amlodipine on renal outcomes in hypertensive nephrosclerosis"
+    },
+    {
+      "id": "tr-nejm-004-how26",
+      "referenceNumber": 26,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 26 relate to RENAAL?",
+      "answer": "The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-lowering agents, as part of sound medical practice. Similarly, simultaneous therapy with calcium-channel antagonists did not detract from the beneficial effects of losartan, despite the recent controversy regarding the role of calcium-channel antagonists in the protection of the kidneys and the heart. In this regard, it should be noted that in related studies in patients with type 1 and type 2 diabetes, the benefits of captopril or irbesartan were not tested in the presence of concurrent calcium-channel antagonists therapy. Furthermore, calcium-channel antagonists have been shown to augment the production of angiotensin II, a response that may be counteracted by concomitant angiotensin-II-receptor blockade.",
+      "reference": "Ref 26: \"The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-loweri...\" — Estacio RO, Jeffers BW, Hiatt WR, Biggerstaff SL, Gifford N, Schrier RW. The effect of nisoldipine as compared with enal"
+    },
+    {
+      "id": "tr-nejm-004-how27",
+      "referenceNumber": 27,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 27 relate to RENAAL?",
+      "answer": "The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-lowering agents, as part of sound medical practice. Similarly, simultaneous therapy with calcium-channel antagonists did not detract from the beneficial effects of losartan, despite the recent controversy regarding the role of calcium-channel antagonists in the protection of the kidneys and the heart. In this regard, it should be noted that in related studies in patients with type 1 and type 2 diabetes, the benefits of captopril or irbesartan were not tested in the presence of concurrent calcium-channel antagonists therapy. Furthermore, calcium-channel antagonists have been shown to augment the production of angiotensin II, a response that may be counteracted by concomitant angiotensin-II-receptor blockade.",
+      "reference": "Ref 27: \"The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-loweri...\" — Tatti P, Pahor M, Byington RP, et al. Outcome results of the Fosinopril versus Amlodipine Cardiovascular Events Randomiz"
+    },
+    {
+      "id": "tr-nejm-004-how28",
+      "referenceNumber": 28,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 28 relate to RENAAL?",
+      "answer": "The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-lowering agents, as part of sound medical practice. Similarly, simultaneous therapy with calcium-channel antagonists did not detract from the beneficial effects of losartan, despite the recent controversy regarding the role of calcium-channel antagonists in the protection of the kidneys and the heart. In this regard, it should be noted that in related studies in patients with type 1 and type 2 diabetes, the benefits of captopril or irbesartan were not tested in the presence of concurrent calcium-channel antagonists therapy. Furthermore, calcium-channel antagonists have been shown to augment the production of angiotensin II, a response that may be counteracted by concomitant angiotensin-II-receptor blockade.",
+      "reference": "Ref 28: \"The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-loweri...\" — Lewis EJ, Hunsicker LG, Clarke WR, et al. Renoprotective effect of the angiotensin-receptor antagonist irbesartan in pat"
+    },
+    {
+      "id": "tr-nejm-004-how29",
+      "referenceNumber": 29,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 29 relate to RENAAL?",
+      "answer": "The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-lowering agents, as part of sound medical practice. Similarly, simultaneous therapy with calcium-channel antagonists did not detract from the beneficial effects of losartan, despite the recent controversy regarding the role of calcium-channel antagonists in the protection of the kidneys and the heart. In this regard, it should be noted that in related studies in patients with type 1 and type 2 diabetes, the benefits of captopril or irbesartan were not tested in the presence of concurrent calcium-channel antagonists therapy. Furthermore, calcium-channel antagonists have been shown to augment the production of angiotensin II, a response that may be counteracted by concomitant angiotensin-II-receptor blockade.",
+      "reference": "Ref 29: \"The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-loweri...\" — Parving H-H, Lehnert H, Bröchner-Mortensen J, Gomis R, Andersen S, Arner P. The effect of irbesartan on the development "
+    },
+    {
+      "id": "tr-nejm-004-how30",
+      "referenceNumber": 30,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 30 relate to RENAAL?",
+      "answer": "The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-lowering agents, as part of sound medical practice. Similarly, simultaneous therapy with calcium-channel antagonists did not detract from the beneficial effects of losartan, despite the recent controversy regarding the role of calcium-channel antagonists in the protection of the kidneys and the heart. In this regard, it should be noted that in related studies in patients with type 1 and type 2 diabetes, the benefits of captopril or irbesartan were not tested in the presence of concurrent calcium-channel antagonists therapy. Furthermore, calcium-channel antagonists have been shown to augment the production of angiotensin II, a response that may be counteracted by concomitant angiotensin-II-receptor blockade.",
+      "reference": "Ref 30: \"The benefits of losartan were observed among our patients, many of whom were already receiving other therapies, such as aspirin, beta-blockers, and lipid-loweri...\" — Bauer JH, Reams GP. Antihypertensive drugs. In: Brenner BM, ed. The kidney. 6th ed. Philadelphia: W.B. Saunders, 2000:22"
+    },
+    {
+      "id": "tr-nejm-004-how31",
+      "referenceNumber": 31,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 31 relate to RENAAL?",
+      "answer": "There was no significant difference between the losartan group and the placebo group in the composite secondary end point of morbidity and mortality from cardiovascular causes. This similarity of incidence may have resulted in part from the relatively small sample and the strict criteria for enrollment that excluded patients at high risk for cardiovascular events including heart failure. We did find a significant difference in favor of losartan with regard to the rate of a first hospitalization for heart failure, a component of this secondary composite end point. This finding in patients without clinical heart failure at base line accords well with findings from the Studies of Left Ventricular Dysfunction Prevention study. That study, however, did not include patients with impaired renal function. The Heart Outcomes Prevention Evaluation (HOPE) Study and its substudy of patients with diabetes, MICRO-HOPE, showed benefits of angiotensin-I-converting enzyme inhibition in terms of the signs and symptoms of heart failure but failed to show significant differences in hospitalizations for heart failure. Furthermore, the evaluation of a subgroup of the HOPE population with renal insufficiency did not show a significant effect on this outcome. Our findings suggest that angiotensin II blockade in patients with renal disease decreases the risk of overt heart failure resulting in hospitalization.",
+      "reference": "Ref 31: \"There was no significant difference between the losartan group and the placebo group in the composite secondary end point of morbidity and mortality from cardio...\" — The SOLVD Investigators. Effect of enalapril on mortality and the development of heart failure in asymptomatic patients "
+    },
+    {
+      "id": "tr-nejm-004-how32",
+      "referenceNumber": 32,
+      "type": "how",
+      "subtopic": "RENAAL",
+      "question": "How does the process described in reference 32 relate to RENAAL?",
+      "answer": "There was no significant difference between the losartan group and the placebo group in the composite secondary end point of morbidity and mortality from cardiovascular causes. This similarity of incidence may have resulted in part from the relatively small sample and the strict criteria for enrollment that excluded patients at high risk for cardiovascular events including heart failure. We did find a significant difference in favor of losartan with regard to the rate of a first hospitalization for heart failure, a component of this secondary composite end point. This finding in patients without clinical heart failure at base line accords well with findings from the Studies of Left Ventricular Dysfunction Prevention study. That study, however, did not include patients with impaired renal function. The Heart Outcomes Prevention Evaluation (HOPE) Study and its substudy of patients with diabetes, MICRO-HOPE, showed benefits of angiotensin-I-converting enzyme inhibition in terms of the signs and symptoms of heart failure but failed to show significant differences in hospitalizations for heart failure. Furthermore, the evaluation of a subgroup of the HOPE population with renal insufficiency did not show a significant effect on this outcome. Our findings suggest that angiotensin II blockade in patients with renal disease decreases the risk of overt heart failure resulting in hospitalization.",
+      "reference": "Ref 32: \"There was no significant difference between the losartan group and the placebo group in the composite secondary end point of morbidity and mortality from cardio...\" — The Heart Outcomes Prevention Evaluation Study Investigators. Effects of an angiotensin-converting-enzyme inhibitor, ram"
+    },
+    {
+      "id": "tr-nejm-004-why33",
+      "referenceNumber": 33,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: End-stage renal disease continues to be a worldwide public health concern. Recent estimates by the National Institutes o…",
+      "answer": "End-stage renal disease continues to be a worldwide public health concern. Recent estimates by the National Institutes of Health indicate that diabetes represents the single largest cause of end-stage renal disease, accounting for approximately 40 percent of all cases in the United States between 1994 and 1998. Furthermore, the incidence of end-stage renal disease in patients with type 2 diabetes is rising sharply in many regions of the world and is expected to double by 2010. The annual costs associated with end-stage renal disease in the United States reached 12 billion in 1998 and are expected to surpass 28 billion by 2010. Preventing or delaying the progression of diabetic nephropathy is therefore an essential management goal. We believe our findings go a long way toward achieving this goal and may also have an important economic effect",
+      "reference": "Ref 33: \"End-stage renal disease continues to be a worldwide public health concern. Recent estimates by the National Institutes of Health indicate that diabetes represen...\" — National Institutes of Health. Excerpts from the United States Renal Data System's 2000 annual data report: atlas of end"
+    },
+    {
+      "id": "tr-nejm-004-why34",
+      "referenceNumber": 34,
+      "type": "why",
+      "subtopic": "RENAAL",
+      "question": "Why is the following clinically relevant in RENAAL? Context: End-stage renal disease continues to be a worldwide public health concern. Recent estimates by the National Institutes o…",
+      "answer": "End-stage renal disease continues to be a worldwide public health concern. Recent estimates by the National Institutes of Health indicate that diabetes represents the single largest cause of end-stage renal disease, accounting for approximately 40 percent of all cases in the United States between 1994 and 1998. Furthermore, the incidence of end-stage renal disease in patients with type 2 diabetes is rising sharply in many regions of the world and is expected to double by 2010. The annual costs associated with end-stage renal disease in the United States reached 12 billion in 1998 and are expected to surpass 28 billion by 2010. Preventing or delaying the progression of diabetic nephropathy is therefore an essential management goal. We believe our findings go a long way toward achieving this goal and may also have an important economic effect",
+      "reference": "Ref 34: \"End-stage renal disease continues to be a worldwide public health concern. Recent estimates by the National Institutes of Health indicate that diabetes represen...\" — National Institutes of Health. Excerpts from the United States Renal Data System's 2000 annual data report: atlas of end"
+    }
+  ]
+}

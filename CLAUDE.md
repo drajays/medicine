@@ -8,25 +8,23 @@ clinical Q-bank & notes web app. No build step, no framework, no backend.
 - `index.html` / `app.js` / `styles.css` — the entire app. `app.js` loads
   `data/index.json` (the catalog), then lazy-loads each chapter/topic JSON
   file on demand.
-- `data/index.json` — the catalog. Two content trees:
-  - `sections[]` — Harrison chapters, grouped by body-system section. Each
-    chapter entry: `{id, no, title, file, status}`. `status` is `"pending"`
-    (not yet authored, `file: null`) or `"ready"`.
-  - `hotTopics.topics[]` — standalone topics beyond Harrison chapters
-    (landmark trials, mechanisms, focused clinical-pearl deep dives). Each
-    entry: `{id, title, subtitle, category, file, status}`.
-- `data/*.json` — one file per chapter/topic. Shared item schema across both
-  trees: every item has `id`, `type` (`note` | `mcq` | `true_false` |
-  `assertion_reason`), `subtopic`, `reference`. See the two skills below for
-  the full per-type shape.
+- `data/index.json` — the catalog. Content trees:
+  - `sections[]` — Harrison chapters
+  - `hotTopics.topics[]` — standalone hot topics
+  - `caseReports.reports[]` — clinical case vignettes
+  - `trials.entries[]` — clinical trials; `subsection`: `nejm` | `general`
+- `data/*.json` — one file per chapter/topic/trial. Item types: `note` | `mcq` |
+  `true_false` | `assertion_reason` | `why` | `how` | `shortanswer` (trials/NEJM).
 - `data/h{vol}-{NNN}_*.json` — Harrison chapters (`vol` 1 or 2).
 - `data/ht-{NNN}_*.json` — hot topics. Header includes `topicType:
   "hot_topic"` and `category` (must match its `index.json` entry) instead of
   a chapter `section`/`chapterNo`.
-- `scripts/` — one-off Node scripts used to bulk-generate specific hot-topic
-  files from external source markdown (e.g. `build_semaglutide.js` parsed a
-  downloaded PubMed Q&A file). Not a general pipeline — most hot topics are
-  authored directly as JSON, not via a script.
+- `scripts/build_nejm_trials.js` — splits `noupload/NEJM` OCR markdown, maps
+  bibliography numbers to one question each, emits `data/tr-nejm-*.json`.
+
+## Forking for another subject
+
+See `.claude/skills/bootstrap_subject_app/` — scaffold workflow + copy-paste agent prompt for creating a similar Q-bank app for a different textbook/subject.
 
 ## Authoring workflows (skills)
 
@@ -36,10 +34,8 @@ pipeline:
 - **`.claude/skills/mcq_skill/`** — Harrison chapters. Source is a specific
   chapter's `content.md` under `~/harrison/Harrison{1,2}_chapters/`. Use
   when a chapter is `"pending"` in `index.json`.
-- **`.claude/skills/hot_topics_skill/`** — hot topics. Source is whatever
-  the user pastes/provides in-conversation (no fixed source file), or
-  external reference material the user points to. Use when the user names
-  a topic for "Hot Topics" that isn't a Harrison chapter.
+- **`.claude/skills/hot_topics_skill/`** — hot topics.
+- **`.claude/skills/nejm_trials_skill/`** — NEJM trials subsection (reference-linked Q&A from `noupload/NEJM`).
 
 Both skills share:
 - The same four item types and validation rules (note/mcq/true_false/

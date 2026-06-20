@@ -1,12 +1,12 @@
 {
   "id": "ht-008",
   "topicType": "hot_topic",
-  "title": "Mirabegron",
-  "subtitle": "β3-Adrenoceptor Agonist for Overactive Bladder — Kinetics, Combination Synergy & Pivotal Trials, Verified, With a Skepticism Section",
+  "title": "Mirabegron (Myrbetriq)",
+  "subtitle": "First-in-Class β₃-Agonist — Brain/Bowel Sparing, BESIDE Synergy, Persistence & Skepticism",
   "section": "Hot Topics",
   "category": "Renal and Urinary Tract Disorders",
-  "authors": "User-provided clinical/trial summary, fact-checked against the SCORPIO/ARIES/CAPRICORN/BESIDE/PILLAR trial publications and FDA labeling",
-  "sourceFile": "user-provided content (chat); cross-checked against Khullar et al. (SCORPIO, Eur Urol 2013), Nitti et al. (ARIES, J Urol 2013), Chapple et al. (CAPRICORN, Eur Urol 2014), Drake et al. (BESIDE, Eur Urol 2016), Wagg et al. (PILLAR, Eur Urol 2020), Malik et al. (Clin Pharmacol Ther 2012), and FDA mirabegron labeling",
+  "authors": "User-provided superexpert summary; key refs: Khullar SCORPIO Eur Urol 2013; Drake BESIDE Eur Urol 2016; Wagg PILLAR Eur Urol 2020; Malik Clin Pharmacol Ther 2012",
+  "sourceFile": "user-provided superexpert content (chat); merged with prior ht-008 fact-checked content",
   "items": [
     {
       "id": "ht-008-n1",
@@ -413,6 +413,235 @@
       "correctOption": 1,
       "explanation": "The FDA label's actual language for Child-Pugh C is that mirabegron \"has not been studied\" in this population and is \"not recommended\" — a softer, evidence-gap-based caution, distinct from a formal contraindication category (which the label reserves for situations like severe uncontrolled hypertension).",
       "reference": "Mirabegron FDA prescribing information, use in specific populations (hepatic impairment)."
+    },
+    {
+      "id": "ht-008-n21",
+      "type": "note",
+      "subtopic": "How to Give",
+      "title": "What is the kinetic strategy for mirabegron dosing and combination therapy?",
+      "content": "Standard: 25 mg once daily extended-release tablet — swallowed whole to preserve release profile.\nTitration: 50 mg once daily after 4–8 weeks if insufficient efficacy.\n\nSynergy dose (combination): If monotherapy fails, combine mirabegron 25–50 mg with low-dose antimuscarinic (e.g., solifenacin 5 mg). Dual mechanism — push sympathetic \"relax\" pedal (β₃) while lightly easing parasympathetic \"contract\" gas (M₃) — compounding benefit without compounding anticholinergic burden (BESIDE, SYNERGY).",
+      "keyPoints": [
+        "25 mg OD ER — swallow whole",
+        "Titrate to 50 mg at 4–8 weeks",
+        "Combine with solifenacin 5 mg if monotherapy fails"
+      ],
+      "reference": "Drake MJ et al., BESIDE, Eur Urol, 2016; Abrams P, SYNERGY, Eur Urol, 2015."
+    },
+    {
+      "id": "ht-008-n22",
+      "type": "note",
+      "subtopic": "Mechanism",
+      "title": "Why is mirabegron the \"clinical holy grail\" vs antimuscarinics?",
+      "content": "For decades OAB was treated with antimuscarinics (oxybutynin, tolterodine) causing crippling dry mouth, severe constipation, and — catastrophically in elderly — BBB penetration with cognitive impairment mimicking dementia.\n\nMirabegron bypasses acetylcholine entirely. Selective β₃-receptor activation on detrusor increases cAMP → active muscle relaxation during storage phase → expanded capacity without impairing voiding squeeze.\n\nUrodynamic proof (Oefelein 2015): increases cystometric capacity without raising PVR or reducing voiding detrusor pressure.",
+      "keyPoints": [
+        "Bypasses anticholinergic brain/bowel toxicity",
+        "β₃ → cAMP → storage-phase relaxation",
+        "Preserves voiding; no PVR increase on urodynamics"
+      ],
+      "reference": "Andersson KE et al., Urology, 2013; Oefelein MG et al., J Urol, 2015."
+    },
+    {
+      "id": "ht-008-n23",
+      "type": "note",
+      "subtopic": "Practitioner Pearl",
+      "title": "What do best practitioners know about compliance and onset of action?",
+      "content": "Academic view: absolute frequency reduction is modest (~1.5–2 fewer voids/day vs baseline).\n\nPractitioner view: compliance is efficacy. >80% abandon antimuscarinics within 6 months from dry mouth/constipation. Mirabegron has superior long-term persistence because it feels like a \"clean\" drug (Blais 2021).\n\nCritical counseling: mirabegron takes 4–8 weeks for maximum efficacy (t½ ~50 hours → steady state >1 week). Patients who quit at week 2 never see full benefit — practitioners must set expectations academics often omit.",
+      "keyPoints": [
+        ">80% antimuscarinic abandonment at 6 months",
+        "Mirabegron persistence superior in real-world data",
+        "Counsel 4–8 weeks to full effect"
+      ],
+      "reference": "Blais L et al., Drugs Aging, 2021; Krauwinkel W et al., Clin Pharmacokinet, 2012."
+    },
+    {
+      "id": "ht-008-n24",
+      "type": "note",
+      "subtopic": "Skepticism",
+      "title": "What is the skeptic's placebo-adjusted efficacy math?",
+      "content": "Placebo reduces micturition ~1.2 episodes/day. Mirabegron reduces ~1.8 episodes/day. Net placebo-adjusted gain: ~0.5–0.6 voids/day — \"half a void better than sugar pill.\"\n\nSkeptic question: Justified to charge premium pricing and accept cardiovascular risks (hypertension, tachycardia) for marginal absolute benefit? Statistical significance ≠ clinical transformation.",
+      "keyPoints": [
+        "Placebo ~1.2 fewer voids/day",
+        "Mirabegron ~1.8 fewer voids/day",
+        "~0.5–0.6 net gain over placebo"
+      ],
+      "reference": "SCORPIO/ARIES placebo-adjusted deltas; skeptic analysis per user content."
+    },
+    {
+      "id": "ht-008-n25",
+      "type": "note",
+      "subtopic": "Historical Pattern",
+      "title": "How does mirabegron mirror the antihistamine generational shift?",
+      "content": "Allergy management evolved from 1st-generation antihistamines (diphenhydramine) with messy non-selective sedation and dry mouth → 2nd-generation (loratadine) with targeted receptor binding and neutral side-effect profile.\n\nMirabegron is urology's \"2nd-generation\" leap — abandoning systemic anticholinergic mess for localized β₃ receptor targeting. Same tolerability-premium market pattern as SSRIs vs tricyclics.",
+      "keyPoints": [
+        "Benadryl → Claritin analogy",
+        "Oxybutynin → mirabegron paradigm shift",
+        "Competes on tolerability not raw efficacy superiority"
+      ],
+      "reference": "Historical pattern per user content; Kelleher C network meta-analysis Eur Urol 2018."
+    },
+    {
+      "id": "ht-008-n26",
+      "type": "note",
+      "subtopic": "Landmark Trials",
+      "title": "20 superexpert evidence nodes — pivotal trials and real-world data",
+      "content": "Efficacy: SCORPIO (Khullar, Eur Urol 2013), ARIES (Nitti, J Urol 2013), CAPRICORN (Chapple, Eur Urol 2014), SYMPHONY dose-ranging (Herschorn, Urology 2013).\nCombination: BESIDE (Drake, Eur Urol 2016), SYNERGY (Abrams, Eur Urol 2015).\nGeriatrics: PILLAR (Wagg, Eur Urol 2020), Wagg cognitive MoCA (Age Ageing 2020), Griebling geriatric paradigm (Clin Geriatr Med 2015).\nLong-term: TAURUS 1-year safety (Chapple, Neurourol Urodyn 2014).\nMeta/economics: Kelleher network meta-analysis 2018; Maman cost-effectiveness (Value Health 2014); Blais persistence (Drugs Aging 2021).\nCardiac/PK: Malik thorough QT (Clin Pharmacol Ther 2012); Rosa CV effects (Int J Cardiol 2016); Krauwinkel PK (Clin Pharmacokinet 2012).\nBPH/male: Staskin (Ther Adv Urol 2018); Oefelein urodynamics (J Urol 2015).\nQOL: Gómez-Gómez PROMs (Urol Int 2021).",
+      "keyPoints": [
+        "SCORPIO/ARIES/CAPRICORN = foundational efficacy",
+        "BESIDE/SYNERGY = combination standard",
+        "PILLAR + Blais = geriatric safety and persistence"
+      ],
+      "reference": "20-trial synthesis per user content; trial authorship corrected per published literature."
+    },
+    {
+      "id": "ht-008-n27",
+      "type": "note",
+      "subtopic": "Economics",
+      "title": "Who benefits economically beyond the manufacturer?",
+      "content": "Astellas (Myrbetriq/Betmiga): blockbuster patent revenues from clinical desire to escape anticholinergics.\n\nHealthcare systems: transitioning elderly off antimuscarinics may prevent drug-induced delirium → falls → hip fractures → premature nursing home admission — millions in avoided downstream costs (Maman 2014 cost-effectiveness modeling).\n\nIndirect QOL: improved workplace productivity, reduced depression from social isolation (Chancellor MB Am J Med 2006 — analogous economic framing).",
+      "keyPoints": [
+        "Astellas blockbuster positioning",
+        "Avoided delirium/fall/nursing home costs",
+        "HRQoL and social functioning gains (Gómez-Gómez 2021)"
+      ],
+      "reference": "Maman K et al., Value Health, 2014; Gómez-Gómez E et al., Urol Int, 2021."
+    },
+    {
+      "id": "ht-008-tf1",
+      "type": "true_false",
+      "subtopic": "Mechanism",
+      "statement": "Mirabegron impairs detrusor contraction during the voiding phase similarly to antimuscarinics.",
+      "correctAnswer": false,
+      "explanation": "β₃ agonism relaxes detrusor during storage without blocking parasympathetic voiding signal — urodynamics show preserved voiding pressure and no PVR increase.",
+      "reference": "Oefelein MG et al., J Urol, 2015."
+    },
+    {
+      "id": "ht-008-tf2",
+      "type": "true_false",
+      "subtopic": "Onset",
+      "statement": "Mirabegron reaches maximum clinical efficacy within 48 hours of starting therapy.",
+      "correctAnswer": false,
+      "explanation": "t½ ~50 hours requires >1 week to steady state; full efficacy typically 4–8 weeks. Premature discontinuation at week 2 is common without proper counseling.",
+      "reference": "Krauwinkel W et al., Clin Pharmacokinet, 2012; practitioner pearl."
+    },
+    {
+      "id": "ht-008-tf3",
+      "type": "true_false",
+      "subtopic": "Persistence",
+      "statement": "Real-world data show patients persist on mirabegron longer than on oxybutynin or tolterodine.",
+      "correctAnswer": true,
+      "explanation": "Blais 2021 persistence analysis: significantly longer adherence vs antimuscarinics — tolerability drives real-world efficacy.",
+      "reference": "Blais L et al., Drugs Aging, 2021."
+    },
+    {
+      "id": "ht-008-tf4",
+      "type": "true_false",
+      "subtopic": "Receptor Selectivity",
+      "statement": "At supratherapeutic doses, mirabegron may lose β₃ selectivity and activate β₁ receptors.",
+      "correctAnswer": true,
+      "explanation": "High doses/overdose can agonize β₁ (heart rate) and β₂ (bronchodilation/tremor) — therapeutic 50 mg maintains selectivity with ~1 bpm and ~1 mmHg average changes.",
+      "reference": "Malik M et al., Clin Pharmacol Ther, 2012; Rosa GM et al., Int J Cardiol, 2016."
+    },
+    {
+      "id": "ht-008-ar1",
+      "type": "assertion_reason",
+      "subtopic": "BESIDE",
+      "assertion": "Adding mirabegron 50 mg to solifenacin 5 mg is preferred over escalating solifenacin to 10 mg alone.",
+      "reason": "BESIDE showed combination therapy achieved higher odds of complete continence than solifenacin 10 mg monotherapy with fewer dose-dependent anticholinergic side effects.",
+      "correctOption": 0,
+      "explanation": "Both true; R correctly explains A per BESIDE OR 1.28 vs combination superiority.",
+      "reference": "Drake MJ et al., Eur Urol, 2016 (BESIDE)."
+    },
+    {
+      "id": "ht-008-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Hypertension",
+      "assertion": "Mirabegron can be started in a patient with blood pressure 185/95 mmHg without treatment.",
+      "reason": "Mirabegron is a sympathomimetic that raises blood pressure and heart rate.",
+      "correctOption": 2,
+      "explanation": "R is true (sympathomimetic effect), but A is false — SBP ≥180 contraindicates use until BP controlled.",
+      "reference": "Mirabegron FDA contraindications."
+    },
+    {
+      "id": "ht-008-why1",
+      "type": "why",
+      "subtopic": "Paradigm Shift",
+      "question": "Why does mirabegron represent urology's move away from the antimuscarinic era?",
+      "answer": "Antimuscarinics cause dose-dependent dry mouth, constipation, urinary retention risk, and CNS anticholinergic burden accelerating cognitive decline in elderly. Mirabegron selectively activates detrusor β₃ receptors without muscarinic blockade — preserving cognition and bowel function while achieving similar efficacy with superior persistence.",
+      "keyPoints": [
+        "Anticholinergic burden: brain, bowel, mouth",
+        "β₃ pathway orthogonal to acetylcholine",
+        "Persistence superior in real-world data"
+      ],
+      "reference": "Griebling TL, Clin Geriatr Med, 2015; Blais L, Drugs Aging, 2021."
+    },
+    {
+      "id": "ht-008-why2",
+      "type": "why",
+      "subtopic": "Delayed Onset",
+      "question": "Why must patients be counseled that mirabegron takes 4–8 weeks for full effect?",
+      "answer": "Mirabegron has a ~50-hour half-life and undergoes extensive first-pass metabolism. Steady-state plasma concentrations require more than one week, mathematically delaying clinical relief. Patients who abandon therapy at week 2 due to perceived failure never reach steady-state benefit — a common real-world failure mode.",
+      "keyPoints": [
+        "t½ ~50 hours",
+        "Steady state >1 week",
+        "Full efficacy 4–8 weeks"
+      ],
+      "reference": "Krauwinkel W et al., Clin Pharmacokinet, 2012."
+    },
+    {
+      "id": "ht-008-how1",
+      "type": "how",
+      "subtopic": "Combination Therapy",
+      "question": "How should mirabegron be combined with antimuscarinics when monotherapy fails?",
+      "answer": "1. Ensure adequate trial of mirabegron monotherapy (25 → 50 mg over 4–8 weeks) OR antimuscarinic monotherapy. 2. If inadequate response on solifenacin 5 mg, ADD mirabegron 50 mg rather than escalating to solifenacin 10 mg (BESIDE). 3. Use low-dose antimuscarinic (solifenacin 5 mg) to minimize anticholinergic burden. 4. Monitor BP/HR and CYP2D6 drug interactions.",
+      "keyPoints": [
+        "Add mirabegron to solifenacin 5 mg per BESIDE",
+        "Avoid antimuscarinic dose escalation alone",
+        "Monitor cardiovascular and CYP2D6 interactions"
+      ],
+      "reference": "Drake MJ et al., BESIDE, Eur Urol, 2016."
+    },
+    {
+      "id": "ht-008-how2",
+      "type": "how",
+      "subtopic": "Prescribing",
+      "question": "How should mirabegron be initiated in standard clinical practice?",
+      "answer": "1. Screen BP — contraindicated if ≥180/110 mmHg. 2. Check renal/hepatic function (eGFR <15 or Child-Pugh C: avoid; eGFR 15–29 or Child-Pugh B: max 25 mg). 3. Review CYP2D6 substrates (flecainide, propafenone, metoprolol). 4. Start 25 mg ER once daily swallowed whole. 5. Counsel: 4–8 weeks to full benefit. 6. Titrate to 50 mg at 4–8 weeks if needed. 7. In men with BPH, assess retention risk; generally safer than antimuscarinics but caution with severe obstruction.",
+      "keyPoints": [
+        "BP screen → 25 mg ER → 4–8 week titration",
+        "Counsel delayed onset",
+        "CYP2D6 and renal/hepatic dose caps"
+      ],
+      "reference": "FDA mirabegron labeling; Staskin D, Ther Adv Urol, 2018."
+    },
+    {
+      "id": "ht-008-q11",
+      "type": "mcq",
+      "subtopic": "Mechanism",
+      "question": "Mirabegron increases bladder capacity during storage primarily by:",
+      "options": [
+        "Blocking M₃ muscarinic receptors",
+        "Activating β₃ receptors → increased cAMP → detrusor relaxation",
+        "Blocking α₁ receptors on bladder neck",
+        "Inhibiting acetylcholinesterase"
+      ],
+      "correctOption": 1,
+      "explanation": "Selective β₃ agonism increases cAMP in detrusor, promoting active relaxation during storage without blocking voiding.",
+      "reference": "Andersson KE et al., Urology, 2013."
+    },
+    {
+      "id": "ht-008-q12",
+      "type": "mcq",
+      "subtopic": "Skepticism",
+      "question": "Per skeptic analysis, mirabegron reduces daily voids by ~1.8 vs ~1.2 on placebo — a net gain of approximately:",
+      "options": [
+        "3 voids per day",
+        "0.5–0.6 voids per day over placebo",
+        "No difference from placebo",
+        "5 voids per day"
+      ],
+      "correctOption": 1,
+      "explanation": "Placebo-adjusted net benefit is roughly half a void per day — statistically significant but numerically modest.",
+      "reference": "Skeptic analysis; SCORPIO/ARIES data."
     }
   ]
 }

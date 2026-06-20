@@ -63,8 +63,8 @@
       },
       {
         "id": "ht-008",
-        "title": "Mirabegron",
-        "subtitle": "β3-Adrenoceptor Agonist for Overactive Bladder — Kinetics, Combination Synergy & Pivotal Trials, Verified, With a Skepticism Section",
+        "title": "Mirabegron (Myrbetriq)",
+        "subtitle": "First-in-Class β₃-Agonist — Brain/Bowel Sparing, BESIDE Synergy & Skepticism",
         "category": "Renal and Urinary Tract Disorders",
         "file": "ht-008_mirabegron.json",
         "status": "ready"
@@ -132,6 +132,38 @@
         "category": "Neurology — Movement Disorders",
         "file": "ht-016_benign_essential_blepharospasm.json",
         "status": "ready"
+      },
+      {
+        "id": "ht-017",
+        "title": "DKD Stage A3 on Triple Pillar: The Next Clinical Approach",
+        "subtitle": "FLOW, Finerenone Synergy, Sodium Audit & the 'Fantastic Four'",
+        "category": "Nephrology & Endocrinology",
+        "file": "ht-017_dkd_next_clinical_approach.json",
+        "status": "ready"
+      },
+      {
+        "id": "ht-018",
+        "title": "Egg Protein Content Reference",
+        "subtitle": "Whole Egg vs Egg White — Gram-for-Gram Protein Yields",
+        "category": "Nutrition & Clinical Medicine",
+        "file": "ht-018_egg_protein_content.json",
+        "status": "ready"
+      },
+      {
+        "id": "ht-019",
+        "title": "Solifenacin (Vesicare)",
+        "subtitle": "Peak of the Antimuscarinic Era — M₃ Selectivity, BESIDE Synergy & Skepticism",
+        "category": "Renal and Urinary Tract Disorders",
+        "file": "ht-019_solifenacin.json",
+        "status": "ready"
+      },
+      {
+        "id": "ht-020",
+        "title": "Pattern B LDL: Small, Dense LDL & Dietary Strategy",
+        "subtitle": "Carbohydrate Restriction vs Saturated Fat — DNL, CETP & LDL Quality",
+        "category": "Cardiology & Lipid Metabolism",
+        "file": "ht-020_pattern_b_ldl.json",
+        "status": "ready"
       }
     ]
   },
@@ -161,6 +193,352 @@
         "subtitle": "Recurrent Fever, Mediastinal LN & Rebound Hypercalcemia in Decompensated CLD",
         "category": "Endocrinology · Nephrology · Hepatology",
         "file": "cr-003_severe_hypercalcemia_calcitriol.json",
+        "status": "ready"
+      }
+    ]
+  },
+  "trials": {
+    "title": "Trials",
+    "description": "Landmark clinical trials with structured summaries, inclusion/exclusion, reference-linked Q&A (MCQ, T/F, why/how, short answer).",
+    "subsections": [
+      {
+        "id": "nejm",
+        "title": "NEJM",
+        "description": "Landmark NEJM papers — one reference-linked question per bibliography number"
+      },
+      {
+        "id": "general",
+        "title": "General",
+        "description": "Other landmark trials"
+      }
+    ],
+    "entries": [
+      {
+        "id": "tr-001",
+        "subsection": "general",
+        "title": "UKPDS 33",
+        "subtitle": "The UKPDS 33 Landmark Trial — Intensive vs Conventional Glucose Control",
+        "category": "Endocrinology & Metabolism",
+        "file": "tr-001_ukpds_33.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-001",
+        "subsection": "nejm",
+        "sourceKey": "burch2019",
+        "title": "Drug Effects on the Thyroid",
+        "subtitle": "Drug Effects on the Thyroid",
+        "category": "Endocrinology",
+        "paperType": "review",
+        "file": "tr-nejm-001_burch2019.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-002",
+        "subsection": "nejm",
+        "sourceKey": "Coadministered-cagrilintide-and-semaglutide",
+        "title": "REDEFINE 1",
+        "subtitle": "REDEFINE 1 — CagriSema in Overweight/Obesity",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-002_nejmoa2502081.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-003",
+        "subsection": "nejm",
+        "sourceKey": "NEJM199309303291401",
+        "title": "DCCT",
+        "subtitle": "DCCT — Intensive Treatment in Type 1 Diabetes",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-003_nejm199309303291401.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-004",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa011161",
+        "title": "RENAAL",
+        "subtitle": "RENAAL — Losartan in Diabetic Nephropathy",
+        "category": "Nephrology",
+        "paperType": "rct",
+        "file": "tr-nejm-004_nejmoa011161.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-005",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa011303",
+        "title": "IDNT",
+        "subtitle": "IDNT — Irbesartan in Diabetic Nephropathy",
+        "category": "Nephrology",
+        "paperType": "rct",
+        "file": "tr-nejm-005_nejmoa011303.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-006",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa012512",
+        "title": "DPP",
+        "subtitle": "DPP — Lifestyle vs Metformin for T2DM Prevention",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-006_nejmoa012512.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-007",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa0802743",
+        "title": "ACCORD",
+        "subtitle": "ACCORD — Intensive Glucose Lowering in T2DM",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-007_nejmoa0802743.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-008",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa0806470",
+        "title": "ADVANCE",
+        "subtitle": "ADVANCE — 10-Year Follow-up of Intensive Glucose Control",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-008_nejmoa0806470.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-009",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1200225",
+        "title": "STAMPEDE",
+        "subtitle": "STAMPEDE — Bariatric Surgery vs Medical Therapy in T2DM",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-009_nejmoa1200225.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-010",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1411892",
+        "title": "SCALE",
+        "subtitle": "SCALE — Liraglutide 3.0 mg for Weight Management",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-010_nejmoa1411892.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-011",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1501352",
+        "title": "TECOS",
+        "subtitle": "TECOS — Sitagliptin Cardiovascular Outcomes",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-011_nejmoa1501352.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-012",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1504720",
+        "title": "EMPA-REG OUTCOME",
+        "subtitle": "EMPA-REG OUTCOME — Empagliflozin in T2DM",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-012_nejmoa1504720.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-013",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1600869",
+        "title": "STAMPEDE 5-Year",
+        "subtitle": "STAMPEDE 5-Year — Bariatric Surgery vs Medical Therapy",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-013_nejmoa1600869.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-014",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1603827",
+        "title": "LEADER",
+        "subtitle": "LEADER — Liraglutide Cardiovascular Outcomes",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-014_nejmoa1603827.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-015",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1607141",
+        "title": "SUSTAIN-6",
+        "subtitle": "SUSTAIN-6 — Semaglutide Cardiovascular Outcomes",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-015_nejmoa1607141.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-016",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1611925",
+        "title": "CANVAS",
+        "subtitle": "CANVAS — Canagliflozin CV and Renal Events",
+        "category": "Cardiology & Nephrology",
+        "paperType": "rct",
+        "file": "tr-nejm-016_nejmoa1611925.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-017",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1804988",
+        "title": "ASCEND",
+        "subtitle": "ASCEND — Aspirin Primary Prevention in Diabetes",
+        "category": "Cardiology",
+        "paperType": "rct",
+        "file": "tr-nejm-017_nejmoa1804988.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-018",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa1812389",
+        "title": "DECLARE-TIMI 58",
+        "subtitle": "DECLARE-TIMI 58 — Dapagliflozin CV Outcomes",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-018_nejmoa1812389.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-019",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2004967",
+        "title": "VERTIS CV",
+        "subtitle": "VERTIS CV — Ertugliflozin Cardiovascular Outcomes",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-019_nejmoa2004967.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-020",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2024816",
+        "title": "DAPA-CKD",
+        "subtitle": "DAPA-CKD — Dapagliflozin in Chronic Kidney Disease",
+        "category": "Nephrology",
+        "paperType": "rct",
+        "file": "tr-nejm-020_nejmoa2024816.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-021",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2032183",
+        "title": "STEP 1",
+        "subtitle": "STEP 1 — Once-Weekly Semaglutide for Obesity",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-021_nejmoa2032183.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-022",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2107519",
+        "title": "SURPASS-2",
+        "subtitle": "SURPASS-2 — Tirzepatide vs Semaglutide in T2DM",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-022_nejmoa2107519.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-023",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2206038",
+        "title": "SURMOUNT-1",
+        "subtitle": "SURMOUNT-1 — Tirzepatide for Obesity",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-023_nejmoa2206038.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-024",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2208601",
+        "title": "STEP TEENS",
+        "subtitle": "STEP TEENS — Semaglutide in Adolescents with Obesity",
+        "category": "Pediatrics & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-024_nejmoa2208601.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-025",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2301972",
+        "title": "Retatrutide",
+        "subtitle": "Retatrutide — Triple-Hormone Agonist Phase 2 Obesity",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "rct",
+        "file": "tr-nejm-025_nejmoa2301972.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-026",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2306963",
+        "title": "STEP-HFpEF",
+        "subtitle": "STEP-HFpEF — Semaglutide in HFpEF and Obesity",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-026_nejmoa2306963.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-027",
+        "subsection": "nejm",
+        "sourceKey": "NEJMoa2307563",
+        "title": "SELECT",
+        "subtitle": "SELECT — Semaglutide CV Outcomes in Obesity without Diabetes",
+        "category": "Cardiology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-027_nejmoa2307563.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-028",
+        "subsection": "nejm",
+        "sourceKey": "ts-semaglutide-for-OA-STEP-9-2024",
+        "title": "STEP 9",
+        "subtitle": "STEP 9 — Semaglutide in Obesity with Knee Osteoarthritis",
+        "category": "Rheumatology & Endocrinology",
+        "paperType": "rct",
+        "file": "tr-nejm-028_step-9-oa-2024.json",
+        "status": "ready"
+      },
+      {
+        "id": "tr-nejm-029",
+        "subsection": "nejm",
+        "sourceKey": "UKPDS 34",
+        "title": "UKPDS 34",
+        "subtitle": "UKPDS 34 — Metformin in Overweight T2DM (Wiki Summary)",
+        "category": "Endocrinology & Metabolism",
+        "paperType": "summary",
+        "file": "tr-nejm-029_ukpds-34-wiki.json",
         "status": "ready"
       }
     ]
