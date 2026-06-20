@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa1504720",
   "paperType": "rct",
-  "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
-  "subtitle": "EMPA-REG OUTCOME — Empagliflozin in T2DM",
+  "title": "EMPA-REG OUTCOME",
+  "subtitle": "Empagliflozin Cardiovascular Outcomes — Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Cardiology & Endocrinology",
-  "authors": "Sarwar N, Gao P, Seshasai SR, et al. Diabetes mellitus, fasting blood glucose co",
+  "authors": "Zinman B, Wanner C, Lachin JM, et al.; N Engl J Med 2015",
   "sourceFile": "noupload/NEJM/nejmoa1504720/paper.md",
   "bibliography": [
     {
@@ -133,318 +133,750 @@
     }
   ],
   "trialDesign": {
-    "fullName": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
-    "overview": "## BACKGROUND The effects of empagliflozin, an inhibitor of sodium-glucose cotransporter 2, in addition to standard care, on cardiovascular morbidity and mortality in patients with type 2 diabetes at high cardiovascular risk are not known.",
-    "design": "We randomly assigned patients to receive 10 mg or 25 mg of empagliflozin or placebo once daily. The primary composite outcome was death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke, as analyzed in the pooled empagliflozin group versus the placebo group. The key seco",
-    "population": "patients to receive 10 mg or 25 mg of empagliflozin or placebo once daily.",
-    "comparator": "placebo",
-    "primaryEndpoint": "primary outcome occurred in 490 of 4687 patients (10."
+    "fullName": "Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus Patients (EMPA-REG OUTCOME)",
+    "year": 2015,
+    "design": "Randomized, double-blind, placebo-controlled cardiovascular outcomes trial (10 mg vs 25 mg vs placebo, pooled empagliflozin analysis)",
+    "population": "7,020 patients with type 2 diabetes and established cardiovascular disease",
+    "sampleSize": "n=7020 (2345 empagliflozin 10 mg; 2342 empagliflozin 25 mg; 2333 placebo)",
+    "duration": "Median observation 3.1 years",
+    "intervention": "Empagliflozin 10 mg or 25 mg once daily plus standard care",
+    "comparator": "Placebo plus standard care",
+    "primaryEndpoint": "Death from cardiovascular causes, nonfatal MI, or nonfatal stroke",
+    "overview": "Empagliflozin reduced primary MACE by 14% (HR 0.86), CV death by 38%, HF hospitalization by 35%, and all-cause death by 32%."
   },
   "trialSummary": {
     "headings": {
-      "background": "The effects of empagliflozin, an inhibitor of sodium-glucose cotransporter 2, in addition to standard care, on cardiovascular morbidity and mortality in patients with type 2 diabetes at high cardiovascular risk are not known.",
-      "objective": "The effects of empagliflozin, an inhibitor of sodium-glucose cotransporter 2, in addition to standard care, on cardiovascular morbidity and mortality in patients with type 2 diabetes at high cardiovascular risk are not known.",
-      "design": "We randomly assigned patients to receive 10 mg or 25 mg of empagliflozin or placebo once daily. The primary composite outcome was death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke, as analyzed in the pooled empagliflozin group versus the placebo group. The key seco",
-      "population": "patients to receive 10 mg or 25 mg of empagliflozin or placebo once daily.",
-      "comparator": "placebo",
-      "funding": "Boehringer Ingelheim and Eli Lilly",
-      "nct": "NCT01131676",
-      "doi": "10.1056/NEJMoa1504720"
+      "background": "SGLT2 inhibitor empagliflozin lowers glucose via renal glycosuria; cardiovascular outcomes in high-risk type 2 diabetes unknown.",
+      "design": "7020 patients; 2-week placebo run-in; background glucose therapy unchanged first 12 weeks; noninferiority then hierarchical superiority testing.",
+      "population": ">99% established CVD; BMI ≤45; eGFR ≥30 ml/min.",
+      "intervention": "Empagliflozin 10 mg or 25 mg daily.",
+      "comparator": "Placebo with standard lipid-lowering and antihypertensive therapy.",
+      "followUp": "Median 3.1 years; 97% completion."
     },
     "outcomes": [
       {
-        "label": "Primary outcome (extracted)",
+        "label": "Primary composite MACE",
         "type": "primary",
-        "definition": "primary outcome occurred in 490 of 4687 patients (10.",
-        "interpretation": "Patients with type 2 diabetes at high risk for cardiovascular events who received empagliflozin, as compared with placebo, had a lower rate of the primary composite cardiovascular outcome and of death from any cause when the study drug was added to standard care. (Funded by Boehringer Ingelheim and "
+        "effect": {
+          "measure": "HR",
+          "value": 0.86,
+          "interpretation": "14% relative risk reduction"
+        },
+        "interpretation": "10.5% empagliflozin vs 12.1% placebo"
+      },
+      {
+        "label": "Death from cardiovascular causes",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 38,
+          "interpretation": "HR 0.62"
+        },
+        "interpretation": "Main driver of primary composite benefit"
+      },
+      {
+        "label": "Hospitalization for heart failure",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 35,
+          "interpretation": "HR 0.65"
+        },
+        "interpretation": "Significant HF benefit"
+      },
+      {
+        "label": "Death from any cause",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 32,
+          "interpretation": "NNT 39 over 3 years"
+        },
+        "interpretation": "Landmark mortality benefit"
       }
     ],
-    "conclusion": "Patients with type 2 diabetes at high risk for cardiovascular events who received empagliflozin, as compared with placebo, had a lower rate of the primary composite cardiovascular outcome and of death from any cause when the study drug was added to standard care. (Funded by Boehringer Ingelheim and Eli Lilly; EMPA-REG OUTCOME ClinicalTrials.gov number, NCT01131676.) From the Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital (B.Z.) and the Divisions of Endocrinology (B.Z.) and Cardiology (D.F.), University of Toronto — all in Toronto; the Department of Medicine, Division of Nephrolog",
-    "clinicalBottomLine": "Patients with type 2 diabetes at high risk for cardiovascular events who received empagliflozin, as compared with placebo, had a lower rate of the primary composite cardiovascular outcome and of death from any cause when the study drug was added to s"
+    "safetyHighlights": [
+      "Genital infections more frequent; urosepsis 0.4%",
+      "No increase in DKA, fractures, acute renal failure, or complicated UTI"
+    ],
+    "clinicalBottomLine": "Empagliflozin added to standard care reduces cardiovascular death, heart failure hospitalization, and all-cause mortality in type 2 diabetes with established CVD."
   },
-  "inclusionCriteria": [],
-  "exclusionCriteria": [],
+  "inclusionCriteria": [
+    "Type 2 diabetes; established cardiovascular disease",
+    "BMI ≤45; eGFR ≥30 ml/min/1.73 m²"
+  ],
+  "exclusionCriteria": [
+    "eGFR <30 ml/min/1.73 m²",
+    "Uncontrolled hyperglycemia precluding safe participation (protocol-specific)"
+  ],
   "keyTakeaways": [
-    "Patients with type 2 diabetes at high risk for cardiovascular events who received empagliflozin, as compared with placebo, had a lower rate of the primary composite cardiovascular outcome and of death from any cause when the study drug was added to s",
-    "Patients with type 2 diabetes at high risk for cardiovascular events who received empagliflozin, as compared with placebo, had a lower rate of the primary composite cardiovascular outcome and of death from any cause when the study drug was added to standard care. (Funded by Boehringer Ingelheim and "
+    "Primary MACE HR 0.86; CV death ↓38%; HF hospitalization HR 0.65; death ↓32%.",
+    "NNT 39 over 3 years; benefit not driven by MI/stroke reduction.",
+    "Genital infections expected; no DKA, fracture, or ARF signal; 10 mg ≈ 25 mg for CV outcomes."
   ],
   "items": [
     {
-      "id": "tr-nejm-012-how1",
-      "referenceNumber": 1,
-      "type": "how",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "How does the process described in reference 1 relate to EMPA-REG OUTCOME?",
-      "answer": "TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of death. Evidence that glucose lowering reduces the rates of cardiovascular events and death has not been convincingly shown, although a modest cardiovascular benefit may be observed after a prolonged follow-up period. Furthermore, there is concern that intensive glucose lowering or the use of specific glucose-lowering drugs may be associated with adverse cardiovascular outcomes. Therefore, it is necessary to establish the cardiovascular safety benefits of glucose-lowering agents.",
-      "reference": "Ref 1: \"TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of dea...\" — Sarwar N, Gao P, Seshasai SR, et al. Diabetes mellitus, fasting blood glucose concentration, and risk of vascular diseas"
+      "id": "tr-nejm-012-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "EMPA-REG OUTCOME — Main Points (High-Yield Overview)",
+      "content": "Background and Rationale: Type 2 diabetes increases cardiovascular risk, but glucose-lowering drugs had not convincingly reduced events. EMPA-REG OUTCOME evaluated cardiovascular safety and efficacy of empagliflozin (SGLT2 inhibitor) in type 2 diabetes with established CVD.\n\nMethodology: Randomized, double-blind, placebo-controlled trial in 7,020 patients assigned to empagliflozin 10 mg, 25 mg, or placebo plus standard care; median follow-up 3.1 years. Primary composite: CV death, nonfatal MI, or nonfatal stroke.\n\nPrimary and Secondary Outcomes: Primary composite reduced 14% (HR 0.86). CV death ↓38%, HF hospitalization ↓35%, all-cause death ↓32%; no significant MI or stroke differences.\n\nNumber Needed to Treat: 39 patients treated over 3 years to prevent one death.\n\nSafety Profile: Well tolerated; expected increase in genital infections; no increase in acute renal failure, fractures, DKA, or overall UTIs.",
+      "keyPoints": [
+        "Primary composite HR 0.86 · CV death ↓38% · all-cause death ↓32%",
+        "HF hospitalization HR 0.65 · NNT 39 over 3 years",
+        "Genital infections ↑; no DKA, fracture, or ARF signal"
+      ],
+      "reference": "Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-q2",
-      "referenceNumber": 2,
-      "type": "mcq",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Which finding is supported by reference 2 in EMPA-REG OUTCOME?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "7.0%"
+      "id": "tr-nejm-012-how1",
+      "type": "how",
+      "subtopic": "Why/How 1",
+      "referenceNumber": 1,
+      "question": "How does empagliflozin physiologically lower blood glucose levels?",
+      "answer": "Empagliflozin is a selective inhibitor of sodium-glucose cotransporter 2 (SGLT2) that reduces hyperglycemia by decreasing renal glucose reabsorption, which subsequently increases urinary glucose excretion.",
+      "keyPoints": [
+        "Empagliflozin is a selective inhibitor of sodium-glucose cotransporter 2 (SGLT2) that reduces hyperglycemia by decreasing renal glucose reabsorption, which subsequently increases urinary glucose excretion."
       ],
-      "correctOption": 3,
-      "explanation": "height in meters) of 45 or less and an estimated glomerular filtration rate (eGFR) of at least 30 ml per minute per 1.73 m of body-surface area, according to the Modification of Diet in Renal Disease criteria. All the patients had established cardiovascular disease (as defined in Section C in the Supplementary Appendix) and had received no glucose-lowering agents for at least 12 weeks before randomization and had a glycated hemoglobin level of at least 7.0% and no more than 9.0% or had received stable glucose-lowering therapy for at least 12 weeks before randomization and had a glycated hemoglobin level of at least 7.0% and no more than 10.0%. Other key exclusion criteria are provided in Section D in the Supplementary Appendix.",
-      "reference": "Ref 2: \"height in meters) of 45 or less and an estimated glomerular filtration rate (eGFR) of at least 30 ml per minute per 1.73 m of body-surface area, according to th...\" — Beckman JA, Creager MA, Libby P. Diabetes and atherosclerosis: epidemiology, pathophysiology, and management. JAMA 2002;"
+      "reference": "EMPA-REG Q1: Empagliflozin is a selective inhibitor of sodium-glucose cotransporter 2 (SGLT2)... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-why2",
+      "type": "why",
+      "subtopic": "Why/How 2",
+      "referenceNumber": 2,
+      "question": "Why was the EMPA-REG OUTCOME trial initiated despite empagliflozin already being approved for type 2 diabetes?",
+      "answer": "The trial was initiated to specifically establish the cardiovascular safety and benefits of the drug, addressing regulatory concerns (like FDA guidelines) that intensive glucose lowering or specific drugs might be associated with adverse cardiovascular outcomes.",
+      "keyPoints": [
+        "The trial was initiated to specifically establish the cardiovascular safety and benefits of the drug, addressing regulatory concerns (like FDA guidelines) that intensive glucose lowering or specific drugs might be associated with adverse cardiovascular outcomes."
+      ],
+      "reference": "EMPA-REG Q2: The trial was initiated to specifically establish the cardiovascular safety and ... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
       "id": "tr-nejm-012-how3",
-      "referenceNumber": 3,
       "type": "how",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "How does the process described in reference 3 relate to EMPA-REG OUTCOME?",
-      "answer": "TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of death. Evidence that glucose lowering reduces the rates of cardiovascular events and death has not been convincingly shown, although a modest cardiovascular benefit may be observed after a prolonged follow-up period. Furthermore, there is concern that intensive glucose lowering or the use of specific glucose-lowering drugs may be associated with adverse cardiovascular outcomes. Therefore, it is necessary to establish the cardiovascular safety benefits of glucose-lowering agents.",
-      "reference": "Ref 3: \"TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of dea...\" — Di Angelantonio E, Kaptoge S, Wormser D, et al. Association of cardiometabolic multimorbidity with mortality. JAMA 2015;"
+      "subtopic": "Why/How 3",
+      "referenceNumber": 3,
+      "question": "How did the researchers handle patients' background glucose-lowering therapies during the initial phase of the trial?",
+      "answer": "Background glucose-lowering therapy was mandated to remain unchanged for the first 12 weeks after randomization, though intensification was permitted if a patient had a confirmed fasting glucose level exceeding 240 mg per deciliter.",
+      "keyPoints": [
+        "Background glucose-lowering therapy was mandated to remain unchanged for the first 12 weeks after randomization, though intensification was permitted if a patient had a confirmed fasting glucose level exceeding 240 mg per deciliter."
+      ],
+      "reference": "EMPA-REG Q3: Background glucose-lowering therapy was mandated to remain unchanged for the fir... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-how4",
+      "id": "tr-nejm-012-why4",
+      "type": "why",
+      "subtopic": "Why/How 4",
       "referenceNumber": 4,
-      "type": "how",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "How does the process described in reference 4 relate to EMPA-REG OUTCOME?",
-      "answer": "TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of death. Evidence that glucose lowering reduces the rates of cardiovascular events and death has not been convincingly shown, although a modest cardiovascular benefit may be observed after a prolonged follow-up period. Furthermore, there is concern that intensive glucose lowering or the use of specific glucose-lowering drugs may be associated with adverse cardiovascular outcomes. Therefore, it is necessary to establish the cardiovascular safety benefits of glucose-lowering agents.",
-      "reference": "Ref 4: \"TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of dea...\" — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J "
+      "question": "Why was the Haybittle-Peto rule applied to the final statistical analyses?",
+      "answer": "This statistical rule was applied (requiring a two-sided P value of 0.0498 or less for significance) because interim data from the trial had previously been included in a new-drug application submitted to the FDA.",
+      "keyPoints": [
+        "This statistical rule was applied (requiring a two-sided P value of 0.0498 or less for significance) because interim data from the trial had previously been included in a new-drug application submitted to the FDA."
+      ],
+      "reference": "EMPA-REG Q4: This statistical rule was applied (requiring a two-sided P value of 0.0498 or le... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
       "id": "tr-nejm-012-how5",
-      "referenceNumber": 5,
       "type": "how",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "How does the process described in reference 5 relate to EMPA-REG OUTCOME?",
-      "answer": "TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of death. Evidence that glucose lowering reduces the rates of cardiovascular events and death has not been convincingly shown, although a modest cardiovascular benefit may be observed after a prolonged follow-up period. Furthermore, there is concern that intensive glucose lowering or the use of specific glucose-lowering drugs may be associated with adverse cardiovascular outcomes. Therefore, it is necessary to establish the cardiovascular safety benefits of glucose-lowering agents.",
-      "reference": "Ref 5: \"TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of dea...\" — White WB, Cannon CP, Heller SR, et al. Alogliptin after acute coronary syndrome in patients with type 2 diabetes. N Engl"
+      "subtopic": "Why/How 5",
+      "referenceNumber": 5,
+      "question": "How did the 10-mg and 25-mg doses of empagliflozin compare regarding cardiovascular outcomes?",
+      "answer": "The hazard ratios for the primary and key secondary outcomes were virtually identical between the two dose groups in the pooled analysis, indicating no major dose-response effect for cardiovascular mortality benefits.",
+      "keyPoints": [
+        "The hazard ratios for the primary and key secondary outcomes were virtually identical between the two dose groups in the pooled analysis, indicating no major dose-response effect for cardiovascular mortality benefits."
+      ],
+      "reference": "EMPA-REG Q5: The hazard ratios for the primary and key secondary outcomes were virtually iden... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-how6",
+      "id": "tr-nejm-012-why6",
+      "type": "why",
+      "subtopic": "Why/How 6",
       "referenceNumber": 6,
-      "type": "how",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "How does the process described in reference 6 relate to EMPA-REG OUTCOME?",
-      "answer": "TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of death. Evidence that glucose lowering reduces the rates of cardiovascular events and death has not been convincingly shown, although a modest cardiovascular benefit may be observed after a prolonged follow-up period. Furthermore, there is concern that intensive glucose lowering or the use of specific glucose-lowering drugs may be associated with adverse cardiovascular outcomes. Therefore, it is necessary to establish the cardiovascular safety benefits of glucose-lowering agents.",
-      "reference": "Ref 6: \"TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of dea...\" — Scirica BM, Bhatt DL, Braunwald E, et al. Saxagliptin and cardiovascular outcomes in patients with type 2 diabetes melli"
+      "question": "Why did the authors speculate that the cardiovascular benefits of empagliflozin are \"multidimensional\"?",
+      "answer": "Because the reduction in cardiovascular death was not purely driven by glycemic control, the authors hypothesized it involved multiple mechanisms, including changes in arterial stiffness, cardiac function, reductions in albuminuria, uric acid, weight, visceral adiposity, and blood pressure.",
+      "keyPoints": [
+        "Because the reduction in cardiovascular death was not purely driven by glycemic control, the authors hypothesized it involved multiple mechanisms, including changes in arterial stiffness, cardiac function, reductions in albuminuria, uric acid, weight, visceral adiposity, and blood pressure."
+      ],
+      "reference": "EMPA-REG Q6: Because the reduction in cardiovascular death was not purely driven by glycemic ... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
       "id": "tr-nejm-012-how7",
+      "type": "how",
+      "subtopic": "Why/How 7",
       "referenceNumber": 7,
-      "type": "how",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "How does the process described in reference 7 relate to EMPA-REG OUTCOME?",
-      "answer": "TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of death. Evidence that glucose lowering reduces the rates of cardiovascular events and death has not been convincingly shown, although a modest cardiovascular benefit may be observed after a prolonged follow-up period. Furthermore, there is concern that intensive glucose lowering or the use of specific glucose-lowering drugs may be associated with adverse cardiovascular outcomes. Therefore, it is necessary to establish the cardiovascular safety benefits of glucose-lowering agents.",
-      "reference": "Ref 7: \"TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of dea...\" — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-Year follow-up of intensive glucose control in type 2 diabetes. "
+      "question": "How was the primary hypothesis of the study statistically structured?",
+      "answer": "The primary hypothesis was to first test for noninferiority (using a hazard ratio margin of 1.3), followed by a four-step hierarchical-testing strategy that progressed to test for superiority if noninferiority was met.",
+      "keyPoints": [
+        "The primary hypothesis was to first test for noninferiority (using a hazard ratio margin of 1.3), followed by a four-step hierarchical-testing strategy that progressed to test for superiority if noninferiority was met."
+      ],
+      "reference": "EMPA-REG Q7: The primary hypothesis was to first test for noninferiority (using a hazard rati... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-how8",
-      "referenceNumber": 8,
-      "type": "how",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "How does the process described in reference 8 relate to EMPA-REG OUTCOME?",
-      "answer": "TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of death. Evidence that glucose lowering reduces the rates of cardiovascular events and death has not been convincingly shown, although a modest cardiovascular benefit may be observed after a prolonged follow-up period. Furthermore, there is concern that intensive glucose lowering or the use of specific glucose-lowering drugs may be associated with adverse cardiovascular outcomes. Therefore, it is necessary to establish the cardiovascular safety benefits of glucose-lowering agents.",
-      "reference": "Ref 8: \"TYPE 2 DIABETES IS A MAJOR RISK FACTOR for cardiovascular disease, and the presence of both type 2 diabetes and cardiovascular disease increases the risk of dea...\" — Udell JA, Cavender MA, Bhatt DL, Chatterjee S, Farkouh ME, Scirica BM. Glucose-lowering drugs or strategies and cardiova"
-    },
-    {
-      "id": "tr-nejm-012-why9",
-      "referenceNumber": 9,
+      "id": "tr-nejm-012-why8",
       "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: The trial was designed and overseen by a steering committee that included academic investigators and employees of Boehri…",
-      "answer": "The trial was designed and overseen by a steering committee that included academic investigators and employees of Boehringer Ingelheim. The role of Eli Lilly was limited to cofunding the trial. Safety data were reviewed by an independent academic data monitoring committee every 90 days or at the discretion of the committee. Cardiovascular outcome events and deaths were prospectively adjudicated by two clinical-events committees (one for cardiac events and the other for neurologic events), as recommended by the Food and Drug Administration (FDA) guidelines. A list of investigators and committee members is provided in Sections A and B, respectively, in the Supplementary Appendix, which is available with the full text of this article at NEJM.org",
-      "reference": "Ref 9: \"The trial was designed and overseen by a steering committee that included academic investigators and employees of Boehringer Ingelheim. The role of Eli Lilly wa...\" — Department of Health and Human Services, Food and Drug Administration. Guidance for industry: diabetes mellitus — evalua"
+      "subtopic": "Why/How 8",
+      "referenceNumber": 8,
+      "question": "Why were patients required to have an estimated glomerular filtration rate (eGFR) of at least 30 ml per minute to participate?",
+      "answer": "Because SGLT2 inhibitors rely on renal filtration to block glucose reabsorption and induce glycosuria, sufficient baseline kidney function is required for the drug to be physiologically effective.",
+      "keyPoints": [
+        "Because SGLT2 inhibitors rely on renal filtration to block glucose reabsorption and induce glycosuria, sufficient baseline kidney function is required for the drug to be physiologically effective."
+      ],
+      "reference": "EMPA-REG Q8: Because SGLT2 inhibitors rely on renal filtration to block glucose reabsorption ... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-how9",
+      "type": "how",
+      "subtopic": "Why/How 9",
+      "referenceNumber": 9,
+      "question": "How did empagliflozin alter patients' hematocrit values over the study period?",
+      "answer": "Hematocrit values increased more in the empagliflozin groups (an increase of 4.8% to 5.0%) compared to the placebo group (0.9%), which may reflect changes in volume status or hemoconcentration.",
+      "keyPoints": [
+        "Hematocrit values increased more in the empagliflozin groups (an increase of 4.8% to 5.0%) compared to the placebo group (0.9%), which may reflect changes in volume status or hemoconcentration."
+      ],
+      "reference": "EMPA-REG Q9: Hematocrit values increased more in the empagliflozin groups (an increase of 4.8... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
       "id": "tr-nejm-012-why10",
-      "referenceNumber": 10,
       "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 10: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Gallo LA, Wright EM, Vallon V. Probing SGLT2 as a therapeutic target for diabetes: basic physiology and consequences. Di"
+      "subtopic": "Why/How 10",
+      "referenceNumber": 10,
+      "question": "Why were myocardial infarction and stroke not considered the main drivers of the primary outcome's success?",
+      "answer": "There were no statistically significant between-group differences in the rates of nonfatal myocardial infarction (4.8% vs. 5.4%) or nonfatal stroke (3.5% vs. 3.0%); the overall benefit was primarily driven by the massive reduction in cardiovascular death.",
+      "keyPoints": [
+        "There were no statistically significant between-group differences in the rates of nonfatal myocardial infarction (4.8% vs. 5.4%) or nonfatal stroke (3.5% vs. 3.0%); the overall benefit was primarily driven by the massive reduction in cardiovascular death."
+      ],
+      "reference": "EMPA-REG Q10: There were no statistically significant between-group differences in the rates o... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why11",
+      "id": "tr-nejm-012-how11",
+      "type": "how",
+      "subtopic": "Why/How 11",
       "referenceNumber": 11,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Grempler R, Thomas L, Eckhardt M, et al. Empagliflozin, a novel selective sodium glucose cotransporter-2 (SGLT-2) inhibi…",
-      "answer": "Grempler R, Thomas L, Eckhardt M, et al. Empagliflozin, a novel selective sodium glucose cotransporter-2 (SGLT-2) inhibitor: characterisation and comparison with other SGLT-2 inhibitors. Diabetes Obes Metab 2012;14:83-90",
-      "reference": "Ref 11: \"Grempler R, Thomas L, Eckhardt M, et al. Empagliflozin, a novel selective sodium glucose cotransporter-2 (SGLT-2) inhibitor: characterisation and comparison wit...\" — Grempler R, Thomas L, Eckhardt M, et al. Empagliflozin, a novel selective sodium glucose cotransporter-2 (SGLT-2) inhibi"
+      "question": "How did the intervention affect the patients' reliance on additional cardiovascular and diabetes medications?",
+      "answer": "A higher percentage of patients in the placebo group required the addition of glucose-lowering medications (like insulin and sulfonylureas), antihypertensive medications, and anticoagulants during the trial compared to the empagliflozin group.",
+      "keyPoints": [
+        "A higher percentage of patients in the placebo group required the addition of glucose-lowering medications (like insulin and sulfonylureas), antihypertensive medications, and anticoagulants during the trial compared to the empagliflozin group."
+      ],
+      "reference": "EMPA-REG Q11: A higher percentage of patients in the placebo group required the addition of gl... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
       "id": "tr-nejm-012-why12",
-      "referenceNumber": 12,
       "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 12: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Boehringer Ingelheim Pharmaceuti- cals. Jardiance (empagliflozin) tablets; prescribing information (http://bidocs.boehri"
+      "subtopic": "Why/How 12",
+      "referenceNumber": 12,
+      "question": "Why do the authors suggest that in clinical practice, the choice between the 10-mg and 25-mg dose will likely depend on metabolic targets rather than cardiovascular protection?",
+      "answer": "Because both doses provided nearly identical cardiovascular risk reduction, the higher dose would predominantly be utilized if a patient required further reduction in their glycated hemoglobin level or specific metabolic markers.",
+      "keyPoints": [
+        "Because both doses provided nearly identical cardiovascular risk reduction, the higher dose would predominantly be utilized if a patient required further reduction in their glycated hemoglobin level or specific metabolic markers."
+      ],
+      "reference": "EMPA-REG Q12: Because both doses provided nearly identical cardiovascular risk reduction, the ... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why13",
+      "id": "tr-nejm-012-how13",
+      "type": "how",
+      "subtopic": "Why/How 13",
       "referenceNumber": 13,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 13: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Häring HU, Merker L, Seewaldt-Becker E, et al. Empagliflozin as add-on to metformin plus sulfonylurea in patients with t"
+      "question": "How did the study address the potential risk of silent myocardial infarctions?",
+      "answer": "Silent myocardial infarctions were explicitly excluded from the definition of the primary composite outcome to ensure that only clear, clinically evident events were analyzed.",
+      "keyPoints": [
+        "Silent myocardial infarctions were explicitly excluded from the definition of the primary composite outcome to ensure that only clear, clinically evident events were analyzed."
+      ],
+      "reference": "EMPA-REG Q13: Silent myocardial infarctions were explicitly excluded from the definition of th... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
       "id": "tr-nejm-012-why14",
+      "type": "why",
+      "subtopic": "Why/How 14",
       "referenceNumber": 14,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 14: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Häring HU, Merker L, Seewaldt-Becker E, et al. Empagliflozin as add-on to metformin in patients with type 2 diabetes: a "
+      "question": "Why did the empagliflozin group report an increased rate of genital infections?",
+      "answer": "The increased rate of genital infections is a direct physiological consequence of the drug's mechanism of action, as elevated glucose levels in the urine create a favorable environment for fungal and bacterial growth in the genital tract.",
+      "keyPoints": [
+        "The increased rate of genital infections is a direct physiological consequence of the drug's mechanism of action, as elevated glucose levels in the urine create a favorable environment for fungal and bacterial growth in the genital tract."
+      ],
+      "reference": "EMPA-REG Q14: The increased rate of genital infections is a direct physiological consequence o... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why15",
+      "id": "tr-nejm-012-how15",
+      "type": "how",
+      "subtopic": "Why/How 15",
       "referenceNumber": 15,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 15: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Kovacs CS, Seshiah V, Swallow R, et al. Empagliflozin improves glycaemic and weight control as add-on therapy to pioglit"
+      "question": "How were adverse events classified to ensure data integrity during the trial?",
+      "answer": "Cardiovascular outcome events and deaths were prospectively adjudicated by two independent clinical-events committees (one for cardiac events, one for neurologic events), and adverse events were coded using the Medical Dictionary for Regulatory Activities.",
+      "keyPoints": [
+        "Cardiovascular outcome events and deaths were prospectively adjudicated by two independent clinical-events committees (one for cardiac events, one for neurologic events), and adverse events were coded using the Medical Dictionary for Regulatory Activities."
+      ],
+      "reference": "EMPA-REG Q15: Cardiovascular outcome events and deaths were prospectively adjudicated by two i... — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why16",
+      "id": "tr-nejm-012-q1",
+      "type": "mcq",
+      "subtopic": "MCQ 1",
       "referenceNumber": 16,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 16: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Roden M, Weng J, Eilbracht J, et al. Empagliflozin monotherapy with sitagliptin as an active comparator in pa tients wit"
+      "question": "What was the relative risk reduction for death from any cause in the pooled empagliflozin group?",
+      "options": [
+        "14%",
+        "32%",
+        "35%",
+        "38%"
+      ],
+      "correctOption": 1,
+      "explanation": "All-cause mortality reduced by 32% with empagliflozin.",
+      "reference": "EMPA-REG MCQ 1: All-cause mortality reduced by 32% with empagliflozin. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why17",
+      "id": "tr-nejm-012-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
       "referenceNumber": 17,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 17: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Rosenstock J, Jelaska A, Frappin G, et al. Improved glucose control with weight loss, lower insulin doses, and no increa"
+      "question": "What was the median observation time for patients in the EMPA-REG OUTCOME trial?",
+      "options": [
+        "1.5 years",
+        "2.6 years",
+        "3.1 years",
+        "5.0 years"
+      ],
+      "correctOption": 2,
+      "explanation": "Median observation time was 3.1 years.",
+      "reference": "EMPA-REG MCQ 2: Median observation time was 3.1 years. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why18",
+      "id": "tr-nejm-012-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
       "referenceNumber": 18,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 18: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Rosenstock J, Jelaska A, Zeller C, Kim G, Broedl UC, Woerle HJ. Impact of empagliflozin added on basal insulin in type 2"
+      "question": "Which of the following components was strictly included in the primary composite outcome?",
+      "options": [
+        "Hospitalization for heart failure",
+        "Hospitalization for unstable angina",
+        "Nonfatal stroke",
+        "Silent myocardial infarction"
+      ],
+      "correctOption": 2,
+      "explanation": "Primary composite: CV death, nonfatal MI, nonfatal stroke.",
+      "reference": "EMPA-REG MCQ 3: Primary composite: CV death, nonfatal MI, nonfatal stroke. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why19",
+      "id": "tr-nejm-012-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
       "referenceNumber": 19,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 19: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Tikkanen I, Narko K, Zeller C, et al. Empagliflozin reduces blood pressure in patients with type 2 diabetes and hyperten"
+      "question": "What was the calculated Number Needed to Treat (NNT) over 3 years to prevent one death using empagliflozin?",
+      "options": [
+        "12",
+        "39",
+        "55",
+        "86"
+      ],
+      "correctOption": 1,
+      "explanation": "NNT 39 over 3 years to prevent one death.",
+      "reference": "EMPA-REG MCQ 4: NNT 39 over 3 years to prevent one death. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why20",
+      "id": "tr-nejm-012-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
       "referenceNumber": 20,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 20: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Barnett AH, Mithal A, Manassie J, et al. Efficacy and safety of empagliflozin added to existing antidiabetes treatment i"
+      "question": "Which baseline characteristic was NOT used as a stratification factor during randomization?",
+      "options": [
+        "Body-mass index",
+        "Geographic region",
+        "Smoking history",
+        "Renal function at screening"
+      ],
+      "correctOption": 2,
+      "explanation": "Smoking history was not a stratification factor.",
+      "reference": "EMPA-REG MCQ 5: Smoking history was not a stratification factor. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why21",
+      "id": "tr-nejm-012-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
       "referenceNumber": 21,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 21: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Chilton RC, Tikkanen I, Cannon CP, et al. Effects of empagliflozin on blood pressure and markers of arterial stiffness a"
+      "question": "In the placebo group, what percentage of patients experienced the primary composite outcome?",
+      "options": [
+        "8.3%",
+        "10.5%",
+        "12.1%",
+        "14.3%"
+      ],
+      "correctOption": 2,
+      "explanation": "12.1% of placebo patients had primary composite outcome.",
+      "reference": "EMPA-REG MCQ 6: 12.1% of placebo patients had primary composite outcome. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why22",
+      "id": "tr-nejm-012-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
       "referenceNumber": 22,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasin…",
-      "answer": "Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby increasing urinary glucose excretion. Empagliflozin is a selective inhibitor of sodium glucose cotransporter that has been approved for type 2 diabetes. Given as either monotherapy or as an add-on therapy, the drug is reported to reduce glycated hemoglobin levels in patients with type 2 diabetes, including those with stage 2 or 3a chronic kidney disease. Furthermore, empagliflozin is associated with weight loss and reductions in blood pressure without increases in heart rate. Empagliflozin also has favorable effects on markers of arterial stiffness and vascular resistance, visceral adiposity, albuminuria, and plasma urate. Empagliflozin has been associated with an increase in levels of both low-density lipoprotein (LDL) and high-density lipoprotein (HDL) cholesterol. The most common side effects of empagliflozin are urinary tract infection and genital infection",
-      "reference": "Ref 22: \"Inhibitors of sodium–glucose cotransporter 2 reduce rates of hyperglycemia in patients with type 2 diabetes by decreasing renal glucose reabsorption, thereby in...\" — Ridderstråle M, Andersen KR, Zeller C, Kim G, Woerle HJ, Broedl UC. Comparison of empagliflozin and glimepiride as add-o"
+      "question": "How did empagliflozin affect circulating lipid levels?",
+      "options": [
+        "It decreased LDL and increased HDL.",
+        "It decreased both LDL and HDL.",
+        "It increased both LDL and HDL.",
+        "It had absolutely no effect on lipids."
+      ],
+      "correctOption": 2,
+      "explanation": "Empagliflozin increased both LDL and HDL cholesterol.",
+      "reference": "EMPA-REG MCQ 7: Empagliflozin increased both LDL and HDL cholesterol. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-sa23",
+      "id": "tr-nejm-012-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
       "referenceNumber": 23,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From EMPA-REG OUTCOME, what is the key numeric finding cited in reference 23?",
-      "modelAnswer": "Since interim data from the trial were included in a new-drug application submitted to the FDA, under the Haybittle–Peto rule, a two-sided P value of 0.0498 or less was considered to indicate statistical significance in the final analyses. For the test of noninferiority for the primary outcome with ",
-      "reference": "Ref 23: \"Since interim data from the trial were included in a new-drug application submitted to the FDA, under the Haybittle–Peto rule, a two-sided P value of 0.0498 or ...\" — Zinman B, Inzucchi SE, Lachin JM, et al. Rationale, design, and baseline characteristics of a randomized, placebo-contro"
+      "question": "What percentage of patients in the trial had established cardiovascular disease at baseline?",
+      "options": [
+        "50%",
+        "75%",
+        "90%",
+        ">99%"
+      ],
+      "correctOption": 3,
+      "explanation": ">99% had established cardiovascular disease.",
+      "reference": "EMPA-REG MCQ 8: >99% had established cardiovascular disease. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why24",
+      "id": "tr-nejm-012-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
       "referenceNumber": 24,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: the primary outcome was determined if the upper boundary of the two-sided 95.02% confidence interval was less than 1.3. …",
-      "answer": "the primary outcome was determined if the upper boundary of the two-sided 95.02% confidence interval was less than 1.3. Analyses were based on a Cox proportional-hazards model, with study group, age, sex, baseline body-mass index, baseline glycated hemoglobin level, baseline eGFR, and geographic region as factors. Estimates of cumulative-incidence function were corrected for death as a competing risk, except for death from any cause, for which Kaplan–Meier estimates are presented. Because of the declining numbers of patients at risk, cumulative-incidence plots have been truncated at 48 months. We calculated the number of patients who would need to be treated to prevent one death on the basis of the exponential distribution",
-      "reference": "Ref 24: \"the primary outcome was determined if the upper boundary of the two-sided 95.02% confidence interval was less than 1.3. Analyses were based on a Cox proportiona...\" — Beyersmann J, Allignol A, Schumacher M. Competing risks and multistate models with R. New York: Springer, 2011."
+      "question": "The hazard ratio for hospitalization for heart failure in the empagliflozin group was:",
+      "options": [
+        "0.62",
+        "0.65",
+        "0.68",
+        "0.86"
+      ],
+      "correctOption": 1,
+      "explanation": "HF hospitalization HR 0.65 (35% relative risk reduction).",
+      "reference": "EMPA-REG MCQ 9: HF hospitalization HR 0.65 (35% relative risk reduction). — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why25",
+      "id": "tr-nejm-012-q10",
+      "type": "mcq",
+      "subtopic": "MCQ 10",
       "referenceNumber": 25,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mech…",
-      "answer": "placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mechanisms behind the observed benefits are speculative. As such, we infer that the mechanisms behind the cardiovascular benefits of empagliflozin are multidimensional and possibly involve changes in arterial stiffness, cardiac function, and cardiac oxygen",
-      "reference": "Ref 25: \"placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mechanisms behind the observed benefits are ...\" — Inzucchi SE, Zinman B, Wanner C, et al. SGLT-2 inhibitors and cardiovascular risk: proposed pathways and review of ongoi"
+      "question": "Which adverse event was specifically noted to occur at a higher rate in the empagliflozin group compared to placebo?",
+      "options": [
+        "Diabetic ketoacidosis",
+        "Acute renal failure",
+        "Genital infection",
+        "Thromboembolic events"
+      ],
+      "correctOption": 2,
+      "explanation": "Genital infections were more frequent with empagliflozin.",
+      "reference": "EMPA-REG MCQ 10: Genital infections were more frequent with empagliflozin. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why26",
+      "id": "tr-nejm-012-q11",
+      "type": "mcq",
+      "subtopic": "MCQ 11",
       "referenceNumber": 26,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mech…",
-      "answer": "placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mechanisms behind the observed benefits are speculative. As such, we infer that the mechanisms behind the cardiovascular benefits of empagliflozin are multidimensional and possibly involve changes in arterial stiffness, cardiac function, and cardiac oxygen",
-      "reference": "Ref 26: \"placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mechanisms behind the observed benefits are ...\" — Cherney DZ, Perkins BA, Soleyman-lou N, et al. The effect of empagliflozin on arterial stiffness and heart rate variabil"
+      "question": "According to the study parameters, the key secondary outcome consisted of the primary outcome plus which of the following?",
+      "options": [
+        "Hospitalization for heart failure",
+        "Hospitalization for unstable angina",
+        "Need for coronary revascularization",
+        "Progression to end-stage renal disease"
+      ],
+      "correctOption": 1,
+      "explanation": "Key secondary outcome added hospitalization for unstable angina.",
+      "reference": "EMPA-REG MCQ 11: Key secondary outcome added hospitalization for unstable angina. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why27",
+      "id": "tr-nejm-012-q12",
+      "type": "mcq",
+      "subtopic": "MCQ 12",
       "referenceNumber": 27,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mech…",
-      "answer": "placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mechanisms behind the observed benefits are speculative. As such, we infer that the mechanisms behind the cardiovascular benefits of empagliflozin are multidimensional and possibly involve changes in arterial stiffness, cardiac function, and cardiac oxygen",
-      "reference": "Ref 27: \"placebo group. Our trial was designed to assess the specific effects of empagliflozin on clinical outcomes, and the mechanisms behind the observed benefits are ...\" — Cardoso CR, Ferreira MT, Leite NC, Salles GF. Prognostic impact of aortic stiffness in high-risk type 2 diabetic patient"
+      "question": "What was the upper boundary limit of the hazard ratio required to mathematically prove noninferiority for the primary outcome?",
+      "options": [
+        "1.00",
+        "1.15",
+        "1.30",
+        "1.50"
+      ],
+      "correctOption": 2,
+      "explanation": "Noninferiority margin upper boundary was 1.30.",
+      "reference": "EMPA-REG MCQ 12: Noninferiority margin upper boundary was 1.30. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why28",
+      "id": "tr-nejm-012-q13",
+      "type": "mcq",
+      "subtopic": "MCQ 13",
       "referenceNumber": 28,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduc…",
-      "answer": "demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduction in uric acid, and established effects on hyperglycemia, weight, visceral adiposity, and blood pressure",
-      "reference": "Ref 28: \"demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduction in uric acid, and established effec...\" — Ronco C, McCullough P, Anker SD, et al. Cardio-renal syndromes: report from the consensus conference of the Acute Dialys"
+      "question": "What was the adjusted mean difference in glycated hemoglobin level between the 25-mg empagliflozin group and placebo at 12 weeks?",
+      "options": [
+        "-0.24 percentage points",
+        "-0.42 percentage points",
+        "-0.54 percentage points",
+        "-0.60 percentage points"
+      ],
+      "correctOption": 3,
+      "explanation": "HbA1c difference -0.60 percentage points at 12 weeks (25 mg vs placebo).",
+      "reference": "EMPA-REG MCQ 13: HbA1c difference -0.60 percentage points at 12 weeks (25 mg vs placebo). — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why29",
+      "id": "tr-nejm-012-q14",
+      "type": "mcq",
+      "subtopic": "MCQ 14",
       "referenceNumber": 29,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduc…",
-      "answer": "demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduction in uric acid, and established effects on hyperglycemia, weight, visceral adiposity, and blood pressure",
-      "reference": "Ref 29: \"demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduction in uric acid, and established effec...\" — Cherney DZ, Perkins BA, Soleyman-Lou N, et al. Renal hemodynamic effect of sodium-glucose cotransporter 2 inhibition in "
+      "question": "Urosepsis was reported in what percentage of patients in the empagliflozin group?",
+      "options": [
+        "0.1%",
+        "0.4%",
+        "1.7%",
+        "5.2%"
+      ],
+      "correctOption": 1,
+      "explanation": "Urosepsis reported in 0.4% of empagliflozin patients.",
+      "reference": "EMPA-REG MCQ 14: Urosepsis reported in 0.4% of empagliflozin patients. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     },
     {
-      "id": "tr-nejm-012-why30",
+      "id": "tr-nejm-012-q15",
+      "type": "mcq",
+      "subtopic": "MCQ 15",
       "referenceNumber": 30,
-      "type": "why",
-      "subtopic": "EMPA-REG OUTCOME",
-      "question": "Why is the following clinically relevant in EMPA-REG OUTCOME? Context: demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduc…",
-      "answer": "demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduction in uric acid, and established effects on hyperglycemia, weight, visceral adiposity, and blood pressure",
-      "reference": "Ref 30: \"demand (in the absence of sympathetic-nerve activation), as well as cardiorenal effects, reduction in albuminuria, reduction in uric acid, and established effec...\" — Bakris GL, Molitch M. Microalbuminuria as a risk predictor in diabetes: the continuing saga. Diabetes Care 2014;37:867-7"
+      "question": "What was the overall completion rate for patients involved in the study?",
+      "options": [
+        "74.6%",
+        "85.0%",
+        "97.0%",
+        "99.2%"
+      ],
+      "correctOption": 2,
+      "explanation": "97.0% overall study completion rate.",
+      "reference": "EMPA-REG MCQ 15: 97.0% overall study completion rate. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-q16",
+      "type": "mcq",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "How did the intervention affect the patients' resting heart rate?",
+      "options": [
+        "It caused significant tachycardia.",
+        "It caused severe bradycardia.",
+        "There was no increase in heart rate.",
+        "It increased heart rate only in the 25-mg dose group."
+      ],
+      "correctOption": 2,
+      "explanation": "No increase in resting heart rate with empagliflozin.",
+      "reference": "EMPA-REG MCQ 16: No increase in resting heart rate with empagliflozin. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-q17",
+      "type": "mcq",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "According to the baseline characteristics, what was the required maximum body-mass index (BMI) for study inclusion?",
+      "options": [
+        "30",
+        "35",
+        "40",
+        "45"
+      ],
+      "correctOption": 3,
+      "explanation": "Maximum BMI for inclusion was 45.",
+      "reference": "EMPA-REG MCQ 17: Maximum BMI for inclusion was 45. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-q18",
+      "type": "mcq",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "Which organization co-funded the trial alongside Boehringer Ingelheim?",
+      "options": [
+        "Merck",
+        "Sanofi Aventis",
+        "Eli Lilly",
+        "Novo Nordisk"
+      ],
+      "correctOption": 2,
+      "explanation": "Eli Lilly co-funded the trial with Boehringer Ingelheim.",
+      "reference": "EMPA-REG MCQ 18: Eli Lilly co-funded the trial with Boehringer Ingelheim. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-q19",
+      "type": "mcq",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "The rate of acute renal failure in the empagliflozin group compared to the placebo group was:",
+      "options": [
+        "Significantly higher",
+        "Exactly the same",
+        "Lower (5.2% vs 6.6%)",
+        "Lower (1.0% vs 10.5%)"
+      ],
+      "correctOption": 2,
+      "explanation": "Acute renal failure lower with empagliflozin (5.2% vs 6.6%).",
+      "reference": "EMPA-REG MCQ 19: Acute renal failure lower with empagliflozin (5.2% vs 6.6%). — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-q20",
+      "type": "mcq",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "How long was the initial open-label placebo run-in period prior to randomization?",
+      "options": [
+        "1 week",
+        "2 weeks",
+        "4 weeks",
+        "12 weeks"
+      ],
+      "correctOption": 1,
+      "explanation": "2-week open-label placebo run-in before randomization.",
+      "reference": "EMPA-REG MCQ 20: 2-week open-label placebo run-in before randomization. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "The trial demonstrated that empagliflozin significantly reduces the occurrence of nonfatal strokes.",
+      "correctAnswer": false,
+      "explanation": "No significant reduction in nonfatal stroke (3.5% vs 3.0%).",
+      "reference": "EMPA-REG T/F 1: No significant reduction in nonfatal stroke (3.5% vs 3.0%). — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "A key inclusion requirement was that all participants had established cardiovascular disease prior to randomization.",
+      "correctAnswer": true,
+      "explanation": "Established CVD was required for enrollment.",
+      "reference": "EMPA-REG T/F 2: Established CVD was required for enrollment. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "Empagliflozin acts primarily by increasing endogenous insulin secretion from the pancreas.",
+      "correctAnswer": false,
+      "explanation": "Empagliflozin is an SGLT2 inhibitor acting via renal glycosuria, not insulin secretion.",
+      "reference": "EMPA-REG T/F 3: Empagliflozin is an SGLT2 inhibitor acting via renal glycosuria, not insulin secretion. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "The primary analysis utilized a modified intention-to-treat approach for patients who received at least one dose of the study drug.",
+      "correctAnswer": true,
+      "explanation": "Modified ITT included all patients receiving ≥1 dose.",
+      "reference": "EMPA-REG T/F 4: Modified ITT included all patients receiving ≥1 dose. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "The study documented a significant increase in the incidence of bone fractures among patients taking empagliflozin.",
+      "correctAnswer": false,
+      "explanation": "No significant increase in bone fractures.",
+      "reference": "EMPA-REG T/F 5: No significant increase in bone fractures. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "Patients assigned to the placebo group were provided with standard care, including lipid-lowering and antihypertensive medications.",
+      "correctAnswer": true,
+      "explanation": "Both groups received standard care including lipid and BP therapy.",
+      "reference": "EMPA-REG T/F 6: Both groups received standard care including lipid and BP therapy. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "The risk of hospitalization for heart failure was 35% lower in the empagliflozin group than in the placebo group.",
+      "correctAnswer": true,
+      "explanation": "HF hospitalization reduced 35% (HR 0.65).",
+      "reference": "EMPA-REG T/F 7: HF hospitalization reduced 35% (HR 0.65). — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "The 25-mg dose of empagliflozin was proven to be vastly superior to the 10-mg dose regarding the reduction of cardiovascular deaths.",
+      "correctAnswer": false,
+      "explanation": "10 mg and 25 mg had virtually identical CV outcome HRs in pooled analysis.",
+      "reference": "EMPA-REG T/F 8: 10 mg and 25 mg had virtually identical CV outcome HRs in pooled analysis. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "The trial was terminated early because of a massive spike in diabetic ketoacidosis cases.",
+      "correctAnswer": false,
+      "explanation": "Trial completed as planned; no early termination for DKA.",
+      "reference": "EMPA-REG T/F 9: Trial completed as planned; no early termination for DKA. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "Empagliflozin was associated with small reductions in body weight, waist circumference, and uric acid levels.",
+      "correctAnswer": true,
+      "explanation": "Empagliflozin reduced weight, waist circumference, and uric acid.",
+      "reference": "EMPA-REG T/F 10: Empagliflozin reduced weight, waist circumference, and uric acid. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "The trial achieved noninferiority for the key secondary outcome but failed to achieve statistical superiority for it (P=0.08).",
+      "correctAnswer": true,
+      "explanation": "Key secondary outcome: noninferior but superiority P=0.08.",
+      "reference": "EMPA-REG T/F 11: Key secondary outcome: noninferior but superiority P=0.08. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "Patients with an estimated glomerular filtration rate of 15 ml per minute were routinely enrolled into the study.",
+      "correctAnswer": false,
+      "explanation": "Minimum eGFR was 30 ml/min; eGFR 15 excluded.",
+      "reference": "EMPA-REG T/F 12: Minimum eGFR was 30 ml/min; eGFR 15 excluded. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "The data monitoring committee and the clinical-events adjudication committees were completely independent of the study sponsors.",
+      "correctAnswer": true,
+      "explanation": "DMC and adjudication committees were independent of sponsors.",
+      "reference": "EMPA-REG T/F 13: DMC and adjudication committees were independent of sponsors. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "The rate of complicated urinary tract infections, including pyelonephritis, was significantly higher in the empagliflozin group compared to the placebo group.",
+      "correctAnswer": false,
+      "explanation": "No significant increase in complicated UTI/pyelonephritis.",
+      "reference": "EMPA-REG T/F 14: No significant increase in complicated UTI/pyelonephritis. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
+    },
+    {
+      "id": "tr-nejm-012-tf15",
+      "type": "true_false",
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "The reduction in death from cardiovascular causes occurred early in the trial and was maintained consistently throughout the observation period.",
+      "correctAnswer": true,
+      "explanation": "CV death reduction emerged early and persisted throughout follow-up.",
+      "reference": "EMPA-REG T/F 15: CV death reduction emerged early and persisted throughout follow-up. — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J Med 2015;373:2117-2128."
     }
   ]
 }
