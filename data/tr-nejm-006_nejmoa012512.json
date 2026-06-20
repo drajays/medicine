@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa012512",
   "paperType": "rct",
-  "title": "REDUCTION IN THE INCIDENCE OF TYPE 2 DIABETES WITH LIFESTYLE INTERVENTION OR METFORMIN",
-  "subtitle": "DPP — Lifestyle vs Metformin for T2DM Prevention",
+  "title": "DPP",
+  "subtitle": "Diabetes Prevention Program — Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Endocrinology & Metabolism",
-  "authors": "Harris MI, Flegal KM, Cowie CC, et al. Prevalence of diabetes, impaired fasting ",
+  "authors": "Knowler WC, Barrett-Connor E, Fowler SE, et al.; N Engl J Med 2002",
   "sourceFile": "noupload/NEJM/nejmoa012512/paper.md",
   "bibliography": [
     {
@@ -121,345 +121,750 @@
     }
   ],
   "trialDesign": {
-    "fullName": "REDUCTION IN THE INCIDENCE OF TYPE 2 DIABETES WITH LIFESTYLE INTERVENTION OR METFORMIN",
-    "overview": "Background Type 2 diabetes affects approximately 8 percent of adults in the United States. Some risk factors — elevated plasma glucose concentrations in the fasting state and after an oral glucose load, overweight, and a sedentary lifestyle — are potentially reversible. We hypothesized that modifying these factors with a lifestyle-intervention program or the administration of metformin would prevent or delay the development of diabetes. Methods We randomly assigned 3234 nondiabetic persons with ",
-    "design": "We conducted a clinical trial involving persons at 27 centers who were at high risk for diabetes. The methods have been described in detail elsewhere, and the protocol is available at http://www.bsc.gwu.edu/dpp. The institutional review board at each center approved the protocol, and all participant",
-    "population": "Eligible persons were excluded if they were taking medicines known to alter glucose tolerance or if they had illnesses that could seriously reduce their life expectancy or their ability to participate in the trial.",
-    "intervention": "Interventions Eligible participants were randomly assigned to one of three interventions: standard lifestyle recommendations plus metformin (Glucophage) at a dose of 850 mg twice daily, standard lifestyle recommendations plus placebo twice daily, or an intensive program of lifestyle modification.",
-    "comparator": "placebo"
+    "fullName": "Diabetes Prevention Program (DPP)",
+    "year": 2002,
+    "design": "Multicenter randomized controlled trial (3 arms; troglitazone arm discontinued)",
+    "population": "3234 nondiabetic adults with impaired fasting glucose and impaired glucose tolerance",
+    "sampleSize": "n=3234 (lifestyle vs metformin 850 mg BID vs placebo)",
+    "duration": "Mean follow-up 2.8 years (stopped early after 65% of planned person-years)",
+    "intervention": "Intensive lifestyle (≥7% weight loss, ≥150 min/week moderate activity) or metformin 850 mg BID",
+    "comparator": "Placebo plus standard lifestyle recommendations",
+    "primaryEndpoint": "Incidence of diabetes (1997 ADA criteria, confirmed on repeat testing)",
+    "overview": "Lifestyle reduced diabetes incidence by 58% and metformin by 31% vs placebo; lifestyle was superior to metformin with NNT 6.9 vs 13.9 over three years."
   },
   "trialSummary": {
     "headings": {
-      "design": "We conducted a clinical trial involving persons at 27 centers who were at high risk for diabetes. The methods have been described in detail elsewhere, and the protocol is available at http://www.bsc.gwu.edu/dpp. The institutional review board at each center approved the protocol, and all participant",
-      "population": "Eligible persons were excluded if they were taking medicines known to alter glucose tolerance or if they had illnesses that could seriously reduce their life expectancy or their ability to participate in the trial.",
-      "intervention": "Interventions Eligible participants were randomly assigned to one of three interventions: standard lifestyle recommendations plus metformin (Glucophage) at a dose of 850 mg twice daily, standard lifestyle recommendations plus placebo twice daily, or an intensive program of lifestyle modification.",
-      "comparator": "placebo"
+      "background": "Type 2 diabetes prevention in high-risk adults with elevated fasting and post-load glucose had not been established with pharmacotherapy.",
+      "design": "Randomized to intensive lifestyle, metformin 850 mg BID, or placebo at 27 US centers.",
+      "population": "3234 nondiabetic adults; ~50% minority enrollment; BMI ≥24 (≥22 Asians); IFG and IGT by ADA criteria.",
+      "intervention": "Lifestyle: 16-lesson curriculum, ≥7% weight loss, ≥150 min/week moderate activity. Metformin: 850 mg BID.",
+      "comparator": "Placebo BID plus standard lifestyle and dietary recommendations.",
+      "followUp": "Mean 2.8 years; blinded phase stopped early for efficacy."
     },
-    "outcomes": [],
-    "conclusion": "Our results support the hypothesis that type 2 diabetes can be prevented or delayed in persons at high risk for the disease. The incidence of diabetes was reduced by 58 percent with the lifestyle intervention and by 31 percent with metformin, as compared with placebo. These effects were similar in men and women and in all racial and ethnic groups. The intensive lifestyle intervention was at least as effective in older participants as it was in younger participants. The results of our study extend previous data showing that lifestyle interventions can reduce the incidence of diabetes and demons",
-    "clinicalBottomLine": "Our results support the hypothesis that type 2 diabetes can be prevented or delayed in persons at high risk for the disease. The incidence of diabetes was reduced by 58 percent with the lifestyle intervention and by 31 percent with metformin, as comp"
+    "outcomes": [
+      {
+        "label": "Diabetes incidence — lifestyle vs placebo",
+        "type": "primary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 58
+        },
+        "interpretation": "58% reduction vs placebo"
+      },
+      {
+        "label": "Diabetes incidence — metformin vs placebo",
+        "type": "primary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 31
+        },
+        "interpretation": "31% reduction vs placebo"
+      },
+      {
+        "label": "NNT over 3 years",
+        "type": "secondary",
+        "effect": {
+          "measure": "NNT",
+          "value": 6.9,
+          "interpretation": "Lifestyle 6.9; metformin 13.9"
+        },
+        "interpretation": "Lifestyle roughly twice as efficient as metformin"
+      },
+      {
+        "label": "Placebo crude incidence",
+        "type": "secondary",
+        "effect": {
+          "measure": "Incidence",
+          "value": 11,
+          "interpretation": "cases per 100 person-years"
+        },
+        "interpretation": "11.0 cases/100 person-years in placebo group"
+      }
+    ],
+    "safetyHighlights": [
+      "GI symptoms most common with metformin; musculoskeletal symptoms highest in lifestyle group",
+      "No significant differences in hospitalization or mortality between groups"
+    ],
+    "clinicalBottomLine": "Lifestyle modification is the most effective strategy to prevent type 2 diabetes in high-risk adults; metformin is a safe, less potent alternative, especially in younger, heavier patients."
   },
-  "inclusionCriteria": [],
+  "inclusionCriteria": [
+    "Age ≥25 years; BMI ≥24 (≥22 if Asian); fasting glucose 95–125 mg/dl (≤125 for American Indians)",
+    "2-hour post-load glucose 140–199 mg/dl on 75-g OGTT",
+    "No prior diabetes diagnosis; not on glucose-altering medications"
+  ],
   "exclusionCriteria": [
-    "excluded if they were taking medicines known to alter glucose tolerance or if they had illnesses that could seriously reduce their life expectancy or their ability to participate in the trial."
+    "Medicines known to alter glucose tolerance",
+    "Illnesses limiting life expectancy or trial participation",
+    "Troglitazone arm discontinued 1998 for hepatotoxicity"
   ],
   "keyTakeaways": [
-    "Our results support the hypothesis that type 2 diabetes can be prevented or delayed in persons at high risk for the disease. The incidence of diabetes was reduced by 58 percent with the lifestyle intervention and by 31 percent with metformin, as comp",
-    "Our results support the hypothesis that type 2 diabetes can be prevented or delayed in persons at high risk for the disease. The incidence of diabetes was reduced by 58 percent with the lifestyle intervention and by 31 percent with metformin, as compared with placebo. These effects were similar in m"
+    "Lifestyle ↓58% · metformin ↓31% diabetes incidence vs placebo over 2.8 years.",
+    "NNT 6.9 (lifestyle) vs 13.9 (metformin) over 3 years.",
+    "Effects similar across race/ethnicity; lifestyle superior overall, especially in older and lower-BMI participants."
   ],
   "items": [
     {
-      "id": "tr-nejm-006-why1",
-      "referenceNumber": 1,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affectin…",
-      "answer": "TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in the United States. Treatment prevents some of its devastating complications but does not usually restore normoglycemia or eliminate all the adverse consequences. The diagnosis is often delayed until complications are present. Since current methods of treating diabetes remain inadequate, prevention is preferable. The hypothesis that type 2 diabetes is preventable is supported by observational studies and two clinical trials of diet, exercise, or both in persons at high risk for the disease but not by studies of drugs used to treat diabetes",
-      "reference": "Ref 1: \"TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in t...\" — Harris MI, Flegal KM, Cowie CC, et al. Prevalence of diabetes, impaired fasting glucose, and impaired glucose tolerance "
+      "id": "tr-nejm-006-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "DPP — Main Points (High-Yield Overview)",
+      "content": "Background and Objective: The Diabetes Prevention Program (DPP) investigated whether lifestyle interventions or metformin could prevent or delay type 2 diabetes in high-risk adults.\n\nStudy Design: Randomized 3,234 nondiabetic adults with elevated fasting and post-load plasma glucose to placebo, metformin (850 mg twice daily), or intensive lifestyle modification.\n\nIntervention Goals: Lifestyle program targeted ≥7% weight loss and ≥150 minutes/week of moderate physical activity.\n\nEfficacy and Results: Over mean 2.8-year follow-up, lifestyle reduced diabetes incidence by 58% vs placebo; metformin by 31%.\n\nNumber Needed to Treat: NNT 6.9 (lifestyle) vs 13.9 (metformin) over three years to prevent one case.\n\nConclusion: Both interventions were effective and safe; lifestyle modification was significantly more effective than metformin across diverse demographic groups.",
+      "keyPoints": [
+        "58% diabetes reduction (lifestyle) · 31% (metformin)",
+        "NNT 6.9 lifestyle · 13.9 metformin over 3 years",
+        "Effects similar across race/ethnicity; lifestyle superior overall"
+      ],
+      "reference": "Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why2",
-      "referenceNumber": 2,
+      "id": "tr-nejm-006-why1",
       "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affectin…",
-      "answer": "TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in the United States. Treatment prevents some of its devastating complications but does not usually restore normoglycemia or eliminate all the adverse consequences. The diagnosis is often delayed until complications are present. Since current methods of treating diabetes remain inadequate, prevention is preferable. The hypothesis that type 2 diabetes is preventable is supported by observational studies and two clinical trials of diet, exercise, or both in persons at high risk for the disease but not by studies of drugs used to treat diabetes",
-      "reference": "Ref 2: \"TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in t...\" — UK Prospective Diabetes Study (UKPDS) Group. Intensive blood-glucose control with sulphonylureas or insulin compared wit"
+      "subtopic": "Why/How 1",
+      "referenceNumber": 1,
+      "question": "Why did the DPP intentionally design its recruitment to enroll approximately 50 percent minority group members?",
+      "answer": "The researchers aimed to ensure the results could be accurately generalized to the ethnically and culturally diverse United States population, especially since diabetes is particularly frequent in specific minority groups.",
+      "keyPoints": [
+        "The researchers aimed to ensure the results could be accurately generalized to the ethnically and culturally diverse United States population, especially since diabetes is particularly frequent in specific minority groups."
+      ],
+      "reference": "DPP Q1: The researchers aimed to ensure the results could be accurately generalized to t... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-how2",
+      "type": "how",
+      "subtopic": "Why/How 2",
+      "referenceNumber": 2,
+      "question": "How was the primary outcome—the diagnosis of diabetes—clinically confirmed during the trial?",
+      "answer": "Diabetes was diagnosed based on the 1997 American Diabetes Association criteria using an annual oral glucose-tolerance test or a semiannual fasting plasma glucose test; crucially, this required confirmation by a second test, usually within six weeks.",
+      "keyPoints": [
+        "Diabetes was diagnosed based on the 1997 American Diabetes Association criteria using an annual oral glucose-tolerance test or a semiannual fasting plasma glucose test; crucially, this required confirmation by a second test, usually within six weeks."
+      ],
+      "reference": "DPP Q2: Diabetes was diagnosed based on the 1997 American Diabetes Association criteria ... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-why3",
-      "referenceNumber": 3,
       "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affectin…",
-      "answer": "TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in the United States. Treatment prevents some of its devastating complications but does not usually restore normoglycemia or eliminate all the adverse consequences. The diagnosis is often delayed until complications are present. Since current methods of treating diabetes remain inadequate, prevention is preferable. The hypothesis that type 2 diabetes is preventable is supported by observational studies and two clinical trials of diet, exercise, or both in persons at high risk for the disease but not by studies of drugs used to treat diabetes",
-      "reference": "Ref 3: \"TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in t...\" — Idem. Effect of intensive blood-glucose control with metformin on complications in overweight patients with type 2 diabe"
+      "subtopic": "Why/How 3",
+      "referenceNumber": 3,
+      "question": "Why was the initial fourth treatment arm, troglitazone, prematurely discontinued in 1998?",
+      "answer": "Troglitazone was removed from the study due to the drug's potential for causing liver toxicity.",
+      "keyPoints": [
+        "Troglitazone was removed from the study due to the drug's potential for causing liver toxicity."
+      ],
+      "reference": "DPP Q3: Troglitazone was removed from the study due to the drug's potential for causing ... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why4",
+      "id": "tr-nejm-006-how4",
+      "type": "how",
+      "subtopic": "Why/How 4",
       "referenceNumber": 4,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affectin…",
-      "answer": "TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in the United States. Treatment prevents some of its devastating complications but does not usually restore normoglycemia or eliminate all the adverse consequences. The diagnosis is often delayed until complications are present. Since current methods of treating diabetes remain inadequate, prevention is preferable. The hypothesis that type 2 diabetes is preventable is supported by observational studies and two clinical trials of diet, exercise, or both in persons at high risk for the disease but not by studies of drugs used to treat diabetes",
-      "reference": "Ref 4: \"TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in t...\" — Harris MI, Eastman RC. Early detection of undiagnosed diabetes mellitus: a US perspective. Diabetes Metab Res Rev 2001;1"
+      "question": "How did the researchers handle participants whose fasting plasma glucose reached or exceeded 140 mg per deciliter during routine monitoring?",
+      "answer": "The assigned study medication was immediately discontinued, and the participant was referred to their personal physician for clinical treatment.",
+      "keyPoints": [
+        "The assigned study medication was immediately discontinued, and the participant was referred to their personal physician for clinical treatment."
+      ],
+      "reference": "DPP Q4: The assigned study medication was immediately discontinued, and the participant ... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-why5",
-      "referenceNumber": 5,
       "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affectin…",
-      "answer": "TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in the United States. Treatment prevents some of its devastating complications but does not usually restore normoglycemia or eliminate all the adverse consequences. The diagnosis is often delayed until complications are present. Since current methods of treating diabetes remain inadequate, prevention is preferable. The hypothesis that type 2 diabetes is preventable is supported by observational studies and two clinical trials of diet, exercise, or both in persons at high risk for the disease but not by studies of drugs used to treat diabetes",
-      "reference": "Ref 5: \"TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in t...\" — Knowler WC, Narayan KMV, Hanson RL, et al. Preventing non-insulin-dependent diabetes. Diabetes 1995;44:483-8."
+      "subtopic": "Why/How 5",
+      "referenceNumber": 5,
+      "question": "Why did the independent data monitoring board advise terminating the blinded treatment phase one year early?",
+      "answer": "The board obtained conclusive evidence of the interventions' efficacy based on 65 percent of the planned person-years of observation, rendering further blinded follow-up unnecessary to prove the hypothesis.",
+      "keyPoints": [
+        "The board obtained conclusive evidence of the interventions' efficacy based on 65 percent of the planned person-years of observation, rendering further blinded follow-up unnecessary to prove the hypothesis."
+      ],
+      "reference": "DPP Q5: The board obtained conclusive evidence of the interventions' efficacy based on 6... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why6",
+      "id": "tr-nejm-006-how6",
+      "type": "how",
+      "subtopic": "Why/How 6",
       "referenceNumber": 6,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: Eligible participants were randomly assigned to one of three interventions: standard lifestyle recommendations plus metf…",
-      "answer": "Eligible participants were randomly assigned to one of three interventions: standard lifestyle recommendations plus metformin (Glucophage) at a dose of 850 mg twice daily, standard lifestyle recommendations plus placebo twice daily, or an intensive program of lifestyle modification. The study initially included a fourth intervention, troglitazone, which was discontinued in 1998 because of the drug's potential liver toxicity. The results in the troglitazone group are not reported here",
-      "reference": "Ref 6: \"Eligible participants were randomly assigned to one of three interventions: standard lifestyle recommendations plus metformin (Glucophage) at a dose of 850 mg t...\" — The Diabetes Prevention Program Research Group. The Diabetes Prevention Program: design and methods for a clinical trial"
+      "question": "How did the clinical effectiveness of metformin vary based on a participant's baseline body metrics?",
+      "answer": "Metformin was significantly less effective in preventing diabetes in participants who had a lower baseline body-mass index (BMI) or a lower fasting plasma glucose concentration.",
+      "keyPoints": [
+        "Metformin was significantly less effective in preventing diabetes in participants who had a lower baseline body-mass index (BMI) or a lower fasting plasma glucose concentration."
+      ],
+      "reference": "DPP Q6: Metformin was significantly less effective in preventing diabetes in participant... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-why7",
-      "referenceNumber": 7,
       "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affectin…",
-      "answer": "TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in the United States. Treatment prevents some of its devastating complications but does not usually restore normoglycemia or eliminate all the adverse consequences. The diagnosis is often delayed until complications are present. Since current methods of treating diabetes remain inadequate, prevention is preferable. The hypothesis that type 2 diabetes is preventable is supported by observational studies and two clinical trials of diet, exercise, or both in persons at high risk for the disease but not by studies of drugs used to treat diabetes",
-      "reference": "Ref 7: \"TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in t...\" — Pan XR, Li GW, Hu YH, et al. Effects of diet and exercise in preventing NIDDM in people with impaired glucose tolerance:"
+      "subtopic": "Why/How 7",
+      "referenceNumber": 7,
+      "question": "Why did the lifestyle-intervention group experience a higher rate of musculoskeletal symptoms compared to the medication groups?",
+      "answer": "This is attributed to the intensive intervention's core goal of engaging participants in physical activity of moderate intensity for at least 150 minutes per week, leading to higher rates of myalgia and arthralgia.",
+      "keyPoints": [
+        "This is attributed to the intensive intervention's core goal of engaging participants in physical activity of moderate intensity for at least 150 minutes per week, leading to higher rates of myalgia and arthralgia."
+      ],
+      "reference": "DPP Q7: This is attributed to the intensive intervention's core goal of engaging partici... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why8",
+      "id": "tr-nejm-006-how8",
+      "type": "how",
+      "subtopic": "Why/How 8",
       "referenceNumber": 8,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affectin…",
-      "answer": "TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in the United States. Treatment prevents some of its devastating complications but does not usually restore normoglycemia or eliminate all the adverse consequences. The diagnosis is often delayed until complications are present. Since current methods of treating diabetes remain inadequate, prevention is preferable. The hypothesis that type 2 diabetes is preventable is supported by observational studies and two clinical trials of diet, exercise, or both in persons at high risk for the disease but not by studies of drugs used to treat diabetes",
-      "reference": "Ref 8: \"TYPE 2 diabetes mellitus, formerly called non-insulin-dependent diabetes mellitus, is a serious, costly disease affecting approximately 8 percent of adults in t...\" — Tuomilehto J, Lindström J, Eriksson JG, et al. Prevention of type 2 diabetes mellitus by changes in lifestyle among subj"
+      "question": "How were the dietary and physical activity modifications delivered to the participants in the lifestyle group?",
+      "answer": "A 16-lesson curriculum was taught on a one-to-one basis by case managers during the first 24 weeks, which was then followed by individualized, flexible monthly individual and group sessions to reinforce behavioral changes.",
+      "keyPoints": [
+        "A 16-lesson curriculum was taught on a one-to-one basis by case managers during the first 24 weeks, which was then followed by individualized, flexible monthly individual and group sessions to reinforce behavioral changes."
+      ],
+      "reference": "DPP Q8: A 16-lesson curriculum was taught on a one-to-one basis by case managers during ... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-why9",
-      "referenceNumber": 9,
       "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: The validity of generalizing the results of previous prevention studies is uncertain. Interventions that work in some so…",
-      "answer": "The validity of generalizing the results of previous prevention studies is uncertain. Interventions that work in some societies may not work in others, because social, economic, and cultural forces influence diet and exercise. This is a special concern in the United States, where there is great regional and ethnic diversity in lifestyle patterns and where diabetes is especially frequent in certain racial and ethnic groups, including American Indians, Hispanics, African Americans, Asians, and Pacific Islanders",
-      "reference": "Ref 9: \"The validity of generalizing the results of previous prevention studies is uncertain. Interventions that work in some societies may not work in others, because ...\" — Tataranni PA, Bogardus C. Changing habits to delay diabetes. N Engl J Med 2001;344:1390-2."
+      "subtopic": "Why/How 9",
+      "referenceNumber": 9,
+      "question": "Why did the researchers strictly exclude individuals who were taking medicines known to alter glucose tolerance?",
+      "answer": "To prevent pharmacological confounding variables that could independently affect the primary outcomes of fasting and post-load plasma glucose measurements.",
+      "keyPoints": [
+        "To prevent pharmacological confounding variables that could independently affect the primary outcomes of fasting and post-load plasma glucose measurements."
+      ],
+      "reference": "DPP Q9: To prevent pharmacological confounding variables that could independently affect... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why10",
+      "id": "tr-nejm-006-how10",
+      "type": "how",
+      "subtopic": "Why/How 10",
       "referenceNumber": 10,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: The validity of generalizing the results of previous prevention studies is uncertain. Interventions that work in some so…",
-      "answer": "The validity of generalizing the results of previous prevention studies is uncertain. Interventions that work in some societies may not work in others, because social, economic, and cultural forces influence diet and exercise. This is a special concern in the United States, where there is great regional and ethnic diversity in lifestyle patterns and where diabetes is especially frequent in certain racial and ethnic groups, including American Indians, Hispanics, African Americans, Asians, and Pacific Islanders",
-      "reference": "Ref 10: \"The validity of generalizing the results of previous prevention studies is uncertain. Interventions that work in some societies may not work in others, because ...\" — Diabetes in America. 2nd ed. Bethesda, Md.: National Institute of Diabetes and Digestive and Kidney Diseases, 1995. (NIH"
+      "question": "How did the lifestyle intervention impact post-load glucose concentrations compared to the metformin intervention?",
+      "answer": "While both interventions were similarly effective in restoring normal fasting glucose values, the lifestyle intervention proved more effective than metformin at restoring normal post-load glucose values.",
+      "keyPoints": [
+        "While both interventions were similarly effective in restoring normal fasting glucose values, the lifestyle intervention proved more effective than metformin at restoring normal post-load glucose values."
+      ],
+      "reference": "DPP Q10: While both interventions were similarly effective in restoring normal fasting gl... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-why11",
-      "referenceNumber": 11,
       "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: This category includes 54 participants with a fasting glucose concentration of 126 to 139 mg per deciliter who were enro…",
-      "answer": "This category includes 54 participants with a fasting glucose concentration of 126 to 139 mg per deciliter who were enrolled before June 1997, when the eligibility criteria were changed to conform to the diagnostic criteria of the American Diabetes Association, published that year",
-      "reference": "Ref 11: \"This category includes 54 participants with a fasting glucose concentration of 126 to 139 mg per deciliter who were enrolled before June 1997, when the eligibil...\" — Report of the Expert Committee on the Diagnosis and Classification of Diabetes Mellitus. Diabetes Care 1997;20:1183-97."
+      "subtopic": "Why/How 11",
+      "referenceNumber": 11,
+      "question": "Why is metformin's primary physiological effect observed on fasting plasma glucose rather than post-load glucose?",
+      "answer": "Metformin works primarily by suppressing endogenous glucose production from the liver, which is the main physiological determinant of fasting plasma glucose concentrations.",
+      "keyPoints": [
+        "Metformin works primarily by suppressing endogenous glucose production from the liver, which is the main physiological determinant of fasting plasma glucose concentrations."
+      ],
+      "reference": "DPP Q11: Metformin works primarily by suppressing endogenous glucose production from the ... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-how12",
+      "type": "how",
+      "subtopic": "Why/How 12",
+      "referenceNumber": 12,
+      "question": "How did the trial define the specific physical activity threshold required for the lifestyle intervention group?",
+      "answer": "The defined goal was engaging in moderate-intensity physical activity, such as brisk walking, for a minimum of 150 minutes per week.",
+      "keyPoints": [
+        "The defined goal was engaging in moderate-intensity physical activity, such as brisk walking, for a minimum of 150 minutes per week."
+      ],
+      "reference": "DPP Q12: The defined goal was engaging in moderate-intensity physical activity, such as b... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-why13",
+      "type": "why",
+      "subtopic": "Why/How 13",
+      "referenceNumber": 13,
+      "question": "Why was the body-mass index (BMI) eligibility criterion lowered to 22 specifically for Asian participants?",
+      "answer": "The criteria were adjusted (compared to the standard ≥24 for all other groups) to account for differing physiological risk thresholds and body compositions characteristic of the Asian demographic.",
+      "keyPoints": [
+        "The criteria were adjusted (compared to the standard ≥24 for all other groups) to account for differing physiological risk thresholds and body compositions characteristic of the Asian demographic."
+      ],
+      "reference": "DPP Q13: The criteria were adjusted (compared to the standard ≥24 for all other groups) t... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-how14",
+      "type": "how",
+      "subtopic": "Why/How 14",
+      "referenceNumber": 14,
+      "question": "How was participant adherence to the metformin and placebo regimens objectively evaluated throughout the trial?",
+      "answer": "Adherence to the pharmacological treatments was assessed quarterly based on physical pill counts and structured interviews with the subjects.",
+      "keyPoints": [
+        "Adherence to the pharmacological treatments was assessed quarterly based on physical pill counts and structured interviews with the subjects."
+      ],
+      "reference": "DPP Q14: Adherence to the pharmacological treatments was assessed quarterly based on phys... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-why15",
+      "type": "why",
+      "subtopic": "Why/How 15",
+      "referenceNumber": 15,
+      "question": "Why were fasting glucose values required to be measured every six months even after a participant was officially diagnosed with diabetes?",
+      "answer": "While oral glucose-tolerance tests were discontinued post-diagnosis, fasting glucose and annual glycosylated hemoglobin were continuously tracked to monitor their glycemic safety and determine if the study medication needed to be halted (if fasting glucose hit ≥140 mg/dl).",
+      "keyPoints": [
+        "While oral glucose-tolerance tests were discontinued post-diagnosis, fasting glucose and annual glycosylated hemoglobin were continuously tracked to monitor their glycemic safety and determine if the study medication needed to be halted (if fasting glucose hit ≥140 mg/dl)."
+      ],
+      "reference": "DPP Q15: While oral glucose-tolerance tests were discontinued post-diagnosis, fasting glu... — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q1",
+      "type": "mcq",
+      "subtopic": "MCQ 1",
+      "referenceNumber": 16,
+      "question": "What was the average weight loss achieved by the lifestyle-intervention group?",
+      "options": [
+        "0.1 kg",
+        "2.1 kg",
+        "5.6 kg",
+        "7.0 kg"
+      ],
+      "correctOption": 2,
+      "explanation": "Average weight loss in the lifestyle group was 5.6 kg.",
+      "reference": "DPP MCQ 1: Average weight loss in the lifestyle group was 5.6 kg. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
+      "referenceNumber": 17,
+      "question": "What percentage of the lifestyle group achieved the primary goal of at least 7% weight loss by the end of the 24-week curriculum?",
+      "options": [
+        "38%",
+        "50%",
+        "58%",
+        "74%"
+      ],
+      "correctOption": 1,
+      "explanation": "50% achieved ≥7% weight loss by 24 weeks.",
+      "reference": "DPP MCQ 2: 50% achieved ≥7% weight loss by 24 weeks. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
+      "referenceNumber": 18,
+      "question": "Which adverse event had the highest incidence rate specifically in the metformin group?",
+      "options": [
+        "Musculoskeletal symptoms",
+        "Gastrointestinal symptoms",
+        "Hypoglycemia",
+        "Cardiovascular events"
+      ],
+      "correctOption": 1,
+      "explanation": "Gastrointestinal symptoms were most common with metformin.",
+      "reference": "DPP MCQ 3: Gastrointestinal symptoms were most common with metformin. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
+      "referenceNumber": 19,
+      "question": "What was the target maintenance dose of metformin used in the study for the majority of patients?",
+      "options": [
+        "500 mg twice daily",
+        "850 mg once daily",
+        "850 mg twice daily",
+        "1000 mg twice daily"
+      ],
+      "correctOption": 2,
+      "explanation": "Metformin was given at 850 mg twice daily.",
+      "reference": "DPP MCQ 4: Metformin was given at 850 mg twice daily. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
+      "referenceNumber": 20,
+      "question": "The crude incidence of diabetes in the placebo group was how many cases per 100 person-years?",
+      "options": [
+        "4.8",
+        "7.8",
+        "11.0",
+        "14.4"
+      ],
+      "correctOption": 2,
+      "explanation": "Placebo crude incidence was 11.0 cases per 100 person-years.",
+      "reference": "DPP MCQ 5: Placebo crude incidence was 11.0 cases per 100 person-years. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
+      "referenceNumber": 21,
+      "question": "The estimated number of persons needed to be treated with metformin for three years to prevent one specific case of diabetes is:",
+      "options": [
+        "6.9",
+        "11.0",
+        "13.9",
+        "21.7"
+      ],
+      "correctOption": 2,
+      "explanation": "NNT for metformin over three years was 13.9.",
+      "reference": "DPP MCQ 6: NNT for metformin over three years was 13.9. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
+      "referenceNumber": 22,
+      "question": "What percentage of the randomized study participants were women?",
+      "options": [
+        "32%",
+        "45%",
+        "54%",
+        "68%"
+      ],
+      "correctOption": 3,
+      "explanation": "68% of participants were women.",
+      "reference": "DPP MCQ 7: 68% of participants were women. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
+      "referenceNumber": 23,
+      "question": "How was self-reported leisure physical activity quantified in the study?",
+      "options": [
+        "Modifiable Activity Questionnaire",
+        "Block food-frequency questionnaire",
+        "Step counters",
+        "Monthly clinical interviews"
+      ],
+      "correctOption": 0,
+      "explanation": "Physical activity was quantified with the Modifiable Activity Questionnaire.",
+      "reference": "DPP MCQ 8: Physical activity was quantified with the Modifiable Activity Questionnaire. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
+      "referenceNumber": 24,
+      "question": "Which treatment group experienced a measurable increase in average fasting plasma glucose values during the first year of the trial?",
+      "options": [
+        "Metformin group",
+        "Lifestyle-intervention group",
+        "Placebo group",
+        "Both placebo and metformin groups"
+      ],
+      "correctOption": 2,
+      "explanation": "Average fasting glucose increased in the placebo group during year one.",
+      "reference": "DPP MCQ 9: Average fasting glucose increased in the placebo group during year one. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q10",
+      "type": "mcq",
+      "subtopic": "MCQ 10",
+      "referenceNumber": 25,
+      "question": "By what overall percentage did the intensive lifestyle intervention reduce the incidence of diabetes compared to the placebo?",
+      "options": [
+        "31%",
+        "39%",
+        "48%",
+        "58%"
+      ],
+      "correctOption": 3,
+      "explanation": "Lifestyle intervention reduced diabetes incidence by 58% vs placebo.",
+      "reference": "DPP MCQ 10: Lifestyle intervention reduced diabetes incidence by 58% vs placebo. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q11",
+      "type": "mcq",
+      "subtopic": "MCQ 11",
+      "referenceNumber": 26,
+      "question": "What was the mean follow-up duration for the study participants prior to early closure?",
+      "options": [
+        "1.8 years",
+        "2.8 years",
+        "3.0 years",
+        "4.6 years"
+      ],
+      "correctOption": 1,
+      "explanation": "Mean follow-up was 2.8 years.",
+      "reference": "DPP MCQ 11: Mean follow-up was 2.8 years. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-q12",
-      "referenceNumber": 12,
       "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 12 in DPP?",
+      "subtopic": "MCQ 12",
+      "referenceNumber": 27,
+      "question": "What was the strict baseline plasma glucose concentration two hours after a 75-g oral glucose load required for trial eligibility?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "95 to 125 mg/dl",
+        "126 to 139 mg/dl",
+        "140 to 199 mg/dl",
+        "> 200 mg/dl"
       ],
-      "correctOption": 3,
-      "explanation": "Eligibility criteria included an age of at least 25 years, a body-mass index (the weight in kilograms divided by the square of the height in meters) of 24 or higher (22 or higher in Asians), and a plasma glucose concentration of 95 to 125 mg per deciliter (5.3 to 6.9 mmol per liter) in the fasting state ( 125 mg per deciliter in the American Indian clinics) and 140 to 199 mg per deciliter (7.8 to 11.0 mmol per liter) two hours after a 75-g oral glucose load. These concentrations are elevated but are not diagnostic of diabetes according to the 1997 criteria of the American Diabetes Association. Before June 1997, the criterion for plasma glucose in the fasting state was 100 to 139 mg per deciliter (5.6 to 7.7 mmol per liter), or 139 mg per deciliter in the American Indian clinics. Eligible persons were excluded if they were taking medicines known to alter glucose tolerance or if they had illnesses that could seriously reduce their life expectancy or their ability to participate in the trial. Recruitment was designed to enroll approximately half the participants from racial or ethnic minority groups. A four-step screening and recruitment process was developed to identify eligible participants.",
-      "reference": "Ref 12: \"Eligibility criteria included an age of at least 25 years, a body-mass index (the weight in kilograms divided by the square of the height in meters) of 24 or hi...\" — The Diabetes Prevention Program Research Group. The Diabetes Prevention Program: baseline characteristics of the randomi"
+      "correctOption": 2,
+      "explanation": "Eligibility required 2-hour post-load glucose 140–199 mg/dl.",
+      "reference": "DPP MCQ 12: Eligibility required 2-hour post-load glucose 140–199 mg/dl. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-q13",
-      "referenceNumber": 13,
       "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 13 in DPP?",
+      "subtopic": "MCQ 13",
+      "referenceNumber": 28,
+      "question": "Which of the following best describes the racial and ethnic distribution goal for the trial's participant recruitment?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "Enroll only minority groups",
+        "Enroll approximately half the participants from minority groups",
+        "Enroll at least 20% Hispanic participants",
+        "Match the exact demographics of the US population"
       ],
-      "correctOption": 3,
-      "explanation": "Eligibility criteria included an age of at least 25 years, a body-mass index (the weight in kilograms divided by the square of the height in meters) of 24 or higher (22 or higher in Asians), and a plasma glucose concentration of 95 to 125 mg per deciliter (5.3 to 6.9 mmol per liter) in the fasting state ( 125 mg per deciliter in the American Indian clinics) and 140 to 199 mg per deciliter (7.8 to 11.0 mmol per liter) two hours after a 75-g oral glucose load. These concentrations are elevated but are not diagnostic of diabetes according to the 1997 criteria of the American Diabetes Association. Before June 1997, the criterion for plasma glucose in the fasting state was 100 to 139 mg per deciliter (5.6 to 7.7 mmol per liter), or 139 mg per deciliter in the American Indian clinics. Eligible persons were excluded if they were taking medicines known to alter glucose tolerance or if they had illnesses that could seriously reduce their life expectancy or their ability to participate in the trial. Recruitment was designed to enroll approximately half the participants from racial or ethnic minority groups. A four-step screening and recruitment process was developed to identify eligible participants.",
-      "reference": "Ref 13: \"Eligibility criteria included an age of at least 25 years, a body-mass index (the weight in kilograms divided by the square of the height in meters) of 24 or hi...\" — Idem. The Diabetes Prevention Program: recruitment methods and results. Control Clin Trials (in press)."
+      "correctOption": 1,
+      "explanation": "Recruitment targeted ~50% minority representation.",
+      "reference": "DPP MCQ 13: Recruitment targeted ~50% minority representation. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-q14",
-      "referenceNumber": 14,
       "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 14 in DPP?",
+      "subtopic": "MCQ 14",
+      "referenceNumber": 29,
+      "question": "What was the average recorded decrease in daily energy intake for the lifestyle intervention group after one year?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "249 kcal",
+        "296 kcal",
+        "450 kcal",
+        "600 kcal"
       ],
-      "correctOption": 3,
-      "explanation": "Treatment with metformin was initiated at a dose of 850 mg taken orally once a day, with placebo tablets also given once a day initially. At one month, the dose of metformin was increased to 850 mg twice daily, unless gastrointestinal symptoms warranted a longer titration period. The initiation of treatment with half a tablet was optional. Adherence to the treatment regimen was assessed quarterly on the basis of pill counts and structured interviews. The standard lifestyle recommendations for the medication groups were provided in the form of written information and in an annual 20-to-30-minute individual session that emphasized the importance of a healthy lifestyle. Participants were encouraged to follow the Food Guide Pyramid and the equivalent of a National Cholesterol Education Program Step 1 diet, to reduce their weight, and to increase their physical activity.",
-      "reference": "Ref 14: \"Treatment with metformin was initiated at a dose of 850 mg taken orally once a day, with placebo tablets also given once a day initially. At one month, the dose...\" — The Food Guide Pyramid. Washington, D.C.: Department of Agriculture, Center for Nutrition Policy and Promotion, 1996. (H"
+      "correctOption": 2,
+      "explanation": "Lifestyle group decreased energy intake by ~450 kcal/day at one year.",
+      "reference": "DPP MCQ 14: Lifestyle group decreased energy intake by ~450 kcal/day at one year. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-q15",
-      "referenceNumber": 15,
       "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 15 in DPP?",
+      "subtopic": "MCQ 15",
+      "referenceNumber": 30,
+      "question": "Which treatment group showed the greatest preventative advantage in older persons and those with a lower BMI?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "Metformin",
+        "Troglitazone",
+        "Lifestyle intervention",
+        "Placebo"
+      ],
+      "correctOption": 2,
+      "explanation": "Lifestyle was most effective in older participants and those with lower BMI.",
+      "reference": "DPP MCQ 15: Lifestyle was most effective in older participants and those with lower BMI. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q16",
+      "type": "mcq",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "How was the final outcome of the Modifiable Activity Questionnaire mathematically expressed?",
+      "options": [
+        "Total hours per week",
+        "Average MET-hours per week for the previous year",
+        "Total calories burned per day",
+        "Total steps per week"
+      ],
+      "correctOption": 1,
+      "explanation": "Activity was expressed as average MET-hours per week for the prior year.",
+      "reference": "DPP MCQ 16: Activity was expressed as average MET-hours per week for the prior year. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-q17",
+      "type": "mcq",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "In the lifestyle intervention group, the average fat intake decreased by what percentage of total calories at the one-year mark?",
+      "options": [
+        "0.8%",
+        "2.1%",
+        "5.6%",
+        "6.6%"
       ],
       "correctOption": 3,
-      "explanation": "Treatment with metformin was initiated at a dose of 850 mg taken orally once a day, with placebo tablets also given once a day initially. At one month, the dose of metformin was increased to 850 mg twice daily, unless gastrointestinal symptoms warranted a longer titration period. The initiation of treatment with half a tablet was optional. Adherence to the treatment regimen was assessed quarterly on the basis of pill counts and structured interviews. The standard lifestyle recommendations for the medication groups were provided in the form of written information and in an annual 20-to-30-minute individual session that emphasized the importance of a healthy lifestyle. Participants were encouraged to follow the Food Guide Pyramid and the equivalent of a National Cholesterol Education Program Step 1 diet, to reduce their weight, and to increase their physical activity.",
-      "reference": "Ref 15: \"Treatment with metformin was initiated at a dose of 850 mg taken orally once a day, with placebo tablets also given once a day initially. At one month, the dose...\" — Step by step: eating to lower your high blood cholesterol. Bethesda, Md.: National Heart, Lung, and Blood Institute Info"
+      "explanation": "Fat intake decreased by 6.6% of total calories at one year.",
+      "reference": "DPP MCQ 17: Fat intake decreased by 6.6% of total calories at one year. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why16",
-      "referenceNumber": 16,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: Self-reported levels of leisure physical activity were assessed annually with the Modifiable Activity Questionnaire. The…",
-      "answer": "Self-reported levels of leisure physical activity were assessed annually with the Modifiable Activity Questionnaire. The physical-activity level was calculated as the product of the duration and frequency of each activity (in hours per week), weighted by an estimate of the metabolic equivalent of that activity (MET) and summed for all activities performed, with the result expressed as the average MET-hours per week for the previous year. Usual daily caloric intake during the previous year, including calories from fat, carbohydrate, protein, and other nutrients, was assessed at base line and at one year with the use of a modified version of the Block food-frequency questionnaire",
-      "reference": "Ref 16: \"Self-reported levels of leisure physical activity were assessed annually with the Modifiable Activity Questionnaire. The physical-activity level was calculated ...\" — Kriska AM, Caspersen CJ. Introduction to a collection of physical activity questionnaires. Med Sci Sports Exerc 1997;29:"
-    },
-    {
-      "id": "tr-nejm-006-why17",
-      "referenceNumber": 17,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: Self-reported levels of leisure physical activity were assessed annually with the Modifiable Activity Questionnaire. The…",
-      "answer": "Self-reported levels of leisure physical activity were assessed annually with the Modifiable Activity Questionnaire. The physical-activity level was calculated as the product of the duration and frequency of each activity (in hours per week), weighted by an estimate of the metabolic equivalent of that activity (MET) and summed for all activities performed, with the result expressed as the average MET-hours per week for the previous year. Usual daily caloric intake during the previous year, including calories from fat, carbohydrate, protein, and other nutrients, was assessed at base line and at one year with the use of a modified version of the Block food-frequency questionnaire",
-      "reference": "Ref 17: \"Self-reported levels of leisure physical activity were assessed annually with the Modifiable Activity Questionnaire. The physical-activity level was calculated ...\" — Mayer-Davis EJ, Vitolins MZ, Carmichael SL, et al. Validity and reproducibility of a food frequency interview in a multi"
-    },
-    {
-      "id": "tr-nejm-006-sa18",
-      "referenceNumber": 18,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DPP, what is the key numeric finding cited in reference 18?",
-      "modelAnswer": "The blinded treatment phase was terminated one year early, in May 2001, on the advice of the data monitoring board, on the basis of data obtained through March 31, 2001, the closing date for this report. By then, we had obtained evidence of efficacy on the basis of 65 percent of the planned person-y",
-      "reference": "Ref 18: \"The blinded treatment phase was terminated one year early, in May 2001, on the advice of the data monitoring board, on the basis of data obtained through March ...\" — Lan KKG, Lachin JM. Implementation of group sequential logrank tests in a maximum duration trial. Biometrics 1990;46:759"
+      "id": "tr-nejm-006-q18",
+      "type": "mcq",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "Which specific glycemic parameter dictated that a patient must permanently discontinue their assigned study medication and seek standard primary care?",
+      "options": [
+        "Fasting glucose ≥126 mg/dl",
+        "Fasting glucose ≥140 mg/dl",
+        "Post-load glucose ≥200 mg/dl",
+        "Glycosylated hemoglobin ≥6.5%"
+      ],
+      "correctOption": 1,
+      "explanation": "Fasting glucose ≥140 mg/dl triggered medication discontinuation.",
+      "reference": "DPP MCQ 18: Fasting glucose ≥140 mg/dl triggered medication discontinuation. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
       "id": "tr-nejm-006-q19",
-      "referenceNumber": 19,
       "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 19 in DPP?",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "Based on the subgroup analysis data, what was the risk reduction percentage for the lifestyle intervention in patients aged 60 and over?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "48%",
+        "59%",
+        "71%",
+        "83%"
       ],
-      "correctOption": 3,
-      "explanation": "The time to the outcome was assessed with the use of life-table methods. Modified product-limit curves for the cumulative incidence of diabetes were compared with the use of the log-rank test. The estimated cumulative incidence at three years and the",
-      "reference": "Ref 19: \"The time to the outcome was assessed with the use of life-table methods. Modified product-limit curves for the cumulative incidence of diabetes were compared wi...\" — Lachin JM. Biostatistical methods: the assessment of relative risks. New York: John Wiley, 2000."
+      "correctOption": 2,
+      "explanation": "Lifestyle reduced diabetes incidence by 71% in participants ≥60 years.",
+      "reference": "DPP MCQ 19: Lifestyle reduced diabetes incidence by 71% in participants ≥60 years. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why20",
-      "referenceNumber": 20,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: Greenwood estimate of the standard error were used to calculate the number of persons who would need to be treated in or…",
-      "answer": "Greenwood estimate of the standard error were used to calculate the number of persons who would need to be treated in order to prevent one case of confirmed diabetes during a period of three years and the associated 95 percent confidence interval. Risk reduction, heterogeneity among strata, and interactions between treatment assignments and covariates were assessed by proportional-hazards regression. Fixed-effects models with the assumption of normally distributed errors were used to assess differences over time in body weight and plasma glucose and glycosylated hemoglobin values among the three groups",
-      "reference": "Ref 20: \"Greenwood estimate of the standard error were used to calculate the number of persons who would need to be treated in order to prevent one case of confirmed dia...\" — Diggle PJ, Liang K-Y, Zeger SL. Analysis of longitudinal data. New York: Oxford University Press, 1994."
-    },
-    {
-      "id": "tr-nejm-006-q21",
-      "referenceNumber": 21,
+      "id": "tr-nejm-006-q20",
       "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 21 in DPP?",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "What percentage of participants in the metformin group took at least 80 percent of their prescribed study medication dose?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "72%",
+        "77%",
+        "84%",
+        "97%"
       ],
-      "correctOption": 3,
-      "explanation": "The incidence of diabetes in our placebo group (11.0 cases per 100 person-years) was higher than we had anticipated and was higher than the incidence in observational studies, perhaps owing to the greater frequency of glucose testing or to the selection of persons at higher risk in our study. The incidence of diabetes in the placebo group was similar among racial and ethnic groups despite differences in these subgroups in observational, population-based studies. Racial and ethnic-group differences in the incidence of diabetes were presumably reduced in our study by the selection of persons who were overweight and had elevated fasting and post-load glucose concentrations — three of the strongest risk factors for diabetes.",
-      "reference": "Ref 21: \"The incidence of diabetes in our placebo group (11.0 cases per 100 person-years) was higher than we had anticipated and was higher than the incidence in observa...\" — Edelstein SL, Knowler WC, Bain RP, et al. Predictors of progression from impaired glucose tolerance to NIDDM: an analysi"
+      "correctOption": 0,
+      "explanation": "72% of metformin participants took ≥80% of prescribed dose.",
+      "reference": "DPP MCQ 20: 72% of metformin participants took ≥80% of prescribed dose. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-q22",
-      "referenceNumber": 22,
-      "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 22 in DPP?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "mass index or a lower fasting plasma glucose concentration than in those with higher values for these variables. The reduction in the average fasting plasma glucose concentration was similar in the lifestyle-intervention and metformin groups, but the lifestyle intervention had a greater effect than metformin on glycosylated hemoglobin, and a larger proportion of participants in the lifestyle-intervention group had normal post-load glucose values at follow-up. These findings are consistent with the observation that metformin suppresses endogenous glucose production, the main determinant of fasting plasma glucose concentrations.",
-      "reference": "Ref 22: \"mass index or a lower fasting plasma glucose concentration than in those with higher values for these variables. The reduction in the average fasting plasma glu...\" — DeFronzo RA. Pharmacologic therapy for type 2 diabetes mellitus. Ann Intern Med 1999;131:281-303."
+      "id": "tr-nejm-006-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "The overall incidence of diabetes was 39 percent lower in the lifestyle-intervention group than it was in the metformin group.",
+      "correctAnswer": true,
+      "explanation": "Lifestyle was 39% more effective than metformin in reducing diabetes incidence.",
+      "reference": "DPP T/F 1: Lifestyle was 39% more effective than metformin in reducing diabetes incidence. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-q23",
-      "referenceNumber": 23,
-      "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 23 in DPP?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "An estimated 10 million persons in the United States resemble the participants in the Diabetes Prevention Program in terms of age, body-mass index, and glucose concentrations, according to data from the third National Health and Nutrition Examination Survey. If the study's interventions were implemented among these people, there would be a substantial reduction in the incidence of diabetes. Ultimately, the benefits would depend on whether glucose concentrations could be maintained at levels below those that are diagnostic of diabetes and whether the maintenance of these lower levels improved the long-term outcome. These questions should be addressed by continued follow-up of the study participants and by analysis of the main secondary outcomes — reductions in risk factors for cardiovascular disease, in the proportion of participants with atherosclerosis, and in the proportion with cardiovascular disease, which is the leading cause of death among patients with type 2 diabetes.",
-      "reference": "Ref 23: \"An estimated 10 million persons in the United States resemble the participants in the Diabetes Prevention Program in terms of age, body-mass index, and glucose ...\" — Trends in the prevalence and incidence of self-reported diabetes mellitus — United States, 1980–1994. MMWR Morb Mortal W"
+      "id": "tr-nejm-006-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "The study concluded that the treatment effects of lifestyle and metformin differed significantly depending on the race and ethnic group of the participant.",
+      "correctAnswer": false,
+      "explanation": "Effects were similar across racial and ethnic groups.",
+      "reference": "DPP T/F 2: Effects were similar across racial and ethnic groups. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-q24",
-      "referenceNumber": 24,
-      "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 24 in DPP?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "An estimated 10 million persons in the United States resemble the participants in the Diabetes Prevention Program in terms of age, body-mass index, and glucose concentrations, according to data from the third National Health and Nutrition Examination Survey. If the study's interventions were implemented among these people, there would be a substantial reduction in the incidence of diabetes. Ultimately, the benefits would depend on whether glucose concentrations could be maintained at levels below those that are diagnostic of diabetes and whether the maintenance of these lower levels improved the long-term outcome. These questions should be addressed by continued follow-up of the study participants and by analysis of the main secondary outcomes — reductions in risk factors for cardiovascular disease, in the proportion of participants with atherosclerosis, and in the proportion with cardiovascular disease, which is the leading cause of death among patients with type 2 diabetes.",
-      "reference": "Ref 24: \"An estimated 10 million persons in the United States resemble the participants in the Diabetes Prevention Program in terms of age, body-mass index, and glucose ...\" — Gillum RF, Mussolino ME, Madans JH. Diabetes mellitus, coronary heart disease incidence, and death from all causes in Af"
+      "id": "tr-nejm-006-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "Metformin was found to be identically as effective as the intensive lifestyle intervention in restoring normal post-load glucose values.",
+      "correctAnswer": false,
+      "explanation": "Lifestyle was more effective than metformin at restoring normal post-load glucose.",
+      "reference": "DPP T/F 3: Lifestyle was more effective than metformin at restoring normal post-load glucose. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-q25",
-      "referenceNumber": 25,
-      "type": "mcq",
-      "subtopic": "DPP",
-      "question": "Which finding is supported by reference 25 in DPP?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "An estimated 10 million persons in the United States resemble the participants in the Diabetes Prevention Program in terms of age, body-mass index, and glucose concentrations, according to data from the third National Health and Nutrition Examination Survey. If the study's interventions were implemented among these people, there would be a substantial reduction in the incidence of diabetes. Ultimately, the benefits would depend on whether glucose concentrations could be maintained at levels below those that are diagnostic of diabetes and whether the maintenance of these lower levels improved the long-term outcome. These questions should be addressed by continued follow-up of the study participants and by analysis of the main secondary outcomes — reductions in risk factors for cardiovascular disease, in the proportion of participants with atherosclerosis, and in the proportion with cardiovascular disease, which is the leading cause of death among patients with type 2 diabetes.",
-      "reference": "Ref 25: \"An estimated 10 million persons in the United States resemble the participants in the Diabetes Prevention Program in terms of age, body-mass index, and glucose ...\" — Kuller LH, Velentgas P, Barzilay J, Beauchamp NJ, O'Leary DH, Savage PJ. Diabetes mellitus: subclinical cardiovascular d"
+      "id": "tr-nejm-006-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "All blood tests during the study were strictly performed without interrupting the assigned treatment, except that the morning dose of placebo or metformin was skipped on the day of the test.",
+      "correctAnswer": true,
+      "explanation": "Morning study drug was withheld on test days; otherwise treatment continued.",
+      "reference": "DPP T/F 4: Morning study drug was withheld on test days; otherwise treatment continued. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why26",
-      "referenceNumber": 26,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: Optimal approaches to identifying candidates for preventive measures remain to be determined. Although elevation of eith…",
-      "answer": "Optimal approaches to identifying candidates for preventive measures remain to be determined. Although elevation of either the fasting or the post-load glucose concentration strongly predicts diabetes, both were required for eligibility in this study. Whether the results would be similar in persons with an isolated elevation of the fasting or post-load glucose concentration or other risk factors for diabetes is likely but unknown",
-      "reference": "Ref 26: \"Optimal approaches to identifying candidates for preventive measures remain to be determined. Although elevation of either the fasting or the post-load glucose ...\" — Gabir MM, Hanson RL, Dabelea D, et al. The 1997 American Diabetes Association and 1999 World Health Organization criteri"
+      "id": "tr-nejm-006-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "At the close of the multi-year study, 99.6 percent of the enrolled participants were still alive.",
+      "correctAnswer": true,
+      "explanation": "99.6% of participants were alive at study close.",
+      "reference": "DPP T/F 5: 99.6% of participants were alive at study close. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     },
     {
-      "id": "tr-nejm-006-why27",
-      "referenceNumber": 27,
-      "type": "why",
-      "subtopic": "DPP",
-      "question": "Why is the following clinically relevant in DPP? Context: Optimal approaches to identifying candidates for preventive measures remain to be determined. Although elevation of eith…",
-      "answer": "Optimal approaches to identifying candidates for preventive measures remain to be determined. Although elevation of either the fasting or the post-load glucose concentration strongly predicts diabetes, both were required for eligibility in this study. Whether the results would be similar in persons with an isolated elevation of the fasting or post-load glucose concentration or other risk factors for diabetes is likely but unknown",
-      "reference": "Ref 27: \"Optimal approaches to identifying candidates for preventive measures remain to be determined. Although elevation of either the fasting or the post-load glucose ...\" — de Vegt F, Dekker JM, Jager A, et al. Relation of impaired fasting and postload glucose with incident type 2 diabetes in"
+      "id": "tr-nejm-006-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "The standard dietary recommendations provided to the medication and placebo groups were based on the Food Guide Pyramid and the equivalent of a National Cholesterol Education Program Step 1 diet.",
+      "correctAnswer": true,
+      "explanation": "Placebo/metformin groups received standard dietary counseling per Food Guide Pyramid and NCEP Step 1.",
+      "reference": "DPP T/F 6: Placebo/metformin groups received standard dietary counseling per Food Guide Pyramid and NCEP Step 1. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "The advantage of the lifestyle intervention over metformin was significantly greater in younger persons and those with a higher body-mass index.",
+      "correctAnswer": false,
+      "explanation": "Lifestyle advantage was greater in older persons and those with lower BMI; metformin was relatively more effective in heavier patients.",
+      "reference": "DPP T/F 7: Lifestyle advantage was greater in older persons and those with lower BMI; metformin was relatively more effective in heavier patients. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "The statistical design of the study provided 90 percent power to detect a 33 percent reduction from an assumed incidence of 6.5 cases of diabetes per 100 person-years.",
+      "correctAnswer": true,
+      "explanation": "Study was powered (90%) to detect a 33% reduction from 6.5 cases/100 person-years.",
+      "reference": "DPP T/F 8: Study was powered (90%) to detect a 33% reduction from 6.5 cases/100 person-years. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "Overall hospitalization and mortality rates were significantly higher in the metformin group compared to the placebo group due to gastrointestinal adverse events.",
+      "correctAnswer": false,
+      "explanation": "No significant differences in hospitalization or mortality between groups.",
+      "reference": "DPP T/F 9: No significant differences in hospitalization or mortality between groups. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "To qualify for the study, American Indian clinic participants could be enrolled if their fasting glucose concentration was ≤125 mg per deciliter.",
+      "correctAnswer": true,
+      "explanation": "American Indian participants could enroll with fasting glucose ≤125 mg/dl per protocol exception.",
+      "reference": "DPP T/F 10: American Indian participants could enroll with fasting glucose ≤125 mg/dl per protocol exception. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "According to the study's discussion, metformin primarily lowers blood glucose by directly stimulating endogenous insulin secretion from the pancreas.",
+      "correctAnswer": false,
+      "explanation": "Metformin primarily suppresses hepatic glucose production, not insulin secretion.",
+      "reference": "DPP T/F 11: Metformin primarily suppresses hepatic glucose production, not insulin secretion. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "The average total weight loss recorded in the placebo group over the course of the study was 0.1 kg.",
+      "correctAnswer": true,
+      "explanation": "Placebo group average weight change was 0.1 kg.",
+      "reference": "DPP T/F 12: Placebo group average weight change was 0.1 kg. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "The lifestyle-intervention curriculum was exclusively taught in large group sessions during the first 24 weeks to build community support.",
+      "correctAnswer": false,
+      "explanation": "Curriculum was delivered one-to-one during the first 24 weeks, not exclusively in large groups.",
+      "reference": "DPP T/F 13: Curriculum was delivered one-to-one during the first 24 weeks, not exclusively in large groups. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "The proportion of participants who adhered strictly to at least 80 percent of the prescribed study medication dose was slightly higher in the placebo group than in the metformin group.",
+      "correctAnswer": true,
+      "explanation": "Placebo adherence (≥80% dose) was slightly higher than metformin (77% vs 72%).",
+      "reference": "DPP T/F 14: Placebo adherence (≥80% dose) was slightly higher than metformin (77% vs 72%). — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
+    },
+    {
+      "id": "tr-nejm-006-tf15",
+      "type": "true_false",
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "Previous observational studies definitively demonstrated that drugs currently used to treat type 2 diabetes were highly effective for its prevention.",
+      "correctAnswer": false,
+      "explanation": "Prior evidence supported lifestyle prevention; drug prevention had not been established before DPP.",
+      "reference": "DPP T/F 15: Prior evidence supported lifestyle prevention; drug prevention had not been established before DPP. — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393-403."
     }
   ]
 }
