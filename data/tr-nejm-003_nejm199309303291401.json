@@ -5,10 +5,10 @@
   "sourceKey": "NEJM199309303291401",
   "paperType": "rct",
   "title": "DCCT",
-  "subtitle": "DCCT — Intensive Treatment in Type 1 Diabetes",
+  "subtitle": "Intensive vs Conventional Therapy in Type 1 Diabetes — High-Order Why/How Module",
   "section": "Trials",
   "category": "Endocrinology & Metabolism",
-  "authors": "National Diabetes Data Group. Diabetes in America: diabetes data compiled 1984. ",
+  "authors": "Diabetes Control and Complications Trial Research Group; N Engl J Med 1993",
   "sourceFile": "noupload/NEJM/nejm199309303291401/paper.md",
   "bibliography": [
     {
@@ -185,423 +185,714 @@
     }
   ],
   "trialDesign": {
-    "fullName": "THE EFFECT OF INTENSIVE TREATMENT OF DIABETES ON THE DEVELOPMENT AND PROGRESSION OF LONG-TERM COMPLICATIONS IN INSULIN-DEPENDENT DIABETES MELLITUS",
-    "overview": "DCCT — Intensive Treatment in Type 1 Diabetes",
-    "design": "#### Study Design The trial design and methods have been described elsewhere. Neither the investigators nor the patients were aware of the outcome data unless predetermined criteria, such as the development of severe retinopathy requiring laser therapy, were met. The physician and the patient were t",
-    "population": "patients were aware of the outcome data unless predetermined criteria, such as the development of severe retinopathy requiring laser therapy, were met.",
-    "intervention": "intervention cohort, the patients were required to have had IDDM for 1 to 15 years, to have very-mild-to-moderate nonproliferative retinopathy, and to have urinary albumin excretion of less than 200 mg per 24 hours."
+    "fullName": "Diabetes Control and Complications Trial (DCCT)",
+    "year": 1993,
+    "design": "Multicenter randomized controlled trial with primary-prevention and secondary-intervention cohorts",
+    "population": "1,441 patients with insulin-dependent diabetes mellitus (IDDM)",
+    "sampleSize": "726 primary prevention (no retinopathy) + 715 secondary intervention (mild retinopathy)",
+    "duration": "Mean follow-up 6.5 years (terminated early June 1993)",
+    "intervention": "Intensive: pump or ≥3 daily injections with ≥4 SMBG/day targeting near-normal glycemia",
+    "comparator": "Conventional: 1–2 daily injections aimed at preventing symptomatic hyper/hypoglycemia",
+    "primaryEndpoint": "Development and progression of diabetic retinopathy, nephropathy, and neuropathy",
+    "overview": "Intensive glycemic control reduced retinopathy, nephropathy, and neuropathy by 35–76% across endpoints at the cost of 2–3× severe hypoglycemia."
   },
   "trialSummary": {
     "headings": {
-      "design": "#### Study Design The trial design and methods have been described elsewhere. Neither the investigators nor the patients were aware of the outcome data unless predetermined criteria, such as the development of severe retinopathy requiring laser therapy, were met. The physician and the patient were t",
-      "population": "patients were aware of the outcome data unless predetermined criteria, such as the development of severe retinopathy requiring laser therapy, were met.",
-      "intervention": "intervention cohort, the patients were required to have had IDDM for 1 to 15 years, to have very-mild-to-moderate nonproliferative retinopathy, and to have urinary albumin excretion of less than 200 mg per 24 hours."
+      "background": "Whether intensive therapy maintaining near-normal glucose could prevent microvascular and neurologic complications in IDDM was unknown before DCCT.",
+      "design": "Randomized conventional vs intensive insulin; primary-prevention (no retinopathy) and secondary-intervention (mild retinopathy) cohorts.",
+      "population": "Ages 13–39; IDDM 1–5 years (primary) or 1–15 years (secondary); excluded hypertension, hypercholesterolemia, severe comorbidity.",
+      "intervention": "Intensive: preprandial 70–120 mg/dL, postprandial <180 mg/dL, normal HbA1c target.",
+      "comparator": "Conventional: 1–2 injections; prevent symptoms and maintain growth.",
+      "followUp": "Mean 6.5 years; stopped early for efficacy."
     },
-    "outcomes": [],
-    "conclusion": "Intensive therapy of patients with IDDM delays the onset and slows the progression of clinically important retinopathy, including vision-threatening lesions, nephropathy, and neuropathy, by a range of 35 to more than 70 percent. The large number of patients studied, the inclusion of a primary-prevention cohort, and the long follow-up period in this study provided the opportunity to demonstrate the effects of treatment in patients with a range of ages, durations of diabetes, degrees of severity of retinopathy, and baseline glycosylated hemoglobin values. The most consistent finding in previous ",
-    "clinicalBottomLine": "Intensive therapy of patients with IDDM delays the onset and slows the progression of clinically important retinopathy, including vision-threatening lesions, nephropathy, and neuropathy, by a range of 35 to more than 70 percent. The large number of p"
+    "outcomes": [
+      {
+        "label": "Retinopathy — primary prevention",
+        "type": "primary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 76
+        },
+        "interpretation": "76% lower risk of developing retinopathy"
+      },
+      {
+        "label": "Retinopathy progression — secondary",
+        "type": "primary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 54
+        },
+        "interpretation": "54% slower progression; 47% reduction in severe NPDR/PDR"
+      },
+      {
+        "label": "Microalbuminuria — combined",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 39
+        }
+      },
+      {
+        "label": "Clinical albuminuria — combined",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 54
+        }
+      },
+      {
+        "label": "Clinical neuropathy — combined",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 60
+        }
+      },
+      {
+        "label": "Severe hypoglycemia",
+        "type": "safety",
+        "interpretation": "2–3× higher with intensive therapy (62 vs 19 episodes/100 patient-years requiring assistance)"
+      }
+    ],
+    "safetyHighlights": [
+      "Severe hypoglycemia 2–3× higher; no cognitive decline on neuropsych testing",
+      "Intensive group gained 4.6 kg more at 5 years; 33% higher risk of overweight",
+      "DKA rates similar between groups"
+    ],
+    "clinicalBottomLine": "Intensive therapy delays and slows diabetic retinopathy, nephropathy, and neuropathy; near-normal glycemia is the therapeutic goal for most IDDM patients despite increased severe hypoglycemia risk."
   },
-  "inclusionCriteria": [],
-  "exclusionCriteria": [],
+  "inclusionCriteria": [
+    "IDDM ages 13–39",
+    "Primary prevention: no retinopathy, IDDM duration 1–5 years",
+    "Secondary intervention: mild retinopathy, IDDM duration 1–15 years"
+  ],
+  "exclusionCriteria": [
+    "Hypertension and hypercholesterolemia",
+    "Severe medical or psychiatric conditions",
+    "Advanced complications at baseline"
+  ],
   "keyTakeaways": [
-    "Intensive therapy of patients with IDDM delays the onset and slows the progression of clinically important retinopathy, including vision-threatening lesions, nephropathy, and neuropathy, by a range of 35 to more than 70 percent. The large number of p",
-    "Intensive therapy of patients with IDDM delays the onset and slows the progression of clinically important retinopathy, including vision-threatening lesions, nephropathy, and neuropathy, by a range of 35 to more than 70 percent. The large number of patients studied, the inclusion of a primary-preven"
+    "Intensive therapy: retinopathy ↓76% (primary) / progression ↓54% (secondary); microalbuminuria ↓39%; neuropathy ↓60%.",
+    "Chief adverse event: 2–3× severe hypoglycemia without demonstrable cognitive harm.",
+    "Trial stopped early — benefits so clear that continuing conventional therapy was unethical.",
+    "Near-normal glycemia established as standard-of-care goal for IDDM despite hypoglycemia trade-off."
   ],
   "items": [
     {
-      "id": "tr-nejm-003-why1",
-      "referenceNumber": 1,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: INSULIN-dependent diabetes mellitus (IDDM) is accompanied by long-term microvascular, neurologic, and macrovascular comp…",
-      "answer": "INSULIN-dependent diabetes mellitus (IDDM) is accompanied by long-term microvascular, neurologic, and macrovascular complications. Although the daily management of IDDM is burdensome and the specter of metabolic decompensation ever-present, long-term complications, including retinopathy, nephropathy, neuropathy, and cardiovascular disease, have caused the most morbidity and mortality since the introduction of insulin therapy. The prevention and amelioration of these complications have been major goals of recent research",
-      "reference": "Ref 1: \"INSULIN-dependent diabetes mellitus (IDDM) is accompanied by long-term microvascular, neurologic, and macrovascular complications. Although the daily management...\" — National Diabetes Data Group. Diabetes in America: diabetes data compiled 1984. Bethesda, Md.: National Institutes of He"
+      "id": "tr-nejm-003-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "DCCT — Main Points (High-Yield Overview)",
+      "content": "Study Objective: Determine whether intensive therapy maintaining near-normal blood glucose decreases frequency and severity of long-term microvascular and neurologic complications in IDDM.\n\nMethodology: 1,441 IDDM patients randomized to primary prevention (no baseline retinopathy, n=726) or secondary intervention (mild retinopathy, n=715); conventional (1–2 daily injections) vs intensive (pump or ≥3 injections with frequent monitoring); mean follow-up 6.5 years.\n\nRetinopathy: Primary prevention — 76% risk reduction for developing retinopathy; secondary intervention — 54% slower progression, 47% reduction in severe NPDR/proliferative retinopathy.\n\nNephropathy/Neuropathy (combined): Microalbuminuria ↓39%, clinical albuminuria ↓54%, clinical neuropathy ↓60%.\n\nAdverse Events: 2–3× severe hypoglycemia; more weight gain with intensive therapy.\n\nConclusion: Intensive therapy delays onset and slows progression of retinopathy, nephropathy, and neuropathy — near-normal glycemia is a critical therapeutic goal despite hypoglycemia risk.",
+      "keyPoints": [
+        "Landmark IDDM glycemia trial — microvascular benefit proven",
+        "76% retinopathy prevention · 54% progression slowdown",
+        "Trade-off: 2–3× severe hypoglycemia + weight gain"
+      ],
+      "reference": "The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why2",
-      "referenceNumber": 2,
+      "id": "tr-nejm-003-why1",
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: INSULIN-dependent diabetes mellitus (IDDM) is accompanied by long-term microvascular, neurologic, and macrovascular comp…",
-      "answer": "INSULIN-dependent diabetes mellitus (IDDM) is accompanied by long-term microvascular, neurologic, and macrovascular complications. Although the daily management of IDDM is burdensome and the specter of metabolic decompensation ever-present, long-term complications, including retinopathy, nephropathy, neuropathy, and cardiovascular disease, have caused the most morbidity and mortality since the introduction of insulin therapy. The prevention and amelioration of these complications have been major goals of recent research",
-      "reference": "Ref 2: \"INSULIN-dependent diabetes mellitus (IDDM) is accompanied by long-term microvascular, neurologic, and macrovascular complications. Although the daily management...\" — Deckert T, Poulsen JE, Larsen M. Prognosis of diabetics with diabetes onset before the age of thirty-one. Diabetologia 1"
+      "subtopic": "Study Design — Cohorts",
+      "referenceNumber": 1,
+      "question": "Why did the researchers divide the patient population into a primary-prevention cohort and a secondary-intervention cohort?",
+      "answer": "The researchers created two cohorts to answer two distinct questions: whether intensive therapy could prevent the development of diabetic retinopathy in patients with no preexisting retinopathy (primary prevention), and whether intensive therapy could affect the progression of early retinopathy in patients who already had mild complications (secondary intervention).",
+      "keyPoints": [
+        "The researchers created two cohorts to answer two distinct questions: whether intensive therapy could prevent the development of diabetic retinopathy in patients with no preexisting retinopathy (primary prevention), and whether intensive therapy could affect the progression of early retinopathy in patients who already had mild complications (secondary intervention)."
+      ],
+      "reference": "DCCT Q1: \"The researchers created two cohorts to answer two distinct questions: whether intensive therapy could prevent the develo...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how2",
+      "type": "how",
+      "subtopic": "Study Design — Cohorts",
+      "referenceNumber": 2,
+      "question": "How did the eligibility criteria for the two cohorts differ regarding the duration of IDDM?",
+      "answer": "To be eligible for the primary-prevention cohort, patients were required to have had IDDM for one to five years. Patients in the secondary-intervention cohort were required to have had IDDM for 1 to 15 years.",
+      "keyPoints": [
+        "To be eligible for the primary-prevention cohort, patients were required to have had IDDM for one to five years.",
+        "Patients in the secondary-intervention cohort were required to have had IDDM for 1 to 15 years."
+      ],
+      "reference": "DCCT Q2: \"To be eligible for the primary-prevention cohort, patients were required to have had IDDM for one to five years. Patient...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why3",
+      "type": "why",
+      "subtopic": "Study Design — Exclusion",
       "referenceNumber": 3,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 3: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Engerman R, Bloodworth JM Jr, Nelson S. Relationship of microvascular disease in diabetes to metabolic control. Diabetes"
+      "question": "Why were patients with conditions like hypertension and hypercholesterolemia excluded from the trial?",
+      "answer": "Patients with hypertension, hypercholesterolemia, and severe medical conditions were excluded to isolate the effects of glycemic control on microvascular and neurologic complications, removing confounders that independently drive vascular disease.",
+      "keyPoints": [
+        "Patients with hypertension, hypercholesterolemia, and severe medical conditions were excluded to isolate the effects of glycemic control on microvascular and neurologic complications, removing confounders that independently drive vascular disease."
+      ],
+      "reference": "DCCT Q3: \"Patients with hypertension, hypercholesterolemia, and severe medical conditions were excluded to isolate the effects of ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why4",
+      "id": "tr-nejm-003-how4",
+      "type": "how",
+      "subtopic": "Study Design — Intervention",
       "referenceNumber": 4,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 4: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Engerman RL, Kern TS. Progression of incipient diabetic retinopathy during good glycemic control. Diabetes 1987;36:808-1"
+      "question": "How was the intensive therapy regimen operationalized in the trial?",
+      "answer": "Intensive therapy used insulin three or more times daily via injection or an external pump. Dosage was adjusted dynamically based on self-monitoring of blood glucose at least four times daily, anticipated exercise, and dietary intake.",
+      "keyPoints": [
+        "Intensive therapy used insulin three or more times daily via injection or an external pump.",
+        "Dosage was adjusted dynamically based on self-monitoring of blood glucose at least four times daily, anticipated exercise, and dietary intake."
+      ],
+      "reference": "DCCT Q4: \"Intensive therapy used insulin three or more times daily via injection or an external pump. Dosage was adjusted dynamica...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why5",
+      "id": "tr-nejm-003-how5",
+      "type": "how",
+      "subtopic": "Study Design — Treatment Goals",
       "referenceNumber": 5,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 5: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Cohen AJ, McGill PD, Rossetti RG, Guberski DL, Like AA. Glomerulopathy in spontaneously diabetic rat: impact of glycemic"
+      "question": "How did the treatment goals for conventional therapy fundamentally differ from those of intensive therapy?",
+      "answer": "Conventional therapy aimed primarily to prevent severe symptoms (ketonuria, symptomatic hyperglycemia, frequent hypoglycemia) while maintaining normal growth and body weight. Intensive therapy aimed to normalize physiology: preprandial glucose 70–120 mg/dL, postprandial <180 mg/dL, and glycosylated hemoglobin in the normal range.",
+      "keyPoints": [
+        "Conventional therapy aimed primarily to prevent severe symptoms (ketonuria, symptomatic hyperglycemia, frequent hypoglycemia) while maintaining normal growth and body weight.",
+        "Intensive therapy aimed to normalize physiology: preprandial glucose 70–120 mg/dL, postprandial <180 mg/dL, and glycosylated hemoglobin in the normal range."
+      ],
+      "reference": "DCCT Q5: \"Conventional therapy aimed primarily to prevent severe symptoms (ketonuria, symptomatic hyperglycemia, frequent hypoglyc...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why6",
-      "referenceNumber": 6,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 6: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Klein R, Klein BE, Moss SE, Davis MD, DeMets DL. The Wisconsin epidemiologic study of diabetic retinopathy. II. Prevalen"
+      "subtopic": "Study Design — Pregnancy",
+      "referenceNumber": 6,
+      "question": "Why was conventional therapy protocol modified for female patients who became pregnant?",
+      "answer": "Women on conventional therapy who became or planned pregnancy were temporarily switched to intensive therapy until delivery because of the established need for tight glycemic control during pregnancy for fetal health, then resumed conventional treatment.",
+      "keyPoints": [
+        "Women on conventional therapy who became or planned pregnancy were temporarily switched to intensive therapy until delivery because of the established need for tight glycemic control during pregnancy for fetal health, then resumed conventional treatment."
+      ],
+      "reference": "DCCT Q6: \"Women on conventional therapy who became or planned pregnancy were temporarily switched to intensive therapy until deliv...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why7",
+      "id": "tr-nejm-003-how7",
+      "type": "how",
+      "subtopic": "Study Design — Blinding",
       "referenceNumber": 7,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 7: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Idem. Glycosylated hemoglobin predicts the incidence and progression of diabetic retinopathy. JAMA 1988;260:2864-71."
+      "question": "How was the trial blinded given that patients and doctors knew which injection regimen they were using?",
+      "answer": "While insulin administration could not be blinded, neither investigators nor patients were aware of long-term outcome data (such as fundus photography results) unless predetermined clinical thresholds were met, such as severe retinopathy requiring laser therapy.",
+      "keyPoints": [
+        "While insulin administration could not be blinded, neither investigators nor patients were aware of long-term outcome data (such as fundus photography results) unless predetermined clinical thresholds were met, such as severe retinopathy requiring laser therapy."
+      ],
+      "reference": "DCCT Q7: \"While insulin administration could not be blinded, neither investigators nor patients were aware of long-term outcome da...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why8",
+      "type": "why",
+      "subtopic": "Study Design — Termination",
       "referenceNumber": 8,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 8: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Chase HP, Jackson WE, Hoops SL, Cockerham RS, Archer PG, O'Brien D. Glucose control and the renal and retinal complicati"
+      "question": "Why was the clinical trial prematurely terminated in June 1993?",
+      "answer": "The trial was terminated after mean follow-up of 6.5 years because the independent data monitoring committee determined that intensive therapy's efficacy in reducing complications was so clear and substantial that immediate cessation was warranted.",
+      "keyPoints": [
+        "The trial was terminated after mean follow-up of 6.5 years because the independent data monitoring committee determined that intensive therapy's efficacy in reducing complications was so clear and substantial that immediate cessation was warranted."
+      ],
+      "reference": "DCCT Q8: \"The trial was terminated after mean follow-up of 6.5 years because the independent data monitoring committee determined ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-sa9",
+      "id": "tr-nejm-003-how9",
+      "type": "how",
+      "subtopic": "Study Design — Adherence",
       "referenceNumber": 9,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 9?",
-      "modelAnswer": "The most consistent finding in previous trials was transient worsening of retinopathy with intensive therapy, a result now confirmed by this trial. This early worsening, consisting of the development of soft exudates or intraretinal microvascular abnormalities, occurred mainly in the secondary-inter",
-      "reference": "Ref 9: \"The most consistent finding in previous trials was transient worsening of retinopathy with intensive therapy, a result now confirmed by this trial. This early w...\" — Kroc Collaborative Study Group. Blood glucose control and the evolution of diabetic retinopathy and albuminuria: a preli"
+      "question": "How did the study confirm patient adherence and the metabolic separation of the two treatment groups?",
+      "answer": "Adherence and separation were confirmed by glycosylated hemoglobin over time: the intensive group reached a nadir at six months and maintained a significantly lower average value than the conventional group throughout the study.",
+      "keyPoints": [
+        "Adherence and separation were confirmed by glycosylated hemoglobin over time: the intensive group reached a nadir at six months and maintained a significantly lower average value than the conventional group throughout the study."
+      ],
+      "reference": "DCCT Q9: \"Adherence and separation were confirmed by glycosylated hemoglobin over time: the intensive group reached a nadir at six...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why10",
+      "id": "tr-nejm-003-how10",
+      "type": "how",
+      "subtopic": "Statistics — Retinopathy",
       "referenceNumber": 10,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 10: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Lauritzen T, Frost-Larsen K, Larsen H-W, Deckert T. Two-year experience with continuous subcutaneous insulin infusion in"
+      "question": "How were the baseline retinopathy levels adjusted in the statistical estimates for the secondary-intervention cohort?",
+      "answer": "Because baseline retinopathy category distribution was imbalanced between intensive and conventional groups in the secondary-intervention cohort, this imbalance was statistically adjusted in the proportional-hazards analysis when estimating retinopathy risk reduction.",
+      "keyPoints": [
+        "Because baseline retinopathy category distribution was imbalanced between intensive and conventional groups in the secondary-intervention cohort, this imbalance was statistically adjusted in the proportional-hazards analysis when estimating retinopathy risk reduction."
+      ],
+      "reference": "DCCT Q10: \"Because baseline retinopathy category distribution was imbalanced between intensive and conventional groups in the secon...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why11",
+      "id": "tr-nejm-003-how11",
+      "type": "how",
+      "subtopic": "Retinopathy — Definition",
       "referenceNumber": 11,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 11: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Brinchmann-Hansen O, Dahl-Jorgensen K, Hanssen KF, Sandvik L. The response of diabetic retinopathy to 41 months of multi"
+      "question": "How was the primary outcome of \"clinically important retinopathy\" objectively defined by the graders?",
+      "answer": "Clinically important retinopathy was defined as a change of at least three steps from baseline on the ETDRS scale sustained for at least six months, assessed by centrally graded stereoscopic fundus photographs.",
+      "keyPoints": [
+        "Clinically important retinopathy was defined as a change of at least three steps from baseline on the ETDRS scale sustained for at least six months, assessed by centrally graded stereoscopic fundus photographs."
+      ],
+      "reference": "DCCT Q11: \"Clinically important retinopathy was defined as a change of at least three steps from baseline on the ETDRS scale sustai...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why12",
-      "referenceNumber": 12,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of l…",
-      "answer": "Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinical trials have not demonstrated a consistent or convincing beneficial effect of intensive therapy on them. A recent publication from the Stockholm Diabetes Intervention Study demonstrated a more uniform beneficial effect of intensive therapy in patients with established complications, despite the apparent crossover of most conventionally treated patients to intensive therapy during the trial",
-      "reference": "Ref 12: \"Although studies in animal models of diabetes and epidemiologic studies implicate hyperglycemia in the pathogenesis of long-term complications, previous clinica...\" — Reichard P, Nilsson B-Y, Rosenqvist U. The effect of long-term intensified insulin treatment on the development of micro"
+      "subtopic": "Retinopathy — Primary Prevention",
+      "referenceNumber": 12,
+      "question": "Why did the cumulative incidence of retinopathy only begin to separate between the groups after 36 months in the primary-prevention cohort?",
+      "answer": "Incidence curves remained similar for the first 36 months, likely reflecting the latent period required for structural microvascular changes to manifest; thereafter cumulative incidence in the intensive group dropped to roughly 50% less than conventional from year five onward.",
+      "keyPoints": [
+        "Incidence curves remained similar for the first 36 months, likely reflecting the latent period required for structural microvascular changes to manifest; thereafter cumulative incidence in the intensive group dropped to roughly 50% less than conventional from year five onward."
+      ],
+      "reference": "DCCT Q12: \"Incidence curves remained similar for the first 36 months, likely reflecting the latent period required for structural m...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why13",
-      "referenceNumber": 13,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 13: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — DCCT Research Group. The Diabetes Control and Complications Trial (DCCT): design and methodologic considerations for the"
+      "subtopic": "Retinopathy — Early Worsening",
+      "referenceNumber": 13,
+      "question": "Why did the intensive-therapy group in the secondary-intervention cohort experience a higher incidence of retinopathy progression during the first year?",
+      "answer": "The intensive group experienced transient early worsening of retinopathy—primarily soft exudates or intraretinal microvascular abnormalities—a known phenomenon associated with rapid tightening of blood glucose control.",
+      "keyPoints": [
+        "The intensive group experienced transient early worsening of retinopathy—primarily soft exudates or intraretinal microvascular abnormalities—a known phenomenon associated with rapid tightening of blood glucose control."
+      ],
+      "reference": "DCCT Q13: \"The intensive group experienced transient early worsening of retinopathy—primarily soft exudates or intraretinal microva...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why14",
+      "id": "tr-nejm-003-how14",
+      "type": "how",
+      "subtopic": "Retinopathy — Early Worsening",
       "referenceNumber": 14,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: The Diabetes Control and Complications Trial was a multicenter, randomized clinical trial designed to compare intensive …",
-      "answer": "The Diabetes Control and Complications Trial was a multicenter, randomized clinical trial designed to compare intensive with conventional diabetes therapy with regard to their effects on the development and progression of the early vascular and neurologic complications of IDDM. The intensive-therapy regimen was designed to achieve blood glucose values as close to the normal range as possible with three or more daily insulin injections or treatment with an insulin pump. Conventional therapy consisted of one or two insulin injections per day. Two cohorts of patients were studied in order to answer two different, but related, questions: Will intensive therapy prevent the development of diabetic retinopathy in patients with no retinopathy (primary prevention), and will inten-",
-      "reference": "Ref 14: \"The Diabetes Control and Complications Trial was a multicenter, randomized clinical trial designed to compare intensive with conventional diabetes therapy with ...\" — Idem. Diabetes Control and Complications Trial (DCCT): results of feasibility study. Diabetes Care 1987;10:1-19."
+      "question": "How should clinicians interpret the phenomenon of \"early worsening\" of retinopathy when initiating intensive therapy?",
+      "answer": "Clinicians should not be deterred: early abnormalities often disappeared by 18 months, and patients with early worsening on intensive therapy had a 74% reduction in subsequent long-term progression versus conventionally treated patients with early worsening.",
+      "keyPoints": [
+        "Clinicians should not be deterred: early abnormalities often disappeared by 18 months, and patients with early worsening on intensive therapy had a 74% reduction in subsequent long-term progression versus conventionally treated patients with early worsening."
+      ],
+      "reference": "DCCT Q14: \"Clinicians should not be deterred: early abnormalities often disappeared by 18 months, and patients with early worsening...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why15",
-      "referenceNumber": 15,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: The Diabetes Control and Complications Trial was a multicenter, randomized clinical trial designed to compare intensive …",
-      "answer": "The Diabetes Control and Complications Trial was a multicenter, randomized clinical trial designed to compare intensive with conventional diabetes therapy with regard to their effects on the development and progression of the early vascular and neurologic complications of IDDM. The intensive-therapy regimen was designed to achieve blood glucose values as close to the normal range as possible with three or more daily insulin injections or treatment with an insulin pump. Conventional therapy consisted of one or two insulin injections per day. Two cohorts of patients were studied in order to answer two different, but related, questions: Will intensive therapy prevent the development of diabetic retinopathy in patients with no retinopathy (primary prevention), and will inten-",
-      "reference": "Ref 15: \"The Diabetes Control and Complications Trial was a multicenter, randomized clinical trial designed to compare intensive with conventional diabetes therapy with ...\" — Idem. Diabetes Control and Complications Trial (DCCT): update. Diabetes Care 1990;13:427-33."
+      "subtopic": "Retinopathy — Advanced Stages",
+      "referenceNumber": 15,
+      "question": "Why were proliferative retinopathy and severe nonproliferative retinopathy selected as specific additional outcomes in the analysis?",
+      "answer": "These advanced stages represent critical clinical thresholds indicating high vision risk, necessitating frequent ophthalmologic follow-up and possible photocoagulation therapy.",
+      "keyPoints": [
+        "These advanced stages represent critical clinical thresholds indicating high vision risk, necessitating frequent ophthalmologic follow-up and possible photocoagulation therapy."
+      ],
+      "reference": "DCCT Q15: \"These advanced stages represent critical clinical thresholds indicating high vision risk, necessitating frequent ophthal...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why16",
+      "id": "tr-nejm-003-how16",
+      "type": "how",
+      "subtopic": "Retinopathy — Interventions",
       "referenceNumber": 16,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: The trial design and methods have been described elsewhere. Neither the investigators nor the patients were aware of the…",
-      "answer": "The trial design and methods have been described elsewhere. Neither the investigators nor the patients were aware of the outcome data unless predetermined criteria, such as the development of severe retinopathy requiring laser therapy, were met. The physician and the patient were then made aware of the specific condition, and appropriate management was arranged",
-      "reference": "Ref 16: \"The trial design and methods have been described elsewhere. Neither the investigators nor the patients were aware of the outcome data unless predetermined crite...\" — Siebert C, Clark DM Jr. Operational and policy considerations of data monitoring in clinical trials: the Diabetes Contro"
+      "question": "How did intensive therapy impact the need for severe ophthalmologic interventions?",
+      "answer": "In the secondary-intervention cohort, intensive therapy reduced the adjusted risk of requiring laser photocoagulation by 56% compared with conventional therapy.",
+      "keyPoints": [
+        "In the secondary-intervention cohort, intensive therapy reduced the adjusted risk of requiring laser photocoagulation by 56% compared with conventional therapy."
+      ],
+      "reference": "DCCT Q16: \"In the secondary-intervention cohort, intensive therapy reduced the adjusted risk of requiring laser photocoagulation by...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-how17",
-      "referenceNumber": 17,
       "type": "how",
-      "subtopic": "DCCT",
-      "question": "How does the process described in reference 17 relate to DCCT?",
-      "answer": "The major criteria for eligibility included insulin dependence, as evidenced by deficient C-peptide secretion; an age of 13 to 39 years; and the absence of hypertension, hypercholesterolemia, and severe diabetic complications or medical conditions. To be eligible for the primary-prevention cohort, patients were required to have had IDDM for one to five years, to have no retinopathy as detected by seven-field stereoscopic fundus photography, and to have urinary albumin excretion of less than 40 mg per 24 hours. To be eligible for the secondary-intervention cohort, the patients were required to have had IDDM for 1 to 15 years, to have very-mild-to-moderate nonproliferative retinopathy, and to have urinary albumin excretion of less than 200 mg per 24 hours. A multicomponent process of informed consent was used to promote the patients' understanding of the study objectives and procedures, emphasizing the necessity of accepting random assignment to either intensive or conventional treatment. Randomization was stratified according to the primary-prevention and secondary-intervention cohorts at each center. The baseline characteristics of the study cohorts are shown in Table 1.",
-      "reference": "Ref 17: \"The major criteria for eligibility included insulin dependence, as evidenced by deficient C-peptide secretion; an age of 13 to 39 years; and the absence of hype...\" — DCCT Research Group. Implementation of a multicomponent process to obtain informed consent in the Diabetes Control and C"
+      "subtopic": "Retinopathy — Subgroups",
+      "referenceNumber": 17,
+      "question": "How did the study determine if the reduction in retinopathy risk was consistent across different types of patients?",
+      "answer": "Researchers analyzed cumulative incidence of sustained retinopathy progression across subgroups defined by baseline covariates (age, sex, IDDM duration, blood pressure), finding consistent risk reduction with intensive therapy in both cohorts.",
+      "keyPoints": [
+        "Researchers analyzed cumulative incidence of sustained retinopathy progression across subgroups defined by baseline covariates (age, sex, IDDM duration, blood pressure), finding consistent risk reduction with intensive therapy in both cohorts."
+      ],
+      "reference": "DCCT Q17: \"Researchers analyzed cumulative incidence of sustained retinopathy progression across subgroups defined by baseline cova...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why18",
-      "referenceNumber": 18,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 18: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Idem. Color photography vs fluorescein angiography in the detection of diabetic retinopathy in the Diabetes Control and "
+      "subtopic": "Retinopathy — Monitoring",
+      "referenceNumber": 18,
+      "question": "Why do the authors advise that patients with advanced nonproliferative retinopathy be followed closely by an ophthalmologist upon starting intensive therapy?",
+      "answer": "Because of the risk of early, accelerated transient worsening with rapid glycemic tightening, patients with severe nonproliferative or proliferative retinopathy are at high risk for vision-threatening complications during the initial phase of intensive treatment.",
+      "keyPoints": [
+        "Because of the risk of early, accelerated transient worsening with rapid glycemic tightening, patients with severe nonproliferative or proliferative retinopathy are at high risk for vision-threatening complications during the initial phase of intensive treatment."
+      ],
+      "reference": "DCCT Q18: \"Because of the risk of early, accelerated transient worsening with rapid glycemic tightening, patients with severe nonpr...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why19",
+      "id": "tr-nejm-003-how19",
+      "type": "how",
+      "subtopic": "Retinopathy — HbA1c Threshold",
       "referenceNumber": 19,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 19: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Idem. Factors in development of diabetic neuropathy: baseline analysis of neuropathy in feasibility phase of Diabetes Co"
+      "question": "How did the trial address the question of whether there is a \"safe\" threshold for glycosylated hemoglobin?",
+      "answer": "Secondary analyses plotting retinopathy progression against mean glycosylated hemoglobin showed continuously increasing risk with higher values, failing to support a specific target at which benefits are maximized and risks vanish.",
+      "keyPoints": [
+        "Secondary analyses plotting retinopathy progression against mean glycosylated hemoglobin showed continuously increasing risk with higher values, failing to support a specific target at which benefits are maximized and risks vanish."
+      ],
+      "reference": "DCCT Q19: \"Secondary analyses plotting retinopathy progression against mean glycosylated hemoglobin showed continuously increasing ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why20",
+      "type": "why",
+      "subtopic": "Retinopathy — Residual Risk",
       "referenceNumber": 20,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 20: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Schumer M, Burton G, Burton C, Crum D, Pfeifer MA. Diabetic autonomic neuropathy — part I: autonomic nervous system data"
+      "question": "Why did the intensive-therapy group fail to completely eliminate the progression of retinopathy?",
+      "answer": "Less than 5% of intensive-therapy patients maintained average glycosylated hemoglobin within the strictly normal range (≤6.05%) for the entire study, so some prolonged abnormal glycemic exposure still occurred.",
+      "keyPoints": [
+        "Less than 5% of intensive-therapy patients maintained average glycosylated hemoglobin within the strictly normal range (≤6.05%) for the entire study, so some prolonged abnormal glycemic exposure still occurred."
+      ],
+      "reference": "DCCT Q20: \"Less than 5% of intensive-therapy patients maintained average glycosylated hemoglobin within the strictly normal range (...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why21",
+      "id": "tr-nejm-003-how21",
+      "type": "how",
+      "subtopic": "Nephropathy — Definitions",
       "referenceNumber": 21,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 21: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — DCCT Research Group. Feasibility of centralized measurements of glycated hemoglobin in the Diabetes Control and Complica"
+      "question": "How did the study biochemically differentiate between microalbuminuria and overt albuminuria?",
+      "answer": "Microalbuminuria was defined as urinary albumin excretion of ≥40 mg per 24 hours; clinical albuminuria was defined as ≥300 mg per 24 hours.",
+      "keyPoints": [
+        "Microalbuminuria was defined as urinary albumin excretion of ≥40 mg per 24 hours; clinical albuminuria was defined as ≥300 mg per 24 hours."
+      ],
+      "reference": "DCCT Q21: \"Microalbuminuria was defined as urinary albumin excretion of ≥40 mg per 24 hours; clinical albuminuria was defined as ≥3...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why22",
+      "id": "tr-nejm-003-how22",
+      "type": "how",
+      "subtopic": "Nephropathy — Secondary Prevention",
       "referenceNumber": 22,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 22: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Idem. A screening algorithm to identify clinically significant changes in neuropsychological function in the Diabetes Co"
+      "question": "How effective was intensive therapy at halting the progression to clinical albuminuria in patients who already had mild complications?",
+      "answer": "In the secondary-intervention cohort, intensive therapy reduced the risk of developing clinical albuminuria (≥300 mg/24 hr) by 56% compared with conventional therapy.",
+      "keyPoints": [
+        "In the secondary-intervention cohort, intensive therapy reduced the risk of developing clinical albuminuria (≥300 mg/24 hr) by 56% compared with conventional therapy."
+      ],
+      "reference": "DCCT Q22: \"In the secondary-intervention cohort, intensive therapy reduced the risk of developing clinical albuminuria (≥300 mg/24 ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why23",
+      "type": "why",
+      "subtopic": "Nephropathy — ESRD",
       "referenceNumber": 23,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 23: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Idem. Reliability and validity of a diabetes quality-of-life measure for the Diabetes Control and Complications Trial (D"
+      "question": "Why was the trial unable to make definitive conclusions about end-stage renal insufficiency?",
+      "answer": "Advanced nephropathy (albuminuria ≥300 mg/24 hr plus creatinine clearance <70 ml/min/1.73 m²) developed in very few patients (two intensive, five conventional), making the sample too small for definitive long-term renal failure conclusions.",
+      "keyPoints": [
+        "Advanced nephropathy (albuminuria ≥300 mg/24 hr plus creatinine clearance <70 ml/min/1.73 m²) developed in very few patients (two intensive, five conventional), making the sample too small for definitive long-term renal failure conclusions."
+      ],
+      "reference": "DCCT Q23: \"Advanced nephropathy (albuminuria ≥300 mg/24 hr plus creatinine clearance <70 ml/min/1.73 m²) developed in very few pati...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why24",
-      "referenceNumber": 24,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 24: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Idem. DCCT protocol. Springfield, Va.: Department of Commerce, National Technical Information Service, 1988. (Publicatio"
-    },
-    {
-      "id": "tr-nejm-003-why25",
-      "referenceNumber": 25,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 25: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Idem. DCCT manual of operations. Springfield, Va.: Department of Commerce, National Technical Information Service, 1993."
-    },
-    {
-      "id": "tr-nejm-003-how26",
-      "referenceNumber": 26,
+      "id": "tr-nejm-003-how24",
       "type": "how",
-      "subtopic": "DCCT",
-      "question": "How does the process described in reference 26 relate to DCCT?",
-      "answer": "The major criteria for eligibility included insulin dependence, as evidenced by deficient C-peptide secretion; an age of 13 to 39 years; and the absence of hypertension, hypercholesterolemia, and severe diabetic complications or medical conditions. To be eligible for the primary-prevention cohort, patients were required to have had IDDM for one to five years, to have no retinopathy as detected by seven-field stereoscopic fundus photography, and to have urinary albumin excretion of less than 40 mg per 24 hours. To be eligible for the secondary-intervention cohort, the patients were required to have had IDDM for 1 to 15 years, to have very-mild-to-moderate nonproliferative retinopathy, and to have urinary albumin excretion of less than 200 mg per 24 hours. A multicomponent process of informed consent was used to promote the patients' understanding of the study objectives and procedures, emphasizing the necessity of accepting random assignment to either intensive or conventional treatment. Randomization was stratified according to the primary-prevention and secondary-intervention cohorts at each center. The baseline characteristics of the study cohorts are shown in Table 1.",
-      "reference": "Ref 26: \"The major criteria for eligibility included insulin dependence, as evidenced by deficient C-peptide secretion; an age of 13 to 39 years; and the absence of hype...\" — Early Treatment Diabetic Retinopathy Study Research Group. Fundus photographic risk factors for progression of diabetic "
+      "subtopic": "Neuropathy — Diagnosis",
+      "referenceNumber": 24,
+      "question": "How did the researchers ensure a robust and objective diagnosis of clinical neuropathy?",
+      "answer": "Clinical neuropathy required abnormal physical examination consistent with peripheral sensorimotor neuropathy plus objective confirmation via abnormal nerve conduction in at least two peripheral nerves or unequivocally abnormal autonomic-nerve testing.",
+      "keyPoints": [
+        "Clinical neuropathy required abnormal physical examination consistent with peripheral sensorimotor neuropathy plus objective confirmation via abnormal nerve conduction in at least two peripheral nerves or unequivocally abnormal autonomic-nerve testing."
+      ],
+      "reference": "DCCT Q24: \"Clinical neuropathy required abnormal physical examination consistent with peripheral sensorimotor neuropathy plus objec...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how25",
+      "type": "how",
+      "subtopic": "Neuropathy — Cohorts",
+      "referenceNumber": 25,
+      "question": "How did the impact of intensive therapy on neuropathy compare between patients with no baseline complications versus those with early complications?",
+      "answer": "Relative benefits were similarly robust: intensive therapy reduced neuropathy appearance at five years by 69% in primary prevention and 57% in secondary intervention.",
+      "keyPoints": [
+        "Relative benefits were similarly robust: intensive therapy reduced neuropathy appearance at five years by 69% in primary prevention and 57% in secondary intervention."
+      ],
+      "reference": "DCCT Q25: \"Relative benefits were similarly robust: intensive therapy reduced neuropathy appearance at five years by 69% in primary...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why26",
+      "type": "why",
+      "subtopic": "Neuropathy — Prevention",
+      "referenceNumber": 26,
+      "question": "Why do the authors suggest that diabetic neuropathy may be entirely preventable?",
+      "answer": "Because intensive therapy dramatically reduced clinical neuropathy across cohorts and reduced all three objective diagnostic components similarly, the data imply that maintaining euglycemia targets the root pathogenesis of nerve damage.",
+      "keyPoints": [
+        "Because intensive therapy dramatically reduced clinical neuropathy across cohorts and reduced all three objective diagnostic components similarly, the data imply that maintaining euglycemia targets the root pathogenesis of nerve damage."
+      ],
+      "reference": "DCCT Q26: \"Because intensive therapy dramatically reduced clinical neuropathy across cohorts and reduced all three objective diagno...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-how27",
-      "referenceNumber": 27,
       "type": "how",
-      "subtopic": "DCCT",
-      "question": "How does the process described in reference 27 relate to DCCT?",
-      "answer": "The major criteria for eligibility included insulin dependence, as evidenced by deficient C-peptide secretion; an age of 13 to 39 years; and the absence of hypertension, hypercholesterolemia, and severe diabetic complications or medical conditions. To be eligible for the primary-prevention cohort, patients were required to have had IDDM for one to five years, to have no retinopathy as detected by seven-field stereoscopic fundus photography, and to have urinary albumin excretion of less than 40 mg per 24 hours. To be eligible for the secondary-intervention cohort, the patients were required to have had IDDM for 1 to 15 years, to have very-mild-to-moderate nonproliferative retinopathy, and to have urinary albumin excretion of less than 200 mg per 24 hours. A multicomponent process of informed consent was used to promote the patients' understanding of the study objectives and procedures, emphasizing the necessity of accepting random assignment to either intensive or conventional treatment. Randomization was stratified according to the primary-prevention and secondary-intervention cohorts at each center. The baseline characteristics of the study cohorts are shown in Table 1.",
-      "reference": "Ref 27: \"The major criteria for eligibility included insulin dependence, as evidenced by deficient C-peptide secretion; an age of 13 to 39 years; and the absence of hype...\" — Wei LJ, Lachin JM. Properties of the urn randomization in clinical trials. Controlled Clin Trials 1988;9:345-64."
+      "subtopic": "Nephropathy — Subgroups",
+      "referenceNumber": 27,
+      "question": "How was the analysis of microalbuminuria risk reduction validated across patient lifestyles and histories?",
+      "answer": "Among 1,368 patients without baseline microalbuminuria, cumulative incidence was analyzed within subgroups; intensive treatment's risk-reducing effect held regardless of dietary protein intake, smoking history, or baseline blood pressure.",
+      "keyPoints": [
+        "Among 1,368 patients without baseline microalbuminuria, cumulative incidence was analyzed within subgroups; intensive treatment's risk-reducing effect held regardless of dietary protein intake, smoking history, or baseline blood pressure."
+      ],
+      "reference": "DCCT Q27: \"Among 1,368 patients without baseline microalbuminuria, cumulative incidence was analyzed within subgroups; intensive tr...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why28",
+      "id": "tr-nejm-003-how28",
+      "type": "how",
+      "subtopic": "Nephropathy — Baseline",
       "referenceNumber": 28,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: Seven-field stereoscopic fundus photographs were taken by certified photographers every six months and were centrally as…",
-      "answer": "Seven-field stereoscopic fundus photographs were taken by certified photographers every six months and were centrally assessed by graders unaware of the treatment-group assignments. The graders used the protocol of the Early Treatment Diabetic Retinopathy Study (ETDRS). The overall levels of severity of retinopathy were determined for each patient according to the ETDRS interim scale, in which a scale of 25 steps is used to represent the overall extent of retinopathy in both eyes. In the primary-prevention co",
-      "reference": "Ref 28: \"Seven-field stereoscopic fundus photographs were taken by certified photographers every six months and were centrally assessed by graders unaware of the treatme...\" — Early Treatment Diabetic Retinopathy Study Research Group. Grading diabetic retinopathy from stereoscopic color fundus p"
+      "question": "How did the baseline creatinine clearance rates indicate the renal health of the cohorts prior to intervention?",
+      "answer": "At baseline, both primary- and secondary-intervention cohorts had highly preserved renal function, with mean creatinine clearance 127–130 ml/min across treatment groups.",
+      "keyPoints": [
+        "At baseline, both primary- and secondary-intervention cohorts had highly preserved renal function, with mean creatinine clearance 127–130 ml/min across treatment groups."
+      ],
+      "reference": "DCCT Q28: \"At baseline, both primary- and secondary-intervention cohorts had highly preserved renal function, with mean creatinine ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why29",
-      "referenceNumber": 29,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line…",
-      "answer": "hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six months. Similarly, a sustained three-step change was used to define progression of retinopathy in the secondary-intervention cohort. This definition was chosen because of its reproducibility and because it represented a measure of clinically important worsening. Proliferative retinopathy and severe nonproliferative retinopathy were chosen as additional outcomes, because they indicate the need for frequent follow-up and possibly photocoagulation. The measures of nephropathic, neuropathic, neuropsychological, macrovascular, and quality-of-life outcomes have been described in detail elsewhere",
-      "reference": "Ref 29: \"hort, the development of clinically important retinopathy was defined as a change of at least three steps from base line that was sustained for at least six mon...\" — Idem. Early photocoagulation for diabetic retinopathy: ETDRS report number 9. Ophthalmology 1991;98:Suppl:766-85."
-    },
-    {
-      "id": "tr-nejm-003-sa30",
-      "referenceNumber": 30,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 30?",
-      "modelAnswer": "The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency chi-square test was used for comparisons of categorical variables. For a stratified analysis of proportions, the adjusted log relative risk c",
-      "reference": "Ref 30: \"The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency c...\" — Snedecor GW, Cochran WG. Statistical methods. 6th ed. Ames: Iowa State University Press, 1967."
-    },
-    {
-      "id": "tr-nejm-003-sa31",
-      "referenceNumber": 31,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 31?",
-      "modelAnswer": "The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency chi-square test was used for comparisons of categorical variables. For a stratified analysis of proportions, the adjusted log relative risk c",
-      "reference": "Ref 31: \"The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency c...\" — Kleinbaum DG, Kupper LL, Morgenstern H. Epidemiologic research: principles and quantitative methods. Belmont, Calif.: Li"
-    },
-    {
-      "id": "tr-nejm-003-sa32",
-      "referenceNumber": 32,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 32?",
-      "modelAnswer": "The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency chi-square test was used for comparisons of categorical variables. For a stratified analysis of proportions, the adjusted log relative risk c",
-      "reference": "Ref 32: \"The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency c...\" — Lee ET. Statistical methods for survival data analysis. Belmont, Calif.: Lifetime Learning, 1980:88-92, 127-9, 306-12."
-    },
-    {
-      "id": "tr-nejm-003-sa33",
-      "referenceNumber": 33,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 33?",
-      "modelAnswer": "The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency chi-square test was used for comparisons of categorical variables. For a stratified analysis of proportions, the adjusted log relative risk c",
-      "reference": "Ref 33: \"The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency c...\" — Tygstrup N, Lachin JM, Juhl E, eds. The randomized clinical trial and therapeutic decisions. New York: Marcel Dekker, 19"
-    },
-    {
-      "id": "tr-nejm-003-sa34",
-      "referenceNumber": 34,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 34?",
-      "modelAnswer": "The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency chi-square test was used for comparisons of categorical variables. For a stratified analysis of proportions, the adjusted log relative risk c",
-      "reference": "Ref 34: \"The Wilcoxon rank-sum test was used to compare the two treatment groups within each cohort with regard to ordinal and numerical variables, and the contingency c...\" — McCullagh P, Nelder JA. Generalized linear models. 2nd ed. New York: Chapman & Hall, 1989:194-200, 429-30."
-    },
-    {
-      "id": "tr-nejm-003-tf35",
-      "referenceNumber": 35,
-      "type": "true_false",
-      "subtopic": "DCCT",
-      "statement": "Mortality did not differ significantly between the treatment groups (seven deaths in the intensive-treatment group and four in the conventional-treatment group) and was less than expected on the basis.",
-      "correctAnswer": false,
-      "explanation": "Mortality did not differ significantly between the treatment groups (seven deaths in the intensive-treatment group and four in the conventional-treatment group) and was less than expected on the basis of population-based mortality studies. As reported",
-      "reference": "Ref 35: \"Mortality did not differ significantly between the treatment groups (seven deaths in the intensive-treatment group and four in the conventional-treatment group)...\" — Dorman JS, Laporte RE, Kuller LH, et al. The Pittsburgh insulin-dependent diabetes mellitus (IDDM) morbidity and mortali"
-    },
-    {
-      "id": "tr-nejm-003-sa36",
-      "referenceNumber": 36,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 36?",
-      "modelAnswer": "elsewhere, the incidence of severe hypoglycemia, including multiple episodes in some patients, was approximately three times higher in the intensive-therapy group than in the conventional-therapy group (P<0.001). In the intensive-therapy group, there were 62 hypoglycemic episodes per 100 patient-yea",
-      "reference": "Ref 36: \"elsewhere, the incidence of severe hypoglycemia, including multiple episodes in some patients, was approximately three times higher in the intensive-therapy gro...\" — DCCT Research Group. Epidemiology of severe hypoglycemia in the Diabetes Control and Complications Trial. Am J Med 1991;"
-    },
-    {
-      "id": "tr-nejm-003-sa37",
-      "referenceNumber": 37,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 37?",
-      "modelAnswer": "py. Weight gain was a problem with intensive therapy, with an increase of 33 percent in the mean adjusted risk of becoming overweight, a condition defined as a body weight more than 120 percent above the ideal (12.7 cases of overweight per 100 patient-years in the intensive-therapy group vs. 9.3 in ",
-      "reference": "Ref 37: \"py. Weight gain was a problem with intensive therapy, with an increase of 33 percent in the mean adjusted risk of becoming overweight, a condition defined as a ...\" — Idem. Weight gain associated with intensive therapy in the Diabetes Control and Complications Trial. Diabetes Care 1988;"
-    },
-    {
-      "id": "tr-nejm-003-sa38",
-      "referenceNumber": 38,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 38?",
-      "modelAnswer": "The most consistent finding in previous trials was transient worsening of retinopathy with intensive therapy, a result now confirmed by this trial. This early worsening, consisting of the development of soft exudates or intraretinal microvascular abnormalities, occurred mainly in the secondary-inter",
-      "reference": "Ref 38: \"The most consistent finding in previous trials was transient worsening of retinopathy with intensive therapy, a result now confirmed by this trial. This early w...\" — Lauritzen T, Frost-Larsen K, Larsen HW, Deckert T. Effect of 1 year of near-normal blood glucose levels on retinopathy i"
-    },
-    {
-      "id": "tr-nejm-003-sa39",
-      "referenceNumber": 39,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From DCCT, what is the key numeric finding cited in reference 39?",
-      "modelAnswer": "The most consistent finding in previous trials was transient worsening of retinopathy with intensive therapy, a result now confirmed by this trial. This early worsening, consisting of the development of soft exudates or intraretinal microvascular abnormalities, occurred mainly in the secondary-inter",
-      "reference": "Ref 39: \"The most consistent finding in previous trials was transient worsening of retinopathy with intensive therapy, a result now confirmed by this trial. This early w...\" — Dahl-Jorgensen K, Brinchmann-Hansen O, Hanssen KF, Sandvik L, Aagenaes O. Rapid tightening of blood glucose control lead"
-    },
-    {
-      "id": "tr-nejm-003-q40",
-      "referenceNumber": 40,
-      "type": "mcq",
-      "subtopic": "DCCT",
-      "question": "Which finding is supported by reference 40 in DCCT?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+      "subtopic": "Nephropathy — Screening",
+      "referenceNumber": 29,
+      "question": "Why were annual urinary albumin excretion measurements critical for evaluating nephropathy?",
+      "answer": "Early diabetic nephropathy is clinically silent; annual 24-hour urinary albumin measurements were required to capture transition from normoalbuminuria to microalbuminuria (≥40 mg/24 hr) before overt renal decline.",
+      "keyPoints": [
+        "Early diabetic nephropathy is clinically silent; annual 24-hour urinary albumin measurements were required to capture transition from normoalbuminuria to microalbuminuria (≥40 mg/24 hr) before overt renal decline."
       ],
-      "correctOption": 3,
-      "explanation": "Intensive insulin therapy reduced the risk of albuminuria and microalbuminuria by 54 percent and 39 percent, respectively, in the combined cohort. A reduction in the progression to albuminuria was suggested by a previous study of 36 patients with IDDM who had generally higher levels of urinary albumin excretion at baseline than the patients in the present trial. Whether the decrease in the development of both microalbuminuria and albuminuria will result in a decrease in the development of renal insufficiency will be clarified by follow-up of the entire study cohort. The ability of intensive therapy to reduce the development of neuropathy suggests that neuropathy may be preventable. Finally, the tantalizing possibility that intensive therapy may reduce macrovascular disease requires further investigation.",
-      "reference": "Ref 40: \"Intensive insulin therapy reduced the risk of albuminuria and microalbuminuria by 54 percent and 39 percent, respectively, in the combined cohort. A reduction i...\" — Feldt-Rasmussen B, Mathiesen ER, Deckert T. Effect of two years of strict metabolic control on progression of incipient "
+      "reference": "DCCT Q29: \"Early diabetic nephropathy is clinically silent; annual 24-hour urinary albumin measurements were required to capture tr...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how30",
+      "type": "how",
+      "subtopic": "Neuropathy — Combined Cohorts",
+      "referenceNumber": 30,
+      "question": "How did the reduction of clinical neuropathy in the combined cohorts reflect the study's overall success?",
+      "answer": "Across combined cohorts, intensive therapy produced a 60% reduction in clinical neuropathy, validating that strict glycemic control protects peripheral and autonomic neural tissues from glucose-mediated toxicity.",
+      "keyPoints": [
+        "Across combined cohorts, intensive therapy produced a 60% reduction in clinical neuropathy, validating that strict glycemic control protects peripheral and autonomic neural tissues from glucose-mediated toxicity."
+      ],
+      "reference": "DCCT Q30: \"Across combined cohorts, intensive therapy produced a 60% reduction in clinical neuropathy, validating that strict glyce...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why31",
+      "type": "why",
+      "subtopic": "Safety — Hypoglycemia",
+      "referenceNumber": 31,
+      "question": "Why is severe hypoglycemia considered the chief adverse event of intensive diabetes therapy?",
+      "answer": "Severe hypoglycemia (including coma or seizure) occurred approximately three times more often in the intensive group, requiring significantly more medical assistance and hospitalizations.",
+      "keyPoints": [
+        "Severe hypoglycemia (including coma or seizure) occurred approximately three times more often in the intensive group, requiring significantly more medical assistance and hospitalizations."
+      ],
+      "reference": "DCCT Q31: \"Severe hypoglycemia (including coma or seizure) occurred approximately three times more often in the intensive group, re...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how32",
+      "type": "how",
+      "subtopic": "Safety — Hypoglycemia",
+      "referenceNumber": 32,
+      "question": "How was the clinical burden of severe hypoglycemia quantified in the study?",
+      "answer": "There were 62 hypoglycemic episodes per 100 patient-years requiring external assistance in the intensive group versus 19 per 100 patient-years in the conventional group.",
+      "keyPoints": [
+        "There were 62 hypoglycemic episodes per 100 patient-years requiring external assistance in the intensive group versus 19 per 100 patient-years in the conventional group."
+      ],
+      "reference": "DCCT Q32: \"There were 62 hypoglycemic episodes per 100 patient-years requiring external assistance in the intensive group versus 19...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how33",
+      "type": "how",
+      "subtopic": "Safety — Weight",
+      "referenceNumber": 33,
+      "question": "How did intensive therapy unexpectedly impact patient body weight?",
+      "answer": "Intensive therapy was associated with significant weight gain: a 33% higher adjusted risk of becoming overweight (>120% ideal body weight) and an average 4.6 kg greater gain than conventional therapy at five years.",
+      "keyPoints": [
+        "Intensive therapy was associated with significant weight gain: a 33% higher adjusted risk of becoming overweight (>120% ideal body weight) and an average 4.6 kg greater gain than conventional therapy at five years."
+      ],
+      "reference": "DCCT Q33: \"Intensive therapy was associated with significant weight gain: a 33% higher adjusted risk of becoming overweight (>120% ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why34",
+      "type": "why",
+      "subtopic": "Safety — Cognition",
+      "referenceNumber": 34,
+      "question": "Why did the researchers conclude that severe hypoglycemia did not cause permanent cognitive damage?",
+      "answer": "Despite threefold higher severe hypoglycemia in the intensive group, serial neuropsychological testing showed no clinically important differences in cognitive function between groups.",
+      "keyPoints": [
+        "Despite threefold higher severe hypoglycemia in the intensive group, serial neuropsychological testing showed no clinically important differences in cognitive function between groups."
+      ],
+      "reference": "DCCT Q34: \"Despite threefold higher severe hypoglycemia in the intensive group, serial neuropsychological testing showed no clinica...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how35",
+      "type": "how",
+      "subtopic": "Safety — Quality of Life",
+      "referenceNumber": 35,
+      "question": "How did the study address the potential impact of intensive therapy's rigorous demands on a patient's psychological well-being?",
+      "answer": "A trial-specific quality-of-life questionnaire showed no significant differences in mean total scores between intensive and conventional groups.",
+      "keyPoints": [
+        "A trial-specific quality-of-life questionnaire showed no significant differences in mean total scores between intensive and conventional groups."
+      ],
+      "reference": "DCCT Q35: \"A trial-specific quality-of-life questionnaire showed no significant differences in mean total scores between intensive ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why36",
+      "type": "why",
+      "subtopic": "Safety — DKA",
+      "referenceNumber": 36,
+      "question": "Why was diabetic ketoacidosis (DKA) not significantly different between the two treatment groups?",
+      "answer": "DKA rates were nearly identical (1.8 vs 2.0 episodes per 100 patient-years) because both groups received specialized care and regular insulin, preventing the profound insulin deficiency required to trigger ketoacidosis regardless of glycemic precision.",
+      "keyPoints": [
+        "DKA rates were nearly identical (1.8 vs 2.0 episodes per 100 patient-years) because both groups received specialized care and regular insulin, preventing the profound insulin deficiency required to trigger ketoacidosis regardless of glycemic precision."
+      ],
+      "reference": "DCCT Q36: \"DKA rates were nearly identical (1.8 vs 2.0 episodes per 100 patient-years) because both groups received specialized car...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how37",
+      "type": "how",
+      "subtopic": "Safety — Mortality",
+      "referenceNumber": 37,
+      "question": "How did mortality in the study population compare to general expectations for individuals with IDDM?",
+      "answer": "Overall mortality was remarkably low (11 deaths among 1,441 patients over 6.5 years) with no significant between-group difference—lower than expected from broader population-based IDDM mortality studies.",
+      "keyPoints": [
+        "Overall mortality was remarkably low (11 deaths among 1,441 patients over 6.5 years) with no significant between-group difference—lower than expected from broader population-based IDDM mortality studies."
+      ],
+      "reference": "DCCT Q37: \"Overall mortality was remarkably low (11 deaths among 1,441 patients over 6.5 years) with no significant between-group d...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why38",
+      "type": "why",
+      "subtopic": "Safety — Driving",
+      "referenceNumber": 38,
+      "question": "Why were motor vehicle accidents specifically highlighted in the safety analysis?",
+      "answer": "Severe hypoglycemia can impair consciousness and reflexes; the study noted two fatal accidents (one per group) and one fatality of a non-participant where hypoglycemia likely played a causative role for the driver.",
+      "keyPoints": [
+        "Severe hypoglycemia can impair consciousness and reflexes; the study noted two fatal accidents (one per group) and one fatality of a non-participant where hypoglycemia likely played a causative role for the driver."
+      ],
+      "reference": "DCCT Q38: \"Severe hypoglycemia can impair consciousness and reflexes; the study noted two fatal accidents (one per group) and one f...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how39",
+      "type": "how",
+      "subtopic": "Safety — Hypoglycemia Risk",
+      "referenceNumber": 39,
+      "question": "How was the risk curve for severe hypoglycemia related to the degree of glycemic control?",
+      "answer": "Secondary analyses showed an inverse continuous relationship: risk and rate of severe hypoglycemia increased continuously as monthly glycosylated hemoglobin values became lower.",
+      "keyPoints": [
+        "Secondary analyses showed an inverse continuous relationship: risk and rate of severe hypoglycemia increased continuously as monthly glycosylated hemoglobin values became lower."
+      ],
+      "reference": "DCCT Q39: \"Secondary analyses showed an inverse continuous relationship: risk and rate of severe hypoglycemia increased continuousl...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why40",
+      "type": "why",
+      "subtopic": "Safety — Hospitalization",
+      "referenceNumber": 40,
+      "question": "Why did the intensive-therapy group require more hospitalizations related to adverse events?",
+      "answer": "The intensive group had 54 hospitalizations for severe hypoglycemia (40 patients) versus 36 in the conventional group, including more admissions for injuries directly resulting from hypoglycemic episodes.",
+      "keyPoints": [
+        "The intensive group had 54 hospitalizations for severe hypoglycemia (40 patients) versus 36 in the conventional group, including more admissions for injuries directly resulting from hypoglycemic episodes."
+      ],
+      "reference": "DCCT Q40: \"The intensive group had 54 hospitalizations for severe hypoglycemia (40 patients) versus 36 in the conventional group, i...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why41",
-      "referenceNumber": 41,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive reg…",
-      "answer": "On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive regimens, with the goal of maintaining their glycemic status as close to the normal range as safely possible. Because of the risk of hypoglycemia, intensive therapy should be implemented with caution, especially in patients with repeated severe hypoglycemia or unawareness of hypoglycemia. The risk-benefit ratio with intensive therapy may be less favorable in children under 13 years of age and in patients with advanced complications, such as end-stage renal disease or cardiovascular or cerebrovascular disease. Patients with proliferative or severe nonproliferative retinopathy may be at higher risk for accelerated progression of their retinopathy after the start of intensive therapy and should be followed closely by their ophthalmologists. Finally, although we did not study patients with non-insulin-dependent diabetes mellitus (NIDDM), hyperglycemia is associated with the presence or progression of complications in NIDDM, as it is in IDDM. If the main conclusions of this trial with regard to the benefits of reducing glycemia are extended to patients with NIDDM, careful regard for age, capabilities, and coexisting diseases will be necessary. We therefore advise caution in the use of therapies other than diet that are aimed at achieving euglycemia in patients with NIDDM",
-      "reference": "Ref 41: \"On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive regimens, with the goal of maintaining thei...\" — Lawson PM, Champion MC, Canny C, et al. Continuous subcutaneous insulin infusion (CSII) does not prevent progression of "
+      "subtopic": "Clinical Implications",
+      "referenceNumber": 41,
+      "question": "Why do the authors ultimately recommend intensive therapy for most IDDM patients despite the high risk of severe hypoglycemia?",
+      "answer": "Profound benefits—35 to 70% reductions in vision-threatening retinopathy, progressive nephropathy, and neuropathy—greatly outweigh the risks and burdens of severe hypoglycemic episodes.",
+      "keyPoints": [
+        "Profound benefits—35 to 70% reductions in vision-threatening retinopathy, progressive nephropathy, and neuropathy—greatly outweigh the risks and burdens of severe hypoglycemic episodes."
+      ],
+      "reference": "DCCT Q41: \"Profound benefits—35 to 70% reductions in vision-threatening retinopathy, progressive nephropathy, and neuropathy—greatl...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
-      "id": "tr-nejm-003-why42",
+      "id": "tr-nejm-003-how42",
+      "type": "how",
+      "subtopic": "Clinical Implications",
       "referenceNumber": 42,
-      "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive reg…",
-      "answer": "On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive regimens, with the goal of maintaining their glycemic status as close to the normal range as safely possible. Because of the risk of hypoglycemia, intensive therapy should be implemented with caution, especially in patients with repeated severe hypoglycemia or unawareness of hypoglycemia. The risk-benefit ratio with intensive therapy may be less favorable in children under 13 years of age and in patients with advanced complications, such as end-stage renal disease or cardiovascular or cerebrovascular disease. Patients with proliferative or severe nonproliferative retinopathy may be at higher risk for accelerated progression of their retinopathy after the start of intensive therapy and should be followed closely by their ophthalmologists. Finally, although we did not study patients with non-insulin-dependent diabetes mellitus (NIDDM), hyperglycemia is associated with the presence or progression of complications in NIDDM, as it is in IDDM. If the main conclusions of this trial with regard to the benefits of reducing glycemia are extended to patients with NIDDM, careful regard for age, capabilities, and coexisting diseases will be necessary. We therefore advise caution in the use of therapies other than diet that are aimed at achieving euglycemia in patients with NIDDM",
-      "reference": "Ref 42: \"On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive regimens, with the goal of maintaining thei...\" — Klein R, Klein BE, Moss SE, Davis MD, DeMets DL. The Wisconsin epidemiologic study of diabetic retinopathy. III. Prevale"
+      "question": "How does a patient's age and clinical history potentially alter the risk-benefit ratio of intensive therapy?",
+      "answer": "The ratio may be less favorable for children under 13, patients with repeated severe hypoglycemia or hypoglycemia unawareness, and those with advanced complications such as ESRD or established cardiovascular disease.",
+      "keyPoints": [
+        "The ratio may be less favorable for children under 13, patients with repeated severe hypoglycemia or hypoglycemia unawareness, and those with advanced complications such as ESRD or established cardiovascular disease."
+      ],
+      "reference": "DCCT Q42: \"The ratio may be less favorable for children under 13, patients with repeated severe hypoglycemia or hypoglycemia unawar...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     },
     {
       "id": "tr-nejm-003-why43",
-      "referenceNumber": 43,
       "type": "why",
-      "subtopic": "DCCT",
-      "question": "Why is the following clinically relevant in DCCT? Context: On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive reg…",
-      "answer": "On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive regimens, with the goal of maintaining their glycemic status as close to the normal range as safely possible. Because of the risk of hypoglycemia, intensive therapy should be implemented with caution, especially in patients with repeated severe hypoglycemia or unawareness of hypoglycemia. The risk-benefit ratio with intensive therapy may be less favorable in children under 13 years of age and in patients with advanced complications, such as end-stage renal disease or cardiovascular or cerebrovascular disease. Patients with proliferative or severe nonproliferative retinopathy may be at higher risk for accelerated progression of their retinopathy after the start of intensive therapy and should be followed closely by their ophthalmologists. Finally, although we did not study patients with non-insulin-dependent diabetes mellitus (NIDDM), hyperglycemia is associated with the presence or progression of complications in NIDDM, as it is in IDDM. If the main conclusions of this trial with regard to the benefits of reducing glycemia are extended to patients with NIDDM, careful regard for age, capabilities, and coexisting diseases will be necessary. We therefore advise caution in the use of therapies other than diet that are aimed at achieving euglycemia in patients with NIDDM",
-      "reference": "Ref 43: \"On the basis of these results, we recommend that most patients with IDDM be treated with closely monitored intensive regimens, with the goal of maintaining thei...\" — Nathan DM, Singer DE, Godine JE, Harrington CH, Perlmuter LC. Retinopathy in older type II diabetics: association with g"
+      "subtopic": "Generalizability",
+      "referenceNumber": 43,
+      "question": "Why do the authors advise caution in extending these trial conclusions directly to patients with non-insulin-dependent diabetes mellitus (NIDDM)?",
+      "answer": "DCCT studied only IDDM; achieving euglycemia in NIDDM with therapies other than diet requires careful consideration of older age, capabilities, and comorbidities not evaluated in this trial.",
+      "keyPoints": [
+        "DCCT studied only IDDM; achieving euglycemia in NIDDM with therapies other than diet requires careful consideration of older age, capabilities, and comorbidities not evaluated in this trial."
+      ],
+      "reference": "DCCT Q43: \"DCCT studied only IDDM; achieving euglycemia in NIDDM with therapies other than diet requires careful consideration of o...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how44",
+      "type": "how",
+      "subtopic": "Macrovascular",
+      "referenceNumber": 44,
+      "question": "How did the demographic composition of the study cohort impact the ability to measure macrovascular (cardiovascular) outcomes?",
+      "answer": "Relatively young enrollees (ages 13–39) and exclusion of severe comorbidity meant heart attack and stroke incidence was too low to establish statistically significant macrovascular reduction.",
+      "keyPoints": [
+        "Relatively young enrollees (ages 13–39) and exclusion of severe comorbidity meant heart attack and stroke incidence was too low to establish statistically significant macrovascular reduction."
+      ],
+      "reference": "DCCT Q44: \"Relatively young enrollees (ages 13–39) and exclusion of severe comorbidity meant heart attack and stroke incidence was ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why45",
+      "type": "why",
+      "subtopic": "Implementation",
+      "referenceNumber": 45,
+      "question": "Why is there a pressing need to develop new community-based strategies for intensive diabetes management?",
+      "answer": "DCCT intensive therapy required a specialized expert team (diabetologists, nurses, dietitians, behavioral specialists) with considerable time, effort, and cost—resources not widely available in community settings.",
+      "keyPoints": [
+        "DCCT intensive therapy required a specialized expert team (diabetologists, nurses, dietitians, behavioral specialists) with considerable time, effort, and cost—resources not widely available in community settings."
+      ],
+      "reference": "DCCT Q45: \"DCCT intensive therapy required a specialized expert team (diabetologists, nurses, dietitians, behavioral specialists) w...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how46",
+      "type": "how",
+      "subtopic": "Cardiovascular Risk Factors",
+      "referenceNumber": 46,
+      "question": "How did intensive therapy positively impact a major risk factor for cardiovascular disease?",
+      "answer": "Although hard cardiovascular endpoints were not statistically proven, intensive therapy reduced development of hypercholesterolemia—lowering risk of LDL cholesterol >160 mg/dL by 34%.",
+      "keyPoints": [
+        "Although hard cardiovascular endpoints were not statistically proven, intensive therapy reduced development of hypercholesterolemia—lowering risk of LDL cholesterol >160 mg/dL by 34%."
+      ],
+      "reference": "DCCT Q46: \"Although hard cardiovascular endpoints were not statistically proven, intensive therapy reduced development of hyperchol...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why47",
+      "type": "why",
+      "subtopic": "Historical Context",
+      "referenceNumber": 47,
+      "question": "Why was the Stockholm Diabetes Intervention Study noted as an important precursor to the DCCT's findings?",
+      "answer": "The Stockholm study previously demonstrated uniform benefit of intensive therapy in patients with established complications, providing foundational evidence supporting DCCT's secondary-intervention hypothesis.",
+      "keyPoints": [
+        "The Stockholm study previously demonstrated uniform benefit of intensive therapy in patients with established complications, providing foundational evidence supporting DCCT's secondary-intervention hypothesis."
+      ],
+      "reference": "DCCT Q47: \"The Stockholm study previously demonstrated uniform benefit of intensive therapy in patients with established complicati...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how48",
+      "type": "how",
+      "subtopic": "Study Design — Insulin Dosing",
+      "referenceNumber": 48,
+      "question": "How did the study confirm that insulin dosages were appropriately scaled between the two therapies?",
+      "answer": "Average insulin doses per kg at baseline were similar across groups (e.g., 0.62 U/kg primary prevention both groups; ~0.71 U/kg secondary intervention), so differences reflected timing and titration rather than baseline dosing disparity.",
+      "keyPoints": [
+        "Average insulin doses per kg at baseline were similar across groups (e.g., 0.62 U/kg primary prevention both groups; ~0.71 U/kg secondary intervention), so differences reflected timing and titration rather than baseline dosing disparity."
+      ],
+      "reference": "DCCT Q48: \"Average insulin doses per kg at baseline were similar across groups (e.g., 0.62 U/kg primary prevention both groups; ~0....\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-why49",
+      "type": "why",
+      "subtopic": "Long-term Complications",
+      "referenceNumber": 49,
+      "question": "Why does intensive therapy effectively reduce the need for amputations and foot ulcer treatments in the long term?",
+      "answer": "Although amputations were not explicitly modeled, intensive therapy reduced clinical peripheral sensorimotor neuropathy by 60%—the primary pathophysiological driver of diabetic foot injury and subsequent amputation.",
+      "keyPoints": [
+        "Although amputations were not explicitly modeled, intensive therapy reduced clinical peripheral sensorimotor neuropathy by 60%—the primary pathophysiological driver of diabetic foot injury and subsequent amputation."
+      ],
+      "reference": "DCCT Q49: \"Although amputations were not explicitly modeled, intensive therapy reduced clinical peripheral sensorimotor neuropathy ...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
+    },
+    {
+      "id": "tr-nejm-003-how50",
+      "type": "how",
+      "subtopic": "Macrovascular — Trend",
+      "referenceNumber": 50,
+      "question": "How did the macrovascular event rate trend, even if it failed to achieve statistical significance?",
+      "answer": "Pooling major cardiovascular and peripheral vascular events, the intensive group showed a trend toward fewer events (0.5 vs 0.8 per 100 patient-years)—a non-significant 41% risk reduction.",
+      "keyPoints": [
+        "Pooling major cardiovascular and peripheral vascular events, the intensive group showed a trend toward fewer events (0.5 vs 0.8 per 100 patient-years)—a non-significant 41% risk reduction."
+      ],
+      "reference": "DCCT Q50: \"Pooling major cardiovascular and peripheral vascular events, the intensive group showed a trend toward fewer events (0.5...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the development and progression of long-term complications in insulin-dependent diabetes mellitus. N Engl J Med 1993;329:977-986."
     }
   ]
 }
