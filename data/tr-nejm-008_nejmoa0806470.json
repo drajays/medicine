@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa0806470",
   "paperType": "rct",
-  "title": "10-Year Follow-up of Intensive Glucose Control in Type 2 Diabetes",
-  "subtitle": "ADVANCE — 10-Year Follow-up of Intensive Glucose Control",
+  "title": "UKPDS 80",
+  "subtitle": "10-Year Follow-up of Intensive Glucose Control — Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Endocrinology & Metabolism",
-  "authors": "UK Prospective Diabetes Study (UKPDS) Group. Intensive blood-glucose control wit",
+  "authors": "Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA; N Engl J Med 2008",
   "sourceFile": "noupload/NEJM/nejmoa0806470/paper.md",
   "bibliography": [
     {
@@ -113,277 +113,754 @@
     }
   ],
   "trialDesign": {
-    "fullName": "10-Year Follow-up of Intensive Glucose Control in Type 2 Diabetes",
-    "overview": "## BACKGROUND During the United Kingdom Prospective Diabetes Study (UKPDS), patients with type 2 diabetes mellitus who received intensive glucose therapy had a lower risk of microvascular complications than did those receiving conventional dietary therapy. We conducted post-trial monitoring to determine whether this improved glucose control persisted and whether such therapy had a long-term effect on macrovascular outcomes.",
-    "design": "Of 5102 patients with newly diagnosed type 2 diabetes, 4209 were randomly assigned to receive either conventional therapy (dietary restriction) or intensive therapy (either sulfonylurea or insulin or, in overweight patients, metformin) for glucose control. In post-trial monitoring, 3277 patients wer",
-    "population": "patients with newly diagnosed type 2 diabetes, 4209 were randomly assigned to receive either conventional therapy (dietary restriction) or intensive therapy (either sulfonylurea or insulin or, in overweight patients, metformin) for glucose control.",
-    "intervention": "assigned to receive either conventional therapy (dietary restriction) or intensive therapy (either sulfonylurea or insulin or, in overweight patients, metformin) for glucose control."
+    "fullName": "UK Prospective Diabetes Study (UKPDS) — 10-Year Post-Trial Follow-up (UKPDS 80)",
+    "year": 2008,
+    "design": "Post-trial observational follow-up of randomized UKPDS glucose-control arms",
+    "population": "3,277 surviving UKPDS participants with newly diagnosed type 2 diabetes at original enrollment",
+    "sampleSize": "n=3277 survivors (SU-insulin vs conventional; metformin vs conventional in overweight patients)",
+    "duration": "10 years post-trial monitoring; median total follow-up ~16.8 person-years (SU-insulin)",
+    "intervention": "Original randomization: intensive sulfonylurea-insulin or metformin (if >120% ideal weight) vs conventional diet",
+    "comparator": "Conventional dietary glucose control during original trial; all returned to usual care post-trial",
+    "primaryEndpoint": "Persistence of microvascular benefit and emergence of macrovascular benefits over 10-year follow-up",
+    "overview": "Despite HbA1c convergence within 1 year, legacy benefits persisted: microvascular ↓24%, MI and mortality reductions emerged for SU-insulin; metformin showed MI ↓33% and death ↓27%."
   },
   "trialSummary": {
     "headings": {
-      "background": "During the United Kingdom Prospective Diabetes Study (UKPDS), patients with type 2 diabetes mellitus who received intensive glucose therapy had a lower risk of microvascular complications than did those receiving conventional dietary therapy. We conducted post-trial monitoring to determine whether this improved glucose control persisted and whether such therapy had a long-term effect on macrovascular outcomes.",
-      "objective": "During the United Kingdom Prospective Diabetes Study (UKPDS), patients with type 2 diabetes mellitus who received intensive glucose therapy had a lower risk of microvascular complications than did those receiving conventional dietary therapy. We conducted post-trial monitoring to determine whether this improved glucose control persisted and whether such therapy had a long-term effect on macrovascu",
-      "design": "Of 5102 patients with newly diagnosed type 2 diabetes, 4209 were randomly assigned to receive either conventional therapy (dietary restriction) or intensive therapy (either sulfonylurea or insulin or, in overweight patients, metformin) for glucose control. In post-trial monitoring, 3277 patients wer",
-      "population": "patients with newly diagnosed type 2 diabetes, 4209 were randomly assigned to receive either conventional therapy (dietary restriction) or intensive therapy (either sulfonylurea or insulin or, in overweight patients, metformin) for glucose control.",
-      "intervention": "assigned to receive either conventional therapy (dietary restriction) or intensive therapy (either sulfonylurea or insulin or, in overweight patients, metformin) for glucose control.",
-      "nct": "NCT00145925"
+      "background": "UKPDS showed microvascular benefit with intensive glucose control; macrovascular benefit was uncertain at trial end.",
+      "design": "10-year post-trial monitoring of 3,277 survivors; no maintenance of randomized therapies.",
+      "population": "Newly diagnosed type 2 diabetes at UKPDS entry; metformin arm restricted to overweight (>120% ideal weight).",
+      "intervention": "Original intensive SU-insulin or metformin vs conventional diet during interventional phase.",
+      "comparator": "Conventional therapy; post-trial all groups received community/hospital standard care.",
+      "followUp": "10 years post-trial; clinic visits years 1–5; questionnaire follow-up years 6–10."
     },
-    "outcomes": [],
-    "conclusion": "Despite an early loss of glycemic differences, a continued reduction in microvascular risk and emergent risk reductions for myocardial infarction and death from any cause were observed during 10 years of post-trial follow-up. A continued benefit after metformin therapy was evident among overweight patients. (UKPDS 80; Current Controlled Trials number, ISRCTN75451837.) From the Diabetes Trials Unit (R.R.H., S.K.P., M.A.B.), the Division of Public Health and Primary Health Care (H.A.W.N.), and the National Institute of Health Research (NIHR) School for Primary Care Research (H.A.W.N.), Oxford Ce",
-    "clinicalBottomLine": "Despite an early loss of glycemic differences, a continued reduction in microvascular risk and emergent risk reductions for myocardial infarction and death from any cause were observed during 10 years of post-trial follow-up. A continued benefit afte"
+    "outcomes": [
+      {
+        "label": "Microvascular disease — SU-insulin",
+        "type": "primary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 24
+        },
+        "interpretation": "Persistent at 10 years despite glycemic convergence"
+      },
+      {
+        "label": "Myocardial infarction — SU-insulin",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 15
+        },
+        "interpretation": "Emergent significant benefit at 10 years"
+      },
+      {
+        "label": "Death from any cause — SU-insulin",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 13
+        },
+        "interpretation": "Emergent significant benefit at 10 years"
+      },
+      {
+        "label": "Myocardial infarction — metformin",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 33
+        },
+        "interpretation": "Overweight patients; profound sustained benefit"
+      },
+      {
+        "label": "Death from any cause — metformin",
+        "type": "secondary",
+        "effect": {
+          "measure": "RR reduction",
+          "value": 27
+        },
+        "interpretation": "Overweight patients"
+      }
+    ],
+    "safetyHighlights": [
+      "No significant stroke reduction in either intensive arm",
+      "Metformin group had 15% higher mean plasma creatinine — only significant biochemical difference"
+    ],
+    "clinicalBottomLine": "Early intensive glucose control in newly diagnosed type 2 diabetes produces a legacy effect — enduring microvascular and macrovascular benefits even after glycemic levels converge."
   },
-  "inclusionCriteria": [],
-  "exclusionCriteria": [],
+  "inclusionCriteria": [
+    "Original UKPDS: newly diagnosed type 2 diabetes; age 25–65; fasting glucose >108 mg/dL on two occasions",
+    "Metformin randomization: body weight >120% of ideal weight"
+  ],
+  "exclusionCriteria": [
+    "Original UKPDS exclusions: ketonuria, creatinine >2.0 mg/dL, MI in prior year, angina/heart failure, retinopathy requiring laser, severe concurrent illness"
+  ],
   "keyTakeaways": [
-    "Despite an early loss of glycemic differences, a continued reduction in microvascular risk and emergent risk reductions for myocardial infarction and death from any cause were observed during 10 years of post-trial follow-up. A continued benefit afte",
-    "Despite an early loss of glycemic differences, a continued reduction in microvascular risk and emergent risk reductions for myocardial infarction and death from any cause were observed during 10 years of post-trial follow-up. A continued benefit after metformin therapy was evident among overweight p"
+    "Legacy effect: HbA1c differences lost within 1 year, but benefits persist 10+ years.",
+    "SU-insulin: microvascular ↓24%; MI ↓15%; all-cause death ↓13% at 10 years.",
+    "Metformin (overweight): MI ↓33%; death ↓27%. Stroke not reduced. Early intervention matters."
   ],
   "items": [
     {
-      "id": "tr-nejm-008-how1",
+      "id": "tr-nejm-008-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "UKPDS 80 — Main Points (High-Yield Overview)",
+      "content": "Background and Objective: The original UKPDS showed intensive glucose therapy reduced microvascular complications in newly diagnosed type 2 diabetes, but macrovascular benefits were not statistically significant at trial end. This 10-year post-trial monitoring study assessed whether benefits persisted and whether macrovascular advantages eventually emerged.\n\nMethodology: 3,277 surviving patients followed for 10 years after the trial ended. Patients returned to standard care with no attempt to maintain original randomized therapies (intensive sulfonylurea-insulin, intensive metformin, or conventional diet).\n\nLoss of Glycemic Differences: HbA1c differences between intensive and conventional groups disappeared within the first year of post-trial follow-up.\n\nSulfonylurea–Insulin Outcomes: Despite glycemic convergence, intensive SU-insulin maintained 24% microvascular RR reduction; MI (15%) and all-cause death (13%) reductions became statistically significant over 10 years.\n\nMetformin Outcomes: Overweight patients originally on intensive metformin maintained profound reductions: MI 33%, all-cause death 27%.\n\nConclusion (\"The Legacy Effect\"): Early intensive glycemic control in newly diagnosed type 2 diabetes yields enduring microvascular and macrovascular benefits even when blood sugar levels converge later — the legacy effect.",
+      "keyPoints": [
+        "HbA1c differences lost within 1 year · benefits persist 10+ years",
+        "SU-insulin: microvascular ↓24% · MI ↓15% · death ↓13%",
+        "Metformin (overweight): MI ↓33% · death ↓27% — legacy effect"
+      ],
+      "reference": "Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-why1",
+      "type": "why",
+      "subtopic": "Why/How 1",
       "referenceNumber": 1,
-      "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 1 relate to ADVANCE?",
-      "answer": "After a 3-month dietary run-in period, patients with a fasting plasma glucose level of more than 108 mg per deciliter but less than 270 mg per deciliter (15.0 mmol per liter) were randomly assigned to receive conventional glucose control (diet) or intensive glucose control (sulfonylurea or insulin or, if more than 120% of ideal body weight, metformin ). All patients were seen quarterly in UKPDS clinics. The median follow-up for the sulfonylurea–insulin and metformin groups was 10.0 years and 10.7 years, respectively.",
-      "reference": "Ref 1: \"After a 3-month dietary run-in period, patients with a fasting plasma glucose level of more than 108 mg per deciliter but less than 270 mg per deciliter (15.0 m...\" — UK Prospective Diabetes Study (UKPDS) Group. Intensive blood-glucose control with sulphonylureas or insulin compared wit"
+      "question": "Why was post-trial monitoring necessary after the UKPDS originally concluded in 1997?",
+      "answer": "Post-trial monitoring was necessary to determine if the microvascular benefits observed during the trial persisted and to see if a longer timeframe would reveal a significant long-term effect on macrovascular outcomes, such as myocardial infarction.",
+      "keyPoints": [
+        "Post-trial monitoring was necessary to determine if the microvascular benefits observed during the trial persisted and to see if a longer timeframe would reveal a significant long-term effect on macrovascular outcomes, such as myocardial infarction."
+      ],
+      "reference": "UKPDS 80 Q1: Post-trial monitoring was necessary to determine if the microvascular benefits o... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
       "id": "tr-nejm-008-how2",
-      "referenceNumber": 2,
       "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 2 relate to ADVANCE?",
-      "answer": "After a 3-month dietary run-in period, patients with a fasting plasma glucose level of more than 108 mg per deciliter but less than 270 mg per deciliter (15.0 mmol per liter) were randomly assigned to receive conventional glucose control (diet) or intensive glucose control (sulfonylurea or insulin or, if more than 120% of ideal body weight, metformin ). All patients were seen quarterly in UKPDS clinics. The median follow-up for the sulfonylurea–insulin and metformin groups was 10.0 years and 10.7 years, respectively.",
-      "reference": "Ref 2: \"After a 3-month dietary run-in period, patients with a fasting plasma glucose level of more than 108 mg per deciliter but less than 270 mg per deciliter (15.0 m...\" — Metropolitan Life Insurance Company. New weight standards for men and women. Stat Bull Metrop Insur Co 1959; 40:1-4."
+      "subtopic": "Why/How 2",
+      "referenceNumber": 2,
+      "question": "How did the clinical management of patients change once they entered the post-trial monitoring phase?",
+      "answer": "Patients returned to community or hospital-based diabetes care based on their clinical needs, with no attempt by researchers to maintain the previously randomized therapies (intensive or conventional).",
+      "keyPoints": [
+        "Patients returned to community or hospital-based diabetes care based on their clinical needs, with no attempt by researchers to maintain the previously randomized therapies (intensive or conventional)."
+      ],
+      "reference": "UKPDS 80 Q2: Patients returned to community or hospital-based diabetes care based on their cl... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
       "id": "tr-nejm-008-why3",
+      "type": "why",
+      "subtopic": "Why/How 3",
       "referenceNumber": 3,
-      "type": "why",
-      "subtopic": "ADVANCE",
-      "question": "Why is the following clinically relevant in ADVANCE? Context: Home PD. Impact of the UKPDS — an overview. Diabet Med 2008;25:Suppl 2:2-8…",
-      "answer": "Home PD. Impact of the UKPDS — an overview. Diabet Med 2008;25:Suppl 2:2-8",
-      "reference": "Ref 3: \"Home PD. Impact of the UKPDS — an overview. Diabet Med 2008;25:Suppl 2:2-8.\" — Home PD. Impact of the UKPDS — an overview. Diabet Med 2008;25:Suppl 2:2-8."
+      "question": "Why did the glycated hemoglobin (HbA1c) levels between the two groups converge so quickly (within one year) after the trial ended?",
+      "answer": "When the UKPDS results were published in 1998, both patients and clinicians were advised that lowering blood glucose as much as possible was necessary, leading standard-care patients to adopt more intensive regimens that matched the original intensive-therapy group.",
+      "keyPoints": [
+        "When the UKPDS results were published in 1998, both patients and clinicians were advised that lowering blood glucose as much as possible was necessary, leading standard-care patients to adopt more intensive regimens that matched the original intensive-therapy group."
+      ],
+      "reference": "UKPDS 80 Q3: When the UKPDS results were published in 1998, both patients and clinicians were... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-why4",
+      "id": "tr-nejm-008-how4",
+      "type": "how",
+      "subtopic": "Why/How 4",
       "referenceNumber": 4,
+      "question": "How does the study define the \"legacy effect\" of intensive glucose control?",
+      "answer": "The legacy effect refers to the phenomenon where the benefits of an early, intensive glucose-control strategy are sustained for years (up to 10 years in this study) despite an early loss of within-trial differences in actual glycemic control.",
+      "keyPoints": [
+        "The legacy effect refers to the phenomenon where the benefits of an early, intensive glucose-control strategy are sustained for years (up to 10 years in this study) despite an early loss of within-trial differences in actual glycemic control."
+      ],
+      "reference": "UKPDS 80 Q4: The legacy effect refers to the phenomenon where the benefits of an early, inten... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-why5",
       "type": "why",
-      "subtopic": "ADVANCE",
-      "question": "Why is the following clinically relevant in ADVANCE? Context: Genuth S. The UKPDS and its global impact. Diabet Med 2008;25:Suppl 2:57-62…",
-      "answer": "Genuth S. The UKPDS and its global impact. Diabet Med 2008;25:Suppl 2:57-62",
-      "reference": "Ref 4: \"Genuth S. The UKPDS and its global impact. Diabet Med 2008;25:Suppl 2:57-62.\" — Genuth S. The UKPDS and its global impact. Diabet Med 2008;25:Suppl 2:57-62."
-    },
-    {
-      "id": "tr-nejm-008-sa5",
+      "subtopic": "Why/How 5",
       "referenceNumber": 5,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ADVANCE, what is the key numeric finding cited in reference 5?",
-      "modelAnswer": "Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In the DCCT, patients between the ages of 13 and 39 years who did not have a history of cardiovascular disease were randomly assigned to receive",
-      "reference": "Ref 5: \"Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In t...\" — Nathan DM, Cleary PA, Backlund JY, et al. Intensive diabetes treatment and cardiovascular disease in patients with type "
+      "question": "Why might the accumulation of \"advanced glycation end products\" explain the biological mechanism behind the legacy effect?",
+      "answer": "Long-term hyperglycemia causes the gradual accumulation of advanced glycation end products, which are only slowly degraded once intensive glycemic control is achieved. Early intensive control prevents their initial formation, potentially protecting the microvasculature and macrovasculature for years afterward.",
+      "keyPoints": [
+        "Long-term hyperglycemia causes the gradual accumulation of advanced glycation end products, which are only slowly degraded once intensive glycemic control is achieved. Early intensive control prevents their initial formation, potentially protecting the microvasculature and macrovasculature for years afterward."
+      ],
+      "reference": "UKPDS 80 Q5: Long-term hyperglycemia causes the gradual accumulation of advanced glycation en... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-sa6",
+      "id": "tr-nejm-008-how6",
+      "type": "how",
+      "subtopic": "Why/How 6",
       "referenceNumber": 6,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ADVANCE, what is the key numeric finding cited in reference 6?",
-      "modelAnswer": "In the randomized Steno-2 Study, postinterventional benefits in patients with type 2 diabetes were reported after a 7.8-year multifactorial, intensive risk-reduction program with multiple drug combinations and behavior modification, with a follow-up of 13.3 years. An overall absolute reduction in th",
-      "reference": "Ref 6: \"In the randomized Steno-2 Study, postinterventional benefits in patients with type 2 diabetes were reported after a 7.8-year multifactorial, intensive risk-redu...\" — Gaede P, Lund-Andersen H, Parving HH, Pedersen O. Effect of a multifactorial intervention on mortality in type 2 diabete"
+      "question": "How did the outcomes of the intensive sulfonylurea-insulin group change over the 10-year follow-up compared to the original trial?",
+      "answer": "While the original trial only showed a nonsignificant 16% risk reduction for myocardial infarction, the 10-year follow-up saw clinically relevant risk reductions successfully emerge for myocardial infarction (15%) and death from any cause (13%).",
+      "keyPoints": [
+        "While the original trial only showed a nonsignificant 16% risk reduction for myocardial infarction, the 10-year follow-up saw clinically relevant risk reductions successfully emerge for myocardial infarction (15%) and death from any cause (13%)."
+      ],
+      "reference": "UKPDS 80 Q6: While the original trial only showed a nonsignificant 16% risk reduction for myo... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
       "id": "tr-nejm-008-why7",
+      "type": "why",
+      "subtopic": "Why/How 7",
       "referenceNumber": 7,
-      "type": "why",
-      "subtopic": "ADVANCE",
-      "question": "Why is the following clinically relevant in ADVANCE? Context: The recruitment of patients, study protocol, and methods for the UKPDS have been reported previously. Approval was obtai…",
-      "answer": "The recruitment of patients, study protocol, and methods for the UKPDS have been reported previously. Approval was obtained from the ethics committees at all 23 clinical centers, and the study conformed to the Declarations of Helsinki guidelines. Briefly, 5102 of 7616 patients who underwent screening were enrolled from 1977 to 1991. All patients provided written informed consent. Patients were between the ages of 25 and 65 years and had a fasting plasma glucose level of more than 108 mg per deciliter (6.0 mmol per liter) on two occasions after their general practitioners had diagnosed type 2 diabetes. By self-report, 81% of the patients were white, 10% Asian Indian, and 9% Afro-Caribbean. A total of 2514 patients were excluded because of the following conditions: ketonuria, a serum creatinine level of more than 175 mol per liter (2.0 mg per deciliter), myocardial infarction in the previous year, current angina or heart failure, more than one major vascular event, retinopathy requiring laser treatment, malignant hypertension, uncorrected endocrine disorder, occupations precluding insulin therapy, severe concurrent illness limiting life expectancy, inadequate understanding of the study protocol, or unwillingness to enter the study",
-      "reference": "Ref 7: \"The recruitment of patients, study protocol, and methods for the UKPDS have been reported previously. Approval was obtained from the ethics committees at all 23...\" — UK Prospective Diabetes Study (UKPDS). VIII. Study design, progress and performance. Diabetologia 1991;34:877-90."
+      "question": "Why was the metformin arm of the trial restricted to a specific demographic of patients?",
+      "answer": "The intensive metformin therapy was specifically evaluated in patients whose body weight was more than 120% of their ideal weight (overweight patients).",
+      "keyPoints": [
+        "The intensive metformin therapy was specifically evaluated in patients whose body weight was more than 120% of their ideal weight (overweight patients)."
+      ],
+      "reference": "UKPDS 80 Q7: The intensive metformin therapy was specifically evaluated in patients whose bod... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-why8",
-      "referenceNumber": 8,
-      "type": "why",
-      "subtopic": "ADVANCE",
-      "question": "Why is the following clinically relevant in ADVANCE? Context: The recruitment of patients, study protocol, and methods for the UKPDS have been reported previously. Approval was obtai…",
-      "answer": "The recruitment of patients, study protocol, and methods for the UKPDS have been reported previously. Approval was obtained from the ethics committees at all 23 clinical centers, and the study conformed to the Declarations of Helsinki guidelines. Briefly, 5102 of 7616 patients who underwent screening were enrolled from 1977 to 1991. All patients provided written informed consent. Patients were between the ages of 25 and 65 years and had a fasting plasma glucose level of more than 108 mg per deciliter (6.0 mmol per liter) on two occasions after their general practitioners had diagnosed type 2 diabetes. By self-report, 81% of the patients were white, 10% Asian Indian, and 9% Afro-Caribbean. A total of 2514 patients were excluded because of the following conditions: ketonuria, a serum creatinine level of more than 175 mol per liter (2.0 mg per deciliter), myocardial infarction in the previous year, current angina or heart failure, more than one major vascular event, retinopathy requiring laser treatment, malignant hypertension, uncorrected endocrine disorder, occupations precluding insulin therapy, severe concurrent illness limiting life expectancy, inadequate understanding of the study protocol, or unwillingness to enter the study",
-      "reference": "Ref 8: \"The recruitment of patients, study protocol, and methods for the UKPDS have been reported previously. Approval was obtained from the ethics committees at all 23...\" — UK Prospective Diabetes Study (UKPDS). XI. Biochemical risk factors in type 2 diabetic patients at diagnosis compared wi"
-    },
-    {
-      "id": "tr-nejm-008-how9",
-      "referenceNumber": 9,
+      "id": "tr-nejm-008-how8",
       "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 9 relate to ADVANCE?",
-      "answer": "After a 3-month dietary run-in period, patients with a fasting plasma glucose level of more than 108 mg per deciliter but less than 270 mg per deciliter (15.0 mmol per liter) were randomly assigned to receive conventional glucose control (diet) or intensive glucose control (sulfonylurea or insulin or, if more than 120% of ideal body weight, metformin ). All patients were seen quarterly in UKPDS clinics. The median follow-up for the sulfonylurea–insulin and metformin groups was 10.0 years and 10.7 years, respectively.",
-      "reference": "Ref 9: \"After a 3-month dietary run-in period, patients with a fasting plasma glucose level of more than 108 mg per deciliter but less than 270 mg per deciliter (15.0 m...\" — UK Prospective Diabetes Study (UKPDS) Group. Effect of intensive blood-glucose control with metformin on complications i"
+      "subtopic": "Why/How 8",
+      "referenceNumber": 8,
+      "question": "How did the study collect data on patients who could no longer attend the physical UKPDS clinics between years 6 and 10?",
+      "answer": "Because funding for clinic visits was not available, researchers used annual questionnaires sent to the patients and their general practitioners to capture possible clinical outcomes and vital status.",
+      "keyPoints": [
+        "Because funding for clinic visits was not available, researchers used annual questionnaires sent to the patients and their general practitioners to capture possible clinical outcomes and vital status."
+      ],
+      "reference": "UKPDS 80 Q8: Because funding for clinic visits was not available, researchers used annual que... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-why9",
+      "type": "why",
+      "subtopic": "Why/How 9",
+      "referenceNumber": 9,
+      "question": "Why do the authors suggest that trials like ADVANCE and ACCORD failed to show similar short-term macrovascular benefits?",
+      "answer": "The ADVANCE and ACCORD trials involved patients who were 8 to 12 years older and had already been treated for diabetes for 8 to 10 years at randomization. The UKPDS focused on newly diagnosed patients, suggesting that cardiovascular benefits require early intervention.",
+      "keyPoints": [
+        "The ADVANCE and ACCORD trials involved patients who were 8 to 12 years older and had already been treated for diabetes for 8 to 10 years at randomization. The UKPDS focused on newly diagnosed patients, suggesting that cardiovascular benefits require early intervention."
+      ],
+      "reference": "UKPDS 80 Q9: The ADVANCE and ACCORD trials involved patients who were 8 to 12 years older and... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-how10",
+      "type": "how",
+      "subtopic": "Why/How 10",
+      "referenceNumber": 10,
+      "question": "How was the objectivity of the clinical outcomes guaranteed during the post-trial phase?",
+      "answer": "Full documentation for all putative outcomes was obtained, and members of the UKPDS end-point committee adjudicated the outcomes while remaining completely unaware of the patients' original assignments to study groups.",
+      "keyPoints": [
+        "Full documentation for all putative outcomes was obtained, and members of the UKPDS end-point committee adjudicated the outcomes while remaining completely unaware of the patients' original assignments to study groups."
+      ],
+      "reference": "UKPDS 80 Q10: Full documentation for all putative outcomes was obtained, and members of the UK... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-why11",
+      "type": "why",
+      "subtopic": "Why/How 11",
+      "referenceNumber": 11,
+      "question": "Why was stroke not considered a success for intensive glucose control in this study?",
+      "answer": "Throughout both the original interventional trial and the 10-year post-trial follow-up, no significant risk reductions were observed for fatal or nonfatal stroke in either the sulfonylurea-insulin or metformin groups.",
+      "keyPoints": [
+        "Throughout both the original interventional trial and the 10-year post-trial follow-up, no significant risk reductions were observed for fatal or nonfatal stroke in either the sulfonylurea-insulin or metformin groups."
+      ],
+      "reference": "UKPDS 80 Q11: Throughout both the original interventional trial and the 10-year post-trial fol... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-how12",
+      "type": "how",
+      "subtopic": "Why/How 12",
+      "referenceNumber": 12,
+      "question": "How did the EDIC study in type 1 diabetes provide precedent for the UKPDS findings?",
+      "answer": "The EDIC study followed patients from the DCCT trial and showed that prior intensive insulin therapy significantly reduced the risk of cardiovascular events by 42% long after the trial ended, proving that a legacy effect exists in type 1 diabetes as well.",
+      "keyPoints": [
+        "The EDIC study followed patients from the DCCT trial and showed that prior intensive insulin therapy significantly reduced the risk of cardiovascular events by 42% long after the trial ended, proving that a legacy effect exists in type 1 diabetes as well."
+      ],
+      "reference": "UKPDS 80 Q12: The EDIC study followed patients from the DCCT trial and showed that prior inten... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-why13",
+      "type": "why",
+      "subtopic": "Why/How 13",
+      "referenceNumber": 13,
+      "question": "Why did plasma creatinine levels differ slightly between the metformin and conventional groups during post-trial monitoring?",
+      "answer": "Plasma creatinine levels in the metformin group were found to be 15% higher on average than those in the conventional-therapy group, representing the only significant biochemical difference noted across the groups.",
+      "keyPoints": [
+        "Plasma creatinine levels in the metformin group were found to be 15% higher on average than those in the conventional-therapy group, representing the only significant biochemical difference noted across the groups."
+      ],
+      "reference": "UKPDS 80 Q13: Plasma creatinine levels in the metformin group were found to be 15% higher on a... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-how14",
+      "type": "how",
+      "subtopic": "Why/How 14",
+      "referenceNumber": 14,
+      "question": "How did the overall mortality rates highlight the severity of the disease over the study's lifetime?",
+      "answer": "With a median follow-up approaching 17 years, overall mortality was 44.0%, with the leading causes of death being cardiovascular disease (51.5%) and cancer (24.2%).",
+      "keyPoints": [
+        "With a median follow-up approaching 17 years, overall mortality was 44.0%, with the leading causes of death being cardiovascular disease (51.5%) and cancer (24.2%)."
+      ],
+      "reference": "UKPDS 80 Q14: With a median follow-up approaching 17 years, overall mortality was 44.0%, with ... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-why15",
+      "type": "why",
+      "subtopic": "Why/How 15",
+      "referenceNumber": 15,
+      "question": "Why is the legacy effect expected to diminish only slowly over time?",
+      "answer": "While the conventional-therapy group experienced improved glycemic control after the trial, there is a lag phase before that improvement translates into reduced clinical events; simultaneously, the structural biological benefits of early control in the intensive group degrade very slowly.",
+      "keyPoints": [
+        "While the conventional-therapy group experienced improved glycemic control after the trial, there is a lag phase before that improvement translates into reduced clinical events; simultaneously, the structural biological benefits of early control in the intensive group degrade very slowly."
+      ],
+      "reference": "UKPDS 80 Q15: While the conventional-therapy group experienced improved glycemic control after... — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q1",
+      "type": "mcq",
+      "subtopic": "MCQ 1",
+      "referenceNumber": 16,
+      "question": "What was the median follow-up period in person-years for the sulfonylurea-insulin group by the end of the post-trial monitoring?",
+      "options": [
+        "8.5 years",
+        "10.0 years",
+        "16.8 years",
+        "30.0 years"
+      ],
+      "correctOption": 2,
+      "explanation": "Median follow-up was 16.8 person-years for the sulfonylurea-insulin group.",
+      "reference": "UKPDS 80 MCQ 1: Median follow-up was 16.8 person-years for the sulfonylurea-insulin group. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
+      "referenceNumber": 17,
+      "question": "By what time point did the differences in mean glycated hemoglobin (HbA1c) levels between the intensive and conventional therapy groups disappear?",
+      "options": [
+        "1 year after post-trial monitoring began",
+        "3 years after post-trial monitoring began",
+        "5 years after post-trial monitoring began",
+        "10 years after post-trial monitoring began"
+      ],
+      "correctOption": 0,
+      "explanation": "HbA1c differences disappeared within the first year of post-trial follow-up.",
+      "reference": "UKPDS 80 MCQ 2: HbA1c differences disappeared within the first year of post-trial follow-up. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
+      "referenceNumber": 18,
+      "question": "What was the persistent relative risk reduction for microvascular disease in the sulfonylurea-insulin group at the 10-year post-trial mark?",
+      "options": [
+        "9%",
+        "15%",
+        "24%",
+        "33%"
+      ],
+      "correctOption": 2,
+      "explanation": "Microvascular disease RR reduction remained 24% at 10 years.",
+      "reference": "UKPDS 80 MCQ 3: Microvascular disease RR reduction remained 24% at 10 years. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
+      "referenceNumber": 19,
+      "question": "Which of the following was NOT an original exclusion criterion for the UKPDS?",
+      "options": [
+        "Retinopathy requiring laser treatment",
+        "Fasting plasma glucose level of more than 108 mg per deciliter",
+        "Myocardial infarction in the previous year",
+        "Severe concurrent illness limiting life expectancy"
+      ],
+      "correctOption": 1,
+      "explanation": "FPG >108 mg/dL was an inclusion criterion, not an exclusion.",
+      "reference": "UKPDS 80 MCQ 4: FPG >108 mg/dL was an inclusion criterion, not an exclusion. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
+      "referenceNumber": 20,
+      "question": "What was the relative risk reduction for myocardial infarction in the intensive metformin group at 10 years?",
+      "options": [
+        "15%",
+        "21%",
+        "27%",
+        "33%"
+      ],
+      "correctOption": 3,
+      "explanation": "Metformin group had 33% RR reduction for MI at 10 years.",
+      "reference": "UKPDS 80 MCQ 5: Metformin group had 33% RR reduction for MI at 10 years. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
+      "referenceNumber": 21,
+      "question": "In the post-trial monitoring phase, what percentage of surviving patients attended the UKPDS clinics during years 1 to 5?",
+      "options": [
+        "44 to 51%",
+        "60 to 75%",
+        "81 to 89%",
+        "92 to 97%"
+      ],
+      "correctOption": 3,
+      "explanation": "92–97% attended clinics during years 1–5.",
+      "reference": "UKPDS 80 MCQ 6: 92–97% attended clinics during years 1–5. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
+      "referenceNumber": 22,
+      "question": "Which two leading causes of death accounted for the majority of the 44.0% overall mortality rate?",
+      "options": [
+        "Cardiovascular disease and renal failure",
+        "Cardiovascular disease and cancer",
+        "Cancer and sudden death from hypoglycemia",
+        "Stroke and peripheral vascular disease"
+      ],
+      "correctOption": 1,
+      "explanation": "CV disease (51.5%) and cancer (24.2%) were leading causes of death.",
+      "reference": "UKPDS 80 MCQ 7: CV disease (51.5%) and cancer (24.2%) were leading causes of death. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
+      "referenceNumber": 23,
+      "question": "How was the vital status obtained for all patients still living in the United Kingdom?",
+      "options": [
+        "General practitioner surveys exclusively",
+        "The European Quality of Life-5 Dimensions questionnaire",
+        "The Office of National Statistics",
+        "Hospital admission records"
+      ],
+      "correctOption": 2,
+      "explanation": "Vital status obtained via the UK Office of National Statistics.",
+      "reference": "UKPDS 80 MCQ 8: Vital status obtained via the UK Office of National Statistics. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
+      "referenceNumber": 24,
+      "question": "In the Steno-2 study mentioned in the discussion, what was the intervention that led to postinterventional mortality benefits?",
+      "options": [
+        "Intensive metformin monotherapy",
+        "A multifactorial risk-reduction program with multiple drugs and behavior modification",
+        "Exclusive use of external insulin pumps",
+        "Intensive dietary restriction"
+      ],
+      "correctOption": 1,
+      "explanation": "Steno-2 used multifactorial risk reduction with drugs and behavior modification.",
+      "reference": "UKPDS 80 MCQ 9: Steno-2 used multifactorial risk reduction with drugs and behavior modification. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
       "id": "tr-nejm-008-q10",
-      "referenceNumber": 10,
       "type": "mcq",
-      "subtopic": "ADVANCE",
-      "question": "Which finding is supported by reference 10 in ADVANCE?",
+      "subtopic": "MCQ 10",
+      "referenceNumber": 25,
+      "question": "At the 5-year mark post-trial, what percentage of the patient cohort was being managed on diet alone?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "50%"
+        "5%",
+        "25%",
+        "46%",
+        "49%"
       ],
-      "correctOption": 3,
-      "explanation": "All surviving patients entered the post-trial monitoring program after the intervention trial closed on September 30, 1997. A 10-year follow-up was planned to coincide with a projected death rate of 50%. In September 1998, when the UKPDS results were published, patients and clinicians were advised that it was necessary to lower levels of blood glucose and blood pressure as much as possible. Patients returned to community or hospital-based diabetes care according to their clinical needs, with no attempt to maintain previously randomized therapies. They were seen annually for 5 years in UKPDS clinics, with continued standardized collection of outcome data; measurements of blood pressure, fasting plasma glucose, glycated hemoglobin, plasma creatinine, and the ratio of albumin to creatinine; and results on two questionnaires, the European Quality of Life–5 Dimensions (EQ-5D) and a questionnaire on the use of health resources.",
-      "reference": "Ref 10: \"All surviving patients entered the post-trial monitoring program after the intervention trial closed on September 30, 1997. A 10-year follow-up was planned to c...\" — Turner RC, Milns H, Neil HA, et al. Risk factors for coronary artery disease in non-insulin dependent diabetes mellitus:"
+      "correctOption": 0,
+      "explanation": "Only ~5% were on diet alone at 5 years post-trial.",
+      "reference": "UKPDS 80 MCQ 10: Only ~5% were on diet alone at 5 years post-trial. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
       "id": "tr-nejm-008-q11",
-      "referenceNumber": 11,
       "type": "mcq",
-      "subtopic": "ADVANCE",
-      "question": "Which finding is supported by reference 11 in ADVANCE?",
+      "subtopic": "MCQ 11",
+      "referenceNumber": 26,
+      "question": "According to the data, which of the following aggregate outcomes did NOT see a significant risk reduction in either the SU-insulin or metformin groups?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "50%"
+        "Death from any cause",
+        "Stroke",
+        "Any diabetes-related end point",
+        "Myocardial infarction"
       ],
-      "correctOption": 3,
-      "explanation": "All surviving patients entered the post-trial monitoring program after the intervention trial closed on September 30, 1997. A 10-year follow-up was planned to coincide with a projected death rate of 50%. In September 1998, when the UKPDS results were published, patients and clinicians were advised that it was necessary to lower levels of blood glucose and blood pressure as much as possible. Patients returned to community or hospital-based diabetes care according to their clinical needs, with no attempt to maintain previously randomized therapies. They were seen annually for 5 years in UKPDS clinics, with continued standardized collection of outcome data; measurements of blood pressure, fasting plasma glucose, glycated hemoglobin, plasma creatinine, and the ratio of albumin to creatinine; and results on two questionnaires, the European Quality of Life–5 Dimensions (EQ-5D) and a questionnaire on the use of health resources.",
-      "reference": "Ref 11: \"All surviving patients entered the post-trial monitoring program after the intervention trial closed on September 30, 1997. A 10-year follow-up was planned to c...\" — UK Prospective Diabetes Study Group. Efficacy of atenolol and captopril in reducing risk of macrovascular and microvascu"
+      "correctOption": 1,
+      "explanation": "No significant stroke risk reduction in either group.",
+      "reference": "UKPDS 80 MCQ 11: No significant stroke risk reduction in either group. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
       "id": "tr-nejm-008-q12",
-      "referenceNumber": 12,
       "type": "mcq",
-      "subtopic": "ADVANCE",
-      "question": "Which finding is supported by reference 12 in ADVANCE?",
+      "subtopic": "MCQ 12",
+      "referenceNumber": 27,
+      "question": "What was the primary difference in baseline characteristics between patients who had final-year data available versus those who did not?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "50%"
+        "They had significantly higher body-mass indexes",
+        "They were significantly more likely to be on insulin",
+        "They were 2 years older and less likely to be white",
+        "They had much higher baseline blood pressure"
+      ],
+      "correctOption": 2,
+      "explanation": "Patients with final-year data were 2 years older and less likely to be white.",
+      "reference": "UKPDS 80 MCQ 12: Patients with final-year data were 2 years older and less likely to be white. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q13",
+      "type": "mcq",
+      "subtopic": "MCQ 13",
+      "referenceNumber": 28,
+      "question": "What happened to mean body weight differences between the intensive and conventional groups over the post-trial period?",
+      "options": [
+        "The intensive group lost significantly more weight",
+        "The conventional group lost significantly more weight",
+        "Mean body weight did not differ at baseline or thereafter",
+        "Both groups experienced extreme weight gain due to insulin use"
+      ],
+      "correctOption": 2,
+      "explanation": "Mean body weight did not differ between groups at baseline or thereafter.",
+      "reference": "UKPDS 80 MCQ 13: Mean body weight did not differ between groups at baseline or thereafter. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q14",
+      "type": "mcq",
+      "subtopic": "MCQ 14",
+      "referenceNumber": 29,
+      "question": "The risk reduction for death from any cause in the sulfonylurea-insulin group by the end of the post-trial follow-up was:",
+      "options": [
+        "9%",
+        "13%",
+        "27%",
+        "36%"
+      ],
+      "correctOption": 1,
+      "explanation": "All-cause mortality RR reduction was 13% in the SU-insulin group.",
+      "reference": "UKPDS 80 MCQ 14: All-cause mortality RR reduction was 13% in the SU-insulin group. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-q15",
+      "type": "mcq",
+      "subtopic": "MCQ 15",
+      "referenceNumber": 30,
+      "question": "Which trial was stopped early after 3.5 years due to an unexplained excess rate of death from any cause in its intensive-control group?",
+      "options": [
+        "UKPDS",
+        "DCCT/EDIC",
+        "ADVANCE",
+        "ACCORD"
       ],
       "correctOption": 3,
-      "explanation": "All surviving patients entered the post-trial monitoring program after the intervention trial closed on September 30, 1997. A 10-year follow-up was planned to coincide with a projected death rate of 50%. In September 1998, when the UKPDS results were published, patients and clinicians were advised that it was necessary to lower levels of blood glucose and blood pressure as much as possible. Patients returned to community or hospital-based diabetes care according to their clinical needs, with no attempt to maintain previously randomized therapies. They were seen annually for 5 years in UKPDS clinics, with continued standardized collection of outcome data; measurements of blood pressure, fasting plasma glucose, glycated hemoglobin, plasma creatinine, and the ratio of albumin to creatinine; and results on two questionnaires, the European Quality of Life–5 Dimensions (EQ-5D) and a questionnaire on the use of health resources.",
-      "reference": "Ref 12: \"All surviving patients entered the post-trial monitoring program after the intervention trial closed on September 30, 1997. A 10-year follow-up was planned to c...\" — The EuroQol Group. EuroQol — a new facility for the measurement of health-related quality of life. Health Policy 1990;16"
+      "explanation": "ACCORD stopped intensive glycemic regimen early for excess mortality.",
+      "reference": "UKPDS 80 MCQ 15: ACCORD stopped intensive glycemic regimen early for excess mortality. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-sa13",
-      "referenceNumber": 13,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ADVANCE, what is the key numeric finding cited in reference 13?",
-      "modelAnswer": "Although the UKPDS conclusively showed the benefit of improved glycemic control in reducing the risk of microvascular disease, risk reductions for myocardial infarction and death from any cause were observed only with extended post-trial follow-up. Similarly, in the Action in Diabetes and Vascular D",
-      "reference": "Ref 13: \"Although the UKPDS conclusively showed the benefit of improved glycemic control in reducing the risk of microvascular disease, risk reductions for myocardial in...\" — The ADVANCE Collaborative Group. Intensive blood glucose control and vascular outcomes in patients with type 2 diabetes."
+      "id": "tr-nejm-008-q16",
+      "type": "mcq",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "The original UKPDS focused on patients who were newly diagnosed with type 2 diabetes. What was the average duration of diabetes for patients entering the ADVANCE and ACCORD trials?",
+      "options": [
+        "Newly diagnosed (0 years)",
+        "2 to 4 years",
+        "8 to 10 years",
+        "Over 20 years"
+      ],
+      "correctOption": 2,
+      "explanation": "ADVANCE/ACCORD patients had diabetes ~8–10 years at randomization.",
+      "reference": "UKPDS 80 MCQ 16: ADVANCE/ACCORD patients had diabetes ~8–10 years at randomization. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-why14",
-      "referenceNumber": 14,
-      "type": "why",
-      "subtopic": "ADVANCE",
-      "question": "Why is the following clinically relevant in ADVANCE? Context: In the randomized Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial (NCT00000620), there was a nonsignifi…",
-      "answer": "In the randomized Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial (NCT00000620), there was a nonsignificant",
-      "reference": "Ref 14: \"In the randomized Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial (NCT00000620), there was a nonsignificant\" — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-59."
+      "id": "tr-nejm-008-q17",
+      "type": "mcq",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "What limitation was explicitly mentioned regarding the post-trial monitoring data collected between years 6 and 10?",
+      "options": [
+        "The data was falsified by general practitioners",
+        "No biochemical or clinical measurements were collected, preventing time-dependent covariate analysis",
+        "The Office of National Statistics lost the vital status records",
+        "Patients were intentionally placed back on randomized therapies"
+      ],
+      "correctOption": 1,
+      "explanation": "Years 6–10 lacked biochemical/clinical measurements for covariate analysis.",
+      "reference": "UKPDS 80 MCQ 17: Years 6–10 lacked biochemical/clinical measurements for covariate analysis. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-sa15",
-      "referenceNumber": 15,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ADVANCE, what is the key numeric finding cited in reference 15?",
-      "modelAnswer": "Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In the DCCT, patients between the ages of 13 and 39 years who did not have a history of cardiovascular disease were randomly assigned to receive",
-      "reference": "Ref 15: \"Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In t...\" — The Diabetes Control and Complications Trial Research Group. The effect of intensive treatment of diabetes on the de- ve"
+      "id": "tr-nejm-008-q18",
+      "type": "mcq",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "What percentage of the overall patient cohort was lost to follow-up over the post-trial period?",
+      "options": [
+        "3.5%",
+        "10.0%",
+        "22.0%",
+        "44.0%"
+      ],
+      "correctOption": 0,
+      "explanation": "Only 3.5% were lost to follow-up.",
+      "reference": "UKPDS 80 MCQ 18: Only 3.5% were lost to follow-up. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-sa16",
-      "referenceNumber": 16,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ADVANCE, what is the key numeric finding cited in reference 16?",
-      "modelAnswer": "Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In the DCCT, patients between the ages of 13 and 39 years who did not have a history of cardiovascular disease were randomly assigned to receive",
-      "reference": "Ref 16: \"Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In t...\" — The Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Research Group. In"
+      "id": "tr-nejm-008-q19",
+      "type": "mcq",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "In the metformin group, what was the risk reduction for any diabetes-related end point at the 10-year mark?",
+      "options": [
+        "9%",
+        "15%",
+        "21%",
+        "39%"
+      ],
+      "correctOption": 2,
+      "explanation": "Metformin group had 21% RR reduction for any diabetes-related endpoint.",
+      "reference": "UKPDS 80 MCQ 19: Metformin group had 21% RR reduction for any diabetes-related endpoint. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-sa17",
-      "referenceNumber": 17,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ADVANCE, what is the key numeric finding cited in reference 17?",
-      "modelAnswer": "Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In the DCCT, patients between the ages of 13 and 39 years who did not have a history of cardiovascular disease were randomly assigned to receive",
-      "reference": "Ref 17: \"Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In t...\" — The Diabetes Control and Complications Trial/Epidemiology of Diabetes Interventions and Complications Research Group. Re"
+      "id": "tr-nejm-008-q20",
+      "type": "mcq",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "To be eligible for the intensive metformin group during the original randomization, a patient's body weight had to be at least what percentage of their ideal weight?",
+      "options": [
+        "> 100%",
+        "> 110%",
+        "> 120%",
+        "> 150%"
+      ],
+      "correctOption": 2,
+      "explanation": "Metformin arm required body weight >120% of ideal weight.",
+      "reference": "UKPDS 80 MCQ 20: Metformin arm required body weight >120% of ideal weight. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-sa18",
-      "referenceNumber": 18,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ADVANCE, what is the key numeric finding cited in reference 18?",
-      "modelAnswer": "Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In the DCCT, patients between the ages of 13 and 39 years who did not have a history of cardiovascular disease were randomly assigned to receive",
-      "reference": "Ref 18: \"Our findings are consistent with those of the EDIC study, which was a follow-up study involving a cohort of 1441 patients with type 1 diabetes in the DCCT. In t...\" — Sustained effect of intensive treatment of type 1 diabetes mellitus on development and progression of diabetic nephropat"
+      "id": "tr-nejm-008-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "During the 10-year post-trial follow-up, doctors actively tried to maintain the specific glucose-control therapies that patients were assigned to during the original UKPDS.",
+      "correctAnswer": false,
+      "explanation": "No attempt was made to maintain original randomized therapies.",
+      "reference": "UKPDS 80 T/F 1: No attempt was made to maintain original randomized therapies. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-why19",
-      "referenceNumber": 19,
-      "type": "why",
-      "subtopic": "ADVANCE",
-      "question": "Why is the following clinically relevant in ADVANCE? Context: the UKPDS suggest that improved glucose control may result in a larger cardiovascular risk reduction in patients with ty…",
-      "answer": "the UKPDS suggest that improved glucose control may result in a larger cardiovascular risk reduction in patients with type 1 diabetes than among those with type 2 diabetes, which is consistent with the results of one meta-analysis",
-      "reference": "Ref 19: \"the UKPDS suggest that improved glucose control may result in a larger cardiovascular risk reduction in patients with type 1 diabetes than among those with type...\" — Stettler C, Alleman S, Jüni P, et al. Glycemic control and macrovascular diseases in types 1 and 2 diabetes mellitus: me"
+      "id": "tr-nejm-008-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "The \"legacy effect\" refers to the observation that early, intensive glycemic control yields long-lasting cardiovascular benefits even after strict glycemic differences are lost.",
+      "correctAnswer": true,
+      "explanation": "Legacy effect = enduring benefit despite loss of glycemic separation.",
+      "reference": "UKPDS 80 T/F 2: Legacy effect = enduring benefit despite loss of glycemic separation. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-why20",
-      "referenceNumber": 20,
-      "type": "why",
-      "subtopic": "ADVANCE",
-      "question": "Why is the following clinically relevant in ADVANCE? Context: The pathophysiological mechanisms responsible for such a legacy effect of intensive glycemic control are unclear. A numb…",
-      "answer": "The pathophysiological mechanisms responsible for such a legacy effect of intensive glycemic control are unclear. A number of mechanisms have been proposed, including increased intracellular formation of advanced glycation end products. Long-term hyperglycemia is associated with a slow onset of microvascular disease, which may be mediated by the gradual accumulation of advanced glycation end products that are subsequently slowly degraded with intensive glycemic control. This mechanism may also be implicated in the development of cardiovascular disease. Thus, the sustained postinterventional benefit in",
-      "reference": "Ref 20: \"The pathophysiological mechanisms responsible for such a legacy effect of intensive glycemic control are unclear. A number of mechanisms have been proposed, inc...\" — Goh SY, Cooper ME. The role of advance glycation end products in progression and complications of diabetes. J Clin Endoc"
+      "id": "tr-nejm-008-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "By year 5 of the post-trial follow-up, almost 50% of the patient cohort was receiving insulin therapy (with or without oral therapy).",
+      "correctAnswer": true,
+      "explanation": "~49% on insulin (with or without oral agents) at year 5.",
+      "reference": "UKPDS 80 T/F 3: ~49% on insulin (with or without oral agents) at year 5. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-how21",
-      "referenceNumber": 21,
-      "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 21 relate to ADVANCE?",
-      "answer": "Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indicate that intensive glucose control starting at the time of diagnosis is associated with a significantly decreased risk of myocardial infarction and death from any cause, in addition to the well-established reduction in the risk of microvascular disease. On the basis of extensive trial evidence, strategies for cardiovascular risk reduction in patients with type 2 diabetes emphasize the importance of lipid-lowering therapy with statins and of targeted antihypertensive treatment. (A companion article in this issue of the Journal reports the 10-year, postinterventional data on blood-pressure control from the UKPDS. )",
-      "reference": "Ref 21: \"Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indic...\" — Baigent C, Keech A, Kearney PM, et al. Efficacy and safety of cholesterol-lowering treatment: prospective meta-analysis "
+      "id": "tr-nejm-008-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "The intensive sulfonylurea-insulin group experienced a statistically significant reduction in the risk of stroke during the post-trial period.",
+      "correctAnswer": false,
+      "explanation": "No significant stroke reduction in SU-insulin or metformin groups.",
+      "reference": "UKPDS 80 T/F 4: No significant stroke reduction in SU-insulin or metformin groups. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-how22",
-      "referenceNumber": 22,
-      "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 22 relate to ADVANCE?",
-      "answer": "Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indicate that intensive glucose control starting at the time of diagnosis is associated with a significantly decreased risk of myocardial infarction and death from any cause, in addition to the well-established reduction in the risk of microvascular disease. On the basis of extensive trial evidence, strategies for cardiovascular risk reduction in patients with type 2 diabetes emphasize the importance of lipid-lowering therapy with statins and of targeted antihypertensive treatment. (A companion article in this issue of the Journal reports the 10-year, postinterventional data on blood-pressure control from the UKPDS. )",
-      "reference": "Ref 22: \"Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indic...\" — UK Prospective Diabetes Study Group. Tight blood pressure control and risk of macrovascular and microvascular complicati"
+      "id": "tr-nejm-008-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "The ADVANCE and ACCORD trials both successfully demonstrated that aggressive glucose control rapidly reduces macrovascular events in older patients with long-standing diabetes.",
+      "correctAnswer": false,
+      "explanation": "ADVANCE/ACCORD did not show rapid macrovascular benefit like early UKPDS legacy.",
+      "reference": "UKPDS 80 T/F 5: ADVANCE/ACCORD did not show rapid macrovascular benefit like early UKPDS legacy. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-how23",
-      "referenceNumber": 23,
-      "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 23 relate to ADVANCE?",
-      "answer": "Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indicate that intensive glucose control starting at the time of diagnosis is associated with a significantly decreased risk of myocardial infarction and death from any cause, in addition to the well-established reduction in the risk of microvascular disease. On the basis of extensive trial evidence, strategies for cardiovascular risk reduction in patients with type 2 diabetes emphasize the importance of lipid-lowering therapy with statins and of targeted antihypertensive treatment. (A companion article in this issue of the Journal reports the 10-year, postinterventional data on blood-pressure control from the UKPDS. )",
-      "reference": "Ref 23: \"Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indic...\" — Hansson L, Zanchetti A, Carruthers SG, et al. Effects of intensive blood-pressure lowering and low-dose aspirin in patie"
+      "id": "tr-nejm-008-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "At the end of the post-trial monitoring period, the intensive sulfonylurea-insulin group still maintained a significantly lower HbA1c than the conventional-therapy group.",
+      "correctAnswer": false,
+      "explanation": "Glycemic differences disappeared within 1 year post-trial.",
+      "reference": "UKPDS 80 T/F 6: Glycemic differences disappeared within 1 year post-trial. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-how24",
-      "referenceNumber": 24,
-      "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 24 relate to ADVANCE?",
-      "answer": "Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indicate that intensive glucose control starting at the time of diagnosis is associated with a significantly decreased risk of myocardial infarction and death from any cause, in addition to the well-established reduction in the risk of microvascular disease. On the basis of extensive trial evidence, strategies for cardiovascular risk reduction in patients with type 2 diabetes emphasize the importance of lipid-lowering therapy with statins and of targeted antihypertensive treatment. (A companion article in this issue of the Journal reports the 10-year, postinterventional data on blood-pressure control from the UKPDS. )",
-      "reference": "Ref 24: \"Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indic...\" — Yusuf S, Sleight P, Pogue J, Bosch J, Davies R, Dagenais G. Effect of an angiotensin-converting-enzyme inhibitor, ramipr"
+      "id": "tr-nejm-008-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "The Steno-2 study provided additional evidence supporting the concept of postinterventional benefits in patients with type 2 diabetes.",
+      "correctAnswer": true,
+      "explanation": "Steno-2 showed postinterventional mortality benefits with multifactorial care.",
+      "reference": "UKPDS 80 T/F 7: Steno-2 showed postinterventional mortality benefits with multifactorial care. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     },
     {
-      "id": "tr-nejm-008-how25",
-      "referenceNumber": 25,
-      "type": "how",
-      "subtopic": "ADVANCE",
-      "question": "How does the process described in reference 25 relate to ADVANCE?",
-      "answer": "Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indicate that intensive glucose control starting at the time of diagnosis is associated with a significantly decreased risk of myocardial infarction and death from any cause, in addition to the well-established reduction in the risk of microvascular disease. On the basis of extensive trial evidence, strategies for cardiovascular risk reduction in patients with type 2 diabetes emphasize the importance of lipid-lowering therapy with statins and of targeted antihypertensive treatment. (A companion article in this issue of the Journal reports the 10-year, postinterventional data on blood-pressure control from the UKPDS. )",
-      "reference": "Ref 25: \"Our results show a sustained legacy effect of an intensive glucose-control strategy that appears to be longer than previously reported. These observations indic...\" — Holman RR, Paul SK, Bethel MA, Neil HAW, Matthews DR. Long-term follow-up after tight control of blood pressure in type "
+      "id": "tr-nejm-008-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "Cancer was the single leading cause of death in the UKPDS survivor cohort, accounting for over 50% of all mortality.",
+      "correctAnswer": false,
+      "explanation": "CV disease was leading cause (51.5%); cancer was 24.2%.",
+      "reference": "UKPDS 80 T/F 8: CV disease was leading cause (51.5%); cancer was 24.2%. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "The UKPDS end-point committee adjudicated clinical outcomes based on hospital records while remaining completely blinded to the patients' original randomized treatment groups.",
+      "correctAnswer": true,
+      "explanation": "Endpoint committee adjudicated outcomes blinded to original assignment.",
+      "reference": "UKPDS 80 T/F 9: Endpoint committee adjudicated outcomes blinded to original assignment. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "For the sulfonylurea-insulin group, the reduction in the risk of myocardial infarction was significant during the original interventional trial, but the significance was lost during the post-trial follow-up.",
+      "correctAnswer": false,
+      "explanation": "MI reduction was nonsignificant during trial but became significant at 10 years.",
+      "reference": "UKPDS 80 T/F 10: MI reduction was nonsignificant during trial but became significant at 10 years. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "In the intensive metformin group, the 10-year post-trial risk reduction for death from any cause was 27%.",
+      "correctAnswer": true,
+      "explanation": "Metformin group: 27% RR reduction for all-cause death at 10 years.",
+      "reference": "UKPDS 80 T/F 11: Metformin group: 27% RR reduction for all-cause death at 10 years. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "Blood pressure levels differed significantly between the intensive and conventional therapy groups throughout the post-trial period.",
+      "correctAnswer": false,
+      "explanation": "Blood pressure did not differ significantly between groups post-trial.",
+      "reference": "UKPDS 80 T/F 12: Blood pressure did not differ significantly between groups post-trial. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "The accumulation of advanced glycation end products is proposed by the authors as a possible biological mechanism to explain why microvascular disease occurs slowly and why the legacy effect exists.",
+      "correctAnswer": true,
+      "explanation": "AGE accumulation proposed as mechanism for slow microvascular harm and legacy effect.",
+      "reference": "UKPDS 80 T/F 13: AGE accumulation proposed as mechanism for slow microvascular harm and legacy effect. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "The post-trial monitoring phase was entirely funded by pharmaceutical companies from the day the interventional trial ended.",
+      "correctAnswer": false,
+      "explanation": "Clinic funding ended; years 6–10 relied on questionnaires, not industry-only funding.",
+      "reference": "UKPDS 80 T/F 14: Clinic funding ended; years 6–10 relied on questionnaires, not industry-only funding. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
+    },
+    {
+      "id": "tr-nejm-008-tf15",
+      "type": "true_false",
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "Risk reductions for peripheral vascular disease were not statistically significant in either the sulfonylurea-insulin group or the metformin group at the end of the 10-year follow-up.",
+      "correctAnswer": true,
+      "explanation": "Peripheral vascular disease reductions were not statistically significant.",
+      "reference": "UKPDS 80 T/F 15: Peripheral vascular disease reductions were not statistically significant. — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HA. 10-year follow-up of intensive glucose control in type 2 diabetes. N Engl J Med 2008;359:1577-1587."
     }
   ]
 }
