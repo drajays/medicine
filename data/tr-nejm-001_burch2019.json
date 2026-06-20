@@ -5,10 +5,10 @@
   "sourceKey": "burch2019",
   "paperType": "review",
   "title": "Drug Effects on the Thyroid",
-  "subtitle": "Drug Effects on the Thyroid",
+  "subtitle": "Burch 2019 NEJM Review — First-Principles Pharmacology Module",
   "section": "Trials",
   "category": "Endocrinology",
-  "authors": "Brent GA. Mechanisms of thyroid hormone action. J Clin Invest 2012;122:3035-43.",
+  "authors": "Henry B. Burch, M.D.; N Engl J Med 2019;381:749-761",
   "sourceFile": "noupload/NEJM/burch2019/paper.md",
   "bibliography": [
     {
@@ -338,807 +338,250 @@
   ],
   "trialDesign": {
     "fullName": "Drug Effects on the Thyroid",
-    "overview": "Drugs interact with the thyroid through diverse mechanisms, disrupting control of the thyroid at the hypothalamic–pituitary level, triggering immune and nonimmune thyroid destruction, inducing or aggravating thyroid autoimmunity, and causing both hypothyroidism and thyrotoxicosis. Drugs affect the binding of thyroid hormone to protein carriers and the conversion of to , as well as the ultimate metabolism and recycling of thyroid hormone. Numerous drugs affect the efficiency of exogenous thyroid "
+    "year": 2019,
+    "overview": "NEJM review organizing drug–thyroid interactions by mechanism: central HPA disruption, primary destruction/autoimmunity, transport and metabolism, amiodarone phenotypes, and immunoassay interference — not a citation-index drill.",
+    "design": "Narrative review (NEJM Review Article)",
+    "population": "Clinicians managing patients on drugs that alter thyroid function or thyroid laboratory interpretation",
+    "primaryEndpoint": "Mechanism-based classification of drug-induced thyroid dysfunction and assay artifacts"
   },
   "trialSummary": {
     "headings": {
-      "doi": "10.1056/NEJMra1901214"
+      "background": "A growing list of medications — from over-the-counter supplements to checkpoint inhibitors and tyrosine kinase inhibitors — adversely affects thyroid function or the interpretation of standard thyroid tests.",
+      "objective": "Synthesize drug–thyroid interactions by pathophysiological mechanism rather than rote citation recall.",
+      "design": "Six-module first-principles framework: (1) central hypothalamic–pituitary disruption, (2) primary thyroiditis/autoimmunity, (3) ischemic destruction, (4) transport and metabolism, (5) amiodarone conundrum, (6) assay interference."
     },
-    "outcomes": [],
-    "conclusion": "Drugs interact with the thyroid through diverse mechanisms, disrupting control of the thyroid at the hypothalamic–pituitary level, triggering immune and nonimmune thyroid destruction, inducing or aggravating thyroid autoimmunity, and causing both hypothyroidism and thyrotoxicosis. Drugs affect the binding of thyroid hormone to protein carriers and the conversion of to , as well as the ultimate metabolism and recycling of thyroid hormone. Numerous drugs affect the efficiency of exogenous thyroid hormone therapy, requiring vigilance to prevent both undertreatment while the drugs are being taken ",
-    "clinicalBottomLine": "Drugs interact with the thyroid through diverse mechanisms, disrupting control of the thyroid at the hypothalamic–pituitary level, triggering immune and nonimmune thyroid destruction, inducing or aggravating thyroid autoimmunity, and causing both hyp"
+    "safetyHighlights": [
+      "Misread low TSH on metformin or glucocorticoids as subclinical hyperthyroidism",
+      "ICI-related biphasic thyroiditis often irreversible in hypothyroid phase",
+      "Biotin supplements can phenocopy Graves' disease on immunoassays — hold biotin 48–72 h before retesting"
+    ],
+    "clinicalBottomLine": "Classify every drug–thyroid problem by mechanism (central vs primary vs transport vs assay artifact) before changing levothyroxine dose or initiating antithyroid therapy."
   },
   "inclusionCriteria": [],
   "exclusionCriteria": [],
   "keyTakeaways": [
-    "Drugs interact with the thyroid through diverse mechanisms, disrupting control of the thyroid at the hypothalamic–pituitary level, triggering immune and nonimmune thyroid destruction, inducing or aggravating thyroid autoimmunity, and causing both hyp",
-    "Drugs interact with the thyroid through diverse mechanisms, disrupting control of the thyroid at the hypothalamic–pituitary level, triggering immune and nonimmune thyroid destruction, inducing or aggravating thyroid autoimmunity, and causing both hypothyroidism and thyrotoxicosis. Drugs affect the b"
+    "CTLA-4 inhibitors → destructive hypophysitis (central); PD-1 inhibitors → primary painless thyroiditis — different toxicities, different monitoring.",
+    "Amiodarone Type 1 AIT (Jod–Basedow) needs thionamides; Type 2 destructive AIT needs glucocorticoids — mixed therapy when cardiac status is tenuous.",
+    "Oral estrogen raises TBG and levothyroxine requirements in athyreotic patients; androgens and niacin lower TBG.",
+    "Excess serum biotin falsely lowers TSH (sandwich assays) and falsely elevates free T4/T3 (competitive assays) — discontinue 48–72 hours before repeat testing."
   ],
   "items": [
     {
-      "id": "tr-nejm-001-why1",
-      "referenceNumber": 1,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Brent GA. Mechanisms of thyroid hormone action. J Clin Invest 2012;122:3035-43…",
-      "answer": "Brent GA. Mechanisms of thyroid hormone action. J Clin Invest 2012;122:3035-43",
-      "reference": "Ref 1: \"Brent GA. Mechanisms of thyroid hormone action. J Clin Invest 2012;122:3035-43.\" — Brent GA. Mechanisms of thyroid hormone action. J Clin Invest 2012;122:3035-43."
+      "id": "tr-nejm-001-n0",
+      "type": "note",
+      "subtopic": "Module Overview",
+      "title": "Pharmacological Disruption of the Thyroid Axis — Study Framework",
+      "content": "This module replaces citation-index memorization with a first-principles map:\n\n1. Central hypothalamic–pituitary disruption\n2. Primary thyroiditis and autoimmunity\n3. Ischemic destruction (VEGFR blockade)\n4. Alterations in transport and metabolism\n5. The amiodarone conundrum (Type 1 vs Type 2 AIT)\n6. Assay interference (the glassbox analytical error)\n\nSource: Burch HB. Drug Effects on the Thyroid. N Engl J Med 2019;381:749-761.",
+      "keyPoints": [
+        "Mechanism before memorizing drug lists",
+        "Central vs primary vs transport vs assay artifact",
+        "ICI, TKIs, amiodarone, and biotin are highest-yield disruptors"
+      ],
+      "reference": "Burch HB. \"There is a growing list of medications known to adversely affect thyroid function or interpretation of the results of standard thyroid laboratory testing.\" N Engl J Med 2019;381:749-761."
+    },
+    {
+      "id": "tr-nejm-001-how1",
+      "type": "how",
+      "subtopic": "1. Central HPA Disruption",
+      "referenceNumber": 4,
+      "question": "How do synthetic retinoids (e.g., Bexarotene) and adrenolytic agents (e.g., Mitotane) alter thyroid function from a mechanistic perspective?",
+      "answer": "Both induce profound central hypothyroidism, but via distinct pathways.\n\nBexarotene: Direct suppression of pituitary thyrotrophs halting TSH release, compounded by accelerated peripheral thyroid hormone metabolism through non-deiodinase pathways — specifically sulfation.\n\nMitotane: Blunts the thyrotroph response to TRH while simultaneously increasing hepatic synthesis of thyroxine-binding globulin (TBG), yielding inappropriately normal TSH with subnormal free T4.",
+      "keyPoints": [
+        "Bexarotene: central thyrotroph suppression + sulfation",
+        "Mitotane: blunted TRH response + increased TBG",
+        "Both present as central hypothyroidism patterns"
+      ],
+      "reference": "Refs 4–8: \"Bexarotene induces rapid and profound thyrotropin suppression\" and \"Mitotane causes hypothyroidism… blunted thyrotroph response to thyrotropin-releasing hormone\" — Burch HB, N Engl J Med 2019."
     },
     {
       "id": "tr-nejm-001-how2",
-      "referenceNumber": 2,
       "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 2 relate to Drug Effects on the Thyroid?",
-      "answer": "Knowledge of thyroid hormone physiology is useful in understanding specific drug interactions (Fig. 1). Thyrotropin controls all aspects of thyroid hormone synthesis and release. Secretion of thyrotropin is stimulated by thyrotropin-releasing hormone and inhibited by negative feedback through thyroid hormone. Iodide derived from dietary sources is transported into the thyroid against a concentration gradient by means of the sodium-iodide symporter and diffuses through follicular cells for transport into the follicular lumen by means of the anion exchange protein pendrin and possibly other channels. Within the follicular lumen, iodide is oxidized and bound to specific tyrosine residues in thyroglobulin molecules through the activity of thyroid peroxidase. Iodinated tyrosine groups in thyroglobulin are coupled together to form either thyroxine ( ) or triiodothyronine ( ). Through pinocytosis, follicular cells respond to an increased thyrotropin level by ingesting luminal colloid within vesicles, which then fuse with lysosomes, leading to proteolytic release of and from thyroglobulin. Liberated thyroid hormone is exported to the systemic circulation through transporters such as monocarboxylate transporter 8.",
-      "reference": "Ref 2: \"Knowledge of thyroid hormone physiology is useful in understanding specific drug interactions (Fig. 1). Thyrotropin controls all aspects of thyroid hormone synt...\" — Kopp P. Thyroid hormone synthesis. In: Braverman LE, Cooper DS, eds. Werner & Ingbar's the thyroid: a fundamental and cl"
-    },
-    {
-      "id": "tr-nejm-001-why3",
-      "referenceNumber": 3,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: placenta. Additional pathways include glucuronidation and sulfation, with ultimate excretion in the bile and feces or ur…",
-      "answer": "placenta. Additional pathways include glucuronidation and sulfation, with ultimate excretion in the bile and feces or urine. Glucuronidated thyroid hormone in bile can be deconjugated by gut bacteria and recycled through the enterohepatic circulation, a process that can provide a thyroid hormone reservoir. Sulfation has the added effect of facilitating rapid deiodination by type 1 deiodinase. Intrathyroidal iodinated intermediates, including monoiodotyrosine and diiodotyrosine,",
-      "reference": "Ref 3: \"placenta. Additional pathways include glucuronidation and sulfation, with ultimate excretion in the bile and feces or urine. Glucuronidated thyroid hormone in b...\" — van der Spek AH, Fliers E, Boelen A. The classic pathways of thyroid hormone metabolism. Mol Cell Endocrinol 2017;458:29"
-    },
-    {
-      "id": "tr-nejm-001-why4",
-      "referenceNumber": 4,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyro…",
-      "answer": "The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyroidism in 40 to 70% of treated patients, with recovery of normal function within weeks after drug discontinuation. These effects occur through the direct action of bexarotene on pituitary thyrotrophs and are compounded by enhanced thyroid hormone metabolism through nondeiodinase pathways such as sulfation",
-      "reference": "Ref 4: \"The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyroidism in 40 to 70% of treated patients, ...\" — Sherman SI, Gopal J, Haugen BR, et al. Central hypothyroidism associated with retinoid X receptor-selective ligands. N E"
-    },
-    {
-      "id": "tr-nejm-001-why5",
-      "referenceNumber": 5,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyro…",
-      "answer": "The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyroidism in 40 to 70% of treated patients, with recovery of normal function within weeks after drug discontinuation. These effects occur through the direct action of bexarotene on pituitary thyrotrophs and are compounded by enhanced thyroid hormone metabolism through nondeiodinase pathways such as sulfation",
-      "reference": "Ref 5: \"The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyroidism in 40 to 70% of treated patients, ...\" — Duvic M, Martin AG, Kim Y, et al. Phase 2 and 3 clinical trial of oral bexarotene (Targetin capsules) for the treatment "
-    },
-    {
-      "id": "tr-nejm-001-why6",
-      "referenceNumber": 6,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyro…",
-      "answer": "The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyroidism in 40 to 70% of treated patients, with recovery of normal function within weeks after drug discontinuation. These effects occur through the direct action of bexarotene on pituitary thyrotrophs and are compounded by enhanced thyroid hormone metabolism through nondeiodinase pathways such as sulfation",
-      "reference": "Ref 6: \"The synthetic retinoid bexarotene induces rapid and profound thyrotropin suppression, leading to overt central hypothyroidism in 40 to 70% of treated patients, ...\" — Smit JW, Stokkel MP, Pereira AM, Romijn JA, Visser TJ. Bexarotene-induced hypothyroidism: bexarotene stimulates the peri"
-    },
-    {
-      "id": "tr-nejm-001-why7",
-      "referenceNumber": 7,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Mitotane causes hypothyroidism in most patients treated for adrenocortical carcinoma. Patients present with subnormal fr…",
-      "answer": "Mitotane causes hypothyroidism in most patients treated for adrenocortical carcinoma. Patients present with subnormal free levels, an inappropriately normal thyrotropin level, and a blunted thyrotroph response to thyrotropin-releasing hormone, findings that are consistent with central hypothyroidism. Free levels begin to fall within the first 3 months of treatment with mitotane. Long-term thyroid hormone replacement therapy is often required",
-      "reference": "Ref 7: \"Mitotane causes hypothyroidism in most patients treated for adrenocortical carcinoma. Patients present with subnormal free levels, an inappropriately normal thy...\" — Russo M, Scollo C, Pellegriti G, et al. Mitotane treatment in patients with adrenocortical cancer causes central hypothy"
-    },
-    {
-      "id": "tr-nejm-001-why8",
-      "referenceNumber": 8,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Mitotane causes hypothyroidism in most patients treated for adrenocortical carcinoma. Patients present with subnormal fr…",
-      "answer": "Mitotane causes hypothyroidism in most patients treated for adrenocortical carcinoma. Patients present with subnormal free levels, an inappropriately normal thyrotropin level, and a blunted thyrotroph response to thyrotropin-releasing hormone, findings that are consistent with central hypothyroidism. Free levels begin to fall within the first 3 months of treatment with mitotane. Long-term thyroid hormone replacement therapy is often required",
-      "reference": "Ref 8: \"Mitotane causes hypothyroidism in most patients treated for adrenocortical carcinoma. Patients present with subnormal free levels, an inappropriately normal thy...\" — Daffara F, De Francia S, Reimondo G, et al. Prospective evaluation of mitotane toxicity in adrenocortical cancer patient"
-    },
-    {
-      "id": "tr-nejm-001-why9",
+      "subtopic": "1. Central HPA Disruption",
       "referenceNumber": 9,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell…",
-      "answer": "Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety of adverse endocrine effects. Hypophysitis occurs more frequently in patients taking CTLA-4 inhibitors, whereas primary thyroid dysfunction is seen more often with PD-1 inhibitors. Ipilimumab, an anti–CTLA-4 agent, has been linked to destructive hypophysitis, with varying degrees of central hypothyroidism, adrenal insufficiency, and hypogonadism occurring in 3 to 10% of patients treated for melanoma at the approved dose of 3 mg per kilogram of body weight every 3 weeks for up to 4 cycles. The effects occur within 1 to 3 months after the initiation of treatment (within 2 to 4 cycles). Affected patients present with headache, fatigue, weight loss, cold intolerance, and loss of libido. Magnetic resonance imaging reveals pituitary enlargement, pituitary-stalk thickening, and homogeneous enhancement in many but not all cases. Recovery of gonadal and thyroid function is seen in up to one half of patients, whereas adrenal axis recovery rarely occurs",
-      "reference": "Ref 9: \"Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety...\" — Chang LS, Barroso-Sousa R, Tolaney SM, Hodi FS, Kaiser UB, Min L. Endocrine toxicity of cancer immunotherapy targeting i"
+      "question": "How do the endocrine toxicity profiles of CTLA-4 inhibitors differ from PD-1 inhibitors?",
+      "answer": "CTLA-4 inhibitors (e.g., Ipilimumab) predominantly trigger destructive hypophysitis — central hypothyroidism often with adrenal and gonadal axis failure. Onset is typically 1–3 months after initiation.\n\nPD-1 inhibitors (e.g., Nivolumab, Pembrolizumab) more frequently cause primary thyroid dysfunction — painless destructive thyroiditis — rather than central hypophysitis.",
+      "keyPoints": [
+        "CTLA-4 → hypophysitis (central + multi-axis)",
+        "PD-1 → primary thyroiditis",
+        "Ipilimumab onset ~1–3 months"
+      ],
+      "reference": "Refs 9–12: \"Hypophysitis occurs more frequently in patients taking CTLA-4 inhibitors, whereas primary thyroid dysfunction is seen more often with PD-1 inhibitors\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-why10",
-      "referenceNumber": 10,
+      "id": "tr-nejm-001-why1",
       "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell…",
-      "answer": "Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety of adverse endocrine effects. Hypophysitis occurs more frequently in patients taking CTLA-4 inhibitors, whereas primary thyroid dysfunction is seen more often with PD-1 inhibitors. Ipilimumab, an anti–CTLA-4 agent, has been linked to destructive hypophysitis, with varying degrees of central hypothyroidism, adrenal insufficiency, and hypogonadism occurring in 3 to 10% of patients treated for melanoma at the approved dose of 3 mg per kilogram of body weight every 3 weeks for up to 4 cycles. The effects occur within 1 to 3 months after the initiation of treatment (within 2 to 4 cycles). Affected patients present with headache, fatigue, weight loss, cold intolerance, and loss of libido. Magnetic resonance imaging reveals pituitary enlargement, pituitary-stalk thickening, and homogeneous enhancement in many but not all cases. Recovery of gonadal and thyroid function is seen in up to one half of patients, whereas adrenal axis recovery rarely occurs",
-      "reference": "Ref 10: \"Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety...\" — Corsello SM, Barnabei A, Marchetti P, De Vecchis L, Salvatori R, Torino F. Endocrine side effects induced by immune chec"
-    },
-    {
-      "id": "tr-nejm-001-why11",
-      "referenceNumber": 11,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell…",
-      "answer": "Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety of adverse endocrine effects. Hypophysitis occurs more frequently in patients taking CTLA-4 inhibitors, whereas primary thyroid dysfunction is seen more often with PD-1 inhibitors. Ipilimumab, an anti–CTLA-4 agent, has been linked to destructive hypophysitis, with varying degrees of central hypothyroidism, adrenal insufficiency, and hypogonadism occurring in 3 to 10% of patients treated for melanoma at the approved dose of 3 mg per kilogram of body weight every 3 weeks for up to 4 cycles. The effects occur within 1 to 3 months after the initiation of treatment (within 2 to 4 cycles). Affected patients present with headache, fatigue, weight loss, cold intolerance, and loss of libido. Magnetic resonance imaging reveals pituitary enlargement, pituitary-stalk thickening, and homogeneous enhancement in many but not all cases. Recovery of gonadal and thyroid function is seen in up to one half of patients, whereas adrenal axis recovery rarely occurs",
-      "reference": "Ref 11: \"Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety...\" — Barroso-Sousa R, Barry WT, Garrido-Castro AC, et al. Incidence of endocrine dysfunction following the use of different i"
-    },
-    {
-      "id": "tr-nejm-001-why12",
-      "referenceNumber": 12,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell…",
-      "answer": "Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety of adverse endocrine effects. Hypophysitis occurs more frequently in patients taking CTLA-4 inhibitors, whereas primary thyroid dysfunction is seen more often with PD-1 inhibitors. Ipilimumab, an anti–CTLA-4 agent, has been linked to destructive hypophysitis, with varying degrees of central hypothyroidism, adrenal insufficiency, and hypogonadism occurring in 3 to 10% of patients treated for melanoma at the approved dose of 3 mg per kilogram of body weight every 3 weeks for up to 4 cycles. The effects occur within 1 to 3 months after the initiation of treatment (within 2 to 4 cycles). Affected patients present with headache, fatigue, weight loss, cold intolerance, and loss of libido. Magnetic resonance imaging reveals pituitary enlargement, pituitary-stalk thickening, and homogeneous enhancement in many but not all cases. Recovery of gonadal and thyroid function is seen in up to one half of patients, whereas adrenal axis recovery rarely occurs",
-      "reference": "Ref 12: \"Immune checkpoint inhibitors, including those that inhibit cytotoxic T-lymphocyte antigen 4 (CTLA-4) and programmed cell death 1 (PD-1) receptor, have a variety...\" — Brilli L, Danielli R, Ciuoli C, et al. Prevalence of hypophysitis in a cohort of patients with metastatic melanoma and p"
-    },
-    {
-      "id": "tr-nejm-001-why13",
+      "subtopic": "1. Central HPA Disruption",
       "referenceNumber": 13,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Several categories of drugs exert suppressive effects on thyrotropin release without appreciably affecting circulating l…",
-      "answer": "Several categories of drugs exert suppressive effects on thyrotropin release without appreciably affecting circulating levels, including glucocorticoids, dopamine agonists, somatostatin analogues, and metformin. Although thyrotropin suppression in patients receiving these agents is usually metabolically insignificant, a low thyrotropin level with a normal free level may be confused with subclinical hyperthyroidism, prompting unnecessary evaluation or treatment",
-      "reference": "Ref 13: \"Several categories of drugs exert suppressive effects on thyrotropin release without appreciably affecting circulating levels, including glucocorticoids, dopami...\" — Lupoli R, Di Minno A, Tortora A, Ambrosino P, Lupoli GA, Di Minno MN. Effects of treatment with metformin on TSH levels:"
+      "question": "Why must clinicians recognize TSH suppression from glucocorticoids, dopamine agonists, somatostatin analogues, and metformin when free T4 remains normal?",
+      "answer": "These drug classes commonly suppress TSH release without causing true clinical hyperthyroidism — free T4 and T3 remain normal. A low TSH in this context can be mistaken for subclinical hyperthyroidism, prompting unnecessary evaluation or treatment. Recognizing assay-pattern discordance (low TSH, normal free hormones) prevents iatrogenic overtreatment.",
+      "keyPoints": [
+        "Low TSH + normal free T4 ≠ hyperthyroidism on these drugs",
+        "Metformin, glucocorticoids, dopamine agonists, somatostatin analogues",
+        "Avoid misdiagnosis of subclinical hyperthyroidism"
+      ],
+      "reference": "Refs 13–14: \"Several categories of drugs exert suppressive effects on thyrotropin release without appreciably affecting circulating T4 levels\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-why14",
-      "referenceNumber": 14,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Several categories of drugs exert suppressive effects on thyrotropin release without appreciably affecting circulating l…",
-      "answer": "Several categories of drugs exert suppressive effects on thyrotropin release without appreciably affecting circulating levels, including glucocorticoids, dopamine agonists, somatostatin analogues, and metformin. Although thyrotropin suppression in patients receiving these agents is usually metabolically insignificant, a low thyrotropin level with a normal free level may be confused with subclinical hyperthyroidism, prompting unnecessary evaluation or treatment",
-      "reference": "Ref 14: \"Several categories of drugs exert suppressive effects on thyrotropin release without appreciably affecting circulating levels, including glucocorticoids, dopami...\" — Beck-Peccoz P, Rodari G, Giavoli C, Lania A. Central hypothyroidism — a neglected thyroid disorder. Nat Rev Endocrinol 2"
-    },
-    {
-      "id": "tr-nejm-001-why15",
-      "referenceNumber": 15,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Excess intrathyroidal iodine inhibits thyroid hormone synthesis, resulting in the Wolff–Chaikoff effect. Although the ex…",
-      "answer": "Excess intrathyroidal iodine inhibits thyroid hormone synthesis, resulting in the Wolff–Chaikoff effect. Although the exact mechanism is unknown, acute inhibition of thyroid peroxidase may occur through the generation of intrathyroidal iodinated compounds such as iodolactones and iodoaldehyde. Persons with a normal thyroid escape this effect within 1 to 2 weeks, but those with compromised thyroid function as a result of underlying lymphocytic thyroiditis or partial thyroid ablation with radioiodine or surgery may not escape this effect until the iodine load has cleared. Iodine excess also contributes to thyrotoxicosis (the Jod–Basedow phenomenon), particularly in patients with preexisting autonomous thyroid function",
-      "reference": "Ref 15: \"Excess intrathyroidal iodine inhibits thyroid hormone synthesis, resulting in the Wolff–Chaikoff effect. Although the exact mechanism is unknown, acute inhibiti...\" — Leung AM, Braverman LE. Iodine-induced thyroid dysfunction. Curr Opin Endocrinol Diabetes Obes 2012;19:414-9."
-    },
-    {
-      "id": "tr-nejm-001-why16",
-      "referenceNumber": 16,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Common drug sources of excess iodine include iodinated contrast agents used for computed tomography and cholecystography…",
-      "answer": "Common drug sources of excess iodine include iodinated contrast agents used for computed tomography and cholecystography, medications with a high iodine content such as amiodarone and topical povidone–iodine, and over-the-counter preparations and supplements, including expectorants, vaginal douches, and kelp. Amiodarone, a class III antiarrhythmic agent, is 37.3% iodine by weight and undergoes partial deiodination, releasing approximately 7 mg of iodide per 200-mg tablet, which is roughly 45 times the recommended daily intake of 150 g for men and nonpregnant women. In addition to inducing hypothyroidism in susceptible patients, iodine from amiodarone causes hyperthyroidism in some patients, a disorder known as type 1 amiodarone-induced thyrotoxicosis. Other interactions of amiodarone with the thyroid are discussed below",
-      "reference": "Ref 16: \"Common drug sources of excess iodine include iodinated contrast agents used for computed tomography and cholecystography, medications with a high iodine content...\" — Ross DS, Burch HB, Cooper DS, et al. 2016 American Thyroid Association guidelines for diagnosis and management of hypert"
-    },
-    {
-      "id": "tr-nejm-001-why17",
-      "referenceNumber": 17,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Common drug sources of excess iodine include iodinated contrast agents used for computed tomography and cholecystography…",
-      "answer": "Common drug sources of excess iodine include iodinated contrast agents used for computed tomography and cholecystography, medications with a high iodine content such as amiodarone and topical povidone–iodine, and over-the-counter preparations and supplements, including expectorants, vaginal douches, and kelp. Amiodarone, a class III antiarrhythmic agent, is 37.3% iodine by weight and undergoes partial deiodination, releasing approximately 7 mg of iodide per 200-mg tablet, which is roughly 45 times the recommended daily intake of 150 g for men and nonpregnant women. In addition to inducing hypothyroidism in susceptible patients, iodine from amiodarone causes hyperthyroidism in some patients, a disorder known as type 1 amiodarone-induced thyrotoxicosis. Other interactions of amiodarone with the thyroid are discussed below",
-      "reference": "Ref 17: \"Common drug sources of excess iodine include iodinated contrast agents used for computed tomography and cholecystography, medications with a high iodine content...\" — Martino E, Bartalena L, Bogazzi F, Braverman LE. The effects of amiodarone on the thyroid. Endocr Rev 2001;22:240-54."
-    },
-    {
-      "id": "tr-nejm-001-how18",
-      "referenceNumber": 18,
+      "id": "tr-nejm-001-how3",
       "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 18 relate to Drug Effects on the Thyroid?",
-      "answer": "of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published cases showed a mean prevalence of 17.6%. A meta-analysis showed that the prevalence of hypothyroidism among lithium-treated patients was increased by a factor of 6 as compared with the prevalence among controls. Risk factors include female sex and an age of more than 40 years, both of which cosegregate with chronic lymphocytic thyroiditis and a positive test for thyroid peroxidase antibodies, indicating diminished thyroid reserve and increased autoimmunity as possible predispositions. Lithium use is also linked to painless thyroiditis. Although the nature of this association is unknown, approximately half of affected patients have positive tests for thyroid antibodies.",
-      "reference": "Ref 18: \"of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published c...\" — Perrild H, Hegedüs L, Baastrup PC, Kayser L, Kastberg S. Thyroid function and ultrasonically determined thyroid size in "
-    },
-    {
-      "id": "tr-nejm-001-how19",
-      "referenceNumber": 19,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 19 relate to Drug Effects on the Thyroid?",
-      "answer": "of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published cases showed a mean prevalence of 17.6%. A meta-analysis showed that the prevalence of hypothyroidism among lithium-treated patients was increased by a factor of 6 as compared with the prevalence among controls. Risk factors include female sex and an age of more than 40 years, both of which cosegregate with chronic lymphocytic thyroiditis and a positive test for thyroid peroxidase antibodies, indicating diminished thyroid reserve and increased autoimmunity as possible predispositions. Lithium use is also linked to painless thyroiditis. Although the nature of this association is unknown, approximately half of affected patients have positive tests for thyroid antibodies.",
-      "reference": "Ref 19: \"of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published c...\" — Lazarus JH. Lithium and thyroid. Best Pract Res Clin Endocrinol Metab 2009;23:723-33."
-    },
-    {
-      "id": "tr-nejm-001-how20",
-      "referenceNumber": 20,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 20 relate to Drug Effects on the Thyroid?",
-      "answer": "of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published cases showed a mean prevalence of 17.6%. A meta-analysis showed that the prevalence of hypothyroidism among lithium-treated patients was increased by a factor of 6 as compared with the prevalence among controls. Risk factors include female sex and an age of more than 40 years, both of which cosegregate with chronic lymphocytic thyroiditis and a positive test for thyroid peroxidase antibodies, indicating diminished thyroid reserve and increased autoimmunity as possible predispositions. Lithium use is also linked to painless thyroiditis. Although the nature of this association is unknown, approximately half of affected patients have positive tests for thyroid antibodies.",
-      "reference": "Ref 20: \"of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published c...\" — McKnight RF, Adida M, Budge K, Stockton S, Goodwin GM, Geddes JR. Lithium toxicity profile: a systematic review and meta"
-    },
-    {
-      "id": "tr-nejm-001-how21",
-      "referenceNumber": 21,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 21 relate to Drug Effects on the Thyroid?",
-      "answer": "of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published cases showed a mean prevalence of 17.6%. A meta-analysis showed that the prevalence of hypothyroidism among lithium-treated patients was increased by a factor of 6 as compared with the prevalence among controls. Risk factors include female sex and an age of more than 40 years, both of which cosegregate with chronic lymphocytic thyroiditis and a positive test for thyroid peroxidase antibodies, indicating diminished thyroid reserve and increased autoimmunity as possible predispositions. Lithium use is also linked to painless thyroiditis. Although the nature of this association is unknown, approximately half of affected patients have positive tests for thyroid antibodies.",
-      "reference": "Ref 21: \"of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published c...\" — Kraszewska A, Chlopocka-Wozniak M, Abramowicz M, Sowinski J, Rybakowski JK. A cross-sectional study of thyroid function "
-    },
-    {
-      "id": "tr-nejm-001-how22",
-      "referenceNumber": 22,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 22 relate to Drug Effects on the Thyroid?",
-      "answer": "of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published cases showed a mean prevalence of 17.6%. A meta-analysis showed that the prevalence of hypothyroidism among lithium-treated patients was increased by a factor of 6 as compared with the prevalence among controls. Risk factors include female sex and an age of more than 40 years, both of which cosegregate with chronic lymphocytic thyroiditis and a positive test for thyroid peroxidase antibodies, indicating diminished thyroid reserve and increased autoimmunity as possible predispositions. Lithium use is also linked to painless thyroiditis. Although the nature of this association is unknown, approximately half of affected patients have positive tests for thyroid antibodies.",
-      "reference": "Ref 22: \"of patients who did not receive lithium. The reported prevalence of hypothyroidism among patients receiving lithium varies widely. A summary of 1778 published c...\" — Miller KK, Daniels GH. Association between lithium use and thyrotoxicosis caused by silent thyroiditis. Clin Endocrinol "
-    },
-    {
-      "id": "tr-nejm-001-why23",
-      "referenceNumber": 23,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 23: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — Ryder M, Callahan M, Postow MA, Wolchok J, Fagin JA. Endocrine-related adverse events following ipilimumab in patients w"
-    },
-    {
-      "id": "tr-nejm-001-why24",
-      "referenceNumber": 24,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 24: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — Morganstein DL, Lai Z, Spain L, et al. Thyroid abnormalities following the use of cytotoxic T-lymphocyte antigen-4 and p"
-    },
-    {
-      "id": "tr-nejm-001-why25",
-      "referenceNumber": 25,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 25: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — Bertrand A, Kostine M, Barnetche T, Truchetet ME, Schaeverbeke T. Immune related adverse events associated with anti-CTL"
-    },
-    {
-      "id": "tr-nejm-001-why26",
+      "subtopic": "2. Primary Thyroiditis & Autoimmunity",
       "referenceNumber": 26,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 26: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — Scott ES, Long GV, Guminski A, Clifton-Bligh RJ, Menzies AM, Tsang VH. The spectrum, incidence, kinetics and management "
-    },
-    {
-      "id": "tr-nejm-001-why27",
-      "referenceNumber": 27,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 27: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — de Filette J, Jansen Y, Schreuer M, et al. Incidence of thyroid-related adverse events in melanoma patients treated with"
-    },
-    {
-      "id": "tr-nejm-001-why28",
-      "referenceNumber": 28,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 28: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — Lee H, Hodi FS, Giobbie-Hurder A, et al. Characterization of thyroid disorders in patients receiving immune checkpoint i"
-    },
-    {
-      "id": "tr-nejm-001-why29",
-      "referenceNumber": 29,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 29: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — McMillen B, Dhillon MS, Yong-Yow S. A rare case of thyroid storm. BMJ Case Rep 2016;2016:bcr2016214603."
-    },
-    {
-      "id": "tr-nejm-001-why30",
-      "referenceNumber": 30,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 30: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — Iyer PC, Cabanillas ME, Waguespack SG, et al. Immune-related thyroiditis with immune checkpoint inhibitors. Thyroid 2018"
-    },
-    {
-      "id": "tr-nejm-001-why31",
-      "referenceNumber": 31,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. …",
-      "answer": "Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted variably in the literature as affecting approximately 5 to 10% of patients treated with CTLA-4 inhibitors, 10 to 20% of those treated with PD-1 inhibitors, and more than 20% of patients treated with combination therapy. Most patients receiving such therapy for cancer have painless thyroiditis, presenting with transient thyrotoxicosis followed by hypothyroidism. Graves' disease rarely occurs. Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy but may occur within 2 weeks with combination therapy or by 18 weeks with anti-CTLA-4 monotherapy. The thyrotoxic phase is often mild and may be overlooked, resolving in 3 to 10 weeks, but moderate and severe cases have occurred. Hypothyroidism ensues 10 to 20 weeks after the initiation of therapy and is often irreversible. Immune checkpoint blockade therapy is generally not stopped because of adverse thyroid effects, which are managed conventionally",
-      "reference": "Ref 31: \"Newer drugs designed to promote immune system targeting of cancer cells also increase the risk of autoimmune disorders. Primary thyroid dysfunction is noted var...\" — Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the treatment of hypothyroidism: prepared by the American Thyroid"
-    },
-    {
-      "id": "tr-nejm-001-why32",
-      "referenceNumber": 32,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused…",
-      "answer": "Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affected patients, thyroid peroxidase or thyroglobulin antibodies are present at the time of thyroid disruption, but their pathophysiological role is uncertain. Most series do not include pretreatment antibody levels. Some studies show increases in preexisting antibodies or antibody development during immune checkpoint blockade. A positive pretreatment test for antibodies indicates an increased risk of drug-induced thyroid dysfunction. Additional mechanistic studies are required to better understand the adverse effects of immune checkpoint blockade on the thyroid",
-      "reference": "Ref 32: \"Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affecte...\" — Postow MA, Sidlow R, Hellmann MD. Immune-related adverse events associated with immune checkpoint blockade. N Engl J Med"
-    },
-    {
-      "id": "tr-nejm-001-why33",
-      "referenceNumber": 33,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused…",
-      "answer": "Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affected patients, thyroid peroxidase or thyroglobulin antibodies are present at the time of thyroid disruption, but their pathophysiological role is uncertain. Most series do not include pretreatment antibody levels. Some studies show increases in preexisting antibodies or antibody development during immune checkpoint blockade. A positive pretreatment test for antibodies indicates an increased risk of drug-induced thyroid dysfunction. Additional mechanistic studies are required to better understand the adverse effects of immune checkpoint blockade on the thyroid",
-      "reference": "Ref 33: \"Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affecte...\" — Kimbara S, Fujiwara Y, Iwama S, et al. Association of antithyroglobulin antibodies with the development of thyroid dysfu"
-    },
-    {
-      "id": "tr-nejm-001-why34",
-      "referenceNumber": 34,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused…",
-      "answer": "Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affected patients, thyroid peroxidase or thyroglobulin antibodies are present at the time of thyroid disruption, but their pathophysiological role is uncertain. Most series do not include pretreatment antibody levels. Some studies show increases in preexisting antibodies or antibody development during immune checkpoint blockade. A positive pretreatment test for antibodies indicates an increased risk of drug-induced thyroid dysfunction. Additional mechanistic studies are required to better understand the adverse effects of immune checkpoint blockade on the thyroid",
-      "reference": "Ref 34: \"Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affecte...\" — Yamauchi I, Sakane Y, Fukuda Y, et al. Clinical features of nivolumab-induced thyroiditis: a case series study. Thyroid "
-    },
-    {
-      "id": "tr-nejm-001-why35",
-      "referenceNumber": 35,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused…",
-      "answer": "Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affected patients, thyroid peroxidase or thyroglobulin antibodies are present at the time of thyroid disruption, but their pathophysiological role is uncertain. Most series do not include pretreatment antibody levels. Some studies show increases in preexisting antibodies or antibody development during immune checkpoint blockade. A positive pretreatment test for antibodies indicates an increased risk of drug-induced thyroid dysfunction. Additional mechanistic studies are required to better understand the adverse effects of immune checkpoint blockade on the thyroid",
-      "reference": "Ref 35: \"Thyroid dysfunction during immune checkpoint blockade is believed to reflect a reduction in immune self-tolerance caused by these drugs. In 40 to 50% of affecte...\" — Osorio JC, Ni A, Chaft JE, et al. Anti-body-mediated thyroid dysfunction during T-cell checkpoint blockade in patients w"
-    },
-    {
-      "id": "tr-nejm-001-why36",
-      "referenceNumber": 36,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic…",
-      "answer": "The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic renal-cell carcinoma, melanoma, or hepatitis C results in thyroid dysfunction in 15 to 50% of patients, with varying degrees of hypothyroidism often preceded by thyrotoxicosis due to thyroiditis. In a series of 89 patients with solid tumors treated with interleukin-2, thyroid dysfunction developed in 22% of the patients, manifested as mild thyrotoxicosis at a median of 7 weeks and subsequent hypothyroidism at a median of 11 weeks. Thyroid antibodies developed in a majority of patients with negative antibody tests before treatment. Among 1233 patients with hepatitis C who were euthyroid before receiving interferon alfa, thyroid events occurred in 16.7% of the patients, including approximately 5% with thyrotoxicosis and 12% with hypothyroidism. Mechanisms underlying cytokine-induced thyroid dysfunction are poorly understood, but risk factors for thyroid autoimmunity, including female sex, a positive test for thyroid antibodies at baseline or during treatment, and marginally normal baseline thyrotropin levels, are disproportionately present in affected patients",
-      "reference": "Ref 36: \"The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic renal-cell carcinoma, melanoma, or hepa...\" — Krouse RS, Royal RE, Heywood G, et al. Thyroid dysfunction in 281 patients with metastatic melanoma or renal carcinoma t"
-    },
-    {
-      "id": "tr-nejm-001-why37",
-      "referenceNumber": 37,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic…",
-      "answer": "The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic renal-cell carcinoma, melanoma, or hepatitis C results in thyroid dysfunction in 15 to 50% of patients, with varying degrees of hypothyroidism often preceded by thyrotoxicosis due to thyroiditis. In a series of 89 patients with solid tumors treated with interleukin-2, thyroid dysfunction developed in 22% of the patients, manifested as mild thyrotoxicosis at a median of 7 weeks and subsequent hypothyroidism at a median of 11 weeks. Thyroid antibodies developed in a majority of patients with negative antibody tests before treatment. Among 1233 patients with hepatitis C who were euthyroid before receiving interferon alfa, thyroid events occurred in 16.7% of the patients, including approximately 5% with thyrotoxicosis and 12% with hypothyroidism. Mechanisms underlying cytokine-induced thyroid dysfunction are poorly understood, but risk factors for thyroid autoimmunity, including female sex, a positive test for thyroid antibodies at baseline or during treatment, and marginally normal baseline thyrotropin levels, are disproportionately present in affected patients",
-      "reference": "Ref 37: \"The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic renal-cell carcinoma, melanoma, or hepa...\" — Mammen JS, Ghazarian SR, Pulkstenis E, Subramanian GM, Rosen A, Ladenson PW. Phenotypes of interferon- $ \\alpha $-induce"
-    },
-    {
-      "id": "tr-nejm-001-why38",
-      "referenceNumber": 38,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic…",
-      "answer": "The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic renal-cell carcinoma, melanoma, or hepatitis C results in thyroid dysfunction in 15 to 50% of patients, with varying degrees of hypothyroidism often preceded by thyrotoxicosis due to thyroiditis. In a series of 89 patients with solid tumors treated with interleukin-2, thyroid dysfunction developed in 22% of the patients, manifested as mild thyrotoxicosis at a median of 7 weeks and subsequent hypothyroidism at a median of 11 weeks. Thyroid antibodies developed in a majority of patients with negative antibody tests before treatment. Among 1233 patients with hepatitis C who were euthyroid before receiving interferon alfa, thyroid events occurred in 16.7% of the patients, including approximately 5% with thyrotoxicosis and 12% with hypothyroidism. Mechanisms underlying cytokine-induced thyroid dysfunction are poorly understood, but risk factors for thyroid autoimmunity, including female sex, a positive test for thyroid antibodies at baseline or during treatment, and marginally normal baseline thyrotropin levels, are disproportionately present in affected patients",
-      "reference": "Ref 38: \"The use of nonspecific immunostimulatory cytokines such as interleukin-2 and interferon alfa in patients with metastatic renal-cell carcinoma, melanoma, or hepa...\" — Kruit WH, Bolhuis RL, Goey SH, et al. Interleukin-2-induced thyroid dysfunction is correlated with treatment duration bu"
-    },
-    {
-      "id": "tr-nejm-001-q39",
-      "referenceNumber": 39,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 39 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "41.1%"
+      "question": "How does immune checkpoint inhibitor therapy produce its characteristic biphasic thyroid course?",
+      "answer": "Checkpoint inhibitors reduce immune self-tolerance, producing painless destructive thyroiditis in a substantial minority of patients. The classic course is transient thyrotoxicosis (typically 4–8 weeks post-initiation) from release of preformed hormone, followed by an often irreversible hypothyroid phase (10–20 weeks). Preexisting thyroid peroxidase or thyroglobulin antibodies significantly increase risk. Therapy is usually continued; thyroid dysfunction is managed conventionally.",
+      "keyPoints": [
+        "Thyrotoxicosis 4–8 wk → hypothyroid 10–20 wk",
+        "Often irreversible hypothyroid phase",
+        "Positive TPO/Tg antibodies ↑ risk"
       ],
-      "correctOption": 3,
-      "explanation": "Alemtuzumab is a humanized monoclonal antibody against the cell-surface antigen CD52. Treatment with alemtuzumab leads to a profound depletion of circulating B cells and T cells and a high rate of thyroid autoimmunity in patients with multiple sclerosis. Among 248 patients who were treated with alemtuzumab, thyroid dysfunction developed in 41.1%, and Graves' disease developed in 71.6% of affected patients; the median interval between the final alemtuzumab dose and the onset of Graves' disease was 17 months. Subacute thyroiditis and primary hypothyroidism are also seen with increased frequency after alemtuzumab therapy. Most cases of alemtuzumab-associated thyroid",
-      "reference": "Ref 39: \"Alemtuzumab is a humanized monoclonal antibody against the cell-surface antigen CD52. Treatment with alemtuzumab leads to a profound depletion of circulating B ...\" — Daniels GH, Vladic A, Brinar V, et al. Alemtuzumab-related thyroid dysfunction in a phase 2 trial of patients with relap"
+      "reference": "Refs 23–30: \"Most patients receiving such therapy… painless thyroiditis, presenting with transient thyrotoxicosis… followed by hypothyroidism\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-q40",
+      "id": "tr-nejm-001-how4",
+      "type": "how",
+      "subtopic": "2. Primary Thyroiditis & Autoimmunity",
       "referenceNumber": 40,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 40 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "41.1%"
+      "question": "How does Alemtuzumab uniquely precipitate Graves' disease compared with other immunotherapies?",
+      "answer": "Alemtuzumab (anti-CD52) profoundly depletes B and T cells, then permits immune reconstitution in a specific temporal sequence: B cells recover faster than regulatory T cells. This creates a window of disproportionate B-cell-mediated autoimmunity that strongly predisposes to Graves' disease — especially when baseline TPO antibodies are positive — often months after the final dose.",
+      "keyPoints": [
+        "B-cell recovery precedes T-reg recovery",
+        "Late-onset Graves' (median ~17 mo in MS trials)",
+        "Baseline TPO antibodies ↑ risk"
       ],
-      "correctOption": 3,
-      "explanation": "Alemtuzumab is a humanized monoclonal antibody against the cell-surface antigen CD52. Treatment with alemtuzumab leads to a profound depletion of circulating B cells and T cells and a high rate of thyroid autoimmunity in patients with multiple sclerosis. Among 248 patients who were treated with alemtuzumab, thyroid dysfunction developed in 41.1%, and Graves' disease developed in 71.6% of affected patients; the median interval between the final alemtuzumab dose and the onset of Graves' disease was 17 months. Subacute thyroiditis and primary hypothyroidism are also seen with increased frequency after alemtuzumab therapy. Most cases of alemtuzumab-associated thyroid",
-      "reference": "Ref 40: \"Alemtuzumab is a humanized monoclonal antibody against the cell-surface antigen CD52. Treatment with alemtuzumab leads to a profound depletion of circulating B ...\" — Pariani N, Willis M, Muller I, et al. Alemtuzumab-induced thyroid dysfunction exhibits distinctive clinical and immunolo"
+      "reference": "Refs 39–40: \"Early B-cell recovery in the window preceding reemergence of regulatory T cells allows for enhanced B-cell-mediated autoimmunity\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-why41",
-      "referenceNumber": 41,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: In a phase 2 clinical trial of alemtuzumab in patients with multiple sclerosis, 15.1% of participants in whom thyroid dy…",
-      "answer": "In a phase 2 clinical trial of alemtuzumab in patients with multiple sclerosis, 15.1% of participants in whom thyroid dysfunction developed had positive tests for thyroid peroxidase antibodies at baseline and 54.8% had negative tests at baseline that became positive during treatment. Notably, alemtuzumab use in patients with leukemia or rheumatoid arthritis has not been associated with Graves' disease, and use of another immunotherapy, interferon beta-1a, in patients with multiple sclerosis results in a comparatively low rate of thyroid dysfunction, at 6.5%",
-      "reference": "Ref 41: \"In a phase 2 clinical trial of alemtuzumab in patients with multiple sclerosis, 15.1% of participants in whom thyroid dysfunction developed had positive tests f...\" — Ferrajoli A, O'Brien SM, Cortes JE, et al. Phase II study of alemtuzumab in chronic lymphoproliferative disorders. Cance"
-    },
-    {
-      "id": "tr-nejm-001-why42",
-      "referenceNumber": 42,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: In a phase 2 clinical trial of alemtuzumab in patients with multiple sclerosis, 15.1% of participants in whom thyroid dy…",
-      "answer": "In a phase 2 clinical trial of alemtuzumab in patients with multiple sclerosis, 15.1% of participants in whom thyroid dysfunction developed had positive tests for thyroid peroxidase antibodies at baseline and 54.8% had negative tests at baseline that became positive during treatment. Notably, alemtuzumab use in patients with leukemia or rheumatoid arthritis has not been associated with Graves' disease, and use of another immunotherapy, interferon beta-1a, in patients with multiple sclerosis results in a comparatively low rate of thyroid dysfunction, at 6.5%",
-      "reference": "Ref 42: \"In a phase 2 clinical trial of alemtuzumab in patients with multiple sclerosis, 15.1% of participants in whom thyroid dysfunction developed had positive tests f...\" — Lorenzi AR, Clarke AM, Wooldridge T, et al. Morbidity and mortality in rheumatoid arthritis patients with prolonged ther"
-    },
-    {
-      "id": "tr-nejm-001-why43",
-      "referenceNumber": 43,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Mechanisms responsible for the occurrence of thyroid autoimmunity after alemtuzumab are not known. One interpretation of…",
-      "answer": "Mechanisms responsible for the occurrence of thyroid autoimmunity after alemtuzumab are not known. One interpretation of data on lymphocyte reconstitution after alemtuzumab therapy suggests that early B-cell recovery in the window preceding reemergence of regulatory T cells allows for enhanced B-cell-mediated autoimmunity. Other examples of thyroid autoimmunity occurring after recovery of the immune system include Graves' disease after highly active antiretroviral therapy for advanced human immunodeficiency virus infection, thyroid autoimmunity in patients who have been cured of endogenous Cushing's disease, and thyroid autoimmunity during the postpartum period",
-      "reference": "Ref 43: \"Mechanisms responsible for the occurrence of thyroid autoimmunity after alemtuzumab are not known. One interpretation of data on lymphocyte reconstitution after...\" — Baker D, Herrod SS, Alvarez-Gonzalez C, Giovannoni G, Schmierer K. Interpreting lymphocyte reconstitution data from the "
-    },
-    {
-      "id": "tr-nejm-001-why44",
-      "referenceNumber": 44,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Mechanisms responsible for the occurrence of thyroid autoimmunity after alemtuzumab are not known. One interpretation of…",
-      "answer": "Mechanisms responsible for the occurrence of thyroid autoimmunity after alemtuzumab are not known. One interpretation of data on lymphocyte reconstitution after alemtuzumab therapy suggests that early B-cell recovery in the window preceding reemergence of regulatory T cells allows for enhanced B-cell-mediated autoimmunity. Other examples of thyroid autoimmunity occurring after recovery of the immune system include Graves' disease after highly active antiretroviral therapy for advanced human immunodeficiency virus infection, thyroid autoimmunity in patients who have been cured of endogenous Cushing's disease, and thyroid autoimmunity during the postpartum period",
-      "reference": "Ref 44: \"Mechanisms responsible for the occurrence of thyroid autoimmunity after alemtuzumab are not known. One interpretation of data on lymphocyte reconstitution after...\" — Chen F, Day SL, Metcalfe RA, et al. Characteristics of autoimmune thyroid disease occurring as a late complication of im"
-    },
-    {
-      "id": "tr-nejm-001-why45",
-      "referenceNumber": 45,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Amiodarone causes a destructive thyroiditis, referred to as type 2 amiodarone-induced thyrotoxicosis, in 5 to 10% of tre…",
-      "answer": "Amiodarone causes a destructive thyroiditis, referred to as type 2 amiodarone-induced thyrotoxicosis, in 5 to 10% of treated patients. This disorder is believed to result from direct cytotoxic effects of amiodarone on thyrocytes. Affected patients may present with persistent tachycardia or worsening arrhythmia, a nontender thyroid on physical examination, elevations in serum free and levels, and a suppressed serum thyrotropin level. Unlike type 1 amiodarone-induced thyrotoxicosis, which is typically managed with antithyroid drugs, type 2 disease is preferentially treated with glucocorticoids. In practice, it is often difficult to distinguish type 1 from type 2 disease, and the urgent need for treatment in patients with a tenuous cardiac status often prompts clinicians to provide therapy initially with both antithyroid drugs and glucocorticoids",
-      "reference": "Ref 45: \"Amiodarone causes a destructive thyroiditis, referred to as type 2 amiodarone-induced thyrotoxicosis, in 5 to 10% of treated patients. This disorder is believed...\" — Basaria S, Cooper DS. Amiodarone and the thyroid. Am J Med 2005;118:706-14."
-    },
-    {
-      "id": "tr-nejm-001-why46",
-      "referenceNumber": 46,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Amiodarone causes a destructive thyroiditis, referred to as type 2 amiodarone-induced thyrotoxicosis, in 5 to 10% of tre…",
-      "answer": "Amiodarone causes a destructive thyroiditis, referred to as type 2 amiodarone-induced thyrotoxicosis, in 5 to 10% of treated patients. This disorder is believed to result from direct cytotoxic effects of amiodarone on thyrocytes. Affected patients may present with persistent tachycardia or worsening arrhythmia, a nontender thyroid on physical examination, elevations in serum free and levels, and a suppressed serum thyrotropin level. Unlike type 1 amiodarone-induced thyrotoxicosis, which is typically managed with antithyroid drugs, type 2 disease is preferentially treated with glucocorticoids. In practice, it is often difficult to distinguish type 1 from type 2 disease, and the urgent need for treatment in patients with a tenuous cardiac status often prompts clinicians to provide therapy initially with both antithyroid drugs and glucocorticoids",
-      "reference": "Ref 46: \"Amiodarone causes a destructive thyroiditis, referred to as type 2 amiodarone-induced thyrotoxicosis, in 5 to 10% of treated patients. This disorder is believed...\" — Bartalena L, Bogazzi F, Chiovato L, Hubalewska-Dydejczyk A, Links TP, Vanderpump M. 2018 European Thyroid Association (E"
-    },
-    {
-      "id": "tr-nejm-001-why47",
-      "referenceNumber": 47,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk o…",
-      "answer": "Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported changes occur in patients receiving sunitinib for metastatic renal-cell carcinoma or gastrointestinal stromal tumors. In three large clinical trials, hypothyroidism occurred in 14 to 25% of patients with renal-cell carcinoma who were treated with sunitinib. Most cases were rated as mild to moderate in severity, but there were rare cases of severe dysfunction. In a trial involving 42 patients with normal thyroid function before treatment with sunitinib, hypothyroidism occurred in 36% of participants, many of whom had thyrotropin levels greater than 20 mIU per liter. The likelihood that hypothyroidism would develop increased with the duration of therapy. Forty percent of patients were found to have transient thyrotoxicosis before hypothyroidism developed, a finding that is consistent with destructive thyroiditis. The mechanisms contributing to the development of thyroiditis in patients taking tyrosine kinase inhibitors may be related to ischemia resulting from the inhibition of vascular endothelial growth factor receptor by several drugs in this class. Marked thyroid involution has been noted ultrasonographically in some affected patients",
-      "reference": "Ref 47: \"Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported ...\" — Illouz F, Braun D, Briet C, Schweizer U, Rodien P. Endocrine side-effects of anti-cancer drugs: thyroid effects of tyros"
-    },
-    {
-      "id": "tr-nejm-001-why48",
+      "id": "tr-nejm-001-how5",
+      "type": "how",
+      "subtopic": "3. Ischemic Destruction",
       "referenceNumber": 48,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk o…",
-      "answer": "Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported changes occur in patients receiving sunitinib for metastatic renal-cell carcinoma or gastrointestinal stromal tumors. In three large clinical trials, hypothyroidism occurred in 14 to 25% of patients with renal-cell carcinoma who were treated with sunitinib. Most cases were rated as mild to moderate in severity, but there were rare cases of severe dysfunction. In a trial involving 42 patients with normal thyroid function before treatment with sunitinib, hypothyroidism occurred in 36% of participants, many of whom had thyrotropin levels greater than 20 mIU per liter. The likelihood that hypothyroidism would develop increased with the duration of therapy. Forty percent of patients were found to have transient thyrotoxicosis before hypothyroidism developed, a finding that is consistent with destructive thyroiditis. The mechanisms contributing to the development of thyroiditis in patients taking tyrosine kinase inhibitors may be related to ischemia resulting from the inhibition of vascular endothelial growth factor receptor by several drugs in this class. Marked thyroid involution has been noted ultrasonographically in some affected patients",
-      "reference": "Ref 48: \"Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported ...\" — Desai J, Yassa L, Marqusee E, et al. Hypothyroidism after sunitinib treatment for patients with gastrointestinal stromal"
+      "question": "What is the mechanistic basis for primary hypothyroidism induced by tyrosine kinase inhibitors such as Sunitinib?",
+      "answer": "Multikinase inhibitors including sunitinib block vascular endothelial growth factor receptor (VEGFR). VEGFR blockade induces thyroid capillary regression and localized ischemia — a destructive thyroiditis often preceded by transient thyrotoxicosis, with marked sonographic involution of the thyroid gland. Hypothyroidism risk increases with duration of therapy.",
+      "keyPoints": [
+        "VEGFR blockade → capillary ischemia",
+        "Destructive thyroiditis ± transient thyrotoxicosis",
+        "Sonographic thyroid involution"
+      ],
+      "reference": "Refs 47–51: \"Mechanisms… may be related to ischemia resulting from the inhibition of vascular endothelial growth factor receptor\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-why49",
-      "referenceNumber": 49,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk o…",
-      "answer": "Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported changes occur in patients receiving sunitinib for metastatic renal-cell carcinoma or gastrointestinal stromal tumors. In three large clinical trials, hypothyroidism occurred in 14 to 25% of patients with renal-cell carcinoma who were treated with sunitinib. Most cases were rated as mild to moderate in severity, but there were rare cases of severe dysfunction. In a trial involving 42 patients with normal thyroid function before treatment with sunitinib, hypothyroidism occurred in 36% of participants, many of whom had thyrotropin levels greater than 20 mIU per liter. The likelihood that hypothyroidism would develop increased with the duration of therapy. Forty percent of patients were found to have transient thyrotoxicosis before hypothyroidism developed, a finding that is consistent with destructive thyroiditis. The mechanisms contributing to the development of thyroiditis in patients taking tyrosine kinase inhibitors may be related to ischemia resulting from the inhibition of vascular endothelial growth factor receptor by several drugs in this class. Marked thyroid involution has been noted ultrasonographically in some affected patients",
-      "reference": "Ref 49: \"Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported ...\" — Motzer RJ, Hutson TE, Tomczak P, et al. Overall survival and updated results for sunitinib compared with interferon alfa"
-    },
-    {
-      "id": "tr-nejm-001-why50",
-      "referenceNumber": 50,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk o…",
-      "answer": "Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported changes occur in patients receiving sunitinib for metastatic renal-cell carcinoma or gastrointestinal stromal tumors. In three large clinical trials, hypothyroidism occurred in 14 to 25% of patients with renal-cell carcinoma who were treated with sunitinib. Most cases were rated as mild to moderate in severity, but there were rare cases of severe dysfunction. In a trial involving 42 patients with normal thyroid function before treatment with sunitinib, hypothyroidism occurred in 36% of participants, many of whom had thyrotropin levels greater than 20 mIU per liter. The likelihood that hypothyroidism would develop increased with the duration of therapy. Forty percent of patients were found to have transient thyrotoxicosis before hypothyroidism developed, a finding that is consistent with destructive thyroiditis. The mechanisms contributing to the development of thyroiditis in patients taking tyrosine kinase inhibitors may be related to ischemia resulting from the inhibition of vascular endothelial growth factor receptor by several drugs in this class. Marked thyroid involution has been noted ultrasonographically in some affected patients",
-      "reference": "Ref 50: \"Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported ...\" — Motzer RJ, McCann L, Deen K. Pozopanib versus sunitinib in renal cancer. N Engl J Med 2013;369:1970."
-    },
-    {
-      "id": "tr-nejm-001-why51",
-      "referenceNumber": 51,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk o…",
-      "answer": "Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported changes occur in patients receiving sunitinib for metastatic renal-cell carcinoma or gastrointestinal stromal tumors. In three large clinical trials, hypothyroidism occurred in 14 to 25% of patients with renal-cell carcinoma who were treated with sunitinib. Most cases were rated as mild to moderate in severity, but there were rare cases of severe dysfunction. In a trial involving 42 patients with normal thyroid function before treatment with sunitinib, hypothyroidism occurred in 36% of participants, many of whom had thyrotropin levels greater than 20 mIU per liter. The likelihood that hypothyroidism would develop increased with the duration of therapy. Forty percent of patients were found to have transient thyrotoxicosis before hypothyroidism developed, a finding that is consistent with destructive thyroiditis. The mechanisms contributing to the development of thyroiditis in patients taking tyrosine kinase inhibitors may be related to ischemia resulting from the inhibition of vascular endothelial growth factor receptor by several drugs in this class. Marked thyroid involution has been noted ultrasonographically in some affected patients",
-      "reference": "Ref 51: \"Targeted cancer therapy involving tyrosine kinase or multikinase inhibitors has been associated with an increased risk of thyroiditis. The most widely reported ...\" — Motzer RJ, Tannir NM, McDermott DF, et al. Nivolumab plus ipilimumab versus sunitinib in advanced renal-cell carcinoma. "
-    },
-    {
-      "id": "tr-nejm-001-why52",
+      "id": "tr-nejm-001-how6",
+      "type": "how",
+      "subtopic": "4. Transport & Metabolism",
       "referenceNumber": 52,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Several drugs lead to increases in thyroxine-binding globulin, including oral estrogen and selective estrogen-receptor m…",
-      "answer": "Several drugs lead to increases in thyroxine-binding globulin, including oral estrogen and selective estrogen-receptor modulators, methadone, heroin, mitotane, and fluorouracil. Conversely, reductions in this protein occur with the use of androgens, glucocorticoids, and niacin. The most common and clinically relevant changes in thyroxine-binding globulin occur with the use of estrogen-containing drugs in patients receiving thyroid hormone replacement therapy. In such patients, increases in protein binding lead to additional binding of , even in the presence of low free levels. Consequently, patients de",
-      "reference": "Ref 52: \"Several drugs lead to increases in thyroxine-binding globulin, including oral estrogen and selective estrogen-receptor modulators, methadone, heroin, mitotane, ...\" — Arafah BM. Increased need for thyroxine in women with hypothyroidism during estrogen therapy. N Engl J Med 2001;344:1743"
+      "question": "How do estrogens, androgens, and mitotane alter total versus free thyroid hormone concentrations — and when does this change levothyroxine dosing?",
+      "answer": "Oral estrogens, SERMs, methadone, and mitotane increase hepatic TBG synthesis, transiently lowering the free hormone fraction. Patients with intact thyroid axes upregulate endogenous production; athyreotic patients on levothyroxine require dose increases after estrogen initiation. Conversely, androgens, high-dose glucocorticoids, and niacin decrease TBG. Transdermal estradiol minimally affects TBG by bypassing first-pass hepatic effect.",
+      "keyPoints": [
+        "Estrogen/SERMs/mitotane ↑ TBG → ↑ LT4 need if athyreotic",
+        "Androgens/glucocorticoids/niacin ↓ TBG",
+        "Transdermal estrogen spares TBG"
+      ],
+      "reference": "Ref 52: \"Increases in protein binding lead to additional binding of T4… patients dependent on exogenous thyroid hormone will have an increased dose requirement after the initiation of oral estrogen treatment\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-why53",
-      "referenceNumber": 53,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: pendent on exogenous thyroid hormone will have an increased dose requirement after the initiation of oral estrogen treat…",
-      "answer": "pendent on exogenous thyroid hormone will have an increased dose requirement after the initiation of oral estrogen treatment, whereas in patients with a functional thyroid, endogenous thyroid hormone production will increase. Transdermal estradiol has minimal effects on thyroxine-binding globulin because this route of administration circumvents the first-pass effect on the liver",
-      "reference": "Ref 53: \"pendent on exogenous thyroid hormone will have an increased dose requirement after the initiation of oral estrogen treatment, whereas in patients with a functio...\" — Shifren JL, Desindes S, McIlwain M, Doros G, Mazer NA. A randomized, open-label, crossover study comparing the effects o"
-    },
-    {
-      "id": "tr-nejm-001-how54",
-      "referenceNumber": 54,
+      "id": "tr-nejm-001-how7",
       "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 54 relate to Drug Effects on the Thyroid?",
-      "answer": "Conversion of to is inhibited by several drugs, including amiodarone, dexamethasone (and other glucocorticoids), propranolol at high doses, the cholecystographic agents ipodate and iopanoic acid (the latter no longer available in the United States), and the antithyroid drug propylthiouracil. Amiodarone inhibits generation both within the pituitary and in the periphery. Dexamethasone inhibition of -to- conversion is exploited therapeutically in the treatment of patients with severe thyrotoxicosis. The effect of propranolol on monodeiodination is not clinically relevant at usual doses.",
-      "reference": "Ref 54: \"Conversion of to is inhibited by several drugs, including amiodarone, dexamethasone (and other glucocorticoids), propranolol at high doses, the cholecystographi...\" — Warnock AL, Cooper DS, Burch HB. Life-threatening thyrotoxicosis. In: Matfin G, ed. Endocrine and metabolic medical emer"
-    },
-    {
-      "id": "tr-nejm-001-how55",
-      "referenceNumber": 55,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 55 relate to Drug Effects on the Thyroid?",
-      "answer": "Treatment with drugs that induce glucuronidation enzymes, including phenobarbital, phenytoin, carbamazepine, and rifampin, sometimes necessitates an increase in the dose of levothyroxine. Tyrosine kinase inhibitors also appear to augment thyroid hormone metabolism. A study of sorafenib in levothyroxine-dependent patients with thyroid cancer showed that 26 weeks after the start of treatment there was evidence of accelerated levothyroxine inactivation through augmented type 3 deiodinase activity.",
-      "reference": "Ref 55: \"Treatment with drugs that induce glucuronidation enzymes, including phenobarbital, phenytoin, carbamazepine, and rifampin, sometimes necessitates an increase in...\" — Curran PG, DeGroot LJ. The effect of hepatic enzyme-inducing drugs on thyroid hormones and the thyroid gland. Endocr Rev"
-    },
-    {
-      "id": "tr-nejm-001-how56",
-      "referenceNumber": 56,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 56 relate to Drug Effects on the Thyroid?",
-      "answer": "Treatment with drugs that induce glucuronidation enzymes, including phenobarbital, phenytoin, carbamazepine, and rifampin, sometimes necessitates an increase in the dose of levothyroxine. Tyrosine kinase inhibitors also appear to augment thyroid hormone metabolism. A study of sorafenib in levothyroxine-dependent patients with thyroid cancer showed that 26 weeks after the start of treatment there was evidence of accelerated levothyroxine inactivation through augmented type 3 deiodinase activity.",
-      "reference": "Ref 56: \"Treatment with drugs that induce glucuronidation enzymes, including phenobarbital, phenytoin, carbamazepine, and rifampin, sometimes necessitates an increase in...\" — Kim HI, Kim TH, Kim H, et al. Effect of rifampin on thyroid function test in patients on levothyroxine medication. PLoS "
-    },
-    {
-      "id": "tr-nejm-001-how57",
-      "referenceNumber": 57,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 57 relate to Drug Effects on the Thyroid?",
-      "answer": "Treatment with drugs that induce glucuronidation enzymes, including phenobarbital, phenytoin, carbamazepine, and rifampin, sometimes necessitates an increase in the dose of levothyroxine. Tyrosine kinase inhibitors also appear to augment thyroid hormone metabolism. A study of sorafenib in levothyroxine-dependent patients with thyroid cancer showed that 26 weeks after the start of treatment there was evidence of accelerated levothyroxine inactivation through augmented type 3 deiodinase activity.",
-      "reference": "Ref 57: \"Treatment with drugs that induce glucuronidation enzymes, including phenobarbital, phenytoin, carbamazepine, and rifampin, sometimes necessitates an increase in...\" — Abdulrahman RM, Verloop H, Hoftijzer H, et al. Sorafenib-induced hypothyroidism is associated with increased type 3 deio"
-    },
-    {
-      "id": "tr-nejm-001-why58",
+      "subtopic": "4. Transport & Metabolism",
       "referenceNumber": 58,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Bile acid sequestrants such as cholestyramine, colestipol, and colesevelam reduce thyroid hormone levels in both endogen…",
-      "answer": "Bile acid sequestrants such as cholestyramine, colestipol, and colesevelam reduce thyroid hormone levels in both endogenous and iatrogenic thyrotoxicosis, presumably by interfering with recycling of thyroid hormone in the enterohepatic circulation",
-      "reference": "Ref 58: \"Bile acid sequestrants such as cholestyramine, colestipol, and colesevelam reduce thyroid hormone levels in both endogenous and iatrogenic thyrotoxicosis, presu...\" — Solomon BL, Wartofsky L, Burman KD. Adjunctive cholestyramine therapy for thyrotoxicosis. Clin Endocrinol (Oxf) 1993;38:"
+      "question": "What is the pharmacological rationale for bile acid sequestrants (e.g., cholestyramine) in severe thyrotoxicosis?",
+      "answer": "Thyroid hormones undergo glucuronidation and sulfation, are excreted in bile, and can be deconjugated by gut bacteria and recycled via enterohepatic circulation. Bile acid sequestrants bind conjugated hormones in the gut lumen, interrupting enterohepatic recycling and accelerating total-body clearance — useful adjuncts in endogenous or iatrogenic thyrotoxicosis.",
+      "keyPoints": [
+        "Enterohepatic circulation recycles thyroid hormone",
+        "Sequestrants bind conjugated hormone in gut",
+        "Accelerates clearance in thyrotoxicosis"
+      ],
+      "reference": "Refs 58–59: \"Bile acid sequestrants… reduce thyroid hormone levels… by interfering with recycling of thyroid hormone in the enterohepatic circulation\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-why59",
-      "referenceNumber": 59,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Bile acid sequestrants such as cholestyramine, colestipol, and colesevelam reduce thyroid hormone levels in both endogen…",
-      "answer": "Bile acid sequestrants such as cholestyramine, colestipol, and colesevelam reduce thyroid hormone levels in both endogenous and iatrogenic thyrotoxicosis, presumably by interfering with recycling of thyroid hormone in the enterohepatic circulation",
-      "reference": "Ref 59: \"Bile acid sequestrants such as cholestyramine, colestipol, and colesevelam reduce thyroid hormone levels in both endogenous and iatrogenic thyrotoxicosis, presu...\" — Shakir KM, Michaels RD, Hays JH, Potter BB. The use of bile acid sequestrants to lower serum thyroid hormones in iatroge"
-    },
-    {
-      "id": "tr-nejm-001-how60",
-      "referenceNumber": 60,
+      "id": "tr-nejm-001-how8",
       "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 60 relate to Drug Effects on the Thyroid?",
-      "answer": "Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% of levothyroxine is absorbed within 2 to 4 hours after an oral dose in the fasting state. Daily use of proton-pump inhibitors is associated with an increased levothyroxine requirement ; this need is met by either increasing the levothyroxine dose or switching to a liquid preparation.",
-      "reference": "Ref 60: \"Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% ...\" — Hays MT. Localization of human thyroxine absorption. Thyroid 1991;1:241-8."
+      "subtopic": "5. Amiodarone Conundrum",
+      "referenceNumber": 16,
+      "question": "How do Type 1 and Type 2 amiodarone-induced thyrotoxicosis (AIT) differ in pathophysiology and management?",
+      "answer": "Type 1 AIT: True Jod–Basedow phenomenon — iodine overload unmasks autonomous nodules or latent Graves' disease in a susceptible gland. Treat with antithyroid drugs (thionamides).\n\nType 2 AIT: Direct cytotoxic destructive thyroiditis from amiodarone itself. Treat with glucocorticoids.\n\nClinical reality: Distinction is often ambiguous in unstable cardiac patients, so combined antithyroid plus glucocorticoid therapy is frequently initiated urgently.",
+      "keyPoints": [
+        "Type 1 = iodine-induced hyperthyroidism → thionamides",
+        "Type 2 = destructive thyroiditis → steroids",
+        "Mixed therapy when diagnosis uncertain + cardiac instability"
+      ],
+      "reference": "Refs 16–17, 45: \"Type 1… managed with antithyroid drugs… Type 2… preferentially treated with glucocorticoids\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-how61",
-      "referenceNumber": 61,
+      "id": "tr-nejm-001-how9",
       "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 61 relate to Drug Effects on the Thyroid?",
-      "answer": "Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% of levothyroxine is absorbed within 2 to 4 hours after an oral dose in the fasting state. Daily use of proton-pump inhibitors is associated with an increased levothyroxine requirement ; this need is met by either increasing the levothyroxine dose or switching to a liquid preparation.",
-      "reference": "Ref 61: \"Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% ...\" — Virili C, Antonelli A, Santaguida MG, Benvenga S, Centanni M. Gastrointestinal malabsorption of thyroxine. Endocr Rev 20"
-    },
-    {
-      "id": "tr-nejm-001-how62",
-      "referenceNumber": 62,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 62 relate to Drug Effects on the Thyroid?",
-      "answer": "Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% of levothyroxine is absorbed within 2 to 4 hours after an oral dose in the fasting state. Daily use of proton-pump inhibitors is associated with an increased levothyroxine requirement ; this need is met by either increasing the levothyroxine dose or switching to a liquid preparation.",
-      "reference": "Ref 62: \"Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% ...\" — Centanni M, Gargano L, Canettieri G, et al. Thyroxine in goiter, Helicobacter pylori infection, and chronic gastritis. N"
-    },
-    {
-      "id": "tr-nejm-001-how63",
-      "referenceNumber": 63,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 63 relate to Drug Effects on the Thyroid?",
-      "answer": "Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% of levothyroxine is absorbed within 2 to 4 hours after an oral dose in the fasting state. Daily use of proton-pump inhibitors is associated with an increased levothyroxine requirement ; this need is met by either increasing the levothyroxine dose or switching to a liquid preparation.",
-      "reference": "Ref 63: \"Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% ...\" — Sachmechi I, Reich DM, Aninyei M, Wibowo F, Gupta G, Kim PJ. Effect of proton pump inhibitors on serum thyroid-stimulati"
-    },
-    {
-      "id": "tr-nejm-001-how64",
-      "referenceNumber": 64,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 64 relate to Drug Effects on the Thyroid?",
-      "answer": "Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% of levothyroxine is absorbed within 2 to 4 hours after an oral dose in the fasting state. Daily use of proton-pump inhibitors is associated with an increased levothyroxine requirement ; this need is met by either increasing the levothyroxine dose or switching to a liquid preparation.",
-      "reference": "Ref 64: \"Thyroid hormone tablets taken orally require an acid milieu for dissolution before being transported to the small bowel for absorption. Approximately 60 to 80% ...\" — Vita R, Saraceno G, Trimarchi F, Benvenga S. Switching levothyroxine from the tablet to the oral solution formulation co"
-    },
-    {
-      "id": "tr-nejm-001-why65",
-      "referenceNumber": 65,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Biotin is used pharmacologically to treat neuromuscular disorders such as multiple sclerosis and is also a popular dieta…",
-      "answer": "Biotin is used pharmacologically to treat neuromuscular disorders such as multiple sclerosis and is also a popular dietary supplement. In addition, biotinylated laboratory reagents are widely used in clinical laboratories because of their strong noncovalent binding to streptavidin, which is fixed to a solid phase such as magnetic beads or an enzyme-linked immunosorbent assay plate. Commercial assays for free , , thyrotropin, and thyrotropin-receptor antibodies commonly include biotinylation. Numerous reports of biotin-related assay interference leading to incorrect diagnosis and management have been published, including cases in which a falsely low thyrotropin level, a falsely high free level, and spurious positive results of thyrotropin-receptor",
-      "reference": "Ref 65: \"Biotin is used pharmacologically to treat neuromuscular disorders such as multiple sclerosis and is also a popular dietary supplement. In addition, biotinylated...\" — Kantor ED, Rehm CD, Du M, White E, Giovannucci EL. Trends in dietary supplement use among US adults from 1999-2012. JAMA"
-    },
-    {
-      "id": "tr-nejm-001-why66",
-      "referenceNumber": 66,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Biotin is used pharmacologically to treat neuromuscular disorders such as multiple sclerosis and is also a popular dieta…",
-      "answer": "Biotin is used pharmacologically to treat neuromuscular disorders such as multiple sclerosis and is also a popular dietary supplement. In addition, biotinylated laboratory reagents are widely used in clinical laboratories because of their strong noncovalent binding to streptavidin, which is fixed to a solid phase such as magnetic beads or an enzyme-linked immunosorbent assay plate. Commercial assays for free , , thyrotropin, and thyrotropin-receptor antibodies commonly include biotinylation. Numerous reports of biotin-related assay interference leading to incorrect diagnosis and management have been published, including cases in which a falsely low thyrotropin level, a falsely high free level, and spurious positive results of thyrotropin-receptor",
-      "reference": "Ref 66: \"Biotin is used pharmacologically to treat neuromuscular disorders such as multiple sclerosis and is also a popular dietary supplement. In addition, biotinylated...\" — Favresse J, Burlacu MC, Maiter D, Gruson D. Interferences with thyroid function immunoassays: clinical implications and "
-    },
-    {
-      "id": "tr-nejm-001-how67",
+      "subtopic": "6. Assay Interference",
       "referenceNumber": 67,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 67 relate to Drug Effects on the Thyroid?",
-      "answer": "antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or higher, lesser degrees of interference occur with doses as low as 10 mg daily. The direction and degree of interference depend on the assay platform; two-site (sandwich) methods, used in most thyrotropin assays, show falsely low values (Fig. 3), and competitive immunoassays for thyroid hormone yield falsely elevated results (Fig. 4).",
-      "reference": "Ref 67: \"antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or h...\" — Kummer S, Hermsen D, Distelmaier F. Biotin treatment mimicking Graves' disease. N Engl J Med 2016;375:704-6."
+      "question": "By what mechanism does biotin supplementation create a biochemical phenocopy of primary hyperthyroidism?",
+      "answer": "Many immunoassays use streptavidin–biotin binding to anchor reagents. Excess serum biotin outcompetes assay biotin, producing platform-dependent errors:\n\n• Sandwich assays (e.g., TSH): signal loss → falsely LOW TSH.\n• Competitive assays (e.g., free T4/T3): mimic high analyte → falsely HIGH free hormones.\n\nTogether this phenocopies Graves' disease. Interference can occur at doses as low as 10 mg/day. Solution: discontinue biotin 48–72 hours (or longer) before repeat testing.",
+      "keyPoints": [
+        "Sandwich → false low TSH",
+        "Competitive → false high free T4/T3",
+        "Hold biotin 48–72 h before retest"
+      ],
+      "reference": "Refs 65–72: \"Two-site methods… show falsely low values… competitive immunoassays… falsely elevated results\" — Burch HB; Kummer S et al. N Engl J Med 2016;375:704-6."
     },
     {
-      "id": "tr-nejm-001-how68",
-      "referenceNumber": 68,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 68 relate to Drug Effects on the Thyroid?",
-      "answer": "antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or higher, lesser degrees of interference occur with doses as low as 10 mg daily. The direction and degree of interference depend on the assay platform; two-site (sandwich) methods, used in most thyrotropin assays, show falsely low values (Fig. 3), and competitive immunoassays for thyroid hormone yield falsely elevated results (Fig. 4).",
-      "reference": "Ref 68: \"antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or h...\" — Samarasinghe S, Meah F, Singh V, et al. Biotin interference with routine clinical immunoassays: understand the causes an"
+      "id": "tr-nejm-001-n-table",
+      "type": "note",
+      "subtopic": "Summary Reference Table",
+      "title": "High-Yield Drug Class → Mechanism → Clinical Consequence",
+      "content": "Immune Checkpoint Inhibitors (Ipilimumab / Nivolumab)\n• Mechanism: CTLA-4 → destructive hypophysitis; PD-1 → loss of immune tolerance\n• Consequence: Central hypothyroidism; biphasic thyroiditis (thyrotoxic → hypothyroid)\n\nTyrosine Kinase Inhibitors (Sunitinib)\n• Mechanism: VEGFR blockade → capillary ischemia\n• Consequence: Destructive thyroiditis with gland involution\n\nRetinoids (Bexarotene)\n• Mechanism: Direct thyrotroph suppression + accelerated sulfation\n• Consequence: Rapid, profound central hypothyroidism\n\nImmunomodulators (Alemtuzumab)\n• Mechanism: B-cell recovery before T-reg recovery\n• Consequence: Late-onset Graves' disease / autoimmunity\n\nAntiarrhythmics (Amiodarone)\n• Mechanism: Type 1 iodine overload (Jod–Basedow); Type 2 direct cytotoxicity\n• Consequence: Type 1 true hyperthyroidism; Type 2 destructive thyrotoxicosis\n\nEstrogens / SERMs (Oral Estradiol)\n• Mechanism: Increased hepatic TBG synthesis\n• Consequence: Increased levothyroxine requirement in athyreotic patients",
+      "keyPoints": [
+        "Six drug classes — mechanism-linked consequences",
+        "Use for rapid bedside classification",
+        "Pair with module Q&A for depth"
+      ],
+      "reference": "Synthesized from Burch HB. Drug Effects on the Thyroid. N Engl J Med 2019;381:749-761; user first-principles module."
     },
     {
-      "id": "tr-nejm-001-how69",
-      "referenceNumber": 69,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 69 relate to Drug Effects on the Thyroid?",
-      "answer": "antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or higher, lesser degrees of interference occur with doses as low as 10 mg daily. The direction and degree of interference depend on the assay platform; two-site (sandwich) methods, used in most thyrotropin assays, show falsely low values (Fig. 3), and competitive immunoassays for thyroid hormone yield falsely elevated results (Fig. 4).",
-      "reference": "Ref 69: \"antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or h...\" — Elston MS, Sehgal S, Du Toit S, Yarndley T, Conaglen JV. Factitious Graves' disease due to biotin immunoassay interferen"
+      "id": "tr-nejm-001-q1",
+      "type": "mcq",
+      "subtopic": "5. Amiodarone Conundrum",
+      "referenceNumber": 16,
+      "question": "A patient on amiodarone develops thyrotoxicosis with suppressed TSH and a nontender thyroid. Which initial treatment best matches Type 2 amiodarone-induced thyrotoxicosis?",
+      "options": [
+        "High-dose thionamide monotherapy",
+        "Radioactive iodine ablation",
+        "Glucocorticoids",
+        "Potassium iodide loading only"
+      ],
+      "correctOption": 2,
+      "explanation": "Type 2 AIT is a destructive thyroiditis treated preferentially with glucocorticoids. Type 1 AIT (Jod–Basedow) requires antithyroid drugs. Mixed regimens are common when the phenotype is unclear and the patient is hemodynamically fragile.",
+      "reference": "Ref 16: \"Type 2 disease is preferentially treated with glucocorticoids\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-how70",
-      "referenceNumber": 70,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 70 relate to Drug Effects on the Thyroid?",
-      "answer": "antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or higher, lesser degrees of interference occur with doses as low as 10 mg daily. The direction and degree of interference depend on the assay platform; two-site (sandwich) methods, used in most thyrotropin assays, show falsely low values (Fig. 3), and competitive immunoassays for thyroid hormone yield falsely elevated results (Fig. 4).",
-      "reference": "Ref 70: \"antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or h...\" — Li D, Radulescu A, Shrestha RT, et al. Association of biotin ingestion with performance of hormone and nonhormone assays"
+      "id": "tr-nejm-001-q2",
+      "type": "mcq",
+      "subtopic": "1. Central HPA Disruption",
+      "referenceNumber": 10,
+      "question": "Which pattern is most characteristic of ipilimumab (anti–CTLA-4) endocrine toxicity compared with PD-1 inhibitor monotherapy?",
+      "options": [
+        "Primary painless thyroiditis only",
+        "Destructive hypophysitis with possible adrenal and gonadal failure",
+        "Isolated biotin-like assay interference",
+        "VEGFR-mediated thyroid involution"
+      ],
+      "correctOption": 1,
+      "explanation": "CTLA-4 blockade is linked to destructive hypophysitis affecting multiple axes. PD-1 inhibitors more often cause primary thyroid dysfunction (painless thyroiditis) rather than central hypophysitis.",
+      "reference": "Refs 9–10: \"Hypophysitis occurs more frequently in patients taking CTLA-4 inhibitors\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-how71",
+      "id": "tr-nejm-001-tf1",
+      "type": "true_false",
+      "subtopic": "6. Assay Interference",
       "referenceNumber": 71,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 71 relate to Drug Effects on the Thyroid?",
-      "answer": "antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or higher, lesser degrees of interference occur with doses as low as 10 mg daily. The direction and degree of interference depend on the assay platform; two-site (sandwich) methods, used in most thyrotropin assays, show falsely low values (Fig. 3), and competitive immunoassays for thyroid hormone yield falsely elevated results (Fig. 4).",
-      "reference": "Ref 71: \"antibody tests exactly mimicked the biochemical findings of Graves' disease (Figs. 3 and 4). Although such cases often involve biotin doses of 300 mg daily or h...\" — Biscolla RPM, Chiamolera MI, Kanashiro I, Maciel RMB, Vieira JGH. A single 10 mg oral dose of biotin interferes with thy"
+      "statement": "In patients taking high-dose biotin, sandwich immunoassays for TSH typically yield falsely elevated TSH values.",
+      "correctAnswer": false,
+      "explanation": "Sandwich (two-site) TSH assays show falsely LOW TSH with biotin interference. Competitive free T4/T3 assays show falsely HIGH values — together mimicking hyperthyroidism.",
+      "reference": "Ref 71: \"two-site (sandwich) methods… show falsely low values… competitive immunoassays… falsely elevated results\" — Burch HB, N Engl J Med 2019."
     },
     {
-      "id": "tr-nejm-001-why72",
-      "referenceNumber": 72,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: Given the high prevalence of biotin supplementation in the general population, patients with incongruous results of labo…",
-      "answer": "Given the high prevalence of biotin supplementation in the general population, patients with incongruous results of laboratory tests of the thyroid should be asked whether they take biotin supplements. Assay interference often resolves within 48 hours after discontinuation of biotin, but patients should refrain from using the supplement for several days before testing is repeated",
-      "reference": "Ref 72: \"Given the high prevalence of biotin supplementation in the general population, patients with incongruous results of laboratory tests of the thyroid should be as...\" — Wijeratne NG, Doery JC, Lu ZX. Positive and negative interference in immunoassays following biotin ingestion: a pharmaco"
-    },
-    {
-      "id": "tr-nejm-001-why73",
-      "referenceNumber": 73,
-      "type": "why",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Why is the following clinically relevant in Drug Effects on the Thyroid? Context: rotropin level rules out this possibility. Similarly, concurrent elevations of thyrotropin and free levels can be mistak…",
-      "answer": "rotropin level rules out this possibility. Similarly, concurrent elevations of thyrotropin and free levels can be mistaken for evidence of a thyrotropin-secreting pituitary adenoma or thyroid hormone resistance, but normal values on thyroid testing performed before the initiation of amiodarone therapy, when available, essentially rule out these disorders. Patients with normal thyroid function while receiving levothyroxine therapy may have similar increases in thyrotropin after starting amiodarone",
-      "reference": "Ref 73: \"rotropin level rules out this possibility. Similarly, concurrent elevations of thyrotropin and free levels can be mistaken for evidence of a thyrotropin-secreti...\" — Figge J, Dluhy RG. Amiodarone-induced elevation of thyroid stimulating hormone in patients receiving levothyroxine for p"
-    },
-    {
-      "id": "tr-nejm-001-q74",
-      "referenceNumber": 74,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 74 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Heparin liberates lipoprotein lipase from the vascular endothelium. Blood samples from a patient receiving heparin have increased lipoprotein lipase activity, which persists in vitro. Free thyroid hormone assays with prolonged incubation periods, such as measurement by means of equilibrium dialysis, are most affected, since free fatty acids released by the lipase displace and from binding proteins, causing spuriously high values. Similar effects are seen with low-molecular-weight heparin preparations. Standard competitive free hormone assays and thyrotropin testing are generally unaffected, so the testing can be repeated with the use of these assays or the values can be rechecked 24 hours after heparin has been stopped.",
-      "reference": "Ref 74: \"Heparin liberates lipoprotein lipase from the vascular endothelium. Blood samples from a patient receiving heparin have increased lipoprotein lipase activity, w...\" — Mendel CM, Frost PH, Kunitake ST, Cavalieri RR. Mechanism of the heparin-induced increase in the concentration of free t"
-    },
-    {
-      "id": "tr-nejm-001-q75",
-      "referenceNumber": 75,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 75 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Heparin liberates lipoprotein lipase from the vascular endothelium. Blood samples from a patient receiving heparin have increased lipoprotein lipase activity, which persists in vitro. Free thyroid hormone assays with prolonged incubation periods, such as measurement by means of equilibrium dialysis, are most affected, since free fatty acids released by the lipase displace and from binding proteins, causing spuriously high values. Similar effects are seen with low-molecular-weight heparin preparations. Standard competitive free hormone assays and thyrotropin testing are generally unaffected, so the testing can be repeated with the use of these assays or the values can be rechecked 24 hours after heparin has been stopped.",
-      "reference": "Ref 75: \"Heparin liberates lipoprotein lipase from the vascular endothelium. Blood samples from a patient receiving heparin have increased lipoprotein lipase activity, w...\" — Stevenson HP, Archbold GP, Johnston P, Young IS, Sheridan B. Misleading serum free thyroxine results during low molecula"
-    },
-    {
-      "id": "tr-nejm-001-how76",
-      "referenceNumber": 76,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 76 relate to Drug Effects on the Thyroid?",
-      "answer": "In addition to enhancing the metabolism of thyroid hormone, phenytoin and carbamazepine displace from binding proteins. Although the immediate effect is a transiently elevated free level with reciprocal thyrotropin suppression, both levels are expected to normalize after an equilibrium is reached. Therefore, it once seemed paradoxical that clinically euthyroid patients taking these medications had low levels of free and normal thyrotropin levels, suggesting central hypothyroidism. However, it was ultimately determined that reduced free values in this context are artifactual and are related to serum dilution in assays requiring this step. Similar effects are seen with salsalate.",
-      "reference": "Ref 76: \"In addition to enhancing the metabolism of thyroid hormone, phenytoin and carbamazepine displace from binding proteins. Although the immediate effect is a trans...\" — Surks MI, DeFesi CR. Normal serum free thyroid hormone concentrations in patients treated with phenytoin or carbamazepin"
-    },
-    {
-      "id": "tr-nejm-001-how77",
-      "referenceNumber": 77,
-      "type": "how",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "How does the process described in reference 77 relate to Drug Effects on the Thyroid?",
-      "answer": "In addition to enhancing the metabolism of thyroid hormone, phenytoin and carbamazepine displace from binding proteins. Although the immediate effect is a transiently elevated free level with reciprocal thyrotropin suppression, both levels are expected to normalize after an equilibrium is reached. Therefore, it once seemed paradoxical that clinically euthyroid patients taking these medications had low levels of free and normal thyrotropin levels, suggesting central hypothyroidism. However, it was ultimately determined that reduced free values in this context are artifactual and are related to serum dilution in assays requiring this step. Similar effects are seen with salsalate.",
-      "reference": "Ref 77: \"In addition to enhancing the metabolism of thyroid hormone, phenytoin and carbamazepine displace from binding proteins. Although the immediate effect is a trans...\" — McConnell RJ. Abnormal thyroid function test results in patients taking sal-salate. JAMA 1992;267:1242-3."
-    },
-    {
-      "id": "tr-nejm-001-q78",
-      "referenceNumber": 78,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 78 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examples include warfarin, with a counterintuitive lower dose requirement during hyperthyroidism as a result of accelerated turnover of vitamin K-dependent clotting factors, and statins, which are associated with an increased risk of myopathy in the presence of hypothyroidism. Hyperthyroidism accelerates the metabolism of numerous medications, including propranolol, cardiac glycosides, and glucocorticoids, and conversely, hypothyroidism delays clearance of these drugs.",
-      "reference": "Ref 78: \"Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examp...\" — Kurnik D, Loebstein R, Farfel Z, Ezra D, Halkin H, Olchovsky D. Complex drug-drug-disease interactions between amiodaron"
-    },
-    {
-      "id": "tr-nejm-001-q79",
-      "referenceNumber": 79,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 79 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examples include warfarin, with a counterintuitive lower dose requirement during hyperthyroidism as a result of accelerated turnover of vitamin K-dependent clotting factors, and statins, which are associated with an increased risk of myopathy in the presence of hypothyroidism. Hyperthyroidism accelerates the metabolism of numerous medications, including propranolol, cardiac glycosides, and glucocorticoids, and conversely, hypothyroidism delays clearance of these drugs.",
-      "reference": "Ref 79: \"Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examp...\" — Krieger EV, Knopp RH. Hypothyroidism misdiagnosed as statin intolerance. Ann Intern Med 2009;151:72."
-    },
-    {
-      "id": "tr-nejm-001-q80",
-      "referenceNumber": 80,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 80 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examples include warfarin, with a counterintuitive lower dose requirement during hyperthyroidism as a result of accelerated turnover of vitamin K-dependent clotting factors, and statins, which are associated with an increased risk of myopathy in the presence of hypothyroidism. Hyperthyroidism accelerates the metabolism of numerous medications, including propranolol, cardiac glycosides, and glucocorticoids, and conversely, hypothyroidism delays clearance of these drugs.",
-      "reference": "Ref 80: \"Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examp...\" — Lando HM, Burman KD. Two cases of statin-induced myopathy caused by induced hypothyroidism. Endocr Pract 2008;14:726-31."
-    },
-    {
-      "id": "tr-nejm-001-q81",
-      "referenceNumber": 81,
-      "type": "mcq",
-      "subtopic": "Drug Effects on the Thyroid",
-      "question": "Which finding is supported by reference 81 in Drug Effects on the Thyroid?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examples include warfarin, with a counterintuitive lower dose requirement during hyperthyroidism as a result of accelerated turnover of vitamin K-dependent clotting factors, and statins, which are associated with an increased risk of myopathy in the presence of hypothyroidism. Hyperthyroidism accelerates the metabolism of numerous medications, including propranolol, cardiac glycosides, and glucocorticoids, and conversely, hypothyroidism delays clearance of these drugs.",
-      "reference": "Ref 81: \"Both hyperthyroidism and hypothyroidism can affect the pharmacokinetics and efficacy of common drugs, as well as the frequency of adverse effects. Salient examp...\" — Shenfield GM. Influence of thyroid dysfunction on drug pharmacokinetics. Clin Pharmacokinet 1981;6:275-97. Copyright © 2"
+      "id": "tr-nejm-001-sa1",
+      "type": "shortanswer",
+      "subtopic": "2. Primary Thyroiditis & Autoimmunity",
+      "referenceNumber": 28,
+      "question": "In immune checkpoint inhibitor–related thyroiditis, what is the typical timing of the thyrotoxic phase and the subsequent hypothyroid phase after therapy initiation?",
+      "modelAnswer": "Transient thyrotoxicosis typically emerges 4–8 weeks after starting therapy (sometimes sooner with combination checkpoint blockade); hypothyroidism often follows at 10–20 weeks and may be irreversible.",
+      "reference": "Ref 28: \"Thyrotoxicosis typically develops 4 to 8 weeks after the start of therapy… Hypothyroidism ensues 10 to 20 weeks\" — Burch HB, N Engl J Med 2019."
     }
   ]
 }
