@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa1411892",
   "paperType": "rct",
-  "title": "A Randomized, Controlled Trial of 3.0 mg of Liraglutide in Weight Management",
-  "subtitle": "SCALE — Liraglutide 3.0 mg for Weight Management",
+  "title": "SCALE",
+  "subtitle": "Liraglutide 3.0 mg for Weight Management — Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Endocrinology & Metabolism",
-  "authors": "Eckel RH, Kahn SE, Ferrannini E, et al. Obesity and type 2 diabetes: what can be",
+  "authors": "Pi-Sunyer X, Astrup A, Fujioka K, et al.; N Engl J Med 2015",
   "sourceFile": "noupload/NEJM/nejmoa1411892/paper.md",
   "bibliography": [
     {
@@ -141,389 +141,751 @@
     }
   ],
   "trialDesign": {
-    "fullName": "A Randomized, Controlled Trial of 3.0 mg of Liraglutide in Weight Management",
-    "overview": "## BACKGROUND Obesity is a chronic disease with serious health consequences, but weight loss is difficult to maintain through lifestyle intervention alone. Liraglutide, a glucagon-like peptide-1 analogue, has been shown to have potential benefit for weight management at a once-daily dose of 3.0 mg, injected subcutaneously.",
-    "design": "We conducted a 56-week, double-blind trial involving 3731 patients who did not have type 2 diabetes and who had a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of at least 30 or a BMI of at least 27 if they had treated or untreated dyslipidemia or hyper",
-    "population": "patients who did not have type 2 diabetes and who had a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of at least 30 or a BMI of at least 27 if they had treated or untreated dyslipidemia or hypertension.",
-    "comparator": "placebo",
-    "duration": "week 56"
+    "fullName": "SCALE Obesity and Prediabetes — Liraglutide 3.0 mg for Weight Management",
+    "year": 2015,
+    "design": "56-week, double-blind, randomized, placebo-controlled trial (2:1 randomization)",
+    "population": "3,731 adults without diabetes; BMI ≥30 or ≥27 with dyslipidemia or hypertension",
+    "sampleSize": "n=3731 (2481 liraglutide 3.0 mg vs 1242 placebo)",
+    "duration": "56 weeks main trial; 12-week switch-to-placebo substudy in liraglutide subgroup",
+    "intervention": "Liraglutide 3.0 mg SC once daily (titrated from 0.6 mg) plus lifestyle counseling",
+    "comparator": "Placebo plus lifestyle counseling",
+    "primaryEndpoint": "Change in body weight; proportion achieving ≥5% and >10% weight loss at 56 weeks",
+    "overview": "Liraglutide 3.0 mg produced -8.4 kg mean weight loss vs -2.8 kg placebo, with superior cardiometabolic improvements and delayed diabetes onset."
   },
   "trialSummary": {
     "headings": {
-      "background": "Obesity is a chronic disease with serious health consequences, but weight loss is difficult to maintain through lifestyle intervention alone. Liraglutide, a glucagon-like peptide-1 analogue, has been shown to have potential benefit for weight management at a once-daily dose of 3.0 mg, injected subcutaneously.",
-      "objective": "Obesity is a chronic disease with serious health consequences, but weight loss is difficult to maintain through lifestyle intervention alone. Liraglutide, a glucagon-like peptide-1 analogue, has been shown to have potential benefit for weight management at a once-daily dose of 3.0 mg, injected subcutaneously.",
-      "design": "We conducted a 56-week, double-blind trial involving 3731 patients who did not have type 2 diabetes and who had a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of at least 30 or a BMI of at least 27 if they had treated or untreated dyslipidemia or hyper",
-      "population": "patients who did not have type 2 diabetes and who had a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of at least 30 or a BMI of at least 27 if they had treated or untreated dyslipidemia or hypertension.",
-      "comparator": "placebo",
-      "followUp": "week 56",
-      "funding": "Novo Nordisk",
-      "nct": "NCT01272219",
-      "doi": "10.1056/NEJMoa1411892"
+      "background": "Obesity is chronic and difficult to treat with lifestyle alone; liraglutide 3.0 mg targets weight via appetite reduction.",
+      "design": "3731 patients, 2:1 randomization, 191 sites, 27 countries; double-blind; lifestyle counseling in both arms.",
+      "population": "78.5% women; 61.2% prediabetes at baseline; no type 1 or 2 diabetes.",
+      "intervention": "Liraglutide 3.0 mg with weekly dose escalation from 0.6 mg.",
+      "comparator": "Placebo with identical lifestyle-modification counseling.",
+      "followUp": "56 weeks; LOCF for missing data; 9.9% liraglutide vs 3.8% placebo withdrew for AEs."
     },
-    "outcomes": [],
-    "safetyHighlights": [
-      "adverse events with liraglutide were mild or moderate nausea and diarrhea."
+    "outcomes": [
+      {
+        "label": "Mean weight change at 56 weeks",
+        "type": "primary",
+        "effect": {
+          "measure": "kg",
+          "value": -8.4,
+          "interpretation": "liraglutide vs -2.8 kg placebo"
+        },
+        "interpretation": "8.0% vs 2.6% body weight loss"
+      },
+      {
+        "label": "≥5% weight loss",
+        "type": "primary",
+        "effect": {
+          "measure": "Proportion",
+          "value": 63.2,
+          "interpretation": "vs 27.1% placebo"
+        },
+        "interpretation": "Significantly more responders with liraglutide"
+      },
+      {
+        "label": ">10% weight loss",
+        "type": "secondary",
+        "effect": {
+          "measure": "Proportion",
+          "value": 33.1,
+          "interpretation": "vs 10.6% placebo"
+        },
+        "interpretation": "Substantially greater deep responders"
+      },
+      {
+        "label": "Systolic blood pressure",
+        "type": "secondary",
+        "effect": {
+          "measure": "mm Hg",
+          "value": -2.8,
+          "interpretation": "treatment difference vs placebo"
+        },
+        "interpretation": "Greater BP reduction with liraglutide"
+      }
     ],
-    "conclusion": "In this study, 3.0 mg of liraglutide, as an adjunct to diet and exercise, was associated with reduced body weight and improved metabolic control. (Funded by Novo Nordisk; SCALE Obesity and Prediabetes NN8022-1839 ClinicalTrials.gov number, NCT01272219.) From the Division of Endocrinology and Obesity Research Center, Columbia University, New York (X.P.-S.); Department of Nutrition, Exercise and Sports, University of Copenhagen, Frederiksberg (A.A.), and Novo Nordisk, Søborg (C.B.J.) — both in Denmark; Department of Nutrition and Metabolic Research, Division of Endocrinology, Scripps Clinic, La ",
-    "clinicalBottomLine": "In this study, 3.0 mg of liraglutide, as an adjunct to diet and exercise, was associated with reduced body weight and improved metabolic control. (Funded by Novo Nordisk; SCALE Obesity and Prediabetes NN8022-1839 ClinicalTrials.gov number, NCT0127221"
+    "safetyHighlights": [
+      "Nausea most common; peaks weeks 4–8 during titration",
+      "Gallbladder events 2.5% vs 1.0%; resting pulse +2.4 beats/min; no medullary thyroid carcinoma"
+    ],
+    "clinicalBottomLine": "Liraglutide 3.0 mg as adjunct to diet and exercise produces clinically meaningful weight loss and cardiometabolic benefit in obese adults without diabetes."
   },
-  "inclusionCriteria": [],
-  "exclusionCriteria": [],
+  "inclusionCriteria": [
+    "Age ≥18 years; BMI ≥30, or BMI 27–29.9 with treated/untreated dyslipidemia or hypertension",
+    "No type 1 or type 2 diabetes"
+  ],
+  "exclusionCriteria": [
+    "Type 1 or type 2 diabetes",
+    "History of major depressive or other severe psychiatric disorders",
+    "Previous obesity pharmacotherapy within 3 months (protocol-specific exclusions)"
+  ],
   "keyTakeaways": [
-    "In this study, 3.0 mg of liraglutide, as an adjunct to diet and exercise, was associated with reduced body weight and improved metabolic control. (Funded by Novo Nordisk; SCALE Obesity and Prediabetes NN8022-1839 ClinicalTrials.gov number, NCT0127221",
-    "In this study, 3.0 mg of liraglutide, as an adjunct to diet and exercise, was associated with reduced body weight and improved metabolic control. (Funded by Novo Nordisk; SCALE Obesity and Prediabetes NN8022-1839 ClinicalTrials.gov number, NCT01272219.) From the Division of Endocrinology and Obesity"
+    "Weight: -8.4 kg (8.0%) liraglutide vs -2.8 kg (2.6%) placebo at 56 weeks.",
+    "63.2% lost ≥5% weight; improved BP, lipids, glycemia; delayed T2DM onset.",
+    "Safe overall; nausea, gallbladder events, mild pulse increase; dose titration 0.6→3.0 mg."
   ],
   "items": [
     {
-      "id": "tr-nejm-010-how1",
+      "id": "tr-nejm-010-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "SCALE Obesity and Prediabetes — Main Points (High-Yield Overview)",
+      "content": "Background and Rationale: Obesity drives type 2 diabetes prevalence, but sustained weight loss through lifestyle alone is difficult. Liraglutide 3.0 mg once daily reduces appetite and energy intake for weight management.\n\nStudy Design: 56-week, double-blind RCT in 3,731 patients without diabetes (BMI ≥30, or ≥27 with dyslipidemia/hypertension). Randomized 2:1 to liraglutide 3.0 mg vs placebo plus lifestyle counseling.\n\nWeight Loss Efficacy: Liraglutide -8.4 kg (8.0%) vs placebo -2.8 kg (2.6%). ≥5% weight loss: 63.2% vs 27.1%; >10%: 33.1% vs 10.6%.\n\nCardiometabolic Outcomes: Greater reductions in waist circumference, BP, fasting lipids, and fasting glucose with liraglutide; reduced prediabetes prevalence and delayed type 2 diabetes onset.\n\nSafety Profile: Most common AEs: mild-moderate nausea and diarrhea; gallbladder events and resting pulse slightly higher. Liraglutide 3.0 mg is a safe, effective adjunct to diet and exercise for weight management.",
+      "keyPoints": [
+        "-8.4 kg (8.0%) vs -2.8 kg; ≥5% loss 63.2% vs 27.1%",
+        "↓ BP, lipids, prediabetes; delayed T2DM onset",
+        "Nausea most common AE; gallbladder events 2.5% vs 1.0%"
+      ],
+      "reference": "Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-why1",
+      "type": "why",
+      "subtopic": "Why/How 1",
       "referenceNumber": 1,
-      "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 1 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 1: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Eckel RH, Kahn SE, Ferrannini E, et al. Obesity and type 2 diabetes: what can be unified and what needs to be individual"
+      "question": "Why was liraglutide specifically evaluated at a 3.0 mg dose instead of the 1.8 mg dose approved for diabetes?",
+      "answer": "Weight loss with liraglutide is dose-dependent up to 3.0 mg once daily, making this higher dose the target for specific weight-management interventions.",
+      "keyPoints": [
+        "Weight loss with liraglutide is dose-dependent up to 3.0 mg once daily, making this higher dose the target for specific weight-management interventions."
+      ],
+      "reference": "SCALE Q1: Weight loss with liraglutide is dose-dependent up to 3.0 mg once daily, making t... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-how2",
-      "referenceNumber": 2,
       "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 2 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 2: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Selvin E, Parrinello CM, Sacks DB, Coresh J. Trends in prevalence and control of diabetes in the United States, 1988-199"
+      "subtopic": "Why/How 2",
+      "referenceNumber": 2,
+      "question": "How does liraglutide functionally induce weight loss in humans?",
+      "answer": "The weight loss is mediated physiologically by reduced appetite and energy intake, rather than by an increase in resting energy expenditure.",
+      "keyPoints": [
+        "The weight loss is mediated physiologically by reduced appetite and energy intake, rather than by an increase in resting energy expenditure."
+      ],
+      "reference": "SCALE Q2: The weight loss is mediated physiologically by reduced appetite and energy intak... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-how3",
+      "id": "tr-nejm-010-why3",
+      "type": "why",
+      "subtopic": "Why/How 3",
       "referenceNumber": 3,
-      "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 3 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 3: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Knowler WC, Barrett-Connor E, Fowler SE, et al. Reduction in the incidence of type 2 diabetes with lifestyle interventio"
+      "question": "Why did the researchers evaluate patients with a BMI between 27 and 29.9?",
+      "answer": "Patients with a BMI in the overweight category (27 to 29.9) were included because they carried concurrent weight-related comorbidities, specifically treated or untreated dyslipidemia or hypertension, placing them at higher clinical risk.",
+      "keyPoints": [
+        "Patients with a BMI in the overweight category (27 to 29.9) were included because they carried concurrent weight-related comorbidities, specifically treated or untreated dyslipidemia or hypertension, placing them at higher clinical risk."
+      ],
+      "reference": "SCALE Q3: Patients with a BMI in the overweight category (27 to 29.9) were included becaus... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-how4",
-      "referenceNumber": 4,
       "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 4 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 4: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Mertens IL, Van Gaal LF. Overweight, obesity, and blood pressure: the effects of modest weight reduction. Obes Res 2000;"
+      "subtopic": "Why/How 4",
+      "referenceNumber": 4,
+      "question": "How was the primary prespecified efficacy data mathematically handled when a patient dropped out?",
+      "answer": "Missing values were imputed using the last-observation-carried-forward method for measurements made after baseline.",
+      "keyPoints": [
+        "Missing values were imputed using the last-observation-carried-forward method for measurements made after baseline."
+      ],
+      "reference": "SCALE Q4: Missing values were imputed using the last-observation-carried-forward method fo... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-how5",
+      "id": "tr-nejm-010-why5",
+      "type": "why",
+      "subtopic": "Why/How 5",
       "referenceNumber": 5,
-      "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 5 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 5: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Li G, Zhang P, Wang J, et al. Cardiovascular mortality, all-cause mortality, and diabetes incidence after lifestyle inte"
+      "question": "Why was a specific subgroup of the liraglutide cohort randomly switched to a placebo after 56 weeks?",
+      "answer": "This 12-week switch was designed to assess whether the drug's efficacy was maintained after discontinuation and to determine if there were any adverse safety issues related to treatment cessation.",
+      "keyPoints": [
+        "This 12-week switch was designed to assess whether the drug's efficacy was maintained after discontinuation and to determine if there were any adverse safety issues related to treatment cessation."
+      ],
+      "reference": "SCALE Q5: This 12-week switch was designed to assess whether the drug's efficacy was maint... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-how6",
-      "referenceNumber": 6,
       "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 6 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 6: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Warkentin LM, Das D, Majumdar SR, Johnson JA, Padwal RS. The effect of weight loss on health-related quality of life: sy"
+      "subtopic": "Why/How 6",
+      "referenceNumber": 6,
+      "question": "How did the intervention impact the development of new-onset type 2 diabetes over the 56 weeks?",
+      "answer": "Type 2 diabetes developed in significantly more patients in the placebo group than in the liraglutide group, indicating that the weight loss and improved glycemic control actively delayed disease onset.",
+      "keyPoints": [
+        "Type 2 diabetes developed in significantly more patients in the placebo group than in the liraglutide group, indicating that the weight loss and improved glycemic control actively delayed disease onset."
+      ],
+      "reference": "SCALE Q6: Type 2 diabetes developed in significantly more patients in the placebo group th... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-how7",
+      "id": "tr-nejm-010-why7",
+      "type": "why",
+      "subtopic": "Why/How 7",
       "referenceNumber": 7,
-      "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 7 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 7: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Jensen MD, Ryan DH, Donato KA, et al. Executive summary: guidelines (2013) for the management of overweight and obesity "
+      "question": "Why were gallbladder-related events (like cholelithiasis) noted as a specific safety concern in the liraglutide group?",
+      "answer": "Gallbladder events occurred more frequently in the liraglutide group (2.5% vs. 1.0%), which is consistent with the known pathophysiological risk of developing gallstones during rapid or substantial weight loss.",
+      "keyPoints": [
+        "Gallbladder events occurred more frequently in the liraglutide group (2.5% vs. 1.0%), which is consistent with the known pathophysiological risk of developing gallstones during rapid or substantial weight loss."
+      ],
+      "reference": "SCALE Q7: Gallbladder events occurred more frequently in the liraglutide group (2.5% vs. 1... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-how8",
-      "referenceNumber": 8,
       "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 8 relate to SCALE?",
-      "answer": "THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabetes. Weight loss of 5 to 10% has been shown to reduce complications related to obesity and improve quality of life ; however, weight loss is difficult to maintain with lifestyle intervention alone.",
-      "reference": "Ref 8: \"THE INCREASE IN THE RATE OF OBESITY, a chronic disease with serious health consequences, largely explains the recent tripling in the prevalence of type 2 diabet...\" — Dombrowski SU, Knittle K, Avenell A, Araújo-Soares V, Sniehotta FF. Long term maintenance of weight loss with nonsurgica"
+      "subtopic": "Why/How 8",
+      "referenceNumber": 8,
+      "question": "How did the treatment affect patients' cardiovascular vital signs over the study period?",
+      "answer": "Liraglutide significantly reduced both systolic and diastolic blood pressure, but it simultaneously caused a slight increase in the mean resting pulse (an estimated difference of 2.4 beats/min over placebo).",
+      "keyPoints": [
+        "Liraglutide significantly reduced both systolic and diastolic blood pressure, but it simultaneously caused a slight increase in the mean resting pulse (an estimated difference of 2.4 beats/min over placebo)."
+      ],
+      "reference": "SCALE Q8: Liraglutide significantly reduced both systolic and diastolic blood pressure, bu... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-why9",
-      "referenceNumber": 9,
       "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 9: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Blonde L, Russell-Jones D. The safety and efficacy of liraglutide with or without oral antidiabetic drug therapy in type"
+      "subtopic": "Why/How 9",
+      "referenceNumber": 9,
+      "question": "Why do the authors hypothesize that the increased resting pulse is not necessarily dangerous?",
+      "answer": "While the exact clinical relevance is unknown, it is likely a direct chronotropic effect related to the presence of GLP-1 receptors directly on the sinoatrial node, which is a known characteristic of this drug class.",
+      "keyPoints": [
+        "While the exact clinical relevance is unknown, it is likely a direct chronotropic effect related to the presence of GLP-1 receptors directly on the sinoatrial node, which is a known characteristic of this drug class."
+      ],
+      "reference": "SCALE Q9: While the exact clinical relevance is unknown, it is likely a direct chronotropi... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-why10",
+      "id": "tr-nejm-010-how10",
+      "type": "how",
+      "subtopic": "Why/How 10",
       "referenceNumber": 10,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 10: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Astrup A, Carraro R, Finer N, et al. Safety, tolerability and sustained weight loss over 2 years with the once-daily hum"
+      "question": "How did the investigators quantify the coprimary efficacy endpoints for body weight?",
+      "answer": "They measured the absolute and percentage change in body weight, the proportion of patients losing at least 5% of their initial weight, and the proportion losing more than 10% of their initial weight.",
+      "keyPoints": [
+        "They measured the absolute and percentage change in body weight, the proportion of patients losing at least 5% of their initial weight, and the proportion losing more than 10% of their initial weight."
+      ],
+      "reference": "SCALE Q10: They measured the absolute and percentage change in body weight, the proportion ... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-why11",
-      "referenceNumber": 11,
       "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 11: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Wadden TA, Hollander P, Klein S, et al. Weight maintenance and additional weight loss with liraglutide after low-calorie"
+      "subtopic": "Why/How 11",
+      "referenceNumber": 11,
+      "question": "Why did the authors conclude that isolated pancreatic enzyme elevations are poor indicators of acute pancreatitis in these patients?",
+      "answer": "Although mean lipase and amylase activity increased in the liraglutide group, the positive predictive value of isolated enzyme elevations was very low (less than 1% for a lipase value ≥3 times the upper limit of normal).",
+      "keyPoints": [
+        "Although mean lipase and amylase activity increased in the liraglutide group, the positive predictive value of isolated enzyme elevations was very low (less than 1% for a lipase value ≥3 times the upper limit of normal)."
+      ],
+      "reference": "SCALE Q11: Although mean lipase and amylase activity increased in the liraglutide group, th... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-q12",
+      "id": "tr-nejm-010-how12",
+      "type": "how",
+      "subtopic": "Why/How 12",
       "referenceNumber": 12,
-      "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 12 in SCALE?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "97%"
+      "question": "How did baseline prediabetes status affect a patient's total weight loss on liraglutide?",
+      "answer": "It had no significant effect; weight loss with liraglutide was maintained over 56 weeks and was similar regardless of a patient's prediabetes status.",
+      "keyPoints": [
+        "It had no significant effect; weight loss with liraglutide was maintained over 56 weeks and was similar regardless of a patient's prediabetes status."
       ],
-      "correctOption": 3,
-      "explanation": "Liraglutide, a glucagon-like peptide-1 analogue with 97% homology to human glucagon-like peptide-1, is approved for the treatment of type 2 diabetes at doses up to 1.8 mg once daily. Weight loss with liraglutide is dose-dependent up to 3.0 mg once daily and is mediated by reduced appetite and energy intake rather than by increased energy expenditure.",
-      "reference": "Ref 12: \"Liraglutide, a glucagon-like peptide-1 analogue with 97% homology to human glucagon-like peptide-1, is approved for the treatment of type 2 diabetes at doses up...\" — van Can J, Sloth B, Jensen CB, Flint A, Blaak EE, Saris WHM. Effects of the once-daily GLP-1 analog liraglutide on gastr"
+      "reference": "SCALE Q12: It had no significant effect; weight loss with liraglutide was maintained over 5... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-why13",
+      "type": "why",
+      "subtopic": "Why/How 13",
       "referenceNumber": 13,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: We conducted the study from June 1, 2011, through March 18, 2013, at 191 sites in 27 countries in Europe, North America,…",
-      "answer": "We conducted the study from June 1, 2011, through March 18, 2013, at 191 sites in 27 countries in Europe, North America, South America, Asia, Africa, and Australia. The trial protocol was approved by local ethics committees or institutional review boards and is available with the full text of this article at NEJM.org. The trial was conducted in accordance with the principles of the Declaration of Helsinki and Good Clinical Practice guidelines. A 2-year extension of the trial involving patients with prediabetes that was designed to evaluate whether liraglutide is associated with delayed onset of type 2 diabetes was recently completed. All the authors were involved in the design or conduct of the study and the preparation of the manuscript, including the decision to submit it for publication, and all attest to the accuracy and completeness of data and the data analyses. The sponsor, Novo Nordisk, planned and performed the statistical analyses, provided editorial and writing assistance, and provided the trial drugs",
-      "reference": "Ref 13: \"We conducted the study from June 1, 2011, through March 18, 2013, at 191 sites in 27 countries in Europe, North America, South America, Asia, Africa, and Austra...\" — World Medical Association Declaration of Helsinki: ethical principles for medical research involving human subjects. JAM"
+      "question": "Why was the overall dropout rate slightly higher for patients taking liraglutide compared to the placebo?",
+      "answer": "A larger percentage of patients in the liraglutide group withdrew from the trial owing to adverse events (9.9% vs. 3.8%), which were primarily mild or moderate gastrointestinal disorders.",
+      "keyPoints": [
+        "A larger percentage of patients in the liraglutide group withdrew from the trial owing to adverse events (9.9% vs. 3.8%), which were primarily mild or moderate gastrointestinal disorders."
+      ],
+      "reference": "SCALE Q13: A larger percentage of patients in the liraglutide group withdrew from the trial... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-why14",
-      "referenceNumber": 14,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: We conducted the study from June 1, 2011, through March 18, 2013, at 191 sites in 27 countries in Europe, North America,…",
-      "answer": "We conducted the study from June 1, 2011, through March 18, 2013, at 191 sites in 27 countries in Europe, North America, South America, Asia, Africa, and Australia. The trial protocol was approved by local ethics committees or institutional review boards and is available with the full text of this article at NEJM.org. The trial was conducted in accordance with the principles of the Declaration of Helsinki and Good Clinical Practice guidelines. A 2-year extension of the trial involving patients with prediabetes that was designed to evaluate whether liraglutide is associated with delayed onset of type 2 diabetes was recently completed. All the authors were involved in the design or conduct of the study and the preparation of the manuscript, including the decision to submit it for publication, and all attest to the accuracy and completeness of data and the data analyses. The sponsor, Novo Nordisk, planned and performed the statistical analyses, provided editorial and writing assistance, and provided the trial drugs",
-      "reference": "Ref 14: \"We conducted the study from June 1, 2011, through March 18, 2013, at 191 sites in 27 countries in Europe, North America, South America, Asia, Africa, and Austra...\" — International Conference on Harmonisation Expert Working Group. ICH harmonised tripartite guideline: guideline for good "
-    },
-    {
-      "id": "tr-nejm-010-how15",
-      "referenceNumber": 15,
+      "id": "tr-nejm-010-how14",
       "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 15 relate to SCALE?",
-      "answer": "Randomization was performed with the use of a telephone or Web-based system provided by the sponsor. Eligible patients were randomly assigned, in a 2:1 ratio, to receive once-daily subcutaneous injections of liraglutide, starting at a dose of 0.6 mg with weekly 0.6-mg increments to 3.0 mg, or placebo; both groups received counseling on lifestyle modification (Fig. S1 in the Supplementary Appendix). Patients were stratified according to prediabetes status at screening and according to BMI ( 30 vs. <30). Patients, investigators, and the sponsor were unaware of the study-group assignments. Liraglutide and placebo were provided in FlexPen devices (Novo Nordisk). After 56 weeks, patients in the liraglutide group who did not have prediabetes at screening were randomly assigned in a 1:1 ratio to continue receiving liraglutide or to switch to placebo for 12 weeks to assess whether efficacy was maintained after discontinuation of liraglutide treatment and whether there were safety issues related to discontinuation. Patients in the placebo group continued to receive placebo.",
-      "reference": "Ref 15: \"Randomization was performed with the use of a telephone or Web-based system provided by the sponsor. Eligible patients were randomly assigned, in a 2:1 ratio, t...\" — American Diabetes Association. Diagnosis and classification of diabetes mellitus. Diabetes Care 2010;33:Suppl 1:S62-S69."
+      "subtopic": "Why/How 14",
+      "referenceNumber": 14,
+      "question": "How were patients medically transitioned to the target 3.0 mg dose to mitigate early side effects?",
+      "answer": "Patients were started at a low dose of 0.6 mg, with weekly 0.6-mg increments added until they reached the 3.0 mg therapeutic target.",
+      "keyPoints": [
+        "Patients were started at a low dose of 0.6 mg, with weekly 0.6-mg increments added until they reached the 3.0 mg therapeutic target."
+      ],
+      "reference": "SCALE Q14: Patients were started at a low dose of 0.6 mg, with weekly 0.6-mg increments add... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-why15",
+      "type": "why",
+      "subtopic": "Why/How 15",
+      "referenceNumber": 15,
+      "question": "Why were calcitonin concentrations carefully monitored throughout the safety analysis?",
+      "answer": "Because GLP-1 receptor agonists have been observed to cause C-cell proliferation in rodents, researchers monitored calcitonin to ensure there was no increased risk of medullary thyroid carcinoma in humans (no cases or calcitonin elevations were observed).",
+      "keyPoints": [
+        "Because GLP-1 receptor agonists have been observed to cause C-cell proliferation in rodents, researchers monitored calcitonin to ensure there was no increased risk of medullary thyroid carcinoma in humans (no cases or calcitonin elevations were observed)."
+      ],
+      "reference": "SCALE Q15: Because GLP-1 receptor agonists have been observed to cause C-cell proliferation... — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q1",
+      "type": "mcq",
+      "subtopic": "MCQ 1",
+      "referenceNumber": 16,
+      "question": "What was the randomization ratio between the liraglutide group and the placebo group?",
+      "options": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "4:1"
+      ],
+      "correctOption": 1,
+      "explanation": "Randomization was 2:1 (liraglutide:placebo).",
+      "reference": "SCALE MCQ 1: Randomization was 2:1 (liraglutide:placebo). — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
+      "referenceNumber": 17,
+      "question": "Which of the following pre-existing conditions explicitly excluded a patient from participating in the trial?",
+      "options": [
+        "Prediabetes",
+        "Untreated dyslipidemia",
+        "Type 1 or 2 diabetes",
+        "Hypertension"
+      ],
+      "correctOption": 2,
+      "explanation": "Patients with type 1 or 2 diabetes were excluded.",
+      "reference": "SCALE MCQ 2: Patients with type 1 or 2 diabetes were excluded. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
+      "referenceNumber": 18,
+      "question": "What percentage of the overall randomized trial population was female?",
+      "options": [
+        "34.5%",
+        "50.0%",
+        "61.2%",
+        "78.5%"
+      ],
+      "correctOption": 3,
+      "explanation": "78.5% of participants were female.",
+      "reference": "SCALE MCQ 3: 78.5% of participants were female. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
+      "referenceNumber": 19,
+      "question": "What was the mean change in body weight (in kilograms) for the liraglutide group at week 56?",
+      "options": [
+        "-2.8 kg",
+        "-5.6 kg",
+        "-8.4 kg",
+        "-10.2 kg"
+      ],
+      "correctOption": 2,
+      "explanation": "Mean weight change was -8.4 kg in the liraglutide group.",
+      "reference": "SCALE MCQ 4: Mean weight change was -8.4 kg in the liraglutide group. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
+      "referenceNumber": 20,
+      "question": "What percentage of patients in the liraglutide group successfully lost at least 5% of their body weight?",
+      "options": [
+        "27.1%",
+        "33.1%",
+        "63.2%",
+        "92.0%"
+      ],
+      "correctOption": 2,
+      "explanation": "63.2% of liraglutide patients lost ≥5% body weight.",
+      "reference": "SCALE MCQ 5: 63.2% of liraglutide patients lost ≥5% body weight. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
+      "referenceNumber": 21,
+      "question": "According to the adverse event data, which of the following was the most common side effect reported by patients taking liraglutide?",
+      "options": [
+        "Constipation",
+        "Diarrhea",
+        "Vomiting",
+        "Nausea"
+      ],
+      "correctOption": 3,
+      "explanation": "Nausea was the most common adverse event with liraglutide.",
+      "reference": "SCALE MCQ 6: Nausea was the most common adverse event with liraglutide. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
+      "referenceNumber": 22,
+      "question": "What was the most frequent reason that patients in the placebo group withdrew from the trial?",
+      "options": [
+        "Severe adverse events",
+        "Ineffective therapy",
+        "Withdrawal of consent",
+        "Development of symptomatic diabetes"
+      ],
+      "correctOption": 2,
+      "explanation": "Withdrawal of consent was the most common reason in the placebo group.",
+      "reference": "SCALE MCQ 7: Withdrawal of consent was the most common reason in the placebo group. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
+      "referenceNumber": 23,
+      "question": "During what time frame did nausea and vomiting primarily manifest for patients taking liraglutide?",
+      "options": [
+        "Consistently throughout the entire 56 weeks",
+        "Within the first 4 to 8 weeks after initiation",
+        "Only after the 24-week mark",
+        "Immediately upon discontinuation of the drug"
+      ],
+      "correctOption": 1,
+      "explanation": "Nausea/vomiting peaked in the first 4–8 weeks during dose escalation.",
+      "reference": "SCALE MCQ 8: Nausea/vomiting peaked in the first 4–8 weeks during dose escalation. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
+      "referenceNumber": 24,
+      "question": "How many confirmed cases of medullary thyroid carcinoma or C-cell hyperplasia were observed during the trial?",
+      "options": [
+        "0",
+        "2",
+        "5",
+        "11"
+      ],
+      "correctOption": 0,
+      "explanation": "No medullary thyroid carcinoma or C-cell hyperplasia cases were observed.",
+      "reference": "SCALE MCQ 9: No medullary thyroid carcinoma or C-cell hyperplasia cases were observed. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q10",
+      "type": "mcq",
+      "subtopic": "MCQ 10",
+      "referenceNumber": 25,
+      "question": "What was the estimated treatment difference in systolic blood pressure between the liraglutide group and the placebo group?",
+      "options": [
+        "-1.5 mm Hg",
+        "-2.8 mm Hg",
+        "-4.2 mm Hg",
+        "+2.4 mm Hg"
+      ],
+      "correctOption": 1,
+      "explanation": "Systolic BP was 2.8 mm Hg lower with liraglutide vs placebo.",
+      "reference": "SCALE MCQ 10: Systolic BP was 2.8 mm Hg lower with liraglutide vs placebo. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q11",
+      "type": "mcq",
+      "subtopic": "MCQ 11",
+      "referenceNumber": 26,
+      "question": "How did liraglutide impact fasting glucose levels compared to placebo (estimated treatment difference)?",
+      "options": [
+        "-2.3 mg/dl",
+        "-6.9 mg/dl",
+        "0.1 mg/dl",
+        "-12.6 mg/dl"
+      ],
+      "correctOption": 1,
+      "explanation": "Fasting glucose was 6.9 mg/dl lower with liraglutide.",
+      "reference": "SCALE MCQ 11: Fasting glucose was 6.9 mg/dl lower with liraglutide. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q12",
+      "type": "mcq",
+      "subtopic": "MCQ 12",
+      "referenceNumber": 27,
+      "question": "What proportion of patients in the total trial population met the criteria for prediabetes at baseline?",
+      "options": [
+        "27.1%",
+        "33.3%",
+        "61.2%",
+        "78.5%"
+      ],
+      "correctOption": 2,
+      "explanation": "61.2% had prediabetes at baseline.",
+      "reference": "SCALE MCQ 12: 61.2% had prediabetes at baseline. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q13",
+      "type": "mcq",
+      "subtopic": "MCQ 13",
+      "referenceNumber": 28,
+      "question": "Which established survey instrument was utilized to assess overall physical and mental health quality of life?",
+      "options": [
+        "Treatment Related Impact Measure–Weight",
+        "SF-36",
+        "Impact of Weight on Quality of Life–Lite",
+        "Beck Depression Inventory"
+      ],
+      "correctOption": 1,
+      "explanation": "SF-36 assessed physical and mental health quality of life.",
+      "reference": "SCALE MCQ 13: SF-36 assessed physical and mental health quality of life. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q14",
+      "type": "mcq",
+      "subtopic": "MCQ 14",
+      "referenceNumber": 29,
+      "question": "What percentage of patients taking liraglutide reported gallbladder-related events (such as cholelithiasis)?",
+      "options": [
+        "0.5%",
+        "1.0%",
+        "2.5%",
+        "6.4%"
+      ],
+      "correctOption": 2,
+      "explanation": "Gallbladder-related events occurred in 2.5% of liraglutide patients.",
+      "reference": "SCALE MCQ 14: Gallbladder-related events occurred in 2.5% of liraglutide patients. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-q15",
+      "type": "mcq",
+      "subtopic": "MCQ 15",
+      "referenceNumber": 30,
+      "question": "How did fasting insulin levels change relative to baseline in the liraglutide group?",
+      "options": [
+        "They increased by 12.6%",
+        "They decreased by 4.4%",
+        "They decreased by 12.6%",
+        "They remained statistically unchanged"
+      ],
+      "correctOption": 2,
+      "explanation": "Fasting insulin decreased 12.6% from baseline with liraglutide.",
+      "reference": "SCALE MCQ 15: Fasting insulin decreased 12.6% from baseline with liraglutide. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-q16",
-      "referenceNumber": 16,
       "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 16 in SCALE?",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "What was the estimated treatment difference in waist circumference reduction favoring the liraglutide group?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "5%"
+        "-2.0 cm",
+        "-3.9 cm",
+        "-4.2 cm",
+        "-8.2 cm"
       ],
-      "correctOption": 3,
-      "explanation": "The three prespecified coprimary end points, assessed at week 56, were weight change from baseline, the proportion of patients who lost at least 5% of their baseline body weight, and the proportion of patients who lost more than 10% of their baseline body weight. Secondary end points included changes from baseline in BMI, waist circumference, glycemic control variables, cardiometabolic biomarkers, and health-related quality of life. The timing of assessments is described in the Methods section in the Supplementary Appendix. Health-related quality of life was assessed with the use of the Medical Outcomes Study 36-Item Short-Form Health Survey (SF-36; in which higher scores indicate better quality of life) and the Impact of Weight on Quality of Life–Lite (in which higher scores indicate better quality of life) and Treatment Related Impact Measure–Weight (in which higher scores indicate better quality of life) questionnaires. The proportion of patients who modified their use of lipid-lowering or antihypertensive medications was also assessed. Additional methods are described in the Supplementary Appendix.",
-      "reference": "Ref 16: \"The three prespecified coprimary end points, assessed at week 56, were weight change from baseline, the proportion of patients who lost at least 5% of their bas...\" — Ware JE, Kosinski M, Dewey JE. How to score version two of the SF-36 Health Survey. 3rd ed. Lincoln, RI: QualityMetric, "
+      "correctOption": 2,
+      "explanation": "Waist circumference was 4.2 cm lower with liraglutide vs placebo.",
+      "reference": "SCALE MCQ 16: Waist circumference was 4.2 cm lower with liraglutide vs placebo. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-q17",
-      "referenceNumber": 17,
       "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 17 in SCALE?",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "How did liraglutide affect the patients' mean resting pulse?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "5%"
+        "It significantly lowered resting pulse by 4 beats/min.",
+        "It caused an increase of 2.4 beats/min over placebo.",
+        "It triggered severe tachycardia requiring hospitalization in 8.7% of patients.",
+        "It had no measurable effect on resting pulse."
       ],
-      "correctOption": 3,
-      "explanation": "The three prespecified coprimary end points, assessed at week 56, were weight change from baseline, the proportion of patients who lost at least 5% of their baseline body weight, and the proportion of patients who lost more than 10% of their baseline body weight. Secondary end points included changes from baseline in BMI, waist circumference, glycemic control variables, cardiometabolic biomarkers, and health-related quality of life. The timing of assessments is described in the Methods section in the Supplementary Appendix. Health-related quality of life was assessed with the use of the Medical Outcomes Study 36-Item Short-Form Health Survey (SF-36; in which higher scores indicate better quality of life) and the Impact of Weight on Quality of Life–Lite (in which higher scores indicate better quality of life) and Treatment Related Impact Measure–Weight (in which higher scores indicate better quality of life) questionnaires. The proportion of patients who modified their use of lipid-lowering or antihypertensive medications was also assessed. Additional methods are described in the Supplementary Appendix.",
-      "reference": "Ref 17: \"The three prespecified coprimary end points, assessed at week 56, were weight change from baseline, the proportion of patients who lost at least 5% of their bas...\" — Kolotkin RL, Crosby RD, Kosloski KD, Williams GR. Development of a brief measure to assess quality of life in obesity. O"
+      "correctOption": 1,
+      "explanation": "Resting pulse increased 2.4 beats/min over placebo with liraglutide.",
+      "reference": "SCALE MCQ 17: Resting pulse increased 2.4 beats/min over placebo with liraglutide. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
       "id": "tr-nejm-010-q18",
-      "referenceNumber": 18,
       "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 18 in SCALE?",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "According to the subgroup analysis, which specific patient demographic appeared to have a slightly less effective weight loss response to liraglutide?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "5%"
+        "Patients with prediabetes",
+        "Patients with a BMI of 40 or higher",
+        "Patients with pre-existing hypertension",
+        "Female patients"
       ],
-      "correctOption": 3,
-      "explanation": "The three prespecified coprimary end points, assessed at week 56, were weight change from baseline, the proportion of patients who lost at least 5% of their baseline body weight, and the proportion of patients who lost more than 10% of their baseline body weight. Secondary end points included changes from baseline in BMI, waist circumference, glycemic control variables, cardiometabolic biomarkers, and health-related quality of life. The timing of assessments is described in the Methods section in the Supplementary Appendix. Health-related quality of life was assessed with the use of the Medical Outcomes Study 36-Item Short-Form Health Survey (SF-36; in which higher scores indicate better quality of life) and the Impact of Weight on Quality of Life–Lite (in which higher scores indicate better quality of life) and Treatment Related Impact Measure–Weight (in which higher scores indicate better quality of life) questionnaires. The proportion of patients who modified their use of lipid-lowering or antihypertensive medications was also assessed. Additional methods are described in the Supplementary Appendix.",
-      "reference": "Ref 18: \"The three prespecified coprimary end points, assessed at week 56, were weight change from baseline, the proportion of patients who lost at least 5% of their bas...\" — Brod M, Hammer M, Kragh N, Lessard S, Bushnell DM. Development and validation of the Treatment Related Impact Measure of"
+      "correctOption": 1,
+      "explanation": "Weight loss was slightly less in patients with BMI ≥40.",
+      "reference": "SCALE MCQ 18: Weight loss was slightly less in patients with BMI ≥40. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-why19",
-      "referenceNumber": 19,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: group (0.4%; 0.4 events per 100 patient-years at risk), of whom 9 had cases graded as mild, and in 1 of 1242 patients in…",
-      "answer": "group (0.4%; 0.4 events per 100 patient-years at risk), of whom 9 had cases graded as mild, and in 1 of 1242 patients in the placebo group (<0.1%;<0.1 events per 100 patient-years at risk). Six patients (5 of whom were in the liraglutide group) had gallstone-related pancreatitis, which was indicated by the presence of gallstones on imaging, alanine aminotransferase levels that were 3 or more times the upper limit of the normal range, or both. Increases from baseline to week 56 in mean lipase and amylase activity (12.0 and 3.7 U per liter, respectively) were observed in the liraglutide group, but few patients had a lipase value that was 3 or more times the upper limit of the normal range (62 of 2447 patients [2.5%] in the liraglutide group and 13 of 1220 patients [1.1%] in the placebo group) or an amylase value that was 3 or more times the upper limit of the normal range (5 of 2447 patients [0.2%] in the liraglutide group and 1 of 1220 patients [<0.1%] in the placebo group) at any time during the trial. The positive predictive value of isolated enzyme elevations for diagnosing pancreatitis was low (<1% for a lipase value ≥3 times the upper limit of the normal range; there were no amylase values ≥3 times the upper limit of the normal range among patients who reported pancreatitis)",
-      "reference": "Ref 19: \"group (0.4%; 0.4 events per 100 patient-years at risk), of whom 9 had cases graded as mild, and in 1 of 1242 patients in the placebo group (<0.1%;<0.1 events pe...\" — Banks PA, Bollen TL, Dervenis C, et al. Classification of acute pancreatitis — 2012: revision of the Atlanta classificat"
-    },
-    {
-      "id": "tr-nejm-010-why20",
-      "referenceNumber": 20,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: group (0.4%; 0.4 events per 100 patient-years at risk), of whom 9 had cases graded as mild, and in 1 of 1242 patients in…",
-      "answer": "group (0.4%; 0.4 events per 100 patient-years at risk), of whom 9 had cases graded as mild, and in 1 of 1242 patients in the placebo group (<0.1%;<0.1 events per 100 patient-years at risk). Six patients (5 of whom were in the liraglutide group) had gallstone-related pancreatitis, which was indicated by the presence of gallstones on imaging, alanine aminotransferase levels that were 3 or more times the upper limit of the normal range, or both. Increases from baseline to week 56 in mean lipase and amylase activity (12.0 and 3.7 U per liter, respectively) were observed in the liraglutide group, but few patients had a lipase value that was 3 or more times the upper limit of the normal range (62 of 2447 patients [2.5%] in the liraglutide group and 13 of 1220 patients [1.1%] in the placebo group) or an amylase value that was 3 or more times the upper limit of the normal range (5 of 2447 patients [0.2%] in the liraglutide group and 1 of 1220 patients [<0.1%] in the placebo group) at any time during the trial. The positive predictive value of isolated enzyme elevations for diagnosing pancreatitis was low (<1% for a lipase value ≥3 times the upper limit of the normal range; there were no amylase values ≥3 times the upper limit of the normal range among patients who reported pancreatitis)",
-      "reference": "Ref 20: \"group (0.4%; 0.4 events per 100 patient-years at risk), of whom 9 had cases graded as mild, and in 1 of 1242 patients in the placebo group (<0.1%;<0.1 events pe...\" — Tenner S, Dubner H, Steinberg W. Predicting gallstone pancreatitis with laboratory parameters: a meta-analysis. Am J Gas"
-    },
-    {
-      "id": "tr-nejm-010-why21",
-      "referenceNumber": 21,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: Spontaneous hypoglycemia was reported by 32 of 2481 patients (1.3%) in the liraglutide group and by 13 of 1242 patients …",
-      "answer": "Spontaneous hypoglycemia was reported by 32 of 2481 patients (1.3%) in the liraglutide group and by 13 of 1242 patients (1.0%) in the placebo group (see the Safety Results section in the Supplementary Appendix); no events were serious or required third-party assistance",
-      "reference": "Ref 21: \"Spontaneous hypoglycemia was reported by 32 of 2481 patients (1.3%) in the liraglutide group and by 13 of 1242 patients (1.0%) in the placebo group (see the Saf...\" — Workgroup on Hypoglycemia, American Diabetes Association. Defining and reporting hypoglycemia in diabetes: a report from"
-    },
-    {
-      "id": "tr-nejm-010-why22",
-      "referenceNumber": 22,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 22: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Astrup A, Rössner S, Van Gaal L, et al. Effects of liraglutide in the treatment of obesity: a randomised, double-blind, "
-    },
-    {
-      "id": "tr-nejm-010-why23",
-      "referenceNumber": 23,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 23: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Lean ME, Carraro R, Finer N, et al. Tolerability of nausea and vomiting and associations with weight loss in a randomize"
-    },
-    {
-      "id": "tr-nejm-010-why24",
-      "referenceNumber": 24,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 24: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Erlinger S. Gallstones in obesity and weight loss. Eur J Gastroenterol Hepatol 2000;12:1347-52."
-    },
-    {
-      "id": "tr-nejm-010-why25",
-      "referenceNumber": 25,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 25: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Keller J, Trautmann ME, Haber H, et al. Effect of exenatide on cholecystokinin-induced gallbladder emptying in fasting h"
-    },
-    {
-      "id": "tr-nejm-010-why26",
-      "referenceNumber": 26,
-      "type": "why",
-      "subtopic": "SCALE",
-      "question": "Why is the following clinically relevant in SCALE? Context: The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are commo…",
-      "answer": "The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of treatment. Gallbladder-related events were more common with liraglutide than with placebo; patients with such events had above-average weight loss, which is consistent with the known risk of gallstones in association with weight loss. Other mechanisms may be involved. In the current trial, half the pancreatitis cases in the liraglutide group were associated with gallstones, and elevations of pancreatic enzymes were not predictive. The lack of a treatment effect on calcitonin concentration and the absence of C-cell hyperplasia or medullary thyroid carcinoma events are consistent with the prior observation that liraglutide exposure is not associated with medullary thyroid carcinoma in humans. The reason for the numerical imbalance in breast neoplasms that we observed is unclear; whether there was enhanced ascertainment related to greater weight loss is unknown",
-      "reference": "Ref 26: \"The safety profile of liraglutide was consistent with findings in previous reports. Gastrointestinal disorders are common and mostly transient side effects of t...\" — Bjerre Knudsen L, Madsen LW, Andersen S, et al. Glucagon-like peptide-1 receptor agonists activate rodent thyroid C-cell"
-    },
-    {
-      "id": "tr-nejm-010-q27",
-      "referenceNumber": 27,
+      "id": "tr-nejm-010-q19",
       "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 27 in SCALE?",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "What was the total number of patients randomly assigned across both groups in this trial?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "1244",
+        "2487",
+        "3731",
+        "4000"
       ],
-      "correctOption": 3,
-      "explanation": "The clinical relevance of increased resting pulse with liraglutide is unknown but is probably related to the drug class. The presence of glucagon-like peptide-1 receptors on the sinoatrial node suggests a direct chronotropic effect. No increase in the number of serious cardiovascular events was observed in the liraglutide group, and beneficial effects of liraglutide were seen with respect to blood pressure and other cardiometabolic variables.",
-      "reference": "Ref 27: \"The clinical relevance of increased resting pulse with liraglutide is unknown but is probably related to the drug class. The presence of glucagon-like peptide-1...\" — Robinson LE, Holt TA, Rees K, Randeva HS, O'Hare JP. Effects of exenatide and liraglutide on heart rate, blood pressure "
+      "correctOption": 2,
+      "explanation": "3,731 patients were randomized.",
+      "reference": "SCALE MCQ 19: 3,731 patients were randomized. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-q28",
-      "referenceNumber": 28,
+      "id": "tr-nejm-010-q20",
       "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 28 in SCALE?",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "A numerical imbalance was observed in the trial regarding the incidence of which type of neoplasm?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "Malignant melanoma",
+        "Pancreatic cancer",
+        "Malignant and pre-malignant breast neoplasms",
+        "Colorectal cancer"
       ],
-      "correctOption": 3,
-      "explanation": "The clinical relevance of increased resting pulse with liraglutide is unknown but is probably related to the drug class. The presence of glucagon-like peptide-1 receptors on the sinoatrial node suggests a direct chronotropic effect. No increase in the number of serious cardiovascular events was observed in the liraglutide group, and beneficial effects of liraglutide were seen with respect to blood pressure and other cardiometabolic variables.",
-      "reference": "Ref 28: \"The clinical relevance of increased resting pulse with liraglutide is unknown but is probably related to the drug class. The presence of glucagon-like peptide-1...\" — Pyke C, Heller RS, Kirk RK, et al. GLP-1 receptor localization in monkey and human tissue: novel distribution revealed w"
+      "correctOption": 2,
+      "explanation": "Numerical imbalance noted for malignant and pre-malignant breast neoplasms.",
+      "reference": "SCALE MCQ 20: Numerical imbalance noted for malignant and pre-malignant breast neoplasms. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-how29",
-      "referenceNumber": 29,
-      "type": "how",
-      "subtopic": "SCALE",
-      "question": "How does the process described in reference 29 relate to SCALE?",
-      "answer": "Limitations of the trial include the use of last-observation-carried-forward imputation in the prespecified primary analyses. However, the robust-",
-      "reference": "Ref 29: \"Limitations of the trial include the use of last-observation-carried-forward imputation in the prespecified primary analyses. However, the robust-\" — National Academy of Sciences. The prevention and treatment of missing data in clinical trials. Washington, DC: National "
+      "id": "tr-nejm-010-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "The trial criteria explicitly excluded patients who had a history of major depressive or other severe psychiatric disorders.",
+      "correctAnswer": true,
+      "explanation": "Major depressive or severe psychiatric disorders were exclusion criteria.",
+      "reference": "SCALE T/F 1: Major depressive or severe psychiatric disorders were exclusion criteria. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-q30",
-      "referenceNumber": 30,
-      "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 30 in SCALE?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "ness of the primary analyses was confirmed in sensitivity analyses with the use of alternative imputation methods to account for patients who withdrew from the trial. Furthermore, no correction for multiple testing was performed for secondary end points. Strengths of the trial include the large sample size, the independent blinded adjudication of specific adverse events, low attrition rates as compared with other weight-loss trials, and a lifestyle intervention with resultant weight loss.",
-      "reference": "Ref 30: \"ness of the primary analyses was confirmed in sensitivity analyses with the use of alternative imputation methods to account for patients who withdrew from the ...\" — Gadde KM, Allison DB, Ryan DH, et al. Effects of low-dose, controlled-release, phentermine plus topiramate combination o"
+      "id": "tr-nejm-010-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "Previous mechanistic studies show that liraglutide stimulates weight loss primarily by dramatically increasing the body's resting energy expenditure.",
+      "correctAnswer": false,
+      "explanation": "Weight loss is mediated by reduced appetite/energy intake, not increased resting energy expenditure.",
+      "reference": "SCALE T/F 2: Weight loss is mediated by reduced appetite/energy intake, not increased resting energy expenditure. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-q31",
-      "referenceNumber": 31,
-      "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 31 in SCALE?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "ness of the primary analyses was confirmed in sensitivity analyses with the use of alternative imputation methods to account for patients who withdrew from the trial. Furthermore, no correction for multiple testing was performed for secondary end points. Strengths of the trial include the large sample size, the independent blinded adjudication of specific adverse events, low attrition rates as compared with other weight-loss trials, and a lifestyle intervention with resultant weight loss.",
-      "reference": "Ref 31: \"ness of the primary analyses was confirmed in sensitivity analyses with the use of alternative imputation methods to account for patients who withdrew from the ...\" — Smith SR, Weissman NJ, Anderson CM, et al. Multicenter, placebo-controlled trial of lorcaserin for weight management. N "
+      "id": "tr-nejm-010-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "Patients taking liraglutide were significantly more likely to report severe spontaneous hypoglycemia that required third-party assistance compared to the placebo group.",
+      "correctAnswer": false,
+      "explanation": "Severe spontaneous hypoglycemia was not significantly more frequent with liraglutide.",
+      "reference": "SCALE T/F 3: Severe spontaneous hypoglycemia was not significantly more frequent with liraglutide. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     },
     {
-      "id": "tr-nejm-010-q32",
-      "referenceNumber": 32,
-      "type": "mcq",
-      "subtopic": "SCALE",
-      "question": "Which finding is supported by reference 32 in SCALE?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "ness of the primary analyses was confirmed in sensitivity analyses with the use of alternative imputation methods to account for patients who withdrew from the trial. Furthermore, no correction for multiple testing was performed for secondary end points. Strengths of the trial include the large sample size, the independent blinded adjudication of specific adverse events, low attrition rates as compared with other weight-loss trials, and a lifestyle intervention with resultant weight loss.",
-      "reference": "Ref 32: \"ness of the primary analyses was confirmed in sensitivity analyses with the use of alternative imputation methods to account for patients who withdrew from the ...\" — Fabricatore AN, Wadden TA, Moore RH, et al. Attrition from randomized controlled trials of pharmacological weight loss a"
+      "id": "tr-nejm-010-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "The prespecified primary analyses utilized the last-observation-carried-forward (LOCF) imputation method to account for missing data from patients who dropped out.",
+      "correctAnswer": true,
+      "explanation": "Primary analyses used LOCF imputation for missing post-baseline data.",
+      "reference": "SCALE T/F 4: Primary analyses used LOCF imputation for missing post-baseline data. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "Approximately 92% of the patients assigned to the liraglutide group experienced at least some measurable degree of weight loss.",
+      "correctAnswer": true,
+      "explanation": "~92% of liraglutide patients had some weight loss.",
+      "reference": "SCALE T/F 5: ~92% of liraglutide patients had some weight loss. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "Liraglutide was associated with a statistically significant increase in systolic blood pressure over the 56-week trial.",
+      "correctAnswer": false,
+      "explanation": "Liraglutide significantly reduced systolic blood pressure.",
+      "reference": "SCALE T/F 6: Liraglutide significantly reduced systolic blood pressure. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "The vast majority of patients who developed cholelithiasis or cholecystitis underwent elective cholecystectomy and successfully continued their assigned study treatment.",
+      "correctAnswer": true,
+      "explanation": "Most gallbladder-event patients had cholecystectomy and continued study treatment.",
+      "reference": "SCALE T/F 7: Most gallbladder-event patients had cholecystectomy and continued study treatment. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "To be eligible for the study, a patient had to have a baseline BMI of 35 or higher.",
+      "correctAnswer": false,
+      "explanation": "Eligibility was BMI ≥30, or ≥27 with dyslipidemia or hypertension.",
+      "reference": "SCALE T/F 8: Eligibility was BMI ≥30, or ≥27 with dyslipidemia or hypertension. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "The sponsor of the trial, Novo Nordisk, planned the statistical analyses, provided the trial drugs, and provided editorial assistance.",
+      "correctAnswer": true,
+      "explanation": "Novo Nordisk sponsored the trial, planned analyses, supplied drug, and provided editorial assistance.",
+      "reference": "SCALE T/F 9: Novo Nordisk sponsored the trial, planned analyses, supplied drug, and provided editorial assistance. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "On the Treatment Related Impact Measure–Weight questionnaire, the liraglutide group reported a lower (worse) score regarding the experience of side effects compared to the placebo group.",
+      "correctAnswer": true,
+      "explanation": "Liraglutide group reported worse side-effect experience scores on TRIM-Weight.",
+      "reference": "SCALE T/F 10: Liraglutide group reported worse side-effect experience scores on TRIM-Weight. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "The data showed that patients who experienced gallbladder-related events generally had below-average weight loss.",
+      "correctAnswer": false,
+      "explanation": "Gallbladder-event patients generally had above-average weight loss.",
+      "reference": "SCALE T/F 11: Gallbladder-event patients generally had above-average weight loss. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "Of the confirmed acute pancreatitis cases in the liraglutide group, half were directly associated with gallstones.",
+      "correctAnswer": true,
+      "explanation": "Half of confirmed pancreatitis cases in liraglutide group were gallstone-associated.",
+      "reference": "SCALE T/F 12: Half of confirmed pancreatitis cases in liraglutide group were gallstone-associated. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "Patients assigned to the placebo group did not receive any counseling on lifestyle modification, diet, or physical activity during the trial.",
+      "correctAnswer": false,
+      "explanation": "All patients received standard lifestyle-modification counseling.",
+      "reference": "SCALE T/F 13: All patients received standard lifestyle-modification counseling. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "Measurements taken during the oral glucose-tolerance test showed that liraglutide improved beta-cell function and insulin sensitivity more effectively than the placebo.",
+      "correctAnswer": true,
+      "explanation": "OGTT showed improved beta-cell function and insulin sensitivity with liraglutide.",
+      "reference": "SCALE T/F 14: OGTT showed improved beta-cell function and insulin sensitivity with liraglutide. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
+    },
+    {
+      "id": "tr-nejm-010-tf15",
+      "type": "true_false",
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "Treatment cessation at the end of the 56-week main trial period was strongly associated with severe rebound binge eating.",
+      "correctAnswer": false,
+      "explanation": "No strong association with severe rebound binge eating after treatment cessation.",
+      "reference": "SCALE T/F 15: No strong association with severe rebound binge eating after treatment cessation. — Pi-Sunyer X, Astrup A, Fujioka K, et al. A randomized, controlled trial of 3.0 mg of liraglutide in weight management. N Engl J Med 2015;373:11-22."
     }
   ]
 }
