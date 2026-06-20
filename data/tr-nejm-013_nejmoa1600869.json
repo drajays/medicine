@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa1600869",
   "paperType": "rct",
-  "title": "Bariatric Surgery versus Intensive Medical Therapy for Diabetes — 5-Year Outcomes",
-  "subtitle": "STAMPEDE 5-Year — Bariatric Surgery vs Medical Therapy",
+  "title": "STAMPEDE 5-Year",
+  "subtitle": "Bariatric Surgery vs Medical Therapy — 5-Year Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Endocrinology & Metabolism",
-  "authors": "Pories WJ, Swanson MS, MacDonald KG, et al. Who would have thought it? An operat",
+  "authors": "Schauer PR, Bhatt DL, Kirwan JP, et al.; N Engl J Med 2017",
   "sourceFile": "noupload/NEJM/nejmoa1600869/paper.md",
   "bibliography": [
     {
@@ -109,264 +109,748 @@
     }
   ],
   "trialDesign": {
-    "fullName": "Bariatric Surgery versus Intensive Medical Therapy for Diabetes — 5-Year Outcomes",
-    "overview": "## BACKGROUND Long-term results from randomized, controlled trials that compare medical therapy with surgical therapy in patients with type 2 diabetes are limited.",
-    "design": "We assessed outcomes 5 years after 150 patients who had type 2 diabetes and a body-mass index index (BMI; the weight in kilograms divided by the square of the height in meters) of 27 to 43 were randomly assigned to receive intensive medical therapy alone or intensive medical therapy plus Roux-en-Y g",
-    "population": "patients who had type 2 diabetes and a body-mass index index (BMI; the weight in kilograms divided by the square of the height in meters) of 27 to 43 were randomly assigned to receive intensive medical therapy alone or intensive medical therapy plus Roux-en-Y gastric bypass or sleeve gastrectomy.",
-    "intervention": "assigned to receive intensive medical therapy alone or intensive medical therapy plus Roux-en-Y gastric bypass or sleeve gastrectomy.",
-    "primaryEndpoint": "primary end point was met by 2 of 38 patients (5%) who received medical therapy alone, as compared with 14 of 49 patients (29%) who underwent gastric bypass (unadjusted P=0."
+    "fullName": "STAMPEDE — Bariatric Surgery versus Intensive Medical Therapy for Diabetes (5-Year Outcomes)",
+    "year": 2017,
+    "design": "Randomized, nonblinded, single-center trial with 5-year follow-up (extension of original STAMPEDE)",
+    "population": "150 patients with type 2 diabetes and BMI 27–43; mean baseline HbA1c 9.2%",
+    "sampleSize": "n=150 (50 per group: medical vs gastric bypass vs sleeve gastrectomy)",
+    "duration": "5-year follow-up; 134 completers; 89% of survivors completed assessment",
+    "intervention": "Intensive medical therapy plus Roux-en-Y gastric bypass or sleeve gastrectomy",
+    "comparator": "Intensive medical therapy alone",
+    "primaryEndpoint": "HbA1c ≤6.0% at 5 years (with or without diabetes medications)",
+    "overview": "At 5 years, primary endpoint achieved in 29% bypass, 23% sleeve, vs 5% medical therapy; durable weight loss and fewer medications with surgery."
   },
   "trialSummary": {
     "headings": {
-      "background": "Long-term results from randomized, controlled trials that compare medical therapy with surgical therapy in patients with type 2 diabetes are limited.",
-      "objective": "Long-term results from randomized, controlled trials that compare medical therapy with surgical therapy in patients with type 2 diabetes are limited.",
-      "design": "We assessed outcomes 5 years after 150 patients who had type 2 diabetes and a body-mass index index (BMI; the weight in kilograms divided by the square of the height in meters) of 27 to 43 were randomly assigned to receive intensive medical therapy alone or intensive medical therapy plus Roux-en-Y g",
-      "population": "patients who had type 2 diabetes and a body-mass index index (BMI; the weight in kilograms divided by the square of the height in meters) of 27 to 43 were randomly assigned to receive intensive medical therapy alone or intensive medical therapy plus Roux-en-Y gastric bypass or sleeve gastrectomy.",
-      "intervention": "assigned to receive intensive medical therapy alone or intensive medical therapy plus Roux-en-Y gastric bypass or sleeve gastrectomy.",
-      "funding": "Ethicon Endo-Surgery and others",
-      "nct": "NCT00432809",
-      "doi": "10.1056/NEJMoa1600869"
+      "background": "Long-term RCT data comparing bariatric surgery with medical therapy in type 2 diabetes were limited.",
+      "design": "150 patients; insulin-stratified randomization; single-center; nonblinded; HbA1c target ≤6.0%.",
+      "population": "Mean BMI 37; 66% women; 37% BMI <35; diabetes duration predictor of success.",
+      "intervention": "Gastric bypass or sleeve gastrectomy plus intensive medical therapy.",
+      "comparator": "Intensive medical therapy with medication escalation to HbA1c ≤6.0%.",
+      "followUp": "5 years; 89% completion among survivors; one crossover and one fistula reoperation."
     },
     "outcomes": [
       {
-        "label": "Primary outcome (extracted)",
+        "label": "HbA1c ≤6.0% at 5 years — bypass",
         "type": "primary",
-        "definition": "primary end point was met by 2 of 38 patients (5%) who received medical therapy alone, as compared with 14 of 49 patients (29%) who underwent gastric bypass (unadjusted P=0.",
-        "interpretation": "Five-year outcome data showed that, among patients with type 2 diabetes and a BMI of 27 to 43, bariatric surgery plus intensive medical therapy was more effective than intensive medical therapy alone in decreasing, or in some cases resolving, hyperglycemia. (Funded by Ethicon Endo-Surgery and others"
+        "effect": {
+          "measure": "Proportion",
+          "value": 29
+        },
+        "interpretation": "vs 5% medical therapy"
+      },
+      {
+        "label": "HbA1c ≤6.0% at 5 years — sleeve",
+        "type": "primary",
+        "effect": {
+          "measure": "Proportion",
+          "value": 23
+        },
+        "interpretation": "vs 5% medical therapy"
+      },
+      {
+        "label": "Body weight change at 5 years",
+        "type": "secondary",
+        "effect": {
+          "measure": "Percent",
+          "value": -23,
+          "interpretation": "bypass; sleeve -19%; medical -5%"
+        },
+        "interpretation": "Bypass > sleeve > medical"
+      },
+      {
+        "label": "Insulin-free with HbA1c ~7.0%",
+        "type": "secondary",
+        "effect": {
+          "measure": "Proportion",
+          "value": 89,
+          "interpretation": "surgical vs 61% medical"
+        },
+        "interpretation": "Reduced insulin dependence with surgery"
       }
     ],
-    "conclusion": "Five-year outcome data showed that, among patients with type 2 diabetes and a BMI of 27 to 43, bariatric surgery plus intensive medical therapy was more effective than intensive medical therapy alone in decreasing, or in some cases resolving, hyperglycemia. (Funded by Ethicon Endo-Surgery and others; STAMPEDE ClinicalTrials.gov number, NCT00432809.) From the Bariatric and Metabolic Institute (P.R.S., A.A., S.A.B.), Lerner Research Institute (J.P.K.), Cleveland Clinic Coordinating Center for Clinical Research (K.W., C.E.P., S.E.N.), Cole Eye Institute (R.P.S.), and Endocrinology Institute (S.R.",
-    "clinicalBottomLine": "Five-year outcome data showed that, among patients with type 2 diabetes and a BMI of 27 to 43, bariatric surgery plus intensive medical therapy was more effective than intensive medical therapy alone in decreasing, or in some cases resolving, hypergl"
+    "safetyHighlights": [
+      "No major late surgical complications except one fistula reoperation",
+      "Mild anemia more common in surgical groups; no retinopathy worsening"
+    ],
+    "clinicalBottomLine": "Bariatric surgery plus intensive medical therapy maintains superior glycemic control and weight loss over 5 years, including in patients with BMI 27–34."
   },
-  "inclusionCriteria": [],
-  "exclusionCriteria": [],
+  "inclusionCriteria": [
+    "Type 2 diabetes; BMI 27–43; uncontrolled hyperglycemia on medical therapy",
+    "Stratified by baseline insulin use"
+  ],
+  "exclusionCriteria": [
+    "Previous bariatric surgery",
+    "Uncontrolled psychiatric disorder limiting adherence (protocol-specific)"
+  ],
   "keyTakeaways": [
-    "Five-year outcome data showed that, among patients with type 2 diabetes and a BMI of 27 to 43, bariatric surgery plus intensive medical therapy was more effective than intensive medical therapy alone in decreasing, or in some cases resolving, hypergl",
-    "Five-year outcome data showed that, among patients with type 2 diabetes and a BMI of 27 to 43, bariatric surgery plus intensive medical therapy was more effective than intensive medical therapy alone in decreasing, or in some cases resolving, hyperglycemia. (Funded by Ethicon Endo-Surgery and others"
+    "Primary endpoint at 5 y: 29% bypass · 23% sleeve · 5% medical.",
+    "Weight -23% / -19% / -5%; diabetes duration <8 years predicts HbA1c ≤6.0%.",
+    "Surgery with fewer meds; benefits in BMI 27–34 challenge coverage thresholds."
   ],
   "items": [
     {
-      "id": "tr-nejm-013-sa1",
+      "id": "tr-nejm-013-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "STAMPEDE 5-Year — Main Points (High-Yield Overview)",
+      "content": "Background and Objective: STAMPEDE evaluated 5-year efficacy and safety of intensive medical therapy alone versus medical therapy plus Roux-en-Y gastric bypass or sleeve gastrectomy in obese patients with uncontrolled type 2 diabetes.\n\nMethodology: 150 patients (BMI 27–43) randomized to three groups. Primary endpoint: HbA1c ≤6.0% at 5 years, with or without diabetes medications.\n\nPrimary Outcomes: Primary endpoint achieved in 29% (bypass), 23% (sleeve), vs 5% (medical therapy).\n\nSecondary Outcomes: Weight change -23% bypass, -19% sleeve, -5% medical; superior triglycerides, HDL, insulin reduction, and quality of life with surgery.\n\nSafety and Medication Use: Generally safe; one late reoperation for recurrent fistula; surgical patients maintained glycemic control with fewer glucose-, BP-, and lipid-lowering medications.\n\nConclusions: Bariatric surgery plus intensive medical therapy is significantly more effective than medical therapy alone for resolving hyperglycemia over 5 years in mildly to severely obese type 2 diabetes.",
+      "keyPoints": [
+        "HbA1c ≤6.0% at 5 y: 29% bypass · 23% sleeve · 5% medical",
+        "Weight: -23% / -19% / -5%; diabetes duration <8 y predicts success",
+        "Fewer meds with surgery; no retinopathy worsening; BMI 27–34 also benefits"
+      ],
+      "reference": "Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-why1",
+      "type": "why",
+      "subtopic": "Why/How 1",
       "referenceNumber": 1,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 1?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 1: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Pories WJ, Swanson MS, MacDonald KG, et al. Who would have thought it? An operation proves to be the most effective ther"
+      "question": "Why was the 5-year follow-up of the STAMPEDE trial conducted?",
+      "answer": "The 5-year follow-up was conducted because long-term results from randomized, controlled trials comparing medical therapy with surgical therapy in patients with type 2 diabetes were limited, and data was needed to address questions regarding long-term efficacy, safety, and end-organ disease impact.",
+      "keyPoints": [
+        "The 5-year follow-up was conducted because long-term results from randomized, controlled trials comparing medical therapy with surgical therapy in patients with type 2 diabetes were limited, and data was needed to address questions regarding long-term efficacy, safety, and end-organ disease impact."
+      ],
+      "reference": "STAMPEDE 5Y Q1: The 5-year follow-up was conducted because long-term results from randomized, co... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa2",
+      "id": "tr-nejm-013-how2",
+      "type": "how",
+      "subtopic": "Why/How 2",
       "referenceNumber": 2,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 2?",
-      "modelAnswer": "tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly more likely to achieve and maintain a glycated hemoglobin level of 6.0% or less, with or without medications, than were those who received inte",
-      "reference": "Ref 2: \"tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly mor...\" — Schauer PR, Burguera B, Ikramuddin S, et al. Effect of laparoscopic Roux-en Y gastric bypass on type 2 diabetes mellitus"
+      "question": "How was the primary endpoint of the trial strictly defined?",
+      "answer": "The primary outcome was defined as achieving a glycated hemoglobin (HbA1c) level of 6.0% or less at 5 years, which could be achieved either with or without the concurrent use of diabetes medications.",
+      "keyPoints": [
+        "The primary outcome was defined as achieving a glycated hemoglobin (HbA1c) level of 6.0% or less at 5 years, which could be achieved either with or without the concurrent use of diabetes medications."
+      ],
+      "reference": "STAMPEDE 5Y Q2: The primary outcome was defined as achieving a glycated hemoglobin (HbA1c) level... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa3",
+      "id": "tr-nejm-013-why3",
+      "type": "why",
+      "subtopic": "Why/How 3",
       "referenceNumber": 3,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 3?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 3: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Vest AR, Heneghan HM, Agarwal S, Schauer PR, Young JB. Bariatric surgery and cardiovascular outcomes: a systematic revie"
+      "question": "Why did the trial utilize stratification based on baseline insulin use during randomization?",
+      "answer": "Stratification according to baseline insulin use was used to ensure that patients with varying severity of diabetes were evenly distributed among the three treatment groups, preventing disease severity from skewing the results.",
+      "keyPoints": [
+        "Stratification according to baseline insulin use was used to ensure that patients with varying severity of diabetes were evenly distributed among the three treatment groups, preventing disease severity from skewing the results."
+      ],
+      "reference": "STAMPEDE 5Y Q3: Stratification according to baseline insulin use was used to ensure that patient... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa4",
+      "id": "tr-nejm-013-how4",
+      "type": "how",
+      "subtopic": "Why/How 4",
       "referenceNumber": 4,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 4?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 4: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Sjöström L, Peltonen M, Jacobson P, et al. Association of bariatric surgery with long-term remission of type 2 diabetes "
+      "question": "How did weight loss at 1 year correlate with the long-term primary endpoint?",
+      "answer": "The statistical models showed that the percentage of weight loss a patient achieved at 1 year was significantly associated with their success in achieving the primary endpoint (HbA1c ≤6.0%) at the 5-year mark.",
+      "keyPoints": [
+        "The statistical models showed that the percentage of weight loss a patient achieved at 1 year was significantly associated with their success in achieving the primary endpoint (HbA1c ≤6.0%) at the 5-year mark."
+      ],
+      "reference": "STAMPEDE 5Y Q4: The statistical models showed that the percentage of weight loss a patient achie... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa5",
+      "id": "tr-nejm-013-why5",
+      "type": "why",
+      "subtopic": "Why/How 5",
       "referenceNumber": 5,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 5?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 5: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Arterburn DE, Olsen MK, Smith VA, et al. Association between bariatric surgery and long-term survival. JAMA 2015;313:62-"
+      "question": "Why are the study's findings regarding patients with a BMI of 27 to 34 particularly relevant for health policy?",
+      "answer": "The findings are significant because nearly all financial coverage policies worldwide restrict bariatric surgery to patients with a BMI of 35 or higher. This study showed that mildly obese patients (BMI 27 to 34) also experience durable and superior glycemic improvement after surgery compared to medical therapy.",
+      "keyPoints": [
+        "The findings are significant because nearly all financial coverage policies worldwide restrict bariatric surgery to patients with a BMI of 35 or higher. This study showed that mildly obese patients (BMI 27 to 34) also experience durable and superior glycemic improvement after surgery compared to medical therapy."
+      ],
+      "reference": "STAMPEDE 5Y Q5: The findings are significant because nearly all financial coverage policies worl... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa6",
+      "id": "tr-nejm-013-how6",
+      "type": "how",
+      "subtopic": "Why/How 6",
       "referenceNumber": 6,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 6?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 6: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Brethauer SA, Aminian A, Romero-Talamás H, et al. Can diabetes be surgically cured? Long-term metabolic effects of baria"
+      "question": "How did bariatric surgery impact the need for cardiovascular medications at 5 years?",
+      "answer": "While overall blood pressure and LDL cholesterol levels were similar across all three groups at 5 years, the surgical patients required significantly fewer antihypertensive and lipid-lowering medications to maintain those levels compared to the medical-therapy group.",
+      "keyPoints": [
+        "While overall blood pressure and LDL cholesterol levels were similar across all three groups at 5 years, the surgical patients required significantly fewer antihypertensive and lipid-lowering medications to maintain those levels compared to the medical-therapy group."
+      ],
+      "reference": "STAMPEDE 5Y Q6: While overall blood pressure and LDL cholesterol levels were similar across all ... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa7",
+      "id": "tr-nejm-013-why7",
+      "type": "why",
+      "subtopic": "Why/How 7",
       "referenceNumber": 7,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 7?",
-      "modelAnswer": "tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly more likely to achieve and maintain a glycated hemoglobin level of 6.0% or less, with or without medications, than were those who received inte",
-      "reference": "Ref 7: \"tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly mor...\" — Dixon JB, O'Brien PE, Playfair J, et al. Adjustable gastric banding and conventional therapy for type 2 diabetes: a rand"
+      "question": "Why do the authors suspect the efficacy gap between medical therapy and surgery may have widened over time?",
+      "answer": "The authors noted a reduction in diabetes medication use in the medical-therapy group after 3 years, suggesting that nonadherence—driven by economic deterrents, side effects, or behavioral maladaptation—may have worsened their long-term outcomes.",
+      "keyPoints": [
+        "The authors noted a reduction in diabetes medication use in the medical-therapy group after 3 years, suggesting that nonadherence—driven by economic deterrents, side effects, or behavioral maladaptation—may have worsened their long-term outcomes."
+      ],
+      "reference": "STAMPEDE 5Y Q7: The authors noted a reduction in diabetes medication use in the medical-therapy ... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
       "id": "tr-nejm-013-how8",
+      "type": "how",
+      "subtopic": "Why/How 8",
       "referenceNumber": 8,
-      "type": "how",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "How does the process described in reference 8 relate to STAMPEDE 5-Year?",
-      "answer": "The rationale, design, and methods of the trial have been reported previously. The complete protocol was approved by the institutional review board at the Cleveland Clinic and is available with the full text of this article at NEJM.org. Briefly, the trial was a three-group, randomized, controlled, nonblinded, single-center study involving 150 obese patients who had type 2 diabetes, in which the effects of intensive medical therapy alone were compared with those of intensive medical therapy plus either gastric bypass or sleeve gastrectomy. Patients were randomly assigned in a 1:1:1 ratio to one of the three study groups, with stratification according to baseline use of insulin. Eligibility criteria included an age of 20 to 60 years, a glycated hemoglobin level of more than 7.0%, and a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 27 to 43. All the patients provided written informed consent.",
-      "reference": "Ref 8: \"The rationale, design, and methods of the trial have been reported previously. The complete protocol was approved by the institutional review board at the Cleve...\" — Schauer PR, Kashyap SR, Wolski K, et al. Bariatric surgery versus intensive medical therapy in obese patients with diabe"
+      "question": "How did Roux-en-Y gastric bypass compare directly to sleeve gastrectomy regarding weight loss?",
+      "answer": "At 5 years, the gastric-bypass procedure resulted in a significantly greater reduction in body weight (-23%) compared to the sleeve-gastrectomy procedure (-19%).",
+      "keyPoints": [
+        "At 5 years, the gastric-bypass procedure resulted in a significantly greater reduction in body weight (-23%) compared to the sleeve-gastrectomy procedure (-19%)."
+      ],
+      "reference": "STAMPEDE 5Y Q8: At 5 years, the gastric-bypass procedure resulted in a significantly greater red... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-how9",
+      "id": "tr-nejm-013-why9",
+      "type": "why",
+      "subtopic": "Why/How 9",
       "referenceNumber": 9,
-      "type": "how",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "How does the process described in reference 9 relate to STAMPEDE 5-Year?",
-      "answer": "trolled trials showed metabolic improvements after gastric bypass that were similar to those of our trial but showed less consistent improvements after gastric banding than did our trial. Lower rates of nutritional complications were observed after gastric bypass, sleeve gastrectomy, and gastric banding in randomized, controlled trials than the rates observed after biliopancreatic diversion.",
-      "reference": "Ref 9: \"trolled trials showed metabolic improvements after gastric bypass that were similar to those of our trial but showed less consistent improvements after gastric ...\" — Kashyap SR, Bhatt DL, Wolski K, et al. Metabolic effects of bariatric surgery in patients with moderate obesity and type"
+      "question": "Why did the researchers identify a diabetes duration of less than 8 years as a critical predictor of success?",
+      "answer": "A duration of diabetes of less than 8 years was the main predictor of achieving an HbA1c level of 6.0% or less, underscoring the physiological importance of early surgical intervention before pancreatic beta-cell function is irreversibly depleted.",
+      "keyPoints": [
+        "A duration of diabetes of less than 8 years was the main predictor of achieving an HbA1c level of 6.0% or less, underscoring the physiological importance of early surgical intervention before pancreatic beta-cell function is irreversibly depleted."
+      ],
+      "reference": "STAMPEDE 5Y Q9: A duration of diabetes of less than 8 years was the main predictor of achieving ... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-why10",
+      "id": "tr-nejm-013-how10",
+      "type": "how",
+      "subtopic": "Why/How 10",
       "referenceNumber": 10,
-      "type": "why",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "Why is the following clinically relevant in STAMPEDE 5-Year? Context: The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Pre…",
-      "answer": "The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Prespecified secondary outcomes included measures of glycemic control, weight loss, blood pressure, lipid levels, renal function, ophthalmologic outcomes, medication use, adverse events, and quality of life (as evaluated with the use of the RAND 36-Item Health Survey). Methods for ophthalmologic evaluations are reported in the protocol. The strategy for all three groups was the adjustment of intensive medical therapy (every 3 months for 2 years and every 6 months thereafter) with the goal of achieving a glycated hemoglobin level of 6.0% or less, without unacceptable side effects associated with medical treatment. Patients in the surgical groups were instructed to take daily supplemental multivitamins, vitamin B , vitamin D, calcium, and iron",
-      "reference": "Ref 10: \"The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Prespecified secondary outcomes included me...\" — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 3-year outcome"
+      "question": "How did the patients' quality of life change in the medical-therapy group over the 5 years?",
+      "answer": "Despite receiving intensive medical treatment, none of the quality-of-life components improved significantly from baseline for the medical-therapy group, and their scores for bodily pain and emotional well-being actually worsened significantly.",
+      "keyPoints": [
+        "Despite receiving intensive medical treatment, none of the quality-of-life components improved significantly from baseline for the medical-therapy group, and their scores for bodily pain and emotional well-being actually worsened significantly."
+      ],
+      "reference": "STAMPEDE 5Y Q10: Despite receiving intensive medical treatment, none of the quality-of-life compo... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa11",
+      "id": "tr-nejm-013-why11",
+      "type": "why",
+      "subtopic": "Why/How 11",
       "referenceNumber": 11,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 11?",
-      "modelAnswer": "tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly more likely to achieve and maintain a glycated hemoglobin level of 6.0% or less, with or without medications, than were those who received inte",
-      "reference": "Ref 11: \"tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly mor...\" — Mingrone G, Panunzi S, De Gaetano A, et al. Bariatric-metabolic surgery versus conventional medical treatment in obese p"
+      "question": "Why do the study results mitigate concerns that rapid glycemic control from surgery might worsen diabetic retinopathy?",
+      "answer": "The results ease these concerns because no significant changes or worsening in retinopathy scores, macular edema, or visual acuity were observed in any of the study groups over the 5-year period.",
+      "keyPoints": [
+        "The results ease these concerns because no significant changes or worsening in retinopathy scores, macular edema, or visual acuity were observed in any of the study groups over the 5-year period."
+      ],
+      "reference": "STAMPEDE 5Y Q11: The results ease these concerns because no significant changes or worsening in r... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa12",
+      "id": "tr-nejm-013-how12",
+      "type": "how",
+      "subtopic": "Why/How 12",
       "referenceNumber": 12,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 12?",
-      "modelAnswer": "tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly more likely to achieve and maintain a glycated hemoglobin level of 6.0% or less, with or without medications, than were those who received inte",
-      "reference": "Ref 12: \"tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly mor...\" — Ikramuddin S, Billington CJ, Lee WJ, et al. Roux-en-Y gastric bypass for diabetes (the Diabetes Surgery Study): 2-year o"
+      "question": "How did surgical interventions affect the patients' reliance on insulin therapy?",
+      "answer": "At 5 years, approximately 89% of patients in the surgical groups were successfully maintaining an average HbA1c level of 7.0% without taking any insulin, whereas only 61% of patients in the medical-therapy group were off insulin.",
+      "keyPoints": [
+        "At 5 years, approximately 89% of patients in the surgical groups were successfully maintaining an average HbA1c level of 7.0% without taking any insulin, whereas only 61% of patients in the medical-therapy group were off insulin."
+      ],
+      "reference": "STAMPEDE 5Y Q12: At 5 years, approximately 89% of patients in the surgical groups were successful... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa13",
+      "id": "tr-nejm-013-why13",
+      "type": "why",
+      "subtopic": "Why/How 13",
       "referenceNumber": 13,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 13?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 13: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Liang Z, Wu Q, Chen B, Yu P, Zhao H, Ouyang X. Effect of laparoscopic Rouxen-Y gastric bypass surgery on type 2 diabetes"
+      "question": "Why did a patient originally assigned to the medical-therapy group undergo a gastric bypass during year 3?",
+      "answer": "The patient crossed over to receive a gastric bypass due to the clinical failure of their assigned medical treatment, as evidenced by a reported HbA1c level remaining above 9%.",
+      "keyPoints": [
+        "The patient crossed over to receive a gastric bypass due to the clinical failure of their assigned medical treatment, as evidenced by a reported HbA1c level remaining above 9%."
+      ],
+      "reference": "STAMPEDE 5Y Q13: The patient crossed over to receive a gastric bypass due to the clinical failure... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa14",
+      "id": "tr-nejm-013-how14",
+      "type": "how",
+      "subtopic": "Why/How 14",
       "referenceNumber": 14,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 14?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 14: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Halperin F, Ding SA, Simonson DC, et al. Roux-en-Y gastric bypass surgery or lifestyle with intensive medical management"
+      "question": "How did the urinary albumin-to-creatinine ratio change across the different treatment groups?",
+      "answer": "At 5 years, the urinary albumin-to-creatinine ratio had decreased significantly from baseline in the sleeve-gastrectomy group only, and was significantly lower than the ratio observed in the medical-therapy group.",
+      "keyPoints": [
+        "At 5 years, the urinary albumin-to-creatinine ratio had decreased significantly from baseline in the sleeve-gastrectomy group only, and was significantly lower than the ratio observed in the medical-therapy group."
+      ],
+      "reference": "STAMPEDE 5Y Q14: At 5 years, the urinary albumin-to-creatinine ratio had decreased significantly ... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa15",
+      "id": "tr-nejm-013-why15",
+      "type": "why",
+      "subtopic": "Why/How 15",
       "referenceNumber": 15,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 15?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 15: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Courcoulas AP, Belle SH, Neiberg RH, et al. Three-year outcomes of bariatric surgery vs lifestyle intervention for type "
+      "question": "Why were specific vitamins supplemented for the surgical groups?",
+      "answer": "Because bariatric surgeries alter gastrointestinal anatomy and absorption, patients were instructed to take daily multivitamins, vitamin B12, vitamin D, calcium, and iron to prevent late nutritional complications and anemia.",
+      "keyPoints": [
+        "Because bariatric surgeries alter gastrointestinal anatomy and absorption, patients were instructed to take daily multivitamins, vitamin B12, vitamin D, calcium, and iron to prevent late nutritional complications and anemia."
+      ],
+      "reference": "STAMPEDE 5Y Q15: Because bariatric surgeries alter gastrointestinal anatomy and absorption, patie... — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     },
     {
-      "id": "tr-nejm-013-sa16",
-      "referenceNumber": 16,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 16?",
-      "modelAnswer": "tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly more likely to achieve and maintain a glycated hemoglobin level of 6.0% or less, with or without medications, than were those who received inte",
-      "reference": "Ref 16: \"tion, medication reduction, improvement in lipid levels, and quality of life. Patients who underwent gastric bypass or sleeve gastrectomy were significantly mor...\" — Wentworth JM, Playfair J, Laurie C, et al. Multidisciplinary diabetes care with and without bariatric surgery in overwei"
-    },
-    {
-      "id": "tr-nejm-013-sa17",
-      "referenceNumber": 17,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 17?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 17: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Parikh M, Chung M, Sheth S, et al. Randomized pilot trial of bariatric surgery versus intensive medical weight managemen"
-    },
-    {
-      "id": "tr-nejm-013-how18",
-      "referenceNumber": 18,
-      "type": "how",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "How does the process described in reference 18 relate to STAMPEDE 5-Year?",
-      "answer": "trolled trials showed metabolic improvements after gastric bypass that were similar to those of our trial but showed less consistent improvements after gastric banding than did our trial. Lower rates of nutritional complications were observed after gastric bypass, sleeve gastrectomy, and gastric banding in randomized, controlled trials than the rates observed after biliopancreatic diversion.",
-      "reference": "Ref 18: \"trolled trials showed metabolic improvements after gastric bypass that were similar to those of our trial but showed less consistent improvements after gastric ...\" — Ding SA, Simonson DC, Wewalka M, et al. Adjustable gastric band surgery or medical management in patients with type 2 di"
-    },
-    {
-      "id": "tr-nejm-013-sa19",
-      "referenceNumber": 19,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From STAMPEDE 5-Year, what is the key numeric finding cited in reference 19?",
-      "modelAnswer": "Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included only severely obese patients, and showed high rates of remission after surgery. The initial and 3-year analyses from the current trial showed ",
-      "reference": "Ref 19: \"Until recently, most studies that evaluated the effect of bariatric surgery on glycemic control in patients with type 2 diabetes were observational, included on...\" — Cummings DE, Arterburn DE, Westbrook EO, et al. Gastric bypass surgery vs intensive lifestyle and medical intervention f"
-    },
-    {
-      "id": "tr-nejm-013-how20",
-      "referenceNumber": 20,
-      "type": "how",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "How does the process described in reference 20 relate to STAMPEDE 5-Year?",
-      "answer": "The rationale, design, and methods of the trial have been reported previously. The complete protocol was approved by the institutional review board at the Cleveland Clinic and is available with the full text of this article at NEJM.org. Briefly, the trial was a three-group, randomized, controlled, nonblinded, single-center study involving 150 obese patients who had type 2 diabetes, in which the effects of intensive medical therapy alone were compared with those of intensive medical therapy plus either gastric bypass or sleeve gastrectomy. Patients were randomly assigned in a 1:1:1 ratio to one of the three study groups, with stratification according to baseline use of insulin. Eligibility criteria included an age of 20 to 60 years, a glycated hemoglobin level of more than 7.0%, and a body-mass index (BMI; the weight in kilograms divided by the square of the height in meters) of 27 to 43. All the patients provided written informed consent.",
-      "reference": "Ref 20: \"The rationale, design, and methods of the trial have been reported previously. The complete protocol was approved by the institutional review board at the Cleve...\" — Kashyap SR, Bhatt DL, Schauer PR, STAMPEDE Investigators. Bariatric surgery vs. advanced practice medical management in "
-    },
-    {
-      "id": "tr-nejm-013-why21",
-      "referenceNumber": 21,
-      "type": "why",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "Why is the following clinically relevant in STAMPEDE 5-Year? Context: The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Pre…",
-      "answer": "The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Prespecified secondary outcomes included measures of glycemic control, weight loss, blood pressure, lipid levels, renal function, ophthalmologic outcomes, medication use, adverse events, and quality of life (as evaluated with the use of the RAND 36-Item Health Survey). Methods for ophthalmologic evaluations are reported in the protocol. The strategy for all three groups was the adjustment of intensive medical therapy (every 3 months for 2 years and every 6 months thereafter) with the goal of achieving a glycated hemoglobin level of 6.0% or less, without unacceptable side effects associated with medical treatment. Patients in the surgical groups were instructed to take daily supplemental multivitamins, vitamin B , vitamin D, calcium, and iron",
-      "reference": "Ref 21: \"The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Prespecified secondary outcomes included me...\" — Hays RD, Sherbourne CD, Mazel RM. The RAND 36-Item Health Survey 1.0. Health Econ 1993;2:217-27."
-    },
-    {
-      "id": "tr-nejm-013-why22",
-      "referenceNumber": 22,
-      "type": "why",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "Why is the following clinically relevant in STAMPEDE 5-Year? Context: The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Pre…",
-      "answer": "The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Prespecified secondary outcomes included measures of glycemic control, weight loss, blood pressure, lipid levels, renal function, ophthalmologic outcomes, medication use, adverse events, and quality of life (as evaluated with the use of the RAND 36-Item Health Survey). Methods for ophthalmologic evaluations are reported in the protocol. The strategy for all three groups was the adjustment of intensive medical therapy (every 3 months for 2 years and every 6 months thereafter) with the goal of achieving a glycated hemoglobin level of 6.0% or less, without unacceptable side effects associated with medical treatment. Patients in the surgical groups were instructed to take daily supplemental multivitamins, vitamin B , vitamin D, calcium, and iron",
-      "reference": "Ref 22: \"The primary outcome was a glycated hemoglobin level of 6.0% or less with or without the use of diabetes medications. Prespecified secondary outcomes included me...\" — Singh RP, Gans R, Kashyap SR, et al. Effect of bariatric surgery versus intensive medical management on diabetic ophthal"
-    },
-    {
-      "id": "tr-nejm-013-how23",
-      "referenceNumber": 23,
-      "type": "how",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "How does the process described in reference 23 relate to STAMPEDE 5-Year?",
-      "answer": "Data on changes in retinopathy scores and visual acuity from other randomized trials involving bariatric surgery are lacking. In our trial, no significant changes were observed at 2 years after randomization or in the current 5-year analysis (Table S6 in the Supplementary Appendix). In contrast, initial worsening of retinopathy was shown in the Diabetes Control and Complications Trial within the first year of intensive medical treatment. Our results should mitigate concerns that rapid glycemic improvement with surgery could worsen retinopathy.",
-      "reference": "Ref 23: \"Data on changes in retinopathy scores and visual acuity from other randomized trials involving bariatric surgery are lacking. In our trial, no significant chang...\" — The Diabetes Control and Complications Trial Research Group. Early worsening of diabetic retinopathy in the Diabetes Con"
-    },
-    {
-      "id": "tr-nejm-013-q24",
-      "referenceNumber": 24,
+      "id": "tr-nejm-013-q1",
       "type": "mcq",
-      "subtopic": "STAMPEDE 5-Year",
-      "question": "Which finding is supported by reference 24 in STAMPEDE 5-Year?",
+      "subtopic": "MCQ 1",
+      "referenceNumber": 16,
+      "question": "What was the mean baseline glycated hemoglobin (HbA1c) level of the 134 patients who completed the 5-year follow-up?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "7.0%",
+        "8.4%",
+        "9.2%",
+        "10.5%"
+      ],
+      "correctOption": 2,
+      "explanation": "Mean baseline HbA1c was 9.2% among 134 completers.",
+      "reference": "STAMPEDE 5Y MCQ 1: Mean baseline HbA1c was 9.2% among 134 completers. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
+      "referenceNumber": 17,
+      "question": "Which group experienced the greatest mean percentage of weight loss from baseline to 5 years?",
+      "options": [
+        "Intensive medical therapy alone",
+        "Sleeve gastrectomy",
+        "Gastric bypass",
+        "Both surgical groups were identical"
+      ],
+      "correctOption": 2,
+      "explanation": "Gastric bypass had greatest weight loss (-23%).",
+      "reference": "STAMPEDE 5Y MCQ 2: Gastric bypass had greatest weight loss (-23%). — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
+      "referenceNumber": 18,
+      "question": "According to the multivariable logistic model, which of the following was a significant predictor of achieving an HbA1c level ≤6.0%?",
+      "options": [
+        "BMI greater than 40",
+        "Duration of diabetes of less than 8 years",
+        "Female sex",
+        "High baseline use of insulin"
+      ],
+      "correctOption": 1,
+      "explanation": "Diabetes duration <8 years predicted HbA1c ≤6.0%.",
+      "reference": "STAMPEDE 5Y MCQ 3: Diabetes duration <8 years predicted HbA1c ≤6.0%. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
+      "referenceNumber": 19,
+      "question": "What percentage of patients in the intensive medical-therapy group successfully achieved the primary endpoint at 5 years?",
+      "options": [
+        "0%",
+        "5%",
+        "15%",
+        "23%"
+      ],
+      "correctOption": 1,
+      "explanation": "Only 5% of medical-therapy patients achieved primary endpoint.",
+      "reference": "STAMPEDE 5Y MCQ 4: Only 5% of medical-therapy patients achieved primary endpoint. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
+      "referenceNumber": 20,
+      "question": "Which of the following ophthalmologic outcomes worsened significantly in the surgical groups at 5 years?",
+      "options": [
+        "Retinopathy scores",
+        "Incidence of macular edema",
+        "Visual acuity",
+        "None of the above"
       ],
       "correctOption": 3,
-      "explanation": "Limitations of our study include an inadequate sample size and duration to detect differences in the incidence of cardiovascular and end-organ complications and to detect some differences in outcomes between the two surgical procedures. Despite the intent to continue intensive medical treatment in the control group throughout the study, a reduction in diabetes medication use was observed after 3 years. Plausible explanations for nonadherence to medication use and lifestyle counseling include economic deterrents, unacceptable side effects from the drugs, and behavioral maladaptation. A higher degree of adherence may have decreased the efficacy gap between medical therapy and surgery.",
-      "reference": "Ref 24: \"Limitations of our study include an inadequate sample size and duration to detect differences in the incidence of cardiovascular and end-organ complications and...\" — Kolandaivelu K, Leiden BB, O'Gara PT, Bhatt DL. Non-adherence to cardiovascular medications. Eur Heart J 2014;35:3267-76"
+      "explanation": "No significant worsening of retinopathy, macular edema, or visual acuity.",
+      "reference": "STAMPEDE 5Y MCQ 5: No significant worsening of retinopathy, macular edema, or visual acuity. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
+      "referenceNumber": 21,
+      "question": "What percentage of the surviving randomized patients successfully completed the 5-year follow-up assessment?",
+      "options": [
+        "66%",
+        "75%",
+        "89%",
+        "99%"
+      ],
+      "correctOption": 2,
+      "explanation": "89% of surviving patients completed 5-year follow-up.",
+      "reference": "STAMPEDE 5Y MCQ 6: 89% of surviving patients completed 5-year follow-up. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
+      "referenceNumber": 22,
+      "question": "What was the mean baseline Body Mass Index (BMI) of the enrolled patients?",
+      "options": [
+        "27",
+        "32",
+        "37",
+        "43"
+      ],
+      "correctOption": 2,
+      "explanation": "Mean baseline BMI was 37.",
+      "reference": "STAMPEDE 5Y MCQ 7: Mean baseline BMI was 37. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
+      "referenceNumber": 23,
+      "question": "Excessive weight gain (defined as a ≥5% increase over baseline) was observed in what percentage of the surgical patients?",
+      "options": [
+        "0%",
+        "5%",
+        "10%",
+        "19%"
+      ],
+      "correctOption": 0,
+      "explanation": "0% of surgical patients had ≥5% weight gain.",
+      "reference": "STAMPEDE 5Y MCQ 8: 0% of surgical patients had ≥5% weight gain. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
+      "referenceNumber": 24,
+      "question": "Which adverse event was noted to be significantly more common in the two surgical groups than in the medical-therapy group?",
+      "options": [
+        "Fatal myocardial infarction",
+        "Bowel obstruction",
+        "Stroke",
+        "Mild anemia"
+      ],
+      "correctOption": 3,
+      "explanation": "Mild anemia was more common in surgical groups.",
+      "reference": "STAMPEDE 5Y MCQ 9: Mild anemia was more common in surgical groups. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q10",
+      "type": "mcq",
+      "subtopic": "MCQ 10",
+      "referenceNumber": 25,
+      "question": "How did Low-Density Lipoprotein (LDL) cholesterol levels differ between the three study groups at 5 years?",
+      "options": [
+        "They were significantly lower in the medical-therapy group.",
+        "They were significantly lower in the gastric-bypass group.",
+        "They were significantly lower in the sleeve-gastrectomy group.",
+        "There were no significant differences among the three groups."
+      ],
+      "correctOption": 3,
+      "explanation": "No significant LDL differences among groups at 5 years.",
+      "reference": "STAMPEDE 5Y MCQ 10: No significant LDL differences among groups at 5 years. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q11",
+      "type": "mcq",
+      "subtopic": "MCQ 11",
+      "referenceNumber": 26,
+      "question": "What was the prespecified target HbA1c level used to adjust therapies during patient visits across all three groups?",
+      "options": [
+        "≤5.5%",
+        "≤6.0%",
+        "≤6.5%",
+        "≤7.0%"
+      ],
+      "correctOption": 1,
+      "explanation": "Therapy adjusted to target HbA1c ≤6.0%.",
+      "reference": "STAMPEDE 5Y MCQ 11: Therapy adjusted to target HbA1c ≤6.0%. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q12",
+      "type": "mcq",
+      "subtopic": "MCQ 12",
+      "referenceNumber": 27,
+      "question": "What proportion of the overall patient population included in the 5-year assessment were women?",
+      "options": [
+        "33%",
+        "50%",
+        "66%",
+        "80%"
+      ],
+      "correctOption": 2,
+      "explanation": "66% of patients were women.",
+      "reference": "STAMPEDE 5Y MCQ 12: 66% of patients were women. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q13",
+      "type": "mcq",
+      "subtopic": "MCQ 13",
+      "referenceNumber": 28,
+      "question": "Which component of the RAND 36-Item Health Survey worsened significantly among patients specifically in the gastric-bypass group?",
+      "options": [
+        "Physical functioning",
+        "Energy-fatigue",
+        "General health",
+        "Emotional well-being"
+      ],
+      "correctOption": 3,
+      "explanation": "Emotional well-being worsened significantly in gastric-bypass group.",
+      "reference": "STAMPEDE 5Y MCQ 13: Emotional well-being worsened significantly in gastric-bypass group. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q14",
+      "type": "mcq",
+      "subtopic": "MCQ 14",
+      "referenceNumber": 29,
+      "question": "How many late reoperations occurred in the surgical groups during year 4?",
+      "options": [
+        "Zero",
+        "One",
+        "Four",
+        "Ten"
+      ],
+      "correctOption": 1,
+      "explanation": "One late reoperation in year 4 (recurrent gastric fistula).",
+      "reference": "STAMPEDE 5Y MCQ 14: One late reoperation in year 4 (recurrent gastric fistula). — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q15",
+      "type": "mcq",
+      "subtopic": "MCQ 15",
+      "referenceNumber": 30,
+      "question": "What was the percentage reduction in triglyceride levels observed in the gastric-bypass group at 5 years?",
+      "options": [
+        "-8%",
+        "-19%",
+        "-29%",
+        "-40%"
+      ],
+      "correctOption": 3,
+      "explanation": "Triglycerides reduced ~40% in gastric-bypass group.",
+      "reference": "STAMPEDE 5Y MCQ 15: Triglycerides reduced ~40% in gastric-bypass group. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q16",
+      "type": "mcq",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "In the medical-therapy group, what proportion of patients reached an HbA1c ≤6.0% without the use of diabetes medications at 5 years?",
+      "options": [
+        "0 patients",
+        "2 patients",
+        "5 patients",
+        "11 patients"
+      ],
+      "correctOption": 0,
+      "explanation": "Zero medical-therapy patients achieved HbA1c ≤6.0% without medications.",
+      "reference": "STAMPEDE 5Y MCQ 16: Zero medical-therapy patients achieved HbA1c ≤6.0% without medications. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q17",
+      "type": "mcq",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "Approximately what percentage of the study patients had a BMI of less than 35 at baseline?",
+      "options": [
+        "10%",
+        "25%",
+        "37%",
+        "50%"
+      ],
+      "correctOption": 2,
+      "explanation": "~37% had BMI <35 at baseline.",
+      "reference": "STAMPEDE 5Y MCQ 17: ~37% had BMI <35 at baseline. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q18",
+      "type": "mcq",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "Which variable showed a significant reduction in the sleeve-gastrectomy group but not in the gastric-bypass or medical-therapy group at 5 years?",
+      "options": [
+        "Fasting plasma glucose",
+        "HDL cholesterol",
+        "Urinary albumin-to-creatinine ratio",
+        "Retinopathy score"
+      ],
+      "correctOption": 2,
+      "explanation": "Urinary albumin-to-creatinine ratio decreased significantly only in sleeve group.",
+      "reference": "STAMPEDE 5Y MCQ 18: Urinary albumin-to-creatinine ratio decreased significantly only in sleeve group. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q19",
+      "type": "mcq",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "According to the study, relapse of glycemic control (meeting the primary endpoint at year 1 but not at year 5) was associated with which factor?",
+      "options": [
+        "It was highly associated with significant weight regain.",
+        "It was not associated with weight regain.",
+        "It was associated with stopping vitamin supplementation.",
+        "It was associated with age over 50."
+      ],
+      "correctOption": 1,
+      "explanation": "Glycemic relapse was not associated with weight regain.",
+      "reference": "STAMPEDE 5Y MCQ 19: Glycemic relapse was not associated with weight regain. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-q20",
+      "type": "mcq",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "At 5 years, approximately what percentage of patients in the intensive medical-therapy group were still taking insulin?",
+      "options": [
+        "11%",
+        "39%",
+        "61%",
+        "89%"
+      ],
+      "correctOption": 1,
+      "explanation": "39% of medical-therapy patients still on insulin (61% off insulin).",
+      "reference": "STAMPEDE 5Y MCQ 20: 39% of medical-therapy patients still on insulin (61% off insulin). — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "The trial concluded that bariatric surgery was superior to intensive medical therapy for achieving an HbA1c ≤6.0% at 5 years.",
+      "correctAnswer": true,
+      "explanation": "Surgery superior: 29%/23% vs 5% achieving primary endpoint.",
+      "reference": "STAMPEDE 5Y T/F 1: Surgery superior: 29%/23% vs 5% achieving primary endpoint. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "To be eligible for the STAMPEDE trial, a patient was required to have a baseline BMI of at least 35.",
+      "correctAnswer": false,
+      "explanation": "Eligibility BMI 27–43, not ≥35 only.",
+      "reference": "STAMPEDE 5Y T/F 2: Eligibility BMI 27–43, not ≥35 only. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "At 5 years, the gastric-bypass group experienced significantly greater weight loss than the sleeve-gastrectomy group.",
+      "correctAnswer": true,
+      "explanation": "Bypass -23% vs sleeve -19% weight loss.",
+      "reference": "STAMPEDE 5Y T/F 3: Bypass -23% vs sleeve -19% weight loss. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "Emotional well-being scores worsened significantly in both the medical-therapy alone group and the gastric-bypass group by year 5.",
+      "correctAnswer": true,
+      "explanation": "Emotional well-being worsened in medical and bypass groups.",
+      "reference": "STAMPEDE 5Y T/F 4: Emotional well-being worsened in medical and bypass groups. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "The 5-year data showed a significant worsening of diabetic retinopathy specifically in patients who underwent bariatric surgery.",
+      "correctAnswer": false,
+      "explanation": "No significant retinopathy worsening in any group.",
+      "reference": "STAMPEDE 5Y T/F 5: No significant retinopathy worsening in any group. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "Patients assigned to receive intensive medical therapy alone reported significant improvements from baseline in their general health quality-of-life scores.",
+      "correctAnswer": false,
+      "explanation": "No significant QoL improvement in medical-therapy group.",
+      "reference": "STAMPEDE 5Y T/F 6: No significant QoL improvement in medical-therapy group. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "Intensive medical therapy alone resulted in an average body weight reduction of 5% at the 5-year mark.",
+      "correctAnswer": true,
+      "explanation": "Medical therapy group lost ~5% body weight.",
+      "reference": "STAMPEDE 5Y T/F 7: Medical therapy group lost ~5% body weight. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "Over 88% of surgical patients successfully maintained an average HbA1c level of 7.0% without the use of insulin at 5 years.",
+      "correctAnswer": true,
+      "explanation": "~89% of surgical patients off insulin with HbA1c ~7.0%.",
+      "reference": "STAMPEDE 5Y T/F 8: ~89% of surgical patients off insulin with HbA1c ~7.0%. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "Relapse of glycemic control between year 1 and year 5 was shown to be strongly driven by significant weight regain.",
+      "correctAnswer": false,
+      "explanation": "Relapse not associated with weight regain.",
+      "reference": "STAMPEDE 5Y T/F 9: Relapse not associated with weight regain. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "There were significant differences found in systolic and diastolic blood pressure among the three groups at 5 years.",
+      "correctAnswer": false,
+      "explanation": "BP levels similar across groups at 5 years.",
+      "reference": "STAMPEDE 5Y T/F 10: BP levels similar across groups at 5 years. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "One patient in the sleeve-gastrectomy group crossed over to the gastric-bypass group during year 4 as a treatment for a recurrent gastric fistula.",
+      "correctAnswer": true,
+      "explanation": "One sleeve patient crossed to bypass for recurrent fistula in year 4.",
+      "reference": "STAMPEDE 5Y T/F 11: One sleeve patient crossed to bypass for recurrent fistula in year 4. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "The STAMPEDE study was conducted as a randomized, double-blinded, multicenter trial.",
+      "correctAnswer": false,
+      "explanation": "Single-center, randomized, nonblinded trial.",
+      "reference": "STAMPEDE 5Y T/F 12: Single-center, randomized, nonblinded trial. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "Excessive weight gain (≥5% increase over baseline) was reported in 19% of the medical-therapy group but occurred in 0% of patients in the surgical groups.",
+      "correctAnswer": true,
+      "explanation": "19% medical vs 0% surgical had ≥5% weight gain.",
+      "reference": "STAMPEDE 5Y T/F 13: 19% medical vs 0% surgical had ≥5% weight gain. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "Patients in the surgical groups required more medications to treat hyperlipidemia and hypertension than the medical-therapy group at 5 years.",
+      "correctAnswer": false,
+      "explanation": "Surgical patients required fewer BP and lipid medications.",
+      "reference": "STAMPEDE 5Y T/F 14: Surgical patients required fewer BP and lipid medications. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
+    },
+    {
+      "id": "tr-nejm-013-tf15",
+      "type": "true_false",
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "The reductions in HbA1c levels and BMI observed in the surgical groups were similar between patients with a BMI <35 and those with a BMI ≥35.",
+      "correctAnswer": true,
+      "explanation": "Similar HbA1c and BMI reductions in BMI <35 and ≥35 subgroups.",
+      "reference": "STAMPEDE 5Y T/F 15: Similar HbA1c and BMI reductions in BMI <35 and ≥35 subgroups. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy for diabetes — 5-year outcomes. N Engl J Med 2017;376:641-651."
     }
   ]
 }
