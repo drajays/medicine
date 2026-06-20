@@ -428,6 +428,31 @@ function buildTrialJson(paper) {
   return outFile;
 }
 
+function countsFromTrialJson(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const items = data.items || [];
+  return {
+    notes: items.filter(i => i.type === 'note').length,
+    inclusion: (data.inclusionCriteria || []).length,
+    exclusion: (data.exclusionCriteria || []).length,
+    takeaways: (data.keyTakeaways || []).length,
+    mcq: items.filter(i => i.type === 'mcq').length,
+    tf: items.filter(i => i.type === 'true_false').length,
+    why: items.filter(i => i.type === 'why').length,
+    how: items.filter(i => i.type === 'how').length,
+    shortanswer: items.filter(i => i.type === 'shortanswer').length,
+    refs: items.filter(i => i.referenceNumber).length,
+    total: items.length + (data.inclusionCriteria || []).length + (data.exclusionCriteria || []).length + (data.keyTakeaways || []).length,
+  };
+}
+
+function withTrialCounts(entry) {
+  if (!entry.file || entry.status !== 'ready') return entry;
+  const counts = countsFromTrialJson(path.join(DATA_DIR, entry.file));
+  return counts ? { ...entry, counts } : entry;
+}
+
 function updateIndex(manifest) {
   const index = JSON.parse(fs.readFileSync(INDEX_PATH, 'utf8'));
   index.trials = index.trials || {};
@@ -454,7 +479,7 @@ function updateIndex(manifest) {
 
   const nejmEntries = manifest.map(p => {
     const built = fs.existsSync(path.join(DATA_DIR, p.dataFile));
-    return {
+    return withTrialCounts({
       id: p.trialId,
       subsection: 'nejm',
       sourceKey: p.sourceKey,
@@ -464,10 +489,10 @@ function updateIndex(manifest) {
       paperType: p.paperType,
       file: built ? p.dataFile : null,
       status: built ? 'ready' : 'pending',
-    };
+    });
   });
 
-  index.trials.entries = [...general, ...nejmEntries];
+  index.trials.entries = [...general.map(withTrialCounts), ...nejmEntries];
   fs.writeFileSync(INDEX_PATH, JSON.stringify(index, null, 2) + '\n');
   console.log(`Updated index: ${nejmEntries.filter(e => e.status === 'ready').length}/${nejmEntries.length} NEJM ready`);
 }

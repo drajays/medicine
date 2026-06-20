@@ -80,8 +80,13 @@ async function loadContentCounts(entries){
 
 async function loadTrialCounts(entries){
   const counts = {};
-  const ready = entries.filter(ch => ch.status === 'ready' && ch.file);
-  await Promise.all(ready.map(async ch => {
+  const needFetch = [];
+  for (const ch of entries) {
+    if (!(ch.status === 'ready' && ch.file)) continue;
+    if (ch.counts) counts[ch.id] = ch.counts;
+    else needFetch.push(ch);
+  }
+  await Promise.all(needFetch.map(async ch => {
     try {
       const data = await loadJSON('data/' + ch.file);
       const items = data.items || [];
@@ -263,8 +268,8 @@ async function showCatalog(){
       return acc;
     }, {notes:0, inclusion:0, exclusion:0, takeaways:0, mcq:0, tf:0, why:0, how:0, shortanswer:0, refs:0, items:0});
 
-    html += `<div class="trials-banner">
-      <div class="trials-title">📊 ${esc(tr.title || 'Trials')}</div>
+    html += `<div class="trials-banner" id="trials-catalog">
+      <div class="trials-title">📊 ${esc(tr.title || 'Trials')} <span class="nejm-banner-hint">· scroll to 📰 NEJM below</span></div>
       <div class="trials-desc">${esc(tr.description || '')}</div>
       ${trTotals.items ? `<div class="trials-totals">${trTotals.items} items — ${trTotals.refs ? trTotals.refs+' ref-Q · ' : ''}${trTotals.notes} notes · ${trTotals.mcq} MCQs · ${trTotals.tf} T/F · ${trTotals.why} Why · ${trTotals.how} How · ${trTotals.shortanswer} Short</div>` : ''}
       <div class="trial-filter-chips">
