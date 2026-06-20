@@ -1,0 +1,292 @@
+{
+  "id": "cr-003",
+  "reportType": "case_report",
+  "title": "Severe PTH-Independent Hypercalcemia with Elevated Calcitriol",
+  "subtitle": "Recurrent Fever, Mediastinal Lymphadenopathy & Rebound Hypercalcemia in Decompensated CLD",
+  "section": "Case Reports",
+  "category": "Endocrinology · Nephrology · Hepatology",
+  "authors": "Clinical case vignette — anonymized teaching case",
+  "sourceFile": "user-provided case review (chat); de-identified for publication",
+  "patient": {
+    "age": 73,
+    "sex": "Female",
+    "chiefComplaint": "Recurrent on-and-off fever; recent severe hypercalcemia",
+    "pmh": [
+      "Decompensated chronic liver disease — EVL done",
+      "Type 2 diabetes mellitus (15 years) — currently controlled",
+      "History of urinary tract infection",
+      "Recent AKI on CKD background — creatinine rising over 2 months"
+    ],
+    "medications": []
+  },
+  "caseDescription": "A 73-year-old woman with decompensated CLD, T2DM, and CKD presents with recurrent fever and severe hypercalcemia. Corrected calcium peaked at 18.3 mg/dL (PTH-independent). Labs: phosphorus 5–6 mg/dL, suppressed intact PTH, 25(OH)D 75 ng/mL, 1,25(OH)₂D 237 pg/mL (ULN 190), ACE 114 U/L (borderline elevated). Myeloma profile and bone marrow biopsy are negative. Chest imaging shows mediastinal lymphadenopathy (not significantly enlarged but clinically relevant). Creatinine and calcium were normal prior to August 2025.\n\nAcute management with IV fluids, calcitonin, and denosumab 60 mg reduced calcium to 10.7 mg/dL over one week, but rebound to 11.3 mg/dL is documented.\n\nBiochemical triad — PTH-independent hypercalcemia + hyperphosphatemia + elevated 1,25(OH)₂D — points to unregulated extra-renal 1α-hydroxylase activity. Pure vitamin D toxicity is unlikely (25-OH typically >150 ng/mL; renal 1α-hydroxylase feedback keeps 1,25 normal). Leading DD: granulomatous disease (sarcoidosis/TB) vs lymphoma. Ca×Phos product approaching metastatic calcification risk in setting of AKI/CKD.\n\nAction plan: urgent PET-CT, PTHrP (exclude HHM/HCC in CLD), EBUS-TBNA if PET-avid mediastinal nodes, halt exogenous vitamin D/calcium, monitor Ca×Phos product, fresh urine culture for UTI contributing to fever.",
+  "keyFindings": [
+    "Corrected calcium peak 18.3 mg/dL — severe, PTH-independent",
+    "1,25(OH)₂D 237 pg/mL with 25(OH)D 75 ng/mL — extra-renal 1α-hydroxylase activity",
+    "Suppressed iPTH, phosphorus 5–6 mg/dL, ACE 114 U/L",
+    "Mediastinal lymphadenopathy on chest imaging; recurrent fever (FUO)",
+    "Myeloma profile and bone marrow negative",
+    "Rebound hypercalcemia (11.3) after IV fluids + calcitonin + denosumab",
+    "AKI on CKD + decompensated CLD — high Ca×Phos metastatic calcification risk"
+  ],
+  "finalDiagnosis": "Severe PTH-independent hypercalcemia from unregulated extra-renal calcitriol synthesis — leading DD: granulomatous disease (sarcoidosis vs TB) vs lymphoma; tissue diagnosis pending PET-CT and EBUS-TBNA",
+  "learningObjectives": [
+    "Interpret PTH-independent hypercalcemia with elevated 1,25(OH)₂D using first-principles biochemistry",
+    "Distinguish granulomatous hypercalcemia from vitamin D toxicity and humoral hypercalcemia of malignancy",
+    "Recognize rebound hypercalcemia after acute treatment and the need for definitive source localization",
+    "Manage renal risk from Ca×Phos product in AKI/CKD with decompensated CLD",
+    "Apply expedited PET-CT and EBUS-TBNA strategy for FUO with mediastinal nodes in Indian demographic"
+  ],
+  "items": [
+    {
+      "id": "cr-003-n1",
+      "type": "note",
+      "subtopic": "Biochemical Synthesis",
+      "title": "What does the triad of suppressed PTH, elevated 1,25(OH)₂D, and hyperphosphatemia tell us?",
+      "content": "This is PTH-independent hypercalcemia driven by unregulated extra-renal 1α-hydroxylase activity. Granuloma-associated macrophages (sarcoidosis, TB) or some lymphomas convert 25(OH)D to 1,25(OH)₂D without the negative feedback that normally suppresses renal 1α-hydroxylase when calcium or calcitriol is high.\n\n25(OH)D at 75 ng/mL provides ample substrate. 1,25(OH)₂D at 237 pg/mL (above ULN 190) is the active culprit driving intestinal calcium absorption and bone resorption.\n\nHyperphosphatemia (5–6 mg/dL) is multifactorial: reduced renal excretion from AKI/CKD plus possible granulomatous phosphate handling. The elevated Ca×Phos product threatens metastatic calcification and further renal injury.",
+      "keyPoints": [
+        "PTH-independent = extra-renal 1α-hydroxylase",
+        "25-OH substrate (75) + elevated 1,25 (237) = granulomatous pattern",
+        "Ca×Phos product risk in AKI/CKD"
+      ],
+      "reference": "Case review: \"PTH-independent hypercalcemia, hyperphosphatemia, and elevated 1,25(OH)₂D fundamentally points to unregulated extra-renal 1-alpha-hydroxylase activity.\""
+    },
+    {
+      "id": "cr-003-n2",
+      "type": "note",
+      "subtopic": "Differential Diagnosis",
+      "title": "Why does this pivot away from vitamin D toxicity toward granulomatous disease or lymphoma?",
+      "content": "Iatrogenic vitamin D toxicity was considered but is unlikely here. Pure D-toxicity typically shows 25(OH)D >150 ng/mL, and 1,25(OH)₂D remains normal because intact renal feedback suppresses renal 1α-hydroxylase.\n\nThis patient has 25(OH)D 75 ng/mL (high-sufficient, not toxic range) with disproportionately elevated 1,25(OH)₂D at 237 pg/mL — the hallmark of macrophage-driven conversion.\n\nSupporting features: recurrent fever (FUO), borderline ACE 114 U/L, mediastinal lymphadenopathy. Leading DD:\n1. Granulomatous disease — sarcoidosis or TB (critical in Indian demographic with recurrent fever)\n2. Lymphoma — can express 1α-hydroxylase, present with fever and mediastinal nodes\n\nMyeloma and marrow infiltration are excluded.",
+      "keyPoints": [
+        "Vit D toxicity: 25-OH >150, normal 1,25",
+        "This case: elevated 1,25 with fever + mediastinal LN",
+        "Sarcoidosis/TB vs lymphoma are leading DD"
+      ],
+      "reference": "Case review: \"pure D-toxicity typically presents with markedly higher 25(OH)D levels (often >150 ng/mL)... 1,25(OH)₂D levels usually remain normal.\""
+    },
+    {
+      "id": "cr-003-n3",
+      "type": "note",
+      "subtopic": "Acute Management",
+      "title": "How was the acute hypercalcemic crisis managed and what is the rebound significance?",
+      "content": "Peak corrected calcium 18.3 mg/dL required urgent treatment:\n• IV fluids (first-line, limited by CLD fluid status)\n• Calcitonin (rapid but transient effect)\n• Denosumab 60 mg (potent anti-resorptive; useful in CKD where bisphosphonates are risky)\n\nCalcium fell to 10.7 mg/dL over one week — but rebound to 11.3 mg/dL is now documented. Rebound signals ongoing pathological calcitriol production from the underlying disease (granuloma/lymphoma) rather than resolved cause.\n\nAcute biochemical control does NOT replace definitive source localization. Rebound mandates expedited PET-CT and tissue diagnosis.",
+      "keyPoints": [
+        "IV fluids + calcitonin + denosumab achieved initial control",
+        "Rebound hypercalcemia = ongoing 1α-hydroxylase activity",
+        "Definitive source localization cannot be delayed"
+      ],
+      "reference": "Case review: \"Calcium levels successfully fell to 10.7 mg/dL... rebound trajectory, with the most recent calcium rising to 11.3 mg/dL.\""
+    },
+    {
+      "id": "cr-003-n4",
+      "type": "note",
+      "subtopic": "Renal Protection",
+      "title": "What is the renal emergency in this case beyond hypercalcemia alone?",
+      "content": "The patient has recent AKI on CKD with creatinine rising over 2 months. Hypercalcemia itself causes nephrogenic diabetes insipidus and vasoconstriction of afferent arterioles, worsening GFR.\n\nConcurrent hyperphosphatemia (5–6 mg/dL) from AKI-driven reduced excretion pushes the calcium-phosphate product toward 55–60, risking metastatic calcification (vessels, kidneys, soft tissue) and irreversible CKD progression.\n\nImmediate actions: halt all exogenous vitamin D and calcium supplements; aggressive hydration within CLD fluid tolerance; monitor Ca×Phos product daily; evaluate UTI with fresh urine culture (recurrent fever + AKI may have infectious contribution).",
+      "keyPoints": [
+        "AKI on CKD worsened by hypercalcemia",
+        "Ca×Phos product ≥55–60 → metastatic calcification risk",
+        "Stop vitamin D/calcium supplements; culture urine for UTI"
+      ],
+      "reference": "Case review: \"calcium-phosphate product precariously high (approaching or exceeding 55-60), which carries an imminent risk of metastatic calcification.\""
+    },
+    {
+      "id": "cr-003-n5",
+      "type": "note",
+      "subtopic": "Action Plan",
+      "title": "What is the formulated investigative and management plan?",
+      "content": "1. Expedite PET-CT (do not wait) — highest-yield test to localize FUO source and identify metabolically active mediastinal or occult nodes/malignancy driving calcitriol synthesis. Rebound hypercalcemia makes delay unacceptable.\n\n2. Check PTHrP — exclude humoral hypercalcemia of malignancy. Essential in decompensated CLD (hepatocellular carcinoma risk) even when calcitriol elevation explains current profile.\n\n3. Targeted tissue diagnosis — if PET-avid mediastinal nodes, proceed with EBUS-TBNA to differentiate sarcoidosis vs TB vs lymphoproliferative disorder.\n\n4. Renal & substrate protection — stop exogenous vitamin D/calcium; monitor Ca×Phos product; continue hydration per CLD limits; fresh urine culture for UTI.",
+      "keyPoints": [
+        "PET-CT urgently — do not wait",
+        "PTHrP excludes HHM/HCC even with elevated calcitriol",
+        "EBUS-TBNA if PET-avid mediastinal nodes"
+      ],
+      "reference": "Case review action plan: \"Expedite PET-CT Scan (Do not wait)\"; \"Check PTHrP\"; \"EBUS-TBNA if PET-CT confirms avidity.\""
+    },
+    {
+      "id": "cr-003-why1",
+      "type": "why",
+      "subtopic": "1,25(OH)₂D",
+      "question": "Why is elevated 1,25(OH)₂D (237 pg/mL) more diagnostic than the 25(OH)D level (75 ng/mL) in this case?",
+      "answer": "25(OH)D reflects vitamin D stores/substrate — 75 ng/mL is high-sufficient but not frankly toxic (>150 ng/mL). The pathological step is conversion to active 1,25(OH)₂D by extra-renal 1α-hydroxylase in granuloma macrophages or lymphoma cells. This enzyme lacks the negative feedback that renal 1α-hydroxylase has, so 1,25(OH)₂D rises out of proportion to substrate and drives hypercalcemia despite suppressed PTH.",
+      "keyPoints": [
+        "25-OH = substrate; 1,25-OH = active hormone",
+        "Extra-renal 1α-hydroxylase lacks feedback inhibition",
+        "Elevated 1,25 with suppressed PTH = granulomatous/lymphoma pattern"
+      ],
+      "reference": "Case review: \"macrophages within granulomas express 1-alpha-hydroxylase that lacks negative feedback regulation by calcium or calcitriol.\""
+    },
+    {
+      "id": "cr-003-why2",
+      "type": "why",
+      "subtopic": "PET-CT",
+      "question": "Why must PET-CT be expedited rather than waiting for serial calcium monitoring?",
+      "answer": "Rebound hypercalcemia (10.7 → 11.3 mg/dL) after denosumab proves the underlying calcitriol-secreting process remains active. Serial calcium monitoring only tracks a biomarker — it does not localize the source. PET-CT is the highest-yield investigation for FUO with mediastinal lymphadenopathy, identifying metabolically active nodes for biopsy and detecting occult lymphoma or granulomatous disease. Delay risks recurrent severe hypercalcemia, metastatic calcification, and irreversible AKI progression.",
+      "keyPoints": [
+        "Rebound proves ongoing disease activity",
+        "PET-CT localizes FUO + biopsy targets",
+        "Delay risks renal and calcification complications"
+      ],
+      "reference": "Case review: \"The hypercalcemia is actively rebounding... PET-CT is the highest-yield investigation to localize the source of the Fever of Unknown Origin.\""
+    },
+    {
+      "id": "cr-003-why3",
+      "type": "why",
+      "subtopic": "PTHrP",
+      "question": "Why check PTHrP when elevated calcitriol already explains the hypercalcemia?",
+      "answer": "PTHrP-mediated humoral hypercalcemia of malignancy (HHM) is a parallel pathway that suppresses PTH and causes hypercalcemia without elevating 1,25(OH)₂D. However, co-existing pathways are possible, and PTHrP must be excluded in a 73-year-old with decompensated CLD (hepatocellular carcinoma risk) and mediastinal lymphadenopathy. A negative PTHrP with elevated 1,25(OH)₂D strengthens granulomatous or lymphomatous 1α-hydroxylase-driven disease as the mechanism.",
+      "keyPoints": [
+        "PTHrP causes HHM without elevated 1,25",
+        "CLD patient at risk for HCC — must exclude",
+        "Negative PTHrP + high 1,25 → granulomatous/lymphoma mechanism"
+      ],
+      "reference": "Case review: \"verifying PTHrP is a necessary exclusionary step in a patient with decompensated CLD (at risk for Hepatocellular Carcinoma).\""
+    },
+    {
+      "id": "cr-003-how1",
+      "type": "how",
+      "subtopic": "Hypercalcemia Workup",
+      "question": "How should PTH-independent hypercalcemia be worked up in this patient step by step?",
+      "answer": "Step 1: Confirm corrected/ionized calcium and suppressed iPTH (done). Step 2: Measure 25(OH)D and 1,25(OH)₂D — elevated 1,25 with non-toxic 25-OH points to extra-renal hydroxylation. Step 3: Check PTHrP to exclude HHM. Step 4: Screen for granulomatous markers — ACE, chest HRCT (mediastinal LN present). Step 5: Exclude myeloma (done — negative). Step 6: Urgent PET-CT to localize metabolically active disease. Step 7: Tissue diagnosis via EBUS-TBNA of PET-avid nodes.",
+      "keyPoints": [
+        "PTH + 25/1,25-Vit D panel is the biochemical core",
+        "PTHrP excludes malignancy-mediated HHM",
+        "PET-CT → EBUS-TBNA completes the workup"
+      ],
+      "reference": "Case review laboratory profile and formulated action plan."
+    },
+    {
+      "id": "cr-003-how2",
+      "type": "how",
+      "subtopic": "Acute Treatment",
+      "question": "How should severe hypercalcemia (18.3 mg/dL) be acutely managed in this patient with CLD and CKD?",
+      "answer": "1. IV isotonic fluids — first-line; titrate to CLD fluid tolerance and cardiac status. 2. Calcitonin — rapid onset, short duration; bridge therapy. 3. Denosumab 60 mg SC — preferred over IV bisphosphonate in significant CKD (does not require renal clearance). 4. Stop all oral calcium and vitamin D supplements immediately. 5. Monitor calcium, phosphorus, and Ca×Phos product daily. 6. Treat concurrent UTI if culture-positive. 7. Do not consider acute management complete without planning definitive source treatment.",
+      "keyPoints": [
+        "IV fluids first; limited by CLD status",
+        "Denosumab preferred in CKD over bisphosphonates",
+        "Acute control is bridge — not definitive treatment"
+      ],
+      "reference": "Case review: \"IV Fluids, Calcitonin, Denosumab 60 mg\"; renal protection measures."
+    },
+    {
+      "id": "cr-003-how3",
+      "type": "how",
+      "subtopic": "Tissue Diagnosis",
+      "question": "How should tissue diagnosis be obtained to differentiate sarcoidosis, TB, and lymphoma?",
+      "answer": "1. Whole-body PET-CT first — identify FDG-avid mediastinal or other nodes. 2. If mediastinal nodes are PET-avid, proceed to EBUS-TBNA (minimally invasive, high yield for mediastinal pathology). 3. Send samples for: histopathology (non-caseating vs caseating granulomas), AFB stain and TB PCR (M. tuberculosis), flow cytometry/immunophenotyping (lymphoma), and cultures. 4. In Indian demographic with recurrent fever, TB must be actively excluded before immunosuppression for sarcoidosis. 5. If EBUS non-diagnostic, consider mediastinoscopy or PET-guided biopsy of the most avid extrathoracic site.",
+      "keyPoints": [
+        "PET-CT guides biopsy site selection",
+        "EBUS-TBNA for mediastinal PET-avid nodes",
+        "TB exclusion mandatory before steroids/immunosuppression"
+      ],
+      "reference": "Case review: \"EBUS-TBNA... differentiate between Sarcoidosis and Tuberculosis... versus a lymphoproliferative disorder.\""
+    },
+    {
+      "id": "cr-003-q1",
+      "type": "mcq",
+      "subtopic": "Biochemistry",
+      "question": "Which laboratory pattern best supports granulomatous hypercalcemia over primary hyperparathyroidism in this case?",
+      "options": [
+        "Elevated iPTH, low 1,25(OH)₂D, normal phosphorus",
+        "Suppressed iPTH, elevated 1,25(OH)₂D (237 pg/mL), hyperphosphatemia",
+        "Elevated iPTH, elevated PTHrP, low 25(OH)D",
+        "Suppressed iPTH, low 1,25(OH)₂D, elevated 25(OH)D >200 ng/mL"
+      ],
+      "correctOption": 1,
+      "explanation": "Granulomatous disease causes PTH-independent hypercalcemia via unregulated extra-renal 1α-hydroxylase. PTH is suppressed, 1,25(OH)₂D is elevated, and phosphorus may be high from reduced renal excretion.",
+      "reference": "Case review biochemical triad analysis."
+    },
+    {
+      "id": "cr-003-q2",
+      "type": "mcq",
+      "subtopic": "Vitamin D Toxicity",
+      "question": "Why is pure vitamin D toxicity an unlikely primary diagnosis here?",
+      "options": [
+        "25(OH)D is undetectable",
+        "25(OH)D is 75 ng/mL (not >150) and 1,25(OH)₂D is elevated despite suppressed PTH",
+        "iPTH is elevated with normal 1,25(OH)₂D",
+        "Phosphorus is low"
+      ],
+      "correctOption": 1,
+      "explanation": "Vitamin D toxicity requires markedly elevated 25(OH)D (>150 ng/mL) and typically normal 1,25(OH)₂D due to intact renal feedback. This patient has elevated 1,25 with only high-sufficient 25(OH)D.",
+      "reference": "Case review: \"pure D-toxicity typically presents with markedly higher 25(OH)D levels (often >150 ng/mL).\""
+    },
+    {
+      "id": "cr-003-q3",
+      "type": "mcq",
+      "subtopic": "Investigation",
+      "question": "What is the highest-yield next investigation given rebound hypercalcemia and mediastinal lymphadenopathy?",
+      "options": [
+        "Repeat bone marrow biopsy",
+        "Serum protein electrophoresis only",
+        "Whole-body PET-CT",
+        "24-hour urinary calcium only"
+      ],
+      "correctOption": 2,
+      "explanation": "PET-CT localizes metabolically active lymph nodes and occult malignancy driving calcitriol synthesis in FUO with mediastinal nodes. Rebound hypercalcemia makes this urgent.",
+      "reference": "Case review: \"Expedite PET-CT Scan (Do not wait).\""
+    },
+    {
+      "id": "cr-003-q4",
+      "type": "mcq",
+      "subtopic": "Tissue Diagnosis",
+      "question": "If PET-CT shows FDG avidity in mediastinal lymph nodes, the best next step for tissue diagnosis is:",
+      "options": [
+        "Empiric prednisone trial without biopsy",
+        "EBUS-TBNA of mediastinal nodes",
+        "Repeat serum ACE in 6 months",
+        "Therapeutic antitubercular therapy without confirmation"
+      ],
+      "correctOption": 1,
+      "explanation": "EBUS-TBNA provides tissue to differentiate sarcoidosis, TB, and lymphoma — essential before treatment decisions in a patient with recurrent fever in an endemic TB setting.",
+      "reference": "Case review: \"proceed with EBUS-TBNA... differentiate between Sarcoidosis and Tuberculosis... versus a lymphoproliferative disorder.\""
+    },
+    {
+      "id": "cr-003-tf1",
+      "type": "true_false",
+      "subtopic": "Rebound",
+      "statement": "Calcium rebound to 11.3 mg/dL after initial treatment to 10.7 mg/dL indicates the underlying calcitriol-secreting process is still active.",
+      "correctAnswer": true,
+      "explanation": "Rebound despite denosumab confirms ongoing pathological 1α-hydroxylase activity. Definitive source localization via PET-CT and biopsy cannot be deferred.",
+      "reference": "Case review rebound trajectory documentation."
+    },
+    {
+      "id": "cr-003-tf2",
+      "type": "true_false",
+      "subtopic": "Renal Risk",
+      "statement": "Hyperphosphatemia in this AKI/CKD patient with hypercalcemia is clinically insignificant compared to the calcium elevation alone.",
+      "correctAnswer": false,
+      "explanation": "Combined hypercalcemia and hyperphosphatemia elevates the Ca×Phos product toward metastatic calcification threshold (55–60), accelerating renal injury and soft-tissue calcification.",
+      "reference": "Case review: \"calcium-phosphate product precariously high... imminent risk of metastatic calcification.\""
+    },
+    {
+      "id": "cr-003-tf3",
+      "type": "true_false",
+      "subtopic": "Myeloma",
+      "statement": "Negative myeloma profile and bone marrow biopsy exclude all hematologic causes of hypercalcemia in this case.",
+      "correctAnswer": false,
+      "explanation": "Myeloma is excluded, but lymphoma — which can also express 1α-hydroxylase and cause PTH-independent hypercalcemia with fever and mediastinal nodes — remains a leading differential requiring PET-CT and tissue biopsy.",
+      "reference": "Case review: lymphoma listed as primary DD alongside granulomatous disease."
+    },
+    {
+      "id": "cr-003-ar1",
+      "type": "assertion_reason",
+      "subtopic": "PET-CT",
+      "assertion": "PET-CT should be expedited without waiting for further calcium trends.",
+      "reason": "Hypercalcemia is actively rebounding despite denosumab, indicating ongoing unregulated calcitriol production.",
+      "correctOption": 0,
+      "explanation": "Both A and R are true; R correctly explains A. Rebound proves active disease requiring urgent localization, not watchful waiting.",
+      "reference": "Case review: \"The hypercalcemia is actively rebounding... Expedite PET-CT Scan (Do not wait).\""
+    },
+    {
+      "id": "cr-003-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Vitamin D Toxicity",
+      "assertion": "This patient's hypercalcemia is most likely caused by iatrogenic vitamin D toxicity.",
+      "reason": "Her 25(OH)D level is 75 ng/mL, which is above the sufficient range.",
+      "correctOption": 2,
+      "explanation": "R is true (25-OH is elevated above sufficient), but A is false — 75 ng/mL is far below the >150 ng/mL typical of toxicity, and 1,25(OH)₂D is disproportionately elevated with suppressed PTH, pointing to granulomatous extra-renal hydroxylation.",
+      "reference": "Case review vitamin D toxicity exclusion analysis."
+    }
+  ]
+}

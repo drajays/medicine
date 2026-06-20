@@ -147,4 +147,44 @@ main{max-width:880px;margin:0 auto;padding:16px 16px 80px}
 [data-theme="dark"] .hot-badge{background:#3d2a12;color:#f0a040;border-color:#6b4a1a}
 .hot-header .chap-subtitle{font-size:14px;color:var(--muted);margin:-2px 0 6px;font-style:italic}
 
+/* Case Reports */
+.case-reports-banner{background:linear-gradient(135deg,#e8f8f4 0%,#d0f0e8 100%);border:1px solid #7ec8b8;border-radius:var(--radius);padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+[data-theme="dark"] .case-reports-banner{background:linear-gradient(135deg,#0f2a24 0%,#1a3d34 100%);border-color:#2d6b5c}
+.case-reports-title{font-size:16px;font-weight:700;margin-bottom:4px;color:#1a7a62}
+[data-theme="dark"] .case-reports-title{color:#5ecfb0}
+.case-reports-desc{font-size:13px;color:var(--muted);margin-bottom:6px}
+.case-reports-totals{font-size:12.5px;font-weight:600;color:var(--text)}
+.case-section-head .section-name{color:#1a7a62}
+[data-theme="dark"] .case-section-head .section-name{color:#5ecfb0}
+.case-card{border-color:#7ec8b8}
+.case-card:hover{border-color:#2a9d82}
+[data-theme="dark"] .case-card{border-color:#2d6b5c}
+.case-icon{background:linear-gradient(135deg,#e8f8f4,#b8e8dc)!important;color:#1a7a62!important;font-size:18px!important}
+[data-theme="dark"] .case-icon{background:linear-gradient(135deg,#1a3d34,#2d6b5c)!important;color:#5ecfb0!important}
+.case-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;background:#e8f8f4;color:#1a7a62;margin-bottom:10px;border:1px solid #7ec8b8}
+[data-theme="dark"] .case-badge{background:#1a3d34;color:#5ecfb0;border-color:#2d6b5c}
+.case-badge-inline{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;background:#e8f8f4;color:#1a7a62;margin-bottom:8px;border:1px solid #7ec8b8}
+[data-theme="dark"] .case-badge-inline{background:#1a3d34;color:#5ecfb0;border-color:#2d6b5c}
+.case-header .chap-subtitle{font-size:14px;color:var(--muted);margin:-2px 0 6px;font-style:italic}
+.case-description-block{background:var(--surface);border:1px solid #7ec8b8;border-radius:var(--radius);padding:16px 18px;margin-bottom:16px;box-shadow:var(--shadow)}
+[data-theme="dark"] .case-description-block{border-color:#2d6b5c}
+.case-patient-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px 16px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+.case-patient-item{font-size:13px;line-height:1.4}
+.case-patient-item.wide{grid-column:1/-1}
+.case-label{display:block;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#1a7a62;margin-bottom:2px}
+[data-theme="dark"] .case-label{color:#5ecfb0}
+.case-narrative{font-size:14px;line-height:1.65;margin-bottom:14px;white-space:pre-wrap}
+.case-findings,.case-objectives{margin-bottom:12px;font-size:13px}
+.case-findings ul,.case-objectives ul{margin:6px 0 0 18px;padding:0}
+.case-findings li,.case-objectives li{margin-bottom:4px;line-height:1.5}
+.case-diagnosis{font-size:13px;padding:10px 12px;background:#e8f8f4;border-radius:8px;border-left:3px solid #1a7a62;margin-bottom:12px}
+[data-theme="dark"] .case-diagnosis{background:#1a3d34;border-left-color:#5ecfb0}
+.tabs-case{overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch}
+.tabs-case .tab{min-width:72px;flex-shrink:0}
+.why-how-note{border-left:3px solid #1a7a62}
+[data-theme="dark"] .why-how-note{border-left-color:#5ecfb0}
+.why-how-answer{margin-top:8px;line-height:1.6}
+.why-how-label{font-weight:700;color:#1a7a62;margin-right:4px}
+[data-theme="dark"] .why-how-label{color:#5ecfb0}
+
 @media(max-width:600px){.topbar h1{font-size:15px}.chap-header h2{font-size:18px}}

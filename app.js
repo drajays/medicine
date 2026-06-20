@@ -16,7 +16,7 @@ const themeBtn = document.getElementById('themeBtn');
 let CATALOG = null;
 let currentChapter = null;
 let activeTab = 'notes';
-let viewMode = 'catalog'; /* catalog | harrison | hot_topic */
+let viewMode = 'catalog'; /* catalog | harrison | hot_topic | case_report */
 
 /* ---------- theme ---------- */
 (function initTheme(){
@@ -56,7 +56,7 @@ async function loadJSON(path){
 })();
 
 /* ---------- catalog view ---------- */
-async function loadTopicCounts(entries, prefix){
+async function loadContentCounts(entries){
   const counts = {};
   const ready = entries.filter(ch => ch.status === 'ready' && ch.file);
   await Promise.all(ready.map(async ch => {
@@ -68,6 +68,8 @@ async function loadTopicCounts(entries, prefix){
         mcq: items.filter(i=>i.type==='mcq').length,
         tf: items.filter(i=>i.type==='true_false').length,
         ar: items.filter(i=>i.type==='assertion_reason').length,
+        why: items.filter(i=>i.type==='why').length,
+        how: items.filter(i=>i.type==='how').length,
         total: items.length
       };
     } catch(e){ counts[ch.id] = null; }
@@ -83,6 +85,7 @@ async function showCatalog(){
   window.scrollTo(0,0);
 
   const hotTopics = CATALOG.hotTopics?.topics || [];
+  const caseReports = CATALOG.caseReports?.reports || [];
 
   if (!CATALOG._counts){
     app.innerHTML = '<div class="loading">Loading catalog…</div>';
@@ -98,11 +101,14 @@ async function showCatalog(){
           mcq: items.filter(i=>i.type==='mcq').length,
           tf: items.filter(i=>i.type==='true_false').length,
           ar: items.filter(i=>i.type==='assertion_reason').length,
+          why: 0,
+          how: 0,
           total: items.length
         };
       } catch(e){ CATALOG._counts[ch.id] = null; }
     }));
-    CATALOG._hotCounts = await loadTopicCounts(hotTopics);
+    CATALOG._hotCounts = await loadContentCounts(hotTopics);
+    CATALOG._caseCounts = await loadContentCounts(caseReports);
   }
 
   const allChapters = CATALOG.sections.flatMap(s => s.chapters);
@@ -154,6 +160,46 @@ async function showCatalog(){
         <div class="chap-meta">
           <div class="chap-title">${esc(t.title)} ${pill}</div>
           <div class="chap-sub">${esc(t.subtitle||t.category||'')}${sub ? ' · '+sub : ''}</div>
+        </div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  /* Case Reports section */
+  if (CATALOG.caseReports){
+    const cr = CATALOG.caseReports;
+    const crReady = caseReports.filter(r => r.status === 'ready' && r.file);
+    const crTotals = crReady.reduce((acc, r) => {
+      const c = CATALOG._caseCounts?.[r.id];
+      if (c){ acc.notes+=c.notes; acc.mcq+=c.mcq; acc.tf+=c.tf; acc.ar+=c.ar; acc.why+=c.why; acc.how+=c.how; acc.items+=c.total; }
+      return acc;
+    }, {notes:0, mcq:0, tf:0, ar:0, why:0, how:0, items:0});
+
+    html += `<div class="case-reports-banner">
+      <div class="case-reports-title">📋 ${esc(cr.title || 'Case Reports')}</div>
+      <div class="case-reports-desc">${esc(cr.description || '')}</div>
+      ${crTotals.items ? `<div class="case-reports-totals">${crTotals.items} items — ${crTotals.notes} notes · ${crTotals.mcq} MCQs · ${crTotals.tf} T/F · ${crTotals.ar} A-R · ${crTotals.why} Why · ${crTotals.how} How</div>` : ''}
+    </div>`;
+
+    html += `<div class="section-head case-section-head">
+      <span class="section-arrow">▾</span>
+      <span class="section-name">${esc(cr.title || 'Case Reports')}</span>
+      <span class="section-count">${crReady.length}/${caseReports.length}</span>
+    </div>`;
+    html += `<div class="section-body">`;
+    for (const r of caseReports){
+      const ready = r.status === 'ready' && r.file;
+      const pill = ready ? '<span class="pill ready">ready</span>' : '<span class="pill pending">pending</span>';
+      const c = ready ? CATALOG._caseCounts?.[r.id] : null;
+      const sub = ready
+        ? (c ? `${c.total} items · ${c.notes}N / ${c.mcq}Q / ${c.tf}T / ${c.ar}A / ${c.why}W / ${c.how}H` : 'Tap to study')
+        : 'Awaiting authoring';
+      html += `<div class="chap-card case-card ${ready?'':'disabled'}" data-file="${ready?esc(r.file):''}" data-kind="case">
+        <div class="chap-no case-icon">📋</div>
+        <div class="chap-meta">
+          <div class="chap-title">${esc(r.title)} ${pill}</div>
+          <div class="chap-sub">${esc(r.subtitle||r.category||'')}${sub ? ' · '+sub : ''}</div>
         </div>
       </div>`;
     }
@@ -225,10 +271,10 @@ async function openChapter(file, kind){
     app.innerHTML = '<div class="empty">Could not load content.</div>';
     return;
   }
-  viewMode = kind === 'hot' ? 'hot_topic' : 'harrison';
+  viewMode = kind === 'hot' ? 'hot_topic' : (kind === 'case' ? 'case_report' : 'harrison');
   backBtn.hidden = false;
-  backBtn.textContent = viewMode === 'hot_topic' ? '‹ Hot Topics' : '‹ Chapters';
-  activeTab = 'notes';
+  backBtn.textContent = viewMode === 'hot_topic' ? '‹ Hot Topics' : (viewMode === 'case_report' ? '‹ Case Reports' : '‹ Chapters');
+  activeTab = viewMode === 'case_report' ? 'notes' : 'notes';
   renderChapter();
   window.scrollTo(0,0);
 }
@@ -239,32 +285,73 @@ function counts(){
     notes: c.filter(i=>i.type==='note').length,
     mcq: c.filter(i=>i.type==='mcq').length,
     tf: c.filter(i=>i.type==='true_false').length,
-    ar: c.filter(i=>i.type==='assertion_reason').length
+    ar: c.filter(i=>i.type==='assertion_reason').length,
+    why: c.filter(i=>i.type==='why').length,
+    how: c.filter(i=>i.type==='how').length
   };
+}
+
+function renderCaseDescription(ch){
+  const p = ch.patient || {};
+  let patientBlock = '';
+  if (p.age || p.sex || p.chiefComplaint){
+    patientBlock = `<div class="case-patient-grid">
+      ${p.age ? `<div class="case-patient-item"><span class="case-label">Age</span>${esc(String(p.age))}</div>` : ''}
+      ${p.sex ? `<div class="case-patient-item"><span class="case-label">Sex</span>${esc(p.sex)}</div>` : ''}
+      ${p.chiefComplaint ? `<div class="case-patient-item wide"><span class="case-label">Chief Complaint</span>${esc(p.chiefComplaint)}</div>` : ''}
+      ${p.pmh?.length ? `<div class="case-patient-item wide"><span class="case-label">PMH</span>${esc(p.pmh.join('; '))}</div>` : ''}
+      ${p.medications?.length ? `<div class="case-patient-item wide"><span class="case-label">Medications</span>${esc(p.medications.join('; '))}</div>` : ''}
+    </div>`;
+  }
+  let findings = '';
+  if (ch.keyFindings?.length){
+    findings = '<div class="case-findings"><div class="case-label">Key Findings</div><ul>'+
+      ch.keyFindings.map(f=>'<li>'+esc(f)+'</li>').join('')+'</ul></div>';
+  }
+  let dx = ch.finalDiagnosis ? `<div class="case-diagnosis"><span class="case-label">Final Diagnosis</span>${esc(ch.finalDiagnosis)}</div>` : '';
+  let objectives = '';
+  if (ch.learningObjectives?.length){
+    objectives = '<div class="case-objectives"><div class="case-label">Learning Objectives</div><ul>'+
+      ch.learningObjectives.map(o=>'<li>'+esc(o)+'</li>').join('')+'</ul></div>';
+  }
+  return `<div class="case-description-block">
+    <div class="case-badge">📋 Case Description</div>
+    ${patientBlock}
+    <div class="case-narrative">${esc(ch.caseDescription||'')}</div>
+    ${findings}
+    ${dx}
+    ${objectives}
+  </div>`;
 }
 
 function renderChapter(){
   const ch = currentChapter;
   const isHot = ch.topicType === 'hot_topic' || viewMode === 'hot_topic';
-  titleEl.textContent = isHot ? (ch.title || 'Hot Topic') : ('Ch ' + (ch.chapterNo||''));
+  const isCase = ch.reportType === 'case_report' || viewMode === 'case_report';
+  titleEl.textContent = isCase ? (ch.title || 'Case Report') : (isHot ? (ch.title || 'Hot Topic') : ('Ch ' + (ch.chapterNo||'')));
   const n = counts();
   const tab = (id,label,cnt)=>`<button class="tab ${activeTab===id?'active':''}" data-tab="${id}">${label}<br><span class="cnt">${cnt}</span></button>`;
 
-  const byline = isHot
+  const byline = isCase
+    ? `${esc(ch.section||'Case Reports')}${ch.category?' · '+esc(ch.category):''}${ch.authors?' · '+esc(ch.authors):''}`
+    : isHot
     ? `${esc(ch.section||'Hot Topics')}${ch.category?' · '+esc(ch.category):''}${ch.authors?' · '+esc(ch.authors):''}`
     : `Chapter ${esc(ch.chapterNo||'')} · ${esc(ch.section||'')}${ch.authors?' · '+esc(ch.authors):''}`;
 
-  let html = `<div class="chap-header${isHot?' hot-header':''}">
+  let html = `<div class="chap-header${isHot?' hot-header':''}${isCase?' case-header':''}">
       ${isHot ? '<div class="hot-badge">🔥 Hot Topic</div>' : ''}
+      ${isCase ? '<div class="case-badge-inline">📋 Case Report</div>' : ''}
       <h2>${esc(ch.title)}</h2>
       ${ch.subtitle ? `<div class="chap-subtitle">${esc(ch.subtitle)}</div>` : ''}
       <div class="by">${byline}</div>
     </div>
-    <div class="tabs">
+    ${isCase ? renderCaseDescription(ch) : ''}
+    <div class="tabs${isCase?' tabs-case':''}">
       ${tab('notes','Notes',n.notes)}
       ${tab('mcq','MCQs',n.mcq)}
       ${tab('tf','True/False',n.tf)}
       ${tab('ar','Assertion–Reason',n.ar)}
+      ${isCase ? tab('why','Why',n.why)+tab('how','How',n.how) : ''}
     </div>
     <div id="tabBody"></div>`;
   app.innerHTML = html;
@@ -288,6 +375,12 @@ function renderTab(){
   } else if (activeTab==='tf'){
     list = items.filter(i=>i.type==='true_false');
     html = list.map((q,i)=>renderTF(q,i+1)).join('') || emptyMsg();
+  } else if (activeTab==='why'){
+    list = items.filter(i=>i.type==='why');
+    html = list.map((q,i)=>renderWhyHow(q,i+1,'Why')).join('') || emptyMsg();
+  } else if (activeTab==='how'){
+    list = items.filter(i=>i.type==='how');
+    html = list.map((q,i)=>renderWhyHow(q,i+1,'How')).join('') || emptyMsg();
   } else {
     list = items.filter(i=>i.type==='assertion_reason');
     html = list.map((q,i)=>renderAR(q,i+1)).join('') || emptyMsg();
@@ -373,6 +466,21 @@ function renderTF(q, idx){
       <button class="opt" data-i="1"><span class="key">F</span>False</button>
     </div>
     <div class="explain"><div class="verdict"></div><div class="exp-text">${esc(q.explanation||'')}</div>${refBlock(q.reference)}</div>
+  </div>`;
+}
+
+function renderWhyHow(q, idx, label){
+  let kp = '';
+  if (q.keyPoints && q.keyPoints.length){
+    kp = '<div class="kp"><div class="kp-h">Key clinical points</div><ul>'+
+      q.keyPoints.map(k=>'<li>'+esc(k)+'</li>').join('')+'</ul></div>';
+  }
+  return `<div class="note why-how-note">
+    <div class="q-top"><span class="q-type">${esc(label)} ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span></div>
+    <h3>${esc(q.question||'')}</h3>
+    <div class="body why-how-answer"><span class="why-how-label">Answer:</span> ${esc(q.answer||'')}</div>
+    ${kp}
+    ${refBlock(q.reference)}
   </div>`;
 }
 

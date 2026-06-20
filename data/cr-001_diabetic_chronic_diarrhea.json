@@ -1,0 +1,241 @@
+{
+  "id": "cr-001",
+  "reportType": "case_report",
+  "title": "Late-Onset Metformin Diarrhea in Type 2 Diabetes",
+  "subtitle": "A 4-Phase Diagnostic Approach to Chronic Diarrhea",
+  "section": "Case Reports",
+  "category": "Endocrinology & Gastroenterology",
+  "authors": "Clinical case vignette — illustrative teaching case",
+  "sourceFile": "user-provided content (chat); based on Lowry et al. 2016, Maisey 2016",
+  "patient": {
+    "age": 62,
+    "sex": "Male",
+    "chiefComplaint": "5 watery bowel movements daily for 6 weeks",
+    "pmh": ["Type 2 diabetes mellitus (12 years)", "Hypertension", "Obesity (BMI 31)"],
+    "medications": ["Metformin IR 2000 mg/day (8 years)", "Sitagliptin 100 mg/day", "Lisinopril 10 mg/day", "Sugar-free gum daily"]
+  },
+  "caseDescription": "A 62-year-old man with type 2 diabetes presents with 6 weeks of painless watery diarrhea (5 stools/day), without nocturnal symptoms, blood, or weight loss. He has taken metformin immediate-release 2000 mg daily for 8 years without prior GI issues. He chews sugar-free gum throughout the day. Examination is unremarkable; abdomen soft, non-tender. Vitals stable. HbA1c 7.4%. He was referred for colonoscopy, which was normal.\n\nThe referring physician labeled this \"diabetic autonomic neuropathy\" and planned octreotide. Before invasive escalation, a structured 4-phase approach was applied.",
+  "keyFindings": [
+    "Painless watery diarrhea × 6 weeks, no alarm features",
+    "Metformin IR 2000 mg × 8 years — late-onset GI toxicity possible",
+    "Daily sugar-free gum (sorbitol) — osmotic contributor",
+    "Normal colonoscopy; no weight loss, no hematochezia, no nocturnal diarrhea"
+  ],
+  "finalDiagnosis": "Iatrogenic chronic diarrhea — late-onset metformin secretory diarrhea ± sorbitol osmotic effect; not diabetic enteropathy",
+  "learningObjectives": [
+    "Apply Phase 1 medication/diet audit before expensive workup",
+    "Recognize late-onset metformin diarrhea years into therapy",
+    "Use empiric therapeutic trials before labeling permanent neuropathy"
+  ],
+  "items": [
+    {
+      "id": "cr-001-n1",
+      "type": "note",
+      "subtopic": "Clinical Reasoning",
+      "title": "Why was \"diabetic autonomic neuropathy\" the wrong first diagnosis here?",
+      "content": "Most chronic diarrhea in diabetes is iatrogenic (metformin, GLP-1RAs, sorbitol) rather than true enteropathy. This patient had no autonomic neuropathy stigmata (no orthostatic hypotension, gastroparesis, neurogenic bladder) and developed diarrhea after years of stable metformin — a pattern classic for late-onset metformin toxicity, not progressive neuropathy.",
+      "keyPoints": [
+        "Skeptic view: \"diabetic diarrhea\" is often a wastebasket diagnosis",
+        "No autonomic stigmata on examination",
+        "Late-onset diarrhea after years of metformin → drug toxicity first"
+      ],
+      "reference": "Lowry JLM et al., J Endocrinol Metab, 2016: \"Late-Onset Chronic Severe Painless Diarrhea Secondary to Metformin\"; Maisey A, Diabetes Therapy, 2016."
+    },
+    {
+      "id": "cr-001-n2",
+      "type": "note",
+      "subtopic": "Phase 1 Actions",
+      "title": "What Phase 1 interventions were initiated?",
+      "content": "Metformin IR was stopped for 2 weeks with sitagliptin continued for glycemic control; switched plan to metformin XR if diarrhea resolved. All sugar-free gum and candies were eliminated. Within 10 days, stool frequency reduced from 5/day to 1–2/day formed stools.",
+      "keyPoints": [
+        "2-week metformin pause + eliminate sorbitol sources",
+        "Glycemia maintained with existing DPP-4 inhibitor",
+        "Dramatic improvement in 10 days confirmed iatrogenic cause"
+      ],
+      "reference": "Phase 1 Clinical Pathway: \"Stop Suspect Medications... Eliminate sugar-free foods\"; Lowry et al., 2016."
+    },
+    {
+      "id": "cr-001-n3",
+      "type": "note",
+      "subtopic": "Management Plan",
+      "title": "What was the final management plan after Phase 1 success?",
+      "content": "Restart metformin XR 500 mg daily, titrating to 1000 mg/day over 4 weeks. Continued sitagliptin. Patient educated on sorbitol-containing products. No cholestyramine, rifaximin, or octreotide required. Celiac serology and fecal elastase were deferred given Phase 1 resolution but would have been Phase 2 if symptoms persisted.",
+      "keyPoints": [
+        "Metformin XR reintroduced at low dose with slow titration",
+        "Avoided unnecessary octreotide and colonoscopy repeat",
+        "Phase 2 labs only if Phase 1 fails"
+      ],
+      "reference": "Maisey A, Diabetes Therapy, 2016; Arasaradnam RP et al., Gut, 2018."
+    },
+    {
+      "id": "cr-001-why1",
+      "type": "why",
+      "subtopic": "Metformin Toxicity",
+      "question": "Why can metformin cause severe diarrhea years after initiation?",
+      "answer": "Metformin alters bile acid absorption and elevates GLP-1, causing secretory diarrhea. While most GI upset occurs early, ~1–2% develop late-onset severe painless secretory diarrhea after years of peaceful compliance — often misattributed to enteropathy.",
+      "keyPoints": [
+        "Mechanism: altered bile acid absorption + elevated GLP-1",
+        "~1–2% late-onset severe diarrhea after years of use",
+        "Often triggers unnecessary colonoscopy"
+      ],
+      "reference": "Lowry JLM et al., J Endocrinol Metab, 2016: \"Late-Onset Chronic Severe Painless Diarrhea Secondary to Metformin.\""
+    },
+    {
+      "id": "cr-001-why2",
+      "type": "why",
+      "subtopic": "Diagnostic Approach",
+      "question": "Why was colonoscopy premature in this case?",
+      "answer": "No alarm features were present (no nocturnal diarrhea, weight loss, hematochezia, or family history of IBD/CRC). Phase 1 medication and dietary audit had not been attempted. Colonoscopy before excluding metformin and sorbitol is costly and often normal — as in this case.",
+      "keyPoints": [
+        "No red flags → colonoscopy not first step",
+        "Phase 1 audit not done before referral",
+        "Normal colonoscopy with ongoing iatrogenic cause"
+      ],
+      "reference": "Phase 2 Step 1: \"nocturnal diarrhea... mandates immediate referral for a colonoscopy\" — absent here; Phase 1 should precede."
+    },
+    {
+      "id": "cr-001-why3",
+      "type": "why",
+      "subtopic": "Sorbitol",
+      "question": "Why does sugar-free gum contribute to chronic diarrhea in diabetic patients?",
+      "answer": "Sorbitol, mannitol, and xylitol in sugar-free products are poorly absorbed osmotic agents. Unabsorbed sugar alcohols draw water into the colon, causing osmotic diarrhea — frequently overlooked because patients do not consider gum a \"food.\"",
+      "keyPoints": [
+        "Sorbitol is a non-absorbed osmotic agent",
+        "Sugar-free gum/candy often overlooked in dietary history",
+        "Additive effect with metformin secretory diarrhea"
+      ],
+      "reference": "Maisey A, Diabetes Therapy, 2016: \"Artificial Sweeteners: Sorbitol, mannitol, and xylitol... cause osmotic diarrhea.\""
+    },
+    {
+      "id": "cr-001-how1",
+      "type": "how",
+      "subtopic": "Phase 1",
+      "question": "How should Phase 1 be executed when chronic diarrhea presents in a diabetic patient on metformin?",
+      "answer": "1. Audit medications: 2–4 week metformin pause or switch to XR while maintaining glycemia with alternative agents. 2. Eliminate all sugar-free products (sorbitol/mannitol/xylitol). 3. Reassess after 2–4 weeks before ordering labs or imaging.",
+      "keyPoints": [
+        "2–4 week metformin pause or XR switch",
+        "Eliminate sorbitol-containing products",
+        "Reassess before Phase 2 labs"
+      ],
+      "reference": "Phase 1 Clinical Pathway: \"Stop Suspect Medications... Eliminate sugar-free foods.\""
+    },
+    {
+      "id": "cr-001-how2",
+      "type": "how",
+      "subtopic": "Phase 2",
+      "question": "How should Phase 2 workup proceed if diarrhea persists after Phase 1?",
+      "answer": "Screen for alarm symptoms first. If none, order: tTG-IgA with total IgA (celiac, especially in T1DM), fecal calprotectin (IBD), fecal elastase-1 (PEI), CBC, electrolytes, and TSH. Only refer for colonoscopy if alarm features are present.",
+      "keyPoints": [
+        "Alarm symptoms → immediate colonoscopy",
+        "tTG-IgA + total IgA, calprotectin, elastase, CBC, TSH",
+        "No alarm features → empiric Phase 3 before invasive motility studies"
+      ],
+      "reference": "Arasaradnam RP et al., Gut, 2018; Phase 2 Clinical Pathway."
+    },
+    {
+      "id": "cr-001-how3",
+      "type": "how",
+      "subtopic": "Metformin Rechallenge",
+      "question": "How should metformin be reintroduced after confirming metformin-induced diarrhea?",
+      "answer": "Switch to extended-release formulation. Start low (500 mg daily) and titrate slowly over 4 weeks to target dose. Monitor GI tolerance at each step. If diarrhea recurs, consider metformin discontinuation with alternative glucose-lowering agents.",
+      "keyPoints": [
+        "Use XR formulation, not IR",
+        "Start 500 mg daily, titrate over 4 weeks",
+        "Discontinue if GI intolerance recurs"
+      ],
+      "reference": "Lowry et al., 2016; Maisey A, 2016: \"switching to an extended-release version.\""
+    },
+    {
+      "id": "cr-001-q1",
+      "type": "mcq",
+      "subtopic": "First Step",
+      "question": "What is the most appropriate FIRST step in this case before repeating colonoscopy or starting octreotide?",
+      "options": [
+        "Hydrogen breath test for SIBO",
+        "2-week metformin pause and sorbitol elimination",
+        "Empiric rifaximin 550 mg TID × 14 days",
+        "Start octreotide 100 mcg SC BID"
+      ],
+      "correctOption": 1,
+      "explanation": "Phase 1: exclude iatrogenic causes (metformin, sorbitol) before expensive testing or rescue therapy.",
+      "reference": "Phase 1: \"Before ordering expensive laboratory panels or imaging, rule out the most common and easily reversible culprits.\""
+    },
+    {
+      "id": "cr-001-q2",
+      "type": "mcq",
+      "subtopic": "Alarm Features",
+      "question": "Which feature in this case would have mandated urgent colonoscopy?",
+      "options": [
+        "Painless watery diarrhea for 6 weeks",
+        "Nocturnal diarrhea with 4 kg unintentional weight loss",
+        "Metformin use for 8 years",
+        "Daily sugar-free gum consumption"
+      ],
+      "correctOption": 1,
+      "explanation": "Nocturnal diarrhea and involuntary weight loss are alarm symptoms requiring immediate colonoscopy referral.",
+      "reference": "Phase 2 Step 1: \"nocturnal diarrhea... involuntary weight loss... mandates immediate referral for a colonoscopy.\""
+    },
+    {
+      "id": "cr-001-q3",
+      "type": "mcq",
+      "subtopic": "Phase 3",
+      "question": "If Phase 1 failed and labs were normal with post-meal watery stools, the next empiric trial would be:",
+      "options": [
+        "Cholestyramine 4 g daily × 1 week",
+        "Octreotide 100 mcg SC TID immediately",
+        "High-dose loperamide 16 mg PRN only",
+        "Prednisone for microscopic colitis"
+      ],
+      "correctOption": 0,
+      "explanation": "Watery post-meal stools suggest bile acid malabsorption — 1-week cholestyramine trial.",
+      "reference": "Phase 3 Trial A: \"watery and occurs frequently after meals, suspect BAM... 1-week trial of low-dose Cholestyramine.\""
+    },
+    {
+      "id": "cr-001-tf1",
+      "type": "true_false",
+      "subtopic": "Etiology",
+      "statement": "This patient's diarrhea was most likely caused by diabetic autonomic enteropathy requiring octreotide.",
+      "correctAnswer": false,
+      "explanation": "Most cases are iatrogenic (metformin, sorbitol). Phase 1 resolution confirmed drug/dietary cause, not neuropathy.",
+      "reference": "Lowry et al., 2016; Maisey A, 2016."
+    },
+    {
+      "id": "cr-001-tf2",
+      "type": "true_false",
+      "subtopic": "Metformin",
+      "statement": "Metformin-induced diarrhea can only occur within the first weeks of starting therapy.",
+      "correctAnswer": false,
+      "explanation": "Late-onset severe painless diarrhea can develop years into metformin therapy (~1–2% of patients).",
+      "reference": "Lowry JLM et al., J Endocrinol Metab, 2016."
+    },
+    {
+      "id": "cr-001-tf3",
+      "type": "true_false",
+      "subtopic": "Checklist",
+      "statement": "Before labeling permanent diabetic neuropathic diarrhea, a cholestyramine or rifaximin trial should be attempted.",
+      "correctAnswer": true,
+      "explanation": "Summary checklist requires empiric Phase 3 trials before attributing to permanent neuropathy.",
+      "reference": "Summary Checklist: \"Was a therapeutic trial of Cholestyramine or Rifaximin attempted before labeling it permanent neuropathy?\""
+    },
+    {
+      "id": "cr-001-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Management",
+      "assertion": "Metformin XR can be reintroduced after confirming metformin IR as the diarrhea cause.",
+      "reason": "XR formulation has slower release and better GI tolerability than immediate-release.",
+      "correctOption": 0,
+      "explanation": "Both true; low-dose XR with slow titration is standard rechallenge strategy.",
+      "reference": "Phase 1: \"switching to an extended-release version\"; case management plan."
+    },
+    {
+      "id": "cr-001-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Diagnostic Approach",
+      "assertion": "Colonoscopy was unnecessary as the initial test in this case.",
+      "reason": "The patient had hematochezia and nocturnal diarrhea requiring urgent endoscopy.",
+      "correctOption": 2,
+      "explanation": "A is true (no alarm features, Phase 1 not done first); R is false (no hematochezia or nocturnal diarrhea).",
+      "reference": "Phase 2 Step 1 alarm criteria — none present in this case."
+    }
+  ]
+}

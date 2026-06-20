@@ -1,0 +1,400 @@
+{
+  "id": "cr-002",
+  "reportType": "case_report",
+  "title": "Cranio-Orbital Syndrome: Orbitopathy, Hypercalcemia & Frontal Brain Lesion",
+  "subtitle": "Systemic DD → Isolated Cranio-Orbital Syndrome → Rare Genetic Histiocytoses",
+  "section": "Case Reports",
+  "category": "Neuro-Ophthalmology · Endocrinology · Neurology",
+  "authors": "Clinical case vignette — illustrative teaching case",
+  "sourceFile": "user-provided content (chat); refs: Chapman et al. AJR 2017; Mercan et al. Case Rep Med 2015; Tabasum et al. EDMCR 2016",
+  "patient": {
+    "age": 48,
+    "sex": "Female",
+    "chiefComplaint": "Orbital redness and proptosis",
+    "pmh": ["No known thyroid disease", "No prior malignancy"],
+    "medications": []
+  },
+  "caseDescription": "A 48-year-old woman presents with orbital redness and proptosis. Orbital MRI shows extraocular muscle enlargement and orbital fat infiltration typical of thyroid orbitopathy. However, she is euthyroid with negative third-generation TRAb. Autoimmune screen: ANA negative, serum IgG4 subclass 0.58 g/L (negative). Serum ACE is 62 U/L (reference 8–52 U/L). Total calcium is 10.7 mg/dL.\n\nBrain MRI reveals a 12 × 10 mm left frontal lobe lesion with surrounding vasogenic edema, post-contrast enhancement, SWI blooming focus, adjacent sulcal effacement, and no diffusion restriction — highly suspicious for metastasis or granulomatous mass.\n\nInitial differential spans systemic sarcoidosis, metastatic disease, euthyroid Graves' orbitopathy (EGONA), and GPA. Recommended workup includes ionized calcium, iPTH, 25-OH and 1,25-(OH)₂ vitamin D, PTHrP, chest HRCT, and neurosurgical consultation.\n\nWhole-body FDG-PET/CT subsequently rules out occult primary malignancy and systemic lymphadenopathy. Hypermetabolic activity is strictly confined to the brain and orbit — reframing this as an isolated cranio-orbital macrophage/histiocyte-driven syndrome. Leading diagnoses: isolated neuro-ophthalmic sarcoidosis, clonal histiocytosis (RDD/ECD), isolated cranio-orbital tuberculosis, and (lower) IgG4-RD.\n\nRare genetic differentials must also be considered: somatic MAPK-pathway mutations (BRAF V600E in ECD/LCH), Blau syndrome (NOD2), Mendelian susceptibility to mycobacterial disease (IL12RB1/IFNGR1/STAT1), and STAT1 gain-of-function granulomatous disease. Tissue diagnosis with histiocyte immunophenotyping and targeted NGS is mandatory.",
+  "keyFindings": [
+    "Orbital MRI mimics thyroid orbitopathy but TRAb negative and euthyroid",
+    "Serum ACE 62 U/L + hypercalcemia 10.7 mg/dL — granulomatous macrophage activation",
+    "Left frontal 12×10 mm enhancing mass: vasogenic edema, SWI blooming, no DWI restriction",
+    "ANA negative — ENA reflex panel not indicated",
+    "FDG-PET/CT: hypermetabolism limited to brain + orbit only; no systemic malignancy",
+    "Rare genetic DD: clonal histiocytoses (BRAF/MAPK), Blau syndrome, MSMD, STAT1 GOF"
+  ],
+  "finalDiagnosis": "Isolated cranio-orbital granulomatous syndrome — leading diagnosis: neuro-ophthalmic sarcoidosis (tissue confirmation pending); metastasis effectively excluded by PET",
+  "learningObjectives": [
+    "Synthesize orbital, metabolic, and neuroimaging findings into a unifying differential",
+    "Apply a structured hypercalcemia panel to distinguish granulomatous, malignant, and parathyroid causes",
+    "Recognize when FDG-PET/CT shifts management from systemic screening to mandatory tissue biopsy",
+    "Understand why negative serum IgG4 does not exclude biopsy-proven IgG4-RD",
+    "Recognize rare genetic and clonal histiocytic disorders that mimic cranio-orbital sarcoidosis"
+  ],
+  "items": [
+    {
+      "id": "cr-002-n1",
+      "type": "note",
+      "subtopic": "Initial DD Synthesis",
+      "title": "What unifying diagnoses best explain the orbital + metabolic + CNS triad?",
+      "content": "The triad of seronegative orbitopathy (mimicking Graves' disease on MRI), hypercalcemia, elevated serum ACE, and an enhancing frontal brain mass with vasogenic edema and SWI blooming strongly favors a systemic granulomatous or neoplastic process over isolated thyroid eye disease.\n\nPrimary DD #1 — Systemic sarcoidosis (orbital + neurosarcoidosis): explains extraocular muscle/fat infiltration, ACE elevation, hypercalcemia via granulomatous 1α-hydroxylase activity, and mass-like CNS granulomas with enhancement, edema, and SWI mineralization (Chapman 2017; Mercan 2015).\n\nPrimary DD #2 — Metastatic disease: enhancing brain mass with edema and SWI blooming (hemorrhage or calcification) is classic for metastasis; orbital metastases can mimic inflammatory orbitopathy; hypercalcemia may be PTHrP-mediated or osteolytic.\n\nEGONA (~5–10% of TED) cannot explain brain lesion, hypercalcemia, or ACE — if present, the CNS lesion would be coincidental.",
+      "keyPoints": [
+        "Sarcoidosis unifies orbit + ACE + hypercalcemia + CNS granuloma",
+        "Brain metastasis remains top DD for enhancing mass with edema",
+        "EGONA cannot explain the full clinical picture"
+      ],
+      "reference": "Chapman MN et al., AJR, 2017: \"Sarcoidosis in the Head and Neck\"; Mercan M et al., Case Rep Med, 2015: \"A Case of Sarcoidosis of the Central Nervous System and Orbita\"; Tabasum A et al., EDMCR, 2016: \"Thyroid antibody-negative euthyroid Graves' ophthalmopathy.\""
+    },
+    {
+      "id": "cr-002-n2",
+      "type": "note",
+      "subtopic": "Hypercalcemia Workup",
+      "title": "How should hypercalcemia (10.7 mg/dL) be evaluated biochemically?",
+      "content": "Order immediately: ionized calcium (confirm true hypercalcemia), intact PTH (branch point), 25-hydroxyvitamin D and 1,25-dihydroxyvitamin D, PTHrP, phosphorus, and alkaline phosphatase.\n\nIn granulomatous disease (sarcoidosis/TB): PTH is appropriately suppressed (<10–15 pg/mL); activated macrophages convert 25-OH-Vit D to 1,25-(OH)₂-Vit D — pattern of normal/low 25-OH with elevated/high-normal 1,25-(OH)₂ is classic.\n\nIf PTH is elevated or inappropriately normal → co-existing primary hyperparathyroidism.\n\nIf PTH suppressed + elevated PTHrP → humoral hypercalcemia of malignancy.",
+      "keyPoints": [
+        "iPTH is the critical branch point",
+        "Granulomatous pattern: suppressed PTH + elevated 1,25-(OH)₂-Vit D",
+        "PTHrP rules out humoral malignancy-mediated hypercalcemia"
+      ],
+      "reference": "Mercan M et al., Case Rep Med, 2015: granulomatous hypercalcemia via extra-renal 1,25-dihydroxyvitamin D production."
+    },
+    {
+      "id": "cr-002-n3",
+      "type": "note",
+      "subtopic": "Sarcoidosis Workup",
+      "title": "Should mild ACE elevation (62 U/L) trigger further sarcoidosis investigation?",
+      "content": "Yes — absolutely. Serum ACE of 62 U/L above reference in the context of hypercalcemia and multi-organ (orbital + CNS) involvement is clinically significant, not a normal variant. ACE alone has limited sensitivity, but elevation alongside structural inflammation warrants deep investigation.\n\nRecommended workup:\n1. Chest HRCT — highest-yield non-invasive test; up to 90% of sarcoidosis shows bilateral hilar lymphadenopathy or interstitial changes (Mercan 2015).\n2. Whole-body FDG-PET/CT — identifies occult metabolic activity and safest biopsy site (Chapman 2017).\n3. Lumbar puncture (if safe) — CSF protein, lymphocytic pleocytosis, elevated CSF ACE support neurosarcoidosis.",
+      "keyPoints": [
+        "Mild ACE rise is significant with multi-organ involvement",
+        "HRCT chest is highest-yield initial sarcoidosis screen",
+        "FDG-PET/CT maps systemic activity and biopsy targets"
+      ],
+      "reference": "Chapman MN et al., AJR, 2017: \"FDG-PET/CT... highlight the safest site to biopsy\"; Mercan M et al., Case Rep Med, 2015: \"Up to 90% of sarcoidosis cases present with bilateral hilar lymphadenopathy.\""
+    },
+    {
+      "id": "cr-002-n4",
+      "type": "note",
+      "subtopic": "PET Paradigm Shift",
+      "title": "How does FDG-PET/CT confined to brain + orbit change the differential?",
+      "content": "PET ruling out occult primary malignancy and systemic lymphadenopathy eliminates metastatic carcinoma and paraneoplastic syndromes. Hypermetabolic activity strictly limited to brain and orbit defines an isolated cranio-orbital syndrome — not systemic disease with secondary CNS spread.\n\nElevated calcium and ACE must now be generated locally by lesional macrophages/histiocytes expressing 1α-hydroxylase and ACE.\n\nNarrowed DD:\n1. Isolated neuro-ophthalmic sarcoidosis (10–15% of neurosarcoidosis lacks pulmonary findings)\n2. Clonal histiocytosis — Rosai-Dorfman (CNS/orbital predilection) or Erdheim-Chester (orbital infiltration + FDG-avid brain lesions)\n3. Isolated cranio-orbital TB — tuberculoma with calcification (SWI blooming), orbital pseudotumor\n4. IgG4-RD (lower) — serum IgG4 normal in 30–40% of biopsy-proven cases; does not typically elevate ACE or cause hypercalcemia to this degree",
+      "keyPoints": [
+        "PET-negative systemic disease → isolated cranio-orbital syndrome",
+        "Macrophage/histiocyte lesions explain local ACE + hypercalcemia",
+        "Tissue diagnosis now mandatory — no safe peripheral lymph node biopsy"
+      ],
+      "reference": "Chapman MN et al., AJR, 2017: isolated head-and-neck sarcoidosis patterns; Mercan M et al., Case Rep Med, 2015: combined CNS and orbital sarcoidosis case."
+    },
+    {
+      "id": "cr-002-n5",
+      "type": "note",
+      "subtopic": "Management",
+      "title": "What are the mandatory next steps after PET localization?",
+      "content": "1. Neurosurgical/oculoplastics consultation — determine safest biopsy site (orbital tissue vs stereotactic frontal lesion) to differentiate sarcoidosis, histiocytosis, and TB before immunosuppression.\n2. CSF analysis if biopsy high-risk and ICP permits — ACE, ADA (TB), flow cytometry, infectious PCRs.\n3. Finalize calcium pathway — confirm suppressed iPTH and elevated 1,25-(OH)₂-Vit D to prove granuloma-driven hypercalcemia.\n4. Seizure prophylaxis / corticosteroid planning — dexamethasone treats both tumor-associated vasogenic edema and active neurosarcoidosis/orbital sarcoidosis, but must not be started before infectious TB is ruled out if biopsy is delayed.",
+      "keyPoints": [
+        "Tissue diagnosis bottleneck — orbital vs brain biopsy decision",
+        "CSF ACE/ADA if biopsy anatomically unsafe",
+        "Avoid empiric steroids until TB excluded"
+      ],
+      "reference": "Mercan M et al., Case Rep Med, 2015: neurosarcoidosis management principles; Chapman MN et al., AJR, 2017: head-and-neck sarcoidosis biopsy strategy."
+    },
+    {
+      "id": "cr-002-why1",
+      "type": "why",
+      "subtopic": "ENA Panel",
+      "question": "Why is an ENA profile NOT indicated when ANA is negative?",
+      "answer": "ENA panels (Anti-SSA, SSB, Sm, RNP, Scl-70, Jo-1) are reflex tests to characterize specific systemic autoimmune diseases after a positive ANA. With a completely negative screening ANA, the pre-test probability of a clinically meaningful positive ENA (lupus, Sjögren's) is exceedingly low. Diagnostic resources are better directed toward granulomatous and neoplastic etiologies matching this presentation.",
+      "keyPoints": [
+        "ENA is a reflex test after positive ANA",
+        "Negative ANA makes lupus/Sjögren's unlikely",
+        "Focus on granulomatous and neoplastic workup"
+      ],
+      "reference": "Clinical immunology principle: \"ENA panels serve as a reflex or secondary test\"; case-specific reasoning per user-provided analysis."
+    },
+    {
+      "id": "cr-002-why2",
+      "type": "why",
+      "subtopic": "SWI Blooming",
+      "question": "Why does SWI blooming on brain MRI NOT confirm hemorrhagic metastasis in this case?",
+      "answer": "SWI blooming indicates susceptibility from microhemorrhage, calcification, or mineral deposits. While hemorrhagic metastases (melanoma, RCC, choriocarcinoma, lung carcinoma) cause blooming, non-caseating granulomas (sarcoidosis) and mature tuberculomas frequently mineralize or calcify over time — producing identical SWI artifacts without frank hemorrhage. PET showing isolated cranio-orbital uptake without systemic malignancy further lowers metastasis probability.",
+      "keyPoints": [
+        "SWI blooming = hemorrhage OR calcification/mineralization",
+        "Sarcoid granulomas and tuberculomas commonly calcify",
+        "PET-negative systemic disease argues against metastasis"
+      ],
+      "reference": "Mercan M et al., Case Rep Med, 2015: \"microhemorrhages or mineral deposits resulting in SWI blooming\"; Chapman MN et al., AJR, 2017: sarcoidosis CNS imaging features."
+    },
+    {
+      "id": "cr-002-why3",
+      "type": "why",
+      "subtopic": "Isolated Sarcoidosis",
+      "question": "Why can sarcoidosis remain the leading diagnosis despite negative chest imaging and PET limited to cranio-orbital sites?",
+      "answer": "While 90% of sarcoidosis has thoracic involvement, 10–15% of neurosarcoidosis presents without any systemic or pulmonary findings. Orbital sarcoidosis mimics thyroid eye disease on MRI. Intraparenchymal neurosarcoid granulomas produce enhancement, vasogenic edema, and sulcal effacement. Local macrophages secrete ACE and express 1α-hydroxylase, generating mild systemic ACE elevation and hypercalcemia even when disease is radiographically confined to cranio-orbital structures.",
+      "keyPoints": [
+        "10–15% neurosarcoidosis lacks pulmonary disease",
+        "Orbital sarcoidosis mimics Graves' orbitopathy on MRI",
+        "Lesional macrophages explain ACE and hypercalcemia"
+      ],
+      "reference": "Chapman MN et al., AJR, 2017: \"Sarcoidosis frequently mirrors thyroid eye disease on MRI\"; Mercan M et al., Case Rep Med, 2015: combined CNS and orbital sarcoidosis."
+    },
+    {
+      "id": "cr-002-how1",
+      "type": "how",
+      "subtopic": "Hypercalcemia Panel",
+      "question": "How should the hypercalcemia workup be ordered and interpreted step by step?",
+      "answer": "Step 1: Confirm with ionized calcium. Step 2: Measure intact PTH — if suppressed (<10–15 pg/mL), exclude primary hyperparathyroidism. Step 3: Order 25-OH-Vit D and 1,25-(OH)₂-Vit D — granulomatous pattern shows normal/low 25-OH with elevated 1,25-(OH)₂. Step 4: If PTH suppressed, check PTHrP for humoral malignancy. Step 5: Add phosphorus and ALP for bone turnover assessment.",
+      "keyPoints": [
+        "Ionized calcium confirms true hypercalcemia",
+        "iPTH is the first branch point",
+        "1,25-(OH)₂-Vit D pattern distinguishes granulomatous cause"
+      ],
+      "reference": "Case analysis: \"Order ionized calcium, intact PTH, 25-hydroxyvitamin D & 1,25-dihydroxyvitamin D, PTHrP, phosphorus and ALP.\""
+    },
+    {
+      "id": "cr-002-how2",
+      "type": "how",
+      "subtopic": "Sarcoidosis Investigation",
+      "question": "How should sarcoidosis be investigated when ACE is mildly elevated with orbital and CNS involvement?",
+      "answer": "1. Chest HRCT first — screen for hilar lymphadenopathy or interstitial lung disease (accessible biopsy site). 2. Whole-body FDG-PET/CT — map all hypermetabolic sites and identify safest biopsy target. 3. If CNS mass effect allows, lumbar puncture for CSF protein, cell count, CSF ACE, and infectious studies. 4. Do NOT dismiss ACE 62 U/L as normal — interpret in multi-organ context. 5. Proceed to tissue biopsy of the most accessible active site.",
+      "keyPoints": [
+        "HRCT chest is first-line structural screen",
+        "PET guides biopsy site selection",
+        "CSF studies support neurosarcoidosis if safe"
+      ],
+      "reference": "Chapman MN et al., AJR, 2017: \"Whole-Body FDG-PET/CT Scan... highlight the safest site to biopsy\"; Mercan M et al., Case Rep Med, 2015."
+    },
+    {
+      "id": "cr-002-how3",
+      "type": "how",
+      "subtopic": "Tissue Diagnosis",
+      "question": "How should tissue diagnosis be pursued after PET confines disease to brain and orbit?",
+      "answer": "1. Joint neurosurgery + oculoplastics consultation — compare morbidity of orbital biopsy vs stereotactic/excisional frontal lesion biopsy. 2. If intracranial biopsy is high-risk, perform lumbar puncture (if ICP safe) sending CSF for ACE, ADA (TB), cytology, flow cytometry, and infectious PCRs. 3. Pathology must differentiate non-caseating granulomas (sarcoidosis), emperipolesis (RDD), CD68+/CD1a+ histiocytes (ECD/Langerhans), and caseating granulomas (TB). 4. Hold empiric immunosuppression until TB excluded.",
+      "keyPoints": [
+        "Orbital vs brain biopsy — morbidity-driven choice",
+        "CSF ADA and ACE if biopsy unsafe",
+        "TB must be excluded before steroids"
+      ],
+      "reference": "Post-PET case analysis: \"tissue diagnosis is now mandatory\"; \"CSF should be sent for ACE, ADA (adenosine deaminase for TB).\""
+    },
+    {
+      "id": "cr-002-q1",
+      "type": "mcq",
+      "subtopic": "Initial DD",
+      "question": "Which diagnosis most cohesively unifies seronegative orbitopathy, ACE 62 U/L, hypercalcemia, and an enhancing frontal brain mass?",
+      "options": [
+        "Euthyroid Graves' orbitopathy (EGONA) alone",
+        "Systemic sarcoidosis with orbital and neurosarcoidosis involvement",
+        "IgG4-related disease with negative serum IgG4",
+        "Isolated primary hyperparathyroidism"
+      ],
+      "correctOption": 1,
+      "explanation": "Sarcoidosis explains orbital infiltration mimicking TED, granulomatous hypercalcemia, elevated ACE, and enhancing CNS granulomas. EGONA cannot explain brain lesion or ACE. Negative serum IgG4 does not exclude IgG4-RD but hypercalcemia/ACE are atypical.",
+      "reference": "Chapman MN et al., AJR, 2017; Mercan M et al., Case Rep Med, 2015."
+    },
+    {
+      "id": "cr-002-q2",
+      "type": "mcq",
+      "subtopic": "Hypercalcemia",
+      "question": "In granulomatous sarcoidosis, which biochemical pattern is most characteristic?",
+      "options": [
+        "Elevated iPTH with low 1,25-(OH)₂-Vit D",
+        "Suppressed iPTH with elevated 1,25-(OH)₂-Vit D and normal/low 25-OH-Vit D",
+        "Elevated PTHrP with suppressed iPTH",
+        "Normal iPTH with hyperphosphatemia"
+      ],
+      "correctOption": 1,
+      "explanation": "Activated macrophages in granulomas express 1α-hydroxylase, producing 1,25-(OH)₂-Vit D independently of PTH, which is appropriately suppressed.",
+      "reference": "Mercan M et al., Case Rep Med, 2015: \"granulomatous production of 1,25-dihydroxyvitamin D.\""
+    },
+    {
+      "id": "cr-002-q3",
+      "type": "mcq",
+      "subtopic": "Autoimmune Workup",
+      "question": "ANA is negative. What is the most appropriate next immunologic test?",
+      "options": [
+        "ENA panel (Anti-SSA, SSB, Sm, RNP, Scl-70, Jo-1)",
+        "Repeat ANA with homogenous pattern reflex",
+        "Proceed to chest HRCT and FDG-PET/CT without ENA testing",
+        "Anti-dsDNA and complement C3/C4 only"
+      ],
+      "correctOption": 2,
+      "explanation": "With negative ANA, ENA yield is exceedingly low. Resources should target granulomatous/neoplastic investigation (HRCT, PET, biopsy planning).",
+      "reference": "Case analysis: \"ENA profile is not routinely indicated here... ANA is completely negative.\""
+    },
+    {
+      "id": "cr-002-q4",
+      "type": "mcq",
+      "subtopic": "Post-PET DD",
+      "question": "After FDG-PET shows hypermetabolism only in brain and orbit (no systemic malignancy), which entity must be ruled out before starting corticosteroids?",
+      "options": [
+        "Euthyroid Graves' orbitopathy",
+        "Isolated cranio-orbital tuberculosis",
+        "Primary open-angle glaucoma",
+        "Seronegative myasthenia gravis"
+      ],
+      "correctOption": 1,
+      "explanation": "TB tuberculoma can mimic enhancing brain mass with SWI calcification and orbital pseudotumor. Empiric steroids without excluding TB risk disseminated infection.",
+      "reference": "Post-PET analysis: \"isolated infectious granuloma must be ruled out before initiating any immunosuppressive therapy.\""
+    },
+    {
+      "id": "cr-002-tf1",
+      "type": "true_false",
+      "subtopic": "ACE",
+      "statement": "A serum ACE of 62 U/L (reference 8–52) can be dismissed as normal variant in this patient with orbital and CNS lesions.",
+      "correctAnswer": false,
+      "explanation": "In context of hypercalcemia and multi-organ structural involvement, mild ACE elevation is clinically significant and warrants sarcoidosis workup.",
+      "reference": "Case analysis: \"cannot be dismissed as a normal variant.\""
+    },
+    {
+      "id": "cr-002-tf2",
+      "type": "true_false",
+      "subtopic": "Brain MRI",
+      "statement": "A 12×10 mm enhancing frontal lesion with vasogenic edema, SWI blooming, and no diffusion restriction is pathognomonic for brain metastasis.",
+      "correctAnswer": false,
+      "explanation": "This pattern is typical of metastasis but also seen in granulomatous lesions (sarcoidosis, tuberculoma) with calcification/mineralization. Tissue diagnosis required.",
+      "reference": "Mercan M et al., Case Rep Med, 2015: SWI blooming from mineral deposits in sarcoidosis granulomas."
+    },
+    {
+      "id": "cr-002-tf3",
+      "type": "true_false",
+      "subtopic": "IgG4-RD",
+      "statement": "Negative serum IgG4 subclass testing definitively excludes IgG4-related disease in this case.",
+      "correctAnswer": false,
+      "explanation": "Serum IgG4 is normal in 30–40% of biopsy-proven IgG4-RD. However, IgG4-RD is lower on the DD here because it rarely causes hypercalcemia or ACE elevation to this degree.",
+      "reference": "Post-PET analysis: \"serum IgG4 levels remain entirely normal in up to 30–40% of biopsy-proven cases.\""
+    },
+    {
+      "id": "cr-002-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Sarcoidosis Workup",
+      "assertion": "Chest HRCT should be obtained early in this patient's evaluation.",
+      "reason": "Up to 90% of sarcoidosis cases show bilateral hilar lymphadenopathy or interstitial changes detectable on HRCT.",
+      "correctOption": 0,
+      "explanation": "Both assertion and reason are true, and R correctly explains A — HRCT is the highest-yield non-invasive sarcoidosis screen and may provide a biopsy-accessible site.",
+      "reference": "Mercan M et al., Case Rep Med, 2015: \"Up to 90% of sarcoidosis cases present with bilateral hilar lymphadenopathy.\""
+    },
+    {
+      "id": "cr-002-ar2",
+      "type": "assertion_reason",
+      "subtopic": "EGONA",
+      "assertion": "Euthyroid Graves' orbitopathy with negative TRAb (EGONA) is the most likely unifying diagnosis.",
+      "reason": "EGONA accounts for approximately 5–10% of thyroid eye disease cases in euthyroid patients.",
+      "correctOption": 2,
+      "explanation": "R is true (EGONA prevalence is 5–10%), but A is false — EGONA cannot explain hypercalcemia, elevated ACE, or the CNS mass. The brain lesion would require a separate diagnosis.",
+      "reference": "Tabasum A et al., EDMCR, 2016: \"Thyroid antibody-negative euthyroid Graves' ophthalmopathy\"; case DD analysis."
+    },
+    {
+      "id": "cr-002-n6",
+      "type": "note",
+      "subtopic": "Rare Genetic DD",
+      "title": "Which rare genetic diseases can produce this cranio-orbital granulomatous picture?",
+      "content": "After PET confines disease to brain + orbit, rare genetic and clonal disorders must enter the differential alongside sarcoidosis and TB:\n\n1. Clonal histiocytoses (somatic, not germline): Erdheim-Chester disease (BRAF V600E in ~50%, MAPK pathway), Langerhans cell histiocytosis (BRAF/MAP2K1), Rosai-Dorfman (KRAS/MAP2K1/ARAF). These explain FDG-avid orbital + CNS masses, macrophage-driven ACE elevation, and 1α-hydroxylase-mediated hypercalcemia.\n\n2. Blau syndrome (germline NOD2 mutations): autosomal-dominant granulomatous disease with uveitis, arthritis, and dermatitis. Can mimic orbital inflammation; CNS granulomas reported. Usually presents in childhood but variable penetrance.\n\n3. Mendelian Susceptibility to Mycobacterial Disease (MSMD): IL12B, IL12RB1, IFNGR1/2, STAT1 LOF — impaired IFN-γ immunity → atypical mycobacterial/fungal CNS granulomas mimicking tuberculoma. Critical to exclude before steroids.\n\n4. STAT1 gain-of-function: disseminated granulomatous disease, mucocutaneous candidiasis, autoimmunity; can present with CNS granulomas.\n\n5. Chronic granulomatous disease (CYBB/NCF1/NCF2/NCF4): adult presentations with catalase-positive organisms causing CNS abscesses/granulomas — less typical for isolated orbitopathy but must be considered if infection markers present.\n\n6. Sarcoidosis genetic susceptibility (not monogenic): ANXA11, BTNL2, HLA-DRB1 variants — familial clustering without a single causative mutation.",
+      "keyPoints": [
+        "ECD/LCH/RDD are somatic MAPK-driven histiocytoses — top genetic differential",
+        "Blau syndrome (NOD2) causes familial granulomatous uveitis/orbital disease",
+        "MSMD and STAT1 GOF cause CNS granulomas — exclude before immunosuppression"
+      ],
+      "reference": "Diamond EL et al., Blood, 2014: \"Consensus guidelines for Erdheim-Chester disease\"; Cannizzaro MA et al., Orphanet J Rare Dis, 2022: Blau syndrome review; Bustamante J et al., J Clin Immunol, 2014: MSMD classification."
+    },
+    {
+      "id": "cr-002-n7",
+      "type": "note",
+      "subtopic": "Clonal Histiocytoses",
+      "title": "How do somatic MAPK-mutant histiocytoses mimic this case?",
+      "content": "Erdheim-Chester disease (ECD): clonal histiocytosis driven by BRAF V600E or other MAPK mutations. Classic \"long-bone\" disease, but isolated neuro-ophthalmic variants exist with bilateral orbital infiltration (\"painless proptosis\"), FDG-avid brain parenchymal/dural lesions, perinephric \"hairy kidney\" coating, and diabetes insipidus. Histiocytes express 1α-hydroxylase → granulomatous hypercalcemia; activated macrophages elevate ACE.\n\nRosai-Dorfman disease (RDD): extranodal histiocytosis with CNS and orbital predilection. Presents as enhancing intraparenchymal or dural masses with surrounding edema. Pathognomonic emperipolesis on biopsy. Somatic KRAS, MAP2K1, ARAF mutations in ~30–40%.\n\nLangerhans cell histiocytosis (LCH): CD1a+/langerin+ histiocytes; CNS neurodegeneration or tumorous lesions; orbital lytic bone lesions. BRAF V600E in ~50% of cases.\n\nAll three require tissue immunophenotyping and NGS on biopsy to distinguish from sarcoidosis and TB.",
+      "keyPoints": [
+        "ECD: BRAF V600E, orbital + CNS FDG-avid lesions, hypercalcemia",
+        "RDD: emperipolesis, CNS/orbital masses, MAPK mutations",
+        "LCH: CD1a+/langerin+, BRAF V600E — immunophenotype distinguishes from sarcoid"
+      ],
+      "reference": "Diamond EL et al., Blood, 2014: \"Consensus guidelines for the diagnosis and management of Erdheim-Chester disease\"; Goyal P et al., Neurology, 2019: CNS Rosai-Dorfman disease."
+    },
+    {
+      "id": "cr-002-why4",
+      "type": "why",
+      "subtopic": "Rare Genetic DD",
+      "question": "Why must rare clonal histiocytoses be considered after PET excludes systemic malignancy?",
+      "answer": "With metastasis ruled out, the isolated cranio-orbital hypermetabolic pattern fits somatic MAPK-driven histiocytoses (ECD, RDD, LCH). These are not \"genetic diseases\" in the germline sense but clonal proliferations of macrophages/histiocytes bearing BRAF V600E or MAP2K1/KRAS mutations. They produce identical imaging (enhancing CNS masses, orbital infiltration, SWI calcification) and biochemistry (ACE secretion, 1α-hydroxylase hypercalcemia) as sarcoidosis — and require entirely different targeted therapy (BRAF/MEK inhibitors for ECD/LCH).",
+      "keyPoints": [
+        "PET-negative malignancy → histiocytosis rises in DD",
+        "Somatic BRAF/MAPK mutations drive ECD, LCH, some RDD",
+        "Treatment differs: MEK/BRAF inhibitors vs steroids"
+      ],
+      "reference": "Diamond EL et al., Blood, 2014: \"BRAF V600E mutation... targeted therapy with BRAF or MEK inhibitors\"; Papo M et al., Lancet Haematol, 2022: histiocytosis management."
+    },
+    {
+      "id": "cr-002-why5",
+      "type": "why",
+      "subtopic": "MSMD",
+      "question": "Why should Mendelian susceptibility to mycobacterial disease (MSMD) be considered in this case?",
+      "answer": "MSMD (IL12RB1, IFNGR1/2, STAT1 LOF, IL12B mutations) causes impaired IL-12/IFN-γ immunity. Affected patients develop disseminated or isolated CNS infections with atypical mycobacteria and fungi that form enhancing granulomatous masses with calcification (SWI blooming) — radiographically indistinguishable from tuberculoma or sarcoidosis. Orbital granulomatous pseudotumors are reported. This is critical because empiric corticosteroids or anti-TNF therapy without excluding MSMD-related infection can be catastrophic.",
+      "keyPoints": [
+        "MSMD → impaired IFN-γ → atypical mycobacterial CNS granulomas",
+        "Imaging mimics tuberculoma/sarcoidosis with SWI calcification",
+        "Must exclude before immunosuppression"
+      ],
+      "reference": "Bustamante J et al., J Clin Immunol, 2014: \"Mendelian susceptibility to mycobacterial disease\"; Chapgier A et al., Lancet Infect Dis, 2006."
+    },
+    {
+      "id": "cr-002-how4",
+      "type": "how",
+      "subtopic": "Genetic Workup",
+      "question": "How should rare genetic and clonal histiocytic disorders be investigated on tissue biopsy?",
+      "answer": "1. Immunohistochemistry: CD68 (all), CD1a/langerin (LCH), S100 (RDD/LCH), factor XIIIa (ECD). 2. Special stains: Ziehl-Neelsen (TB), fungal (GMS/PAS). 3. Histiocyte panel NGS on lesional tissue: BRAF V600E, MAP2K1, KRAS, ARAF, NRAS — somatic mutations confirm clonal histiocytosis. 4. If MSMD suspected: IFN-γ release assay, mycobacterial/fungal PCR on tissue, then germline NGS for IL12RB1, IFNGR1/2, STAT1, IL12B. 5. If Blau syndrome suspected (family history, childhood arthritis/uveitis): germline NOD2 sequencing. 6. If STAT1 GOF suspected: STAT1 sequencing + functional IFN-γ pathway testing.",
+      "keyPoints": [
+        "IHC panel distinguishes sarcoid vs LCH vs RDD vs ECD",
+        "Somatic NGS on biopsy for BRAF/MAPK mutations",
+        "Germline NGS for MSMD/Blau/STAT1 if clinical clues present"
+      ],
+      "reference": "Diamond EL et al., Blood, 2014: ECD diagnostic criteria including BRAF testing; Emile JF et al., Blood, 2018: revised histiocytosis classification."
+    },
+    {
+      "id": "cr-002-q5",
+      "type": "mcq",
+      "subtopic": "Rare Genetic DD",
+      "question": "After PET confines hypermetabolism to brain and orbit, which rare disorder is most likely driven by a somatic BRAF V600E mutation?",
+      "options": [
+        "Blau syndrome (NOD2 germline)",
+        "Erdheim-Chester disease",
+        "Euthyroid Graves' orbitopathy",
+        "Primary hyperparathyroidism"
+      ],
+      "correctOption": 1,
+      "explanation": "ECD is a clonal histiocytosis with BRAF V600E in ~50% of cases, causing isolated neuro-ophthalmic variants with FDG-avid orbital and CNS lesions. Blau is germline NOD2, not BRAF-driven.",
+      "reference": "Diamond EL et al., Blood, 2014: \"BRAF V600E mutation is present in approximately 50% of ECD cases.\""
+    },
+    {
+      "id": "cr-002-q6",
+      "type": "mcq",
+      "subtopic": "Rare Genetic DD",
+      "question": "A patient with isolated CNS granuloma and childhood history of disseminated atypical mycobacterial infection should be tested for:",
+      "options": [
+        "NOD2 (Blau syndrome) only",
+        "Germline IL12RB1 / IFNGR1 / STAT1 (MSMD pathway)",
+        "BRAF V600E only on peripheral blood",
+        "TSH receptor antibodies"
+      ],
+      "correctOption": 1,
+      "explanation": "MSMD (Mendelian susceptibility to mycobacterial disease) involves germline mutations in IL-12/IFN-γ pathway genes, causing atypical mycobacterial and fungal granulomatous CNS lesions.",
+      "reference": "Bustamante J et al., J Clin Immunol, 2014: MSMD gene panel (IL12B, IL12RB1, IFNGR1, IFNGR2, STAT1, ISG15)."
+    },
+    {
+      "id": "cr-002-tf4",
+      "type": "true_false",
+      "subtopic": "Rare Genetic DD",
+      "statement": "Blau syndrome (NOD2 mutations) typically presents only in adulthood with isolated cranio-orbital disease and no prior history of granulomatous arthritis or uveitis.",
+      "correctAnswer": false,
+      "explanation": "Blau syndrome classically presents in early childhood with granulomatous arthritis, uveitis, and dermatitis. Adult-only cranio-orbital presentation without prior history makes Blau unlikely but not impossible with variable penetrance.",
+      "reference": "Cannizzaro MA et al., Orphanet J Rare Dis, 2022: \"Blau syndrome... early-onset granulomatous arthritis, uveitis, and skin rash.\""
+    },
+    {
+      "id": "cr-002-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Clonal Histiocytosis",
+      "assertion": "Tissue NGS for BRAF V600E should be sent on cranio-orbital biopsy in this case.",
+      "reason": "Erdheim-Chester disease and Langerhans cell histiocytosis are driven by somatic MAPK mutations detectable on lesional tissue and require targeted therapy.",
+      "correctOption": 0,
+      "explanation": "Both A and R are true; R correctly explains A. After excluding malignancy, clonal histiocytosis with actionable BRAF/MEK mutations must be ruled in/out on biopsy.",
+      "reference": "Diamond EL et al., Blood, 2014: \"molecular testing for BRAF V600E is recommended in all ECD cases.\""
+    }
+  ]
+}
