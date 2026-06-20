@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa0802743",
   "paperType": "rct",
-  "title": "Effects of Intensive Glucose Lowering in Type 2 Diabetes",
-  "subtitle": "ACCORD — Intensive Glucose Lowering in T2DM",
+  "title": "ACCORD",
+  "subtitle": "Intensive Glucose Lowering in Type 2 Diabetes — Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Endocrinology & Metabolism",
-  "authors": "Goff DC Jr, Gerstein HC, Ginsberg HN, et al. Prevention of cardiovascular diseas",
+  "authors": "The ACCORD Study Group; N Engl J Med 2008",
   "sourceFile": "noupload/NEJM/nejmoa0802743/paper.md",
   "bibliography": [
     {
@@ -113,324 +113,751 @@
     }
   ],
   "trialDesign": {
-    "fullName": "Effects of Intensive Glucose Lowering in Type 2 Diabetes",
-    "overview": "## BACKGROUND Epidemiologic studies have shown a relationship between glycated hemoglobin levels and cardiovascular events in patients with type 2 diabetes. We investigated whether intensive therapy to target normal glycated hemoglobin levels would reduce cardiovascular events in patients with type 2 diabetes who had either established cardiovascular disease or additional cardiovascular risk factors.",
-    "design": "randomized study, 10,251 patients (mean age, 62.",
-    "population": "patients, 38% were women, and 35% had had a previous cardiovascular event.",
-    "intervention": "assigned to receive intensive therapy (targeting a glycated hemoglobin level below 6.",
-    "primaryEndpoint": "primary outcome occurred in 352 patients in the intensive-therapy group, as compared with 371 in the standard-therapy group (hazard ratio, 0."
+    "fullName": "Action to Control Cardiovascular Risk in Diabetes (ACCORD) — Glycemia Trial",
+    "year": 2008,
+    "design": "Multicenter randomized controlled trial with double 2×2 factorial BP and lipid substudies",
+    "population": "10,251 patients with type 2 diabetes, established CVD or additional CV risk factors",
+    "sampleSize": "n=10,251 (intensive HbA1c <6.0% vs standard 7.0–7.9%)",
+    "duration": "Mean follow-up 3.5 years (intensive glycemic regimen stopped early)",
+    "intervention": "Intensive glucose lowering targeting HbA1c <6.0% via study-supervised formulary",
+    "comparator": "Standard therapy targeting HbA1c 7.0–7.9%",
+    "primaryEndpoint": "First nonfatal MI, nonfatal stroke, or death from cardiovascular causes",
+    "overview": "Intensive glucose lowering did not reduce the primary composite (HR 0.90; P=0.16) but increased all-cause mortality, leading to early discontinuation of the intensive regimen."
   },
   "trialSummary": {
     "headings": {
-      "background": "Epidemiologic studies have shown a relationship between glycated hemoglobin levels and cardiovascular events in patients with type 2 diabetes. We investigated whether intensive therapy to target normal glycated hemoglobin levels would reduce cardiovascular events in patients with type 2 diabetes who had either established cardiovascular disease or additional cardiovascular risk factors.",
-      "objective": "Epidemiologic studies have shown a relationship between glycated hemoglobin levels and cardiovascular events in patients with type 2 diabetes. We investigated whether intensive therapy to target normal glycated hemoglobin levels would reduce cardiovascular events in patients with type 2 diabetes who had either established cardiovascular disease or additional cardiovascular risk factors.",
-      "design": "randomized study, 10,251 patients (mean age, 62.",
-      "population": "patients, 38% were women, and 35% had had a previous cardiovascular event.",
-      "intervention": "assigned to receive intensive therapy (targeting a glycated hemoglobin level below 6.",
-      "nct": "NCT00000620"
+      "background": "Epidemiologic data link higher HbA1c to cardiovascular events; ACCORD tested whether normalizing HbA1c would reduce events in high-risk type 2 diabetes.",
+      "design": "10,251 patients randomized to intensive (<6.0%) vs standard (7.0–7.9%) glycemic targets; factorial BP and lipid trials in subsets.",
+      "population": "Mean age 62; 38% women; 35% prior cardiovascular event; high CV risk type 2 diabetes.",
+      "intervention": "Intensive individualized formulary with monthly visits initially; mean 4.4 regimen changes/year.",
+      "comparator": "Standard glycemic management with visits every 4 months; target HbA1c 7.0–7.9%.",
+      "followUp": "Mean 3.5 years; intensive glycemic strategy stopped 17 months early for safety."
     },
     "outcomes": [
       {
-        "label": "Primary outcome (extracted)",
+        "label": "Primary composite (MI, stroke, CV death)",
         "type": "primary",
-        "definition": "primary outcome occurred in 352 patients in the intensive-therapy group, as compared with 371 in the standard-therapy group (hazard ratio, 0.",
-        "interpretation": "As compared with standard therapy, the use of intensive therapy to target normal glycated hemoglobin levels for 3.5 years increased mortality and did not significantly reduce major cardiovascular events. These findings identify a previously unrecognized harm of intensive glucose lowering in high-ris",
         "effect": {
           "measure": "HR",
-          "value": 0.9
-        }
+          "value": 0.9,
+          "interpretation": "P=0.16, not significant"
+        },
+        "interpretation": "352 vs 371 events; no significant benefit"
+      },
+      {
+        "label": "Nonfatal myocardial infarction",
+        "type": "secondary",
+        "effect": {
+          "measure": "Rate",
+          "value": 3.6,
+          "interpretation": "vs 4.6% standard; P=0.004"
+        },
+        "interpretation": "Significantly reduced with intensive therapy"
+      },
+      {
+        "label": "All-cause mortality",
+        "type": "safety",
+        "effect": {
+          "measure": "Relative increase",
+          "value": 22,
+          "interpretation": "257 vs 203 deaths"
+        },
+        "interpretation": "1.0% absolute increase; ~1 death per 95 patients treated"
+      },
+      {
+        "label": "Median HbA1c at 1 year",
+        "type": "secondary",
+        "effect": {
+          "measure": "HbA1c",
+          "value": 6.4,
+          "interpretation": "intensive vs 7.5% standard"
+        },
+        "interpretation": "Targets largely achieved"
       }
     ],
-    "conclusion": "As compared with standard therapy, the use of intensive therapy to target normal glycated hemoglobin levels for 3.5 years increased mortality and did not significantly reduce major cardiovascular events. These findings identify a previously unrecognized harm of intensive glucose lowering in high-risk patients with type 2 diabetes. (ClinicalTrials.gov number, NCT00000620.) The members of the writing group (Hertzel C. Gerstein, M.D., M.Sc., McMaster University and Hamilton Health Sciences, Population Health Research Institute, Hamilton, ON, Canada; Michael E. Miller, Ph.D., Robert P. Byington, P",
-    "clinicalBottomLine": "As compared with standard therapy, the use of intensive therapy to target normal glycated hemoglobin levels for 3.5 years increased mortality and did not significantly reduce major cardiovascular events. These findings identify a previously unrecogni"
+    "safetyHighlights": [
+      "Hypoglycemia requiring assistance: 3.1%/year intensive vs 1.0% standard",
+      "Weight gain >10 kg: 27.8% intensive vs 14.1% standard; fluid retention more frequent"
+    ],
+    "clinicalBottomLine": "In high-risk type 2 diabetes, intensive glucose lowering to near-normal HbA1c does not reduce major cardiovascular events and increases mortality — avoid overly aggressive targets in this population."
   },
-  "inclusionCriteria": [],
-  "exclusionCriteria": [],
+  "inclusionCriteria": [
+    "Type 2 diabetes with HbA1c ≥7.5% despite treatment or willingness to defer pharmacotherapy",
+    "Age 40–79 with established CVD, or age 55–79 with subclinical CVD or ≥2 CV risk factors"
+  ],
+  "exclusionCriteria": [
+    "BMI >45",
+    "Serum creatinine >1.5 mg/dL",
+    "Frequent severe hypoglycemia or unwillingness to inject insulin"
+  ],
   "keyTakeaways": [
-    "As compared with standard therapy, the use of intensive therapy to target normal glycated hemoglobin levels for 3.5 years increased mortality and did not significantly reduce major cardiovascular events. These findings identify a previously unrecogni",
-    "As compared with standard therapy, the use of intensive therapy to target normal glycated hemoglobin levels for 3.5 years increased mortality and did not significantly reduce major cardiovascular events. These findings identify a previously unrecognized harm of intensive glucose lowering in high-ris"
+    "Primary composite neutral (HR 0.90; P=0.16); nonfatal MI significantly reduced.",
+    "All-cause mortality ↑22% with intensive therapy — regimen stopped early at 3.5 years.",
+    "Harm signal: ~1 extra death per 95 patients over 3.5 years; more hypoglycemia and weight gain."
   ],
   "items": [
     {
-      "id": "tr-nejm-007-how1",
-      "referenceNumber": 1,
-      "type": "how",
-      "subtopic": "ACCORD",
-      "question": "How does the process described in reference 1 relate to ACCORD?",
-      "answer": "The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemoglobin levels might reduce these outcomes. This hypothesis was supported by findings from some but not all previous clinical trials. However, the hypothesis was not explicitly tested in adequately powered, randomized trials focusing on cardiovascular outcomes. Nevertheless, data from basic science, epidemiologic analysis, and limited trials have been used to support guideline recommendations to target near-normal levels of glycated hemoglobin and glucose in selected patients with type 2 diabetes mellitus, despite a paucity of evidence regarding the risks and benefits of doing so with currently available therapies.",
-      "reference": "Ref 1: \"The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemogl...\" — Goff DC Jr, Gerstein HC, Ginsberg HN, et al. Prevention of cardiovascular disease in persons with type 2 diabetes mellit"
+      "id": "tr-nejm-007-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "ACCORD — Main Points (High-Yield Overview)",
+      "content": "Background and Hypothesis: Epidemiologic studies established a direct relationship between glycated hemoglobin and cardiovascular events in type 2 diabetes. ACCORD tested whether targeting normal HbA1c (<6.0%) would reduce cardiovascular events in middle-aged and older patients with type 2 diabetes and established CVD or additional risk factors.\n\nStudy Design: 10,251 patients randomized to intensive therapy (HbA1c <6.0%) vs standard therapy (7.0–7.9%). Double 2×2 factorial design with concurrent BP and lipid substudies.\n\nGlycemic Achievements: By 1 year, median HbA1c stabilized at 6.4% (intensive) vs 7.5% (standard).\n\nPrimary Outcomes: Intensive therapy did not significantly reduce the primary composite of nonfatal MI, nonfatal stroke, or CV death (HR 0.90; P=0.16), though nonfatal MI was reduced.\n\nMortality and Safety: Intensive regimen discontinued after mean 3.5 years due to higher all-cause mortality (257 vs 203 deaths; ~1 extra death per 95 patients). Hypoglycemia requiring assistance and >10 kg weight gain were more frequent with intensive therapy.\n\nConclusion: Targeting normal HbA1c in this high-risk population increased mortality by 1.0% over 3.5 years — a previously unrecognized harm of intensive glucose lowering.",
+      "keyPoints": [
+        "Primary composite neutral (HR 0.90; P=0.16) · nonfatal MI ↓",
+        "All-cause mortality ↑22% — intensive regimen stopped early",
+        "NNT harm ~95 patients for 1 extra death over 3.5 years"
+      ],
+      "reference": "The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-why2",
-      "referenceNumber": 2,
+      "id": "tr-nejm-007-why1",
       "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: in the risk of cardiovascular events, an increase…",
-      "answer": "in the risk of cardiovascular events, an increase",
-      "reference": "Ref 2: \"in the risk of cardiovascular events, an increase\" — Selvin E, Marinopoulos S, Berkenblit G, et al. Meta-analysis: glycosylated hemoglobin and cardiovascular disease in diab"
+      "subtopic": "Why/How 1",
+      "referenceNumber": 1,
+      "question": "Why was the ACCORD trial specifically designed to target a glycated hemoglobin level below 6.0%?",
+      "answer": "The trial was designed to test whether targeting normal glycated hemoglobin levels would reduce the rate of cardiovascular events, a hypothesis generated from epidemiologic studies showing a graded relationship between higher glycated hemoglobin and increased cardiovascular risk.",
+      "keyPoints": [
+        "The trial was designed to test whether targeting normal glycated hemoglobin levels would reduce the rate of cardiovascular events, a hypothesis generated from epidemiologic studies showing a graded relationship between higher glycated hemoglobin and increased cardiovascular risk."
+      ],
+      "reference": "ACCORD Q1: The trial was designed to test whether targeting normal glycated hemoglobin leve... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-how2",
+      "type": "how",
+      "subtopic": "Why/How 2",
+      "referenceNumber": 2,
+      "question": "How did the independent data and safety monitoring committee respond to the interim mortality trends in January 2008?",
+      "answer": "After reviewing mortality trends, the committee concluded that the harm from an increased rate of death in the intensive-therapy group outweighed potential benefits and recommended discontinuing the intensive regimen for safety reasons.",
+      "keyPoints": [
+        "After reviewing mortality trends, the committee concluded that the harm from an increased rate of death in the intensive-therapy group outweighed potential benefits and recommended discontinuing the intensive regimen for safety reasons."
+      ],
+      "reference": "ACCORD Q2: After reviewing mortality trends, the committee concluded that the harm from an ... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-why3",
+      "type": "why",
+      "subtopic": "Why/How 3",
       "referenceNumber": 3,
-      "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: of 12 to 14% in the risk of death, and an in-…",
-      "answer": "of 12 to 14% in the risk of death, and an in-",
-      "reference": "Ref 3: \"of 12 to 14% in the risk of death, and an in-\" — Gerstein HC, Pogue J, Mann JF, et al. The relationship between dysglycaemia and cardiovascular and renal risk in dia. be"
+      "question": "Why did the primary composite outcome fail to achieve statistical significance despite a lower event count in the intensive group?",
+      "answer": "Although there were fewer primary outcomes in the intensive-therapy group (352 events) compared to the standard-therapy group (371 events), the hazard ratio of 0.90 yielded a P value of 0.16, which did not meet the threshold for statistical significance.",
+      "keyPoints": [
+        "Although there were fewer primary outcomes in the intensive-therapy group (352 events) compared to the standard-therapy group (371 events), the hazard ratio of 0.90 yielded a P value of 0.16, which did not meet the threshold for statistical significance."
+      ],
+      "reference": "ACCORD Q3: Although there were fewer primary outcomes in the intensive-therapy group (352 e... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-why4",
-      "referenceNumber": 4,
-      "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: of 12 to 14% in the risk of death, and an in-…",
-      "answer": "of 12 to 14% in the risk of death, and an in-",
-      "reference": "Ref 4: \"of 12 to 14% in the risk of death, and an in-\" — Stratton IM, Adler AI, Neil HA, et al. Association of glycaemia with macrovascular and microvascular complications of ty"
-    },
-    {
-      "id": "tr-nejm-007-how5",
-      "referenceNumber": 5,
+      "id": "tr-nejm-007-how4",
       "type": "how",
-      "subtopic": "ACCORD",
-      "question": "How does the process described in reference 5 relate to ACCORD?",
-      "answer": "The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemoglobin levels might reduce these outcomes. This hypothesis was supported by findings from some but not all previous clinical trials. However, the hypothesis was not explicitly tested in adequately powered, randomized trials focusing on cardiovascular outcomes. Nevertheless, data from basic science, epidemiologic analysis, and limited trials have been used to support guideline recommendations to target near-normal levels of glycated hemoglobin and glucose in selected patients with type 2 diabetes mellitus, despite a paucity of evidence regarding the risks and benefits of doing so with currently available therapies.",
-      "reference": "Ref 5: \"The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemogl...\" — American Diabetes Association. Standards of medical care in diabetes — 2008. Diabetes Care 2008;31:Suppl 1:S12-S54."
+      "subtopic": "Why/How 4",
+      "referenceNumber": 4,
+      "question": "How did the intensive therapy specifically alter the incidence of nonfatal myocardial infarctions?",
+      "answer": "The intensive-therapy group had a significantly lower rate of nonfatal myocardial infarction compared to the standard-therapy group, occurring at a rate of 3.6% versus 4.6% (P=0.004).",
+      "keyPoints": [
+        "The intensive-therapy group had a significantly lower rate of nonfatal myocardial infarction compared to the standard-therapy group, occurring at a rate of 3.6% versus 4.6% (P=0.004)."
+      ],
+      "reference": "ACCORD Q4: The intensive-therapy group had a significantly lower rate of nonfatal myocardia... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-why5",
+      "type": "why",
+      "subtopic": "Why/How 5",
+      "referenceNumber": 5,
+      "question": "Why do the authors suggest that if cardiovascular benefits exist from intensive therapy, they might require a long time to manifest?",
+      "answer": "The rates of the primary outcome only began to separate between the two study groups after 3 years, suggesting that any potential benefit from intensive glucose lowering may take several years to emerge, during which time mortality risk is elevated.",
+      "keyPoints": [
+        "The rates of the primary outcome only began to separate between the two study groups after 3 years, suggesting that any potential benefit from intensive glucose lowering may take several years to emerge, during which time mortality risk is elevated."
+      ],
+      "reference": "ACCORD Q5: The rates of the primary outcome only began to separate between the two study gr... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-how6",
-      "referenceNumber": 6,
       "type": "how",
-      "subtopic": "ACCORD",
-      "question": "How does the process described in reference 6 relate to ACCORD?",
-      "answer": "The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemoglobin levels might reduce these outcomes. This hypothesis was supported by findings from some but not all previous clinical trials. However, the hypothesis was not explicitly tested in adequately powered, randomized trials focusing on cardiovascular outcomes. Nevertheless, data from basic science, epidemiologic analysis, and limited trials have been used to support guideline recommendations to target near-normal levels of glycated hemoglobin and glucose in selected patients with type 2 diabetes mellitus, despite a paucity of evidence regarding the risks and benefits of doing so with currently available therapies.",
-      "reference": "Ref 6: \"The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemogl...\" — Canadian Diabetes Association Clinical Practice Guidelines Expert Committee. Canadian Diabetes Association 2003 clinical"
+      "subtopic": "Why/How 6",
+      "referenceNumber": 6,
+      "question": "How did researchers practically achieve the rapid reduction in glycated hemoglobin for the intensive-therapy group?",
+      "answer": "Researchers individualized therapeutic regimens using a study-supervised formulary, requiring patients in the intensive group to attend monthly visits initially and modifying their drug regimen a mean of 4.4 times per year.",
+      "keyPoints": [
+        "Researchers individualized therapeutic regimens using a study-supervised formulary, requiring patients in the intensive group to attend monthly visits initially and modifying their drug regimen a mean of 4.4 times per year."
+      ],
+      "reference": "ACCORD Q6: Researchers individualized therapeutic regimens using a study-supervised formula... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-how7",
+      "id": "tr-nejm-007-why7",
+      "type": "why",
+      "subtopic": "Why/How 7",
       "referenceNumber": 7,
-      "type": "how",
-      "subtopic": "ACCORD",
-      "question": "How does the process described in reference 7 relate to ACCORD?",
-      "answer": "The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemoglobin levels might reduce these outcomes. This hypothesis was supported by findings from some but not all previous clinical trials. However, the hypothesis was not explicitly tested in adequately powered, randomized trials focusing on cardiovascular outcomes. Nevertheless, data from basic science, epidemiologic analysis, and limited trials have been used to support guideline recommendations to target near-normal levels of glycated hemoglobin and glucose in selected patients with type 2 diabetes mellitus, despite a paucity of evidence regarding the risks and benefits of doing so with currently available therapies.",
-      "reference": "Ref 7: \"The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemogl...\" — Rydén L, Standl E, Bartnik M, et al. Guidelines on diabetes, pre-diabetes, and cardiovascular diseases: executive summar"
+      "question": "Why was the increase in mortality labeled a \"previously unrecognized harm\"?",
+      "answer": "Prior clinical trials, such as the UK Prospective Diabetes Study and the Veterans Affairs Diabetes Feasibility Trial, had not clearly established or identified a significant increase in mortality associated with intensive glucose lowering.",
+      "keyPoints": [
+        "Prior clinical trials, such as the UK Prospective Diabetes Study and the Veterans Affairs Diabetes Feasibility Trial, had not clearly established or identified a significant increase in mortality associated with intensive glucose lowering."
+      ],
+      "reference": "ACCORD Q7: Prior clinical trials, such as the UK Prospective Diabetes Study and the Veteran... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-how8",
-      "referenceNumber": 8,
       "type": "how",
-      "subtopic": "ACCORD",
-      "question": "How does the process described in reference 8 relate to ACCORD?",
-      "answer": "The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemoglobin levels might reduce these outcomes. This hypothesis was supported by findings from some but not all previous clinical trials. However, the hypothesis was not explicitly tested in adequately powered, randomized trials focusing on cardiovascular outcomes. Nevertheless, data from basic science, epidemiologic analysis, and limited trials have been used to support guideline recommendations to target near-normal levels of glycated hemoglobin and glucose in selected patients with type 2 diabetes mellitus, despite a paucity of evidence regarding the risks and benefits of doing so with currently available therapies.",
-      "reference": "Ref 8: \"The graded relationship between the glycated hemoglobin level and cardiovascular events and death suggested that a therapeutic strategy to lower glycated hemogl...\" — AACE Diabetes Mellitus Clinical Practice Guidelines Task Force. American Association of Clinical Endocrinologists medica"
+      "subtopic": "Why/How 8",
+      "referenceNumber": 8,
+      "question": "How did the trial manage patients whose baseline characteristics included concurrent blood pressure or lipid abnormalities?",
+      "answer": "The trial utilized a double two-by-two factorial design, whereby a subset of 4,733 patients were randomly assigned to intensive or standard blood pressure therapy, and another 5,518 patients were randomly assigned to receive fenofibrate or placebo for lipid control.",
+      "keyPoints": [
+        "The trial utilized a double two-by-two factorial design, whereby a subset of 4,733 patients were randomly assigned to intensive or standard blood pressure therapy, and another 5,518 patients were randomly assigned to receive fenofibrate or placebo for lipid control."
+      ],
+      "reference": "ACCORD Q8: The trial utilized a double two-by-two factorial design, whereby a subset of 4,7... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-why9",
-      "referenceNumber": 9,
       "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: The rationale and design of the trial and a description of the glycemia intervention have been reported previously. Brie…",
-      "answer": "The rationale and design of the trial and a description of the glycemia intervention have been reported previously. Briefly, the ongoing multicenter clinical study, which is sponsored by the National Heart, Lung, and Blood Institute (NHLBI), is being conducted in 77 clinical centers (aggregated within seven networks) across the United States and Canada. We recruited volunteers who had type 2 diabetes mellitus and a glycated hemoglobin level of 7.5% or more and who either were between the ages of 40 and 79 years and had cardiovascular disease or were between the ages of 55 and 79 years and had anatomical evidence of significant atherosclerosis, albuminuria, left ventricular hypertrophy, or at least two additional risk factors for cardiovascular disease (dyslipidemia, hypertension, current status as a smoker, or obesity). Key exclusion criteria included frequent or recent serious hypoglycemic events, unwillingness to do home glucose monitoring or inject insulin, a body-mass index (the weight in kilograms divided by the square of the height in meters) of more than 45, a serum creatinine level of more than 1.5 mg per deciliter (133 mol per liter), or other serious illness",
-      "reference": "Ref 9: \"The rationale and design of the trial and a description of the glycemia intervention have been reported previously. Briefly, the ongoing multicenter clinical st...\" — Buse JB, Bigger JT, Byington RP, et al. Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial: design and met"
+      "subtopic": "Why/How 9",
+      "referenceNumber": 9,
+      "question": "Why was an intention-to-treat approach used for the primary statistical analyses?",
+      "answer": "An intention-to-treat analysis ensures that patient outcomes are compared based strictly on their original randomized study-group assignments, preserving the structural integrity of the randomized trial.",
+      "keyPoints": [
+        "An intention-to-treat analysis ensures that patient outcomes are compared based strictly on their original randomized study-group assignments, preserving the structural integrity of the randomized trial."
+      ],
+      "reference": "ACCORD Q9: An intention-to-treat analysis ensures that patient outcomes are compared based ... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-why10",
+      "id": "tr-nejm-007-how10",
+      "type": "how",
+      "subtopic": "Why/How 10",
       "referenceNumber": 10,
-      "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: The rationale and design of the trial and a description of the glycemia intervention have been reported previously. Brie…",
-      "answer": "The rationale and design of the trial and a description of the glycemia intervention have been reported previously. Briefly, the ongoing multicenter clinical study, which is sponsored by the National Heart, Lung, and Blood Institute (NHLBI), is being conducted in 77 clinical centers (aggregated within seven networks) across the United States and Canada. We recruited volunteers who had type 2 diabetes mellitus and a glycated hemoglobin level of 7.5% or more and who either were between the ages of 40 and 79 years and had cardiovascular disease or were between the ages of 55 and 79 years and had anatomical evidence of significant atherosclerosis, albuminuria, left ventricular hypertrophy, or at least two additional risk factors for cardiovascular disease (dyslipidemia, hypertension, current status as a smoker, or obesity). Key exclusion criteria included frequent or recent serious hypoglycemic events, unwillingness to do home glucose monitoring or inject insulin, a body-mass index (the weight in kilograms divided by the square of the height in meters) of more than 45, a serum creatinine level of more than 1.5 mg per deciliter (133 mol per liter), or other serious illness",
-      "reference": "Ref 10: \"The rationale and design of the trial and a description of the glycemia intervention have been reported previously. Briefly, the ongoing multicenter clinical st...\" — Gerstein HC, Riddle MC, Kendall DM, et al. Glycemia treatment strategies in the Action to Control Cardiovascular Risk in"
+      "question": "How did the incidence of severe weight gain contrast between the two study cohorts?",
+      "answer": "Weight gain of more than 10 kg from baseline occurred in 27.8% of patients in the intensive-therapy group, which was nearly double the 14.1% rate observed in the standard-therapy group.",
+      "keyPoints": [
+        "Weight gain of more than 10 kg from baseline occurred in 27.8% of patients in the intensive-therapy group, which was nearly double the 14.1% rate observed in the standard-therapy group."
+      ],
+      "reference": "ACCORD Q10: Weight gain of more than 10 kg from baseline occurred in 27.8% of patients in th... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-why11",
-      "referenceNumber": 11,
       "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: Ginsberg HN, Bonds DE, Lovato LC, et al. Evolution of the lipid trial protocol of the Action to Control Cardiovascular R…",
-      "answer": "Ginsberg HN, Bonds DE, Lovato LC, et al. Evolution of the lipid trial protocol of the Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial. Am J Cardiol 2007;99:56i-67i",
-      "reference": "Ref 11: \"Ginsberg HN, Bonds DE, Lovato LC, et al. Evolution of the lipid trial protocol of the Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial. Am J Car...\" — Ginsberg HN, Bonds DE, Lovato LC, et al. Evolution of the lipid trial protocol of the Action to Control Cardiovascular R"
+      "subtopic": "Why/How 11",
+      "referenceNumber": 11,
+      "question": "Why did the prespecified subgroup analyses raise the possibility that certain patients might benefit from intensive therapy?",
+      "answer": "Analyses showed evidence of heterogeneity, suggesting that intensive therapy patients with a baseline glycated hemoglobin of 8.0% or less, or those without a prior cardiovascular event, may have experienced fewer cardiovascular events than their standard-therapy counterparts.",
+      "keyPoints": [
+        "Analyses showed evidence of heterogeneity, suggesting that intensive therapy patients with a baseline glycated hemoglobin of 8.0% or less, or those without a prior cardiovascular event, may have experienced fewer cardiovascular events than their standard-therapy counterparts."
+      ],
+      "reference": "ACCORD Q11: Analyses showed evidence of heterogeneity, suggesting that intensive therapy pat... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-q12",
+      "id": "tr-nejm-007-how12",
+      "type": "how",
+      "subtopic": "Why/How 12",
       "referenceNumber": 12,
-      "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 12 in ACCORD?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+      "question": "How did the study confirm the accuracy and objectivity of key outcomes like myocardial infarction and stroke?",
+      "answer": "Key outcomes were rigorously adjudicated by a central committee whose members were kept unaware of the patients' study-group assignments, using predefined criteria.",
+      "keyPoints": [
+        "Key outcomes were rigorously adjudicated by a central committee whose members were kept unaware of the patients' study-group assignments, using predefined criteria."
       ],
-      "correctOption": 3,
-      "explanation": "and were provided with glucose-lowering medications (from a study-supervised formulary) and glucose-monitoring supplies. Any marketed antihyperglycemic therapy that was not provided by the formulary could also be prescribed to any patient but was not provided by study investigators. Therapeutic regimens were individualized at the discretion of the investigators and patients on the basis of study-group assignment and the response to therapy. Adverse effects of therapy were carefully audited both locally and centrally to ensure the safety of the patients.",
-      "reference": "Ref 12: \"and were provided with glucose-lowering medications (from a study-supervised formulary) and glucose-monitoring supplies. Any marketed antihyperglycemic therapy ...\" — Bonds DE, Kurashige EM, Bergenstal R, et al. Severe hypoglycemia monitoring and risk management procedures in the Action"
+      "reference": "ACCORD Q12: Key outcomes were rigorously adjudicated by a central committee whose members we... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-why13",
-      "referenceNumber": 13,
       "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: The prespecified primary outcome was the first occurrence of nonfatal myocardial infarction or nonfatal stroke or death …",
-      "answer": "The prespecified primary outcome was the first occurrence of nonfatal myocardial infarction or nonfatal stroke or death from cardiovascular causes. The latter included death from myocardial infarction, heart failure, arrhythmia, invasive cardiovascular interventions, cardiovascular causes after noncardiovascular surgery, stroke, unexpected death presumed to be from ischemic cardiovascular disease occurring within 24 hours after the onset of symptoms, and death from other vascular diseases. Death from any cause was one of several prespecified secondary outcomes. Study investigators also measured the effect of the intervention on microvascular disease, hypoglycemia, cognition, and quality of life, although these outcomes are not reported here. Key outcomes were adjudicated by a central committee whose members were unaware of study-group assignments on the basis of predefined criteria. A central laboratory that was unaware of study-group assignments analyzed blood for glycated hemoglobin levels. Study investigators outside the coordinating center and NHLBI project office were unaware of the accumulating rates of study outcomes",
-      "reference": "Ref 13: \"The prespecified primary outcome was the first occurrence of nonfatal myocardial infarction or nonfatal stroke or death from cardiovascular causes. The latter i...\" — ACCORD Web site. (Accessed May 19, 2008, at http://www.accordtrial.org.)"
+      "subtopic": "Why/How 13",
+      "referenceNumber": 13,
+      "question": "Why are the post hoc analyses regarding the cause of increased mortality considered only \"exploratory\"?",
+      "answer": "Because the study was not designed to test the individual components of the intervention strategy, and glucose-lowering therapies were adjusted post-randomization based on clinical response, these analyses cannot definitively identify or exclude a single specific cause for the mortality.",
+      "keyPoints": [
+        "Because the study was not designed to test the individual components of the intervention strategy, and glucose-lowering therapies were adjusted post-randomization based on clinical response, these analyses cannot definitively identify or exclude a single specific cause for the mortality."
+      ],
+      "reference": "ACCORD Q13: Because the study was not designed to test the individual components of the inte... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-sa14",
+      "id": "tr-nejm-007-how14",
+      "type": "how",
+      "subtopic": "Why/How 14",
       "referenceNumber": 14,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From ACCORD, what is the key numeric finding cited in reference 14?",
-      "modelAnswer": "A total of 10,251 men and women with a mean ( SD) age of 62.2 6.8 years and a median glycated hemoglobin level of 8.1% (interquartile range, 7.6 to 8.9) were randomly assigned to either the intensive therapy group or the standard-therapy group (see the figure in the Supplementary Appendix, available",
-      "reference": "Ref 14: \"A total of 10,251 men and women with a mean ( SD) age of 62.2 6.8 years and a median glycated hemoglobin level of 8.1% (interquartile range, 7.6 to 8.9) were ra...\" — Kingry C, Bastien A, Booth G, et al. Recruitment strategies in the Action to Control Cardiovascular Risk in Diabetes (AC"
+      "question": "How was the primary composite outcome explicitly defined in this study?",
+      "answer": "The primary outcome was defined as the first occurrence of a nonfatal myocardial infarction, a nonfatal stroke, or death from cardiovascular causes.",
+      "keyPoints": [
+        "The primary outcome was defined as the first occurrence of a nonfatal myocardial infarction, a nonfatal stroke, or death from cardiovascular causes."
+      ],
+      "reference": "ACCORD Q14: The primary outcome was defined as the first occurrence of a nonfatal myocardial... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-why15",
-      "referenceNumber": 15,
       "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: We assessed the consistency of the effect of study-group assignment on total mortality and the primary outcome among pre…",
-      "answer": "We assessed the consistency of the effect of study-group assignment on total mortality and the primary outcome among prespecified subgroups using statistical tests of interaction between the treatment effect and the subgroup within the Cox model. We report all nominal P values, unadjusted for the multiplicity associated with the various tests performed for this study or monitoring of the primary and mortality end points by the data and safety monitoring committee. Since we conducted 15 statistical tests of hypotheses related to secondary end points and subgroups, there was a 54% chance (i.e., 1- [1-0.05] ) that at least one of these tests would be statistically significant at an alpha level of 0.05, assuming independence between tests",
-      "reference": "Ref 15: \"We assessed the consistency of the effect of study-group assignment on total mortality and the primary outcome among prespecified subgroups using statistical te...\" — UK Prospective Diabetes Study (UKPDS) Group. Intensive blood-glucose control with sulphonylureas or insulin compared wit"
+      "subtopic": "Why/How 15",
+      "referenceNumber": 15,
+      "question": "Why did the intensive-therapy group utilize more drugs from every medication class compared to the standard group?",
+      "answer": "Achieving the aggressive target of a glycated hemoglobin level below 6.0% required a customized, comprehensive approach that inherently resulted in a greater exposure to single drugs, drug combinations, and frequent dosing changes.",
+      "keyPoints": [
+        "Achieving the aggressive target of a glycated hemoglobin level below 6.0% required a customized, comprehensive approach that inherently resulted in a greater exposure to single drugs, drug combinations, and frequent dosing changes."
+      ],
+      "reference": "ACCORD Q15: Achieving the aggressive target of a glycated hemoglobin level below 6.0% requir... — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-why16",
+      "id": "tr-nejm-007-q1",
+      "type": "mcq",
+      "subtopic": "MCQ 1",
       "referenceNumber": 16,
-      "type": "why",
-      "subtopic": "ACCORD",
-      "question": "Why is the following clinically relevant in ACCORD? Context: We conducted this study because previous clinical trials had not established the effects of intensive glucose lowering o…",
-      "answer": "We conducted this study because previous clinical trials had not established the effects of intensive glucose lowering on cardiovascular events or mortality in patients with type 2 diabetes mellitus. For example, in the United Kingdom Prospective Diabetes Study, an intensive glucose-lowering regimen significantly reduced a composite outcome of seven diabetes-related events, as compared with conventional therapy. However, the effects on cardiovascular events and mortality were not significant. Conversely, in the Veterans Affairs Diabetes Feasibility Trial, intensive glucose lowering was associated with a nonsignificance",
-      "reference": "Ref 16: \"We conducted this study because previous clinical trials had not established the effects of intensive glucose lowering on cardiovascular events or mortality in ...\" — Abraira C, Colwell JA, Nuttall F, et al. Cardiovascular events and correlates in the Veterans Affairs Diabetes Feasibili"
+      "question": "What was the median glycated hemoglobin level achieved and stabilized by the intensive-therapy group at 1 year?",
+      "options": [
+        "6.0%",
+        "6.4%",
+        "7.0%",
+        "7.5%"
+      ],
+      "correctOption": 1,
+      "explanation": "Median HbA1c stabilized at 6.4% in the intensive group at 1 year.",
+      "reference": "ACCORD MCQ 1: Median HbA1c stabilized at 6.4% in the intensive group at 1 year. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
+      "referenceNumber": 17,
+      "question": "How did the annualized rate of hypoglycemic episodes requiring medical assistance compare between the groups?",
+      "options": [
+        "1.0% in intensive vs 0.5% in standard",
+        "3.1% in intensive vs 1.0% in standard",
+        "5.0% in intensive vs 3.1% in standard",
+        "10.5% in intensive vs 7.2% in standard"
+      ],
+      "correctOption": 1,
+      "explanation": "Hypoglycemia requiring assistance: 3.1%/year intensive vs 1.0% standard.",
+      "reference": "ACCORD MCQ 2: Hypoglycemia requiring assistance: 3.1%/year intensive vs 1.0% standard. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
+      "referenceNumber": 18,
+      "question": "What was the primary reason the intensive glucose-lowering regimen was prematurely discontinued?",
+      "options": [
+        "A lack of funding to continue the monthly patient visits",
+        "A significantly higher rate of all-cause mortality in the intensive group",
+        "The intensive group achieved its cardiovascular benefit threshold early",
+        "High rates of severe liver toxicity"
+      ],
+      "correctOption": 1,
+      "explanation": "Intensive regimen stopped due to significantly higher all-cause mortality.",
+      "reference": "ACCORD MCQ 3: Intensive regimen stopped due to significantly higher all-cause mortality. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
+      "referenceNumber": 19,
+      "question": "The absolute increase of 1.0% in mortality during the follow-up period translates to one extra death for every how many patients treated with intensive therapy?",
+      "options": [
+        "22 patients",
+        "50 patients",
+        "95 patients",
+        "150 patients"
+      ],
+      "correctOption": 2,
+      "explanation": "1.0% absolute mortality increase ≈ 1 extra death per 95 patients treated.",
+      "reference": "ACCORD MCQ 4: 1.0% absolute mortality increase ≈ 1 extra death per 95 patients treated. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
+      "referenceNumber": 20,
+      "question": "In which prespecified subgroup did interaction tests suggest the intensive therapy might lead to fewer cardiovascular events?",
+      "options": [
+        "Patients older than 65 years",
+        "Women",
+        "Patients with a baseline glycated hemoglobin level over 8.0%",
+        "Patients with no previous cardiovascular event before randomization"
+      ],
+      "correctOption": 3,
+      "explanation": "Heterogeneity suggested possible benefit in patients without prior cardiovascular event.",
+      "reference": "ACCORD MCQ 5: Heterogeneity suggested possible benefit in patients without prior cardiovascular event. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
+      "referenceNumber": 21,
+      "question": "How did the rate of death specifically from cardiovascular causes differ between the intensive and standard therapy groups?",
+      "options": [
+        "2.6% in intensive vs. 1.8% in standard",
+        "1.8% in intensive vs. 2.6% in standard",
+        "5.0% in intensive vs. 4.0% in standard",
+        "No significant difference was observed"
+      ],
+      "correctOption": 0,
+      "explanation": "CV death: 2.6% intensive vs 1.8% standard (HR 1.35).",
+      "reference": "ACCORD MCQ 6: CV death: 2.6% intensive vs 1.8% standard (HR 1.35). — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
+      "referenceNumber": 22,
+      "question": "Which of the following was a key exclusion criterion for patients attempting to enroll in the ACCORD trial?",
+      "options": [
+        "A baseline glycated hemoglobin level of 7.5%",
+        "Age over 55 years",
+        "A body-mass index of more than 45",
+        "A history of smoking"
+      ],
+      "correctOption": 2,
+      "explanation": "BMI >45 was an exclusion criterion.",
+      "reference": "ACCORD MCQ 7: BMI >45 was an exclusion criterion. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
+      "referenceNumber": 23,
+      "question": "Statistically, the study was originally designed to have 89% power to detect what percentage reduction in the rate of the primary outcome?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "correctOption": 1,
+      "explanation": "Study powered (89%) to detect a 15% reduction in primary outcome.",
+      "reference": "ACCORD MCQ 8: Study powered (89%) to detect a 15% reduction in primary outcome. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
+      "referenceNumber": 24,
+      "question": "Which adverse event occurred significantly more frequently in the intensive-therapy group?",
+      "options": [
+        "Motor vehicle accidents in which the patient was the driver",
+        "Elevated aminotransferase levels",
+        "Fatal or nonfatal congestive heart failure",
+        "Fluid retention"
+      ],
+      "correctOption": 3,
+      "explanation": "Fluid retention was significantly more frequent with intensive therapy.",
+      "reference": "ACCORD MCQ 9: Fluid retention was significantly more frequent with intensive therapy. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q10",
+      "type": "mcq",
+      "subtopic": "MCQ 10",
+      "referenceNumber": 25,
+      "question": "How did the rate of nonfatal stroke differ between the intensive and standard groups?",
+      "options": [
+        "It was significantly higher in the intensive group (2.6% vs 1.8%)",
+        "It was significantly lower in the intensive group (1.2% vs 2.4%)",
+        "There was no significant difference (1.3% vs 1.2%)",
+        "It was the primary driver of the mortality difference"
+      ],
+      "correctOption": 2,
+      "explanation": "Nonfatal stroke rates did not differ significantly (1.3% vs 1.2%).",
+      "reference": "ACCORD MCQ 10: Nonfatal stroke rates did not differ significantly (1.3% vs 1.2%). — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q11",
+      "type": "mcq",
+      "subtopic": "MCQ 11",
+      "referenceNumber": 26,
+      "question": "Which nonglycemic medication was received by significantly fewer patients in the intensive-therapy group compared to the standard-therapy group?",
+      "options": [
+        "Statins",
+        "Aspirin",
+        "Beta-blockers",
+        "Angiotensin-converting-enzyme inhibitors"
+      ],
+      "correctOption": 3,
+      "explanation": "Fewer intensive-therapy patients received ACE inhibitors.",
+      "reference": "ACCORD MCQ 11: Fewer intensive-therapy patients received ACE inhibitors. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q12",
+      "type": "mcq",
+      "subtopic": "MCQ 12",
+      "referenceNumber": 27,
+      "question": "What was the mean duration of follow-up for patients at the time the data and safety monitoring committee recommended discontinuing the intensive regimen?",
+      "options": [
+        "1.2 years",
+        "2.5 years",
+        "3.5 years",
+        "5.6 years"
+      ],
+      "correctOption": 2,
+      "explanation": "Mean follow-up was 3.5 years at time of intensive-regimen discontinuation.",
+      "reference": "ACCORD MCQ 12: Mean follow-up was 3.5 years at time of intensive-regimen discontinuation. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q13",
+      "type": "mcq",
+      "subtopic": "MCQ 13",
+      "referenceNumber": 28,
+      "question": "How frequently were patients in the standard-therapy group scheduled for glycemic-management visits?",
+      "options": [
+        "Every month",
+        "Every 2 months",
+        "Every 4 months",
+        "Once a year"
+      ],
+      "correctOption": 2,
+      "explanation": "Standard group had glycemic visits every 4 months.",
+      "reference": "ACCORD MCQ 13: Standard group had glycemic visits every 4 months. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q14",
+      "type": "mcq",
+      "subtopic": "MCQ 14",
+      "referenceNumber": 29,
+      "question": "Approximately what percentage of the randomized cohort in the ACCORD trial was female?",
+      "options": [
+        "25%",
+        "38%",
+        "50%",
+        "62%"
+      ],
+      "correctOption": 1,
+      "explanation": "38% of participants were women.",
+      "reference": "ACCORD MCQ 14: 38% of participants were women. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q15",
+      "type": "mcq",
+      "subtopic": "MCQ 15",
+      "referenceNumber": 30,
+      "question": "How much did the median glycated hemoglobin level fall in the intensive-therapy group within the first 4 months after randomization?",
+      "options": [
+        "From 8.1% to 7.5%",
+        "From 8.1% to 6.7%",
+        "From 8.1% to 6.4%",
+        "From 8.1% to 6.0%"
+      ],
+      "correctOption": 1,
+      "explanation": "Median HbA1c fell from 8.1% to 6.7% within 4 months.",
+      "reference": "ACCORD MCQ 15: Median HbA1c fell from 8.1% to 6.7% within 4 months. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-q16",
+      "type": "mcq",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "Which component of the primary composite outcome saw a statistically significant reduction in the intensive-therapy group?",
+      "options": [
+        "Death from cardiovascular causes",
+        "Nonfatal stroke",
+        "Nonfatal myocardial infarction",
+        "Fatal procedure"
+      ],
+      "correctOption": 2,
+      "explanation": "Nonfatal MI was significantly reduced (3.6% vs 4.6%; P=0.004).",
+      "reference": "ACCORD MCQ 16: Nonfatal MI was significantly reduced (3.6% vs 4.6%; P=0.004). — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-q17",
-      "referenceNumber": 17,
       "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 17 in ACCORD?",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "What was the target glycated hemoglobin level for the standard-therapy group?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "Below 6.0%",
+        "6.0 to 6.9%",
+        "7.0 to 7.9%",
+        "8.0 to 8.9%"
       ],
-      "correctOption": 3,
-      "explanation": "cant increase in cardiovascular events and no difference in mortality, and in the University Group Diabetes Program, the group that received a sulfonylurea (tolbutamide) had higher mortality.",
-      "reference": "Ref 17: \"cant increase in cardiovascular events and no difference in mortality, and in the University Group Diabetes Program, the group that received a sulfonylurea (tol...\" — Meinert CL, Knatterud GL, Prout TE, Klimt CR. A study of the effects of hypoglycemic agents on vascular complications in"
+      "correctOption": 2,
+      "explanation": "Standard therapy targeted HbA1c 7.0–7.9%.",
+      "reference": "ACCORD MCQ 17: Standard therapy targeted HbA1c 7.0–7.9%. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
       "id": "tr-nejm-007-q18",
-      "referenceNumber": 18,
       "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 18 in ACCORD?",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "How was exposure to glucose-lowering drugs statistically summarized for the two study groups?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "By absolute milligram dosage per day",
+        "By the number of patients receiving a prescription and total person-years of prescriptions",
+        "By the ratio of oral medications to insulin injections",
+        "By the overall financial cost of the formulary"
       ],
-      "correctOption": 3,
-      "explanation": "cant increase in cardiovascular events and no difference in mortality, and in the University Group Diabetes Program, the group that received a sulfonylurea (tolbutamide) had higher mortality.",
-      "reference": "Ref 18: \"cant increase in cardiovascular events and no difference in mortality, and in the University Group Diabetes Program, the group that received a sulfonylurea (tol...\" — Genuth S. Exogenous insulin administration and cardiovascular risk in non-insulin-dependent and insulin-dependent diabet"
+      "correctOption": 1,
+      "explanation": "Drug exposure summarized by prescription counts and person-years.",
+      "reference": "ACCORD MCQ 18: Drug exposure summarized by prescription counts and person-years. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-how19",
-      "referenceNumber": 19,
-      "type": "how",
-      "subtopic": "ACCORD",
-      "question": "How does the process described in reference 19 relate to ACCORD?",
-      "answer": "Our findings indicate that a comprehensive, customized, therapeutic strategy targeting glycated hemoglobin levels below 6.0% increased the rate of death from any cause after a mean of 3.5 years, as compared with a strategy targeting levels of 7.0 to 7.9% in patients with a median glycated hemoglobin level of 8.1% and either previous cardiovascular events or multiple cardiovascular risk factors. Patients in both groups had lower mortality than reported in epidemiologic studies of similar patients. However, as compared with the standard-therapy group, the intensive-therapy group had a relative increase in mortality of 22% and an absolute increase of 1.0% during this follow-up period, with similar differences in death from cardiovascular causes. This increase in mortality is equivalent to one extra death for every 95 patients who were treated for 3.5 years.",
-      "reference": "Ref 19: \"Our findings indicate that a comprehensive, customized, therapeutic strategy targeting glycated hemoglobin levels below 6.0% increased the rate of death from an...\" — Booth GL, Kapral MK, Fung K, Tu JV. Relation between age and cardiovascular disease in men and women with diabetes compa"
-    },
-    {
-      "id": "tr-nejm-007-how20",
-      "referenceNumber": 20,
-      "type": "how",
-      "subtopic": "ACCORD",
-      "question": "How does the process described in reference 20 relate to ACCORD?",
-      "answer": "Our findings indicate that a comprehensive, customized, therapeutic strategy targeting glycated hemoglobin levels below 6.0% increased the rate of death from any cause after a mean of 3.5 years, as compared with a strategy targeting levels of 7.0 to 7.9% in patients with a median glycated hemoglobin level of 8.1% and either previous cardiovascular events or multiple cardiovascular risk factors. Patients in both groups had lower mortality than reported in epidemiologic studies of similar patients. However, as compared with the standard-therapy group, the intensive-therapy group had a relative increase in mortality of 22% and an absolute increase of 1.0% during this follow-up period, with similar differences in death from cardiovascular causes. This increase in mortality is equivalent to one extra death for every 95 patients who were treated for 3.5 years.",
-      "reference": "Ref 20: \"Our findings indicate that a comprehensive, customized, therapeutic strategy targeting glycated hemoglobin levels below 6.0% increased the rate of death from an...\" — Thomas RJ, Palumbo PJ, Melton LJ III, et al. Trends in the mortality burden associated with diabetes mellitus: a populat"
-    },
-    {
-      "id": "tr-nejm-007-q21",
-      "referenceNumber": 21,
+      "id": "tr-nejm-007-q19",
       "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 21 in ACCORD?",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "What was the relative increase in total mortality for the intensive-therapy group compared to the standard-therapy group?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "10%",
+        "15%",
+        "22%",
+        "35%"
       ],
-      "correctOption": 3,
-      "explanation": "Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of death and cardiovascular events after a 3.5-year period of intensive therapy. Other trials investigating the long-term outcome of intensive glucose lowering will report the effect of a variety of therapeutic approaches on mortality and cardiovascular events in patients with type 2 diabetes mellitus and a range of clinical characteristics. Regardless of the results of these other trials, our study has identified a previously unrecognized harm of intensive glucose lowering in high-risk patients with type 2 diabetes mellitus and high glycated hemoglobin levels. This harm may be due either to the approach used for rapidly lowering glycated hemoglobin levels or to the levels that were achieved. Our findings highlight the importance of conducting trials with sufficient statistical power to assess commonly used approaches on clinically relevant outcomes.",
-      "reference": "Ref 21: \"Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of d...\" — Abraira C, Duckworth W, McCarren M, et al. Design of the cooperative study on glycemic control and complications in diab"
+      "correctOption": 2,
+      "explanation": "Total mortality was 22% higher in the intensive group (257 vs 203 deaths).",
+      "reference": "ACCORD MCQ 19: Total mortality was 22% higher in the intensive group (257 vs 203 deaths). — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-q22",
-      "referenceNumber": 22,
+      "id": "tr-nejm-007-q20",
       "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 22 in ACCORD?",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "What was the mean weight gain at 3 years for patients in the intensive-therapy group?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "0.4 kg",
+        "1.2 kg",
+        "3.5 kg",
+        "5.0 kg"
       ],
-      "correctOption": 3,
-      "explanation": "Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of death and cardiovascular events after a 3.5-year period of intensive therapy. Other trials investigating the long-term outcome of intensive glucose lowering will report the effect of a variety of therapeutic approaches on mortality and cardiovascular events in patients with type 2 diabetes mellitus and a range of clinical characteristics. Regardless of the results of these other trials, our study has identified a previously unrecognized harm of intensive glucose lowering in high-risk patients with type 2 diabetes mellitus and high glycated hemoglobin levels. This harm may be due either to the approach used for rapidly lowering glycated hemoglobin levels or to the levels that were achieved. Our findings highlight the importance of conducting trials with sufficient statistical power to assess commonly used approaches on clinically relevant outcomes.",
-      "reference": "Ref 22: \"Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of d...\" — Study rationale and design of ADVANCE: action in diabetes and vascular disease — preterax and diamicron MR controlled ev"
+      "correctOption": 2,
+      "explanation": "Mean weight gain at 3 years was 3.5 kg in the intensive group.",
+      "reference": "ACCORD MCQ 20: Mean weight gain at 3 years was 3.5 kg in the intensive group. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-q23",
-      "referenceNumber": 23,
-      "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 23 in ACCORD?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of death and cardiovascular events after a 3.5-year period of intensive therapy. Other trials investigating the long-term outcome of intensive glucose lowering will report the effect of a variety of therapeutic approaches on mortality and cardiovascular events in patients with type 2 diabetes mellitus and a range of clinical characteristics. Regardless of the results of these other trials, our study has identified a previously unrecognized harm of intensive glucose lowering in high-risk patients with type 2 diabetes mellitus and high glycated hemoglobin levels. This harm may be due either to the approach used for rapidly lowering glycated hemoglobin levels or to the levels that were achieved. Our findings highlight the importance of conducting trials with sufficient statistical power to assess commonly used approaches on clinically relevant outcomes.",
-      "reference": "Ref 23: \"Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of d...\" — Milicevic Z, Raz I, Strojek K, et al. Hyperglycemia and its effect after acute myocardial infarction on cardiovascular o"
+      "id": "tr-nejm-007-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "The trial successfully proved that targeting normal glycated hemoglobin levels below 6.0% significantly reduces major cardiovascular events.",
+      "correctAnswer": false,
+      "explanation": "Primary composite was not significantly reduced (HR 0.90; P=0.16).",
+      "reference": "ACCORD T/F 1: Primary composite was not significantly reduced (HR 0.90; P=0.16). — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-q24",
-      "referenceNumber": 24,
-      "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 24 in ACCORD?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of death and cardiovascular events after a 3.5-year period of intensive therapy. Other trials investigating the long-term outcome of intensive glucose lowering will report the effect of a variety of therapeutic approaches on mortality and cardiovascular events in patients with type 2 diabetes mellitus and a range of clinical characteristics. Regardless of the results of these other trials, our study has identified a previously unrecognized harm of intensive glucose lowering in high-risk patients with type 2 diabetes mellitus and high glycated hemoglobin levels. This harm may be due either to the approach used for rapidly lowering glycated hemoglobin levels or to the levels that were achieved. Our findings highlight the importance of conducting trials with sufficient statistical power to assess commonly used approaches on clinically relevant outcomes.",
-      "reference": "Ref 24: \"Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of d...\" — ORIGIN Trial Investigators, Gerstein H, Yusuf S, Riddle MC, Ryden L, Bosch J. Rationale, design, and baseline characteri"
+      "id": "tr-nejm-007-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "The intensive-therapy group experienced a significantly higher rate of nonfatal myocardial infarctions than the standard-therapy group.",
+      "correctAnswer": false,
+      "explanation": "Nonfatal MI was significantly lower in the intensive group (3.6% vs 4.6%).",
+      "reference": "ACCORD T/F 2: Nonfatal MI was significantly lower in the intensive group (3.6% vs 4.6%). — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     },
     {
-      "id": "tr-nejm-007-q25",
-      "referenceNumber": 25,
-      "type": "mcq",
-      "subtopic": "ACCORD",
-      "question": "Which finding is supported by reference 25 in ACCORD?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of death and cardiovascular events after a 3.5-year period of intensive therapy. Other trials investigating the long-term outcome of intensive glucose lowering will report the effect of a variety of therapeutic approaches on mortality and cardiovascular events in patients with type 2 diabetes mellitus and a range of clinical characteristics. Regardless of the results of these other trials, our study has identified a previously unrecognized harm of intensive glucose lowering in high-risk patients with type 2 diabetes mellitus and high glycated hemoglobin levels. This harm may be due either to the approach used for rapidly lowering glycated hemoglobin levels or to the levels that were achieved. Our findings highlight the importance of conducting trials with sufficient statistical power to assess commonly used approaches on clinically relevant outcomes.",
-      "reference": "Ref 25: \"Follow-up of the patients after they were switched from intensive therapy to standard therapy may provide crucial information regarding the long-term rates of d...\" — Magee MF, Isley WL. Rationale, design, and methods for glycemic control in the Bypass Angioplasty Revascularization Inve"
+      "id": "tr-nejm-007-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "The independent data and safety monitoring committee recommended terminating the intensive regimen 17 months before the scheduled end of the study.",
+      "correctAnswer": true,
+      "explanation": "Intensive regimen stopped 17 months early after DSMB review.",
+      "reference": "ACCORD T/F 3: Intensive regimen stopped 17 months early after DSMB review. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "Patients in the intensive-therapy group required modifications to their glucose-lowering regimens a mean of 4.4 times per year.",
+      "correctAnswer": true,
+      "explanation": "Mean 4.4 regimen modifications per year in intensive group.",
+      "reference": "ACCORD T/F 4: Mean 4.4 regimen modifications per year in intensive group. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "The study found clear, definitive evidence that a specific interaction between drug classes was the direct cause of the increased mortality in the intensive-therapy group.",
+      "correctAnswer": false,
+      "explanation": "No definitive drug-class interaction identified; mortality analyses were exploratory.",
+      "reference": "ACCORD T/F 5: No definitive drug-class interaction identified; mortality analyses were exploratory. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "A serum creatinine level of more than 1.5 mg per deciliter was a key exclusion criterion for the trial.",
+      "correctAnswer": true,
+      "explanation": "Serum creatinine >1.5 mg/dL was an exclusion criterion.",
+      "reference": "ACCORD T/F 6: Serum creatinine >1.5 mg/dL was an exclusion criterion. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "The intensive glucose-lowering therapy significantly reduced the rate of nonfatal stroke.",
+      "correctAnswer": false,
+      "explanation": "Nonfatal stroke was not significantly reduced.",
+      "reference": "ACCORD T/F 7: Nonfatal stroke was not significantly reduced. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "The trial utilized a factorial design to concurrently evaluate blood-pressure and lipid interventions in subsets of the patients.",
+      "correctAnswer": true,
+      "explanation": "Double 2×2 factorial design for glycemia, BP, and lipid substudies.",
+      "reference": "ACCORD T/F 8: Double 2×2 factorial design for glycemia, BP, and lipid substudies. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "The overall mortality rate for patients in both study groups was lower than what has been reported in epidemiologic studies of similar patients.",
+      "correctAnswer": true,
+      "explanation": "Observed mortality was lower than epidemiologic expectations.",
+      "reference": "ACCORD T/F 9: Observed mortality was lower than epidemiologic expectations. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "The intensive-therapy group achieved a stable median glycated hemoglobin level of 6.4% at the 1-year mark.",
+      "correctAnswer": true,
+      "explanation": "Median HbA1c 6.4% at 1 year in intensive group.",
+      "reference": "ACCORD T/F 10: Median HbA1c 6.4% at 1 year in intensive group. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "The intensive-therapy group had a statistically significant increase in the incidence of fluid retention compared to the standard-therapy group.",
+      "correctAnswer": true,
+      "explanation": "Fluid retention was significantly more frequent with intensive therapy.",
+      "reference": "ACCORD T/F 11: Fluid retention was significantly more frequent with intensive therapy. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "By the end of the intervention period, over 97% of patients had their vital status ascertained within the previous 12 months.",
+      "correctAnswer": true,
+      "explanation": ">97% had vital status confirmed within prior 12 months.",
+      "reference": "ACCORD T/F 12: >97% had vital status confirmed within prior 12 months. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "The hazard ratio for death from cardiovascular causes was 1.35, indicating a significantly higher risk in the intensive-therapy group.",
+      "correctAnswer": true,
+      "explanation": "CV death HR 1.35 in intensive vs standard therapy.",
+      "reference": "ACCORD T/F 13: CV death HR 1.35 in intensive vs standard therapy. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "Prior epidemiologic studies had shown an inverse relationship where higher glycated hemoglobin levels were associated with a decreased risk of cardiovascular events.",
+      "correctAnswer": false,
+      "explanation": "Epidemiology showed higher HbA1c associated with increased CV risk, not decreased.",
+      "reference": "ACCORD T/F 14: Epidemiology showed higher HbA1c associated with increased CV risk, not decreased. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
+    },
+    {
+      "id": "tr-nejm-007-tf15",
+      "type": "true_false",
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "Hypoglycemia requiring any assistance occurred in 16.2% of the intensive-therapy group, compared to only 5.1% of the standard-therapy group.",
+      "correctAnswer": true,
+      "explanation": "Any-assistance hypoglycemia: 16.2% intensive vs 5.1% standard.",
+      "reference": "ACCORD T/F 15: Any-assistance hypoglycemia: 16.2% intensive vs 5.1% standard. — The ACCORD Study Group. Effects of intensive glucose lowering in type 2 diabetes. N Engl J Med 2008;358:2545-2559."
     }
   ]
 }
