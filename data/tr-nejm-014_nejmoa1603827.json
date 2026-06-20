@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa1603827",
   "paperType": "rct",
-  "title": "Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes",
-  "subtitle": "LEADER — Liraglutide Cardiovascular Outcomes",
+  "title": "LEADER",
+  "subtitle": "Liraglutide Cardiovascular Outcomes — Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Cardiology & Endocrinology",
-  "authors": "Introduction. Diabetes Care 2016;39:Suppl 1:S1-2.",
+  "authors": "Marso SP, Daniels GH, Brown-Frandsen K, et al.; N Engl J Med 2016",
   "sourceFile": "noupload/NEJM/nejmoa1603827/paper.md",
   "bibliography": [
     {
@@ -121,357 +121,750 @@
     }
   ],
   "trialDesign": {
-    "fullName": "Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes",
-    "overview": "## BACKGROUND The cardiovascular effect of liraglutide, a glucagon-like peptide 1 analogue, when added to standard care in patients with type 2 diabetes, remains unknown.",
-    "design": "In this double-blind trial, we randomly assigned patients with type 2 diabetes and high cardiovascular risk to receive liraglutide or placebo. The primary composite outcome in the time-to-event analysis was the first occurrence of death from cardiovascular causes, nonfatal myocardial infarction, or ",
-    "population": "patients with type 2 diabetes and high cardiovascular risk to receive liraglutide or placebo.",
-    "comparator": "placebo",
-    "primaryEndpoint": "primary outcome occurred in significantly fewer patients in the liraglutide group (608 of 4668 patients [13.",
-    "duration": "median follow-up was 3."
+    "fullName": "Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER)",
+    "year": 2016,
+    "design": "Multicenter, double-blind, placebo-controlled cardiovascular outcomes trial",
+    "population": "9,340 patients with type 2 diabetes at high cardiovascular risk; mean HbA1c 8.7%",
+    "sampleSize": "n=9340 (4668 liraglutide vs 4672 placebo)",
+    "duration": "Median follow-up 3.8 years",
+    "intervention": "Liraglutide up to 1.8 mg SC once daily plus standard care",
+    "comparator": "Placebo plus standard care (DPP-4 inhibitors forbidden as add-on)",
+    "primaryEndpoint": "First occurrence of CV death, nonfatal MI, or nonfatal stroke",
+    "overview": "Liraglutide reduced primary MACE by 13% (HR 0.87), CV death by 22%, all-cause death by 15%, and microvascular events by 16%."
   },
   "trialSummary": {
     "headings": {
-      "background": "The cardiovascular effect of liraglutide, a glucagon-like peptide 1 analogue, when added to standard care in patients with type 2 diabetes, remains unknown.",
-      "objective": "The cardiovascular effect of liraglutide, a glucagon-like peptide 1 analogue, when added to standard care in patients with type 2 diabetes, remains unknown.",
-      "design": "In this double-blind trial, we randomly assigned patients with type 2 diabetes and high cardiovascular risk to receive liraglutide or placebo. The primary composite outcome in the time-to-event analysis was the first occurrence of death from cardiovascular causes, nonfatal myocardial infarction, or ",
-      "population": "patients with type 2 diabetes and high cardiovascular risk to receive liraglutide or placebo.",
-      "comparator": "placebo",
-      "followUp": "median follow-up was 3.",
-      "funding": "Novo Nordisk and the National Institutes of Health",
-      "nct": "NCT01179048",
-      "doi": "10.1056/NEJMoa1603827"
+      "background": "Regulatory mandate for CV safety of diabetes drugs; liraglutide GLP-1 analogue efficacy established but long-term CV outcomes unknown.",
+      "design": "9340 patients; 2-week placebo run-in; stratified by eGFR; hierarchical noninferiority then superiority testing.",
+      "population": "72.4% established CVD; >24% CKD stage 3+; high CV risk type 2 diabetes.",
+      "intervention": "Liraglutide titrated to 1.8 mg daily.",
+      "comparator": "Placebo with standard glycemic and CV therapy.",
+      "followUp": "Median 3.8 years; 96.8% completion/death/primary outcome."
     },
     "outcomes": [
       {
-        "label": "Primary outcome (extracted)",
+        "label": "Primary composite MACE",
         "type": "primary",
-        "definition": "primary outcome occurred in significantly fewer patients in the liraglutide group (608 of 4668 patients [13.",
-        "interpretation": "In the time-to-event analysis, the rate of the first occurrence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke among patients with type 2 diabetes mellitus was lower with liraglutide than with placebo. (Funded by Novo Nordisk and the National Institutes of He",
         "effect": {
           "measure": "HR",
-          "value": 0.87
-        }
+          "value": 0.87,
+          "interpretation": "13% RRR; superiority and noninferiority"
+        },
+        "interpretation": "608 vs 694 events"
+      },
+      {
+        "label": "Death from cardiovascular causes",
+        "type": "secondary",
+        "effect": {
+          "measure": "HR",
+          "value": 0.78,
+          "interpretation": "22% RRR"
+        },
+        "interpretation": "Key mortality benefit"
+      },
+      {
+        "label": "Death from any cause",
+        "type": "secondary",
+        "effect": {
+          "measure": "HR",
+          "value": 0.85,
+          "interpretation": "15% RRR; NNT 98 over 3 years"
+        },
+        "interpretation": "Significant all-cause mortality reduction"
+      },
+      {
+        "label": "Composite microvascular events",
+        "type": "secondary",
+        "effect": {
+          "measure": "HR",
+          "value": 0.84,
+          "interpretation": "nephropathy-driven"
+        },
+        "interpretation": "Macroalbuminuria reduction; retinopathy neutral/nonsignificant"
       }
     ],
     "safetyHighlights": [
-      "adverse events leading to the discontinuation of liraglutide were gastrointestinal events."
+      "GI events drove discontinuation; gallstone disease more common",
+      "No medullary thyroid carcinoma; pancreatitis not increased; severe hypoglycemia reduced"
     ],
-    "conclusion": "In the time-to-event analysis, the rate of the first occurrence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke among patients with type 2 diabetes mellitus was lower with liraglutide than with placebo. (Funded by Novo Nordisk and the National Institutes of Health; LEADER ClinicalTrials.gov number, NCT01179048.) From the University of Texas Southwestern Medical Center, Dallas (S.P.M.); Massachusetts General Hospital, Boston (G.H.D.); Novo Nordisk, Bagsaerd, Denmark (K.B.-F., P.K., L.S.R., M.S.); Friedrich Alexander University of Erlangen, Erlangen (J.F.E",
-    "clinicalBottomLine": "In the time-to-event analysis, the rate of the first occurrence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke among patients with type 2 diabetes mellitus was lower with liraglutide than with placebo. (Funded"
+    "clinicalBottomLine": "Liraglutide reduces cardiovascular and all-cause mortality in high-risk type 2 diabetes with nephropathy benefit and acceptable safety profile."
   },
-  "inclusionCriteria": [],
-  "exclusionCriteria": [],
+  "inclusionCriteria": [
+    "Type 2 diabetes at high cardiovascular risk",
+    "Age criteria per protocol with established CVD or CV risk factors"
+  ],
+  "exclusionCriteria": [
+    "Personal or family history of multiple endocrine neoplasia type 2 or medullary thyroid carcinoma",
+    "DPP-4 inhibitor use as protocol-defined add-on restriction"
+  ],
   "keyTakeaways": [
-    "In the time-to-event analysis, the rate of the first occurrence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke among patients with type 2 diabetes mellitus was lower with liraglutide than with placebo. (Funded",
-    "In the time-to-event analysis, the rate of the first occurrence of death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke among patients with type 2 diabetes mellitus was lower with liraglutide than with placebo. (Funded by Novo Nordisk and the National Institutes of He"
+    "Primary MACE HR 0.87; CV death HR 0.78; all-cause death HR 0.85.",
+    "Microvascular HR 0.84 driven by nephropathy; HF hospitalization nonsignificantly lower.",
+    "Benefits emerge gradually vs empagliflozin; gallstones ↑; severe hypoglycemia ↓."
   ],
   "items": [
     {
+      "id": "tr-nejm-014-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "LEADER — Main Points (High-Yield Overview)",
+      "content": "Background and Objective: Liraglutide is a GLP-1 analogue for type 2 diabetes; regulatory authorities require cardiovascular safety assessment. LEADER evaluated long-term cardiovascular safety and efficacy in high-risk type 2 diabetes.\n\nMethodology: Multicenter, double-blind, placebo-controlled trial; 9,340 patients randomized to liraglutide (up to 1.8 mg daily) or placebo plus standard care. Primary composite: CV death, nonfatal MI, or nonfatal stroke.\n\nPrimary Cardiovascular Outcomes: Median follow-up 3.8 years; primary composite reduced 13% (HR 0.87); noninferiority and superiority achieved.\n\nMortality and Secondary Outcomes: CV death ↓22%; all-cause death ↓15%; nonfatal MI, stroke, and HF hospitalization numerically lower but individually nonsignificant.\n\nMicrovascular and Safety Profile: Microvascular events ↓ (nephropathy-driven); GI events most common cause of discontinuation; gallstones ↑; no significant pancreatitis ↑; severe hypoglycemia ↓.",
+      "keyPoints": [
+        "Primary composite HR 0.87 · CV death HR 0.78 · all-cause HR 0.85",
+        "Microvascular HR 0.84 (nephropathy); NNT 98 over 3 years for one death",
+        "GI discontinuations; gallstones ↑; severe hypoglycemia ↓; no MTC cases"
+      ],
+      "reference": "Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
       "id": "tr-nejm-014-why1",
-      "referenceNumber": 1,
       "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk o…",
-      "answer": "TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and other complications. Although glycemic control is associated with reductions in the risk of microvascular complications, the macrovascular benefits of glycemic control are less certain. Furthermore, concern has been raised about the cardiovascular safety of antihyperglycemic therapies. Consequently, regulatory authorities have mandated cardiovascular safety assessments of new diabetes treatments",
-      "reference": "Ref 1: \"TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and oth...\" — Introduction. Diabetes Care 2016;39:Suppl 1:S1-2."
+      "subtopic": "Why/How 1",
+      "referenceNumber": 1,
+      "question": "Why was the LEADER trial initiated despite liraglutide already possessing established glucose-lowering efficacy?",
+      "answer": "The trial was initiated to satisfy regulatory mandates requiring robust cardiovascular safety assessments for new diabetes treatments, given historical concerns that some antihyperglycemic therapies might inadvertently increase cardiovascular risk.",
+      "keyPoints": [
+        "The trial was initiated to satisfy regulatory mandates requiring robust cardiovascular safety assessments for new diabetes treatments, given historical concerns that some antihyperglycemic therapies might inadvertently increase cardiovascular risk."
+      ],
+      "reference": "LEADER Q1: The trial was initiated to satisfy regulatory mandates requiring robust cardiova... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
       "id": "tr-nejm-014-how2",
-      "referenceNumber": 2,
       "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 2 relate to LEADER?",
-      "answer": "After a 2-week placebo run-in phase to establish whether patients were able to adhere to the injection regimen, patients were randomly assigned, in a 1:1 ratio, to receive either 1.8 mg (or the maximum tolerated dose) of liraglutide or matching placebo once daily as a subcutaneous injection in addition to standard care (Fig. S1 in the Supplementary Appendix). Randomization was stratified according to the estimated glomerular filtration rate (eGFR) at screening (<30 or ≥30 ml per minute per 1.73 m of body-surface area), as calculated with the use of the Modification of Diet in Renal Disease equation. For patients who did not meet the recommended target for glycemic control (glycated hemoglobin level ≤7% or individualized target at the investigator's discretion) after randomization, the addition of any antihyperglycemic agents except for GLP-1-receptor agonists, DPP-4 inhibitors, or pramlintide was permitted. Patients were scheduled for follow-up visits at months 1, 3, and 6 and every 6 months thereafter.",
-      "reference": "Ref 2: \"After a 2-week placebo run-in phase to establish whether patients were able to adhere to the injection regimen, patients were randomly assigned, in a 1:1 ratio,...\" — IDF diabetes atlas. 7th ed. Brussels: International Diabetes Federation, 2015."
+      "subtopic": "Why/How 2",
+      "referenceNumber": 2,
+      "question": "How was the primary statistical hypothesis of the study structured to evaluate safety and efficacy?",
+      "answer": "The trial utilized a hierarchical testing strategy that first tested for noninferiority (requiring the upper limit of the 95% confidence interval of the hazard ratio to be less than 1.30). Once noninferiority was established, the model subsequently tested for statistical superiority.",
+      "keyPoints": [
+        "The trial utilized a hierarchical testing strategy that first tested for noninferiority (requiring the upper limit of the 95% confidence interval of the hazard ratio to be less than 1.30). Once noninferiority was established, the model subsequently tested for statistical superiority."
+      ],
+      "reference": "LEADER Q2: The trial utilized a hierarchical testing strategy that first tested for noninfe... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
       "id": "tr-nejm-014-why3",
-      "referenceNumber": 3,
       "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk o…",
-      "answer": "TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and other complications. Although glycemic control is associated with reductions in the risk of microvascular complications, the macrovascular benefits of glycemic control are less certain. Furthermore, concern has been raised about the cardiovascular safety of antihyperglycemic therapies. Consequently, regulatory authorities have mandated cardiovascular safety assessments of new diabetes treatments",
-      "reference": "Ref 3: \"TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and oth...\" — Holman RR, Sourij H, Califf RM. Cardiovascular outcome trials of glucose-lowering drugs or strategies in type 2 diabetes"
+      "subtopic": "Why/How 3",
+      "referenceNumber": 3,
+      "question": "Why do the authors suggest the cardiovascular benefits of liraglutide differ mechanistically from those of empagliflozin (an SGLT2 inhibitor)?",
+      "answer": "Unlike the EMPA-REG OUTCOME trial where benefits emerged very early (suggesting rapid hemodynamic changes), the benefits in the LEADER trial emerged more gradually over time. The authors hypothesize this slower divergence reflects the modified progression of atherosclerotic vascular disease rather than acute fluid shifts.",
+      "keyPoints": [
+        "Unlike the EMPA-REG OUTCOME trial where benefits emerged very early (suggesting rapid hemodynamic changes), the benefits in the LEADER trial emerged more gradually over time. The authors hypothesize this slower divergence reflects the modified progression of atherosclerotic vascular disease rather than acute fluid shifts."
+      ],
+      "reference": "LEADER Q3: Unlike the EMPA-REG OUTCOME trial where benefits emerged very early (suggesting ... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-why4",
+      "id": "tr-nejm-014-how4",
+      "type": "how",
+      "subtopic": "Why/How 4",
       "referenceNumber": 4,
-      "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk o…",
-      "answer": "TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and other complications. Although glycemic control is associated with reductions in the risk of microvascular complications, the macrovascular benefits of glycemic control are less certain. Furthermore, concern has been raised about the cardiovascular safety of antihyperglycemic therapies. Consequently, regulatory authorities have mandated cardiovascular safety assessments of new diabetes treatments",
-      "reference": "Ref 4: \"TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and oth...\" — Guideline on clinical investigation of medicinal products in the treatment or prevention of diabetes mellitus. London: E"
+      "question": "How did baseline renal function influence the primary cardiovascular outcome in the subgroup analyses?",
+      "answer": "Interaction testing revealed that patients with an estimated glomerular filtration rate (eGFR) of less than 60 ml/min/1.73 m² experienced a significantly greater cardiovascular benefit from liraglutide than those with an eGFR of 60 or higher.",
+      "keyPoints": [
+        "Interaction testing revealed that patients with an estimated glomerular filtration rate (eGFR) of less than 60 ml/min/1.73 m² experienced a significantly greater cardiovascular benefit from liraglutide than those with an eGFR of 60 or higher."
+      ],
+      "reference": "LEADER Q4: Interaction testing revealed that patients with an estimated glomerular filtrati... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
       "id": "tr-nejm-014-why5",
+      "type": "why",
+      "subtopic": "Why/How 5",
       "referenceNumber": 5,
-      "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk o…",
-      "answer": "TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and other complications. Although glycemic control is associated with reductions in the risk of microvascular complications, the macrovascular benefits of glycemic control are less certain. Furthermore, concern has been raised about the cardiovascular safety of antihyperglycemic therapies. Consequently, regulatory authorities have mandated cardiovascular safety assessments of new diabetes treatments",
-      "reference": "Ref 5: \"TYPE 2 DIABETES IS A COMPLEX METABOLIC disorder that is characterized by hyperglycemia and associated with a high risk of cardiovascular, microvascular, and oth...\" — Guidance for industry: diabetes mellitus — evaluating cardiovascular risk in new antidiabetic therapies to treat type 2 "
-    },
-    {
-      "id": "tr-nejm-014-q6",
-      "referenceNumber": 6,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 6 in LEADER?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+      "question": "Why was calcitonin systematically monitored throughout the duration of the trial?",
+      "answer": "Preclinical studies in rodents demonstrated that GLP-1 receptor agonists activate thyroid C-cells, causing calcitonin release and proliferation. Researchers monitored calcitonin to ensure liraglutide did not increase the risk of medullary thyroid carcinoma in humans (no cases were observed in the liraglutide group).",
+      "keyPoints": [
+        "Preclinical studies in rodents demonstrated that GLP-1 receptor agonists activate thyroid C-cells, causing calcitonin release and proliferation. Researchers monitored calcitonin to ensure liraglutide did not increase the risk of medullary thyroid carcinoma in humans (no cases were observed in the liraglutide group)."
       ],
-      "correctOption": 3,
-      "explanation": "Liraglutide, an analogue of human glucagon-like peptide 1 (GLP-1), has been approved for the treatment of type 2 diabetes. Its efficacy in lowering glucose levels has been established, and it has been associated with slight reductions in weight and blood pressure. It has been associated with an increase in pulse rate. To assess the long-term effects of liraglutide on cardiovascular outcomes and other clinically important events, the Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) trial was initiated in 2010.",
-      "reference": "Ref 6: \"Liraglutide, an analogue of human glucagon-like peptide 1 (GLP-1), has been approved for the treatment of type 2 diabetes. Its efficacy in lowering glucose leve...\" — Nauck M. Incretin therapies: highlighting common features and differences in the modes of action of glucagon-like peptid"
+      "reference": "LEADER Q5: Preclinical studies in rodents demonstrated that GLP-1 receptor agonists activat... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-q7",
-      "referenceNumber": 7,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 7 in LEADER?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Liraglutide, an analogue of human glucagon-like peptide 1 (GLP-1), has been approved for the treatment of type 2 diabetes. Its efficacy in lowering glucose levels has been established, and it has been associated with slight reductions in weight and blood pressure. It has been associated with an increase in pulse rate. To assess the long-term effects of liraglutide on cardiovascular outcomes and other clinically important events, the Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) trial was initiated in 2010.",
-      "reference": "Ref 7: \"Liraglutide, an analogue of human glucagon-like peptide 1 (GLP-1), has been approved for the treatment of type 2 diabetes. Its efficacy in lowering glucose leve...\" — Du Q, Wang YJ, Yang S, Zhao YY, Han P. Liraglutide for the treatment of type 2 diabetes mellitus: a meta-analysis of ran"
-    },
-    {
-      "id": "tr-nejm-014-q8",
-      "referenceNumber": 8,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 8 in LEADER?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
-      ],
-      "correctOption": 3,
-      "explanation": "Liraglutide, an analogue of human glucagon-like peptide 1 (GLP-1), has been approved for the treatment of type 2 diabetes. Its efficacy in lowering glucose levels has been established, and it has been associated with slight reductions in weight and blood pressure. It has been associated with an increase in pulse rate. To assess the long-term effects of liraglutide on cardiovascular outcomes and other clinically important events, the Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) trial was initiated in 2010.",
-      "reference": "Ref 8: \"Liraglutide, an analogue of human glucagon-like peptide 1 (GLP-1), has been approved for the treatment of type 2 diabetes. Its efficacy in lowering glucose leve...\" — Robinson LE, Holt TA, Rees K, Randeva HS, O'Hare JP. Effects of exenatide and liraglutide on heart rate, blood pressure "
-    },
-    {
-      "id": "tr-nejm-014-how9",
-      "referenceNumber": 9,
+      "id": "tr-nejm-014-how6",
       "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 9 relate to LEADER?",
-      "answer": "We performed this multicenter, double-blind, placebo-controlled trial at 410 sites in 32 countries. Detailed methods of the trial have been published previously, and the trial protocol is available with the full text of this article at NEJM.org. The trial protocol was reviewed and approved by the institutional review board or ethics committee at each participating center. All the patients provided written informed consent before participation. Patients with type 2 diabetes who were at high risk for cardiovascular disease were randomly assigned, in a 1:1 ratio, to receive liraglutide or placebo. The minimum planned follow-up was 42 months, with a maximum of 60 months of receiving the assigned regimen and an additional 30 days of follow-up afterward.",
-      "reference": "Ref 9: \"We performed this multicenter, double-blind, placebo-controlled trial at 410 sites in 32 countries. Detailed methods of the trial have been published previously...\" — Marso SP, Poulter NR, Nissen SE, et al. Design of the Liraglutide Effect and Action in Diabetes: Evaluation of cardiovas"
-    },
-    {
-      "id": "tr-nejm-014-q10",
-      "referenceNumber": 10,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 10 in LEADER?",
-      "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+      "subtopic": "Why/How 6",
+      "referenceNumber": 6,
+      "question": "How did the intervention impact the patients' composite microvascular outcomes?",
+      "answer": "Liraglutide significantly lowered the composite outcome of renal and retinal microvascular events (HR 0.84), a benefit driven exclusively by a significant reduction in nephropathy, particularly new-onset persistent macroalbuminuria.",
+      "keyPoints": [
+        "Liraglutide significantly lowered the composite outcome of renal and retinal microvascular events (HR 0.84), a benefit driven exclusively by a significant reduction in nephropathy, particularly new-onset persistent macroalbuminuria."
       ],
-      "correctOption": 3,
-      "explanation": "In the present trial, patients in the liraglutide group had a lower risk of the primary composite outcome — first occurrence of cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke in the time-to-event analysis — and lower risks of death from cardiovascular causes, death from any cause, and microvascular events than did those in the placebo group. The number of patients who would need to be treated to prevent one event in 3 years was 66 in the analysis of the primary outcome and 98 in the analysis of death from any cause. There has been concern about the risk of hospitalization for heart failure with various agents that have been used to treat diabetes mellitus, including DPP-4 inhibi-",
-      "reference": "Ref 10: \"In the present trial, patients in the liraglutide group had a lower risk of the primary composite outcome — first occurrence of cardiovascular death, nonfatal m...\" — Altman DG, Andersen PK. Calculating the number needed to treat for trials where the outcome is time to an event. BMJ 199"
+      "reference": "LEADER Q6: Liraglutide significantly lowered the composite outcome of renal and retinal mic... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-tf11",
-      "referenceNumber": 11,
-      "type": "true_false",
-      "subtopic": "LEADER",
-      "statement": "tors. In the present trial, there were fewer hospitalizations for heart failure among patients in the liraglutide group than among those in the placebo group, although the difference was not significa.",
-      "correctAnswer": false,
-      "explanation": "tors. In the present trial, there were fewer hospitalizations for heart failure among patients in the liraglutide group than among those in the placebo group, although the difference was not significant.",
-      "reference": "Ref 11: \"tors. In the present trial, there were fewer hospitalizations for heart failure among patients in the liraglutide group than among those in the placebo group, a...\" — McGuire DK, Van de Werf F, Armstrong PW, et al. Association between sitagliptin use and heart failure hospitalization an"
-    },
-    {
-      "id": "tr-nejm-014-why12",
-      "referenceNumber": 12,
+      "id": "tr-nejm-014-why7",
       "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: The pattern of cardiovascular benefits that were associated with liraglutide in our trial appears to differ from that wi…",
-      "answer": "The pattern of cardiovascular benefits that were associated with liraglutide in our trial appears to differ from that with the sodium–glucose cotransporter 2 inhibitor empagliflozin in the previously reported EMPA-REG OUTCOME trial. The time to benefit emerged earlier in that trial than in the present trial, and the heterogeneity of the direction and magnitude of the effects on the components of the primary composite outcome in that trial contrasts with the consistency of the effect in the present trial. Although these differences may reflect patient populations or chance, the observed benefits in that trial may be more closely linked to hemodynamic changes, whereas in the present trial, the observed benefits are perhaps related to the modified progression of atherosclerotic vascular disease",
-      "reference": "Ref 12: \"The pattern of cardiovascular benefits that were associated with liraglutide in our trial appears to differ from that with the sodium–glucose cotransporter 2 in...\" — Zinman B, Wanner C, Lachin JM, et al. Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes. N Engl J"
+      "subtopic": "Why/How 7",
+      "referenceNumber": 7,
+      "question": "Why might the incidence of severe hypoglycemia have been significantly lower in the liraglutide group compared to the placebo group?",
+      "answer": "Because liraglutide effectively lowered blood glucose independently, patients in the liraglutide group required fewer add-on hypoglycemic medications—specifically insulin and sulfonylureas, which are known drivers of severe hypoglycemic episodes—than patients in the placebo group.",
+      "keyPoints": [
+        "Because liraglutide effectively lowered blood glucose independently, patients in the liraglutide group required fewer add-on hypoglycemic medications—specifically insulin and sulfonylureas, which are known drivers of severe hypoglycemic episodes—than patients in the placebo group."
+      ],
+      "reference": "LEADER Q7: Because liraglutide effectively lowered blood glucose independently, patients in... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-how8",
+      "type": "how",
+      "subtopic": "Why/How 8",
+      "referenceNumber": 8,
+      "question": "How did liraglutide clinically alter the patients' basic cardiovascular vital signs?",
+      "answer": "At 36 months, liraglutide was associated with a 1.2 mm Hg reduction in systolic blood pressure and a 0.6 mm Hg reduction in diastolic blood pressure, but it simultaneously caused an increase in the resting heart rate by 3.0 beats per minute.",
+      "keyPoints": [
+        "At 36 months, liraglutide was associated with a 1.2 mm Hg reduction in systolic blood pressure and a 0.6 mm Hg reduction in diastolic blood pressure, but it simultaneously caused an increase in the resting heart rate by 3.0 beats per minute."
+      ],
+      "reference": "LEADER Q8: At 36 months, liraglutide was associated with a 1.2 mm Hg reduction in systolic ... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-why9",
+      "type": "why",
+      "subtopic": "Why/How 9",
+      "referenceNumber": 9,
+      "question": "Why did the researchers specify a 2-week placebo run-in phase prior to randomization?",
+      "answer": "This run-in phase was utilized to establish medication tolerance and ensure that patients were able to reliably adhere to the daily subcutaneous injection regimen before being formally randomized into the trial.",
+      "keyPoints": [
+        "This run-in phase was utilized to establish medication tolerance and ensure that patients were able to reliably adhere to the daily subcutaneous injection regimen before being formally randomized into the trial."
+      ],
+      "reference": "LEADER Q9: This run-in phase was utilized to establish medication tolerance and ensure that... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-how10",
+      "type": "how",
+      "subtopic": "Why/How 10",
+      "referenceNumber": 10,
+      "question": "How did the investigators address the theoretical risk of acute pancreatitis associated with incretin therapies?",
+      "answer": "They utilized an external, independent event-adjudication committee to review outcomes blindly. The trial ultimately showed a numerically lower rate of acute pancreatitis in the liraglutide group (18 cases) compared to the placebo group (23 cases).",
+      "keyPoints": [
+        "They utilized an external, independent event-adjudication committee to review outcomes blindly. The trial ultimately showed a numerically lower rate of acute pancreatitis in the liraglutide group (18 cases) compared to the placebo group (23 cases)."
+      ],
+      "reference": "LEADER Q10: They utilized an external, independent event-adjudication committee to review ou... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-why11",
+      "type": "why",
+      "subtopic": "Why/How 11",
+      "referenceNumber": 11,
+      "question": "Why did significantly more patients in the liraglutide group permanently discontinue their trial regimen compared to placebo?",
+      "answer": "Discontinuation was driven primarily by adverse gastrointestinal events, specifically significantly higher rates of nausea, vomiting, and diarrhea in the liraglutide cohort.",
+      "keyPoints": [
+        "Discontinuation was driven primarily by adverse gastrointestinal events, specifically significantly higher rates of nausea, vomiting, and diarrhea in the liraglutide cohort."
+      ],
+      "reference": "LEADER Q11: Discontinuation was driven primarily by adverse gastrointestinal events, specifi... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-how12",
+      "type": "how",
+      "subtopic": "Why/How 12",
+      "referenceNumber": 12,
+      "question": "How did the \"expanded composite outcome\" differ conceptually from the primary composite outcome?",
+      "answer": "While the primary outcome focused on hard endpoints (CV death, nonfatal MI, nonfatal stroke), the expanded composite outcome added clinical utilization metrics, specifically coronary revascularization and hospitalization for unstable angina pectoris or heart failure.",
+      "keyPoints": [
+        "While the primary outcome focused on hard endpoints (CV death, nonfatal MI, nonfatal stroke), the expanded composite outcome added clinical utilization metrics, specifically coronary revascularization and hospitalization for unstable angina pectoris or heart failure."
+      ],
+      "reference": "LEADER Q12: While the primary outcome focused on hard endpoints (CV death, nonfatal MI, nonf... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
       "id": "tr-nejm-014-why13",
-      "referenceNumber": 13,
       "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: The pattern of cardiovascular benefits that were associated with liraglutide in our trial appears to differ from that wi…",
-      "answer": "The pattern of cardiovascular benefits that were associated with liraglutide in our trial appears to differ from that with the sodium–glucose cotransporter 2 inhibitor empagliflozin in the previously reported EMPA-REG OUTCOME trial. The time to benefit emerged earlier in that trial than in the present trial, and the heterogeneity of the direction and magnitude of the effects on the components of the primary composite outcome in that trial contrasts with the consistency of the effect in the present trial. Although these differences may reflect patient populations or chance, the observed benefits in that trial may be more closely linked to hemodynamic changes, whereas in the present trial, the observed benefits are perhaps related to the modified progression of atherosclerotic vascular disease",
-      "reference": "Ref 13: \"The pattern of cardiovascular benefits that were associated with liraglutide in our trial appears to differ from that with the sodium–glucose cotransporter 2 in...\" — Ussher JR, Drucker DJ. Cardiovascular actions of incretin-based therapies. Circ Res 2014;114:1788-803."
+      "subtopic": "Why/How 13",
+      "referenceNumber": 13,
+      "question": "Why was the finding regarding hospitalization for heart failure notable within the context of diabetes pharmacology?",
+      "answer": "Previous trials involving DPP-4 inhibitors (another class of incretin-based therapy) had raised significant clinical concerns regarding increased risks of heart failure hospitalization. In LEADER, hospitalizations for heart failure were numerically lower with liraglutide, easing this specific safety concern.",
+      "keyPoints": [
+        "Previous trials involving DPP-4 inhibitors (another class of incretin-based therapy) had raised significant clinical concerns regarding increased risks of heart failure hospitalization. In LEADER, hospitalizations for heart failure were numerically lower with liraglutide, easing this specific safety concern."
+      ],
+      "reference": "LEADER Q13: Previous trials involving DPP-4 inhibitors (another class of incretin-based ther... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
       "id": "tr-nejm-014-how14",
+      "type": "how",
+      "subtopic": "Why/How 14",
       "referenceNumber": 14,
-      "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 14 relate to LEADER?",
-      "answer": "It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-acting than and structurally dissimilar to liraglutide, did not show any cardiovascular benefit in patients with diabetes and a recent acute coronary syndrome. There are a number of other trials regarding cardiovascular outcomes in high-risk cohorts of patients with type 2 diabetes in which similar magnitude effects on glycemic control have been shown but without significant benefits with respect to rates of cardiovascular events or death. These include trials with insulin, thiazolidinediones, and DPP-4 inhibitors. Our trial had greater statistical power and included patients with a higher baseline glycated hemoglobin level than did most previous studies. However, no obvious single explanation in terms of either the study designs or the included populations is apparent to explain the divergent findings across this body of medical literature.",
-      "reference": "Ref 14: \"It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-ac...\" — Pfeffer MA, Claggett B, Diaz R, et al. Lixisenatide in patients with type 2 diabetes and acute coronary syndrome. N Engl"
+      "question": "How did the incidence of acute gallstone disease differ between the two study groups?",
+      "answer": "Acute gallstone disease was significantly more common in the liraglutide group (145 patients) compared to the placebo group (90 patients), including a higher rate of severe events and acute cholecystitis.",
+      "keyPoints": [
+        "Acute gallstone disease was significantly more common in the liraglutide group (145 patients) compared to the placebo group (90 patients), including a higher rate of severe events and acute cholecystitis."
+      ],
+      "reference": "LEADER Q14: Acute gallstone disease was significantly more common in the liraglutide group (... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-how15",
+      "id": "tr-nejm-014-why15",
+      "type": "why",
+      "subtopic": "Why/How 15",
       "referenceNumber": 15,
-      "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 15 relate to LEADER?",
-      "answer": "It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-acting than and structurally dissimilar to liraglutide, did not show any cardiovascular benefit in patients with diabetes and a recent acute coronary syndrome. There are a number of other trials regarding cardiovascular outcomes in high-risk cohorts of patients with type 2 diabetes in which similar magnitude effects on glycemic control have been shown but without significant benefits with respect to rates of cardiovascular events or death. These include trials with insulin, thiazolidinediones, and DPP-4 inhibitors. Our trial had greater statistical power and included patients with a higher baseline glycated hemoglobin level than did most previous studies. However, no obvious single explanation in terms of either the study designs or the included populations is apparent to explain the divergent findings across this body of medical literature.",
-      "reference": "Ref 15: \"It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-ac...\" — Dormandy JA, Charbonnel B, Eckland DJ, et al. Secondary prevention of macrovascular events in patients with type 2 diabe"
+      "question": "Why do the authors emphasize that the study cannot confirm or exclude the effect of liraglutide on cancer risk, despite observing an excess of pancreatic cancer cases?",
+      "answer": "Although there were 13 pancreatic cancer cases in the liraglutide group versus 5 in the placebo group, randomized cardiovascular outcome trials—even large ones—are not statistically powered or of sufficient duration to definitively evaluate long-term oncological risks.",
+      "keyPoints": [
+        "Although there were 13 pancreatic cancer cases in the liraglutide group versus 5 in the placebo group, randomized cardiovascular outcome trials—even large ones—are not statistically powered or of sufficient duration to definitively evaluate long-term oncological risks."
+      ],
+      "reference": "LEADER Q15: Although there were 13 pancreatic cancer cases in the liraglutide group versus 5... — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-how16",
+      "id": "tr-nejm-014-q1",
+      "type": "mcq",
+      "subtopic": "MCQ 1",
       "referenceNumber": 16,
-      "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 16 relate to LEADER?",
-      "answer": "It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-acting than and structurally dissimilar to liraglutide, did not show any cardiovascular benefit in patients with diabetes and a recent acute coronary syndrome. There are a number of other trials regarding cardiovascular outcomes in high-risk cohorts of patients with type 2 diabetes in which similar magnitude effects on glycemic control have been shown but without significant benefits with respect to rates of cardiovascular events or death. These include trials with insulin, thiazolidinediones, and DPP-4 inhibitors. Our trial had greater statistical power and included patients with a higher baseline glycated hemoglobin level than did most previous studies. However, no obvious single explanation in terms of either the study designs or the included populations is apparent to explain the divergent findings across this body of medical literature.",
-      "reference": "Ref 16: \"It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-ac...\" — The ORIGIN Trial Investigators. Basal insulin and cardiovascular and other outcomes in dysglycemia. N Engl J Med 2012;36"
+      "question": "What was the maximum daily dose of liraglutide targeted for patients in the intervention group?",
+      "options": [
+        "0.6 mg",
+        "1.2 mg",
+        "1.8 mg",
+        "3.0 mg"
+      ],
+      "correctOption": 2,
+      "explanation": "Target maximum liraglutide dose was 1.8 mg daily.",
+      "reference": "LEADER MCQ 1: Target maximum liraglutide dose was 1.8 mg daily. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-how17",
+      "id": "tr-nejm-014-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
       "referenceNumber": 17,
-      "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 17 relate to LEADER?",
-      "answer": "It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-acting than and structurally dissimilar to liraglutide, did not show any cardiovascular benefit in patients with diabetes and a recent acute coronary syndrome. There are a number of other trials regarding cardiovascular outcomes in high-risk cohorts of patients with type 2 diabetes in which similar magnitude effects on glycemic control have been shown but without significant benefits with respect to rates of cardiovascular events or death. These include trials with insulin, thiazolidinediones, and DPP-4 inhibitors. Our trial had greater statistical power and included patients with a higher baseline glycated hemoglobin level than did most previous studies. However, no obvious single explanation in terms of either the study designs or the included populations is apparent to explain the divergent findings across this body of medical literature.",
-      "reference": "Ref 17: \"It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-ac...\" — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J "
+      "question": "What was the Number Needed to Treat (NNT) over 3 years to prevent one death from any cause?",
+      "options": [
+        "39",
+        "66",
+        "98",
+        "150"
+      ],
+      "correctOption": 2,
+      "explanation": "NNT 98 over 3 years to prevent one all-cause death.",
+      "reference": "LEADER MCQ 2: NNT 98 over 3 years to prevent one all-cause death. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-how18",
+      "id": "tr-nejm-014-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
       "referenceNumber": 18,
-      "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 18 relate to LEADER?",
-      "answer": "It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-acting than and structurally dissimilar to liraglutide, did not show any cardiovascular benefit in patients with diabetes and a recent acute coronary syndrome. There are a number of other trials regarding cardiovascular outcomes in high-risk cohorts of patients with type 2 diabetes in which similar magnitude effects on glycemic control have been shown but without significant benefits with respect to rates of cardiovascular events or death. These include trials with insulin, thiazolidinediones, and DPP-4 inhibitors. Our trial had greater statistical power and included patients with a higher baseline glycated hemoglobin level than did most previous studies. However, no obvious single explanation in terms of either the study designs or the included populations is apparent to explain the divergent findings across this body of medical literature.",
-      "reference": "Ref 18: \"It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-ac...\" — Home PD, Pocock SJ, Beck-Nielsen H, et al. Rosiglitazone evaluated for cardiovascular outcomes in oral agent combination"
+      "question": "Which of the following conditions was a major exclusion criterion for entering the LEADER trial?",
+      "options": [
+        "Established cardiovascular disease",
+        "A familial history of multiple endocrine neoplasia type 2",
+        "Age greater than 60 years",
+        "Chronic kidney disease of stage 3"
+      ],
+      "correctOption": 1,
+      "explanation": "MEN2/familial medullary thyroid carcinoma history was excluded.",
+      "reference": "LEADER MCQ 3: MEN2/familial medullary thyroid carcinoma history was excluded. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-how19",
+      "id": "tr-nejm-014-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
       "referenceNumber": 19,
-      "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 19 relate to LEADER?",
-      "answer": "It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-acting than and structurally dissimilar to liraglutide, did not show any cardiovascular benefit in patients with diabetes and a recent acute coronary syndrome. There are a number of other trials regarding cardiovascular outcomes in high-risk cohorts of patients with type 2 diabetes in which similar magnitude effects on glycemic control have been shown but without significant benefits with respect to rates of cardiovascular events or death. These include trials with insulin, thiazolidinediones, and DPP-4 inhibitors. Our trial had greater statistical power and included patients with a higher baseline glycated hemoglobin level than did most previous studies. However, no obvious single explanation in terms of either the study designs or the included populations is apparent to explain the divergent findings across this body of medical literature.",
-      "reference": "Ref 19: \"It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-ac...\" — Scirica BM, Bhatt DL, Braunwald E, et al. Saxagliptin and cardiovascular outcomes in patients with type 2 diabetes melli"
+      "question": "What was the hazard ratio for the primary composite outcome in the liraglutide group?",
+      "options": [
+        "0.78",
+        "0.85",
+        "0.87",
+        "1.30"
+      ],
+      "correctOption": 2,
+      "explanation": "Primary composite HR 0.87 (13% relative risk reduction).",
+      "reference": "LEADER MCQ 4: Primary composite HR 0.87 (13% relative risk reduction). — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-how20",
+      "id": "tr-nejm-014-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
       "referenceNumber": 20,
-      "type": "how",
-      "subtopic": "LEADER",
-      "question": "How does the process described in reference 20 relate to LEADER?",
-      "answer": "It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-acting than and structurally dissimilar to liraglutide, did not show any cardiovascular benefit in patients with diabetes and a recent acute coronary syndrome. There are a number of other trials regarding cardiovascular outcomes in high-risk cohorts of patients with type 2 diabetes in which similar magnitude effects on glycemic control have been shown but without significant benefits with respect to rates of cardiovascular events or death. These include trials with insulin, thiazolidinediones, and DPP-4 inhibitors. Our trial had greater statistical power and included patients with a higher baseline glycated hemoglobin level than did most previous studies. However, no obvious single explanation in terms of either the study designs or the included populations is apparent to explain the divergent findings across this body of medical literature.",
-      "reference": "Ref 20: \"It should be noted that in the Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA) trial, the GLP-1-receptor agonist lixisenatide, which is shorter-ac...\" — White WB, Cannon CP, Heller SR, et al. Alogliptin after acute coronary syndrome in patients with type 2 diabetes. N Engl"
+      "question": "Which specific component of the composite microvascular outcome was found to be nonsignificantly higher in the liraglutide group?",
+      "options": [
+        "New-onset persistent macroalbuminuria",
+        "Doubling of serum creatinine",
+        "Retinopathy events",
+        "Need for continuous renal-replacement therapy"
+      ],
+      "correctOption": 2,
+      "explanation": "Retinopathy events were nonsignificantly higher with liraglutide.",
+      "reference": "LEADER MCQ 5: Retinopathy events were nonsignificantly higher with liraglutide. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-why21",
+      "id": "tr-nejm-014-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
       "referenceNumber": 21,
-      "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: Muskiet MH, Smits MM, Morsink LM, Diamant M. The gut-renal axis: do incretin-based agents confer renoprotection in diabe…",
-      "answer": "Muskiet MH, Smits MM, Morsink LM, Diamant M. The gut-renal axis: do incretin-based agents confer renoprotection in diabetes? Nat Rev Nephrol 2014;10:88-103",
-      "reference": "Ref 21: \"Muskiet MH, Smits MM, Morsink LM, Diamant M. The gut-renal axis: do incretin-based agents confer renoprotection in diabetes? Nat Rev Nephrol 2014;10:88-103.\" — Muskiet MH, Smits MM, Morsink LM, Diamant M. The gut-renal axis: do incretin-based agents confer renoprotection in diabe"
+      "question": "At the prespecified 36-month mark, what was the mean difference in body weight between the liraglutide and placebo groups?",
+      "options": [
+        "0.6 kg greater loss in the liraglutide group",
+        "2.3 kg greater loss in the liraglutide group",
+        "5.0 kg greater loss in the liraglutide group",
+        "There was no significant difference in weight"
+      ],
+      "correctOption": 1,
+      "explanation": "Liraglutide group lost 2.3 kg more than placebo at 36 months.",
+      "reference": "LEADER MCQ 6: Liraglutide group lost 2.3 kg more than placebo at 36 months. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-why22",
+      "id": "tr-nejm-014-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
       "referenceNumber": 22,
-      "type": "why",
-      "subtopic": "LEADER",
-      "question": "Why is the following clinically relevant in LEADER? Context: renal microvascular benefits is surprising. It is uncertain whether this finding relates to the direct effects of liragl…",
-      "answer": "renal microvascular benefits is surprising. It is uncertain whether this finding relates to the direct effects of liraglutide on kidney function",
-      "reference": "Ref 22: \"renal microvascular benefits is surprising. It is uncertain whether this finding relates to the direct effects of liraglutide on kidney function.\" — Tanaka T, Higashijima Y, Wada T, Nangaku M. The potential for renoprotection with incretin-based drugs. Kidney Int 2014;"
+      "question": "How did liraglutide affect the rate of death from cardiovascular causes?",
+      "options": [
+        "It reduced the relative risk by 13% (HR 0.87).",
+        "It reduced the relative risk by 22% (HR 0.78).",
+        "It had no statistically significant effect on CV death.",
+        "It increased the rate of CV death compared to placebo."
+      ],
+      "correctOption": 1,
+      "explanation": "CV death reduced 22% (HR 0.78).",
+      "reference": "LEADER MCQ 7: CV death reduced 22% (HR 0.78). — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-q23",
+      "id": "tr-nejm-014-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
       "referenceNumber": 23,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 23 in LEADER?",
+      "question": "Which drug class was explicitly forbidden as an add-on therapy for glycemic control during the trial?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "Sulfonylureas",
+        "Dipeptidyl peptidase 4 (DPP-4) inhibitors",
+        "SGLT2 inhibitors",
+        "Basal insulin"
       ],
-      "correctOption": 3,
-      "explanation": "More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage points). There has been considerable interest in a potential association between the use of GLP-1-receptor agonists and pancreatitis and pancreatic cancer, although there is no consistent preclinical, pharmacovigilance, or epidemiologic evidence to date. Higher levels of lipase and amylase were observed in the liraglutide group, a finding that is similar to results in other studies. Blinded medications were to be stopped only in relation to confirmed pancreatitis as evaluated by the investigator. There were 1.5 episodes of pancreatitis per 1000 patient-years of observation in both regimens combined, and there were numerically fewer acute or chronic pancreatitis events with liraglutide than with placebo. There were more episodes of gallstone disease with liraglutide, a finding that has been reported previously.",
-      "reference": "Ref 23: \"More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage ...\" — Chalmer T, Almdal TP, Vilsbøll T, Knop FK. Adverse drug reactions associated with the use of liraglutide in patients wit"
+      "correctOption": 1,
+      "explanation": "DPP-4 inhibitors were forbidden as add-on therapy.",
+      "reference": "LEADER MCQ 8: DPP-4 inhibitors were forbidden as add-on therapy. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-q24",
+      "id": "tr-nejm-014-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
       "referenceNumber": 24,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 24 in LEADER?",
+      "question": "The baseline stratification of patients during randomization was based on which clinical parameter?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "Duration of diabetes",
+        "Sex",
+        "Estimated glomerular filtration rate (eGFR)",
+        "Baseline glycated hemoglobin"
       ],
-      "correctOption": 3,
-      "explanation": "More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage points). There has been considerable interest in a potential association between the use of GLP-1-receptor agonists and pancreatitis and pancreatic cancer, although there is no consistent preclinical, pharmacovigilance, or epidemiologic evidence to date. Higher levels of lipase and amylase were observed in the liraglutide group, a finding that is similar to results in other studies. Blinded medications were to be stopped only in relation to confirmed pancreatitis as evaluated by the investigator. There were 1.5 episodes of pancreatitis per 1000 patient-years of observation in both regimens combined, and there were numerically fewer acute or chronic pancreatitis events with liraglutide than with placebo. There were more episodes of gallstone disease with liraglutide, a finding that has been reported previously.",
-      "reference": "Ref 24: \"More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage ...\" — Jensen TM, Saha K, Steinberg WM. Is there a link between liraglutide and pancreatitis? A post hoc review of pooled and p"
+      "correctOption": 2,
+      "explanation": "Randomization stratified by baseline eGFR.",
+      "reference": "LEADER MCQ 9: Randomization stratified by baseline eGFR. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-q25",
+      "id": "tr-nejm-014-q10",
+      "type": "mcq",
+      "subtopic": "MCQ 10",
       "referenceNumber": 25,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 25 in LEADER?",
+      "question": "What was the median duration of follow-up for the trial cohort?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "1.5 years",
+        "2.8 years",
+        "3.8 years",
+        "5.0 years"
       ],
-      "correctOption": 3,
-      "explanation": "More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage points). There has been considerable interest in a potential association between the use of GLP-1-receptor agonists and pancreatitis and pancreatic cancer, although there is no consistent preclinical, pharmacovigilance, or epidemiologic evidence to date. Higher levels of lipase and amylase were observed in the liraglutide group, a finding that is similar to results in other studies. Blinded medications were to be stopped only in relation to confirmed pancreatitis as evaluated by the investigator. There were 1.5 episodes of pancreatitis per 1000 patient-years of observation in both regimens combined, and there were numerically fewer acute or chronic pancreatitis events with liraglutide than with placebo. There were more episodes of gallstone disease with liraglutide, a finding that has been reported previously.",
-      "reference": "Ref 25: \"More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage ...\" — Tseng CH, Lee KY, Tseng FH. An updated review on cancer risk associated with incretin mimetics and enhancers. J Environ "
+      "correctOption": 2,
+      "explanation": "Median follow-up was 3.8 years.",
+      "reference": "LEADER MCQ 10: Median follow-up was 3.8 years. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-q26",
+      "id": "tr-nejm-014-q11",
+      "type": "mcq",
+      "subtopic": "MCQ 11",
       "referenceNumber": 26,
-      "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 26 in LEADER?",
+      "question": "Which baseline patient subgroup demonstrated a statistically significant interaction indicating a greater benefit from liraglutide regarding the primary outcome?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "Patients under the age of 60",
+        "Patients with established cardiovascular disease at baseline",
+        "Patients with a baseline HbA1c > 8.3%",
+        "Female patients"
       ],
-      "correctOption": 3,
-      "explanation": "More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage points). There has been considerable interest in a potential association between the use of GLP-1-receptor agonists and pancreatitis and pancreatic cancer, although there is no consistent preclinical, pharmacovigilance, or epidemiologic evidence to date. Higher levels of lipase and amylase were observed in the liraglutide group, a finding that is similar to results in other studies. Blinded medications were to be stopped only in relation to confirmed pancreatitis as evaluated by the investigator. There were 1.5 episodes of pancreatitis per 1000 patient-years of observation in both regimens combined, and there were numerically fewer acute or chronic pancreatitis events with liraglutide than with placebo. There were more episodes of gallstone disease with liraglutide, a finding that has been reported previously.",
-      "reference": "Ref 26: \"More patients in the liraglutide group than in the placebo group permanently discontinued the trial regimen owing to adverse events (difference, 2.2 percentage ...\" — Davies MJ, Bergenstal R, Bode B, et al. Efficacy of liraglutide for weight loss among patients with type 2 diabetes: the"
+      "correctOption": 1,
+      "explanation": "Established CVD at baseline showed significant interaction favoring liraglutide.",
+      "reference": "LEADER MCQ 11: Established CVD at baseline showed significant interaction favoring liraglutide. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     },
     {
-      "id": "tr-nejm-014-q27",
-      "referenceNumber": 27,
+      "id": "tr-nejm-014-q12",
       "type": "mcq",
-      "subtopic": "LEADER",
-      "question": "Which finding is supported by reference 27 in LEADER?",
+      "subtopic": "MCQ 12",
+      "referenceNumber": 27,
+      "question": "What was the mean baseline glycated hemoglobin (HbA1c) level of the enrolled patients?",
       "options": [
-        "Placebo response only",
-        "Not reported in this trial",
-        "Opposite direction of effect",
-        "See reference text"
+        "7.0%",
+        "7.5%",
+        "8.1%",
+        "8.7%"
       ],
       "correctOption": 3,
-      "explanation": "An excess in adjudicated cancers of pancreatic origin was observed in the liraglutide group, although the finding was not significant; there were small overall numbers and no between-group difference in the number of overall cancers. Among rodents receiving liraglutide, higher rates of thyroid C-cell tumors and hyperplasia have been observed than were observed among control animals. In the present trial, no episodes of C-cell hyperplasia or medullary thyroid carcinoma were observed in patients in the liraglutide group. Randomized trials of this type, despite their size, are not powered to determine the effect of drugs on cancer risk and can therefore neither confirm nor exclude such a possibility.",
-      "reference": "Ref 27: \"An excess in adjudicated cancers of pancreatic origin was observed in the liraglutide group, although the finding was not significant; there were small overall ...\" — Bjerre Knudsen L, Madsen LW, Andersen S, et al. Glucagon-like peptide-1 receptor agonists activate rodent thyroid C-cell"
+      "explanation": "Mean baseline HbA1c was 8.7%.",
+      "reference": "LEADER MCQ 12: Mean baseline HbA1c was 8.7%. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q13",
+      "type": "mcq",
+      "subtopic": "MCQ 13",
+      "referenceNumber": 28,
+      "question": "How did serum amylase and lipase levels behave in the liraglutide group compared to placebo?",
+      "options": [
+        "They remained identical to placebo.",
+        "The mean levels were higher in the liraglutide group.",
+        "The mean levels were significantly lower in the liraglutide group.",
+        "They dropped dramatically to unmeasurable levels."
+      ],
+      "correctOption": 1,
+      "explanation": "Mean amylase and lipase were higher with liraglutide.",
+      "reference": "LEADER MCQ 13: Mean amylase and lipase were higher with liraglutide. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q14",
+      "type": "mcq",
+      "subtopic": "MCQ 14",
+      "referenceNumber": 29,
+      "question": "The hazard ratio for death from noncardiovascular causes in the trial was 0.95. What was the P value for this specific outcome?",
+      "options": [
+        "< 0.001",
+        "0.007",
+        "0.02",
+        "0.66"
+      ],
+      "correctOption": 3,
+      "explanation": "Noncardiovascular death HR 0.95; P=0.66 (not significant).",
+      "reference": "LEADER MCQ 14: Noncardiovascular death HR 0.95; P=0.66 (not significant). — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q15",
+      "type": "mcq",
+      "subtopic": "MCQ 15",
+      "referenceNumber": 30,
+      "question": "Which trial evaluated the structurally dissimilar, short-acting GLP-1 agonist lixisenatide and found NO cardiovascular benefit?",
+      "options": [
+        "EMPA-REG OUTCOME",
+        "ELIXA",
+        "EXAMINE",
+        "TECOS"
+      ],
+      "correctOption": 1,
+      "explanation": "ELIXA evaluated lixisenatide without CV benefit.",
+      "reference": "LEADER MCQ 15: ELIXA evaluated lixisenatide without CV benefit. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q16",
+      "type": "mcq",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "What was the overall completion rate for patients reaching a final visit, dying, or experiencing a primary outcome?",
+      "options": [
+        "75.0%",
+        "84.0%",
+        "90.5%",
+        "96.8%"
+      ],
+      "correctOption": 3,
+      "explanation": "96.8% reached final visit, death, or primary outcome.",
+      "reference": "LEADER MCQ 16: 96.8% reached final visit, death, or primary outcome. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q17",
+      "type": "mcq",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "According to the study parameters, what margin for the upper boundary of the 95% CI was required to prove noninferiority?",
+      "options": [
+        "1.00",
+        "1.15",
+        "1.30",
+        "1.50"
+      ],
+      "correctOption": 2,
+      "explanation": "Noninferiority required upper 95% CI <1.30.",
+      "reference": "LEADER MCQ 17: Noninferiority required upper 95% CI <1.30. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q18",
+      "type": "mcq",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "How many cases of medullary thyroid carcinoma were confirmed in the liraglutide group?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "13"
+      ],
+      "correctOption": 0,
+      "explanation": "Zero medullary thyroid carcinoma cases in liraglutide group.",
+      "reference": "LEADER MCQ 18: Zero medullary thyroid carcinoma cases in liraglutide group. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q19",
+      "type": "mcq",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "Severe hypoglycemia was defined as hypoglycemia requiring:",
+      "options": [
+        "A plasma glucose level strictly below 56 mg/dL",
+        "Intravenous dextrose administration",
+        "Assistance from a third party",
+        "Hospital admission"
+      ],
+      "correctOption": 2,
+      "explanation": "Severe hypoglycemia required third-party assistance.",
+      "reference": "LEADER MCQ 19: Severe hypoglycemia required third-party assistance. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-q20",
+      "type": "mcq",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "What percentage of the overall study population had established cardiovascular disease at baseline?",
+      "options": [
+        "24.7%",
+        "50.0%",
+        "72.4%",
+        "99.9%"
+      ],
+      "correctOption": 2,
+      "explanation": "72.4% had established cardiovascular disease at baseline.",
+      "reference": "LEADER MCQ 20: 72.4% had established cardiovascular disease at baseline. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "Liraglutide demonstrated statistically significant superiority over placebo in reducing the individual rate of nonfatal myocardial infarctions.",
+      "correctAnswer": false,
+      "explanation": "Nonfatal MI was numerically lower but not statistically significant.",
+      "reference": "LEADER T/F 1: Nonfatal MI was numerically lower but not statistically significant. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "The LEADER trial was sponsored and funded primarily by Novo Nordisk and the National Institutes of Health.",
+      "correctAnswer": true,
+      "explanation": "Funded by Novo Nordisk with NIH support.",
+      "reference": "LEADER T/F 2: Funded by Novo Nordisk with NIH support. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "Patients in the placebo group were more likely to require the addition of insulin or sulfonylureas to control their blood glucose during the trial.",
+      "correctAnswer": true,
+      "explanation": "Placebo group required more insulin and sulfonylureas.",
+      "reference": "LEADER T/F 3: Placebo group required more insulin and sulfonylureas. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "The trial strictly excluded patients who had chronic kidney disease of stage 3 or higher.",
+      "correctAnswer": false,
+      "explanation": "CKD stage 3+ was not excluded; >24% had CKD stage 3+.",
+      "reference": "LEADER T/F 4: CKD stage 3+ was not excluded; >24% had CKD stage 3+. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "Liraglutide use was associated with a clinically measured increase in the resting heart rate of patients.",
+      "correctAnswer": true,
+      "explanation": "Resting heart rate increased ~3 beats/min with liraglutide.",
+      "reference": "LEADER T/F 5: Resting heart rate increased ~3 beats/min with liraglutide. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "The incidence of acute pancreatitis was significantly higher in the liraglutide group than in the placebo group.",
+      "correctAnswer": false,
+      "explanation": "Pancreatitis numerically lower (18 vs 23); not significantly higher.",
+      "reference": "LEADER T/F 6: Pancreatitis numerically lower (18 vs 23); not significantly higher. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "Patients assigned to the liraglutide group experienced a greater mean reduction in glycated hemoglobin (HbA1c) over 36 months compared to the placebo group.",
+      "correctAnswer": true,
+      "explanation": "Greater HbA1c reduction with liraglutide at 36 months.",
+      "reference": "LEADER T/F 7: Greater HbA1c reduction with liraglutide at 36 months. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "The hierarchical testing model mandated that the researchers test for superiority before establishing noninferiority.",
+      "correctAnswer": false,
+      "explanation": "Noninferiority tested first, then superiority.",
+      "reference": "LEADER T/F 8: Noninferiority tested first, then superiority. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "The trial demonstrated that liraglutide significantly reduced the risk of hospitalizations for heart failure.",
+      "correctAnswer": false,
+      "explanation": "HF hospitalization was nonsignificantly lower.",
+      "reference": "LEADER T/F 9: HF hospitalization was nonsignificantly lower. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "There was a numerical excess of adjudicated pancreatic cancer cases in the liraglutide group compared to the placebo group.",
+      "correctAnswer": true,
+      "explanation": "13 vs 5 pancreatic cancer cases (not powered for cancer conclusions).",
+      "reference": "LEADER T/F 10: 13 vs 5 pancreatic cancer cases (not powered for cancer conclusions). — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "A subgroup analysis showed that patients of Asian descent experienced the largest and most significant harm from taking liraglutide.",
+      "correctAnswer": false,
+      "explanation": "Asian subgroup HR 0.70 favored liraglutide, not harm.",
+      "reference": "LEADER T/F 11: Asian subgroup HR 0.70 favored liraglutide, not harm. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "A history of multiple endocrine neoplasia type 2 was a major exclusion criterion for entering the study.",
+      "correctAnswer": true,
+      "explanation": "MEN2 history was an exclusion criterion.",
+      "reference": "LEADER T/F 12: MEN2 history was an exclusion criterion. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "The cardiovascular benefits observed in LEADER emerged rapidly within the first 3 months of the trial, mimicking the hemodynamic timeline of SGLT2 inhibitors.",
+      "correctAnswer": false,
+      "explanation": "Benefits emerged gradually, unlike early EMPA-REG separation.",
+      "reference": "LEADER T/F 13: Benefits emerged gradually, unlike early EMPA-REG separation. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "Liraglutide administration involves a once-daily subcutaneous injection.",
+      "correctAnswer": true,
+      "explanation": "Liraglutide given once daily subcutaneously.",
+      "reference": "LEADER T/F 14: Liraglutide given once daily subcutaneously. — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "id": "tr-nejm-014-tf15",
+      "type": "true_false",
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "The trial completely failed to show any reduction in the rate of death from any cause (all-cause mortality).",
+      "correctAnswer": false,
+      "explanation": "All-cause mortality significantly reduced (HR 0.85; 15% RRR).",
+      "reference": "LEADER T/F 15: All-cause mortality significantly reduced (HR 0.85; 15% RRR). — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
     }
   ]
 }
