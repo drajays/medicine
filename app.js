@@ -353,8 +353,10 @@ function wireSkepticismToggles(scope){
 function renderMCQ(q, idx){
   const opts = q.options.map((o,i)=>
     `<button class="opt" data-i="${i}"><span class="key">${String.fromCharCode(65+i)}.</span>${esc(o)}</button>`).join('');
+  const img = q.image ? `<figure class="q-figure"><img class="q-image" src="${esc(q.image)}" alt="${esc(q.imageAlt||'Clinical reference image')}"><figcaption class="q-caption">${esc(q.imageCaption||q.imageAlt||'')}</figcaption></figure>` : '';
   return `<div class="q" data-correct="${q.correctOption}" data-type="mcq">
     <div class="q-top"><span class="q-type">MCQ ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span></div>
+    ${img}
     <div class="q-stem">${esc(q.question)}</div>
     <div class="opts">${opts}</div>
     <div class="explain"><div class="verdict"></div><div class="exp-text">${esc(q.explanation||'')}</div>${refBlock(q.reference)}</div>
