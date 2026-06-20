@@ -4,11 +4,11 @@
   "subsection": "nejm",
   "sourceKey": "NEJMoa1501352",
   "paperType": "rct",
-  "title": "Effect of Sitagliptin on Cardiovascular Outcomes in Type 2 Diabetes",
-  "subtitle": "TECOS — Sitagliptin Cardiovascular Outcomes",
+  "title": "TECOS",
+  "subtitle": "Sitagliptin Cardiovascular Outcomes — Summary, Why/How, MCQ & T/F Module",
   "section": "Trials",
   "category": "Cardiology & Endocrinology",
-  "authors": "UK Prospective Diabetes Study (UKPDS) Group. Intensive blood-glucose control wit",
+  "authors": "Green JB, Bethel MA, Armstrong PW, et al.; N Engl J Med 2015",
   "sourceFile": "noupload/NEJM/nejmoa1501352/paper.md",
   "bibliography": [
     {
@@ -81,204 +81,750 @@
     }
   ],
   "trialDesign": {
-    "fullName": "Effect of Sitagliptin on Cardiovascular Outcomes in Type 2 Diabetes",
-    "overview": "## BACKGROUND Data are lacking on the long-term effect on cardiovascular events of adding sitagliptin, a dipeptidyl peptidase 4 inhibitor, to usual care in patients with type 2 diabetes and cardiovascular disease.",
-    "design": "randomized, double-blind study, we assigned 14,671 patients to add either sitagliptin or placebo to their existing therapy.",
-    "population": "patients to add either sitagliptin or placebo to their existing therapy.",
-    "comparator": "placebo",
-    "primaryEndpoint": "primary outcome occurred in 839 patients in the sitagliptin group (11.",
-    "duration": "median follow-up of 3."
+    "fullName": "Trial Evaluating Cardiovascular Outcomes with Sitagliptin (TECOS)",
+    "year": 2015,
+    "design": "Randomized, double-blind, placebo-controlled, event-driven cardiovascular outcomes trial",
+    "population": "14,671 patients with type 2 diabetes, HbA1c 6.5–8.0%, and established cardiovascular disease",
+    "sampleSize": "n=14,671 (7332 sitagliptin vs 7339 placebo)",
+    "duration": "Median follow-up 3.0 years",
+    "intervention": "Sitagliptin 100 mg daily (50 mg if eGFR 30–<50) added to usual care",
+    "comparator": "Placebo added to usual care with open-label antihyperglycemic agents as needed",
+    "primaryEndpoint": "First confirmed CV death, nonfatal MI, nonfatal stroke, or hospitalization for unstable angina",
+    "overview": "Sitagliptin was noninferior for major cardiovascular events (HR 0.98) with no excess heart failure hospitalization (HR 1.00)."
   },
   "trialSummary": {
     "headings": {
-      "background": "Data are lacking on the long-term effect on cardiovascular events of adding sitagliptin, a dipeptidyl peptidase 4 inhibitor, to usual care in patients with type 2 diabetes and cardiovascular disease.",
-      "objective": "Data are lacking on the long-term effect on cardiovascular events of adding sitagliptin, a dipeptidyl peptidase 4 inhibitor, to usual care in patients with type 2 diabetes and cardiovascular disease.",
-      "design": "randomized, double-blind study, we assigned 14,671 patients to add either sitagliptin or placebo to their existing therapy.",
-      "population": "patients to add either sitagliptin or placebo to their existing therapy.",
-      "comparator": "placebo",
-      "followUp": "median follow-up of 3.",
-      "funding": "Merck Sharp & Dohme",
-      "nct": "NCT00790205"
+      "background": "Regulatory requirement to prove cardiovascular safety of new antihyperglycemic agents; sitagliptin DPP-4 inhibitor data lacking.",
+      "design": "673 sites, 38 countries; double-blind; event-driven; noninferiority margin 1.30.",
+      "population": "Mean diabetes duration 11.6 years; established CVD required; eGFR ≥30.",
+      "intervention": "Sitagliptin 100 mg (or 50 mg by renal function) plus usual care.",
+      "comparator": "Placebo plus usual care; open-label glucose-lowering agents encouraged.",
+      "followUp": "Median 3.0 years; ~26–27% discontinued study drug; 95.1% completed in sitagliptin arm."
     },
     "outcomes": [
       {
-        "label": "Primary outcome (extracted)",
+        "label": "Primary composite MACE",
         "type": "primary",
-        "definition": "primary outcome occurred in 839 patients in the sitagliptin group (11.",
-        "interpretation": "Among patients with type 2 diabetes and established cardiovascular disease, adding sitagliptin to usual care did not appear to increase the risk of major adverse cardiovascular events, hospitalization for heart failure, or other adverse events. (Funded by Merck Sharp & Dohme; TECOS ClinicalTrials.go",
         "effect": {
           "measure": "HR",
-          "value": 0.98
-        }
+          "value": 0.98,
+          "interpretation": "P<0.001 for noninferiority"
+        },
+        "interpretation": "839 vs 851 events; no increased CV risk"
+      },
+      {
+        "label": "Hospitalization for heart failure",
+        "type": "secondary",
+        "effect": {
+          "measure": "HR",
+          "value": 1,
+          "interpretation": "3.1% both groups"
+        },
+        "interpretation": "No HF signal—differs from saxagliptin"
+      },
+      {
+        "label": "HbA1c difference",
+        "type": "secondary",
+        "effect": {
+          "measure": "percentage points",
+          "value": -0.29,
+          "interpretation": "least-squares mean favoring sitagliptin"
+        },
+        "interpretation": "Modest sustained glycemic benefit"
+      },
+      {
+        "label": "Acute pancreatitis (confirmed)",
+        "type": "safety",
+        "effect": {
+          "measure": "Events",
+          "value": 23,
+          "interpretation": "vs 12 placebo; NS"
+        },
+        "interpretation": "No significant pancreatitis signal"
       }
     ],
-    "conclusion": "Among patients with type 2 diabetes and established cardiovascular disease, adding sitagliptin to usual care did not appear to increase the risk of major adverse cardiovascular events, hospitalization for heart failure, or other adverse events. (Funded by Merck Sharp & Dohme; TECOS ClinicalTrials.gov number, NCT00790205.) OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of t",
-    "clinicalBottomLine": "Among patients with type 2 diabetes and established cardiovascular disease, adding sitagliptin to usual care did not appear to increase the risk of major adverse cardiovascular events, hospitalization for heart failure, or other adverse events. (Fund"
+    "safetyHighlights": [
+      "No significant increase in MACE, HF, severe hypoglycemia, or all-cause death",
+      "Pancreatic cancer numerically lower with sitagliptin; pancreatitis not significantly increased"
+    ],
+    "clinicalBottomLine": "Sitagliptin added to usual care is cardiovascularly safe in high-risk type 2 diabetes, with neutral heart failure risk and modest glycemic benefit."
   },
   "inclusionCriteria": [
-    "Eligible patients had type 2 diabetes with established cardiovascular disease and were at least 50 years of age, with a glycated hemoglobin level of 6."
+    "Type 2 diabetes; HbA1c 6.5–8.0%; age ≥50 (or ≥21 with CVD risk factors)",
+    "Established cardiovascular disease; eGFR ≥30 ml/min/1.73 m²"
   ],
   "exclusionCriteria": [
-    "Patients were excluded if they had taken a DPP-4 inhibitor, glucagon-like peptide-1 receptor agonist, or thiazolidinedione (other than pioglitazone) during the preceding 3 months; if they had a history of two or more episodes of severe hypoglycemia (defined as requiring third-party assistance) during the preceding 12 months; or if the estimated glomerular filtration rate (eGFR) was less than 30 ml per minute per 1."
+    "GLP-1 receptor agonist, DPP-4 inhibitor (other than sitagliptin), or thiazolidinedione (except pioglitazone) in prior 3 months",
+    "≥2 severe hypoglycemia episodes in prior 12 months; eGFR <30"
   ],
   "keyTakeaways": [
-    "Among patients with type 2 diabetes and established cardiovascular disease, adding sitagliptin to usual care did not appear to increase the risk of major adverse cardiovascular events, hospitalization for heart failure, or other adverse events. (Fund",
-    "Among patients with type 2 diabetes and established cardiovascular disease, adding sitagliptin to usual care did not appear to increase the risk of major adverse cardiovascular events, hospitalization for heart failure, or other adverse events. (Funded by Merck Sharp & Dohme; TECOS ClinicalTrials.go"
+    "Noninferior for MACE (HR 0.98); HF hospitalization neutral (HR 1.00).",
+    "HbA1c -0.29%; fewer add-on agents and less insulin with sitagliptin.",
+    "No significant pancreatitis, pancreatic cancer, or severe hypoglycemia signal."
   ],
   "items": [
     {
-      "id": "tr-nejm-011-how1",
+      "id": "tr-nejm-011-n0",
+      "type": "note",
+      "subtopic": "Trial Summary",
+      "title": "TECOS — Main Points (High-Yield Overview)",
+      "content": "Background and Objective: Sitagliptin is an oral DPP-4 inhibitor that prolongs incretin action. TECOS evaluated long-term cardiovascular safety of adding sitagliptin to usual care in type 2 diabetes with established cardiovascular disease.\n\nMethodology: 14,671 patients randomized to sitagliptin (100 mg or 50 mg daily by eGFR) or placebo. Primary composite: CV death, nonfatal MI, nonfatal stroke, or hospitalization for unstable angina.\n\nGlycemic Control: Median follow-up 3.0 years; HbA1c difference -0.29 percentage points favoring sitagliptin. Fewer additional antihyperglycemic agents and less long-term insulin initiation with sitagliptin.\n\nCardiovascular Outcomes: Noninferior to placebo for primary composite (HR 0.98; P<0.001 for noninferiority). HF hospitalization identical (HR 1.00)—key safety differentiator vs saxagliptin.\n\nSafety Profile: No increase in MACE, acute pancreatitis, pancreatic cancer, severe hypoglycemia, or all-cause death.",
+      "keyPoints": [
+        "Primary composite HR 0.98 — noninferior; HF hospitalization HR 1.00",
+        "HbA1c -0.29%; fewer add-on agents and less insulin initiation",
+        "No signal for pancreatitis, pancreatic cancer, or severe hypoglycemia"
+      ],
+      "reference": "Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-why1",
+      "type": "why",
+      "subtopic": "Why/How 1",
       "referenceNumber": 1,
-      "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 1 relate to TECOS?",
-      "answer": "OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of these agents have been raised. International regulatory agencies have responded by requiring that new antihyperglycemic agents not only show glucose-lowering ability but also are not associated with clinically meaningful increases in rates of major adverse cardiovascular events.",
-      "reference": "Ref 1: \"OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are lic...\" — UK Prospective Diabetes Study (UKPDS) Group. Intensive blood-glucose control with sulphonylureas or insulin compared wit"
+      "question": "Why was the TECOS trial initiated?",
+      "answer": "The trial was initiated to evaluate the long-term cardiovascular safety of sitagliptin, particularly in response to regulatory agencies requiring proof that new antihyperglycemic agents do not cause clinically meaningful increases in major adverse cardiovascular events.",
+      "keyPoints": [
+        "The trial was initiated to evaluate the long-term cardiovascular safety of sitagliptin, particularly in response to regulatory agencies requiring proof that new antihyperglycemic agents do not cause clinically meaningful increases in major adverse cardiovascular events."
+      ],
+      "reference": "TECOS Q1: The trial was initiated to evaluate the long-term cardiovascular safety of sitag... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
       "id": "tr-nejm-011-how2",
-      "referenceNumber": 2,
       "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 2 relate to TECOS?",
-      "answer": "OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of these agents have been raised. International regulatory agencies have responded by requiring that new antihyperglycemic agents not only show glucose-lowering ability but also are not associated with clinically meaningful increases in rates of major adverse cardiovascular events.",
-      "reference": "Ref 2: \"OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are lic...\" — Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HAW. 10-Year follow-up of intensive glucose control in type 2 diabetes."
+      "subtopic": "Why/How 2",
+      "referenceNumber": 2,
+      "question": "How does sitagliptin physiologically improve glycemic control?",
+      "answer": "Sitagliptin acts as a DPP-4 inhibitor that prolongs the action of incretin hormones, primarily suppressing glucagon levels and increasing endogenous insulin secretion.",
+      "keyPoints": [
+        "Sitagliptin acts as a DPP-4 inhibitor that prolongs the action of incretin hormones, primarily suppressing glucagon levels and increasing endogenous insulin secretion."
+      ],
+      "reference": "TECOS Q2: Sitagliptin acts as a DPP-4 inhibitor that prolongs the action of incretin hormo... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
-      "id": "tr-nejm-011-how3",
+      "id": "tr-nejm-011-why3",
+      "type": "why",
+      "subtopic": "Why/How 3",
       "referenceNumber": 3,
-      "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 3 relate to TECOS?",
-      "answer": "OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of these agents have been raised. International regulatory agencies have responded by requiring that new antihyperglycemic agents not only show glucose-lowering ability but also are not associated with clinically meaningful increases in rates of major adverse cardiovascular events.",
-      "reference": "Ref 3: \"OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are lic...\" — American Diabetes Association. Standards of medical care in diabetes — 2015. Diabetes Care 2015;38:Suppl:S1-S93."
+      "question": "Why did the researchers encourage the use of open-label antihyperglycemic agents during the trial?",
+      "answer": "This approach aimed to achieve individually appropriate glycated hemoglobin targets for all patients, thereby minimizing the potential confounding effects of differential glucose control between the two study groups.",
+      "keyPoints": [
+        "This approach aimed to achieve individually appropriate glycated hemoglobin targets for all patients, thereby minimizing the potential confounding effects of differential glucose control between the two study groups."
+      ],
+      "reference": "TECOS Q3: This approach aimed to achieve individually appropriate glycated hemoglobin targ... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
       "id": "tr-nejm-011-how4",
-      "referenceNumber": 4,
       "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 4 relate to TECOS?",
-      "answer": "OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of these agents have been raised. International regulatory agencies have responded by requiring that new antihyperglycemic agents not only show glucose-lowering ability but also are not associated with clinically meaningful increases in rates of major adverse cardiovascular events.",
-      "reference": "Ref 4: \"OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are lic...\" — Nissen SE, Wolski K. Effect of rosiglitazone on the risk of myocardial infarction and death from cardiovascular causes. "
+      "subtopic": "Why/How 4",
+      "referenceNumber": 4,
+      "question": "How was the primary composite cardiovascular outcome formally defined?",
+      "answer": "It was defined as the first confirmed event of cardiovascular death, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina.",
+      "keyPoints": [
+        "It was defined as the first confirmed event of cardiovascular death, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for unstable angina."
+      ],
+      "reference": "TECOS Q4: It was defined as the first confirmed event of cardiovascular death, nonfatal my... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
-      "id": "tr-nejm-011-how5",
+      "id": "tr-nejm-011-why5",
+      "type": "why",
+      "subtopic": "Why/How 5",
       "referenceNumber": 5,
-      "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 5 relate to TECOS?",
-      "answer": "OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of these agents have been raised. International regulatory agencies have responded by requiring that new antihyperglycemic agents not only show glucose-lowering ability but also are not associated with clinically meaningful increases in rates of major adverse cardiovascular events.",
-      "reference": "Ref 5: \"OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are lic...\" — Holman RR, Sourij H, Califf RM. Cardiovascular outcome trials of glucose-lowering drugs or strategies in type 2 diabetes"
+      "question": "Why was the finding regarding hospitalization for heart failure highly significant in the context of this drug class?",
+      "answer": "Previous cardiovascular outcome trials for other DPP-4 inhibitors, such as saxagliptin, showed an unexpected excess rate of hospitalization for heart failure; TECOS demonstrated no difference (hazard ratio 1.00), serving as a crucial safety differentiator.",
+      "keyPoints": [
+        "Previous cardiovascular outcome trials for other DPP-4 inhibitors, such as saxagliptin, showed an unexpected excess rate of hospitalization for heart failure; TECOS demonstrated no difference (hazard ratio 1.00), serving as a crucial safety differentiator."
+      ],
+      "reference": "TECOS Q5: Previous cardiovascular outcome trials for other DPP-4 inhibitors, such as saxag... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
       "id": "tr-nejm-011-how6",
+      "type": "how",
+      "subtopic": "Why/How 6",
       "referenceNumber": 6,
-      "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 6 relate to TECOS?",
-      "answer": "OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of these agents have been raised. International regulatory agencies have responded by requiring that new antihyperglycemic agents not only show glucose-lowering ability but also are not associated with clinically meaningful increases in rates of major adverse cardiovascular events.",
-      "reference": "Ref 6: \"OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are lic...\" — Department of Health and Human Services, Food and Drug Administration, Center for Drug Evaluation and Research. Guidance"
+      "question": "How did sitagliptin treatment affect patients' reliance on additional diabetes therapies?",
+      "answer": "Patients in the sitagliptin group received significantly fewer additional antihyperglycemic agents and were less likely to initiate long-term insulin therapy compared to the placebo group over the study period.",
+      "keyPoints": [
+        "Patients in the sitagliptin group received significantly fewer additional antihyperglycemic agents and were less likely to initiate long-term insulin therapy compared to the placebo group over the study period."
+      ],
+      "reference": "TECOS Q6: Patients in the sitagliptin group received significantly fewer additional antihy... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
-      "id": "tr-nejm-011-how7",
+      "id": "tr-nejm-011-why7",
+      "type": "why",
+      "subtopic": "Why/How 7",
       "referenceNumber": 7,
-      "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 7 relate to TECOS?",
-      "answer": "OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are licensed for the treatment of type 2 diabetes, but questions regarding the long-term cardiovascular safety of some of these agents have been raised. International regulatory agencies have responded by requiring that new antihyperglycemic agents not only show glucose-lowering ability but also are not associated with clinically meaningful increases in rates of major adverse cardiovascular events.",
-      "reference": "Ref 7: \"OOD GLYCEMIC CONTROL AMONG PATIENTS with type 2 diabetes reduces the risk of diabetes-related microvascular complications. Many antihyperglycemic agents are lic...\" — European Medicine Agency, Committee for Medicinal Products for Human Use. Guideline on clinical investigation of medicin"
+      "question": "Why did the trial utilize a noninferiority hypothesis as its primary statistical goal?",
+      "answer": "The primary objective was establishing safety—to mathematically prove that adding sitagliptin did not increase the cardiovascular risk compared to a placebo, utilizing a relative risk upper boundary of 1.30.",
+      "keyPoints": [
+        "The primary objective was establishing safety—to mathematically prove that adding sitagliptin did not increase the cardiovascular risk compared to a placebo, utilizing a relative risk upper boundary of 1.30."
+      ],
+      "reference": "TECOS Q7: The primary objective was establishing safety—to mathematically prove that addin... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
-      "id": "tr-nejm-011-sa8",
+      "id": "tr-nejm-011-how8",
+      "type": "how",
+      "subtopic": "Why/How 8",
       "referenceNumber": 8,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From TECOS, what is the key numeric finding cited in reference 8?",
-      "modelAnswer": "The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from shorter-term outcome trials of other DPP-4 inhibitors, including saxagliptin and alogliptin. The Saxagliptin Assessment of Vascular Outcomes Reco",
-      "reference": "Ref 8: \"The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from short...\" — Drucker DJ. The role of gut hormones in glucose homeostasis. J Clin Invest 2007;117:24-32."
+      "question": "How was the data regarding specific events like acute pancreatitis and pancreatic cancer managed to ensure objectivity?",
+      "answer": "An independent clinical events classification committee, whose members remained completely unaware of study-group assignments, adjudicated all events of acute pancreatitis and cancer.",
+      "keyPoints": [
+        "An independent clinical events classification committee, whose members remained completely unaware of study-group assignments, adjudicated all events of acute pancreatitis and cancer."
+      ],
+      "reference": "TECOS Q8: An independent clinical events classification committee, whose members remained ... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
-      "id": "tr-nejm-011-sa9",
+      "id": "tr-nejm-011-why9",
+      "type": "why",
+      "subtopic": "Why/How 9",
       "referenceNumber": 9,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From TECOS, what is the key numeric finding cited in reference 9?",
-      "modelAnswer": "The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from shorter-term outcome trials of other DPP-4 inhibitors, including saxagliptin and alogliptin. The Saxagliptin Assessment of Vascular Outcomes Reco",
-      "reference": "Ref 9: \"The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from short...\" — Scirica BM, Bhatt DL, Braunwald E, et al. Saxagliptin and cardiovascular outcomes in patients with type 2 diabetes melli"
+      "question": "Why did the trial strictly exclude patients who had two or more episodes of severe hypoglycemia in the preceding 12 months?",
+      "answer": "This exclusion criterion protected highly vulnerable patients, and the study required mandatory discontinuation of the study medication if a patient experienced severe hypoglycemia between visits despite adjustments to other therapies.",
+      "keyPoints": [
+        "This exclusion criterion protected highly vulnerable patients, and the study required mandatory discontinuation of the study medication if a patient experienced severe hypoglycemia between visits despite adjustments to other therapies."
+      ],
+      "reference": "TECOS Q9: This exclusion criterion protected highly vulnerable patients, and the study req... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
-      "id": "tr-nejm-011-sa10",
-      "referenceNumber": 10,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From TECOS, what is the key numeric finding cited in reference 10?",
-      "modelAnswer": "The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from shorter-term outcome trials of other DPP-4 inhibitors, including saxagliptin and alogliptin. The Saxagliptin Assessment of Vascular Outcomes Reco",
-      "reference": "Ref 10: \"The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from short...\" — White WB, Cannon CP, Heller SR, et al. Alogliptin after acute coronary syndrome in patients with type 2 diabetes. N Engl"
-    },
-    {
-      "id": "tr-nejm-011-how11",
-      "referenceNumber": 11,
+      "id": "tr-nejm-011-how10",
       "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 11 relate to TECOS?",
-      "answer": "Sitagliptin, an orally administered dipeptidyl peptidase 4 (DPP-4) inhibitor, prolongs the action of incretin hormones, including glucagon-like peptide 1 and glucose-dependent insulinotropic polypeptide, by inhibiting their breakdown. This improves glycemic control in patients with type 2 diabetes, primarily by suppressing glucagon levels and increasing endogenous insulin secretion. Two previous cardiovascular outcome trials of other DPP-4 inhibitors did not show an increase or decrease in the number of major adverse cardiovascular events but did raise safety concerns regarding a possible elevated risk of hospitalization for heart failure, with meta-analyses of randomized, controlled trials suggesting an increase of 24 to 25% in such a risk associated with these agents.",
-      "reference": "Ref 11: \"Sitagliptin, an orally administered dipeptidyl peptidase 4 (DPP-4) inhibitor, prolongs the action of incretin hormones, including glucagon-like peptide 1 and gl...\" — Udell JA, Cavender MA, Bhatt DL, Chatterjee S, Farkouh ME, Scirica BM. Glucose-lowering drugs or strategies and cardiova"
+      "subtopic": "Why/How 10",
+      "referenceNumber": 10,
+      "question": "How did the initial difference in glycated hemoglobin levels evolve over the 3-year median follow-up?",
+      "answer": "At 4 months, HbA1c values were 0.4 percentage points lower in the sitagliptin group, but this difference narrowed over time to a final overall least-squares mean difference of -0.29 percentage points.",
+      "keyPoints": [
+        "At 4 months, HbA1c values were 0.4 percentage points lower in the sitagliptin group, but this difference narrowed over time to a final overall least-squares mean difference of -0.29 percentage points."
+      ],
+      "reference": "TECOS Q10: At 4 months, HbA1c values were 0.4 percentage points lower in the sitagliptin gr... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-why11",
+      "type": "why",
+      "subtopic": "Why/How 11",
+      "referenceNumber": 11,
+      "question": "Why do the authors hypothesize that the heart failure results in TECOS differed from the SAVOR-TIMI 53 trial?",
+      "answer": "They suggest the disparity could be due to differences in the enrolled patient populations, background clinical care, specific definitions of heart-failure events, intrinsic pharmacologic differences among the DPP-4 inhibitors, or simply the play of chance.",
+      "keyPoints": [
+        "They suggest the disparity could be due to differences in the enrolled patient populations, background clinical care, specific definitions of heart-failure events, intrinsic pharmacologic differences among the DPP-4 inhibitors, or simply the play of chance."
+      ],
+      "reference": "TECOS Q11: They suggest the disparity could be due to differences in the enrolled patient p... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
       "id": "tr-nejm-011-how12",
-      "referenceNumber": 12,
       "type": "how",
-      "subtopic": "TECOS",
-      "question": "How does the process described in reference 12 relate to TECOS?",
-      "answer": "Sitagliptin, an orally administered dipeptidyl peptidase 4 (DPP-4) inhibitor, prolongs the action of incretin hormones, including glucagon-like peptide 1 and glucose-dependent insulinotropic polypeptide, by inhibiting their breakdown. This improves glycemic control in patients with type 2 diabetes, primarily by suppressing glucagon levels and increasing endogenous insulin secretion. Two previous cardiovascular outcome trials of other DPP-4 inhibitors did not show an increase or decrease in the number of major adverse cardiovascular events but did raise safety concerns regarding a possible elevated risk of hospitalization for heart failure, with meta-analyses of randomized, controlled trials suggesting an increase of 24 to 25% in such a risk associated with these agents.",
-      "reference": "Ref 12: \"Sitagliptin, an orally administered dipeptidyl peptidase 4 (DPP-4) inhibitor, prolongs the action of incretin hormones, including glucagon-like peptide 1 and gl...\" — Clifton P. Do dipeptidyl peptidase IV (DPP-IV) inhibitors cause heart failure? Clin Ther 2014;36:2072-9."
+      "subtopic": "Why/How 12",
+      "referenceNumber": 12,
+      "question": "How was the baseline estimated glomerular filtration rate (eGFR) factored into the dosing protocol for sitagliptin?",
+      "answer": "Patients were normally assigned a dose of 100 mg daily; however, this was reduced to 50 mg daily if their baseline eGFR was between 30 and less than 50 ml per minute per 1.73 m².",
+      "keyPoints": [
+        "Patients were normally assigned a dose of 100 mg daily; however, this was reduced to 50 mg daily if their baseline eGFR was between 30 and less than 50 ml per minute per 1.73 m²."
+      ],
+      "reference": "TECOS Q12: Patients were normally assigned a dose of 100 mg daily; however, this was reduce... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
       "id": "tr-nejm-011-why13",
-      "referenceNumber": 13,
       "type": "why",
-      "subtopic": "TECOS",
-      "question": "Why is the following clinically relevant in TECOS? Context: We conducted this randomized, double-blind, placebo-controlled, event-driven trial at 673 sites in 38 countries on the b…",
-      "answer": "We conducted this randomized, double-blind, placebo-controlled, event-driven trial at 673 sites in 38 countries on the basis of a design and rationale that have been reported previously. The study was designed and run independently by the Duke Clinical Research Institute (DCRI) and the University of Oxford Diabetes Trials Unit (DTU) in an academic collaboration with the sponsor, Merck Sharp & Dohme. The trial organization, participating countries, and a list of investigators are provided in Supplementary Appendix 1, available with the full text of this article at NEJM.org. The protocol was approved by the ethics committee at each participating trial site. All analyses were performed by DCRI and DTU independent of the sponsor and according to the prespecified statistical analysis plan. The first and second authors wrote the first draft of the manuscript. Executive committee members and coauthors from DCRI, DTU, and the sponsor reviewed the data, revised the manuscript, and assume responsibility for trial adherence to the protocol and the accuracy and completeness of the data and the analyses. The protocol is also available at NEJM.org",
-      "reference": "Ref 13: \"We conducted this randomized, double-blind, placebo-controlled, event-driven trial at 673 sites in 38 countries on the basis of a design and rationale that have...\" — Green JB, Bethel MA, Paul SK, et al. Rationale, design, and organization of a randomized, controlled Trial Evaluating Ca"
+      "subtopic": "Why/How 13",
+      "referenceNumber": 13,
+      "question": "Why were events like expected diabetes-related complications not reported directly as standard adverse events?",
+      "answer": "These expected complications were prespecified events of clinical interest that were already being collected systematically by the researchers, rendering redundant reporting unnecessary.",
+      "keyPoints": [
+        "These expected complications were prespecified events of clinical interest that were already being collected systematically by the researchers, rendering redundant reporting unnecessary."
+      ],
+      "reference": "TECOS Q13: These expected complications were prespecified events of clinical interest that ... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
-      "id": "tr-nejm-011-sa14",
+      "id": "tr-nejm-011-how14",
+      "type": "how",
+      "subtopic": "Why/How 14",
       "referenceNumber": 14,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From TECOS, what is the key numeric finding cited in reference 14?",
-      "modelAnswer": "We assessed the primary noninferiority hypothesis by determining whether the upper boundary of the two-sided 95% confidence interval of the hazard ratio for the risk of the primary composite cardiovascular outcome did not exceed 1.30 in the sitagliptin group, as compared with the placebo group, in t",
-      "reference": "Ref 14: \"We assessed the primary noninferiority hypothesis by determining whether the upper boundary of the two-sided 95% confidence interval of the hazard ratio for the...\" — Robins JM, Finkelstein DM. Correcting for noncompliance and dependent censoring in an AIDS Clinical Trial with inverse p"
+      "question": "How did the intention-to-treat analysis for the primary outcome compare statistically to the per-protocol analysis?",
+      "answer": "Both analytical models yielded identical hazard ratios of 0.98, strongly confirming the robustness of the finding that there was no significant between-group difference.",
+      "keyPoints": [
+        "Both analytical models yielded identical hazard ratios of 0.98, strongly confirming the robustness of the finding that there was no significant between-group difference."
+      ],
+      "reference": "TECOS Q14: Both analytical models yielded identical hazard ratios of 0.98, strongly confirm... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-why15",
+      "type": "why",
+      "subtopic": "Why/How 15",
+      "referenceNumber": 15,
+      "question": "Why might the opportunistic approach to data collection be considered a limitation of this trial?",
+      "answer": "The opportunistic approach meant that certain clinical values, such as the ratio of urinary albumin to creatinine, were not systematically acquired across the entire cohort, limiting the ability to analyze these specific renal parameters.",
+      "keyPoints": [
+        "The opportunistic approach meant that certain clinical values, such as the ratio of urinary albumin to creatinine, were not systematically acquired across the entire cohort, limiting the ability to analyze these specific renal parameters."
+      ],
+      "reference": "TECOS Q15: The opportunistic approach meant that certain clinical values, such as the ratio... — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q1",
+      "type": "mcq",
+      "subtopic": "MCQ 1",
+      "referenceNumber": 16,
+      "question": "What was the median duration of follow-up for patients in the TECOS trial?",
+      "options": [
+        "1.5 years",
+        "3.0 years",
+        "5.7 years",
+        "6.0 years"
+      ],
+      "correctOption": 1,
+      "explanation": "Median follow-up was 3.0 years.",
+      "reference": "TECOS MCQ 1: Median follow-up was 3.0 years. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q2",
+      "type": "mcq",
+      "subtopic": "MCQ 2",
+      "referenceNumber": 17,
+      "question": "Which of the following drug classes was specifically excluded from use in the 3 months prior to patient enrollment?",
+      "options": [
+        "Metformin",
+        "Glucagon-like peptide-1 (GLP-1) receptor agonist",
+        "Sulfonylurea",
+        "Pioglitazone"
+      ],
+      "correctOption": 1,
+      "explanation": "GLP-1 receptor agonists were excluded in the prior 3 months.",
+      "reference": "TECOS MCQ 2: GLP-1 receptor agonists were excluded in the prior 3 months. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q3",
+      "type": "mcq",
+      "subtopic": "MCQ 3",
+      "referenceNumber": 18,
+      "question": "What was the required baseline glycated hemoglobin (HbA1c) level for eligible patients entering the trial?",
+      "options": [
+        "5.0 to 6.5%",
+        "6.5 to 8.0%",
+        "7.0 to 9.0%",
+        "Greater than 8.0%"
+      ],
+      "correctOption": 1,
+      "explanation": "Baseline HbA1c requirement was 6.5–8.0%.",
+      "reference": "TECOS MCQ 3: Baseline HbA1c requirement was 6.5–8.0%. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q4",
+      "type": "mcq",
+      "subtopic": "MCQ 4",
+      "referenceNumber": 19,
+      "question": "What was the hazard ratio for the primary composite cardiovascular outcome in the sitagliptin group versus placebo?",
+      "options": [
+        "0.85",
+        "0.98",
+        "1.00",
+        "1.30"
+      ],
+      "correctOption": 1,
+      "explanation": "Primary composite HR was 0.98 (noninferior).",
+      "reference": "TECOS MCQ 4: Primary composite HR was 0.98 (noninferior). — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q5",
+      "type": "mcq",
+      "subtopic": "MCQ 5",
+      "referenceNumber": 20,
+      "question": "How did the rate of hospitalization for heart failure in the sitagliptin group mathematically compare to the placebo group?",
+      "options": [
+        "It was significantly lower in the sitagliptin group (3.1% vs 5.2%).",
+        "It was practically identical (3.1% in both groups, HR 1.00).",
+        "It was slightly higher but not statistically significant.",
+        "It was significantly higher in the sitagliptin group."
+      ],
+      "correctOption": 1,
+      "explanation": "HF hospitalization: 3.1% both groups; HR 1.00.",
+      "reference": "TECOS MCQ 5: HF hospitalization: 3.1% both groups; HR 1.00. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q6",
+      "type": "mcq",
+      "subtopic": "MCQ 6",
+      "referenceNumber": 21,
+      "question": "What minimum estimated glomerular filtration rate (eGFR) was required for a patient to be included in the trial at baseline?",
+      "options": [
+        "≥15 ml/min/1.73 m²",
+        "≥30 ml/min/1.73 m²",
+        "≥50 ml/min/1.73 m²",
+        "≥90 ml/min/1.73 m²"
+      ],
+      "correctOption": 1,
+      "explanation": "Minimum baseline eGFR was ≥30 ml/min/1.73 m².",
+      "reference": "TECOS MCQ 6: Minimum baseline eGFR was ≥30 ml/min/1.73 m². — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q7",
+      "type": "mcq",
+      "subtopic": "MCQ 7",
+      "referenceNumber": 22,
+      "question": "Approximately what percentage of total study patients discontinued the study medication prematurely?",
+      "options": [
+        "5%",
+        "11%",
+        "26 to 27%",
+        "95%"
+      ],
+      "correctOption": 2,
+      "explanation": "~26–27% discontinued study medication prematurely.",
+      "reference": "TECOS MCQ 7: ~26–27% discontinued study medication prematurely. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q8",
+      "type": "mcq",
+      "subtopic": "MCQ 8",
+      "referenceNumber": 23,
+      "question": "Which statistical model was primarily used to calculate the hazard ratios and confidence intervals in this trial?",
+      "options": [
+        "Linear regression",
+        "Logistic regression",
+        "Cox proportional-hazards model",
+        "Kaplan-Meier estimator"
+      ],
+      "correctOption": 2,
+      "explanation": "Cox proportional-hazards model used for primary analysis.",
+      "reference": "TECOS MCQ 8: Cox proportional-hazards model used for primary analysis. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q9",
+      "type": "mcq",
+      "subtopic": "MCQ 9",
+      "referenceNumber": 24,
+      "question": "How many confirmed events of acute pancreatitis occurred in the sitagliptin group versus the placebo group?",
+      "options": [
+        "9 vs 14",
+        "23 vs 12",
+        "144 vs 125",
+        "248 vs 260"
+      ],
+      "correctOption": 1,
+      "explanation": "Confirmed acute pancreatitis: 23 sitagliptin vs 12 placebo.",
+      "reference": "TECOS MCQ 9: Confirmed acute pancreatitis: 23 sitagliptin vs 12 placebo. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q10",
+      "type": "mcq",
+      "subtopic": "MCQ 10",
+      "referenceNumber": 25,
+      "question": "What was the mean baseline duration of diabetes for the patients enrolled in the trial?",
+      "options": [
+        "3.0 years",
+        "8.1 years",
+        "11.6 years",
+        "15.0 years"
+      ],
+      "correctOption": 2,
+      "explanation": "Mean diabetes duration was 11.6 years.",
+      "reference": "TECOS MCQ 10: Mean diabetes duration was 11.6 years. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q11",
+      "type": "mcq",
+      "subtopic": "MCQ 11",
+      "referenceNumber": 26,
+      "question": "What was the uniform rate of death from noncardiovascular causes observed across both study groups?",
+      "options": [
+        "0.6%",
+        "2.3%",
+        "4.2%",
+        "7.5%"
+      ],
+      "correctOption": 1,
+      "explanation": "Noncardiovascular death rate was 2.3% in both groups.",
+      "reference": "TECOS MCQ 11: Noncardiovascular death rate was 2.3% in both groups. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q12",
+      "type": "mcq",
+      "subtopic": "MCQ 12",
+      "referenceNumber": 27,
+      "question": "Which DPP-4 inhibitor trial previously demonstrated an unexpected excess rate of hospitalization for heart failure?",
+      "options": [
+        "EXAMINE",
+        "SAVOR-TIMI 53",
+        "TECOS",
+        "ADVANCE"
+      ],
+      "correctOption": 1,
+      "explanation": "SAVOR-TIMI 53 (saxagliptin) showed excess HF hospitalization.",
+      "reference": "TECOS MCQ 12: SAVOR-TIMI 53 (saxagliptin) showed excess HF hospitalization. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q13",
+      "type": "mcq",
+      "subtopic": "MCQ 13",
+      "referenceNumber": 28,
+      "question": "At 48 months, how did the mean change in eGFR compare between the two groups?",
+      "options": [
+        "It was identical in both groups.",
+        "The eGFR improved significantly in the sitagliptin group.",
+        "The sitagliptin group had a slightly greater decline in eGFR compared to placebo.",
+        "The placebo group experienced rapid renal failure."
+      ],
+      "correctOption": 2,
+      "explanation": "Sitagliptin group had slightly greater eGFR decline at 48 months.",
+      "reference": "TECOS MCQ 13: Sitagliptin group had slightly greater eGFR decline at 48 months. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q14",
+      "type": "mcq",
+      "subtopic": "MCQ 14",
+      "referenceNumber": 29,
+      "question": "What was the exact marginal upper boundary for the relative risk used by the researchers to determine noninferiority?",
+      "options": [
+        "1.00",
+        "1.05",
+        "1.20",
+        "1.30"
+      ],
+      "correctOption": 3,
+      "explanation": "Noninferiority margin upper boundary was 1.30.",
+      "reference": "TECOS MCQ 14: Noninferiority margin upper boundary was 1.30. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q15",
+      "type": "mcq",
+      "subtopic": "MCQ 15",
+      "referenceNumber": 30,
+      "question": "Which severe adverse event was actually numerically less frequent in the sitagliptin group than in the placebo group?",
+      "options": [
+        "Acute pancreatitis",
+        "Pancreatic cancer",
+        "Severe hypoglycemia",
+        "Hospitalization for unstable angina"
+      ],
+      "correctOption": 1,
+      "explanation": "Pancreatic cancer was numerically less frequent with sitagliptin.",
+      "reference": "TECOS MCQ 15: Pancreatic cancer was numerically less frequent with sitagliptin. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q16",
+      "type": "mcq",
+      "subtopic": "MCQ 16",
+      "referenceNumber": 31,
+      "question": "How frequently were glycated hemoglobin levels mandated to be measured after the initial 8 months of the trial?",
+      "options": [
+        "Monthly",
+        "Quarterly",
+        "Semiannually",
+        "Annually"
+      ],
+      "correctOption": 3,
+      "explanation": "HbA1c measured annually after the first 8 months.",
+      "reference": "TECOS MCQ 16: HbA1c measured annually after the first 8 months. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q17",
+      "type": "mcq",
+      "subtopic": "MCQ 17",
+      "referenceNumber": 32,
+      "question": "Exactly how many patients were randomly assigned to the sitagliptin group in the intention-to-treat population?",
+      "options": [
+        "611",
+        "1300",
+        "7332",
+        "14671"
+      ],
+      "correctOption": 2,
+      "explanation": "7,332 patients assigned to sitagliptin.",
+      "reference": "TECOS MCQ 17: 7,332 patients assigned to sitagliptin. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q18",
+      "type": "mcq",
+      "subtopic": "MCQ 18",
+      "referenceNumber": 33,
+      "question": "In the prespecified subgroup analyses of the primary outcome, which baseline characteristic demonstrated the only significant interaction?",
+      "options": [
+        "Age at randomization",
+        "Body-mass index",
+        "Sex",
+        "Baseline glycated hemoglobin level"
+      ],
+      "correctOption": 1,
+      "explanation": "BMI was the only baseline characteristic with significant interaction.",
+      "reference": "TECOS MCQ 18: BMI was the only baseline characteristic with significant interaction. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q19",
+      "type": "mcq",
+      "subtopic": "MCQ 19",
+      "referenceNumber": 34,
+      "question": "What percentage of patients successfully completed the study overall in the sitagliptin group?",
+      "options": [
+        "26.1%",
+        "50.0%",
+        "95.1%",
+        "97.5%"
+      ],
+      "correctOption": 2,
+      "explanation": "95.1% of sitagliptin patients completed the study.",
+      "reference": "TECOS MCQ 19: 95.1% of sitagliptin patients completed the study. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-q20",
+      "type": "mcq",
+      "subtopic": "MCQ 20",
+      "referenceNumber": 35,
+      "question": "The EXAMINE trial specifically evaluated the cardiovascular outcomes of which other DPP-4 inhibitor?",
+      "options": [
+        "Saxagliptin",
+        "Alogliptin",
+        "Sitagliptin",
+        "Linagliptin"
+      ],
+      "correctOption": 1,
+      "explanation": "EXAMINE evaluated alogliptin cardiovascular outcomes.",
+      "reference": "TECOS MCQ 20: EXAMINE evaluated alogliptin cardiovascular outcomes. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf1",
+      "type": "true_false",
+      "subtopic": "T/F 1",
+      "referenceNumber": 36,
+      "statement": "The TECOS trial proved that sitagliptin is superior to placebo at reducing the risk of major adverse cardiovascular events.",
+      "correctAnswer": false,
+      "explanation": "TECOS showed noninferiority, not superiority, for MACE.",
+      "reference": "TECOS T/F 1: TECOS showed noninferiority, not superiority, for MACE. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf2",
+      "type": "true_false",
+      "subtopic": "T/F 2",
+      "referenceNumber": 37,
+      "statement": "Patients were strictly required to discontinue the study medication if they suffered two or more episodes of severe hypoglycemia between study visits despite therapy adjustments.",
+      "correctAnswer": true,
+      "explanation": "Mandatory discontinuation after severe hypoglycemia between visits.",
+      "reference": "TECOS T/F 2: Mandatory discontinuation after severe hypoglycemia between visits. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf3",
+      "type": "true_false",
+      "subtopic": "T/F 3",
+      "referenceNumber": 38,
+      "statement": "Sitagliptin therapy significantly reduced the rate of hospitalization for heart failure compared to placebo.",
+      "correctAnswer": false,
+      "explanation": "HF hospitalization rates were identical (HR 1.00).",
+      "reference": "TECOS T/F 3: HF hospitalization rates were identical (HR 1.00). — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf4",
+      "type": "true_false",
+      "subtopic": "T/F 4",
+      "referenceNumber": 39,
+      "statement": "Patients in the sitagliptin group were less likely to initiate long-term insulin therapy than those in the placebo group.",
+      "correctAnswer": true,
+      "explanation": "Sitagliptin group less likely to start long-term insulin.",
+      "reference": "TECOS T/F 4: Sitagliptin group less likely to start long-term insulin. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf5",
+      "type": "true_false",
+      "subtopic": "T/F 5",
+      "referenceNumber": 40,
+      "statement": "The difference in glycated hemoglobin levels between the two groups remained massive and unchanged throughout the entire duration of the study.",
+      "correctAnswer": false,
+      "explanation": "HbA1c difference narrowed from 0.4% at 4 months to -0.29% overall.",
+      "reference": "TECOS T/F 5: HbA1c difference narrowed from 0.4% at 4 months to -0.29% overall. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf6",
+      "type": "true_false",
+      "subtopic": "T/F 6",
+      "referenceNumber": 41,
+      "statement": "The incidence of confirmed acute pancreatitis was statistically significantly higher in the sitagliptin group (P < 0.05).",
+      "correctAnswer": false,
+      "explanation": "Pancreatitis difference (23 vs 12) was not statistically significant.",
+      "reference": "TECOS T/F 6: Pancreatitis difference (23 vs 12) was not statistically significant. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf7",
+      "type": "true_false",
+      "subtopic": "T/F 7",
+      "referenceNumber": 42,
+      "statement": "All patients were required to have established cardiovascular disease at baseline to be eligible for enrollment in the trial.",
+      "correctAnswer": true,
+      "explanation": "Established CVD was required for enrollment.",
+      "reference": "TECOS T/F 7: Established CVD was required for enrollment. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf8",
+      "type": "true_false",
+      "subtopic": "T/F 8",
+      "referenceNumber": 43,
+      "statement": "Death from infection occurred at an extremely similar rate of roughly 0.6% to 0.7% in both study groups.",
+      "correctAnswer": true,
+      "explanation": "Infection-related death ~0.6–0.7% in both groups.",
+      "reference": "TECOS T/F 8: Infection-related death ~0.6–0.7% in both groups. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf9",
+      "type": "true_false",
+      "subtopic": "T/F 9",
+      "referenceNumber": 44,
+      "statement": "The trial was terminated early because the data and safety monitoring board noticed an alarming increase in cardiovascular deaths in the sitagliptin group.",
+      "correctAnswer": false,
+      "explanation": "Trial was event-driven and completed without early termination for CV harm.",
+      "reference": "TECOS T/F 9: Trial was event-driven and completed without early termination for CV harm. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf10",
+      "type": "true_false",
+      "subtopic": "T/F 10",
+      "referenceNumber": 45,
+      "statement": "The secondary composite cardiovascular outcome omitted hospitalization for unstable angina from its criteria.",
+      "correctAnswer": true,
+      "explanation": "Secondary composite excluded unstable angina hospitalization.",
+      "reference": "TECOS T/F 10: Secondary composite excluded unstable angina hospitalization. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf11",
+      "type": "true_false",
+      "subtopic": "T/F 11",
+      "referenceNumber": 46,
+      "statement": "Sitagliptin is an intravenously administered GLP-1 receptor agonist.",
+      "correctAnswer": false,
+      "explanation": "Sitagliptin is an oral DPP-4 inhibitor, not an IV GLP-1 agonist.",
+      "reference": "TECOS T/F 11: Sitagliptin is an oral DPP-4 inhibitor, not an IV GLP-1 agonist. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf12",
+      "type": "true_false",
+      "subtopic": "T/F 12",
+      "referenceNumber": 47,
+      "statement": "The trial was conducted in a usual-care setting, explicitly allowing physicians to add open-label antihyperglycemic agents as clinically needed.",
+      "correctAnswer": true,
+      "explanation": "Open-label antihyperglycemic agents permitted per usual care.",
+      "reference": "TECOS T/F 12: Open-label antihyperglycemic agents permitted per usual care. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf13",
+      "type": "true_false",
+      "subtopic": "T/F 13",
+      "referenceNumber": 48,
+      "statement": "Patients with a baseline estimated glomerular filtration rate of 20 ml/min/1.73 m² were included in the study and given a placebo.",
+      "correctAnswer": false,
+      "explanation": "eGFR <30 ml/min/1.73 m² was exclusionary.",
+      "reference": "TECOS T/F 13: eGFR <30 ml/min/1.73 m² was exclusionary. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
+    },
+    {
+      "id": "tr-nejm-011-tf14",
+      "type": "true_false",
+      "subtopic": "T/F 14",
+      "referenceNumber": 49,
+      "statement": "The trial data revealed a significant between-group difference in the rate of severe hypoglycemia.",
+      "correctAnswer": false,
+      "explanation": "No significant difference in severe hypoglycemia between groups.",
+      "reference": "TECOS T/F 14: No significant difference in severe hypoglycemia between groups. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     },
     {
       "id": "tr-nejm-011-tf15",
-      "referenceNumber": 15,
       "type": "true_false",
-      "subtopic": "TECOS",
-      "statement": "Concern has been raised about a possible association between incretin-based therapies and adverse pancreatic effects. Although acute pancreatitis was uncommon, it occurred more often in the sitaglipti.",
-      "correctAnswer": false,
-      "explanation": "Concern has been raised about a possible association between incretin-based therapies and adverse pancreatic effects. Although acute pancreatitis was uncommon, it occurred more often in the sitagliptin group, but the difference was not significant. Pancreatic cancer was also uncommon and occurred more often in the placebo group, but again the difference was not significant.",
-      "reference": "Ref 15: \"Concern has been raised about a possible association between incretin-based therapies and adverse pancreatic effects. Although acute pancreatitis was uncommon, ...\" — Egan AG, Blind E, Dunder K, et al. Pancreatic safety of incretin-based drugs — FDA and EMA assessment. N Engl J Med 2014"
-    },
-    {
-      "id": "tr-nejm-011-sa16",
-      "referenceNumber": 16,
-      "type": "shortanswer",
-      "subtopic": "Key Outcome",
-      "question": "From TECOS, what is the key numeric finding cited in reference 16?",
-      "modelAnswer": "The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from shorter-term outcome trials of other DPP-4 inhibitors, including saxagliptin and alogliptin. The Saxagliptin Assessment of Vascular Outcomes Reco",
-      "reference": "Ref 16: \"The observation that sitagliptin therapy was not associated with a change in long-term rates of cardiovascular events is consistent with the findings from short...\" — Zannad F, Cannon CP, Cushman WC, et al. Heart failure and mortality outcomes in patients with type 2 diabetes taking alo"
-    },
-    {
-      "id": "tr-nejm-011-why17",
-      "referenceNumber": 17,
-      "type": "why",
-      "subtopic": "TECOS",
-      "question": "Why is the following clinically relevant in TECOS? Context: Our study was designed, run, and analyzed exclusively by the DCRI and the University of Oxford DTU, and only members of …",
-      "answer": "Our study was designed, run, and analyzed exclusively by the DCRI and the University of Oxford DTU, and only members of the data and safety monitoring board had access to unblinded outcome or efficacy data before the database lock. Our study was adequately powered, with greater than-anticipated event rates for the primary composite cardiovascular outcome, and had a longer follow-up than previous outcome studies of DPP-4 inhibitors. The population that we studied had well-managed cardiovascular and glycemic risk factors at baseline and was broadly similar to those studied in the SAVOR-TIMI 53 and EXAMINE trials. The results of our study would appear to have wide-ranging generalizability, given that it was carried out in a usual-care setting and included patients with a global distribution. There was uniform ascertainment and adjudication of hospitalization for heart failure, acute pancreatitis, and pancreatic cancer, with an aim of ensuring the integrity of the safety data",
-      "reference": "Ref 17: \"Our study was designed, run, and analyzed exclusively by the DCRI and the University of Oxford DTU, and only members of the data and safety monitoring board had...\" — Bethel MA, Green JB, Milton J, et al. Regional, age and sex differences in baseline characteristics of patients enrolled"
+      "subtopic": "T/F 15",
+      "referenceNumber": 50,
+      "statement": "A clinical history of major coronary artery disease, ischemic cerebrovascular disease, or atherosclerotic peripheral arterial disease qualified as established cardiovascular disease for this trial.",
+      "correctAnswer": true,
+      "explanation": "CAD, ischemic cerebrovascular disease, or PAD qualified as established CVD.",
+      "reference": "TECOS T/F 15: CAD, ischemic cerebrovascular disease, or PAD qualified as established CVD. — Green JB, Bethel MA, Armstrong PW, et al. Effect of sitagliptin on cardiovascular outcomes in type 2 diabetes. N Engl J Med 2015;373:232-242."
     }
   ]
 }
