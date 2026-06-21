@@ -1,12 +1,12 @@
 {
   "id": "ht-021",
   "topicType": "hot_topic",
-  "title": "Oncology Endocrinopathies: 20 Diagnostic Questions",
-  "subtitle": "Treatment Attribution, ICI/TKI Profiles & Axis-by-Axis Evaluation in Cancer Patients",
+  "title": "Oncology Endocrinopathies: Diagnostic Framework & Evidence-Based Management",
+  "subtitle": "20 Diagnostic Questions + 30 ASCO/ESMO Principles + 78 MCQs by Organ System",
   "section": "Hot Topics",
   "category": "Oncology",
-  "authors": "User-provided clinical framework (chat); key ICI timing and thyroiditis claims cross-checked against Annual Review of Medicine (2020), Cleveland Clinic Journal of Medicine (2023), European Thyroid Journal best-practices (2025), and Endotext ICI endocrine irAE chapter",
-  "sourceFile": "user-provided content (chat)",
+  "authors": "User-provided clinical framework and 30 evidence-based management principles (chat); cross-checked against ASCO/ESMO-aligned literature including European Thyroid Journal ICI thyroid best practices (2025), Annual Review of Medicine (2020), Cleveland Clinic Journal of Medicine (2023), Endotext ICI endocrine irAE chapter, ICI-DM meta-analyses (Diabetic Medicine 2022; Frontiers Immunology 2024), and thyroid irAE prognosis meta-analyses",
+  "sourceFile": "user-provided content (chat) — diagnostic questions and ASCO/ESMO-aligned management answers",
   "items": [
     {
       "id": "ht-021-n1",
@@ -451,6 +451,1432 @@
       "correctOption": 1,
       "explanation": "The framework begins with treatment history and timeline — differentiating ICIs, TKIs, cytotoxics, hormone suppression, steroids, and radiation fields — because each class predicts distinct endocrine risks and typical onset windows. Random single tests or imaging without timeline context cannot attribute causality.",
       "reference": "I. Treatment History & Timeline: \"What exact oncological agents is the patient receiving?\" and \"What is the precise chronological timeline?\""
+    },
+    {
+      "id": "ht-021-n22",
+      "type": "note",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "title": "Why is thyroid dysfunction far more common with PD-1/PD-L1 inhibitors than with CTLA-4 alone?",
+      "content": "Among immune checkpoint inhibitors, thyroid irAEs are significantly more frequent with PD-1 and PD-L1 blockade (pembrolizumab, nivolumab, atezolizumab) than with CTLA-4 monotherapy (ipilimumab).\nMeta-analyses show hypothyroidism and destructive thyroiditis clustering on anti–PD-1/PD-L1 regimens, whereas ipilimumab dominates the hypophysitis spectrum instead.\nAgent-specific risk profiling prevents misattributing thyroid labs to the wrong drug when combination regimens are used.",
+      "keyPoints": [
+        "Thyroid irAEs predominate on PD-1/PD-L1 inhibitors.",
+        "CTLA-4 inhibitors (ipilimumab) are more tied to hypophysitis than thyroid disease.",
+        "Combination ICI regimens carry additive endocrine risk across axes.",
+        "Always map labs to the specific agents on board."
+      ],
+      "reference": "I. Thyroid Dysfunction: \"Thyroid dysfunction is significantly more common with PD-1 and PD-L1 inhibitors (e.g., pembrolizumab, nivolumab) compared to CTLA-4 inhibitors (e.g., ipilimumab).\""
+    },
+    {
+      "id": "ht-021-n23",
+      "type": "note",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "title": "How do TKIs such as sunitinib and lenvatinib cause hypothyroidism?",
+      "content": "Tyrosine kinase inhibitors cause hypothyroidism through mechanisms distinct from ICI autoimmune thyroiditis.\nProposed pathways include ischemic/destructive injury to thyroid follicular cells and altered peripheral metabolism of thyroid hormones.\nThe result is gradual primary hypothyroidism — typically without a preceding thyrotoxic phase — making baseline and on-treatment TSH/free T4 comparison essential.",
+      "keyPoints": [
+        "TKI hypothyroidism ≠ ICI destructive thyroiditis mechanism.",
+        "Ischemic gland injury and altered hormone metabolism are proposed pathways.",
+        "Sunitinib and lenvatinib are frequent offenders.",
+        "Gradual primary hypothyroidism without a thyrotoxic prelude is typical."
+      ],
+      "reference": "I. Thyroid Dysfunction: \"Tyrosine Kinase Inhibitors (TKIs) like sunitinib and lenvatinib cause hypothyroidism through ischemic destruction of the thyroid gland and altered metabolism of thyroid hormones.\""
+    },
+    {
+      "id": "ht-021-n24",
+      "type": "note",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "title": "Why is ICI-induced hypothyroidism usually permanent?",
+      "content": "Unlike several other immune-related adverse events that may resolve after ICI discontinuation, ICI-induced hypothyroidism following destructive thyroiditis is almost exclusively permanent.\nThe hypothyroid phase reflects irreversible follicular destruction rather than reversible thyroiditis like classic subacute thyroiditis.\nPatients should be counseled that lifelong levothyroxine replacement is the expected outcome once persistent hypothyroidism is confirmed.",
+      "keyPoints": [
+        "Post-thyroiditis hypothyroid phase is usually permanent on ICIs.",
+        "Unlike some irAEs, thyroid function rarely normalizes off drug.",
+        "Lifelong levothyroxine is the standard expectation.",
+        "Counsel early to avoid false hope of spontaneous recovery."
+      ],
+      "reference": "I. Thyroid Dysfunction: \"Unlike many other immune-related adverse events (irAEs), ICI-induced hypothyroidism is almost exclusively permanent and requires lifelong levothyroxine replacement.\""
+    },
+    {
+      "id": "ht-021-n25",
+      "type": "note",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "title": "Why do guidelines avoid high-dose corticosteroids for mild ICI thyrotoxicosis?",
+      "content": "During the transient thyrotoxic phase of ICI destructive thyroiditis, symptoms are often mild or asymptomatic.\nCurrent ASCO/ESMO-aligned guidance favors symptomatic management with beta-blockers (e.g., propranolol, atenolol) rather than high-dose corticosteroids, which are not shown to prevent progression to hypothyroidism and carry their own toxicities.\nReserve immunosuppressive steroid doses for severe, symptomatic thyrotoxicosis or other irAEs with clear steroid-responsive mass effect.",
+      "keyPoints": [
+        "Thyrotoxic phase is often mild/asymptomatic.",
+        "Beta-blockers for symptomatic relief — not routine high-dose steroids.",
+        "Steroids do not reliably prevent permanent hypothyroidism.",
+        "Match steroid use to severity and specific irAE type."
+      ],
+      "reference": "I. Thyroid Dysfunction: \"Guidelines advise against the use of high-dose corticosteroids for asymptomatic or mild ICI-induced thyrotoxicosis, favoring symptomatic management with beta-blockers instead.\""
+    },
+    {
+      "id": "ht-021-n26",
+      "type": "note",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "title": "How should grade 1–2 immune-related thyroid dysfunction affect ICI continuation?",
+      "content": "Mild to moderate immune-related thyroid dysfunction (CTCAE grade 1 or 2) does not mandate cessation of checkpoint inhibitor therapy.\nOncology and endocrine guidelines support continuing ICIs concurrently with levothyroxine replacement once hypothyroidism is confirmed, provided the patient is clinically stable.\nPermanent ICI discontinuation is reserved for life-threatening or refractory irAEs — not routine thyroid replacement scenarios.",
+      "keyPoints": [
+        "Grade 1–2 thyroid irAEs: continue ICIs in most cases.",
+        "Concurrent levothyroxine replacement is standard.",
+        "Do not reflexively stop immunotherapy for manageable hypothyroidism.",
+        "Reserve ICI hold for severe/life-threatening endocrine events."
+      ],
+      "reference": "I. Thyroid Dysfunction: \"Mild to moderate immune-related thyroid dysfunction (Grade 1 or 2) does not require the cessation of oncological therapy; checkpoint inhibitors can be continued concurrently with hormone replacement.\""
+    },
+    {
+      "id": "ht-021-n27",
+      "type": "note",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "title": "How often should TSH and free T4 be monitored during ICI therapy?",
+      "content": "Evidence-based protocols mandate thyroid surveillance every 4 to 6 weeks during active ICI treatment.\nThis interval captures the asymptomatic thyrotoxic phase of destructive thyroiditis before patients crash into hypothyroidism.\nSymptom-triggered testing alone misses subclinical transitions that affect both endocrine management and attribution of fatigue to cancer versus irAE.",
+      "keyPoints": [
+        "Monitor TSH and free T4 every 4–6 weeks on ICIs.",
+        "Detects asymptomatic thyrotoxicosis before hypothyroid transition.",
+        "Do not rely on symptoms alone.",
+        "Early detection allows timely beta-blocker or levothyroxine initiation."
+      ],
+      "reference": "I. Thyroid Dysfunction: \"Evidence-based protocols mandate monitoring Thyroid Stimulating Hormone (TSH) and Free T4 every 4 to 6 weeks during ICI therapy to identify asymptomatic dysfunction early.\""
+    },
+    {
+      "id": "ht-021-n28",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "Why is hypophysitis distinctively linked to CTLA-4 inhibitors?",
+      "content": "Autoimmune pituitary inflammation (hypophysitis) has a strong, distinct association with CTLA-4 inhibitors — particularly ipilimumab — with incidence far exceeding that seen with PD-1/PD-L1 monotherapy.\nOlder male patients appear disproportionately affected in many cohorts.\nWhen hypophysitis is suspected, identify whether CTLA-4 blockade (alone or in combination) is in the regimen, because this drives pre-test probability and urgency of pituitary-axis testing.",
+      "keyPoints": [
+        "Hypophysitis is strongly linked to CTLA-4 inhibitors (ipilimumab).",
+        "Much rarer with PD-1/PD-L1 monotherapy.",
+        "Older males overrepresented in many series.",
+        "Combination ipilimumab + anti–PD-1 raises overall endocrine risk."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"Autoimmune inflammation of the pituitary gland (hypophysitis) has a strong, distinct association with CTLA-4 inhibitors, particularly presenting in older male patients.\""
+    },
+    {
+      "id": "ht-021-n29",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "How does ICI hypophysitis typically present, and when do visual symptoms matter?",
+      "content": "Classic hypophysitis symptoms include severe headaches, profound fatigue, and — when pituitary edema compresses the optic chiasm — visual field defects, typically 6 to 12 weeks after CTLA-4–based treatment initiation.\nHowever, many ICI hypophysitis cases present without visual disturbances; headache, nausea, hyponatremia, and hypotension from adrenal insufficiency may dominate.\nMRI and urgent axis labs should not be withheld when visual fields are normal but the clinical timeline and agent profile fit hypophysitis.",
+      "keyPoints": [
+        "Classic triad: headache, fatigue, visual field loss from chiasmal compression.",
+        "Typical onset 6–12 weeks on CTLA-4 regimens.",
+        "Visual field defects occur but are not universal in ICI hypophysitis.",
+        "Normal fields do not exclude hypophysitis — pursue axis labs and MRI."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"Classic symptoms include severe headaches, profound fatigue, and visual field defects due to pituitary edema, typically occurring 6 to 12 weeks after treatment initiation.\""
+    },
+    {
+      "id": "ht-021-n30",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "Why is ACTH deficiency from ICI hypophysitis almost always permanent?",
+      "content": "Central adrenal insufficiency from ICI-induced hypophysitis is usually permanent — corticotroph destruction rarely reverses, unlike some other pituitary axes.\nUnrecognized ACTH deficiency is potentially fatal during intercurrent illness, surgery, or if levothyroxine is started before glucocorticoid coverage.\nAll affected patients require lifelong hydrocortisone with explicit stress-dosing and sick-day education.",
+      "keyPoints": [
+        "ACTH/cortisol deficiency from hypophysitis is usually permanent (86–100% in series).",
+        "Recovery of secondary AI is extremely rare.",
+        "Fatal if unrecognized — especially before thyroid replacement.",
+        "Lifelong hydrocortisone + stress-dose protocols mandatory."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"Central adrenal insufficiency resulting from ICI-induced hypophysitis is usually permanent and potentially fatal if unrecognized, requiring lifelong hydrocortisone stress-dosing protocols.\""
+    },
+    {
+      "id": "ht-021-n31",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "How reversible are the non-adrenal pituitary axes after ICI hypophysitis?",
+      "content": "While ACTH deficiency is usually permanent, central hypothyroidism and hypogonadism from hypophysitis may recover in a substantial minority — reported in up to 50–60% of patients over several months in some cohorts, though recovery rates vary (thyroid axis recovery ~24% in at least one strict irH series; gonadal ~58%).\nGuidelines recommend periodic re-evaluation of TSH/free T4 and gonadal axes every 3–6 months in year one to detect recovery and avoid unnecessary overtreatment.\nDo not assume all pituitary deficiencies share the same permanence as ACTH.",
+      "keyPoints": [
+        "ACTH axis: usually permanent.",
+        "TSH and gonadal axes: recovery possible in up to ~50–60% (cohort-dependent).",
+        "Re-evaluate every 3–6 months in year one.",
+        "Titrate or stop replacement if axes recover."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"While the ACTH axis rarely recovers, central hypothyroidism and hypogonadism caused by hypophysitis reverse in 50% to 60% of patients over several months.\""
+    },
+    {
+      "id": "ht-021-n32",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "Why are high-dose corticosteroids reserved for acute hypophysitis with mass effect?",
+      "content": "High-dose corticosteroids during acute ICI hypophysitis are indicated when the patient has severe mass-effect symptoms — particularly optic chiasm compression with visual field loss — not for every case of biochemically confirmed hypopituitarism.\nSteroids may reduce pituitary edema acutely but do not reliably restore permanent ACTH deficiency.\nLong-term management still requires physiologic hormone replacement regardless of initial steroid use.",
+      "keyPoints": [
+        "High-dose steroids for severe mass effect (e.g., chiasmal compression).",
+        "Not indicated for all biochemically confirmed hypopituitarism.",
+        "Steroids may shrink acute edema but rarely restore ACTH production.",
+        "Chronic physiologic replacement remains the mainstay."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"High-dose corticosteroids are indicated during the acute phase of hypophysitis only if the patient exhibits severe mass-effect symptoms, such as optic chiasm compression.\""
+    },
+    {
+      "id": "ht-021-n33",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "How is primary adrenal insufficiency (adrenalitis) distinguished from hypophysitis?",
+      "content": "Autoimmune adrenalitis is a rare but life-threatening ICI irAE affecting the adrenal gland directly.\nLaboratory signature: low morning cortisol with markedly elevated ACTH plus electrolyte derangements — hyponatremia and hyperkalemia — from mineralocorticoid deficiency.\nHypophysitis shows low cortisol with inappropriately low/normal ACTH and typically normal potassium; both require urgent glucocorticoid replacement but primary AI also needs fludrocortisone.",
+      "keyPoints": [
+        "Primary adrenalitis: low cortisol + high ACTH.",
+        "Electrolytes: hyponatremia + hyperkalemia suggest primary AI.",
+        "Hypophysitis: low cortisol + low/normal ACTH.",
+        "Primary AI requires fludrocortisone; secondary AI does not."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"Autoimmune adrenalitis is a rare but life-threatening irAE, differentiated from hypophysitis by low morning cortisol combined with markedly elevated ACTH and electrolyte derangements (hyponatremia, hyperkalemia).\""
+    },
+    {
+      "id": "ht-021-n34",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "Why must empiric IV hydrocortisone precede diagnostic confirmation in suspected adrenal crisis?",
+      "content": "Any oncology patient on immunotherapy presenting with refractory nausea, severe abdominal pain, and unexplained hypotension must receive immediate empiric intravenous hydrocortisone before waiting for confirmatory ACTH stimulation testing.\nDiagnostic delay during adrenal crisis increases mortality; blood should be drawn for cortisol and ACTH first, but treatment must not wait for results.\nThis applies equally to primary adrenalitis and secondary hypophysitis presentations.",
+      "keyPoints": [
+        "Refractory nausea + abdominal pain + hypotension → treat first, confirm second.",
+        "Draw cortisol/ACTH before dosing, but do not delay IV hydrocortisone.",
+        "Adrenal crisis mortality rises with treatment delay.",
+        "Applies to both primary and secondary adrenal insufficiency."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"Any oncology patient on immunotherapy presenting with refractory nausea, severe abdominal pain, and unexplained hypotension must receive immediate empiric intravenous hydrocortisone prior to diagnostic confirmation.\""
+    },
+    {
+      "id": "ht-021-n35",
+      "type": "note",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "title": "How does cranial radiotherapy cause delayed hypopituitarism?",
+      "content": "High-dose cranial radiotherapy carries a dose-dependent risk of hypopituitarism that may manifest years or even decades after treatment concludes.\nGrowth hormone and gonadotropin deficiencies often appear first; ACTH and TSH deficiency may follow progressively.\nSurvivors of childhood or adult brain/CNS tumors require long-term pituitary surveillance independent of current ICI exposure.",
+      "keyPoints": [
+        "Cranial RT → dose-dependent hypopituitarism risk.",
+        "Onset may be delayed years to decades post-treatment.",
+        "GH and gonadotropin deficiencies often precede corticotroph/thyrotroph failure.",
+        "Long-term surveillance required in RT survivors."
+      ],
+      "reference": "II. Pituitary & Adrenal Axes: \"High-dose cranial radiotherapy carries a dose-dependent risk of delayed hypopituitarism, which can manifest years or even decades after oncological treatment concludes.\""
+    },
+    {
+      "id": "ht-021-n36",
+      "type": "note",
+      "subtopic": "III. Pancreatic & Metabolic Disorders — Evidence-Based Management",
+      "title": "Why does ICI-induced diabetes resemble abrupt type 1 diabetes?",
+      "content": "PD-1 and PD-L1 inhibitors can trigger rapid-onset, insulin-dependent diabetes through autoimmune destruction of pancreatic beta cells.\nPresentation is often fulminant in previously nondiabetic patients, distinct from slow worsening of type 2 diabetes under cancer stress.\nAll ICI-treated patients with new polyuria, polydipsia, or unexplained hyperglycemia need urgent glucose and ketone assessment.",
+      "keyPoints": [
+        "PD-1/PD-L1 inhibitors can cause autoimmune beta-cell destruction.",
+        "Rapid insulin dependence in previously nondiabetic patients.",
+        "Distinct from steroid-exacerbated type 2 diabetes.",
+        "Urgent glucose + ketone testing for new symptoms."
+      ],
+      "reference": "III. Pancreatic & Metabolic Disorders: \"ICIs, specifically PD-1 and PD-L1 inhibitors, can trigger rapid-onset, insulin-dependent diabetes mellitus through autoimmune destruction of pancreatic beta cells.\""
+    },
+    {
+      "id": "ht-021-n37",
+      "type": "note",
+      "subtopic": "III. Pancreatic & Metabolic Disorders — Evidence-Based Management",
+      "title": "How often does ICI-induced diabetes present as DKA?",
+      "content": "Diabetic ketoacidosis is the initial presentation in a large majority of ICI-induced diabetes cases — approximately 68–76% in major cohorts and meta-analyses, consistent with the source figure of up to 70%.\nThis high DKA rate reflects absolute insulin deficiency developing acutely rather than gradually compensated hyperglycemia.\nOncology teams should maintain low threshold for ketone testing in symptomatic hyperglycemia on ICIs.",
+      "keyPoints": [
+        "~68–76% present with DKA initially (source cites up to 70%).",
+        "Reflects abrupt absolute insulin deficiency.",
+        "Often first manifestation — not preceded by long asymptomatic hyperglycemia.",
+        "Ketone testing mandatory for symptomatic ICI patients."
+      ],
+      "reference": "III. Pancreatic & Metabolic Disorders: \"Up to 70% of patients with ICI-induced diabetes present initially in Diabetic Ketoacidosis (DKA), requiring emergent inpatient management.\""
+    },
+    {
+      "id": "ht-021-n38",
+      "type": "note",
+      "subtopic": "III. Pancreatic & Metabolic Disorders — Evidence-Based Management",
+      "title": "What biochemical profile defines ICI-induced insulin-dependent diabetes?",
+      "content": "ICI-DM is characterized by severely low or undetectable C-peptide, confirming absolute beta-cell failure and insulin dependence.\nUnlike classic type 1 diabetes where anti-GAD and related autoantibodies are frequently positive, ICI-DM shows a mixed autoantibody profile — many patients are antibody-negative, but approximately half may have at least one positive pancreatic autoantibody in larger series.\nLow C-peptide is the most reliable marker of permanent insulin requirement.",
+      "keyPoints": [
+        "Hallmark: severely low/undetectable C-peptide.",
+        "Confirms absolute insulin deficiency.",
+        "Autoantibody positivity is variable (~50% in some cohorts).",
+        "Do not exclude ICI-DM because anti-GAD is negative."
+      ],
+      "reference": "III. Pancreatic & Metabolic Disorders: \"This distinct phenotype of diabetes is characterized by severely low or undetectable C-peptide levels, but typically lacks traditional autoantibodies (like anti-GAD) found in classic Type 1 diabetes.\""
+    },
+    {
+      "id": "ht-021-n39",
+      "type": "note",
+      "subtopic": "Skepticism — Needs Verification",
+      "title": "Why is the 'antibody-negative' ICI-DM phenotype overstated in the source?",
+      "content": "The original answer states ICI-DM typically lacks traditional autoantibodies such as anti-GAD.\nIndependent verification: a systematic review/meta-analysis found ketoacidosis in 76% of cases and that approximately half of patients had at least one positive pancreatic autoantibody at presentation; antibody-positive cases had faster onset and higher DKA rates.\nClinically, low C-peptide defines insulin dependence — not antibody status — and both antibody-positive and antibody-negative phenotypes occur.",
+      "keyPoints": [
+        "Source: 'typically lacks' anti-GAD and related antibodies.",
+        "Verified: ~50% may have ≥1 positive pancreatic autoantibody.",
+        "C-peptide, not antibody status, defines insulin dependence.",
+        "Test autoantibodies but do not require them for diagnosis."
+      ],
+      "reference": "III. Pancreatic & Metabolic Disorders: \"typically lacks traditional autoantibodies (like anti-GAD) found in classic Type 1 diabetes\" — cross-checked: Stamatouli et al. meta-analysis (Diabetic Medicine 2022) reports ~50% antibody-positive at presentation."
+    },
+    {
+      "id": "ht-021-n40",
+      "type": "note",
+      "subtopic": "III. Pancreatic & Metabolic Disorders — Evidence-Based Management",
+      "title": "Why is ICI-induced beta-cell destruction irreversible?",
+      "content": "Once ICI-mediated pancreatic islet destruction occurs, beta-cell function does not recover — immunosuppression has not been shown to reverse established ICI-DM.\nAll affected patients require lifelong basal-bolus insulin therapy with standard type 1 diabetes sick-day and DKA-prevention education.\nGlucocorticoids used for other irAEs may worsen glycemic control but do not restore endogenous insulin secretion.",
+      "keyPoints": [
+        "Beta-cell destruction is permanent.",
+        "Immunosuppression does not reverse established ICI-DM.",
+        "Lifelong basal-bolus insulin required.",
+        "Standard T1DM education applies (sick-day rules, DKA prevention)."
+      ],
+      "reference": "III. Pancreatic & Metabolic Disorders: \"ICI-induced beta-cell destruction is permanent; affected patients will require lifelong basal-bolus insulin therapy, and immunosuppression does not reverse the condition.\""
+    },
+    {
+      "id": "ht-021-n41",
+      "type": "note",
+      "subtopic": "III. Pancreatic & Metabolic Disorders — Evidence-Based Management",
+      "title": "How does glucocorticoid-induced hyperglycemia differ from ICI-DM?",
+      "content": "High-dose steroids for chemotherapy premedication or management of other irAEs frequently exacerbate pre-existing type 2 diabetes or induce secondary hyperglycemia.\nUnlike ICI-DM, steroid-induced hyperglycemia often improves as steroids are tapered, and C-peptide is preserved.\nAlways map the steroid timeline and C-peptide level before labeling every hyperglycemic ICI patient as permanent autoimmune diabetes.",
+      "keyPoints": [
+        "Steroids worsen T2DM or cause new hyperglycemia.",
+        "Often reverses with steroid taper.",
+        "C-peptide typically preserved — unlike ICI-DM.",
+        "Timeline and C-peptide distinguish mechanisms."
+      ],
+      "reference": "III. Pancreatic & Metabolic Disorders: \"High-dose steroids used for chemotherapy premedication or managing other irAEs frequently exacerbate pre-existing Type 2 diabetes or induce secondary diabetes, which may reverse upon steroid taper.\""
+    },
+    {
+      "id": "ht-021-n42",
+      "type": "note",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "title": "Why does ADT cause rapid bone loss in prostate cancer?",
+      "content": "Androgen deprivation therapy drastically accelerates bone resorption by removing androgen-mediated osteoblast support.\nOsteopenia and fragility fracture risk increase significantly within the first year of ADT — not only after years of treatment.\nBaseline DEXA and fracture risk assessment should occur at ADT initiation, not deferred until symptomatic fracture.",
+      "keyPoints": [
+        "ADT accelerates bone resorption rapidly.",
+        "Fragility fracture risk rises within the first year.",
+        "Baseline DEXA at ADT start is guideline-supported.",
+        "Distinguish treatment-related bone loss from metastatic bone disease."
+      ],
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Androgen Deprivation Therapy (ADT) for prostate cancer drastically accelerates bone resorption, causing osteopenia and significantly increasing fragility fracture risk within the first year of use.\""
+    },
+    {
+      "id": "ht-021-n43",
+      "type": "note",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "title": "How do aromatase inhibitors affect bone mineral density?",
+      "content": "Aromatase inhibitors for breast cancer induce profound estrogen depletion that accelerates bone mineral density loss at a rate exceeding physiological menopause.\nThis is an expected pharmacologic consequence, not a sign of occult metastatic bone disease.\nFracture prevention strategies should be discussed at treatment initiation for patients with elevated baseline fracture risk.",
+      "keyPoints": [
+        "AIs cause profound estrogen depletion.",
+        "BMD loss faster than natural menopause.",
+        "Expected pharmacologic effect of therapy.",
+        "Proactive bone protection in high-risk patients."
+      ],
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Aromatase inhibitors used in breast cancer induce profound estrogen depletion, accelerating bone mineral density loss at a rate higher than physiological menopause.\""
+    },
+    {
+      "id": "ht-021-n44",
+      "type": "note",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "title": "Why are anti-resorptive agents recommended during prolonged ADT or aromatase inhibitor therapy?",
+      "content": "Clinical guidelines strongly recommend prophylactic anti-resorptive therapy — bisphosphonates or denosumab — to prevent skeletal-related events in patients on prolonged ADT or aromatase inhibitors who have elevated fracture risk.\nThis is primary prevention of treatment-induced osteoporosis, distinct from treating established bone metastases.\nAgent selection balances renal function (bisphosphonates), rebound fracture risk on denosumab discontinuation, and calcium/vitamin D repletion requirements.",
+      "keyPoints": [
+        "Guidelines support bisphosphonates or denosumab for ADT/AI bone protection.",
+        "Primary prevention of treatment-induced osteoporosis.",
+        "Distinct from bone metastasis management.",
+        "Denosumab requires careful discontinuation planning."
+      ],
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Clinical guidelines strongly recommend anti-resorptive agents (bisphosphonates or denosumab) to prevent skeletal-related events in patients undergoing prolonged ADT or aromatase inhibitor therapy.\""
+    },
+    {
+      "id": "ht-021-n45",
+      "type": "note",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "title": "How is hypercalcemia of malignancy most often mediated?",
+      "content": "Hypercalcemia of malignancy (HCM) is a primary oncologic emergency most frequently driven by tumor secretion of parathyroid hormone-related protein (PTHrP) — humoral hypercalcemia of malignancy — rather than purely osteolytic metastases alone.\nSolid tumors such as squamous cell lung cancer, renal cell carcinoma, and breast cancer are classic PTHrP secretors.\nRecognizing HCM prevents misdiagnosis as primary hyperparathyroidism and directs oncology-directed treatment.",
+      "keyPoints": [
+        "HCM is an oncologic emergency.",
+        "PTHrP-mediated humoral mechanism is most common.",
+        "Osteolytic metastases are a separate but coexisting pathway.",
+        "Do not confuse with primary hyperparathyroidism."
+      ],
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"HCM is a primary oncologic emergency most frequently mediated by tumor secretion of Parathyroid Hormone-related Protein (PTHrP) rather than direct osteolytic metastases.\""
+    },
+    {
+      "id": "ht-021-n46",
+      "type": "note",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "title": "Why is suppressed PTH the diagnostic hallmark separating HCM from primary hyperparathyroidism?",
+      "content": "In hypercalcemia of malignancy, intact PTH is suppressed by negative feedback from high calcium — the parathyroid glands are appropriately quiescent.\nPrimary hyperparathyroidism shows inappropriately normal or elevated PTH despite hypercalcemia.\nMeasuring intact PTH is the single most important step when evaluating hypercalcemia in a cancer patient.",
+      "keyPoints": [
+        "HCM: high calcium + suppressed PTH.",
+        "Primary HPT: high calcium + normal/elevated PTH.",
+        "PTH is the key first-line discriminator.",
+        "Guides whether oncology vs parathyroid surgery workup is needed."
+      ],
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"The diagnostic hallmark separating Hypercalcemia of Malignancy from Primary Hyperparathyroidism is a suppressed intact Parathyroid Hormone (PTH) level.\""
+    },
+    {
+      "id": "ht-021-n47",
+      "type": "note",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "title": "Why must calcium and vitamin D be replete before denosumab or zoledronic acid?",
+      "content": "Denosumab and zoledronic acid used for bone metastases or osteoporosis prophylaxis can cause severe, life-threatening hypocalcemia — especially in patients with vitamin D deficiency or impaired renal calcium handling.\nGuidelines mandate baseline correction of calcium and vitamin D before administration and ongoing monitoring during therapy.\nSymptomatic hypocalcemia (tetany, QT prolongation, seizures) is preventable with proper pre-treatment repletion.",
+      "keyPoints": [
+        "Denosumab and zoledronic acid → hypocalcemia risk.",
+        "Correct calcium and vitamin D before first dose.",
+        "Monitor calcium during therapy.",
+        "Hypocalcemia can be severe and life-threatening if unprevented."
+      ],
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Denosumab and zoledronic acid, utilized for bone metastases, can cause severe, life-threatening hypocalcemia, mandating baseline correction of calcium and Vitamin D prior to administration.\""
+    },
+    {
+      "id": "ht-021-n48",
+      "type": "note",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "title": "How is radiation-induced hypoparathyroidism managed differently from simple calcium supplementation?",
+      "content": "Head, neck, or mediastinal radiotherapy can permanently destroy parathyroid tissue, causing PTH-deficient hypocalcemia that is often refractory to oral calcium alone.\nActivated vitamin D analogs (calcitriol) are required because absent PTH cannot convert 25-OH vitamin D to active 1,25-OH form at the kidney.\nMonitor calcium, phosphate, and renal function long-term; hypoparathyroidism may present years after radiation.",
+      "keyPoints": [
+        "Post-neck/mediastinal RT → permanent hypoparathyroidism possible.",
+        "Low PTH → refractory hypocalcemia.",
+        "Calcitriol (activated vitamin D) required — not calcium alone.",
+        "Delayed presentation years after RT is documented."
+      ],
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Localized radiotherapy to the head, neck, or mediastinum can cause permanent hypoparathyroidism, leading to refractory hypocalcemia requiring activated Vitamin D (calcitriol) analogs.\""
+    },
+    {
+      "id": "ht-021-n49",
+      "type": "note",
+      "subtopic": "V. Global Management & Efficacy",
+      "title": "Why does physiologic hormone replacement not reduce ICI anti-tumor efficacy?",
+      "content": "Treating immunotherapy-induced endocrinopathies with physiologic hormone replacement — levothyroxine, hydrocortisone, insulin — does not diminish the anti-tumor efficacy of checkpoint inhibitors.\nClinicians should replace deficient hormones promptly without fear that correction will blunt cancer response.\nThis principle supports continuing ICIs alongside replacement for grade 1–2 endocrine irAEs when clinically appropriate.",
+      "keyPoints": [
+        "Physiologic replacement does not reduce ICI efficacy.",
+        "Replace deficient hormones promptly.",
+        "Do not withhold levothyroxine/hydrocortisone/insulin out of efficacy concerns.",
+        "Supports continuing ICIs with concurrent replacement."
+      ],
+      "reference": "V. Global Management & Efficacy: \"Treating immunotherapy-induced endocrinopathies with physiologic hormone replacement does not diminish the anti-tumor efficacy of the checkpoint inhibitors.\""
+    },
+    {
+      "id": "ht-021-n50",
+      "type": "note",
+      "subtopic": "V. Global Management & Efficacy",
+      "title": "How is development of endocrine irAEs correlated with ICI outcomes?",
+      "content": "Emerging clinical evidence — including multiple meta-analyses — suggests that endocrine irAEs, particularly thyroid dysfunction, are associated with improved progression-free and overall survival across several malignancies.\nA large meta-analysis found thyroid irAE associated with OS HR ~0.52 and PFS HR ~0.58 versus no thyroid irAE.\nThis is interpreted as a marker of robust immune activation rather than a reason to withhold endocrine treatment; correlation does not prove causation and immortal time bias must be considered in observational data.",
+      "keyPoints": [
+        "Thyroid/endocrine irAEs correlate with better PFS/OS in multiple studies.",
+        "Meta-analysis: thyroid irAE OS HR ~0.52 (95% CI 0.43–0.62).",
+        "Likely reflects effective immune activation, not direct hormonal benefit.",
+        "Observational data — interpret with immortal time bias caution."
+      ],
+      "reference": "V. Global Management & Efficacy: \"Emerging clinical evidence suggests that the development of endocrine irAEs (particularly thyroiditis) is positively correlated with improved progression-free and overall survival in several malignancies.\""
+    },
+    {
+      "id": "ht-021-q11",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "question": "A 62-year-old on pembrolizumab for NSCLC develops asymptomatic low TSH with elevated free T4 at week 8. She has mild palpitations. Per ASCO/ESMO-aligned guidance, what is the best initial management?",
+      "options": [
+        "Prednisone 1 mg/kg daily",
+        "Propranolol for symptomatic relief; avoid high-dose corticosteroids; continue pembrolizumab",
+        "Permanent discontinuation of pembrolizumab",
+        "Immediate radioactive iodine ablation"
+      ],
+      "correctOption": 1,
+      "explanation": "Asymptomatic or mild ICI thyrotoxicosis during the destructive thyroiditis phase is managed with beta-blockers, not high-dose corticosteroids. ICIs can continue for grade 1–2 thyroid irAEs. Steroids do not prevent progression to hypothyroidism. RAI and permanent ICI stop are not indicated.",
+      "reference": "I. Thyroid Dysfunction: \"Guidelines advise against the use of high-dose corticosteroids for asymptomatic or mild ICI-induced thyrotoxicosis, favoring symptomatic management with beta-blockers instead.\""
+    },
+    {
+      "id": "ht-021-q12",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction — Evidence-Based Management",
+      "question": "A patient on nivolumab develops grade 2 hypothyroidism requiring levothyroxine. TSH is stabilizing on replacement. What is the recommended approach to immunotherapy?",
+      "options": [
+        "Continue nivolumab with levothyroxine replacement",
+        "Permanently discontinue all ICIs",
+        "Hold nivolumab until TSH normalizes off levothyroxine",
+        "Add high-dose prednisone to restore thyroid function"
+      ],
+      "correctOption": 0,
+      "explanation": "Grade 1–2 thyroid dysfunction does not require ICI cessation. Continue checkpoint inhibitors with concurrent levothyroxine. ICI hypothyroidism is usually permanent — waiting for normalization off replacement is inappropriate. Steroids do not restore destroyed thyroid tissue.",
+      "reference": "I. Thyroid Dysfunction: \"Mild to moderate immune-related thyroid dysfunction (Grade 1 or 2) does not require the cessation of oncological therapy; checkpoint inhibitors can be continued concurrently with hormone replacement.\""
+    },
+    {
+      "id": "ht-021-q13",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "question": "An ICI-treated patient has cortisol 1.5 µg/dL, ACTH 186 pg/mL (elevated), sodium 128 mEq/L, potassium 5.8 mEq/L. What is the diagnosis and required replacement beyond hydrocortisone?",
+      "options": [
+        "Secondary adrenal insufficiency; hydrocortisone alone",
+        "Primary adrenal insufficiency (adrenalitis); hydrocortisone plus fludrocortisone",
+        "SIADH; fluid restriction only",
+        "Factitious adrenal insufficiency; no treatment"
+      ],
+      "correctOption": 1,
+      "explanation": "Low cortisol with markedly elevated ACTH plus hyponatremia and hyperkalemia indicates primary adrenal insufficiency from adrenalitis. Mineralocorticoid deficiency requires fludrocortisone in addition to hydrocortisone. Secondary hypophysitis shows low/normal ACTH and typically normal potassium.",
+      "reference": "II. Pituitary & Adrenal Axes: \"differentiated from hypophysitis by low morning cortisol combined with markedly elevated ACTH and electrolyte derangements (hyponatremia, hyperkalemia).\""
+    },
+    {
+      "id": "ht-021-q14",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes — Evidence-Based Management",
+      "question": "A patient on ipilimumab presents with vomiting, abdominal pain, BP 78/50 mmHg. Blood is drawn for cortisol and ACTH. What must happen next within minutes?",
+      "options": [
+        "Wait for ACTH stimulation test results before any treatment",
+        "Immediate empiric IV hydrocortisone while awaiting labs",
+        "Start levothyroxine first to improve hemodynamics",
+        "Obtain pituitary MRI before any intervention"
+      ],
+      "correctOption": 1,
+      "explanation": "Suspected adrenal crisis in an ICI patient requires empiric IV hydrocortisone immediately — draw labs first but never delay treatment for confirmation. Levothyroxine before glucocorticoid coverage can be fatal. MRI is important but not before resuscitation.",
+      "reference": "II. Pituitary & Adrenal Axes: \"must receive immediate empiric intravenous hydrocortisone prior to diagnostic confirmation.\""
+    },
+    {
+      "id": "ht-021-q15",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders — Evidence-Based Management",
+      "question": "A previously nondiabetic patient on pembrolizumab presents with DKA. C-peptide is undetectable; anti-GAD is negative. What is the most accurate conclusion?",
+      "options": [
+        "This excludes ICI-induced diabetes because antibodies are negative",
+        "This confirms ICI-induced insulin-dependent diabetes; lifelong insulin is required regardless of antibody status",
+        "Oral metformin alone will suffice after DKA resolves",
+        "Immunosuppression will restore beta-cell function"
+      ],
+      "correctOption": 1,
+      "explanation": "ICI-DM is defined by absolute insulin deficiency (undetectable C-peptide), not by autoantibody positivity — approximately half of cases may have positive antibodies, half negative. Lifelong insulin is required; immunosuppression does not reverse beta-cell destruction. Metformin monotherapy is insufficient.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"severely low or undetectable C-peptide levels\" and \"ICI-induced beta-cell destruction is permanent.\""
+    },
+    {
+      "id": "ht-021-q16",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "question": "A patient with metastatic squamous lung cancer has calcium 13.2 mg/dL, PTH 8 pg/mL (suppressed), and no bisphosphonate yet. What is the most likely mechanism?",
+      "options": [
+        "Primary hyperparathyroidism",
+        "Hypercalcemia of malignancy with PTHrP secretion",
+        "Familial hypocalciuric hypercalcemia",
+        "Vitamin D intoxication with elevated PTH"
+      ],
+      "correctOption": 1,
+      "explanation": "Hypercalcemia with suppressed PTH in an active cancer patient is classic hypercalcemia of malignancy — most often PTHrP-mediated in squamous cell cancers. Primary HPT shows elevated or inappropriately normal PTH. FHH and vitamin D toxicity do not fit this suppressed-PTH oncology picture.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"HCM is a primary oncologic emergency most frequently mediated by tumor secretion of Parathyroid Hormone-related Protein (PTHrP)\" and \"suppressed intact Parathyroid Hormone (PTH) level.\""
+    },
+    {
+      "id": "ht-021-q17",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health — Evidence-Based Management",
+      "question": "A patient with bone metastases is about to receive denosumab. Calcium is 8.4 mg/dL and 25-OH vitamin D is 14 ng/mL. What is required before the first injection?",
+      "options": [
+        "Proceed immediately — denosumab corrects calcium automatically",
+        "Replete calcium and vitamin D to adequate levels before administration",
+        "Start calcitriol only after the first fracture occurs",
+        "Avoid all bone agents and use opioids instead"
+      ],
+      "correctOption": 1,
+      "explanation": "Denosumab and zoledronic acid can cause severe hypocalcemia, especially with pre-existing vitamin D deficiency. Guidelines mandate correcting calcium and vitamin D before administration. Denosumab does not auto-correct calcium; delaying repletion risks tetany and cardiac complications.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"mandating baseline correction of calcium and Vitamin D prior to administration.\""
+    },
+    {
+      "id": "ht-021-q18",
+      "type": "mcq",
+      "subtopic": "V. Global Management & Efficacy",
+      "question": "A patient on nivolumab develops hypothyroidism and is started on levothyroxine. The oncology team worries that hormone replacement will reduce immunotherapy benefit. What does current evidence support?",
+      "options": [
+        "Withhold levothyroxine to preserve anti-tumor efficacy",
+        "Physiologic hormone replacement does not diminish ICI anti-tumor efficacy — treat the endocrinopathy",
+        "Stop nivolumab permanently once any irAE occurs",
+        "Use supraphysiologic levothyroxine to boost immunity"
+      ],
+      "correctOption": 1,
+      "explanation": "Physiologic hormone replacement for ICI endocrinopathies does not reduce checkpoint inhibitor efficacy. Prompt treatment is safe and recommended. Withholding replacement harms the patient without oncologic benefit. Supraphysiologic dosing is not indicated.",
+      "reference": "V. Global Management & Efficacy: \"Treating immunotherapy-induced endocrinopathies with physiologic hormone replacement does not diminish the anti-tumor efficacy of the checkpoint inhibitors.\""
+    },
+    {
+      "id": "ht-021-q19",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "What is the classic clinical progression of ICI-induced biphasic thyroiditis?",
+      "options": [
+        "Permanent thyrotoxicosis requiring ablation",
+        "Gradual onset of primary hypothyroidism over years",
+        "Transient thyrotoxicosis followed by rapid-onset, permanent hypothyroidism",
+        "Transient hypothyroidism followed by spontaneous recovery"
+      ],
+      "correctOption": 2,
+      "explanation": "Immune checkpoint inhibitors frequently induce a destructive, biphasic thyroiditis characterized by transient thyrotoxicosis followed by rapid-onset, permanent hypothyroidism.",
+      "reference": "I. Thyroid Dysfunction: \"Immune checkpoint inhibitors (ICIs) frequently induce a destructive, biphasic thyroiditis characterized by transient thyrotoxicosis followed by rapid-onset, permanent hypothyroidism.\""
+    },
+    {
+      "id": "ht-021-q20",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "What is the underlying mechanism of the transient thyrotoxicosis seen in ICI therapy?",
+      "options": [
+        "Increased TSH receptor stimulation",
+        "Destructive thyroiditis releasing preformed hormone",
+        "Increased iodine uptake by the gland",
+        "Autonomous nodule hyperfunction"
+      ],
+      "correctOption": 1,
+      "explanation": "The condition is a destructive thyroiditis — transient thyrotoxicosis is caused by release of preformed hormones from gland destruction, not hyperfunction.",
+      "reference": "I. Thyroid Dysfunction: \"destructive biphasic thyroiditis characterized by transient thyrotoxicosis\""
+    },
+    {
+      "id": "ht-021-q21",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "Which class of immune checkpoint inhibitors carries a significantly higher risk of inducing thyroid dysfunction?",
+      "options": [
+        "CTLA-4 inhibitors (e.g., ipilimumab)",
+        "PD-1 and PD-L1 inhibitors (e.g., pembrolizumab, nivolumab)",
+        "VEGF inhibitors (e.g., bevacizumab)",
+        "EGFR inhibitors (e.g., cetuximab)"
+      ],
+      "correctOption": 1,
+      "explanation": "Thyroid dysfunction is significantly more common with PD-1 and PD-L1 inhibitors compared to CTLA-4 inhibitors.",
+      "reference": "I. Thyroid Dysfunction: \"Thyroid dysfunction is significantly more common with PD-1 and PD-L1 inhibitors (e.g., pembrolizumab, nivolumab) compared to CTLA-4 inhibitors (e.g., ipilimumab).\""
+    },
+    {
+      "id": "ht-021-q22",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "When comparing immune-related adverse events (irAEs), how does the thyroid risk of ipilimumab compare to nivolumab?",
+      "options": [
+        "Ipilimumab has a higher risk of thyroid dysfunction.",
+        "Ipilimumab has a lower risk of thyroid dysfunction.",
+        "Both have an equal risk of thyroid dysfunction.",
+        "Neither drug affects the thyroid."
+      ],
+      "correctOption": 1,
+      "explanation": "Ipilimumab is a CTLA-4 inhibitor with lower thyroid dysfunction risk compared to the PD-1 inhibitor nivolumab.",
+      "reference": "I. Thyroid Dysfunction: \"Thyroid dysfunction is significantly more common with PD-1 and PD-L1 inhibitors compared to CTLA-4 inhibitors.\""
+    },
+    {
+      "id": "ht-021-q23",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "How do Tyrosine Kinase Inhibitors (TKIs) like sunitinib cause hypothyroidism?",
+      "options": [
+        "Through autoimmune lymphocytic infiltration",
+        "By direct suppression of pituitary TSH",
+        "Through ischemic destruction of the gland and altered hormone metabolism",
+        "By blocking iodine absorption in the gut"
+      ],
+      "correctOption": 2,
+      "explanation": "TKIs cause hypothyroidism through ischemic destruction of the thyroid gland and altered metabolism of thyroid hormones.",
+      "reference": "I. Thyroid Dysfunction: \"Tyrosine Kinase Inhibitors (TKIs) like sunitinib and lenvatinib cause hypothyroidism through ischemic destruction of the thyroid gland and altered metabolism of thyroid hormones.\""
+    },
+    {
+      "id": "ht-021-q24",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "Which of the following oncology drugs are most classically associated with TKI-induced hypothyroidism?",
+      "options": [
+        "Pembrolizumab and nivolumab",
+        "Ipilimumab and tremelimumab",
+        "Sunitinib and lenvatinib",
+        "Cisplatin and carboplatin"
+      ],
+      "correctOption": 2,
+      "explanation": "Sunitinib and lenvatinib are specifically identified as TKIs that cause hypothyroidism.",
+      "reference": "I. Thyroid Dysfunction: \"Tyrosine Kinase Inhibitors (TKIs) like sunitinib and lenvatinib cause hypothyroidism\""
+    },
+    {
+      "id": "ht-021-q25",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "Regarding the reversibility of ICI-induced hypothyroidism, which statement is true?",
+      "options": [
+        "It reverses in 50% of patients upon stopping therapy.",
+        "It is highly responsive to high-dose corticosteroids.",
+        "It is almost exclusively permanent.",
+        "It usually transitions back to euthyroidism after 6 months."
+      ],
+      "correctOption": 2,
+      "explanation": "Unlike many other irAEs, ICI-induced hypothyroidism is almost exclusively permanent.",
+      "reference": "I. Thyroid Dysfunction: \"Unlike many other immune-related adverse events (irAEs), ICI-induced hypothyroidism is almost exclusively permanent and requires lifelong levothyroxine replacement.\""
+    },
+    {
+      "id": "ht-021-q26",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "What is the required long-term management for a patient who develops ICI-induced hypothyroidism?",
+      "options": [
+        "Six months of methimazole",
+        "Lifelong levothyroxine replacement",
+        "Intermittent courses of oral prednisone",
+        "Annual radioactive iodine therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Because the condition is permanent, affected patients require lifelong levothyroxine replacement.",
+      "reference": "I. Thyroid Dysfunction: \"requires lifelong levothyroxine replacement.\""
+    },
+    {
+      "id": "ht-021-q27",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "A patient on pembrolizumab develops asymptomatic, mild ICI-induced thyrotoxicosis. What is the recommended management according to guidelines?",
+      "options": [
+        "Initiate high-dose corticosteroids immediately",
+        "Discontinue the ICI permanently",
+        "Avoid corticosteroids and manage symptomatically if needed",
+        "Start methimazole"
+      ],
+      "correctOption": 2,
+      "explanation": "Guidelines advise against high-dose corticosteroids for asymptomatic or mild ICI-induced thyrotoxicosis.",
+      "reference": "I. Thyroid Dysfunction: \"Guidelines advise against the use of high-dose corticosteroids for asymptomatic or mild ICI-induced thyrotoxicosis, favoring symptomatic management with beta-blockers instead.\""
+    },
+    {
+      "id": "ht-021-q28",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "If a patient experiences symptoms from mild ICI-induced thyrotoxicosis (such as palpitations), what is the preferred pharmacological intervention?",
+      "options": [
+        "High-dose dexamethasone",
+        "Propylthiouracil (PTU)",
+        "Beta-blockers",
+        "Radioactive iodine"
+      ],
+      "correctOption": 2,
+      "explanation": "Symptomatic management with beta-blockers is favored over corticosteroids for mild thyrotoxicosis.",
+      "reference": "I. Thyroid Dysfunction: \"favoring symptomatic management with beta-blockers instead.\""
+    },
+    {
+      "id": "ht-021-q29",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "Does a patient with Grade 2 immune-related thyroid dysfunction need to permanently stop their checkpoint inhibitor?",
+      "options": [
+        "Yes, to prevent life-threatening thyroid storm",
+        "Yes, until the thyroid completely recovers",
+        "No, checkpoint inhibitors can be continued concurrently with hormone replacement",
+        "No, but the dose of the ICI must be reduced by 50%"
+      ],
+      "correctOption": 2,
+      "explanation": "Mild to moderate immune-related thyroid dysfunction (Grade 1 or 2) does not require cessation of oncological therapy.",
+      "reference": "I. Thyroid Dysfunction: \"Mild to moderate immune-related thyroid dysfunction (Grade 1 or 2) does not require the cessation of oncological therapy; checkpoint inhibitors can be continued concurrently with hormone replacement.\""
+    },
+    {
+      "id": "ht-021-q30",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "A patient develops Grade 1 hypothyroidism on nivolumab. What is the next best step in oncology management?",
+      "options": [
+        "Withhold nivolumab, start levothyroxine",
+        "Continue nivolumab, start levothyroxine",
+        "Switch to a CTLA-4 inhibitor, monitor TSH",
+        "Add a high-dose steroid, continue nivolumab"
+      ],
+      "correctOption": 1,
+      "explanation": "The checkpoint inhibitor can be continued concurrently with levothyroxine replacement.",
+      "reference": "I. Thyroid Dysfunction: \"checkpoint inhibitors can be continued concurrently with hormone replacement.\""
+    },
+    {
+      "id": "ht-021-q31",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "How frequently do evidence-based protocols mandate monitoring TSH and Free T4 during active ICI therapy?",
+      "options": [
+        "Every 1 to 2 weeks",
+        "Every 4 to 6 weeks",
+        "Every 3 to 4 months",
+        "Annually"
+      ],
+      "correctOption": 1,
+      "explanation": "Protocols mandate monitoring TSH and Free T4 every 4 to 6 weeks during ICI therapy.",
+      "reference": "I. Thyroid Dysfunction: \"Evidence-based protocols mandate monitoring Thyroid Stimulating Hormone (TSH) and Free T4 every 4 to 6 weeks during ICI therapy to identify asymptomatic dysfunction early.\""
+    },
+    {
+      "id": "ht-021-q32",
+      "type": "mcq",
+      "subtopic": "I. Thyroid Dysfunction",
+      "question": "What is the primary clinical rationale for routine 4-to-6-week thyroid laboratory monitoring during ICI therapy?",
+      "options": [
+        "To identify asymptomatic dysfunction early",
+        "To decide when to initiate immunosuppression",
+        "To monitor for primary hyperparathyroidism",
+        "To adjust the dose of the oncology drug"
+      ],
+      "correctOption": 0,
+      "explanation": "The goal of routine monitoring every 4 to 6 weeks is to identify asymptomatic dysfunction early.",
+      "reference": "I. Thyroid Dysfunction: \"every 4 to 6 weeks during ICI therapy to identify asymptomatic dysfunction early.\""
+    },
+    {
+      "id": "ht-021-q33",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "Which specific class of immunotherapies has a strong, distinct association with autoimmune hypophysitis?",
+      "options": [
+        "PD-1 inhibitors",
+        "TKIs",
+        "CTLA-4 inhibitors",
+        "Aromatase inhibitors"
+      ],
+      "correctOption": 2,
+      "explanation": "Autoimmune inflammation of the pituitary gland (hypophysitis) has a strong, distinct association with CTLA-4 inhibitors.",
+      "reference": "II. Pituitary & Adrenal Axes: \"Autoimmune inflammation of the pituitary gland (hypophysitis) has a strong, distinct association with CTLA-4 inhibitors, particularly presenting in older male patients.\""
+    },
+    {
+      "id": "ht-021-q34",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "Which patient demographic most classically presents with CTLA-4 inhibitor-induced hypophysitis?",
+      "options": [
+        "Young female patients",
+        "Older male patients",
+        "Pediatric patients",
+        "Pregnant patients"
+      ],
+      "correctOption": 1,
+      "explanation": "Hypophysitis particularly presents in older male patients on CTLA-4 inhibitors.",
+      "reference": "II. Pituitary & Adrenal Axes: \"particularly presenting in older male patients.\""
+    },
+    {
+      "id": "ht-021-q35",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "A patient presents 8 weeks after starting ipilimumab with severe headaches, profound fatigue, and visual field defects. What is the most likely cause of the visual deficits?",
+      "options": [
+        "Retinal detachment",
+        "Pituitary edema causing mass effect on the optic chiasm",
+        "Stroke",
+        "Brain metastases"
+      ],
+      "correctOption": 1,
+      "explanation": "Classic symptoms include severe headaches and visual field defects due to pituitary edema (hypophysitis). Note: visual field changes are less common in ICI hypophysitis than in other sellar mass lesions but occur with chiasmal compression.",
+      "reference": "II. Pituitary & Adrenal Axes: \"Classic symptoms include severe headaches, profound fatigue, and visual field defects due to pituitary edema, typically occurring 6 to 12 weeks after treatment initiation.\""
+    },
+    {
+      "id": "ht-021-q36",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "What is the typical timeframe for the onset of hypophysitis after initiating ICI treatment?",
+      "options": [
+        "1 to 3 days",
+        "1 to 2 weeks",
+        "6 to 12 weeks",
+        "12 to 24 months"
+      ],
+      "correctOption": 2,
+      "explanation": "Hypophysitis typically occurs 6 to 12 weeks after treatment initiation (especially with CTLA-4 inhibitors).",
+      "reference": "II. Pituitary & Adrenal Axes: \"typically occurring 6 to 12 weeks after treatment initiation.\""
+    },
+    {
+      "id": "ht-021-q37",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "What is the expected long-term outcome for central adrenal insufficiency caused by ICI-induced hypophysitis?",
+      "options": [
+        "Complete recovery within 3 months",
+        "Reversal in 50% to 60% of cases",
+        "It is usually permanent",
+        "Reversal after a short course of high-dose steroids"
+      ],
+      "correctOption": 2,
+      "explanation": "Central adrenal insufficiency resulting from ICI-induced hypophysitis is usually permanent.",
+      "reference": "II. Pituitary & Adrenal Axes: \"Central adrenal insufficiency resulting from ICI-induced hypophysitis is usually permanent and potentially fatal if unrecognized, requiring lifelong hydrocortisone stress-dosing protocols.\""
+    },
+    {
+      "id": "ht-021-q38",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "What is a mandatory, lifelong requirement for a patient with permanent ACTH deficiency from hypophysitis?",
+      "options": [
+        "Lifelong levothyroxine",
+        "Lifelong testosterone",
+        "Lifelong hydrocortisone stress-dosing protocols",
+        "Lifelong high-dose dexamethasone"
+      ],
+      "correctOption": 2,
+      "explanation": "The condition requires lifelong hydrocortisone stress-dosing protocols, as it is potentially fatal if unrecognized.",
+      "reference": "II. Pituitary & Adrenal Axes: \"requiring lifelong hydrocortisone stress-dosing protocols.\""
+    },
+    {
+      "id": "ht-021-q39",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "While the ACTH axis rarely recovers after hypophysitis, what is the recovery rate for central hypothyroidism and hypogonadism?",
+      "options": [
+        "0%",
+        "10% to 20%",
+        "50% to 60% over several months",
+        "100% within two weeks"
+      ],
+      "correctOption": 2,
+      "explanation": "Central hypothyroidism and hypogonadism caused by hypophysitis reverse in 50% to 60% of patients over several months (cohort-dependent).",
+      "reference": "II. Pituitary & Adrenal Axes: \"While the ACTH axis rarely recovers, central hypothyroidism and hypogonadism caused by hypophysitis reverse in 50% to 60% of patients over several months.\""
+    },
+    {
+      "id": "ht-021-q40",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "Based on recovery rates post-hypophysitis, which pituitary axis is the least likely to regain normal function?",
+      "options": [
+        "TSH axis",
+        "Gonadotropin axis",
+        "ACTH axis",
+        "Prolactin axis"
+      ],
+      "correctOption": 2,
+      "explanation": "The ACTH axis rarely recovers, while TSH and gonadal axes may reverse in 50–60% of patients.",
+      "reference": "II. Pituitary & Adrenal Axes: \"While the ACTH axis rarely recovers, central hypothyroidism and hypogonadism caused by hypophysitis reverse in 50% to 60% of patients over several months.\""
+    },
+    {
+      "id": "ht-021-q41",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "Under what specific circumstance are high-dose corticosteroids indicated during the acute phase of hypophysitis?",
+      "options": [
+        "Whenever a low morning cortisol is detected",
+        "As a prophylactic measure in all patients starting CTLA-4 inhibitors",
+        "Only if the patient exhibits severe mass-effect symptoms, such as optic chiasm compression",
+        "Whenever central hypothyroidism is confirmed"
+      ],
+      "correctOption": 2,
+      "explanation": "High-dose steroids are indicated only if the patient exhibits severe mass-effect symptoms such as optic chiasm compression.",
+      "reference": "II. Pituitary & Adrenal Axes: \"High-dose corticosteroids are indicated during the acute phase of hypophysitis only if the patient exhibits severe mass-effect symptoms, such as optic chiasm compression.\""
+    },
+    {
+      "id": "ht-021-q42",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "If an older male on ipilimumab develops fatigue and is diagnosed with hypophysitis via low cortisol/ACTH, but an MRI shows minimal pituitary enlargement and no optic compression, should he receive high-dose steroids?",
+      "options": [
+        "Yes, to reverse the ACTH deficiency",
+        "Yes, to prevent spread to the thyroid",
+        "No, high-dose steroids are reserved for severe mass-effect symptoms",
+        "No, he only needs levothyroxine"
+      ],
+      "correctOption": 2,
+      "explanation": "Without severe mass-effect symptoms (like optic chiasm compression), high-dose corticosteroids are not indicated for hypophysitis. He needs glucocorticoid replacement for ACTH deficiency regardless.",
+      "reference": "II. Pituitary & Adrenal Axes: \"High-dose corticosteroids are indicated during the acute phase of hypophysitis only if the patient exhibits severe mass-effect symptoms, such as optic chiasm compression.\""
+    },
+    {
+      "id": "ht-021-q43",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "A patient on immunotherapy presents with primary adrenal insufficiency (adrenalitis). Which laboratory profile best differentiates this from hypophysitis?",
+      "options": [
+        "Low cortisol, low ACTH, normal electrolytes",
+        "Low cortisol, markedly elevated ACTH, hyponatremia, and hyperkalemia",
+        "High cortisol, high ACTH, hypernatremia",
+        "Normal cortisol, high ACTH, hypokalemia"
+      ],
+      "correctOption": 1,
+      "explanation": "Autoimmune adrenalitis is differentiated by low morning cortisol combined with markedly elevated ACTH and electrolyte derangements (hyponatremia, hyperkalemia).",
+      "reference": "II. Pituitary & Adrenal Axes: \"differentiated from hypophysitis by low morning cortisol combined with markedly elevated ACTH and electrolyte derangements (hyponatremia, hyperkalemia).\""
+    },
+    {
+      "id": "ht-021-q44",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "How common is autoimmune adrenalitis compared to other immune-related adverse events, and what is its severity?",
+      "options": [
+        "Very common, mild severity",
+        "Rare, mild severity",
+        "Very common, life-threatening",
+        "Rare but life-threatening"
+      ],
+      "correctOption": 3,
+      "explanation": "Autoimmune adrenalitis is explicitly described as a rare but life-threatening irAE.",
+      "reference": "II. Pituitary & Adrenal Axes: \"Autoimmune adrenalitis is a rare but life-threatening irAE\""
+    },
+    {
+      "id": "ht-021-q45",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "An oncology patient on immunotherapy presents to the ER with refractory nausea, severe abdominal pain, and unexplained hypotension. What is the most critical immediate intervention?",
+      "options": [
+        "Wait for morning cortisol and ACTH results",
+        "Administer immediate empiric intravenous hydrocortisone",
+        "Start high-dose levothyroxine",
+        "Administer broad-spectrum antibiotics and observe"
+      ],
+      "correctOption": 1,
+      "explanation": "Any oncology patient on immunotherapy with these symptoms must receive immediate empiric IV hydrocortisone prior to diagnostic confirmation.",
+      "reference": "II. Pituitary & Adrenal Axes: \"must receive immediate empiric intravenous hydrocortisone prior to diagnostic confirmation.\""
+    },
+    {
+      "id": "ht-021-q46",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "Why should empiric IV hydrocortisone be given prior to diagnostic confirmation in a patient with suspected adrenal crisis?",
+      "options": [
+        "Cortisol assays are notoriously inaccurate in oncology patients.",
+        "To prevent the development of hypophysitis.",
+        "Adrenal crisis is an immediate, life-threatening emergency.",
+        "Hydrocortisone will cure the underlying cancer."
+      ],
+      "correctOption": 2,
+      "explanation": "Empiric hydrocortisone must be given prior to diagnostic confirmation because refractory nausea, severe pain, and hypotension indicate a life-threatening adrenal crisis.",
+      "reference": "II. Pituitary & Adrenal Axes: \"must receive immediate empiric intravenous hydrocortisone prior to diagnostic confirmation.\""
+    },
+    {
+      "id": "ht-021-q47",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "A patient is diagnosed with both central hypothyroidism and secondary adrenal insufficiency. According to the \"Glucocorticoid-First Rule,\" which medication must be initiated first?",
+      "options": [
+        "Levothyroxine",
+        "Glucocorticoids",
+        "Both simultaneously",
+        "Beta-blockers"
+      ],
+      "correctOption": 1,
+      "explanation": "Glucocorticoids must be initiated prior to levothyroxine.",
+      "reference": "II. Pituitary & Adrenal Axes: \"Glucocorticoids must be initiated prior to levothyroxine to prevent precipitating a fatal adrenal crisis.\""
+    },
+    {
+      "id": "ht-021-q48",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "What is the dangerous physiological consequence of ignoring the \"Glucocorticoid-First Rule\" in a patient with combined pituitary deficiencies?",
+      "options": [
+        "It can precipitate a fatal adrenal crisis",
+        "It will cause permanent optic nerve damage",
+        "It will induce thyroid storm",
+        "It will permanently suppress the gonadal axis"
+      ],
+      "correctOption": 0,
+      "explanation": "Initiating levothyroxine before glucocorticoids in a patient with adrenal insufficiency can precipitate a fatal adrenal crisis.",
+      "reference": "II. Pituitary & Adrenal Axes: \"Initiating thyroid hormone replacement in a patient with untreated adrenal insufficiency can precipitate a fatal adrenal crisis.\""
+    },
+    {
+      "id": "ht-021-q49",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "A patient received high-dose cranial radiotherapy for a brain tumor at age 10. At age 30, they develop hypopituitarism. Is this timeline consistent with radiation-induced damage?",
+      "options": [
+        "No, radiation damage only occurs within 6 months.",
+        "No, radiation does not cause hypopituitarism.",
+        "Yes, radiation carries a risk of delayed hypopituitarism manifesting years or decades later.",
+        "Yes, but only if they also received immunotherapy."
+      ],
+      "correctOption": 2,
+      "explanation": "High-dose cranial radiotherapy carries a dose-dependent risk of delayed hypopituitarism manifesting years or even decades after treatment.",
+      "reference": "II. Pituitary & Adrenal Axes: \"High-dose cranial radiotherapy carries a dose-dependent risk of delayed hypopituitarism, which can manifest years or even decades after oncological treatment concludes.\""
+    },
+    {
+      "id": "ht-021-q50",
+      "type": "mcq",
+      "subtopic": "II. Pituitary & Adrenal Axes",
+      "question": "What is the primary risk factor for developing delayed hypopituitarism years after oncological treatment concludes?",
+      "options": [
+        "Previous use of PD-1 inhibitors",
+        "High-dose cranial radiotherapy",
+        "Prolonged use of aromatase inhibitors",
+        "Treatment with TKIs"
+      ],
+      "correctOption": 1,
+      "explanation": "High-dose cranial radiotherapy carries a dose-dependent risk of delayed hypopituitarism.",
+      "reference": "II. Pituitary & Adrenal Axes: \"High-dose cranial radiotherapy carries a dose-dependent risk of delayed hypopituitarism, which can manifest years or even decades after oncological treatment concludes.\""
+    },
+    {
+      "id": "ht-021-q51",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "Which specific oncology medications are known to trigger rapid-onset, insulin-dependent De Novo Type 1 Diabetes?",
+      "options": [
+        "CTLA-4 inhibitors",
+        "PD-1 and PD-L1 inhibitors",
+        "Aromatase inhibitors",
+        "Androgen Deprivation Therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "ICIs, specifically PD-1 and PD-L1 inhibitors, can trigger rapid-onset, insulin-dependent diabetes mellitus.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"ICIs, specifically PD-1 and PD-L1 inhibitors, can trigger rapid-onset, insulin-dependent diabetes mellitus through autoimmune destruction of pancreatic beta cells.\""
+    },
+    {
+      "id": "ht-021-q52",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "What is the pathophysiology behind ICI-induced De Novo Type 1 Diabetes?",
+      "options": [
+        "Severe insulin resistance in peripheral tissues",
+        "Glucocorticoid-induced gluconeogenesis",
+        "Autoimmune destruction of pancreatic beta cells",
+        "Ischemic necrosis of the exocrine pancreas"
+      ],
+      "correctOption": 2,
+      "explanation": "It is triggered through autoimmune destruction of pancreatic beta cells.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"autoimmune destruction of pancreatic beta cells.\""
+    },
+    {
+      "id": "ht-021-q53",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "What is the initial clinical presentation in up to 70% of patients who develop ICI-induced diabetes?",
+      "options": [
+        "Asymptomatic hyperglycemia found on routine labs",
+        "Hypoglycemic unawareness",
+        "Diabetic Ketoacidosis (DKA)",
+        "Hyperosmolar Hyperglycemic State (HHS)"
+      ],
+      "correctOption": 2,
+      "explanation": "Up to 70% of patients with ICI-induced diabetes present initially in Diabetic Ketoacidosis (DKA).",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"Up to 70% of patients with ICI-induced diabetes present initially in Diabetic Ketoacidosis (DKA), requiring emergent inpatient management.\""
+    },
+    {
+      "id": "ht-021-q54",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "A patient on nivolumab presents with abdominal pain, Kussmaul respirations, and a blood glucose of 450 mg/dL. Based on typical presentations of ICI diabetes, what level of care is required?",
+      "options": [
+        "Outpatient initiation of metformin",
+        "Outpatient initiation of basal insulin",
+        "Emergent inpatient management",
+        "Observation with repeat labs in one week"
+      ],
+      "correctOption": 2,
+      "explanation": "Because they present in DKA, these patients require emergent inpatient management.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"requiring emergent inpatient management.\""
+    },
+    {
+      "id": "ht-021-q55",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "When assessing the biochemical profile of a patient with ICI-induced diabetes, what finding is expected regarding C-peptide levels?",
+      "options": [
+        "Markedly elevated",
+        "Normal",
+        "Severely low or undetectable",
+        "Mildly elevated"
+      ],
+      "correctOption": 2,
+      "explanation": "This distinct phenotype of diabetes is characterized by severely low or undetectable C-peptide levels.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"This distinct phenotype of diabetes is characterized by severely low or undetectable C-peptide levels\""
+    },
+    {
+      "id": "ht-021-q56",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "How does the autoantibody profile of ICI-induced diabetes typically differ from classic Type 1 diabetes?",
+      "options": [
+        "It has exceptionally high titers of anti-GAD antibodies.",
+        "It typically lacks traditional autoantibodies (like anti-GAD).",
+        "It relies on the presence of anti-TPO antibodies.",
+        "It requires positive ANA titers for diagnosis."
+      ],
+      "correctOption": 1,
+      "explanation": "Per the source, ICI diabetes typically lacks traditional autoantibodies (like anti-GAD) found in classic Type 1 diabetes. Note: ~50% may have ≥1 positive pancreatic autoantibody in larger cohorts — C-peptide defines insulin dependence.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"but typically lacks traditional autoantibodies (like anti-GAD) found in classic Type 1 diabetes.\""
+    },
+    {
+      "id": "ht-021-q57",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "Can the pancreatic beta-cell damage caused by ICI therapy be reversed with high-dose immunosuppression?",
+      "options": [
+        "Yes, if caught within the first 48 hours.",
+        "Yes, it reverses in 50% of cases.",
+        "No, immunosuppression does not reverse the condition.",
+        "No, but it will reverse spontaneously after stopping the ICI."
+      ],
+      "correctOption": 2,
+      "explanation": "ICI-induced beta-cell destruction is permanent; immunosuppression does not reverse the condition.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"immunosuppression does not reverse the condition.\""
+    },
+    {
+      "id": "ht-021-q58",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "What is the mandatory long-term management strategy for a patient who has developed ICI-induced diabetes?",
+      "options": [
+        "Maximum dose metformin and a GLP-1 agonist",
+        "Sliding scale insulin only",
+        "Lifelong basal-bolus insulin therapy",
+        "Oral sulfonylureas"
+      ],
+      "correctOption": 2,
+      "explanation": "Affected patients will require lifelong basal-bolus insulin therapy due to permanent beta-cell destruction.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"affected patients will require lifelong basal-bolus insulin therapy\""
+    },
+    {
+      "id": "ht-021-q59",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "An oncology patient with well-controlled Type 2 diabetes requires high-dose steroids for chemotherapy premedication. What endocrine complication is most likely?",
+      "options": [
+        "Development of De Novo Type 1 Diabetes",
+        "Exacerbation of their pre-existing Type 2 diabetes",
+        "Spontaneous remission of their diabetes",
+        "Autoimmune destruction of their remaining beta cells"
+      ],
+      "correctOption": 1,
+      "explanation": "High-dose steroids used for chemotherapy premedication frequently exacerbate pre-existing Type 2 diabetes.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"High-dose steroids used for chemotherapy premedication or managing other irAEs frequently exacerbate pre-existing Type 2 diabetes\""
+    },
+    {
+      "id": "ht-021-q60",
+      "type": "mcq",
+      "subtopic": "III. Pancreatic & Metabolic Disorders",
+      "question": "A patient develops secondary diabetes due to high-dose glucocorticoids used to treat an irAE. What is the expected trajectory of this diabetes once the steroids are discontinued?",
+      "options": [
+        "It will become permanent, requiring lifelong insulin.",
+        "It will transition into autoimmune Type 1 diabetes.",
+        "It may reverse upon steroid taper.",
+        "It will cause permanent DKA."
+      ],
+      "correctOption": 2,
+      "explanation": "Glucocorticoid-induced secondary diabetes may reverse upon steroid taper.",
+      "reference": "III. Pancreatic & Metabolic Disorders: \"which may reverse upon steroid taper.\""
+    },
+    {
+      "id": "ht-021-q61",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "What is the direct skeletal consequence of Androgen Deprivation Therapy (ADT) used in prostate cancer?",
+      "options": [
+        "Drastically accelerates bone resorption causing osteopenia and increased fracture risk",
+        "Stimulates osteoblast proliferation causing osteosclerosis",
+        "Has no direct effect on bone mineral density",
+        "Causes isolated hypercalcemia without bone matrix loss"
+      ],
+      "correctOption": 0,
+      "explanation": "ADT drastically accelerates bone resorption, causing osteopenia and significantly increasing fragility fracture risk.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Androgen Deprivation Therapy (ADT) for prostate cancer drastically accelerates bone resorption, causing osteopenia and significantly increasing fragility fracture risk within the first year of use.\""
+    },
+    {
+      "id": "ht-021-q62",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "At what point during Androgen Deprivation Therapy (ADT) does the patient experience a significantly increased risk of fragility fractures?",
+      "options": [
+        "Only after 5 years of continuous use",
+        "Within the first year of use",
+        "Only after therapy has been discontinued",
+        "Fractures are not associated with ADT"
+      ],
+      "correctOption": 1,
+      "explanation": "ADT significantly increases fragility fracture risk within the first year of use.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"significantly increasing fragility fracture risk within the first year of use.\""
+    },
+    {
+      "id": "ht-021-q63",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "How do aromatase inhibitors accelerate bone mineral density loss in breast cancer patients?",
+      "options": [
+        "By direct toxicity to osteocytes",
+        "Through profound estrogen depletion",
+        "By increasing parathyroid hormone levels",
+        "By blocking Vitamin D absorption"
+      ],
+      "correctOption": 1,
+      "explanation": "Aromatase inhibitors induce profound estrogen depletion, accelerating bone mineral density loss.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Aromatase inhibitors used in breast cancer induce profound estrogen depletion, accelerating bone mineral density loss at a rate higher than physiological menopause.\""
+    },
+    {
+      "id": "ht-021-q64",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "How does the rate of bone mineral density loss caused by aromatase inhibitors compare to the loss experienced during natural menopause?",
+      "options": [
+        "It is much slower than physiological menopause.",
+        "It is identical to physiological menopause.",
+        "It occurs at a rate higher than physiological menopause.",
+        "AI therapy causes bone gain, unlike menopause."
+      ],
+      "correctOption": 2,
+      "explanation": "Aromatase inhibitors accelerate bone loss at a rate higher than physiological menopause.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"accelerating bone mineral density loss at a rate higher than physiological menopause.\""
+    },
+    {
+      "id": "ht-021-q65",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "To prevent skeletal-related events in patients on prolonged ADT or aromatase inhibitors, what does clinical guidance strongly recommend?",
+      "options": [
+        "Calcium supplementation alone",
+        "Prophylactic anti-resorptive agents (bisphosphonates or denosumab)",
+        "Intermittent high-dose steroids",
+        "Routine joint aspirations"
+      ],
+      "correctOption": 1,
+      "explanation": "Clinical guidelines strongly recommend anti-resorptive agents (bisphosphonates or denosumab) to prevent skeletal-related events.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Clinical guidelines strongly recommend anti-resorptive agents (bisphosphonates or denosumab) to prevent skeletal-related events in patients undergoing prolonged ADT or aromatase inhibitor therapy.\""
+    },
+    {
+      "id": "ht-021-q66",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "What is the primary objective of prescribing denosumab to a patient starting aromatase inhibitor therapy?",
+      "options": [
+        "To treat underlying bone metastases",
+        "To lower serum calcium levels",
+        "To prevent skeletal-related events",
+        "To increase estrogen production"
+      ],
+      "correctOption": 2,
+      "explanation": "Anti-resorptive agents are recommended to prevent skeletal-related events in patients on prolonged ADT or aromatase inhibitors.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"to prevent skeletal-related events in patients undergoing prolonged ADT or aromatase inhibitor therapy.\""
+    },
+    {
+      "id": "ht-021-q67",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "What is the most frequent mediating factor in Hypercalcemia of Malignancy (HCM)?",
+      "options": [
+        "Direct osteolytic metastases",
+        "Tumor secretion of Parathyroid Hormone-related Protein (PTHrP)",
+        "Ectopic production of authentic PTH",
+        "Exogenous calcium intake"
+      ],
+      "correctOption": 1,
+      "explanation": "HCM is most frequently mediated by tumor secretion of PTHrP rather than direct osteolytic metastases.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"HCM is a primary oncologic emergency most frequently mediated by tumor secretion of Parathyroid Hormone-related Protein (PTHrP) rather than direct osteolytic metastases.\""
+    },
+    {
+      "id": "ht-021-q68",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "True or False: Hypercalcemia of Malignancy is primarily caused by tumors directly invading and destroying bone (osteolytic metastases).",
+      "options": [
+        "True, this is the mechanism for 90% of cases.",
+        "False, it is most frequently mediated by tumor secretion of PTHrP.",
+        "True, but only in breast cancer.",
+        "False, it is mediated by a lack of Vitamin D."
+      ],
+      "correctOption": 1,
+      "explanation": "HCM is most frequently mediated by tumor secretion of PTHrP rather than direct osteolytic metastases.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"most frequently mediated by tumor secretion of Parathyroid Hormone-related Protein (PTHrP) rather than direct osteolytic metastases.\""
+    },
+    {
+      "id": "ht-021-q69",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "A patient presents with hypercalcemia. Which diagnostic laboratory hallmark separates Hypercalcemia of Malignancy (HCM) from Primary Hyperparathyroidism?",
+      "options": [
+        "An elevated intact PTH level",
+        "A suppressed intact Parathyroid Hormone (PTH) level",
+        "Elevated alkaline phosphatase",
+        "Suppressed serum albumin"
+      ],
+      "correctOption": 1,
+      "explanation": "The diagnostic hallmark separating HCM from Primary Hyperparathyroidism is a suppressed intact PTH level.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"The diagnostic hallmark separating Hypercalcemia of Malignancy from Primary Hyperparathyroidism is a suppressed intact Parathyroid Hormone (PTH) level.\""
+    },
+    {
+      "id": "ht-021-q70",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "In a confirmed case of PTHrP-mediated Hypercalcemia of Malignancy, what will the intact PTH level be?",
+      "options": [
+        "Markedly elevated",
+        "Upper limit of normal",
+        "Suppressed",
+        "Fluctuating wildly"
+      ],
+      "correctOption": 2,
+      "explanation": "The intact PTH level is suppressed in HCM as the parathyroid glands respond appropriately to hypercalcemia.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"a suppressed intact Parathyroid Hormone (PTH) level.\""
+    },
+    {
+      "id": "ht-021-q71",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "Denosumab and zoledronic acid are utilized for bone metastases. What severe, life-threatening metabolic complication can these agents cause?",
+      "options": [
+        "Severe hypercalcemia",
+        "Severe hypocalcemia",
+        "Severe hypernatremia",
+        "Severe hyperkalemia"
+      ],
+      "correctOption": 1,
+      "explanation": "These antiresorptive agents can cause severe, life-threatening hypocalcemia.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Denosumab and zoledronic acid, utilized for bone metastases, can cause severe, life-threatening hypocalcemia\""
+    },
+    {
+      "id": "ht-021-q72",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "Before administering denosumab or zoledronic acid to an oncology patient, what is a mandatory clinical prerequisite?",
+      "options": [
+        "Baseline correction of calcium and Vitamin D",
+        "Discontinuation of all other chemotherapies",
+        "Administration of a prophylactic steroid dose",
+        "A baseline MRI of the pituitary"
+      ],
+      "correctOption": 0,
+      "explanation": "The risk of life-threatening hypocalcemia mandates baseline correction of calcium and Vitamin D prior to administration.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"mandating baseline correction of calcium and Vitamin D prior to administration.\""
+    },
+    {
+      "id": "ht-021-q73",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "A patient who received localized radiation therapy to the neck for squamous cell carcinoma develops refractory hypocalcemia years later. What is the most likely diagnosis?",
+      "options": [
+        "Radiation-induced hyperthyroidism",
+        "Radiation-induced hypoparathyroidism",
+        "Bone metastases",
+        "Hypercalcemia of malignancy"
+      ],
+      "correctOption": 1,
+      "explanation": "Localized radiotherapy to the head, neck, or mediastinum can cause permanent hypoparathyroidism, leading to refractory hypocalcemia.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"Localized radiotherapy to the head, neck, or mediastinum can cause permanent hypoparathyroidism, leading to refractory hypocalcemia requiring activated Vitamin D (calcitriol) analogs.\""
+    },
+    {
+      "id": "ht-021-q74",
+      "type": "mcq",
+      "subtopic": "IV. Bone, Calcium & Gonadal Health",
+      "question": "How must the refractory hypocalcemia resulting from radiation-induced hypoparathyroidism be treated?",
+      "options": [
+        "High-dose oral calcium alone",
+        "Cholecalciferol (inactive Vitamin D3)",
+        "Activated Vitamin D (calcitriol) analogs",
+        "Bisphosphonates"
+      ],
+      "correctOption": 2,
+      "explanation": "Refractory hypocalcemia from hypoparathyroidism requires activated Vitamin D (calcitriol) analogs because PTH is absent.",
+      "reference": "IV. Bone, Calcium, & Gonadal Health: \"requiring activated Vitamin D (calcitriol) analogs.\""
+    },
+    {
+      "id": "ht-021-q75",
+      "type": "mcq",
+      "subtopic": "V. Global Management & Efficacy",
+      "question": "If an oncology patient develops an endocrinopathy on immunotherapy and is prescribed physiologic hormone replacement, how does this affect the anti-tumor efficacy of their checkpoint inhibitor?",
+      "options": [
+        "It significantly diminishes the efficacy.",
+        "It completely neutralizes the immunotherapy.",
+        "It does not diminish the anti-tumor efficacy.",
+        "It requires doubling the dose of the checkpoint inhibitor."
+      ],
+      "correctOption": 2,
+      "explanation": "Treating immunotherapy-induced endocrinopathies with physiologic hormone replacement does not diminish the anti-tumor efficacy of checkpoint inhibitors.",
+      "reference": "V. Global Management & Efficacy: \"Treating immunotherapy-induced endocrinopathies with physiologic hormone replacement does not diminish the anti-tumor efficacy of the checkpoint inhibitors.\""
+    },
+    {
+      "id": "ht-021-q76",
+      "type": "mcq",
+      "subtopic": "V. Global Management & Efficacy",
+      "question": "A patient on nivolumab develops permanent hypothyroidism. The oncologist is worried that starting levothyroxine will stop the nivolumab from fighting the cancer. What does the evidence say?",
+      "options": [
+        "The oncologist is correct; levothyroxine suppresses the immune system.",
+        "Physiologic hormone replacement does not diminish the anti-tumor efficacy.",
+        "The nivolumab must be stopped immediately.",
+        "Only high-dose steroids will preserve the drug's efficacy."
+      ],
+      "correctOption": 1,
+      "explanation": "Physiologic hormone replacement does not diminish the anti-tumor efficacy of checkpoint inhibitors.",
+      "reference": "V. Global Management & Efficacy: \"Treating immunotherapy-induced endocrinopathies with physiologic hormone replacement does not diminish the anti-tumor efficacy of the checkpoint inhibitors.\""
+    },
+    {
+      "id": "ht-021-q77",
+      "type": "mcq",
+      "subtopic": "V. Global Management & Efficacy",
+      "question": "According to emerging clinical evidence, what is the prognostic significance of developing an endocrine irAE during oncology treatment?",
+      "options": [
+        "It is negatively correlated with survival.",
+        "It indicates the tumor is rapidly progressing.",
+        "It is positively correlated with improved progression-free and overall survival.",
+        "It has no correlation with survival outcomes."
+      ],
+      "correctOption": 2,
+      "explanation": "Emerging clinical evidence suggests that the development of endocrine irAEs is positively correlated with improved progression-free and overall survival.",
+      "reference": "V. Global Management & Efficacy: \"Emerging clinical evidence suggests that the development of endocrine irAEs (particularly thyroiditis) is positively correlated with improved progression-free and overall survival in several malignancies.\""
+    },
+    {
+      "id": "ht-021-q78",
+      "type": "mcq",
+      "subtopic": "V. Global Management & Efficacy",
+      "question": "While multiple endocrine irAEs are associated with improved survival, which specific condition is most notably highlighted for its positive prognostic correlation?",
+      "options": [
+        "Hypophysitis",
+        "Adrenalitis",
+        "Thyroiditis",
+        "De Novo Diabetes"
+      ],
+      "correctOption": 2,
+      "explanation": "The development of endocrine irAEs, particularly thyroiditis, is positively correlated with improved progression-free and overall survival.",
+      "reference": "V. Global Management & Efficacy: \"particularly thyroiditis) is positively correlated with improved progression-free and overall survival\""
     }
   ]
 }
