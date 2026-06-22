@@ -1,0 +1,39 @@
+{
+  "id": "mock-hf",
+  "volume": 1,
+  "chapterNo": "258",
+  "title": "Heart Failure: Pathophysiology & Management",
+  "section": "Cardiovascular Disorders",
+  "items": [
+    {
+      "id": "mock-hf-m1",
+      "type": "mcq",
+      "subtopic": "Diagnosis",
+      "stem": "A 68-year-old man with long-standing hypertension presents with progressive dyspnea on exertion, orthopnea, and bilateral ankle edema. Exam reveals an S3 gallop, elevated JVP, and bibasilar crackles. BNP is 890 pg/mL. Echocardiography shows an LVEF of 30% with global hypokinesis. Which initial pharmacologic regimen is most appropriate?",
+      "options": [
+        "Furosemide alone until euvolemia, then reassess",
+        "ACE inhibitor, beta-blocker, and loop diuretic",
+        "Calcium channel blocker and digoxin",
+        "Nitrate infusion and dobutamine"
+      ],
+      "correctOption": 1,
+      "explanation": "Guideline-directed medical therapy for HFrEF includes an ACE inhibitor (or ARB/ARNI), evidence-based beta-blocker, and diuretic for congestion. CCBs are not first-line; inotropes are reserved for cardiogenic shock.",
+      "reference": "Management: \"Guideline-directed medical therapy for heart failure with reduced ejection fraction includes inhibitors of the renin-angiotensin system, beta blockers, and mineralocorticoid receptor antagonists.\""
+    },
+    {
+      "id": "mock-hf-m2",
+      "type": "mcq",
+      "subtopic": "Prognosis",
+      "stem": "The same patient remains on optimal GDMT but continues NYHA class III symptoms with LVEF 28%. He is in sinus rhythm with a QRS duration of 150 ms and LBBB morphology. Which additional intervention has the strongest evidence for mortality benefit?",
+      "options": [
+        "Implantable cardioverter-defibrillator only",
+        "Cardiac resynchronization therapy (CRT-D)",
+        "Catheter ablation of the AV node",
+        "Routine inotropic infusion"
+      ],
+      "correctOption": 1,
+      "explanation": "CRT improves symptoms, reduces hospitalizations, and decreases mortality in selected patients with HFrEF, sinus rhythm, LBBB, and QRS ≥150 ms despite GDMT.",
+      "reference": "Device Therapy: \"Cardiac resynchronization therapy is recommended for patients with LVEF ≤35%, sinus rhythm, left bundle branch block with QRS duration ≥150 ms, and persistent symptoms despite GDMT.\""
+    }
+  ]
+}

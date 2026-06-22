@@ -1,0 +1,944 @@
+#!/usr/bin/env node
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+
+const OUT = path.join(__dirname, '../data/pe-cr-010_congenital_adrenal_hyperplasia.json');
+
+const notes = [
+  {
+    id: 'pe-cr-010-n1',
+    subtopic: '21-hydroxylase deficiency',
+    title: 'Why 21-hydroxylase deficiency causes androgen excess',
+    content: 'Loss of 21-hydroxylase blocks cortisol (and often aldosterone) synthesis, so ACTH rises and shunts precursors into androgen pathways. The result is high 17-hydroxyprogesterone and excess adrenal androgens, even when cortisol is low.',
+    keyPoints: [
+      'ACTH-driven precursor buildup fuels androgen excess.',
+      'Cortisol deficiency and androgen excess coexist.',
+      '17-hydroxyprogesterone becomes markedly elevated.'
+    ],
+    reference: '21-hydroxylase deficiency: precursor diversion explains androgen excess despite low cortisol.'
+  },
+  {
+    id: 'pe-cr-010-n2',
+    subtopic: 'Salt-wasting crisis',
+    title: 'How a salt-wasting crisis presents in newborns',
+    content: 'Neonates often develop poor feeding, vomiting, weight loss, dehydration, and shock in the second to third week of life. Labs show hyponatremia, hyperkalemia, metabolic acidosis, and elevated renin.',
+    keyPoints: [
+      'Typical onset is days 7–21 of life.',
+      'Hyponatremia + hyperkalemia signal mineralocorticoid loss.',
+      'Rapid volume resuscitation is lifesaving.'
+    ],
+    reference: 'Salt-wasting crisis: delayed newborn presentation with dehydration, hyponatremia, hyperkalemia, and shock.'
+  },
+  {
+    id: 'pe-cr-010-n3',
+    subtopic: 'Screening',
+    title: 'Why 17-hydroxyprogesterone is the screening marker',
+    content: '17-hydroxyprogesterone accumulates upstream of 21-hydroxylase and is markedly increased in classic CAH. It is stable enough for dried blood spot assays used in newborn screening.',
+    keyPoints: [
+      '17OHP rises early in classic CAH.',
+      'It is measurable from dried blood spots.',
+      'Levels correlate with enzyme block severity.'
+    ],
+    reference: 'Newborn screening: 17OHP is the upstream precursor that reliably accumulates in 21-hydroxylase deficiency.'
+  },
+  {
+    id: 'pe-cr-010-n4',
+    subtopic: 'Screening',
+    title: 'How to interpret newborn screening false positives',
+    content: 'Prematurity, stress, and illness can elevate 17OHP and generate false positives. Many programs use gestational-age or birthweight–adjusted cutoffs and second-tier steroid profiling to improve specificity.',
+    keyPoints: [
+      'Prematurity and stress raise 17OHP.',
+      'Adjusted cutoffs reduce false positives.',
+      'Second-tier testing improves specificity.'
+    ],
+    reference: 'Newborn screening: prematurity and stress elevate 17OHP; adjusted cutoffs and second-tier assays help confirm.'
+  },
+  {
+    id: 'pe-cr-010-n5',
+    subtopic: 'Virilization',
+    title: 'Why 46,XX infants can have virilized genitalia',
+    content: 'Excess fetal adrenal androgens masculinize external genitalia even with normal ovaries and uterus. The degree of virilization ranges from clitoromegaly to posterior fusion and a urogenital sinus.',
+    keyPoints: [
+      'Androgen excess drives external virilization.',
+      'Internal organs remain female (uterus/ovaries).',
+      'Severity varies across Prader stages.'
+    ],
+    reference: 'Virilization: prenatal androgen excess masculinizes external genitalia in 46,XX infants.'
+  },
+  {
+    id: 'pe-cr-010-n6',
+    subtopic: 'Virilization',
+    title: 'How Prader staging guides genital exam documentation',
+    content: 'Prader staging grades external virilization from mild clitoromegaly to phallic structure with fused labioscrotal folds. Standardized staging improves communication and avoids subjective descriptors.',
+    keyPoints: [
+      'Use standardized Prader staging.',
+      'Describe phallic length, fusion, and urogenital opening.',
+      'Avoid stigmatizing language in records.'
+    ],
+    reference: 'Prader staging: structured documentation improves consistency in describing virilized genitalia.'
+  },
+  {
+    id: 'pe-cr-010-n7',
+    subtopic: 'Diagnosis',
+    title: 'How to distinguish salt-wasting from simple virilizing CAH',
+    content: 'Salt-wasting disease shows hyponatremia, hyperkalemia, dehydration, and high plasma renin activity. Simple virilizing CAH lacks mineralocorticoid crisis and typically maintains normal electrolytes.',
+    keyPoints: [
+      'Electrolytes and renin separate phenotypes.',
+      'Salt-wasting requires urgent mineralocorticoid therapy.',
+      'Simple virilizing lacks early shock.'
+    ],
+    reference: 'Phenotype differentiation: renin and electrolyte status identify salt-wasting versus simple virilizing CAH.'
+  },
+  {
+    id: 'pe-cr-010-n8',
+    subtopic: 'Therapy',
+    title: 'Why hydrocortisone is preferred in children',
+    content: 'Hydrocortisone has a short half-life and lower growth suppression risk than longer-acting glucocorticoids. It allows physiologic replacement with flexible stress dosing.',
+    keyPoints: [
+      'Short-acting steroid minimizes growth impact.',
+      'Allows physiologic replacement and stress dosing.',
+      'Avoids overtreatment seen with long-acting agents.'
+    ],
+    reference: 'Glucocorticoid choice: hydrocortisone balances replacement with growth preservation in children.'
+  },
+  {
+    id: 'pe-cr-010-n9',
+    subtopic: 'Therapy',
+    title: 'How fludrocortisone and salt supplementation are used',
+    content: 'Infants with salt-wasting CAH need fludrocortisone plus oral salt to maintain sodium balance and suppress renin. Doses are higher in early infancy due to renal resistance to mineralocorticoids.',
+    keyPoints: [
+      'Fludrocortisone treats mineralocorticoid deficiency.',
+      'Salt supplementation is essential in infancy.',
+      'Renin suppression guides adequacy.'
+    ],
+    reference: 'Mineralocorticoid replacement: fludrocortisone and salt support sodium balance and renin control in infancy.'
+  },
+  {
+    id: 'pe-cr-010-n10',
+    subtopic: 'Monitoring',
+    title: 'Why growth and blood pressure are core monitoring targets',
+    content: 'Overtreatment slows growth and causes Cushingoid features, while undertreatment accelerates growth with early epiphyseal fusion. Mineralocorticoid excess raises blood pressure, so BP and growth velocity must be tracked.',
+    keyPoints: [
+      'Overtreatment suppresses growth.',
+      'Undertreatment causes early androgen-driven maturation.',
+      'BP reflects mineralocorticoid dosing.'
+    ],
+    reference: 'Monitoring: growth velocity and blood pressure detect over- or under-replacement.'
+  },
+  {
+    id: 'pe-cr-010-n11',
+    subtopic: 'Monitoring',
+    title: 'How to interpret 17OHP and androstenedione in follow-up',
+    content: 'Values that are persistently high suggest undertreatment, while fully suppressed levels indicate overtreatment. Trends, timing of sample relative to dosing, and growth outcomes matter more than a single number.',
+    keyPoints: [
+      'Persistent elevation suggests insufficient glucocorticoid.',
+      'Suppressed levels may indicate overtreatment.',
+      'Interpret labs in context of dosing and growth.'
+    ],
+    reference: 'Biochemical monitoring: 17OHP and androstenedione trends guide dose adjustments.'
+  },
+  {
+    id: 'pe-cr-010-n12',
+    subtopic: 'Stress dosing',
+    title: 'How stress dosing prevents adrenal crisis',
+    content: 'Illness, surgery, or trauma requires increased hydrocortisone to mimic physiologic stress response. Families need clear sick-day rules and access to injectable hydrocortisone.',
+    keyPoints: [
+      'Stress doses mimic normal cortisol surge.',
+      'Sick-day plans reduce crisis risk.',
+      'Injectable hydrocortisone is essential.'
+    ],
+    reference: 'Stress dosing: temporary hydrocortisone escalation prevents crisis during illness or surgery.'
+  },
+  {
+    id: 'pe-cr-010-n13',
+    subtopic: 'Overtreatment',
+    title: 'Why overtreatment can be as harmful as undertreatment',
+    content: 'Excess glucocorticoid causes growth suppression, weight gain, hypertension, and iatrogenic Cushingoid appearance. It can also impair bone density and metabolic health.',
+    keyPoints: [
+      'Excess glucocorticoid harms growth.',
+      'Metabolic and bone effects can accumulate.',
+      'Balance clinical outcomes with labs.'
+    ],
+    reference: 'Overtreatment: chronic glucocorticoid excess drives growth failure and metabolic complications.'
+  },
+  {
+    id: 'pe-cr-010-n14',
+    subtopic: 'TART',
+    title: 'How testicular adrenal rest tumors develop',
+    content: 'Chronic ACTH stimulation can enlarge adrenal rest tissue within the testes, leading to mass effect and infertility. Routine exam and ultrasound during adolescence help detect TART early.',
+    keyPoints: [
+      'ACTH drives adrenal rest growth.',
+      'TART can cause infertility.',
+      'Screening is part of adolescent care.'
+    ],
+    reference: 'TART: prolonged ACTH stimulation promotes adrenal rest tumors with fertility impact.'
+  },
+  {
+    id: 'pe-cr-010-n15',
+    subtopic: 'Prenatal therapy',
+    title: 'Why prenatal dexamethasone remains controversial',
+    content: 'Dexamethasone can reduce virilization if started very early in pregnancy, but most treated fetuses are unaffected carriers or males and receive unnecessary exposure. Long-term safety data are limited, so shared decision-making and research protocols are emphasized.',
+    keyPoints: [
+      'Benefit requires very early initiation.',
+      'Most treated fetuses are unaffected.',
+      'Safety concerns demand careful counseling.'
+    ],
+    reference: 'Prenatal therapy: early dexamethasone may limit virilization but exposes many unaffected fetuses, so it is controversial.'
+  },
+  {
+    id: 'pe-cr-010-n16',
+    subtopic: 'Genetics',
+    title: 'How to counsel families about inheritance risk',
+    content: 'Classic CAH is autosomal recessive; each pregnancy in carrier parents has a 25% risk of an affected child. Carrier testing and reproductive counseling help families plan future pregnancies.',
+    keyPoints: [
+      'Autosomal recessive inheritance.',
+      '25% recurrence risk with two carriers.',
+      'Carrier testing informs family planning.'
+    ],
+    reference: 'Inheritance counseling: autosomal recessive risk and carrier testing should be discussed with families.'
+  },
+  {
+    id: 'pe-cr-010-n17',
+    subtopic: '11β-hydroxylase deficiency',
+    title: 'Why 11β-hydroxylase deficiency causes hypertension',
+    content: 'Accumulation of 11-deoxycorticosterone produces strong mineralocorticoid effects, leading to sodium retention and low renin hypertension despite low aldosterone.',
+    keyPoints: [
+      '11-deoxycorticosterone is mineralocorticoid-active.',
+      'Hypertension and hypokalemia can occur.',
+      'Renin is suppressed.'
+    ],
+    reference: '11β-hydroxylase deficiency: DOC excess drives hypertension despite low aldosterone.'
+  },
+  {
+    id: 'pe-cr-010-n18',
+    subtopic: '17α-hydroxylase deficiency',
+    title: 'How 17α-hydroxylase deficiency affects puberty',
+    content: 'Loss of sex steroid synthesis causes sexual infantilism with absent or delayed puberty and primary amenorrhea. Mineralocorticoid excess leads to hypertension and hypokalemia.',
+    keyPoints: [
+      'Sex steroid deficiency causes delayed puberty.',
+      'Hypertension reflects mineralocorticoid excess.',
+      'Androgen deficiency leads to undervirilization in 46,XY.'
+    ],
+    reference: '17α-hydroxylase deficiency: sex steroid deficiency delays puberty and causes hypertension.'
+  },
+  {
+    id: 'pe-cr-010-n19',
+    subtopic: 'POR deficiency',
+    title: 'Why P450 oxidoreductase deficiency can virilize mother and fetus',
+    content: 'Impaired electron transfer reduces multiple steroidogenic enzymes, causing atypical androgen pathways. Maternal virilization can occur during pregnancy, and fetal genital ambiguity is common.',
+    keyPoints: [
+      'Multi-enzyme impairment alters steroidogenesis.',
+      'Maternal virilization can occur.',
+      'Fetal genital ambiguity is frequent.'
+    ],
+    reference: 'POR deficiency: disrupted steroidogenesis can virilize both mother and fetus.'
+  },
+  {
+    id: 'pe-cr-010-n20',
+    subtopic: 'DSD documentation',
+    title: 'How the GIPP/GDPP checklist standardizes DSD assessment',
+    content: 'A structured genital and phenotype checklist (GIPP/GDPP) ensures consistent documentation of gonadal, internal ductal, and external genital findings in suspected CAH. Standardization improves communication across the care team and supports shared decision-making.',
+    keyPoints: [
+      'Structured documentation avoids ambiguity.',
+      'Captures gonadal, ductal, and external findings.',
+      'Supports team-based counseling.'
+    ],
+    reference: 'GIPP/GDPP: standardized DSD documentation improves clarity and multidisciplinary communication.'
+  },
+  {
+    id: 'pe-cr-010-n21',
+    subtopic: 'NCCAH',
+    title: 'Why nonclassic CAH often presents in adolescence',
+    content: 'Partial enzyme activity produces milder androgen excess that accumulates over time, leading to hirsutism, acne, irregular menses, or premature adrenarche rather than neonatal crisis.',
+    keyPoints: [
+      'Residual enzyme activity blunts neonatal presentation.',
+      'Androgen excess emerges in adolescence.',
+      'Symptoms mimic PCOS or premature adrenarche.'
+    ],
+    reference: 'Nonclassic CAH: partial enzyme activity delays symptoms to adolescence or adulthood.'
+  },
+  {
+    id: 'pe-cr-010-n22',
+    subtopic: 'Diagnosis',
+    title: 'How ACTH stimulation helps confirm equivocal cases',
+    content: 'When baseline 17OHP is borderline, ACTH stimulation can reveal exaggerated precursor accumulation. A marked rise supports the diagnosis of CAH or nonclassic CAH.',
+    keyPoints: [
+      'ACTH stimulation clarifies borderline 17OHP.',
+      'A large rise indicates enzyme block.',
+      'Useful for nonclassic cases.'
+    ],
+    reference: 'Diagnostic testing: ACTH stimulation unmasking of high 17OHP supports CAH diagnosis.'
+  },
+  {
+    id: 'pe-cr-010-n23',
+    subtopic: 'Acute management',
+    title: 'How to manage suspected adrenal crisis in CAH',
+    content: 'Treat immediately with IV hydrocortisone, isotonic fluids, and glucose, without waiting for confirmatory labs. Correct electrolytes and continue mineralocorticoid replacement once stable.',
+    keyPoints: [
+      'Treat before confirmatory results.',
+      'IV hydrocortisone and fluids are first-line.',
+      'Electrolyte correction is critical.'
+    ],
+    reference: 'Adrenal crisis: prompt IV hydrocortisone and fluid resuscitation are life-saving.'
+  },
+  {
+    id: 'pe-cr-010-n24',
+    subtopic: 'Renin physiology',
+    title: 'Why renin is high in mineralocorticoid deficiency',
+    content: 'Loss of aldosterone leads to sodium wasting and volume depletion, activating the renin-angiotensin system. Persistent renin elevation indicates under-replacement with mineralocorticoid.',
+    keyPoints: [
+      'Volume loss triggers renin rise.',
+      'Renin guides fludrocortisone dosing.',
+      'Suppression suggests over-replacement.'
+    ],
+    reference: 'Renin monitoring: elevated renin reflects inadequate mineralocorticoid replacement.'
+  },
+  {
+    id: 'pe-cr-010-n25',
+    subtopic: 'Differential diagnosis',
+    title: 'How to distinguish CAH from androgen-secreting tumors',
+    content: 'Tumors usually cause rapid virilization and very high DHEA-S or testosterone without the classic 17OHP pattern. Imaging and tumor markers help when the androgen rise is abrupt or asymmetric.',
+    keyPoints: [
+      'Tumors show rapid progression and high DHEA-S.',
+      '17OHP pattern is less prominent.',
+      'Imaging is needed when growth is abrupt.'
+    ],
+    reference: 'Differential diagnosis: rapid androgen excess with high DHEA-S suggests a tumor rather than CAH.'
+  },
+  {
+    id: 'pe-cr-010-n26',
+    subtopic: 'Fertility',
+    title: 'Why fertility counseling is important in CAH',
+    content: 'Chronic androgen excess, TART in males, and irregular ovulation in females can impair fertility. Optimized hormone control and reproductive support improve outcomes.',
+    keyPoints: [
+      'Androgen excess can impair ovulation.',
+      'TART affects male fertility.',
+      'Specialized reproductive care improves outcomes.'
+    ],
+    reference: 'Fertility: hormone control and TART screening are key to preserving reproductive potential.'
+  },
+  {
+    id: 'pe-cr-010-n27',
+    subtopic: 'Sex assignment',
+    title: 'Why sex assignment should be delayed until evaluation is complete',
+    content: 'Immediate assignment in a virilized newborn can lead to misclassification. A careful evaluation of karyotype, internal anatomy, hormones, and family counseling helps align decisions with long-term outcomes.',
+    keyPoints: [
+      'Early assignment can be premature.',
+      'Comprehensive evaluation guides decisions.',
+      'Family counseling is essential.'
+    ],
+    reference: 'Sex assignment: delay until diagnostic evaluation and counseling are complete.'
+  },
+  {
+    id: 'pe-cr-010-n28',
+    subtopic: 'Follow-up',
+    title: 'How long-term monitoring supports healthy transition to adult care',
+    content: 'Transition planning addresses adherence, self-management, fertility counseling, and psychosocial support. Regular review of bone health, metabolic risk, and quality of life is required.',
+    keyPoints: [
+      'Transition planning improves adherence.',
+      'Monitor bone and metabolic health.',
+      'Psychosocial support is part of care.'
+    ],
+    reference: 'Transition care: structured follow-up supports long-term health and self-management.'
+  }
+].map(note => ({ ...note, type: 'note' }));
+
+const mcqs = [
+  {
+    id: 'pe-cr-010-q1',
+    subtopic: 'Salt-wasting crisis',
+    question: 'A 12-day-old infant presents with vomiting, weight loss, and lethargy. Labs show Na 122 mEq/L, K 6.8 mEq/L, glucose 48 mg/dL. External genitalia are ambiguous. What is the most appropriate immediate management?',
+    options: [
+      'Oral hydrocortisone and outpatient follow-up',
+      'IV hydrocortisone and isotonic fluid resuscitation',
+      'Delay treatment until 17OHP returns',
+      'Fludrocortisone alone without glucocorticoid'
+    ],
+    correctOption: 1,
+    explanation: 'This is an adrenal crisis; IV hydrocortisone and fluids are first-line and should not be delayed.',
+    reference: 'Salt-wasting crisis: immediate IV hydrocortisone and fluids take priority over confirmatory testing.'
+  },
+  {
+    id: 'pe-cr-010-q2',
+    subtopic: 'Diagnosis',
+    question: 'A newborn screen returns markedly elevated 17-hydroxyprogesterone. Which diagnosis is most consistent with this pattern?',
+    options: [
+      '11β-hydroxylase deficiency',
+      '21-hydroxylase deficiency',
+      '17α-hydroxylase deficiency',
+      'Aldosterone synthase deficiency'
+    ],
+    correctOption: 1,
+    explanation: '17OHP accumulates upstream of 21-hydroxylase and is a classic screening marker.',
+    reference: 'Screening: high 17OHP is a hallmark of 21-hydroxylase deficiency.'
+  },
+  {
+    id: 'pe-cr-010-q3',
+    subtopic: 'Virilization',
+    question: 'A 46,XX infant has clitoromegaly and partial labial fusion. Ultrasound shows a uterus. Which mechanism explains the external findings?',
+    options: [
+      'Maternal diabetes causing transient androgen excess',
+      'Fetal androgen excess from adrenal steroid precursors',
+      'Placental aromatase overactivity',
+      'Gonadal dysgenesis with estrogen deficiency'
+    ],
+    correctOption: 1,
+    explanation: 'Prenatal androgen excess from CAH masculinizes the external genitalia despite normal internal female organs.',
+    reference: 'Virilization: fetal adrenal androgen excess drives external masculinization in 46,XX CAH.'
+  },
+  {
+    id: 'pe-cr-010-q4',
+    subtopic: 'Treatment',
+    question: 'Which glucocorticoid is preferred for routine replacement therapy in young children with CAH?',
+    options: [
+      'Dexamethasone',
+      'Prednisone',
+      'Hydrocortisone',
+      'Betamethasone'
+    ],
+    correctOption: 2,
+    explanation: 'Hydrocortisone is short-acting and minimizes growth suppression.',
+    reference: 'Therapy: hydrocortisone is preferred in children to reduce growth suppression.'
+  },
+  {
+    id: 'pe-cr-010-q5',
+    subtopic: 'Monitoring',
+    question: 'A child with CAH has poor growth velocity, weight gain, and suppressed 17OHP. What is the most likely cause?',
+    options: [
+      'Undertreatment with glucocorticoid',
+      'Overtreatment with glucocorticoid',
+      'Mineralocorticoid deficiency',
+      'Concurrent hypothyroidism'
+    ],
+    correctOption: 1,
+    explanation: 'Suppressed 17OHP with Cushingoid features suggests glucocorticoid overtreatment.',
+    reference: 'Monitoring: suppressed 17OHP and poor growth suggest overtreatment.'
+  },
+  {
+    id: 'pe-cr-010-q6',
+    subtopic: 'Mineralocorticoid therapy',
+    question: 'An infant with classic salt-wasting CAH continues to have high plasma renin activity despite hydrocortisone therapy. What is the next best step?',
+    options: [
+      'Stop fludrocortisone to avoid hypertension',
+      'Increase fludrocortisone and ensure adequate salt intake',
+      'Add dexamethasone at bedtime',
+      'Switch to prednisone'
+    ],
+    correctOption: 1,
+    explanation: 'High renin indicates inadequate mineralocorticoid replacement; increase fludrocortisone and salt.',
+    reference: 'Mineralocorticoid replacement: persistently high renin signals under-replacement.'
+  },
+  {
+    id: 'pe-cr-010-q7',
+    subtopic: 'Nonclassic CAH',
+    question: 'A 15-year-old girl has hirsutism, acne, and irregular menses. Baseline 17OHP is mildly elevated. What test best confirms nonclassic CAH?',
+    options: [
+      'Overnight dexamethasone suppression test',
+      'ACTH stimulation test',
+      'Low-dose ACTH challenge with cortisol only',
+      'Insulin tolerance test'
+    ],
+    correctOption: 1,
+    explanation: 'ACTH stimulation demonstrating exaggerated 17OHP rise supports NCCAH.',
+    reference: 'Nonclassic CAH: ACTH stimulation with elevated 17OHP confirms diagnosis.'
+  },
+  {
+    id: 'pe-cr-010-q8',
+    subtopic: '11β-hydroxylase deficiency',
+    question: 'Which clinical feature most strongly suggests 11β-hydroxylase deficiency rather than 21-hydroxylase deficiency?',
+    options: [
+      'Hypotension and hyperkalemia',
+      'Hypertension and suppressed renin',
+      'Absence of virilization',
+      'Low 17-hydroxyprogesterone'
+    ],
+    correctOption: 1,
+    explanation: 'DOC excess causes mineralocorticoid effects and hypertension.',
+    reference: '11β-hydroxylase deficiency: DOC-driven hypertension differentiates it from 21-hydroxylase deficiency.'
+  },
+  {
+    id: 'pe-cr-010-q9',
+    subtopic: '17α-hydroxylase deficiency',
+    question: 'A 17-year-old phenotypic female has primary amenorrhea, no breast development, hypertension, and hypokalemia. Karyotype is 46,XY. Which enzyme defect is most likely?',
+    options: [
+      '21-hydroxylase deficiency',
+      '11β-hydroxylase deficiency',
+      '17α-hydroxylase deficiency',
+      '3β-hydroxysteroid dehydrogenase deficiency'
+    ],
+    correctOption: 2,
+    explanation: '17α-hydroxylase deficiency causes sexual infantilism and mineralocorticoid excess.',
+    reference: '17α-hydroxylase deficiency: sexual infantilism with hypertension fits the classic phenotype.'
+  },
+  {
+    id: 'pe-cr-010-q10',
+    subtopic: 'POR deficiency',
+    question: 'A pregnant woman develops virilization, and her newborn has ambiguous genitalia with low cortisol. Which disorder best explains both findings?',
+    options: [
+      '11β-hydroxylase deficiency',
+      'P450 oxidoreductase deficiency',
+      'Aldosterone synthase deficiency',
+      '17β-hydroxysteroid dehydrogenase deficiency'
+    ],
+    correctOption: 1,
+    explanation: 'POR deficiency disrupts multiple steroidogenic enzymes and can virilize both mother and fetus.',
+    reference: 'POR deficiency: combined maternal and fetal virilization with cortisol deficiency is characteristic.'
+  },
+  {
+    id: 'pe-cr-010-q11',
+    subtopic: 'Prenatal therapy',
+    question: 'Which statement best explains the controversy around prenatal dexamethasone for CAH?',
+    options: [
+      'It is ineffective at preventing virilization',
+      'Most exposed fetuses are unaffected carriers or males',
+      'It consistently causes congenital heart disease',
+      'It is only beneficial if started after 20 weeks'
+    ],
+    correctOption: 1,
+    explanation: 'Early treatment may prevent virilization but exposes many unaffected fetuses to steroid.',
+    reference: 'Prenatal therapy: most exposed fetuses are unaffected, raising risk-benefit concerns.'
+  },
+  {
+    id: 'pe-cr-010-q12',
+    subtopic: 'TART',
+    question: 'A 16-year-old boy with CAH has a firm testicular mass on exam. What is the most likely diagnosis?',
+    options: [
+      'Leydig cell tumor',
+      'Testicular adrenal rest tumor',
+      'Testicular torsion',
+      'Epididymal cyst'
+    ],
+    correctOption: 1,
+    explanation: 'Chronic ACTH stimulation can cause TART, often bilateral and associated with CAH.',
+    reference: 'TART: adolescent males with CAH and testicular masses often have adrenal rest tumors.'
+  },
+  {
+    id: 'pe-cr-010-q13',
+    subtopic: 'Newborn screening',
+    question: 'Which factor most commonly contributes to false-positive 17OHP results on newborn screening?',
+    options: [
+      'Full-term birth after uncomplicated delivery',
+      'Prematurity and neonatal illness',
+      'Maternal hypothyroidism',
+      'Early feeding with formula'
+    ],
+    correctOption: 1,
+    explanation: 'Prematurity and stress elevate 17OHP, reducing screening specificity.',
+    reference: 'Screening: prematurity and illness raise 17OHP and cause false positives.'
+  },
+  {
+    id: 'pe-cr-010-q14',
+    subtopic: 'Sex assignment',
+    question: 'A newborn has ambiguous genitalia and suspected CAH. Which is the most appropriate initial counseling message to parents?',
+    options: [
+      'Assign sex immediately to reduce anxiety',
+      'Delay sex assignment until evaluation and counseling are complete',
+      'Recommend immediate surgical correction',
+      'Assure parents that long-term fertility will be normal'
+    ],
+    correctOption: 1,
+    explanation: 'Delaying assignment allows accurate diagnosis and informed counseling.',
+    reference: 'Sex assignment: defer until diagnostic workup and counseling are complete.'
+  },
+  {
+    id: 'pe-cr-010-q15',
+    subtopic: 'Nonclassic CAH',
+    question: 'Which clinical feature is most typical of nonclassic 21-hydroxylase deficiency?',
+    options: [
+      'Neonatal salt-wasting crisis',
+      'Hypertension in infancy',
+      'Hirsutism and irregular menses in adolescence',
+      'Severe undervirilization in 46,XY'
+    ],
+    correctOption: 2,
+    explanation: 'NCCAH presents later with androgen excess symptoms.',
+    reference: 'Nonclassic CAH: adolescent hyperandrogenic symptoms are typical.'
+  },
+  {
+    id: 'pe-cr-010-q16',
+    subtopic: 'Monitoring',
+    question: 'Which laboratory trend suggests undertreatment in a growing child with CAH?',
+    options: [
+      'Suppressed 17OHP and androstenedione',
+      'Normal electrolytes with rising renin',
+      'Persistently elevated 17OHP and rapid growth velocity',
+      'Low ACTH with poor appetite'
+    ],
+    correctOption: 2,
+    explanation: 'High 17OHP with rapid growth indicates excessive androgen exposure and undertreatment.',
+    reference: 'Monitoring: persistent 17OHP elevation with accelerated growth suggests undertreatment.'
+  },
+  {
+    id: 'pe-cr-010-q17',
+    subtopic: 'Acute management',
+    question: 'During a febrile illness, a child with CAH should receive stress dosing that is best described as:',
+    options: [
+      'Tripling the usual hydrocortisone dose until recovery',
+      'Stopping hydrocortisone to avoid adrenal suppression',
+      'Doubling fludrocortisone only',
+      'Switching to dexamethasone for 24 hours'
+    ],
+    correctOption: 0,
+    explanation: 'Sick-day rules typically increase hydrocortisone two to threefold.',
+    reference: 'Stress dosing: temporary hydrocortisone dose escalation during illness prevents crisis.'
+  },
+  {
+    id: 'pe-cr-010-q18',
+    subtopic: 'Differential diagnosis',
+    question: 'A 7-year-old girl develops rapidly progressive virilization over 2 months with very high DHEA-S. 17OHP is only mildly elevated. What is the most likely cause?',
+    options: [
+      'Nonclassic CAH',
+      'Androgen-secreting adrenal tumor',
+      'Simple virilizing CAH',
+      'Physiologic premature adrenarche'
+    ],
+    correctOption: 1,
+    explanation: 'Rapid progression and very high DHEA-S point toward a tumor.',
+    reference: 'Differential diagnosis: abrupt virilization with high DHEA-S suggests an adrenal tumor.'
+  },
+  {
+    id: 'pe-cr-010-q19',
+    subtopic: 'Genetics',
+    question: 'Two parents are known carriers of 21-hydroxylase deficiency. What is the probability that their next child will be affected?',
+    options: [
+      '0%',
+      '25%',
+      '50%',
+      '75%'
+    ],
+    correctOption: 1,
+    explanation: 'Autosomal recessive inheritance yields a 25% affected risk per pregnancy.',
+    reference: 'Inheritance: autosomal recessive disorders carry a 25% recurrence risk with two carriers.'
+  },
+  {
+    id: 'pe-cr-010-q20',
+    subtopic: 'Mineralocorticoid monitoring',
+    question: 'Which lab finding most strongly supports adequate mineralocorticoid replacement in a salt-wasting infant?',
+    options: [
+      'Persistently elevated plasma renin activity',
+      'Suppressed renin with normal electrolytes',
+      'Hyponatremia with normal potassium',
+      'High aldosterone with low renin'
+    ],
+    correctOption: 1,
+    explanation: 'Suppressed or normalized renin with stable electrolytes indicates adequate replacement.',
+    reference: 'Mineralocorticoid monitoring: normalized or suppressed renin suggests adequate dosing.'
+  },
+  {
+    id: 'pe-cr-010-q21',
+    subtopic: 'GIPP/GDPP',
+    question: 'In a newborn with suspected CAH and ambiguous genitalia, why is a standardized GIPP/GDPP documentation approach helpful?',
+    options: [
+      'It replaces genetic testing',
+      'It standardizes descriptions of gonadal, ductal, and genital findings',
+      'It determines final sex assignment immediately',
+      'It eliminates the need for hormone assays'
+    ],
+    correctOption: 1,
+    explanation: 'Structured documentation improves communication and team decision-making.',
+    reference: 'GIPP/GDPP: standardized DSD documentation clarifies gonadal, ductal, and genital findings.'
+  },
+  {
+    id: 'pe-cr-010-q22',
+    subtopic: 'Newborn screening',
+    question: 'A preterm infant has a mildly elevated 17OHP on screening. The next best step is:',
+    options: [
+      'Start high-dose dexamethasone immediately',
+      'Repeat 17OHP or perform second-tier steroid testing',
+      'Ignore the result as a false positive',
+      'Start fludrocortisone alone'
+    ],
+    correctOption: 1,
+    explanation: 'Prematurity can cause false positives; repeat or second-tier testing improves specificity.',
+    reference: 'Screening follow-up: repeat or second-tier testing clarifies false-positive elevations.'
+  },
+  {
+    id: 'pe-cr-010-q23',
+    subtopic: 'Fertility',
+    question: 'A 24-year-old woman with CAH wants to conceive. Which approach is most helpful for improving fertility?',
+    options: [
+      'Stop glucocorticoids to avoid fetal exposure',
+      'Optimize glucocorticoid therapy to control androgens',
+      'Use high-dose fludrocortisone only',
+      'Delay until after menopause'
+    ],
+    correctOption: 1,
+    explanation: 'Androgen control improves ovulation and fertility outcomes.',
+    reference: 'Fertility: optimizing androgen control supports ovulation and conception.'
+  },
+  {
+    id: 'pe-cr-010-q24',
+    subtopic: 'Diagnosis',
+    question: 'Which pattern best fits classic salt-wasting CAH due to 21-hydroxylase deficiency?',
+    options: [
+      'Low 17OHP, low renin, hypertension',
+      'High 17OHP, high renin, hyponatremia',
+      'Normal 17OHP, high cortisol, high aldosterone',
+      'Low 17OHP, high cortisol, low androgens'
+    ],
+    correctOption: 1,
+    explanation: 'Classic salt-wasting CAH features high 17OHP with mineralocorticoid deficiency.',
+    reference: 'Salt-wasting CAH: high 17OHP with elevated renin and hyponatremia is typical.'
+  },
+  {
+    id: 'pe-cr-010-q25',
+    subtopic: 'Long-term care',
+    question: 'Which outcome is most likely in a child with chronic undertreatment of CAH?',
+    options: [
+      'Delayed bone age with short stature',
+      'Advanced bone age and early epiphyseal closure',
+      'No impact on growth or puberty',
+      'Hypotension with normal androgens'
+    ],
+    correctOption: 1,
+    explanation: 'Excess androgens cause rapid growth and advanced bone age, limiting final height.',
+    reference: 'Undertreatment: persistent androgen excess accelerates bone age and reduces adult height.'
+  },
+  {
+    id: 'pe-cr-010-q26',
+    subtopic: 'Transition',
+    question: 'Which element is essential during transition of CAH care from pediatrics to adult services?',
+    options: [
+      'Immediate discontinuation of all medications',
+      'Review of emergency stress dosing and self-management skills',
+      'Avoiding discussion of fertility',
+      'Switching to long-acting steroids for convenience only'
+    ],
+    correctOption: 1,
+    explanation: 'Transition planning emphasizes self-management, including emergency dosing and adherence.',
+    reference: 'Transition care: reinforcing stress-dose and self-management skills is essential.'
+  }
+].map(mcq => ({ ...mcq, type: 'mcq' }));
+
+const trueFalse = [
+  {
+    id: 'pe-cr-010-tf1',
+    subtopic: 'Screening',
+    statement: 'Prematurity can cause false-positive elevations of 17OHP on newborn screening.',
+    correctAnswer: true,
+    explanation: 'Stress and prematurity elevate 17OHP levels.',
+    reference: 'Screening: prematurity and stress can raise 17OHP and trigger false positives.'
+  },
+  {
+    id: 'pe-cr-010-tf2',
+    subtopic: 'Salt-wasting crisis',
+    statement: 'Hyponatremia and hyperkalemia are expected in classic salt-wasting CAH.',
+    correctAnswer: true,
+    explanation: 'Mineralocorticoid deficiency leads to sodium loss and potassium retention.',
+    reference: 'Salt-wasting CAH: mineralocorticoid loss causes hyponatremia and hyperkalemia.'
+  },
+  {
+    id: 'pe-cr-010-tf3',
+    subtopic: 'Treatment',
+    statement: 'Long-acting glucocorticoids are preferred over hydrocortisone in young children.',
+    correctAnswer: false,
+    explanation: 'Hydrocortisone is preferred to minimize growth suppression.',
+    reference: 'Therapy: hydrocortisone is preferred in children to reduce growth suppression.'
+  },
+  {
+    id: 'pe-cr-010-tf4',
+    subtopic: 'Monitoring',
+    statement: 'Persistently suppressed 17OHP suggests overtreatment with glucocorticoids.',
+    correctAnswer: true,
+    explanation: 'Excess glucocorticoid suppresses ACTH and 17OHP production.',
+    reference: 'Monitoring: suppressed 17OHP indicates possible overtreatment.'
+  },
+  {
+    id: 'pe-cr-010-tf5',
+    subtopic: 'Nonclassic CAH',
+    statement: 'Nonclassic CAH often presents with hirsutism or irregular menses rather than neonatal crisis.',
+    correctAnswer: true,
+    explanation: 'Partial enzyme activity delays symptoms until adolescence or adulthood.',
+    reference: 'Nonclassic CAH: mild enzyme defects present later with hyperandrogenic symptoms.'
+  },
+  {
+    id: 'pe-cr-010-tf6',
+    subtopic: '11β-hydroxylase deficiency',
+    statement: '11β-hydroxylase deficiency typically causes hypertension due to DOC excess.',
+    correctAnswer: true,
+    explanation: 'DOC has mineralocorticoid activity, raising blood pressure.',
+    reference: '11β-hydroxylase deficiency: DOC excess drives hypertension.'
+  },
+  {
+    id: 'pe-cr-010-tf7',
+    subtopic: '17α-hydroxylase deficiency',
+    statement: '17α-hydroxylase deficiency usually causes hypotension from salt loss.',
+    correctAnswer: false,
+    explanation: 'It causes mineralocorticoid excess and hypertension.',
+    reference: '17α-hydroxylase deficiency: mineralocorticoid excess causes hypertension.'
+  },
+  {
+    id: 'pe-cr-010-tf8',
+    subtopic: 'TART',
+    statement: 'Testicular adrenal rest tumors can impair fertility in males with CAH.',
+    correctAnswer: true,
+    explanation: 'TART can damage testicular tissue and obstruct sperm production.',
+    reference: 'TART: adrenal rest tumors threaten male fertility if untreated.'
+  },
+  {
+    id: 'pe-cr-010-tf9',
+    subtopic: 'Prenatal therapy',
+    statement: 'Prenatal dexamethasone therapy is universally recommended for all pregnancies at risk.',
+    correctAnswer: false,
+    explanation: 'It is controversial due to exposure of unaffected fetuses and limited safety data.',
+    reference: 'Prenatal therapy: universal treatment is not recommended due to risk-benefit concerns.'
+  },
+  {
+    id: 'pe-cr-010-tf10',
+    subtopic: 'Genetics',
+    statement: 'Classic CAH due to 21-hydroxylase deficiency is autosomal recessive.',
+    correctAnswer: true,
+    explanation: 'Two carrier parents have a 25% affected risk per pregnancy.',
+    reference: 'Inheritance: 21-hydroxylase deficiency is autosomal recessive.'
+  },
+  {
+    id: 'pe-cr-010-tf11',
+    subtopic: 'Sex assignment',
+    statement: 'Deferring sex assignment until diagnostic evaluation is complete is recommended in ambiguous genitalia.',
+    correctAnswer: true,
+    explanation: 'This avoids premature decisions and supports informed counseling.',
+    reference: 'Sex assignment: delay until evaluation and counseling are complete.'
+  },
+  {
+    id: 'pe-cr-010-tf12',
+    subtopic: 'Monitoring',
+    statement: 'Plasma renin activity is a useful marker to adjust mineralocorticoid dosing.',
+    correctAnswer: true,
+    explanation: 'Renin reflects adequacy of sodium balance and mineralocorticoid effect.',
+    reference: 'Mineralocorticoid monitoring: renin guides dosing adjustments.'
+  }
+].map(tf => ({ ...tf, type: 'true_false' }));
+
+const assertionReason = [
+  {
+    id: 'pe-cr-010-ar1',
+    subtopic: '21-hydroxylase deficiency',
+    assertion: 'Classic 21-hydroxylase deficiency causes elevated ACTH levels.',
+    reason: 'Cortisol deficiency removes negative feedback to the pituitary.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Pathophysiology: cortisol deficiency raises ACTH due to loss of negative feedback.'
+  },
+  {
+    id: 'pe-cr-010-ar2',
+    subtopic: 'Salt-wasting crisis',
+    assertion: 'Infants with salt-wasting CAH often present in the second to third week of life.',
+    reason: 'The initial neonatal mineralocorticoid state masks aldosterone deficiency for several weeks.',
+    correctOption: 1,
+    explanation: 'The timing is true, but the stated reason is not the main explanation; symptoms emerge as feeding increases and reserves are lost.',
+    reference: 'Salt-wasting crisis: typical presentation is in the second to third week of life.'
+  },
+  {
+    id: 'pe-cr-010-ar3',
+    subtopic: 'Therapy',
+    assertion: 'Hydrocortisone is the preferred glucocorticoid in children with CAH.',
+    reason: 'Its short half-life reduces growth suppression compared with long-acting steroids.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Therapy: hydrocortisone is preferred because it minimizes growth suppression.'
+  },
+  {
+    id: 'pe-cr-010-ar4',
+    subtopic: 'Monitoring',
+    assertion: 'Suppressed 17OHP suggests possible overtreatment.',
+    reason: 'Excess glucocorticoid suppresses ACTH-driven steroid production.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Monitoring: suppressed 17OHP reflects ACTH suppression from overtreatment.'
+  },
+  {
+    id: 'pe-cr-010-ar5',
+    subtopic: '11β-hydroxylase deficiency',
+    assertion: '11β-hydroxylase deficiency can cause hypertension.',
+    reason: 'Excess 11-deoxycorticosterone has mineralocorticoid activity.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: '11β-hydroxylase deficiency: DOC excess causes hypertension.'
+  },
+  {
+    id: 'pe-cr-010-ar6',
+    subtopic: '17α-hydroxylase deficiency',
+    assertion: '17α-hydroxylase deficiency causes sexual infantilism.',
+    reason: 'Androgen and estrogen synthesis are reduced.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: '17α-hydroxylase deficiency: sex steroid deficiency leads to delayed puberty.'
+  },
+  {
+    id: 'pe-cr-010-ar7',
+    subtopic: 'Nonclassic CAH',
+    assertion: 'Nonclassic CAH can present with hirsutism in adolescence.',
+    reason: 'Partial enzyme activity allows mild androgen excess over time.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Nonclassic CAH: partial enzyme activity leads to gradual androgen excess.'
+  },
+  {
+    id: 'pe-cr-010-ar8',
+    subtopic: 'Prenatal therapy',
+    assertion: 'Prenatal dexamethasone can reduce virilization in affected female fetuses.',
+    reason: 'It suppresses fetal ACTH and adrenal androgen production when started early.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Prenatal therapy: early dexamethasone suppresses fetal adrenal androgen production.'
+  },
+  {
+    id: 'pe-cr-010-ar9',
+    subtopic: 'Mineralocorticoid therapy',
+    assertion: 'Fludrocortisone is used in salt-wasting CAH.',
+    reason: 'Mineralocorticoid deficiency leads to sodium wasting and high renin.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Mineralocorticoid replacement: fludrocortisone treats sodium wasting and high renin.'
+  },
+  {
+    id: 'pe-cr-010-ar10',
+    subtopic: 'TART',
+    assertion: 'Testicular adrenal rest tumors can be detected during adolescence.',
+    reason: 'They arise from ectopic adrenal tissue stimulated by chronic ACTH.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'TART: chronic ACTH stimulation leads to adrenal rest growth detectable in adolescence.'
+  },
+  {
+    id: 'pe-cr-010-ar11',
+    subtopic: 'Screening',
+    assertion: 'Prematurity can increase 17OHP levels on newborn screening.',
+    reason: 'Premature infants have higher baseline adrenal steroid production.',
+    correctOption: 1,
+    explanation: 'Both statements are true, but the elevation is multifactorial and not solely due to baseline production.',
+    reference: 'Screening: prematurity and stress elevate 17OHP and can cause false positives.'
+  },
+  {
+    id: 'pe-cr-010-ar12',
+    subtopic: 'Sex assignment',
+    assertion: 'Sex assignment should be delayed in a newborn with ambiguous genitalia.',
+    reason: 'Immediate assignment reduces the need for multidisciplinary evaluation.',
+    correctOption: 2,
+    explanation: 'The assertion is true, but the reason is false; evaluation is still required.',
+    reference: 'Sex assignment: delay until evaluation and counseling are complete.'
+  }
+].map(ar => ({ ...ar, type: 'assertion_reason' }));
+
+const output = {
+  id: 'pe-cr-010',
+  book: 'clinical_rounds',
+  chapterNo: '10',
+  title: 'Congenital Adrenal Hyperplasia',
+  section: 'Pediatric Endo',
+  sourceFile: 'pediatric_endo/clinical_rounds/010_congenital_adrenal_hyperplasia',
+  items: [...notes, ...mcqs, ...trueFalse, ...assertionReason]
+};
+
+fs.writeFileSync(OUT, JSON.stringify(output, null, 2) + '\n');
+
+const counts = output.items.reduce((acc, item) => {
+  acc[item.type] = (acc[item.type] || 0) + 1;
+  return acc;
+}, {});
+const whyHow = notes.filter(note => /^(Why|How)/.test(note.title)).length;
+console.log('Written:', OUT);
+console.log('Counts:', counts);
+console.log('Notes Why/How:', `${whyHow}/${notes.length}`);

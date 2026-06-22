@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renal Tubular Function Calculator</title>
+    <style>
+        :root {
+            --primary: #1a5f7a;
+            --primary-light: #2c8da8;
+            --secondary: #c84b31;
+            --accent: #f9d423;
+            --bg: #f0f4f8;
+            --card-bg: #ffffff;
+            --text: #2d3436;
+            --text-light: #636e72;
+            --border: #dfe6e9;
+            --success: #00b894;
+            --warning: #fdcb6e;
+            --danger: #d63031;
+            --info: #0984e3;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        header p { opacity: 0.9; font-size: 0.95rem; max-width: 700px; margin: 0 auto; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+            background: var(--card-bg);
+            padding: 0.75rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .tab-btn {
+            padding: 0.6rem 1.2rem;
+            border: none;
+            background: var(--bg);
+            color: var(--text);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .tab-btn:hover { background: #e1e8ed; }
+        .tab-btn.active { background: var(--primary); color: white; }
+        .tab-content { display: none; animation: fadeIn 0.3s ease; }
+        .tab-content.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            border-top: 4px solid var(--primary);
+        }
+        .card.danger { border-top-color: var(--danger); }
+        .card.warning { border-top-color: var(--warning); }
+        .card.success { border-top-color: var(--success); }
+        .card.info { border-top-color: var(--info); }
+        .card h2 {
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .card .formula {
+            background: #f8f9fa;
+            padding: 0.75rem;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+            overflow-x: auto;
+            border-left: 3px solid var(--primary-light);
+        }
+        .input-group { margin-bottom: 1rem; }
+        .input-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.35rem;
+            color: var(--text);
+        }
+        .input-group input, .input-group select {
+            width: 100%;
+            padding: 0.6rem 0.75rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+        .input-group input:focus, .input-group select:focus {
+            outline: none;
+            border-color: var(--primary-light);
+        }
+        .input-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+        .result-box {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border: 2px solid var(--primary-light);
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .result-box .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: 'Courier New', monospace;
+        }
+        .result-box .unit { font-size: 0.9rem; color: var(--text-light); }
+        .interpretation {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .interpretation.normal { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .interpretation.abnormal { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .interpretation.caution { background: #fff3cd; color: #856404; border: 1px solid #ffeaa7; }
+        .btn {
+            width: 100%;
+            padding: 0.75rem;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-size: 1rem;
+        }
+        .btn:hover { background: var(--primary-light); }
+        .btn-secondary { background: var(--secondary); }
+        .btn-secondary:hover { background: #e17055; }
+        .reference-box {
+            background: #fff9e6;
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            border-radius: 0 8px 8px 0;
+            margin-top: 1rem;
+            font-size: 0.85rem;
+        }
+        .reference-box h4 { color: #856404; margin-bottom: 0.5rem; }
+        .reference-box ul { margin-left: 1.2rem; color: #856404; }
+        .reference-box li { margin-bottom: 0.3rem; }
+        .shared-panel {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            margin-bottom: 1.5rem;
+        }
+        .shared-panel h2 { font-size: 1.2rem; color: var(--primary); margin-bottom: 1rem; }
+        .input-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .badge-serum { background: #e3f2fd; color: #1565c0; }
+        .badge-urine { background: #fce4ec; color: #c2185b; }
+        .badge-calculated { background: #f3e5f5; color: #7b1fa2; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+        .note {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        .prerequisite {
+            background: #e8f5e9;
+            border: 1px solid #a5d6a7;
+            color: #2e7d32;
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+        }
+        .full-width { grid-column: 1 / -1; }
+        @media (max-width: 600px) {
+            .input-row { grid-template-columns: 1fr; }
+            .input-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 1.4rem; }
+            .tabs { overflow-x: auto; flex-wrap: nowrap; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Renal Tubular Function Calculator</h1>
+        <p>Comprehensive "Glassbox" Nephron Diagnostics: Evaluate salt-wasting nephropathies, tubular defects, and electrolyte derangements from first principles.</p>
+    </header>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('dashboard')">Dashboard</button>
+            <button class="tab-btn" onclick="showTab('volume')">Volume & Na</button>
+            <button class="tab-btn" onclick="showTab('potassium')">K Handling</button>
+            <button class="tab-btn" onclick="showTab('acidbase')">Acid-Base</button>
+            <button class="tab-btn" onclick="showTab('phosphate')">Phosphate</button>
+            <button class="tab-btn" onclick="showTab('magnesium')">Magnesium</button>
+            <button class="tab-btn" onclick="showTab('urine')">Urine Chemistry</button>
+        </div>
+
+        <!-- Shared Lab Values Panel -->
+        <div class="shared-panel">
+            <h2>Shared Laboratory Values</h2>
+            <div class="input-grid">
+                <div class="input-group">
+                    <label>Serum Creatinine (mg/dL) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_cr" step="0.01" placeholder="e.g. 1.0">
+                </div>
+                <div class="input-group">
+                    <label>Urine Creatinine (mg/dL or g/L) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_cr" step="0.1" placeholder="e.g. 100">
+                </div>
+                <div class="input-group">
+                    <label>Serum Sodium (mEq/L) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_na" step="0.1" placeholder="e.g. 140">
+                </div>
+                <div class="input-group">
+                    <label>Urine Sodium (mEq/L) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_na" step="0.1" placeholder="e.g. 40">
+                </div>
+                <div class="input-group">
+                    <label>Serum Potassium (mEq/L) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_k" step="0.1" placeholder="e.g. 3.5">
+                </div>
+                <div class="input-group">
+                    <label>Urine Potassium (mEq/L) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_k" step="0.1" placeholder="e.g. 30">
+                </div>
+                <div class="input-group">
+                    <label>Serum Chloride (mEq/L) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_cl" step="0.1" placeholder="e.g. 100">
+                </div>
+                <div class="input-group">
+                    <label>Urine Chloride (mEq/L) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_cl" step="0.1" placeholder="e.g. 50">
+                </div>
+                <div class="input-group">
+                    <label>Serum Urea/BUN (mg/dL) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_bun" step="0.1" placeholder="e.g. 15">
+                </div>
+                <div class="input-group">
+                    <label>Urine Urea (mg/dL) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_bun" step="0.1" placeholder="e.g. 200">
+                </div>
+                <div class="input-group">
+                    <label>Serum Uric Acid (mg/dL) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_ua" step="0.1" placeholder="e.g. 5.0">
+                </div>
+                <div class="input-group">
+                    <label>Urine Uric Acid (mg/dL) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_ua" step="0.1" placeholder="e.g. 40">
+                </div>
+                <div class="input-group">
+                    <label>Serum Phosphate (mg/dL) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_po4" step="0.1" placeholder="e.g. 3.5">
+                </div>
+                <div class="input-group">
+                    <label>Urine Phosphate (mg/dL) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_po4" step="0.1" placeholder="e.g. 50">
+                </div>
+                <div class="input-group">
+                    <label>Serum Magnesium (mg/dL) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_mg" step="0.01" placeholder="e.g. 1.8">
+                </div>
+                <div class="input-group">
+                    <label>Urine Magnesium (mg/dL) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_mg" step="0.1" placeholder="e.g. 10">
+                </div>
+                <div class="input-group">
+                    <label>Serum Calcium (mg/dL) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_ca" step="0.1" placeholder="e.g. 9.0">
+                </div>
+                <div class="input-group">
+                    <label>Urine Calcium (mg/dL) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_ca" step="0.1" placeholder="e.g. 5.0">
+                </div>
+                <div class="input-group">
+                    <label>Serum Osmolality (mOsm/kg) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_osm" step="1" placeholder="e.g. 290">
+                </div>
+                <div class="input-group">
+                    <label>Urine Osmolality (mOsm/kg) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_osm" step="1" placeholder="e.g. 600">
+                </div>
+                <div class="input-group">
+                    <label>Serum Glucose (mg/dL) <span class="badge badge-serum">Serum</span></label>
+                    <input type="number" id="p_glucose" step="1" placeholder="e.g. 90">
+                </div>
+                <div class="input-group">
+                    <label>Urine Glucose (mg/dL) <span class="badge badge-urine">Urine</span></label>
+                    <input type="number" id="u_glucose" step="1" placeholder="e.g. 0">
+                </div>
+            </div>
+            <div style="margin-top:1rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
+                <button class="btn" onclick="calculateAll()" style="width:auto; padding: 0.75rem 1.5rem;">Calculate All</button>
+                <button class="btn btn-secondary" onclick="clearAll()" style="width:auto; padding: 0.75rem 1.5rem; background: #636e72;">Clear All</button>
+            </div>
+        </div>
+
+        <!-- DASHBOARD TAB -->
+        <div id="dashboard" class="tab-content active">
+            <div class="grid" id="dashboardGrid">
+                <!-- Cards will be injected here by JS -->
+            </div>
+        </div>
+
+        <!-- VOLUME & SODIUM TAB -->
+        <div id="volume" class="tab-content">
+            <div class="grid">
+                <div class="card">
+                    <h2>Fractional Excretion of Sodium (FE<sub>Na</sub>)</h2>
+                    <div class="formula">FE<sub>Na</sub> = (U<sub>Na</sub> × P<sub>Cr</sub>) / (P<sub>Na</sub> × U<sub>Cr</sub>) × 100</div>
+                    <button class="btn" onclick="calcFENa()">Calculate</button>
+                    <div class="result-box" id="res_fe_na" style="display:none">
+                        <div class="value" id="val_fe_na">--</div>
+                        <div class="unit">%</div>
+                        <div class="interpretation" id="interp_fe_na"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation</h4>
+                        <ul>
+                            <li><strong>&lt; 1%:</strong> Pre-renal azotemia (appropriate conservation)</li>
+                            <li><strong>&gt; 1-2%:</strong> Intrinsic tubular injury or salt wasting</li>
+                            <li><strong>False Positives:</strong> Diuretics, CKD, metabolic alkalosis</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card warning">
+                    <h2>Fractional Excretion of Chloride (FE<sub>Cl</sub>)</h2>
+                    <div class="formula">FE<sub>Cl</sub> = (U<sub>Cl</sub> × P<sub>Cr</sub>) / (P<sub>Cl</sub> × U<sub>Cr</sub>) × 100</div>
+                    <button class="btn" onclick="calcFECl()">Calculate</button>
+                    <div class="result-box" id="res_fe_cl" style="display:none">
+                        <div class="value" id="val_fe_cl">--</div>
+                        <div class="unit">%</div>
+                        <div class="interpretation" id="interp_fe_cl"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation (Metabolic Alkalosis)</h4>
+                        <ul>
+                            <li><strong>&lt; 1%:</strong> True volume depletion (chloride-responsive)</li>
+                            <li><strong>&gt; 1-2%:</strong> Renal chloride wasting (Bartter, Gitelman, diuretics)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Fractional Excretion of Urea (FE<sub>Urea</sub>)</h2>
+                    <div class="formula">FE<sub>Urea</sub> = (U<sub>Urea</sub> × P<sub>Cr</sub>) / (P<sub>Urea</sub> × U<sub>Cr</sub>) × 100</div>
+                    <button class="btn" onclick="calcFEUrea()">Calculate</button>
+                    <div class="result-box" id="res_fe_urea" style="display:none">
+                        <div class="value" id="val_fe_urea">--</div>
+                        <div class="unit">%</div>
+                        <div class="interpretation" id="interp_fe_urea"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation (On Diuretics)</h4>
+                        <ul>
+                            <li><strong>&lt; 35%:</strong> Pre-renal state (volume depletion)</li>
+                            <li><strong>&gt; 50-65%:</strong> Intrinsic tubular injury (ATN)</li>
+                            <li><strong>Advantage:</strong> Urea handling is proximal; less affected by diuretics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card info">
+                    <h2>Fractional Excretion of Uric Acid (FE<sub>UA</sub>)</h2>
+                    <div class="formula">FE<sub>UA</sub> = (U<sub>UA</sub> × P<sub>Cr</sub>) / (P<sub>UA</sub> × U<sub>Cr</sub>) × 100</div>
+                    <button class="btn" onclick="calcFEUA()">Calculate</button>
+                    <div class="result-box" id="res_fe_ua" style="display:none">
+                        <div class="value" id="val_fe_ua">--</div>
+                        <div class="unit">%</div>
+                        <div class="interpretation" id="interp_fe_ua"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>SIADH vs Salt Wasting (The Diagnostic Flip)</h4>
+                        <ul>
+                            <li><strong>Normal:</strong> &lt; 10%</li>
+                            <li><strong>After correcting hyponatremia:</strong> Normalizes in SIADH; remains &gt;11% in Renal Salt Wasting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- POTASSIUM TAB -->
+        <div id="potassium" class="tab-content">
+            <div class="grid">
+                <div class="card warning">
+                    <h2>Transtubular Potassium Gradient (TTKG)</h2>
+                    <div class="prerequisite">Prerequisite: U<sub>Osm</sub> &gt; P<sub>Osm</sub> and U<sub>Na</sub> &gt; 25 mEq/L</div>
+                    <div class="formula">TTKG = [U<sub>K</sub> / (U<sub>Osm</sub> / P<sub>Osm</sub>)] / P<sub>K</sub></div>
+                    <button class="btn" onclick="calcTTKG()">Calculate</button>
+                    <div class="result-box" id="res_ttkg" style="display:none">
+                        <div class="value" id="val_ttkg">--</div>
+                        <div class="unit">unitless</div>
+                        <div class="interpretation" id="interp_ttkg"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation in Hypokalemia</h4>
+                        <ul>
+                            <li><strong>TTKG &gt; 4:</strong> Renal K wasting (inappropriate aldosterone activity or distal non-responsiveness)</li>
+                            <li><strong>TTKG &lt; 3:</strong> Appropriate renal conservation (extra-renal loss)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Fractional Excretion of Potassium (FE<sub>K</sub>)</h2>
+                    <div class="formula">FE<sub>K</sub> = (U<sub>K</sub> × P<sub>Cr</sub>) / (P<sub>K</sub> × U<sub>Cr</sub>) × 100</div>
+                    <button class="btn" onclick="calcFEK()">Calculate</button>
+                    <div class="result-box" id="res_fe_k" style="display:none">
+                        <div class="value" id="val_fe_k">--</div>
+                        <div class="unit">%</div>
+                        <div class="interpretation" id="interp_fe_k"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation in Hypokalemia</h4>
+                        <ul>
+                            <li><strong>&gt; 6-10%:</strong> Inappropriate renal K wasting</li>
+                            <li><strong>Dependent on intake</strong>; less specific than TTKG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Urine K/Creatinine Ratio</h2>
+                    <div class="formula">Ratio = U<sub>K</sub> (mEq/L) / U<sub>Cr</sub> (g/L)</div>
+                    <div class="input-group">
+                        <label>Urine Creatinine Unit</label>
+                        <select id="ucr_unit_k">
+                            <option value="mgdl">mg/dL</option>
+                            <option value="gl">g/L</option>
+                        </select>
+                        <p class="note">1 g/L = 100 mg/dL. Select appropriately.</p>
+                    </div>
+                    <button class="btn" onclick="calcUKCr()">Calculate</button>
+                    <div class="result-box" id="res_uk_cr" style="display:none">
+                        <div class="value" id="val_uk_cr">--</div>
+                        <div class="unit">mEq/g</div>
+                        <div class="interpretation" id="interp_uk_cr"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation in Hypokalemia</h4>
+                        <ul>
+                            <li><strong>&gt; 13 mEq/g (or &gt; 1.5 mmol/mmol):</strong> Renal wasting</li>
+                            <li><strong>&lt; 13 mEq/g:</strong> GI loss or intracellular shift</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACID-BASE TAB -->
+        <div id="acidbase" class="tab-content">
+            <div class="grid">
+                <div class="card">
+                    <h2>Urine Anion Gap (UAG)</h2>
+                    <div class="formula">UAG = U<sub>Na</sub> + U<sub>K</sub> - U<sub>Cl</sub></div>
+                    <button class="btn" onclick="calcUAG()">Calculate</button>
+                    <div class="result-box" id="res_uag" style="display:none">
+                        <div class="value" id="val_uag">--</div>
+                        <div class="unit">mEq/L</div>
+                        <div class="interpretation" id="interp_uag"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation (NAGMA)</h4>
+                        <ul>
+                            <li><strong>Negative (-20 to -50):</strong> Kidney producing NH<sub>4</sub><sup>+</sup> appropriately. Acidosis likely extra-renal (diarrhea).</li>
+                            <li><strong>Positive:</strong> Failing to excrete NH<sub>4</sub><sup>+</sup>. Distal (Type 1) or Hypoaldosterone (Type 4) RTA.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card info">
+                    <h2>Urine Osmolar Gap (UOG)</h2>
+                    <div class="formula">UOG = Measured U<sub>Osm</sub> - Calculated U<sub>Osm</sub></div>
+                    <div class="formula">Calc U<sub>Osm</sub> = 2×(U<sub>Na</sub>+U<sub>K</sub>) + U<sub>BUN</sub>/2.8 + U<sub>Glucose</sub>/18</div>
+                    <button class="btn" onclick="calcUOG()">Calculate</button>
+                    <div class="result-box" id="res_uog" style="display:none">
+                        <div class="value" id="val_uog">--</div>
+                        <div class="unit">mOsm/kg</div>
+                        <div class="interpretation" id="interp_uog"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation (Robust NH<sub>4</sub><sup>+</sup> Surrogate)</h4>
+                        <ul>
+                            <li><strong>Normal gap:</strong> 10-100 mOsm/kg</li>
+                            <li><strong>Metabolic acidosis + gap &gt; 150:</strong> Appropriate renal response</li>
+                            <li><strong>Low UOG during acidosis:</strong> Intrinsic RTA (Type 1 or 2)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PHOSPHATE TAB -->
+        <div id="phosphate" class="tab-content">
+            <div class="grid">
+                <div class="card">
+                    <h2>Fractional Excretion of Phosphorus (FE<sub>PO4</sub>)</h2>
+                    <div class="formula">FE<sub>PO4</sub> = (U<sub>PO4</sub> × P<sub>Cr</sub>) / (P<sub>PO4</sub> × U<sub>Cr</sub>) × 100</div>
+                    <button class="btn" onclick="calcFEPO4()">Calculate</button>
+                    <div class="result-box" id="res_fe_po4" style="display:none">
+                        <div class="value" id="val_fe_po4">--</div>
+                        <div class="unit">%</div>
+                        <div class="interpretation" id="interp_fe_po4"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation</h4>
+                        <ul>
+                            <li><strong>Normal:</strong> 5-20%</li>
+                            <li><strong>Elevated:</strong> Proximal tubulopathy (Fanconi-like)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Tubular Reabsorption of Phosphate (TRP)</h2>
+                    <div class="formula">TRP = 1 - (U<sub>PO4</sub> × P<sub>Cr</sub>) / (P<sub>PO4</sub> × U<sub>Cr</sub>)</div>
+                    <button class="btn" onclick="calcTRP()">Calculate</button>
+                    <div class="result-box" id="res_trp" style="display:none">
+                        <div class="value" id="val_trp">--</div>
+                        <div class="unit">fraction</div>
+                        <div class="interpretation" id="interp_trp"></div>
+                    </div>
+                </div>
+                <div class="card success">
+                    <h2>TmP/GFR (Walton & Bijvoet)</h2>
+                    <div class="formula">If TRP ≤ 0.86: TmP/GFR = P<sub>PO4</sub> × TRP</div>
+                    <div class="formula">If TRP > 0.86: TmP/GFR = P<sub>PO4</sub> × (0.3 × TRP) / (1 - 0.8 × TRP)</div>
+                    <button class="btn" onclick="calcTmP()">Calculate</button>
+                    <div class="result-box" id="res_tmp" style="display:none">
+                        <div class="value" id="val_tmp">--</div>
+                        <div class="unit">mg/dL</div>
+                        <div class="interpretation" id="interp_tmp"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation (GFR-Independent)</h4>
+                        <ul>
+                            <li><strong>Low TmP/GFR:</strong> Confirms primary proximal tubular phosphate wasting (FGF23 excess, Fanconi syndrome)</li>
+                            <li>Independent of patient's renal function</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAGNESIUM TAB -->
+        <div id="magnesium" class="tab-content">
+            <div class="grid">
+                <div class="card">
+                    <h2>Fractional Excretion of Magnesium (FE<sub>Mg</sub>)</h2>
+                    <div class="formula">FE<sub>Mg</sub> = (U<sub>Mg</sub> × P<sub>Cr</sub>) / (0.7 × P<sub>Mg</sub> × U<sub>Cr</sub>) × 100</div>
+                    <p class="note">0.7 factor because only ~70% of plasma Mg is ultrafiltrable at the glomerulus.</p>
+                    <button class="btn" onclick="calcFEMg()">Calculate</button>
+                    <div class="result-box" id="res_fe_mg" style="display:none">
+                        <div class="value" id="val_fe_mg">--</div>
+                        <div class="unit">%</div>
+                        <div class="interpretation" id="interp_fe_mg"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Interpretation in Hypomagnesemia</h4>
+                        <ul>
+                            <li><strong>&gt; 2-4%:</strong> Confirms renal Mg wasting</li>
+                            <li><strong>Characteristic of:</strong> Gitelman syndrome, Bartter variants, diuretic use</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Urine Calcium/Creatinine Ratio</h2>
+                    <div class="formula">Ratio = U<sub>Ca</sub> (mg/dL) / U<sub>Cr</sub> (mg/dL)</div>
+                    <button class="btn" onclick="calcUCaCr()">Calculate</button>
+                    <div class="result-box" id="res_uca_cr" style="display:none">
+                        <div class="value" id="val_uca_cr">--</div>
+                        <div class="unit">ratio</div>
+                        <div class="interpretation" id="interp_uca_cr"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Bartter vs Gitelman Differentiation</h4>
+                        <ul>
+                            <li><strong>&lt; 0.02:</strong> Gitelman-like (hypocalciuria, thiazide effect)</li>
+                            <li><strong>&gt; 0.20:</strong> Bartter-like (hypercalciuria, loop diuretic effect)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- URINE CHEMISTRY TAB -->
+        <div id="urine" class="tab-content">
+            <div class="grid">
+                <div class="card">
+                    <h2>Calculated Urine Osmolality</h2>
+                    <div class="formula">Calc U<sub>Osm</sub> = 2×(U<sub>Na</sub> + U<sub>K</sub>) + U<sub>BUN</sub>/2.8 + U<sub>Glucose</sub>/18</div>
+                    <button class="btn" onclick="calcUrineOsm()">Calculate</button>
+                    <div class="result-box" id="res_uosm_calc" style="display:none">
+                        <div class="value" id="val_uosm_calc">--</div>
+                        <div class="unit">mOsm/kg</div>
+                        <div class="interpretation" id="interp_uosm_calc"></div>
+                    </div>
+                    <div class="reference-box">
+                        <h4>Compare to Measured U<sub>Osm</sub></h4>
+                        <ul>
+                            <li>Large discrepancies suggest unmeasured osmoles (ammonium salts, ketones, hippurate, etc.)</li>
+                            <li>Use this to compute the UOG above</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card info">
+                    <h2>Nephron Segment Map</h2>
+                    <div style="font-size: 0.85rem; line-height: 1.8;">
+                        <p><strong>Proximal Tubule:</strong> FE<sub>Na</sub>, FE<sub>Urea</sub>, FE<sub>PO4</sub>, TRP, TmP/GFR, FE<sub>UA</sub> (partial), glucose, amino acids</p>
+                        <p><strong>Thick Ascending Limb (TAL):</strong> FE<sub>Na</sub>, FE<sub>Cl</sub>, FE<sub>K</sub>, FE<sub>Mg</sub>, FE<sub>Ca</sub> (Bartter phenotype)</p>
+                        <p><strong>Distal Convoluted Tubule (DCT):</strong> FE<sub>Na</sub>, FE<sub>Cl</sub>, FE<sub>Mg</sub>, FE<sub>Ca</sub> (Gitelman phenotype)</p>
+                        <p><strong>Cortical Collecting Duct:</strong> TTKG, UAG, acid excretion, K secretion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Renal Tubular Function Calculator | For educational and clinical decision-support purposes only. Not a substitute for professional medical judgment.</p>
+    </footer>
+
+    <script>
+        function getVal(id) {
+            const el = document.getElementById(id);
+            return el ? parseFloat(el.value) : NaN;
+        }
+        function showResult(resId, valId, value, unit, interpId, interpHtml, interpClass) {
+            const resBox = document.getElementById(resId);
+            const valBox = document.getElementById(valId);
+            const interpBox = document.getElementById(interpId);
+            valBox.textContent = value;
+            resBox.style.display = 'block';
+            if (interpBox) {
+                interpBox.innerHTML = interpHtml;
+                interpBox.className = 'interpretation ' + (interpClass || 'normal');
+            }
+        }
+        function showError(resId) {
+            document.getElementById(resId).style.display = 'none';
+            alert('Please fill all required fields with valid positive numbers.');
+        }
+        function safeDiv(num, den) {
+            if (!isFinite(num) || !isFinite(den) || den === 0) return NaN;
+            return num / den;
+        }
+
+        // Tab management
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+            if (tabId === 'dashboard') renderDashboard();
+        }
+
+        // 1. FE_Na
+        function calcFENa() {
+            const uNa = getVal('u_na'), pCr = getVal('p_cr'), pNa = getVal('p_na'), uCr = getVal('u_cr');
+            if ([uNa, pCr, pNa, uCr].some(isNaN) || uCr === 0 || pNa === 0) return showError('res_fe_na');
+            const fe = (uNa * pCr) / (pNa * uCr) * 100;
+            let interp = '', cls = 'normal';
+            if (fe < 1) { interp = '<strong>&lt; 1%:</strong> Suggests pre-renal azotemia / appropriate conservation.'; cls = 'normal'; }
+            else if (fe < 2) { interp = '<strong>1-2%:</strong> Gray zone. Consider diuretic use or early injury.'; cls = 'caution'; }
+            else { interp = '<strong>&gt; 2%:</strong> Inappropriate natriuresis. Intrinsic tubular injury or salt-wasting nephropathy.'; cls = 'abnormal'; }
+            showResult('res_fe_na', 'val_fe_na', fe.toFixed(2), '%', 'interp_fe_na', interp, cls);
+        }
+
+        // 2. FE_Cl
+        function calcFECl() {
+            const uCl = getVal('u_cl'), pCr = getVal('p_cr'), pCl = getVal('p_cl'), uCr = getVal('u_cr');
+            if ([uCl, pCr, pCl, uCr].some(isNaN) || uCr === 0 || pCl === 0) return showError('res_fe_cl');
+            const fe = (uCl * pCr) / (pCl * uCr) * 100;
+            let interp = '', cls = 'normal';
+            if (fe < 1) { interp = '<strong>&lt; 1%:</strong> True volume depletion (chloride-responsive alkalosis).'; cls = 'normal'; }
+            else if (fe < 2) { interp = '<strong>1-2%:</strong> Borderline. Consider mixed picture.'; cls = 'caution'; }
+            else { interp = '<strong>&gt; 2%:</strong> Renal chloride wasting. Consider Bartter, Gitelman, or diuretic use.'; cls = 'abnormal'; }
+            showResult('res_fe_cl', 'val_fe_cl', fe.toFixed(2), '%', 'interp_fe_cl', interp, cls);
+        }
+
+        // 3. FE_Urea
+        function calcFEUrea() {
+            const uBUN = getVal('u_bun'), pCr = getVal('p_cr'), pBUN = getVal('p_bun'), uCr = getVal('u_cr');
+            if ([uBUN, pCr, pBUN, uCr].some(isNaN) || uCr === 0 || pBUN === 0) return showError('res_fe_urea');
+            const fe = (uBUN * pCr) / (pBUN * uCr) * 100;
+            let interp = '', cls = 'normal';
+            if (fe < 35) { interp = '<strong>&lt; 35%:</strong> Pre-renal state (volume depletion). Kidneys conserving urea appropriately.'; cls = 'normal'; }
+            else if (fe < 50) { interp = '<strong>35-50%:</strong> Gray zone. Clinical context needed.'; cls = 'caution'; }
+            else { interp = '<strong>&gt; 50%:</strong> Intrinsic tubular injury (ATN). Urea handling is impaired.'; cls = 'abnormal'; }
+            showResult('res_fe_urea', 'val_fe_urea', fe.toFixed(1), '%', 'interp_fe_urea', interp, cls);
+        }
+
+        // 4. FE_UA
+        function calcFEUA() {
+            const uUA = getVal('u_ua'), pCr = getVal('p_cr'), pUA = getVal('p_ua'), uCr = getVal('u_cr');
+            if ([uUA, pCr, pUA, uCr].some(isNaN) || uCr === 0 || pUA === 0) return showError('res_fe_ua');
+            const fe = (uUA * pCr) / (pUA * uCr) * 100;
+            let interp = '', cls = 'normal';
+            if (fe < 10) { interp = '<strong>&lt; 10%:</strong> Normal uric acid handling.'; cls = 'normal'; }
+            else { interp = '<strong>&gt; 10%:</strong> Elevated. In SIADH vs Salt Wasting, perform the diagnostic flip: after correcting hyponatremia, normalizes in SIADH but remains &gt;11% in Renal Salt Wasting.'; cls = 'caution'; }
+            showResult('res_fe_ua', 'val_fe_ua', fe.toFixed(1), '%', 'interp_fe_ua', interp, cls);
+        }
+
+        // 5. TTKG
+        function calcTTKG() {
+            const uK = getVal('u_k'), uOsm = getVal('u_osm'), pOsm = getVal('p_osm'), pK = getVal('p_k'), uNa = getVal('u_na');
+            if ([uK, uOsm, pOsm, pK].some(isNaN) || pOsm === 0 || pK === 0) return showError('res_ttkg');
+            if (uOsm <= pOsm) {
+                alert('Prerequisite not met: Urine Osm must exceed Plasma Osm.');
+                return showError('res_ttkg');
+            }
+            const ttkg = (uK / (uOsm / pOsm)) / pK;
+            let interp = '', cls = 'normal';
+            if (ttkg < 3) { interp = '<strong>&lt; 3:</strong> Appropriate renal conservation of K.'; cls = 'normal'; }
+            else if (ttkg <= 4) { interp = '<strong>3-4:</strong> Borderline. Consider context.'; cls = 'caution'; }
+            else { interp = '<strong>&gt; 4:</strong> Inappropriate renal K wasting. Aldosterone active or distal tubule non-responsive.'; cls = 'abnormal'; }
+            showResult('res_ttkg', 'val_ttkg', ttkg.toFixed(2), 'unitless', 'interp_ttkg', interp, cls);
+        }
+
+        // 6. FE_K
+        function calcFEK() {
+            const uK = getVal('u_k'), pCr = getVal('p_cr'), pK = getVal('p_k'), uCr = getVal('u_cr');
+            if ([uK, pCr, pK, uCr].some(isNaN) || uCr === 0 || pK === 0) return showError('res_fe_k');
+            const fe = (uK * pCr) / (pK * uCr) * 100;
+            let interp = '', cls = 'normal';
+            if (fe < 6) { interp = '<strong>&lt; 6%:</strong> Appropriate renal K conservation.'; cls = 'normal'; }
+            else if (fe <= 10) { interp = '<strong>6-10%:</strong> Borderline inappropriate K wasting.'; cls = 'caution'; }
+            else { interp = '<strong>&gt; 10%:</strong> Inappropriate renal K wasting.'; cls = 'abnormal'; }
+            showResult('res_fe_k', 'val_fe_k', fe.toFixed(2), '%', 'interp_fe_k', interp, cls);
+        }
+
+        // 7. Urine K/Cr Ratio
+        function calcUKCr() {
+            const uK = getVal('u_k'), uCr = getVal('u_cr');
+            if ([uK, uCr].some(isNaN) || uCr === 0) return showError('res_uk_cr');
+            const unit = document.getElementById('ucr_unit_k').value;
+            // Convert uCr to g/L if in mg/dL: 1 mg/dL = 0.01 g/L
+            let uCrGL = unit === 'mgdl' ? uCr * 0.01 : uCr;
+            const ratio = uK / uCrGL;
+            let interp = '', cls = 'normal';
+            if (ratio < 13) { interp = '<strong>&lt; 13 mEq/g:</strong> Non-renal K loss (GI loss or intracellular shift).'; cls = 'normal'; }
+            else { interp = '<strong>&gt; 13 mEq/g:</strong> Renal K wasting.'; cls = 'abnormal'; }
+            showResult('res_uk_cr', 'val_uk_cr', ratio.toFixed(1), 'mEq/g', 'interp_uk_cr', interp, cls);
+        }
+
+        // 8. UAG
+        function calcUAG() {
+            const uNa = getVal('u_na'), uK = getVal('u_k'), uCl = getVal('u_cl');
+            if ([uNa, uK, uCl].some(isNaN)) return showError('res_uag');
+            const uag = uNa + uK - uCl;
+            let interp = '', cls = 'normal';
+            if (uag < 0) { interp = '<strong>Negative UAG:</strong> Kidney is successfully producing NH<sub>4</sub><sup>+</sup>. Acidosis likely extra-renal (e.g., diarrhea).'; cls = 'normal'; }
+            else { interp = '<strong>Positive UAG:</strong> Kidney failing to excrete NH<sub>4</sub><sup>+</sup>. Consider Distal (Type 1) or Hypoaldosterone (Type 4) RTA.'; cls = 'abnormal'; }
+            showResult('res_uag', 'val_uag', uag.toFixed(1), 'mEq/L', 'interp_uag', interp, cls);
+        }
+
+        // 9. UOG
+        function calcUOG() {
+            const uOsm = getVal('u_osm'), uNa = getVal('u_na'), uK = getVal('u_k'), uBUN = getVal('u_bun'), uGlucose = getVal('u_glucose');
+            if ([uOsm, uNa, uK, uBUN, uGlucose].some(isNaN)) return showError('res_uog');
+            const calcOsm = 2 * (uNa + uK) + uBUN / 2.8 + uGlucose / 18;
+            const uog = uOsm - calcOsm;
+            let interp = '', cls = 'normal';
+            if (uog > 150) { interp = '<strong>Gap &gt; 150:</strong> Robust ammonium excretion. Appropriate renal response to acidosis.'; cls = 'normal'; }
+            else if (uog >= 100) { interp = '<strong>Gap 100-150:</strong> Acceptable response; consider clinical context.'; cls = 'caution'; }
+            else { interp = '<strong>Gap &lt; 100:</strong> Low UOG during acidosis suggests intrinsic renal acidification defect (RTA).'; cls = 'abnormal'; }
+            showResult('res_uog', 'val_uog', uog.toFixed(1), 'mOsm/kg', 'interp_uog', interp, cls);
+        }
+
+        // 10. FE_PO4
+        function calcFEPO4() {
+            const uPO4 = getVal('u_po4'), pCr = getVal('p_cr'), pPO4 = getVal('p_po4'), uCr = getVal('u_cr');
+            if ([uPO4, pCr, pPO4, uCr].some(isNaN) || uCr === 0 || pPO4 === 0) return showError('res_fe_po4');
+            const fe = (uPO4 * pCr) / (pPO4 * uCr) * 100;
+            let interp = '', cls = 'normal';
+            if (fe <= 20) { interp = '<strong>≤ 20%:</strong> Normal or near-normal phosphate handling.'; cls = 'normal'; }
+            else { interp = '<strong>&gt; 20%:</strong> Elevated. Proximal tubulopathy / Fanconi-like syndrome suspected.'; cls = 'abnormal'; }
+            showResult('res_fe_po4', 'val_fe_po4', fe.toFixed(1), '%', 'interp_fe_po4', interp, cls);
+        }
+
+        // 11. TRP
+        function calcTRP() {
+            const uPO4 = getVal('u_po4'), pCr = getVal('p_cr'), pPO4 = getVal('p_po4'), uCr = getVal('u_cr');
+            if ([uPO4, pCr, pPO4, uCr].some(isNaN) || uCr === 0 || pPO4 === 0) return showError('res_trp');
+            const trp = 1 - ((uPO4 * pCr) / (pPO4 * uCr));
+            let interp = '', cls = 'normal';
+            if (trp > 0.86) { interp = '<strong>TRP &gt; 0.86:</strong> High phosphate reabsorption. Use TmP/GFR equation for TRP > 0.86.'; cls = 'normal'; }
+            else if (trp > 0) { interp = '<strong>TRP ≤ 0.86:</strong> Lower reabsorption. Use simple TmP/GFR equation.'; cls = 'caution'; }
+            else { interp = '<strong>TRP ≤ 0:</strong> Net phosphate wasting.'; cls = 'abnormal'; }
+            showResult('res_trp', 'val_trp', trp.toFixed(3), 'fraction', 'interp_trp', interp, cls);
+        }
+
+        // 12. TmP/GFR
+        function calcTmP() {
+            const uPO4 = getVal('u_po4'), pCr = getVal('p_cr'), pPO4 = getVal('p_po4'), uCr = getVal('u_cr');
+            if ([uPO4, pCr, pPO4, uCr].some(isNaN) || uCr === 0 || pPO4 === 0) return showError('res_tmp');
+            const trp = 1 - ((uPO4 * pCr) / (pPO4 * uCr));
+            let tmp = 0;
+            if (trp <= 0.86) {
+                tmp = pPO4 * trp;
+            } else {
+                tmp = pPO4 * ((0.3 * trp) / (1 - 0.8 * trp));
+            }
+            let interp = '', cls = 'normal';
+            if (tmp < 2.0) { interp = '<strong>Low TmP/GFR:</strong> Confirms primary proximal tubular phosphate wasting (FGF23 excess, Fanconi syndrome).'; cls = 'abnormal'; }
+            else { interp = '<strong>Normal/High TmP/GFR:</strong> Phosphate handling appropriate for GFR.'; cls = 'normal'; }
+            showResult('res_tmp', 'val_tmp', tmp.toFixed(2), 'mg/dL', 'interp_tmp', interp, cls);
+        }
+
+        // 13. FE_Mg
+        function calcFEMg() {
+            const uMg = getVal('u_mg'), pCr = getVal('p_cr'), pMg = getVal('p_mg'), uCr = getVal('u_cr');
+            if ([uMg, pCr, pMg, uCr].some(isNaN) || uCr === 0 || pMg === 0) return showError('res_fe_mg');
+            const fe = (uMg * pCr) / (0.7 * pMg * uCr) * 100;
+            let interp = '', cls = 'normal';
+            if (fe < 2) { interp = '<strong>&lt; 2%:</strong> Appropriate renal Mg conservation.'; cls = 'normal'; }
+            else if (fe <= 4) { interp = '<strong>2-4%:</strong> Borderline renal Mg wasting.'; cls = 'caution'; }
+            else { interp = '<strong>&gt; 4%:</strong> Confirms renal magnesium wasting. Highly characteristic of Gitelman / Bartter variants.'; cls = 'abnormal'; }
+            showResult('res_fe_mg', 'val_fe_mg', fe.toFixed(2), '%', 'interp_fe_mg', interp, cls);
+        }
+
+        // 14. Urine Ca/Cr
+        function calcUCaCr() {
+            const uCa = getVal('u_ca'), uCr = getVal('u_cr');
+            if ([uCa, uCr].some(isNaN) || uCr === 0) return showError('res_uca_cr');
+            const ratio = uCa / uCr;
+            let interp = '', cls = 'normal';
+            if (ratio < 0.02) { interp = '<strong>&lt; 0.02:</strong> Hypocalciuria. Gitelman-like defect (thiazide effect).'; cls = 'normal'; }
+            else if (ratio <= 0.20) { interp = '<strong>0.02-0.20:</strong> Intermediate range. Consider clinical context.'; cls = 'caution'; }
+            else { interp = '<strong>&gt; 0.20:</strong> Hypercalciuria. Bartter-like defect (loop diuretic effect).'; cls = 'abnormal'; }
+            showResult('res_uca_cr', 'val_uca_cr', ratio.toFixed(3), 'ratio', 'interp_uca_cr', interp, cls);
+        }
+
+        // 15. Calculated Urine Osmolality
+        function calcUrineOsm() {
+            const uNa = getVal('u_na'), uK = getVal('u_k'), uBUN = getVal('u_bun'), uGlucose = getVal('u_glucose');
+            if ([uNa, uK, uBUN, uGlucose].some(isNaN)) return showError('res_uosm_calc');
+            const calcOsm = 2 * (uNa + uK) + uBUN / 2.8 + uGlucose / 18;
+            let interp = 'Compare to measured urine osmolality. Large gap suggests unmeasured osmoles (ammonium salts, ketones, hippurate). Use to calculate UOG.';
+            showResult('res_uosm_calc', 'val_uosm_calc', calcOsm.toFixed(1), 'mOsm/kg', 'interp_uosm_calc', interp, 'caution');
+        }
+
+        function calculateAll() {
+            calcFENa(); calcFECl(); calcFEUrea(); calcFEUA();
+            calcTTKG(); calcFEK(); calcUKCr();
+            calcUAG(); calcUOG();
+            calcFEPO4(); calcTRP(); calcTmP();
+            calcFEMg(); calcUCaCr(); calcUrineOsm();
+            renderDashboard();
+        }
+
+        function clearAll() {
+            document.querySelectorAll('input').forEach(i => i.value = '');
+            document.querySelectorAll('.result-box').forEach(r => r.style.display = 'none');
+            document.querySelectorAll('.interpretation').forEach(i => { i.innerHTML = ''; i.className = 'interpretation'; });
+            document.getElementById('dashboardGrid').innerHTML = '<p style="text-align:center; color: var(--text-light); padding: 2rem;">Enter values and click "Calculate All" to see the summary dashboard.</p>';
+        }
+
+        function renderDashboard() {
+            const container = document.getElementById('dashboardGrid');
+            const results = [
+                { id: 'fe_na', name: 'FE<sub>Na</sub>', val: 'val_fe_na', interp: 'interp_fe_na', color: 'var(--primary)' },
+                { id: 'fe_cl', name: 'FE<sub>Cl</sub>', val: 'val_fe_cl', interp: 'interp_fe_cl', color: 'var(--warning)' },
+                { id: 'fe_urea', name: 'FE<sub>Urea</sub>', val: 'val_fe_urea', interp: 'interp_fe_urea', color: 'var(--success)' },
+                { id: 'fe_ua', name: 'FE<sub>UA</sub>', val: 'val_fe_ua', interp: 'interp_fe_ua', color: 'var(--info)' },
+                { id: 'fe_k', name: 'FE<sub>K</sub>', val: 'val_fe_k', interp: 'interp_fe_k', color: 'var(--secondary)' },
+                { id: 'ttkg', name: 'TTKG', val: 'val_ttkg', interp: 'interp_ttkg', color: 'var(--danger)' },
+                { id: 'uag', name: 'UAG', val: 'val_uag', interp: 'interp_uag', color: 'var(--primary)' },
+                { id: 'uog', name: 'UOG', val: 'val_uog', interp: 'interp_uog', color: 'var(--info)' },
+                { id: 'fe_po4', name: 'FE<sub>PO4</sub>', val: 'val_fe_po4', interp: 'interp_fe_po4', color: 'var(--warning)' },
+                { id: 'tmp', name: 'TmP/GFR', val: 'val_tmp', interp: 'interp_tmp', color: 'var(--success)' },
+                { id: 'fe_mg', name: 'FE<sub>Mg</sub>', val: 'val_fe_mg', interp: 'interp_fe_mg', color: 'var(--secondary)' },
+                { id: 'uca_cr', name: 'U<sub>Ca</sub>/U<sub>Cr</sub>', val: 'val_uca_cr', interp: 'interp_uca_cr', color: 'var(--primary)' },
+            ];
+            let html = '';
+            let any = false;
+            results.forEach(r => {
+                const valEl = document.getElementById(r.val);
+                const interpEl = document.getElementById(r.interp);
+                if (valEl && valEl.textContent !== '--' && valEl.parentElement.style.display !== 'none') {
+                    any = true;
+                    let interpText = interpEl ? interpEl.innerHTML : '';
+                    html += `
+                        <div class="card" style="border-top-color: ${r.color}">
+                            <h2 style="color:${r.color}">${r.name}</h2>
+                            <div style="font-size:2.2rem; font-weight:700; color:var(--primary); font-family:monospace; text-align:center; margin: 0.5rem 0;">${valEl.textContent}</div>
+                            <div class="interpretation ${interpEl && interpEl.className.includes('abnormal') ? 'abnormal' : (interpEl && interpEl.className.includes('caution') ? 'caution' : 'normal')}" style="margin-top:0.5rem">
+                                ${interpText}
+                            </div>
+                        </div>
+                    `;
+                }
+            });
+            if (!any) html = '<p style="text-align:center; color: var(--text-light); padding: 2rem;">No calculated results yet. Enter values and click "Calculate All" or use individual tabs.</p>';
+            container.innerHTML = html;
+        }
+
+        // Initialize dashboard
+        renderDashboard();
+    </script>
+</body>
+</html>

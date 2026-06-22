@@ -188,6 +188,14 @@
         "category": "Pediatrics & Endocrinology",
         "file": "ht-023_pediatric_vaginal_bleeding_precocious_puberty.json",
         "status": "ready"
+      },
+      {
+        "id": "ht-024",
+        "title": "LC-MS/MS 13-Steroid Panel",
+        "subtitle": "Glass-Box Steroidogenesis — CAH Variants, PCOS, AME, ACC, EAS & Orphan Defects",
+        "category": "Endocrinology & Metabolism",
+        "file": "ht-024_lcms_13_steroid_panel.json",
+        "status": "ready"
       }
     ]
   },
@@ -233,6 +241,44 @@
         "subtitle": "Goldilocks 17-OHP · Salt-Wasting · Simple Virilizing · Non-Classic CAH Traps",
         "category": "Endocrinology & Metabolism",
         "file": "cr-005_21ohd_lifespan_management.json",
+        "status": "ready"
+      },
+      {
+        "id": "cr-006",
+        "title": "Pregnancy Hypothyroidism: TSH-Guided Levothyroxine Titration",
+        "subtitle": "Second-Trimester TSH Target · When FT4 and FT3 Testing Mislead",
+        "category": "Endocrinology & Metabolism",
+        "file": "cr-006_pregnancy_hypothyroidism_tsh_guided.json",
+        "status": "ready"
+      },
+      {
+        "id": "cr-007",
+        "title": "Severe Short Stature, Low BMI & Neonatal Insult",
+        "subtitle": "Auxology, MPHD, Celiac vs Hypopituitarism · 30 First-Principles Q&A",
+        "category": "Pediatrics & Endocrinology",
+        "file": "cr-007_short_stature_neonatal_insult.json",
+        "status": "ready"
+      }
+    ]
+  },
+  "calculators": {
+    "title": "Calculators",
+    "description": "Interactive clinical calculators — steroid panel interpretation, renal tubular function, and more.",
+    "entries": [
+      {
+        "id": "calc-001",
+        "title": "13-Steroid LC-MS/MS Panel Interpreter",
+        "subtitle": "Adrenal & gonadal steroidogenic cascade — Δ4/Δ5 pathway flux analysis",
+        "category": "Endocrinology",
+        "file": "index.html",
+        "status": "ready"
+      },
+      {
+        "id": "calc-002",
+        "title": "Renal Tubular Function Calculator",
+        "subtitle": "Glassbox nephron diagnostics — salt-wasting, tubular defects, electrolytes",
+        "category": "Nephrology",
+        "file": "renal_tubular_calculator.html",
         "status": "ready"
       }
     ]
@@ -4078,29 +4124,29 @@
           "id": "pe-cr-001",
           "no": "1",
           "title": "Disorders of Growth and Development: Clinical Perspectives",
-          "file": null,
-          "status": "pending"
+          "file": "pe-cr-001_disorders_of_growth_and_development_clinical_perspectives.json",
+          "status": "ready"
         },
         {
           "id": "pe-cr-002",
           "no": "2",
           "title": "Disorders of Growth and Development: Diagnosis and Treatment",
-          "file": null,
-          "status": "pending"
+          "file": "pe-cr-002_disorders_of_growth_and_development_diagnosis_and_treatment.json",
+          "status": "ready"
         },
         {
           "id": "pe-cr-003",
           "no": "3",
           "title": "Thyroid Disorders in Children",
-          "file": null,
-          "status": "pending"
+          "file": "pe-cr-003_thyroid_disorders_in_children.json",
+          "status": "ready"
         },
         {
           "id": "pe-cr-004",
           "no": "4",
           "title": "Childhood Cushing's Syndrome",
-          "file": null,
-          "status": "pending"
+          "file": "pe-cr-004_childhood_cushing_s_syndrome.json",
+          "status": "ready"
         },
         {
           "id": "pe-cr-005",

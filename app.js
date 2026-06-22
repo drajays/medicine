@@ -131,6 +131,7 @@ async function showCatalog(){
 
   const hotTopics = CATALOG.hotTopics?.topics || [];
   const caseReports = CATALOG.caseReports?.reports || [];
+  const calculators = CATALOG.calculators?.entries || [];
   const trials = CATALOG.trials?.entries || [];
 
   if (!CATALOG._counts){
@@ -314,6 +315,48 @@ async function showCatalog(){
     }
   }
 
+  /* Calculators section */
+  if (CATALOG.calculators){
+    const calc = CATALOG.calculators;
+    const calcReady = calculators.filter(c => c.status === 'ready' && c.file);
+
+    html += `<div class="calculators-banner">
+      <div class="calculators-title">🧮 ${esc(calc.title || 'Calculators')}</div>
+      <div class="calculators-desc">${esc(calc.description || '')}</div>
+      ${calcReady.length ? `<div class="calculators-totals">${calcReady.length} interactive tool${calcReady.length === 1 ? '' : 's'} ready</div>` : ''}
+    </div>`;
+
+    html += `<div class="section-head calc-section-head">
+      <span class="section-arrow">▾</span>
+      <span class="section-name">${esc(calc.title || 'Calculators')}</span>
+      <span class="section-count">${calcReady.length}/${calculators.length}</span>
+    </div>`;
+    html += `<div class="section-body">`;
+    for (const c of calculators){
+      const ready = c.status === 'ready' && c.file;
+      const pill = ready ? '<span class="pill ready">ready</span>' : '<span class="pill pending">pending</span>';
+      const sub = ready ? 'Opens in new tab' : 'Awaiting authoring';
+      if (ready) {
+        html += `<a class="chap-card calc-card" href="calculators/${esc(c.file)}" target="_blank" rel="noopener noreferrer" title="Open ${esc(c.title)} in new tab">
+        <div class="chap-no calc-icon">🧮</div>
+        <div class="chap-meta">
+          <div class="chap-title">${esc(c.title)} ${pill}</div>
+          <div class="chap-sub">${esc(c.subtitle||c.category||'')}${sub ? ' · '+sub : ''}</div>
+        </div>
+      </a>`;
+      } else {
+        html += `<div class="chap-card calc-card disabled">
+        <div class="chap-no calc-icon">🧮</div>
+        <div class="chap-meta">
+          <div class="chap-title">${esc(c.title)} ${pill}</div>
+          <div class="chap-sub">${esc(c.subtitle||c.category||'')}${sub ? ' · '+sub : ''}</div>
+        </div>
+      </div>`;
+      }
+    }
+    html += `</div>`;
+  }
+
   html += `<div class="harrison-divider"><span>Harrison's 22e Chapters</span></div>`;
 
   html += `<div class="progress-card">
@@ -357,7 +400,8 @@ async function showCatalog(){
   }
   app.innerHTML = html;
   app.querySelectorAll('.chap-card:not(.disabled)').forEach(card => {
-    card.addEventListener('click', () => {
+    card.addEventListener('click', (e) => {
+      if (card.tagName === 'A') return;
       const kind = card.dataset.kind || 'harrison';
       openChapter(card.dataset.file, kind);
     });
