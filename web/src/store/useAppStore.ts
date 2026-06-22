@@ -1,10 +1,11 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { buildNavEntries } from '@/lib/catalog'
+import { buildNavEntries, buildNavRows } from '@/lib/catalog'
 import { fetchJSON } from '@/lib/data'
 import type {
   ChapterData,
   NavEntry,
+  NavRow,
   RawCatalog,
   SearchResult,
   StudyItem,
@@ -19,6 +20,7 @@ interface AppState {
   chapterLoading: boolean
   catalog: RawCatalog | null
   navEntries: NavEntry[]
+  navRows: NavRow[]
   chapters: Record<string, ChapterData>
   progress: Record<string, { completed: number; total: number }>
   currentChapterId: string | null
@@ -56,6 +58,7 @@ export const useAppStore = create<AppState>()(
       chapterLoading: false,
       catalog: null,
       navEntries: [],
+      navRows: [],
       chapters: {},
       progress: {},
       currentChapterId: null,
@@ -68,10 +71,12 @@ export const useAppStore = create<AppState>()(
         set({ catalogLoading: true })
         try {
           const catalog = await fetchJSON<RawCatalog>('index.json')
+          const navRows = buildNavRows(catalog)
           const navEntries = buildNavEntries(catalog)
           const { revealed, chapters } = get()
           set({
             catalog,
+            navRows,
             navEntries,
             progress: buildProgress(navEntries, chapters, revealed),
             catalogLoading: false,

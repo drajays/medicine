@@ -1,4 +1,4 @@
-import type { NavEntry, RawCatalog } from '@/lib/types'
+import type { HeaderKind, NavEntry, NavRow, RawCatalog } from '@/lib/types'
 
 function readyFile(
   entry: { status?: string; file?: string | null },
@@ -6,58 +6,168 @@ function readyFile(
   return entry.status === 'ready' && Boolean(entry.file)
 }
 
+function pushHeader(
+  rows: NavRow[],
+  id: string,
+  title: string,
+  headerKind: HeaderKind,
+  opts?: { subtitle?: string; count?: number },
+) {
+  rows.push({
+    type: 'header',
+    id,
+    title,
+    headerKind,
+    subtitle: opts?.subtitle,
+    count: opts?.count,
+  })
+}
+
 export function buildNavEntries(catalog: RawCatalog): NavEntry[] {
-  const entries: NavEntry[] = []
+  return buildNavRows(catalog)
+    .filter((row): row is NavRow & { type: 'entry' } => row.type === 'entry')
+    .map((row) => row.entry)
+}
 
-  for (const topic of catalog.hotTopics?.topics ?? []) {
-    if (!readyFile(topic)) continue
-    entries.push({
-      id: topic.id,
-      title: topic.title,
-      subtitle: topic.subtitle ?? topic.category ?? 'Hot Topic',
-      sectionTitle: catalog.hotTopics?.title ?? 'Hot Topics',
-      file: topic.file,
-      kind: 'hot_topic',
+export function buildNavRows(catalog: RawCatalog): NavRow[] {
+  const rows: NavRow[] = []
+
+  const hotTopics = (catalog.hotTopics?.topics ?? []).filter(readyFile)
+  if (hotTopics.length) {
+    pushHeader(rows, 'hdr-hot-topics', catalog.hotTopics?.title ?? 'Hot Topics', 'hot_topics', {
+      subtitle: catalog.hotTopics?.description,
+      count: hotTopics.length,
     })
-  }
-
-  for (const report of catalog.caseReports?.reports ?? []) {
-    if (!readyFile(report)) continue
-    entries.push({
-      id: report.id,
-      title: report.title,
-      subtitle: report.subtitle ?? report.category ?? 'Case Report',
-      sectionTitle: catalog.caseReports?.title ?? 'Case Reports',
-      file: report.file,
-      kind: 'case_report',
-    })
-  }
-
-  for (const trial of catalog.trials?.entries ?? []) {
-    if (!readyFile(trial)) continue
-    entries.push({
-      id: trial.id,
-      title: trial.title,
-      subtitle: trial.subtitle ?? trial.category ?? 'Clinical Trial',
-      sectionTitle: catalog.trials?.title ?? 'Trials',
-      file: trial.file,
-      kind: 'trial',
-    })
-  }
-
-  for (const section of catalog.sections ?? []) {
-    for (const chapter of section.chapters ?? []) {
-      if (!readyFile(chapter)) continue
-      entries.push({
-        id: chapter.id,
-        title: chapter.title,
-        subtitle: `Ch. ${chapter.no ?? '—'} · ${section.name}`,
-        sectionTitle: section.name,
-        file: chapter.file,
-        kind: 'harrison',
+    for (const topic of hotTopics) {
+      rows.push({
+        type: 'entry',
+        entry: {
+          id: topic.id,
+          title: topic.title,
+          subtitle: topic.subtitle ?? topic.category ?? 'Hot Topic',
+          sectionTitle: catalog.hotTopics?.title ?? 'Hot Topics',
+          file: topic.file as string,
+          kind: 'hot_topic',
+        },
       })
     }
   }
 
-  return entries
+  const caseReports = (catalog.caseReports?.reports ?? []).filter(readyFile)
+  if (caseReports.length) {
+    pushHeader(rows, 'hdr-case-reports', catalog.caseReports?.title ?? 'Case Reports', 'case_reports', {
+      subtitle: catalog.caseReports?.description,
+      count: caseReports.length,
+    })
+    for (const report of caseReports) {
+      rows.push({
+        type: 'entry',
+        entry: {
+          id: report.id,
+          title: report.title,
+          subtitle: report.subtitle ?? report.category ?? 'Case Report',
+          sectionTitle: catalog.caseReports?.title ?? 'Case Reports',
+          file: report.file as string,
+          kind: 'case_report',
+        },
+      })
+    }
+  }
+
+  const calculators = (catalog.calculators?.entries ?? []).filter(readyFile)
+  if (calculators.length) {
+    pushHeader(rows, 'hdr-calculators', catalog.calculators?.title ?? 'Calculators', 'calculators', {
+      subtitle: catalog.calculators?.description,
+      count: calculators.length,
+    })
+    for (const calc of calculators) {
+      rows.push({
+        type: 'calculator',
+        id: calc.id,
+        title: calc.title,
+        subtitle: calc.subtitle ?? calc.category ?? 'Calculator',
+        href: `calculators/${calc.file}`,
+      })
+    }
+  }
+
+  const trials = (catalog.trials?.entries ?? []).filter(readyFile)
+  if (trials.length) {
+    pushHeader(rows, 'hdr-trials', catalog.trials?.title ?? 'Clinical Trials', 'trials', {
+      subtitle: catalog.trials?.description,
+      count: trials.length,
+    })
+
+    const subsections = catalog.trials?.subsections ?? []
+    const grouped = new Map<string, typeof trials>()
+    for (const trial of trials) {
+      const key = trial.subsection ?? 'general'
+      if (!grouped.has(key)) grouped.set(key, [])
+      grouped.get(key)!.push(trial)
+    }
+
+    for (const [key, items] of grouped) {
+      const sub = subsections.find((s) => s.id === key)
+      pushHeader(rows, `hdr-trial-${key}`, sub?.title ?? key.toUpperCase(), 'trial_sub', {
+        subtitle: sub?.description,
+        count: items.length,
+      })
+      for (const trial of items) {
+        rows.push({
+          type: 'entry',
+          entry: {
+            id: trial.id,
+            title: trial.title,
+            subtitle: trial.subtitle ?? trial.category ?? 'Trial',
+            sectionTitle: catalog.trials?.title ?? 'Trials',
+            file: trial.file as string,
+            kind: 'trial',
+          },
+        })
+      }
+    }
+  }
+
+  const harrisonSections = catalog.sections ?? []
+  const harrisonReady = harrisonSections.flatMap((s) =>
+    (s.chapters ?? []).filter(readyFile).map((ch) => ({ section: s, chapter: ch })),
+  )
+  if (harrisonReady.length) {
+    pushHeader(rows, 'hdr-harrison', "Harrison's 22e Chapters", 'harrison_banner', {
+      subtitle: 'Principles of Internal Medicine, 22nd ed.',
+      count: harrisonReady.length,
+    })
+
+    for (const section of harrisonSections) {
+      const chapters = (section.chapters ?? []).filter(readyFile)
+      if (!chapters.length) continue
+      pushHeader(rows, `hdr-section-${section.name}`, section.name, 'harrison_section', {
+        count: chapters.length,
+      })
+      for (const chapter of chapters) {
+        rows.push({
+          type: 'entry',
+          entry: {
+            id: chapter.id,
+            title: chapter.title,
+            subtitle: `Ch. ${chapter.no ?? '—'}`,
+            sectionTitle: section.name,
+            file: chapter.file as string,
+            kind: 'harrison',
+          },
+        })
+      }
+    }
+  }
+
+  return rows
+}
+
+export function navRowHeight(row: NavRow): number {
+  if (row.type === 'header') {
+    if (row.headerKind === 'trial_sub') return 36
+    if (row.headerKind === 'harrison_section') return 38
+    return 54
+  }
+  return 56
 }

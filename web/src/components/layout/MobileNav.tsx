@@ -3,21 +3,24 @@ import {
   ChevronLeft,
   ChevronRight,
   Command,
-  Home,
+  List,
   Moon,
   Sun,
 } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { cn } from '@/lib/utils'
 
-export function MobileNav() {
+export function MobileNav({
+  onBrowse,
+}: {
+  onBrowse: () => void
+}) {
   const theme = useAppStore((s) => s.theme)
   const toggleTheme = useAppStore((s) => s.toggleTheme)
   const setCommandOpen = useAppStore((s) => s.setCommandOpen)
   const goNext = useAppStore((s) => s.goNext)
   const goPrev = useAppStore((s) => s.goPrev)
   const currentChapterId = useAppStore((s) => s.currentChapterId)
-  const clearSelection = useAppStore((s) => s.clearSelection)
 
   return (
     <nav
@@ -29,8 +32,8 @@ export function MobileNav() {
       aria-label="Mobile navigation"
     >
       <div className="grid grid-cols-5">
-        <MobileNavButton label="Home" onClick={clearSelection}>
-          <Home className="h-5 w-5" />
+        <MobileNavButton label="Browse" onClick={onBrowse}>
+          <List className="h-5 w-5" />
         </MobileNavButton>
         <MobileNavButton label="Prev" onClick={goPrev} disabled={!currentChapterId}>
           <ChevronLeft className="h-5 w-5" />

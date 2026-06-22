@@ -94,6 +94,27 @@ export interface NavEntry {
   kind: 'harrison' | 'hot_topic' | 'case_report' | 'trial'
 }
 
+export type HeaderKind =
+  | 'hot_topics'
+  | 'case_reports'
+  | 'calculators'
+  | 'trials'
+  | 'trial_sub'
+  | 'harrison_banner'
+  | 'harrison_section'
+
+export type NavRow =
+  | {
+      type: 'header'
+      id: string
+      title: string
+      subtitle?: string
+      count?: number
+      headerKind: HeaderKind
+    }
+  | { type: 'entry'; entry: NavEntry }
+  | { type: 'calculator'; id: string; title: string; subtitle: string; href: string }
+
 export interface RawCatalog {
   title: string
   sections?: Array<{
@@ -108,6 +129,7 @@ export interface RawCatalog {
   }>
   hotTopics?: {
     title?: string
+    description?: string
     topics: Array<{
       id: string
       title: string
@@ -119,6 +141,7 @@ export interface RawCatalog {
   }
   caseReports?: {
     title?: string
+    description?: string
     reports: Array<{
       id: string
       title: string
@@ -128,13 +151,28 @@ export interface RawCatalog {
       status: string
     }>
   }
-  trials?: {
+  calculators?: {
     title?: string
+    description?: string
     entries: Array<{
       id: string
       title: string
       subtitle?: string
       category?: string
+      file: string
+      status: string
+    }>
+  }
+  trials?: {
+    title?: string
+    description?: string
+    subsections?: Array<{ id: string; title: string; description?: string }>
+    entries: Array<{
+      id: string
+      title: string
+      subtitle?: string
+      category?: string
+      subsection?: string
       file: string | null
       status: string
     }>

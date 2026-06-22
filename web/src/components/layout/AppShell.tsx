@@ -1,9 +1,10 @@
-import { useEffect } from 'react'
-import { Command } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { Command, List } from 'lucide-react'
 import { Sidebar } from '@/components/layout/Sidebar'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import { UtilityBar } from '@/components/layout/UtilityBar'
 import { MobileNav } from '@/components/layout/MobileNav'
+import { MobileCatalog } from '@/components/layout/MobileCatalog'
 import { QuestionCard } from '@/components/question/QuestionCard'
 import { CommandPalette } from '@/components/ui/CommandPalette'
 import { Button } from '@/components/ui/Button'
@@ -14,6 +15,7 @@ export function AppShell() {
   const initCatalog = useAppStore((s) => s.initCatalog)
   const catalog = useAppStore((s) => s.catalog)
   const setCommandOpen = useAppStore((s) => s.setCommandOpen)
+  const [mobileCatalogOpen, setMobileCatalogOpen] = useState(false)
 
   useKeyboardShortcuts()
 
@@ -33,16 +35,27 @@ export function AppShell() {
               <Breadcrumb />
             </div>
           </div>
-          <Button
-            variant="outline"
-            size="sm"
-            className="hidden sm:inline-flex"
-            onClick={() => setCommandOpen(true)}
-          >
-            <Command className="h-3.5 w-3.5" />
-            Search
-            <kbd className="rounded border px-1 py-0.5 text-[10px] clinical-muted">⌘K</kbd>
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              className="md:hidden"
+              onClick={() => setMobileCatalogOpen(true)}
+            >
+              <List className="h-3.5 w-3.5" />
+              Browse
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              className="hidden sm:inline-flex"
+              onClick={() => setCommandOpen(true)}
+            >
+              <Command className="h-3.5 w-3.5" />
+              Search
+              <kbd className="rounded border px-1 py-0.5 text-[10px] clinical-muted">⌘K</kbd>
+            </Button>
+          </div>
         </div>
         <div className="border-t border-zinc-200 px-4 py-2 md:hidden dark:border-zinc-800">
           <Breadcrumb />
@@ -57,7 +70,8 @@ export function AppShell() {
       </div>
 
       <UtilityBar />
-      <MobileNav />
+      <MobileNav onBrowse={() => setMobileCatalogOpen(true)} />
+      <MobileCatalog open={mobileCatalogOpen} onClose={() => setMobileCatalogOpen(false)} />
       <CommandPalette />
     </div>
   )
