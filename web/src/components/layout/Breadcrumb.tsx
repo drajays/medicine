@@ -13,7 +13,7 @@ export function Breadcrumb() {
     )
   }
 
-  const sectionLabel = chapter.section.split('—')[0]?.trim() ?? chapter.section
+  const sectionLabel = chapter.section?.split('—')[0]?.trim() ?? 'Study'
 
   return (
     <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-1.5 text-sm">

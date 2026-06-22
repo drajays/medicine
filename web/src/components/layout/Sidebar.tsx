@@ -5,30 +5,24 @@ import { useAppStore } from '@/store/useAppStore'
 import { Button } from '@/components/ui/Button'
 import { SidebarSkeleton } from '@/components/ui/Skeleton'
 import { cn } from '@/lib/utils'
-import type { ChapterMeta } from '@/lib/types'
 
 const ROW_HEIGHT = 56
 
 export function Sidebar() {
-  const catalog = useAppStore((s) => s.catalog)
   const catalogLoading = useAppStore((s) => s.catalogLoading)
+  const navEntries = useAppStore((s) => s.navEntries)
   const collapsed = useAppStore((s) => s.sidebarCollapsed)
   const toggleSidebar = useAppStore((s) => s.toggleSidebar)
   const currentChapterId = useAppStore((s) => s.currentChapterId)
   const progress = useAppStore((s) => s.progress)
   const selectChapter = useAppStore((s) => s.selectChapter)
 
-  const chapters: (ChapterMeta & { sectionTitle: string })[] =
-    catalog?.sections.flatMap((section) =>
-      section.chapters.map((ch) => ({ ...ch, sectionTitle: section.title })),
-    ) ?? []
-
   const parentRef = useRef<HTMLDivElement>(null)
   const virtualizer = useVirtualizer({
-    count: chapters.length,
+    count: navEntries.length,
     getScrollElement: () => parentRef.current,
     estimateSize: () => ROW_HEIGHT,
-    overscan: 8,
+    overscan: 12,
   })
 
   if (collapsed) {
@@ -51,9 +45,9 @@ export function Sidebar() {
       <div className="flex items-center justify-between border-b border-zinc-200 px-4 py-3 dark:border-zinc-800">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide clinical-muted">
-            Chapters
+            Index
           </p>
-          <p className="text-sm font-medium">{chapters.length} indexed</p>
+          <p className="text-sm font-medium">{navEntries.length} ready</p>
         </div>
         <Button variant="ghost" size="icon" onClick={toggleSidebar} aria-label="Collapse sidebar">
           <PanelLeftClose className="h-4 w-4" />
@@ -69,14 +63,16 @@ export function Sidebar() {
             className="px-2 py-2"
           >
             {virtualizer.getVirtualItems().map((row) => {
-              const ch = chapters[row.index]
-              const prog = progress[ch.id]
-              const active = currentChapterId === ch.id
+              const entry = navEntries[row.index]
+              const prog = progress[entry.id]
+              const active = currentChapterId === entry.id
+              const total = prog?.total ?? 0
+              const completed = prog?.completed ?? 0
               return (
                 <button
-                  key={ch.id}
+                  key={entry.id}
                   type="button"
-                  onClick={() => selectChapter(ch.id)}
+                  onClick={() => selectChapter(entry.id)}
                   style={{
                     position: 'absolute',
                     top: 0,
@@ -93,12 +89,12 @@ export function Sidebar() {
                   )}
                 >
                   <div className="min-w-0 flex-1">
-                    <p className="truncate text-sm font-medium">{ch.title}</p>
-                    <p className="truncate text-xs clinical-muted">{ch.sectionTitle}</p>
+                    <p className="truncate text-sm font-medium">{entry.title}</p>
+                    <p className="truncate text-xs clinical-muted">{entry.sectionTitle}</p>
                   </div>
                   <div className="flex shrink-0 items-center gap-1 text-xs clinical-muted">
                     <span className="tabular-nums">
-                      {prog?.completed ?? 0}/{prog?.total ?? ch.itemCount}
+                      {total > 0 ? `${completed}/${total}` : '·'}
                     </span>
                     <ChevronRight className="h-3.5 w-3.5" />
                   </div>

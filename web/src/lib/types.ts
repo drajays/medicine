@@ -1,4 +1,11 @@
-export type ItemType = 'note' | 'mcq' | 'true_false' | 'assertion_reason'
+export type ItemType =
+  | 'note'
+  | 'mcq'
+  | 'true_false'
+  | 'assertion_reason'
+  | 'why'
+  | 'how'
+  | 'shortanswer'
 
 export interface McqItem {
   id: string
@@ -31,36 +38,107 @@ export interface TrueFalseItem {
   reference?: string
 }
 
-export type StudyItem = McqItem | NoteItem | TrueFalseItem
+export interface AssertionReasonItem {
+  id: string
+  type: 'assertion_reason'
+  subtopic?: string
+  assertion: string
+  reason: string
+  correctOption: number
+  explanation?: string
+  reference?: string
+}
+
+export interface WhyHowItem {
+  id: string
+  type: 'why' | 'how'
+  subtopic?: string
+  question: string
+  answer: string
+  keyPoints?: string[]
+  reference?: string
+}
+
+export interface ShortAnswerItem {
+  id: string
+  type: 'shortanswer'
+  subtopic?: string
+  question: string
+  answer: string
+  reference?: string
+}
+
+export type StudyItem =
+  | McqItem
+  | NoteItem
+  | TrueFalseItem
+  | AssertionReasonItem
+  | WhyHowItem
+  | ShortAnswerItem
 
 export interface ChapterData {
   id: string
-  volume: number
-  chapterNo: string
   title: string
-  section: string
+  section?: string
+  chapterNo?: string
+  volume?: number
   items: StudyItem[]
 }
 
-export interface ChapterMeta {
+export interface NavEntry {
   id: string
   title: string
-  section: string
-  chapterNo: string
+  subtitle: string
+  sectionTitle: string
   file: string
-  status: 'ready' | 'pending'
-  itemCount: number
+  kind: 'harrison' | 'hot_topic' | 'case_report' | 'trial'
 }
 
-export interface CatalogSection {
-  id: string
+export interface RawCatalog {
   title: string
-  chapters: ChapterMeta[]
-}
-
-export interface Catalog {
-  title: string
-  sections: CatalogSection[]
+  sections?: Array<{
+    name: string
+    chapters: Array<{
+      id: string
+      no?: string
+      title: string
+      file: string | null
+      status: string
+    }>
+  }>
+  hotTopics?: {
+    title?: string
+    topics: Array<{
+      id: string
+      title: string
+      subtitle?: string
+      category?: string
+      file: string | null
+      status: string
+    }>
+  }
+  caseReports?: {
+    title?: string
+    reports: Array<{
+      id: string
+      title: string
+      subtitle?: string
+      category?: string
+      file: string | null
+      status: string
+    }>
+  }
+  trials?: {
+    title?: string
+    entries: Array<{
+      id: string
+      title: string
+      subtitle?: string
+      category?: string
+      file: string | null
+      status: string
+    }>
+  }
 }
 
 export interface SearchResult {

@@ -2,6 +2,12 @@ import { useAppStore } from '@/store/useAppStore'
 import { QuestionSkeleton } from '@/components/ui/Skeleton'
 import { NoteContent } from '@/components/question/NoteContent'
 import { McqContent } from '@/components/question/McqContent'
+import {
+  AssertionReasonContent,
+  ShortAnswerContent,
+  TrueFalseContent,
+  WhyHowContent,
+} from '@/components/question/GenericStudyContent'
 import { SwipeArea } from '@/hooks/useSwipeGesture'
 
 export function QuestionCard() {
@@ -47,6 +53,7 @@ export function QuestionCard() {
   }
 
   const isRevealed = Boolean(revealed[item.id])
+  const toggle = () => toggleReveal(item.id)
 
   return (
     <SwipeArea
@@ -55,19 +62,23 @@ export function QuestionCard() {
       onSwipeRight={goPrev}
     >
       {item.type === 'note' ? (
-        <NoteContent
-          item={item}
-          revealed={isRevealed}
-          onToggleReveal={() => toggleReveal(item.id)}
-        />
+        <NoteContent item={item} revealed={isRevealed} onToggleReveal={toggle} />
       ) : item.type === 'mcq' ? (
         <McqContent
           item={item}
           revealed={isRevealed}
           selected={mcqSelections[item.id] ?? null}
-          onToggleReveal={() => toggleReveal(item.id)}
+          onToggleReveal={toggle}
           onSelect={(index) => selectMcqOption(item.id, index)}
         />
+      ) : item.type === 'true_false' ? (
+        <TrueFalseContent item={item} revealed={isRevealed} onToggleReveal={toggle} />
+      ) : item.type === 'assertion_reason' ? (
+        <AssertionReasonContent item={item} revealed={isRevealed} onToggleReveal={toggle} />
+      ) : item.type === 'why' || item.type === 'how' ? (
+        <WhyHowContent item={item} revealed={isRevealed} onToggleReveal={toggle} />
+      ) : item.type === 'shortanswer' ? (
+        <ShortAnswerContent item={item} revealed={isRevealed} onToggleReveal={toggle} />
       ) : null}
     </SwipeArea>
   )
