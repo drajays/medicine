@@ -1,8 +1,9 @@
 import { useAppStore } from '@/store/useAppStore'
 import { cn } from '@/lib/utils'
 import type { NavEntry } from '@/lib/types'
+import type { ChapterTab } from '@/lib/chapterTabs'
 
-const KIND_BADGE: Record<NavEntry['kind'], string> = {
+export const KIND_BADGE: Record<NavEntry['kind'], string> = {
   hot_topic:
     'bg-amber-100 text-amber-900 dark:bg-amber-500/20 dark:text-amber-200',
   case_report:
@@ -13,21 +14,33 @@ const KIND_BADGE: Record<NavEntry['kind'], string> = {
     'bg-indigo-100 text-indigo-900 dark:bg-indigo-500/20 dark:text-indigo-200',
 }
 
-const KIND_LABEL: Record<NavEntry['kind'], string> = {
+export const KIND_LABEL: Record<NavEntry['kind'], string> = {
   hot_topic: 'Hot Topic',
   case_report: 'Case Report',
   trial: 'Trial',
   harrison: 'Chapter',
 }
 
+const TAB_LABEL: Record<ChapterTab, string> = {
+  notes: 'Notes',
+  inclusion: 'Inclusion',
+  exclusion: 'Exclusion',
+  takeaways: 'Takeaways',
+  mcq: 'MCQs',
+  tf: 'True/False',
+  ar: 'Assertion–Reason',
+  why: 'Why',
+  how: 'How',
+  shortanswer: 'Short Answer',
+}
+
 export function Breadcrumb() {
   const chapter = useAppStore((s) => s.getCurrentChapter())
-  const itemIndex = useAppStore((s) => s.currentItemIndex)
-  const item = useAppStore((s) => s.getCurrentItem())
+  const activeTab = useAppStore((s) => s.activeTab)
   const navEntries = useAppStore((s) => s.navEntries)
   const currentChapterId = useAppStore((s) => s.currentChapterId)
 
-  if (!chapter || !item || !currentChapterId) {
+  if (!chapter || !currentChapterId) {
     return (
       <nav aria-label="Breadcrumb" className="text-sm clinical-muted">
         Select a topic from the index
@@ -52,10 +65,10 @@ export function Breadcrumb() {
       <span className="clinical-muted">›</span>
       <span className="clinical-muted">{sectionLabel}</span>
       <span className="clinical-muted">›</span>
-      <span className="max-w-[12rem] truncate font-medium sm:max-w-xs">{chapter.title}</span>
+      <span className="max-w-[10rem] truncate font-medium sm:max-w-md">{chapter.title}</span>
       <span className="clinical-muted">›</span>
       <span className="rounded-md bg-blue-50 px-2 py-0.5 text-xs font-semibold text-blue-700 dark:bg-blue-500/15 dark:text-blue-300">
-        Q{itemIndex + 1}
+        {TAB_LABEL[activeTab]}
       </span>
     </nav>
   )

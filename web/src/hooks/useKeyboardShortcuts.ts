@@ -8,43 +8,26 @@ function isTypingTarget(target: EventTarget | null) {
 }
 
 export function useKeyboardShortcuts() {
-  const toggleReveal = useAppStore((s) => s.toggleReveal)
-  const goNext = useAppStore((s) => s.goNext)
-  const goPrev = useAppStore((s) => s.goPrev)
-  const getCurrentItem = useAppStore((s) => s.getCurrentItem)
-  const selectMcqOption = useAppStore((s) => s.selectMcqOption)
-  const setCommandOpen = useAppStore((s) => s.setCommandOpen)
+  const goNextChapter = useAppStore((s) => s.goNextChapter)
+  const goPrevChapter = useAppStore((s) => s.goPrevChapter)
+  const currentChapterId = useAppStore((s) => s.currentChapterId)
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (isTypingTarget(e.target)) return
-
-      if (e.code === 'Space') {
-        e.preventDefault()
-        toggleReveal()
-        return
-      }
+      if (!currentChapterId) return
 
       if (e.key === 'ArrowRight') {
         e.preventDefault()
-        goNext()
-        return
+        goNextChapter()
       }
-
       if (e.key === 'ArrowLeft') {
         e.preventDefault()
-        goPrev()
-        return
-      }
-
-      const item = getCurrentItem()
-      if (item?.type === 'mcq' && ['1', '2', '3', '4'].includes(e.key)) {
-        e.preventDefault()
-        selectMcqOption(item.id, Number(e.key) - 1)
+        goPrevChapter()
       }
     }
 
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [toggleReveal, goNext, goPrev, getCurrentItem, selectMcqOption, setCommandOpen])
+  }, [goNextChapter, goPrevChapter, currentChapterId])
 }

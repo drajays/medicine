@@ -1,7 +1,6 @@
 import {
   ChevronLeft,
   ChevronRight,
-  Bookmark,
   Command,
   Moon,
   Sun,
@@ -14,12 +13,10 @@ export function UtilityBar() {
   const theme = useAppStore((s) => s.theme)
   const toggleTheme = useAppStore((s) => s.toggleTheme)
   const setCommandOpen = useAppStore((s) => s.setCommandOpen)
-  const goNext = useAppStore((s) => s.goNext)
-  const goPrev = useAppStore((s) => s.goPrev)
-  const toggleBookmark = useAppStore((s) => s.toggleBookmark)
-  const item = useAppStore((s) => s.getCurrentItem())
-  const bookmarks = useAppStore((s) => s.bookmarks)
-  const bookmarked = item ? Boolean(bookmarks[item.id]) : false
+  const goNextChapter = useAppStore((s) => s.goNextChapter)
+  const goPrevChapter = useAppStore((s) => s.goPrevChapter)
+  const currentChapterId = useAppStore((s) => s.currentChapterId)
+  const chapter = useAppStore((s) => s.getCurrentChapter())
 
   return (
     <div
@@ -30,15 +27,31 @@ export function UtilityBar() {
     >
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-3 px-4 py-2.5">
         <div className="flex items-center gap-1">
-          <Button variant="ghost" size="sm" onClick={goPrev} aria-label="Previous question">
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={goPrevChapter}
+            disabled={!currentChapterId}
+            aria-label="Previous topic"
+          >
             <ChevronLeft className="h-4 w-4" />
-            Prev
+            Prev topic
           </Button>
-          <Button variant="ghost" size="sm" onClick={goNext} aria-label="Next question">
-            Next
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={goNextChapter}
+            disabled={!currentChapterId}
+            aria-label="Next topic"
+          >
+            Next topic
             <ChevronRight className="h-4 w-4" />
           </Button>
         </div>
+
+        <p className="max-w-md truncate text-xs clinical-muted">
+          {chapter?.title ?? 'Select a topic'}
+        </p>
 
         <div className="flex items-center gap-1">
           <Button
@@ -50,22 +63,7 @@ export function UtilityBar() {
           >
             <Command className="h-4 w-4" />
           </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => toggleBookmark()}
-            disabled={!item}
-            aria-label="Toggle bookmark"
-            className={bookmarked ? 'text-amber-500' : undefined}
-          >
-            <Bookmark className={cn('h-4 w-4', bookmarked && 'fill-current')} />
-          </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleTheme}
-            aria-label="Toggle theme"
-          >
+          <Button variant="ghost" size="icon" onClick={toggleTheme} aria-label="Toggle theme">
             {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </Button>
         </div>

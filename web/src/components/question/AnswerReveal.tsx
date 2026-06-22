@@ -8,6 +8,7 @@ interface AnswerRevealProps {
   onToggle: () => void
   children: React.ReactNode
   label?: string
+  className?: string
 }
 
 export function AnswerReveal({
@@ -15,9 +16,10 @@ export function AnswerReveal({
   onToggle,
   children,
   label = 'Reveal Answer',
+  className,
 }: AnswerRevealProps) {
   return (
-    <div className="mt-6">
+    <div className={className}>
       <Button
         variant={revealed ? 'outline' : 'accent'}
         onClick={onToggle}
@@ -50,7 +52,7 @@ export function AnswerReveal({
       </AnimatePresence>
 
       <p className="mt-2 hidden text-xs clinical-muted sm:block">
-        Press <kbd className="rounded border px-1">Space</kbd> to toggle reveal
+        Click to reveal answer
       </p>
     </div>
   )

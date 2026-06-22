@@ -79,10 +79,36 @@ export type StudyItem =
 export interface ChapterData {
   id: string
   title: string
+  subtitle?: string
   section?: string
   chapterNo?: string
   volume?: number
+  category?: string
+  authors?: string
+  topicType?: string
+  reportType?: string
+  trialType?: string
+  subsection?: string
   items: StudyItem[]
+  patient?: {
+    age?: number | string
+    sex?: string
+    chiefComplaint?: string
+    pmh?: string[]
+    medications?: string[]
+  }
+  caseDescription?: string
+  keyFindings?: string[]
+  finalDiagnosis?: string
+  learningObjectives?: string[]
+  inclusionCriteria?: string[]
+  exclusionCriteria?: string[]
+  keyTakeaways?: string[]
+  trialDesign?: Record<string, string>
+  trialSummary?: {
+    headings?: Record<string, string>
+    outcomes?: Array<{ definition?: string }>
+  }
 }
 
 export interface NavEntry {
@@ -185,5 +211,5 @@ export interface SearchResult {
   label: string
   subtitle: string
   chapterId: string
-  itemIndex?: number
+  itemId?: string
 }

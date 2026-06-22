@@ -34,9 +34,8 @@ export function CommandPalette() {
   const handleSelect = async (result: SearchResult) => {
     if (result.kind === 'chapter') {
       await selectChapter(result.chapterId)
-    } else if (result.itemIndex != null) {
-      await selectChapter(result.chapterId)
-      selectItem(result.chapterId, result.itemIndex)
+    } else if (result.itemId) {
+      await selectItem(result.chapterId, result.itemId)
     }
     setOpen(false)
   }

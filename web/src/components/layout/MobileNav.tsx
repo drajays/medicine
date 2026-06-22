@@ -18,8 +18,8 @@ export function MobileNav({
   const theme = useAppStore((s) => s.theme)
   const toggleTheme = useAppStore((s) => s.toggleTheme)
   const setCommandOpen = useAppStore((s) => s.setCommandOpen)
-  const goNext = useAppStore((s) => s.goNext)
-  const goPrev = useAppStore((s) => s.goPrev)
+  const goNextChapter = useAppStore((s) => s.goNextChapter)
+  const goPrevChapter = useAppStore((s) => s.goPrevChapter)
   const currentChapterId = useAppStore((s) => s.currentChapterId)
 
   return (
@@ -35,13 +35,13 @@ export function MobileNav({
         <MobileNavButton label="Browse" onClick={onBrowse}>
           <List className="h-5 w-5" />
         </MobileNavButton>
-        <MobileNavButton label="Prev" onClick={goPrev} disabled={!currentChapterId}>
+        <MobileNavButton label="Prev" onClick={goPrevChapter} disabled={!currentChapterId}>
           <ChevronLeft className="h-5 w-5" />
         </MobileNavButton>
         <MobileNavButton label="Search" onClick={() => setCommandOpen(true)}>
           <Command className="h-5 w-5" />
         </MobileNavButton>
-        <MobileNavButton label="Next" onClick={goNext} disabled={!currentChapterId}>
+        <MobileNavButton label="Next" onClick={goNextChapter} disabled={!currentChapterId}>
           <ChevronRight className="h-5 w-5" />
         </MobileNavButton>
         <MobileNavButton label="Theme" onClick={toggleTheme}>

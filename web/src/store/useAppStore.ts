@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { buildNavEntries, buildNavRows } from '@/lib/catalog'
+import { defaultTab, tabForItemType, type ChapterTab } from '@/lib/chapterTabs'
 import { fetchJSON } from '@/lib/data'
 import type {
   ChapterData,
@@ -8,7 +9,6 @@ import type {
   NavRow,
   RawCatalog,
   SearchResult,
-  StudyItem,
 } from '@/lib/types'
 import { applyTheme, buildProgress, itemSearchText } from '@/store/helpers'
 
@@ -24,7 +24,8 @@ interface AppState {
   chapters: Record<string, ChapterData>
   progress: Record<string, { completed: number; total: number }>
   currentChapterId: string | null
-  currentItemIndex: number
+  activeTab: ChapterTab
+  scrollToItemId: string | null
   revealed: Record<string, boolean>
   bookmarks: Record<string, boolean>
   mcqSelections: Record<string, number | null>
@@ -33,18 +34,20 @@ interface AppState {
   loadChapter: (chapterId: string) => Promise<ChapterData | null>
   selectChapter: (chapterId: string) => Promise<void>
   clearSelection: () => void
-  selectItem: (chapterId: string, itemIndex: number) => void
-  goNext: () => void
-  goPrev: () => void
-  toggleReveal: (itemId?: string) => void
+  selectItem: (chapterId: string, itemId: string) => Promise<void>
+  goNextChapter: () => void
+  goPrevChapter: () => void
+  setActiveTab: (tab: ChapterTab) => void
+  setScrollToItemId: (id: string | null) => void
+  toggleReveal: (itemId: string) => void
   selectMcqOption: (itemId: string, option: number) => void
   toggleBookmark: (itemId?: string) => void
   toggleTheme: () => void
   toggleSidebar: () => void
   setCommandOpen: (open: boolean) => void
   getSearchResults: (query: string) => SearchResult[]
-  getCurrentItem: () => StudyItem | null
   getCurrentChapter: () => ChapterData | null
+  getNavKind: () => NavEntry['kind'] | null
   isBookmarked: (itemId: string) => boolean
 }
 
@@ -62,7 +65,8 @@ export const useAppStore = create<AppState>()(
       chapters: {},
       progress: {},
       currentChapterId: null,
-      currentItemIndex: 0,
+      activeTab: 'notes',
+      scrollToItemId: null,
       revealed: {},
       bookmarks: {},
       mcqSelections: {},
@@ -114,57 +118,55 @@ export const useAppStore = create<AppState>()(
       selectChapter: async (chapterId) => {
         const data = await get().loadChapter(chapterId)
         if (!data) return
-        set({ currentChapterId: chapterId, currentItemIndex: 0 })
+        const entry = get().navEntries.find((e) => e.id === chapterId)
+        const kind = entry?.kind ?? 'harrison'
+        set({
+          currentChapterId: chapterId,
+          activeTab: defaultTab(data, kind),
+          scrollToItemId: null,
+        })
       },
 
       clearSelection: () => {
-        set({ currentChapterId: null, currentItemIndex: 0 })
+        set({ currentChapterId: null, scrollToItemId: null })
       },
 
-      selectItem: async (chapterId, itemIndex) => {
-        await get().loadChapter(chapterId)
-        set({ currentChapterId: chapterId, currentItemIndex: itemIndex })
+      selectItem: async (chapterId, itemId) => {
+        const data = await get().loadChapter(chapterId)
+        if (!data) return
+        const item = data.items.find((i) => i.id === itemId)
+        if (!item) return
+        set({
+          currentChapterId: chapterId,
+          activeTab: tabForItemType(item.type),
+          scrollToItemId: itemId,
+        })
       },
 
-      goNext: () => {
-        const { currentChapterId, currentItemIndex, chapters, navEntries } = get()
+      goNextChapter: () => {
+        const { currentChapterId, navEntries } = get()
         if (!currentChapterId) return
-        const items = chapters[currentChapterId]?.items ?? []
-        if (currentItemIndex < items.length - 1) {
-          set({ currentItemIndex: currentItemIndex + 1 })
-          return
-        }
         const idx = navEntries.findIndex((e) => e.id === currentChapterId)
         if (idx >= 0 && idx < navEntries.length - 1) {
-          const nextId = navEntries[idx + 1].id
-          get().selectChapter(nextId)
+          get().selectChapter(navEntries[idx + 1].id)
         }
       },
 
-      goPrev: async () => {
-        const { currentChapterId, currentItemIndex, navEntries } = get()
+      goPrevChapter: () => {
+        const { currentChapterId, navEntries } = get()
         if (!currentChapterId) return
-        if (currentItemIndex > 0) {
-          set({ currentItemIndex: currentItemIndex - 1 })
-          return
-        }
         const idx = navEntries.findIndex((e) => e.id === currentChapterId)
         if (idx > 0) {
-          const prevId = navEntries[idx - 1].id
-          await get().loadChapter(prevId)
-          const prevItems = get().chapters[prevId]?.items ?? []
-          set({
-            currentChapterId: prevId,
-            currentItemIndex: Math.max(prevItems.length - 1, 0),
-          })
+          get().selectChapter(navEntries[idx - 1].id)
         }
       },
 
+      setActiveTab: (tab) => set({ activeTab: tab }),
+
+      setScrollToItemId: (id) => set({ scrollToItemId: id }),
+
       toggleReveal: (itemId) => {
-        const item = itemId ? null : get().getCurrentItem()
-        const id = itemId ?? item?.id
-        if (!id) return
-        const revealed = { ...get().revealed, [id]: !get().revealed[id] }
+        const revealed = { ...get().revealed, [itemId]: !get().revealed[itemId] }
         const { navEntries, chapters } = get()
         set({
           revealed,
@@ -173,13 +175,17 @@ export const useAppStore = create<AppState>()(
       },
 
       selectMcqOption: (itemId, option) => {
-        set({ mcqSelections: { ...get().mcqSelections, [itemId]: option } })
+        const revealed = { ...get().revealed, [itemId]: true }
+        set({
+          mcqSelections: { ...get().mcqSelections, [itemId]: option },
+          revealed,
+          progress: buildProgress(get().navEntries, get().chapters, revealed),
+        })
       },
 
       toggleBookmark: (itemId) => {
-        const id = itemId ?? get().getCurrentItem()?.id
-        if (!id) return
-        set({ bookmarks: { ...get().bookmarks, [id]: !get().bookmarks[id] } })
+        if (!itemId) return
+        set({ bookmarks: { ...get().bookmarks, [itemId]: !get().bookmarks[itemId] } })
       },
 
       toggleTheme: () => {
@@ -221,9 +227,9 @@ export const useAppStore = create<AppState>()(
                 id: item.id,
                 kind: 'item',
                 label: text.slice(0, 72) + (text.length > 72 ? '…' : ''),
-                subtitle: `${entry.title} · Q${index + 1}`,
+                subtitle: `${entry.title} · #${index + 1}`,
                 chapterId: entry.id,
-                itemIndex: index,
+                itemId: item.id,
               })
             }
           })
@@ -231,16 +237,16 @@ export const useAppStore = create<AppState>()(
         return results.slice(0, 24)
       },
 
-      getCurrentItem: () => {
-        const { currentChapterId, currentItemIndex, chapters } = get()
-        if (!currentChapterId) return null
-        return chapters[currentChapterId]?.items[currentItemIndex] ?? null
-      },
-
       getCurrentChapter: () => {
         const { currentChapterId, chapters } = get()
         if (!currentChapterId) return null
         return chapters[currentChapterId] ?? null
+      },
+
+      getNavKind: () => {
+        const { currentChapterId, navEntries } = get()
+        if (!currentChapterId) return null
+        return navEntries.find((e) => e.id === currentChapterId)?.kind ?? null
       },
 
       isBookmarked: (itemId) => Boolean(get().bookmarks[itemId]),
@@ -254,7 +260,7 @@ export const useAppStore = create<AppState>()(
         bookmarks: state.bookmarks,
         mcqSelections: state.mcqSelections,
         currentChapterId: state.currentChapterId,
-        currentItemIndex: state.currentItemIndex,
+        activeTab: state.activeTab,
       }),
       onRehydrateStorage: () => (state) => {
         if (state) applyTheme(state.theme)

@@ -5,7 +5,7 @@ import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import { UtilityBar } from '@/components/layout/UtilityBar'
 import { MobileNav } from '@/components/layout/MobileNav'
 import { MobileCatalog } from '@/components/layout/MobileCatalog'
-import { QuestionCard } from '@/components/question/QuestionCard'
+import { ChapterView } from '@/components/chapter/ChapterView'
 import { CommandPalette } from '@/components/ui/CommandPalette'
 import { Button } from '@/components/ui/Button'
 import { useAppStore } from '@/store/useAppStore'
@@ -65,7 +65,7 @@ export function AppShell() {
       <div className="flex min-h-0 flex-1">
         <Sidebar />
         <main className="min-w-0 flex-1 overflow-y-auto pb-24 md:pb-0">
-          <QuestionCard />
+          <ChapterView />
         </main>
       </div>
 
