@@ -1,0 +1,254 @@
+{
+  "id": "story-007",
+  "topicType": "story",
+  "title": "Case Study: Stewardship vs Opportunity Cost in Diagnostics",
+  "subtitle": "An IIM-style analysis of sequential testing, payer moral hazard, and patient time",
+  "section": "Stories",
+  "category": "Health Systems & Management",
+  "items": [
+    {
+      "id": "story-007-n1",
+      "type": "note",
+      "subtopic": "Scenario",
+      "title": "The case: a defensible workup that still failed the patient",
+      "content": "A patient covered 100% by a government health scheme presents with a syndrome needing a differential workup. The physician follows evidence-based algorithms and orders tests in three sequential phases — Phase N+1 contingent on Phase N — to maximise specificity and avoid unnecessary high-cost investigations, conserving public resources. The patient is furious: three separate visits have cost him lost wages, transit, and exhaustion. The systemic twist: because the scheme covers every test, the patient faces zero financial friction (moral hazard), so he experiences the doctor’s resource conservation purely as an avoidable burden on his time. The physician optimised for monetary efficiency; the patient was optimising for time. Both are rational; the system, as run, satisfied neither.",
+      "keyPoints": [
+        "Clinically correct sequential testing produced a poor patient experience.",
+        "Government payment removes the patient’s monetary friction → moral hazard.",
+        "Physician optimises money-efficiency; patient optimises time-efficiency."
+      ]
+    },
+    {
+      "id": "story-007-n2",
+      "type": "note",
+      "subtopic": "Conflict Analysis",
+      "title": "Why the incentives are misaligned: a three-axis analysis",
+      "content": "Map the conflict across three axes. FINANCIAL COST — Physician: minimise public/taxpayer expenditure (fiscal responsibility). Patient: zero marginal cost per test (insulated by the scheme). FRICTIONAL COST — Physician: minimal (standard workflow). Patient: high (lost wages, travel, exhaustion across three visits). CLINICAL UTILITY — Physician: high specificity, avoid ‘shotgun’ diagnostics and false positives. Patient: shortest time-to-diagnosis and to treatment. The operational bottleneck is that the two parties are optimising different objective functions — monetary cost versus time — and a rigid sequential model silently maximises the physician’s axis while ignoring the patient’s.",
+      "keyPoints": [
+        "Financial: physician minimises public spend; patient has zero marginal cost.",
+        "Frictional: low for the physician, high for the patient (time, travel, wages).",
+        "Clinical utility: physician prizes specificity; patient prizes speed-to-treatment."
+      ]
+    },
+    {
+      "id": "story-007-n3",
+      "type": "note",
+      "subtopic": "Framework",
+      "title": "Stratified Parallel Diagnostics: from rigid sequence to risk-stratified parallelism",
+      "content": "The fix is to upgrade the operating model from a rigid Sequential Model to a Risk-Stratified Parallel Model — ‘Stratified Parallel Diagnostics.’ Rather than treating every diagnostic pathway with the same one-at-a-time timeline, the model decides what can be safely run in parallel, what the laboratory can sequence automatically, and what genuinely must wait for a human decision. It has three moving parts: (1) pre-test-probability and velocity triaging, (2) neutralising the moral hazard through education, and (3) operational decoupling of testing from visits. The objective shifts from ‘minimise tests’ to ‘minimise total cost — monetary plus the patient’s time — subject to clinical safety.’",
+      "keyPoints": [
+        "Replace rigid sequencing with risk-stratified parallelism.",
+        "Three levers: velocity triaging, moral-hazard education, operational decoupling.",
+        "New objective: minimise monetary + time cost, subject to clinical safety."
+      ]
+    },
+    {
+      "id": "story-007-n4",
+      "type": "note",
+      "subtopic": "Lever 1 · Triage",
+      "title": "How to triage by pre-test probability and velocity",
+      "content": "Stop giving every pathway the same sequential timeline; stratify it. Tier 1 (high-probability / essential baseline): run immediately on Day 1. Tier 2 (contingent but high-yield): normally it would wait for Tier 1 results — but if the patient faces significant socio-economic or logistical barriers to returning (long travel, hourly-wage earner) AND the pre-test probability crosses a defined clinical threshold, bundle Tier 2 into Day 1 even where guidelines would permit waiting. This trades a small, bounded amount of redundancy for a large reduction in the patient’s frictional cost and time-to-diagnosis — an explicit, defensible exception, not a blanket shotgun.",
+      "keyPoints": [
+        "Tier 1 essential baseline → Day 1 always.",
+        "Tier 2 high-yield → bundle into Day 1 IF logistical barriers are high AND pre-test probability is sufficient.",
+        "A bounded, justified parallelism — not indiscriminate shotgun testing."
+      ]
+    },
+    {
+      "id": "story-007-n5",
+      "type": "note",
+      "subtopic": "Lever 2 · Moral Hazard",
+      "title": "How to neutralise the moral hazard through education, not austerity",
+      "content": "The moral hazard persists because the patient treats government funds as an infinite pool with no downside to ‘more.’ Do not argue economics with him — change the axis. Shift the conversation from saving the state’s money to protecting the patient from clinical harm: explain that over-testing surfaces incidentalomas (unrelated minor abnormalities) that drag him into biopsies, extra radiation, repeat scans, and real anxiety. Framed this way, conservative, sequential testing becomes a shield for his body, not a constraint on his entitlement. The economics still hold — but the patient now owns the rationale because it is about him.",
+      "keyPoints": [
+        "Don’t debate ‘public money’ — reframe to the patient’s own safety.",
+        "Over-testing → incidentalomas → biopsies, radiation, anxiety, cascades.",
+        "Conservative testing becomes a shield for the patient, not austerity."
+      ]
+    },
+    {
+      "id": "story-007-n6",
+      "type": "note",
+      "subtopic": "Lever 3 · Decoupling",
+      "title": "How to decouple testing from visits (asynchronous review + reflex labs)",
+      "content": "The patient’s anger targets the three physical visits, not the blood draws. So separate ‘sequencing the tests’ from ‘making the patient appear.’ Asynchronous review: let the lab collect and sequence Phase 1 and Phase 2 without an interim outpatient consultation; the physician reviews results remotely and only calls the patient in for genuine decision points. Reflex testing protocols: pre-authorise the lab — ‘Order Test A; if A > X, automatically run Test B from the same sample overnight.’ This performs the sequential logic behind the scenes on one sample, eliminating an entire return visit while preserving full fiscal discipline. Add tele-consult or a digital report so the patient never travels merely to read a number.",
+      "keyPoints": [
+        "Decouple test sequencing from physical visits.",
+        "Reflex ordering: if A crosses a threshold, the lab auto-runs B on the same sample.",
+        "Async/tele review for results; reserve visits for real decisions."
+      ]
+    },
+    {
+      "id": "story-007-n7",
+      "type": "note",
+      "subtopic": "Communication",
+      "title": "How to script the conflict-resolution conversation",
+      "content": "With an already-angry patient, de-escalate by validating the time loss before asserting the rationale, then immediately change the workflow. A worked pivot: “I completely understand your frustration — your time is valuable, and three days in waiting rooms is exhausting. My goal wasn’t to waste your time but to protect your health: when we run too many tests at once we often get confusing borderline results that push us toward the wrong treatment. But I can see this setup has been a real burden, so let’s change the approach today — I’ll order the next steps so the lab handles the sequence automatically, and we’ll use a tele-consult to review reports so you don’t travel back just to read a result.” Validate, reframe to safety, then visibly fix the process.",
+      "keyPoints": [
+        "Sequence: validate the lost time → reframe as protecting health → change the workflow.",
+        "Name the harm of borderline results pushing toward wrong treatment.",
+        "Close with a concrete process change (reflex orders + tele-review)."
+      ]
+    },
+    {
+      "id": "story-007-n8",
+      "type": "note",
+      "subtopic": "Systemic Takeaways",
+      "title": "Key takeaways for systemic management",
+      "content": "Three durable lessons. (1) Time is a clinical metric: a patient’s logistical friction is tied directly to compliance — if a pathway takes too many steps, the patient may default and leave the disease unmanaged, the worst outcome of all. (2) Reflexive labs over sequential visits: let laboratory architecture (conditional reflex testing) do the sequential work behind the scenes on a single sample, rather than buying it with the patient’s repeated appointments. (3) Transparent rationing: when third-party payers remove financial friction, the physician must master explaining the clinical dangers of over-investigation — shifting the narrative from economic austerity to patient safety.",
+      "keyPoints": [
+        "Time is a clinical metric — friction erodes compliance and risks default.",
+        "Use reflex lab architecture instead of buying sequencing with patient visits.",
+        "Reframe stewardship from austerity to patient safety."
+      ]
+    },
+    {
+      "id": "story-007-why1",
+      "type": "why",
+      "subtopic": "Operations",
+      "question": "Why does a purely sequential testing model create operational drag in a third-party-payer system?",
+      "answer": "Because it optimises only one of the two cost axes that matter. Sequential testing minimises monetary cost and false positives, which is exactly what the physician and the payer care about — but in a scheme where the patient pays nothing, the monetary axis is invisible to him. What he experiences is the other axis: each contingent phase becomes another visit, another day of lost wages, more travel and waiting. The model silently maximises the physician’s objective (fiscal and clinical specificity) while loading 100% of the friction onto the patient, who has no financial reason to value the conservation. The result is eroded trust, lower compliance, and risk of default.",
+      "keyPoints": [
+        "Sequential testing optimises money/specificity — invisible to a zero-cost patient.",
+        "Each contingent phase converts into a costly visit for the patient.",
+        "All friction lands on the patient → eroded trust and default risk."
+      ]
+    },
+    {
+      "id": "story-007-how1",
+      "type": "how",
+      "subtopic": "Operations",
+      "question": "How does reflex laboratory testing preserve fiscal discipline while removing patient visits?",
+      "answer": "Reflex testing moves the ‘if-then’ of sequential diagnostics from the clinic into the laboratory. The physician pre-authorises a conditional rule — for example, ‘run Test A; if A exceeds threshold X, automatically run Test B on the same sample.’ Test B is therefore performed only when it is actually indicated, so the fiscal discipline of sequential testing is fully preserved: no unnecessary test is run. But because B uses the already-collected sample and is triggered automatically, the patient does not have to return for a second appointment to ‘unlock’ it. The sequence happens behind the scenes on one visit’s sample, decoupling clinical sequencing from physical attendance.",
+      "keyPoints": [
+        "A pre-authorised conditional rule runs the next test only if indicated — fiscal discipline intact.",
+        "It uses the same sample, so no return visit is needed to trigger it.",
+        "Sequencing happens in the lab, not by making the patient reappear."
+      ]
+    },
+    {
+      "id": "story-007-m1",
+      "type": "mcq",
+      "subtopic": "Conflict Analysis",
+      "stem": "At the heart of this conflict, what are the physician and the patient each primarily optimising?",
+      "options": [
+        "Both are optimising monetary cost, but disagree on the amount",
+        "The physician optimises monetary-cost efficiency; the patient optimises time (opportunity-cost) efficiency",
+        "Both are optimising time, but the physician is slower",
+        "The physician optimises patient time; the patient optimises public savings"
+      ],
+      "correctOption": 1,
+      "explanation": "The misalignment is one of objective functions: the physician minimises monetary and clinical-specificity costs, while the patient — insulated from monetary cost by the scheme — minimises his own time and opportunity cost. A rigid sequential model maximises the physician’s axis and ignores the patient’s."
+    },
+    {
+      "id": "story-007-m2",
+      "type": "mcq",
+      "subtopic": "Framework",
+      "stem": "Which operating-model change best resolves the conflict?",
+      "options": [
+        "Keep pure sequential testing but apologise more",
+        "Switch to shotgun testing — order everything on Day 1 since it is free",
+        "Adopt Stratified Parallel Diagnostics: risk-stratified bundling, moral-hazard education, and decoupling tests from visits via reflex labs",
+        "Refer every such patient to another hospital"
+      ],
+      "correctOption": 2,
+      "explanation": "Stratified Parallel Diagnostics keeps clinical and fiscal discipline while cutting the patient’s frictional cost: triage by pre-test probability and logistics, reframe restraint as patient safety, and use reflex labs plus asynchronous review so sequencing happens without extra visits. Pure sequencing ignores the patient’s time; shotgun testing causes false positives and waste."
+    },
+    {
+      "id": "story-007-m3",
+      "type": "mcq",
+      "subtopic": "Triage",
+      "stem": "When is it appropriate to bundle contingent Tier-2 tests into Day 1 rather than waiting for Tier-1 results?",
+      "options": [
+        "Always, because parallel testing is faster",
+        "Never, because contingent tests must always wait",
+        "When the patient faces significant socio-economic/logistical barriers to returning AND the pre-test probability crosses a defined clinical threshold",
+        "Only when the patient pays out of pocket"
+      ],
+      "correctOption": 2,
+      "explanation": "Bundling is a bounded, justified exception — appropriate when the patient’s barriers to returning are high and the pre-test probability is sufficient that the Tier-2 test is likely to be needed anyway. It trades small redundancy for a large drop in friction and time-to-diagnosis, without becoming indiscriminate shotgun testing."
+    },
+    {
+      "id": "story-007-m4",
+      "type": "mcq",
+      "subtopic": "Operations",
+      "stem": "How does a reflex testing protocol remove a visit while keeping fiscal discipline?",
+      "options": [
+        "It runs every available test up front regardless of results",
+        "It pre-authorises the lab to run the next test from the same sample only if the first result crosses a threshold",
+        "It requires the patient to return to authorise each step",
+        "It replaces laboratory tests with clinical guesswork"
+      ],
+      "correctOption": 1,
+      "explanation": "Reflex testing encodes the ‘if-then’ in the lab: the next test runs automatically on the existing sample only when the first result indicates it. The unnecessary test is still never run (fiscal discipline preserved), but the patient does not return to trigger the indicated one."
+    },
+    {
+      "id": "story-007-m5",
+      "type": "mcq",
+      "subtopic": "Moral Hazard",
+      "stem": "What is the most effective way to neutralise the patient’s moral hazard around ‘free’ tests?",
+      "options": [
+        "Explain that the government cannot afford unlimited testing",
+        "Reframe restraint as protecting the patient from incidentalomas, radiation, biopsies, and anxiety — patient safety, not austerity",
+        "Charge the patient a fee to create financial friction",
+        "Order all the tests so he stops complaining"
+      ],
+      "correctOption": 1,
+      "explanation": "Because the patient feels no monetary cost, an economic argument falls flat. Shifting the axis to his own safety — over-testing surfaces incidental findings that cascade into harmful, anxiety-provoking workups — gives him a personal reason to accept conservative testing. Citing public affordability invites an entitlement fight; charging him or capitulating both fail."
+    },
+    {
+      "id": "story-007-m6",
+      "type": "mcq",
+      "subtopic": "Compliance",
+      "stem": "Why is ignoring the patient’s logistical friction a clinical risk, not just a satisfaction issue?",
+      "options": [
+        "It has no clinical effect; it only affects reviews",
+        "High friction reduces compliance, so the patient may default and leave the disease unmanaged",
+        "It increases the accuracy of each individual test",
+        "It lowers the cost of treatment"
+      ],
+      "correctOption": 1,
+      "explanation": "Time is a clinical metric: when a pathway demands too many steps and visits, compliance falls and the patient may drop out entirely, leaving the underlying disease untreated — a worse outcome than any single test inefficiency. Minimising friction is therefore part of good clinical care."
+    },
+    {
+      "id": "story-007-tf1",
+      "type": "true_false",
+      "subtopic": "Moral Hazard",
+      "statement": "Under a government payer, the patient’s zero marginal cost per test removes the natural brake on test demand — a moral hazard.",
+      "correctAnswer": true,
+      "explanation": "True. When a third party covers 100% of the cost, the patient has no financial incentive to limit testing, so demand for ‘everything at once’ rises — the defining feature of moral hazard."
+    },
+    {
+      "id": "story-007-tf2",
+      "type": "true_false",
+      "subtopic": "Triage",
+      "statement": "Bundling some contingent tests in parallel can be justified when a patient’s logistical barriers are high and the pre-test probability is sufficient.",
+      "correctAnswer": true,
+      "explanation": "True. Stratified Parallel Diagnostics permits bounded parallelism as an explicit exception when the patient faces real barriers to returning and the contingent test is likely to be needed — trading small redundancy for a large reduction in friction."
+    },
+    {
+      "id": "story-007-tf3",
+      "type": "true_false",
+      "subtopic": "Operations",
+      "statement": "Reflex laboratory testing requires the patient to return for an extra visit between phases.",
+      "correctAnswer": false,
+      "explanation": "False. Reflex testing runs the next indicated test automatically on the same sample, so it eliminates the interim visit rather than adding one."
+    },
+    {
+      "id": "story-007-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Reasoning",
+      "assertion": "A rigid, purely sequential testing model can erode patient trust and compliance.",
+      "reason": "It imposes high frictional costs — lost wages, travel, and waiting across multiple visits — on the patient even when the monetary cost to them is zero.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion. Because the patient bears all the time/travel friction while feeling none of the monetary saving, a rigid sequential model feels like pure burden — which is precisely how it erodes trust and compliance."
+    },
+    {
+      "id": "story-007-sa1",
+      "type": "shortanswer",
+      "subtopic": "Apply It",
+      "question": "Apply the Stratified Parallel Diagnostics framework: outline how you would restructure this patient’s workup across the three levers.",
+      "answer": "Lever 1 — Velocity triaging: run the Tier-1 essential baseline on Day 1; because this patient has high logistical barriers (travel, lost wages), bundle any Tier-2 test whose pre-test probability crosses the clinical threshold into Day 1 as well. Lever 2 — Moral-hazard education: reframe conservative testing as protecting him from incidentalomas, extra radiation, biopsies, and anxiety, rather than as saving public money. Lever 3 — Operational decoupling: set up reflex lab orders (if Test A > X, the lab auto-runs Test B on the same sample), review results asynchronously, and use tele-consultation so he only attends for genuine decision points. Communication: validate his lost time, reframe the rationale as his safety, and visibly change the workflow in front of him. Net effect: the sequential clinical and fiscal logic is preserved, but the patient’s visits and time-to-diagnosis fall sharply."
+    }
+  ]
+}
