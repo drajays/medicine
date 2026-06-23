@@ -1,0 +1,907 @@
+#!/usr/bin/env node
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+
+const OUT = path.join(
+  __dirname,
+  '../data/pe-cr-012_diabetes_in_the_young.json'
+);
+
+const notes = [
+  {
+    id: 'pe-cr-012-n1',
+    subtopic: 'Definition',
+    title: 'How diabetes in the young is defined',
+    content: 'Diabetes in the young refers to diabetes diagnosed at or before age 30 and includes multiple etiologies that are more varied than in older adults.',
+    keyPoints: [
+      'Onset is at or below 30 years of age.',
+      'Etiologies extend beyond classic type 2 diabetes.',
+      'Diagnosis guides distinct treatment strategies.'
+    ],
+    reference: 'How to define diabetes in the young? — Diabetes in the young is defined as onset of diabetes at or below 30 years of age.'
+  },
+  {
+    id: 'pe-cr-012-n2',
+    subtopic: 'Islet development',
+    title: 'How islet cells develop during embryogenesis',
+    content: 'The pancreas originates from the foregut with ventral and dorsal buds, and the endocrine pancreas emerges from ductal epithelium driven by key transcription factors.',
+    keyPoints: [
+      'Ventral and dorsal buds arise from the foregut.',
+      'The ventral bud forms posterior head; dorsal forms anterior head, body, and tail.',
+      'Endocrine pancreas derives from ductal epithelium.'
+    ],
+    reference: 'How do islet cells develop during embryogenesis? — During embryogenesis, the pancreas develops from the foregut. Outpouching from the foregut results in formation of ventral and dorsal buds: the former develops into posterior part of the head of the pancreas, while the latter forms anterior part of the head, body, and tail of the pancreas.'
+  },
+  {
+    id: 'pe-cr-012-n3',
+    subtopic: 'Islet topography',
+    title: 'How islet cell topography is organized in the pancreas',
+    content: 'Islets are numerous but small, and the endocrine pancreas makes up only a tiny fraction of total pancreatic mass while the exocrine pancreas provides the majority.',
+    keyPoints: [
+      'Islets are discrete clusters of endocrine cells.',
+      'Endocrine tissue is a small fraction of pancreatic weight.',
+      'Exocrine tissue dominates total pancreatic mass.'
+    ],
+    reference: 'What is the topography of islet cells in the pancreas? — The endocrine pancreas constitutes approximately 1–2% of the total weight of the pancreas, while the rest (98%) is contributed by the exocrine pancreas.'
+  },
+  {
+    id: 'pe-cr-012-n4',
+    subtopic: 'Insulin secretion',
+    title: 'How insulin secretion is patterned in healthy individuals',
+    content: 'Normal insulin output is pulsatile with basal oscillations and distinct first- and second-phase responses to meals that shape hepatic glucose output and peripheral uptake.',
+    keyPoints: [
+      'Insulin secretion is pulsatile in health.',
+      'First phase is brief and rapid after meals.',
+      'Second phase sustains postprandial control.'
+    ],
+    reference: 'What is the insulin secretory profile in a normal individual? — Insulin is secreted in a pulsatile pattern in a healthy adult.'
+  },
+  {
+    id: 'pe-cr-012-n5',
+    subtopic: 'Glucose-glucagon axis',
+    title: 'How the glucose–glucagon axis maintains glycemia',
+    content: 'Glucagon secretion rises as glucose falls and is suppressed when glucose rises, coordinating counterregulation and glucose homeostasis.',
+    keyPoints: [
+      'Low glucose stimulates glucagon release.',
+      'High glucose suppresses glucagon secretion.',
+      'Axis stability preserves glucose homeostasis.'
+    ],
+    reference: 'What is glucose-glucagon axis? — Declining glucose levels result in stimulation of glucagon secretion, whereas rising glucose levels lead to suppression of glucagon secretion.'
+  },
+  {
+    id: 'pe-cr-012-n6',
+    subtopic: 'Entero-insular axis',
+    title: 'How the entero-insular axis amplifies insulin secretion',
+    content: 'Oral nutrients trigger incretin release from the gut, boosting insulin secretion beyond what intravenous glucose produces.',
+    keyPoints: [
+      'GLP1 and GIP are the principal incretins.',
+      'Incretins explain stronger insulin response to oral glucose.',
+      'Gut hormones contribute the majority of prandial insulin.'
+    ],
+    reference: 'What is entero-insular axis? — Entero-insular axis or “incretin-β-cell axis” encompasses secretion of insulin triggered by release of peptides from enteroendocrine cells (incretins) in response to oral administration of nutrients.'
+  },
+  {
+    id: 'pe-cr-012-n7',
+    subtopic: 'Islet cross-talk',
+    title: 'How islet cell cross-talk supports euglycemia',
+    content: 'Intra-islet signaling links beta-, alpha-, and delta-cells so insulin and somatostatin coordinate glucagon responses during rising and falling glucose.',
+    keyPoints: [
+      'Insulin modulates alpha-cell glucagon release.',
+      'Somatostatin inhibits both alpha- and beta-cells.',
+      'Paracrine signals stabilize glucose recovery.'
+    ],
+    reference: 'How do islet cells cross-talk with each other? — Somatostatin secreted from δ-cell has inhibitory effects on both α- and β-cells.'
+  },
+  {
+    id: 'pe-cr-012-n8',
+    subtopic: 'Type 1 diabetes',
+    title: 'How type 1 diabetes is clinically characterized',
+    content: 'Type 1 diabetes presents early with autoimmune markers and absolute insulin deficiency that often leads to ketosis or ketoacidosis.',
+    keyPoints: [
+      'Young age of onset is typical.',
+      'Autoimmune markers are present.',
+      'Absolute insulin deficiency drives ketosis risk.'
+    ],
+    reference: 'What are the characteristic features of type 1 diabetes mellitus? — Young age of onset, the presence of islet autoimmunity, and absolute insulin deficiency are the characteristic features of T1DM.'
+  },
+  {
+    id: 'pe-cr-012-n9',
+    subtopic: 'Prediabetes in T1DM',
+    title: 'How prediabetes evolves in type 1 diabetes',
+    content: 'Autoimmunity and loss of first-phase insulin response precede overt diabetes, with a prediabetes stage commonly 1–2 years before diagnosis.',
+    keyPoints: [
+      'Autoimmunity appears before hyperglycemia.',
+      'First-phase insulin response declines early.',
+      'Prediabetes can precede diagnosis by 1–2 years.'
+    ],
+    reference: 'Is there a phase of prediabetes in patients with type 1 diabetes? — This phase is referred to as prediabetes phase of T1DM and is usually observed 1–2 years prior to the development of overt diabetes.'
+  },
+  {
+    id: 'pe-cr-012-n10',
+    subtopic: 'Islet autoantibodies',
+    title: 'How islet autoantibodies define type 1 diabetes',
+    content: 'Type 1 diabetes is strongly associated with multiple islet autoantibodies, and the presence of two or more antibodies strongly supports diagnosis.',
+    keyPoints: [
+      'Key antibodies include GAD-65, ICA, IA-2, IAA, and ZnT8.',
+      'Autoantibodies are present in most new diagnoses.',
+      'Multiple antibodies carry the highest predictive value.'
+    ],
+    reference: 'What is the islet antibody profile in patients with type 1 DM? — The islet autoantibodies in patients with T1DM include anti-GAD-65 antibody, islet cell autoantibody (ICA), insulinoma-associated antigen 2 (IA-2) antibody, anti-insulin antibody (IAA), and anti-zinc transporter antibody (ZnT8).'
+  },
+  {
+    id: 'pe-cr-012-n11',
+    subtopic: 'Offspring risk',
+    title: 'How offspring risk is estimated for type 1 diabetes',
+    content: 'Parental type 1 diabetes increases offspring risk, with higher risk from paternal disease and the greatest risk when both parents are affected.',
+    keyPoints: [
+      'Paternal disease carries higher risk than maternal disease.',
+      'Risk rises substantially when both parents have T1DM.',
+      'Sibling and twin risks help contextualize family counseling.'
+    ],
+    reference: 'What is the risk of developing T1DM in an offspring of a couple with T1DM? — The risk of developing T1DM in an offspring is higher, if father has T1DM as compared to mother (4.6% vs. 2%); however, the risk is 10% if both parents have T1DM.'
+  },
+  {
+    id: 'pe-cr-012-n12',
+    subtopic: 'Insulin regimen',
+    title: 'Why basal-bolus insulin is preferred over premixed regimens',
+    content: 'Basal-bolus therapy better approximates physiologic insulin delivery and avoids the glycemic swings and hypoglycemia seen with fixed premixed dosing.',
+    keyPoints: [
+      'Premixed insulin has limited flexibility.',
+      'Basal-bolus improves post-lunch and early morning control.',
+      'Glycemic variability and hypoglycemia are lower.'
+    ],
+    reference: 'Why basal-bolus insulin regimen is preferred over fixed-dose premixed insulin in patients with T1DM? — Premixed insulin twice a day results in higher glycemic variability, frequent episodes of hypoglycemia, and failure to achieve target HbA1c as compared to basal-bolus regimen.'
+  },
+  {
+    id: 'pe-cr-012-n13',
+    subtopic: 'Hypoglycemia',
+    title: 'Why hypoglycemia is common in type 1 diabetes',
+    content: 'Recurrent hypoglycemia reflects absolute insulin deficiency with impaired glucagon responses and autonomic failure that blunt counterregulation.',
+    keyPoints: [
+      'Loss of endogenous insulin suppresses first-line defense.',
+      'Glucagon response to hypoglycemia is impaired.',
+      'Autonomic neuropathy further weakens counterregulation.'
+    ],
+    reference: 'Why are patients with T1DM predisposed to hypoglycemia? — The mechanisms for recurrent hypoglycemia include absolute insulin deficiency, impaired regulation of glucagon secretion, and autonomic failure.'
+  },
+  {
+    id: 'pe-cr-012-n14',
+    subtopic: 'Statins',
+    title: 'How statin therapy is initiated in youth with type 1 diabetes',
+    content: 'Statins are reserved for older children with persistent LDL elevation despite lifestyle therapy, especially when additional cardiovascular risk factors exist.',
+    keyPoints: [
+      'Consider statins after age 10 years.',
+      'Thresholds include LDL >160 mg/dl or >130 mg/dl with risk factors.',
+      'Lifestyle therapy and glycemic optimization come first.'
+    ],
+    reference: 'When to add statin in children and adolescents with T1DM? — Statin therapy is recommended in children older than 10 years (paucity of data <10 years), if LDL-C is >160 mg/dl or >130 mg/dl with one or more cardiovascular disease (CVD) risk factors, after optimal glycemic control and MNT.'
+  },
+  {
+    id: 'pe-cr-012-n15',
+    subtopic: 'Microvascular screening',
+    title: 'How microvascular screening is scheduled in pediatric T1DM',
+    content: 'Annual screening targets kidney and eye disease once duration thresholds are met, with retinopathy screening triggered by puberty or age 10 after sufficient diabetes duration.',
+    keyPoints: [
+      'Albuminuria screening begins after 5 years of diabetes.',
+      'Retinopathy screening starts after 3 years of diabetes and puberty or age 10.',
+      'ACE inhibitors or ARBs are considered for confirmed albuminuria.'
+    ],
+    reference: 'When to screen for microvascular complications in patients with T1DM? — The children and adolescents with T1DM of ≥5 years of duration should undergo annual screening for albuminuria by estimation of albumin to creatinine ratio (ACR) in a random spot urine sample. Annual screening for retinopathy is recommended by dilated fundus examination in children and adolescents with T1DM who have duration of diabetes ≥3 years and either older than 10 years or entered into puberty (whichever is earlier).'
+  },
+  {
+    id: 'pe-cr-012-n16',
+    subtopic: 'DKA',
+    title: 'How DKA is defined and why ketonuria can persist',
+    content: 'DKA requires hyperglycemia, ketonemia or ketonuria, and metabolic acidosis; urinary ketones may persist even after clinical recovery due to delayed clearance from adipose stores.',
+    keyPoints: [
+      'Diagnostic criteria include glucose >250 mg/dl and pH <7.3.',
+      'Bicarbonate <15 mEq/L supports DKA diagnosis.',
+      'Ketonuria can persist as ketones slowly leave adipose tissue.'
+    ],
+    reference: 'How to define diabetic ketoacidosis? — The diagnostic criteria for diabetic ketoacidosis (DKA) include blood glucose >250 mg/dl, ketonemia/ketonuria [plasma β-(OH) butyrate >3 mmol/L, plasma acetone/acetoacetate positive in >1:2 dilution and/or urine ketones ≥3+], and blood pH <7.3 with serum bicarbonate <15 mEq/L. A patient with T1DM who presented with DKA was optimally managed with insulin infusion and fluids with normalization of arterial pH and anion gap; however, ketonuria is persisting. How to interpret? — The slow release of ketone bodies into circulation from adipose tissue explains the persistence of ketonuria even after recovery from DKA.'
+  },
+  {
+    id: 'pe-cr-012-n17',
+    subtopic: 'SGLT2 inhibitors',
+    title: 'How SGLT2 inhibitors precipitate DKA',
+    content: 'SGLT2 inhibitors can trigger euglycemic DKA by reducing glucose and insulin dosing while increasing glucagon and counterregulatory hormones.',
+    keyPoints: [
+      'Glucosuria lowers insulin dosing during stress.',
+      'Relative insulin deficiency permits ketogenesis.',
+      'Hyperglucagonemia and hypovolemia amplify risk.'
+    ],
+    reference: 'How do SGLT2 inhibitors induce DKA? — Few cases of euglycemic DKA have been reported with the use of SGLT2 inhibitors in patients with both T1DM and T2DM particularly during stress.'
+  },
+  {
+    id: 'pe-cr-012-n18',
+    subtopic: 'Type 2 diabetes',
+    title: 'How type 2 diabetes presents in youth',
+    content: 'Most youth-onset type 2 diabetes presents during puberty when insulin resistance increases, often in the setting of obesity.',
+    keyPoints: [
+      'Most cases present between ages 10 and 18 years.',
+      'Puberty drives insulin resistance via GH-IGF1 and gonadal steroids.',
+      'Obesity and inactivity are key upstream factors.'
+    ],
+    reference: 'What is the most common age of presentation of T2DM in young individuals? — Approximately 90% of young individuals with T2DM present between 10 and 18 years of age.'
+  },
+  {
+    id: 'pe-cr-012-n19',
+    subtopic: 'MODY',
+    title: 'How maturity onset diabetes of the young is defined',
+    content: 'MODY is a monogenic, autosomal dominant form of diabetes with early onset, multi-generation transmission, and delayed insulin dependence.',
+    keyPoints: [
+      'Onset is typically before 25 years.',
+      'Family history spans multiple generations.',
+      'Insulin is not required for the first several years.'
+    ],
+    reference: 'What is maturity onset diabetes of the young? — Maturity onset diabetes of the young (MODY) includes a heterogeneous group of monogenic disorders and is clinically characterized by the early onset of diabetes (<25 years of age), vertical transmission of disease in three generations (autosomal dominant mode of inheritance) with at least one family member with onset of disease <25 years of age, and not requiring insulin for at least initial 5 years.'
+  },
+  {
+    id: 'pe-cr-012-n20',
+    subtopic: 'MODY subtypes',
+    title: 'How MODY subtypes are classified by gene defects',
+    content: 'MODY subtypes are categorized by the gene affected, including HNF4A, GCK, HNF1A, HNF1B, and NEUROD1 among others.',
+    keyPoints: [
+      'Classification reflects genes in beta-cell development and insulin secretion.',
+      'Key subtypes include MODY 1, 2, 3, 5, and 6.',
+      'Gene defects map to distinct clinical phenotypes.'
+    ],
+    reference: 'What are the various subtypes of MODY? — Various subtypes of MODY are classified on the basis of mutations in genes implicated in the development of the pancreas, insulin synthesis, and secretion.'
+  },
+  {
+    id: 'pe-cr-012-n21',
+    subtopic: 'MODY vs T2DM',
+    title: 'How to differentiate MODY from type 2 diabetes',
+    content: 'MODY is typically nonobese with autosomal dominant inheritance and absent insulin resistance features, while youth-onset type 2 diabetes is usually obese and insulin resistant.',
+    keyPoints: [
+      'MODY shows monogenic inheritance across generations.',
+      'Insulin resistance features are usually absent in MODY.',
+      'Treatment and prognosis differ, making differentiation crucial.'
+    ],
+    reference: 'How to differentiate MODY from type 2 diabetes? — As both MODY and type 2 diabetes can present in young individuals with non-ketotic hyperglycemia, it is important to differentiate between them as these disorders have different etiology, treatment strategy, associated comorbidities, and prognosis.'
+  },
+  {
+    id: 'pe-cr-012-n22',
+    subtopic: 'LADA',
+    title: 'How LADA differs from type 1 and type 2 diabetes',
+    content: 'LADA presents after age 30 with autoimmunity but delayed insulin dependence, and early insulin is recommended to preserve beta-cell function.',
+    keyPoints: [
+      'Autoimmunity is present but insulin is not required initially.',
+      'Progression to insulin dependence occurs over years.',
+      'Early insulin therapy supports beta-cell preservation.'
+    ],
+    reference: 'What is latent autoimmune diabetes of adults? — The onset of diabetes after 30 years of age, non-requirement of insulin for at least 6 months after the diagnosis, and evidence of islet cell autoimmunity are the characteristic features of LADA. What are the treatment strategies for patients with LADA? — Insulin therapy should be offered to patients with LADA at the onset of disease to preserve endogenous β-cell function by providing β-cell rest and suppression of insulitis through immunomodulation.'
+  },
+  {
+    id: 'pe-cr-012-n23',
+    subtopic: 'FCPD',
+    title: 'How fibrocalculous pancreatic diabetes presents',
+    content: 'FCPD combines abdominal pain, exocrine insufficiency, pancreatic calcification, and non-ketotic diabetes with microvascular risk.',
+    keyPoints: [
+      'Classic triad is abdominal pain, steatorrhea, and diabetes.',
+      'Ketosis is uncommon despite severe hyperglycemia.',
+      'Pancreatic calcification is typical on imaging.'
+    ],
+    reference: 'What is “fibrocalculous pancreatic diabetes”? — “Fibrocalculous pancreatic diabetes” (FCPD) is characterized by abdominal pain, exocrine pancreatic insufficiency, diabetes mellitus (non-ketotic), and pancreatic calcification in the absence of alcoholism and gall stone disease. Why is ketosis uncommon in FCPD? — Diabetic ketosis is uncommon in patients with FCPD and has been reported in <15% of patients.'
+  },
+  {
+    id: 'pe-cr-012-n24',
+    subtopic: 'Ketosis-prone diabetes',
+    title: 'How ketosis-prone and Flatbush diabetes evolve',
+    content: 'Ketosis-prone diabetes can present with DKA but later show recovery of beta-cell function, and Flatbush diabetes often permits insulin discontinuation after stabilization.',
+    keyPoints: [
+      'Flatbush diabetes presents with DKA and later insulin independence.',
+      'Most patients are overweight with strong family history.',
+      'Relapse of DKA is uncommon after recovery.'
+    ],
+    reference: 'What is Flatbush diabetes? — These individuals presented with DKA, required insulin for a short time, and subsequently were able to discontinue insulin therapy, while maintaining euglycemia (with or without OHA) for several months to years. What is the natural history of Flatbush diabetes? — After resolution of DKA, approximately 50% of the patients are able to discontinue insulin therapy within 6 months; however, 80% of these patients require oral antidiabetic drugs (sulfonylurea or metformin) and the rest 20% could maintain euglycemia only on lifestyle modification at 1 year of follow-up.'
+  },
+  {
+    id: 'pe-cr-012-n25',
+    subtopic: 'Neonatal diabetes',
+    title: 'How neonatal diabetes is classified and caused',
+    content: 'Neonatal diabetes begins in early infancy, is divided into transient and permanent forms, and is often driven by KATP channel mutations.',
+    keyPoints: [
+      'Onset is before 6 months of age.',
+      'Transient and permanent forms are common.',
+      'KCNJ11 and ABCC8 mutations are key causes.'
+    ],
+    reference: 'What is neonatal diabetes mellitus? — The onset of diabetes mellitus before 6 months of age is termed as neonatal diabetes (NDM). What are the causes of permanent neonatal diabetes mellitus? — The most common cause of PNDM is heterozygous mutations in ATP-sensitive K+ channel (KATP).'
+  },
+  {
+    id: 'pe-cr-012-n26',
+    subtopic: 'Lipodystrophy',
+    title: 'How lipodystrophic diabetes develops',
+    content: 'Loss of adipose tissue leads to leptin deficiency, lipotoxicity, and severe insulin resistance, with syndromes that may be congenital or acquired.',
+    keyPoints: [
+      'Generalized or partial fat loss drives insulin resistance.',
+      'Leptin deficiency and ectopic fat contribute to hyperglycemia.',
+      'Syndromes are classified as congenital or acquired.'
+    ],
+    reference: 'What is lipodystrophic diabetes? — Lipodystrophic diabetes is a group of metabolic disorders characterized by generalized or partial wasting/loss of adipose tissue mass, severe insulin resistance, hyperglycemia, hypertriglyceridemia, and hepatic steatosis.'
+  },
+  {
+    id: 'pe-cr-012-n27',
+    subtopic: 'Severe insulin resistance',
+    title: 'How insulin receptor syndromes cause severe insulin resistance',
+    content: 'Insulin receptor mutations lead to profound insulin resistance syndromes such as leprechaunism and Rabson–Mendenhall with growth failure and metabolic instability.',
+    keyPoints: [
+      'Leprechaunism (Donohue syndrome) is the most severe form.',
+      'Rabson–Mendenhall syndrome is intermediate in severity.',
+      'Both syndromes involve marked hyperinsulinemia.'
+    ],
+    reference: 'What is leprechaunism? — Leprechaunism, also known as Donohue syndrome, is a disorder characterized by severe insulin resistance. What is Rabson-Mendenhall syndrome? — Rabson–Mendenhall syndrome is a disorder characterized by severe insulin resistance and manifests as characteristics facies (prominent widely spaced eyes, broad nose, and large, low-set ears), growth retardation, severe acanthosis nigricans, protuberant abdomen, thick nails, early dentition with crowding of teeth, features of androgen excess (hirsutism, clitoromegaly in girls and macro-penis in boys), pineal hyperplasia, and fasting hypoglycemia and postprandial hyperglycemia.'
+  },
+  {
+    id: 'pe-cr-012-n28',
+    subtopic: 'Mitochondrial diabetes',
+    title: 'How mitochondrial diabetes and DIDMOAD are recognized',
+    content: 'Mitochondrial diabetes is suggested by young-onset diabetes with deafness and maternal inheritance, while DIDMOAD adds optic atrophy and diabetes insipidus.',
+    keyPoints: [
+      'Sensorineural deafness is a key clue.',
+      'Maternal transmission supports mitochondrial etiology.',
+      'DIDMOAD includes diabetes mellitus, optic atrophy, and deafness.'
+    ],
+    reference: 'When to suspect mitochondrial diabetes? — Mitochondrial diabetes should be suspected in a young individual with diabetes (onset before 30 years) and sensorineural deafness. What is DIDMOAD syndrome? — The term DIDMOAD refers to diabetes insipidus, diabetes mellitus, optic atrophy, and deafness (Wolfram syndrome).'
+  }
+].map(note => ({ ...note, type: 'note' }));
+
+const mcqs = [
+  {
+    id: 'pe-cr-012-q1',
+    subtopic: 'Definition',
+    question: 'Diabetes in the young is defined by onset at or below which age?',
+    options: ['30 years', '40 years', '50 years', '60 years'],
+    correctOption: 0,
+    explanation: 'The definition uses an upper age cutoff of 30 years.',
+    reference: 'How to define diabetes in the young? — Diabetes in the young is defined as onset of diabetes at or below 30 years of age.'
+  },
+  {
+    id: 'pe-cr-012-q2',
+    subtopic: 'Islet development',
+    question: 'During embryogenesis, the dorsal pancreatic bud primarily forms the:',
+    options: [
+      'Anterior head, body, and tail of the pancreas',
+      'Posterior head of the pancreas only',
+      'Entire pancreas including uncinate process',
+      'Pancreatic ductal system only'
+    ],
+    correctOption: 0,
+    explanation: 'The dorsal bud forms the anterior head, body, and tail.',
+    reference: 'How do islet cells develop during embryogenesis? — Outpouching from the foregut results in formation of ventral and dorsal buds: the former develops into posterior part of the head of the pancreas, while the latter forms anterior part of the head, body, and tail of the pancreas.'
+  },
+  {
+    id: 'pe-cr-012-q3',
+    subtopic: 'Islet topography',
+    question: 'Approximately what proportion of pancreatic weight is made up by endocrine tissue?',
+    options: ['1–2%', '5–10%', '15–20%', '30–40%'],
+    correctOption: 0,
+    explanation: 'Endocrine tissue is only a small fraction of pancreatic mass.',
+    reference: 'What is the topography of islet cells in the pancreas? — The endocrine pancreas constitutes approximately 1–2% of the total weight of the pancreas, while the rest (98%) is contributed by the exocrine pancreas.'
+  },
+  {
+    id: 'pe-cr-012-q4',
+    subtopic: 'Insulin secretion',
+    question: 'Normal insulin secretion in healthy adults is best described as:',
+    options: [
+      'Pulsatile with rapid oscillations',
+      'Continuous without oscillations',
+      'Absent between meals',
+      'Only meal-triggered with no basal secretion'
+    ],
+    correctOption: 0,
+    explanation: 'Physiologic insulin secretion is pulsatile.',
+    reference: 'What is the insulin secretory profile in a normal individual? — Insulin is secreted in a pulsatile pattern in a healthy adult.'
+  },
+  {
+    id: 'pe-cr-012-q5',
+    subtopic: 'Glucose-glucagon axis',
+    question: 'Which statement best reflects the glucose–glucagon axis?',
+    options: [
+      'Low glucose stimulates glucagon release',
+      'Low glucose suppresses glucagon release',
+      'High glucose stimulates glucagon release',
+      'Glucagon secretion is unrelated to glucose'
+    ],
+    correctOption: 0,
+    explanation: 'Falling glucose levels drive glucagon secretion.',
+    reference: 'What is glucose-glucagon axis? — Declining glucose levels result in stimulation of glucagon secretion, whereas rising glucose levels lead to suppression of glucagon secretion.'
+  },
+  {
+    id: 'pe-cr-012-q6',
+    subtopic: 'Entero-insular axis',
+    question: 'The entero-insular axis refers to insulin secretion triggered by:',
+    options: [
+      'Incretin release after oral nutrient intake',
+      'Sympathetic activation during fasting',
+      'Intravenous glucose without gut exposure',
+      'Corticosteroid surge during stress'
+    ],
+    correctOption: 0,
+    explanation: 'Gut-derived incretins amplify insulin secretion after oral intake.',
+    reference: 'What is entero-insular axis? — Entero-insular axis or “incretin-β-cell axis” encompasses secretion of insulin triggered by release of peptides from enteroendocrine cells (incretins) in response to oral administration of nutrients.'
+  },
+  {
+    id: 'pe-cr-012-q7',
+    subtopic: 'Islet cross-talk',
+    question: 'Which islet hormone inhibits both alpha- and beta-cell secretion?',
+    options: ['Somatostatin', 'Glucagon', 'Insulin', 'Ghrelin'],
+    correctOption: 0,
+    explanation: 'Somatostatin from delta cells inhibits both alpha- and beta-cells.',
+    reference: 'How do islet cells cross-talk with each other? — Somatostatin secreted from δ-cell has inhibitory effects on both α- and β-cells.'
+  },
+  {
+    id: 'pe-cr-012-q8',
+    subtopic: 'Type 1 diabetes',
+    question: 'The hallmark triad of type 1 diabetes includes young onset, autoimmunity, and:',
+    options: [
+      'Absolute insulin deficiency',
+      'Predominant insulin resistance',
+      'Chronic hypercortisolism',
+      'Hyperglucagonemia without ketosis'
+    ],
+    correctOption: 0,
+    explanation: 'Type 1 diabetes features absolute insulin deficiency.',
+    reference: 'What are the characteristic features of type 1 diabetes mellitus? — Young age of onset, the presence of islet autoimmunity, and absolute insulin deficiency are the characteristic features of T1DM.'
+  },
+  {
+    id: 'pe-cr-012-q9',
+    subtopic: 'Prediabetes in T1DM',
+    question: 'The prediabetes phase of type 1 diabetes is most commonly observed:',
+    options: [
+      '1–2 years before overt diabetes',
+      '10 years before overt diabetes',
+      'Only after diabetes is diagnosed',
+      'Exclusively after age 40'
+    ],
+    correctOption: 0,
+    explanation: 'Prediabetes typically precedes diagnosis by 1–2 years.',
+    reference: 'Is there a phase of prediabetes in patients with type 1 diabetes? — This phase is referred to as prediabetes phase of T1DM and is usually observed 1–2 years prior to the development of overt diabetes.'
+  },
+  {
+    id: 'pe-cr-012-q10',
+    subtopic: 'Islet autoantibodies',
+    question: 'Which autoantibody is listed among the common islet autoantibodies in type 1 diabetes?',
+    options: ['Anti-GAD-65', 'Anti-TPO', 'Anti-dsDNA', 'Anti-CCP'],
+    correctOption: 0,
+    explanation: 'Anti-GAD-65 is one of the key islet autoantibodies.',
+    reference: 'What is the islet antibody profile in patients with type 1 DM? — The islet autoantibodies in patients with T1DM include anti-GAD-65 antibody, islet cell autoantibody (ICA), insulinoma-associated antigen 2 (IA-2) antibody, anti-insulin antibody (IAA), and anti-zinc transporter antibody (ZnT8).'
+  },
+  {
+    id: 'pe-cr-012-q11',
+    subtopic: 'GAD-65',
+    question: 'GAD-65 is selectively expressed in which pancreatic cell type?',
+    options: ['Beta cells', 'Alpha cells', 'Delta cells', 'PP cells'],
+    correctOption: 0,
+    explanation: 'GAD-65 is expressed in beta cells.',
+    reference: 'What is GAD-65? — In pancreas, GAD-65 is selectively expressed in β-cells and mediates the synthesis of GABA which inhibits insulin and glucagon secretion in a paracrine manner.'
+  },
+  {
+    id: 'pe-cr-012-q12',
+    subtopic: 'Offspring risk',
+    question: 'In offspring of parents with type 1 diabetes, risk is higher when:',
+    options: [
+      'The father has type 1 diabetes',
+      'The mother has type 1 diabetes',
+      'Only a cousin has type 1 diabetes',
+      'No first-degree relatives are affected'
+    ],
+    correctOption: 0,
+    explanation: 'Paternal type 1 diabetes carries higher offspring risk.',
+    reference: 'What is the risk of developing T1DM in an offspring of a couple with T1DM? — The risk of developing T1DM in an offspring is higher, if father has T1DM as compared to mother (4.6% vs. 2%).'
+  },
+  {
+    id: 'pe-cr-012-q13',
+    subtopic: 'Insulin regimen',
+    question: 'Premixed insulin twice daily in type 1 diabetes most commonly leads to:',
+    options: [
+      'Higher glycemic variability and hypoglycemia',
+      'Improved physiologic insulin delivery',
+      'Lower glycemic variability than basal-bolus',
+      'Lower risk of hypoglycemia than basal-bolus'
+    ],
+    correctOption: 0,
+    explanation: 'Premixed regimens have higher variability and hypoglycemia risk.',
+    reference: 'Why basal-bolus insulin regimen is preferred over fixed-dose premixed insulin in patients with T1DM? — Premixed insulin twice a day results in higher glycemic variability, frequent episodes of hypoglycemia, and failure to achieve target HbA1c as compared to basal-bolus regimen.'
+  },
+  {
+    id: 'pe-cr-012-q14',
+    subtopic: 'Hypoglycemia',
+    question: 'Key mechanisms for recurrent hypoglycemia in type 1 diabetes include:',
+    options: [
+      'Absolute insulin deficiency and impaired glucagon regulation',
+      'Excess glucagon secretion and normal autonomic function',
+      'Primary hyperaldosteronism',
+      'Increased incretin secretion'
+    ],
+    correctOption: 0,
+    explanation: 'Loss of insulin and impaired glucagon response are central.',
+    reference: 'Why are patients with T1DM predisposed to hypoglycemia? — The mechanisms for recurrent hypoglycemia include absolute insulin deficiency, impaired regulation of glucagon secretion, and autonomic failure.'
+  },
+  {
+    id: 'pe-cr-012-q15',
+    subtopic: 'Statins',
+    question: 'Statin therapy is recommended for children with T1DM older than 10 years when LDL-C is:',
+    options: [
+      '>160 mg/dl or >130 mg/dl with CVD risk factors',
+      '>100 mg/dl without risk factors',
+      '<100 mg/dl regardless of risk',
+      'Between 70 and 90 mg/dl'
+    ],
+    correctOption: 0,
+    explanation: 'Thresholds are >160 mg/dl or >130 mg/dl with risk factors.',
+    reference: 'When to add statin in children and adolescents with T1DM? — Statin therapy is recommended in children older than 10 years (paucity of data <10 years), if LDL-C is >160 mg/dl or >130 mg/dl with one or more cardiovascular disease (CVD) risk factors, after optimal glycemic control and MNT.'
+  },
+  {
+    id: 'pe-cr-012-q16',
+    subtopic: 'Microvascular screening',
+    question: 'Retinopathy screening in pediatric T1DM should begin when duration is at least 3 years and the child is:',
+    options: [
+      'Older than 10 years or has entered puberty',
+      'Older than 6 years only',
+      'Within 6 months of diagnosis',
+      'Only after 10 years of diabetes'
+    ],
+    correctOption: 0,
+    explanation: 'Screening starts after 3 years and age 10 or puberty.',
+    reference: 'When to screen for microvascular complications in patients with T1DM? — Annual screening for retinopathy is recommended by dilated fundus examination in children and adolescents with T1DM who have duration of diabetes ≥3 years and either older than 10 years or entered into puberty (whichever is earlier).'
+  },
+  {
+    id: 'pe-cr-012-q17',
+    subtopic: 'DKA',
+    question: 'Which combination satisfies diagnostic criteria for DKA?',
+    options: [
+      'Glucose >250 mg/dl with ketonemia/ketonuria and pH <7.3',
+      'Glucose <140 mg/dl with normal bicarbonate',
+      'Glucose >250 mg/dl without acidosis',
+      'Isolated ketonuria without hyperglycemia'
+    ],
+    correctOption: 0,
+    explanation: 'DKA requires hyperglycemia, ketonemia/ketonuria, and acidosis.',
+    reference: 'How to define diabetic ketoacidosis? — The diagnostic criteria for diabetic ketoacidosis (DKA) include blood glucose >250 mg/dl, ketonemia/ketonuria [plasma β-(OH) butyrate >3 mmol/L, plasma acetone/acetoacetate positive in >1:2 dilution and/or urine ketones ≥3+], and blood pH <7.3 with serum bicarbonate <15 mEq/L.'
+  },
+  {
+    id: 'pe-cr-012-q18',
+    subtopic: 'DKA recovery',
+    question: 'Persistent ketonuria after successful DKA treatment is best explained by:',
+    options: [
+      'Slow release of ketone bodies from adipose tissue',
+      'Ongoing ketoacidosis despite normal pH',
+      'Measurement error due to dilution',
+      'Renal failure with ketone retention'
+    ],
+    correctOption: 0,
+    explanation: 'Ketone bodies stored in adipose tissue are released slowly.',
+    reference: 'A patient with T1DM who presented with DKA was optimally managed with insulin infusion and fluids with normalization of arterial pH and anion gap; however, ketonuria is persisting. How to interpret? — The slow release of ketone bodies into circulation from adipose tissue explains the persistence of ketonuria even after recovery from DKA.'
+  },
+  {
+    id: 'pe-cr-012-q19',
+    subtopic: 'SGLT2 inhibitors',
+    question: 'SGLT2 inhibitor–associated DKA is often:',
+    options: [
+      'Euglycemic and triggered during stress',
+      'Always accompanied by severe hyperglycemia',
+      'Limited to patients with type 2 diabetes only',
+      'Prevented by stopping insulin in all cases'
+    ],
+    correctOption: 0,
+    explanation: 'Reported cases are often euglycemic and stress-related.',
+    reference: 'How do SGLT2 inhibitors induce DKA? — Few cases of euglycemic DKA have been reported with the use of SGLT2 inhibitors in patients with both T1DM and T2DM particularly during stress.'
+  },
+  {
+    id: 'pe-cr-012-q20',
+    subtopic: 'Type 2 diabetes',
+    question: 'Most youth-onset type 2 diabetes presents between:',
+    options: ['10–18 years', '2–5 years', '20–30 years', '30–40 years'],
+    correctOption: 0,
+    explanation: 'Most youth-onset cases occur in early to mid-adolescence.',
+    reference: 'What is the most common age of presentation of T2DM in young individuals? — Approximately 90% of young individuals with T2DM present between 10 and 18 years of age.'
+  },
+  {
+    id: 'pe-cr-012-q21',
+    subtopic: 'MODY',
+    question: 'Which feature best supports a diagnosis of MODY?',
+    options: [
+      'Autosomal dominant diabetes across three generations',
+      'Obesity with acanthosis nigricans',
+      'Immediate insulin dependence at diagnosis',
+      'Multiple autoantibodies at diagnosis'
+    ],
+    correctOption: 0,
+    explanation: 'MODY shows vertical transmission across generations.',
+    reference: 'What is maturity onset diabetes of the young? — Maturity onset diabetes of the young (MODY) includes a heterogeneous group of monogenic disorders and is clinically characterized by the early onset of diabetes (<25 years of age), vertical transmission of disease in three generations (autosomal dominant mode of inheritance) with at least one family member with onset of disease <25 years of age.'
+  },
+  {
+    id: 'pe-cr-012-q22',
+    subtopic: 'MODY subtypes',
+    question: 'Which gene is associated with MODY 3, the most common MODY subtype?',
+    options: ['HNF1A', 'GCK', 'HNF1B', 'NEUROD1'],
+    correctOption: 0,
+    explanation: 'MODY 3 is caused by HNF1A mutations.',
+    reference: 'What is the most common form of MODY? — MODY 3 is due to inactivating mutations in HNF 1A gene, which result in reduced β-cell mass and impaired insulin secretion.'
+  },
+  {
+    id: 'pe-cr-012-q23',
+    subtopic: 'MODY vs T2DM',
+    question: 'Which clinical pattern best differentiates MODY from youth-onset type 2 diabetes?',
+    options: [
+      'Nonobese phenotype without insulin resistance features',
+      'Marked obesity with acanthosis nigricans',
+      'Strong response to metformin in all cases',
+      'Late-onset disease after age 45'
+    ],
+    correctOption: 0,
+    explanation: 'MODY typically lacks insulin resistance features.',
+    reference: 'How to differentiate MODY from type 2 diabetes? — As both MODY and type 2 diabetes can present in young individuals with non-ketotic hyperglycemia, it is important to differentiate between them as these disorders have different etiology, treatment strategy, associated comorbidities, and prognosis.'
+  },
+  {
+    id: 'pe-cr-012-q24',
+    subtopic: 'LADA',
+    question: 'LADA is characterized by:',
+    options: [
+      'Onset after 30 years with delayed insulin requirement and autoimmunity',
+      'Childhood onset with immediate insulin dependence',
+      'No autoantibodies and persistent obesity',
+      'Absence of autoimmune markers and early insulin resistance'
+    ],
+    correctOption: 0,
+    explanation: 'LADA presents after age 30, initially without insulin but with autoimmunity.',
+    reference: 'What is latent autoimmune diabetes of adults? — The onset of diabetes after 30 years of age, non-requirement of insulin for at least 6 months after the diagnosis, and evidence of islet cell autoimmunity are the characteristic features of LADA.'
+  },
+  {
+    id: 'pe-cr-012-q25',
+    subtopic: 'FCPD',
+    question: 'Fibrocalculous pancreatic diabetes is characterized by:',
+    options: [
+      'Abdominal pain, exocrine insufficiency, non-ketotic diabetes, and pancreatic calcification',
+      'Autoimmune diabetes with frequent ketoacidosis',
+      'Isolated obesity-related hyperglycemia',
+      'Hyperthyroidism and pancreatic atrophy'
+    ],
+    correctOption: 0,
+    explanation: 'FCPD features abdominal pain, exocrine insufficiency, non-ketotic diabetes, and calcification.',
+    reference: 'What is “fibrocalculous pancreatic diabetes”? — “Fibrocalculous pancreatic diabetes” (FCPD) is characterized by abdominal pain, exocrine pancreatic insufficiency, diabetes mellitus (non-ketotic), and pancreatic calcification in the absence of alcoholism and gall stone disease.'
+  },
+  {
+    id: 'pe-cr-012-q26',
+    subtopic: 'Neonatal diabetes',
+    question: 'Neonatal diabetes is defined by onset of diabetes before:',
+    options: ['6 months of age', '12 months of age', '2 years of age', '5 years of age'],
+    correctOption: 0,
+    explanation: 'Neonatal diabetes begins before 6 months of age.',
+    reference: 'What is neonatal diabetes mellitus? — The onset of diabetes mellitus before 6 months of age is termed as neonatal diabetes (NDM).'
+  }
+].map(mcq => ({ ...mcq, type: 'mcq' }));
+
+const trueFalse = [
+  {
+    id: 'pe-cr-012-tf1',
+    subtopic: 'Definition',
+    statement: 'Diabetes in the young is defined as onset at or below 30 years of age.',
+    correctAnswer: true,
+    explanation: 'This is the stated definition.',
+    reference: 'How to define diabetes in the young? — Diabetes in the young is defined as onset of diabetes at or below 30 years of age.'
+  },
+  {
+    id: 'pe-cr-012-tf2',
+    subtopic: 'Islet topography',
+    statement: 'The endocrine pancreas makes up approximately 1–2% of pancreatic weight.',
+    correctAnswer: true,
+    explanation: 'Endocrine tissue is a small fraction of pancreatic mass.',
+    reference: 'What is the topography of islet cells in the pancreas? — The endocrine pancreas constitutes approximately 1–2% of the total weight of the pancreas, while the rest (98%) is contributed by the exocrine pancreas.'
+  },
+  {
+    id: 'pe-cr-012-tf3',
+    subtopic: 'Entero-insular axis',
+    statement: 'Incretin-mediated insulin secretion accounts for the majority of prandial insulin secretion.',
+    correctAnswer: true,
+    explanation: 'Incretin hormones drive most postprandial insulin release.',
+    reference: 'What is entero-insular axis? — Incretin-mediated insulin secretion contributes to 60–70 % of prandial insulin secretion.'
+  },
+  {
+    id: 'pe-cr-012-tf4',
+    subtopic: 'Type 1 diabetes',
+    statement: 'Multiple islet autoantibodies are usually present in type 1 diabetes.',
+    correctAnswer: true,
+    explanation: 'Two or more autoantibodies are common in T1DM.',
+    reference: 'What are the characteristic features of type 1 diabetes mellitus? — The presence of islet autoimmunity in these patients is a strong pointer toward immune-mediated β-cell destruction, and multiple islet autoantibodies (≥2) are usually present in these patients.'
+  },
+  {
+    id: 'pe-cr-012-tf5',
+    subtopic: 'Prediabetes in T1DM',
+    statement: 'The prediabetes phase of type 1 diabetes is usually observed 1–2 years before overt diabetes.',
+    correctAnswer: true,
+    explanation: 'Prediabetes commonly precedes overt diabetes by 1–2 years.',
+    reference: 'Is there a phase of prediabetes in patients with type 1 diabetes? — This phase is referred to as prediabetes phase of T1DM and is usually observed 1–2 years prior to the development of overt diabetes.'
+  },
+  {
+    id: 'pe-cr-012-tf6',
+    subtopic: 'Statins',
+    statement: 'Statin therapy is recommended after age 10 years when LDL-C is >160 mg/dl or >130 mg/dl with cardiovascular risk factors.',
+    correctAnswer: true,
+    explanation: 'These are the LDL thresholds for statin initiation.',
+    reference: 'When to add statin in children and adolescents with T1DM? — Statin therapy is recommended in children older than 10 years (paucity of data <10 years), if LDL-C is >160 mg/dl or >130 mg/dl with one or more cardiovascular disease (CVD) risk factors, after optimal glycemic control and MNT.'
+  },
+  {
+    id: 'pe-cr-012-tf7',
+    subtopic: 'Microvascular screening',
+    statement: 'Retinopathy screening should begin after 3 years of diabetes and at age 10 or puberty, whichever is earlier.',
+    correctAnswer: true,
+    explanation: 'Timing depends on duration and pubertal status.',
+    reference: 'When to screen for microvascular complications in patients with T1DM? — Annual screening for retinopathy is recommended by dilated fundus examination in children and adolescents with T1DM who have duration of diabetes ≥3 years and either older than 10 years or entered into puberty (whichever is earlier).'
+  },
+  {
+    id: 'pe-cr-012-tf8',
+    subtopic: 'DKA',
+    statement: 'DKA diagnostic criteria include pH <7.3 and serum bicarbonate <15 mEq/L.',
+    correctAnswer: true,
+    explanation: 'These acid-base thresholds are part of the definition.',
+    reference: 'How to define diabetic ketoacidosis? — The diagnostic criteria for diabetic ketoacidosis (DKA) include blood glucose >250 mg/dl, ketonemia/ketonuria [plasma β-(OH) butyrate >3 mmol/L, plasma acetone/acetoacetate positive in >1:2 dilution and/or urine ketones ≥3+], and blood pH <7.3 with serum bicarbonate <15 mEq/L.'
+  },
+  {
+    id: 'pe-cr-012-tf9',
+    subtopic: 'SGLT2 inhibitors',
+    statement: 'SGLT2 inhibitors have been associated with euglycemic DKA.',
+    correctAnswer: true,
+    explanation: 'Euglycemic DKA is a reported risk.',
+    reference: 'How to define diabetic ketoacidosis? — Recently, the use of SGLT2 inhibitors has been shown to be associated with euglycemic DKA in both patients with T1 and T2DM.'
+  },
+  {
+    id: 'pe-cr-012-tf10',
+    subtopic: 'MODY subtypes',
+    statement: 'MODY 3 is the most common subtype of MODY.',
+    correctAnswer: true,
+    explanation: 'MODY 3 is the most frequent form.',
+    reference: 'What is the most common form of MODY? — Among the various subtypes of MODY, type 3 is the most common form.'
+  },
+  {
+    id: 'pe-cr-012-tf11',
+    subtopic: 'LADA',
+    statement: 'LADA is defined by onset after 30 years, delayed insulin dependence, and islet autoimmunity.',
+    correctAnswer: true,
+    explanation: 'These are the defining features of LADA.',
+    reference: 'What is latent autoimmune diabetes of adults? — The onset of diabetes after 30 years of age, non-requirement of insulin for at least 6 months after the diagnosis, and evidence of islet cell autoimmunity are the characteristic features of LADA.'
+  },
+  {
+    id: 'pe-cr-012-tf12',
+    subtopic: 'Neonatal diabetes',
+    statement: 'Neonatal diabetes is defined by onset before 6 months of age.',
+    correctAnswer: true,
+    explanation: 'The cutoff is 6 months of age.',
+    reference: 'What is neonatal diabetes mellitus? — The onset of diabetes mellitus before 6 months of age is termed as neonatal diabetes (NDM).'
+  }
+].map(tf => ({ ...tf, type: 'true_false' }));
+
+const assertionReason = [
+  {
+    id: 'pe-cr-012-ar1',
+    subtopic: 'Definition',
+    assertion: 'Diabetes in the young is defined by onset at or below 30 years of age.',
+    reason: 'The definition specifies a cutoff of 30 years for age at onset.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'How to define diabetes in the young? — Diabetes in the young is defined as onset of diabetes at or below 30 years of age.'
+  },
+  {
+    id: 'pe-cr-012-ar2',
+    subtopic: 'Insulin regimen',
+    assertion: 'Basal-bolus insulin is preferred to premixed insulin in type 1 diabetes.',
+    reason: 'Premixed insulin twice daily leads to higher glycemic variability and more hypoglycemia.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the preference.',
+    reference: 'Why basal-bolus insulin regimen is preferred over fixed-dose premixed insulin in patients with T1DM? — Premixed insulin twice a day results in higher glycemic variability, frequent episodes of hypoglycemia, and failure to achieve target HbA1c as compared to basal-bolus regimen.'
+  },
+  {
+    id: 'pe-cr-012-ar3',
+    subtopic: 'Hypoglycemia',
+    assertion: 'Recurrent hypoglycemia is common in type 1 diabetes.',
+    reason: 'Absolute insulin deficiency, impaired glucagon regulation, and autonomic failure contribute to hypoglycemia.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Why are patients with T1DM predisposed to hypoglycemia? — The mechanisms for recurrent hypoglycemia include absolute insulin deficiency, impaired regulation of glucagon secretion, and autonomic failure.'
+  },
+  {
+    id: 'pe-cr-012-ar4',
+    subtopic: 'Statins',
+    assertion: 'Statin therapy may be initiated in youth with T1DM older than 10 years.',
+    reason: 'It is recommended when LDL-C is >160 mg/dl or >130 mg/dl with cardiovascular risk factors after MNT.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'When to add statin in children and adolescents with T1DM? — Statin therapy is recommended in children older than 10 years (paucity of data <10 years), if LDL-C is >160 mg/dl or >130 mg/dl with one or more cardiovascular disease (CVD) risk factors, after optimal glycemic control and MNT.'
+  },
+  {
+    id: 'pe-cr-012-ar5',
+    subtopic: 'Microvascular screening',
+    assertion: 'Retinopathy screening in pediatric T1DM depends on diabetes duration and pubertal status.',
+    reason: 'Annual retinal exams begin after ≥3 years of diabetes when the child is ≥10 years or has entered puberty.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the timing.',
+    reference: 'When to screen for microvascular complications in patients with T1DM? — Annual screening for retinopathy is recommended by dilated fundus examination in children and adolescents with T1DM who have duration of diabetes ≥3 years and either older than 10 years or entered into puberty (whichever is earlier).'
+  },
+  {
+    id: 'pe-cr-012-ar6',
+    subtopic: 'DKA',
+    assertion: 'DKA can occur with blood glucose <250 mg/dl.',
+    reason: 'Such cases are termed euglycemic DKA.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'How to define diabetic ketoacidosis? — The presence of ketoacidosis in a diabetic patient with blood glucose <250 mg/dl is termed as euglycemic diabetic ketoacidosis.'
+  },
+  {
+    id: 'pe-cr-012-ar7',
+    subtopic: 'MODY',
+    assertion: 'MODY typically presents before 25 years with autosomal dominant inheritance.',
+    reason: 'Affected families show vertical transmission across three generations.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'What is maturity onset diabetes of the young? — Maturity onset diabetes of the young (MODY) includes a heterogeneous group of monogenic disorders and is clinically characterized by the early onset of diabetes (<25 years of age), vertical transmission of disease in three generations (autosomal dominant mode of inheritance) with at least one family member with onset of disease <25 years of age.'
+  },
+  {
+    id: 'pe-cr-012-ar8',
+    subtopic: 'MODY subtypes',
+    assertion: 'MODY 3 is the most common MODY subtype.',
+    reason: 'MODY 3 is caused by inactivating mutations in the HNF 1A gene.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason supports the assertion.',
+    reference: 'What is the most common form of MODY? — MODY 3 is due to inactivating mutations in HNF 1A gene, which result in reduced β-cell mass and impaired insulin secretion.'
+  },
+  {
+    id: 'pe-cr-012-ar9',
+    subtopic: 'LADA',
+    assertion: 'Early insulin therapy is recommended in LADA.',
+    reason: 'Insulin therapy should be offered at onset to preserve endogenous β-cell function.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the recommendation.',
+    reference: 'What are the treatment strategies for patients with LADA? — Insulin therapy should be offered to patients with LADA at the onset of disease to preserve endogenous β-cell function by providing β-cell rest and suppression of insulitis through immunomodulation.'
+  },
+  {
+    id: 'pe-cr-012-ar10',
+    subtopic: 'FCPD',
+    assertion: 'Ketosis is uncommon in fibrocalculous pancreatic diabetes.',
+    reason: 'Diabetic ketosis has been reported in less than 15% of FCPD patients.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Why is ketosis uncommon in FCPD? — Diabetic ketosis is uncommon in patients with FCPD and has been reported in <15% of patients.'
+  },
+  {
+    id: 'pe-cr-012-ar11',
+    subtopic: 'Neonatal diabetes',
+    assertion: 'Permanent neonatal diabetes is commonly caused by KATP channel mutations.',
+    reason: 'The most common cause of PNDM is heterozygous mutations in ATP-sensitive K+ channel.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'What are the causes of permanent neonatal diabetes mellitus? — The most common cause of PNDM is heterozygous mutations in ATP-sensitive K+ channel (KATP).'
+  },
+  {
+    id: 'pe-cr-012-ar12',
+    subtopic: 'Mitochondrial diabetes',
+    assertion: 'Mitochondrial diabetes should be suspected in young individuals with diabetes and sensorineural deafness.',
+    reason: 'Matrilinear transmission is typical because mitochondria are transmitted from mothers to offspring.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the inheritance pattern.',
+    reference: 'When to suspect mitochondrial diabetes? — Mitochondrial diabetes should be suspected in a young individual with diabetes (onset before 30 years) and sensorineural deafness. When to suspect mitochondrial diabetes? — Matrilinear transmission refers to pattern of inheritance wherein a female transmits the disease to all her children, while the affected males fail to transmit the disease (as sperm sheds the mitochondria before penetration into ovum).'
+  }
+].map(ar => ({ ...ar, type: 'assertion_reason' }));
+
+const output = {
+  id: 'pe-cr-012',
+  book: 'clinical_rounds',
+  chapterNo: '12',
+  title: 'Diabetes in the Young',
+  section: 'Pediatric Endo',
+  sourceFile: 'pediatric_endo/clinical_rounds/012_diabetes_in_the_young',
+  items: [...notes, ...mcqs, ...trueFalse, ...assertionReason]
+};
+
+fs.writeFileSync(OUT, JSON.stringify(output, null, 2) + '\n');
+
+const counts = output.items.reduce((acc, item) => {
+  acc[item.type] = (acc[item.type] || 0) + 1;
+  return acc;
+}, {});
+const whyHow = notes.filter(note => /^(Why|How)/.test(note.title)).length;
+console.log('Written:', OUT);
+console.log('Counts:', counts);
+console.log('Notes Why/How:', `${whyHow}/${notes.length}`);

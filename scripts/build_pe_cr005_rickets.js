@@ -1,0 +1,947 @@
+#!/usr/bin/env node
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+
+const OUT = path.join(
+  __dirname,
+  '../data/pe-cr-005_rickets_osteomalacia.json'
+);
+
+const notes = [
+  {
+    id: 'pe-cr-005-n1',
+    subtopic: 'Bone physiology',
+    title: 'Why calcium and phosphate are required for osteoid mineralization',
+    content: 'Hydroxyapatite crystals form only when both calcium and phosphate are available, so deficiency of either blocks mineralization.',
+    keyPoints: [
+      'Osteoid accumulates when crystals cannot form.',
+      'Mineralization needs adequate Ca and P together.',
+      'Deficiency leads to rickets or osteomalacia.'
+    ],
+    reference: 'Mineralization requires sufficient calcium and phosphate for hydroxyapatite.'
+  },
+  {
+    id: 'pe-cr-005-n2',
+    subtopic: 'Calcium-phosphate homeostasis',
+    title: 'How PTH and vitamin D coordinate calcium and phosphate balance',
+    content: 'PTH raises calcium by increasing renal reabsorption and bone resorption, while calcitriol increases intestinal absorption of both calcium and phosphate.',
+    keyPoints: [
+      'PTH lowers phosphate by promoting phosphaturia.',
+      'Calcitriol enhances Ca/P absorption in gut.',
+      'Both hormones maintain mineral ion balance.'
+    ],
+    reference: 'PTH and calcitriol jointly regulate calcium and phosphate homeostasis.'
+  },
+  {
+    id: 'pe-cr-005-n3',
+    subtopic: 'FGF23 physiology',
+    title: 'Why FGF23 drives phosphate wasting',
+    content: 'FGF23 decreases proximal tubular phosphate reabsorption and suppresses calcitriol synthesis, lowering serum phosphate.',
+    keyPoints: [
+      'Reduces NaPi transporter expression.',
+      'Suppresses 1α-hydroxylase activity.',
+      'Leads to chronic hypophosphatemia.'
+    ],
+    reference: 'FGF23 lowers serum phosphate by renal wasting and reduced calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-n4',
+    subtopic: 'FGF23 physiology',
+    title: 'How klotho enables FGF23 signaling',
+    content: 'Klotho acts as a co-receptor that allows FGF23 to bind its receptor in the kidney and exert phosphaturic effects.',
+    keyPoints: [
+      'Klotho is required for FGF23 activity.',
+      'Klotho deficiency mimics FGF23 resistance.',
+      'The kidney is the main target organ.'
+    ],
+    reference: 'FGF23 action depends on the klotho co-receptor in renal tubules.'
+  },
+  {
+    id: 'pe-cr-005-n5',
+    subtopic: 'Vitamin D synthesis',
+    title: 'How vitamin D is activated in liver and kidney',
+    content: 'Cholecalciferol is 25-hydroxylated in the liver and then 1α-hydroxylated in the kidney to produce calcitriol.',
+    keyPoints: [
+      '25-hydroxylation occurs in the liver.',
+      '1α-hydroxylase converts to calcitriol in kidney.',
+      'PTH stimulates renal activation.'
+    ],
+    reference: 'Vitamin D activation requires hepatic 25-hydroxylation and renal 1α-hydroxylation.'
+  },
+  {
+    id: 'pe-cr-005-n6',
+    subtopic: 'Vitamin D actions',
+    title: 'How calcitriol promotes mineral absorption',
+    content: 'Calcitriol increases intestinal absorption of calcium and phosphate and supports mineralization.',
+    keyPoints: [
+      'Upregulates intestinal transporters.',
+      'Raises serum Ca and P availability.',
+      'Deficiency limits mineral supply to bone.'
+    ],
+    reference: 'Calcitriol enhances gut absorption of calcium and phosphate.'
+  },
+  {
+    id: 'pe-cr-005-n7',
+    subtopic: 'Disease patterns',
+    title: 'Why rickets affects growth plates while osteomalacia affects mature bone',
+    content: 'Rickets occurs before epiphyseal closure with disordered growth plate mineralization, while osteomalacia reflects defective mineralization of mature osteoid.',
+    keyPoints: [
+      'Rickets is a pediatric growth plate disease.',
+      'Osteomalacia occurs after growth plate closure.',
+      'Both share defective mineralization.'
+    ],
+    reference: 'Rickets involves growth plates; osteomalacia involves mature bone.'
+  },
+  {
+    id: 'pe-cr-005-n8',
+    subtopic: 'Calcipenic vs phosphopenic',
+    title: 'How calcipenic and phosphopenic rickets differ in labs',
+    content: 'Calcipenic rickets typically shows low calcium, high PTH, and low phosphate, whereas phosphopenic rickets shows normal calcium with isolated low phosphate.',
+    keyPoints: [
+      'Calcipenic: secondary hyperparathyroidism.',
+      'Phosphopenic: normal calcium and PTH.',
+      'ALP is elevated in both forms.'
+    ],
+    reference: 'Calcipenic rickets has low Ca/high PTH; phosphopenic has isolated hypophosphatemia.'
+  },
+  {
+    id: 'pe-cr-005-n9',
+    subtopic: 'Pathophysiology',
+    title: 'Why hypophosphatemia alone can cause osteomalacia',
+    content: 'Phosphate is required for hydroxyapatite formation, so chronic low phosphate prevents mineralization even if calcium is normal.',
+    keyPoints: [
+      'Mineralization depends on phosphate supply.',
+      'FGF23 excess is a common cause.',
+      'Bone pain and fractures follow.'
+    ],
+    reference: 'Sustained hypophosphatemia impairs bone mineralization even with normal calcium.'
+  },
+  {
+    id: 'pe-cr-005-n10',
+    subtopic: 'Laboratory markers',
+    title: 'Why alkaline phosphatase rises in rickets and osteomalacia',
+    content: 'Osteoblast activity increases in response to unmineralized osteoid, leading to elevated alkaline phosphatase.',
+    keyPoints: [
+      'ALP reflects osteoblast effort.',
+      'Marked elevation suggests active disease.',
+      'Levels fall with healing.'
+    ],
+    reference: 'Alkaline phosphatase is elevated due to increased osteoblastic activity.'
+  },
+  {
+    id: 'pe-cr-005-n11',
+    subtopic: 'Clinical features',
+    title: 'How rachitic rosary and wrist widening develop',
+    content: 'Hypertrophic costochondral junctions and expanded metaphyses create a rachitic rosary and widened wrists.',
+    keyPoints: [
+      'Metaphyseal overgrowth is typical.',
+      'Costochondral junctions become prominent.',
+      'Findings improve with treatment.'
+    ],
+    reference: 'Rickets causes metaphyseal widening and rachitic rosary changes.'
+  },
+  {
+    id: 'pe-cr-005-n12',
+    subtopic: 'Clinical features',
+    title: 'Why genu varum or genu valgum occurs in rickets',
+    content: 'Softened growth plates and metaphyses bow under weight-bearing, leading to varus or valgus deformities.',
+    keyPoints: [
+      'Mechanical load shapes deformity.',
+      'Deformities worsen with walking age.',
+      'Early therapy limits progression.'
+    ],
+    reference: 'Bone softening in rickets leads to bowing deformities under load.'
+  },
+  {
+    id: 'pe-cr-005-n13',
+    subtopic: 'Radiology',
+    title: 'Why Looser zones appear on imaging',
+    content: 'Looser zones are incomplete insufficiency fractures that develop where unmineralized osteoid cracks.',
+    keyPoints: [
+      'Also called pseudofractures.',
+      'Often occur in ribs, pelvis, and femur.',
+      'Heal with correction of mineral deficits.'
+    ],
+    reference: 'Looser zones represent insufficiency fractures in osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-n14',
+    subtopic: 'Clinical features',
+    title: 'How osteomalacia presents with bone pain and proximal weakness',
+    content: 'Defective mineralization leads to diffuse bone pain and proximal myopathy, often with fractures.',
+    keyPoints: [
+      'Pain is often worse with weight-bearing.',
+      'Proximal muscles are weak.',
+      'Insufficiency fractures are common.'
+    ],
+    reference: 'Osteomalacia typically presents with bone pain, weakness, and fractures.'
+  },
+  {
+    id: 'pe-cr-005-n15',
+    subtopic: 'Dental findings',
+    title: 'Why enamel defects can occur in hypophosphatemic rickets',
+    content: 'Chronic low phosphate disrupts enamel mineralization and predisposes to dental abscesses.',
+    keyPoints: [
+      'Enamel hypoplasia is typical.',
+      'Dental abscesses may occur early.',
+      'Suggests phosphopenic etiology.'
+    ],
+    reference: 'Hypophosphatemic rickets can cause enamel defects and dental abscesses.'
+  },
+  {
+    id: 'pe-cr-005-n16',
+    subtopic: 'Vitamin D deficiency',
+    title: 'How vitamin D deficiency progresses through clinical stages',
+    content: 'Early deficiency causes low 25(OH)D, later secondary hyperparathyroidism with hypophosphatemia, and advanced disease leads to rickets or osteomalacia.',
+    keyPoints: [
+      'Stage 1: low 25(OH)D.',
+      'Stage 2: high PTH with low phosphate.',
+      'Stage 3: clinical bone disease.'
+    ],
+    reference: 'Vitamin D deficiency evolves from biochemical changes to overt bone disease.'
+  },
+  {
+    id: 'pe-cr-005-n17',
+    subtopic: 'Vitamin D deficiency',
+    title: 'Why 25-hydroxyvitamin D is the best status marker',
+    content: '25(OH)D reflects body stores and has a longer half-life than calcitriol, making it the preferred test.',
+    keyPoints: [
+      'Calcitriol can be normal in deficiency.',
+      '25(OH)D reflects total supply.',
+      'Use for diagnosis and monitoring.'
+    ],
+    reference: '25(OH)D is the preferred indicator of vitamin D status.'
+  },
+  {
+    id: 'pe-cr-005-n18',
+    subtopic: 'Treatment',
+    title: 'How nutritional rickets is treated with vitamin D and calcium',
+    content: 'Daily vitamin D with adequate calcium intake restores mineralization and resolves symptoms.',
+    keyPoints: [
+      'Ensure adherence with daily dosing.',
+      'Dietary calcium is essential.',
+      'Radiologic healing follows biochemical correction.'
+    ],
+    reference: 'Nutritional rickets responds to vitamin D plus calcium replacement.'
+  },
+  {
+    id: 'pe-cr-005-n19',
+    subtopic: 'Treatment',
+    title: 'Why stoss therapy is used in vitamin D deficiency',
+    content: 'A large single dose can rapidly replenish stores when adherence is difficult, but requires monitoring for hypercalcemia.',
+    keyPoints: [
+      'Useful in poor adherence settings.',
+      'Follow calcium and phosphate closely.',
+      'Avoid in granulomatous disease.'
+    ],
+    reference: 'High-dose stoss therapy can replete vitamin D when adherence is limited.'
+  },
+  {
+    id: 'pe-cr-005-n20',
+    subtopic: 'Vitamin D–dependent rickets',
+    title: 'How VDDR type 1 presents and is treated',
+    content: '1α-hydroxylase deficiency causes low calcitriol with hypocalcemia, responding to calcitriol therapy.',
+    keyPoints: [
+      'Low calcitriol despite adequate 25(OH)D.',
+      'Treat with active vitamin D.',
+      'Calcium supplementation may be needed.'
+    ],
+    reference: 'VDDR type 1 is due to 1α-hydroxylase deficiency and responds to calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-n21',
+    subtopic: 'Vitamin D–dependent rickets',
+    title: 'How VDDR type 2 differs from type 1',
+    content: 'VDR resistance causes high calcitriol levels, rickets, and often alopecia.',
+    keyPoints: [
+      'Calcitriol is elevated.',
+      'Alopecia suggests receptor resistance.',
+      'High-dose calcitriol and calcium are used.'
+    ],
+    reference: 'VDDR type 2 features vitamin D receptor resistance and high calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-n22',
+    subtopic: 'Hypophosphatemic rickets',
+    title: 'Why XLH causes chronic hypophosphatemia',
+    content: 'PHEX mutations increase FGF23 activity, driving renal phosphate wasting while calcium remains normal.',
+    keyPoints: [
+      'Phosphaturia is persistent.',
+      'Calcium and PTH are often normal.',
+      'Growth and bone deformities develop.'
+    ],
+    reference: 'XLH is driven by FGF23-mediated renal phosphate wasting.'
+  },
+  {
+    id: 'pe-cr-005-n23',
+    subtopic: 'Hypophosphatemic rickets',
+    title: 'How XLH is treated with phosphate and FGF23 blockade',
+    content: 'Therapy includes oral phosphate with active vitamin D or burosumab to neutralize FGF23.',
+    keyPoints: [
+      'Burosumab increases phosphate reabsorption.',
+      'Active vitamin D supports mineralization.',
+      'Monitor for hyperparathyroidism.'
+    ],
+    reference: 'XLH treatment targets phosphate replacement and FGF23 blockade.'
+  },
+  {
+    id: 'pe-cr-005-n24',
+    subtopic: 'Renal tubular acidosis',
+    title: 'How distal RTA leads to osteomalacia',
+    content: 'Chronic acid retention buffers with bone, causing mineral loss and defective mineralization.',
+    keyPoints: [
+      'Urine pH stays high.',
+      'Bone buffers acid load.',
+      'Fracture risk increases.'
+    ],
+    reference: 'Distal RTA causes chronic acidosis that demineralizes bone.'
+  },
+  {
+    id: 'pe-cr-005-n25',
+    subtopic: 'Renal tubular acidosis',
+    title: 'Why proximal RTA can cause phosphopenic osteomalacia',
+    content: 'Proximal tubule dysfunction often includes phosphate wasting, which impairs mineralization.',
+    keyPoints: [
+      'Often part of Fanconi syndrome.',
+      'Phosphaturia drives hypophosphatemia.',
+      'Vitamin D status may be normal.'
+    ],
+    reference: 'Proximal tubular defects cause phosphate wasting and osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-n26',
+    subtopic: 'Renal tubular acidosis',
+    title: 'How the ammonium chloride test identifies distal RTA',
+    content: 'After acid loading, urine pH should fall below 5.5; failure to acidify supports distal RTA.',
+    keyPoints: [
+      'Acid loading challenges distal acid secretion.',
+      'Urine pH stays >5.5 in distal RTA.',
+      'Useful when diagnosis is unclear.'
+    ],
+    reference: 'Ammonium chloride testing reveals impaired urine acidification in distal RTA.'
+  },
+  {
+    id: 'pe-cr-005-n27',
+    subtopic: 'Case connection',
+    title: 'Why Sjogren syndrome can present with osteomalacia',
+    content: 'Sjogren can cause distal RTA, leading to chronic acidosis and bone demineralization with pseudofractures.',
+    keyPoints: [
+      'Consider autoimmune causes of RTA.',
+      'Bone pain and fractures may dominate.',
+      'Correct acidosis to heal bone.'
+    ],
+    reference: 'Autoimmune distal RTA in Sjogren can drive osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-n28',
+    subtopic: 'Monitoring',
+    title: 'How healing is monitored after therapy',
+    content: 'Clinical improvement, falling alkaline phosphatase, and radiographic healing of pseudofractures indicate recovery.',
+    keyPoints: [
+      'Pain and weakness improve first.',
+      'ALP gradually normalizes.',
+      'Imaging shows healing Looser zones.'
+    ],
+    reference: 'Healing is tracked by symptoms, ALP decline, and radiographic repair.'
+  }
+].map(note => ({ ...note, type: 'note' }));
+
+const mcqs = [
+  {
+    id: 'pe-cr-005-q1',
+    subtopic: 'Case connection',
+    question: 'A 25-year-old woman with Sjogren syndrome, distal RTA, bone pain, and pseudofractures most likely has:',
+    options: [
+      'Osteomalacia',
+      'Osteogenesis imperfecta',
+      'Osteopetrosis',
+      'Paget disease'
+    ],
+    correctOption: 0,
+    explanation: 'Autoimmune distal RTA causes chronic acidosis and osteomalacia with Looser zones.',
+    reference: 'Autoimmune distal RTA in Sjogren can drive osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-q2',
+    subtopic: 'Bone physiology',
+    question: 'Defective bone mineralization primarily results from deficiency of:',
+    options: [
+      'Calcium or phosphate',
+      'Vitamin C',
+      'Magnesium alone',
+      'Iron'
+    ],
+    correctOption: 0,
+    explanation: 'Hydroxyapatite formation requires both calcium and phosphate.',
+    reference: 'Mineralization requires sufficient calcium and phosphate for hydroxyapatite.'
+  },
+  {
+    id: 'pe-cr-005-q3',
+    subtopic: 'FGF23 physiology',
+    question: 'FGF23 lowers serum phosphate by:',
+    options: [
+      'Reducing renal phosphate reabsorption and suppressing calcitriol',
+      'Increasing intestinal phosphate absorption',
+      'Stimulating PTH release',
+      'Raising calcitriol levels'
+    ],
+    correctOption: 0,
+    explanation: 'FGF23 promotes phosphaturia and reduces calcitriol synthesis.',
+    reference: 'FGF23 lowers serum phosphate by renal wasting and reduced calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-q4',
+    subtopic: 'FGF23 physiology',
+    question: 'Klotho is best described as:',
+    options: [
+      'A co-receptor required for FGF23 action in the kidney',
+      'A parathyroid hormone receptor',
+      'A bone matrix protein',
+      'A calcium-sensing receptor'
+    ],
+    correctOption: 0,
+    explanation: 'FGF23 signaling depends on the klotho co-receptor in renal tubules.',
+    reference: 'FGF23 action depends on the klotho co-receptor in renal tubules.'
+  },
+  {
+    id: 'pe-cr-005-q5',
+    subtopic: 'Vitamin D deficiency',
+    question: 'The best laboratory marker of vitamin D status is:',
+    options: [
+      '25-hydroxyvitamin D',
+      '1,25-dihydroxyvitamin D',
+      'Parathyroid hormone',
+      'Ionized calcium'
+    ],
+    correctOption: 0,
+    explanation: '25(OH)D reflects body stores and has a longer half-life.',
+    reference: '25(OH)D is the preferred indicator of vitamin D status.'
+  },
+  {
+    id: 'pe-cr-005-q6',
+    subtopic: 'Disease patterns',
+    question: 'Rickets is distinguished from osteomalacia because rickets involves:',
+    options: [
+      'Disordered growth plate mineralization',
+      'Abnormal mature cortical bone only',
+      'Normal calcium and phosphate always',
+      'Excess bone density'
+    ],
+    correctOption: 0,
+    explanation: 'Rickets occurs before epiphyseal closure and affects growth plates.',
+    reference: 'Rickets involves growth plates; osteomalacia involves mature bone.'
+  },
+  {
+    id: 'pe-cr-005-q7',
+    subtopic: 'Calcipenic vs phosphopenic',
+    question: 'Which laboratory profile best fits phosphopenic rickets?',
+    options: [
+      'Normal calcium, normal PTH, low phosphate',
+      'Low calcium, high PTH, low phosphate',
+      'Low calcium, low PTH, high phosphate',
+      'High calcium, suppressed PTH, low phosphate'
+    ],
+    correctOption: 0,
+    explanation: 'Phosphopenic rickets features isolated hypophosphatemia.',
+    reference: 'Calcipenic rickets has low Ca/high PTH; phosphopenic has isolated hypophosphatemia.'
+  },
+  {
+    id: 'pe-cr-005-q8',
+    subtopic: 'Radiology',
+    question: 'Looser zones on radiography represent:',
+    options: [
+      'Insufficiency fractures in osteomalacia',
+      'Metastatic lesions',
+      'Osteomyelitis',
+      'Bone infarcts'
+    ],
+    correctOption: 0,
+    explanation: 'Looser zones are pseudofractures from unmineralized osteoid.',
+    reference: 'Looser zones represent insufficiency fractures in osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-q9',
+    subtopic: 'Clinical features',
+    question: 'Genu varum and genu valgum in rickets result from:',
+    options: [
+      'Bowing of softened metaphyses under weight-bearing',
+      'Primary muscle weakness alone',
+      'Septic arthritis',
+      'Congenital limb malformations'
+    ],
+    correctOption: 0,
+    explanation: 'Soft growth plates deform with mechanical loading.',
+    reference: 'Bone softening in rickets leads to bowing deformities under load.'
+  },
+  {
+    id: 'pe-cr-005-q10',
+    subtopic: 'Treatment',
+    question: 'First-line therapy for nutritional rickets includes:',
+    options: [
+      'Daily vitamin D plus adequate calcium intake',
+      'Calcitonin alone',
+      'Bisphosphonates',
+      'High-dose phosphate only'
+    ],
+    correctOption: 0,
+    explanation: 'Replacement with vitamin D and calcium restores mineralization.',
+    reference: 'Nutritional rickets responds to vitamin D plus calcium replacement.'
+  },
+  {
+    id: 'pe-cr-005-q11',
+    subtopic: 'Treatment',
+    question: 'Stoss therapy is most appropriate when:',
+    options: [
+      'Adherence to daily vitamin D is unreliable',
+      'Hypercalcemia is present',
+      'Renal failure is advanced',
+      'There is suspected VDR resistance'
+    ],
+    correctOption: 0,
+    explanation: 'Large single doses are used when adherence is difficult.',
+    reference: 'High-dose stoss therapy can replete vitamin D when adherence is limited.'
+  },
+  {
+    id: 'pe-cr-005-q12',
+    subtopic: 'Vitamin D–dependent rickets',
+    question: 'VDDR type 1 is caused by deficiency of:',
+    options: [
+      '1α-hydroxylase',
+      'Vitamin D receptor',
+      '25-hydroxylase',
+      'Calcium-sensing receptor'
+    ],
+    correctOption: 0,
+    explanation: 'Type 1 is due to impaired renal activation of vitamin D.',
+    reference: 'VDDR type 1 is due to 1α-hydroxylase deficiency and responds to calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-q13',
+    subtopic: 'Vitamin D–dependent rickets',
+    question: 'A child with rickets, high calcitriol, and alopecia most likely has:',
+    options: [
+      'VDDR type 2',
+      'VDDR type 1',
+      'Nutritional rickets',
+      'XLH'
+    ],
+    correctOption: 0,
+    explanation: 'Vitamin D receptor resistance causes high calcitriol and alopecia.',
+    reference: 'VDDR type 2 features vitamin D receptor resistance and high calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-q14',
+    subtopic: 'Hypophosphatemic rickets',
+    question: 'X-linked hypophosphatemic rickets is driven by:',
+    options: [
+      'Excess FGF23 activity',
+      'Low parathyroid hormone',
+      'Excess calcitriol production',
+      'Renal calcium wasting'
+    ],
+    correctOption: 0,
+    explanation: 'PHEX mutations raise FGF23 activity leading to phosphaturia.',
+    reference: 'XLH is driven by FGF23-mediated renal phosphate wasting.'
+  },
+  {
+    id: 'pe-cr-005-q15',
+    subtopic: 'Hypophosphatemic rickets',
+    question: 'Which therapy directly targets the main hormone driving XLH?',
+    options: [
+      'Burosumab',
+      'Calcitonin',
+      'Teriparatide',
+      'Denosumab'
+    ],
+    correctOption: 0,
+    explanation: 'Burosumab is an antibody that neutralizes FGF23.',
+    reference: 'XLH treatment targets phosphate replacement and FGF23 blockade.'
+  },
+  {
+    id: 'pe-cr-005-q16',
+    subtopic: 'Renal tubular acidosis',
+    question: 'Which finding is most consistent with distal RTA?',
+    options: [
+      'Urine pH persistently above 5.5 despite metabolic acidosis',
+      'High anion gap metabolic acidosis',
+      'Marked hyperkalemia with low urine pH',
+      'Renal glycosuria with phosphaturia'
+    ],
+    correctOption: 0,
+    explanation: 'Distal RTA shows failure to acidify urine.',
+    reference: 'Ammonium chloride testing reveals impaired urine acidification in distal RTA.'
+  },
+  {
+    id: 'pe-cr-005-q17',
+    subtopic: 'Renal tubular acidosis',
+    question: 'Proximal RTA often leads to osteomalacia because of:',
+    options: [
+      'Phosphate wasting with Fanconi syndrome',
+      'Primary hyperparathyroidism',
+      'Excess calcitriol production',
+      'Increased intestinal phosphate absorption'
+    ],
+    correctOption: 0,
+    explanation: 'Phosphaturia in proximal tubular disorders causes hypophosphatemia.',
+    reference: 'Proximal tubular defects cause phosphate wasting and osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-q18',
+    subtopic: 'Renal tubular acidosis',
+    question: 'In an ammonium chloride test, failure of urine pH to fall below 5.5 indicates:',
+    options: [
+      'Distal RTA',
+      'Proximal RTA',
+      'Normal renal acidification',
+      'Respiratory alkalosis'
+    ],
+    correctOption: 0,
+    explanation: 'Distal RTA cannot acidify urine after acid loading.',
+    reference: 'Ammonium chloride testing reveals impaired urine acidification in distal RTA.'
+  },
+  {
+    id: 'pe-cr-005-q19',
+    subtopic: 'Laboratory markers',
+    question: 'Which laboratory change is most typical in osteomalacia?',
+    options: [
+      'Elevated alkaline phosphatase',
+      'Markedly elevated serum calcium',
+      'Suppressed alkaline phosphatase',
+      'High phosphate with low PTH'
+    ],
+    correctOption: 0,
+    explanation: 'ALP is elevated due to increased osteoblastic activity.',
+    reference: 'Alkaline phosphatase is elevated due to increased osteoblastic activity.'
+  },
+  {
+    id: 'pe-cr-005-q20',
+    subtopic: 'Calcipenic vs phosphopenic',
+    question: 'Calcipenic rickets is most often caused by:',
+    options: [
+      'Vitamin D deficiency',
+      'FGF23 excess',
+      'Renal phosphate wasting with normal vitamin D',
+      'PHEX mutations with normal calcium'
+    ],
+    correctOption: 0,
+    explanation: 'Nutritional vitamin D deficiency leads to low calcium and secondary hyperparathyroidism.',
+    reference: 'Calcipenic rickets has low Ca/high PTH; phosphopenic has isolated hypophosphatemia.'
+  },
+  {
+    id: 'pe-cr-005-q21',
+    subtopic: 'Radiology',
+    question: 'Pseudofractures seen in osteomalacia are best described as:',
+    options: [
+      'Incomplete insufficiency fractures',
+      'Complete traumatic fractures',
+      'Pathologic lytic lesions',
+      'Osteonecrotic collapse'
+    ],
+    correctOption: 0,
+    explanation: 'Looser zones are incomplete fractures due to weak osteoid.',
+    reference: 'Looser zones represent insufficiency fractures in osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-q22',
+    subtopic: 'Monitoring',
+    question: 'Which change best indicates healing after treatment of osteomalacia?',
+    options: [
+      'Falling alkaline phosphatase and radiographic healing',
+      'Rising alkaline phosphatase with worsening pain',
+      'New pseudofractures',
+      'Progressive hypophosphatemia'
+    ],
+    correctOption: 0,
+    explanation: 'Improving symptoms and declining ALP signal recovery.',
+    reference: 'Healing is tracked by symptoms, ALP decline, and radiographic repair.'
+  },
+  {
+    id: 'pe-cr-005-q23',
+    subtopic: 'Vitamin D deficiency',
+    question: 'Secondary hyperparathyroidism in vitamin D deficiency most directly causes:',
+    options: [
+      'Renal phosphate wasting',
+      'Increased calcitonin secretion',
+      'Hypermagnesemia',
+      'Suppressed 1α-hydroxylase'
+    ],
+    correctOption: 0,
+    explanation: 'High PTH increases phosphaturia and lowers serum phosphate.',
+    reference: 'Vitamin D deficiency evolves from biochemical changes to overt bone disease.'
+  },
+  {
+    id: 'pe-cr-005-q24',
+    subtopic: 'Clinical features',
+    question: 'Proximal muscle weakness in osteomalacia is primarily due to:',
+    options: [
+      'Defective bone mineralization and low phosphate availability',
+      'Primary motor neuron disease',
+      'Thyroid hormone excess',
+      'Glucocorticoid myopathy'
+    ],
+    correctOption: 0,
+    explanation: 'Mineral deficits and hypophosphatemia contribute to myopathy.',
+    reference: 'Osteomalacia typically presents with bone pain, weakness, and fractures.'
+  },
+  {
+    id: 'pe-cr-005-q25',
+    subtopic: 'Vitamin D actions',
+    question: 'Calcitriol primarily increases serum calcium by:',
+    options: [
+      'Enhancing intestinal calcium absorption',
+      'Inhibiting osteoclasts',
+      'Increasing urinary calcium excretion',
+      'Suppressing PTH secretion directly'
+    ],
+    correctOption: 0,
+    explanation: 'Calcitriol upregulates intestinal calcium transport.',
+    reference: 'Calcitriol enhances gut absorption of calcium and phosphate.'
+  },
+  {
+    id: 'pe-cr-005-q26',
+    subtopic: 'Renal tubular acidosis',
+    question: 'A patient with distal RTA is most likely to have:',
+    options: [
+      'Non-anion gap metabolic acidosis with hypokalemia',
+      'High anion gap metabolic acidosis with hyperkalemia',
+      'Respiratory alkalosis with hypokalemia',
+      'Metabolic alkalosis with hyperkalemia'
+    ],
+    correctOption: 0,
+    explanation: 'Distal RTA produces non-anion gap acidosis and often hypokalemia.',
+    reference: 'Distal RTA causes chronic acidosis that demineralizes bone.'
+  }
+].map(mcq => ({ ...mcq, type: 'mcq' }));
+
+const trueFalse = [
+  {
+    id: 'pe-cr-005-tf1',
+    subtopic: 'Disease patterns',
+    statement: 'Rickets affects the growth plate before epiphyseal closure.',
+    correctAnswer: true,
+    explanation: 'Rickets is a pediatric growth plate disorder.',
+    reference: 'Rickets involves growth plates; osteomalacia involves mature bone.'
+  },
+  {
+    id: 'pe-cr-005-tf2',
+    subtopic: 'Calcium-phosphate homeostasis',
+    statement: 'PTH raises serum calcium and lowers serum phosphate.',
+    correctAnswer: true,
+    explanation: 'PTH promotes calcium reabsorption and phosphaturia.',
+    reference: 'PTH and calcitriol jointly regulate calcium and phosphate homeostasis.'
+  },
+  {
+    id: 'pe-cr-005-tf3',
+    subtopic: 'FGF23 physiology',
+    statement: 'FGF23 suppresses calcitriol production in the kidney.',
+    correctAnswer: true,
+    explanation: 'FGF23 inhibits 1α-hydroxylase activity.',
+    reference: 'FGF23 lowers serum phosphate by renal wasting and reduced calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-tf4',
+    subtopic: 'Vitamin D deficiency',
+    statement: '25-hydroxyvitamin D is the preferred test for vitamin D status.',
+    correctAnswer: true,
+    explanation: 'It reflects body stores and has a longer half-life.',
+    reference: '25(OH)D is the preferred indicator of vitamin D status.'
+  },
+  {
+    id: 'pe-cr-005-tf5',
+    subtopic: 'Clinical features',
+    statement: 'Genu varum or valgum in rickets results from softened metaphyses under load.',
+    correctAnswer: true,
+    explanation: 'Weight-bearing deforms softened bone.',
+    reference: 'Bone softening in rickets leads to bowing deformities under load.'
+  },
+  {
+    id: 'pe-cr-005-tf6',
+    subtopic: 'Radiology',
+    statement: 'Looser zones are incomplete insufficiency fractures seen in osteomalacia.',
+    correctAnswer: true,
+    explanation: 'They represent pseudofractures.',
+    reference: 'Looser zones represent insufficiency fractures in osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-tf7',
+    subtopic: 'Treatment',
+    statement: 'Nutritional rickets improves with vitamin D plus calcium supplementation.',
+    correctAnswer: true,
+    explanation: 'Both mineral deficits must be corrected.',
+    reference: 'Nutritional rickets responds to vitamin D plus calcium replacement.'
+  },
+  {
+    id: 'pe-cr-005-tf8',
+    subtopic: 'Vitamin D–dependent rickets',
+    statement: 'VDDR type 1 is due to vitamin D receptor resistance.',
+    correctAnswer: false,
+    explanation: 'Type 1 is 1α-hydroxylase deficiency, not receptor resistance.',
+    reference: 'VDDR type 1 is due to 1α-hydroxylase deficiency and responds to calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-tf9',
+    subtopic: 'Hypophosphatemic rickets',
+    statement: 'XLH is characterized by FGF23-mediated renal phosphate wasting.',
+    correctAnswer: true,
+    explanation: 'PHEX mutations increase FGF23 activity.',
+    reference: 'XLH is driven by FGF23-mediated renal phosphate wasting.'
+  },
+  {
+    id: 'pe-cr-005-tf10',
+    subtopic: 'Renal tubular acidosis',
+    statement: 'Distal RTA features inability to acidify urine below pH 5.5.',
+    correctAnswer: true,
+    explanation: 'Urine pH remains high after acid loading.',
+    reference: 'Ammonium chloride testing reveals impaired urine acidification in distal RTA.'
+  },
+  {
+    id: 'pe-cr-005-tf11',
+    subtopic: 'Laboratory markers',
+    statement: 'Alkaline phosphatase is typically elevated in osteomalacia.',
+    correctAnswer: true,
+    explanation: 'Osteoblast activity increases with unmineralized osteoid.',
+    reference: 'Alkaline phosphatase is elevated due to increased osteoblastic activity.'
+  },
+  {
+    id: 'pe-cr-005-tf12',
+    subtopic: 'Monitoring',
+    statement: 'Falling alkaline phosphatase and healing of Looser zones indicate recovery.',
+    correctAnswer: true,
+    explanation: 'Both reflect improved mineralization.',
+    reference: 'Healing is tracked by symptoms, ALP decline, and radiographic repair.'
+  }
+].map(tf => ({ ...tf, type: 'true_false' }));
+
+const assertionReason = [
+  {
+    id: 'pe-cr-005-ar1',
+    subtopic: 'Bone physiology',
+    assertion: 'Defective mineralization occurs when either calcium or phosphate is deficient.',
+    reason: 'Hydroxyapatite formation requires both calcium and phosphate.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Mineralization requires sufficient calcium and phosphate for hydroxyapatite.'
+  },
+  {
+    id: 'pe-cr-005-ar2',
+    subtopic: 'FGF23 physiology',
+    assertion: 'FGF23 lowers serum phosphate.',
+    reason: 'It reduces renal phosphate reabsorption and calcitriol production.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the effect.',
+    reference: 'FGF23 lowers serum phosphate by renal wasting and reduced calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-ar3',
+    subtopic: 'Disease patterns',
+    assertion: 'Rickets is a disease of the growth plate.',
+    reason: 'It occurs before epiphyseal closure with impaired mineralization.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the assertion.',
+    reference: 'Rickets involves growth plates; osteomalacia involves mature bone.'
+  },
+  {
+    id: 'pe-cr-005-ar4',
+    subtopic: 'Calcipenic vs phosphopenic',
+    assertion: 'Calcipenic rickets often has low calcium and high PTH.',
+    reason: 'Vitamin D deficiency reduces calcium absorption and triggers secondary hyperparathyroidism.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the labs.',
+    reference: 'Calcipenic rickets has low Ca/high PTH; phosphopenic has isolated hypophosphatemia.'
+  },
+  {
+    id: 'pe-cr-005-ar5',
+    subtopic: 'Radiology',
+    assertion: 'Looser zones are common in osteomalacia.',
+    reason: 'Unmineralized osteoid cracks under stress, creating pseudofractures.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the finding.',
+    reference: 'Looser zones represent insufficiency fractures in osteomalacia.'
+  },
+  {
+    id: 'pe-cr-005-ar6',
+    subtopic: 'Vitamin D deficiency',
+    assertion: '25-hydroxyvitamin D is the best test for vitamin D stores.',
+    reason: 'It has a longer half-life and reflects total body supply.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the test choice.',
+    reference: '25(OH)D is the preferred indicator of vitamin D status.'
+  },
+  {
+    id: 'pe-cr-005-ar7',
+    subtopic: 'Treatment',
+    assertion: 'Nutritional rickets improves with vitamin D and calcium therapy.',
+    reason: 'Both calcium and phosphate availability improve when vitamin D is replaced and calcium intake is adequate.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the response.',
+    reference: 'Nutritional rickets responds to vitamin D plus calcium replacement.'
+  },
+  {
+    id: 'pe-cr-005-ar8',
+    subtopic: 'Vitamin D–dependent rickets',
+    assertion: 'VDDR type 1 responds to calcitriol therapy.',
+    reason: 'The defect is impaired conversion of 25(OH)D to calcitriol.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains treatment.',
+    reference: 'VDDR type 1 is due to 1α-hydroxylase deficiency and responds to calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-ar9',
+    subtopic: 'Vitamin D–dependent rickets',
+    assertion: 'VDDR type 2 may present with alopecia.',
+    reason: 'Vitamin D receptor resistance affects hair follicle function.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the feature.',
+    reference: 'VDDR type 2 features vitamin D receptor resistance and high calcitriol.'
+  },
+  {
+    id: 'pe-cr-005-ar10',
+    subtopic: 'Hypophosphatemic rickets',
+    assertion: 'XLH is associated with chronic hypophosphatemia.',
+    reason: 'PHEX mutations increase FGF23 activity and cause renal phosphate wasting.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the mechanism.',
+    reference: 'XLH is driven by FGF23-mediated renal phosphate wasting.'
+  },
+  {
+    id: 'pe-cr-005-ar11',
+    subtopic: 'Renal tubular acidosis',
+    assertion: 'Distal RTA can cause osteomalacia.',
+    reason: 'Chronic metabolic acidosis leads to bone buffering and mineral loss.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the bone effects.',
+    reference: 'Distal RTA causes chronic acidosis that demineralizes bone.'
+  },
+  {
+    id: 'pe-cr-005-ar12',
+    subtopic: 'Monitoring',
+    assertion: 'Falling alkaline phosphatase suggests healing in osteomalacia.',
+    reason: 'Improved mineralization reduces osteoblastic overactivity.',
+    correctOption: 0,
+    explanation: 'Both statements are true and the reason explains the marker.',
+    reference: 'Healing is tracked by symptoms, ALP decline, and radiographic repair.'
+  }
+].map(ar => ({ ...ar, type: 'assertion_reason' }));
+
+const output = {
+  id: 'pe-cr-005',
+  book: 'clinical_rounds',
+  chapterNo: '5',
+  title: 'Rickets–Osteomalacia',
+  section: 'Pediatric Endo',
+  sourceFile: 'pediatric_endo/clinical_rounds/005_rickets_osteomalacia',
+  items: [...notes, ...mcqs, ...trueFalse, ...assertionReason]
+};
+
+fs.writeFileSync(OUT, JSON.stringify(output, null, 2) + '\n');
+
+const counts = output.items.reduce((acc, item) => {
+  acc[item.type] = (acc[item.type] || 0) + 1;
+  return acc;
+}, {});
+const whyHow = notes.filter(note => /^(Why|How)/.test(note.title)).length;
+console.log('Written:', OUT);
+console.log('Counts:', counts);
+console.log('Notes Why/How:', `${whyHow}/${notes.length}`);
