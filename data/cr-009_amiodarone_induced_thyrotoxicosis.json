@@ -1,0 +1,253 @@
+{
+  "id": "cr-009",
+  "reportType": "case_report",
+  "title": "Amiodarone-Induced Thyrotoxicosis in a 75-Year-Old with AF",
+  "subtitle": "Type 2 (Destructive) AIT — Why Methimazole Failed and the Steroid Pivot",
+  "section": "Case Reports",
+  "category": "Endocrinology & Cardiology",
+  "authors": "Clinical case vignette — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "patient": {
+    "age": 75,
+    "sex": "Male",
+    "chiefComplaint": "Follow-up of thyrotoxicosis with persistently high Free T4 despite maximum-dose methimazole",
+    "pmh": [
+      "Atrial fibrillation (on rate control)",
+      "Recent-onset thyrotoxicosis"
+    ],
+    "medications": [
+      "Bisoprolol (AF rate control)",
+      "Methimazole 60 mg/day (thyrotoxicosis)",
+      "Amiodarone (antiarrhythmic)"
+    ]
+  },
+  "caseDescription": "A 75-year-old man with atrial fibrillation and recent-onset thyrotoxicosis presents for follow-up after one month of maximum-dose methimazole (60 mg/day). His AF is well controlled at 80 bpm on bisoprolol. Despite the aggressive antithyroid regimen, laboratory results show a persistently surging Free T4 while T3 remains normal. Hepatic transaminases and absolute neutrophil count (ANC) are stable.\n\nBecause of the lack of clinical response, a color-flow Doppler ultrasound of the thyroid is performed, revealing a normal-appearing gland with a lack of hypervascularity (no ‘inferno’ pattern). The picture is that of Amiodarone-Induced Thyrotoxicosis (AIT), predominantly Type 2 (destructive thyroiditis) or mixed AIT.\n\nManagement is pivoted to the destructive, inflammatory nature of the condition: bisoprolol is maintained for rate control; methimazole is de-escalated to a holding dose of 20–30 mg/day to reduce toxicity while covering possible mixed pathology; oral prednisolone 30–40 mg/day is started to halt follicular leakage; and cholestyramine 4 g two-to-three times daily (staggered) is added as an intraluminal sink to accelerate clearance of circulating T4.",
+  "keyFindings": [
+    "Persistently surging Free T4 with normal T3 despite 1 month of methimazole 60 mg/day",
+    "AF well controlled (HR 80 bpm) on bisoprolol",
+    "Hepatic transaminases and ANC stable",
+    "Thyroid color-flow Doppler: normal gland, NO hypervascularity (no ‘inferno’ pattern) → destructive pattern"
+  ],
+  "finalDiagnosis": "Amiodarone-Induced Thyrotoxicosis (AIT), predominantly Type 2 (destructive thyroiditis) or mixed AIT",
+  "learningObjectives": [
+    "Distinguish Type 1 (iodine-induced synthesis) from Type 2 (destructive) AIT using Doppler vascularity and the T4/T3 pattern",
+    "Explain why methimazole is mechanistically ineffective in pure Type 2 AIT and pivot to glucocorticoids",
+    "Apply adjuncts (cholestyramine, beta-blocker choice) and dose/route rationale appropriate to a 75-year-old"
+  ],
+  "items": [
+    {
+      "id": "cr-009-n1",
+      "type": "note",
+      "subtopic": "Management Pivot",
+      "title": "How the treatment was pivoted from anti-synthesis to anti-inflammatory",
+      "content": "Once a destructive (Type 2 / mixed) process was recognised, the strategy shifted from blocking synthesis to halting leakage and clearing circulating hormone. Bisoprolol is maintained for rate control. Methimazole is de-escalated to a holding dose of 20–30 mg/day — low enough to cut the dose-dependent toxicity risk, high enough to cover any coexisting iodine-driven synthesis (mixed AIT). Oral prednisolone 30–40 mg/day is started to stabilise follicular membranes and stop the inflammatory leak. Cholestyramine 4 g two-to-three times daily (staggered from other drugs) is added to bind hormone in the gut and accelerate its excretion.",
+      "keyPoints": [
+        "Bisoprolol continued for rate control.",
+        "Methimazole reduced to 20–30 mg/day holding dose (toxicity vs mixed-pathology cover).",
+        "Prednisolone 30–40 mg/day halts follicular leakage; cholestyramine speeds T4 clearance."
+      ]
+    },
+    {
+      "id": "cr-009-why1",
+      "type": "why",
+      "subtopic": "Beta-Blockade",
+      "question": "Why is propranolol the drug of choice in the acute phase of Graves’ thyrotoxicosis?",
+      "answer": "Propranolol is a non-selective beta-blocker that, at higher doses (≥160 mg/day), uniquely inhibits the 5'-deiodinase enzyme. This prevents the peripheral conversion of T4 to the more active T3, giving a direct anti-thyroid physiological benefit on top of heart-rate control."
+    },
+    {
+      "id": "cr-009-sa1",
+      "type": "shortanswer",
+      "subtopic": "Beta-Blockade",
+      "question": "What is the main drawback of using propranolol for rate control?",
+      "answer": "It has a short half-life, so it requires frequent dosing (3–4 times daily) unless an extended-release formulation is used."
+    },
+    {
+      "id": "cr-009-why2",
+      "type": "why",
+      "subtopic": "Beta-Blockade",
+      "question": "Why is bisoprolol preferred for long-term maintenance in this patient?",
+      "answer": "Bisoprolol is a highly cardioselective β1 antagonist that gives stable, 24-hour rate control with convenient once-daily dosing, and carries a much lower risk of bronchospasm or adverse metabolic effects than non-selective agents."
+    },
+    {
+      "id": "cr-009-why3",
+      "type": "why",
+      "subtopic": "Beta-Blockade",
+      "question": "Why should atenolol be avoided or used with caution compared to bisoprolol?",
+      "answer": "Atenolol is hydrophilic with a shorter effective half-life, often requiring twice-daily dosing, and it relies heavily on renal clearance — a concern in an elderly patient."
+    },
+    {
+      "id": "cr-009-sa2",
+      "type": "shortanswer",
+      "subtopic": "Beta-Blockade",
+      "question": "In what specific scenario is esmolol indicated?",
+      "answer": "Esmolol is an ultra-short-acting intravenous β1 blocker reserved strictly for acute inpatient or intensive-care settings — an unstable thyroid storm or a rapid ventricular rate causing haemodynamic compromise."
+    },
+    {
+      "id": "cr-009-why4",
+      "type": "why",
+      "subtopic": "Beta-Blockade",
+      "question": "Why does switching this 75-year-old to propranolol offer no additional clinical benefit?",
+      "answer": "His T3 is already normal: the T4-to-T3 conversion pathway is already blunted (by amiodarone), so high-dose propranolol offers no metabolic upside. His heart rate is also already well controlled on bisoprolol."
+    },
+    {
+      "id": "cr-009-sa3",
+      "type": "shortanswer",
+      "subtopic": "Beta-Blockade",
+      "question": "What specific risks does propranolol pose for a 75-year-old patient?",
+      "answer": "Being highly lipophilic, it readily crosses the blood–brain barrier, raising the risk of CNS effects such as confusion, lethargy, and sleep disturbance. Its β2 blockade can also trigger bronchospasm or mask recovery from hypoglycaemia."
+    },
+    {
+      "id": "cr-009-why5",
+      "type": "why",
+      "subtopic": "Methimazole",
+      "question": "Why should the methimazole dose not be increased beyond 60 mg/day?",
+      "answer": "At 60 mg/day, thyroid peroxidase (TPO) is already maximally inhibited. Increasing the dose does not suppress new hormone synthesis any further or faster, but it exponentially increases the risk of severe, dose-dependent toxicities."
+    },
+    {
+      "id": "cr-009-sa4",
+      "type": "shortanswer",
+      "subtopic": "Methimazole",
+      "question": "What are the life-threatening toxicities of pushing methimazole beyond 60 mg/day?",
+      "answer": "The primary risks are agranulocytosis and cholestatic hepatotoxicity."
+    },
+    {
+      "id": "cr-009-why6",
+      "type": "why",
+      "subtopic": "Hormone Kinetics",
+      "question": "Why does the patient still have high Free T4 after a month on maximum-dose methimazole?",
+      "answer": "The thyroid holds a large reservoir of pre-formed hormone in the colloid. Methimazole only halts new synthesis; it typically takes 4–8 weeks for the pre-existing stores to deplete and clear from the bloodstream."
+    },
+    {
+      "id": "cr-009-how1",
+      "type": "how",
+      "subtopic": "Adjuncts",
+      "question": "How does cholestyramine accelerate clearance of thyroid hormone in thyrotoxicosis?",
+      "answer": "Up to 15–20% of circulating T4 and T3 undergo enterohepatic recirculation. Cholestyramine acts as an intraluminal sink, binding these hormones in the gut and forcing their excretion in faeces, which accelerates clearance of the high Free T4 pool."
+    },
+    {
+      "id": "cr-009-how2",
+      "type": "how",
+      "subtopic": "Adjuncts",
+      "question": "How must cholestyramine be administered to prevent drug interactions?",
+      "answer": "It must be staggered — taken at least 1 hour after or 4 hours before drugs such as bisoprolol and methimazole — so the resin does not bind them in the gut and nullify their absorption."
+    },
+    {
+      "id": "cr-009-how3",
+      "type": "how",
+      "subtopic": "AIT Pathophysiology",
+      "question": "How does amiodarone explain the laboratory profile of high Free T4 and normal T3?",
+      "answer": "Amiodarone structurally resembles thyroxine, carries a massive iodine load, and strongly inhibits the 5'-deiodinase enzyme. This blocks the peripheral conversion of T4 to T3, so T4 surges while T3 stays normal."
+    },
+    {
+      "id": "cr-009-sa5",
+      "type": "shortanswer",
+      "subtopic": "AIT Pathophysiology",
+      "question": "What is Type 1 amiodarone-induced thyrotoxicosis (AIT)?",
+      "answer": "It is iodine-induced hyperthyroidism: the massive iodine load from amiodarone fuels over-synthesis of thyroid hormone in a gland with underlying autonomous pathology (such as latent Graves’ disease or a multinodular goiter)."
+    },
+    {
+      "id": "cr-009-sa6",
+      "type": "shortanswer",
+      "subtopic": "AIT Pathophysiology",
+      "question": "What is Type 2 amiodarone-induced thyrotoxicosis (AIT)?",
+      "answer": "It is a destructive thyroiditis: amiodarone exerts a direct cytotoxic effect on the thyroid follicles, causing them to rupture and release pre-formed colloid hormone into the bloodstream."
+    },
+    {
+      "id": "cr-009-why7",
+      "type": "why",
+      "subtopic": "AIT Pathophysiology",
+      "question": "Why is methimazole mechanistically useless against pure Type 2 AIT?",
+      "answer": "Methimazole works by blocking the synthesis of new thyroid hormone. In Type 2 AIT there is no new synthesis occurring — the thyrotoxicosis is a pure leakage phenomenon from glandular destruction, so there is nothing for methimazole to block."
+    },
+    {
+      "id": "cr-009-how4",
+      "type": "how",
+      "subtopic": "Diagnostics",
+      "question": "How does a color-flow Doppler ultrasound differentiate between the two types of AIT?",
+      "answer": "High vascularity (an ‘inferno’ pattern) points to Type 1 (active synthesis), whereas low or absent vascularity points to Type 2 (destructive thyroiditis)."
+    },
+    {
+      "id": "cr-009-sa7",
+      "type": "shortanswer",
+      "subtopic": "Management",
+      "question": "What makes glucocorticoids (prednisolone) the optimal treatment for Type 2 AIT?",
+      "answer": "Steroids rapidly stabilise follicular membranes and halt the destructive inflammatory process. They also give a secondary benefit by further inhibiting peripheral T4-to-T3 conversion."
+    },
+    {
+      "id": "cr-009-why8",
+      "type": "why",
+      "subtopic": "Management",
+      "question": "Why is the methimazole dose reduced to 20–30 mg/day instead of being stopped completely once Type 2 AIT is suspected?",
+      "answer": "A moderate holding dose covers the common possibility of mixed AIT (some iodine-driven synthesis occurring alongside the destruction), while simultaneously reducing the high risk of hepatotoxicity and agranulocytosis associated with the 60 mg dose."
+    },
+    {
+      "id": "cr-009-why9",
+      "type": "why",
+      "subtopic": "Pharmacology",
+      "question": "Why does amiodarone continue to drive thyroid pathology long after the drug is discontinued?",
+      "answer": "Amiodarone is highly lipophilic with a massive volume of distribution and a terminal half-life of 50–100 days, so the drug and its iodine load remain in the patient’s system for months."
+    },
+    {
+      "id": "cr-009-m1",
+      "type": "mcq",
+      "subtopic": "Management",
+      "stem": "Doppler shows a non-hypervascular gland and the picture is destructive (Type 2) AIT. Which is the most appropriate primary pharmacological treatment?",
+      "options": [
+        "Increase methimazole to 80 mg/day",
+        "Oral glucocorticoids (e.g. prednisolone 30–40 mg/day)",
+        "High-dose iodine (Lugol’s solution)",
+        "Radioactive iodine ablation"
+      ],
+      "correctOption": 1,
+      "explanation": "Type 2 AIT is a destructive thyroiditis, so the primary treatment is glucocorticoids, which stabilise follicular membranes, halt the inflammatory leak, and secondarily reduce T4-to-T3 conversion. Raising methimazole only adds toxicity (no synthesis to block), iodine would worsen an iodine-loaded gland, and radioiodine is ineffective when uptake is suppressed."
+    },
+    {
+      "id": "cr-009-m2",
+      "type": "mcq",
+      "subtopic": "Pathophysiology",
+      "stem": "Why does this amiodarone-treated patient show a surging Free T4 but a normal T3?",
+      "options": [
+        "Amiodarone increases TSH secretion",
+        "Amiodarone inhibits 5'-deiodinase, blocking peripheral conversion of T4 to T3",
+        "Methimazole selectively raises T4",
+        "The thyroid is producing only T4 and no T3"
+      ],
+      "correctOption": 1,
+      "explanation": "Amiodarone strongly inhibits 5'-deiodinase, the enzyme that converts T4 to the more active T3 peripherally. With conversion blocked, T4 accumulates and rises while T3 stays normal — the classic biochemical signature."
+    },
+    {
+      "id": "cr-009-m3",
+      "type": "mcq",
+      "subtopic": "Beta-Blockade",
+      "stem": "Which beta-blocker is the ultra-short-acting IV agent reserved for unstable thyroid storm or haemodynamic compromise?",
+      "options": ["Atenolol", "Bisoprolol", "Esmolol", "Propranolol"],
+      "correctOption": 2,
+      "explanation": "Esmolol is an ultra-short-acting intravenous β1 blocker used in acute inpatient/ICU settings for unstable thyroid storm or a rapid ventricular rate causing haemodynamic compromise; the others are oral agents for ongoing rate control."
+    },
+    {
+      "id": "cr-009-tf1",
+      "type": "true_false",
+      "subtopic": "Pathophysiology",
+      "statement": "In pure Type 2 AIT, methimazole is ineffective because there is no new hormone synthesis for it to block.",
+      "correctAnswer": true,
+      "explanation": "True. Type 2 AIT is a destructive leak of pre-formed hormone, not active synthesis, so a synthesis blocker like methimazole has nothing to act on."
+    },
+    {
+      "id": "cr-009-tf2",
+      "type": "true_false",
+      "subtopic": "Pharmacology",
+      "statement": "Because amiodarone is cleared quickly, its thyroid effects resolve within a few days of stopping the drug.",
+      "correctAnswer": false,
+      "explanation": "False. Amiodarone is highly lipophilic with a huge volume of distribution and a terminal half-life of 50–100 days, so the drug and its iodine load — and the thyroid effects — persist for months."
+    },
+    {
+      "id": "cr-009-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Reasoning",
+      "assertion": "Methimazole alone is inadequate for pure Type 2 amiodarone-induced thyrotoxicosis.",
+      "reason": "Type 2 AIT is a destructive release of pre-formed hormone with no ongoing synthesis for methimazole to block.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason correctly explains the assertion. Because the thyrotoxicosis in Type 2 AIT comes from follicular destruction rather than synthesis, a synthesis blocker cannot control it — which is exactly why glucocorticoids, not methimazole, are the mainstay."
+    }
+  ]
+}
