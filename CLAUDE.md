@@ -74,6 +74,12 @@ pipeline (UI rebuild not required — content is fetched at runtime):
 - **`.claude/skills/hot_topics_skill/`** — hot topics.
 - **`.claude/skills/nejm_trials_skill/`** — NEJM trials subsection
   (reference-linked Q&A from `noupload/NEJM`).
+- **`.claude/skills/story_skill/`** — Stories: narrative case-study teaching
+  modules (ethics, communication, practice management, patient education,
+  clinical reasoning). Registered under `stories.entries[]`. Unlike the others,
+  Story content is original (no verbatim `reference` quotes), and **every story
+  must end with a `story-{NNN}-appraisal` note giving the module's strength,
+  limitation, and the assumptions it makes.**
 
 Shared rules:
 - The item types and validation rules above (note/mcq/true_false/
