@@ -24,8 +24,8 @@ export function AppShell() {
   }, [initCatalog])
 
   return (
-    <div className="flex min-h-dvh flex-col">
-      <header className="sticky top-0 z-20 border-b clinical-border bg-[var(--color-clinical-bg-light)]/90 backdrop-blur-md dark:bg-[var(--color-clinical-bg-dark)]/90">
+    <div className="flex h-dvh flex-col overflow-hidden">
+      <header className="z-20 shrink-0 border-b clinical-border bg-[var(--color-clinical-bg-light)]/90 backdrop-blur-md dark:bg-[var(--color-clinical-bg-dark)]/90">
         <div className="flex items-center justify-between gap-3 px-4 py-3 md:px-6">
           <div className="min-w-0">
             <h1 className="truncate text-sm font-semibold md:text-base">

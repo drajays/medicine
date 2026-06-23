@@ -74,6 +74,27 @@ export function buildNavRows(catalog: RawCatalog): NavRow[] {
     }
   }
 
+  const stories = (catalog.stories?.entries ?? []).filter(readyFile)
+  if (stories.length) {
+    pushHeader(rows, 'hdr-stories', catalog.stories?.title ?? 'Stories', 'stories', {
+      subtitle: catalog.stories?.description,
+      count: stories.length,
+    })
+    for (const story of stories) {
+      rows.push({
+        type: 'entry',
+        entry: {
+          id: story.id,
+          title: story.title,
+          subtitle: story.subtitle ?? story.category ?? 'Story',
+          sectionTitle: catalog.stories?.title ?? 'Stories',
+          file: story.file as string,
+          kind: 'story',
+        },
+      })
+    }
+  }
+
   const calculators = (catalog.calculators?.entries ?? []).filter(readyFile)
   if (calculators.length) {
     pushHeader(rows, 'hdr-calculators', catalog.calculators?.title ?? 'Calculators', 'calculators', {
@@ -169,5 +190,6 @@ export function navRowHeight(row: NavRow): number {
     if (row.headerKind === 'harrison_section') return 38
     return 54
   }
-  return 56
+  if (row.type === 'calculator') return 58
+  return 66
 }

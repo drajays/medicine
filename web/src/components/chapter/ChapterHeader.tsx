@@ -12,15 +12,12 @@ export function ChapterHeader({
   const isTrial = kind === 'trial'
   const isCase = kind === 'case_report'
   const isHot = kind === 'hot_topic'
+  const isStory = kind === 'story'
   const isNejm = chapter.subsection === 'nejm'
 
-  const byline = isTrial
+  const byline = isTrial || isCase || isHot || isStory
     ? [chapter.section, chapter.category, chapter.authors].filter(Boolean).join(' · ')
-    : isCase
-      ? [chapter.section, chapter.category, chapter.authors].filter(Boolean).join(' · ')
-      : isHot
-        ? [chapter.section, chapter.category, chapter.authors].filter(Boolean).join(' · ')
-        : [
+    : [
             chapter.chapterNo ? `Chapter ${chapter.chapterNo}` : null,
             chapter.section,
             chapter.authors,
@@ -36,7 +33,8 @@ export function ChapterHeader({
           isHot && 'border-amber-200/60 bg-amber-50/50 dark:border-amber-500/20 dark:bg-amber-950/20',
           isCase && 'border-teal-200/60 bg-teal-50/50 dark:border-teal-500/20 dark:bg-teal-950/20',
           isTrial && 'border-blue-200/60 bg-blue-50/50 dark:border-blue-500/20 dark:bg-blue-950/20',
-          !isHot && !isCase && !isTrial && 'border-indigo-200/60 bg-indigo-50/40 dark:border-indigo-500/20 dark:bg-indigo-950/20',
+          isStory && 'border-rose-200/60 bg-rose-50/50 dark:border-rose-500/20 dark:bg-rose-950/20',
+          !isHot && !isCase && !isTrial && !isStory && 'border-indigo-200/60 bg-indigo-50/40 dark:border-indigo-500/20 dark:bg-indigo-950/20',
         )}
       >
         <span
@@ -48,13 +46,17 @@ export function ChapterHeader({
           {KIND_LABEL[kind]}
           {isNejm ? ' · NEJM' : ''}
         </span>
-        <h2 className="clinical-serif mt-2 text-xl font-bold leading-snug md:text-2xl">
+        <h2 className="mt-2.5 text-2xl font-semibold leading-[1.12] tracking-tight md:text-[2.05rem]">
           {chapter.title}
         </h2>
         {chapter.subtitle && (
-          <p className="mt-1 text-sm italic clinical-muted">{chapter.subtitle}</p>
+          <p className="clinical-serif mt-2 text-[15px] italic leading-snug clinical-muted md:text-base">
+            {chapter.subtitle}
+          </p>
         )}
-        {byline && <p className="mt-2 text-xs clinical-muted">{byline}</p>}
+        {byline && (
+          <p className="eyebrow mt-3.5 border-t clinical-border pt-3 clinical-muted">{byline}</p>
+        )}
       </div>
     </header>
   )

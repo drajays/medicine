@@ -44,16 +44,12 @@ export function AnswerReveal({
             transition={{ duration: 0.12, ease: 'easeOut' }}
             className="overflow-hidden"
           >
-            <div className="clinical-serif mt-4 space-y-3 rounded-xl border border-blue-200/60 bg-blue-50/50 p-5 text-[15px] leading-relaxed dark:border-blue-500/20 dark:bg-blue-500/5">
+            <div className="reading-prose mt-4 space-y-3 rounded-xl border border-blue-200/60 bg-blue-50/50 p-5 text-[15px] dark:border-blue-500/20 dark:bg-blue-500/5">
               {children}
             </div>
           </motion.div>
         )}
       </AnimatePresence>
-
-      <p className="mt-2 hidden text-xs clinical-muted sm:block">
-        Click to reveal answer
-      </p>
     </div>
   )
 }

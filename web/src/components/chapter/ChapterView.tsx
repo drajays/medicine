@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { motion } from 'framer-motion'
 import { useAppStore } from '@/store/useAppStore'
 import { QuestionSkeleton } from '@/components/ui/Skeleton'
 import { ChapterHeader } from '@/components/chapter/ChapterHeader'
@@ -6,6 +7,7 @@ import { CaseDescription } from '@/components/chapter/CaseDescription'
 import { TrialSummary } from '@/components/chapter/TrialSummary'
 import { ChapterTabs } from '@/components/chapter/ChapterTabs'
 import { StudyItemCard } from '@/components/chapter/StudyItemCard'
+import { LandingPage } from '@/components/chapter/LandingPage'
 import {
   defaultTab,
   getChapterTabs,
@@ -114,18 +116,7 @@ export function ChapterView() {
   }, [scrollToItemId, activeTab, chapter, setScrollToItemId])
 
   if (!currentChapterId) {
-    return (
-      <div className="mx-auto max-w-2xl px-4 py-12 md:py-20">
-        <div className="clinical-card p-8 text-center">
-          <h2 className="text-xl font-semibold">Welcome to Harrison&apos;s 22e</h2>
-          <p className="clinical-serif mt-3 text-[15px] leading-relaxed clinical-muted">
-            Select a topic from the index or press{' '}
-            <kbd className="rounded border px-1.5 py-0.5 text-xs">⌘K</kbd> to search.
-            Each topic opens with all notes and questions organized by type.
-          </p>
-        </div>
-      </div>
-    )
+    return <LandingPage />
   }
 
   if (chapterLoading || !chapter) {
@@ -142,9 +133,15 @@ export function ChapterView() {
       {kind === 'trial' && <TrialSummary chapter={chapter} />}
       <div className="mt-4">
         <ChapterTabs tabs={tabs} active={tab} onChange={setActiveTab} />
-        <div className="mt-4">
+        <motion.div
+          key={tab}
+          initial={{ opacity: 0, y: 6 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.16, ease: 'easeOut' }}
+          className="mt-5"
+        >
           <TabBody chapter={chapter} tab={tab} />
-        </div>
+        </motion.div>
       </div>
     </div>
   )

@@ -114,11 +114,13 @@
       radial-gradient(90% 70% at 0% 100%, rgba(224, 160, 90, 0.05) 0%, transparent 45%);
   }
 
-  /* Editorial display face for headings, mirroring StudyHub's Fraunces titling. */
+  /* Editorial display face for headings — Fraunces with optical sizing so large
+     titles pick up the high-contrast display cut, small ones stay legible. */
   h1,
   h2,
   h3 {
     font-family: var(--font-serif);
+    font-optical-sizing: auto;
     letter-spacing: -0.015em;
   }
 
@@ -187,4 +189,93 @@
 
 [data-radix-scroll-area-viewport] {
   scrollbar-width: thin;
+}
+
+/* ============================================================
+   Scholarly editorial type system + reading surface
+   ============================================================ */
+@layer components {
+  /* Small tracked label used as the "content type" eyebrow above every block. */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+  }
+
+  /* The reading column — serif, generous rhythm, comfortable measure.
+     This is where notes and answers actually live. */
+  .reading-prose {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-size: 1.0625rem;
+    line-height: 1.78;
+    letter-spacing: 0.003em;
+  }
+  .reading-prose p + p {
+    margin-top: 0.85em;
+  }
+
+  /* Marginal index device — a slim rule + glyph in the gutter, echoing the
+     margin annotations of a well-set medical text. The signature detail. */
+  .study-block {
+    position: relative;
+    padding-left: 1.15rem;
+  }
+  .study-block::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    bottom: 0.15rem;
+    width: 2px;
+    border-radius: 2px;
+    background: var(--block-accent, var(--color-clinical-border-light));
+    opacity: 0.55;
+  }
+  .dark .study-block::before {
+    background: var(--block-accent, var(--color-clinical-border-dark));
+  }
+  @media (min-width: 768px) {
+    .study-block {
+      padding-left: 1.6rem;
+    }
+  }
+}
+
+/* Refined keyboard caps for shortcut hints. */
+kbd {
+  font-family: var(--font-sans);
+  font-size: 0.7em;
+  font-weight: 600;
+  line-height: 1;
+  display: inline-block;
+  min-width: 1.4em;
+  text-align: center;
+  padding: 0.2em 0.4em;
+  border-radius: 0.3rem;
+  border: 1px solid var(--color-clinical-border-light);
+  background: var(--color-clinical-card-light);
+  box-shadow: 0 1px 0 var(--color-clinical-border-light);
+  color: inherit;
+}
+.dark kbd {
+  border-color: var(--color-clinical-border-dark);
+  background: #26221a;
+  box-shadow: 0 1px 0 #0e0c08;
+}
+
+/* Respect users who prefer reduced motion — kill CSS transitions/animations.
+   Framer Motion reads the same preference via useReducedMotion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

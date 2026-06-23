@@ -10,6 +10,8 @@ interface McqOptionsProps {
   onSelect: (index: number) => void
 }
 
+const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
+
 export function McqOptions({
   options,
   selected,
@@ -22,7 +24,8 @@ export function McqOptions({
       {options.map((option, index) => {
         const isSelected = selected === index
         const isCorrect = index === correctOption
-        const showResult = revealed && (isSelected || isCorrect)
+        const showCorrect = revealed && isCorrect
+        const showWrong = revealed && isSelected && !isCorrect
 
         return (
           <motion.button
@@ -30,37 +33,49 @@ export function McqOptions({
             type="button"
             role="radio"
             aria-checked={isSelected}
+            disabled={revealed}
             onClick={() => onSelect(index)}
-            whileTap={{ scale: 0.995 }}
+            whileTap={revealed ? undefined : { scale: 0.99 }}
             transition={{ duration: 0.08 }}
             className={cn(
-              'flex w-full items-start gap-3 rounded-xl px-4 py-3.5 text-left text-sm clinical-border transition-colors duration-100',
-              'hover:border-blue-300 hover:bg-slate-50 dark:hover:border-blue-500/30 dark:hover:bg-zinc-800/40',
+              'flex w-full items-start gap-3 rounded-xl border px-4 py-3.5 text-left text-[15px] leading-relaxed transition-colors duration-150',
+              'clinical-border',
+              !revealed &&
+                'hover:border-[var(--color-clinical-accent)]/50 hover:bg-slate-50 dark:hover:bg-zinc-800/40',
               isSelected && !revealed && 'border-blue-400 bg-blue-50/70 dark:border-blue-500/40 dark:bg-blue-500/10',
-              showResult && isCorrect && 'border-emerald-500/60 bg-emerald-50 dark:bg-emerald-500/10',
-              showResult && isSelected && !isCorrect && 'border-red-400/60 bg-red-50 dark:bg-red-500/10',
+              showCorrect && 'border-emerald-500/70 bg-emerald-50 dark:bg-emerald-500/10',
+              showWrong && 'border-red-400/70 bg-red-50 dark:bg-red-500/10',
+              revealed && !showCorrect && !showWrong && 'opacity-60',
             )}
           >
-            <span
+            <motion.span
+              animate={
+                showCorrect ? { scale: [1, 1.18, 1] } : showWrong ? { x: [0, -3, 3, -2, 0] } : {}
+              }
+              transition={{ duration: 0.3 }}
               className={cn(
-                'mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md text-xs font-semibold',
+                'mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg text-xs font-bold',
                 'bg-slate-100 text-slate-600 dark:bg-zinc-800 dark:text-zinc-300',
-                isSelected && 'bg-blue-600 text-white',
-                showResult && isCorrect && 'bg-emerald-600 text-white',
-                showResult && isSelected && !isCorrect && 'bg-red-500 text-white',
+                isSelected && !revealed && 'bg-blue-600 text-white',
+                showCorrect && 'bg-emerald-600 text-white',
+                showWrong && 'bg-red-500 text-white',
               )}
             >
-              {index + 1}
-            </span>
-            <span className="flex-1 leading-relaxed">{option}</span>
-            {showResult && isCorrect && <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />}
-            {showResult && isSelected && !isCorrect && <X className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />}
+              {showCorrect ? (
+                <Check className="h-4 w-4" />
+              ) : showWrong ? (
+                <X className="h-4 w-4" />
+              ) : (
+                LETTERS[index] ?? index + 1
+              )}
+            </motion.span>
+            <span className="flex-1 pt-0.5">{option}</span>
           </motion.button>
         )
       })}
-      <p className="pt-1 text-xs clinical-muted">
-        Keys <kbd className="rounded border px-1">1</kbd>–<kbd className="rounded border px-1">4</kbd> select options
-      </p>
+      {!revealed && (
+        <p className="pt-1 text-xs clinical-muted">Select the single best answer.</p>
+      )}
     </div>
   )
 }

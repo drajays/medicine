@@ -17,6 +17,12 @@ const HEADER_THEME: Record<
     title: 'text-teal-950 dark:text-teal-50',
     meta: 'text-teal-800/80 dark:text-teal-200/70',
   },
+  stories: {
+    icon: '💬',
+    wrap: 'bg-gradient-to-r from-rose-100/90 to-pink-50 border-l-[3px] border-l-rose-500 dark:from-rose-950/50 dark:to-pink-950/25 dark:border-l-rose-400',
+    title: 'text-rose-950 dark:text-rose-50',
+    meta: 'text-rose-800/80 dark:text-rose-200/70',
+  },
   calculators: {
     icon: '🧮',
     wrap: 'bg-gradient-to-r from-violet-100/90 to-purple-50 border-l-[3px] border-l-violet-600 dark:from-violet-950/50 dark:to-purple-950/25 dark:border-l-violet-400',
@@ -109,6 +115,8 @@ export function entryKindAccent(kind: NavEntry['kind'] | 'calculator') {
       return 'border-l-2 border-l-teal-500/60'
     case 'trial':
       return 'border-l-2 border-l-blue-500/60'
+    case 'story':
+      return 'border-l-2 border-l-rose-500/60'
     case 'harrison':
       return 'border-l-2 border-l-indigo-500/50'
     case 'calculator':

@@ -21,7 +21,7 @@ export function UtilityBar() {
   return (
     <div
       className={cn(
-        'sticky bottom-0 z-20 hidden border-t clinical-border md:block',
+        'z-20 hidden shrink-0 border-t clinical-border md:block',
         'bg-[var(--color-clinical-bg-light)]/90 backdrop-blur-md dark:bg-[var(--color-clinical-bg-dark)]/90',
       )}
     >

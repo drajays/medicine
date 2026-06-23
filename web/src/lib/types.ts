@@ -117,12 +117,13 @@ export interface NavEntry {
   subtitle: string
   sectionTitle: string
   file: string
-  kind: 'harrison' | 'hot_topic' | 'case_report' | 'trial'
+  kind: 'harrison' | 'hot_topic' | 'case_report' | 'trial' | 'story'
 }
 
 export type HeaderKind =
   | 'hot_topics'
   | 'case_reports'
+  | 'stories'
   | 'calculators'
   | 'trials'
   | 'trial_sub'
@@ -169,6 +170,18 @@ export interface RawCatalog {
     title?: string
     description?: string
     reports: Array<{
+      id: string
+      title: string
+      subtitle?: string
+      category?: string
+      file: string | null
+      status: string
+    }>
+  }
+  stories?: {
+    title?: string
+    description?: string
+    entries: Array<{
       id: string
       title: string
       subtitle?: string

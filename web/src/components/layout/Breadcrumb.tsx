@@ -10,6 +10,8 @@ export const KIND_BADGE: Record<NavEntry['kind'], string> = {
     'bg-teal-100 text-teal-900 dark:bg-teal-500/20 dark:text-teal-200',
   trial:
     'bg-blue-100 text-blue-900 dark:bg-blue-500/20 dark:text-blue-200',
+  story:
+    'bg-rose-100 text-rose-900 dark:bg-rose-500/20 dark:text-rose-200',
   harrison:
     'bg-indigo-100 text-indigo-900 dark:bg-indigo-500/20 dark:text-indigo-200',
 }
@@ -18,6 +20,7 @@ export const KIND_LABEL: Record<NavEntry['kind'], string> = {
   hot_topic: 'Hot Topic',
   case_report: 'Case Report',
   trial: 'Trial',
+  story: 'Story',
   harrison: 'Chapter',
 }
 
