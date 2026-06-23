@@ -29,12 +29,20 @@ interface AppState {
   revealed: Record<string, boolean>
   bookmarks: Record<string, boolean>
   mcqSelections: Record<string, number | null>
+  history: (string | null)[]
+  historyIndex: number
 
   initCatalog: () => Promise<void>
   loadChapter: (chapterId: string) => Promise<ChapterData | null>
   selectChapter: (chapterId: string) => Promise<void>
   clearSelection: () => void
   selectItem: (chapterId: string, itemId: string) => Promise<void>
+  pushHistory: (id: string | null) => void
+  applyHistoryTarget: (id: string | null) => Promise<void>
+  goBack: () => void
+  goForward: () => void
+  canGoBack: () => boolean
+  canGoForward: () => boolean
   goNextChapter: () => void
   goPrevChapter: () => void
   setActiveTab: (tab: ChapterTab) => void
@@ -70,6 +78,8 @@ export const useAppStore = create<AppState>()(
       revealed: {},
       bookmarks: {},
       mcqSelections: {},
+      history: [null],
+      historyIndex: 0,
 
       initCatalog: async () => {
         set({ catalogLoading: true })
@@ -115,6 +125,16 @@ export const useAppStore = create<AppState>()(
         }
       },
 
+      // Record a destination on the navigation history stack, truncating any
+      // forward entries (standard back/forward behaviour). No-op if unchanged.
+      pushHistory: (id: string | null) => {
+        const { history, historyIndex } = get()
+        if (history[historyIndex] === id) return
+        const next = history.slice(0, historyIndex + 1)
+        next.push(id)
+        set({ history: next, historyIndex: next.length - 1 })
+      },
+
       selectChapter: async (chapterId) => {
         const data = await get().loadChapter(chapterId)
         if (!data) return
@@ -125,10 +145,12 @@ export const useAppStore = create<AppState>()(
           activeTab: defaultTab(data, kind),
           scrollToItemId: null,
         })
+        get().pushHistory(chapterId)
       },
 
       clearSelection: () => {
         set({ currentChapterId: null, scrollToItemId: null })
+        get().pushHistory(null)
       },
 
       selectItem: async (chapterId, itemId) => {
@@ -141,7 +163,43 @@ export const useAppStore = create<AppState>()(
           activeTab: tabForItemType(item.type),
           scrollToItemId: itemId,
         })
+        get().pushHistory(chapterId)
       },
+
+      // Move along the history stack WITHOUT recording a new entry.
+      applyHistoryTarget: async (id: string | null) => {
+        if (id === null) {
+          set({ currentChapterId: null, scrollToItemId: null })
+          return
+        }
+        const data = await get().loadChapter(id)
+        const entry = get().navEntries.find((e) => e.id === id)
+        const kind = entry?.kind ?? 'harrison'
+        set({
+          currentChapterId: id,
+          activeTab: data ? defaultTab(data, kind) : get().activeTab,
+          scrollToItemId: null,
+        })
+      },
+
+      goBack: () => {
+        const { historyIndex, history } = get()
+        if (historyIndex <= 0) return
+        const newIndex = historyIndex - 1
+        set({ historyIndex: newIndex })
+        get().applyHistoryTarget(history[newIndex])
+      },
+
+      goForward: () => {
+        const { historyIndex, history } = get()
+        if (historyIndex >= history.length - 1) return
+        const newIndex = historyIndex + 1
+        set({ historyIndex: newIndex })
+        get().applyHistoryTarget(history[newIndex])
+      },
+
+      canGoBack: () => get().historyIndex > 0,
+      canGoForward: () => get().historyIndex < get().history.length - 1,
 
       goNextChapter: () => {
         const { currentChapterId, navEntries } = get()

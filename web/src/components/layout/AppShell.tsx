@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
-import { Command, List } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Command, List } from 'lucide-react'
 import { Sidebar } from '@/components/layout/Sidebar'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
+import { SectionJump } from '@/components/layout/SectionJump'
 import { UtilityBar } from '@/components/layout/UtilityBar'
 import { MobileNav } from '@/components/layout/MobileNav'
 import { MobileCatalog } from '@/components/layout/MobileCatalog'
@@ -15,7 +16,14 @@ export function AppShell() {
   const initCatalog = useAppStore((s) => s.initCatalog)
   const catalog = useAppStore((s) => s.catalog)
   const setCommandOpen = useAppStore((s) => s.setCommandOpen)
+  const goBack = useAppStore((s) => s.goBack)
+  const goForward = useAppStore((s) => s.goForward)
+  const historyIndex = useAppStore((s) => s.historyIndex)
+  const historyLen = useAppStore((s) => s.history.length)
   const [mobileCatalogOpen, setMobileCatalogOpen] = useState(false)
+
+  const canBack = historyIndex > 0
+  const canFwd = historyIndex < historyLen - 1
 
   useKeyboardShortcuts()
 
@@ -26,16 +34,39 @@ export function AppShell() {
   return (
     <div className="flex h-dvh flex-col overflow-hidden">
       <header className="z-20 shrink-0 border-b clinical-border bg-[var(--color-clinical-bg-light)]/90 backdrop-blur-md dark:bg-[var(--color-clinical-bg-dark)]/90">
-        <div className="flex items-center justify-between gap-3 px-4 py-3 md:px-6">
-          <div className="min-w-0">
-            <h1 className="truncate text-sm font-semibold md:text-base">
-              {catalog?.title ?? "Harrison's 22e — Clinical Q-Bank & Notes"}
-            </h1>
-            <div className="mt-0.5 hidden md:block">
-              <Breadcrumb />
+        <div className="flex items-center justify-between gap-2 px-3 py-2.5 md:px-6">
+          <div className="flex min-w-0 items-center gap-1.5">
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={goBack}
+              disabled={!canBack}
+              aria-label="Go back"
+              title="Back"
+            >
+              <ArrowLeft className="h-4 w-4" />
+            </Button>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={goForward}
+              disabled={!canFwd}
+              aria-label="Go forward"
+              title="Forward"
+            >
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+            <div className="min-w-0">
+              <h1 className="truncate text-sm font-semibold md:text-base">
+                {catalog?.title ?? "Harrison's 22e — Clinical Q-Bank & Notes"}
+              </h1>
+              <div className="mt-0.5 hidden md:block">
+                <Breadcrumb />
+              </div>
             </div>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
+            <SectionJump />
             <Button
               variant="outline"
               size="sm"
