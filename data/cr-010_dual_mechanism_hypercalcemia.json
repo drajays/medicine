@@ -1,0 +1,354 @@
+{
+  "id": "cr-010",
+  "reportType": "case_report",
+  "title": "Refractory PTH-Independent Hypercalcemia in Metastatic Breast Cancer",
+  "subtitle": "Dual-Mechanism (PTHrP + Calcitriol) Hypercalcemia with CKD and CLD — Why Denosumab Failed",
+  "section": "Case Reports",
+  "category": "Endocrinology & Oncology",
+  "authors": "Clinical case vignette — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "patient": {
+    "age": 73,
+    "sex": "Female",
+    "chiefComplaint": "Recurrent PTH-independent hypercalcemia, refractory despite denosumab",
+    "pmh": [
+      "Metastatic breast cancer (on letrozole)",
+      "Granulomatous disease — on anti-tubercular therapy (ATT) since March 2026",
+      "Chronic liver disease with portal hypertension",
+      "CKD with superimposed AKI (Cr 2.63 mg/dL, ~50 kg)",
+      "Thrombocytopenia (on romiplostim)"
+    ],
+    "medications": [
+      "Denosumab 60 mg (with 120 mg loading) since March 2026",
+      "Letrozole",
+      "Romiplostim 250 (thrombocytopenia)",
+      "Anti-tubercular therapy (ATT) since March 2026"
+    ]
+  },
+  "caseDescription": "A 73-year-old woman has PTH-independent hypercalcemia (peak serum calcium 16 mg/dL) that keeps rebounding to 11.5–13 mg/dL despite denosumab. Work-up shows a suppressed PTH (6.35 pg/mL) with an elevated PTHrP (25 pg/mL; ULN 20), a high 1,25(OH)2D (calcitriol, ~178–237 pmol/L; ULN ~190), a high 25(OH)D (85 ng/mL), and a high ACE (114.2). Serum protein electrophoresis is normal. PET shows metastatic breast cancer with granuloma, and a bone marrow biopsy reveals epithelioid granuloma. She also has CKD with AKI (Cr 2.63) and chronic liver disease with portal hypertension, and is on letrozole, romiplostim, and ATT (since March 2026).\n\nThe picture is dual-mechanism, PTH-independent hypercalcemia: PTHrP from the breast cancer drives osteoclastic bone resorption, while granulomatous macrophage 1α-hydroxylase (CYP27B1) drives calcitriol-mediated intestinal calcium absorption. Denosumab blocked only the bone leak, so calcium rebounded from the unopposed gut influx. With a palliative prognosis of 1–2 years, CKD precluding IV bisphosphonates, and CLD/portal hypertension precluding aggressive saline, the plan is glucocorticoids (to halt ectopic calcitriol) plus continued, interval-stretched denosumab (for the PTHrP/bone component) and substrate starvation (stop vitamin D/calcium, low-calcium diet). Cinacalcet has no role, as PTH is already suppressed.",
+  "keyFindings": [
+    "Peak serum Ca 16 mg/dL; rebounds to 11.5–13 mg/dL despite denosumab",
+    "PTH suppressed (6.35 pg/mL) → PTH-independent hypercalcemia",
+    "PTHrP elevated (25 pg/mL; ULN 20) — breast-cancer / bone driver",
+    "1,25(OH)2D high (~178–237 pmol/L; ULN ~190) with high 25(OH)D (85 ng/mL) and high ACE (114.2) — granulomatous / gut driver",
+    "SPEP normal (myeloma excluded); bone marrow epithelioid granuloma; PET: metastatic breast cancer with granuloma",
+    "AKI on CKD (Cr 2.63) and CLD with portal hypertension; palliative prognosis 1–2 years"
+  ],
+  "finalDiagnosis": "Dual-mechanism, PTH-independent hypercalcemia: humoral hypercalcemia of malignancy (PTHrP from metastatic breast cancer) PLUS granulomatous calcitriol-mediated hypercalcemia (sarcoid-like reaction), on a background of AKI-on-CKD and CLD with portal hypertension",
+  "learningObjectives": [
+    "Recognise dual-mechanism (bone + gut) PTH-independent hypercalcemia and why a single antiresorptive fails",
+    "Use glucocorticoids to target granulomatous 1α-hydroxylase while continuing denosumab for the PTHrP/bone component",
+    "Adapt management to CKD (avoid IV bisphosphonates) and CLD/portal hypertension (avoid aggressive saline); understand why cinacalcet has no role"
+  ],
+  "items": [
+    {
+      "id": "cr-010-n1",
+      "type": "note",
+      "subtopic": "Two-Compartment Model",
+      "title": "Why both PTHrP and calcitriol are high — a two-compartment model",
+      "content": "This is dual-mechanism hypercalcemia: calcium is pouring in from two separate compartments. BONE (driven by breast cancer): the elevated PTHrP (25 pg/mL) drives osteoclastic bone resorption via the RANK/RANKL pathway. GUT (driven by granuloma): the high 1,25(OH)2D and high ACE (114.2) reflect autonomous macrophage 1α-hydroxylase (CYP27B1) activity, producing calcitriol that bypasses normal feedback and massively increases intestinal calcium absorption. The granuloma is far more likely a malignancy-associated sarcoid-like reaction (or true sarcoidosis) than TB: she has been on ATT since March, yet the calcitriol and calcium have not normalised, and her very high 25(OH)D (85 ng/mL) provides an unlimited substrate pool for the autonomous macrophages to convert.",
+      "keyPoints": [
+        "Bone compartment: breast-cancer PTHrP → RANKL osteoclastic resorption.",
+        "Gut compartment: granulomatous 1α-hydroxylase → high calcitriol → intestinal Ca absorption.",
+        "Granuloma is likely sarcoid-like reaction, not TB (no response to ATT; high 25-OH-D fuels it)."
+      ]
+    },
+    {
+      "id": "cr-010-n2",
+      "type": "note",
+      "subtopic": "Management Plan",
+      "title": "How to control the calcium: a dual-target plan within tight constraints",
+      "content": "Because there are two engines, control needs two blockers plus substrate starvation. (1) Glucocorticoids — the missing anchor: prednisolone 20–40 mg/day downregulates macrophage CYP27B1, halting ectopic calcitriol synthesis; expect calcium and 1,25(OH)2D to fall within 3–5 days, then taper to the lowest effective maintenance dose (5–10 mg/day). (2) Denosumab — maintenance: continue to suppress the PTHrP/bone-metastasis component, but stretch the interval (e.g., 60 mg every 3–6 months) because severe CKD plus steroid-induced shutdown of gut absorption raises the risk of prolonged hypocalcemia. (3) Substrate starvation: stop all vitamin D and calcium supplements (25-OH-D 85 is too high) and advise a low-calcium diet. Constraints: avoid IV bisphosphonates (CKD) and aggressive saline (CLD with portal hypertension).",
+      "keyPoints": [
+        "Glucocorticoids halt granulomatous calcitriol (CYP27B1) — Ca falls in 3–5 days, then taper.",
+        "Continue denosumab for the PTHrP/bone component, interval stretched to avoid hypocalcemia.",
+        "Stop vitamin D/calcium, low-Ca diet; avoid IV bisphosphonates (CKD) and aggressive saline (portal HTN)."
+      ]
+    },
+    {
+      "id": "cr-010-n3",
+      "type": "note",
+      "subtopic": "Pharmacology",
+      "title": "Why cinacalcet has no role in this patient",
+      "content": "Cinacalcet is a calcimimetic whose only action is to bind the parathyroid calcium-sensing receptor and shut down PTH secretion. Here PTH is already suppressed (6.35 pg/mL) — the gland is a dormant bystander — so there is nothing for cinacalcet to suppress and zero calcium-lowering benefit. It does not touch either real driver: it does not reduce PTHrP secretion by the cancer, and it does not inhibit macrophage 1α-hydroxylase. It also adds harm: frequent nausea/vomiting (retching risks variceal bleeding and worsens nutrition in CLD with portal hypertension) and financial toxicity for no yield. The correct targets are RANKL (denosumab) and 1α-hydroxylase (glucocorticoids).",
+      "keyPoints": [
+        "PTH is already suppressed — a calcimimetic has nothing to act on.",
+        "Cinacalcet does not affect PTHrP or granulomatous calcitriol production.",
+        "It risks GI toxicity (variceal bleed in portal HTN) and cost for zero benefit."
+      ]
+    },
+    {
+      "id": "cr-010-sa1",
+      "type": "shortanswer",
+      "subtopic": "Pathophysiology",
+      "question": "What are the two distinct mechanisms driving hypercalcemia in this patient?",
+      "answer": "PTHrP-mediated osteoclastic bone resorption (humoral hypercalcemia of malignancy from the breast cancer), and calcitriol-mediated intestinal calcium absorption (granulomatous 1α-hydroxylase activity)."
+    },
+    {
+      "id": "cr-010-why1",
+      "type": "why",
+      "subtopic": "Pathophysiology",
+      "question": "Why is the PTH suppressed (6.35 pg/mL) despite the high calcium?",
+      "answer": "Both PTHrP and 1,25(OH)2D activate the calcium-sensing receptors on the parathyroid glands, which correctly switch off endogenous PTH synthesis. The appropriately low PTH confirms this is PTH-independent hypercalcemia."
+    },
+    {
+      "id": "cr-010-how1",
+      "type": "how",
+      "subtopic": "Pathophysiology",
+      "question": "How does the patient’s 25(OH)D level of 85 ng/mL contribute to the pathology?",
+      "answer": "In granulomatous disease, macrophage 1α-hydroxylase is not governed by negative feedback and follows first-order kinetics: the more substrate (25-OH-D) available, the more active 1,25(OH)2D it produces. A 25-OH-D of 85 provides an unlimited substrate pool — pouring fuel on the fire."
+    },
+    {
+      "id": "cr-010-why2",
+      "type": "why",
+      "subtopic": "Therapy",
+      "question": "Why did denosumab fail to maintain normocalcemia?",
+      "answer": "Denosumab is a pure antiresorptive: it blocks RANKL-mediated bone resorption but has no effect on the gut. With the granulomas still producing calcitriol, the intestine kept absorbing calcium — bone efflux was shut off, but gut influx remained wide open, so calcium rebounded."
+    },
+    {
+      "id": "cr-010-sa2",
+      "type": "shortanswer",
+      "subtopic": "Diagnostics",
+      "question": "What is the physiological significance of the elevated ACE level (114.2)?",
+      "answer": "It reflects a high total burden of activated macrophages (the epithelioid cells of granulomas), correlating with the capacity for ectopic 1,25(OH)2D synthesis."
+    },
+    {
+      "id": "cr-010-sa3",
+      "type": "shortanswer",
+      "subtopic": "Diagnostics",
+      "question": "What is a ‘sarcoid-like reaction’ to malignancy?",
+      "answer": "A localized or systemic granulomatous immune response to tumor antigens, histologically indistinguishable from sarcoidosis, often seen in regional lymph nodes or bone marrow in breast cancer."
+    },
+    {
+      "id": "cr-010-why3",
+      "type": "why",
+      "subtopic": "Diagnostics",
+      "question": "The patient has been on ATT since March. Why does this point away from TB as the cause of the granuloma?",
+      "answer": "If the granulomas were strictly infectious (TB), effective ATT should reduce the macrophage burden and thereby lower 1,25(OH)2D and calcium over about 3 months. The persistent hypercalcemia and high calcitriol despite treatment suggest a sterile, immune-mediated (sarcoid-like) process instead."
+    },
+    {
+      "id": "cr-010-sa4",
+      "type": "shortanswer",
+      "subtopic": "Diagnostics",
+      "question": "What role does the PET scan play in untangling this diagnosis?",
+      "answer": "It confirms both the lytic bone metastases (explaining the PTHrP) and the systemic granulomas, mapping the dual-source origin of the hypercalcemia."
+    },
+    {
+      "id": "cr-010-why4",
+      "type": "why",
+      "subtopic": "Diagnostics",
+      "question": "Why does a normal serum protein electrophoresis (SPEP) matter here?",
+      "answer": "A normal SPEP effectively rules out multiple myeloma — a primary differential for hypercalcemia with AKI and bone marrow lesions — keeping the focus on the malignancy-plus-granuloma mechanism."
+    },
+    {
+      "id": "cr-010-sa5",
+      "type": "shortanswer",
+      "subtopic": "Diagnostics",
+      "question": "What does the bone marrow biopsy showing ‘epithelioid granuloma’ confirm?",
+      "answer": "That the granulomatous disease is systemic and actively infiltrating the marrow space, serving as a large factory for ectopic calcitriol production."
+    },
+    {
+      "id": "cr-010-how2",
+      "type": "how",
+      "subtopic": "Renal Constraints",
+      "question": "How does an eGFR <30 mL/min (Cr 2.63) dictate hypercalcemia management?",
+      "answer": "It contraindicates intravenous bisphosphonates (e.g. zoledronic acid) because of the risk of acute tubular necrosis, leaving denosumab as the safer antiresorptive — albeit with heightened vigilance for hypocalcemia."
+    },
+    {
+      "id": "cr-010-how3",
+      "type": "how",
+      "subtopic": "Hepatic Constraints",
+      "question": "How does chronic liver disease with portal hypertension alter the acute management of hypercalcemia?",
+      "answer": "The usual first principle — aggressive normal-saline diuresis — is dangerous here: it can precipitate variceal bleeding or massive ascites through portal hemodynamics, so volume must be given cautiously rather than aggressively."
+    },
+    {
+      "id": "cr-010-how4",
+      "type": "how",
+      "subtopic": "Hepatic Constraints",
+      "question": "How might chronic liver disease affect the interpretation of the patient’s vitamin D levels?",
+      "answer": "The liver synthesises vitamin D-binding protein (VDBP). In cirrhosis VDBP falls, so the free, biologically active fraction of 1,25(OH)2D may be considerably higher than the total measured value suggests — the gut effect can be worse than the number implies."
+    },
+    {
+      "id": "cr-010-how5",
+      "type": "how",
+      "subtopic": "Comorbidity",
+      "question": "The patient is on romiplostim for thrombocytopenia. How does chronic liver disease factor into this?",
+      "answer": "Portal hypertension causes splenomegaly and splenic sequestration of platelets. Romiplostim stimulates marrow platelet production to outpace the peripheral sequestration/destruction."
+    },
+    {
+      "id": "cr-010-why5",
+      "type": "why",
+      "subtopic": "Renal/Hepatic Constraints",
+      "question": "Why is loop diuretic therapy (e.g. furosemide) a double-edged sword in this patient?",
+      "answer": "While it promotes calciuresis, it can worsen the AKI-on-CKD by depleting intravascular volume and can precipitate hepatic encephalopathy or hepatorenal syndrome in the setting of CLD — so it is not a safe default here."
+    },
+    {
+      "id": "cr-010-sa6",
+      "type": "shortanswer",
+      "subtopic": "Pharmacology",
+      "question": "What is the mechanistic rationale for initiating glucocorticoids in this patient?",
+      "answer": "Glucocorticoids downregulate transcription of the CYP27B1 gene (1α-hydroxylase) in macrophages, directly halting the ectopic synthesis of 1,25(OH)2D and thereby the gut-driven calcium absorption."
+    },
+    {
+      "id": "cr-010-sa7",
+      "type": "shortanswer",
+      "subtopic": "Pharmacology",
+      "question": "What is the expected timeline for calcium reduction after starting steroids?",
+      "answer": "Calcium levels typically begin to decline within 2–5 days, as existing 1,25(OH)2D is cleared and intestinal calcium absorption slows."
+    },
+    {
+      "id": "cr-010-sa8",
+      "type": "shortanswer",
+      "subtopic": "Strategy",
+      "question": "Is denosumab still necessary if steroids are started?",
+      "answer": "Yes. Steroids do not control the PTHrP-driven bone metastasis, so denosumab must be continued to maintain a block on osteoclastic bone resorption — steroids and denosumab cover the two different compartments."
+    },
+    {
+      "id": "cr-010-sa9",
+      "type": "shortanswer",
+      "subtopic": "Safety",
+      "question": "What is the primary risk of continuing denosumab in a patient with severe CKD?",
+      "answer": "Severe, refractory hypocalcemia. With poor renal adaptation, completely blocking bone calcium efflux can crash serum calcium — especially once steroids also shut down gut absorption — so the interval must be stretched and calcium monitored closely."
+    },
+    {
+      "id": "cr-010-sa10",
+      "type": "shortanswer",
+      "subtopic": "Palliative Monitoring",
+      "question": "From a palliative standpoint (1–2 year life expectancy), what is the optimal monitoring cadence?",
+      "answer": "Roughly monthly calcium and creatinine, with denosumab dosed on the upward drift of calcium rather than a rigid calendar schedule to prevent iatrogenic hypocalcemia. Ionized calcium should be checked more frequently in the first two weeks after starting prednisolone."
+    },
+    {
+      "id": "cr-010-m1",
+      "type": "mcq",
+      "subtopic": "Therapy",
+      "stem": "Calcium rebounded to 11.5–13 mg/dL despite denosumab. Why did denosumab fail to maintain normocalcemia?",
+      "options": [
+        "It blocks RANKL-mediated bone resorption but does not reduce calcitriol-driven intestinal calcium absorption",
+        "It was dosed too infrequently to block the parathyroid glands",
+        "It increases PTHrP secretion from the tumour",
+        "It stimulates renal calcium reabsorption"
+      ],
+      "correctOption": 0,
+      "explanation": "Denosumab is a pure antiresorptive acting only on bone (RANKL). The granulomatous calcitriol kept driving intestinal calcium absorption, so blocking bone efflux alone could not hold calcium down — the gut leak remained open."
+    },
+    {
+      "id": "cr-010-m2",
+      "type": "mcq",
+      "subtopic": "Therapy",
+      "stem": "Which agent is the definitive treatment for the calcitriol-mediated component of her hypercalcemia?",
+      "options": [
+        "Intravenous zoledronic acid",
+        "Cinacalcet",
+        "Glucocorticoids (e.g. prednisolone)",
+        "Loop diuretics"
+      ],
+      "correctOption": 2,
+      "explanation": "Glucocorticoids inhibit macrophage CYP27B1 (1α-hydroxylase), halting ectopic calcitriol production and the gut-driven absorption — the missing anchor here. IV bisphosphonates are contraindicated by her CKD, cinacalcet is useless with already-suppressed PTH, and loop diuretics are hazardous with her AKI and CLD."
+    },
+    {
+      "id": "cr-010-m3",
+      "type": "mcq",
+      "subtopic": "Renal Constraints",
+      "stem": "Given a creatinine of 2.63 mg/dL (eGFR <30), which calcium-lowering option is contraindicated?",
+      "options": [
+        "Glucocorticoids",
+        "Denosumab",
+        "Intravenous bisphosphonate (zoledronic acid)",
+        "Dietary calcium restriction"
+      ],
+      "correctOption": 2,
+      "explanation": "IV bisphosphonates are nephrotoxic and contraindicated at this level of renal function, which is precisely why denosumab (not renally cleared) is the antiresorptive of choice — with hypocalcemia caution. Steroids and dietary restriction remain safe."
+    },
+    {
+      "id": "cr-010-m4",
+      "type": "mcq",
+      "subtopic": "Pharmacology",
+      "stem": "What is the role of cinacalcet in this patient?",
+      "options": [
+        "It is first-line because it lowers PTHrP",
+        "It has no role: PTH is already suppressed, and cinacalcet does not affect PTHrP or granulomatous calcitriol",
+        "It is the safest option given her CKD",
+        "It directly inhibits 1α-hydroxylase"
+      ],
+      "correctOption": 1,
+      "explanation": "Cinacalcet only lowers calcium by suppressing PTH at the parathyroid CaSR, but her PTH is already suppressed (6.35) — the gland is a bystander. It does nothing to PTHrP or macrophage 1α-hydroxylase, and adds GI toxicity (variceal-bleed risk in portal HTN) and cost for no benefit."
+    },
+    {
+      "id": "cr-010-m5",
+      "type": "mcq",
+      "subtopic": "Hepatic Constraints",
+      "stem": "Why is aggressive normal-saline diuresis hazardous as initial therapy in this patient?",
+      "options": [
+        "It would raise PTHrP",
+        "Her CLD with portal hypertension means aggressive volume can precipitate variceal bleeding or massive ascites",
+        "Saline directly raises calcitriol",
+        "It would block denosumab absorption"
+      ],
+      "correctOption": 1,
+      "explanation": "The standard ‘aggressive saline’ first principle is unsafe here: portal hypertension makes volume loading liable to precipitate variceal bleeding or worsening ascites. Volume must be given cautiously, with the calcium kinetics targeted pharmacologically instead."
+    },
+    {
+      "id": "cr-010-m6",
+      "type": "mcq",
+      "subtopic": "Diagnostics",
+      "stem": "The combination of a high 1,25(OH)2D and a high ACE in this patient indicates which process?",
+      "options": [
+        "Primary hyperparathyroidism",
+        "Granulomatous (macrophage) ectopic calcitriol production",
+        "Excess dietary calcium alone",
+        "Vitamin D deficiency"
+      ],
+      "correctOption": 1,
+      "explanation": "Elevated calcitriol with a raised ACE points to a high burden of activated macrophages in granulomas autonomously producing 1,25(OH)2D via 1α-hydroxylase — the gut-driving mechanism. PTH is suppressed, excluding primary hyperparathyroidism."
+    },
+    {
+      "id": "cr-010-tf1",
+      "type": "true_false",
+      "subtopic": "Pharmacology",
+      "statement": "Glucocorticoids lower calcium here by inhibiting macrophage 1α-hydroxylase (CYP27B1).",
+      "correctAnswer": true,
+      "explanation": "True. Steroids downregulate CYP27B1 transcription in granulomatous macrophages, halting ectopic calcitriol synthesis and the gut-driven absorption — the definitive treatment for calcitriol-mediated hypercalcemia."
+    },
+    {
+      "id": "cr-010-tf2",
+      "type": "true_false",
+      "subtopic": "Therapy",
+      "statement": "Denosumab reduces intestinal calcium absorption.",
+      "correctAnswer": false,
+      "explanation": "False. Denosumab acts only on bone (RANKL); it has no effect on the gut. That is exactly why it failed to control the calcitriol-driven intestinal absorption in this patient."
+    },
+    {
+      "id": "cr-010-tf3",
+      "type": "true_false",
+      "subtopic": "Renal Constraints",
+      "statement": "Intravenous bisphosphonates are the safest antiresorptive choice given her creatinine of 2.63.",
+      "correctAnswer": false,
+      "explanation": "False. IV bisphosphonates are nephrotoxic and contraindicated at eGFR <30; denosumab is the safer antiresorptive here (with hypocalcemia caution)."
+    },
+    {
+      "id": "cr-010-tf4",
+      "type": "true_false",
+      "subtopic": "Pharmacology",
+      "statement": "Cinacalcet would be effective in this patient because it lowers PTHrP.",
+      "correctAnswer": false,
+      "explanation": "False. Cinacalcet only suppresses PTH (already low here) and has no effect on PTHrP or granulomatous calcitriol — it is a mechanistic mismatch for PTH-independent hypercalcemia."
+    },
+    {
+      "id": "cr-010-tf5",
+      "type": "true_false",
+      "subtopic": "Diagnostics",
+      "statement": "A normal serum protein electrophoresis helps exclude multiple myeloma as the cause of her hypercalcemia.",
+      "correctAnswer": true,
+      "explanation": "True. Myeloma is a key differential for hypercalcemia with AKI and marrow lesions; a normal SPEP makes it effectively unlikely, supporting the malignancy-plus-granuloma mechanism."
+    },
+    {
+      "id": "cr-010-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Reasoning",
+      "assertion": "Denosumab alone could not maintain normocalcemia in this patient.",
+      "reason": "Denosumab blocks RANKL-mediated bone resorption but has no effect on calcitriol-driven intestinal calcium absorption.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason correctly explains the assertion. Because a second, gut-based mechanism (granulomatous calcitriol) was left untreated, blocking only the bone compartment with denosumab inevitably allowed calcium to rebound — which is why glucocorticoids had to be added."
+    }
+  ]
+}
