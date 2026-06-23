@@ -3,18 +3,85 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Merriweather", Georgia, "Times New Roman", serif;
+  /* Scholarly editorial: parchment + ink, warm accents.
+     Display: Fraunces · UI/Body: Hanken Grotesk (mirrors the StudyHub look). */
+  --font-sans: "Hanken Grotesk", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
 
-  --color-clinical-bg-dark: #0f1115;
-  --color-clinical-card-dark: #1e2128;
-  --color-clinical-bg-light: #fdfdfc;
-  --color-clinical-card-light: #ffffff;
-  --color-clinical-border-dark: #27272a;
-  --color-clinical-border-light: #e4e4e7;
-  --color-clinical-muted-dark: #a1a1aa;
-  --color-clinical-muted-light: #71717a;
-  --color-clinical-accent: #3b82f6;
+  /* Surface tokens — warm parchment (light) and toasted-cocoa (dark) */
+  --color-clinical-bg-dark: #14130f;
+  --color-clinical-card-dark: #1e1b15;
+  --color-clinical-bg-light: #f3ece0;
+  --color-clinical-card-light: #fdfbf6;
+  --color-clinical-border-dark: #36301f;
+  --color-clinical-border-light: #e3d8c4;
+  --color-clinical-muted-dark: #b9af9b;
+  --color-clinical-muted-light: #6e6556;
+  --color-clinical-accent: #b46b1f;
+  --color-clinical-accent-soft: rgba(180, 107, 31, 0.12);
+
+  /* Remap the cool neutral ramps used throughout the components onto one warm
+     parchment ramp, so the whole UI warms without touching every className.
+     slate / zinc / gray / neutral / stone all resolve here. */
+  --color-slate-50: #fbf8f1;
+  --color-slate-100: #f5edde;
+  --color-slate-200: #e6dac2;
+  --color-slate-300: #d6c6a8;
+  --color-slate-400: #bcab89;
+  --color-slate-500: #9a8c72;
+  --color-slate-600: #7c6f59;
+  --color-slate-700: #5f5544;
+  --color-slate-800: #3c3529;
+  --color-slate-900: #29241c;
+  --color-slate-950: #1a1610;
+
+  --color-zinc-50: #fbf8f1;
+  --color-zinc-100: #f5edde;
+  --color-zinc-200: #e6dac2;
+  --color-zinc-300: #d6c6a8;
+  --color-zinc-400: #bcab89;
+  --color-zinc-500: #9a8c72;
+  --color-zinc-600: #7c6f59;
+  --color-zinc-700: #5f5544;
+  --color-zinc-800: #3c3529;
+  --color-zinc-900: #29241c;
+  --color-zinc-950: #1a1610;
+
+  --color-gray-50: #fbf8f1;
+  --color-gray-100: #f5edde;
+  --color-gray-200: #e6dac2;
+  --color-gray-300: #d6c6a8;
+  --color-gray-400: #bcab89;
+  --color-gray-500: #9a8c72;
+  --color-gray-600: #7c6f59;
+  --color-gray-700: #5f5544;
+  --color-gray-800: #3c3529;
+  --color-gray-900: #29241c;
+  --color-gray-950: #1a1610;
+
+  --color-neutral-50: #fbf8f1;
+  --color-neutral-100: #f5edde;
+  --color-neutral-200: #e6dac2;
+  --color-neutral-300: #d6c6a8;
+  --color-neutral-400: #bcab89;
+  --color-neutral-500: #9a8c72;
+  --color-neutral-600: #7c6f59;
+  --color-neutral-700: #5f5544;
+  --color-neutral-800: #3c3529;
+  --color-neutral-900: #29241c;
+  --color-neutral-950: #1a1610;
+
+  --color-stone-50: #fbf8f1;
+  --color-stone-100: #f5edde;
+  --color-stone-200: #e6dac2;
+  --color-stone-300: #d6c6a8;
+  --color-stone-400: #bcab89;
+  --color-stone-500: #9a8c72;
+  --color-stone-600: #7c6f59;
+  --color-stone-700: #5f5544;
+  --color-stone-800: #3c3529;
+  --color-stone-900: #29241c;
+  --color-stone-950: #1a1610;
 }
 
 @layer base {
@@ -34,6 +101,25 @@
     @apply m-0 min-h-dvh font-sans antialiased;
     @apply bg-[var(--color-clinical-bg-light)] text-slate-900;
     @apply dark:bg-[var(--color-clinical-bg-dark)] dark:text-zinc-100;
+    line-height: 1.6;
+    background-image:
+      radial-gradient(120% 90% at 100% 0%, var(--color-clinical-accent-soft) 0%, transparent 42%),
+      radial-gradient(90% 70% at 0% 100%, rgba(180, 107, 31, 0.07) 0%, transparent 45%);
+    background-attachment: fixed;
+  }
+
+  .dark body {
+    background-image:
+      radial-gradient(120% 90% at 100% 0%, rgba(224, 160, 90, 0.08) 0%, transparent 42%),
+      radial-gradient(90% 70% at 0% 100%, rgba(224, 160, 90, 0.05) 0%, transparent 45%);
+  }
+
+  /* Editorial display face for headings, mirroring StudyHub's Fraunces titling. */
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.015em;
   }
 
   #root {
@@ -41,7 +127,8 @@
   }
 
   ::selection {
-    @apply bg-blue-500/25;
+    background: var(--color-clinical-accent);
+    color: #fff;
   }
 }
 
