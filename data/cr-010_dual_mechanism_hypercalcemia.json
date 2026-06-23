@@ -349,6 +349,125 @@
       "reason": "Denosumab blocks RANKL-mediated bone resorption but has no effect on calcitriol-driven intestinal calcium absorption.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason correctly explains the assertion. Because a second, gut-based mechanism (granulomatous calcitriol) was left untreated, blocking only the bone compartment with denosumab inevitably allowed calcium to rebound — which is why glucocorticoids had to be added."
+    },
+    {
+      "id": "cr-010-m7",
+      "type": "mcq",
+      "subtopic": "Pathophysiology",
+      "stem": "Why is the PTH appropriately suppressed (6.35 pg/mL) despite a calcium of 16 mg/dL?",
+      "options": [
+        "The parathyroid glands are infiltrated by tumour",
+        "Both PTHrP and 1,25(OH)2D activate the parathyroid calcium-sensing receptors, switching off endogenous PTH",
+        "Denosumab directly suppresses PTH",
+        "Chronic kidney disease destroys the parathyroid glands"
+      ],
+      "correctOption": 1,
+      "explanation": "PTHrP and calcitriol both raise calcium and activate the parathyroid CaSR, so the glands correctly shut down PTH output. The appropriately low PTH is the hallmark of PTH-independent hypercalcemia, not gland destruction or a drug effect."
+    },
+    {
+      "id": "cr-010-m8",
+      "type": "mcq",
+      "subtopic": "Diagnostics",
+      "stem": "She has been on ATT since March, yet calcitriol and calcium remain high. What does this most suggest about the granuloma?",
+      "options": [
+        "It is active tuberculosis that needs second-line drugs",
+        "It is most likely a sterile, sarcoid-like (immune-mediated) reaction rather than TB",
+        "The ATT dose is too low",
+        "The granuloma is irrelevant to the hypercalcemia"
+      ],
+      "correctOption": 1,
+      "explanation": "If the granulomas were infectious TB, effective ATT should cut the macrophage burden and lower calcitriol and calcium over ~3 months. Persistent calcitriol-driven hypercalcemia despite ATT points to a sterile, sarcoid-like reaction — and the granuloma is central, not irrelevant, to the gut mechanism."
+    },
+    {
+      "id": "cr-010-m9",
+      "type": "mcq",
+      "subtopic": "Pathophysiology",
+      "stem": "How does her high 25(OH)D (85 ng/mL) aggravate the hypercalcemia?",
+      "options": [
+        "It directly stimulates osteoclasts",
+        "It provides abundant substrate for unregulated macrophage 1α-hydroxylase to convert into active 1,25(OH)2D",
+        "It raises PTH secretion",
+        "It blocks renal calcium excretion"
+      ],
+      "correctOption": 1,
+      "explanation": "Granulomatous 1α-hydroxylase is not subject to negative feedback and follows first-order kinetics, so the more 25(OH)D substrate available, the more active calcitriol it makes. A high 25(OH)D therefore pours fuel on the fire — which is why stopping vitamin D is part of management."
+    },
+    {
+      "id": "cr-010-m10",
+      "type": "mcq",
+      "subtopic": "Pharmacology",
+      "stem": "After starting prednisolone for the calcitriol-mediated component, when should calcium begin to fall?",
+      "options": ["Within minutes", "Within 2–5 days", "Only after 4–6 weeks", "It will not change calcium"],
+      "correctOption": 1,
+      "explanation": "Glucocorticoids halt new calcitriol synthesis; as existing 1,25(OH)2D is cleared and gut absorption slows, calcium typically begins to decline within about 2–5 days."
+    },
+    {
+      "id": "cr-010-m11",
+      "type": "mcq",
+      "subtopic": "Strategy",
+      "stem": "Once glucocorticoids are started, why must denosumab be continued rather than stopped?",
+      "options": [
+        "Steroids worsen bone metastases",
+        "Steroids do not control the PTHrP-driven osteoclastic bone resorption, which denosumab covers",
+        "Denosumab is needed to inhibit 1α-hydroxylase",
+        "Stopping denosumab would raise PTH dangerously"
+      ],
+      "correctOption": 1,
+      "explanation": "Steroids address only the gut/calcitriol mechanism. The PTHrP-driven bone-resorption compartment still needs an antiresorptive, so denosumab continues — the two drugs cover the two separate engines."
+    },
+    {
+      "id": "cr-010-m12",
+      "type": "mcq",
+      "subtopic": "Safety",
+      "stem": "What is the chief danger of continuing denosumab in this patient with severe CKD, especially once steroids take effect?",
+      "options": [
+        "Acute tubular necrosis",
+        "Severe, prolonged hypocalcemia",
+        "Rebound hypercalcemia",
+        "Hyperphosphatemia from PTH surge"
+      ],
+      "correctOption": 1,
+      "explanation": "With poor renal calcium adaptation, fully blocking bone efflux while steroids also shut down gut absorption can crash serum calcium, causing severe, refractory hypocalcemia. This is why the denosumab interval is stretched and calcium monitored closely."
+    },
+    {
+      "id": "cr-010-tf6",
+      "type": "true_false",
+      "subtopic": "Pathophysiology",
+      "statement": "In granulomatous hypercalcemia, macrophage 1α-hydroxylase activity is controlled by normal negative feedback.",
+      "correctAnswer": false,
+      "explanation": "False. Ectopic macrophage 1α-hydroxylase is autonomous and not subject to the usual feedback, so it keeps producing calcitriol in proportion to available substrate — driving the gut absorption."
+    },
+    {
+      "id": "cr-010-tf7",
+      "type": "true_false",
+      "subtopic": "Pharmacology",
+      "statement": "Glucocorticoids continue denosumab’s job by also blocking RANKL-mediated bone resorption.",
+      "correctAnswer": false,
+      "explanation": "False. Glucocorticoids act on the gut/calcitriol mechanism (inhibiting 1α-hydroxylase); they do not block RANKL, which is why denosumab must continue for the bone component."
+    },
+    {
+      "id": "cr-010-tf8",
+      "type": "true_false",
+      "subtopic": "Hepatic Constraints",
+      "statement": "In cirrhosis, a fall in vitamin D-binding protein can make the free, active 1,25(OH)2D higher than the total measured level suggests.",
+      "correctAnswer": true,
+      "explanation": "True. With less binding protein, a larger fraction of measured calcitriol is free and biologically active, so the gut-driving effect can exceed what the total number implies."
+    },
+    {
+      "id": "cr-010-tf9",
+      "type": "true_false",
+      "subtopic": "Management",
+      "statement": "Stopping vitamin D and calcium supplements is appropriate given her 25(OH)D of 85 ng/mL.",
+      "correctAnswer": true,
+      "explanation": "True. Her 25(OH)D is already high and is the substrate the granulomas convert to active calcitriol; substrate starvation (stopping vitamin D/calcium, low-calcium diet) is part of controlling the hypercalcemia."
+    },
+    {
+      "id": "cr-010-tf10",
+      "type": "true_false",
+      "subtopic": "Palliative Monitoring",
+      "statement": "Given the palliative course, denosumab is best dosed on the upward drift of calcium rather than a rigid calendar schedule.",
+      "correctAnswer": true,
+      "explanation": "True. Dosing to the calcium trend (with roughly monthly calcium and creatinine, and closer ionized-calcium checks early after steroids) helps avoid iatrogenic hypocalcemia from over-frequent denosumab in severe CKD."
     }
   ]
 }
