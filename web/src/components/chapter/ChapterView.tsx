@@ -97,14 +97,27 @@ export function ChapterView() {
   const chapterLoading = useAppStore((s) => s.chapterLoading)
   const chapter = useAppStore((s) => s.getCurrentChapter())
   const currentChapterId = useAppStore((s) => s.currentChapterId)
+  const catalogLoading = useAppStore((s) => s.catalogLoading)
   const navEntries = useAppStore((s) => s.navEntries)
   const activeTab = useAppStore((s) => s.activeTab)
   const setActiveTab = useAppStore((s) => s.setActiveTab)
   const scrollToItemId = useAppStore((s) => s.scrollToItemId)
   const setScrollToItemId = useAppStore((s) => s.setScrollToItemId)
+  const loadChapter = useAppStore((s) => s.loadChapter)
+  const clearSelection = useAppStore((s) => s.clearSelection)
 
   const navEntry = navEntries.find((e) => e.id === currentChapterId)
   const kind = navEntry?.kind ?? 'harrison'
+
+  // A chapter can be selected (e.g. restored from a deep link) before its JSON
+  // is fetched. Pull it in here; if the id is unknown or the fetch fails, fall
+  // back to the landing page instead of hanging on a skeleton forever.
+  useEffect(() => {
+    if (catalogLoading || !currentChapterId || chapter || chapterLoading) return
+    loadChapter(currentChapterId).then((data) => {
+      if (!data) clearSelection()
+    })
+  }, [catalogLoading, currentChapterId, chapter, chapterLoading, loadChapter, clearSelection])
 
   useEffect(() => {
     if (!scrollToItemId) return

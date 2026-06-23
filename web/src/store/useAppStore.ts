@@ -253,14 +253,24 @@ export const useAppStore = create<AppState>()(
     }),
     {
       name: 'h22-ui-store',
+      // Note: currentChapterId / activeTab are intentionally NOT persisted so
+      // the app always opens on the landing page (all sections), never a stale
+      // or half-loaded chapter.
       partialize: (state) => ({
         theme: state.theme,
         sidebarCollapsed: state.sidebarCollapsed,
         revealed: state.revealed,
         bookmarks: state.bookmarks,
         mcqSelections: state.mcqSelections,
-        currentChapterId: state.currentChapterId,
-        activeTab: state.activeTab,
+      }),
+      // Drop any previously persisted selection so reloads land on the home
+      // page even for users whose old localStorage still holds currentChapterId.
+      merge: (persisted, current) => ({
+        ...current,
+        ...(persisted as Partial<AppState>),
+        currentChapterId: null,
+        activeTab: current.activeTab,
+        scrollToItemId: null,
       }),
       onRehydrateStorage: () => (state) => {
         if (state) applyTheme(state.theme)
