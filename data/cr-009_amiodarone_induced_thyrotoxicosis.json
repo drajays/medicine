@@ -248,6 +248,125 @@
       "reason": "Type 2 AIT is a destructive release of pre-formed hormone with no ongoing synthesis for methimazole to block.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason correctly explains the assertion. Because the thyrotoxicosis in Type 2 AIT comes from follicular destruction rather than synthesis, a synthesis blocker cannot control it — which is exactly why glucocorticoids, not methimazole, are the mainstay."
+    },
+    {
+      "id": "cr-009-m4",
+      "type": "mcq",
+      "subtopic": "Hormone Kinetics",
+      "stem": "Why is the patient’s Free T4 still high after a month on maximum-dose methimazole?",
+      "options": [
+        "The gland’s large pre-formed colloid reservoir takes about 4–8 weeks to deplete and clear",
+        "Methimazole paradoxically increases T4 synthesis",
+        "The 60 mg dose is too low to have any effect",
+        "It must be a laboratory error"
+      ],
+      "correctOption": 0,
+      "explanation": "Methimazole only halts new synthesis; it does nothing to the large reservoir of pre-formed hormone stored in the colloid, which typically takes 4–8 weeks to deplete and clear. So a persistently high Free T4 at one month is expected, not a sign of treatment failure or lab error."
+    },
+    {
+      "id": "cr-009-m5",
+      "type": "mcq",
+      "subtopic": "Methimazole",
+      "stem": "Why is increasing methimazole above 60 mg/day not helpful in this patient?",
+      "options": [
+        "Thyroid peroxidase is already maximally inhibited, so only the toxicity risk rises",
+        "Higher doses block hormone release from the colloid",
+        "Higher doses accelerate clearance of stored hormone",
+        "Higher doses improve peripheral T4-to-T3 conversion"
+      ],
+      "correctOption": 0,
+      "explanation": "At 60 mg/day, thyroid peroxidase (TPO) is already maximally inhibited, so pushing the dose higher cannot suppress synthesis any further — it only multiplies the dose-dependent risks of agranulocytosis and hepatotoxicity. Methimazole does not act on hormone release, stored-hormone clearance, or peripheral conversion."
+    },
+    {
+      "id": "cr-009-m6",
+      "type": "mcq",
+      "subtopic": "Methimazole",
+      "stem": "Which two toxicities are the main dose-dependent dangers of high-dose methimazole?",
+      "options": [
+        "Agranulocytosis and cholestatic hepatotoxicity",
+        "Nephrotoxicity and ototoxicity",
+        "Pulmonary fibrosis and peripheral neuropathy",
+        "QT prolongation and rhabdomyolysis"
+      ],
+      "correctOption": 0,
+      "explanation": "The two life-threatening, dose-dependent toxicities of methimazole are agranulocytosis and cholestatic hepatotoxicity — the reason ANC and transaminases are monitored and the dose is minimised once it offers no extra synthetic blockade."
+    },
+    {
+      "id": "cr-009-m7",
+      "type": "mcq",
+      "subtopic": "Adjuncts",
+      "stem": "By what mechanism does cholestyramine lower circulating thyroid hormone?",
+      "options": [
+        "It binds T4 and T3 in the gut, interrupting enterohepatic recirculation and increasing faecal excretion",
+        "It blocks thyroid peroxidase",
+        "It inhibits 5'-deiodinase",
+        "It suppresses pituitary TSH release"
+      ],
+      "correctOption": 0,
+      "explanation": "Up to 15–20% of circulating T4/T3 undergo enterohepatic recirculation; cholestyramine binds them in the gut lumen and forces faecal excretion, acting as an intraluminal sink that accelerates clearance of the high Free T4 pool. It does not affect TPO, deiodinase, or TSH."
+    },
+    {
+      "id": "cr-009-m8",
+      "type": "mcq",
+      "subtopic": "Diagnostics",
+      "stem": "A thyroid color-flow Doppler showing a hypervascular ‘inferno’ pattern most strongly suggests which diagnosis?",
+      "options": [
+        "Type 1 AIT (iodine-driven active synthesis)",
+        "Type 2 AIT (destructive thyroiditis)",
+        "A normal gland",
+        "Central (pituitary) hyperthyroidism"
+      ],
+      "correctOption": 0,
+      "explanation": "High vascularity (the ‘inferno’ pattern) reflects an actively synthesising, hyperaemic gland and points to Type 1 AIT. Type 2 (destructive) AIT shows low or absent vascularity, as in this patient."
+    },
+    {
+      "id": "cr-009-m9",
+      "type": "mcq",
+      "subtopic": "Beta-Blockade",
+      "stem": "Which beta-blocker best provides convenient once-daily, cardioselective long-term rate control in this 75-year-old?",
+      "options": ["Bisoprolol", "Propranolol", "Esmolol", "Atenolol"],
+      "correctOption": 0,
+      "explanation": "Bisoprolol is a highly cardioselective β1 antagonist giving stable 24-hour control with once-daily dosing and a low risk of bronchospasm or CNS effects — ideal for an elderly patient. Propranolol is non-selective, lipophilic, and short-acting; esmolol is IV-only; atenolol is renally cleared and often twice-daily."
+    },
+    {
+      "id": "cr-009-tf3",
+      "type": "true_false",
+      "subtopic": "Beta-Blockade",
+      "statement": "Bisoprolol is a cardioselective β1 blocker suitable for convenient once-daily long-term rate control.",
+      "correctAnswer": true,
+      "explanation": "True. Bisoprolol’s cardioselectivity and long duration make it well suited to stable, once-daily maintenance rate control, with a lower risk of bronchospasm and metabolic effects than non-selective agents."
+    },
+    {
+      "id": "cr-009-tf4",
+      "type": "true_false",
+      "subtopic": "Beta-Blockade",
+      "statement": "High-dose propranolol (≥160 mg/day) inhibits 5'-deiodinase and reduces peripheral conversion of T4 to T3.",
+      "correctAnswer": true,
+      "explanation": "True. At higher doses propranolol uniquely inhibits 5'-deiodinase, blunting T4-to-T3 conversion — a benefit in acute Graves’ thyrotoxicosis, though redundant here where T3 is already normal."
+    },
+    {
+      "id": "cr-009-tf5",
+      "type": "true_false",
+      "subtopic": "Diagnostics",
+      "statement": "A hypervascular ‘inferno’ pattern on color-flow Doppler indicates Type 2 destructive AIT.",
+      "correctAnswer": false,
+      "explanation": "False. The hypervascular ‘inferno’ pattern indicates Type 1 AIT (active synthesis). Type 2 destructive thyroiditis shows low or absent vascularity."
+    },
+    {
+      "id": "cr-009-tf6",
+      "type": "true_false",
+      "subtopic": "Adjuncts",
+      "statement": "Cholestyramine can be taken at the same time as methimazole and bisoprolol without affecting their absorption.",
+      "correctAnswer": false,
+      "explanation": "False. Cholestyramine is a binding resin that will bind co-administered drugs in the gut; it must be staggered (at least 1 hour after or 4 hours before methimazole and bisoprolol) to avoid nullifying their absorption."
+    },
+    {
+      "id": "cr-009-tf7",
+      "type": "true_false",
+      "subtopic": "Management",
+      "statement": "Glucocorticoids used for Type 2 AIT also further inhibit peripheral conversion of T4 to T3.",
+      "correctAnswer": true,
+      "explanation": "True. Beyond stabilising follicular membranes and halting the destructive inflammation, glucocorticoids give a secondary benefit by further inhibiting peripheral T4-to-T3 conversion."
     }
   ]
 }
