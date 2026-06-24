@@ -12,6 +12,13 @@ import type {
 } from '@/lib/types'
 import { applyTheme, buildProgress, itemSearchText } from '@/store/helpers'
 
+export interface FeedbackCtx {
+  chapterId: string
+  chapterTitle: string
+  label: string
+  type: string
+}
+
 interface AppState {
   theme: 'light' | 'dark'
   sidebarCollapsed: boolean
@@ -30,6 +37,8 @@ interface AppState {
   bookmarks: Record<string, boolean>
   mcqSelections: Record<string, number | null>
   ratings: Record<string, number>
+  flags: Record<string, string>
+  feedbackCtx: Record<string, FeedbackCtx>
   history: (string | null)[]
   historyIndex: number
 
@@ -50,7 +59,9 @@ interface AppState {
   setScrollToItemId: (id: string | null) => void
   toggleReveal: (itemId: string) => void
   selectMcqOption: (itemId: string, option: number) => void
-  rateItem: (itemId: string, n: number) => void
+  rateItem: (itemId: string, n: number, ctx?: FeedbackCtx) => void
+  flagItem: (itemId: string, comment: string | null, ctx?: FeedbackCtx) => void
+  clearFeedback: () => void
   toggleBookmark: (itemId?: string) => void
   toggleTheme: () => void
   toggleSidebar: () => void
@@ -81,6 +92,8 @@ export const useAppStore = create<AppState>()(
       bookmarks: {},
       mcqSelections: {},
       ratings: {},
+      flags: {},
+      feedbackCtx: {},
       history: [null],
       historyIndex: 0,
 
@@ -244,12 +257,33 @@ export const useAppStore = create<AppState>()(
         })
       },
 
-      rateItem: (itemId, n) => {
+      rateItem: (itemId, n, ctx) => {
         const ratings = { ...get().ratings }
-        if (n > 0) ratings[itemId] = n
-        else delete ratings[itemId]
-        set({ ratings })
+        const feedbackCtx = { ...get().feedbackCtx }
+        if (n > 0) {
+          ratings[itemId] = n
+          if (ctx) feedbackCtx[itemId] = ctx
+        } else {
+          delete ratings[itemId]
+          if (!get().flags[itemId]) delete feedbackCtx[itemId]
+        }
+        set({ ratings, feedbackCtx })
       },
+
+      flagItem: (itemId, comment, ctx) => {
+        const flags = { ...get().flags }
+        const feedbackCtx = { ...get().feedbackCtx }
+        if (comment === null) {
+          delete flags[itemId]
+          if (!get().ratings[itemId]) delete feedbackCtx[itemId]
+        } else {
+          flags[itemId] = comment
+          if (ctx) feedbackCtx[itemId] = ctx
+        }
+        set({ flags, feedbackCtx })
+      },
+
+      clearFeedback: () => set({ ratings: {}, flags: {}, feedbackCtx: {} }),
 
       toggleBookmark: (itemId) => {
         if (!itemId) return
@@ -331,6 +365,8 @@ export const useAppStore = create<AppState>()(
         bookmarks: state.bookmarks,
         mcqSelections: state.mcqSelections,
         ratings: state.ratings,
+        flags: state.flags,
+        feedbackCtx: state.feedbackCtx,
       }),
       // Drop any previously persisted selection so reloads land on the home
       // page even for users whose old localStorage still holds currentChapterId.

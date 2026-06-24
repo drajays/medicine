@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { ArrowLeft, ArrowRight, Command, List } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Command, List, MessageSquare } from 'lucide-react'
 import { Sidebar } from '@/components/layout/Sidebar'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import { SectionJump } from '@/components/layout/SectionJump'
+import { FeedbackPanel } from '@/components/layout/FeedbackPanel'
 import { UtilityBar } from '@/components/layout/UtilityBar'
 import { MobileNav } from '@/components/layout/MobileNav'
 import { MobileCatalog } from '@/components/layout/MobileCatalog'
@@ -20,7 +21,11 @@ export function AppShell() {
   const goForward = useAppStore((s) => s.goForward)
   const historyIndex = useAppStore((s) => s.historyIndex)
   const historyLen = useAppStore((s) => s.history.length)
+  const feedbackCount = useAppStore(
+    (s) => new Set([...Object.keys(s.ratings), ...Object.keys(s.flags)]).size,
+  )
   const [mobileCatalogOpen, setMobileCatalogOpen] = useState(false)
+  const [feedbackOpen, setFeedbackOpen] = useState(false)
 
   const canBack = historyIndex > 0
   const canFwd = historyIndex < historyLen - 1
@@ -66,6 +71,20 @@ export function AppShell() {
             </div>
           </div>
           <div className="flex shrink-0 items-center gap-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setFeedbackOpen(true)}
+              title="My ratings & flags"
+              aria-label="My ratings and flags"
+            >
+              <MessageSquare className="h-3.5 w-3.5" />
+              {feedbackCount > 0 && (
+                <span className="rounded-full bg-amber-500/20 px-1.5 text-[10px] font-bold text-amber-700 dark:text-amber-300">
+                  {feedbackCount}
+                </span>
+              )}
+            </Button>
             <SectionJump />
             <Button
               variant="outline"
@@ -103,6 +122,7 @@ export function AppShell() {
       <UtilityBar />
       <MobileNav onBrowse={() => setMobileCatalogOpen(true)} />
       <MobileCatalog open={mobileCatalogOpen} onClose={() => setMobileCatalogOpen(false)} />
+      <FeedbackPanel open={feedbackOpen} onClose={() => setFeedbackOpen(false)} />
       <CommandPalette />
     </div>
   )
