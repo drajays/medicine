@@ -74,6 +74,33 @@ export function buildNavRows(catalog: RawCatalog): NavRow[] {
     }
   }
 
+  const pedEndo = (catalog.pediatricEndo?.chapters ?? []).filter(readyFile)
+  if (pedEndo.length) {
+    pushHeader(
+      rows,
+      'hdr-pediatric-endo',
+      catalog.pediatricEndo?.title ?? 'Pediatric Endocrinology',
+      'pediatric_endo',
+      {
+        subtitle: catalog.pediatricEndo?.description,
+        count: pedEndo.length,
+      },
+    )
+    for (const chapter of pedEndo) {
+      rows.push({
+        type: 'entry',
+        entry: {
+          id: chapter.id,
+          title: chapter.title,
+          subtitle: chapter.subtitle ?? `Ch. ${chapter.no ?? '—'}`,
+          sectionTitle: catalog.pediatricEndo?.title ?? 'Pediatric Endocrinology',
+          file: chapter.file as string,
+          kind: 'harrison',
+        },
+      })
+    }
+  }
+
   const stories = (catalog.stories?.entries ?? []).filter(readyFile)
   if (stories.length) {
     pushHeader(rows, 'hdr-stories', catalog.stories?.title ?? 'Stories', 'stories', {

@@ -19,6 +19,7 @@ const BASE = import.meta.env.BASE_URL
 const ICON: Partial<Record<HeaderKind, string>> = {
   hot_topics: '🔥',
   case_reports: '📋',
+  pediatric_endo: '🧒',
   stories: '💬',
   calculators: '🧮',
   trials: '📊',

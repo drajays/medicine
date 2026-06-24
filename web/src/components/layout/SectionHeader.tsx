@@ -17,6 +17,12 @@ const HEADER_THEME: Record<
     title: 'text-teal-950 dark:text-teal-50',
     meta: 'text-teal-800/80 dark:text-teal-200/70',
   },
+  pediatric_endo: {
+    icon: '🧒',
+    wrap: 'bg-gradient-to-r from-green-100/90 to-emerald-50 border-l-[3px] border-l-green-600 dark:from-green-950/50 dark:to-emerald-950/25 dark:border-l-green-400',
+    title: 'text-green-950 dark:text-green-50',
+    meta: 'text-green-800/80 dark:text-green-200/70',
+  },
   stories: {
     icon: '💬',
     wrap: 'bg-gradient-to-r from-rose-100/90 to-pink-50 border-l-[3px] border-l-rose-500 dark:from-rose-950/50 dark:to-pink-950/25 dark:border-l-rose-400',

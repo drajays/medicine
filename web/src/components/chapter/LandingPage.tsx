@@ -23,6 +23,12 @@ const META: Record<
     chip: 'bg-teal-100 text-teal-800 dark:bg-teal-950/50 dark:text-teal-200',
     bar: 'border-l-teal-600',
   },
+  pediatric_endo: {
+    icon: '🧒',
+    active: 'bg-green-600 text-white shadow-sm',
+    chip: 'bg-green-100 text-green-800 dark:bg-green-950/50 dark:text-green-200',
+    bar: 'border-l-green-600',
+  },
   stories: {
     icon: '💬',
     active: 'bg-rose-600 text-white shadow-sm',

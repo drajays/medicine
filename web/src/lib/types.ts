@@ -124,6 +124,7 @@ export interface NavEntry {
 export type HeaderKind =
   | 'hot_topics'
   | 'case_reports'
+  | 'pediatric_endo'
   | 'stories'
   | 'calculators'
   | 'trials'
@@ -175,6 +176,18 @@ export interface RawCatalog {
       title: string
       subtitle?: string
       category?: string
+      file: string | null
+      status: string
+    }>
+  }
+  pediatricEndo?: {
+    title?: string
+    description?: string
+    chapters: Array<{
+      id: string
+      no?: string
+      title: string
+      subtitle?: string
       file: string | null
       status: string
     }>

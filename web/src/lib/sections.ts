@@ -23,6 +23,7 @@ export interface LandingSection {
 const TOP_LEVEL: HeaderKind[] = [
   'hot_topics',
   'case_reports',
+  'pediatric_endo',
   'stories',
   'calculators',
   'trials',
