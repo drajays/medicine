@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { X, Eye, Keyboard } from 'lucide-react'
+import { X, Eye, Keyboard, Undo2 } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { useRevisionStore } from '@/stores/revisionStore'
 import { RPSInspector } from '@/components/RPSInspector'
@@ -119,6 +119,8 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
   const getCurrentSessionItem = useRevisionStore((s) => s.getCurrentSessionItem)
   const getItemBreakdown = useRevisionStore((s) => s.getItemBreakdown)
   const recordReview = useRevisionStore((s) => s.recordReview)
+  const undoLastReview = useRevisionStore((s) => s.undoLastReview)
+  const canUndo = useRevisionStore((s) => s.undoStack.length > 0)
   const endSession = useRevisionStore((s) => s.endSession)
   const showTimeAfterReveal = useRevisionStore((s) => s.showTimeAfterReveal)
   const setShowTimeAfterReveal = useRevisionStore((s) => s.setShowTimeAfterReveal)
@@ -181,6 +183,14 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
     [revisionItem, revealed, timeToRevealMs, recordReview, markRevised],
   )
 
+  const handleUndo = useCallback(() => {
+    if (undoLastReview()) {
+      setRevealed(false)
+      setTimeToRevealMs(null)
+      setItemShownAt(Date.now())
+    }
+  }, [undoLastReview])
+
   useEffect(() => {
     if (!open) return
 
@@ -188,6 +198,11 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
       if (e.key === 'Escape') {
         e.preventDefault()
         handleClose()
+        return
+      }
+      if ((e.key === 'u' || e.key === 'Backspace') && canUndo) {
+        e.preventDefault()
+        handleUndo()
         return
       }
       if (isComplete) return
@@ -207,7 +222,7 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
 
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [open, revealed, isComplete, revisionItem, handleClose, handleRate, handleReveal])
+  }, [open, revealed, isComplete, revisionItem, canUndo, handleClose, handleRate, handleReveal, handleUndo])
 
   if (!open) return null
 
@@ -228,6 +243,18 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
           <span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold tabular-nums dark:bg-zinc-800">
             {isComplete ? 'Done' : `${progress.current} / ${progress.total}`}
           </span>
+        )}
+        {canUndo && (
+          <button
+            type="button"
+            onClick={handleUndo}
+            className="inline-flex items-center gap-1.5 rounded-lg border clinical-border px-2.5 py-1.5 text-xs font-semibold transition-colors hover:bg-slate-100 dark:hover:bg-zinc-800"
+            aria-label="Undo last rating"
+            title="Undo last rating (U)"
+          >
+            <Undo2 className="h-3.5 w-3.5" />
+            <span className="hidden sm:inline">Undo</span>
+          </button>
         )}
         <button
           type="button"
@@ -357,7 +384,7 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
                   </div>
                   <p className="mt-3 flex items-center gap-1.5 text-[10px] clinical-muted">
                     <Keyboard className="h-3 w-3" />
-                    Keys 0–5 to rate · Esc to exit
+                    Keys 0–5 to rate · U to undo · Esc to exit · ratings 0–2 re-queue the card
                   </p>
                 </motion.div>
               )}

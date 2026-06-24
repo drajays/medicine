@@ -50,6 +50,21 @@ export interface RevisionSession {
   reviewedCount: number
   sessionMs: number
   mode: RevisionModePreset
+  /** Times each item has been re-queued this session after a lapse. */
+  requeued: Record<string, number>
+}
+
+/** Max times one card may be re-queued within a session (prevents loops). */
+export const MAX_SESSION_REQUEUE = 8
+
+/** Snapshot of everything a single recordReview touched, for one-step undo. */
+interface ReviewUndo {
+  item: RevisionStudyItem
+  day: string
+  prevDayStats: DailyStats | undefined
+  prevStreak: number
+  prevLastStudyDate: string | null
+  prevSession: RevisionSession | null
 }
 
 export interface DailyStats {
@@ -137,11 +152,13 @@ interface RevisionState {
   dailyStats: Record<string, DailyStats>
   sessionHistory: SessionHistoryEntry[]
   showTimeAfterReveal: boolean
+  undoStack: ReviewUndo[]
 
   addItem: (item: Omit<RevisionStudyItem, 'createdAt'> & { createdAt?: number }) => void
   updateItem: (id: string, patch: Partial<RevisionStudyItem>) => void
   deleteItem: (id: string) => void
   recordReview: (itemId: string, rating: RecallRating, timeToRevealMs: number | null) => void
+  undoLastReview: () => boolean
   bootstrapFromMarks: (marks: Record<string, ItemMark>) => void
   setShowTimeAfterReveal: (show: boolean) => void
 
@@ -174,6 +191,7 @@ export const useRevisionStore = create<RevisionState>()(
       dailyStats: {},
       sessionHistory: [],
       showTimeAfterReveal: true,
+      undoStack: [],
 
       addItem: (item) => {
         const now = Date.now()
@@ -228,24 +246,46 @@ export const useRevisionStore = create<RevisionState>()(
         }
 
         const today = todayKey(reviewedAt)
+        const prevDay = get().dailyStats[today]
         const daily = { ...get().dailyStats }
-        const day = daily[today] ?? { date: today, reviewed: 0, totalRating: 0, sessionMs: 0 }
+        // Build a fresh day object (never mutate the existing one) so the undo
+        // snapshot of prevDay stays a true pre-review copy.
+        const day = { ...(prevDay ?? { date: today, reviewed: 0, totalRating: 0, sessionMs: 0 }) }
         day.reviewed += 1
         day.totalRating += rating
         day.sessionMs += timeToRevealMs ?? 0
         daily[today] = day
 
-        const { streak, lastStudyDate } = updateStreak(get().lastStudyDate, get().streak, today)
+        const prevStreak = get().streak
+        const prevLastStudyDate = get().lastStudyDate
+        const { streak, lastStudyDate } = updateStreak(prevLastStudyDate, prevStreak, today)
 
         const session = get().session
         let nextSession = session
         if (session && session.itemIds[session.currentIndex] === itemId) {
+          // A lapse (rating < 3) re-queues the card to the end of this session
+          // so the learner re-attempts it shortly — capped to avoid loops.
+          const requeues = session.requeued[itemId] ?? 0
+          const requeue = rating < 3 && requeues < MAX_SESSION_REQUEUE
           nextSession = {
             ...session,
             reviewedCount: session.reviewedCount + 1,
             sessionMs: session.sessionMs + (timeToRevealMs ?? 0),
             currentIndex: session.currentIndex + 1,
+            itemIds: requeue ? [...session.itemIds, itemId] : session.itemIds,
+            requeued: requeue
+              ? { ...session.requeued, [itemId]: requeues + 1 }
+              : session.requeued,
           }
+        }
+
+        const undo: ReviewUndo = {
+          item, // pre-update item
+          day: today,
+          prevDayStats: prevDay,
+          prevStreak,
+          prevLastStudyDate,
+          prevSession: session,
         }
 
         set({
@@ -255,7 +295,32 @@ export const useRevisionStore = create<RevisionState>()(
           streak,
           lastStudyDate,
           session: nextSession,
+          undoStack: [...get().undoStack, undo].slice(-30),
         })
+      },
+
+      // Reverse the most recent review in this session: restore the item's FSRS
+      // state, drop the review record + daily-stat delta, and rewind the session
+      // (including any lapse re-queue). Returns false when there is nothing to undo.
+      undoLastReview: () => {
+        const stack = get().undoStack
+        const last = stack[stack.length - 1]
+        if (!last) return false
+
+        const daily = { ...get().dailyStats }
+        if (last.prevDayStats) daily[last.day] = last.prevDayStats
+        else delete daily[last.day]
+
+        set({
+          items: { ...get().items, [last.item.id]: last.item },
+          reviews: get().reviews.slice(0, -1),
+          dailyStats: daily,
+          streak: last.prevStreak,
+          lastStudyDate: last.prevLastStudyDate,
+          session: last.prevSession,
+          undoStack: stack.slice(0, -1),
+        })
+        return true
       },
 
       setShowTimeAfterReveal: (show) => set({ showTimeAfterReveal: show }),
@@ -346,7 +411,9 @@ export const useRevisionStore = create<RevisionState>()(
             reviewedCount: 0,
             sessionMs: 0,
             mode: options.preset,
+            requeued: {},
           },
+          undoStack: [],
         })
       },
 
@@ -374,6 +441,7 @@ export const useRevisionStore = create<RevisionState>()(
         set({
           session: null,
           sessionHistory: [...get().sessionHistory, entry].slice(-50),
+          undoStack: [],
         })
       },
 
