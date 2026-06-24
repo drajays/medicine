@@ -1,8 +1,17 @@
-import { useMemo, useState } from 'react'
-import { Copy, Star, Trash2, X } from 'lucide-react'
+import { useMemo, useRef, useState } from 'react'
+import { Copy, Download, Star, Trash2, Upload, X } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
+import {
+  buildStudyExport,
+  downloadJSON,
+  exportFilename,
+  isStudyDataEmpty,
+  parseStudyExport,
+  studyDataCounts,
+  type StudyExport,
+} from '@/lib/studyData'
 
 interface Row {
   id: string
@@ -42,7 +51,34 @@ export function FeedbackPanel({ open, onClose }: { open: boolean; onClose: () =>
   const flags = useAppStore((s) => s.flags)
   const ctx = useAppStore((s) => s.feedbackCtx)
   const clearFeedback = useAppStore((s) => s.clearFeedback)
+  const exportStudyData = useAppStore((s) => s.exportStudyData)
+  const importStudyData = useAppStore((s) => s.importStudyData)
   const [copied, setCopied] = useState(false)
+  const fileInput = useRef<HTMLInputElement>(null)
+  const [pending, setPending] = useState<StudyExport | null>(null)
+  const [importError, setImportError] = useState<string | null>(null)
+
+  const onExport = () => {
+    const data = exportStudyData()
+    if (isStudyDataEmpty(data)) return
+    downloadJSON(exportFilename(), buildStudyExport(data))
+  }
+
+  const onPickFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    e.target.value = '' // allow re-picking the same file
+    if (!file) return
+    setImportError(null)
+    const result = parseStudyExport(await file.text())
+    if (result.ok) setPending(result.value)
+    else setImportError(result.error)
+  }
+
+  const applyImport = (mode: 'merge' | 'replace') => {
+    if (!pending) return
+    importStudyData(pending.data, mode)
+    setPending(null)
+  }
 
   const rows = useMemo<Row[]>(() => {
     const ids = new Set([...Object.keys(ratings), ...Object.keys(flags)])
@@ -136,7 +172,43 @@ export function FeedbackPanel({ open, onClose }: { open: boolean; onClose: () =>
           )}
         </div>
 
-        <div className="flex items-center justify-between gap-2 border-t clinical-border px-4 py-3">
+        {importError && (
+          <div className="border-t border-red-300/70 bg-red-50/70 px-4 py-2.5 text-xs text-red-700 dark:border-red-500/30 dark:bg-red-500/10 dark:text-red-300">
+            Import failed: {importError}
+          </div>
+        )}
+
+        {pending && (
+          <div className="border-t clinical-border bg-amber-50/70 px-4 py-3 dark:bg-amber-500/10">
+            <p className="text-xs font-medium">
+              Backup{pending.exportedAt ? ` from ${new Date(pending.exportedAt).toLocaleString()}` : ''}:{' '}
+              {(() => {
+                const c = studyDataCounts(pending.data)
+                return `${c.marks} marked, ${c.ratings} rated, ${c.flags} flagged, ${c.bookmarks} bookmarked`
+              })()}
+            </p>
+            <div className="mt-2 flex flex-wrap items-center gap-2">
+              <Button variant="accent" size="sm" onClick={() => applyImport('merge')}>
+                Merge into my data
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => {
+                  if (window.confirm('Replace ALL your current study data with this backup?'))
+                    applyImport('replace')
+                }}
+              >
+                Replace everything
+              </Button>
+              <Button variant="ghost" size="sm" onClick={() => setPending(null)}>
+                Cancel
+              </Button>
+            </div>
+          </div>
+        )}
+
+        <div className="flex flex-wrap items-center justify-between gap-2 border-t clinical-border px-4 py-3">
           <Button
             variant="ghost"
             size="sm"
@@ -149,10 +221,38 @@ export function FeedbackPanel({ open, onClose }: { open: boolean; onClose: () =>
             <Trash2 className="h-3.5 w-3.5" />
             Clear all
           </Button>
-          <Button variant="accent" size="sm" onClick={copy} disabled={rows.length === 0}>
-            <Copy className="h-3.5 w-3.5" />
-            {copied ? 'Copied!' : 'Copy as text'}
-          </Button>
+          <div className="flex flex-wrap items-center gap-2">
+            <input
+              ref={fileInput}
+              type="file"
+              accept="application/json,.json"
+              className="hidden"
+              onChange={onPickFile}
+            />
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={onExport}
+              disabled={isStudyDataEmpty(exportStudyData())}
+              title="Download all your study data as a JSON backup"
+            >
+              <Download className="h-3.5 w-3.5" />
+              Export
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => fileInput.current?.click()}
+              title="Restore a JSON backup"
+            >
+              <Upload className="h-3.5 w-3.5" />
+              Import
+            </Button>
+            <Button variant="accent" size="sm" onClick={copy} disabled={rows.length === 0}>
+              <Copy className="h-3.5 w-3.5" />
+              {copied ? 'Copied!' : 'Copy as text'}
+            </Button>
+          </div>
         </div>
       </div>
     </div>

@@ -13,6 +13,11 @@ import type {
   StudyFilter,
 } from '@/lib/types'
 import { emptyMark, itemMarkLabel, type MarkAxis } from '@/lib/studyMarks'
+import {
+  mergeMarks,
+  mergeRecord,
+  type StudyDataPayload,
+} from '@/lib/studyData'
 import { applyTheme, buildProgress, itemSearchText } from '@/store/helpers'
 
 export interface FeedbackCtx {
@@ -74,6 +79,8 @@ interface AppState {
   clearStudyFilter: () => void
   getMark: (itemId: string) => ItemMark | undefined
   _markCtx: (itemId: string, prev: ItemMark) => Partial<ItemMark>
+  exportStudyData: () => StudyDataPayload
+  importStudyData: (data: StudyDataPayload, mode: 'merge' | 'replace') => void
   toggleBookmark: (itemId?: string) => void
   toggleTheme: () => void
   toggleSidebar: () => void
@@ -381,6 +388,51 @@ export const useAppStore = create<AppState>()(
       clearStudyFilter: () => set({ studyFilter: {} }),
 
       getMark: (itemId) => get().marks[itemId],
+
+      // Snapshot every per-item map the user has generated, for backup/export.
+      exportStudyData: () => {
+        const s = get()
+        return {
+          marks: s.marks,
+          ratings: s.ratings,
+          flags: s.flags,
+          feedbackCtx: s.feedbackCtx,
+          bookmarks: s.bookmarks,
+          mcqSelections: s.mcqSelections,
+          revealed: s.revealed,
+        }
+      },
+
+      // Restore a backup. 'replace' overwrites each provided map wholesale;
+      // 'merge' folds it into the current state (marks merge by recency, the
+      // rest let incoming entries win on a conflict). Maps absent from the
+      // backup are left untouched in both modes.
+      importStudyData: (data, mode) => {
+        const s = get()
+        const fc = (data.feedbackCtx ?? {}) as Record<string, FeedbackCtx>
+        const next =
+          mode === 'replace'
+            ? {
+                marks: data.marks ?? s.marks,
+                ratings: data.ratings ?? s.ratings,
+                flags: data.flags ?? s.flags,
+                feedbackCtx: data.feedbackCtx ? fc : s.feedbackCtx,
+                bookmarks: data.bookmarks ?? s.bookmarks,
+                mcqSelections: data.mcqSelections ?? s.mcqSelections,
+                revealed: data.revealed ?? s.revealed,
+              }
+            : {
+                marks: mergeMarks(s.marks, data.marks),
+                ratings: mergeRecord(s.ratings, data.ratings),
+                flags: mergeRecord(s.flags, data.flags),
+                feedbackCtx: mergeRecord(s.feedbackCtx, fc),
+                bookmarks: mergeRecord(s.bookmarks, data.bookmarks),
+                mcqSelections: mergeRecord(s.mcqSelections, data.mcqSelections),
+                revealed: mergeRecord(s.revealed, data.revealed),
+              }
+        set(next)
+        set({ progress: buildProgress(get().navEntries, get().chapters, get().revealed) })
+      },
 
       toggleBookmark: (itemId) => {
         if (!itemId) return
