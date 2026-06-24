@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
-import { ArrowLeft, ArrowRight, Command, List, MessageSquare } from 'lucide-react'
+import { ArrowLeft, ArrowRight, CalendarClock, Command, List, MessageSquare } from 'lucide-react'
 import { Sidebar } from '@/components/layout/Sidebar'
+import { REVISE_KEY } from '@/components/chapter/LandingPage'
+import { useRevisionStore } from '@/stores/revisionStore'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import { SectionJump } from '@/components/layout/SectionJump'
 import { FeedbackPanel } from '@/components/layout/FeedbackPanel'
@@ -24,6 +26,10 @@ export function AppShell() {
   const feedbackCount = useAppStore(
     (s) => new Set([...Object.keys(s.ratings), ...Object.keys(s.flags)]).size,
   )
+  const marks = useAppStore((s) => s.marks)
+  const showLanding = useAppStore((s) => s.showLanding)
+  const bootstrapFromMarks = useRevisionStore((s) => s.bootstrapFromMarks)
+  const dueCount = useRevisionStore((s) => s.getDueCount())
   const [mobileCatalogOpen, setMobileCatalogOpen] = useState(false)
   const [feedbackOpen, setFeedbackOpen] = useState(false)
 
@@ -35,6 +41,12 @@ export function AppShell() {
   useEffect(() => {
     initCatalog()
   }, [initCatalog])
+
+  // Keep the revision engine reconciled with study marks app-wide, so the
+  // "due today" badge is accurate even before the Revise tab is opened.
+  useEffect(() => {
+    bootstrapFromMarks(marks)
+  }, [marks, bootstrapFromMarks])
 
   return (
     <div className="flex h-dvh flex-col overflow-hidden">
@@ -71,6 +83,22 @@ export function AppShell() {
             </div>
           </div>
           <div className="flex shrink-0 items-center gap-2">
+            {dueCount > 0 && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => showLanding(REVISE_KEY)}
+                title={`${dueCount} card${dueCount === 1 ? '' : 's'} due for revision`}
+                aria-label={`${dueCount} cards due for revision`}
+                className="border-amber-300 text-amber-700 dark:border-amber-500/40 dark:text-amber-300"
+              >
+                <CalendarClock className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">Due</span>
+                <span className="rounded-full bg-amber-500/20 px-1.5 text-[10px] font-bold tabular-nums text-amber-700 dark:text-amber-300">
+                  {dueCount}
+                </span>
+              </Button>
+            )}
             <Button
               variant="outline"
               size="sm"

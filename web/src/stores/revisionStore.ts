@@ -15,6 +15,7 @@ import {
   isCriticalRPS,
   isDue,
   todayKey,
+  MS_PER_DAY,
   type RecallRating,
   type RevisionStudyItem,
   type ReviewRecord,
@@ -87,6 +88,17 @@ export interface PrioritizedEntry {
   breakdown: RPSBreakdown
 }
 
+export interface ForecastDay {
+  /** YYYY-MM-DD for the day this bucket represents. */
+  date: string
+  /** Short label — 'Today' for index 0, otherwise a weekday abbreviation. */
+  label: string
+  /** Cards scheduled on this day (overdue cards roll into Today). */
+  count: number
+  /** Subset of count already past-due (only meaningful for Today). */
+  overdue: number
+}
+
 function marksToTags(mark: ItemMark): Tag[] {
   const tags: Tag[] = []
   if (mark.difficulty === 'tough') tags.push('Tough')
@@ -142,6 +154,7 @@ interface RevisionState {
   getPrioritized: (limit?: number) => PrioritizedEntry[]
   getCriticalCount: () => number
   getDueCount: () => number
+  getForecast: (days?: number) => ForecastDay[]
   getSubjectSummary: () => SubjectSummary[]
   getTodayStats: () => TodayStats
   getTodayTimeToRevealStats: () => TimeToRevealStats
@@ -384,6 +397,36 @@ export const useRevisionStore = create<RevisionState>()(
       getDueCount: () => {
         const now = Date.now()
         return Object.values(get().items).filter((item) => isDue(item, now)).length
+      },
+
+      // Cards due per calendar day for the next `days` days. Overdue cards roll
+      // into Today (index 0); cards scheduled beyond the horizon are excluded.
+      getForecast: (days = 7) => {
+        const now = Date.now()
+        const start = new Date(now)
+        start.setHours(0, 0, 0, 0)
+        const base = start.getTime()
+
+        const out: ForecastDay[] = []
+        for (let i = 0; i < days; i++) {
+          const d = new Date(base + i * MS_PER_DAY)
+          out.push({
+            date: d.toISOString().slice(0, 10),
+            label: i === 0 ? 'Today' : d.toLocaleDateString(undefined, { weekday: 'short' }),
+            count: 0,
+            overdue: 0,
+          })
+        }
+
+        for (const item of Object.values(get().items)) {
+          let idx = Math.floor((item.dueAt - base) / MS_PER_DAY)
+          if (idx < 0) idx = 0
+          if (idx >= days) continue
+          out[idx].count += 1
+          if (item.dueAt <= now) out[idx].overdue += 1
+        }
+
+        return out
       },
 
       getSubjectSummary: () => {

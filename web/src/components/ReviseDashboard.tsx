@@ -1,5 +1,5 @@
 import { type ReactNode, useEffect } from 'react'
-import { Brain, Clock, Flame, Target, Timer, TrendingUp } from 'lucide-react'
+import { Brain, CalendarClock, Clock, Flame, Target, Timer, TrendingUp } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { useRevisionStore } from '@/stores/revisionStore'
 import { RevisionMode } from '@/components/RevisionMode'
@@ -85,6 +85,63 @@ function BucketBar({
   )
 }
 
+/** Seven-day view of upcoming review load (overdue rolls into Today). */
+function ForecastStrip() {
+  const getForecast = useRevisionStore((s) => s.getForecast)
+  const days = getForecast(7)
+  const max = Math.max(1, ...days.map((d) => d.count))
+  const totalUpcoming = days.reduce((n, d) => n + d.count, 0)
+
+  if (totalUpcoming === 0) return null
+
+  return (
+    <section className="clinical-card p-5 md:p-6">
+      <div className="flex items-center gap-2">
+        <CalendarClock className="h-4 w-4 text-amber-600" />
+        <h3 className="text-sm font-bold">7-day forecast</h3>
+      </div>
+      <p className="mt-1 text-xs clinical-muted">
+        Scheduled reviews per day — overdue cards count toward Today.
+      </p>
+      <div className="mt-4 flex items-end justify-between gap-2">
+        {days.map((d, i) => {
+          const heightPct = d.count > 0 ? Math.max(8, Math.round((d.count / max) * 100)) : 0
+          const isToday = i === 0
+          return (
+            <div key={d.date} className="flex min-w-0 flex-1 flex-col items-center gap-1">
+              <span className="text-[11px] font-bold tabular-nums">
+                {d.count > 0 ? d.count : ''}
+              </span>
+              <div className="flex h-20 w-full items-end">
+                <div
+                  className={cn(
+                    'w-full rounded-t-md transition-all',
+                    d.count === 0
+                      ? 'bg-slate-100 dark:bg-zinc-800'
+                      : isToday
+                        ? 'bg-amber-500'
+                        : 'bg-amber-300 dark:bg-amber-500/50',
+                  )}
+                  style={{ height: d.count === 0 ? '3px' : `${heightPct}%` }}
+                  title={`${d.count} due ${d.label}${d.overdue ? ` · ${d.overdue} overdue` : ''}`}
+                />
+              </div>
+              <span
+                className={cn(
+                  'truncate text-[10px]',
+                  isToday ? 'font-bold text-amber-700 dark:text-amber-300' : 'clinical-muted',
+                )}
+              >
+                {d.label}
+              </span>
+            </div>
+          )
+        })}
+      </div>
+    </section>
+  )
+}
+
 /** Revise landing: Revision Mode + session stats + subject health. */
 export function ReviseDashboard() {
   const marks = useAppStore((s) => s.marks)
@@ -106,6 +163,8 @@ export function ReviseDashboard() {
   return (
     <div className="space-y-6">
       <RevisionMode />
+
+      <ForecastStrip />
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
         <StatCard

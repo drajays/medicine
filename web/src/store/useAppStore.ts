@@ -57,6 +57,9 @@ interface AppState {
   currentChapterId: string | null
   activeTab: ChapterTab
   scrollToItemId: string | null
+  /** The active landing-page section key (null = first section). Lives in the
+   * store so the header "due today" badge can open the Revise tab directly. */
+  landingTarget: string | null
   revealed: Record<string, boolean>
   bookmarks: Record<string, boolean>
   mcqSelections: Record<string, number | null>
@@ -71,6 +74,8 @@ interface AppState {
   loadChapter: (chapterId: string) => Promise<ChapterData | null>
   selectChapter: (chapterId: string) => Promise<void>
   clearSelection: () => void
+  showLanding: (target?: string | null) => void
+  setLandingTarget: (target: string | null) => void
   selectItem: (chapterId: string, itemId: string) => Promise<void>
   pushHistory: (id: string | null) => void
   applyHistoryTarget: (id: string | null) => Promise<void>
@@ -125,6 +130,7 @@ export const useAppStore = create<AppState>()(
       currentChapterId: null,
       activeTab: 'notes',
       scrollToItemId: null,
+      landingTarget: null,
       revealed: {},
       bookmarks: {},
       mcqSelections: {},
@@ -226,6 +232,15 @@ export const useAppStore = create<AppState>()(
         set({ currentChapterId: null, scrollToItemId: null })
         get().pushHistory(null)
       },
+
+      // Go to the landing page and ask it to open a specific section (e.g. the
+      // Revise tab) — used by the app-wide "due today" badge.
+      showLanding: (target = null) => {
+        set({ currentChapterId: null, scrollToItemId: null, landingTarget: target })
+        get().pushHistory(null)
+      },
+
+      setLandingTarget: (target) => set({ landingTarget: target }),
 
       selectItem: async (chapterId, itemId) => {
         const data = await get().loadChapter(chapterId)

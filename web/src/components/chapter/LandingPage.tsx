@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect } from 'react'
+import { useMemo, useEffect } from 'react'
 import { ChevronRight, ExternalLink } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { buildSections, type LandingItem, type LandingSection } from '@/lib/sections'
@@ -8,7 +8,7 @@ import { ReviseDashboard } from '@/components/ReviseDashboard'
 import { StudyProgressDashboard } from '@/components/StudyProgressDashboard'
 import type { HeaderKind } from '@/lib/types'
 
-const REVISE_KEY = '__revise__'
+export const REVISE_KEY = '__revise__'
 const PROGRESS_KEY = '__progress__'
 
 const BASE = import.meta.env.BASE_URL
@@ -135,8 +135,11 @@ export function LandingPage() {
   const reviseN = useRevisionStore((s) => Object.keys(s.items).length)
   const criticalN = useRevisionStore((s) => s.getCriticalCount())
   const overallPercent = useAppStore((s) => s.getStudyProgress().overall.percent)
+  // The active landing section lives in the store so the header "due today"
+  // badge can switch to the Revise tab from anywhere in the app.
+  const activeKey = useAppStore((s) => s.landingTarget)
+  const setActiveKey = useAppStore((s) => s.setLandingTarget)
   const sections = useMemo(() => buildSections(navRows), [navRows])
-  const [activeKey, setActiveKey] = useState<string | null>(null)
 
   useEffect(() => {
     bootstrapFromMarks(marks)
