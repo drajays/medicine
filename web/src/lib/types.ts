@@ -232,6 +232,44 @@ export interface RawCatalog {
   }
 }
 
+/**
+ * Per-item study marks: the 7 minimalist toggles + seen/revise counters.
+ * Each axis is tri-state (undefined = unset). Stored per item id in the
+ * persisted Zustand store, alongside ratings/flags/bookmarks. The chapter
+ * context (mirroring FeedbackCtx) lets the Revise Hub aggregate across
+ * chapters without re-fetching their JSON.
+ */
+export interface ItemMark {
+  difficulty?: 'tough' | 'easy'
+  priority?: 'important' | 'not'
+  action?: 'revise' | 'no_revise'
+  status?: 'clear' | 'doubt'
+  method?: 'logic' | 'rote'
+  confidence?: 'knew' | 'guessed' // questions only
+  errorType?: 'silly' | 'concept' // questions only
+  timesDone: number
+  timesRevised: number
+  firstSeenAt?: number
+  lastSeenAt?: number
+  // context for the Revise Hub
+  chapterId?: string
+  chapterTitle?: string
+  label?: string
+  itemType?: string
+}
+
+/** A subset of ItemMark axes used to filter items within a chapter. */
+export interface StudyFilter {
+  difficulty?: ItemMark['difficulty']
+  priority?: ItemMark['priority']
+  action?: ItemMark['action']
+  status?: ItemMark['status']
+  method?: ItemMark['method']
+  confidence?: ItemMark['confidence']
+  errorType?: ItemMark['errorType']
+  progress?: 'new' | 'done' | 'revised'
+}
+
 export interface SearchResult {
   id: string
   kind: 'chapter' | 'item'

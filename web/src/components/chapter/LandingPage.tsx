@@ -3,7 +3,11 @@ import { ChevronRight, ExternalLink } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { buildSections, type LandingItem, type LandingSection } from '@/lib/sections'
 import { cn } from '@/lib/utils'
+import { reviseCount } from '@/lib/studyMarks'
+import { ReviseHub } from '@/components/chapter/ReviseHub'
 import type { HeaderKind } from '@/lib/types'
+
+const REVISE_KEY = '__revise__'
 
 const BASE = import.meta.env.BASE_URL
 
@@ -124,9 +128,12 @@ function SectionGrid({ section }: { section: LandingSection }) {
 
 export function LandingPage() {
   const navRows = useAppStore((s) => s.navRows)
+  const marks = useAppStore((s) => s.marks)
   const sections = useMemo(() => buildSections(navRows), [navRows])
   const [activeKey, setActiveKey] = useState<string | null>(null)
 
+  const reviseN = reviseCount(marks)
+  const isRevise = activeKey === REVISE_KEY
   const active = sections.find((s) => s.key === activeKey) ?? sections[0]
 
   if (!sections.length) {
@@ -157,9 +164,36 @@ export function LandingPage() {
       {/* Section tabs */}
       <div className="sticky top-0 z-10 -mx-4 mb-5 border-b clinical-border bg-[var(--color-clinical-bg-light)]/95 px-4 backdrop-blur-md dark:bg-[var(--color-clinical-bg-dark)]/95 md:-mx-8 md:px-8">
         <div className="flex gap-1.5 overflow-x-auto py-2 scrollbar-thin">
+          <button
+            type="button"
+            onClick={() => setActiveKey(REVISE_KEY)}
+            className={cn(
+              'flex shrink-0 items-center gap-2 rounded-lg px-3.5 py-2 transition-colors duration-100',
+              isRevise
+                ? 'bg-amber-500 text-white shadow-sm'
+                : 'bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+            )}
+          >
+            <span aria-hidden className="text-base leading-none">
+              📌
+            </span>
+            <span className="text-sm font-semibold">Revise</span>
+            {reviseN > 0 && (
+              <span
+                className={cn(
+                  'rounded-full px-1.5 py-0.5 text-[10px] font-bold tabular-nums',
+                  isRevise
+                    ? 'bg-white/25 text-white'
+                    : 'bg-amber-100 text-amber-800 dark:bg-amber-950/50 dark:text-amber-200',
+                )}
+              >
+                {reviseN}
+              </span>
+            )}
+          </button>
           {sections.map((section) => {
             const meta = META[section.kind]
-            const isActive = section.key === active.key
+            const isActive = !isRevise && section.key === active.key
             return (
               <button
                 key={section.key}
@@ -190,11 +224,16 @@ export function LandingPage() {
         </div>
       </div>
 
-      {active.subtitle && (
-        <p className="mb-4 max-w-2xl text-sm clinical-muted">{active.subtitle}</p>
+      {isRevise ? (
+        <ReviseHub />
+      ) : (
+        <>
+          {active.subtitle && (
+            <p className="mb-4 max-w-2xl text-sm clinical-muted">{active.subtitle}</p>
+          )}
+          <SectionGrid section={active} />
+        </>
       )}
-
-      <SectionGrid section={active} />
     </div>
   )
 }

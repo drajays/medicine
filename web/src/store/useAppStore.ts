@@ -5,11 +5,14 @@ import { defaultTab, tabForItemType, type ChapterTab } from '@/lib/chapterTabs'
 import { fetchJSON } from '@/lib/data'
 import type {
   ChapterData,
+  ItemMark,
   NavEntry,
   NavRow,
   RawCatalog,
   SearchResult,
+  StudyFilter,
 } from '@/lib/types'
+import { emptyMark, itemMarkLabel, type MarkAxis } from '@/lib/studyMarks'
 import { applyTheme, buildProgress, itemSearchText } from '@/store/helpers'
 
 export interface FeedbackCtx {
@@ -39,6 +42,8 @@ interface AppState {
   ratings: Record<string, number>
   flags: Record<string, string>
   feedbackCtx: Record<string, FeedbackCtx>
+  marks: Record<string, ItemMark>
+  studyFilter: StudyFilter
   history: (string | null)[]
   historyIndex: number
 
@@ -62,6 +67,13 @@ interface AppState {
   rateItem: (itemId: string, n: number, ctx?: FeedbackCtx) => void
   flagItem: (itemId: string, comment: string | null, ctx?: FeedbackCtx) => void
   clearFeedback: () => void
+  setMark: (itemId: string, axis: MarkAxis, value: string) => void
+  markRevised: (itemId: string) => void
+  recordSeen: (itemId: string) => void
+  setStudyFilter: (partial: Partial<StudyFilter>) => void
+  clearStudyFilter: () => void
+  getMark: (itemId: string) => ItemMark | undefined
+  _markCtx: (itemId: string, prev: ItemMark) => Partial<ItemMark>
   toggleBookmark: (itemId?: string) => void
   toggleTheme: () => void
   toggleSidebar: () => void
@@ -94,6 +106,8 @@ export const useAppStore = create<AppState>()(
       ratings: {},
       flags: {},
       feedbackCtx: {},
+      marks: {},
+      studyFilter: {},
       history: [null],
       historyIndex: 0,
 
@@ -240,12 +254,15 @@ export const useAppStore = create<AppState>()(
       setScrollToItemId: (id) => set({ scrollToItemId: id }),
 
       toggleReveal: (itemId) => {
-        const revealed = { ...get().revealed, [itemId]: !get().revealed[itemId] }
+        const wasRevealed = get().revealed[itemId]
+        const revealed = { ...get().revealed, [itemId]: !wasRevealed }
         const { navEntries, chapters } = get()
         set({
           revealed,
           progress: buildProgress(navEntries, chapters, revealed),
         })
+        // revealing an answer counts the item as studied (New → Done)
+        if (!wasRevealed) get().recordSeen(itemId)
       },
 
       selectMcqOption: (itemId, option) => {
@@ -255,6 +272,7 @@ export const useAppStore = create<AppState>()(
           revealed,
           progress: buildProgress(get().navEntries, get().chapters, revealed),
         })
+        get().recordSeen(itemId)
       },
 
       rateItem: (itemId, n, ctx) => {
@@ -284,6 +302,85 @@ export const useAppStore = create<AppState>()(
       },
 
       clearFeedback: () => set({ ratings: {}, flags: {}, feedbackCtx: {} }),
+
+      setMark: (itemId, axis, value) => {
+        const marks = { ...get().marks }
+        const prev = marks[itemId] ?? emptyMark()
+        const next: ItemMark = { ...prev }
+        const rec = next as unknown as Record<string, unknown>
+        // tap the active side again to clear it
+        if (rec[axis] === value) {
+          delete rec[axis]
+        } else {
+          rec[axis] = value
+        }
+        // a mark is an interaction → the item counts as "done" (esp. notes)
+        if (next.timesDone === 0) {
+          next.timesDone = 1
+          next.firstSeenAt = Date.now()
+        }
+        next.lastSeenAt = Date.now()
+        Object.assign(next, get()._markCtx(itemId, prev))
+        marks[itemId] = next
+        set({ marks })
+      },
+
+      markRevised: (itemId) => {
+        const marks = { ...get().marks }
+        const prev = marks[itemId] ?? emptyMark()
+        const next: ItemMark = {
+          ...prev,
+          timesDone: prev.timesDone === 0 ? 1 : prev.timesDone,
+          timesRevised: prev.timesRevised + 1,
+          firstSeenAt: prev.firstSeenAt ?? Date.now(),
+          lastSeenAt: Date.now(),
+        }
+        Object.assign(next, get()._markCtx(itemId, prev))
+        marks[itemId] = next
+        set({ marks })
+      },
+
+      recordSeen: (itemId) => {
+        const prev = get().marks[itemId]
+        if (prev && prev.timesDone > 0) {
+          // already done — just refresh recency + context
+          const next = { ...prev, lastSeenAt: Date.now(), ...get()._markCtx(itemId, prev) }
+          set({ marks: { ...get().marks, [itemId]: next } })
+          return
+        }
+        const base = prev ?? emptyMark()
+        const next: ItemMark = {
+          ...base,
+          timesDone: 1,
+          firstSeenAt: base.firstSeenAt ?? Date.now(),
+          lastSeenAt: Date.now(),
+          ...get()._markCtx(itemId, base),
+        }
+        set({ marks: { ...get().marks, [itemId]: next } })
+      },
+
+      // Resolve chapter context for a mark from the loaded chapter, preserving any
+      // context already stored. Returns a partial to merge into the mark.
+      _markCtx: (itemId, prev) => {
+        if (prev.chapterId) return {}
+        const chapterId = get().currentChapterId
+        const chapter = get().getCurrentChapter()
+        if (!chapterId || !chapter) return {}
+        const item = chapter.items.find((i) => i.id === itemId)
+        if (!item) return { chapterId, chapterTitle: chapter.title }
+        return {
+          chapterId,
+          chapterTitle: chapter.title,
+          label: itemMarkLabel(item),
+          itemType: item.type,
+        }
+      },
+
+      setStudyFilter: (partial) => set({ studyFilter: { ...get().studyFilter, ...partial } }),
+
+      clearStudyFilter: () => set({ studyFilter: {} }),
+
+      getMark: (itemId) => get().marks[itemId],
 
       toggleBookmark: (itemId) => {
         if (!itemId) return
@@ -367,6 +464,7 @@ export const useAppStore = create<AppState>()(
         ratings: state.ratings,
         flags: state.flags,
         feedbackCtx: state.feedbackCtx,
+        marks: state.marks,
       }),
       // Drop any previously persisted selection so reloads land on the home
       // page even for users whose old localStorage still holds currentChapterId.

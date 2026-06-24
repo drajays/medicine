@@ -7,8 +7,10 @@ import { ChapterHeader } from '@/components/chapter/ChapterHeader'
 import { CaseDescription } from '@/components/chapter/CaseDescription'
 import { TrialSummary } from '@/components/chapter/TrialSummary'
 import { ChapterTabs } from '@/components/chapter/ChapterTabs'
+import { ChapterFilterBar } from '@/components/chapter/ChapterFilterBar'
 import { StudyItemCard } from '@/components/chapter/StudyItemCard'
 import { LandingPage } from '@/components/chapter/LandingPage'
+import { applyStudyFilter, isFilterActive } from '@/lib/studyMarks'
 import {
   defaultTab,
   getChapterTabs,
@@ -62,6 +64,9 @@ function TakeawaysList({ items }: { items: string[] }) {
 }
 
 function TabBody({ chapter, tab }: { chapter: ChapterData; tab: ChapterTab }) {
+  const filter = useAppStore((s) => s.studyFilter)
+  const marks = useAppStore((s) => s.marks)
+
   if (tab === 'inclusion' && chapter.inclusionCriteria?.length) {
     return (
       <CriteriaList title="Inclusion Criteria" items={chapter.inclusionCriteria} variant="inclusion" />
@@ -76,8 +81,8 @@ function TabBody({ chapter, tab }: { chapter: ChapterData; tab: ChapterTab }) {
     return <TakeawaysList items={chapter.keyTakeaways} />
   }
 
-  const items = itemsForTab(chapter, tab)
-  if (!items.length) {
+  const all = itemsForTab(chapter, tab)
+  if (!all.length) {
     return (
       <p className="clinical-card p-8 text-center text-sm clinical-muted">
         No items in this section.
@@ -85,11 +90,24 @@ function TabBody({ chapter, tab }: { chapter: ChapterData; tab: ChapterTab }) {
     )
   }
 
+  const items = applyStudyFilter(all, marks, filter)
+  const filtered = isFilterActive(filter)
+
   return (
     <div className="space-y-4">
-      {items.map((item, i) => (
-        <StudyItemCard key={item.id} item={item} index={i + 1} />
-      ))}
+      {filtered && (
+        <p className="px-1 text-xs clinical-muted">
+          Showing <span className="font-semibold tabular-nums">{items.length}</span> of{' '}
+          {all.length} {tab === 'notes' ? 'notes' : 'items'} matching the filter.
+        </p>
+      )}
+      {items.length === 0 ? (
+        <p className="clinical-card p-8 text-center text-sm clinical-muted">
+          No items match the current filter.
+        </p>
+      ) : (
+        items.map((item, i) => <StudyItemCard key={item.id} item={item} index={i + 1} />)
+      )}
     </div>
   )
 }
@@ -237,12 +255,15 @@ export function ChapterView() {
       <RelatedChapters chapter={chapter} />
       <div className="mt-4">
         <ChapterTabs tabs={tabs} active={tab} onChange={setActiveTab} />
+        <div className="mt-4">
+          <ChapterFilterBar />
+        </div>
         <motion.div
           key={tab}
           initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.16, ease: 'easeOut' }}
-          className="mt-5"
+          className="mt-2"
         >
           <TabBody chapter={chapter} tab={tab} />
         </motion.div>
