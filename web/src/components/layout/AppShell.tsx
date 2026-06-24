@@ -113,6 +113,15 @@ export function AppShell() {
                 </span>
               )}
             </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => showLanding('__mock_exam__')}
+              title="CBT Mock Test"
+              className="hidden sm:inline-flex text-blue-700 dark:text-blue-400 border-blue-200 dark:border-blue-900"
+            >
+              <span className="mr-1">📝</span> Mock Test
+            </Button>
             <SectionJump />
             <Button
               variant="outline"
