@@ -48,13 +48,15 @@ function MockExamSetup() {
     try {
       let pool: any[] = []
       
+      // Only objective question types — no descriptive answers in a timed exam
+      const OBJECTIVE_TYPES = ['mcq', 'true_false', 'assertion_reason']
+
       // Load selected chapter or all if 'random'
       if (config.source === 'random') {
-         // Load all chapters? Might be slow. Let's just pick 10 random chapters.
          const shuffled = [...chapters].sort(() => 0.5 - Math.random()).slice(0, 10)
          for (const ch of shuffled) {
            const data = await loadChapter(ch.id)
-           if (data) pool.push(...data.items.filter(i => i.type !== 'note'))
+           if (data) pool.push(...data.items.filter(i => OBJECTIVE_TYPES.includes(i.type)))
          }
       } else {
          if (!config.chapterId) {
@@ -64,7 +66,7 @@ function MockExamSetup() {
          }
          const data = await loadChapter(config.chapterId)
          if (data) {
-           pool = data.items.filter(i => i.type !== 'note')
+           pool = data.items.filter(i => OBJECTIVE_TYPES.includes(i.type))
          }
       }
       
