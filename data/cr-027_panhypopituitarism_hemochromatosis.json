@@ -1,0 +1,377 @@
+{
+  "id": "cr-027",
+  "reportType": "case_report",
+  "title": "Panhypopituitarism from Hereditary Hemochromatosis: When HFE-Heterozygous Doesn't Add Up",
+  "subtitle": "A Resident Training Module: iron deposition and the gonadotroph-first pattern, why ferritin >2000 with only HFE-heterozygous prompts exome sequencing, replacing cortisol before thyroxine, FT4-not-TSH titration, phlebotomy, and screening organs and relatives",
+  "section": "Case Reports",
+  "category": "Endocrinology (Pituitary / Iron Overload)",
+  "authors": "Endocrine residency training module — illustrative teaching case (OCR of clinical document)",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "h2-074", "title": "Hypopituitarism" },
+    { "id": "h2-073", "title": "Physiology of Anterior Pituitary Hormones" }
+  ],
+  "patient": {
+    "age": 41,
+    "sex": "Female",
+    "chiefComplaint": "Secondary amenorrhoea for 2 years with fatigue, anorexia, hypotension and hypoglycaemia.",
+    "pmh": [
+      "Secondary amenorrhoea × 2 years",
+      "Hypoglycaemia, hypotension, loss of appetite",
+      "Low cortisol; low T4 (and low T3)",
+      "Paradoxically high B12",
+      "Ferritin >2000 with high transferrin saturation; no history of blood transfusion",
+      "HFE gene mutation — heterozygous (Type 1 HH)",
+      "Already on hydrocortisone (Hisone) and levothyroxine; sex-steroid replacement pending",
+      "Whole-exome sequencing for an iron-overload panel advised"
+    ],
+    "medications": [
+      "Hydrocortisone (Hisone)",
+      "Levothyroxine"
+    ]
+  },
+  "caseDescription": "A 41-year-old woman presents with 2 years of secondary amenorrhoea plus fatigue, anorexia, hypotension and hypoglycaemia. Biochemistry shows low cortisol and low T4/T3 (a multi-axis anterior-pituitary picture), a paradoxically high B12, and marked iron overload (ferritin >2000, high transferrin saturation) with no transfusion history. She carries an HFE mutation but only in the heterozygous state, and whole-exome sequencing for an iron-overload panel has been advised. The working diagnosis is panhypopituitarism secondary to hereditary hemochromatosis. The case teaches the gonadotroph-first pattern of iron-induced pituitary failure, why HFE-heterozygosity alone is usually insufficient to explain ferritin >2000 (hence exome sequencing for non-HFE causes), the safe sequence and monitoring of pituitary hormone replacement (cortisol before thyroxine; FT4 not TSH), the role of phlebotomy, and organ- and family-screening.",
+  "keyFindings": [
+    "Multi-axis anterior pituitary failure: low cortisol, low T4/T3, 2-year secondary amenorrhoea",
+    "Marked iron overload (ferritin >2000, high transferrin saturation) without transfusion",
+    "HFE mutation heterozygous only — usually insufficient for severe overload",
+    "Paradoxically high B12 — a clue to liver involvement from iron",
+    "Already correctly on hydrocortisone before/with levothyroxine"
+  ],
+  "finalDiagnosis": "Panhypopituitarism (at least secondary adrenal insufficiency, central hypothyroidism and hypogonadotropic hypogonadism) secondary to hereditary hemochromatosis with severe iron overload (ferritin >2000). Because HFE-heterozygosity alone rarely causes overload this severe, whole-exome/iron-overload-panel sequencing is appropriate to seek non-HFE (e.g. juvenile HJV/HAMP, TFR2, ferroportin) or compound/modifier variants. Management: continue hydrocortisone (started before/with levothyroxine), titrate LT4 by free T4 (not TSH), add sex-steroid (estrogen+progestogen) replacement until ~50-52, consider GH after testing, treat iron overload with phlebotomy (target ferritin 50-100 ng/mL), and screen organs (liver/heart/pancreas/bone) and first-degree relatives.",
+  "learningObjectives": [
+    "Explain how iron deposition causes endocrine failure and why gonadotrophs fail first.",
+    "Recognise that HFE-heterozygosity alone rarely causes ferritin >2000 and justify exome/non-HFE sequencing.",
+    "Evaluate the six pituitary axes and interpret iron-related imaging (anterior-pituitary T2 hypointensity).",
+    "Apply the safe replacement sequence (cortisol before thyroxine) and monitor LT4 by free T4, not TSH.",
+    "Treat iron overload with phlebotomy and arrange organ-complication surveillance and family screening."
+  ],
+  "items": [
+    {
+      "id": "cr-027-n1",
+      "type": "note",
+      "subtopic": "Pathophysiology",
+      "title": "How iron overload destroys endocrine tissue",
+      "content": "In iron overload the transferrin-binding capacity is saturated, so non-transferrin-bound iron (NTBI) circulates and is taken up by parenchymal cells. Inside the cell this redox-active iron catalyses the generation of reactive oxygen species (Fenton chemistry), causing lipid peroxidation, organelle and DNA damage, and ultimately cell death and fibrosis. The classic target organs are the liver (cirrhosis, hepatocellular carcinoma), pancreas (β-cell loss → 'bronze diabetes'), heart (cardiomyopathy/arrhythmia), skin (bronze pigmentation), joints (arthropathy) and the pituitary. The endocrine consequences in this patient — secondary amenorrhoea, low cortisol, low thyroid hormones — are the pituitary expression of this same iron-mediated cellular injury, which is why hemochromatosis is a treatable, must-not-miss cause of panhypopituitarism.",
+      "keyPoints": [
+        "Saturated transferrin → NTBI enters cells → ROS (Fenton) → peroxidation, fibrosis, cell death.",
+        "Targets: liver, pancreas, heart, skin, joints, pituitary.",
+        "Hemochromatosis is a treatable cause of panhypopituitarism — always consider it."
+      ]
+    },
+    {
+      "id": "cr-027-n2",
+      "type": "note",
+      "subtopic": "Pathophysiology",
+      "title": "Why gonadotrophs fail first in iron overload",
+      "content": "The single most testable fact here: hypogonadotropic hypogonadism is the earliest and most common endocrinopathy of hemochromatosis. The pituitary gonadotrophs (LH/FSH cells) are especially vulnerable to iron, being relatively rich in transferrin receptors and avidly taking up iron — so gonadotropin deficiency typically appears before TSH, ACTH or GH deficiency, which emerge in later or more severe disease. That is exactly why a 2-year history of secondary amenorrhoea is the sentinel presentation in this woman, and why unexplained hypogonadotropic hypogonadism (especially with fatigue or arthralgia) should trigger iron studies. The corollary for treatment is that early phlebotomy can sometimes recover gonadal function, whereas established deficiency may be permanent.",
+      "keyPoints": [
+        "Hypogonadotropic hypogonadism is the earliest/commonest endocrinopathy in hemochromatosis.",
+        "Gonadotrophs are iron-avid (transferrin-receptor rich) → fail before TSH/ACTH/GH.",
+        "2-year secondary amenorrhoea is the sentinel; unexplained HH warrants iron studies."
+      ]
+    },
+    {
+      "id": "cr-027-n3",
+      "type": "note",
+      "subtopic": "Genetics",
+      "title": "Why HFE-heterozygosity alone usually cannot explain ferritin >2000",
+      "content": "The genotype-phenotype relationship in HFE hemochromatosis (Type 1) matters clinically. Classic, high-penetrance disease is C282Y homozygosity; C282Y/H63D compound heterozygosity causes only mild overload; and a single heterozygous allele (C282Y or H63D alone) is usually insufficient to cause significant iron loading. So a ferritin >2000 in a patient labelled merely 'HFE heterozygous' does not add up — the genotype is too weak for the phenotype. The resident response is not to accept the contradiction but to look harder: either there is a coexisting acquired driver, or a non-HFE hereditary cause is being missed. This mismatch is the whole reason exome/iron-overload-panel sequencing was advised.",
+      "keyPoints": [
+        "C282Y homozygous = classic high-penetrance HH; C282Y/H63D compound = mild; single heterozygote = usually insufficient.",
+        "Ferritin >2000 with only HFE-heterozygous is a genotype-phenotype mismatch.",
+        "Don't accept it — seek a coexisting cause or a non-HFE gene."
+      ]
+    },
+    {
+      "id": "cr-027-n4",
+      "type": "note",
+      "subtopic": "Genetics",
+      "title": "How non-HFE hemochromatosis explains the need for exome sequencing",
+      "content": "When iron overload is severe but HFE testing is unimpressive, consider non-HFE hereditary hemochromatosis, which exome/panel sequencing can detect. Juvenile hemochromatosis is the most dangerous: type 2A (HJV/hemojuvelin) and type 2B (HAMP/hepcidin), autosomal recessive, cause severe early-onset overload with prominent cardiac disease and hypogonadism — highly relevant to a young patient with severe loading and pituitary failure. Type 3 (TFR2) is adult-onset and milder; type 4 (SLC40A1/ferroportin disease) is autosomal dominant with a variable phenotype; and rarer iron disorders include aceruloplasminaemia (CP — iron plus neurological features) and atransferrinaemia (TF). Identifying the true gene refines prognosis, guides screening of complications, and directs accurate cascade testing of relatives.",
+      "keyPoints": [
+        "Juvenile HH (HJV type 2A, HAMP type 2B): severe, young-onset, cardiac + hypogonadism — fits this case.",
+        "TFR2 (type 3, milder), SLC40A1 ferroportin (type 4, AD); rarer: aceruloplasminaemia (CP), atransferrinaemia (TF).",
+        "Finding the gene refines prognosis, surveillance and family cascade testing."
+      ]
+    },
+    {
+      "id": "cr-027-n5",
+      "type": "note",
+      "subtopic": "Axis evaluation",
+      "title": "How to evaluate the six pituitary axes in suspected panhypopituitarism",
+      "content": "Work through all six axes systematically. Thyroid: free T4 (± free T3) with TSH — expect a low/low-normal TSH with low free T4 in central hypothyroidism. Adrenal: 08:00 cortisol and ACTH (± dynamic testing) — low cortisol with non-elevated ACTH indicates secondary adrenal insufficiency. Gonadal: LH, FSH and estradiol — amenorrhoea with low/inappropriately normal gonadotropins is hypogonadotropic hypogonadism. Somatotroph: IGF-1 and, if needed, a GH stimulation test. Lactotroph: prolactin (may be low, normal, or mildly raised from stalk effects). Posterior pituitary: assess for diabetes insipidus with paired serum/urine osmolality and sodium if polyuria occurs. In this patient the thyroid, adrenal and gonadal axes are already abnormal; GH, prolactin and posterior-pituitary assessment remain to be completed.",
+      "keyPoints": [
+        "Six axes: thyroid (fT4/TSH), adrenal (08:00 cortisol/ACTH ± dynamic), gonadal (LH/FSH/E2), GH (IGF-1 ± stim), prolactin, posterior (DI).",
+        "Central patterns: low target hormone with low/inappropriately normal trophic hormone.",
+        "Here thyroid/adrenal/gonadal are abnormal; GH, prolactin and DI workup still needed."
+      ]
+    },
+    {
+      "id": "cr-027-n6",
+      "type": "note",
+      "subtopic": "Imaging",
+      "title": "Why MRI sella is needed and what iron does to the pituitary signal",
+      "content": "An MRI sella (pituitary protocol) serves two purposes. First, iron deposition produces a characteristic T2 (and T2*) hypointensity of the anterior pituitary — a recognisable imaging signature of iron loading that supports the diagnosis. Second, and just as important, MRI excludes the alternative structural causes of panhypopituitarism that must not be missed: a macroadenoma, craniopharyngioma, empty sella, infiltrative/inflammatory disease (hypophysitis, histiocytosis) or apoplexy. So even when the clinical story points firmly to iron, imaging both confirms the iron signature and rules out a coexisting or alternative lesion. (Where cardiac involvement is suspected, a cardiac MRI T2* quantifies myocardial iron — a different but related application of the same physics.)",
+      "keyPoints": [
+        "Iron causes anterior-pituitary T2/T2* hypointensity — an imaging signature of overload.",
+        "MRI also excludes adenoma, craniopharyngioma, empty sella, infiltrative disease and apoplexy.",
+        "Cardiac MRI T2* quantifies myocardial iron when cardiac involvement is a concern."
+      ]
+    },
+    {
+      "id": "cr-027-n7",
+      "type": "note",
+      "subtopic": "Replacement safety",
+      "title": "Why hydrocortisone must be replaced before levothyroxine",
+      "content": "This is the highest-stakes sequencing rule in panhypopituitarism. If a patient with unrecognised/untreated secondary adrenal insufficiency is started on thyroxine first, the rise in metabolic rate accelerates cortisol clearance and increases tissue cortisol demand, which can precipitate a life-threatening adrenal crisis in a patient who has no cortisol reserve. The rule is therefore absolute: replace glucocorticoid first (or confirm an intact adrenal axis), then start levothyroxine. This patient is already on hydrocortisone before/with levothyroxine — correctly managed. Reinforce the safety package that goes with steroid replacement: sick-day rules (double/triple the dose for fever/illness), an emergency parenteral hydrocortisone kit, a medical-alert card, and never stopping abruptly.",
+      "keyPoints": [
+        "Thyroxine first in untreated cortisol deficiency can trigger adrenal crisis (raised cortisol clearance/demand).",
+        "Always glucocorticoid first, then levothyroxine — this patient is correctly on both, steroid-first.",
+        "Pair steroids with sick-day rules, an emergency hydrocortisone kit and an alert card."
+      ]
+    },
+    {
+      "id": "cr-027-n8",
+      "type": "note",
+      "subtopic": "Replacement monitoring",
+      "title": "Why TSH cannot guide levothyroxine in central hypothyroidism",
+      "content": "Her hypothyroidism is central (secondary): the diseased pituitary cannot generate an appropriate TSH, so TSH is uninformative — usually low or inappropriately normal regardless of thyroid status. Titrating LT4 to a TSH target is the classic error and leads to under-replacement. Monitor and titrate to free T4, aiming for the upper half of the reference range, interpreted alongside symptoms, rechecking ~6-8 weeks after a dose change then 6-12 monthly. Practical dosing for a 56 kg patient is roughly 1.6 µg/kg/day (~75-100 µg), taken fasting and separated from food and — importantly in iron overload — from any iron supplements, which impair levothyroxine absorption.",
+      "keyPoints": [
+        "Central hypothyroidism: TSH is non-functional — never titrate to it.",
+        "Titrate to free T4 in the upper half of the range; recheck ~6-8 wk after changes.",
+        "≈1.6 µg/kg/day, fasting, separated from food and iron (iron impairs LT4 absorption)."
+      ]
+    },
+    {
+      "id": "cr-027-n9",
+      "type": "note",
+      "subtopic": "Adrenal testing",
+      "title": "Why a standard ACTH stimulation test can mislead in recent secondary AI",
+      "content": "A diagnostic trap: in recent-onset secondary adrenal insufficiency the adrenal glands have not yet atrophied, so they can still respond to exogenous ACTH — the standard (250 µg) short Synacthen test may then show a 'normal' cortisol rise and falsely reassure, missing the pituitary problem. The hypothalamic-pituitary-adrenal axis is best assessed with the insulin tolerance test (ITT), the gold standard, which tests the whole axis via hypoglycaemic stress (but is contraindicated in this patient given hypoglycaemia and cardiac/iron concerns and must be done with caution). The low-dose (1 µg) ACTH test is more sensitive than the 250 µg test for partial/recent secondary AI. In practice, a clearly low 08:00 cortisol with compatible symptoms (as here) is often sufficient to treat.",
+      "keyPoints": [
+        "Recent secondary AI: adrenals not yet atrophied → standard 250 µg ACTH test can be falsely normal.",
+        "ITT is the gold standard for the HPA axis; low-dose (1 µg) ACTH test is more sensitive than 250 µg.",
+        "A clearly low morning cortisol with symptoms justifies treatment without dynamic testing."
+      ]
+    },
+    {
+      "id": "cr-027-n10",
+      "type": "note",
+      "subtopic": "Iron treatment",
+      "title": "How to treat the iron overload: phlebotomy first, chelation second",
+      "content": "Therapeutic phlebotomy is first-line and the mainstay of hemochromatosis: typically ~500 mL weekly (each unit removes ~200-250 mg iron) until the ferritin reaches the target of ~50-100 ng/mL, then maintenance phlebotomy every 2-4 months guided by ferritin and transferrin saturation. Iron chelation (oral deferasirox or deferiprone, subcutaneous/IV deferoxamine) is second-line, reserved for those who cannot be venesected — significant anaemia, severe cardiac dysfunction, or poor venous access/intolerance. The endocrine payoff of de-ironing is real: early treatment can improve or partially reverse some endocrinopathies (gonadal function may recover in some), and it protects the liver, heart and pancreas from progressive damage — which is why removing iron is not just hepatology housekeeping but part of the endocrine treatment.",
+      "keyPoints": [
+        "Phlebotomy first-line: ~500 mL weekly to ferritin 50-100 ng/mL, then maintenance every 2-4 months.",
+        "Chelation (deferasirox/deferiprone/deferoxamine) only if anaemia, cardiac disease or venesection intolerance.",
+        "Early de-ironing can partially reverse endocrinopathies and protects liver/heart/pancreas."
+      ]
+    },
+    {
+      "id": "cr-027-n11",
+      "type": "note",
+      "subtopic": "Sex-steroid replacement",
+      "title": "How (and why) to replace sex steroids in a 41-year-old with hypogonadism",
+      "content": "Sex-steroid replacement is not optional in a young hypogonadal woman — untreated estrogen deficiency at 41 accelerates bone loss and removes cardiovascular and quality-of-life benefits. Replace with estrogen plus a progestogen (the progestogen is needed whenever the uterus is present, to prevent endometrial hyperplasia), continuing until the average age of natural menopause (~50-52). Transdermal estradiol (e.g. a patch) with oral/cyclical progesterone is often preferred for a better venous-thromboembolism profile than oral estrogen; oral estradiol with cyclic progesterone is an alternative. Benefits include resumption of menses if desired, bone protection, cardiovascular and sexual-function benefit, and improved wellbeing. This differs from postmenopausal HRT decisions — here replacement corrects a premature deficiency in a young woman and the risk-benefit strongly favours treating.",
+      "keyPoints": [
+        "Estrogen + progestogen (progestogen needed if uterus present) until ~50-52 years.",
+        "Transdermal estradiol preferred for lower VTE risk; oral estradiol + cyclic progesterone an alternative.",
+        "Treating premature hypogonadism protects bone and cardiovascular health — not optional in a 41-year-old."
+      ]
+    },
+    {
+      "id": "cr-027-n12",
+      "type": "note",
+      "subtopic": "Lab pitfalls",
+      "title": "Why a high B12 should prompt a look at the liver",
+      "content": "A paradoxically high (rather than low) serum B12 is easy to dismiss, but it is a clue. Because B12 is stored in and released by hepatocytes, hepatocellular injury raises serum B12 — and in iron overload the liver is a primary target (steatosis → fibrosis → cirrhosis, with hepatocellular-carcinoma risk). Other causes of a high B12 include myeloproliferative disorders, renal failure, solid tumours and recent supplementation, but in this context liver involvement leads the list. The action: evaluate liver function (AST, ALT, GGT) and assess for fibrosis/cirrhosis (transferrin saturation, ultrasound, elastography/FibroScan), since a cirrhotic liver changes both prognosis and surveillance (HCC screening).",
+      "keyPoints": [
+        "High B12 can reflect hepatocellular injury (B12 released from damaged hepatocytes).",
+        "In iron overload the liver is a key target — evaluate LFTs and assess for fibrosis/cirrhosis.",
+        "Other high-B12 causes: myeloproliferative disease, renal failure, tumours, supplementation."
+      ]
+    },
+    {
+      "id": "cr-027-n13",
+      "type": "note",
+      "subtopic": "Surveillance",
+      "title": "How to screen for the organ complications of iron overload",
+      "content": "De-ironing does not remove the need to look for damage already done. Liver: LFTs and, if cirrhosis is present, 6-monthly ultrasound + alpha-fetoprotein for hepatocellular carcinoma. Heart: ECG and echocardiography, with cardiac MRI T2* to quantify myocardial iron if cardiac involvement is suspected (iron cardiomyopathy is a major cause of death in severe/juvenile disease). Pancreas: HbA1c/fasting glucose for iron-induced ('bronze') diabetes. Bone: DXA every 1-2 years, since hypogonadism plus chronic disease threaten bone density. Joints: imaging if arthropathy develops. Monitor the iron load itself with ferritin and transferrin saturation (frequently during venesection, then 3-6 monthly) and check the blood count before each phlebotomy. Tie it together with multidisciplinary follow-up — endocrinology, hepatology, haematology, cardiology and gynaecology.",
+      "keyPoints": [
+        "Liver: LFTs; if cirrhotic, 6-monthly USS + AFP (HCC). Heart: ECG/echo, cardiac MRI T2* if suspected.",
+        "Pancreas: HbA1c/glucose (bronze diabetes); bone: DXA every 1-2 yr; joints: imaging if symptomatic.",
+        "Track ferritin/transferrin saturation and pre-phlebotomy blood count; manage in a multidisciplinary team."
+      ]
+    },
+    {
+      "id": "cr-027-n14",
+      "type": "note",
+      "subtopic": "Family screening",
+      "title": "Why first-degree relatives must be screened",
+      "content": "Hereditary hemochromatosis is largely autosomal recessive (HFE, HJV, HAMP, TFR2; ferroportin disease is dominant), so first-degree relatives — siblings, children and parents — are at risk and can be loading iron silently for years before symptoms appear. Screen them with fasting transferrin saturation and ferritin, plus targeted genetic testing based on the index patient's confirmed variant(s) (the precise reason for identifying the gene by exome sequencing). The rationale is preventive: detecting overload early allows phlebotomy before irreversible organ damage (cirrhosis, cardiomyopathy, endocrine failure) occurs. Cascade testing turns one diagnosis into protection for a whole family — a high-yield, low-cost intervention residents should initiate routinely.",
+      "keyPoints": [
+        "HH is mostly autosomal recessive — first-degree relatives are at risk and often asymptomatic.",
+        "Screen with fasting transferrin saturation + ferritin and gene testing guided by the index variant.",
+        "Early detection enables pre-emptive phlebotomy before irreversible organ damage."
+      ]
+    },
+    {
+      "id": "cr-027-n15",
+      "type": "note",
+      "subtopic": "Replacement",
+      "title": "How to handle GH and posterior-pituitary replacement",
+      "content": "Two further axes round out the plan. Growth hormone: test only after the other axes are replaced (IGF-1 ± a GH-stimulation test); if adult GH deficiency is confirmed, recombinant GH (e.g. ~0.2-0.4 mg/day SC, titrated to IGF-1) can improve body composition, lipids, bone health and quality of life — weighed against cost and contraindications such as active malignancy. Posterior pituitary: iron rarely causes central diabetes insipidus directly (anterior-lobe disease dominates), but DI can be unmasked as cortisol is replaced (glucocorticoid is needed for free-water excretion) or as disease progresses — so monitor sodium and urine output and treat with desmopressin if DI emerges. Re-evaluate all axes over time, because deficiencies can evolve and, with successful de-ironing, occasionally improve.",
+      "keyPoints": [
+        "Test GH after other axes are replaced; treat confirmed adult GHD with recombinant GH titrated to IGF-1 (mind malignancy/cost).",
+        "Central DI is uncommon from iron but can be unmasked by cortisol replacement or progression — monitor Na/urine output, use desmopressin.",
+        "Re-assess axes over time; some may evolve or improve with de-ironing."
+      ]
+    },
+    {
+      "id": "cr-027-why1",
+      "type": "why",
+      "subtopic": "Genetics",
+      "question": "Why was whole-exome (iron-overload panel) sequencing advised when HFE testing already showed a mutation?",
+      "answer": "Because the HFE result is only heterozygous, and a single HFE allele (C282Y or H63D alone) is usually insufficient to cause severe iron overload — so a ferritin >2000 is a genotype-phenotype mismatch. Exome/panel sequencing is done to find a non-HFE hereditary cause (e.g. juvenile HJV/HAMP, TFR2, ferroportin) or compound/modifier variants that better explain the severe loading, which also refines prognosis, complication screening and accurate cascade testing of relatives."
+    },
+    {
+      "id": "cr-027-how1",
+      "type": "how",
+      "subtopic": "Replacement safety",
+      "question": "How should glucocorticoid and thyroid hormone replacement be sequenced in newly diagnosed panhypopituitarism, and why?",
+      "answer": "Replace glucocorticoid (hydrocortisone) first — or confirm an intact adrenal axis — before starting levothyroxine. Thyroid hormone increases metabolic rate and cortisol clearance/demand, so giving it first to a patient with unrecognised secondary adrenal insufficiency can precipitate an adrenal crisis. This patient is correctly already on hydrocortisone before/with levothyroxine; reinforce sick-day rules and an emergency hydrocortisone kit."
+    },
+    {
+      "id": "cr-027-sa1",
+      "type": "shortanswer",
+      "subtopic": "Pathophysiology",
+      "question": "Which pituitary axis is affected earliest and most commonly in hereditary hemochromatosis, and how does this patient illustrate it?",
+      "answer": "The gonadal axis — hypogonadotropic hypogonadism is the earliest and most common endocrinopathy, because iron-avid gonadotrophs (rich in transferrin receptors) are damaged before the other cell types. This patient illustrates it with 2 years of secondary amenorrhoea preceding/dominating the clinical picture, before the later thyroid and adrenal failure."
+    },
+    {
+      "id": "cr-027-sa2",
+      "type": "shortanswer",
+      "subtopic": "Lab pitfalls",
+      "question": "Her serum B12 is paradoxically high. What does this suggest and what should you check?",
+      "answer": "A high B12 in iron overload suggests hepatocellular injury, since damaged hepatocytes release stored B12 — and the liver is a primary target of iron. Check liver function (AST, ALT, GGT) and assess for fibrosis/cirrhosis (ultrasound, elastography/FibroScan), which matters for prognosis and triggers hepatocellular-carcinoma surveillance. Other causes (myeloproliferative disease, renal failure, tumours, supplementation) are less likely here."
+    },
+    {
+      "id": "cr-027-m1",
+      "type": "mcq",
+      "subtopic": "Pathophysiology",
+      "stem": "Which endocrine deficiency is the earliest and most common manifestation of pituitary involvement in hereditary hemochromatosis?",
+      "options": [
+        "Secondary adrenal insufficiency (ACTH deficiency)",
+        "Central hypothyroidism (TSH deficiency)",
+        "Hypogonadotropic hypogonadism (LH/FSH deficiency)",
+        "Growth hormone deficiency"
+      ],
+      "correctOption": 2,
+      "explanation": "Gonadotrophs are especially iron-avid (transferrin-receptor rich), so hypogonadotropic hypogonadism appears first and most commonly, often as amenorrhoea or loss of libido. TSH, ACTH and GH deficiencies tend to develop later in more severe disease."
+    },
+    {
+      "id": "cr-027-m2",
+      "type": "mcq",
+      "subtopic": "Genetics",
+      "stem": "A patient with ferritin >2000 is found to be HFE heterozygous only (single allele). What is the most appropriate next genetic step?",
+      "options": [
+        "Conclude HFE hemochromatosis is confirmed and stop testing",
+        "Proceed to exome/iron-overload-panel sequencing to seek non-HFE or compound/modifier causes",
+        "Repeat HFE testing in 12 months",
+        "Diagnose secondary (acquired) iron overload from transfusion"
+      ],
+      "correctOption": 1,
+      "explanation": "A single HFE allele is usually insufficient to cause severe overload, so ferritin >2000 is a genotype-phenotype mismatch. Exome/panel sequencing seeks non-HFE hereditary causes (juvenile HJV/HAMP, TFR2, ferroportin) or compound/modifier variants. There is no transfusion history, so transfusional iron overload is not the explanation."
+    },
+    {
+      "id": "cr-027-m3",
+      "type": "mcq",
+      "subtopic": "Replacement safety",
+      "stem": "In a newly diagnosed panhypopituitary patient with low cortisol and low T4, what is the correct order of hormone replacement?",
+      "options": [
+        "Levothyroxine first, then hydrocortisone once euthyroid",
+        "Both simultaneously at full dose, order irrelevant",
+        "Hydrocortisone first (or confirm adrenal axis), then levothyroxine",
+        "Sex steroids first, then thyroid and adrenal replacement"
+      ],
+      "correctOption": 2,
+      "explanation": "Glucocorticoid must be replaced first. Thyroid hormone raises metabolic rate and cortisol clearance/demand, so starting levothyroxine first in untreated secondary adrenal insufficiency can precipitate an adrenal crisis. This patient is correctly on hydrocortisone before/with levothyroxine."
+    },
+    {
+      "id": "cr-027-m4",
+      "type": "mcq",
+      "subtopic": "Replacement monitoring",
+      "stem": "How should her levothyroxine dose be monitored, given central hypothyroidism?",
+      "options": [
+        "Titrate to a normal TSH",
+        "Titrate to a suppressed TSH",
+        "Titrate to a free T4 in the upper half of the reference range",
+        "No monitoring is needed once a weight-based dose is set"
+      ],
+      "correctOption": 2,
+      "explanation": "In central hypothyroidism TSH is non-functional (low or inappropriately normal) and must not be used to titrate therapy. Levothyroxine is adjusted to a free T4 in the upper half of the reference range, interpreted with symptoms, and taken separately from food and iron."
+    },
+    {
+      "id": "cr-027-m5",
+      "type": "mcq",
+      "subtopic": "Iron treatment",
+      "stem": "What is the first-line treatment for iron overload in this patient, and the usual ferritin target?",
+      "options": [
+        "Oral deferasirox, target ferritin <2000 ng/mL",
+        "Therapeutic phlebotomy, target ferritin 50-100 ng/mL",
+        "Subcutaneous deferoxamine, target transferrin saturation 80%",
+        "Dietary iron restriction alone, no ferritin target"
+      ],
+      "correctOption": 1,
+      "explanation": "Therapeutic phlebotomy is first-line (e.g. ~500 mL weekly) aiming for a ferritin of about 50-100 ng/mL, then maintenance every 2-4 months. Chelation is reserved for patients who cannot be venesected (anaemia, severe cardiac disease, poor access). Dietary measures alone are inadequate."
+    },
+    {
+      "id": "cr-027-m6",
+      "type": "mcq",
+      "subtopic": "Imaging",
+      "stem": "Which MRI finding would support iron deposition as the cause of this patient's pituitary failure?",
+      "options": [
+        "T2 hyperintensity of the posterior pituitary",
+        "T2 hypointensity of the anterior pituitary",
+        "A dural tail along the planum sphenoidale",
+        "Ring-enhancing suprasellar cyst with calcification"
+      ],
+      "correctOption": 1,
+      "explanation": "Iron causes characteristic T2/T2* hypointensity (signal loss) of the anterior pituitary. A dural tail suggests meningioma, and a calcified ring-enhancing suprasellar cyst suggests craniopharyngioma — both alternative structural diagnoses that MRI also helps exclude."
+    },
+    {
+      "id": "cr-027-tf1",
+      "type": "true_false",
+      "subtopic": "Adrenal testing",
+      "statement": "A normal cortisol response to a standard 250 µg ACTH stimulation test reliably excludes recent-onset secondary adrenal insufficiency.",
+      "correctAnswer": false,
+      "explanation": "False. In recent secondary adrenal insufficiency the adrenals have not yet atrophied and can still respond to exogenous ACTH, so the standard test may be falsely normal. The insulin tolerance test is the gold standard for the HPA axis, and the low-dose (1 µg) ACTH test is more sensitive for partial/recent deficiency."
+    },
+    {
+      "id": "cr-027-tf2",
+      "type": "true_false",
+      "subtopic": "Sex-steroid replacement",
+      "statement": "Sex-steroid replacement should be offered to this 41-year-old with hypogonadism, generally continued until the average age of natural menopause.",
+      "correctAnswer": true,
+      "explanation": "True. In a young hypogonadal woman, estrogen (plus a progestogen if the uterus is present) is given to protect bone and cardiovascular health and quality of life, and is generally continued until ~50-52 years — distinct from elective postmenopausal HRT decisions."
+    },
+    {
+      "id": "cr-027-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Replacement safety",
+      "assertion": "Levothyroxine should not be started before glucocorticoid replacement in this patient.",
+      "reason": "Thyroid hormone increases the metabolic clearance of and tissue demand for cortisol, which can precipitate an adrenal crisis in someone with untreated secondary adrenal insufficiency.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion: because thyroid hormone raises cortisol clearance/demand, giving levothyroxine first to a cortisol-deficient patient can trigger an adrenal crisis, so glucocorticoid must be replaced first. Hence option 0."
+    },
+    {
+      "id": "cr-027-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Genetics",
+      "assertion": "A single heterozygous HFE mutation is a sufficient explanation for this patient's ferritin of >2000.",
+      "reason": "Classic high-penetrance HFE hemochromatosis is caused by C282Y homozygosity, whereas a single HFE allele usually causes little or no iron overload.",
+      "correctOption": 3,
+      "explanation": "The assertion is false: a single HFE allele rarely produces severe overload, so it cannot adequately explain ferritin >2000. The reason is true — classic disease is C282Y homozygous and single heterozygotes load little iron — which is exactly why the heterozygous result is insufficient and further (non-HFE) testing is needed. False assertion, true reason = option 3."
+    }
+  ]
+}
