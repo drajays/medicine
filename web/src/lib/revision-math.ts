@@ -77,12 +77,8 @@
  *     itemId: string
  *     rating: RecallRating
  *     reviewedAt: number
- *     durationMs?: number
- *     prevStability: number
- *     prevInterval: number
- *     newStability: number
- *     newInterval: number
- *     rpsAtReview: number
+ *     timeToRevealMs: number | null  // capped pre-reveal fluency; null if no reveal
+ *     prevStability / newStability / …
  *   }
  *
  * ─── RPS FORMULA (pseudocode) ────────────────────────────────────────────────
@@ -157,6 +153,9 @@ export interface ReviewRecord {
   itemId: string
   rating: RecallRating
   reviewedAt: number
+  /** Pre-answer fluency: item shown → reveal (capped). Null if never revealed. */
+  timeToRevealMs: number | null
+  /** @deprecated use timeToRevealMs — kept for older persisted backups */
   durationMs?: number
   prevStability: number
   prevInterval: number

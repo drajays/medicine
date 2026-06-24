@@ -21,6 +21,23 @@ import {
   type RPSBreakdown,
   type Tag,
 } from '@/lib/revision-math'
+import {
+  aggregateTimeToReveal,
+  rollingAverageMs,
+  type TimeToRevealStats,
+} from '@/lib/timeToReveal'
+
+export interface ItemRevealStats {
+  lastMs: number | null
+  rollingAvgMs: number | null
+  reviewCount: number
+}
+
+function revealMsFromRecord(r: ReviewRecord): number | null {
+  if (r.timeToRevealMs != null) return r.timeToRevealMs
+  if (r.durationMs != null) return r.durationMs
+  return null
+}
 
 export interface RevisionSession {
   id: string
@@ -111,12 +128,14 @@ interface RevisionState {
   lastStudyDate: string | null
   dailyStats: Record<string, DailyStats>
   sessionHistory: SessionHistoryEntry[]
+  showTimeAfterReveal: boolean
 
   addItem: (item: Omit<RevisionStudyItem, 'createdAt'> & { createdAt?: number }) => void
   updateItem: (id: string, patch: Partial<RevisionStudyItem>) => void
   deleteItem: (id: string) => void
-  recordReview: (itemId: string, rating: RecallRating, durationMs?: number) => void
+  recordReview: (itemId: string, rating: RecallRating, timeToRevealMs: number | null) => void
   bootstrapFromMarks: (marks: Record<string, ItemMark>) => void
+  setShowTimeAfterReveal: (show: boolean) => void
 
   startTriage: (limit?: number) => void
   startRevisionMode: (options?: RevisionModeOptions) => void
@@ -129,6 +148,8 @@ interface RevisionState {
   getDueCount: () => number
   getSubjectSummary: () => SubjectSummary[]
   getTodayStats: () => TodayStats
+  getTodayTimeToRevealStats: () => TimeToRevealStats
+  getItemRevealStats: (itemId: string) => ItemRevealStats
   getItemBreakdown: (itemId: string) => RPSBreakdown | null
   getCurrentSessionItem: () => RevisionStudyItem | null
 }
@@ -143,6 +164,7 @@ export const useRevisionStore = create<RevisionState>()(
       lastStudyDate: null,
       dailyStats: {},
       sessionHistory: [],
+      showTimeAfterReveal: true,
 
       addItem: (item) => {
         const now = Date.now()
@@ -165,7 +187,7 @@ export const useRevisionStore = create<RevisionState>()(
         set({ items })
       },
 
-      recordReview: (itemId, rating, durationMs) => {
+      recordReview: (itemId, rating, timeToRevealMs) => {
         const item = get().items[itemId]
         if (!item) return
 
@@ -177,7 +199,7 @@ export const useRevisionStore = create<RevisionState>()(
           itemId,
           rating,
           reviewedAt,
-          durationMs,
+          timeToRevealMs,
           prevStability: item.stability,
           prevInterval: item.interval,
           newStability: next.stability,
@@ -201,7 +223,7 @@ export const useRevisionStore = create<RevisionState>()(
         const day = daily[today] ?? { date: today, reviewed: 0, totalRating: 0, sessionMs: 0 }
         day.reviewed += 1
         day.totalRating += rating
-        day.sessionMs += durationMs ?? 0
+        day.sessionMs += timeToRevealMs ?? 0
         daily[today] = day
 
         const { streak, lastStudyDate } = updateStreak(get().lastStudyDate, get().streak, today)
@@ -212,7 +234,7 @@ export const useRevisionStore = create<RevisionState>()(
           nextSession = {
             ...session,
             reviewedCount: session.reviewedCount + 1,
-            sessionMs: session.sessionMs + (durationMs ?? 0),
+            sessionMs: session.sessionMs + (timeToRevealMs ?? 0),
             currentIndex: session.currentIndex + 1,
           }
         }
@@ -226,6 +248,8 @@ export const useRevisionStore = create<RevisionState>()(
           session: nextSession,
         })
       },
+
+      setShowTimeAfterReveal: (show) => set({ showTimeAfterReveal: show }),
 
       bootstrapFromMarks: (marks) => {
         const now = Date.now()
@@ -398,6 +422,26 @@ export const useRevisionStore = create<RevisionState>()(
         }
       },
 
+      getTodayTimeToRevealStats: () => {
+        const today = todayKey()
+        const samples = get()
+          .reviews.filter((r) => todayKey(r.reviewedAt) === today)
+          .map(revealMsFromRecord)
+        return aggregateTimeToReveal(samples)
+      },
+
+      getItemRevealStats: (itemId) => {
+        const itemReviews = get()
+          .reviews.filter((r) => r.itemId === itemId)
+          .map(revealMsFromRecord)
+        const withMs = itemReviews.filter((v): v is number => v != null)
+        return {
+          lastMs: withMs.length ? withMs[withMs.length - 1]! : null,
+          rollingAvgMs: rollingAverageMs(withMs, 5),
+          reviewCount: itemReviews.length,
+        }
+      },
+
       getItemBreakdown: (itemId) => {
         const item = get().items[itemId]
         if (!item) return null
@@ -421,6 +465,7 @@ export const useRevisionStore = create<RevisionState>()(
         lastStudyDate: state.lastStudyDate,
         dailyStats: state.dailyStats,
         sessionHistory: state.sessionHistory,
+        showTimeAfterReveal: state.showTimeAfterReveal,
       }),
     },
   ),

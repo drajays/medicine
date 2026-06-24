@@ -7,6 +7,11 @@ import { RPSInspector } from '@/components/RPSInspector'
 import { itemMarkLabel } from '@/lib/studyMarks'
 import { RECALL_LABELS, type RecallRating } from '@/lib/revision-math'
 import { REVISION_MODES } from '@/lib/revisionQueue'
+import {
+  TIME_TO_REVEAL_CAP_MS,
+  computeTimeToRevealMs,
+  formatTimeToReveal,
+} from '@/lib/timeToReveal'
 import { cn } from '@/lib/utils'
 import type { StudyItem } from '@/lib/types'
 
@@ -115,13 +120,16 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
   const getItemBreakdown = useRevisionStore((s) => s.getItemBreakdown)
   const recordReview = useRevisionStore((s) => s.recordReview)
   const endSession = useRevisionStore((s) => s.endSession)
+  const showTimeAfterReveal = useRevisionStore((s) => s.showTimeAfterReveal)
+  const setShowTimeAfterReveal = useRevisionStore((s) => s.setShowTimeAfterReveal)
   const loadChapter = useAppStore((s) => s.loadChapter)
   const chapters = useAppStore((s) => s.chapters)
   const markRevised = useAppStore((s) => s.markRevised)
 
   const revisionItem = getCurrentSessionItem()
   const [revealed, setRevealed] = useState(false)
-  const [reviewStart, setReviewStart] = useState(Date.now())
+  const [itemShownAt, setItemShownAt] = useState(Date.now())
+  const [timeToRevealMs, setTimeToRevealMs] = useState<number | null>(null)
   const [contentItem, setContentItem] = useState<StudyItem | null>(null)
 
   const breakdown = revisionItem ? getItemBreakdown(revisionItem.id) : null
@@ -139,7 +147,8 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
       return
     }
     setRevealed(false)
-    setReviewStart(Date.now())
+    setTimeToRevealMs(null)
+    setItemShownAt(Date.now())
 
     const chapter = chapters[revisionItem.chapterId]
     if (chapter) {
@@ -151,6 +160,13 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
     })
   }, [open, revisionItem?.id, revisionItem?.chapterId, chapters, loadChapter])
 
+  const handleReveal = useCallback(() => {
+    const revealedAt = Date.now()
+    const ms = computeTimeToRevealMs(itemShownAt, revealedAt)
+    setRevealed(true)
+    setTimeToRevealMs(ms)
+  }, [itemShownAt])
+
   const handleClose = useCallback(() => {
     endSession()
     onClose()
@@ -158,14 +174,11 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
 
   const handleRate = useCallback(
     (rating: RecallRating) => {
-      if (!revisionItem || !revealed) return
-      const durationMs = Date.now() - reviewStart
-      recordReview(revisionItem.id, rating, durationMs)
+      if (!revisionItem || !revealed || timeToRevealMs == null) return
+      recordReview(revisionItem.id, rating, timeToRevealMs)
       markRevised(revisionItem.id)
-      setRevealed(false)
-      setReviewStart(Date.now())
     },
-    [revisionItem, revealed, reviewStart, recordReview, markRevised],
+    [revisionItem, revealed, timeToRevealMs, recordReview, markRevised],
   )
 
   useEffect(() => {
@@ -181,7 +194,7 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
 
       if (e.key === ' ' && !isComplete && revisionItem) {
         e.preventDefault()
-        if (!revealed) setRevealed(true)
+        if (!revealed) handleReveal()
         return
       }
 
@@ -194,7 +207,7 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
 
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [open, revealed, isComplete, revisionItem, handleClose, handleRate])
+  }, [open, revealed, isComplete, revisionItem, handleClose, handleRate, handleReveal])
 
   if (!open) return null
 
@@ -225,6 +238,18 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
           <X className="h-5 w-5" />
         </button>
       </header>
+
+      <div className="flex items-center justify-end gap-2 border-b clinical-border px-4 py-1.5 md:px-6">
+        <label className="flex cursor-pointer items-center gap-2 text-[10px] clinical-muted">
+          <input
+            type="checkbox"
+            checked={showTimeAfterReveal}
+            onChange={(e) => setShowTimeAfterReveal(e.target.checked)}
+            className="rounded border-slate-300"
+          />
+          Show time after reveal
+        </label>
+      </div>
 
       <main className="flex-1 overflow-y-auto px-4 py-6 md:px-8">
         <AnimatePresence mode="wait">
@@ -276,7 +301,7 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
                 {!revealed && (
                   <button
                     type="button"
-                    onClick={() => setRevealed(true)}
+                    onClick={handleReveal}
                     className="mt-6 inline-flex items-center gap-2 rounded-lg border clinical-border px-4 py-2 text-sm font-semibold transition-colors hover:bg-slate-50 dark:hover:bg-zinc-800"
                   >
                     <Eye className="h-4 w-4" />
@@ -286,9 +311,21 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
                     </kbd>
                   </button>
                 )}
+                {revealed && showTimeAfterReveal && timeToRevealMs != null && (
+                  <p className="mt-4 text-xs tabular-nums clinical-muted">
+                    Time to reveal: {formatTimeToReveal(timeToRevealMs)} (capped at{' '}
+                    {TIME_TO_REVEAL_CAP_MS / 1000}s)
+                  </p>
+                )}
               </div>
 
-              {breakdown && <RPSInspector breakdown={breakdown} defaultOpen={false} />}
+              {breakdown && (
+                <RPSInspector
+                  breakdown={breakdown}
+                  itemId={revisionItem.id}
+                  defaultOpen={false}
+                />
+              )}
 
               {revealed && (
                 <motion.div

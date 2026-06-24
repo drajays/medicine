@@ -1,10 +1,16 @@
 import { ChevronDown, ChevronUp, Microscope } from 'lucide-react'
 import { useState } from 'react'
+import { useRevisionStore } from '@/stores/revisionStore'
+import {
+  TIME_TO_REVEAL_CAP_MS,
+  formatTimeToReveal,
+} from '@/lib/timeToReveal'
 import { cn } from '@/lib/utils'
 import type { RPSBreakdown } from '@/lib/revision-math'
 
 interface RPSInspectorProps {
   breakdown: RPSBreakdown
+  itemId?: string
   className?: string
   defaultOpen?: boolean
 }
@@ -21,8 +27,16 @@ function Row({ label, value, detail }: { label: string; value: string; detail?: 
   )
 }
 
-export function RPSInspector({ breakdown, className, defaultOpen = true }: RPSInspectorProps) {
+export function RPSInspector({
+  breakdown,
+  itemId,
+  className,
+  defaultOpen = true,
+}: RPSInspectorProps) {
   const [open, setOpen] = useState(defaultOpen)
+  const revealStats = useRevisionStore((s) =>
+    itemId ? s.getItemRevealStats(itemId) : null,
+  )
 
   return (
     <div className={cn('clinical-card overflow-hidden', className)}>
@@ -45,6 +59,27 @@ export function RPSInspector({ breakdown, className, defaultOpen = true }: RPSIn
 
       {open && (
         <div className="space-y-4 border-t clinical-border px-4 py-4">
+          {revealStats && revealStats.reviewCount > 0 && (
+            <section className="space-y-2 rounded-lg bg-slate-50 px-3 py-3 dark:bg-zinc-900/60">
+              <p className="text-[10px] font-bold uppercase tracking-wider clinical-muted">
+                Time to reveal (fluency)
+              </p>
+              <Row
+                label="Last reveal"
+                value={formatTimeToReveal(revealStats.lastMs)}
+                detail={`Capped at ${TIME_TO_REVEAL_CAP_MS / 1000}s`}
+              />
+              <Row
+                label="Rolling avg (last 5)"
+                value={formatTimeToReveal(revealStats.rollingAvgMs)}
+                detail={`${revealStats.reviewCount} review${revealStats.reviewCount === 1 ? '' : 's'} on record`}
+              />
+              <p className="text-[10px] leading-relaxed clinical-muted">
+                Stats only — does not change RPS or FSRS intervals.
+              </p>
+            </section>
+          )}
+
           <section className="space-y-2">
             <p className="text-[10px] font-bold uppercase tracking-wider clinical-muted">
               Additive score

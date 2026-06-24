@@ -1,8 +1,9 @@
 import { type ReactNode, useEffect } from 'react'
-import { Brain, Clock, Flame, Target, TrendingUp } from 'lucide-react'
+import { Brain, Clock, Flame, Target, Timer, TrendingUp } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { useRevisionStore } from '@/stores/revisionStore'
 import { RevisionMode } from '@/components/RevisionMode'
+import { formatTimeToReveal } from '@/lib/timeToReveal'
 import { cn } from '@/lib/utils'
 
 function formatDuration(ms: number): string {
@@ -54,6 +55,36 @@ function HealthBar({ percent, label }: { percent: number; label: string }) {
   )
 }
 
+function BucketBar({
+  label,
+  count,
+  total,
+  color,
+}: {
+  label: string
+  count: number
+  total: number
+  color: string
+}) {
+  const pct = total > 0 ? Math.round((count / total) * 100) : 0
+  return (
+    <div>
+      <div className="mb-1 flex items-center justify-between text-xs">
+        <span className="font-medium">{label}</span>
+        <span className="tabular-nums clinical-muted">
+          {count} {total > 0 ? `(${pct}%)` : ''}
+        </span>
+      </div>
+      <div className="h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-zinc-800">
+        <div
+          className={cn('h-full rounded-full transition-all duration-300', color)}
+          style={{ width: `${pct}%` }}
+        />
+      </div>
+    </div>
+  )
+}
+
 /** Revise landing: Revision Mode + session stats + subject health. */
 export function ReviseDashboard() {
   const marks = useAppStore((s) => s.marks)
@@ -61,6 +92,7 @@ export function ReviseDashboard() {
   const getDueCount = useRevisionStore((s) => s.getDueCount)
   const getSubjectSummary = useRevisionStore((s) => s.getSubjectSummary)
   const getTodayStats = useRevisionStore((s) => s.getTodayStats)
+  const getTodayTimeToRevealStats = useRevisionStore((s) => s.getTodayTimeToRevealStats)
 
   useEffect(() => {
     bootstrapFromMarks(marks)
@@ -68,6 +100,7 @@ export function ReviseDashboard() {
 
   const dueCount = getDueCount()
   const today = getTodayStats()
+  const revealToday = getTodayTimeToRevealStats()
   const subjects = getSubjectSummary()
 
   return (
@@ -98,6 +131,49 @@ export function ReviseDashboard() {
           sub={dueCount > 0 ? `${dueCount} due now` : 'All caught up'}
         />
       </div>
+
+      {revealToday.count > 0 && (
+        <section className="clinical-card p-5 md:p-6">
+          <div className="flex items-center gap-2">
+            <Timer className="h-4 w-4 text-amber-600" />
+            <h3 className="text-sm font-bold">Time to reveal today</h3>
+          </div>
+          <p className="mt-1 text-xs clinical-muted">
+            Pre-answer fluency — stats only, does not affect scheduling.
+          </p>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            <div>
+              <p className="text-[10px] font-bold uppercase tracking-wider clinical-muted">
+                Average
+              </p>
+              <p className="mt-1 text-2xl font-bold tabular-nums">
+                {formatTimeToReveal(revealToday.avgMs)}
+              </p>
+              <p className="text-xs clinical-muted">{revealToday.count} reveals</p>
+            </div>
+            <div className="space-y-3">
+              <BucketBar
+                label="< 10s"
+                count={revealToday.buckets.under10s}
+                total={revealToday.count}
+                color="bg-emerald-500"
+              />
+              <BucketBar
+                label="10–30s"
+                count={revealToday.buckets.s10to30}
+                total={revealToday.count}
+                color="bg-amber-500"
+              />
+              <BucketBar
+                label="30–120s"
+                count={revealToday.buckets.s30to120}
+                total={revealToday.count}
+                color="bg-orange-500"
+              />
+            </div>
+          </div>
+        </section>
+      )}
 
       {subjects.length > 0 && (
         <section className="clinical-card p-5 md:p-6">
