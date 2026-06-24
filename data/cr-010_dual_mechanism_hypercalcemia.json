@@ -397,7 +397,12 @@
       "type": "mcq",
       "subtopic": "Pharmacology",
       "stem": "After starting prednisolone for the calcitriol-mediated component, when should calcium begin to fall?",
-      "options": ["Within minutes", "Within 2–5 days", "Only after 4–6 weeks", "It will not change calcium"],
+      "options": [
+        "Within minutes",
+        "Within 2–5 days",
+        "Only after 4–6 weeks",
+        "It will not change calcium"
+      ],
       "correctOption": 1,
       "explanation": "Glucocorticoids halt new calcitriol synthesis; as existing 1,25(OH)2D is cleared and gut absorption slows, calcium typically begins to decline within about 2–5 days."
     },
@@ -468,6 +473,347 @@
       "statement": "Given the palliative course, denosumab is best dosed on the upward drift of calcium rather than a rigid calendar schedule.",
       "correctAnswer": true,
       "explanation": "True. Dosing to the calcium trend (with roughly monthly calcium and creatinine, and closer ionized-calcium checks early after steroids) helps avoid iatrogenic hypocalcemia from over-frequent denosumab in severe CKD."
+    },
+    {
+      "id": "cr-010-n4",
+      "type": "note",
+      "subtopic": "Vicious Cycle",
+      "title": "How hypercalcemia destroys the kidney that must clear it — the AKI vicious cycle",
+      "content": "Hypercalcemia is itself nephrotoxic through multiple mechanisms: (1) Nephrogenic diabetes insipidus — calcium activates the renal CaSR in the collecting duct, downregulating aquaporin-2 and causing polyuria, dehydration, and pre-renal AKI. (2) Renal vasoconstriction — calcium activates CaSR in the afferent arteriole, reducing GFR. (3) Tubular calcium deposition — direct tubular epithelial toxicity and nephrocalcinosis. The result is a vicious cycle: hypercalcemia → AKI → reduced renal calcium excretion (calciuria falls) → worsening hypercalcemia → further AKI. In this patient, eGFR ~15–20 means nearly all renal calciuretic reserve is exhausted — every mg/dL of calcium above normal has nowhere to go. This is why the pharmacological approaches (steroids to cut gut influx, continued denosumab to cut bone efflux) become the only viable levers; the kidney, the natural safety valve, is effectively offline.",
+      "keyPoints": [
+        "Hypercalcemia → nephrogenic DI (aquaporin-2 ↓) → polyuria → dehydration → pre-renal AKI.",
+        "Renal CaSR activation → afferent vasoconstriction → ↓GFR → ↓calciuresis → worsening hypercalcemia.",
+        "At eGFR ~15–20, the renal calcium excretion 'safety valve' is almost fully lost — pharmacological control is mandatory."
+      ]
+    },
+    {
+      "id": "cr-010-n5",
+      "type": "note",
+      "subtopic": "Cytokine Biology",
+      "title": "Why IFN-γ and IL-2 are the upstream switches for macrophage 1α-hydroxylase",
+      "content": "The granulomatous macrophage CYP27B1 upregulation is not autonomous in the molecular sense — it is driven by cytokines produced by activated T-lymphocytes reacting to tumor antigens (in malignancy-associated sarcoid-like reaction) or mycobacterial antigens (in TB). IFN-γ is the dominant inducer: it binds macrophage IFNGR1/2, activates STAT1, and transcriptionally upregulates CYP27B1 several-fold. IL-2 and TNF-α amplify this response. ACE (angiotensin-converting enzyme) is produced by the same activated macrophages and serves as a surrogate biomarker. Glucocorticoids work one layer downstream by suppressing STAT1 signalling and reducing the transcriptional drive on CYP27B1 — but they also reduce lymphocyte activation and IFN-γ production upstream. This explains why anti-cytokine approaches (e.g., chloroquine/hydroxychloroquine, which disrupt endosomal antigen presentation and reduce IFN-γ stimulus) can serve as steroid-sparing agents.",
+      "keyPoints": [
+        "IFN-γ (T-cell derived) → STAT1 → CYP27B1 transcription in macrophages — the molecular switch.",
+        "ACE reflects total activated macrophage burden; tracks with calcitriol production capacity.",
+        "Glucocorticoids suppress both STAT1 and upstream IFN-γ/IL-2 — hence broad and rapid efficacy."
+      ]
+    },
+    {
+      "id": "cr-010-n6",
+      "type": "note",
+      "subtopic": "Steroid-Sparing Strategy",
+      "title": "Hydroxychloroquine as a steroid-sparing agent in granulomatous hypercalcemia",
+      "content": "Once calcium is stabilized on prednisolone, the goal in a palliative patient is to minimize steroid dose (GI bleeding risk on varices, immunosuppression with CLD, glycaemic dysregulation, further bone loss). Hydroxychloroquine (HCQ) 200–400 mg/day is a viable steroid-sparing agent in calcitriol-mediated hypercalcemia. Its mechanism: HCQ accumulates in lysosomes and disrupts endosomal antigen processing in macrophages, reducing MHC-II antigen presentation → less T-cell IFN-γ production → less CYP27B1 induction. It also has a direct effect on reducing macrophage cytokine output. Onset is slower (4–8 weeks) than steroids, so it cannot replace the acute phase but can allow tapering to lower prednisolone doses (5–7.5 mg/day) over 2–3 months. Important caveats in CLD: HCQ is hepatically metabolized — monitor liver function. In severe CKD, some HCQ accumulation occurs; dose at 200 mg/day and monitor. It is generally QT-safe at standard doses but avoid co-administration with QT-prolonging drugs.",
+      "keyPoints": [
+        "HCQ disrupts lysosomal antigen presentation → ↓IFN-γ → ↓CYP27B1 — slower but steroid-sparing.",
+        "Start once calcium is stabilized; allows steroid taper to 5–7.5 mg/day over 2–3 months.",
+        "Monitor LFTs in CLD; dose-reduce to 200 mg/day in severe CKD; check for QT interaction."
+      ]
+    },
+    {
+      "id": "cr-010-n7",
+      "type": "note",
+      "subtopic": "Rescue Therapy",
+      "title": "Why calcitonin only works for 48–72 h — the tachyphylaxis trap",
+      "content": "Salmon calcitonin (4–8 IU/kg SC/IM every 6–12 hours) has a role as a bridge agent in the first 24–48 hours of severe hypercalcemia (calcium >14–15 mg/dL with neurological or cardiac symptoms). Mechanism: direct osteoclast CaSR stimulation → rapid osteoclast retraction; also increases renal calcium excretion. Onset: within hours. However, tachyphylaxis (escape) develops in virtually all patients within 48–72 hours due to CaSR receptor downregulation and post-receptor uncoupling — making it unsuitable as a stand-alone or maintenance agent. In this patient, it should be used only as a bridge to buy time while waiting for steroids (2–5 days) and denosumab (days to weeks) to work. Renal clearance is preserved even in CKD — calcitonin is peptide-cleaved in kidney and peripheral tissues, so it does not accumulate significantly. No hepatotoxicity. It is safe in CLD. Note: does not affect calcitriol-mediated gut absorption at all — hence still inadequate as monotherapy.",
+      "keyPoints": [
+        "Calcitonin is a bridge agent only: onset hours, but tachyphylaxis within 48–72 h renders it ineffective as maintenance.",
+        "Safe in CKD (peptide clearance) and CLD — bridge while awaiting steroid/denosumab effect.",
+        "No effect on gut absorption; does NOT reduce calcitriol production."
+      ]
+    },
+    {
+      "id": "cr-010-n8",
+      "type": "note",
+      "subtopic": "Rescue Therapy",
+      "title": "Low-calcium dialysis as a rescue for refractory, life-threatening hypercalcemia",
+      "content": "If serum calcium >15–16 mg/dL persists with acute neurological compromise (confusion, coma) or hemodynamic instability, and pharmacological measures are insufficient or too slow given severe CKD/AKI, low-calcium (0 or 1.25 mmol/L bath) haemodialysis or CRRT can acutely lower calcium within hours. In this patient with eGFR ~15–20, dialysis is technically feasible but must be weighed against: (a) palliative goals of care — invasive vascular access and HD sessions may not align with a comfort-focused approach; (b) thrombocytopenia (on romiplostim) — anticoagulation during HD requires care; (c) CLD/portal hypertension — haemodynamic shifts during HD may precipitate variceal haemorrhage or hepatorenal deterioration. Accordingly, dialysis is a last resort in this palliative patient, reserved for immediately life-threatening hypercalcaemia unresponsive to pharmacological measures, and requires explicit goals-of-care discussion.",
+      "keyPoints": [
+        "Low-calcium dialysis lowers calcium rapidly (hours) in life-threatening hypercalcemia with CKD.",
+        "In this palliative patient: weigh against thrombocytopenia anticoagulation risk, HD haemodynamics with portal HTN, and goals of care.",
+        "Reserve for immediately life-threatening hypercalcemia after explicit GOC discussion."
+      ]
+    },
+    {
+      "id": "cr-010-n9",
+      "type": "note",
+      "subtopic": "Iatrogenic Hypocalcemia Management",
+      "title": "How to rescue steroid + denosumab-induced hypocalcemia in this physiologically constrained patient",
+      "content": "Once both drivers are controlled (steroids blocking gut absorption, denosumab blocking bone efflux), the calcium can crash — the 'hungry bone' phenomenon plus CKD's inability to mount the 1,25(OH)2D response needed to drive gut absorption back up. Key management: (1) Prophylactic oral calcium supplementation 500–1000 mg elemental calcium/day — paradoxically safe now that the gut is pharmacologically 'gated' by steroids (absorption will be low). (2) Active vitamin D supplement — use small-dose calcitriol (0.25 mcg/day) NOT native vitamin D; in CKD with suppressed renal 1α-hydroxylase, exogenous 25-OH-D cannot be activated renally and would be futile. Calcitriol bypasses this step. (3) Magnesium replacement: hypomagnesaemia (common in CLD and diuretic use) impairs PTH secretion and peripheral PTH action — correct to >0.8 mmol/L before assuming hypocalcemia is purely calcium-driven. (4) Monitor ionized calcium (not total) given hypoalbuminaemia in CLD. (5) If severe symptomatic hypocalcemia (tetany, QTc prolongation, seizures): IV calcium gluconate 10 mL 10% over 10 min, then continuous infusion — avoiding bolus repeat in the same IV line as phosphate-containing fluids.",
+      "keyPoints": [
+        "Calcitriol (0.25 mcg/day), NOT native vitamin D, is the active supplement of choice in CKD for prophylaxis.",
+        "Correct magnesium first — hypoMg impairs PTH secretion and worsens hypocalcemia.",
+        "Monitor ionized calcium in CLD/hypoalbuminaemia; have IV calcium gluconate ready for symptomatic rescue."
+      ]
+    },
+    {
+      "id": "cr-010-n10",
+      "type": "note",
+      "subtopic": "Bone Turnover & Oncology",
+      "title": "Letrozole, aromatase inhibition, and the paradox of bone loss in a patient who already has bone disease",
+      "content": "Letrozole (aromatase inhibitor, AI) suppresses peripheral oestrogen synthesis in post-menopausal women, reducing ER+ breast cancer recurrence. However, oestrogen is critical for bone homeostasis: it suppresses osteoclast differentiation, promotes osteoclast apoptosis, and enhances osteoblast survival. Letrozole therefore accelerates bone resorption, increasing fracture risk and potentially augmenting PTHrP-driven osteolysis in bone metastases. This creates a therapeutic paradox: the drug that controls the cancer (and thus reduces PTHrP over time) also independently worsens the bone leak. Practically, this reinforces the need for continued antiresorptive therapy (denosumab) throughout letrozole use — not just for hypercalcemia but for metastasis-related skeletal events. The oncological benefit of letrozole still far outweighs this bone risk in ER+ metastatic disease, but the interaction must be recognised when titrating denosumab in this case.",
+      "keyPoints": [
+        "Letrozole (AI) suppresses oestrogen → ↑osteoclast activity → worsens bone resorption, compounding PTHrP-driven osteolysis.",
+        "Reinforces the case for continuous antiresorptive coverage (denosumab) throughout AI therapy.",
+        "Paradox: letrozole controls cancer (reduces PTHrP source) but simultaneously opens the bone leak — net balance guides ongoing use."
+      ]
+    },
+    {
+      "id": "cr-010-n11",
+      "type": "note",
+      "subtopic": "Diagnostics & Differential",
+      "title": "Expanding the differential: IgG4-related disease and checkpoint inhibitor-associated granulomatous disease",
+      "content": "Two additional differential diagnoses deserve explicit exclusion in this patient: (1) IgG4-Related Disease (IgG4-RD): can cause systemic granulomatous-like inflammation with elevated serum IgG4 (>135 mg/dL), fibrosis, and organomegaly. Unlike sarcoid, IgG4-RD typically has dense fibrosis on histology (storiform pattern, obliterative phlebitis) and is exquisitely steroid-responsive. Checking serum IgG4 is straightforward and should be added if not done. Importantly, IgG4-RD does not produce elevated ACE, which argues against it here, but it can co-exist with malignancy. (2) Immune Checkpoint Inhibitor (ICI)-associated granulomatous disease: increasingly recognised as cancer immunotherapy expands. ICIs (anti-PD-1, anti-CTLA-4) can induce sarcoid-like reactions, hypercalcemia, and elevated calcitriol — and would not respond to ATT. If this patient had received any immunotherapy (even briefly), this must be documented. Although she is currently on letrozole alone, prior ICI use warrants review of treatment history. Both diagnoses would respond to steroids (similar to sarcoid-like reaction), but their recognition clarifies aetiology and refines long-term management.",
+      "keyPoints": [
+        "Check serum IgG4 to exclude IgG4-RD — elevated IgG4 + storiform fibrosis + no ACE elevation distinguishes it from sarcoid.",
+        "ICI-associated granulomatous disease mimics sarcoidosis — review the patient's full oncology treatment history for prior immunotherapy.",
+        "Both would respond to steroids; recognition clarifies aetiology but does not change the immediate plan."
+      ]
+    },
+    {
+      "id": "cr-010-n12",
+      "type": "note",
+      "subtopic": "Treatment Response Monitoring",
+      "title": "Using 1,25(OH)₂D as a real-time biomarker of therapeutic response — and what phosphate tells you",
+      "content": "Serial 1,25(OH)2D measurement is underused as a treatment response biomarker. After starting prednisolone: expect 1,25(OH)2D to begin falling within 48–72 hours; a fall of >20–30% from baseline by day 5–7 confirms that the macrophage CYP27B1 is being suppressed. If calcitriol does not fall despite adequate steroid dosing, consider: (a) insufficient dose (escalate prednisolone to 40 mg/day), (b) a second, steroid-resistant calcitriol source (e.g., tumour-derived 1α-hydroxylase in some lymphomas or granulomatous malignancies — rare in breast cancer but documented), or (c) non-compliance. Phosphate also provides a useful indirect signal: in calcitriol-mediated hypercalcemia, gut phosphate absorption also rises (like calcium), causing hyperphosphatemia or inappropriately high-normal phosphate despite hypercalcemia (where PTH-driven phosphaturia would normally cause hypophosphatemia). As steroids work and calcitriol falls, phosphate normalises — a concordant signal of gut-absorption control. Track: Ca, iCa, PO4, and 1,25(OH)2D at baseline, day 3, day 7, and day 14.",
+      "keyPoints": [
+        "1,25(OH)2D should fall >20–30% by day 5–7 after starting prednisolone — failure to fall = inadequate dose or steroid-resistant source.",
+        "Phosphate is a concordant gut-absorption biomarker: high-normal/elevated PO4 in calcitriol hypercalcemia; normalises as steroids take effect.",
+        "Bone turnover markers (CTx, P1NP) track denosumab efficacy: CTx should be suppressed within 1–2 weeks of dosing."
+      ]
+    },
+    {
+      "id": "cr-010-n13",
+      "type": "note",
+      "subtopic": "Steroid Safety in CLD",
+      "title": "Specific steroid risks in cirrhosis/portal hypertension that must be actively managed",
+      "content": "Initiating prednisolone in a cirrhotic with portal hypertension requires anticipatory management of several steroid-specific risks: (1) GI bleeding from varices: steroids impair prostaglandin-mediated mucosal protection. In a patient with known varices/portal HTN, start a proton pump inhibitor prophylactically. Inform the patient and family of haematemesis as a warning sign. (2) Fluid retention and ascites: corticosteroids cause sodium and water retention (mineralocorticoid effect), which can worsen ascites and precipitate hepatic decompensation. Consider low-salt diet, spironolactone continuation (if not already on it); avoid high-dose saline co-administration. (3) Glucose metabolism: cirrhosis already impairs hepatic glucose regulation; steroids will likely cause steroid-induced hyperglycaemia — monitor fasting and post-meal glucose daily initially, escalating diabetes medications as needed. (4) Adrenal axis: cirrhosis can cause relative adrenal insufficiency; while not a reason to avoid prednisolone (it replaces the deficit), it means the adrenal axis may not recover quickly during taper — taper slowly (reduce by 5 mg every 2 weeks). (5) Infection risk: consider trimethoprim-sulfamethoxazole 160/800 mg 3×/week for Pneumocystis jirovecii prophylaxis if dose >20 mg/day for >4 weeks.",
+      "keyPoints": [
+        "Start PPI for variceal/mucosal protection with steroids in portal HTN.",
+        "Monitor glucose daily — steroid hyperglycaemia is near-universal at prednisolone ≥20 mg in cirrhosis.",
+        "Consider PCP prophylaxis (TMP-SMX) if >20 mg/day steroids anticipated for >4 weeks."
+      ]
+    },
+    {
+      "id": "cr-010-sa11",
+      "type": "shortanswer",
+      "subtopic": "Vicious Cycle",
+      "question": "Describe the vicious cycle by which hypercalcemia worsens the AKI that then worsens the hypercalcemia.",
+      "answer": "Hypercalcemia activates renal collecting duct CaSR → aquaporin-2 downregulation → nephrogenic DI → polyuria → dehydration → pre-renal AKI. Simultaneously, afferent arteriolar CaSR activation reduces GFR directly. Reduced GFR cuts calciuresis, allowing calcium to accumulate further, which then drives further renal vasoconstriction — a self-amplifying loop."
+    },
+    {
+      "id": "cr-010-sa12",
+      "type": "shortanswer",
+      "subtopic": "Cytokine Biology",
+      "question": "Which cytokine is the primary inducer of macrophage CYP27B1 in granulomatous disease, and how do glucocorticoids interrupt this pathway?",
+      "answer": "IFN-γ (produced by activated T-lymphocytes) signals via IFNGR1/2 → STAT1 phosphorylation → CYP27B1 gene transcription in macrophages. Glucocorticoids suppress STAT1 signalling and reduce upstream IFN-γ and IL-2 production, removing the transcriptional drive on CYP27B1 and halting ectopic calcitriol synthesis."
+    },
+    {
+      "id": "cr-010-sa13",
+      "type": "shortanswer",
+      "subtopic": "Rescue Therapy",
+      "question": "Why does calcitonin lose effectiveness within 48–72 hours of administration?",
+      "answer": "Tachyphylaxis — the osteoclast calcium-sensing receptor (CaSR) and downstream cAMP pathway become rapidly downregulated (receptor internalisation and post-receptor uncoupling) with continuous calcitonin exposure. This escape phenomenon makes calcitonin reliable only as a bridge in the first 48 hours, not as a maintenance agent."
+    },
+    {
+      "id": "cr-010-sa14",
+      "type": "shortanswer",
+      "subtopic": "Iatrogenic Hypocalcemia",
+      "question": "Why should exogenous calcitriol (not native vitamin D) be used to prevent hypocalcemia in this CKD patient once steroids and denosumab are both active?",
+      "answer": "Native vitamin D (cholecalciferol or ergocalciferol) requires renal 1α-hydroxylase to become active 1,25(OH)2D. With eGFR ~15–20, renal 1α-hydroxylation is severely impaired and steroids have suppressed macrophage ectopic 1α-hydroxylase, so native vitamin D remains inert. Exogenous calcitriol bypasses both steps and directly activates gut calcium absorption without requiring renal or macrophage activation."
+    },
+    {
+      "id": "cr-010-sa15",
+      "type": "shortanswer",
+      "subtopic": "Treatment Response",
+      "question": "Why is phosphate a useful concordant biomarker when monitoring the response to steroids in this patient?",
+      "answer": "Calcitriol drives gut absorption of both calcium and phosphate through vitamin D response elements in intestinal epithelial cells. In calcitriol-mediated hypercalcemia, serum phosphate is high-normal or elevated. As steroids reduce calcitriol and gut absorption is controlled, phosphate levels normalise — providing a useful, concordant signal of therapeutic efficacy that complements the falling calcium."
+    },
+    {
+      "id": "cr-010-sa16",
+      "type": "shortanswer",
+      "subtopic": "Diagnostics",
+      "question": "What additional serum test and histological feature would distinguish IgG4-related disease from the sarcoid-like reaction in this patient?",
+      "answer": "Serum IgG4 >135 mg/dL and histological demonstration of dense storiform fibrosis with obliterative phlebitis and >10 IgG4-positive plasma cells per high-power field would favour IgG4-RD. In contrast, non-caseating epithelioid granulomas without dense fibrosis, elevated ACE, and absent IgG4 staining favour sarcoidosis or malignancy-associated sarcoid-like reaction."
+    },
+    {
+      "id": "cr-010-m13",
+      "type": "mcq",
+      "subtopic": "Rescue Therapy",
+      "stem": "A patient with calcium 15.5 mg/dL and confusion is started on salmon calcitonin. On Day 3, the calcium rises again despite continued calcitonin. What is the most likely explanation?",
+      "options": [
+        "The calcitonin dose was too low",
+        "Tachyphylaxis due to osteoclast CaSR receptor downregulation",
+        "The patient developed renal tubular acidosis",
+        "Calcitonin stimulates parathyroid hormone secretion as a rebound"
+      ],
+      "correctOption": 1,
+      "explanation": "Tachyphylaxis to calcitonin occurs predictably within 48–72 hours due to CaSR receptor internalisation and post-receptor uncoupling in osteoclasts. This escape is the primary reason calcitonin cannot be a maintenance agent and must be used only as a bridge while waiting for steroids and denosumab to act."
+    },
+    {
+      "id": "cr-010-m14",
+      "type": "mcq",
+      "subtopic": "Cytokine Biology",
+      "stem": "Which cytokine most directly drives macrophage CYP27B1 (1α-hydroxylase) upregulation in granulomatous hypercalcemia?",
+      "options": [
+        "IL-6",
+        "IFN-γ via STAT1 signalling",
+        "IL-10",
+        "TNF-α alone"
+      ],
+      "correctOption": 1,
+      "explanation": "IFN-γ, produced by activated T-lymphocytes recognising granuloma antigens, signals through IFNGR1/2 → STAT1 phosphorylation → transcriptional activation of CYP27B1 in macrophages. This is the dominant molecular switch; TNF-α and IL-2 are amplifiers but not the primary inducer."
+    },
+    {
+      "id": "cr-010-m15",
+      "type": "mcq",
+      "subtopic": "Steroid-Sparing Strategy",
+      "stem": "After calcium stabilisation with prednisolone, which of the following is the most appropriate steroid-sparing agent to allow tapering in this granulomatous hypercalcemia?",
+      "options": [
+        "Cinacalcet 30 mg daily",
+        "Hydroxychloroquine 200–400 mg daily",
+        "Intravenous zoledronic acid",
+        "High-dose ergocalciferol"
+      ],
+      "correctOption": 1,
+      "explanation": "Hydroxychloroquine disrupts lysosomal antigen processing in macrophages, reducing T-cell IFN-γ production and thereby indirectly reducing CYP27B1 induction. It is a validated steroid-sparing agent in calcitriol-mediated granulomatous hypercalcemia, allowing gradual prednisolone taper to ≤5–7.5 mg/day."
+    },
+    {
+      "id": "cr-010-m16",
+      "type": "mcq",
+      "subtopic": "Letrozole & Bone",
+      "stem": "This patient is on letrozole. What is the mechanistic interaction between letrozole and bone resorption in the context of her hypercalcemia?",
+      "options": [
+        "Letrozole directly stimulates osteoclasts via its aromatic ring",
+        "Letrozole suppresses oestrogen, removing a key brake on osteoclast activity, compounding PTHrP-driven bone resorption",
+        "Letrozole increases PTHrP secretion from the primary tumour",
+        "Letrozole directly inhibits denosumab binding to RANKL"
+      ],
+      "correctOption": 1,
+      "explanation": "Oestrogen promotes osteoclast apoptosis and suppresses RANKL expression on osteoblasts. Letrozole, by eliminating peripheral oestrogen synthesis, removes this brake on osteoclastic activity — compounding the PTHrP-driven bone resorption from the metastases. This reinforces the need for continuous denosumab cover during AI therapy."
+    },
+    {
+      "id": "cr-010-m17",
+      "type": "mcq",
+      "subtopic": "Iatrogenic Hypocalcemia",
+      "stem": "This patient develops carpopedal spasm and a QTc of 520 ms on Day 6 after starting prednisolone + continuing denosumab. Ionized calcium is 0.87 mmol/L. What is the immediate priority?",
+      "options": [
+        "Stop denosumab immediately",
+        "Give IV calcium gluconate 10 mL 10% over 10 minutes and start a calcium infusion",
+        "Restart a high-dose vitamin D supplement",
+        "Reduce the prednisolone dose first"
+      ],
+      "correctOption": 1,
+      "explanation": "Symptomatic hypocalcemia with QTc >500 ms is a cardiac emergency. IV calcium gluconate 10% 10 mL over 10 min corrects acute hypocalcemia within minutes; a continuous infusion maintains levels while the underlying cause (combined gut + bone block in CKD) is managed. Oral calcium, calcitriol, and magnesium correction follow as maintenance. Denosumab cannot be 'undone' rapidly but should be dose-spaced going forward."
+    },
+    {
+      "id": "cr-010-m18",
+      "type": "mcq",
+      "subtopic": "Treatment Response",
+      "stem": "On Day 7 after starting prednisolone 30 mg/day, the 1,25(OH)2D has fallen from 237 to 180 pmol/L (only 24% reduction). Calcium remains 12.2 mg/dL. What should you do?",
+      "options": [
+        "Accept this response — 24% is adequate at one week",
+        "Increase prednisolone to 40 mg/day or add hydroxychloroquine, and reassess at Day 14",
+        "Switch immediately to low-calcium dialysis",
+        "Stop all therapy and transition to comfort care only"
+      ],
+      "correctOption": 1,
+      "explanation": "A <30% fall in 1,25(OH)2D by Day 7 with persistent hypercalcemia suggests sub-optimal CYP27B1 suppression — either the steroid dose is insufficient or a partially steroid-resistant source is present. Escalating prednisolone to 40 mg/day (with close monitoring for steroid toxicity in CLD) or adding HCQ is the appropriate step. Dialysis is a last resort; transition to comfort care is premature without optimising the pharmacological approach."
+    },
+    {
+      "id": "cr-010-m19",
+      "type": "mcq",
+      "subtopic": "Diagnostics",
+      "stem": "Which combination of histological and serum findings would most specifically favour IgG4-related disease over sarcoid-like reaction in this patient?",
+      "options": [
+        "High ACE + non-caseating granuloma + elevated IgG4",
+        "Storiform fibrosis + obliterative phlebitis + serum IgG4 >135 mg/dL + absent ACE elevation",
+        "Caseating granuloma + positive TB IGRA + suppressed calcitriol",
+        "Diffuse plasma cell infiltrate + M-spike on SPEP"
+      ],
+      "correctOption": 1,
+      "explanation": "IgG4-RD is characterised histologically by dense storiform fibrosis, obliterative phlebitis, and abundant IgG4-positive plasma cells (>10 per HPF), accompanied by serum IgG4 >135 mg/dL. Unlike sarcoid, IgG4-RD does not typically elevate ACE. Option A is a hybrid that cannot specify: high ACE favours sarcoid rather than IgG4-RD."
+    },
+    {
+      "id": "cr-010-m20",
+      "type": "mcq",
+      "subtopic": "Steroid Safety in CLD",
+      "stem": "A day after starting prednisolone 30 mg in this cirrhotic patient, she develops haematemesis. Which of the following is the most likely precipitant from the prednisolone?",
+      "options": [
+        "Prednisolone caused a sudden rise in serum calcium precipitating variceal rupture",
+        "Prednisolone impaired prostaglandin-mediated gastric mucosal protection, lowering the threshold for variceal or gastric erosion haemorrhage",
+        "Prednisolone directly increased portal pressure by raising systemic blood pressure",
+        "Prednisolone caused thrombocytopenia worsening the coagulopathy"
+      ],
+      "correctOption": 1,
+      "explanation": "Glucocorticoids inhibit COX-mediated prostaglandin (PGE2) synthesis in the gastric and oesophageal mucosa, reducing the cytoprotective mucous barrier. In a patient already at risk from portal hypertension, this lowered threshold can precipitate haemorrhage from varices or gastric erosions. PPI co-prescription is mandatory in this setting."
+    },
+    {
+      "id": "cr-010-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Vicious Cycle",
+      "assertion": "Hypercalcemia itself worsens the AKI in this patient.",
+      "reason": "Calcium activates the renal collecting duct CaSR, downregulates aquaporin-2, causing nephrogenic DI and dehydration, and also activates afferent arteriolar CaSR reducing GFR — both reducing calciuresis and perpetuating hypercalcemia.",
+      "correctOption": 0,
+      "explanation": "Both A and R are true, and R correctly explains A. The hypercalcemia–AKI vicious cycle is a critical concept: the very organ (kidney) needed to excrete excess calcium is being disabled by the excess calcium itself, removing the safety valve and making pharmacological control essential."
+    },
+    {
+      "id": "cr-010-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Letrozole & Bone",
+      "assertion": "Denosumab should be continued even when letrozole is providing oncological control.",
+      "reason": "Letrozole suppresses oestrogen, removing its inhibitory effect on osteoclasts and independently accelerating bone resorption — compounding the PTHrP-driven osteolysis from metastases.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason correctly explains the assertion. Letrozole reduces PTHrP over time by controlling the cancer, but simultaneously worsens bone resorption by oestrogen deficiency — creating a net need for continuous antiresorptive coverage with denosumab throughout AI therapy."
+    },
+    {
+      "id": "cr-010-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Iatrogenic Hypocalcemia",
+      "assertion": "Magnesium correction is a necessary step before concluding that hypocalcemia in this patient is purely calcium-driven.",
+      "reason": "Hypomagnesaemia impairs both PTH secretion (by blocking the voltage-dependent calcium channels needed for PTH granule exocytosis) and peripheral PTH action (receptor post-translational processing), making calcium repletion ineffective until magnesium is restored.",
+      "correctOption": 0,
+      "explanation": "Both A and R are true and the reason is correct. This is a critical bedside pearl: refractory hypocalcemia that does not respond to calcium infusion should always trigger a magnesium check. In CLD (reduced intake, third spacing) and with diuretics, hypomagnesaemia is common and must be corrected alongside calcium."
+    },
+    {
+      "id": "cr-010-tf11",
+      "type": "true_false",
+      "subtopic": "Cytokine Biology",
+      "statement": "Angiotensin-converting enzyme (ACE) is produced by the epithelioid macrophages of granulomas and its level correlates with total granuloma burden and calcitriol-producing capacity.",
+      "correctAnswer": true,
+      "explanation": "True. ACE is secreted by the same activated macrophages (epithelioid cells) that overexpress CYP27B1 (1α-hydroxylase). A higher ACE reflects a greater mass of activated granulomatous macrophages and therefore greater capacity for ectopic calcitriol production. ACE can be used to track disease activity over time in parallel with 1,25(OH)2D."
+    },
+    {
+      "id": "cr-010-tf12",
+      "type": "true_false",
+      "subtopic": "Steroid-Sparing Strategy",
+      "statement": "Hydroxychloroquine works rapidly (within 24–48 hours) and can replace prednisolone in the acute phase of severe hypercalcemia.",
+      "correctAnswer": false,
+      "explanation": "False. HCQ acts by accumulating in lysosomes over weeks to disrupt antigen processing — its onset is 4–8 weeks, far too slow for acute hypercalcemia management. It is a steroid-sparing maintenance adjunct, not an acute replacement. Prednisolone remains the backbone of acute calcitriol-mediated hypercalcemia control."
+    },
+    {
+      "id": "cr-010-tf13",
+      "type": "true_false",
+      "subtopic": "Rescue Therapy",
+      "statement": "Calcitonin is safe to administer in this patient with eGFR ~15–20 because it is not renally cleared.",
+      "correctAnswer": true,
+      "explanation": "True. Salmon calcitonin is a peptide that undergoes proteolytic cleavage in the kidneys and peripheral tissues — it does not accumulate in CKD, and no dose adjustment is required. Its safety profile in renal impairment makes it a viable bridge agent despite severe CKD, with the caveat that tachyphylaxis limits its useful window to ~48 hours."
+    },
+    {
+      "id": "cr-010-tf14",
+      "type": "true_false",
+      "subtopic": "Treatment Response",
+      "statement": "If 1,25(OH)2D fails to fall by ≥20% after 7 days of adequate prednisolone dosing, a steroid-resistant source of calcitriol should be considered.",
+      "correctAnswer": true,
+      "explanation": "True. Sarcoid and sarcoid-like reactions are typically steroid-responsive. Failure to suppress calcitriol proportionately suggests: insufficient dose, non-compliance, or a steroid-resistant calcitriol source (e.g., tumour-derived 1α-hydroxylase — rare in breast cancer but documented in some granulomatous malignancies, or lymphoma co-existing with the primary). Escalating dose or adding HCQ is the next step before assuming steroid resistance."
+    },
+    {
+      "id": "cr-010-tf15",
+      "type": "true_false",
+      "subtopic": "Steroid Safety in CLD",
+      "statement": "Proton pump inhibitor co-prescription is optional when starting prednisolone in this patient with portal hypertension.",
+      "correctAnswer": false,
+      "explanation": "False. PPI co-prescription is mandatory, not optional. Steroids suppress prostaglandin-mediated mucosal protection, lowering the threshold for gastric and oesophageal variceal haemorrhage in portal hypertension — a potentially life-threatening event. A PPI should be started simultaneously with prednisolone in any patient with portal hypertension or known varices."
     }
   ]
 }
