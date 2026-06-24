@@ -6,7 +6,9 @@ import {
 } from '@/lib/revision-math'
 import type { PrioritizedEntry } from '@/stores/revisionStore'
 
-export type RevisionModePreset = 'smart' | 'critical' | 'due' | 'weak' | 'flagged'
+export type RevisionModePreset = 'manual' | 'smart' | 'mistakes' | 'critical' | 'due' | 'weak'
+
+export type RevisionModeGroup = 'manual' | 'auto'
 
 export interface RevisionModeOptions {
   preset: RevisionModePreset
@@ -15,46 +17,64 @@ export interface RevisionModeOptions {
 
 export interface RevisionModeMeta {
   preset: RevisionModePreset
+  group: RevisionModeGroup
   title: string
   description: string
   emoji: string
 }
 
 export const REVISION_MODES: RevisionModeMeta[] = [
+  // ── Manual: exactly what you chose to revise ──────────────────────────────
+  {
+    preset: 'manual',
+    group: 'manual',
+    title: 'Marked for revision',
+    description:
+      'Only items you explicitly marked Action = Revise. Your hand-picked list — nothing you already know sneaks in.',
+    emoji: '📌',
+  },
+  // ── Auto: the engine decides from your mistakes + the RPS matrix ───────────
   {
     preset: 'smart',
+    group: 'auto',
     title: 'Smart Auto',
     description:
-      'Best overall queue — RPS plus due-date boost, lapse history, and weak-point tags. Recommended default.',
+      'Best overall queue — RPS plus due-date boost, lapse history, and weak-point tags. Recommended.',
     emoji: '🧠',
   },
   {
+    preset: 'mistakes',
+    group: 'auto',
+    title: 'My Mistakes',
+    description:
+      'Cards you actually got wrong in review (lapses) plus ones you flagged Guessed or Concept gap.',
+    emoji: '❌',
+  },
+  {
     preset: 'critical',
+    group: 'auto',
     title: 'Critical Now',
     description: 'Only items with RPS ≥ 55 — highest urgency, hazard clusters, or severe overdue pressure.',
     emoji: '🔴',
   },
   {
     preset: 'due',
+    group: 'auto',
     title: 'Due Today',
     description: 'FSRS-scheduled items past their review date — spaced repetition catch-up.',
     emoji: '⏰',
   },
   {
     preset: 'weak',
+    group: 'auto',
     title: 'Weak Points',
     description: 'Tagged Doubt, Guessed, Concept gap, or Tough — your self-identified gaps.',
     emoji: '🎯',
   },
-  {
-    preset: 'flagged',
-    title: 'All Flagged',
-    description: 'Every item you marked for revision or attention — full pass by RPS order.',
-    emoji: '📌',
-  },
 ]
 
 const WEAK_TAGS: Tag[] = ['Doubt', 'ConceptGap', 'Guessed', 'Tough']
+const MISTAKE_TAGS: Tag[] = ['Guessed', 'ConceptGap']
 
 /** Composite score for Smart Auto — transparent weighting on top of RPS. */
 export function computeSmartScore(entry: PrioritizedEntry, now = Date.now()): number {
@@ -74,13 +94,18 @@ export function filterByPreset(
   now = Date.now(),
 ): PrioritizedEntry[] {
   switch (preset) {
+    case 'manual':
+      return entries.filter((e) => e.item.manual)
+    case 'mistakes':
+      return entries.filter(
+        (e) => e.item.lapseCount > 0 || e.item.tags.some((t) => MISTAKE_TAGS.includes(t)),
+      )
     case 'critical':
       return entries.filter((e) => isCriticalRPS(e.breakdown.rps))
     case 'due':
       return entries.filter((e) => isDue(e.item, now))
     case 'weak':
       return entries.filter((e) => e.item.tags.some((t) => WEAK_TAGS.includes(t)))
-    case 'flagged':
     case 'smart':
       return entries
   }

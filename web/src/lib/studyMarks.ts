@@ -124,6 +124,8 @@ export interface ReviseEntry {
  * guessed, concept gap) or marked important.
  */
 export function markWarrantsRevision(mark: ItemMark): boolean {
+  // Explicit opt-out wins: "No revise" means the user already knows it.
+  if (mark.action === 'no_revise') return false
   if (mark.priority === 'important') return true
   for (const axis of MARK_AXES) {
     if (!axis.attentionValue) continue

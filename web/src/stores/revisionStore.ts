@@ -344,8 +344,9 @@ export const useRevisionStore = create<RevisionState>()(
           const reviewed = (existing?.reviewCount ?? 0) > 0
 
           if (!mark) {
-            // Mark gone: keep the card only if it has review history (tags cleared).
-            if (existing && reviewed) next[id] = { ...existing, tags: [] }
+            // Mark gone: keep the card only if it has review history (tags cleared,
+            // and it's no longer a manual pick).
+            if (existing && reviewed) next[id] = { ...existing, tags: [], manual: false }
             continue
           }
 
@@ -354,11 +355,13 @@ export const useRevisionStore = create<RevisionState>()(
           if (!existing && !mark.chapterId) continue // can't create without context
 
           const tags = marksToTags(mark)
+          const manual = mark.action === 'revise' // explicit "I want to revise this"
 
           if (existing) {
             next[id] = {
               ...existing,
               tags, // replace — reflects the mark's current state, not a union
+              manual,
               title: mark.label ?? existing.title,
               subject: mark.chapterTitle ?? existing.subject,
               itemType: mark.itemType ?? existing.itemType,
@@ -372,6 +375,7 @@ export const useRevisionStore = create<RevisionState>()(
               title: mark.label ?? id,
               itemType: mark.itemType ?? 'note',
               tags,
+              manual,
               stability: 2,
               difficulty: 5,
               interval: 1,

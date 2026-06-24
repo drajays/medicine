@@ -179,6 +179,9 @@ export interface RevisionStudyItem {
   reviewCount: number
   lapseCount: number
   createdAt: number
+  /** True when the user explicitly marked this item Action = Revise (a manual
+   * pick), as opposed to being surfaced only by the auto/mistake matrix. */
+  manual?: boolean
 }
 
 /** Engine StudyItem — distinct from chapter JSON `StudyItem` in `@/lib/types`. */

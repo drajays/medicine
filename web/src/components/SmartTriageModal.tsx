@@ -1,11 +1,11 @@
-import { useEffect, useState, useCallback } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { X, Eye, Keyboard, Undo2 } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { useRevisionStore } from '@/stores/revisionStore'
 import { RPSInspector } from '@/components/RPSInspector'
 import { itemMarkLabel } from '@/lib/studyMarks'
-import { RECALL_LABELS, type RecallRating } from '@/lib/revision-math'
+import { RECALL_LABELS, type RecallRating, type RevisionStudyItem } from '@/lib/revision-math'
 import { REVISION_MODES } from '@/lib/revisionQueue'
 import {
   TIME_TO_REVEAL_CAP_MS,
@@ -114,10 +114,142 @@ function TriageItemBody({
   )
 }
 
+/**
+ * One card in the triage session. Owns its own reveal/timer state; the parent
+ * remounts it (via a position-based key) when the card changes, so state resets
+ * without any synchronising effect. The mount effect only seeds a ref-based
+ * "shown at" timestamp — no render-time impurity, no setState-in-effect.
+ */
+function TriageCard({
+  revisionItem,
+  contentItem,
+  onRate,
+}: {
+  revisionItem: RevisionStudyItem
+  contentItem: StudyItem
+  onRate: (rating: RecallRating, timeToRevealMs: number) => void
+}) {
+  const showTimeAfterReveal = useRevisionStore((s) => s.showTimeAfterReveal)
+  const getItemBreakdown = useRevisionStore((s) => s.getItemBreakdown)
+  const [revealed, setRevealed] = useState(false)
+  const [timeToRevealMs, setTimeToRevealMs] = useState<number | null>(null)
+  const shownAtRef = useRef(0)
+
+  useEffect(() => {
+    shownAtRef.current = Date.now()
+  }, [])
+
+  const reveal = useCallback(() => {
+    if (revealed) return
+    setTimeToRevealMs(computeTimeToRevealMs(shownAtRef.current || Date.now(), Date.now()))
+    setRevealed(true)
+  }, [revealed])
+
+  const rate = useCallback(
+    (rating: RecallRating) => {
+      if (!revealed || timeToRevealMs == null) return
+      onRate(rating, timeToRevealMs)
+    },
+    [revealed, timeToRevealMs, onRate],
+  )
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === ' ') {
+        e.preventDefault()
+        reveal()
+        return
+      }
+      if (revealed && /^[0-5]$/.test(e.key)) {
+        e.preventDefault()
+        rate(Number(e.key) as RecallRating)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [reveal, rate, revealed])
+
+  const breakdown = getItemBreakdown(revisionItem.id)
+
+  return (
+    <>
+      <div className="clinical-card p-6 md:p-8">
+        <div className="mb-4 flex items-center gap-2 text-xs font-semibold uppercase clinical-muted">
+          <span>{revisionItem.itemType}</span>
+          {revisionItem.tags.map((t) => (
+            <span
+              key={t}
+              className="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] text-amber-800 dark:bg-amber-950/50 dark:text-amber-200"
+            >
+              {t}
+            </span>
+          ))}
+        </div>
+        <TriageItemBody item={contentItem} revealed={revealed} />
+        {!revealed && (
+          <button
+            type="button"
+            onClick={reveal}
+            className="mt-6 inline-flex items-center gap-2 rounded-lg border clinical-border px-4 py-2 text-sm font-semibold transition-colors hover:bg-slate-50 dark:hover:bg-zinc-800"
+          >
+            <Eye className="h-4 w-4" />
+            Reveal
+            <kbd className="rounded border px-1.5 py-0.5 text-[10px] font-normal clinical-muted">
+              Space
+            </kbd>
+          </button>
+        )}
+        {revealed && showTimeAfterReveal && timeToRevealMs != null && (
+          <p className="mt-4 text-xs tabular-nums clinical-muted">
+            Time to reveal: {formatTimeToReveal(timeToRevealMs)} (capped at{' '}
+            {TIME_TO_REVEAL_CAP_MS / 1000}s)
+          </p>
+        )}
+      </div>
+
+      {breakdown && <RPSInspector breakdown={breakdown} itemId={revisionItem.id} defaultOpen={false} />}
+
+      {revealed && (
+        <motion.div
+          initial={{ opacity: 0, y: 4 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.12 }}
+          className="clinical-card p-4"
+        >
+          <p className="mb-3 text-xs font-bold uppercase tracking-wider clinical-muted">
+            Rate your recall
+          </p>
+          <div className="grid grid-cols-3 gap-2 sm:grid-cols-6">
+            {([0, 1, 2, 3, 4, 5] as RecallRating[]).map((r) => (
+              <button
+                key={r}
+                type="button"
+                onClick={() => rate(r)}
+                className={cn(
+                  'flex flex-col items-center rounded-lg px-2 py-3 text-white transition-transform active:scale-95',
+                  RATING_COLORS[r],
+                )}
+              >
+                <span className="text-lg font-bold tabular-nums">{r}</span>
+                <span className="mt-0.5 text-[9px] font-semibold uppercase leading-tight">
+                  {RECALL_LABELS[r]}
+                </span>
+              </button>
+            ))}
+          </div>
+          <p className="mt-3 flex items-center gap-1.5 text-[10px] clinical-muted">
+            <Keyboard className="h-3 w-3" />
+            Keys 0–5 to rate · U to undo · Esc to exit · ratings 0–2 re-queue the card
+          </p>
+        </motion.div>
+      )}
+    </>
+  )
+}
+
 export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
   const session = useRevisionStore((s) => s.session)
   const getCurrentSessionItem = useRevisionStore((s) => s.getCurrentSessionItem)
-  const getItemBreakdown = useRevisionStore((s) => s.getItemBreakdown)
   const recordReview = useRevisionStore((s) => s.recordReview)
   const undoLastReview = useRevisionStore((s) => s.undoLastReview)
   const canUndo = useRevisionStore((s) => s.undoStack.length > 0)
@@ -129,12 +261,8 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
   const markRevised = useAppStore((s) => s.markRevised)
 
   const revisionItem = getCurrentSessionItem()
-  const [revealed, setRevealed] = useState(false)
-  const [itemShownAt, setItemShownAt] = useState(Date.now())
-  const [timeToRevealMs, setTimeToRevealMs] = useState<number | null>(null)
-  const [contentItem, setContentItem] = useState<StudyItem | null>(null)
+  const chapterId = revisionItem?.chapterId
 
-  const breakdown = revisionItem ? getItemBreakdown(revisionItem.id) : null
   const progress = session
     ? { current: Math.min(session.currentIndex + 1, session.itemIds.length), total: session.itemIds.length }
     : null
@@ -143,31 +271,15 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
     ? (REVISION_MODES.find((m) => m.preset === session.mode)?.title ?? 'Revision')
     : 'Revision'
 
+  // Ensure the current card's chapter JSON is loaded (store action only — no
+  // component setState here, so the content item can be derived during render).
   useEffect(() => {
-    if (!open || !revisionItem) {
-      setContentItem(null)
-      return
-    }
-    setRevealed(false)
-    setTimeToRevealMs(null)
-    setItemShownAt(Date.now())
+    if (open && chapterId && !chapters[chapterId]) loadChapter(chapterId)
+  }, [open, chapterId, chapters, loadChapter])
 
-    const chapter = chapters[revisionItem.chapterId]
-    if (chapter) {
-      setContentItem(chapter.items.find((i) => i.id === revisionItem.id) ?? null)
-      return
-    }
-    loadChapter(revisionItem.chapterId).then((data) => {
-      setContentItem(data?.items.find((i) => i.id === revisionItem.id) ?? null)
-    })
-  }, [open, revisionItem?.id, revisionItem?.chapterId, chapters, loadChapter])
-
-  const handleReveal = useCallback(() => {
-    const revealedAt = Date.now()
-    const ms = computeTimeToRevealMs(itemShownAt, revealedAt)
-    setRevealed(true)
-    setTimeToRevealMs(ms)
-  }, [itemShownAt])
+  const contentItem = revisionItem
+    ? (chapters[revisionItem.chapterId]?.items.find((i) => i.id === revisionItem.id) ?? null)
+    : null
 
   const handleClose = useCallback(() => {
     endSession()
@@ -175,25 +287,20 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
   }, [endSession, onClose])
 
   const handleRate = useCallback(
-    (rating: RecallRating) => {
-      if (!revisionItem || !revealed || timeToRevealMs == null) return
+    (rating: RecallRating, timeToRevealMs: number) => {
+      if (!revisionItem) return
       recordReview(revisionItem.id, rating, timeToRevealMs)
       markRevised(revisionItem.id)
     },
-    [revisionItem, revealed, timeToRevealMs, recordReview, markRevised],
+    [revisionItem, recordReview, markRevised],
   )
 
   const handleUndo = useCallback(() => {
-    if (undoLastReview()) {
-      setRevealed(false)
-      setTimeToRevealMs(null)
-      setItemShownAt(Date.now())
-    }
+    undoLastReview()
   }, [undoLastReview])
 
   useEffect(() => {
     if (!open) return
-
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         e.preventDefault()
@@ -203,26 +310,11 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
       if ((e.key === 'u' || e.key === 'Backspace') && canUndo) {
         e.preventDefault()
         handleUndo()
-        return
-      }
-      if (isComplete) return
-
-      if (e.key === ' ' && !isComplete && revisionItem) {
-        e.preventDefault()
-        if (!revealed) handleReveal()
-        return
-      }
-
-      const digit = Number(e.key)
-      if (digit >= 0 && digit <= 5 && revealed) {
-        e.preventDefault()
-        handleRate(digit as RecallRating)
       }
     }
-
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [open, revealed, isComplete, revisionItem, canUndo, handleClose, handleRate, handleReveal, handleUndo])
+  }, [open, canUndo, handleClose, handleUndo])
 
   if (!open) return null
 
@@ -305,89 +397,14 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
             </motion.div>
           ) : revisionItem && contentItem ? (
             <motion.div
-              key={revisionItem.id}
+              key={`${session?.currentIndex ?? 0}-${revisionItem.id}`}
               initial={{ opacity: 0, y: 6 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -6 }}
               transition={{ duration: 0.16 }}
               className="mx-auto max-w-2xl space-y-5"
             >
-              <div className="clinical-card p-6 md:p-8">
-                <div className="mb-4 flex items-center gap-2 text-xs font-semibold uppercase clinical-muted">
-                  <span>{revisionItem.itemType}</span>
-                  {revisionItem.tags.map((t) => (
-                    <span
-                      key={t}
-                      className="rounded-full bg-amber-100 px-2 py-0.5 text-[10px] text-amber-800 dark:bg-amber-950/50 dark:text-amber-200"
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
-                <TriageItemBody item={contentItem} revealed={revealed} />
-                {!revealed && (
-                  <button
-                    type="button"
-                    onClick={handleReveal}
-                    className="mt-6 inline-flex items-center gap-2 rounded-lg border clinical-border px-4 py-2 text-sm font-semibold transition-colors hover:bg-slate-50 dark:hover:bg-zinc-800"
-                  >
-                    <Eye className="h-4 w-4" />
-                    Reveal
-                    <kbd className="rounded border px-1.5 py-0.5 text-[10px] font-normal clinical-muted">
-                      Space
-                    </kbd>
-                  </button>
-                )}
-                {revealed && showTimeAfterReveal && timeToRevealMs != null && (
-                  <p className="mt-4 text-xs tabular-nums clinical-muted">
-                    Time to reveal: {formatTimeToReveal(timeToRevealMs)} (capped at{' '}
-                    {TIME_TO_REVEAL_CAP_MS / 1000}s)
-                  </p>
-                )}
-              </div>
-
-              {breakdown && (
-                <RPSInspector
-                  breakdown={breakdown}
-                  itemId={revisionItem.id}
-                  defaultOpen={false}
-                />
-              )}
-
-              {revealed && (
-                <motion.div
-                  initial={{ opacity: 0, y: 4 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.12 }}
-                  className="clinical-card p-4"
-                >
-                  <p className="mb-3 text-xs font-bold uppercase tracking-wider clinical-muted">
-                    Rate your recall
-                  </p>
-                  <div className="grid grid-cols-3 gap-2 sm:grid-cols-6">
-                    {([0, 1, 2, 3, 4, 5] as RecallRating[]).map((r) => (
-                      <button
-                        key={r}
-                        type="button"
-                        onClick={() => handleRate(r)}
-                        className={cn(
-                          'flex flex-col items-center rounded-lg px-2 py-3 text-white transition-transform active:scale-95',
-                          RATING_COLORS[r],
-                        )}
-                      >
-                        <span className="text-lg font-bold tabular-nums">{r}</span>
-                        <span className="mt-0.5 text-[9px] font-semibold uppercase leading-tight">
-                          {RECALL_LABELS[r]}
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-                  <p className="mt-3 flex items-center gap-1.5 text-[10px] clinical-muted">
-                    <Keyboard className="h-3 w-3" />
-                    Keys 0–5 to rate · U to undo · Esc to exit · ratings 0–2 re-queue the card
-                  </p>
-                </motion.div>
-              )}
+              <TriageCard revisionItem={revisionItem} contentItem={contentItem} onRate={handleRate} />
             </motion.div>
           ) : (
             <motion.p

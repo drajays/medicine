@@ -72,44 +72,54 @@ export function RevisionMode() {
           </p>
         </div>
 
-        {/* Mode picker */}
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
-          {REVISION_MODES.map((mode) => {
-            const count = countForPreset(allEntries, mode.preset)
-            const active = preset === mode.preset
-            return (
-              <button
-                key={mode.preset}
-                type="button"
-                onClick={() => setPreset(mode.preset)}
-                className={cn(
-                  'clinical-card p-4 text-left transition-all',
-                  active
-                    ? 'ring-2 ring-amber-500 ring-offset-2 ring-offset-[var(--color-clinical-bg-light)] dark:ring-offset-[var(--color-clinical-bg-dark)]'
-                    : 'hover:-translate-y-0.5 hover:shadow-md',
-                )}
-              >
-                <div className="flex items-start justify-between gap-2">
-                  <span className="text-xl" aria-hidden>
-                    {mode.emoji}
-                  </span>
-                  <span
-                    className={cn(
-                      'rounded-full px-2 py-0.5 text-[10px] font-bold tabular-nums',
-                      active
-                        ? 'bg-amber-500 text-white'
-                        : 'bg-slate-100 text-slate-600 dark:bg-zinc-800 dark:text-zinc-300',
-                    )}
-                  >
-                    {count}
-                  </span>
-                </div>
-                <p className="mt-2 text-sm font-semibold">{mode.title}</p>
-                <p className="mt-1 text-xs leading-relaxed clinical-muted">{mode.description}</p>
-              </button>
-            )
-          })}
-        </div>
+        {/* Mode picker — Manual (your picks) vs Auto (mistakes + RPS matrix) */}
+        {(['manual', 'auto'] as const).map((group) => {
+          const modes = REVISION_MODES.filter((m) => m.group === group)
+          return (
+            <div key={group}>
+              <p className="mb-2 px-1 text-[11px] font-bold uppercase tracking-wider clinical-muted">
+                {group === 'manual' ? 'Manual — your picks' : 'Auto — from mistakes & the RPS matrix'}
+              </p>
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
+                {modes.map((mode) => {
+                  const count = countForPreset(allEntries, mode.preset)
+                  const active = preset === mode.preset
+                  return (
+                    <button
+                      key={mode.preset}
+                      type="button"
+                      onClick={() => setPreset(mode.preset)}
+                      className={cn(
+                        'clinical-card p-4 text-left transition-all',
+                        active
+                          ? 'ring-2 ring-amber-500 ring-offset-2 ring-offset-[var(--color-clinical-bg-light)] dark:ring-offset-[var(--color-clinical-bg-dark)]'
+                          : 'hover:-translate-y-0.5 hover:shadow-md',
+                      )}
+                    >
+                      <div className="flex items-start justify-between gap-2">
+                        <span className="text-xl" aria-hidden>
+                          {mode.emoji}
+                        </span>
+                        <span
+                          className={cn(
+                            'rounded-full px-2 py-0.5 text-[10px] font-bold tabular-nums',
+                            active
+                              ? 'bg-amber-500 text-white'
+                              : 'bg-slate-100 text-slate-600 dark:bg-zinc-800 dark:text-zinc-300',
+                          )}
+                        >
+                          {count}
+                        </span>
+                      </div>
+                      <p className="mt-2 text-sm font-semibold">{mode.title}</p>
+                      <p className="mt-1 text-xs leading-relaxed clinical-muted">{mode.description}</p>
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })}
 
         {/* Session size */}
         <div className="flex flex-wrap items-center gap-3">
