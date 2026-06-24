@@ -1,4 +1,4 @@
-import type { ItemMark, StudyFilter, StudyItem } from '@/lib/types'
+import type { ItemMark, StudyItem } from '@/lib/types'
 
 /** The toggle axes that live on ItemMark (excludes the counters/context). */
 export type MarkAxis =
@@ -112,32 +112,6 @@ export function emptyMark(): ItemMark {
 export function progressOf(mark: ItemMark | undefined): 'new' | 'done' | 'revised' {
   if (!mark || mark.timesDone === 0) return 'new'
   return mark.timesRevised > 0 ? 'revised' : 'done'
-}
-
-export function isFilterActive(filter: StudyFilter): boolean {
-  return Object.values(filter).some((v) => v !== undefined)
-}
-
-/** AND across every set facet. */
-export function matchesFilter(
-  mark: ItemMark | undefined,
-  filter: StudyFilter,
-): boolean {
-  for (const axis of MARK_AXES) {
-    const want = filter[axis.key]
-    if (want !== undefined && (mark?.[axis.key] ?? undefined) !== want) return false
-  }
-  if (filter.progress !== undefined && progressOf(mark) !== filter.progress) return false
-  return true
-}
-
-export function applyStudyFilter(
-  items: StudyItem[],
-  marks: Record<string, ItemMark>,
-  filter: StudyFilter,
-): StudyItem[] {
-  if (!isFilterActive(filter)) return items
-  return items.filter((i) => matchesFilter(marks[i.id], filter))
 }
 
 export interface ReviseEntry {

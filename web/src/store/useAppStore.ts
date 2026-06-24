@@ -10,7 +10,6 @@ import type {
   NavRow,
   RawCatalog,
   SearchResult,
-  StudyFilter,
 } from '@/lib/types'
 import { emptyMark, itemMarkLabel, type MarkAxis } from '@/lib/studyMarks'
 import {
@@ -48,7 +47,6 @@ interface AppState {
   flags: Record<string, string>
   feedbackCtx: Record<string, FeedbackCtx>
   marks: Record<string, ItemMark>
-  studyFilter: StudyFilter
   history: (string | null)[]
   historyIndex: number
 
@@ -75,8 +73,6 @@ interface AppState {
   setMark: (itemId: string, axis: MarkAxis, value: string) => void
   markRevised: (itemId: string) => void
   recordSeen: (itemId: string) => void
-  setStudyFilter: (partial: Partial<StudyFilter>) => void
-  clearStudyFilter: () => void
   getMark: (itemId: string) => ItemMark | undefined
   _markCtx: (itemId: string, prev: ItemMark) => Partial<ItemMark>
   exportStudyData: () => StudyDataPayload
@@ -114,7 +110,6 @@ export const useAppStore = create<AppState>()(
       flags: {},
       feedbackCtx: {},
       marks: {},
-      studyFilter: {},
       history: [null],
       historyIndex: 0,
 
@@ -382,10 +377,6 @@ export const useAppStore = create<AppState>()(
           itemType: item.type,
         }
       },
-
-      setStudyFilter: (partial) => set({ studyFilter: { ...get().studyFilter, ...partial } }),
-
-      clearStudyFilter: () => set({ studyFilter: {} }),
 
       getMark: (itemId) => get().marks[itemId],
 

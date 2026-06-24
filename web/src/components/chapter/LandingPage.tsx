@@ -1,10 +1,10 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { ChevronRight, ExternalLink } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { buildSections, type LandingItem, type LandingSection } from '@/lib/sections'
 import { cn } from '@/lib/utils'
-import { reviseCount } from '@/lib/studyMarks'
-import { ReviseHub } from '@/components/chapter/ReviseHub'
+import { useRevisionStore } from '@/stores/revisionStore'
+import { ReviseDashboard } from '@/components/ReviseDashboard'
 import type { HeaderKind } from '@/lib/types'
 
 const REVISE_KEY = '__revise__'
@@ -129,10 +129,16 @@ function SectionGrid({ section }: { section: LandingSection }) {
 export function LandingPage() {
   const navRows = useAppStore((s) => s.navRows)
   const marks = useAppStore((s) => s.marks)
+  const bootstrapFromMarks = useRevisionStore((s) => s.bootstrapFromMarks)
+  const reviseN = useRevisionStore((s) => Object.keys(s.items).length)
+  const criticalN = useRevisionStore((s) => s.getCriticalCount())
   const sections = useMemo(() => buildSections(navRows), [navRows])
   const [activeKey, setActiveKey] = useState<string | null>(null)
 
-  const reviseN = reviseCount(marks)
+  // Keep revision engine in sync when marks change
+  useEffect(() => {
+    bootstrapFromMarks(marks)
+  }, [marks, bootstrapFromMarks])
   const isRevise = activeKey === REVISE_KEY
   const active = sections.find((s) => s.key === activeKey) ?? sections[0]
 
@@ -178,16 +184,18 @@ export function LandingPage() {
               📌
             </span>
             <span className="text-sm font-semibold">Revise</span>
-            {reviseN > 0 && (
+            {(criticalN > 0 || reviseN > 0) && (
               <span
                 className={cn(
                   'rounded-full px-1.5 py-0.5 text-[10px] font-bold tabular-nums',
                   isRevise
                     ? 'bg-white/25 text-white'
-                    : 'bg-amber-100 text-amber-800 dark:bg-amber-950/50 dark:text-amber-200',
+                    : criticalN > 0
+                      ? 'bg-red-100 text-red-800 dark:bg-red-950/50 dark:text-red-300'
+                      : 'bg-amber-100 text-amber-800 dark:bg-amber-950/50 dark:text-amber-200',
                 )}
               >
-                {reviseN}
+                {criticalN > 0 ? criticalN : reviseN}
               </span>
             )}
           </button>
@@ -225,7 +233,7 @@ export function LandingPage() {
       </div>
 
       {isRevise ? (
-        <ReviseHub />
+        <ReviseDashboard />
       ) : (
         <>
           {active.subtitle && (

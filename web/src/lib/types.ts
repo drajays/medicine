@@ -258,18 +258,6 @@ export interface ItemMark {
   itemType?: string
 }
 
-/** A subset of ItemMark axes used to filter items within a chapter. */
-export interface StudyFilter {
-  difficulty?: ItemMark['difficulty']
-  priority?: ItemMark['priority']
-  action?: ItemMark['action']
-  status?: ItemMark['status']
-  method?: ItemMark['method']
-  confidence?: ItemMark['confidence']
-  errorType?: ItemMark['errorType']
-  progress?: 'new' | 'done' | 'revised'
-}
-
 export interface SearchResult {
   id: string
   kind: 'chapter' | 'item'
