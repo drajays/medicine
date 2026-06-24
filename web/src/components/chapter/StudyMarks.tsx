@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { RotateCw, SlidersHorizontal } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { cn } from '@/lib/utils'
@@ -68,14 +67,13 @@ function AxisRow({
 
 /**
  * Per-item study toggles (the 7 minimalist axes) + a "Revised ×N" counter and a
- * New/Done/Revised chip. Collapsed by default to keep cards clean; expands to a
- * small grid of segmented controls. All state is local (persisted store).
+ * New/Done/Revised chip. The segmented controls are always visible (no collapse)
+ * so marking is one tap. All state is local (persisted store).
  */
 export function StudyMarks({ item }: { item: StudyItem }) {
   const mark = useAppStore((s) => s.marks[item.id])
   const setMark = useAppStore((s) => s.setMark)
   const markRevised = useAppStore((s) => s.markRevised)
-  const [open, setOpen] = useState(false)
 
   const axes = axesForType(item.type)
   const progress = progressOf(mark)
@@ -84,20 +82,10 @@ export function StudyMarks({ item }: { item: StudyItem }) {
   return (
     <div className="mt-2 px-1">
       <div className="flex items-center gap-2 text-xs clinical-muted">
-        <button
-          type="button"
-          onClick={() => setOpen((v) => !v)}
-          aria-expanded={open}
-          className={cn(
-            'inline-flex items-center gap-1.5 rounded-md border px-2 py-1 font-medium clinical-border transition-colors',
-            open || setCount
-              ? 'text-[var(--color-clinical-accent)]'
-              : 'hover:text-slate-900 dark:hover:text-zinc-100',
-          )}
-        >
+        <span className="inline-flex items-center gap-1.5 font-medium">
           <SlidersHorizontal className="h-3 w-3" />
           Marks{setCount ? ` · ${setCount}` : ''}
-        </button>
+        </span>
 
         <span
           className={cn(
@@ -119,18 +107,16 @@ export function StudyMarks({ item }: { item: StudyItem }) {
         </button>
       </div>
 
-      {open && (
-        <div className="mt-2 grid grid-cols-1 gap-2 rounded-lg border clinical-border bg-black/[0.015] p-2.5 dark:bg-white/[0.02] sm:grid-cols-2">
-          {axes.map((axis) => (
-            <AxisRow
-              key={axis.key}
-              axis={axis}
-              mark={mark}
-              onSet={(value) => setMark(item.id, axis.key, value)}
-            />
-          ))}
-        </div>
-      )}
+      <div className="mt-2 grid grid-cols-1 gap-2 rounded-lg border clinical-border bg-black/[0.015] p-2.5 dark:bg-white/[0.02] sm:grid-cols-2">
+        {axes.map((axis) => (
+          <AxisRow
+            key={axis.key}
+            axis={axis}
+            mark={mark}
+            onSet={(value) => setMark(item.id, axis.key, value)}
+          />
+        ))}
+      </div>
     </div>
   )
 }
