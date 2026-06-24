@@ -109,6 +109,7 @@ export interface ChapterData {
     headings?: Record<string, string>
     outcomes?: Array<{ definition?: string }>
   }
+  relatedChapters?: Array<{ id: string; title: string }>
 }
 
 export interface NavEntry {

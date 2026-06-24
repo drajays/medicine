@@ -29,6 +29,7 @@ interface AppState {
   revealed: Record<string, boolean>
   bookmarks: Record<string, boolean>
   mcqSelections: Record<string, number | null>
+  ratings: Record<string, number>
   history: (string | null)[]
   historyIndex: number
 
@@ -49,6 +50,7 @@ interface AppState {
   setScrollToItemId: (id: string | null) => void
   toggleReveal: (itemId: string) => void
   selectMcqOption: (itemId: string, option: number) => void
+  rateItem: (itemId: string, n: number) => void
   toggleBookmark: (itemId?: string) => void
   toggleTheme: () => void
   toggleSidebar: () => void
@@ -78,6 +80,7 @@ export const useAppStore = create<AppState>()(
       revealed: {},
       bookmarks: {},
       mcqSelections: {},
+      ratings: {},
       history: [null],
       historyIndex: 0,
 
@@ -241,6 +244,13 @@ export const useAppStore = create<AppState>()(
         })
       },
 
+      rateItem: (itemId, n) => {
+        const ratings = { ...get().ratings }
+        if (n > 0) ratings[itemId] = n
+        else delete ratings[itemId]
+        set({ ratings })
+      },
+
       toggleBookmark: (itemId) => {
         if (!itemId) return
         set({ bookmarks: { ...get().bookmarks, [itemId]: !get().bookmarks[itemId] } })
@@ -320,6 +330,7 @@ export const useAppStore = create<AppState>()(
         revealed: state.revealed,
         bookmarks: state.bookmarks,
         mcqSelections: state.mcqSelections,
+        ratings: state.ratings,
       }),
       // Drop any previously persisted selection so reloads land on the home
       // page even for users whose old localStorage still holds currentChapterId.

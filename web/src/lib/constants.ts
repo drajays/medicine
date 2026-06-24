@@ -7,3 +7,6 @@ export const AR_OPTIONS = [
 ] as const
 
 export const DATA_BASE = `${import.meta.env.BASE_URL}data/`
+
+/** GitHub repo (owner/name) where content flags are filed as issues. */
+export const FLAG_REPO = 'drajays/medicine'

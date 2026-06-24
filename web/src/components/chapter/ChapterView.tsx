@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
+import { Link2 } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { QuestionSkeleton } from '@/components/ui/Skeleton'
 import { ChapterHeader } from '@/components/chapter/ChapterHeader'
@@ -93,6 +94,29 @@ function TabBody({ chapter, tab }: { chapter: ChapterData; tab: ChapterTab }) {
   )
 }
 
+function RelatedChapters({ chapter }: { chapter: ChapterData }) {
+  const selectChapter = useAppStore((s) => s.selectChapter)
+  const related = chapter.relatedChapters
+  if (!related?.length) return null
+  return (
+    <div className="mt-4 flex flex-wrap items-center gap-2">
+      <span className="eyebrow flex items-center gap-1 clinical-muted">
+        <Link2 className="h-3.5 w-3.5" /> Related
+      </span>
+      {related.map((r) => (
+        <button
+          key={r.id}
+          type="button"
+          onClick={() => selectChapter(r.id)}
+          className="rounded-full border border-indigo-200/70 bg-indigo-50/60 px-3 py-1 text-xs font-medium text-indigo-800 transition-colors hover:bg-indigo-100 dark:border-indigo-500/30 dark:bg-indigo-500/10 dark:text-indigo-200 dark:hover:bg-indigo-500/20"
+        >
+          {r.title} →
+        </button>
+      ))}
+    </div>
+  )
+}
+
 export function ChapterView() {
   const chapterLoading = useAppStore((s) => s.chapterLoading)
   const chapter = useAppStore((s) => s.getCurrentChapter())
@@ -144,6 +168,7 @@ export function ChapterView() {
       <ChapterHeader chapter={chapter} kind={kind} />
       {kind === 'case_report' && <CaseDescription chapter={chapter} />}
       {kind === 'trial' && <TrialSummary chapter={chapter} />}
+      <RelatedChapters chapter={chapter} />
       <div className="mt-4">
         <ChapterTabs tabs={tabs} active={tab} onChange={setActiveTab} />
         <motion.div

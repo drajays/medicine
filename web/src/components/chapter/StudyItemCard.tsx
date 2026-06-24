@@ -1,4 +1,5 @@
 import { useAppStore } from '@/store/useAppStore'
+import { ItemFeedback } from '@/components/chapter/ItemFeedback'
 import { NoteContent } from '@/components/question/NoteContent'
 import { McqContent } from '@/components/question/McqContent'
 import {
@@ -50,6 +51,7 @@ export function StudyItemCard({ item, index }: { item: StudyItem; index: number 
           onToggleReveal={toggle}
         />
       ) : null}
+      <ItemFeedback item={item} />
     </div>
   )
 }
