@@ -179,7 +179,7 @@ export function LandingPage() {
 
       {/* Section tabs */}
       <div className="sticky top-0 z-10 -mx-4 mb-5 border-b clinical-border bg-[var(--color-clinical-bg-light)]/95 px-4 backdrop-blur-md dark:bg-[var(--color-clinical-bg-dark)]/95 md:-mx-8 md:px-8">
-        <div className="flex gap-1.5 overflow-x-auto py-2 scrollbar-thin">
+        <div className="flex flex-wrap gap-1.5 py-2">
           <button
             type="button"
             onClick={() => setActiveKey(REVISE_KEY)}
