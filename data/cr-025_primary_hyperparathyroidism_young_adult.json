@@ -1,0 +1,380 @@
+{
+  "id": "cr-025",
+  "reportType": "case_report",
+  "title": "Primary Hyperparathyroidism in a Young Adult: Adenoma vs Hyperplasia, and the Genetics Question",
+  "subtitle": "A Resident/Fellowship Module: confirming PHPT and excluding FHH, single-gland adenoma vs four-gland hyperplasia, intra-operative PTH, when (and how) to test genes at age ≤40, and post-parathyroidectomy follow-up (hungry bone vs hypoparathyroidism)",
+  "section": "Case Reports",
+  "category": "Endocrinology (Parathyroid & Bone)",
+  "authors": "Endocrine fellowship training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "cr-010", "title": "Refractory PTH-Independent Hypercalcemia in Metastatic Breast Cancer" },
+    { "id": "pe-cr-011", "title": "Multiple Endocrine Neoplasia" }
+  ],
+  "patient": {
+    "age": 30,
+    "sex": "Female",
+    "chiefComplaint": "Incidental hypercalcemia on routine labs; mild fatigue and myalgias, no stones or fractures.",
+    "pmh": [
+      "Negative family history of endocrine tumors, hypercalcemia or neck surgery",
+      "No prior neck irradiation",
+      "Serum calcium 11.2 mg/dL (corrected; ULN 10.2), albumin 4.0 g/dL",
+      "Intact PTH 85 pg/mL (ULN 65) — inappropriately high for the calcium",
+      "24-h urine calcium 320 mg with Ca/Cr clearance ratio >0.02 (excludes FHH)",
+      "25-OH vitamin D 28 ng/mL; creatinine normal",
+      "Localisation ambiguous: ultrasound and 4D-CT non-localising / faint left-sided fullness"
+    ],
+    "medications": []
+  },
+  "caseDescription": "A 30-year-old woman is referred for incidental, repeat-confirmed hypercalcemia (corrected calcium 11.2 mg/dL) with an inappropriately high intact PTH (85 pg/mL) — biochemically clear primary hyperparathyroidism (PHPT). Her 24-hour urine calcium is elevated (320 mg) with a calcium/creatinine clearance ratio >0.02, excluding familial hypocalciuric hypercalcemia (FHH). Localisation is ambiguous (non-localising ultrasound and 4D-CT). The teaching questions: is this a single adenoma or four-gland hyperplasia (and therefore a focused vs bilateral operation), should a 30-year-old with a negative family history be evaluated for a hereditary syndrome, what is the correct genetic-testing strategy (targeted panel vs exome sequencing), and how should she be followed after parathyroidectomy — including recognising hungry bone syndrome.",
+  "keyFindings": [
+    "PTH-dependent hypercalcemia (Ca 11.2, PTH 85) = primary hyperparathyroidism",
+    "Elevated 24-h urine calcium with Ca/Cr clearance ratio >0.02 — FHH excluded",
+    "Age 30 — a red flag for hereditary PHPT regardless of family history",
+    "Non-localising imaging — raises the possibility of multigland disease",
+    "Imaging is for surgical planning, not for making the diagnosis"
+  ],
+  "finalDiagnosis": "Biochemically confirmed primary hyperparathyroidism in a young adult (age 30), FHH excluded by elevated urinary calcium. Likely a single-gland adenoma but multigland/hereditary disease must be considered: proceed with surgeon-led exploration (bilateral if imaging is non-localising) using intra-operative PTH, and pursue genetic testing — a targeted endocrine-tumour panel (MEN1, RET, CDC73, CASR, GCM2, CDKN1B) first, with exome sequencing reserved for a negative panel with persisting suspicion. Post-operatively, monitor calcium for hypocalcaemia/hungry bone, repletevitamin D, and define cure vs persistence vs recurrence at the 6-month mark.",
+  "learningObjectives": [
+    "Confirm PHPT biochemically and exclude FHH using the calcium/creatinine clearance ratio before any surgery.",
+    "Differentiate single-gland adenoma from four-gland hyperplasia clinically, by imaging and by intra-operative PTH, and match the operation to each.",
+    "Recognise when to suspect hereditary PHPT (age ≤40, multigland/recurrent disease, atypical histology) even without family history.",
+    "Apply a rational genetic-testing strategy (targeted panel first, exome sequencing second) and know its limits.",
+    "Manage post-parathyroidectomy follow-up, distinguishing hungry bone syndrome from transient hypoparathyroidism and defining cure/persistence/recurrence."
+  ],
+  "items": [
+    {
+      "id": "cr-025-n1",
+      "type": "note",
+      "subtopic": "Diagnosis",
+      "title": "How to confirm PHPT and exclude FHH before doing anything else",
+      "content": "PHPT is a biochemical diagnosis: a raised (albumin-corrected) serum calcium with an inappropriately normal or high intact PTH — PTH that is not suppressed in the face of hypercalcaemia. Before localisation or surgery, the one mimic that must be excluded is familial hypocalciuric hypercalcaemia (FHH), because the two look identical on calcium and PTH yet FHH needs no surgery. The discriminator is urinary calcium handling: calculate the calcium/creatinine clearance ratio. A ratio <0.01 strongly suggests FHH (inappropriately low urinary calcium); a ratio >0.02 — as in this patient (24-h urine calcium 320 mg) — points to PHPT. Note that imaging (ultrasound, 4D-CT, sestamibi) is for surgical planning only and never makes or excludes the diagnosis.",
+      "keyPoints": [
+        "PHPT = high corrected calcium + non-suppressed (inappropriately normal/high) PTH.",
+        "Always exclude FHH first: Ca/Cr clearance ratio <0.01 suggests FHH, >0.02 suggests PHPT.",
+        "Imaging localises for surgery — it does not diagnose PHPT."
+      ]
+    },
+    {
+      "id": "cr-025-n2",
+      "type": "note",
+      "subtopic": "Diagnosis",
+      "title": "Why missing FHH leads to a needless, non-curative neck operation",
+      "content": "FHH is caused by inactivating mutations of the calcium-sensing receptor (CASR), which resets the set-point so the parathyroids and kidney 'see' calcium as low — giving lifelong, benign hypercalcaemia with inappropriately low urinary calcium and a mildly high or normal PTH. The clinical trap is to treat it as PHPT: parathyroidectomy does not cure FHH (the defect is in the receptor, not a tumour), so the patient is exposed to surgery and possible hypoparathyroidism for no benefit. The cheap safeguard is the urinary calcium / Ca:Cr clearance ratio in every hypercalcaemic PTH-dependent patient, and a family history of asymptomatic hypercalcaemia should raise suspicion. Recurrent stones can occasionally coexist as incidental findings but are not typical of FHH.",
+      "keyPoints": [
+        "FHH = inactivating CASR mutation → benign lifelong hypercalcaemia with LOW urinary calcium.",
+        "Parathyroidectomy does NOT cure FHH — operating on it is a classic avoidable error.",
+        "Screen every PTH-dependent hypercalcaemia with the Ca/Cr clearance ratio."
+      ]
+    },
+    {
+      "id": "cr-025-n3",
+      "type": "note",
+      "subtopic": "Adenoma vs hyperplasia",
+      "title": "How to distinguish a single adenoma from four-gland hyperplasia pre-operatively",
+      "content": "The distinction drives the operation, so weigh the (imperfect) clues. A single adenoma is one enlarged clonal gland with the others suppressed/small; it tends to give higher calcium and PTH, often markedly elevated urinary calcium, and concordant localisation on imaging (a single hypoechoic lesion seen on both ultrasound and sestamibi/4D-CT). Four-gland hyperplasia shows all glands enlarged (often asymmetrically), tends toward more modest hypercalcaemia and only mildly elevated PTH, is more often hereditary, and characteristically gives non-localising or multifocal imaging. The pitfall: imaging can miss additional glands and make hyperplasia masquerade as a 'single lesion'. In this patient the non-localising imaging keeps multigland disease firmly on the table.",
+      "keyPoints": [
+        "Adenoma: one enlarged gland, others suppressed; higher Ca/PTH, concordant single lesion on imaging.",
+        "Hyperplasia: all glands enlarged (asymmetric), milder biochemistry, often hereditary, non-localising imaging.",
+        "Imaging can miss glands — non-localising studies argue for considering multigland disease."
+      ]
+    },
+    {
+      "id": "cr-025-n4",
+      "type": "note",
+      "subtopic": "Intra-operative PTH",
+      "title": "How intra-operative PTH (the Miami criterion) confirms cure and flags hyperplasia",
+      "content": "Because PTH has a short half-life, intra-operative PTH (ioPTH) gives real-time feedback on whether all hyperfunctioning tissue is out. The Miami criterion: a fall of >50% from the highest pre-excision baseline, measured ~10 minutes after removing the suspect gland, into (or near) the normal range, predicts cure of single-gland disease. If, after removing one enlarged gland, ioPTH fails to drop by 50% or plateaus at an elevated level, the operation is not finished — this signals additional hyperfunctioning tissue (hyperplasia or a second adenoma) and prompts bilateral exploration and removal of further glands. ioPTH is what allows a confident focused parathyroidectomy and what protects against leaving disease behind.",
+      "keyPoints": [
+        "Miami criterion: >50% drop from peak baseline at ~10 min into/near normal = adequate single-gland resection.",
+        "Inadequate drop / plateau → more hyperfunctioning tissue: explore and remove additional glands.",
+        "ioPTH enables a focused operation while guarding against persistent disease."
+      ]
+    },
+    {
+      "id": "cr-025-n5",
+      "type": "note",
+      "subtopic": "Surgical strategy",
+      "title": "Why the operation differs: focused parathyroidectomy vs subtotal/total + autotransplant",
+      "content": "Matching the operation to the pathology is the whole point of pre-op workup. A single adenoma with confident concordant localisation can be cured by a minimally invasive (focused) parathyroidectomy, ideally guided by ioPTH. Four-gland hyperplasia cannot be cured by removing one gland: it needs a bilateral neck exploration with either subtotal (3.5-gland) parathyroidectomy or total parathyroidectomy with heterotopic autotransplantation of parathyroid tissue (e.g. into the forearm), accepting a higher risk of both hypoparathyroidism and later recurrence. When imaging is non-localising — as here — many surgeons default to bilateral exploration so that multigland disease is not missed. The recurrence risk is intrinsically higher in hyperplasia/hereditary disease, which also shapes the consent discussion.",
+      "keyPoints": [
+        "Adenoma + concordant imaging → focused (minimally invasive) parathyroidectomy with ioPTH.",
+        "Hyperplasia → bilateral exploration: subtotal (3.5-gland) or total + autotransplant.",
+        "Non-localising imaging often pushes toward bilateral exploration; hyperplasia carries higher recurrence risk."
+      ]
+    },
+    {
+      "id": "cr-025-n6",
+      "type": "note",
+      "subtopic": "Hereditary PHPT",
+      "title": "Why age ≤40 mandates a genetics evaluation even with no family history",
+      "content": "Most PHPT is sporadic and presents in the 50s-60s, so PHPT at 30 is itself a red flag. A negative family history does not reassure: hereditary disease can arise from a de novo mutation, or the family history can be hidden by incomplete penetrance, variable expression or simply undiagnosed relatives. Guidelines (e.g. AAES) therefore recommend genetic evaluation for PHPT with any of: young age (≤40 years), multigland disease at surgery, persistent/recurrent disease, or parathyroid carcinoma/atypical adenoma — as well as a suggestive family history or coexisting endocrinopathy. The practical rule for residents: any PHPT at ≤40 (and certainly at 30) triggers a genetic-counselling/testing pathway, regardless of family history.",
+      "keyPoints": [
+        "PHPT typically presents at 50-60; presentation at 30 is a red flag in itself.",
+        "Negative family history does not exclude hereditary disease (de novo, incomplete penetrance, unrecognised relatives).",
+        "Test if: age ≤40, multigland disease, recurrence/persistence, carcinoma/atypical adenoma, or suggestive family/endocrine history."
+      ]
+    },
+    {
+      "id": "cr-025-n7",
+      "type": "note",
+      "subtopic": "Hereditary PHPT",
+      "title": "How to recognise the syndromic constellations behind PHPT",
+      "content": "Learn the four patterns. MEN1 (MEN1 gene): PHPT is the earliest and most common feature (~90% penetrance by 50) and is virtually always multigland hyperplasia; look for pituitary adenomas (e.g. prolactinoma) and pancreatic/duodenal NETs (gastrinoma, insulinoma) — screen prolactin, IGF-1, gastrin, etc. MEN2A (RET): PHPT in ~20-30%, usually mild/multiglandular, but the lethal companions are medullary thyroid carcinoma and phaeochromocytoma. Hyperparathyroidism-jaw tumour syndrome (CDC73): parathyroid adenoma/carcinoma with ossifying fibromas of the jaw and renal/uterine lesions — high carcinoma risk. Familial isolated hyperparathyroidism (CDC73/MEN1/CASR/GCM2): PHPT without other tumours. And remember FHH (CASR) as the non-PHPT mimic with low urinary calcium.",
+      "keyPoints": [
+        "MEN1: multigland PHPT + pituitary + pancreatic/duodenal NETs.",
+        "MEN2A (RET): mild multigland PHPT + medullary thyroid carcinoma + phaeochromocytoma.",
+        "CDC73 (HPT-JT): jaw ossifying fibromas, renal/uterine lesions, high parathyroid-carcinoma risk; FIHP = isolated; FHH = CASR mimic."
+      ]
+    },
+    {
+      "id": "cr-025-n8",
+      "type": "note",
+      "subtopic": "Hereditary PHPT",
+      "title": "Why you must exclude phaeochromocytoma before parathyroid surgery in possible MEN2A",
+      "content": "If genetic testing or phenotype raises MEN2A (a RET mutation), the parathyroid problem becomes the least of the immediate concerns. An undiagnosed phaeochromocytoma turns any operation into a potential catastrophe: anaesthesia and surgical stress can trigger an unopposed catecholamine surge and a fatal hypertensive crisis. The absolute rule is therefore to screen for and exclude (or treat) phaeochromocytoma — plasma free metanephrines or 24-hour urinary fractionated metanephrines — before any non-emergency surgery, including parathyroidectomy, and before pregnancy. The patient also needs medullary thyroid carcinoma screening (calcitonin, thyroid ultrasound). Never let the incidental hypercalcaemia rush a RET-positive patient to theatre.",
+      "keyPoints": [
+        "RET-positive/MEN2A: screen and exclude phaeochromocytoma BEFORE any surgery or pregnancy (plasma/urine metanephrines).",
+        "Operating with an undiagnosed phaeo can precipitate a fatal intra-operative hypertensive crisis.",
+        "Also screen for medullary thyroid carcinoma (calcitonin, thyroid ultrasound)."
+      ]
+    },
+    {
+      "id": "cr-025-n9",
+      "type": "note",
+      "subtopic": "Genetic testing",
+      "title": "How to sequence the genetic workup: targeted panel first, exome second",
+      "content": "Order the right test in the right order. First-line is a targeted next-generation-sequencing endocrine-tumour panel covering the known genes — MEN1, RET, CDC73, CASR, GCM2 and CDKN1B (MEN4); it is faster, cheaper, better-covered and more interpretable than broad sequencing. Whole-exome sequencing (WES) sequences all coding regions and is reserved for specific situations: a negative panel with persisting strong suspicion (e.g. young patient with multigland hyperplasia or a syndromic phenotype), atypical/carcinomatous parathyroid tumours where CDC73 is negative (to find somatic drivers), or to identify de novo or novel-gene variants. For this 30-year-old, the correct first move is the targeted panel; do not order WES first. All testing must be wrapped in pre- and post-test genetic counselling.",
+      "keyPoints": [
+        "First-line = targeted panel (MEN1, RET, CDC73, CASR, GCM2, CDKN1B) — faster, cheaper, more interpretable.",
+        "Reserve WES for negative panel + high suspicion, atypical/carcinoma histology, or de novo/novel-gene hunting.",
+        "Always pair genetic testing with counselling; do not order WES first in a routine young PHPT case."
+      ]
+    },
+    {
+      "id": "cr-025-n10",
+      "type": "note",
+      "subtopic": "Genetic testing",
+      "title": "Why exome sequencing must be interpreted with caution (VUS and coverage limits)",
+      "content": "Exome sequencing is powerful but easy to misuse. Two limitations matter clinically. First, it generates many variants of uncertain significance (VUS): a VUS is not a diagnosis and must not be allowed to drive surgical extent or family testing — over-interpreting a VUS is a real harm. Second, WES has technical blind spots: it can miss large deletions/duplications (copy-number variants) unless CNV calling is specifically included, and it does not cover non-coding/regulatory variants — so a 'negative' exome does not fully exclude hereditary disease. There are also incidental (secondary) findings with implications for the patient and relatives. All of this is why results need genetic-counselling interpretation and why a confirmed pathogenic variant — not a VUS — is what actually changes management.",
+      "keyPoints": [
+        "VUS are common — do not let them dictate surgery or cascade testing.",
+        "WES can miss CNVs (unless CNV calling included) and non-coding variants — a negative exome is not fully exclusionary.",
+        "Incidental findings + interpretation complexity mandate genetic counselling."
+      ]
+    },
+    {
+      "id": "cr-025-n11",
+      "type": "note",
+      "subtopic": "Why genetics matters",
+      "title": "Why a hereditary diagnosis changes surgery, screening, surveillance and the family",
+      "content": "Confirming a germline cause is not academic — it reshapes care in four ways. (1) Extent of surgery: hereditary disease predicts multigland involvement, favouring bilateral exploration and subtotal/total parathyroidectomy over a focused operation. (2) Associated-tumour screening: MEN1 prompts pituitary and pancreatic NET surveillance, MEN2A mandates phaeochromocytoma and medullary thyroid carcinoma screening, CDC73 prompts jaw/renal/uterine and carcinoma vigilance. (3) Surveillance intensity and duration: hereditary PHPT recurs more often and needs lifelong, closer follow-up. (4) The family: a pathogenic variant enables cascade testing of relatives, identifying carriers before they become ill. This is why the genetics question is central, not a footnote, in a 30-year-old.",
+      "keyPoints": [
+        "Changes the operation (multigland → bilateral/subtotal/total ± autotransplant).",
+        "Triggers syndrome-specific tumour screening and more intensive, lifelong surveillance.",
+        "Enables cascade testing of relatives — a benefit beyond the index patient."
+      ]
+    },
+    {
+      "id": "cr-025-n12",
+      "type": "note",
+      "subtopic": "Post-op monitoring",
+      "title": "How to monitor calcium in the first 24-72 hours after parathyroidectomy",
+      "content": "After cure, PTH falls acutely while the chronically suppressed normal glands are still dormant, so early hypocalcaemia is expected and must be caught. Check serum calcium (with albumin), phosphate and magnesium frequently (e.g. ~12-hourly or symptom-driven) and watch for neuromuscular irritability: perioral and digital paraesthesiae, cramps, and positive Chvostek's and Trousseau's signs. A pragmatic replacement ladder: if calcium is >8 mg/dL and asymptomatic, oral calcium ± calcitriol; if 7-8 mg/dL or symptomatic, increase oral calcium and calcitriol; if <7 mg/dL or severely symptomatic (tetany, laryngospasm, arrhythmia), give IV calcium gluconate (e.g. 1-2 g over 10-20 min) followed by an infusion. Correct magnesium too, since hypomagnesaemia impairs PTH secretion and action and perpetuates hypocalcaemia.",
+      "keyPoints": [
+        "Expect early hypocalcaemia (suppressed glands still dormant) — monitor Ca/PO4/Mg frequently.",
+        "Watch for paraesthesiae, cramps, Chvostek/Trousseau; escalate oral → IV calcium by severity.",
+        "Always correct magnesium — hypomagnesaemia blocks PTH and sustains hypocalcaemia."
+      ]
+    },
+    {
+      "id": "cr-025-n13",
+      "type": "note",
+      "subtopic": "Post-op monitoring",
+      "title": "Why phosphate distinguishes hungry bone syndrome from transient hypoparathyroidism",
+      "content": "Both cause post-op hypocalcaemia but differ in mechanism and in phosphate — the discriminator residents should reach for. In transient (or permanent) hypoparathyroidism the problem is too little PTH: calcium is low and phosphate is HIGH (low PTH reduces renal phosphate excretion). In hungry bone syndrome (HBS) the cause is avid skeletal re-uptake of minerals after the chronic PTH drive is removed: calcium is low AND phosphate is low (and often magnesium too), because bone is taking up all of them. HBS is predicted by severe pre-op disease — very high alkaline phosphatase, overt bone disease/osteitis fibrosa cystica, very high PTH, large tumour, and vitamin D deficiency. HBS is treated with large, sometimes prolonged, calcium and calcitriol replacement.",
+      "keyPoints": [
+        "Hypoparathyroidism: low calcium + HIGH phosphate (low PTH retains phosphate).",
+        "Hungry bone syndrome: low calcium + LOW phosphate (± low Mg) — bone re-uptakes minerals.",
+        "HBS risk: high ALP, overt bone disease, very high PTH, large tumour, vitamin D deficiency — expect prolonged replacement."
+      ]
+    },
+    {
+      "id": "cr-025-n14",
+      "type": "note",
+      "subtopic": "Follow-up definitions",
+      "title": "How to define cure, persistence and recurrence after parathyroidectomy",
+      "content": "Use the 6-month benchmark. Cure = sustained normocalcaemia maintained beyond 6 months post-operatively. Persistent PHPT = hypercalcaemia that never resolves or returns within 6 months — it usually means a missed adenoma, an ectopic/supernumerary gland, or inadequate resection of multigland disease. Recurrent PHPT = hypercalcaemia returning after more than 6 months of documented normocalcaemia — which should raise suspicion of hereditary/multigland disease (e.g. MEN1), a missed second gland, or a new adenoma. Classifying the failure correctly directs the next step (re-imaging, re-exploration, genetic testing) and is why the 6-month calcium check is a fixed milestone.",
+      "keyPoints": [
+        "Cure: normocalcaemia sustained >6 months.",
+        "Persistence (<6 months): missed/ectopic gland or incompletely treated multigland disease.",
+        "Recurrence (>6 months normocalcaemic): suspect hereditary/multigland disease, missed or new gland."
+      ]
+    },
+    {
+      "id": "cr-025-n15",
+      "type": "note",
+      "subtopic": "Long-term follow-up",
+      "title": "How to structure long-term follow-up after a cure",
+      "content": "Beyond the early calcium watch, set up durable monitoring. At 2-6 weeks, recheck calcium and PTH and replete vitamin D to ≥30 ng/mL (deficiency drives a secondary PTH rise and worsens bone loss), tapering calcitriol then calcium as the dormant glands recover; check the voice/laryngoscopy if hoarse, to exclude recurrent laryngeal nerve injury. Long term: at least annual serum calcium for everyone (add PTH if calcium is borderline or symptoms recur — a high-normal PTH with normal calcium years later is common and usually benign), renal function (± stone imaging if prior stones), and a DXA at about 1 year (every 1-2 years thereafter) since bone density typically improves after cure and may allow osteoporosis therapy to be reassessed. If a hereditary syndrome is confirmed, overlay the syndrome-specific surveillance.",
+      "keyPoints": [
+        "2-6 wk: recheck Ca/PTH, replete vitamin D to ≥30 ng/mL, taper supplements; laryngoscopy if hoarse.",
+        "Long term: annual calcium (± PTH), renal function/stone imaging, DXA at ~1 yr then every 1-2 yr.",
+        "Layer syndrome-specific surveillance on top if a hereditary cause is confirmed."
+      ]
+    },
+    {
+      "id": "cr-025-why1",
+      "type": "why",
+      "subtopic": "Diagnosis",
+      "question": "Why is the urinary calcium / Ca:Cr clearance ratio essential before referring this patient for surgery?",
+      "answer": "Because it separates PHPT from familial hypocalciuric hypercalcaemia (FHH), which looks identical on serum calcium and PTH but must not be operated on. A Ca/Cr clearance ratio <0.01 indicates inappropriately low urinary calcium and suggests FHH (a CASR defect that parathyroidectomy cannot cure), whereas a ratio >0.02 — as here — supports PHPT, for which surgery is appropriate. Omitting it risks an unnecessary, non-curative neck operation."
+    },
+    {
+      "id": "cr-025-how1",
+      "type": "how",
+      "subtopic": "Genetic testing",
+      "question": "How should genetic testing be approached in this 30-year-old with non-localising imaging?",
+      "answer": "Order a targeted next-generation-sequencing endocrine-tumour panel first (MEN1, RET, CDC73, CASR, GCM2, CDKN1B) with genetic counselling — age ≤40 alone justifies testing regardless of family history. Reserve whole-exome sequencing for if the panel is negative but suspicion remains high (e.g. multigland hyperplasia is found at surgery, a syndromic phenotype emerges, or atypical/carcinoma histology), and interpret cautiously given variants of uncertain significance and the chance of missed copy-number/non-coding variants."
+    },
+    {
+      "id": "cr-025-sa1",
+      "type": "shortanswer",
+      "subtopic": "Surgical anatomy",
+      "question": "At a four-gland exploration the surgeon removes one enlarged gland but ioPTH fails to drop by 50%. Name the most likely sites of a missing supernumerary or ectopic parathyroid gland.",
+      "answer": "Thymus/anterior mediastinum (thymic parathyroid rests); the tracheo-oesophageal groove / retro-oesophageal space; intrathyroidal (within the thyroid parenchyma); and an undescended gland high in the carotid sheath near the hyoid. The failure of ioPTH to fall by >50% indicates residual hyperfunctioning tissue — either additional hyperplastic glands or an ectopic/supernumerary gland in one of these locations."
+    },
+    {
+      "id": "cr-025-sa2",
+      "type": "shortanswer",
+      "subtopic": "Diagnosis",
+      "question": "A hypercalcaemic patient has Ca 11.5 mg/dL, PTH 75 pg/mL and a 24-hour urine calcium of only 45 mg. What is the diagnosis and the gene typically involved?",
+      "answer": "Familial hypocalciuric hypercalcaemia (FHH), confirmed by the inappropriately low urinary calcium (Ca/Cr clearance ratio <0.01) despite hypercalcaemia and a non-suppressed PTH. The usual gene is CASR (the calcium-sensing receptor), inactivation of which resets the calcium set-point. Parathyroidectomy will not cure it, so the diagnosis must be made before any surgery."
+    },
+    {
+      "id": "cr-025-sa3",
+      "type": "shortanswer",
+      "subtopic": "Hereditary PHPT",
+      "question": "The targeted panel returns a pathogenic RET mutation. What life-saving step must occur before any further surgery or pregnancy?",
+      "answer": "Screen for and exclude (or treat) a phaeochromocytoma using plasma free metanephrines or 24-hour urinary fractionated metanephrines, because in MEN2A an undiagnosed phaeochromocytoma can cause a fatal hypertensive crisis under anaesthesia/surgical stress. She also needs medullary thyroid carcinoma screening (calcitonin and thyroid ultrasound)."
+    },
+    {
+      "id": "cr-025-m1",
+      "type": "mcq",
+      "subtopic": "Diagnosis",
+      "stem": "A 30-year-old woman has serum calcium 11.5 mg/dL, PTH 75 pg/mL, a history of a kidney stone, and a 24-hour urine calcium of 45 mg (Ca/Cr clearance ratio <0.01). What is the most likely diagnosis?",
+      "options": [
+        "Single-gland parathyroid adenoma",
+        "Four-gland parathyroid hyperplasia",
+        "Familial hypocalciuric hypercalcaemia (CASR mutation)",
+        "Parathyroid carcinoma"
+      ],
+      "correctOption": 2,
+      "explanation": "The inappropriately low urinary calcium (Ca/Cr clearance ratio <0.01) with hypercalcaemia and non-suppressed PTH is classic for FHH, due to a CASR mutation. Parathyroidectomy does not cure it. The kidney stone here is an incidental finding — stones are not typical of FHH — and does not change the diagnosis."
+    },
+    {
+      "id": "cr-025-m2",
+      "type": "mcq",
+      "subtopic": "Intra-operative PTH",
+      "stem": "During parathyroidectomy one enlarged gland is removed, but intra-operative PTH falls only 30% and plateaus above normal at 10 minutes. What does this indicate and what should the surgeon do?",
+      "options": [
+        "Cure achieved — close the incision",
+        "Assay artefact — repeat PTH in 24 hours only",
+        "Residual hyperfunctioning tissue (multigland disease/second gland) — proceed to bilateral exploration",
+        "Hungry bone syndrome — give IV calcium and close"
+      ],
+      "correctOption": 2,
+      "explanation": "Failure to meet the Miami criterion (>50% drop into/near normal) means hyperfunctioning tissue remains — additional hyperplastic glands or a second adenoma/ectopic gland. The operation is not complete; the surgeon should perform bilateral exploration and remove further glands. Hungry bone is a post-operative metabolic phenomenon, not an intra-operative PTH pattern."
+    },
+    {
+      "id": "cr-025-m3",
+      "type": "mcq",
+      "subtopic": "Genetic testing",
+      "stem": "For this 30-year-old with biochemically confirmed PHPT and non-localising imaging, what is the most appropriate initial genetic test?",
+      "options": [
+        "No genetic testing — the family history is negative",
+        "Whole-exome sequencing as the first-line test",
+        "A targeted endocrine-tumour gene panel (MEN1, RET, CDC73, CASR, GCM2, CDKN1B)",
+        "CASR single-gene testing only"
+      ],
+      "correctOption": 2,
+      "explanation": "Age ≤40 warrants genetic evaluation regardless of family history. The correct first-line test is a targeted multigene panel — faster, cheaper and more interpretable. Whole-exome sequencing is reserved for a negative panel with persisting suspicion or atypical/carcinoma histology, and single-gene CASR testing is too narrow."
+    },
+    {
+      "id": "cr-025-m4",
+      "type": "mcq",
+      "subtopic": "Hereditary PHPT",
+      "stem": "Genetic testing returns a RET mutation (MEN2A). Before clearing her for parathyroid surgery, which evaluation is most critical?",
+      "options": [
+        "Screening for phaeochromocytoma with plasma or urinary metanephrines",
+        "Baseline DXA scan of the lumbar spine",
+        "Whole-exome sequencing to confirm the variant",
+        "24-hour urine calcium to exclude FHH"
+      ],
+      "correctOption": 0,
+      "explanation": "In MEN2A an undiagnosed phaeochromocytoma can precipitate a fatal hypertensive crisis during anaesthesia/surgery, so it must be excluded (plasma free or urinary fractionated metanephrines) before any non-emergency operation or pregnancy. Medullary thyroid carcinoma screening is also needed, but excluding phaeochromocytoma is the immediately life-saving step."
+    },
+    {
+      "id": "cr-025-m5",
+      "type": "mcq",
+      "subtopic": "Post-op monitoring",
+      "stem": "Two days after parathyroidectomy a patient has perioral tingling. Calcium is 7.2 mg/dL and phosphate is LOW. Alkaline phosphatase had been very high pre-operatively. What is the most likely diagnosis?",
+      "options": [
+        "Transient hypoparathyroidism",
+        "Hungry bone syndrome",
+        "Persistent primary hyperparathyroidism",
+        "Vitamin D intoxication"
+      ],
+      "correctOption": 1,
+      "explanation": "Low calcium with LOW phosphate after parathyroidectomy, especially with a high pre-op alkaline phosphatase (marker of bone disease), indicates hungry bone syndrome — avid skeletal re-uptake of calcium and phosphate. In contrast, hypoparathyroidism causes low calcium with HIGH phosphate. HBS needs large, often prolonged calcium and calcitriol replacement."
+    },
+    {
+      "id": "cr-025-m6",
+      "type": "mcq",
+      "subtopic": "Follow-up definitions",
+      "stem": "Which statement correctly defines outcomes after parathyroidectomy?",
+      "options": [
+        "Cure is defined as normocalcaemia in the first 48 hours post-op",
+        "Persistent PHPT is hypercalcaemia returning after more than 6 months of normocalcaemia",
+        "Recurrent PHPT is hypercalcaemia returning after more than 6 months of documented normocalcaemia",
+        "Recurrence within the first week always indicates parathyroid carcinoma"
+      ],
+      "correctOption": 2,
+      "explanation": "Cure = sustained normocalcaemia beyond 6 months; persistence = hypercalcaemia within 6 months (missed/ectopic gland or incompletely treated multigland disease); recurrence = hypercalcaemia after >6 months of normocalcaemia (suspect hereditary/multigland disease, a missed gland, or a new adenoma)."
+    },
+    {
+      "id": "cr-025-tf1",
+      "type": "true_false",
+      "subtopic": "Hereditary PHPT",
+      "statement": "A negative family history reliably excludes a hereditary cause of PHPT in a 30-year-old.",
+      "correctAnswer": false,
+      "explanation": "False. Hereditary PHPT can arise from a de novo mutation or be hidden by incomplete penetrance, variable expression or undiagnosed relatives. Young age (≤40) alone justifies genetic evaluation regardless of family history."
+    },
+    {
+      "id": "cr-025-tf2",
+      "type": "true_false",
+      "subtopic": "Genetic testing",
+      "statement": "Whole-exome sequencing should be the first-line genetic test for a young patient with PHPT.",
+      "correctAnswer": false,
+      "explanation": "False. The first-line test is a targeted multigene panel (MEN1, RET, CDC73, CASR, GCM2, CDKN1B) — faster, cheaper and more interpretable. Exome sequencing is reserved for a negative panel with persisting suspicion, atypical/carcinoma histology, or de novo/novel-gene situations, and is prone to variants of uncertain significance."
+    },
+    {
+      "id": "cr-025-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Hereditary PHPT",
+      "assertion": "In a patient with a RET mutation, phaeochromocytoma must be excluded before parathyroid surgery.",
+      "reason": "Anaesthesia and surgical stress in a patient with an undiagnosed phaeochromocytoma can provoke an unopposed catecholamine surge and a fatal hypertensive crisis.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion: because an undiagnosed phaeochromocytoma can cause a lethal intra-operative hypertensive crisis, MEN2A (RET) patients must be screened and cleared (plasma/urinary metanephrines) before any non-emergency surgery, including parathyroidectomy. Hence option 0."
+    },
+    {
+      "id": "cr-025-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Diagnosis",
+      "assertion": "Imaging such as sestamibi and 4D-CT should be used to diagnose primary hyperparathyroidism.",
+      "reason": "Localisation imaging reliably distinguishes a single adenoma from four-gland hyperplasia before surgery.",
+      "correctOption": 4,
+      "explanation": "Both statements are false. PHPT is a biochemical diagnosis (raised calcium with non-suppressed PTH); imaging is for surgical localisation only and never makes the diagnosis. Imaging is also imperfect at distinguishing adenoma from hyperplasia — it can miss additional glands and make multigland disease look like a single lesion. Both false = option 4."
+    }
+  ]
+}
