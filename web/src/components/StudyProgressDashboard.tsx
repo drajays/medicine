@@ -1,9 +1,20 @@
 import { useMemo, type ReactNode } from 'react'
-import { BarChart3, BookOpen, Clock, Layers } from 'lucide-react'
+import { Activity, BarChart3, BookOpen, Bug, Clock, Layers, LineChart, Target } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
+import { useRevisionStore } from '@/stores/revisionStore'
 import { formatStudyDuration } from '@/lib/studyProgress'
+import {
+  accuracyTrend,
+  findLeeches,
+  retentionByInterval,
+  summarize,
+} from '@/lib/revisionAnalytics'
 import { cn } from '@/lib/utils'
 import type { HeaderKind } from '@/lib/types'
+
+function retentionColor(percent: number): string {
+  return percent >= 80 ? 'bg-emerald-500' : percent >= 50 ? 'bg-amber-500' : 'bg-red-500'
+}
 
 const SECTION_ICON: Partial<Record<HeaderKind, string>> = {
   hot_topics: '🔥',
@@ -48,6 +59,163 @@ function StatTile({
       <p className="mt-2 text-2xl font-bold tabular-nums">{value}</p>
       {sub && <p className="mt-0.5 text-xs clinical-muted">{sub}</p>}
     </div>
+  )
+}
+
+/** Spaced-repetition analytics: retention, accuracy trend, and leeches. */
+function RevisionAnalytics() {
+  const reviews = useRevisionStore((s) => s.reviews)
+  const items = useRevisionStore((s) => s.items)
+  const selectChapter = useAppStore((s) => s.selectChapter)
+
+  const { summary, trend, curve, leeches } = useMemo(
+    () => ({
+      summary: summarize(reviews),
+      trend: accuracyTrend(reviews, 14),
+      curve: retentionByInterval(reviews),
+      leeches: findLeeches(items),
+    }),
+    [reviews, items],
+  )
+
+  if (summary.total === 0) return null
+
+  const trendMax = Math.max(1, ...trend.map((d) => d.total))
+
+  return (
+    <section className="space-y-4">
+      <div className="clinical-card border-l-4 border-l-indigo-500 p-5 md:p-6">
+        <div className="flex items-center gap-2 text-indigo-700 dark:text-indigo-300">
+          <Activity className="h-4 w-4" />
+          <p className="text-xs font-bold uppercase tracking-wider">Revision analytics</p>
+        </div>
+        <p className="mt-1 text-xs clinical-muted">
+          Recall performance from your triage reviews. A “pass” is rating ≥ 3.
+        </p>
+
+        <div className="mt-4 grid grid-cols-3 gap-3">
+          <StatTile
+            icon={<Target className="h-4 w-4" />}
+            label="Retention"
+            value={`${summary.percent}%`}
+            sub={`${summary.correct}/${summary.total} passed`}
+          />
+          <StatTile
+            icon={<LineChart className="h-4 w-4" />}
+            label="Reviews"
+            value={String(summary.total)}
+          />
+          <StatTile
+            icon={<Bug className="h-4 w-4" />}
+            label="Leeches"
+            value={String(leeches.length)}
+            sub="≥4 lapses"
+          />
+        </div>
+      </div>
+
+      {/* Accuracy over time */}
+      <div className="clinical-card p-5 md:p-6">
+        <h4 className="text-sm font-bold">Accuracy — last 14 days</h4>
+        <p className="mt-1 text-xs clinical-muted">Daily pass rate; bar height scales with review volume.</p>
+        <div className="mt-4 flex items-end justify-between gap-1">
+          {trend.map((d) => {
+            const h = d.total > 0 ? Math.max(10, Math.round((d.total / trendMax) * 100)) : 0
+            return (
+              <div key={d.date} className="flex min-w-0 flex-1 flex-col items-center gap-1">
+                <div className="flex h-20 w-full items-end">
+                  <div
+                    className={cn(
+                      'w-full rounded-t-md transition-all',
+                      d.total === 0 ? 'bg-slate-100 dark:bg-zinc-800' : retentionColor(d.percent),
+                    )}
+                    style={{ height: d.total === 0 ? '3px' : `${h}%` }}
+                    title={
+                      d.total === 0
+                        ? `${d.date}: no reviews`
+                        : `${d.date}: ${d.correct}/${d.total} passed (${d.percent}%)`
+                    }
+                  />
+                </div>
+                <span
+                  className={cn(
+                    'truncate text-[9px]',
+                    d.label === 'Today'
+                      ? 'font-bold text-indigo-700 dark:text-indigo-300'
+                      : 'clinical-muted',
+                  )}
+                >
+                  {d.label}
+                </span>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      {/* Retention curve by interval */}
+      <div className="clinical-card p-5 md:p-6">
+        <h4 className="text-sm font-bold">Retention by interval</h4>
+        <p className="mt-1 text-xs clinical-muted">
+          How well recall holds as scheduled gaps grow — your forgetting curve.
+        </p>
+        <div className="mt-4 space-y-3">
+          {curve.map((b) => (
+            <div key={b.band}>
+              <div className="mb-1 flex items-center justify-between text-xs">
+                <span className="font-medium tabular-nums">{b.band}</span>
+                <span className="tabular-nums clinical-muted">
+                  {b.total > 0 ? `${b.percent}% · ${b.correct}/${b.total}` : 'no reviews'}
+                </span>
+              </div>
+              <div className="h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-zinc-800">
+                <div
+                  className={cn('h-full rounded-full transition-all', retentionColor(b.percent))}
+                  style={{ width: `${b.total > 0 ? b.percent : 0}%` }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Leeches */}
+      {leeches.length > 0 && (
+        <div className="clinical-card p-5 md:p-6">
+          <div className="flex items-center gap-2">
+            <Bug className="h-4 w-4 text-red-600 dark:text-red-400" />
+            <h4 className="text-sm font-bold">Leeches</h4>
+          </div>
+          <p className="mt-1 text-xs clinical-muted">
+            Chronically failed cards (≥4 lapses) — consider reformulating or simplifying these.
+          </p>
+          <div className="mt-4 space-y-2">
+            {leeches.slice(0, 15).map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                onClick={() => selectChapter(item.chapterId)}
+                className="flex w-full items-center gap-3 rounded-lg border border-red-200/60 bg-red-50/40 px-3 py-2 text-left transition-colors hover:bg-red-50 dark:border-red-500/25 dark:bg-red-500/10 dark:hover:bg-red-500/15"
+              >
+                <span className="shrink-0 rounded-full bg-red-100 px-2 py-0.5 text-[10px] font-bold tabular-nums text-red-700 dark:bg-red-950/50 dark:text-red-300">
+                  {item.lapseCount}× lapsed
+                </span>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm font-medium">{item.title}</p>
+                  <p className="truncate text-[11px] clinical-muted">{item.subject}</p>
+                </div>
+                <span className="shrink-0 text-[10px] tabular-nums clinical-muted">
+                  {item.reviewCount} reviews
+                </span>
+              </button>
+            ))}
+            {leeches.length > 15 && (
+              <p className="px-2 text-[10px] clinical-muted">+{leeches.length - 15} more</p>
+            )}
+          </div>
+        </div>
+      )}
+    </section>
   )
 }
 
@@ -169,6 +337,8 @@ export function StudyProgressDashboard() {
         90s dwell per item while it stays in view after you engage. Scrolling without engaging awards
         nothing.
       </p>
+
+      <RevisionAnalytics />
     </div>
   )
 }
