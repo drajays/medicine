@@ -1,6 +1,12 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { ItemMark } from '@/lib/types'
+import { markWarrantsRevision } from '@/lib/studyMarks'
+import {
+  buildRevisionQueue,
+  type RevisionModeOptions,
+  type RevisionModePreset,
+} from '@/lib/revisionQueue'
 import {
   computeNextState,
   computeRPS,
@@ -25,6 +31,7 @@ export interface RevisionSession {
   limit: number
   reviewedCount: number
   sessionMs: number
+  mode: RevisionModePreset
 }
 
 export interface DailyStats {
@@ -112,6 +119,8 @@ interface RevisionState {
   bootstrapFromMarks: (marks: Record<string, ItemMark>) => void
 
   startTriage: (limit?: number) => void
+  startRevisionMode: (options?: RevisionModeOptions) => void
+  getRevisionPlan: (options?: RevisionModeOptions) => PrioritizedEntry[]
   advanceSession: () => void
   endSession: () => void
 
@@ -223,7 +232,7 @@ export const useRevisionStore = create<RevisionState>()(
         const items = { ...get().items }
 
         for (const [itemId, mark] of Object.entries(marks)) {
-          if (mark.action !== 'revise' && mark.status !== 'doubt') continue
+          if (!markWarrantsRevision(mark)) continue
           if (!mark.chapterId) continue
 
           const tags = marksToTags(mark)
@@ -262,8 +271,17 @@ export const useRevisionStore = create<RevisionState>()(
       },
 
       startTriage: (limit = DEFAULT_TRIAGE_LIMIT) => {
-        const prioritized = get().getPrioritized(limit)
-        const itemIds = prioritized.map((e) => e.item.id)
+        get().startRevisionMode({ preset: 'smart', limit })
+      },
+
+      getRevisionPlan: (options = { preset: 'smart', limit: DEFAULT_TRIAGE_LIMIT }) => {
+        const all = get().getPrioritized()
+        return buildRevisionQueue(all, options)
+      },
+
+      startRevisionMode: (options = { preset: 'smart', limit: DEFAULT_TRIAGE_LIMIT }) => {
+        const plan = get().getRevisionPlan(options)
+        const itemIds = plan.map((e) => e.item.id)
         if (!itemIds.length) return
 
         set({
@@ -272,9 +290,10 @@ export const useRevisionStore = create<RevisionState>()(
             startedAt: Date.now(),
             itemIds,
             currentIndex: 0,
-            limit,
+            limit: options.limit ?? DEFAULT_TRIAGE_LIMIT,
             reviewedCount: 0,
             sessionMs: 0,
+            mode: options.preset,
           },
         })
       },

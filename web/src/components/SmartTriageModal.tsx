@@ -6,6 +6,7 @@ import { useRevisionStore } from '@/stores/revisionStore'
 import { RPSInspector } from '@/components/RPSInspector'
 import { itemMarkLabel } from '@/lib/studyMarks'
 import { RECALL_LABELS, type RecallRating } from '@/lib/revision-math'
+import { REVISION_MODES } from '@/lib/revisionQueue'
 import { cn } from '@/lib/utils'
 import type { StudyItem } from '@/lib/types'
 
@@ -128,6 +129,9 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
     ? { current: Math.min(session.currentIndex + 1, session.itemIds.length), total: session.itemIds.length }
     : null
   const isComplete = session ? session.currentIndex >= session.itemIds.length : false
+  const modeLabel = session
+    ? (REVISION_MODES.find((m) => m.preset === session.mode)?.title ?? 'Revision')
+    : 'Revision'
 
   useEffect(() => {
     if (!open || !revisionItem) {
@@ -199,7 +203,7 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
       <header className="flex items-center gap-3 border-b clinical-border px-4 py-3 md:px-6">
         <div className="min-w-0 flex-1">
           <p className="text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">
-            Smart Triage
+            Revision Mode · {modeLabel}
           </p>
           {revisionItem && (
             <p className="truncate text-sm clinical-muted">

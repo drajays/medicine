@@ -120,13 +120,25 @@ export interface ReviseEntry {
 }
 
 /**
- * Items worth revising across the whole portal: anything marked Action=Revise or
- * Status=Doubt. Most-recently-touched first. Uses the chapter context stored on
- * each mark, so no chapter JSON needs to be loaded.
+ * Items worth revising: any study-mark attention flag (revise, doubt, tough,
+ * guessed, concept gap) or marked important.
+ */
+export function markWarrantsRevision(mark: ItemMark): boolean {
+  if (mark.priority === 'important') return true
+  for (const axis of MARK_AXES) {
+    if (!axis.attentionValue) continue
+    if (mark[axis.key] === axis.attentionValue) return true
+  }
+  return false
+}
+
+/**
+ * Items worth revising across the whole portal. Uses the chapter context stored
+ * on each mark, so no chapter JSON needs to be loaded.
  */
 export function reviseListFromMarks(marks: Record<string, ItemMark>): ReviseEntry[] {
   return Object.entries(marks)
-    .filter(([, m]) => m.action === 'revise' || m.status === 'doubt')
+    .filter(([, m]) => markWarrantsRevision(m))
     .map(([itemId, mark]) => ({ itemId, mark }))
     .sort((a, b) => (b.mark.lastSeenAt ?? 0) - (a.mark.lastSeenAt ?? 0))
 }
