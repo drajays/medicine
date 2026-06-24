@@ -100,10 +100,6 @@ function marksToTags(mark: ItemMark): Tag[] {
   return tags
 }
 
-function mergeTags(a: Tag[], b: Tag[]): Tag[] {
-  return [...new Set([...a, ...b])]
-}
-
 function updateStreak(
   lastStudyDate: string | null,
   streak: number,
@@ -251,39 +247,58 @@ export const useRevisionStore = create<RevisionState>()(
 
       setShowTimeAfterReveal: (show) => set({ showTimeAfterReveal: show }),
 
+      // Reconcile the engine's item set with the current study marks. Unlike a
+      // one-way seed, this REPLACES each item's tags from the live mark (so
+      // unsetting a mark removes its tag and lowers RPS) and PRUNES items whose
+      // mark no longer warrants revision — but only when the item has never been
+      // reviewed in triage (reviewCount === 0). Items with real review history
+      // survive as FSRS cards; if their mark vanished entirely their derived
+      // tags are cleared so scheduling, not stale tags, drives their priority.
       bootstrapFromMarks: (marks) => {
         const now = Date.now()
-        const items = { ...get().items }
+        const prev = get().items
+        const next: Record<string, RevisionStudyItem> = {}
+        const ids = new Set<string>([...Object.keys(prev), ...Object.keys(marks)])
 
-        for (const [itemId, mark] of Object.entries(marks)) {
-          if (!markWarrantsRevision(mark)) continue
-          if (!mark.chapterId) continue
+        for (const id of ids) {
+          const mark = marks[id]
+          const existing = prev[id]
+          const reviewed = (existing?.reviewCount ?? 0) > 0
+
+          if (!mark) {
+            // Mark gone: keep the card only if it has review history (tags cleared).
+            if (existing && reviewed) next[id] = { ...existing, tags: [] }
+            continue
+          }
+
+          const warrants = markWarrantsRevision(mark)
+          if (!warrants && !reviewed) continue // not (or no longer) a revision card
+          if (!existing && !mark.chapterId) continue // can't create without context
 
           const tags = marksToTags(mark)
-          const existing = items[itemId]
 
           if (existing) {
-            items[itemId] = {
+            next[id] = {
               ...existing,
-              tags: mergeTags(existing.tags, tags),
+              tags, // replace — reflects the mark's current state, not a union
               title: mark.label ?? existing.title,
               subject: mark.chapterTitle ?? existing.subject,
               itemType: mark.itemType ?? existing.itemType,
-              lastReviewedAt: mark.lastSeenAt ?? existing.lastReviewedAt,
+              lastReviewedAt: existing.lastReviewedAt ?? mark.lastSeenAt,
             }
           } else {
-            items[itemId] = {
-              id: itemId,
-              chapterId: mark.chapterId,
+            next[id] = {
+              id,
+              chapterId: mark.chapterId!,
               subject: mark.chapterTitle ?? 'Unknown',
-              title: mark.label ?? itemId,
+              title: mark.label ?? id,
               itemType: mark.itemType ?? 'note',
               tags,
               stability: 2,
               difficulty: 5,
               interval: 1,
               dueAt: now - 1,
-              reviewCount: mark.timesRevised ?? 0,
+              reviewCount: 0, // FSRS reviewCount starts at 0 — first triage = first review
               lapseCount: 0,
               createdAt: mark.firstSeenAt ?? now,
               lastReviewedAt: mark.lastSeenAt,
@@ -291,7 +306,7 @@ export const useRevisionStore = create<RevisionState>()(
           }
         }
 
-        set({ items })
+        set({ items: next })
       },
 
       startTriage: (limit = DEFAULT_TRIAGE_LIMIT) => {

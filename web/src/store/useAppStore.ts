@@ -24,8 +24,11 @@ import {
 import {
   mergeMarks,
   mergeRecord,
+  mergeRevisionBackup,
+  type RevisionBackup,
   type StudyDataPayload,
 } from '@/lib/studyData'
+import { useRevisionStore } from '@/stores/revisionStore'
 import { applyTheme, buildProgress, engagementInputFromStore, itemSearchText } from '@/store/helpers'
 
 export interface FeedbackCtx {
@@ -497,9 +500,12 @@ export const useAppStore = create<AppState>()(
         )
       },
 
-      // Snapshot every per-item map the user has generated, for backup/export.
+      // Snapshot every per-item map the user has generated, for backup/export —
+      // including the revision engine's persisted slice (FSRS cards, review
+      // history, streaks, daily stats) so a restore loses no progress.
       exportStudyData: () => {
         const s = get()
+        const rev = useRevisionStore.getState()
         return {
           marks: s.marks,
           ratings: s.ratings,
@@ -513,6 +519,15 @@ export const useAppStore = create<AppState>()(
           chapterTotals: s.chapterTotals,
           chapterEngagedMs: s.chapterEngagedMs,
           totalEngagementMs: s.totalEngagementMs,
+          revision: {
+            items: rev.items,
+            reviews: rev.reviews,
+            streak: rev.streak,
+            lastStudyDate: rev.lastStudyDate,
+            dailyStats: rev.dailyStats,
+            sessionHistory: rev.sessionHistory,
+            showTimeAfterReveal: rev.showTimeAfterReveal,
+          },
         }
       },
 
@@ -558,6 +573,30 @@ export const useAppStore = create<AppState>()(
               }
         set(next)
         get()._rebuildProgress()
+
+        // Restore the revision engine slice into its own store (persists itself).
+        if (data.revision) {
+          const rev = useRevisionStore.getState()
+          const current: RevisionBackup = {
+            items: rev.items,
+            reviews: rev.reviews,
+            streak: rev.streak,
+            lastStudyDate: rev.lastStudyDate,
+            dailyStats: rev.dailyStats,
+            sessionHistory: rev.sessionHistory,
+            showTimeAfterReveal: rev.showTimeAfterReveal,
+          }
+          const merged = mergeRevisionBackup(current, data.revision, mode)
+          useRevisionStore.setState({
+            items: merged.items,
+            reviews: merged.reviews,
+            streak: merged.streak,
+            lastStudyDate: merged.lastStudyDate,
+            dailyStats: merged.dailyStats,
+            sessionHistory: merged.sessionHistory,
+            showTimeAfterReveal: merged.showTimeAfterReveal,
+          })
+        }
       },
 
       toggleBookmark: (itemId) => {

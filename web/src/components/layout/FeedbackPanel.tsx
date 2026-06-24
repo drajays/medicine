@@ -184,7 +184,7 @@ export function FeedbackPanel({ open, onClose }: { open: boolean; onClose: () =>
               Backup{pending.exportedAt ? ` from ${new Date(pending.exportedAt).toLocaleString()}` : ''}:{' '}
               {(() => {
                 const c = studyDataCounts(pending.data)
-                return `${c.marks} marked, ${c.ratings} rated, ${c.flags} flagged, ${c.bookmarks} bookmarked`
+                return `${c.marks} marked, ${c.ratings} rated, ${c.flags} flagged, ${c.bookmarks} bookmarked, ${c.revisionCards} revision cards`
               })()}
             </p>
             <div className="mt-2 flex flex-wrap items-center gap-2">

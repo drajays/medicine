@@ -1,5 +1,7 @@
 import type { ItemMark } from '@/lib/types'
 import type { ItemEngagementRecord } from '@/lib/studyProgress'
+import type { RevisionStudyItem, ReviewRecord } from '@/lib/revision-math'
+import type { DailyStats, SessionHistoryEntry } from '@/stores/revisionStore'
 
 /**
  * Backup/restore for the user's local-only study data (the h22-ui-store). The
@@ -9,6 +11,21 @@ import type { ItemEngagementRecord } from '@/lib/studyProgress'
  */
 export const STUDY_EXPORT_VERSION = 2
 export const STUDY_STORE_KEY = 'h22-ui-store'
+
+/**
+ * The persisted slice of the revision engine (h22-revision-engine-v2). Bundled
+ * into the backup so a restore preserves FSRS intervals, review history, streaks
+ * and daily stats — none of which can be reconstructed from study marks alone.
+ */
+export interface RevisionBackup {
+  items?: Record<string, RevisionStudyItem>
+  reviews?: ReviewRecord[]
+  streak?: number
+  lastStudyDate?: string | null
+  dailyStats?: Record<string, DailyStats>
+  sessionHistory?: SessionHistoryEntry[]
+  showTimeAfterReveal?: boolean
+}
 
 /** Every per-item map the user can generate. All optional so old/partial
  * backups still import cleanly. */
@@ -25,6 +42,7 @@ export interface StudyDataPayload {
   chapterTotals?: Record<string, number>
   chapterEngagedMs?: Record<string, number>
   totalEngagementMs?: number
+  revision?: RevisionBackup
 }
 
 export interface StudyExport {
@@ -65,11 +83,15 @@ export function studyDataCounts(d: StudyDataPayload) {
     ratings: Object.keys(d.ratings ?? {}).length,
     flags: Object.keys(d.flags ?? {}).length,
     bookmarks: Object.keys(d.bookmarks ?? {}).length,
+    revisionCards: Object.keys(d.revision?.items ?? {}).length,
+    reviews: (d.revision?.reviews ?? []).length,
   }
 }
 
 export function isStudyDataEmpty(d: StudyDataPayload): boolean {
-  return PAYLOAD_KEYS.every((k) => Object.keys(d[k] ?? {}).length === 0)
+  const mapsEmpty = PAYLOAD_KEYS.every((k) => Object.keys(d[k] ?? {}).length === 0)
+  const revisionEmpty = Object.keys(d.revision?.items ?? {}).length === 0
+  return mapsEmpty && revisionEmpty
 }
 
 /** Parse + lightly validate an uploaded backup file. */
@@ -100,6 +122,10 @@ export function parseStudyExport(
     if (v && typeof v === 'object') {
       ;(clean as Record<string, unknown>)[key] = v
     }
+  }
+  const revision = (data as Record<string, unknown>).revision
+  if (revision && typeof revision === 'object') {
+    clean.revision = revision as RevisionBackup
   }
   if (isStudyDataEmpty(clean)) {
     return { ok: false, error: 'Backup contains no study data.' }
@@ -162,4 +188,106 @@ export function exportFilename(): string {
   const d = new Date()
   const pad = (n: number) => String(n).padStart(2, '0')
   return `harrison-study-${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}.json`
+}
+
+// ── Revision engine merge helpers ────────────────────────────────────────────
+
+/** Per-card merge: keep whichever was reviewed (or created) most recently. */
+export function mergeRevisionItems(
+  base: Record<string, RevisionStudyItem> = {},
+  incoming: Record<string, RevisionStudyItem> = {},
+): Record<string, RevisionStudyItem> {
+  const out: Record<string, RevisionStudyItem> = { ...base }
+  for (const [id, inc] of Object.entries(incoming)) {
+    const cur = out[id]
+    if (!cur) {
+      out[id] = inc
+      continue
+    }
+    const incT = inc.lastReviewedAt ?? inc.createdAt ?? 0
+    const curT = cur.lastReviewedAt ?? cur.createdAt ?? 0
+    out[id] = incT >= curT ? inc : cur
+  }
+  return out
+}
+
+/** Union review log, de-duplicated by (itemId, reviewedAt), chronological. */
+export function mergeReviews(
+  base: ReviewRecord[] = [],
+  incoming: ReviewRecord[] = [],
+): ReviewRecord[] {
+  const seen = new Set<string>()
+  const out: ReviewRecord[] = []
+  for (const r of [...base, ...incoming]) {
+    const key = `${r.itemId}@${r.reviewedAt}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(r)
+  }
+  return out.sort((a, b) => a.reviewedAt - b.reviewedAt)
+}
+
+/** Per-day stats: keep the busier record to avoid double-counting overlap. */
+export function mergeDailyStats(
+  base: Record<string, DailyStats> = {},
+  incoming: Record<string, DailyStats> = {},
+): Record<string, DailyStats> {
+  const out: Record<string, DailyStats> = { ...base }
+  for (const [date, inc] of Object.entries(incoming)) {
+    const cur = out[date]
+    out[date] = !cur || inc.reviewed > cur.reviewed ? inc : cur
+  }
+  return out
+}
+
+export function mergeSessionHistory(
+  base: SessionHistoryEntry[] = [],
+  incoming: SessionHistoryEntry[] = [],
+): SessionHistoryEntry[] {
+  const seen = new Set<string>()
+  const out: SessionHistoryEntry[] = []
+  for (const e of [...base, ...incoming]) {
+    if (seen.has(e.id)) continue
+    seen.add(e.id)
+    out.push(e)
+  }
+  return out.sort((a, b) => a.startedAt - b.startedAt).slice(-50)
+}
+
+function laterDate(a?: string | null, b?: string | null): string | null {
+  if (!a) return b ?? null
+  if (!b) return a
+  return a >= b ? a : b // ISO YYYY-MM-DD compares lexicographically
+}
+
+/**
+ * Combine the current revision slice with an incoming backup. 'replace' takes
+ * the incoming wholesale (per-field, falling back to current when absent);
+ * 'merge' folds the two together without losing review history or streaks.
+ */
+export function mergeRevisionBackup(
+  current: RevisionBackup,
+  incoming: RevisionBackup,
+  mode: 'merge' | 'replace',
+): Required<RevisionBackup> {
+  if (mode === 'replace') {
+    return {
+      items: incoming.items ?? current.items ?? {},
+      reviews: incoming.reviews ?? current.reviews ?? [],
+      streak: incoming.streak ?? current.streak ?? 0,
+      lastStudyDate: incoming.lastStudyDate ?? current.lastStudyDate ?? null,
+      dailyStats: incoming.dailyStats ?? current.dailyStats ?? {},
+      sessionHistory: incoming.sessionHistory ?? current.sessionHistory ?? [],
+      showTimeAfterReveal: incoming.showTimeAfterReveal ?? current.showTimeAfterReveal ?? true,
+    }
+  }
+  return {
+    items: mergeRevisionItems(current.items, incoming.items),
+    reviews: mergeReviews(current.reviews, incoming.reviews),
+    streak: Math.max(current.streak ?? 0, incoming.streak ?? 0),
+    lastStudyDate: laterDate(current.lastStudyDate, incoming.lastStudyDate),
+    dailyStats: mergeDailyStats(current.dailyStats, incoming.dailyStats),
+    sessionHistory: mergeSessionHistory(current.sessionHistory, incoming.sessionHistory),
+    showTimeAfterReveal: incoming.showTimeAfterReveal ?? current.showTimeAfterReveal ?? true,
+  }
 }
