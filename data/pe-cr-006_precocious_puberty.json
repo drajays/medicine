@@ -2472,6 +2472,321 @@
       "reason": "Testotoxicosis is gonadotropin-independent: an autonomously active LH receptor drives the Leydig cells regardless of the already-suppressed LH.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason explains the assertion. Since GnRH analogs act by lowering gonadotropins, and in testotoxicosis LH is already suppressed while the receptor is autonomously active, there is no gonadotropin pathway for the analog to block — so it cannot work."
+    },
+    {
+      "id": "pe-cr-006-tt-n1",
+      "type": "note",
+      "subtopic": "The Paradox",
+      "title": "Why testotoxicosis breaks the standard precocious-puberty algorithm",
+      "content": "The standard work-up of precocious puberty is binary: pubertal LH/FSH with a brisk GnRH response means central (gonadotropin-dependent) precocious puberty; suppressed gonadotropins with no GnRH response means peripheral (gonadotropin-independent). Testotoxicosis violently breaks this. It is gonadotropin-INDEPENDENT (so LH and FSH are suppressed), yet the testes are BILATERALLY ENLARGED — a finding everyone associates with central puberty — and it causes true, progressive virilization indistinguishable from central precocity. The result is a paradoxical triad seen in no other peripheral cause: suppressed gonadotropins + symmetric testicular enlargement + progressive puberty. Recognising that this paradox exists is the first step to not being trapped by it.",
+      "keyPoints": [
+        "Standard algorithm: pubertal LH = central; suppressed LH = peripheral.",
+        "Testotoxicosis is peripheral (suppressed LH) BUT has bilaterally enlarged testes + true virilization.",
+        "Paradoxical triad: suppressed gonadotropins + symmetric testicular enlargement + progressive puberty."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n2",
+      "type": "note",
+      "subtopic": "vs Other PPP",
+      "title": "How testotoxicosis differs from other peripheral precocious puberty",
+      "content": "Among gonadotropin-independent causes, testicular findings and a few targeted tests separate them. Testotoxicosis: autonomous testicular testosterone, BILATERALLY and symmetrically ENLARGED testes, normal 17-OHP and hCG, spermatogenesis often present. CAH: adrenal androgens (ACTH-driven), testes remain PREPUBERTAL/small, with ELEVATED 17-OHP and androstenedione (and salt-wasting/hyperpigmentation clues). hCG-secreting tumour: testes bilaterally enlarged but with an ELEVATED hCG and a tumour source (hepatomegaly/mediastinal mass). Leydig cell tumour: a UNILATERAL palpable testicular mass (asymmetric). Exogenous androgens: small soft testes with a history of exposure (creams, gels, supplements). The differentiating triad for testotoxicosis is therefore symmetric bilateral testicular enlargement + suppressed gonadotropins + no exogenous hCG or androgen source.",
+      "keyPoints": [
+        "Testotoxicosis: symmetric bilateral enlargement, normal 17-OHP and hCG.",
+        "CAH: small testes + high 17-OHP; Leydig tumour: unilateral mass; hCG tumour: high hCG; exogenous: small testes + exposure history.",
+        "Triad for testotoxicosis: symmetric bilateral enlargement + suppressed gonadotropins + no exogenous hCG/androgen."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n3",
+      "type": "note",
+      "subtopic": "vs CPP (The Trap)",
+      "title": "How testotoxicosis mimics central precocious puberty — and the GnRH-agonist trap",
+      "content": "This is the crucial clinical trap. Testotoxicosis and central precocious puberty (CPP) both show progressive penile growth, pubarche, bilateral testicular enlargement, accelerated growth, and advanced bone age — a near-identical surface. They separate biochemically: in testotoxicosis basal LH is suppressed (< 0.1 IU/L), the GnRH stimulation test is flat (no LH response), FSH is suppressed, the brain MRI is normal, onset is often very young (2-4 years), and there is a strong autosomal-dominant family history (father often affected). In CPP the basal LH is pubertal (≥ 0.3, often higher) with a robust LH-predominant GnRH response, FSH is pubertal, and MRI may reveal a CNS lesion. The pitfall: assuming 'bilateral enlargement = CPP' and prescribing a GnRH agonist, which fails completely because the disease is downstream of the pituitary — a documented, repeated error.",
+      "keyPoints": [
+        "Surface is near-identical: penile growth, pubarche, bilateral testes, advanced bone age.",
+        "Testotoxicosis: basal LH < 0.1, FLAT GnRH response, normal MRI, very young onset, AD family history.",
+        "Trap: 'bilateral enlargement = CPP' → a GnRH agonist that fails completely."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n4",
+      "type": "note",
+      "subtopic": "Molecular Lesion",
+      "title": "The molecular lesion: an activating LHCGR mutation",
+      "content": "Testotoxicosis is caused by a heterozygous, gain-of-function (activating) missense mutation in LHCGR (the LH/choriogonadotropin receptor gene) on chromosome 2p21. More than 30 different activating mutations have been described, most clustering in exon 11, which encodes the transmembrane domain of this G-protein-coupled receptor. Inheritance is autosomal dominant with male-limited expression — heterozygous females are asymptomatic carriers, because LH-receptor activation in the ovary alone (without FSH co-activation) produces no phenotype. So a single activating allele, inherited from an affected father (or new), is sufficient to switch the receptor on in males.",
+      "keyPoints": [
+        "Heterozygous activating (gain-of-function) LHCGR missense mutation, chromosome 2p21.",
+        ">30 mutations, mostly in exon 11 (transmembrane domain).",
+        "Autosomal dominant, male-limited expression (females are asymptomatic carriers)."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n5",
+      "type": "note",
+      "subtopic": "Signaling",
+      "title": "How a constitutively active LH receptor drives testosterone",
+      "content": "Normally the LH receptor, a Gs-coupled GPCR on Leydig cells, is active only when LH binds: ligand binding activates Gs-alpha, which stimulates adenylyl cyclase to raise cAMP, activating protein kinase A (PKA); PKA phosphorylates StAR (steroidogenic acute regulatory protein) and steroidogenic enzymes, transporting cholesterol into mitochondria for testosterone synthesis. In prepubertal boys LH is very low, so testosterone is minimal. The activating mutation puts the receptor into an active conformation WITHOUT LH bound, so cAMP and the entire steroidogenic cascade run continuously regardless of (suppressed) extracellular LH — and the Leydig cells pour out testosterone autonomously. This is mechanistically analogous to activating TSH-receptor mutations in toxic thyroid adenomas, which produce thyroid hormone without TSH.",
+      "keyPoints": [
+        "Normal: LH → Gs-alpha → cAMP → PKA → StAR → cholesterol transport → testosterone.",
+        "Mutation: receptor active without ligand → constitutive cAMP and steroidogenesis despite suppressed LH.",
+        "Analogous to activating TSH-receptor mutations in toxic thyroid adenomas."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n6",
+      "type": "note",
+      "subtopic": "Testicular Enlargement",
+      "title": "Why the testes enlarge: Leydig hyperplasia plus testosterone-driven spermatogenesis",
+      "content": "Two mechanisms enlarge the testes and explain the central mimicry. First, Leydig-cell hyperplasia/hypertrophy: constitutive LH-receptor activation makes the Leydig cells proliferate and enlarge, increasing testicular volume — not seen in CAH, where testes stay small. Second, intratesticular testosterone-driven spermatogenesis: local testosterone within the seminiferous tubules reaches concentrations 100-1000 times serum levels, and this can partially bypass the usual FSH requirement to initiate spermatogenesis. The consequences are that the testes are bilaterally enlarged (not just a Leydig nodule), spermatogenesis may occur, and fertility potential can be preserved — unlike CAH, where intratesticular testosterone is not elevated and the testes remain small.",
+      "keyPoints": [
+        "Leydig-cell hyperplasia/hypertrophy from constitutive activation enlarges the testes.",
+        "Intratesticular testosterone (100-1000x serum) can drive spermatogenesis despite low FSH.",
+        "Result: bilateral enlargement and possible preserved fertility (contrast CAH's small testes)."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n7",
+      "type": "note",
+      "subtopic": "Female Carriers",
+      "title": "Why female carriers are asymptomatic: the two-cell, two-gonadotropin paradox",
+      "content": "Heterozygous mothers carrying the same activating LHCGR mutation are completely asymptomatic — no precocious puberty, normal fertility — which is why the condition is male-limited. The reason is the ovary's two-cell, two-gonadotropin system: theca cells use LH to make androgens, but granulosa cells require FSH to drive aromatase and convert those androgens to estradiol. An activated LH receptor alone, without concomitant FSH-receptor drive, produces only small amounts of androgen that are efficiently aromatized, generating no estrogen surge, no follicular maturation, and no clinical phenotype. The Leydig cell, by contrast, produces the final active hormone (testosterone) directly from LH-receptor signalling, so a single activated receptor is sufficient in the male. Understanding this perfectly explains the male-limited inheritance.",
+      "keyPoints": [
+        "Ovary needs two cells/two gonadotropins: theca (LH→androgen) + granulosa (FSH→aromatase→estradiol).",
+        "LH-receptor activation alone (no FSH) yields minimal, aromatized androgen → no phenotype.",
+        "Leydig cells make the active hormone directly → one activated receptor suffices in males."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n8",
+      "type": "note",
+      "subtopic": "Treatment",
+      "title": "How to treat testotoxicosis: the multi-drug, mechanism-based approach",
+      "content": "Because the disease is entirely downstream of the pituitary, GnRH agonists are ineffective, and treatment targets androgen production and action directly. The standard combination blocks the pathway at several points: an aromatase inhibitor (anastrozole or letrozole) to block conversion of testosterone to estradiol, slowing bone-age advancement and preserving adult height; an anti-androgen (bicalutamide, spironolactone, or flutamide) to block the androgen receptor and limit virilization; and, as a second-line steroidogenesis inhibitor, ketoconazole (CYP17A1 inhibition, used with liver monitoring), with abiraterone an emerging more potent option. A common regimen is ketoconazole plus bicalutamide plus an aromatase inhibitor. The goals are to block testosterone action, slow virilization, preserve height potential, protect fertility (spermatogenesis continues on intratesticular testosterone), and provide psychological/family support.",
+      "keyPoints": [
+        "GnRH agonists do NOT work; treat the periphery directly.",
+        "Aromatase inhibitor (anastrozole/letrozole) preserves height; anti-androgen (bicalutamide/spironolactone) blocks virilization.",
+        "Ketoconazole (CYP17A1, 2nd line, monitor liver); abiraterone emerging. Goals: block T, slow virilization, preserve height/fertility, support."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-n9",
+      "type": "note",
+      "subtopic": "Clinical Pearls",
+      "title": "Clinical recognition pearls for testotoxicosis",
+      "content": "Key teaching points for the bedside. A boy with precocious puberty, suppressed LH, and bilaterally enlarged testes has testotoxicosis until proven otherwise — the combination is nearly pathognomonic but is missed if you stop at 'suppressed LH = peripheral'. GnRH agonists will not work, so recognising the diagnosis avoids futile, expensive therapy and directs to the right drugs. Always ask about the father's pubertal timing — the autosomal-dominant inheritance means he was often early himself. The testes are smooth, firm, and symmetrically enlarged, which distinguishes them from the asymmetric, nodular mass of a Leydig cell tumour. Bone age is markedly advanced at presentation, and without treatment adult height is severely compromised. Counsel families: 50% of sons are affected, daughters are asymptomatic carriers.",
+      "keyPoints": [
+        "Suppressed LH + bilaterally enlarged testes = testotoxicosis until proven otherwise.",
+        "GnRH agonists fail; ask the father's pubertal history; testes are smooth/symmetric (not a nodular mass).",
+        "Advanced bone age threatens height; counsel — 50% of sons affected, daughters asymptomatic carriers."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-why1",
+      "type": "why",
+      "subtopic": "The Paradox",
+      "question": "Why does testotoxicosis produce the paradoxical combination of suppressed gonadotropins with bilaterally enlarged testes?",
+      "answer": "Because the two findings come from different levels of the axis acting at once. The autonomous testosterone made by the constitutively active Leydig-cell LH receptor feeds back on the hypothalamus and pituitary and suppresses LH and FSH to prepubertal levels — hence suppressed gonadotropins, marking it as gonadotropin-independent. At the same time, that same constitutive receptor activation enlarges the testes by two local mechanisms: Leydig-cell hyperplasia and hypertrophy, and intratesticular testosterone concentrations (100-1000 times serum) high enough to drive seminiferous-tubule expansion and spermatogenesis even without FSH. So the periphery is simultaneously shutting the axis down (suppressed LH/FSH) and growing the gonad (enlarged testes) — a combination no other peripheral cause reproduces, which is exactly why it mimics central puberty and traps the unwary.",
+      "keyPoints": [
+        "Autonomous testosterone suppresses LH/FSH (gonadotropin-independent).",
+        "The same receptor activation causes Leydig hyperplasia and very high intratesticular testosterone.",
+        "Suppressed gonadotropins + enlarged testes coexist — the central-mimic trap."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-how1",
+      "type": "how",
+      "subtopic": "Treatment",
+      "question": "How does the treatment of testotoxicosis differ mechanistically from CPP, and what is the standard regimen?",
+      "answer": "In central precocious puberty the drive comes from the pituitary, so a GnRH agonist suppresses gonadotropins and turns the whole axis off — first-line and highly effective. In testotoxicosis the pathology is downstream of the pituitary (an autonomously active Leydig-cell receptor with already-suppressed LH), so a GnRH agonist has nothing to act on and fails. Treatment must therefore attack androgen production and action directly: an aromatase inhibitor (anastrozole or letrozole) to block testosterone-to-estradiol conversion and slow epiphyseal fusion (preserving adult height); an anti-androgen (bicalutamide, spironolactone, or flutamide) to block the androgen receptor and halt virilization; and a steroidogenesis inhibitor such as ketoconazole (CYP17A1, second-line, with liver monitoring), with abiraterone emerging. A standard combination is ketoconazole plus bicalutamide plus an aromatase inhibitor, with the goals of blocking testosterone action, slowing virilization, preserving height and fertility, and supporting the child and family.",
+      "keyPoints": [
+        "CPP: GnRH agonist works (central drive). Testotoxicosis: GnRH agonist fails (peripheral, suppressed LH).",
+        "Treat directly: aromatase inhibitor (height) + anti-androgen (virilization) ± ketoconazole (steroidogenesis).",
+        "Standard combo: ketoconazole + bicalutamide + an aromatase inhibitor."
+      ]
+    },
+    {
+      "id": "pe-cr-006-tt-m1",
+      "type": "mcq",
+      "subtopic": "The Paradox",
+      "stem": "Which combination is the paradoxical, near-pathognomonic picture of testotoxicosis?",
+      "options": [
+        "Elevated LH with small testes",
+        "Suppressed gonadotropins with bilaterally and symmetrically enlarged testes and progressive virilization",
+        "Suppressed gonadotropins with a unilateral testicular mass",
+        "Pubertal LH with a brisk GnRH response"
+      ],
+      "correctOption": 1,
+      "explanation": "Testotoxicosis uniquely combines suppressed gonadotropins (gonadotropin-independent) with symmetric bilateral testicular enlargement and true progressive virilization — a paradox no other peripheral cause reproduces."
+    },
+    {
+      "id": "pe-cr-006-tt-m2",
+      "type": "mcq",
+      "subtopic": "vs CAH",
+      "stem": "Which feature best distinguishes testotoxicosis from congenital adrenal hyperplasia in a virilized boy?",
+      "options": [
+        "Both have small testes",
+        "Testotoxicosis has bilaterally enlarged testes with normal 17-OHP, whereas CAH has prepubertal/small testes with elevated 17-OHP",
+        "CAH has a unilateral testicular mass",
+        "Testotoxicosis has elevated hCG"
+      ],
+      "correctOption": 1,
+      "explanation": "In testotoxicosis the testes are enlarged and 17-OHP is normal; in CAH the androgens are adrenal, the testes stay small/prepubertal, and 17-OHP (and androstenedione) are elevated."
+    },
+    {
+      "id": "pe-cr-006-tt-m3",
+      "type": "mcq",
+      "subtopic": "vs Leydig Tumour",
+      "stem": "A virilized boy with suppressed LH has a single firm, nodular, asymmetric testicular mass. What is most likely?",
+      "options": [
+        "Testotoxicosis",
+        "A Leydig cell tumour",
+        "Central precocious puberty",
+        "Congenital adrenal hyperplasia"
+      ],
+      "correctOption": 1,
+      "explanation": "A unilateral, nodular, asymmetric testicular mass suggests a Leydig cell tumour. Testotoxicosis produces smooth, firm, symmetric bilateral enlargement."
+    },
+    {
+      "id": "pe-cr-006-tt-m4",
+      "type": "mcq",
+      "subtopic": "The Trap",
+      "stem": "Why is prescribing a GnRH agonist for a boy with bilateral testicular enlargement a classic pitfall?",
+      "options": [
+        "GnRH agonists worsen all precocious puberty",
+        "If the cause is testotoxicosis (gonadotropin-independent), the GnRH agonist fails completely because the disease is downstream of the pituitary",
+        "GnRH agonists are too expensive to ever use",
+        "Bilateral enlargement always means a tumour"
+      ],
+      "correctOption": 1,
+      "explanation": "Bilateral enlargement is assumed to indicate central precocious puberty, but in testotoxicosis the LH receptor is autonomously active with suppressed LH, so a GnRH agonist has nothing to suppress and is ineffective — a repeatedly documented error."
+    },
+    {
+      "id": "pe-cr-006-tt-m5",
+      "type": "mcq",
+      "subtopic": "Genetics",
+      "stem": "What is the inheritance pattern and expression of the LHCGR mutation in testotoxicosis?",
+      "options": [
+        "X-linked recessive, affecting only females",
+        "Autosomal dominant with male-limited expression (females are asymptomatic carriers)",
+        "Autosomal recessive",
+        "Mitochondrial"
+      ],
+      "correctOption": 1,
+      "explanation": "The activating LHCGR mutation is autosomal dominant with male-limited expression; heterozygous females are asymptomatic carriers because ovarian LH-receptor activation alone (without FSH) produces no phenotype."
+    },
+    {
+      "id": "pe-cr-006-tt-m6",
+      "type": "mcq",
+      "subtopic": "Signaling",
+      "stem": "How does the activating LHCGR mutation produce testosterone without LH?",
+      "options": [
+        "It increases LH secretion",
+        "The receptor adopts an active conformation without ligand, driving constitutive cAMP/PKA/StAR signalling and steroidogenesis",
+        "It blocks aromatase",
+        "It stimulates the adrenal gland"
+      ],
+      "correctOption": 1,
+      "explanation": "The mutation locks the receptor 'on' without LH, so Gs-alpha → adenylyl cyclase → cAMP → PKA → StAR signalling runs constitutively, producing testosterone independent of (suppressed) LH."
+    },
+    {
+      "id": "pe-cr-006-tt-m7",
+      "type": "mcq",
+      "subtopic": "Female Carriers",
+      "stem": "Why are female heterozygous carriers of the activating LHCGR mutation asymptomatic?",
+      "options": [
+        "The mutation is silenced in females",
+        "Ovarian estradiol production requires FSH-driven granulosa-cell aromatization, so LH-receptor activation alone produces no phenotype (the two-cell, two-gonadotropin system)",
+        "Females do not express the LH receptor",
+        "Estrogen blocks the mutation"
+      ],
+      "correctOption": 1,
+      "explanation": "In the ovary, theca cells use LH to make androgens but granulosa cells need FSH to aromatize them to estradiol; an activated LH receptor alone yields minimal, efficiently-aromatized androgen and no clinical effect — explaining the male-limited expression."
+    },
+    {
+      "id": "pe-cr-006-tt-m8",
+      "type": "mcq",
+      "subtopic": "Treatment",
+      "stem": "Which regimen reflects the standard mechanism-based treatment of testotoxicosis?",
+      "options": [
+        "A GnRH agonist alone",
+        "An aromatase inhibitor plus an anti-androgen (± a steroidogenesis inhibitor such as ketoconazole)",
+        "Testosterone replacement",
+        "Observation until natural puberty"
+      ],
+      "correctOption": 1,
+      "explanation": "Because GnRH agonists fail, treatment combines an aromatase inhibitor (to preserve height by slowing bone maturation), an anti-androgen (to block virilization), and sometimes a steroidogenesis inhibitor (ketoconazole), e.g. ketoconazole + bicalutamide + anastrozole."
+    },
+    {
+      "id": "pe-cr-006-tt-m9",
+      "type": "mcq",
+      "subtopic": "Treatment",
+      "stem": "What is the specific purpose of the aromatase inhibitor in treating testotoxicosis?",
+      "options": [
+        "To raise testosterone",
+        "To block conversion of testosterone to estradiol, slowing bone-age advancement and preserving adult height",
+        "To suppress LH",
+        "To enlarge the testes"
+      ],
+      "correctOption": 1,
+      "explanation": "Estradiol (from aromatization of the high testosterone) drives epiphyseal maturation; an aromatase inhibitor blocks this conversion, slowing bone-age advancement and protecting adult height."
+    },
+    {
+      "id": "pe-cr-006-tt-tf1",
+      "type": "true_false",
+      "subtopic": "vs CAH",
+      "statement": "In congenital adrenal hyperplasia, the testes are typically enlarged just as in testotoxicosis.",
+      "correctAnswer": false,
+      "explanation": "False. In CAH the androgens are adrenal and the testes remain prepubertal/small (with elevated 17-OHP), whereas testotoxicosis bilaterally enlarges the testes."
+    },
+    {
+      "id": "pe-cr-006-tt-tf2",
+      "type": "true_false",
+      "subtopic": "vs Leydig Tumour",
+      "statement": "A unilateral, nodular testicular mass favours a Leydig cell tumour over testotoxicosis.",
+      "correctAnswer": true,
+      "explanation": "True. Testotoxicosis gives smooth, symmetric, bilateral enlargement; a unilateral nodular mass suggests a Leydig cell tumour."
+    },
+    {
+      "id": "pe-cr-006-tt-tf3",
+      "type": "true_false",
+      "subtopic": "Treatment",
+      "statement": "Aromatase inhibitors help preserve adult height in testotoxicosis by delaying epiphyseal fusion.",
+      "correctAnswer": true,
+      "explanation": "True. By blocking testosterone-to-estradiol conversion they slow estrogen-driven bone maturation and epiphyseal fusion, preserving height potential."
+    },
+    {
+      "id": "pe-cr-006-tt-tf4",
+      "type": "true_false",
+      "subtopic": "Female Carriers",
+      "statement": "Female heterozygous carriers of the activating LHCGR mutation are typically asymptomatic.",
+      "correctAnswer": true,
+      "explanation": "True. Ovarian estrogen output requires FSH-driven aromatization, so LH-receptor activation alone causes no phenotype — hence male-limited expression."
+    },
+    {
+      "id": "pe-cr-006-tt-tf5",
+      "type": "true_false",
+      "subtopic": "Testicular Enlargement",
+      "statement": "Spermatogenesis can occur in testotoxicosis because very high intratesticular testosterone can partly bypass the FSH requirement.",
+      "correctAnswer": true,
+      "explanation": "True. Intratesticular testosterone reaches 100-1000x serum levels, which can drive spermatogenesis despite low FSH, so fertility potential may be preserved."
+    },
+    {
+      "id": "pe-cr-006-tt-tf6",
+      "type": "true_false",
+      "subtopic": "The Trap",
+      "statement": "GnRH agonists effectively suppress testosterone in testotoxicosis.",
+      "correctAnswer": false,
+      "explanation": "False. Testotoxicosis is gonadotropin-independent with already-suppressed LH and an autonomously active receptor, so GnRH agonists have nothing to act on and are ineffective."
+    },
+    {
+      "id": "pe-cr-006-tt-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Reasoning",
+      "assertion": "Female heterozygous carriers of an activating LHCGR mutation are asymptomatic.",
+      "reason": "Ovarian estradiol production requires FSH-driven granulosa-cell aromatization, so isolated LH-receptor activation produces no estrogenic phenotype (the two-cell, two-gonadotropin system).",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion. Because the ovary needs both LH (theca androgens) and FSH (granulosa aromatization) to make estradiol, an activated LH receptor alone is insufficient to cause puberty — which is exactly why female carriers are asymptomatic and the disorder is male-limited."
     }
   ]
 }
