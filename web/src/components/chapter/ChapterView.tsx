@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Link2 } from 'lucide-react'
+import { ArrowLeft, ArrowRight, LayoutGrid, Link2 } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
 import { QuestionSkeleton } from '@/components/ui/Skeleton'
 import { ChapterHeader } from '@/components/chapter/ChapterHeader'
@@ -117,6 +117,72 @@ function RelatedChapters({ chapter }: { chapter: ChapterData }) {
   )
 }
 
+/**
+ * Prev/Next navigation bounded to the current group (case reports cycle through
+ * case reports, a Harrison section through its own chapters, etc.), plus a
+ * one-click "back to list" that returns to the landing grid.
+ */
+function ChapterNav({ currentChapterId }: { currentChapterId: string }) {
+  const navEntries = useAppStore((s) => s.navEntries)
+  const selectChapter = useAppStore((s) => s.selectChapter)
+  const clearSelection = useAppStore((s) => s.clearSelection)
+
+  const current = navEntries.find((e) => e.id === currentChapterId)
+  if (!current) return null
+
+  const siblings = navEntries.filter((e) => e.sectionTitle === current.sectionTitle)
+  const idx = siblings.findIndex((e) => e.id === currentChapterId)
+  const prev = idx > 0 ? siblings[idx - 1] : null
+  const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null
+
+  return (
+    <nav className="mt-10 border-t border-stone-200/70 pt-5 dark:border-stone-700/60">
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-[1fr_auto_1fr] sm:items-stretch">
+        {prev ? (
+          <button
+            type="button"
+            onClick={() => selectChapter(prev.id)}
+            className="group flex items-center gap-2 rounded-lg border border-stone-200/70 bg-white/60 px-3 py-2 text-left transition-colors hover:bg-stone-50 dark:border-stone-700/60 dark:bg-stone-900/40 dark:hover:bg-stone-800/60"
+          >
+            <ArrowLeft className="h-4 w-4 shrink-0 clinical-muted" />
+            <span className="min-w-0">
+              <span className="eyebrow block clinical-muted">Previous</span>
+              <span className="block truncate text-sm font-medium">{prev.title}</span>
+            </span>
+          </button>
+        ) : (
+          <span className="hidden sm:block" />
+        )}
+
+        <button
+          type="button"
+          onClick={clearSelection}
+          className="flex items-center justify-center gap-1.5 rounded-lg border border-stone-200/70 bg-white/60 px-4 py-2 text-xs font-semibold transition-colors hover:bg-stone-50 dark:border-stone-700/60 dark:bg-stone-900/40 dark:hover:bg-stone-800/60"
+        >
+          <LayoutGrid className="h-3.5 w-3.5" />
+          All {current.sectionTitle}
+        </button>
+
+        {next ? (
+          <button
+            type="button"
+            onClick={() => selectChapter(next.id)}
+            className="group flex items-center justify-end gap-2 rounded-lg border border-stone-200/70 bg-white/60 px-3 py-2 text-right transition-colors hover:bg-stone-50 dark:border-stone-700/60 dark:bg-stone-900/40 dark:hover:bg-stone-800/60"
+          >
+            <span className="min-w-0">
+              <span className="eyebrow block clinical-muted">Next</span>
+              <span className="block truncate text-sm font-medium">{next.title}</span>
+            </span>
+            <ArrowRight className="h-4 w-4 shrink-0 clinical-muted" />
+          </button>
+        ) : (
+          <span className="hidden sm:block" />
+        )}
+      </div>
+    </nav>
+  )
+}
+
 export function ChapterView() {
   const chapterLoading = useAppStore((s) => s.chapterLoading)
   const chapter = useAppStore((s) => s.getCurrentChapter())
@@ -181,6 +247,7 @@ export function ChapterView() {
           <TabBody chapter={chapter} tab={tab} />
         </motion.div>
       </div>
+      <ChapterNav currentChapterId={currentChapterId} />
     </div>
   )
 }
