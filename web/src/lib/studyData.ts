@@ -1,4 +1,5 @@
 import type { ItemMark } from '@/lib/types'
+import type { ItemEngagementRecord } from '@/lib/studyProgress'
 
 /**
  * Backup/restore for the user's local-only study data (the h22-ui-store). The
@@ -6,7 +7,7 @@ import type { ItemMark } from '@/lib/types'
  * browser at any time, and there is no server, so this is the only way to move
  * progress between devices or recover from a wipe.
  */
-export const STUDY_EXPORT_VERSION = 1
+export const STUDY_EXPORT_VERSION = 2
 export const STUDY_STORE_KEY = 'h22-ui-store'
 
 /** Every per-item map the user can generate. All optional so old/partial
@@ -19,6 +20,11 @@ export interface StudyDataPayload {
   bookmarks?: Record<string, boolean>
   mcqSelections?: Record<string, number | null>
   revealed?: Record<string, boolean>
+  readItems?: Record<string, boolean>
+  itemEngagement?: Record<string, ItemEngagementRecord>
+  chapterTotals?: Record<string, number>
+  chapterEngagedMs?: Record<string, number>
+  totalEngagementMs?: number
 }
 
 export interface StudyExport {
@@ -37,6 +43,10 @@ const PAYLOAD_KEYS: (keyof StudyDataPayload)[] = [
   'bookmarks',
   'mcqSelections',
   'revealed',
+  'readItems',
+  'itemEngagement',
+  'chapterTotals',
+  'chapterEngagedMs',
 ]
 
 export function buildStudyExport(data: StudyDataPayload): StudyExport {

@@ -5,9 +5,11 @@ import { buildSections, type LandingItem, type LandingSection } from '@/lib/sect
 import { cn } from '@/lib/utils'
 import { useRevisionStore } from '@/stores/revisionStore'
 import { ReviseDashboard } from '@/components/ReviseDashboard'
+import { StudyProgressDashboard } from '@/components/StudyProgressDashboard'
 import type { HeaderKind } from '@/lib/types'
 
 const REVISE_KEY = '__revise__'
+const PROGRESS_KEY = '__progress__'
 
 const BASE = import.meta.env.BASE_URL
 
@@ -132,14 +134,16 @@ export function LandingPage() {
   const bootstrapFromMarks = useRevisionStore((s) => s.bootstrapFromMarks)
   const reviseN = useRevisionStore((s) => Object.keys(s.items).length)
   const criticalN = useRevisionStore((s) => s.getCriticalCount())
+  const overallPercent = useAppStore((s) => s.getStudyProgress().overall.percent)
   const sections = useMemo(() => buildSections(navRows), [navRows])
   const [activeKey, setActiveKey] = useState<string | null>(null)
 
-  // Keep revision engine in sync when marks change
   useEffect(() => {
     bootstrapFromMarks(marks)
   }, [marks, bootstrapFromMarks])
+
   const isRevise = activeKey === REVISE_KEY
+  const isProgress = activeKey === PROGRESS_KEY
   const active = sections.find((s) => s.key === activeKey) ?? sections[0]
 
   if (!sections.length) {
@@ -199,9 +203,36 @@ export function LandingPage() {
               </span>
             )}
           </button>
+          <button
+            type="button"
+            onClick={() => setActiveKey(PROGRESS_KEY)}
+            className={cn(
+              'flex shrink-0 items-center gap-2 rounded-lg px-3.5 py-2 transition-colors duration-100',
+              isProgress
+                ? 'bg-indigo-600 text-white shadow-sm'
+                : 'bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+            )}
+          >
+            <span aria-hidden className="text-base leading-none">
+              📊
+            </span>
+            <span className="text-sm font-semibold">Progress</span>
+            {overallPercent > 0 && (
+              <span
+                className={cn(
+                  'rounded-full px-1.5 py-0.5 text-[10px] font-bold tabular-nums',
+                  isProgress
+                    ? 'bg-white/25 text-white'
+                    : 'bg-indigo-100 text-indigo-800 dark:bg-indigo-950/50 dark:text-indigo-200',
+                )}
+              >
+                {overallPercent}%
+              </span>
+            )}
+          </button>
           {sections.map((section) => {
             const meta = META[section.kind]
-            const isActive = !isRevise && section.key === active.key
+            const isActive = !isRevise && !isProgress && section.key === active.key
             return (
               <button
                 key={section.key}
@@ -234,6 +265,8 @@ export function LandingPage() {
 
       {isRevise ? (
         <ReviseDashboard />
+      ) : isProgress ? (
+        <StudyProgressDashboard />
       ) : (
         <>
           {active.subtitle && (

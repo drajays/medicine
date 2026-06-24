@@ -13,11 +13,20 @@ import type {
 } from '@/lib/types'
 import { emptyMark, itemMarkLabel, type MarkAxis } from '@/lib/studyMarks'
 import {
+  aggregateProgress,
+  creditDwell,
+  creditEngagement,
+  type EngagementKind,
+  type ItemEngagementRecord,
+  type OverallProgress,
+  type SectionProgress,
+} from '@/lib/studyProgress'
+import {
   mergeMarks,
   mergeRecord,
   type StudyDataPayload,
 } from '@/lib/studyData'
-import { applyTheme, buildProgress, itemSearchText } from '@/store/helpers'
+import { applyTheme, buildProgress, engagementInputFromStore, itemSearchText } from '@/store/helpers'
 
 export interface FeedbackCtx {
   chapterId: string
@@ -36,7 +45,12 @@ interface AppState {
   navEntries: NavEntry[]
   navRows: NavRow[]
   chapters: Record<string, ChapterData>
-  progress: Record<string, { completed: number; total: number }>
+  progress: Record<string, { completed: number; total: number; engagedMs: number }>
+  readItems: Record<string, boolean>
+  itemEngagement: Record<string, ItemEngagementRecord>
+  chapterTotals: Record<string, number>
+  chapterEngagedMs: Record<string, number>
+  totalEngagementMs: number
   currentChapterId: string | null
   activeTab: ChapterTab
   scrollToItemId: string | null
@@ -72,8 +86,13 @@ interface AppState {
   clearFeedback: () => void
   setMark: (itemId: string, axis: MarkAxis, value: string) => void
   markRevised: (itemId: string) => void
+  markItemRead: (itemId: string) => void
   recordSeen: (itemId: string) => void
+  creditItemDwell: (itemId: string, deltaMs: number, dwellAccruedThisVisit: number) => number
+  getStudyProgress: () => { overall: OverallProgress; sections: SectionProgress[] }
   getMark: (itemId: string) => ItemMark | undefined
+  _recordEngagement: (itemId: string, kind: EngagementKind) => void
+  _rebuildProgress: () => void
   _markCtx: (itemId: string, prev: ItemMark) => Partial<ItemMark>
   exportStudyData: () => StudyDataPayload
   importStudyData: (data: StudyDataPayload, mode: 'merge' | 'replace') => void
@@ -110,6 +129,11 @@ export const useAppStore = create<AppState>()(
       flags: {},
       feedbackCtx: {},
       marks: {},
+      readItems: {},
+      itemEngagement: {},
+      chapterTotals: {},
+      chapterEngagedMs: {},
+      totalEngagementMs: 0,
       history: [null],
       historyIndex: 0,
 
@@ -119,12 +143,17 @@ export const useAppStore = create<AppState>()(
           const catalog = await fetchJSON<RawCatalog>('index.json')
           const navRows = buildNavRows(catalog)
           const navEntries = buildNavEntries(catalog)
-          const { revealed, chapters } = get()
+          const s = get()
           set({
             catalog,
             navRows,
             navEntries,
-            progress: buildProgress(navEntries, chapters, revealed),
+            progress: buildProgress(
+              navEntries,
+              s.chapters,
+              engagementInputFromStore(s),
+              s.chapterEngagedMs,
+            ),
             catalogLoading: false,
           })
           applyTheme(get().theme)
@@ -144,10 +173,20 @@ export const useAppStore = create<AppState>()(
         try {
           const data = await fetchJSON<ChapterData>(entry.file)
           const nextChapters = { ...get().chapters, [chapterId]: data }
-          const { revealed, navEntries: nav } = get()
+          const chapterTotals = {
+            ...get().chapterTotals,
+            [chapterId]: data.items.length,
+          }
+          const s = get()
           set({
             chapters: nextChapters,
-            progress: buildProgress(nav, nextChapters, revealed),
+            chapterTotals,
+            progress: buildProgress(
+              s.navEntries,
+              nextChapters,
+              engagementInputFromStore(s),
+              s.chapterEngagedMs,
+            ),
             chapterLoading: false,
           })
           return data
@@ -258,23 +297,23 @@ export const useAppStore = create<AppState>()(
       toggleReveal: (itemId) => {
         const wasRevealed = get().revealed[itemId]
         const revealed = { ...get().revealed, [itemId]: !wasRevealed }
-        const { navEntries, chapters } = get()
-        set({
-          revealed,
-          progress: buildProgress(navEntries, chapters, revealed),
-        })
-        // revealing an answer counts the item as studied (New → Done)
-        if (!wasRevealed) get().recordSeen(itemId)
+        set({ revealed })
+        if (!wasRevealed) {
+          get().recordSeen(itemId)
+          get()._recordEngagement(itemId, 'reveal')
+        }
+        get()._rebuildProgress()
       },
 
       selectMcqOption: (itemId, option) => {
-        const revealed = { ...get().revealed, [itemId]: true }
+        const hadAnswer = get().mcqSelections[itemId] != null
         set({
           mcqSelections: { ...get().mcqSelections, [itemId]: option },
-          revealed,
-          progress: buildProgress(get().navEntries, get().chapters, revealed),
+          revealed: { ...get().revealed, [itemId]: true },
         })
         get().recordSeen(itemId)
+        if (!hadAnswer) get()._recordEngagement(itemId, 'answer')
+        get()._rebuildProgress()
       },
 
       rateItem: (itemId, n, ctx) => {
@@ -317,7 +356,8 @@ export const useAppStore = create<AppState>()(
           rec[axis] = value
         }
         // a mark is an interaction → the item counts as "done" (esp. notes)
-        if (next.timesDone === 0) {
+        const engaging = next.timesDone === 0
+        if (engaging) {
           next.timesDone = 1
           next.firstSeenAt = Date.now()
         }
@@ -325,6 +365,8 @@ export const useAppStore = create<AppState>()(
         Object.assign(next, get()._markCtx(itemId, prev))
         marks[itemId] = next
         set({ marks })
+        if (engaging) get()._recordEngagement(itemId, 'mark')
+        get()._rebuildProgress()
       },
 
       markRevised: (itemId) => {
@@ -340,6 +382,16 @@ export const useAppStore = create<AppState>()(
         Object.assign(next, get()._markCtx(itemId, prev))
         marks[itemId] = next
         set({ marks })
+        get()._recordEngagement(itemId, 'revise')
+        get()._rebuildProgress()
+      },
+
+      markItemRead: (itemId) => {
+        if (get().readItems[itemId]) return
+        set({ readItems: { ...get().readItems, [itemId]: true } })
+        get().recordSeen(itemId)
+        get()._recordEngagement(itemId, 'read')
+        get()._rebuildProgress()
       },
 
       recordSeen: (itemId) => {
@@ -380,6 +432,71 @@ export const useAppStore = create<AppState>()(
 
       getMark: (itemId) => get().marks[itemId],
 
+      _recordEngagement: (itemId, kind) => {
+        const at = Date.now()
+        const prev = get().itemEngagement[itemId]
+        const record = creditEngagement(prev, kind, at)
+        const chapterId = get().currentChapterId
+        const chapterEngagedMs = { ...get().chapterEngagedMs }
+        let totalEngagementMs = get().totalEngagementMs
+        const baseAdded = record.engagedMs - (prev?.engagedMs ?? 0)
+
+        if (chapterId && baseAdded > 0) {
+          chapterEngagedMs[chapterId] = (chapterEngagedMs[chapterId] ?? 0) + baseAdded
+        }
+        totalEngagementMs += baseAdded
+
+        set({
+          itemEngagement: { ...get().itemEngagement, [itemId]: record },
+          chapterEngagedMs,
+          totalEngagementMs,
+        })
+      },
+
+      creditItemDwell: (itemId, deltaMs, dwellAccruedThisVisit) => {
+        const prev = get().itemEngagement[itemId]
+        if (!prev) return 0
+        const { record, dwellAdded } = creditDwell(prev, deltaMs, dwellAccruedThisVisit)
+        if (dwellAdded <= 0) return 0
+
+        const chapterId = get().currentChapterId
+        const chapterEngagedMs = { ...get().chapterEngagedMs }
+        if (chapterId) {
+          chapterEngagedMs[chapterId] = (chapterEngagedMs[chapterId] ?? 0) + dwellAdded
+        }
+
+        set({
+          itemEngagement: { ...get().itemEngagement, [itemId]: record },
+          chapterEngagedMs,
+          totalEngagementMs: get().totalEngagementMs + dwellAdded,
+        })
+        get()._rebuildProgress()
+        return dwellAdded
+      },
+
+      _rebuildProgress: () => {
+        const s = get()
+        set({
+          progress: buildProgress(
+            s.navEntries,
+            s.chapters,
+            engagementInputFromStore(s),
+            s.chapterEngagedMs,
+          ),
+        })
+      },
+
+      getStudyProgress: () => {
+        const s = get()
+        return aggregateProgress(
+          s.navRows,
+          s.chapters,
+          s.chapterTotals,
+          s.chapterEngagedMs,
+          engagementInputFromStore(s),
+        )
+      },
+
       // Snapshot every per-item map the user has generated, for backup/export.
       exportStudyData: () => {
         const s = get()
@@ -391,6 +508,11 @@ export const useAppStore = create<AppState>()(
           bookmarks: s.bookmarks,
           mcqSelections: s.mcqSelections,
           revealed: s.revealed,
+          readItems: s.readItems,
+          itemEngagement: s.itemEngagement,
+          chapterTotals: s.chapterTotals,
+          chapterEngagedMs: s.chapterEngagedMs,
+          totalEngagementMs: s.totalEngagementMs,
         }
       },
 
@@ -411,6 +533,11 @@ export const useAppStore = create<AppState>()(
                 bookmarks: data.bookmarks ?? s.bookmarks,
                 mcqSelections: data.mcqSelections ?? s.mcqSelections,
                 revealed: data.revealed ?? s.revealed,
+                readItems: data.readItems ?? s.readItems,
+                itemEngagement: data.itemEngagement ?? s.itemEngagement,
+                chapterTotals: data.chapterTotals ?? s.chapterTotals,
+                chapterEngagedMs: data.chapterEngagedMs ?? s.chapterEngagedMs,
+                totalEngagementMs: data.totalEngagementMs ?? s.totalEngagementMs,
               }
             : {
                 marks: mergeMarks(s.marks, data.marks),
@@ -420,9 +547,17 @@ export const useAppStore = create<AppState>()(
                 bookmarks: mergeRecord(s.bookmarks, data.bookmarks),
                 mcqSelections: mergeRecord(s.mcqSelections, data.mcqSelections),
                 revealed: mergeRecord(s.revealed, data.revealed),
+                readItems: mergeRecord(s.readItems, data.readItems),
+                itemEngagement: mergeRecord(s.itemEngagement, data.itemEngagement),
+                chapterTotals: mergeRecord(s.chapterTotals, data.chapterTotals),
+                chapterEngagedMs: mergeRecord(s.chapterEngagedMs, data.chapterEngagedMs),
+                totalEngagementMs: Math.max(
+                  s.totalEngagementMs,
+                  data.totalEngagementMs ?? 0,
+                ),
               }
         set(next)
-        set({ progress: buildProgress(get().navEntries, get().chapters, get().revealed) })
+        get()._rebuildProgress()
       },
 
       toggleBookmark: (itemId) => {
@@ -508,6 +643,11 @@ export const useAppStore = create<AppState>()(
         flags: state.flags,
         feedbackCtx: state.feedbackCtx,
         marks: state.marks,
+        readItems: state.readItems,
+        itemEngagement: state.itemEngagement,
+        chapterTotals: state.chapterTotals,
+        chapterEngagedMs: state.chapterEngagedMs,
+        totalEngagementMs: state.totalEngagementMs,
       }),
       // Drop any previously persisted selection so reloads land on the home
       // page even for users whose old localStorage still holds currentChapterId.
