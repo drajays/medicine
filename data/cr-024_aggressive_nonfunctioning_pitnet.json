@@ -1,0 +1,419 @@
+{
+  "id": "cr-024",
+  "reportType": "case_report",
+  "title": "Aggressive Non-Functioning Pituitary Neuroendocrine Tumor (PitNET): A Growing Knosp-4 Remnant",
+  "subtitle": "An Endocrine Fellowship Module: reading the pituitary MRI (Knosp grading, post-op artifact vs remnant), choosing re-surgery vs SRS/FSRT vs medical therapy, cabergoline/octreotide/temozolomide roles, and the replacement-monitoring traps (FT4 not TSH, clinical not cortisol, the wrong testosterone regimen)",
+  "section": "Case Reports",
+  "category": "Endocrinology (Pituitary)",
+  "authors": "Endocrine fellowship training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "h2-075", "title": "Pituitary Tumor Syndromes" },
+    { "id": "h2-074", "title": "Hypopituitarism" }
+  ],
+  "patient": {
+    "age": 45,
+    "sex": "Male",
+    "chiefComplaint": "Progressive visual loss (bitemporal hemianopia) from a large pituitary macroadenoma; now a growing residual tumor 6 months after surgery.",
+    "pmh": [
+      "Non-functioning gonadotroph PitNET (SF-1 positive), Ki-67 <3%",
+      "Pre-op MRI: macroadenoma, suprasellar extension with optic chiasm compression, bilateral ICA encasement (Knosp grade 4)",
+      "Transsphenoidal resection for chiasmal decompression",
+      "Bitemporal hemianopia did NOT improve post-operatively; no diabetes insipidus",
+      "Early post-op MRI: residual tumor in both cavernous sinuses, no chiasm mass effect",
+      "6-month surveillance MRI: 5 mm increase in all dimensions, renewed threat to chiasm"
+    ],
+    "medications": [
+      "Levothyroxine 100 mcg daily",
+      "Testosterone 100 mg IM every 12 weeks (regimen is incorrect — see items)",
+      "Hydrocortisone 20 mg/day (10 mg 08:00, 5 mg 12:00, 5 mg 17:00)"
+    ]
+  },
+  "caseDescription": "A 45-year-old man presented with progressive bitemporal hemianopia from a large non-functioning pituitary macroadenoma with suprasellar extension compressing the optic chiasm and bilateral cavernous-sinus ICA encasement (Knosp grade 4). Transsphenoidal surgery decompressed the chiasm; histopathology showed a gonadotroph-lineage (SF-1 positive) non-functioning tumor with a low Ki-67 (<3%). Visual fields did not recover, and early post-op MRI showed bilateral cavernous-sinus residual tumor without chiasm mass effect. He was placed on levothyroxine, testosterone and hydrocortisone for panhypopituitarism. At 6 months, surveillance MRI shows a 5 mm increase in all dimensions — an aggressive course — forcing a decision between re-surgery, radiotherapy (SRS/Gamma Knife/FSRT) and medical therapy, while the case also exposes several classic hormone-replacement monitoring errors.",
+  "keyFindings": [
+    "Non-functioning gonadotroph (SF-1+) PitNET, Ki-67 <3%, but clinically aggressive (documented growth)",
+    "Knosp grade 4 (complete bilateral intracavernous ICA encasement) — residual tumor surgically high-risk",
+    "Bitemporal hemianopia with no post-op recovery — suggests established optic atrophy",
+    "5 mm growth in all dimensions over 6 months — triggers the aggressive-tumor pathway",
+    "Hormone replacement contains correctable monitoring/dosing errors (TSH use, cortisol monitoring, testosterone interval)"
+  ],
+  "finalDiagnosis": "Aggressive (rapidly growing) non-functioning gonadotroph PitNET with a Knosp-4 cavernous-sinus remnant. Management hinges on whether the chiasm is re-compressed: if progressive visual loss/chiasm compression — urgent transsphenoidal re-surgery for decompression; if growth is confined to the cavernous sinus without chiasm threat — radiotherapy (FSRT if abutting the chiasm, SRS/Gamma Knife only if ≥2-3 mm away) rather than high-risk cavernous-sinus re-surgery, with cabergoline and, for truly aggressive/refractory disease, temozolomide (MGMT-guided) as medical options. Replacement must be retitrated (FT4 not TSH; clinical not cortisol; correct the testosterone regimen).",
+  "learningObjectives": [
+    "Report a pituitary MRI systematically, including Knosp grading of cavernous-sinus invasion and chiasm relationship.",
+    "Distinguish post-operative artifact/packing from residual tumor and apply the correct surveillance schedule.",
+    "Choose between re-surgery, SRS/Gamma Knife and fractionated RT based on chiasm proximity and tumor location.",
+    "Define the roles (and limits) of cabergoline, octreotide and temozolomide in PitNETs, including MGMT status.",
+    "Correct the replacement-monitoring pitfalls of panhypopituitarism: FT4 (not TSH), clinical (not cortisol/ACTH), and an adequate testosterone regimen."
+  ],
+  "items": [
+    {
+      "id": "cr-024-n1",
+      "type": "note",
+      "subtopic": "Neuroimaging",
+      "title": "How to read and report a pituitary-protocol MRI systematically",
+      "content": "A pituitary protocol means dedicated thin-section T1 and T2 sagittal and coronal images with and without dynamic gadolinium — not a routine brain MRI. Report it the same way every time so nothing is missed: (1) tumor dimensions in three planes; (2) suprasellar extension and the optic chiasm — compressed, displaced or flattened, and the exact distance in mm from the top of the tumor to the chiasm (this number decides radiosurgery eligibility); (3) parasellar/cavernous-sinus invasion graded by the Knosp system; (4) infundibulum (stalk) deviation; (5) sellar floor erosion or sphenoid-sinus extension. A normal pituitary enhances earlier and more avidly than an adenoma on dynamic imaging — the basis for spotting microadenomas as a relatively hypo-enhancing focus.",
+      "keyPoints": [
+        "Use a dedicated pituitary protocol (thin T1/T2 sag+cor, dynamic gad), not a routine brain MRI.",
+        "Always document: 3-plane size, chiasm distance/compression (mm), Knosp grade, stalk deviation, floor erosion.",
+        "Chiasm-to-tumor distance in mm is the single number that gates radiosurgery eligibility."
+      ]
+    },
+    {
+      "id": "cr-024-n2",
+      "type": "note",
+      "subtopic": "Neuroimaging",
+      "title": "How to grade cavernous-sinus invasion (Knosp 0-4) and why it drives management",
+      "content": "The Knosp grade describes the tumor's relationship to lines drawn through the intracavernous and supracavernous ICA on coronal imaging. Grade 0: tumor stays medial to the medial ICA tangent. Grade 1: crosses the medial tangent but not the inter-carotid (median) line. Grade 2: crosses the median line but not the lateral tangent. Grade 3: extends lateral to the lateral tangent. Grade 4: complete encasement of the intracavernous ICA — this patient. The grade matters because it predicts both surgical curability and operative risk: high-grade (3-4) tumors are rarely completely resectable and carry a high risk of ICA injury and cranial-nerve palsy at surgery, which is exactly why a Knosp-4 cavernous-sinus remnant is usually directed to radiotherapy rather than repeat surgery.",
+      "keyPoints": [
+        "Knosp 0-4 grades cavernous-sinus invasion against ICA tangent lines; grade 4 = complete ICA encasement.",
+        "Higher grade → lower chance of complete resection and higher risk of ICA/cranial-nerve injury.",
+        "A Knosp-4 remnant generally favours radiotherapy over high-risk cavernous-sinus re-surgery."
+      ]
+    },
+    {
+      "id": "cr-024-n3",
+      "type": "note",
+      "subtopic": "Neuroimaging",
+      "title": "How to differentiate a PitNET from other sellar masses on MRI",
+      "content": "Not every sellar mass is an adenoma, and the differential changes management completely. A PitNET (adenoma) is T1-isointense, iso- to mildly T2-hyperintense, enhances modestly and later than the normal gland, and macroadenomas show the 'snowman'/figure-8 shape from diaphragmatic waisting. A craniopharyngioma is heterogeneous with hyperintense cystic components and strong nodular/ring enhancement — calcification on CT (adamantinomatous type) is the giveaway. A Rathke's cleft cyst is a non-enhancing intra/suprasellar cyst, often with a non-enhancing intracystic nodule. A meningioma enhances intensely, rapidly and homogeneously with a dural tail and hyperostosis, and the normal pituitary is seen separately. Pituitary apoplexy shows haemorrhage/fluid-debris levels with ring enhancement and presents acutely with headache, ophthalmoplegia and endocrine collapse.",
+      "keyPoints": [
+        "Adenoma: T1-isointense, delayed modest enhancement, 'snowman' macroadenoma shape.",
+        "Craniopharyngioma = cystic + calcified (CT); Rathke cleft cyst = non-enhancing cyst ± nodule; meningioma = avid homogeneous enhancement + dural tail.",
+        "Apoplexy = acute haemorrhage with headache, ophthalmoplegia and endocrine collapse — an emergency."
+      ]
+    },
+    {
+      "id": "cr-024-n4",
+      "type": "note",
+      "subtopic": "Post-operative imaging",
+      "title": "Why early post-op MRI timing matters: artifact vs residual tumor",
+      "content": "Imaging in the first months after transsphenoidal surgery is treacherous because packing material and inflammation enhance and mimic tumor. The gold standard for defining true residual tumor is an immediate post-op MRI within 24-48 hours; beyond that window, oedema, granulation tissue and grafts confound interpretation. Packing (Surgicel/Gelfoam) becomes T2-hypointense over time, may trap air, and shows no central enhancement (only a thin inflammatory rim); fat grafts are bright on T1 and T2 and drop out completely on fat-suppression sequences. True remnant enhances in a nodular, asymmetric, solid pattern that matches the pre-operative tumor and is stable or grows over time. The practical rule: nodular enhancement resembling the original tumor = remnant; peripheral-only or no enhancement that shrinks = artifact.",
+      "keyPoints": [
+        "Immediate (24-48 h) post-op MRI is the gold standard for residual tumor; later scans are confounded by packing/inflammation.",
+        "Packing lacks central enhancement and shrinks; fat grafts suppress on fat-sat sequences.",
+        "Nodular, asymmetric enhancement matching the pre-op tumor = true remnant."
+      ]
+    },
+    {
+      "id": "cr-024-n5",
+      "type": "note",
+      "subtopic": "Surveillance",
+      "title": "How to schedule post-operative MRI surveillance (standard vs aggressive)",
+      "content": "For a stable remnant or gross-total resection: baseline at 24-48 h (or at 3 months if no immediate scan), then at 3-6 months and 12 months in the first year, then annually for 5 years, extending to every 2 years if stable. The schedule compresses the moment behaviour changes: documented growth (≥2-3 mm) or new visual symptoms move the patient onto an aggressive pathway with urgent imaging and 3-monthly intervals until stability is re-established. This patient's 5 mm growth in all dimensions over 6 months has already triggered that switch — surveillance alone is no longer adequate, and a treatment decision is required now.",
+      "keyPoints": [
+        "Standard: 24-48 h baseline → 3-6 and 12 months → annual × 5 yr → every 2 yr if stable.",
+        "Documented growth (≥2-3 mm) or new visual loss → aggressive pathway: urgent MRI, then 3-monthly.",
+        "A growing remnant means act, not just re-scan."
+      ]
+    },
+    {
+      "id": "cr-024-n6",
+      "type": "note",
+      "subtopic": "Aggressive behaviour",
+      "title": "Why a low Ki-67 tumor can still be 'aggressive'",
+      "content": "A common trap is equating aggressiveness with proliferation markers alone. This tumor had a low Ki-67 (<3%) yet grew 5 mm in all dimensions in 6 months. Clinically, aggressive PitNET is defined by behaviour — radiologically documented rapid growth, invasion, and resistance to standard treatment — not solely by Ki-67, mitotic count or p53. Histological 'high-risk' features raise concern, but a low Ki-67 does not exclude an aggressive course, and the management response is dictated by the demonstrated growth in front of you. (A pituitary carcinoma, by contrast, requires craniospinal or systemic metastasis for its definition.)",
+      "keyPoints": [
+        "Aggressiveness = documented rapid growth/invasion/treatment resistance, not Ki-67 alone.",
+        "A low Ki-67 (<3%) does not exclude an aggressive clinical course — believe the serial imaging.",
+        "Pituitary carcinoma is defined by metastasis, distinct from an aggressive PitNET."
+      ]
+    },
+    {
+      "id": "cr-024-n7",
+      "type": "note",
+      "subtopic": "Radiotherapy",
+      "title": "How to choose the radiotherapy modality (SRS / Gamma Knife vs FSRT)",
+      "content": "Radiotherapy is indicated for clinically significant growth of a remnant, incomplete resection of an aggressive tumor near critical structures, or recurrence after repeat surgery. Modality choice turns on the optic apparatus. Single-fraction stereotactic radiosurgery (SRS), including Gamma Knife, delivers a high dose with steep fall-off and sub-millimetre accuracy, but requires the tumor to be at least 2-3 mm from the optic chiasm (chiasm tolerance ~8-10 Gy) and works best for small-to-medium (<2.5-3 cm), well-marginated remnants away from the optic pathway. Fractionated stereotactic radiotherapy (FSRT)/IMRT delivers many small fractions (1.8-2 Gy/day over 5-6 weeks) and is preferred for large, irregular tumors or any tumor abutting/compressing the chiasm, because fractionation lets the optic nerves repair sublethal damage between sessions.",
+      "keyPoints": [
+        "SRS/Gamma Knife: single high dose, needs ≥2-3 mm chiasm gap, tumor <2.5-3 cm, away from optic pathway.",
+        "FSRT/IMRT: fractionated, for large/irregular tumors or those touching the chiasm.",
+        "If the 5 mm growth has pushed the tumor back onto the chiasm, single-fraction SRS/Gamma Knife is contraindicated."
+      ]
+    },
+    {
+      "id": "cr-024-n8",
+      "type": "note",
+      "subtopic": "Radiotherapy",
+      "title": "Why fractionation protects the optic chiasm",
+      "content": "The optic nerves and chiasm are among the most radiosensitive structures near the sella, and radiation-induced optic neuropathy is irreversible. Single-fraction SRS keeps them safe only by geometry — a 2-3 mm gap so the steep dose fall-off spares them, with the chiasm dose held to ~8-10 Gy. When the tumor actually touches the chiasm there is no gap to exploit, so the safety must come from radiobiology instead: dividing the dose into many small fractions allows normal neural tissue to repair sublethal DNA damage between daily sessions, whereas tumor cells repair less efficiently. That differential repair is exactly why FSRT, not SRS, is chosen for chiasm-abutting tumors and why it minimises late visual loss.",
+      "keyPoints": [
+        "Radiation optic neuropathy is irreversible; chiasm tolerance is only ~8-10 Gy in a single fraction.",
+        "SRS relies on a geometric gap; FSRT relies on inter-fraction repair of normal tissue.",
+        "Tumor touching the chiasm → fractionate (FSRT), do not use single-fraction SRS."
+      ]
+    },
+    {
+      "id": "cr-024-n9",
+      "type": "note",
+      "subtopic": "Re-surgery vs RT",
+      "title": "How to decide re-surgery vs radiotherapy/medical therapy for a growing remnant",
+      "content": "The first branch point is the optic apparatus. If the growth has caused new or progressive visual loss / chiasm compression, urgent transsphenoidal re-surgery for rapid decompression takes priority (also true for apoplexy). If there is no active chiasm threat, the next question is surgical accessibility: a predominantly midline, infrasellar or suprasellar remnant can be safely debulked, but growth confined to the cavernous sinus is a different matter. For this patient, whose pre-op disease was Knosp 4 with bilateral ICA encasement, a parasellar remnant is best treated with radiotherapy (FSRT or SRS) to halt growth, reserving re-surgery for clear chiasm compression. Medical therapy (cabergoline; temozolomide if truly aggressive) supplements when surgery and RT are exhausted or contraindicated.",
+      "keyPoints": [
+        "Chiasm compression/progressive visual loss or apoplexy → re-surgery first (decompress).",
+        "No chiasm threat + accessible (midline/supra/infrasellar) → re-surgery can debulk.",
+        "No chiasm threat + cavernous-sinus (Knosp-4) growth → radiotherapy preferred; medical therapy as adjunct."
+      ]
+    },
+    {
+      "id": "cr-024-n10",
+      "type": "note",
+      "subtopic": "Re-surgery vs RT",
+      "title": "Why repeat surgery on a Knosp-4 cavernous-sinus remnant is high-risk",
+      "content": "The cavernous sinus contains the intracavernous ICA and cranial nerves III, IV, V1/V2 and VI. When a tumor completely encases the ICA (Knosp 4), attempting to resect tumor from within the sinus risks catastrophic carotid injury (haemorrhage, stroke) and cranial-nerve palsies (diplopia, ophthalmoplegia, facial numbness), while complete resection is rarely achievable anyway. So the risk-benefit of cavernous-sinus re-surgery is poor: high morbidity for low chance of cure. That is the precise rationale for diverting a growing parasellar Knosp-4 remnant to radiotherapy — unless the tumor has grown medially/superiorly to threaten the chiasm, in which case surgery addresses the accessible, vision-threatening component.",
+      "keyPoints": [
+        "Cavernous sinus houses the ICA and CN III, IV, V1/V2, VI — surgery there is hazardous.",
+        "Knosp-4 (ICA encasement): high risk of carotid rupture/stroke/cranial-nerve palsy, low cure rate.",
+        "Hence radiotherapy for parasellar remnant; surgery only for the accessible chiasm-threatening part."
+      ]
+    },
+    {
+      "id": "cr-024-n11",
+      "type": "note",
+      "subtopic": "Pharmacotherapy",
+      "title": "How dopamine agonists (cabergoline) fit into PitNET management",
+      "content": "Cabergoline is a high-affinity D2 agonist and is first-line for prolactinomas (normoprolactinaemia and shrinkage in >80% of micro- and macro-prolactinomas). Its relevance here is in non-functioning adenomas: over half express D2 receptors, and cabergoline can prevent progression or induce shrinkage in roughly 30% of residual NFPAs — a genuinely useful option when surgery and radiotherapy are exhausted or while awaiting the effect of RT. It is also an add-on in acromegaly (especially mild IGF-1 elevation or GH/PRL co-secretion, ~up to 50% IGF-1 normalisation in selected patients) and has a role in a subset of Cushing's disease (D2-expressing corticotroph tumors). It is not a substitute for definitive treatment of a vision-threatening tumor.",
+      "keyPoints": [
+        "Cabergoline: first-line for prolactinomas (>80% control/shrinkage).",
+        "In NFPAs, ~30% show stabilisation/shrinkage — a real option once surgery/RT are exhausted.",
+        "Also add-on in acromegaly and select Cushing's disease; not a rescue for acute chiasm compression."
+      ]
+    },
+    {
+      "id": "cr-024-n12",
+      "type": "note",
+      "subtopic": "Pharmacotherapy",
+      "title": "Why octreotide rarely helps a non-functioning adenoma",
+      "content": "Somatostatin-receptor ligand efficacy depends on which receptor subtype the tumor expresses. Octreotide binds mainly SST2, which is abundant in somatotroph tumors and TSHomas — hence octreotide is first-line medical therapy for TSH-secreting adenomas, normalising thyroid hormones in >90% and shrinking tumors in up to ~75%. Non-functioning adenomas, however, predominantly express SST3 and SST5 rather than SST2, so octreotide is generally ineffective and has little role in this patient. The same subtype logic explains why standard octreotide fails in Cushing's/Nelson's (corticotroph tumors), whereas pasireotide — a multi-receptor ligand with high SST5 affinity — is approved and effective in Cushing's disease.",
+      "keyPoints": [
+        "Octreotide targets SST2 → first-line for TSHomas (>90% biochemical control, ~75% shrinkage).",
+        "NFPAs express mainly SST3/SST5, not SST2 → octreotide is largely ineffective.",
+        "Pasireotide (high SST5 affinity) works in Cushing's where standard octreotide does not."
+      ]
+    },
+    {
+      "id": "cr-024-n13",
+      "type": "note",
+      "subtopic": "Pharmacotherapy",
+      "title": "How temozolomide and MGMT status guide therapy in aggressive PitNETs",
+      "content": "Temozolomide (TMZ) is the recognised salvage therapy for aggressive PitNETs and pituitary carcinomas that keep growing despite optimal surgery and radiotherapy. It is an oral alkylating agent that methylates guanine at the O6 position, causing DNA mismatch-repair failure, double-strand breaks and apoptosis. The key predictive biomarker is MGMT (O6-methylguanine-DNA methyltransferase), the enzyme that reverses this damage: low tumor MGMT expression (by immunohistochemistry) predicts a good response, whereas high MGMT predicts resistance. Standard dosing is the 5/28 protocol (150-200 mg/m² daily for 5 days every 28 days) for at least 6-12 cycles, with the first response assessment by MRI after ~3 cycles. For this patient, TMZ is not first-line — it is held in reserve if the tumor proves refractory to surgery/RT.",
+      "keyPoints": [
+        "TMZ = salvage for aggressive PitNET/carcinoma refractory to surgery + RT (oral alkylator, crosses BBB).",
+        "Low MGMT → responsive; high MGMT → resistant (the predictive biomarker).",
+        "5/28 protocol (150-200 mg/m²/day × 5, every 28 days), ≥6-12 cycles, reassess MRI after ~3 cycles."
+      ]
+    },
+    {
+      "id": "cr-024-n14",
+      "type": "note",
+      "subtopic": "Replacement monitoring",
+      "title": "Why you must not use TSH to titrate thyroid replacement in secondary hypothyroidism",
+      "content": "This patient's hypothyroidism is central (secondary) — the diseased pituitary cannot mount a TSH response, so TSH is non-informative and typically low or inappropriately normal regardless of thyroid status. Titrating levothyroxine to a TSH target here is a classic and dangerous error: chasing a 'normal' TSH leads to under-replacement. The correct parameter is free T4, targeted to the upper-mid half of the reference range, interpreted with symptoms. A second sequencing rule is essential in panhypopituitarism: confirm and treat adrenal insufficiency before (or alongside) starting/escalating levothyroxine, because thyroid hormone accelerates cortisol metabolism and can precipitate an adrenal crisis in an unprotected patient.",
+      "keyPoints": [
+        "Central hypothyroidism: TSH is non-functional — never titrate to it.",
+        "Titrate levothyroxine to free T4 in the upper-mid reference range, guided by symptoms.",
+        "Always ensure glucocorticoid cover before/with thyroid replacement to avoid precipitating adrenal crisis."
+      ]
+    },
+    {
+      "id": "cr-024-n15",
+      "type": "note",
+      "subtopic": "Replacement monitoring",
+      "title": "Why morning cortisol/ACTH are useless once on hydrocortisone — monitor clinically",
+      "content": "Once a patient is taking hydrocortisone, random or morning serum cortisol and ACTH no longer reflect endogenous adrenal function and should not be used to titrate replacement. Secondary adrenal insufficiency is monitored clinically: signs of under-replacement (fatigue, anorexia, weight loss, nausea, postural hypotension) versus over-replacement (weight gain, central obesity, proximal myopathy, skin thinning). The usual total dose is ~15-25 mg/day in divided doses weighted to the morning (this patient's 10/5/5 split is reasonable). The non-negotiable teaching points are sick-day rules — double or triple the dose during fever/illness — and equipping the patient with an emergency parenteral hydrocortisone kit and a steroid alert card. Mineralocorticoid replacement is not needed in secondary (pituitary) adrenal insufficiency because the renin-angiotensin-aldosterone axis is intact.",
+      "keyPoints": [
+        "On hydrocortisone, cortisol/ACTH levels do not guide dosing — assess clinically for under/over-replacement.",
+        "Teach sick-day rules (double/triple dose), provide an emergency hydrocortisone injection + alert card.",
+        "No fludrocortisone needed in secondary AI (aldosterone axis intact)."
+      ]
+    },
+    {
+      "id": "cr-024-n16",
+      "type": "note",
+      "subtopic": "Replacement monitoring",
+      "title": "How the current testosterone regimen is wrong — and how to fix it",
+      "content": "Testosterone 100 mg IM every 12 weeks is pharmacologically subtherapeutic and leaves the patient hypogonadal for most of each cycle. The error is a formulation-interval mismatch. Short-acting esters (testosterone enanthate or cypionate) need dosing roughly every 2 weeks (typically 100-200 mg) — a 12-week interval for these produces profound trough androgen deficiency with fatigue, low libido, loss of muscle mass and accelerating osteopenia. Only long-acting testosterone undecanoate (1000 mg) is given at ~10-14 week intervals. The action: clarify which formulation was actually prescribed and correct it — either shorten the interval (short ester) or switch to undecanoate if a 12-weekly schedule is intended. Monitor mid-interval testosterone (aiming mid-normal), haematocrit (erythrocytosis risk), lipids and bone mineral density, and screen the prostate per age-appropriate guidance before and during therapy.",
+      "keyPoints": [
+        "100 mg q12-weekly is subtherapeutic: short esters (enanthate/cypionate) need ~q2-weekly dosing.",
+        "Only testosterone undecanoate 1000 mg is dosed at ~10-14-week intervals.",
+        "Monitor mid-interval testosterone, haematocrit, lipids and BMD; correct the formulation/interval now."
+      ]
+    },
+    {
+      "id": "cr-024-n17",
+      "type": "note",
+      "subtopic": "Visual monitoring",
+      "title": "Why optic atrophy predicts non-recovery — and how to monitor vision",
+      "content": "Vision is the surgical priority in chiasm-compressing tumors, and how it is monitored matters. Formal Humphrey (automated) perimetry quantifies the bitemporal field loss and tracks change; funduscopy looks for optic disc pallor (optic atrophy). The prognostic point: this patient's bitemporal hemianopia did not recover after decompression despite no residual chiasm compression on MRI, which indicates long-standing compression caused irreversible axonal loss — optic atrophy predicts a low likelihood of recovery even after successful decompression, so early surgery in chiasm compression is about preventing permanent loss, not reversing established atrophy. Frequency: every 6-12 months when stable, but immediately when the tumor grows (as now) to detect re-compression or new contralateral deficits.",
+      "keyPoints": [
+        "Monitor with automated (Humphrey) perimetry + funduscopy for optic atrophy (disc pallor).",
+        "Optic atrophy / failure to recover after decompression predicts permanent loss — decompress early.",
+        "Re-image and re-test vision immediately on documented growth, not at the routine interval."
+      ]
+    },
+    {
+      "id": "cr-024-n18",
+      "type": "note",
+      "subtopic": "Post-op sodium",
+      "title": "How to manage post-operative sodium disturbances after pituitary surgery",
+      "content": "Sodium swings are the commonest early post-pituitary-surgery endocrine emergency and follow a recognisable pattern. Early transient diabetes insipidus (high output, hypernatraemia) can occur in the first days; a delayed hyponatraemia from SIADH classically peaks around post-op day 7; and a minority show the full triphasic response (DI → SIADH → permanent DI). Day-7 hyponatraemia (e.g. Na 128) is therefore most likely SIADH and is treated with fluid restriction (often <1000 mL/24 h) and careful monitoring, correcting sodium slowly (≤8-10 mEq/L/24 h) to avoid osmotic demyelination (central pontine myelinolysis). Counsel every post-op pituitary patient to report excessive thirst/polyuria (DI) or headache/nausea/confusion (hyponatraemia) and check sodium around day 7.",
+      "keyPoints": [
+        "Pattern: early DI → SIADH (~day 7) → sometimes triphasic; day-7 hyponatraemia is usually SIADH.",
+        "SIADH: fluid restriction (<1000 mL/24 h), correct Na slowly (≤8-10 mEq/L/24 h) to avoid osmotic demyelination.",
+        "Safety-net every patient to report polyuria/thirst (DI) or headache/nausea/confusion (hyponatraemia)."
+      ]
+    },
+    {
+      "id": "cr-024-why1",
+      "type": "why",
+      "subtopic": "Replacement monitoring",
+      "question": "Why is a serum TSH useless for adjusting levothyroxine in this patient?",
+      "answer": "Because his hypothyroidism is central (secondary) — the damaged pituitary cannot secrete TSH appropriately, so TSH is uninformative and is usually low or inappropriately normal whatever the thyroid status. Titrating to TSH would lead to under-treatment. Replacement is guided instead by free T4 targeted to the upper-mid reference range, with glucocorticoid cover ensured first to avoid precipitating an adrenal crisis."
+    },
+    {
+      "id": "cr-024-how1",
+      "type": "how",
+      "subtopic": "Re-surgery vs RT",
+      "question": "How would you decide between re-surgery and radiotherapy for this growing remnant?",
+      "answer": "First ask whether the optic chiasm is compressed/vision is worsening: if yes, do urgent transsphenoidal re-surgery to decompress. If there is no chiasm threat, ask whether the growing tumor is surgically accessible — a midline/supra-/infrasellar remnant can be debulked, but growth confined to the cavernous sinus (this Knosp-4 patient) carries a high risk of ICA and cranial-nerve injury, so radiotherapy (FSRT if abutting the chiasm, SRS/Gamma Knife only if ≥2-3 mm away) is preferred, with cabergoline ± temozolomide as medical adjuncts."
+    },
+    {
+      "id": "cr-024-sa1",
+      "type": "shortanswer",
+      "subtopic": "Post-op sodium",
+      "question": "A post-pituitary-surgery patient has a serum sodium of 128 mEq/L on day 7. What is the most likely diagnosis and the immediate management?",
+      "answer": "Most likely SIADH (delayed post-operative hyponatraemia, sometimes part of the triphasic response). Manage with fluid restriction (usually <1000 mL/24 h) and close sodium monitoring, correcting slowly (≤8-10 mEq/L/24 h) to avoid central pontine myelinolysis."
+    },
+    {
+      "id": "cr-024-sa2",
+      "type": "shortanswer",
+      "subtopic": "Pharmacotherapy",
+      "question": "Why is MGMT status clinically relevant in aggressive non-functioning PitNETs?",
+      "answer": "MGMT (O6-methylguanine-DNA methyltransferase) is a DNA-repair enzyme that reverses the alkylation caused by temozolomide. Low tumor MGMT expression predicts a good response to temozolomide, whereas high MGMT expression predicts resistance — so MGMT immunohistochemistry helps select patients for TMZ salvage therapy."
+    },
+    {
+      "id": "cr-024-sa3",
+      "type": "shortanswer",
+      "subtopic": "Radiotherapy",
+      "question": "Before referring this patient for Gamma Knife radiosurgery, which anatomical parameter on the new MRI must you check, and what is the threshold?",
+      "answer": "The distance between the tumor margin and the optic chiasm. There must be at least a 2-3 mm gap so the high single-fraction dose does not cause irreversible radiation-induced optic neuropathy (chiasm tolerance ~8-10 Gy). If the 5 mm growth has brought the tumor back into contact with the chiasm, single-fraction SRS/Gamma Knife is contraindicated and fractionated RT is used instead."
+    },
+    {
+      "id": "cr-024-m1",
+      "type": "mcq",
+      "subtopic": "Neuroimaging",
+      "stem": "The pre-operative MRI is reported as Knosp grade 4. What does this signify?",
+      "options": [
+        "The tumor remains medial to the medial tangent of the internal carotid arteries",
+        "The tumor crosses the inter-carotid (median) line but not the lateral tangent",
+        "The tumor extends lateral to the lateral tangent of the internal carotid arteries",
+        "Complete encasement of the intracavernous internal carotid artery"
+      ],
+      "correctOption": 3,
+      "explanation": "Knosp grade 4 denotes complete encasement of the intracavernous ICA — the highest grade of cavernous-sinus invasion. It predicts that complete surgical resection is unlikely and that cavernous-sinus surgery carries a high risk of carotid and cranial-nerve injury, which is why such remnants are usually managed with radiotherapy."
+    },
+    {
+      "id": "cr-024-m2",
+      "type": "mcq",
+      "subtopic": "Radiotherapy",
+      "stem": "The new MRI shows the residual tumor now directly abutting and slightly compressing the optic chiasm. Which radiotherapy modality is most appropriate if surgery is not chosen?",
+      "options": [
+        "Single-fraction stereotactic radiosurgery (SRS)",
+        "Gamma Knife radiosurgery",
+        "Fractionated stereotactic radiotherapy (FSRT/IMRT)",
+        "Single-fraction radiosurgery with a boost to the chiasm"
+      ],
+      "correctOption": 2,
+      "explanation": "When the tumor touches/compresses the chiasm there is no safe geometric gap for single-fraction SRS or Gamma Knife (chiasm tolerance ~8-10 Gy in one fraction). Fractionated stereotactic radiotherapy spreads the dose over many small fractions, allowing the optic apparatus to repair sublethal damage between sessions, and is the modality of choice for chiasm-abutting tumors."
+    },
+    {
+      "id": "cr-024-m3",
+      "type": "mcq",
+      "subtopic": "Pharmacotherapy",
+      "stem": "Why is octreotide expected to be ineffective for this non-functioning gonadotroph adenoma?",
+      "options": [
+        "Non-functioning adenomas do not express any somatostatin receptors",
+        "Non-functioning adenomas predominantly express SST3 and SST5 rather than the SST2 that octreotide targets",
+        "Octreotide cannot cross the blood-brain barrier to reach pituitary tumors",
+        "Octreotide only works on tumors with high MGMT expression"
+      ],
+      "correctOption": 1,
+      "explanation": "Octreotide binds mainly somatostatin receptor subtype 2 (SST2), which is highly expressed by somatotroph tumors and TSHomas (where octreotide is effective). Non-functioning adenomas predominantly express SST3 and SST5, so octreotide has little efficacy. Cabergoline (D2 receptors) is the more relevant medical option in NFPAs."
+    },
+    {
+      "id": "cr-024-m4",
+      "type": "mcq",
+      "subtopic": "Replacement monitoring",
+      "stem": "The patient is on levothyroxine 100 mcg daily for central hypothyroidism. How should the dose be titrated?",
+      "options": [
+        "To a TSH in the lower half of the reference range",
+        "To a suppressed TSH below the reference range",
+        "To a free T4 in the upper-mid half of the reference range",
+        "Empirically by weight, with no biochemical monitoring"
+      ],
+      "correctOption": 2,
+      "explanation": "In central (secondary) hypothyroidism TSH is non-functional and must not be used to titrate therapy. Levothyroxine is adjusted to a free T4 in the upper-mid half of the reference range, interpreted with symptoms — and glucocorticoid replacement should be secured first to avoid precipitating adrenal crisis."
+    },
+    {
+      "id": "cr-024-m5",
+      "type": "mcq",
+      "subtopic": "Replacement monitoring",
+      "stem": "His testosterone is prescribed as 100 mg IM every 12 weeks. What is the most appropriate action?",
+      "options": [
+        "Continue unchanged; this is a standard maintenance regimen",
+        "Recognise it as subtherapeutic — clarify the formulation and either shorten the interval (short ester) or switch to testosterone undecanoate for a 12-weekly schedule",
+        "Stop testosterone altogether as it is unnecessary in hypopituitarism",
+        "Double the single dose to 200 mg every 12 weeks without changing the formulation"
+      ],
+      "correctOption": 1,
+      "explanation": "100 mg every 12 weeks is subtherapeutic and leaves him hypogonadal for most of the cycle — a formulation-interval mismatch. Short-acting esters (enanthate/cypionate) need dosing roughly every 2 weeks; only testosterone undecanoate (1000 mg) is given at ~10-14-week intervals. Clarify what was actually prescribed and correct it, monitoring mid-interval testosterone, haematocrit, lipids and bone density."
+    },
+    {
+      "id": "cr-024-m6",
+      "type": "mcq",
+      "subtopic": "Re-surgery vs RT",
+      "stem": "The 5 mm growth is confined to the cavernous sinuses with NO chiasm compression and stable visual fields. What is the most appropriate next step?",
+      "options": [
+        "Urgent transsphenoidal re-surgery to resect the cavernous-sinus tumor",
+        "Radiotherapy (FSRT or SRS) to halt growth, avoiding high-risk cavernous-sinus surgery",
+        "Observation with a repeat MRI in 12 months",
+        "Start octreotide as primary therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Without chiasm compression, surgery offers little benefit and cavernous-sinus re-surgery in a Knosp-4 tumor carries a high risk of ICA injury and cranial-nerve palsy. Radiotherapy is the preferred way to control a growing parasellar remnant. Observation is inappropriate for a documented aggressive (growing) tumor, and octreotide is ineffective in NFPAs."
+    },
+    {
+      "id": "cr-024-tf1",
+      "type": "true_false",
+      "subtopic": "Replacement monitoring",
+      "statement": "A morning serum cortisol and ACTH should be used to titrate this patient's hydrocortisone replacement.",
+      "correctAnswer": false,
+      "explanation": "False. Once a patient is taking hydrocortisone, cortisol and ACTH levels no longer reflect endogenous function and cannot guide dosing. Secondary adrenal insufficiency is monitored clinically (signs of under- vs over-replacement), with mandatory sick-day rules and an emergency hydrocortisone kit."
+    },
+    {
+      "id": "cr-024-tf2",
+      "type": "true_false",
+      "subtopic": "Aggressive behaviour",
+      "statement": "A Ki-67 index below 3% reliably excludes an aggressive clinical course in a PitNET.",
+      "correctAnswer": false,
+      "explanation": "False. Aggressive behaviour is defined clinically by documented rapid growth, invasion and treatment resistance — not by Ki-67 alone. This tumor had Ki-67 <3% yet grew 5 mm in all dimensions in 6 months, demonstrating that a low proliferation index does not exclude aggressiveness."
+    },
+    {
+      "id": "cr-024-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Re-surgery vs RT",
+      "assertion": "For a growing Knosp-4 cavernous-sinus remnant without chiasm compression, radiotherapy is preferred over repeat surgery.",
+      "reason": "Complete encasement of the intracavernous internal carotid artery makes surgical resection within the cavernous sinus both unlikely to be curative and high-risk for carotid and cranial-nerve injury.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion: Knosp-4 ICA encasement means cavernous-sinus surgery rarely achieves cure and risks carotid rupture/stroke and cranial-nerve palsies, so — in the absence of chiasm compression that would mandate decompression — radiotherapy is the preferred way to control the remnant. Hence option 0."
+    },
+    {
+      "id": "cr-024-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Post-operative imaging",
+      "assertion": "An MRI obtained 5 months after transsphenoidal surgery is the gold standard for defining residual tumor.",
+      "reason": "Surgical packing material and post-operative inflammation enhance with gadolinium and can mimic residual tumor for months after surgery.",
+      "correctOption": 3,
+      "explanation": "The assertion is false: the gold standard for residual tumor is the immediate (24-48 h) post-operative MRI, not one at 5 months. The reason is true — packing and inflammation enhance and mimic tumor for months, which is precisely why late early-phase scans are unreliable and the immediate scan is preferred. True reason, false assertion = option 3."
+    }
+  ]
+}
