@@ -10,14 +10,18 @@ import type {
   NavRow,
   RawCatalog,
   SearchResult,
+  StudyItem,
 } from '@/lib/types'
 import { emptyMark, itemMarkLabel, type MarkAxis } from '@/lib/studyMarks'
 import {
   aggregateProgress,
   creditDwell,
   creditEngagement,
+  itemRequiresExplicitRead,
+  resolveChapterIdForItem,
   type EngagementKind,
   type ItemEngagementRecord,
+  type ItemStudyContext,
   type OverallProgress,
   type SectionProgress,
 } from '@/lib/studyProgress'
@@ -93,15 +97,18 @@ interface AppState {
   flagItem: (itemId: string, comment: string | null, ctx?: FeedbackCtx) => void
   clearFeedback: () => void
   setMark: (itemId: string, axis: MarkAxis, value: string) => void
-  markRevised: (itemId: string) => void
-  markItemRead: (itemId: string) => void
-  recordSeen: (itemId: string) => void
+  markRevised: (itemId: string, ctx?: ItemStudyContext) => void
+  markItemRead: (itemId: string, ctx?: ItemStudyContext) => void
+  recordSeen: (itemId: string, ctx?: ItemStudyContext) => void
+  recordItemReveal: (itemId: string, ctx?: ItemStudyContext) => void
+  recordMockExamResponse: (item: StudyItem, value: unknown) => void
   creditItemDwell: (itemId: string, deltaMs: number, dwellAccruedThisVisit: number) => number
   getStudyProgress: () => { overall: OverallProgress; sections: SectionProgress[] }
   getMark: (itemId: string) => ItemMark | undefined
-  _recordEngagement: (itemId: string, kind: EngagementKind) => void
+  _recordEngagement: (itemId: string, kind: EngagementKind, chapterIdHint?: string | null) => void
   _rebuildProgress: () => void
-  _markCtx: (itemId: string, prev: ItemMark) => Partial<ItemMark>
+  _markCtx: (itemId: string, prev: ItemMark, ctx?: ItemStudyContext) => Partial<ItemMark>
+  _resolveChapterId: (itemId: string, explicit?: string | null) => string | null
   exportStudyData: () => StudyDataPayload
   importStudyData: (data: StudyDataPayload, mode: 'merge' | 'replace') => void
   toggleBookmark: (itemId?: string) => void
@@ -313,14 +320,12 @@ export const useAppStore = create<AppState>()(
       setScrollToItemId: (id) => set({ scrollToItemId: id }),
 
       toggleReveal: (itemId) => {
-        const wasRevealed = get().revealed[itemId]
-        const revealed = { ...get().revealed, [itemId]: !wasRevealed }
-        set({ revealed })
-        if (!wasRevealed) {
-          get().recordSeen(itemId)
-          get()._recordEngagement(itemId, 'reveal')
+        if (get().revealed[itemId]) {
+          set({ revealed: { ...get().revealed, [itemId]: false } })
+          get()._rebuildProgress()
+          return
         }
-        get()._rebuildProgress()
+        get().recordItemReveal(itemId)
       },
 
       selectMcqOption: (itemId, option) => {
@@ -331,6 +336,54 @@ export const useAppStore = create<AppState>()(
         })
         get().recordSeen(itemId)
         if (!hadAnswer) get()._recordEngagement(itemId, 'answer')
+        get()._rebuildProgress()
+      },
+
+      recordItemReveal: (itemId, ctx) => {
+        const itemType = ctx?.itemType
+        if (itemType && itemRequiresExplicitRead(itemType)) {
+          if (!get().readItems[itemId]) {
+            get().markItemRead(itemId, ctx)
+          }
+          return
+        }
+
+        if (get().revealed[itemId]) return
+
+        set({ revealed: { ...get().revealed, [itemId]: true } })
+        get().recordSeen(itemId, ctx)
+        get()._recordEngagement(itemId, 'reveal', ctx?.chapterId)
+        get()._rebuildProgress()
+      },
+
+      recordMockExamResponse: (item, value) => {
+        if (value === undefined || value === null || value === '') return
+
+        const itemId = item.id
+        const ctx: ItemStudyContext = {
+          chapterId: resolveChapterIdForItem(itemId, {
+            marks: get().marks,
+            currentChapterId: get().currentChapterId,
+          }) ?? undefined,
+          itemType: item.type,
+        }
+
+        get().recordSeen(itemId, ctx)
+
+        if (item.type === 'mcq' && typeof value === 'number') {
+          const hadAnswer = get().mcqSelections[itemId] != null
+          set({
+            mcqSelections: { ...get().mcqSelections, [itemId]: value },
+            revealed: { ...get().revealed, [itemId]: true },
+          })
+          if (!hadAnswer) get()._recordEngagement(itemId, 'mock', ctx.chapterId)
+        } else {
+          const wasRevealed = get().revealed[itemId]
+          if (!wasRevealed) {
+            set({ revealed: { ...get().revealed, [itemId]: true } })
+            get()._recordEngagement(itemId, 'mock', ctx.chapterId)
+          }
+        }
         get()._rebuildProgress()
       },
 
@@ -387,7 +440,7 @@ export const useAppStore = create<AppState>()(
         get()._rebuildProgress()
       },
 
-      markRevised: (itemId) => {
+      markRevised: (itemId, ctx) => {
         const marks = { ...get().marks }
         const prev = marks[itemId] ?? emptyMark()
         const next: ItemMark = {
@@ -397,26 +450,29 @@ export const useAppStore = create<AppState>()(
           firstSeenAt: prev.firstSeenAt ?? Date.now(),
           lastSeenAt: Date.now(),
         }
-        Object.assign(next, get()._markCtx(itemId, prev))
+        Object.assign(next, get()._markCtx(itemId, prev, ctx))
         marks[itemId] = next
         set({ marks })
-        get()._recordEngagement(itemId, 'revise')
+        get()._recordEngagement(itemId, 'revise', ctx?.chapterId)
         get()._rebuildProgress()
       },
 
-      markItemRead: (itemId) => {
+      markItemRead: (itemId, ctx) => {
         if (get().readItems[itemId]) return
         set({ readItems: { ...get().readItems, [itemId]: true } })
-        get().recordSeen(itemId)
-        get()._recordEngagement(itemId, 'read')
+        get().recordSeen(itemId, ctx)
+        get()._recordEngagement(itemId, 'read', ctx?.chapterId)
         get()._rebuildProgress()
       },
 
-      recordSeen: (itemId) => {
+      recordSeen: (itemId, ctx) => {
         const prev = get().marks[itemId]
         if (prev && prev.timesDone > 0) {
-          // already done — just refresh recency + context
-          const next = { ...prev, lastSeenAt: Date.now(), ...get()._markCtx(itemId, prev) }
+          const next = {
+            ...prev,
+            lastSeenAt: Date.now(),
+            ...get()._markCtx(itemId, prev, ctx),
+          }
           set({ marks: { ...get().marks, [itemId]: next } })
           return
         }
@@ -426,35 +482,54 @@ export const useAppStore = create<AppState>()(
           timesDone: 1,
           firstSeenAt: base.firstSeenAt ?? Date.now(),
           lastSeenAt: Date.now(),
-          ...get()._markCtx(itemId, base),
+          ...get()._markCtx(itemId, base, ctx),
         }
         set({ marks: { ...get().marks, [itemId]: next } })
       },
 
       // Resolve chapter context for a mark from the loaded chapter, preserving any
       // context already stored. Returns a partial to merge into the mark.
-      _markCtx: (itemId, prev) => {
+      _markCtx: (itemId, prev, ctx) => {
+        if (ctx?.chapterId) {
+          return {
+            chapterId: ctx.chapterId,
+            chapterTitle: ctx.chapterTitle ?? prev.chapterTitle,
+            label: ctx.label ?? prev.label,
+            itemType: ctx.itemType ?? prev.itemType,
+          }
+        }
         if (prev.chapterId) return {}
-        const chapterId = get().currentChapterId
-        const chapter = get().getCurrentChapter()
-        if (!chapterId || !chapter) return {}
+        const chapterId = get()._resolveChapterId(itemId)
+        const chapter = chapterId ? get().chapters[chapterId] : get().getCurrentChapter()
+        const resolvedId = chapterId ?? get().currentChapterId
+        if (!resolvedId || !chapter) {
+          if (resolvedId) return { chapterId: resolvedId }
+          return {}
+        }
         const item = chapter.items.find((i) => i.id === itemId)
-        if (!item) return { chapterId, chapterTitle: chapter.title }
+        if (!item) return { chapterId: resolvedId, chapterTitle: chapter.title }
         return {
-          chapterId,
+          chapterId: resolvedId,
           chapterTitle: chapter.title,
           label: itemMarkLabel(item),
           itemType: item.type,
         }
       },
 
+      _resolveChapterId: (itemId, explicit) =>
+        resolveChapterIdForItem(itemId, {
+          explicit,
+          marks: get().marks,
+          currentChapterId: get().currentChapterId,
+        }),
+
       getMark: (itemId) => get().marks[itemId],
 
-      _recordEngagement: (itemId, kind) => {
+      _recordEngagement: (itemId, kind, chapterIdHint) => {
         const at = Date.now()
         const prev = get().itemEngagement[itemId]
         const record = creditEngagement(prev, kind, at)
-        const chapterId = get().currentChapterId
+        const chapterId = get()._resolveChapterId(itemId, chapterIdHint)
         const chapterEngagedMs = { ...get().chapterEngagedMs }
         let totalEngagementMs = get().totalEngagementMs
         const baseAdded = record.engagedMs - (prev?.engagedMs ?? 0)
@@ -477,7 +552,7 @@ export const useAppStore = create<AppState>()(
         const { record, dwellAdded } = creditDwell(prev, deltaMs, dwellAccruedThisVisit)
         if (dwellAdded <= 0) return 0
 
-        const chapterId = get().currentChapterId
+        const chapterId = get()._resolveChapterId(itemId)
         const chapterEngagedMs = { ...get().chapterEngagedMs }
         if (chapterId) {
           chapterEngagedMs[chapterId] = (chapterEngagedMs[chapterId] ?? 0) + dwellAdded

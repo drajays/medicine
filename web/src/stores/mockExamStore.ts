@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import type { StudyItem } from '@/lib/types'
+import { useAppStore } from '@/store/useAppStore'
 
 export type MockExamPhase = 'setup' | 'instructions' | 'active' | 'results'
 
@@ -138,6 +139,7 @@ export const useMockExamStore = create<MockExamState>()(
               [item.id]: { value: currentDraft, savedAt: Date.now() }
             }
           })
+          useAppStore.getState().recordMockExamResponse(item, currentDraft)
         }
       },
       
@@ -181,6 +183,14 @@ export const useMockExamStore = create<MockExamState>()(
       submitExam: () => {
         get().saveCurrent()
         const { examItems, responses } = get()
+
+        // Ensure every saved response is reflected in study progress stats.
+        for (const item of examItems) {
+          const resp = responses[item.id]
+          if (resp?.value !== undefined && resp.value !== null && resp.value !== '') {
+            useAppStore.getState().recordMockExamResponse(item, resp.value)
+          }
+        }
         
         let correct = 0
         let attempted = 0

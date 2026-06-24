@@ -14,7 +14,34 @@ import type { HeaderKind, ItemMark, NavRow, StudyItem } from '@/lib/types'
  * Passive scrolling past an item awards zero time.
  */
 
-export type EngagementKind = 'reveal' | 'answer' | 'mark' | 'read' | 'revise'
+export interface ItemStudyContext {
+  chapterId?: string
+  chapterTitle?: string
+  label?: string
+  itemType?: string
+}
+
+/** Derive catalog chapter id from item id when that chapter is not open. */
+export function resolveChapterIdForItem(
+  itemId: string,
+  hints: {
+    explicit?: string | null
+    marks?: Record<string, ItemMark>
+    currentChapterId?: string | null
+  } = {},
+): string | null {
+  if (hints.explicit) return hints.explicit
+  const fromMark = hints.marks?.[itemId]?.chapterId
+  if (fromMark) return fromMark
+  if (hints.currentChapterId && itemId.startsWith(`${hints.currentChapterId}-`)) {
+    return hints.currentChapterId
+  }
+  const m = itemId.match(/^(pe-cr-\d+|tr-nejm-\d+|tr-\d+|ht-\d+|cr-\d+|story-\d+|h[12]-\d+)/)
+  if (m) return m[1]
+  return hints.currentChapterId ?? null
+}
+
+export type EngagementKind = 'reveal' | 'answer' | 'mark' | 'read' | 'revise' | 'mock'
 
 /** Base milliseconds credited per explicit engagement action. */
 export const ENGAGEMENT_BASE_MS: Record<EngagementKind, number> = {
@@ -23,6 +50,7 @@ export const ENGAGEMENT_BASE_MS: Record<EngagementKind, number> = {
   mark: 30_000,
   read: 75_000,
   revise: 45_000,
+  mock: 60_000,
 }
 
 /** Max extra dwell time per item per chapter visit (after first engage). */

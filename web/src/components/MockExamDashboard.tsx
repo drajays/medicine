@@ -295,15 +295,15 @@ function MockExamActive() {
             <div className="font-bold border-b pb-2 mb-4">Question {store.index + 1}:</div>
             
             <div className="prose dark:prose-invert max-w-none text-sm mb-6">
-              {item.type === 'mcq' && (item as any).stem}
+              {item.type === 'mcq' && ((item as any).stem || (item as any).question)}
               {item.type === 'true_false' && (item as any).statement}
               {item.type === 'assertion_reason' && (
                 <div>
-                  <p><strong>Assertion:</strong> {(item as any).assertion}</p>
-                  <p><strong>Reason:</strong> {(item as any).reason}</p>
+                  <p><strong>Assertion (A):</strong> {(item as any).assertion}</p>
+                  <p className="mt-2"><strong>Reason (R):</strong> {(item as any).reason}</p>
                 </div>
               )}
-              {['shortanswer', 'why', 'how'].includes(item.type) && (item as any).question}
+              {['shortanswer', 'why', 'how'].includes(item.type) && ((item as any).question || (item as any).stem)}
             </div>
 
             <div className="space-y-3">

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { X, Eye, Keyboard, Undo2 } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
@@ -123,10 +123,12 @@ function TriageItemBody({
 function TriageCard({
   revisionItem,
   contentItem,
+  onReveal,
   onRate,
 }: {
   revisionItem: RevisionStudyItem
   contentItem: StudyItem
+  onReveal: () => void
   onRate: (rating: RecallRating, timeToRevealMs: number) => void
 }) {
   const showTimeAfterReveal = useRevisionStore((s) => s.showTimeAfterReveal)
@@ -143,7 +145,8 @@ function TriageCard({
     if (revealed) return
     setTimeToRevealMs(computeTimeToRevealMs(shownAtRef.current || Date.now(), Date.now()))
     setRevealed(true)
-  }, [revealed])
+    onReveal()
+  }, [revealed, onReveal])
 
   const rate = useCallback(
     (rating: RecallRating) => {
@@ -259,6 +262,7 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
   const loadChapter = useAppStore((s) => s.loadChapter)
   const chapters = useAppStore((s) => s.chapters)
   const markRevised = useAppStore((s) => s.markRevised)
+  const recordItemReveal = useAppStore((s) => s.recordItemReveal)
 
   const revisionItem = getCurrentSessionItem()
   const chapterId = revisionItem?.chapterId
@@ -286,13 +290,34 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
     onClose()
   }, [endSession, onClose])
 
+  const studyCtx = useMemo(
+    () =>
+      revisionItem
+        ? {
+            chapterId: revisionItem.chapterId,
+            chapterTitle: revisionItem.subject,
+            label: revisionItem.title,
+            itemType: revisionItem.itemType,
+          }
+        : undefined,
+    [revisionItem],
+  )
+
+  const handleReveal = useCallback(() => {
+    if (!revisionItem || !contentItem) return
+    recordItemReveal(revisionItem.id, {
+      ...studyCtx,
+      itemType: contentItem.type,
+    })
+  }, [revisionItem, contentItem, recordItemReveal, studyCtx])
+
   const handleRate = useCallback(
     (rating: RecallRating, timeToRevealMs: number) => {
       if (!revisionItem) return
       recordReview(revisionItem.id, rating, timeToRevealMs)
-      markRevised(revisionItem.id)
+      markRevised(revisionItem.id, studyCtx)
     },
-    [revisionItem, recordReview, markRevised],
+    [revisionItem, studyCtx, recordReview, markRevised],
   )
 
   const handleUndo = useCallback(() => {
@@ -404,7 +429,12 @@ export function SmartTriageModal({ open, onClose }: SmartTriageModalProps) {
               transition={{ duration: 0.16 }}
               className="mx-auto max-w-2xl space-y-5"
             >
-              <TriageCard revisionItem={revisionItem} contentItem={contentItem} onRate={handleRate} />
+              <TriageCard
+                revisionItem={revisionItem}
+                contentItem={contentItem}
+                onReveal={handleReveal}
+                onRate={handleRate}
+              />
             </motion.div>
           ) : (
             <motion.p
