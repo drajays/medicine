@@ -2,7 +2,7 @@
   "id": "cr-023",
   "reportType": "case_report",
   "title": "Complex Diabetes Management in Advanced (G5 Non-Dialysis) CKD",
-  "subtitle": "A Resident Training Module: linagliptin across all CKD stages, the SGLT2i 'no evidence' fallacy, GLP-1 RA as the strategic add-on, and safe insulin de-escalation at eGFR 14",
+  "subtitle": "A Resident Training Module: GLP-1 RA vs SGLT2i vs linagliptin at eGFR 14 — why not to combine incretin therapies, hypoglycaemia-first targets, safe insulin de-escalation, and the wider CKD-G5 agenda",
   "section": "Case Reports",
   "category": "Endocrinology & Nephrology",
   "authors": "Resident training module — illustrative teaching case",
@@ -31,12 +31,14 @@
     "CAD + obesity (BMI 32) — strong indications for cardio-renal, weight-lowering therapy",
     "Normal fundus — at risk of early-worsening retinopathy if HbA1c falls rapidly"
   ],
-  "finalDiagnosis": "Type 2 diabetes with advanced (G5 non-dialysis) diabetic kidney disease and established CAD. Plan: continue/optimise basal insulin, add linagliptin 5 mg OD (no dose adjustment at any eGFR), add dulaglutide (REWIND included eGFR ≥15; cardio-renal benefit + weight loss) and taper/eliminate bolus insulin, and withhold SGLT2i at eGFR 14 on an explicit risk-benefit basis (not because 'no evidence exists').",
+  "finalDiagnosis": "Type 2 diabetes with advanced (G5 non-dialysis) diabetic kidney disease and established CAD. Plan: set a safe, individualised glycaemic target (often HbA1c ~7-8%) and prioritise avoiding hypoglycaemia; continue/optimise basal insulin and reduce prandial insulin early; add a GLP-1 receptor agonist (dulaglutide first-line for CKD5 tolerability; semaglutide as an alternative) for weight, cardiovascular and insulin-sparing benefit; reserve linagliptin 5 mg OD as the alternative if a GLP-1 RA cannot be used — the two should NOT be combined (incretin-pathway redundancy); and withhold SGLT2i at eGFR 14 on an explicit evidence/risk-benefit basis (not because 'no evidence exists'). Look beyond glucose: kidney-protective therapy, CKD-G5 preparation, anaemia/acidosis/CKD-MBD, and CAD secondary prevention.",
   "learningObjectives": [
     "Explain why linagliptin is the only DPP-4 inhibitor usable across all CKD stages without dose adjustment.",
     "Correct the 'SGLT2i have no evidence in CKD' fallacy and frame the eGFR-14 decision as insufficient evidence with unfavourable risk-benefit.",
     "Select and dose a GLP-1 receptor agonist in advanced CKD (dulaglutide/liraglutide vs semaglutide vs exenatide).",
-    "Safely de-escalate bolus insulin when adding a GLP-1 RA, and anticipate early-worsening retinopathy with rapid glycaemic correction."
+    "Safely de-escalate bolus insulin when adding a GLP-1 RA, and anticipate early-worsening retinopathy with rapid glycaemic correction.",
+    "Avoid combining a DPP-4 inhibitor with a GLP-1 RA, and set a safe (hypoglycaemia-avoiding) glycaemic target in CKD G5.",
+    "Manage the wider CKD-G5 agenda: kidney-protective drugs, anaemia/acidosis/CKD-MBD, dialysis/transplant preparation and CAD secondary prevention."
   ],
   "items": [
     {
@@ -44,11 +46,12 @@
       "type": "note",
       "subtopic": "DPP-4 inhibitors",
       "title": "Why linagliptin is the only DPP-4i usable at any CKD stage",
-      "content": "Almost all DPP-4 inhibitors (sitagliptin, vildagliptin, saxagliptin, alogliptin) are predominantly renally excreted and require stepwise dose reduction as eGFR falls — a frequent prescribing error in advanced CKD. Linagliptin is the exception: it is eliminated mainly by the hepatobiliary route, so no dose adjustment is needed at any eGFR, including dialysis. At this patient's eGFR of 14 that makes it a clean, low-risk add-on: glucose-dependent action (low intrinsic hypoglycaemia risk), weight-neutral, once daily, with a modest HbA1c reduction of ~0.5-0.8%. CARMELINA confirmed cardiovascular and kidney safety in a high-risk CKD population, and CAROLINA showed CV non-inferiority versus glimepiride with less hypoglycaemia. The practical payoff here is that adding linagliptin may permit a reduction in bolus insulin doses.",
+      "content": "Almost all DPP-4 inhibitors (sitagliptin, vildagliptin, saxagliptin, alogliptin) are predominantly renally excreted and require stepwise dose reduction as eGFR falls — a frequent prescribing error in advanced CKD. Linagliptin is the exception: it is eliminated mainly by the hepatobiliary route, so no dose adjustment is needed at any eGFR, including dialysis. At this patient's eGFR of 14 that makes it a clean, low-risk add-on: glucose-dependent action (low intrinsic hypoglycaemia risk), weight-neutral, once daily, with a modest HbA1c reduction of ~0.5-0.8%. CARMELINA confirmed cardiovascular and kidney safety in a high-risk CKD population, and CAROLINA showed CV non-inferiority versus glimepiride with less hypoglycaemia. Crucially, linagliptin is an alternative to — not an add-on alongside — a GLP-1 receptor agonist: both act on the incretin axis, so combining them adds little and is not recommended (see the dedicated note). Use linagliptin only if a GLP-1 RA is unaffordable, not tolerated, or declined; the trade-off is that its HbA1c effect is modest and it is CV-neutral.",
       "keyPoints": [
         "Linagliptin = hepatobiliary excretion → no renal dose adjustment, safe even on dialysis.",
         "All other DPP-4i are renally cleared and need dose reduction in CKD.",
-        "Low hypoglycaemia risk, weight-neutral, ~0.5-0.8% HbA1c fall (CARMELINA / CAROLINA)."
+        "Low hypoglycaemia risk, weight-neutral, ~0.5-0.8% HbA1c fall (CARMELINA / CAROLINA); CV-neutral.",
+        "Use as an ALTERNATIVE to a GLP-1 RA, never combined with one (incretin-pathway redundancy)."
       ]
     },
     {
@@ -80,10 +83,10 @@
       "type": "note",
       "subtopic": "Insulin de-escalation",
       "title": "How to taper bolus insulin safely when adding a GLP-1 RA",
-      "content": "Insulin simplification is a legitimate therapeutic goal: complex basal-bolus regimens drive hypoglycaemia, and in advanced CKD insulin clearance falls so requirements often decline. The error to avoid is adding a GLP-1 RA while leaving full bolus doses in place — that produces hypoglycaemia, not because of the GLP-1 RA but because the insulin was not reduced. A staged plan for this patient: Week 0, start dulaglutide 0.75 mg weekly and pre-emptively cut each bolus by ~one-third (6-6-6 → 4-4-4); Week 2, review glucose logs and, if post-prandials are controlled, reduce further (2-2-2); Week 4, consider stopping bolus entirely; Week 6, reassess the basal dose, which often also needs lowering; Week 8, full review of HbA1c, weight and tolerability. Continue basal insulin throughout (optimise first), and increase SMBG frequency during the transition.",
+      "content": "Insulin simplification is a legitimate therapeutic goal: complex basal-bolus regimens drive hypoglycaemia, and in advanced CKD insulin clearance falls so requirements often decline. The error to avoid is adding a GLP-1 RA while leaving full bolus doses in place — that produces hypoglycaemia, not because of the GLP-1 RA but because the insulin was not reduced. The size of the first cut depends on current control: if HbA1c is near target or hypoglycaemia is already occurring, halve the prandial dose immediately (6-6-6 → 3-3-3); if HbA1c is very high without hypoglycaemia, reduce more cautiously (~20-30%) and review in 1-2 weeks. A staged plan for this patient: Week 0, start dulaglutide 0.75 mg weekly and cut bolus to 3-3-3; Week 1-2, review glucose logs and, if post-prandials are controlled, reduce further (2-2-2 or correction-only); Week 4-8, consider stopping fixed bolus entirely and reassess the basal dose, which often also needs lowering as insulin clearance falls. Continue basal insulin throughout (optimise first), and increase SMBG frequency during the transition. Complete bolus withdrawal is not guaranteed — it depends on beta-cell reserve, meal pattern and baseline HbA1c.",
       "keyPoints": [
         "Reduce bolus pre-emptively when starting a GLP-1 RA — do not wait for hypoglycaemia.",
-        "Staged taper: 6-6-6 → 4-4-4 → 2-2-2 → stop, reassessing basal at ~week 6 (insulin clearance falls in CKD).",
+        "First cut is control-dependent: ~50% (6-6-6 → 3-3-3) if near target/hypoglycaemic, ~20-30% if HbA1c very high; then taper to correction-only, reassessing basal as insulin clearance falls.",
         "Optimise/continue basal insulin first; intensify SMBG during transition."
       ]
     },
@@ -116,11 +119,11 @@
       "type": "note",
       "subtopic": "Integrated plan",
       "title": "The final integrated management plan for this patient",
-      "content": "Putting it together for a 65-year-old man, eGFR 14, BMI 32, CAD and HTN on basal-bolus insulin: (1) Continue and optimise basal insulin glargine 18u — do not stop it. (2) Add linagliptin 5 mg once daily — safe at eGFR 14 with no dose adjustment. (3) Add dulaglutide 0.75 mg weekly (uptitrate to 1.5 mg as tolerated) for combined CV, renal, weight and glycaemic benefit. (4) Reduce then eliminate bolus aspart over 4-8 weeks as above. (5) Withhold SGLT2i at eGFR 14, documenting the risk-benefit reasoning and a plan to reassess if renal function stabilises. (6) Correct glycaemia gradually and arrange ophthalmology review given the normal fundus. Throughout, monitor weight, HbA1c, renal function, hydration status and for GI intolerance.",
+      "content": "Putting it together for a 65-year-old man, eGFR 14, BMI 32, CAD and HTN on basal-bolus insulin: (1) Set a safe, individualised glycaemic target (often HbA1c ~7-8%) and make hypoglycaemia avoidance the priority. (2) Continue and optimise basal insulin glargine 18u, and reduce prandial insulin early (≈50%, 6-6-6 → 3-3-3) once incretin therapy starts. (3) Add a GLP-1 receptor agonist as the key add-on — dulaglutide 0.75 mg weekly first-line for CKD5 tolerability (uptitrate to 1.5 mg), or semaglutide as an alternative — for CV, weight and insulin-sparing benefit. (4) Reserve linagliptin 5 mg OD only if a GLP-1 RA cannot be used, and do NOT combine the two. (5) Withhold SGLT2i at eGFR 14, documenting the reasoning and a plan to reassess (empagliflozin 10 mg would be the choice if eGFR were ≥20). (6) Correct glycaemia gradually and arrange ophthalmology review given the normal fundus. (7) Address the wider CKD-G5 agenda: continue ACEi/ARB unless intolerant, avoid metformin/sulfonylureas/pioglitazone, manage anaemia/acidosis/CKD-MBD, prepare for dialysis/transplant, and ensure CAD secondary prevention. Throughout, monitor weight, HbA1c, renal function, hydration and GI tolerance.",
       "keyPoints": [
-        "Continue basal insulin; add linagliptin 5 mg OD; add dulaglutide; taper/stop bolus over 4-8 weeks.",
+        "Continue basal insulin + cut prandial ~50% early; a GLP-1 RA (dulaglutide) is the add-on; linagliptin only as an alternative (never combined).",
         "Withhold SGLT2i (document reasoning, reassess); correct glycaemia gradually + ophthalmology review.",
-        "Monitor weight, HbA1c, eGFR/creatinine, hydration and GI tolerance."
+        "Look beyond glucose: ACEi/ARB, avoid metformin/SU/pioglitazone, anaemia/acidosis/CKD-MBD, dialysis/transplant prep, CAD prevention."
       ]
     },
     {
@@ -135,7 +138,7 @@
       "type": "how",
       "subtopic": "Insulin de-escalation",
       "question": "How should bolus insulin be adjusted at the moment a GLP-1 RA is started in this patient?",
-      "answer": "Reduce it pre-emptively rather than waiting for hypoglycaemia. Start dulaglutide 0.75 mg weekly and cut each mealtime aspart dose by roughly one-third immediately (6-6-6 → 4-4-4). Review glucose logs at 2 weeks and reduce further (→ 2-2-2) if post-prandial values are controlled, aim to stop bolus by ~4 weeks, and reassess the basal dose at ~6 weeks since insulin clearance is reduced in advanced CKD. Increase SMBG frequency during the transition."
+      "answer": "Reduce it pre-emptively rather than waiting for hypoglycaemia. Start dulaglutide 0.75 mg weekly and cut each mealtime aspart dose by about half immediately (6-6-6 → 3-3-3) if HbA1c is near target or hypoglycaemia is present (or only ~20-30% if HbA1c is very high without hypoglycaemia). Review glucose logs at 1-2 weeks and reduce further (→ 2-2-2 or correction-only) if post-prandial values are controlled, aim to stop fixed bolus by ~4-8 weeks, and reassess the basal dose since insulin clearance is reduced in advanced CKD. Increase SMBG frequency during the transition."
     },
     {
       "id": "cr-023-sa1",
@@ -223,6 +226,182 @@
       "reason": "There is no evidence that SGLT2 inhibitors provide any benefit in chronic kidney disease.",
       "correctOption": 2,
       "explanation": "The assertion is true (withholding at eGFR 14 is reasonable on a risk-benefit basis), but the reason is false: SGLT2 inhibitors have robust cardio-renal evidence in CKD for eGFR 20-45 (CREDENCE, DAPA-CKD, EMPA-KIDNEY). The decision to withhold rests on insufficient evidence and unfavourable risk-benefit specifically at eGFR 14, not on an absence of evidence in CKD. Hence A is true, R is false (option 2)."
+    },
+    {
+      "id": "cr-023-n8",
+      "type": "note",
+      "subtopic": "Glycaemic targets",
+      "title": "Why avoiding hypoglycaemia outranks tight control at eGFR 14",
+      "content": "In CKD G5 the safety priority flips: hypoglycaemia, not hyperglycaemia, is the immediate threat. Renal insulin clearance falls, gluconeogenesis by the failing kidney declines, appetite and intake fluctuate, and many agents accumulate — so the same regimen that was safe earlier now causes lows. For a 65-year-old with CAD (where hypoglycaemia can precipitate arrhythmia and ischaemia) and advanced CKD, the sensible target is safe rather than tight control — commonly HbA1c around 7-8%, individualised, with explicit avoidance of hypoglycaemia. Chasing a near-normal HbA1c here is a classic resident error that trades a small microvascular gain for a real risk of harm.",
+      "keyPoints": [
+        "CKD5 lowers insulin clearance and renal gluconeogenesis → higher hypoglycaemia risk on an unchanged regimen.",
+        "Target safe control (often HbA1c ~7-8%, individualised), not tight control.",
+        "Hypoglycaemia is especially dangerous with coexisting CAD — avoid it deliberately."
+      ]
+    },
+    {
+      "id": "cr-023-n9",
+      "type": "note",
+      "subtopic": "Monitoring",
+      "title": "Why HbA1c can mislead in CKD5 — and what to monitor instead",
+      "content": "HbA1c is often unreliable in advanced CKD: anaemia, shortened red-cell survival, iron deficiency, recent transfusion and erythropoiesis-stimulating agent (ESA) use all distort it, and it can read falsely low or high. Relying on HbA1c alone risks both under- and over-treatment. The resident should triangulate: structured SMBG (fasting, pre-meal, 2-hour post-meal, bedtime) or — preferably — continuous glucose monitoring, alongside the haemoglobin/iron/ESA context. A full baseline also includes hypoglycaemia frequency, UACR/albuminuria, potassium, bicarbonate, calcium/phosphate/PTH, and current BP with ACEi/ARB/diuretic use, because these shape every subsequent drug decision.",
+      "keyPoints": [
+        "Anaemia, altered RBC survival, transfusion and ESA use make HbA1c unreliable in CKD5.",
+        "Use SMBG (fasting/pre-meal/2-h post-meal/bedtime) or CGM, interpreted with the haematology context.",
+        "Baseline work-up: hypoglycaemia history, UACR, K, HCO3, Ca/PO4/PTH, BP and RAAS/diuretic use."
+      ]
+    },
+    {
+      "id": "cr-023-n10",
+      "type": "note",
+      "subtopic": "Incretin therapy",
+      "title": "Why you must not combine linagliptin with a GLP-1 RA",
+      "content": "DPP-4 inhibitors and GLP-1 receptor agonists act on the same incretin pathway: DPP-4 inhibitors work by preventing the breakdown of endogenous GLP-1, raising it to near-physiological levels, whereas a GLP-1 RA delivers pharmacological receptor agonism directly. Adding a DPP-4 inhibitor on top of a GLP-1 RA therefore adds essentially no further glycaemic benefit while adding cost and pill burden, and is not recommended by guidelines. The clean decision rule for this patient: choose one incretin-based therapy. If a GLP-1 RA is being used (the preferred route here for its weight, CV and insulin-sparing benefits), do not add linagliptin; reserve linagliptin for when a GLP-1 RA cannot be used at all.",
+      "keyPoints": [
+        "DPP-4i raise endogenous GLP-1; GLP-1 RA give direct pharmacological agonism — overlapping mechanism.",
+        "Combining them adds little glycaemic benefit, only cost/burden — not recommended.",
+        "Pick one incretin therapy: GLP-1 RA preferred here; linagliptin only if a GLP-1 RA is not an option."
+      ]
+    },
+    {
+      "id": "cr-023-n11",
+      "type": "note",
+      "subtopic": "GLP-1 receptor agonists",
+      "title": "How to screen a patient before starting a GLP-1 RA",
+      "content": "Before the first dose, run a quick safety screen. Contraindications/cautions: personal or family history of medullary thyroid carcinoma or MEN2 (avoid), prior pancreatitis, severe gastroparesis, active gallbladder disease, and frailty/malnutrition or recurrent vomiting/poor intake. The CKD5-specific hazard is that GI adverse effects (nausea, vomiting, reduced intake) cause dehydration, pre-renal AKI and — if insulin is not reduced — hypoglycaemia. Hence the operating rules: start low, go slow, reduce insulin early, counsel hard on hydration and GI symptoms, and monitor glucose and renal function closely. The normal fundus is reassuring, but avoid a sudden large fall in glucose and continue annual eye review (early-worsening retinopathy risk).",
+      "keyPoints": [
+        "Screen for MTC/MEN2 (avoid), pancreatitis, severe gastroparesis, gallbladder disease, frailty/poor intake.",
+        "CKD5 risk chain: GI upset → dehydration → AKI, and hypoglycaemia if insulin not cut.",
+        "Start low, go slow, reduce insulin early, counsel on hydration; avoid abrupt large HbA1c falls (retinopathy)."
+      ]
+    },
+    {
+      "id": "cr-023-n12",
+      "type": "note",
+      "subtopic": "Drug selection by eGFR",
+      "title": "How to handle the other glucose-lowering and kidney drugs in CKD5",
+      "content": "Beyond the incretin/SGLT2i question, residents must know the fate of the remaining classes at eGFR 14. Metformin is contraindicated (lactic-acidosis risk) — do not use. Sulfonylureas (especially long-acting) carry a high hypoglycaemia risk in CKD5 and are best avoided. Pioglitazone causes fluid retention, weight gain and heart-failure risk — avoid/caution, particularly with CAD. Finerenone is a useful kidney-protective agent in diabetic CKD but is generally not initiated at eGFR 14 — initiation usually requires eGFR ≥25 with a normal potassium. ACEi/ARB should usually be continued for kidney and CV protection: do not stop them merely because eGFR is low, unless there is hyperkalaemia, AKI, symptomatic hypotension or intolerance.",
+      "keyPoints": [
+        "Metformin contraindicated; avoid sulfonylureas (hypoglycaemia) and pioglitazone (fluid/HF) in CKD5.",
+        "Finerenone usually needs eGFR ≥25 + normal K — not a starting drug at eGFR 14.",
+        "Continue ACEi/ARB unless hyperkalaemia, AKI, hypotension or intolerance — not just because eGFR is low."
+      ]
+    },
+    {
+      "id": "cr-023-n13",
+      "type": "note",
+      "subtopic": "CKD-G5 preparation",
+      "title": "Why eGFR 14 means managing far more than glucose",
+      "content": "At eGFR 14 the patient is approaching kidney replacement therapy, and a glucose-only focus is a serious omission. The parallel agenda: timely nephrology follow-up; dialysis modality education (haemodialysis vs peritoneal dialysis); arteriovenous fistula planning ahead of need if haemodialysis is likely; transplant evaluation if a candidate; hepatitis B vaccination before dialysis; and strict avoidance of nephrotoxins (NSAIDs, unnecessary contrast). Framing the case as 'which diabetes drug' alone misses that the dominant determinant of this man's outcome over the next 1-2 years is how well his transition to kidney replacement therapy and his cardiovascular risk are managed.",
+      "keyPoints": [
+        "Refer/continue nephrology; educate on dialysis modality; plan AV fistula early if HD likely.",
+        "Assess for transplant; give hepatitis B vaccination before dialysis.",
+        "Avoid nephrotoxins (NSAIDs, unnecessary contrast) — protect residual function."
+      ]
+    },
+    {
+      "id": "cr-023-n14",
+      "type": "note",
+      "subtopic": "CKD complications & CAD",
+      "title": "How to manage the CKD complications and CAD secondary prevention",
+      "content": "Two further workstreams run alongside glycaemia. CKD complications: check haemoglobin and iron studies and treat deficiency/assess ESA need for anaemia; measure bicarbonate and treat metabolic acidosis if low; monitor potassium (especially on RAAS blockade); and manage CKD-mineral and bone disorder (calcium, phosphate, PTH, vitamin D) and overall nutrition/albumin. CAD secondary prevention: a high-intensity statin (or statin plus ezetimibe) if tolerated, antiplatelet therapy if indicated, blood-pressure control, smoking cessation, and beta-blocker/antianginal therapy as indicated. In a CKD5 patient with established CAD, these interventions often matter as much as the choice of glucose-lowering agent.",
+      "keyPoints": [
+        "CKD-MBD and complications: anaemia/iron/ESA, acidosis (HCO3), potassium, Ca/PO4/PTH/vitD, nutrition.",
+        "CAD prevention: high-intensity statin ± ezetimibe, antiplatelet if indicated, BP control, beta-blocker/antianginal.",
+        "These often influence prognosis as much as the diabetes drug choice."
+      ]
+    },
+    {
+      "id": "cr-023-n15",
+      "type": "note",
+      "subtopic": "Monitoring",
+      "title": "How to use CGM (or structured SMBG) to guide insulin reduction in CKD5",
+      "content": "Because this man is on insulin and in CKD5 — the highest-risk combination for hypoglycaemia — continuous glucose monitoring is strongly useful where available: it detects silent and nocturnal hypoglycaemia that fingersticks miss and gives the data to safely down-titrate insulin as the GLP-1 RA takes effect. Where CGM is not available, use a structured fingerstick schedule (fasting, pre-meal, 2-hour post-meal, bedtime) and intensify it during the transition. The monitoring is not an add-on luxury here; it is what makes aggressive insulin de-escalation safe.",
+      "keyPoints": [
+        "CGM is high-value in CKD5-on-insulin: catches silent/nocturnal lows and guides safe insulin reduction.",
+        "If no CGM: structured SMBG (fasting, pre-meal, 2-h post-meal, bedtime), intensified during transition.",
+        "Good monitoring is what makes bolus de-escalation safe — not optional."
+      ]
+    },
+    {
+      "id": "cr-023-why2",
+      "type": "why",
+      "subtopic": "Monitoring",
+      "question": "Why is HbA1c an unreliable glycaemic measure in this CKD5 patient?",
+      "answer": "Advanced CKD distorts the relationship between HbA1c and average glucose: anaemia, shortened red-cell survival, iron deficiency, recent transfusion and erythropoiesis-stimulating agent (ESA) use all alter glycation and red-cell turnover, so HbA1c can read falsely low (or sometimes high). Management should therefore rest on SMBG or CGM data interpreted alongside the haematological context, not on HbA1c alone."
+    },
+    {
+      "id": "cr-023-how2",
+      "type": "how",
+      "subtopic": "Kidney-protective therapy",
+      "question": "How should ACEi/ARB and finerenone be handled in this patient at eGFR 14?",
+      "answer": "Continue the ACEi/ARB for kidney and cardiovascular protection — do not stop it merely because eGFR is low; stop only for hyperkalaemia, AKI, symptomatic hypotension or intolerance, and check potassium/renal function. Do not initiate finerenone at eGFR 14: it is generally started only at eGFR ≥25 with a normal potassium, so it is outside its evidence/label window here."
+    },
+    {
+      "id": "cr-023-sa3",
+      "type": "shortanswer",
+      "subtopic": "Glycaemic targets",
+      "question": "What glycaemic target is appropriate for this 65-year-old with CAD and CKD5, and why?",
+      "answer": "A safe, individualised target — commonly HbA1c around 7-8% — rather than tight control, with explicit avoidance of hypoglycaemia. The rationale: in CKD5 insulin clearance and renal gluconeogenesis fall and intake fluctuates, raising hypoglycaemia risk, and hypoglycaemia is especially hazardous with coexisting CAD. HbA1c is also unreliable in CKD, so the target must be interpreted alongside SMBG/CGM."
+    },
+    {
+      "id": "cr-023-m5",
+      "type": "mcq",
+      "subtopic": "Incretin therapy",
+      "stem": "A resident proposes starting dulaglutide AND adding linagliptin for extra glycaemic effect in this patient. Why is this combination not recommended?",
+      "options": [
+        "Linagliptin requires renal dose adjustment that dulaglutide does not",
+        "DPP-4 inhibitors and GLP-1 RAs act on the same incretin pathway, so combining them adds little benefit while increasing cost",
+        "The combination markedly increases the risk of lactic acidosis",
+        "DPP-4 inhibitors block the absorption of injectable GLP-1 RAs"
+      ],
+      "correctOption": 1,
+      "explanation": "DPP-4 inhibitors raise endogenous GLP-1 by blocking its degradation, while GLP-1 RAs provide direct pharmacological receptor agonism — the same pathway. Adding a DPP-4 inhibitor on top of a GLP-1 RA yields negligible extra glycaemic benefit and only adds cost and burden, so it is not recommended. Choose one incretin-based therapy."
+    },
+    {
+      "id": "cr-023-m6",
+      "type": "mcq",
+      "subtopic": "Drug selection by eGFR",
+      "stem": "Which statement about non-incretin glucose-lowering and kidney-protective drugs is correct at this patient's eGFR of 14?",
+      "options": [
+        "Metformin is safe to continue at eGFR 14 if the dose is halved",
+        "Finerenone should be initiated now for kidney protection",
+        "Metformin is contraindicated, and finerenone is generally not initiated below eGFR 25",
+        "Long-acting sulfonylureas are the preferred oral agents in CKD5"
+      ],
+      "correctOption": 2,
+      "explanation": "Metformin is contraindicated at eGFR 14 (lactic-acidosis risk). Finerenone is a useful agent in diabetic CKD but is generally initiated only at eGFR ≥25 with normal potassium, so not here. Long-acting sulfonylureas carry a high hypoglycaemia risk in CKD5 and should be avoided."
+    },
+    {
+      "id": "cr-023-m7",
+      "type": "mcq",
+      "subtopic": "CKD-G5 preparation",
+      "stem": "Beyond glucose-lowering, which of the following is the MOST appropriate priority in this eGFR-14 patient?",
+      "options": [
+        "Start an NSAID for his joint pains to improve mobility",
+        "Stop the ACEi/ARB because eGFR is low",
+        "Nephrology referral with dialysis-modality education and early AV-fistula planning",
+        "Initiate empagliflozin for guaranteed renal protection"
+      ],
+      "correctOption": 2,
+      "explanation": "At eGFR 14 the dominant agenda is preparation for kidney replacement therapy: nephrology follow-up, dialysis-modality education, early AV-fistula planning, transplant assessment and hepatitis B vaccination. NSAIDs are nephrotoxic and should be avoided; the ACEi/ARB should usually be continued (not stopped just because eGFR is low); and empagliflozin should not be newly started at eGFR 14."
+    },
+    {
+      "id": "cr-023-tf2",
+      "type": "true_false",
+      "subtopic": "Kidney-protective therapy",
+      "statement": "An ACE inhibitor or ARB should be stopped simply because this patient's eGFR has fallen to 14.",
+      "correctAnswer": false,
+      "explanation": "False. A low eGFR alone is not a reason to stop RAAS blockade; ACEi/ARB are continued for kidney and cardiovascular protection. They are stopped only for specific problems — hyperkalaemia, acute kidney injury, symptomatic hypotension or intolerance — with monitoring of potassium and renal function."
+    },
+    {
+      "id": "cr-023-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Incretin therapy",
+      "assertion": "Linagliptin should not be added for a patient who is being started on a GLP-1 receptor agonist.",
+      "reason": "DPP-4 inhibitors and GLP-1 receptor agonists both act on the incretin system, so combining them provides little additional glycaemic benefit.",
+      "correctOption": 0,
+      "explanation": "Both statements are true, and the mechanism in the reason explains the recommendation in the assertion: because DPP-4 inhibitors (which raise endogenous GLP-1) and GLP-1 RAs (direct receptor agonists) act on the same incretin pathway, adding one to the other yields negligible extra benefit, so the combination is avoided. Hence option 0."
     }
   ]
 }
