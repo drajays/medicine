@@ -354,6 +354,14 @@
         "category": "Endocrinology & Therapeutics",
         "file": "cr-020_post_thyroidectomy_lt4_cad.json",
         "status": "ready"
+      },
+      {
+        "id": "cr-021",
+        "title": "Severe Hypothyroidism Before Urgent Oral-Cancer Surgery",
+        "subtitle": "TSH >100, IV LT4 unavailable — oral loading vs 150 mcg, when fT4 (not TSH) clears the OT, reduce to ~100 mcg now, and the adrenal screen you must not skip",
+        "category": "Endocrinology & Perioperative Medicine",
+        "file": "cr-021_severe_hypothyroidism_urgent_onco_surgery.json",
+        "status": "ready"
       }
     ]
   },
@@ -1358,7 +1366,7 @@
         },
         {
           "id": "h2-072",
-          "no": "398",
+          "no": "389",
           "title": "Mechanisms of Hormone Action",
           "file": null,
           "status": "pending"
@@ -1481,6 +1489,95 @@
           "title": "Paget's Disease and Other Dysplasias of Bone",
           "file": null,
           "status": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Pediatric Endocrinology",
+      "chapters": [
+        {
+          "id": "pe-cr-001",
+          "no": "1",
+          "title": "Disorders of Growth and Development: Clinical Perspectives",
+          "file": "pe-cr-001_disorders_of_growth_and_development_clinical_perspectives.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-002",
+          "no": "2",
+          "title": "Disorders of Growth and Development: Diagnosis and Treatment",
+          "file": "pe-cr-002_disorders_of_growth_and_development_diagnosis_and_treatment.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-003",
+          "no": "3",
+          "title": "Thyroid Disorders in Children",
+          "file": "pe-cr-003_thyroid_disorders_in_children.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-004",
+          "no": "4",
+          "title": "Childhood Cushing's Syndrome",
+          "file": "pe-cr-004_childhood_cushing_s_syndrome.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-005",
+          "no": "5",
+          "title": "Rickets–Osteomalacia",
+          "file": "pe-cr-005_rickets_osteomalacia.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-006",
+          "no": "6",
+          "title": "Precocious Puberty",
+          "file": "pe-cr-006_precocious_puberty.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-007",
+          "no": "7",
+          "title": "Delayed Puberty",
+          "file": "pe-cr-007_delayed_puberty.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-008",
+          "no": "8",
+          "title": "Turner Syndrome",
+          "file": "pe-cr-008_turner_syndrome.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-009",
+          "no": "9",
+          "title": "Disorders of Sex Development",
+          "file": "pe-cr-009_disorders_of_sex_development.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-010",
+          "no": "10",
+          "title": "Congenital Adrenal Hyperplasia",
+          "file": "pe-cr-010_congenital_adrenal_hyperplasia.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-011",
+          "no": "11",
+          "title": "Multiple Endocrine Neoplasia",
+          "file": "pe-cr-011_multiple_endocrine_neoplasia.json",
+          "status": "ready"
+        },
+        {
+          "id": "pe-cr-012",
+          "no": "12",
+          "title": "Diabetes in the Young",
+          "file": "pe-cr-012_diabetes_in_the_young.json",
+          "status": "ready"
         }
       ]
     },
@@ -4471,141 +4568,5 @@
         }
       ]
     }
-  ],
-  "pediatricEndo": {
-    "title": "Pediatric Endocrinology",
-    "description": "Core chapters, clinical case reports, and resident training modules in Pediatric Endocrinology — covering growth, puberty, thyroid, adrenal, DSD, diabetes, and metabolic bone disease in children and adolescents.",
-    "chapters": [
-      {
-        "id": "pe-cr-001",
-        "no": "1",
-        "title": "Disorders of Growth and Development: Clinical Perspectives",
-        "file": "pe-cr-001_disorders_of_growth_and_development_clinical_perspectives.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-002",
-        "no": "2",
-        "title": "Disorders of Growth and Development: Diagnosis and Treatment",
-        "file": "pe-cr-002_disorders_of_growth_and_development_diagnosis_and_treatment.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-003",
-        "no": "3",
-        "title": "Thyroid Disorders in Children",
-        "file": "pe-cr-003_thyroid_disorders_in_children.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-004",
-        "no": "4",
-        "title": "Childhood Cushing's Syndrome",
-        "file": "pe-cr-004_childhood_cushing_s_syndrome.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-005",
-        "no": "5",
-        "title": "Rickets–Osteomalacia",
-        "file": "pe-cr-005_rickets_osteomalacia.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-006",
-        "no": "6",
-        "title": "Precocious Puberty",
-        "file": "pe-cr-006_precocious_puberty.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-007",
-        "no": "7",
-        "title": "Delayed Puberty",
-        "file": "pe-cr-007_delayed_puberty.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-008",
-        "no": "8",
-        "title": "Turner Syndrome",
-        "file": "pe-cr-008_turner_syndrome.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-009",
-        "no": "9",
-        "title": "Disorders of Sex Development",
-        "file": "pe-cr-009_disorders_of_sex_development.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-010",
-        "no": "10",
-        "title": "Congenital Adrenal Hyperplasia",
-        "file": "pe-cr-010_congenital_adrenal_hyperplasia.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-011",
-        "no": "11",
-        "title": "Multiple Endocrine Neoplasia",
-        "file": "pe-cr-011_multiple_endocrine_neoplasia.json",
-        "status": "ready"
-      },
-      {
-        "id": "pe-cr-012",
-        "no": "12",
-        "title": "Diabetes in the Young",
-        "file": "pe-cr-012_diabetes_in_the_young.json",
-        "status": "ready"
-      }
-    ],
-    "caseReports": {
-      "title": "Pediatric Endocrinology Case Reports",
-      "description": "Clinical vignettes, resident training modules, and teaching cases specific to pediatric endocrinology practice.",
-      "reports": [
-        {
-          "id": "cr-007",
-          "title": "Severe Short Stature, Low BMI & Neonatal Insult",
-          "subtitle": "Auxology, MPHD, Celiac vs Hypopituitarism · 30 First-Principles Q&A",
-          "category": "Pediatrics & Endocrinology",
-          "file": "cr-007_short_stature_neonatal_insult.json",
-          "status": "ready"
-        },
-        {
-          "id": "cr-012",
-          "title": "Deconstructing Precocious Puberty — A Resident Training Module",
-          "subtitle": "B5 + menarche: the missing variables, targeted workup, MRI rules, and the bone-age treatment decision",
-          "category": "Pediatric Endocrinology",
-          "file": "cr-012_precocious_puberty_resident_module.json",
-          "status": "ready"
-        },
-        {
-          "id": "cr-016",
-          "title": "GnRH Agonist Treatment Failure in Central Precocious Puberty",
-          "subtitle": "Flare prevention, rescue dosing, over-suppression, and LH-vs-estradiol monitoring",
-          "category": "Pediatric Endocrinology",
-          "file": "cr-016_gnrh_agonist_failure_rescue.json",
-          "status": "ready"
-        },
-        {
-          "id": "cr-017",
-          "title": "When to Stop GnRH Agonist Therapy — A Resident Training Module",
-          "subtitle": "Objective Stopping Criteria, Predicted Adult Height, GH Augmentation, and the Full Discontinuation Roadmap",
-          "category": "Pediatric Endocrinology",
-          "file": "cr-017_gnrh_agonist_stopping_criteria_gh.json",
-          "status": "ready"
-        },
-        {
-          "id": "cr-018",
-          "title": "Sex-Steroid Priming, GHST & an Incidental Empty Sella in Peripubertal Short Stature",
-          "subtitle": "Why unprimed GH testing over-diagnoses deficiency; structure-vs-function in a partial empty sella — a pitfalls module",
-          "category": "Pediatric Endocrinology",
-          "file": "cr-018_sex_steroid_priming_ghst_empty_sella.json",
-          "status": "ready"
-        }
-      ]
-    }
-  }
+  ]
 }
