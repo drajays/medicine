@@ -1,24 +1,28 @@
 #!/bin/bash
-# Monitor conversion progress
+# Run from anywhere — uses absolute paths
+DATA_DIR="/Users/dr.ajayshukla/harrison_app/data"
+LOG_FILE="/Users/dr.ajayshukla/harrison_app/conversion_run.log"
+
 echo "=== $(date) ==="
-# Count total generated
-python3 -c "
+python3 - << PYEOF
 import json, glob
-done=0; total=0
-for f in glob.glob('data/*.json'):
-    d=json.load(open(f))
-    for i in d.get('items',[]):
-        t = i.get('type','')
-        if t in ('why','how','shortanswer'): total+=1
-        if '-obj-' in i.get('id',''): done+=1
-print(f'Converted: {done} objective | Descriptive: {total}')
-"
-# Last 5 lines of log
+done=0; desc=0
+for f in glob.glob("$DATA_DIR/*.json"):
+    try:
+        d=json.load(open(f))
+        for i in d.get('items',[]):
+            t=i.get('type','')
+            if t in ('why','how','shortanswer'): desc+=1
+            if '-obj-' in i.get('id',''): done+=1
+    except: pass
+print(f"Converted: {done} objective | Remaining descriptive: {desc}")
+PYEOF
+
 echo "--- Recent log ---"
-tail -5 conversion_run.log 2>/dev/null
-# Check if process still running
+tail -8 "$LOG_FILE" 2>/dev/null | grep -v "^  File\|urllib\|http\|socket\|Timeout\|result ="
+
 if ps aux | grep -q "[c]onvert_descriptive"; then
-    echo "✅ Process running"
+    echo "✅ Process RUNNING"
 else
-    echo "🏁 Process finished"
+    echo "🏁 Process NOT running"
 fi
