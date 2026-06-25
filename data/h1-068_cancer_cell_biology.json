@@ -267,6 +267,513 @@
       ],
       "reference": "EVASION OF THE IMMUNE SYSTEM BY CANCERS: \"These include downregulation of cell surface proteins involved in immune recognition...expression of other cell surface proteins that inhibit immune function (including members of the B7 family of proteins such as PD-L1)...\""
     },
-    "%%MCQ%%"
+    {
+      "id": "h1-068-q1",
+      "type": "mcq",
+      "subtopic": "Definitions",
+      "question": "A malignant tumor arising from epithelial tissue is correctly termed a:",
+      "options": [
+        "Sarcoma",
+        "Carcinoma",
+        "Leukemia",
+        "Lymphoma"
+      ],
+      "correctOption": 1,
+      "explanation": "Cancers are named by tissue of origin: epithelial → carcinoma, mesenchymal → sarcoma, and hematopoietic → leukemia/lymphoma/plasma cell dyscrasias.",
+      "reference": "CANCER CELL BIOLOGY: \"those derived from epithelial tissue are called carcinomas, those derived from mesenchymal tissues are sarcomas...\""
+    },
+    {
+      "id": "h1-068-q2",
+      "type": "mcq",
+      "subtopic": "Oncogenes/Suppressors",
+      "question": "p53 and Rb are best classified as:",
+      "options": [
+        "Oncogenes activated by mutation",
+        "Tumor-suppressor genes that normally inhibit cancer growth",
+        "Growth factor receptors",
+        "DNA polymerases"
+      ],
+      "correctOption": 1,
+      "explanation": "p53 and Rb are tumor-suppressor genes; when functioning normally they inhibit the development or growth of cancer, so their loss of function permits malignancy.",
+      "reference": "CELL CYCLE CHECKPOINTS: \"Critical proteins in these control processes that are frequently mutated or otherwise inactivated in cancers are called tumor-suppressor genes...Examples include p53 and Rb.\""
+    },
+    {
+      "id": "h1-068-q3",
+      "type": "mcq",
+      "subtopic": "G1/S Checkpoint",
+      "question": "Phosphorylation of the retinoblastoma protein (Rb) by cyclin-dependent kinases promotes cell-cycle progression by:",
+      "options": [
+        "Activating p53",
+        "Releasing the transcription factor E2F/DP1 to express S-phase genes",
+        "Inhibiting telomerase",
+        "Degrading mdm2"
+      ],
+      "correctOption": 1,
+      "explanation": "CDK-mediated phosphorylation inactivates Rb (the brake), which releases E2F/DP1 so genes required for S-phase progression are expressed.",
+      "reference": "CELL CYCLE CHECKPOINTS: \"Phosphorylated Rb releases the S phase-regulating transcription factor, E2F/DP1, and genes required for S-phase progression are expressed.\""
+    },
+    {
+      "id": "h1-068-q4",
+      "type": "mcq",
+      "subtopic": "p53",
+      "question": "Under normal conditions, p53 is maintained at low levels because it is bound by which protein that targets it for degradation?",
+      "options": [
+        "ATM",
+        "mdm2",
+        "p21",
+        "E2F"
+      ],
+      "correctOption": 1,
+      "explanation": "p53 is normally bound to mdm2, a ubiquitin ligase that inhibits p53 transcriptional activity and targets it for proteasomal degradation; DNA damage activates ATM, which phosphorylates mdm2 and releases p53.",
+      "reference": "CELL CYCLE CHECKPOINTS: \"Normally, p53 is bound to mdm2, a ubiquitin ligase that both inhibits p53 transcriptional activation and also targets p53 for degradation in the proteasome.\""
+    },
+    {
+      "id": "h1-068-q5",
+      "type": "mcq",
+      "subtopic": "HPV",
+      "question": "The HPV E6 and E7 oncoproteins transform epithelial cells by, respectively:",
+      "options": [
+        "Activating telomerase and RAS",
+        "Increasing p53 turnover and inhibiting Rb function",
+        "Phosphorylating Rb and degrading mdm2",
+        "Inducing aerobic glycolysis and angiogenesis"
+      ],
+      "correctOption": 1,
+      "explanation": "HPV E6 increases the rapid turnover (degradation) of p53, and E7 inhibits Rb function; inactivating both tumor suppressors is required for transformation.",
+      "reference": "CELL CYCLE CHECKPOINTS: \"E6 acts to increase the rapid turnover of p53, and E7 acts to inhibit Rb function...\""
+    },
+    {
+      "id": "h1-068-q6",
+      "type": "mcq",
+      "subtopic": "Telomerase",
+      "question": "Approximately what proportion of human cancers express high levels of telomerase to maintain telomeres and allow indefinite proliferation?",
+      "options": [
+        "Less than 10%",
+        "About 30%",
+        "About 50%",
+        "More than 90%"
+      ],
+      "correctOption": 3,
+      "explanation": "More than 90% of human cancers express high levels of telomerase, which prevents critical telomere shortening and permits indefinite proliferation.",
+      "reference": "CELLULAR SENESCENCE: \"More than 90% of human cancers express high levels of telomerase...\""
+    },
+    {
+      "id": "h1-068-q7",
+      "type": "mcq",
+      "subtopic": "Targeted Therapy",
+      "question": "Imatinib is effective against chronic myeloid leukemia because it targets which kinase generated by the Philadelphia chromosome translocation?",
+      "options": [
+        "EGFR",
+        "BRAF",
+        "BCR-Abl",
+        "JAK2"
+      ],
+      "correctOption": 2,
+      "explanation": "Imatinib targets the BCR-Abl tyrosine kinase produced by the t(9;22) translocation in CML; it also inhibits c-Kit (GIST) and PDGFRα. Resistance can arise from the T315I ATP-pocket mutation.",
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"Imatinib (which targets a number of tyrosine kinases) is an effective agent in tumors that have translocations of the c-Abl and BCR gene (such as chronic myeloid leukemia)...\""
+    },
+    {
+      "id": "h1-068-q8",
+      "type": "mcq",
+      "subtopic": "Resistance",
+      "question": "The BCR-Abl T315I mutation causes resistance to imatinib because it:",
+      "options": [
+        "Amplifies the BCR-Abl gene",
+        "Alters the ATP-binding pocket so the inhibitor cannot bind",
+        "Activates an alternate PI3K pathway",
+        "Increases drug efflux by P-glycoprotein"
+      ],
+      "correctOption": 1,
+      "explanation": "Many kinase inhibitors are competitive inhibitors of the ATP-binding pocket; the T315I (threonine-to-isoleucine) change in that pocket prevents imatinib binding. (Ponatinib retains activity against T315I.)",
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"mutation in the critical BCR-ABL kinase in the ATP-binding pocket (such as the threonine to isoleucine change at codon 315 [T315I]) can prevent imatinib binding.\""
+    },
+    {
+      "id": "h1-068-q9",
+      "type": "mcq",
+      "subtopic": "Synthetic Lethality",
+      "question": "PARP inhibitors selectively kill tumor cells with BRCA1/2 mutations through which principle?",
+      "options": [
+        "Oncogene addiction",
+        "Synthetic lethality",
+        "Replicative senescence",
+        "The Warburg effect"
+      ],
+      "correctOption": 1,
+      "explanation": "BRCA-mutant cells cannot repair DNA by homologous recombination; blocking PARP (needed for single-strand-break repair) is lethal only in combination with the BRCA defect — synthetic lethality.",
+      "reference": "CANCER-SPECIFIC GENETIC CHANGES AND SYNTHETIC LETHALITY: \"PARP inhibition results in selective killing of cancer cells that have lost BRCA1 or BRCA2 function.\""
+    },
+    {
+      "id": "h1-068-q10",
+      "type": "mcq",
+      "subtopic": "Epigenetics",
+      "question": "A common epigenetic mechanism for inactivating a tumor-suppressor gene's remaining allele is:",
+      "options": [
+        "Point mutation in the coding region",
+        "Promoter region hypermethylation",
+        "Gene amplification",
+        "Chromosomal translocation"
+      ],
+      "correctOption": 1,
+      "explanation": "Hypermethylation of DNA promoter regions epigenetically silences tumor-suppressor loci; commonly one allele is inactivated by mutation/deletion while the other is silenced by methylation.",
+      "reference": "EPIGENETIC INFLUENCES ON CANCER GENE TRANSCRIPTION: \"Hypermethylation of DNA promoter regions is a common mechanism by which tumor-suppressor loci are epigenetically silenced...\""
+    },
+    {
+      "id": "h1-068-q11",
+      "type": "mcq",
+      "subtopic": "APL / ATRA",
+      "question": "All-trans retinoic acid (ATRA) treats acute promyelocytic leukemia by overcoming a differentiation block caused by the PML-RARα fusion protein. ATRA works by:",
+      "options": [
+        "Directly killing promyelocytes via apoptosis",
+        "Releasing recruited HDAC activity and recruiting coactivators to restore differentiation",
+        "Inhibiting telomerase",
+        "Blocking VEGF signaling"
+      ],
+      "correctOption": 1,
+      "explanation": "PML-RARα recruits HDACs to retinoic-acid-response-element promoters, blocking differentiation; pharmacologic ATRA releases HDAC activity and recruits coactivators, overcoming the block — a paradigm for reversing epigenetic change.",
+      "reference": "EPIGENETIC INFLUENCES ON CANCER GENE TRANSCRIPTION: \"Treatment with pharmacologic doses of all-trans retinoic acid (ATRA)...results in the release of HDAC activity and the recruitment of coactivators, which overcome the differentiation block.\""
+    },
+    {
+      "id": "h1-068-q12",
+      "type": "mcq",
+      "subtopic": "Apoptosis",
+      "question": "Venetoclax treats CLL and AML by acting as a BH3 mimetic that inhibits which antiapoptotic protein?",
+      "options": [
+        "Caspase-8",
+        "BCL-2",
+        "p53",
+        "PARP"
+      ],
+      "correctOption": 1,
+      "explanation": "Venetoclax is an oral BH3 mimetic that inhibits BCL-2, an antiapoptotic Bcl-2-family protein overexpressed in many lymphoid malignancies, thereby promoting apoptosis.",
+      "reference": "APOPTOSIS AND OTHER MECHANISMS OF CELL DEATH: \"An oral BH3 mimetic inhibitor of BCL-2, venetoclax, is approved for use in patients with refractory CLL with 17p deletion, and is active in AML.\""
+    },
+    {
+      "id": "h1-068-q13",
+      "type": "mcq",
+      "subtopic": "Apoptosis Pathways",
+      "question": "The intrinsic (mitochondrial) apoptosis pathway is initiated by:",
+      "options": [
+        "Cross-linking of Fas (CD95) by Fas ligand",
+        "Release of cytochrome c and SMAC from mitochondria",
+        "Activation of P-glycoprotein efflux",
+        "Telomere elongation"
+      ],
+      "correctOption": 1,
+      "explanation": "The intrinsic pathway is initiated by release of cytochrome c and SMAC from the mitochondrial intermembrane space (in response to DNA damage, loss of ECM adherence, etc.), activating caspase-9. Fas cross-linking initiates the extrinsic pathway.",
+      "reference": "APOPTOSIS AND OTHER MECHANISMS OF CELL DEATH: \"The intrinsic pathway of apoptosis is initiated by the release of cytochrome c and SMAC...from the mitochondrial intermembrane space...\""
+    },
+    {
+      "id": "h1-068-q14",
+      "type": "mcq",
+      "subtopic": "Tumor Kinetics",
+      "question": "By the time a patient presents with cancer, the tumor's growth fraction is estimated to be approximately:",
+      "options": [
+        "100%",
+        "50%",
+        "<5%",
+        "0%"
+      ],
+      "correctOption": 2,
+      "explanation": "Human tumors grow by Gompertzian kinetics; the growth fraction is 100% for the first malignant cell but declines to an estimated <5% by the time a patient presents — similar to normal marrow and gut epithelium.",
+      "reference": "DIFFERENCES BETWEEN PEDIATRIC AND ADULT CANCERS: \"by the time a patient presents for medical care, the growth fraction is estimated to be <5%...\""
+    },
+    {
+      "id": "h1-068-q15",
+      "type": "mcq",
+      "subtopic": "Metastasis",
+      "question": "The form of apoptosis induced when a cell loses contact with the extracellular matrix, which metastasizing cells must suppress, is termed:",
+      "options": [
+        "Pyroptosis",
+        "Anoikis",
+        "Ferroptosis",
+        "Necroptosis"
+      ],
+      "correctOption": 1,
+      "explanation": "Anoikis is apoptosis induced by loss of ECM contact; cells that metastasize must suppress anoikis to survive after detaching and traveling to distant sites.",
+      "reference": "METASTASIS: \"Cells that lose contact with the ECM normally undergo programmed cell death (anoikis-apoptosis induced by the loss of contact), and this process has to be suppressed in cells that metastasize.\""
+    },
+    {
+      "id": "h1-068-q16",
+      "type": "mcq",
+      "subtopic": "Bone Metastasis",
+      "question": "Denosumab limits bone destruction from metastases by inhibiting:",
+      "options": [
+        "VEGF",
+        "RANK ligand (RANKL)",
+        "PARP",
+        "HER2"
+      ],
+      "correctOption": 1,
+      "explanation": "Denosumab is an antibody against RANKL, blocking RANK activation of osteoclasts and thus preventing further osteoclast-mediated bone destruction; bisphosphonates similarly inhibit osteoclasts.",
+      "reference": "METASTASIS: \"Inhibition of RANKL by an antibody (denosumab) can prevent further bone destruction.\""
+    },
+    {
+      "id": "h1-068-q17",
+      "type": "mcq",
+      "subtopic": "Metabolism",
+      "question": "The increased glucose uptake that characterizes cancer cells (the Warburg effect) is clinically exploited by which imaging technique?",
+      "options": [
+        "Bone scintigraphy",
+        "FDG-PET scanning",
+        "Doppler ultrasonography",
+        "Plain radiography"
+      ],
+      "correctOption": 1,
+      "explanation": "Aerobic glycolysis increases glucose uptake by cancer cells, which is the basis for fluorodeoxyglucose (FDG)-PET scanning to detect tumors.",
+      "reference": "CANCER METABOLISM: \"a fact utilized in fluorodeoxyglucose (FDG)-positron emission tomography (PET) scanning to detect tumors.\""
+    },
+    {
+      "id": "h1-068-q18",
+      "type": "mcq",
+      "subtopic": "Angiogenesis",
+      "question": "Which transcription factors are central to the angiogenic response, stimulating VEGF transcription especially under hypoxia?",
+      "options": [
+        "NF-κB",
+        "Hypoxia-inducible factors (HIF-1 and HIF-2)",
+        "E2F/DP1",
+        "PML-RARα"
+      ],
+      "correctOption": 1,
+      "explanation": "Hypoxia-inducible factors (especially HIF-1 and HIF-2) stimulate transcription of hypoxia-responsive genes including VEGF and VEGF receptors; HIF-2 has the larger angiogenic role. VHL loss (e.g., in RCC) stabilizes HIF.",
+      "reference": "MECHANISMS OF TUMOR VESSEL FORMATION: \"Central to the angiogenic response are hypoxia-inducible factors (HIFs; especially 1 and 2)...\""
+    },
+    {
+      "id": "h1-068-q19",
+      "type": "mcq",
+      "subtopic": "Antiangiogenic Therapy",
+      "question": "What is the most common side effect of inhibitors of VEGF or its receptors?",
+      "options": [
+        "Hypertension",
+        "Hypoglycemia",
+        "Hypothyroidism",
+        "Hyperkalemia"
+      ],
+      "correctOption": 0,
+      "explanation": "Hypertension is the most common side effect of VEGF (or VEGFR) inhibitors and can usually be managed with antihypertensives; rarer serious risks include arterial thromboembolism, hemorrhage, bowel perforation, and impaired wound healing.",
+      "reference": "ANTIANGIOGENIC THERAPY: \"Hypertension is the most common side effect of inhibitors of VEGF (or its receptors)...\""
+    },
+    {
+      "id": "h1-068-q20",
+      "type": "mcq",
+      "subtopic": "Immunotherapy",
+      "question": "Tumor characteristics associated with a better response to immune checkpoint inhibitors include:",
+      "options": [
+        "Low tumor mutational burden and microsatellite stability",
+        "High tumor mutational burden and microsatellite instability (MSI-high)",
+        "Absence of tumor-infiltrating lymphocytes",
+        "Downregulated neoantigen expression"
+      ],
+      "correctOption": 1,
+      "explanation": "High tumor mutational burden and microsatellite instability (with increased neoantigens), along with PD-L1 expression and tumor-infiltrating lymphocyte density, are associated with better responses to checkpoint inhibitors; MSI-stable pancreatic and colon cancers respond poorly.",
+      "reference": "EVASION OF THE IMMUNE SYSTEM BY CANCERS: \"These include the number of mutations present in the tumor (tumor mutational burden), presence of increased neoantigens, expression of immune checkpoint proteins...density of tumor-infiltrating lymphocytes...\""
+    },
+    {
+      "id": "h1-068-tf1",
+      "type": "true_false",
+      "subtopic": "Clonality",
+      "statement": "The vast majority of cancers begin in a single cell and are therefore monoclonal in origin.",
+      "correctAnswer": true,
+      "explanation": "True — cancers arise from genetic alterations that the vast majority of the time begin in a single cell (monoclonal origin), though they become markedly heterogeneous over time.",
+      "reference": "CANCER CELL BIOLOGY: \"the vast majority of which begin in a single cell and therefore are monoclonal in origin.\""
+    },
+    {
+      "id": "h1-068-tf2",
+      "type": "true_false",
+      "subtopic": "Cell Cycle",
+      "statement": "Nearly every cancer has one or more defects in the G1 checkpoint.",
+      "correctAnswer": true,
+      "explanation": "True — nearly every cancer has G1-checkpoint defects that permit progression to S phase despite DNA-repair abnormalities or other deficiencies.",
+      "reference": "CELL CYCLE CHECKPOINTS: \"Nearly every cancer has one or more defects in the G1 checkpoint...\""
+    },
+    {
+      "id": "h1-068-tf3",
+      "type": "true_false",
+      "subtopic": "Genomic Instability",
+      "statement": "Tumors typically have both chromosomal-number defects (aneuploidy) and defective DNA-repair pathways simultaneously.",
+      "correctAnswer": false,
+      "explanation": "False — in general, tumors have either defects in chromosome number (chromosomal instability) OR defective DNA repair pathways, but not both.",
+      "reference": "CELL CYCLE CHECKPOINTS: \"In general, tumors have either defects in chromosome number or defective DNA repair pathways but not both.\""
+    },
+    {
+      "id": "h1-068-tf4",
+      "type": "true_false",
+      "subtopic": "Telomerase",
+      "statement": "Most normal somatic cells express enough telomerase to prevent telomere shortening with each division.",
+      "correctAnswer": false,
+      "explanation": "False — most normal somatic cells do NOT express sufficient telomerase to prevent telomere attrition; exceptions are stem cells (hematopoietic, gut/skin epithelium, germ cells). More than 90% of cancers reactivate telomerase.",
+      "reference": "CELLULAR SENESCENCE: \"Most normal somatic cells do not express sufficient telomerase to prevent telomere attrition with each cell division.\""
+    },
+    {
+      "id": "h1-068-tf5",
+      "type": "true_false",
+      "subtopic": "Targeted Therapy",
+      "statement": "Targeted kinase inhibitors have proven curative by themselves for several advanced malignancies.",
+      "correctAnswer": false,
+      "explanation": "False — none of these targeted therapies has yet been curative by itself for any malignancy, although prolonged disease control occurs (e.g., >80% 10-year survival in CML), and resistance ultimately develops in most patients.",
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"none of these targeted therapies has yet been curative by themselves for any malignancy...\""
+    },
+    {
+      "id": "h1-068-tf6",
+      "type": "true_false",
+      "subtopic": "RAS",
+      "statement": "Mutations in the ras family (especially KRAS) are the most common oncogene mutations in cancers but have been difficult drug targets.",
+      "correctAnswer": true,
+      "explanation": "True — ras mutations (especially kras) are the most common oncogene mutations and have been very difficult targets; agents against KRAS G12C are now approved for some lung cancers.",
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"Mutations in ras are the most common mutations in oncogenes in cancers (especially kras) but have proved to be very difficult targets...\""
+    },
+    {
+      "id": "h1-068-tf7",
+      "type": "true_false",
+      "subtopic": "Epigenetics",
+      "statement": "Unlike DNA mutations, epigenetic changes are potentially reversible and amenable to therapeutic intervention.",
+      "correctAnswer": true,
+      "explanation": "True — unlike genetic events that alter DNA primary structure, epigenetic changes are potentially reversible and appear amenable to therapy (e.g., HDAC inhibitors, demethylating agents).",
+      "reference": "EPIGENETIC INFLUENCES ON CANCER GENE TRANSCRIPTION: \"Unlike genetic events that alter DNA primary structure (e.g., deletions), epigenetic changes are potentially reversible and appear amenable to therapeutic intervention.\""
+    },
+    {
+      "id": "h1-068-tf8",
+      "type": "true_false",
+      "subtopic": "Apoptosis",
+      "statement": "Overexpression of Bcl-2 from the t(14;18) translocation contributes to follicular lymphoma by blocking apoptosis.",
+      "correctAnswer": true,
+      "explanation": "True — Bcl-2 overexpression from t(14;18) is antiapoptotic and contributes to follicular lymphoma; this dependence also makes such tumors vulnerable to BH3-mimetics like venetoclax.",
+      "reference": "APOPTOSIS AND OTHER MECHANISMS OF CELL DEATH: \"overexpression of Bcl-2 as a result of the t(14;18) translocation contributes to follicular lymphoma...\""
+    },
+    {
+      "id": "h1-068-tf9",
+      "type": "true_false",
+      "subtopic": "Cancer Stem Cells",
+      "statement": "Only a small proportion of the cells within a tumor are capable of initiating colonies or forming tumors efficiently when transplanted.",
+      "correctAnswer": true,
+      "explanation": "True — only a small proportion of tumor cells (e.g., <1% in AML/CML) have stem-cell-like properties of self-renewal and efficient tumor initiation, and their slow cycling and drug-efflux pumps make them resistant to therapy.",
+      "reference": "CANCER STEM CELLS: \"only a small proportion of the cells within a tumor are capable of initiating colonies in vitro or forming tumors at high efficiency when injected into immunocompromised NOD/SCID mice.\""
+    },
+    {
+      "id": "h1-068-tf10",
+      "type": "true_false",
+      "subtopic": "Liquid Biopsy",
+      "statement": "Circulating tumor DNA can be analyzed from blood to identify targetable mutations and monitor therapy noninvasively.",
+      "correctAnswer": true,
+      "explanation": "True — as cancers grow, dying cells release DNA into the circulation; sensitive methods detect mutations in this circulating tumor DNA, offering a noninvasive way to identify targets, monitor response, and detect resistance or recurrence.",
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"An alternative approach to testing samples directly from tumors is to test blood for the presence of mutations or amplification in circulating tumor DNA, which has the significant advantage of being noninvasive.\""
+    },
+    {
+      "id": "h1-068-tf11",
+      "type": "true_false",
+      "subtopic": "Tumor Vasculature",
+      "statement": "Tumor blood vessels are typically normal in architecture with intact basement membranes and pericyte coverage.",
+      "correctAnswer": false,
+      "explanation": "False — tumor vessels are abnormal: tortuous, dilated, excessively branched, highly permeable, with discontinuous/absent basement membrane and deficient pericytes, producing chaotic flow, hypoxia, and high interstitial pressure that impairs drug delivery.",
+      "reference": "MECHANISMS OF TUMOR VESSEL FORMATION: \"Tumor blood vessels are not normal; they have chaotic architecture and blood flow.\""
+    },
+    {
+      "id": "h1-068-tf12",
+      "type": "true_false",
+      "subtopic": "Immunotherapy",
+      "statement": "Immunosuppressed individuals (e.g., transplant recipients, people with HIV) have an increased risk of developing cancer.",
+      "correctAnswer": true,
+      "explanation": "True — increased cancer risk in significantly immunosuppressed individuals (inherited immune defects, transplant immunosuppression, HIV) exemplifies the immune system's critical role in preventing cancer development.",
+      "reference": "EVASION OF THE IMMUNE SYSTEM BY CANCERS: \"This is exemplified by the increased risk for cancer development in individuals who are significantly immunosuppressed...\""
+    },
+    {
+      "id": "h1-068-ar1",
+      "type": "assertion_reason",
+      "subtopic": "p53",
+      "assertion": "Loss of normal p53 function leaves a cell unprotected against DNA-damaging agents and activated oncogenes.",
+      "reason": "p53 can arrest the cell cycle, direct repair, or trigger apoptosis when DNA damage is sensed.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: because p53 normally arrests the cycle/repairs DNA/triggers apoptosis after damage, losing it removes that protection and permits accumulation of DNA damage.",
+      "reference": "CELL CYCLE CHECKPOINTS: \"p53 then stops cell cycle progression, directs the synthesis of repair enzymes, or if the damage is too great, initiates apoptosis...\""
+    },
+    {
+      "id": "h1-068-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Synthetic Lethality",
+      "assertion": "PARP inhibitors are selectively lethal to BRCA1/2-mutant cancer cells.",
+      "reason": "BRCA-mutant cells cannot repair DNA by homologous recombination, so they become dependent on PARP-mediated single-strand-break repair.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: the loss of homologous recombination makes BRCA-mutant cells reliant on PARP, so PARP inhibition is synthetically lethal in those cells.",
+      "reference": "CANCER-SPECIFIC GENETIC CHANGES AND SYNTHETIC LETHALITY: \"cells with mutations in the BRCA1 or BRCA2 tumor-suppressor genes...are unable to repair DNA damage by homologous recombination.\""
+    },
+    {
+      "id": "h1-068-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Tumor Kinetics",
+      "assertion": "If all malignant cells were dividing without cell death, most patients would reach a lethal tumor burden very quickly.",
+      "reason": "Human tumors grow exponentially, with every daughter cell continuing to divide.",
+      "correctOption": 2,
+      "explanation": "The assertion is true (the hypothetical follows from continuous division), but the reason is false — human tumors grow by Gompertzian, not exponential, kinetics, so not every daughter cell keeps dividing and the growth fraction declines. True assertion + false reason = option 2.",
+      "reference": "DIFFERENCES BETWEEN PEDIATRIC AND ADULT CANCERS: \"human tumors grow by Gompertzian kinetics—this means that not every daughter cell produced by a cell division is actively dividing.\""
+    },
+    {
+      "id": "h1-068-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Targeted Therapy",
+      "assertion": "Combined inhibition of BRAF and MEK is generally more effective than BRAF inhibition alone in BRAF-mutant melanoma.",
+      "reason": "MEK lies downstream of BRAF in the same signaling pathway, so blocking both more completely suppresses the pathway.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: because MEK is downstream of BRAF in the RAS-RAF-MEK-ERK pathway, dual inhibition suppresses signaling more completely than BRAF inhibition alone.",
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"combined inhibition of BRAF and MEK is more effective than either alone with activity that extends to BRAF-mutant lung cancer.\""
+    },
+    {
+      "id": "h1-068-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Cancer Stem Cells",
+      "assertion": "Cancer stem cells are relatively resistant to standard chemotherapy and radiation.",
+      "reason": "Cancer stem cells traverse the cell cycle slowly and express high levels of antiapoptotic Bcl-2-family members and drug-efflux pumps.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: slow cycling plus high antiapoptotic and drug-efflux activity make cancer stem cells less vulnerable to therapies that target dividing cells.",
+      "reference": "CANCER STEM CELLS: \"Slow cell cycle progression and high levels of expression of antiapoptotic Bcl-2 family members and drug efflux pumps of the MDR family render cancer stem cells less vulnerable to cancer chemotherapy or radiation therapy.\""
+    },
+    {
+      "id": "h1-068-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Metabolism",
+      "assertion": "Cancer cells often rely on aerobic glycolysis even though it generates less ATP per glucose than oxidative phosphorylation.",
+      "reason": "Aerobic glycolysis better supplies the biosynthetic building blocks needed to produce new cells.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: despite being less ATP-efficient, the Warburg effect provides building blocks for rapid proliferation, which is why proliferating cancer cells favor it.",
+      "reference": "CANCER METABOLISM: \"whereas normal cells utilize oxidative phosphorylation in mitochondria...a much more efficient process for generating ATP...but one that does not produce the same level of building blocks needed for new cells.\""
+    },
+    {
+      "id": "h1-068-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Tumor Vasculature",
+      "assertion": "High interstitial pressure within tumors can interfere with delivery of therapeutics.",
+      "reason": "Tumor vessels are highly permeable with widened junctions and absent basement membrane, and tumors lack functional lymphatics.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: leaky vessels plus absent intratumoral lymphatics raise interstitial pressure, which impedes drug delivery into the tumor.",
+      "reference": "MECHANISMS OF TUMOR VESSEL FORMATION: \"together with lack of functional intratumoral lymphatics, causes increased interstitial pressure within the tumor (which also interferes with the delivery of therapeutics to the tumor...\""
+    },
+    {
+      "id": "h1-068-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Antiangiogenic Therapy",
+      "assertion": "A single antiangiogenic strategy is likely to suffice for all human cancers.",
+      "reason": "All tumors activate the angiogenic switch using an identical molecular mechanism.",
+      "correctOption": 4,
+      "explanation": "Both statements are false. Different tumors use distinct combinations of molecular mechanisms to activate angiogenesis, so it is doubtful a single antiangiogenic strategy will suffice for all cancers. Both false = option 4.",
+      "reference": "ANTIANGIOGENIC THERAPY: \"Therefore, it is doubtful that a single antiangiogenic strategy will suffice for all human cancers...\""
+    },
+    {
+      "id": "h1-068-ar9",
+      "type": "assertion_reason",
+      "subtopic": "Immune Evasion",
+      "assertion": "Downregulation of MHC molecules helps cancer cells evade the immune system.",
+      "reason": "Reduced MHC expression impairs presentation of tumor antigens to T cells.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: by downregulating MHC (and tumor antigens), cancer cells reduce antigen presentation and escape T-cell recognition.",
+      "reference": "TABLE 77-1 (Evasion of the immune system): \"Downregulation of MHC class I and II molecules; induction of T-cell tolerance...\""
+    },
+    {
+      "id": "h1-068-ar10",
+      "type": "assertion_reason",
+      "subtopic": "CAR-T",
+      "assertion": "Antigen-negative escape is a recognized mechanism of resistance to CAR-T therapy.",
+      "reason": "Tumor cells that lose expression of the single targeted antigen can outgrow after CAR-T treatment.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: the most common CAR-T resistance mechanism is outgrowth of tumor cells no longer expressing the targeted antigen, prompting strategies that target multiple antigens.",
+      "reference": "EVASION OF THE IMMUNE SYSTEM BY CANCERS: \"mechanisms of resistance have developed, most commonly the outgrowth of tumor cells no longer expressing the antigen.\""
+    }
   ]
 }
