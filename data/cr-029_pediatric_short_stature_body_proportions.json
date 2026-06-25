@@ -283,7 +283,12 @@
       "type": "mcq",
       "subtopic": "Calculation",
       "stem": "A 4-year-old girl has a lower segment of 45 cm and total height of 95 cm. What is her upper-to-lower segment ratio?",
-      "options": ["0.9", "1.1", "1.2", "1.4"],
+      "options": [
+        "0.9",
+        "1.1",
+        "1.2",
+        "1.4"
+      ],
       "correctOption": 1,
       "explanation": "Upper segment = 95 − 45 = 50 cm. U:L = 50/45 = 1.11 ≈ 1.1, which is normal for a 4-year-old — indicating proportionate short stature."
     },
@@ -427,6 +432,54 @@
       "reason": "Disproportionate limb shortening localizes pathology to bone and cartilage (skeletal dysplasia), which is not diagnosed or treated by GH stimulation testing.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason correctly explains the assertion. Segment disproportion signals skeletal dysplasia, so skeletal survey and genetics — not GH stimulation — are the appropriate first diagnostic steps."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the upper:lower (U:L) ratio for a 4-year-old girl with a total height of 95 cm and lower segment of 45 cm?",
+      "options": [
+        "A) 0.9",
+        "B) 1.1",
+        "C) 1.3",
+        "D) 1.5"
+      ],
+      "correctOption": 1,
+      "explanation": "Upper segment = 95 − 45 = 50 cm. U:L ratio = 50 ÷ 45 ≈ 1.1. For a 4-year-old, a ratio of ~1.1 is normal (declining from ~1.3 at age 3 to ~1.0 by age 7–10), indicating proportionate growth.",
+      "id": "cr-029-how1-obj-3eb42f",
+      "subtopic": "Anthropometry",
+      "_generatedFrom": "cr-029-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on calculating the U:L ratio for a 4-year-old girl. The original answer explains the calculation steps and the normal range.\n\nFirst, I need to determine the best question type. The calculation involves specific steps, so MCQ seems suitable. The options should include the correct answer and plausible distractors. The correct answer is 1.1, so I need three other ratios that are close but incorrect. Maybe 0.9, 1.3, and 1.5. These are near the correct value but not accurate for a 4-year-old.\n\nThe stem should ask for the U:L ratio. The explanation needs to mention the calculation steps and the normal range. Also, the key points from the original answer should be covered in the explanation. Let me check the age-related ratio: the ratio declines from 1.3 at 3 to 1.0 by 7-10. So 1.1 is normal for 4 years. That's important for the explanation.\n\nMake sure the options are in the same units and format. The correct option is 1.1. Distractors should be common mistakes, like reversing the ratio (45/50=0.9), using the wrong age reference (1.3), or adding instead of dividing (50+45=95, but that's not a ratio). Wait, no, adding wouldn't give a ratio. Maybe 1.5 is another possible mistake. Alternatively, someone might miscalculate 50/45 as 1.11 but round it to 1.1, which is correct. So the options should be 0.9, 1.1, 1.3, 1.5. That makes sense.\n\nNow, structure the JSON. The stem is the question, options are the four ratios, correctOption is 1 (since the options are 0:0.9, 1:1.1, 2:1.3, 3:1.5). Explanation should mention the calculation and the normal range for age. That's covered in the original answer. Need to keep it brief but accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is GH stimulation testing inappropriate as the first step in a child presenting with rhizomelic shortening, frontal bossing, and an upper-to-lower limb ratio of 1.6?",
+      "options": [
+        "A) The clinical findings are characteristic of achondroplasia, a FGFR3-related skeletal dysplasia, not growth hormone deficiency",
+        "B) GH stimulation testing is the gold standard for diagnosing growth hormone deficiency in children with short stature",
+        "C) The U:L ratio is normal in achondroplasia and only elevated in GH deficiency",
+        "D) Skeletal survey and FGFR3 genetic testing are unnecessary and delay diagnosis"
+      ],
+      "correctOption": 0,
+      "explanation": "Rhizomelic shortening, frontal bossing, and elevated U:L ratio are pathognomonic for achondroplasia (a FGFR3-related skeletal dysplasia), not growth hormone deficiency. GH deficiency presents with proportionate short stature, not rhizomelic limb shortening or craniofacial dysmorphism. GH stimulation testing would be inappropriate here, as it would delay the correct diagnosis and expose the child to unnecessary testing.",
+      "id": "cr-029-why2-obj-089c17",
+      "subtopic": "Disproportionate",
+      "_generatedFrom": "cr-029-why2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why GH stimulation testing is not the right first step in a child with specific physical findings.\n\nFirst, I need to determine the best question type. The answer explains that the clinical features point to achondroplasia, not GHD. This seems like a classic case for an MCQ because it's asking for the correct reason among several options. The key points are the clinical phenotype, the difference between GHD and achondroplasia, and the correct diagnostic steps.\n\nNext, I'll structure the MCQ. The stem should ask why GH testing is wrong. The options need to be plausible but incorrect except for the correct one. The correct answer is that the features are classic for achondroplasia. The other options might include things like GHD being the cause, or that GH testing is the first step, which are incorrect.\n\nI need to make sure the explanation in the JSON is brief and accurate, highlighting the key points from the original answer. Also, checking that the options are distractors that are clinically plausible but wrong. For example, one might say that GH testing is necessary for confirmation, but that's not the case here.\n\nFinally, ensuring that the JSON is correctly formatted with the right keys and values. The correctOption should point to the first option (index 0) as the correct one. The explanation should mention the clinical features pointing to achondroplasia and the incorrectness of GH testing in this scenario."
+    },
+    {
+      "type": "mcq",
+      "stem": "When upper limb (U:L) measurement is unreliable due to difficulty in locating the pubic symphysis, which of the following is a practical alternative to assess limb and trunk proportions?",
+      "options": [
+        "A) Measuring arm span-to-height ratio with arms abducted 90° against a wall",
+        "B) Using knee height to estimate leg length",
+        "C) Calculating sitting height as a percentage of total height",
+        "D) Employing radiographic imaging of the limbs"
+      ],
+      "correctOption": 0,
+      "explanation": "Arm span-to-height ratio is a reproducible alternative when pubic symphysis localization is uncertain (e.g., obesity, inexperience, poor cooperation). A span >5 cm below height suggests short limbs (elevated U:L pattern), while span >5 cm above height suggests short trunk or limb elongation (low U:L pattern).",
+      "id": "cr-029-how2-obj-8fc62b",
+      "subtopic": "Workup",
+      "_generatedFrom": "cr-029-how2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A about the arm span-to-height ratio. The main point is how this ratio helps when U:L measurement is unreliable.\n\nFirst, I need to determine the question type. The information given is about a specific clinical scenario where the arm span-to-height ratio is used as a surrogate. The options would need to be plausible but incorrect. Since the answer involves specific thresholds and interpretations, an MCQ seems appropriate.\n\nThe stem should ask about the use of the arm span-to-height ratio when U:L is unreliable. The options should include the correct answer and distractors. The correct answer is that it's a practical surrogate when pubic symphysis localization is uncertain. Distractors might include other scenarios where it's not applicable, like when the patient is a child or when the ratio is used for different purposes.\n\nI need to ensure the explanation in the JSON is concise, mentioning the key points about the 5 cm threshold and reproducibility. Also, checking that the correct option is clearly the best choice and that the distractors are not correct. Making sure the JSON structure is valid with proper syntax and no markdown."
     }
   ]
 }

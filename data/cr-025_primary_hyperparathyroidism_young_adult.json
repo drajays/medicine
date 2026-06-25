@@ -8,8 +8,14 @@
   "authors": "Endocrine fellowship training module — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "cr-010", "title": "Refractory PTH-Independent Hypercalcemia in Metastatic Breast Cancer" },
-    { "id": "pe-cr-011", "title": "Multiple Endocrine Neoplasia" }
+    {
+      "id": "cr-010",
+      "title": "Refractory PTH-Independent Hypercalcemia in Metastatic Breast Cancer"
+    },
+    {
+      "id": "pe-cr-011",
+      "title": "Multiple Endocrine Neoplasia"
+    }
   ],
   "patient": {
     "age": 30,
@@ -401,6 +407,86 @@
       "reason": "Localisation imaging reliably distinguishes a single adenoma from four-gland hyperplasia before surgery.",
       "correctOption": 4,
       "explanation": "Both statements are false. PHPT is a biochemical diagnosis (raised calcium with non-suppressed PTH); imaging is for surgical localisation only and never makes the diagnosis. Imaging is also imperfect at distinguishing adenoma from hyperplasia — it can miss additional glands and make multigland disease look like a single lesion. Both false = option 4."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is the urinary calcium/Cr clearance ratio essential before referring a patient for surgery?",
+      "options": [
+        "A) To differentiate PHPT from FHH, as a ratio <0.01 suggests FHH (incurable with surgery) while >0.02 supports PHPT (surgery indicated)",
+        "B) To assess kidney function, as low urinary calcium indicates renal impairment",
+        "C) To confirm the presence of hypercalcemia, as serum calcium alone is unreliable",
+        "D) To measure PTH levels, as they are elevated in PHPT but not in FHH"
+      ],
+      "correctOption": 0,
+      "explanation": "The ratio distinguishes PHPT (surgery indicated) from FHH (CASR defect, surgery not curative) based on urinary calcium excretion, with cutoffs of <0.01 and >0.02 respectively.",
+      "id": "cr-025-why1-obj-3b98a3",
+      "subtopic": "Diagnosis",
+      "_generatedFrom": "cr-025-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about the importance of the urinary calcium/Cr clearance ratio before surgery for PHPT versus FHH.\n\nFirst, I need to determine the best question type. The answer explains a cause-effect relationship between the calcium/Cr ratio and the differential diagnosis. So assertion_reason might be suitable here. But looking at the options, the original answer is a detailed explanation, which might be better as an MCQ with options that test the understanding of the ratio's role.\n\nWait, the original answer mentions specific cutoffs (<0.01 and >0.02) and the implications for FHH vs PHPT. An MCQ could present the scenario and ask which statement is correct, with options that include the correct cutoff and the conditions they indicate. Alternatively, a true/false might not capture the nuances here.\n\nBut the original answer is a detailed explanation, so maybe an MCQ where the stem is asking why the ratio is essential, and the options include the correct reason (differentiating PHPT from FHH) and plausible distractors like other conditions or incorrect cutoffs. The correct option would be the one that correctly links the ratio to the differential diagnosis.\n\nI need to ensure the options are plausible but clearly wrong. For example, distractors could mention other conditions like hyperparathyroidism variants, or incorrect cutoffs. The explanation should briefly state that the ratio helps differentiate between PHPT and FHH based on urinary calcium excretion.\n\nSo the MCQ stem would be: \"Why is the urinary calcium/Cr clearance ratio essential before referring a patient for surgery?\" The options would include the correct answer about differentiating PHPT from FHH, and other options that might mention incorrect cutoffs or unrelated reasons.\n\nI need to make sure the correctOption is set to 0 (the first option) if the correct answer is the first one. The explanation should be concise, mentioning that the ratio helps distinguish between the two conditions based on the calcium excretion levels."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the most appropriate approach to genetic testing in a 30-year-old patient with non-localising imaging findings suggestive of an endocrine tumour?",
+      "options": [
+        "A) Order a targeted next-generation sequencing endocrine-tumour panel first with genetic counselling, as age ≤40 alone justifies testing regardless of family history, and reserve whole-exome sequencing for cases with negative panels but persistent high suspicion",
+        "B) Perform whole-exome sequencing immediately due to the patient's young age and non-localising imaging",
+        "C) Avoid genetic testing entirely unless there is a clear family history of multiple endocrine neoplasia syndromes",
+        "D) Use a broad cancer gene panel without specific endocrine-related genes, as targeted panels may miss rare variants"
+      ],
+      "correctOption": 0,
+      "explanation": "Age ≤40 alone justifies targeted endocrine-tumour panel testing regardless of family history. Whole-exome sequencing should be reserved for cases with negative panels but persistent suspicion (e.g., multigland hyperplasia, syndromic features, or atypical histology) due to limitations in detecting copy-number and non-coding variants.",
+      "id": "cr-025-how1-obj-5f4b21",
+      "subtopic": "Genetic testing",
+      "_generatedFrom": "cr-025-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about genetic testing in a 30-year-old with non-localizing imaging. The answer suggests starting with a targeted NGS panel and using whole-exome sequencing if the panel is negative but suspicion remains high.\n\nFirst, I need to determine the best question type. The answer provides specific steps and conditions, which makes it a good candidate for an MCQ. True/false might not capture the nuances, and assertion-reason could work but MCQ is more straightforward here.\n\nNext, the stem should ask about the approach to genetic testing. The options need to be plausible but clearly wrong. The correct option is the one mentioned in the answer. Distractors could include ordering whole-exome first, not considering age, or ignoring family history. \n\nI need to ensure the explanation in the JSON is brief and accurate, highlighting that age ≤40 justifies testing regardless of family history and the conditions for whole-exome sequencing. Also, mention variants of uncertain significance and missed variants as reasons for cautious interpretation.\n\nCheck that the JSON structure is correct with the right keys and values. Make sure the correctOption is 0 for the first option. Avoid any markdown and keep it strictly JSON."
+    },
+    {
+      "type": "mcq",
+      "stem": "During a four-gland exploration, if intraoperative PTH (ioPTH) fails to decrease by >50% after removal of an enlarged parathyroid gland, which anatomical locations are most likely to harbor a missing supernumerary or ectopic parathyroid gland?",
+      "options": [
+        "A: Thymus/anterior mediastinum; tracheoesophageal groove/retroesophageal space; intrathyroidal; carotid sheath near hyoid",
+        "B: Liver; spleen; adrenal glands; pelvic retroperitoneum",
+        "C: Brain; spinal cord; renal parenchyma; testes",
+        "D: Lungs; pleural cavity; pericardium; diaphragm"
+      ],
+      "correctOption": 0,
+      "explanation": "Failure of ioPTH to decrease by >50% indicates residual hyperfunctioning tissue, commonly found in thymic parathyroid rests, tracheoesophageal groove, intrathyroidal locations, or the carotid sheath near the hyoid.",
+      "id": "cr-025-sa1-obj-dc2d8d",
+      "subtopic": "Surgical anatomy",
+      "_generatedFrom": "cr-025-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about identifying the most likely sites of a missing supernumerary or ectopic parathyroid gland when ioPTH doesn't drop by 50% after a four-gland exploration.\n\nFirst, I need to determine the question type. The answer lists specific anatomical locations, so an MCQ seems appropriate. The options should include the correct answer and plausible distractors. The correct answer is the thymus/anterior mediastinum, tracheo-oesophageal groove, intrathyroidal, and carotid sheath near the hyoid. Distractors might include other areas like the liver, spleen, or adrenal glands, which are not typical sites for ectopic parathyroid glands.\n\nNext, I need to structure the JSON. The stem should ask for the most likely sites. The options should be A to D, with the correct option being A. The explanation should mention the failure of ioPTH to drop indicating residual hyperfunctioning tissue. I need to ensure that the distractors are plausible but incorrect, like mentioning locations not associated with parathyroid glands. Also, check clinical accuracy to make sure the sites listed are indeed common for ectopic glands. Finally, validate the JSON structure to avoid any syntax errors."
+    },
+    {
+      "type": "mcq",
+      "stem": "A 35-year-old patient presents with hypercalcemia (serum calcium 11.5 mg/dL), inappropriately low urinary calcium excretion (24-hour urine calcium 45 mg), and elevated PTH (75 pg/mL). Which diagnosis and associated gene mutation is most likely?",
+      "options": [
+        "A) Familial hypocalciuric hypercalcemia (FHH) with CASR gene inactivation",
+        "B) Primary hyperparathyroidism with MEN1 gene mutation",
+        "C) Sarcoidosis with VDR gene polymorphism",
+        "D) Vitamin D toxicity with CYP27B1 gene mutation"
+      ],
+      "correctOption": 0,
+      "explanation": "FHH is characterized by hypercalcemia, inappropriately low urinary calcium excretion (Ca/Cr clearance ratio <0.01), and non-suppressed PTH due to CASR gene inactivation. Unlike primary hyperparathyroidism, it does not involve parathyroid adenomas and is not cured by parathyroidectomy.",
+      "id": "cr-025-sa2-obj-a898b0",
+      "subtopic": "Diagnosis",
+      "_generatedFrom": "cr-025-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a descriptive Q&A into an objective exam question in JSON format. The original question is about a hypercalcaemic patient with specific lab values and the diagnosis of Familial hypocalciuric hypercalcaemia (FHH) involving the CASR gene.\n\nFirst, I need to determine the best question type. The answer involves a specific diagnosis and gene, so an MCQ seems appropriate. The options should include FHH with CASR, other conditions with different genes, and distractors that are plausible but incorrect.\n\nThe stem should present the patient's findings clearly. The correct option is FHH with CASR. Distractors could be Primary Hyperparathyroidism (PTH would be high but urine calcium would be high, not low), Sarcoidosis (usually normal PTH), and Vitamin D toxicity (which would have high urine calcium). \n\nI need to ensure the explanation in the JSON correctly identifies why FHH is the answer, focusing on the low urinary calcium and non-suppressed PTH, and the gene involved. Also, checking that the correctOption is set to 0 for the first option. Let me structure the JSON accordingly."
+    },
+    {
+      "type": "mcq",
+      "stem": "A patient with a pathogenic RET mutation requires a life-saving step before surgery or pregnancy. Which of the following is the most critical intervention?",
+      "options": [
+        "A) Screen for phaeochromocytoma using plasma free metanephrines or 24-hour urinary fractionated metanephrines",
+        "B) Perform immediate thyroidectomy for medullary thyroid carcinoma",
+        "C) Initiate lifelong calcium supplementation",
+        "D) Conduct genetic counseling for family members"
+      ],
+      "correctOption": 0,
+      "explanation": "Undiagnosed phaeochromocytoma in multiple endocrine neoplasia type 2A can cause fatal hypertensive crisis during anesthesia or surgical stress, making preoperative screening essential.",
+      "id": "cr-025-sa3-obj-2021bc",
+      "subtopic": "Hereditary PHPT",
+      "_generatedFrom": "cr-025-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about a RET mutation and the necessary steps before surgery or pregnancy. The answer mentions screening for phaeochromocytoma and medullary thyroid carcinoma.\n\nFirst, I need to determine the question type. The answer provides a specific action (screening for phaeochromocytoma) with a clear reason (fatal hypertensive crisis). This seems like a cause-effect relationship, so assertion_reason might be suitable. However, the options in the original answer include two points, but the question is about the life-saving step. Maybe it's better as an MCQ with the main point as the correct answer and distractors.\n\nWait, the original answer lists two things: screening for phaeochromocytoma and medullary thyroid carcinoma. But the question asks for the life-saving step before surgery or pregnancy. The key here is that phaeochromocytoma screening is the immediate life-saving step, while the thyroid screening is also important but perhaps not the immediate life-saving one. So the correct answer is the phaeochromocytoma screening.\n\nSo, the MCQ options should include that as the correct answer, with distractors like other screenings or treatments. The explanation should mention the risk of hypertensive crisis under anesthesia. Let me structure the MCQ with four options, making sure the correct option is A, and the others are plausible but incorrect. The explanation should be concise, as per the rules."
     }
   ]
 }

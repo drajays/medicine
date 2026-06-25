@@ -8,9 +8,18 @@
   "authors": "Endocrine residency training module — illustrative teaching case (OCR of clinical document)",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "cr-026", "title": "Gynecomastia in an Adolescent Male" },
-    { "id": "pe-cr-008", "title": "Turner Syndrome" },
-    { "id": "cr-027", "title": "Panhypopituitarism from Hemochromatosis" }
+    {
+      "id": "cr-026",
+      "title": "Gynecomastia in an Adolescent Male"
+    },
+    {
+      "id": "pe-cr-008",
+      "title": "Turner Syndrome"
+    },
+    {
+      "id": "cr-027",
+      "title": "Panhypopituitarism from Hemochromatosis"
+    }
   ],
   "patient": {
     "age": 34,
@@ -406,6 +415,70 @@
       "reason": "Klinefelter syndrome is a lifelong multisystem disorder with increased osteoporosis, metabolic, cardiovascular, oncological, autoimmune and psychosocial risks that require structured surveillance.",
       "correctOption": 3,
       "explanation": "The assertion is false: testosterone replacement alone is insufficient. The reason is true and is exactly why — KS affects multiple systems and demands lifelong structured surveillance beyond TRT. False assertion with a true reason = option 3."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why must a trough testosterone level and haematocrit be assessed prior to shortening a patient's testosterone injection interval?",
+      "options": [
+        "A) To confirm the diagnosis of hypogonadism and monitor for polycythaemia",
+        "B) To ensure the patient is not experiencing testosterone-induced liver toxicity and to assess for anaemia",
+        "C) To determine if symptoms are due to subtherapeutic testosterone levels and to avoid exacerbating thromboembolic risk",
+        "D) To evaluate for testosterone resistance and to monitor for hyperkalaemia"
+      ],
+      "correctOption": 2,
+      "explanation": "Trough testosterone confirms whether symptoms reflect subtherapeutic levels (justifying interval shortening) or alternative causes (e.g., anaemia, depression). Haematocrit assessment is critical because testosterone stimulates erythropoiesis; a high haematocrit would increase thromboembolic risk if the interval is shortened.",
+      "id": "cr-028-why1-obj-b6ebd8",
+      "subtopic": "TRT decision-making",
+      "_generatedFrom": "cr-028-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why trough testosterone and hematocrit are checked before shortening an injection interval. The answer explains that trough levels help determine if symptoms are due to low testosterone or another cause, and hematocrit checks prevent increased thromboembolic risk.\n\nFirst, I need to decide the question type. The answer involves a cause-effect relationship between testosterone levels, hematocrit, and the decision to adjust the injection interval. So assertion_reason might be suitable. But looking at the options, maybe MCQ is better because it's about specific actions and their justifications.\n\nWait, the answer has two parts: trough testosterone and hematocrit. If I make an MCQ, the options need to cover both aspects. Let me see. The correct answer would be the one that mentions both reasons. The distractors should be plausible but wrong. For example, options might focus on only one aspect or incorrect reasons.\n\nAlternatively, true_false might not work because the statement is complex. Assertion_reason could work if the assertion is about checking both tests and the reason explains why. But the original answer has two separate points. Maybe MCQ is better here.\n\nSo, the stem should ask why both tests are checked. The options would include the correct answer (both reasons) and distractors that mention only one reason, incorrect reasons, or unrelated factors. The correct option would be the one that includes both justifications. Let me structure that."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the appropriate approach to fertility management for a 34-year-old man who has been on testosterone undecanoate since 2019?",
+      "options": [
+        "A) Refer to reproductive medicine/andrology, discuss micro-TESE with 40-70% sperm retrieval rates, and consider hCG/FSH stimulation before proceeding",
+        "B) Continue testosterone therapy with adjusted dosing and recommend intrauterine insemination (IUI)",
+        "C) Counsel on donor sperm only, as testosterone therapy precludes any natural fertility options",
+        "D) Proceed directly to in vitro fertilization (IVF) without sperm retrieval attempts"
+      ],
+      "correctOption": 0,
+      "explanation": "Testosterone suppresses residual spermatogenesis in Klinefelter syndrome (KS) men. Micro-TESE has 40-70% success rates for sperm retrieval, and hCG/FSH stimulation may improve outcomes when attempted before micro-TESE. Continuing testosterone therapy does not support spermatogenesis and is not contraception.",
+      "id": "cr-028-how1-obj-051e38",
+      "subtopic": "Fertility",
+      "_generatedFrom": "cr-028-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert a Q&A into an objective exam question for Harrison's. The original question is about approaching fertility for a 34-year-old on testosterone undecanoate since 2019. The answer discusses referring to reproductive medicine, the chances of sperm retrieval with micro-TESE, the role of hCG and FSH, and counseling options.\n\nFirst, I need to determine the best question type. The answer involves specific facts and options, so MCQ seems appropriate. The key points are the referral to andrology, micro-TESE success rates, and the need to stop TRT for sperm retrieval. The distractors should be plausible but incorrect. For example, options might suggest continuing TRT, which the answer says isn't helpful. Another could be incorrect success rates for micro-TESE. \n\nI need to ensure the correct option is clearly the best choice. The explanation should mention that testosterone suppresses spermatogenesis and the need for hCG/FSH. Also, the options should include the correct approach of stopping TRT and using hCG/FSH, while other options might suggest incorrect methods like continuing TRT or incorrect success rates. \n\nI have to make sure the JSON is valid, with the correct option index and explanation. The stem should be concise, asking about the approach to fertility in this patient. The options need to be A to D, each with a different approach. The correct answer is A, which aligns with the original answer's points. The explanation should briefly state the reasons, like the effect of testosterone on spermatogenesis and the role of hCG/FSH."
+    },
+    {
+      "type": "mcq",
+      "stem": "What gonadotropin pattern is expected in Klinefelter syndrome, and how does it differ from central hypogonadism?",
+      "options": [
+        "A) Klinefelter syndrome: high LH and FSH (especially FSH); central hypogonadism: low LH/FSH due to hypothalamic/pituitary dysfunction",
+        "B) Klinefelter syndrome: low LH and FSH; central hypogonadism: high LH/FSH due to testicular failure",
+        "C) Klinefelter syndrome: normal LH/FSH; central hypogonadism: low testosterone with high LH/FSH",
+        "D) Klinefelter syndrome: high LH/FSH; central hypogonadism: high LH/FSH due to identical pathophysiology"
+      ],
+      "correctOption": 0,
+      "explanation": "Klinefelter syndrome causes primary (hypergonadotropic) hypogonadism with elevated LH/FSH due to testicular failure. Central hypogonadism involves secondary (hypogonadotropic) hypogonadism with low LH/FSH due to hypothalamic/pituitary dysfunction.",
+      "id": "cr-028-sa1-obj-38b16c",
+      "subtopic": "Pathophysiology",
+      "_generatedFrom": "cr-028-sa1",
+      "distillation_trace": "Okay, let's tackle this question. The user wants an objective exam question based on the provided Q&A about Klinefelter syndrome and central hypogonadism. The answer explains that Klinefelter has hypergonadotropic hypogonadism with high LH and FSH, especially FSH, while central hypogonadism has low or normal LH/FSH.\n\nFirst, I need to decide the question type. The original answer compares two conditions, so maybe an MCQ would work best here. The key points are the gonadotropin patterns in both syndromes. The options should include the correct answer and plausible distractors.\n\nThe stem should ask about the expected gonadotropin pattern in Klinefelter and how it differs from central hypogonadism. The options need to reflect the correct answer (high LH/FSH in Klinefelter, low in central) and common mistakes. For example, someone might confuse the FSH levels or mix up the causes.\n\nI need to ensure the correct option is clearly the best choice. Distractors could include reversed hormone levels, or incorrect explanations. The explanation should mention the testicular defect leading to high gonadotropins and the pituitary issue in central hypogonadism.\n\nLet me structure the MCQ with four options. The correct answer is option A. Other options might have low FSH, or mix up the causes. The explanation should briefly state the reasoning as per the original answer."
+    },
+    {
+      "type": "mcq",
+      "stem": "After 2 years lost to follow-up, which single investigation is most important to obtain, and what is the leading cause of death in Klinefelter syndrome (KS) that must also be addressed?",
+      "options": [
+        "A) Testosterone level measurement; cancer",
+        "B) DXA scan; cardiovascular disease",
+        "C) Lipid panel; thromboembolic events",
+        "D) Bone marrow biopsy; metabolic syndrome"
+      ],
+      "correctOption": 1,
+      "explanation": "DXA scan is critical for detecting silent osteoporosis in KS, which worsens with testosterone deficiency. Cardiovascular disease is the leading cause of death in KS due to metabolic and thrombotic risks requiring comprehensive management.",
+      "id": "cr-028-sa2-obj-4a7041",
+      "subtopic": "Continuity of care",
+      "_generatedFrom": "cr-028-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about the most important investigation after 2 years of lost follow-up in KS (Klinefelter syndrome) and the leading cause of death.\n\nFirst, I need to identify the key points from the answer. The answer mentions a DXA scan as the key investigation due to silent osteoporosis, and cardiovascular disease as the leading cause of death. The options need to be plausible but incorrect. \n\nFor the MCQ format, the stem should ask for both the investigation and the cause of death. The correct option is DXA scan and cardiovascular disease. Distractors could include other investigations like testosterone levels or lipid panel, and causes like cancer or infections. \n\nI need to ensure that the options are realistic. For example, testosterone levels might be monitored but not the primary investigation. Lipid panel is part of metabolic risk reduction but not the main baseline test. \n\nThe explanation should highlight that DXA is crucial for osteoporosis, which is common in KS, and that CVD is the leading cause, requiring metabolic management. \n\nCheck if the options are distinct and the correct answer is clearly the best choice. Also, make sure the explanation is concise and accurate. That should cover it."
     }
   ]
 }

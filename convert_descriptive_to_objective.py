@@ -52,24 +52,53 @@ assertion_reason:
 correctOption: 0=both true R explains A | 1=both true R doesn't explain | 2=A true R false | 3=A false R true"""
 
 
-def call_ollama(prompt: str, model: str, timeout: int) -> str:
+def call_ollama(prompt: str, model: str, timeout: int) -> tuple[str, str]:
+    """Call Ollama and return (distillation_trace, response_text).
+    
+    Uses /no_think prefix for batch speed. The 'thinking' field from the
+    Ollama API response is captured as distillation_trace (Glassbox Principle).
+    When the model has no thinking output, distillation_trace is ''.
+    """
     payload = json.dumps({
         "model": model,
-        "prompt": prompt,
+        "prompt": "/no_think\n" + prompt,  # fast mode; thinking via API field below
         "system": SYSTEM_PROMPT,
         "stream": False,
-        "options": {"temperature": 0.3, "num_predict": 600, "num_ctx": 2048}
+        "options": {
+            "temperature": 0.3,
+            "num_predict": 700,
+            "num_ctx": 2048,
+        }
     }).encode()
     req = urllib.request.Request(
         OLLAMA_URL, data=payload,
         headers={"Content-Type": "application/json"}, method="POST"
     )
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read()).get("response", "").strip()
+        result = json.loads(r.read())
+    # Ollama returns thinking content in a separate 'thinking' field for
+    # models that support it (qwen3, deepseek-r1). This is the CoT trace.
+    thinking = (result.get("thinking") or "").strip()
+    response = (result.get("response") or "").strip()
+    # Fallback: also try to extract <think> tags from response text itself
+    if not thinking:
+        m = re.search(r'<think>([\s\S]*?)</think>', response, re.IGNORECASE)
+        if m:
+            thinking = m.group(1).strip()
+    return thinking, response
+
+
+
+def extract_think(text: str) -> str:
+    """Extract raw CoT reasoning from <think>...</think> block.
+    Per the Glassbox Principle, this is NEVER discarded."""
+    m = re.search(r'<think>([\s\S]*?)</think>', text, flags=re.IGNORECASE)
+    return m.group(1).strip() if m else ""
 
 
 def extract_json(text: str):
-    # Strip think blocks (deepseek / qwen thinking mode)
+    """Parse JSON from model output, stripping think blocks and markdown fences."""
+    # Strip think blocks AFTER we've already captured them separately
     text = re.sub(r'<think>[\s\S]*?</think>', '', text, flags=re.IGNORECASE).strip()
     # Strip markdown fences
     text = re.sub(r'^```[a-zA-Z]*\s*', '', text).rstrip('` \n').strip()
@@ -150,9 +179,10 @@ def process_file(filepath: str, model: str, dry_run: bool,
         print(f"  🔄 [{item['type']:11}] {orig_id[:52]} ...", end=" ", flush=True)
 
         obj = None
+        distillation_trace = ""
         for attempt in range(1, retries + 1):
             try:
-                raw = call_ollama(build_prompt(item), model, timeout)
+                distillation_trace, raw = call_ollama(build_prompt(item), model, timeout)
                 obj = extract_json(raw)
                 if obj and validate(obj):
                     break
@@ -160,12 +190,12 @@ def process_file(filepath: str, model: str, dry_run: bool,
                     if attempt < retries:
                         print(f"⚠️retry{attempt} ", end="", flush=True)
                         time.sleep(3)
-            except urllib.error.URLError as e:
+            except (urllib.error.URLError, TimeoutError, OSError, Exception) as e:
                 if attempt < retries:
                     print(f"⏱retry{attempt} ", end="", flush=True)
                     time.sleep(5)
                 else:
-                    print(f"❌ FAIL ({e})")
+                    print(f"❌ FAIL ({type(e).__name__}: {e})")
                     log_entry({"status":"error","id":orig_id,"error":str(e),"file":os.path.basename(filepath),"ts":time.time()})
                     obj = None
 
@@ -174,9 +204,10 @@ def process_file(filepath: str, model: str, dry_run: bool,
             log_entry({"status":"invalid","id":orig_id,"file":os.path.basename(filepath),"ts":time.time()})
             continue
 
-        obj["id"]             = stable_id(orig_id)
-        obj["subtopic"]       = item.get("subtopic", "")
-        obj["_generatedFrom"] = orig_id
+        obj["id"]                = stable_id(orig_id)
+        obj["subtopic"]          = item.get("subtopic", "")
+        obj["_generatedFrom"]    = orig_id
+        obj["distillation_trace"] = distillation_trace  # Glassbox Principle: raw CoT preserved
 
         new_items.append(obj)
         counter[0] += 1

@@ -8,9 +8,18 @@
   "authors": "Endocrine residency training module — illustrative teaching case (OCR of clinical document)",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "h2-074", "title": "Hypopituitarism" },
-    { "id": "h2-073", "title": "Physiology of Anterior Pituitary Hormones" },
-    { "id": "cr-028", "title": "Klinefelter Syndrome (47,XXY)" }
+    {
+      "id": "h2-074",
+      "title": "Hypopituitarism"
+    },
+    {
+      "id": "h2-073",
+      "title": "Physiology of Anterior Pituitary Hormones"
+    },
+    {
+      "id": "cr-028",
+      "title": "Klinefelter Syndrome (47,XXY)"
+    }
   ],
   "patient": {
     "age": 15,
@@ -310,6 +319,70 @@
       "reason": "Gonadotropin levels should always be interpreted against the laboratory reference range rather than against the prevailing testosterone level.",
       "correctOption": 4,
       "explanation": "Both statements are false. LH/FSH that are merely 'in range' are inappropriate when testosterone is low — the expected response to low testosterone is a rise in gonadotropins, so 'normal' values actually indicate a hypogonadotropic problem. Gonadotropins must be interpreted relative to the testosterone level, not the reference range alone. Both false = option 4."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which biochemical finding most strongly suggests central (hypogonadotropic) hypogonadism over primary hypogonadism in a boy with low testosterone?",
+      "options": [
+        "A) Elevated LH and FSH with low testosterone",
+        "B) Low LH and FSH with low testosterone",
+        "C) Normal LH and FSH with low testosterone",
+        "D) Elevated testosterone with low LH and FSH"
+      ],
+      "correctOption": 1,
+      "explanation": "In primary hypogonadism, low testosterone triggers negative feedback, causing elevated LH/FSH. Central hypogonadism shows low LH/FSH despite low testosterone, indicating a hypothalamic/pituitary defect.",
+      "id": "cr-026-why1-obj-fa5a1d",
+      "subtopic": "Hormonal interpretation",
+      "_generatedFrom": "cr-026-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about distinguishing central hypogonadism from primary based on biochemistry.\n\nFirst, I need to figure out the best question type. The answer explains that in primary hypogonadism, LH/FSH rise due to low testosterone, but here they're low-normal. That's a cause-effect relationship, so assertion-reason might work. But maybe MCQ is better since it's about specific lab findings.\n\nLooking at the answer, the key point is the inappropriate lack of LH/FSH elevation. So the question could be an MCQ asking which lab findings suggest central hypogonadism. The options would include the correct one about low LH/FSH with low testosterone, and distractors like high LH/FSH (primary), normal testosterone (e.g., in Klinefelter), or other conditions.\n\nWait, the original answer mentions testosterone is low-normal. So the correct option would be low testosterone with low LH/FSH. Distractors could be high LH/FSH (primary), low testosterone with high LH/FSH (primary), or normal testosterone with low LH/FSH (maybe hypothalamic issue but not hypogonadotropic? Or maybe another condition). Need to ensure distractors are plausible but wrong.\n\nAlternatively, a true/false might not capture the reasoning well. Assertion-reason could have the assertion as \"Low testosterone with low LH/FSH indicates central hypogonadism\" and the reason as \"Because in primary hypogonadism, LH/FSH would be elevated.\" Then correctOption would be 0. But the user's example shows MCQ as the preferred format here.\n\nSo the best approach is MCQ. The stem would ask which lab findings suggest central hypogonadism. The correct option is low testosterone with low-normal LH/FSH. Distractors: high LH/FSH (primary), low testosterone with high LH/FSH (primary), normal testosterone with low LH/FSH (maybe another cause). Explanation would mention the feedback mechanism."
+    },
+    {
+      "type": "mcq",
+      "stem": "How should the prescribed 'Testoviron 100 mg monthly' be corrected for an adolescent with suspected hypothalamic-pituitary dysfunction?",
+      "options": [
+        "A) Continue monthly Testoviron 100 mg while awaiting MRI and tumour screen",
+        "B) Initiate high-dose testosterone enanthate (100 mg IM monthly) for rapid pubertal induction",
+        "C) Withhold testosterone until MRI/tumour screen are complete, then use low-dose testosterone enanthate (50 mg IM every 2 weeks) with gradual dose escalation",
+        "D) Replace with oral testosterone (50 mg daily) to avoid iatrogenic supraphysiologic levels"
+      ],
+      "correctOption": 2,
+      "explanation": "Low-dose testosterone enanthate every 2 weeks provides more physiological hormone levels than monthly injections, while withholding definitive therapy until MRI/tumour screen excludes central pathology. High-dose or oral regimens are inappropriate for this scenario.",
+      "id": "cr-026-how1-obj-269326",
+      "subtopic": "Testosterone therapy",
+      "_generatedFrom": "cr-026-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. First, I need to determine the best question type. The original answer discusses correcting a prescription, which involves specific medical knowledge about hormone replacement therapy in adolescents with possible hypogonadotropic hypogonadism (HH). The options would need to be plausible but incorrect, so an MCQ seems appropriate here.\n\nThe stem should ask about the correction of the prescribed 'Testoviron 100 mg monthly'. The correct answer is to switch to low-dose testosterone enanthate every two weeks, as explained in the original answer. The distractors need to be other incorrect approaches. For example, continuing the monthly dose, using a higher dose, or not considering the MRI results. \n\nI need to ensure that the explanation in the JSON is brief and accurate, highlighting the rationale for the correct option. Also, the options should be labeled A, B, C, D with the correctOption index. Let me check the rules again to make sure I'm not missing anything. Distractors must be plausible but clearly wrong, and clinical accuracy is crucial. \n\nAnother point is that the original answer mentions withholding therapy until MRI and tumor screen are done, which is part of the correct approach. So one of the options should include that step. The other options might miss this step or use incorrect dosing. \n\nI think that's all. Now, structuring the JSON with the correct stem, options, correct option, and explanation."
+    },
+    {
+      "type": "mcq",
+      "stem": "A 16-year-old female presents with primary amenorrhea and normal prolactin levels. Which of the following is the most appropriate next step in evaluation?",
+      "options": [
+        "A) Perform MRI of the sella turcica and suprasellar region",
+        "B) Initiate gonadotropin-releasing hormone (GnRH) stimulation testing",
+        "C) Measure serum testosterone and SHBG levels",
+        "D) Order a pelvic ultrasound to evaluate for Müllerian anomalies"
+      ],
+      "correctOption": 0,
+      "explanation": "Normal prolactin levels do not exclude structural hypothalamic-pituitary abnormalities. MRI is indicated to evaluate for craniopharyngioma, non-functioning pituitary adenomas, infiltrative diseases, and other hypothalamic lesions that may present with central hypogonadism.",
+      "id": "cr-026-sa1-obj-6b65cc",
+      "subtopic": "Imaging",
+      "_generatedFrom": "cr-026-sa1",
+      "distillation_trace": "Okay, let's tackle this. The user wants an objective exam question based on the provided Q&A. The question is about why an MRI is indicated even when prolactin is normal.\n\nFirst, I need to determine the question type. The answer explains that normal prolactin doesn't rule out other structural issues. The options should be plausible but wrong. The main point is that other conditions can cause hypogonadism with normal prolactin.\n\nSo, MCQ seems best here. The stem should ask why MRI is indicated despite normal prolactin. The options need to cover possible reasons, with the correct one being the exclusion of other structural diseases. Distractors might include things like checking for hyperprolactinemia, which isn't the case here, or other unrelated conditions.\n\nI need to make sure the correct option is A, as per the answer. The explanation should mention the conditions listed, like craniopharyngioma, non-functioning adenoma, etc. Let me structure the JSON accordingly, ensuring the options are clear and the explanation is concise."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which tests help distinguish constitutional delay (CDGP) from permanent hypogonadotropic hypogonadism (HH), and what pattern favours HH?",
+      "options": [
+        "A) Inhibin B, AMH, and GnRH stimulation test; low inhibin B/AMH and blunted LH response favour HH",
+        "B) Testosterone, LH baseline, and bone age; high testosterone and advanced bone age favour HH",
+        "C) FSH, prolactin, and karyotype; elevated FSH and normal karyotype favour HH",
+        "D) Estradiol, progesterone, and ultrasound; low estradiol and absent uterine development favour HH"
+      ],
+      "correctOption": 0,
+      "explanation": "Inhibin B and AMH (Sertoli-cell markers) and GnRH stimulation test are key; low inhibin B/AMH and blunted LH response indicate permanent HH, while preserved levels and brisk response suggest CDGP. Follow-up is needed due to overlapping findings.",
+      "id": "cr-026-sa2-obj-cd35eb",
+      "subtopic": "CDGP vs HH",
+      "_generatedFrom": "cr-026-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A about distinguishing constitutional delay (CDGP) from permanent hypogonadotropic hypogonadism (HH). \n\nFirst, I need to determine the best question type. The answer mentions specific tests (Inhibin B, AMH, GnRH stimulation test) and their results, along with the need for follow-up. This seems like a good fit for an MCQ because it's asking for specific tests and their patterns.\n\nNext, the stem should ask which tests help distinguish CDGP from HH and what pattern favors HH. The options need to include the correct answer and plausible distractors. The correct answer includes Inhibin B, AMH, GnRH test, and the pattern of low levels and blunted LH response. Distractors might include other tests like testosterone levels or LH baseline, which aren't as specific here.\n\nI need to ensure the explanation in the JSON is brief but accurate, highlighting the key tests and the significance of the LH response. Also, the follow-up period is mentioned, but since the question focuses on tests and patterns, maybe that's part of the explanation rather than the options.\n\nWait, the original answer mentions that definitive distinction requires follow-up, but the question is about tests that help distinguish. So the follow-up is part of the explanation, not the tests themselves. The options should focus on the tests and their results.\n\nSo the correct option would be the one mentioning Inhibin B, AMH, GnRH stimulation test, and the specific pattern. Distractors could be other hormones or tests that aren't as relevant. For example, option B might mention testosterone levels, which aren't Sertoli-cell markers. Option C could mention a normal LH response, which is actually for CDGP. Option D might include a different follow-up period, but the answer says 6-12 months, so that's part of the explanation.\n\nI need to make sure the options are plausible but clearly wrong. The explanation should state that low inhibin B, low AMH, and blunted LH response favor HH. Also, the follow-up is needed due to overlap. That should be in the explanation part of the MCQ."
     }
   ]
 }

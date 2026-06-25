@@ -261,6 +261,22 @@
         "Limitation: stylised model; bundling carries false-positive/medico-legal risk.",
         "Assumptions: quantifiable thresholds, one payer, and institutional reflex/async capability."
       ]
+    },
+    {
+      "type": "mcq",
+      "stem": "Using the Stratified Parallel Diagnostics framework, which approach best restructures this patient’s workup across the three levers?",
+      "options": [
+        "A) Lever 1: Bundle Tier-1 and high-pretest-probability Tier-2 tests on Day 1; Lever 2: Frame conservative testing as protecting against incidentalomas; Lever 3: Use reflex labs and tele-consultation with asynchronous result review",
+        "B) Delay Tier-1 tests until Day 3 to reduce costs; emphasize patient education on test affordability; centralize all lab testing at a single facility",
+        "C) Perform all Tier-1 tests on Day 1; avoid Tier-2 tests to prevent anxiety; use in-person follow-up for all result discussions",
+        "D) Prioritize patient preference over clinical thresholds; use open-access testing for all ordered tests; eliminate tele-consultation to ensure in-person validation"
+      ],
+      "correctOption": 0,
+      "explanation": "Option A aligns with the framework’s three levers: velocity triaging (combining essential tests), moral-hazard education (reducing anxiety about testing), and operational decoupling (using reflex labs and tele-consultation). Other options either delay critical testing, omit key levers, or contradict the framework’s principles.",
+      "id": "story-007-sa1-obj-f4d7f0",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-007-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into an objective exam question using the Stratified Parallel Diagnostics framework. The original answer outlines three levers: Velocity triaging, Moral-hazard education, and Operational decoupling, along with communication strategies.\n\nFirst, I need to determine the best question type. The answer involves specific strategies and steps, which suggests a multiple-choice question (MCQ) would be appropriate. True/false and assertion-reason don't fit here because the content is about outlining a structured approach rather than a factual statement or cause-effect relationship.\n\nNext, I'll formulate the question stem. It should ask how to restructure the patient's workup using the three levers. The options need to be plausible but clearly wrong. Let me think of distractors. For example, one might mention unnecessary tests, another could focus only on one lever, and another might not address communication.\n\nOption A should correctly outline all three levers as in the answer. Option B might incorrectly suggest delaying Tier-1 tests. Option C could focus only on operational aspects without the other levers. Option D might mention patient education but not the other components. \n\nI need to ensure the explanation in the JSON correctly identifies why option A is correct, highlighting the three levers and communication. Also, check that the distractors are plausible but incorrect. For example, Option B's delay contradicts velocity triaging. Option C misses moral-hazard education. Option D lacks operational decoupling.\n\nFinally, structure the JSON with the correct option as A and the explanation that covers all three levers and communication. Make sure the JSON is valid with proper syntax and no markdown."
     }
   ]
 }

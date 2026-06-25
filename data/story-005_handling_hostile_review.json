@@ -247,6 +247,33 @@
         "Limitation: jurisdiction-specific remedies; little on fake or coordinated reviews.",
         "Assumptions: a real-patient review and a composed doctor bound by confidentiality."
       ]
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "The true audience of a review response is future readers, not the angry reviewer.",
+      "reason": "Because the reviewer is usually unpersuadable, and the public judges the responder's temperament rather than unverifiable facts.",
+      "correctOption": 0,
+      "explanation": "Reviewers often have fixed opinions, while future readers (patients, colleagues) assess the responder's professionalism. A calm response signals reliability, whereas defensiveness may confirm the complaint.",
+      "id": "story-005-why1-obj-f60d9e",
+      "subtopic": "Audience",
+      "_generatedFrom": "story-005-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why the true audience of a review response is future readers, not the angry reviewer. The answer explains that reviewers are usually not persuaded, and the real audience is the public who will judge the responder's temperament.\n\nFirst, I need to determine the best question type. The original answer discusses cause and effect: the reason for addressing future readers rather than the reviewer. The key points mention that the reviewer's mind is made up, and the public's judgment is based on the responder's temperament. This seems like a cause-effect relationship, so assertion_reason might be suitable. However, looking at the key points, they are more about explaining why the audience is future readers, which could also be a true/false or MCQ. But the explanation is more about the reasoning behind the assertion, so assertion_reason fits better.\n\nNext, I need to structure the assertion and reason. The assertion could be that the true audience of a review response is future readers, not the angry reviewer. The reason would be that the reviewer is usually unpersuadable, and the public judges the responder's temperament. Then, the correct option would be 0, as both the assertion and reason are true, and the reason explains the assertion.\n\nI need to make sure the options are plausible but wrong. For assertion_reason, the options are about the relationship between the assertion and reason. The explanation should briefly state that the reviewer's mind is made up, and the public's judgment is based on temperament, which aligns with the reason provided.\n\nI should check for clinical accuracy, but since this is about medical communication, the content is more about professional conduct rather than clinical facts. Still, the key points are accurate in the context of handling reviews.\n\nFinally, format the JSON correctly with the assertion, reason, correctOption as 0, and the explanation. Ensure no markdown and only JSON is present."
+    },
+    {
+      "type": "mcq",
+      "stem": "A doctor receives a public review containing factual errors. Which approach is most appropriate according to the principles of professional conduct?",
+      "options": [
+        "A) Pause for 24 hours, assess if the statement reveals patient care details, avoids defensiveness, and advances private resolution before responding",
+        "B) Immediately correct all factual errors in a public forum to demonstrate expertise",
+        "C) Share patient-specific details in the response to clarify misunderstandings",
+        "D) Correct multiple non-confidential errors publicly while maintaining a neutral tone"
+      ],
+      "correctOption": 0,
+      "explanation": "The correct approach emphasizes a cool-off period, privacy protection, and limited public correction as outlined in the key points.",
+      "id": "story-005-how1-obj-8ef399",
+      "subtopic": "Self-Regulation",
+      "_generatedFrom": "story-005-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. The original question is about how a doctor should handle correcting factual errors in a public review.\n\nFirst, I need to determine the best question type. The answer provided has multiple key points: cooling off, not revealing patient info, and correcting only one non-confidential fact. This seems like a scenario where a multiple-choice question (MCQ) would work best because it involves specific actions and strategies. True/false might not capture the nuances, and assertion-reason could be too vague here.\n\nNext, I need to formulate the stem. The original question is about handling the urge to correct every factual error. The answer emphasizes pausing, cooling off, and specific steps. The options should include the correct answer and plausible distractors. The correct answer should mention cooling off, not revealing patient info, and correcting only one fact. Distractors might include actions like responding immediately, revealing patient details, or correcting multiple errors.\n\nI need to ensure that the distractors are plausible but clearly wrong. For example, one option might suggest responding immediately without a cool-off period. Another might involve sharing patient information, which is against privacy rules. Another could be correcting multiple errors publicly, which contradicts the key point of only correcting one.\n\nThe explanation should briefly mention the key points from the answer: cool-off period, privacy, and limited correction. Also, the correct option should be the one that aligns with all these points.\n\nNow, structuring the JSON. The type is MCQ. The stem is the question. The options are the four choices, with the correct one at index 0. The explanation should be concise, highlighting the main reasons from the original answer.\n\nI need to check that all the key points are covered in the correct option and that the distractors are incorrect but realistic. Also, ensuring that the JSON is valid with proper syntax, no markdown, and only the required fields."
     }
   ]
 }

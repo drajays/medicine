@@ -144,6 +144,38 @@
         "Limitation: assumes a clean case; less guidance for incapacity, minors, or shifting wishes.",
         "Assumptions: a competent adult, one jurisdiction, and time/privacy to talk."
       ]
+    },
+    {
+      "type": "mcq",
+      "stem": "Why does a competent patient’s autonomy generally override a family’s request to withhold the diagnosis?",
+      "options": [
+        "A) Respect for autonomy ensures patients have the right to their own information, which is essential for informed consent and trust.",
+        "B) Family members are legally responsible for making medical decisions on behalf of the patient.",
+        "C) Withholding information prevents emotional distress for the patient’s loved ones.",
+        "D) Medical confidentiality laws require physicians to prioritize family wishes over patient autonomy."
+      ],
+      "correctOption": 0,
+      "explanation": "Respect for autonomy ensures patients have the right to their own information, which is essential for informed consent and trust. Withholding information can undermine these principles.",
+      "id": "story-001-why1-obj-d07c97",
+      "subtopic": "Autonomy",
+      "_generatedFrom": "story-001-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why a competent patient's autonomy overrides the family's request to withhold a diagnosis.\n\nFirst, I need to determine the best question type. The answer discusses autonomy, informed consent, and trust. Since it's explaining a principle with specific reasons, maybe an assertion-reason question would work. But looking at the rules, assertion-reason is for cause-effect relationships. Alternatively, a true/false might not capture the nuances. The original answer lists key points, so maybe a multiple-choice question (MCQ) with options that address the key points.\n\nThe stem should be a question. The correct answer is about autonomy and the consequences of non-disclosure. The distractors need to be plausible but wrong. Let me think of possible incorrect options. Maybe something about family rights, or preventing distress, or legal requirements. But the correct answer is about the patient's right to know.\n\nSo the MCQ stem could be: \"Why does a competent patient's autonomy generally override a family's request to withhold the diagnosis?\" The options would include the correct answer and distractors. The correct option is the one that mentions the patient's right to information and the consequences of non-disclosure. The explanation should mention autonomy and trust.\n\nI need to make sure the options are plausible. For example, a distractor might say \"To prevent family conflict\" which is not the main reason. Another could be \"Because the family knows the patient better,\" which is incorrect. The correct option is the one that talks about the patient's ownership of their information and the impact on trust.\n\nNow, structuring the JSON. The type is mcq. The stem is the question. The options are four, with the correct one first (index 0). The explanation should briefly state the key points from the original answer.\n\nWait, the original answer mentions informed consent, end-of-life planning, and trust. The explanation in the JSON should be concise. Let me check the rules again: explanation must be brief. So the explanation would be something like \"Respect for autonomy ensures patients have the right to their own information, which is essential for informed consent and trust. Withholding information can undermine these principles.\"\n\nI think that's it. Let me put it all together in JSON format as specified."
+    },
+    {
+      "type": "mcq",
+      "stem": "A patient's son is upset in the corridor about disclosing his father's diagnosis. Which approach best balances family concerns with patient autonomy?",
+      "options": [
+        "A) Directly refuse the son's request and insist on patient confidentiality",
+        "B) Agree to the son's request to protect the patient's feelings",
+        "C) Acknowledge the son's concern, explore his fears, explain your obligation, and ask the patient about his information preferences",
+        "D) Dismiss the son's emotions and proceed with the disclosure"
+      ],
+      "correctOption": 2,
+      "explanation": "The correct approach involves empathetic communication (acknowledging emotion), exploring specific fears, explaining professional obligations, and involving the patient in decision-making to respect autonomy while addressing family concerns.",
+      "id": "story-001-how1-obj-42fcd4",
+      "subtopic": "Communication",
+      "_generatedFrom": "story-001-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about responding to a son in the corridor without alienating him. The answer provided outlines specific steps: acknowledging emotions, exploring fears, explaining obligations, and proposing a bridge by asking the patient.\n\nFirst, I need to determine the best question type. The answer involves a sequence of steps and specific strategies, which suggests a MCQ might be appropriate. True/false is less likely because the answer isn't a simple yes/no. Assertion-reason could work if there's a cause-effect, but the key points here are more about steps to take rather than a direct relationship.\n\nNext, formulating the stem. The question should ask about the appropriate response to the son. The options need to be plausible but clearly wrong. Let's see. The correct answer includes acknowledging emotion, exploring fear, explaining obligations, and asking the patient. Distractors might miss some of these steps. For example, one option might skip acknowledging emotions, another might not explore the fear, another might not involve the patient, and another might be confrontational.\n\nI need to ensure the options are distinct and cover common mistakes. The correct option should include all key points. Then, the explanation should briefly mention the key elements from the answer. Let me check the rules again: distractors must be plausible but wrong, clinical accuracy, and JSON format only. Alright, I think that's covered. Let me structure the JSON accordingly."
     }
   ]
 }

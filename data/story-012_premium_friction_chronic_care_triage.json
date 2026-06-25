@@ -289,6 +289,54 @@
         "Limitation: assumes resources for an educator/manager; triage thresholds need clinical sign-off.",
         "Assumptions: enough volume for a buffer, a delegating physician, and patients who accept the educator."
       ]
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary reason single-node dependency (consultant handling all post-consultation queries) leads to predictable failure?",
+      "options": [
+        "A) Insufficient training in communication skills",
+        "B) Concentration of complex clinical decisions and high-volume routine queries on one cognitive resource",
+        "C) Lack of electronic health record integration",
+        "D) Inadequate patient education materials"
+      ],
+      "correctOption": 1,
+      "explanation": "Single-node dependency fails because it overwhelms a finite cognitive resource with two distinct workloads (complex decisions and routine queries), leading to overload and burnout. The structural fix requires triage, not individual resilience.",
+      "id": "story-012-why1-obj-3b1306",
+      "subtopic": "Operations",
+      "_generatedFrom": "story-012-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A about single-node dependency in healthcare consulting. The original answer explains that concentrating two different workloads on one person leads to cognitive overload and burnout, and the solution is structural triage.\n\nFirst, I need to determine the best question type. The content seems to be a cause-effect relationship, explaining why single-node dependency fails. The key points mention the structural issue and the solution. However, the main question is about the reason for failure, which is a cause-effect. But looking at the options, maybe a true/false or MCQ would work. Wait, the original answer is a detailed explanation, so maybe an MCQ where the options are different reasons for failure.\n\nWait, the user's example shows that the correct answer is about the concentration of workloads leading to overload. So the question could be: \"What is the primary reason single-node dependency in post-consultation queries leads to failure?\" with options that include the correct answer and plausible distractors.\n\nThe options need to be plausible but wrong. Possible distractors could be things like lack of training, insufficient communication, or personal burnout without the structural aspect. The correct answer is the concentration of two workloads on one resource leading to overload.\n\nSo the MCQ stem would be asking for the primary reason. The correct option is the one about workload concentration. The explanation would mention the finite cognitive resource and the structural fix via triage.\n\nI need to make sure the options are distinct and the correct one is clearly the best. Also, the explanation should be brief, as per the rules. Let me structure the JSON accordingly."
+    },
+    {
+      "type": "mcq",
+      "stem": "A physician is managing a repetitive patient query mid-consultation. Which approach best maintains patient safety and clinical efficiency without sounding dismissive?",
+      "options": [
+        "A. 'I already explained this; I don't have time to repeat it now.'",
+        "B. 'Your concern is important, but I must prioritize my current patient. Let me have my nurse call you back in 10 minutes.'",
+        "C. 'I'm sorry, but I can't address this now. Please ask the receptionist for assistance.'",
+        "D. 'Your wife's safety is my priority, but I'm currently with another patient. My coordinator will call you back in exactly 10 minutes.'"
+      ],
+      "correctOption": 3,
+      "explanation": "The correct approach affirms patient safety, states the clinical constraint transparently, and provides a specific handoff with a named role and time (option D). Options A and C are dismissive or vague; option B lacks the specific handoff mechanism described in the key points.",
+      "id": "story-012-how1-obj-e508a4",
+      "subtopic": "Communication",
+      "_generatedFrom": "story-012-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about deflecting repetitive queries without sounding dismissive.\n\nFirst, I need to determine the question type. The answer provided has specific steps and key points, so an MCQ seems appropriate here. The options should include the correct method and plausible distractors that are incorrect based on the key points.\n\nThe correct answer emphasizes affirming the patient's concern, stating the constraint, and handing off with a specific time. Distractors should avoid the key elements. For example, one might mention dismissing the patient, another might not mention the handoff, and another could reference the repetitiveness.\n\nI need to ensure that each option is plausible but clearly wrong. The explanation should highlight the correct approach as per the key points. Let me structure the options accordingly, making sure the correct option is the one that includes all the correct elements."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following best describes the 3-tier operational model and educator's triage matrix in patient care?",
+      "options": [
+        "A) Tier 1: Front desk handles post-consult calls with teach-back protocols; Tier 2: Nurse-led triage with Green (routine), Yellow (moderate), Red (urgent) categories; Tier 3: Physician uses a 30-second deflection script and 'First 120 seconds' rule.",
+        "B) Tier 1: Physician-led post-consult calls; Tier 2: Pharmacist handles all triage via email; Tier 3: Manager-led de-escalation.",
+        "C) Tier 1: Clinical buffer absorbs 80% of post-consult issues; Tier 2: Front desk manages triage matrix; Tier 3: Educator-led service recovery.",
+        "D) Tier 1: Educator-led discharge; Tier 2: Doctor reviews all Yellow and Red alerts; Tier 3: Front desk manages expectations."
+      ],
+      "correctOption": 0,
+      "explanation": "Option A correctly outlines Tier 1 (front desk with teach-back), Tier 2 (nurse/pharmacist triage matrix with Green/Yellow/Red), and Tier 3 (physician protocols). Other options misattribute roles or omit key components.",
+      "id": "story-012-sa1-obj-32d41e",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-012-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about summarizing the 3-tier operational model and the educator's triage matrix. The answer provided details each tier and the triage matrix colors.\n\nFirst, I need to determine the best question type. The answer has specific details about each tier and the triage matrix, which suggests a multiple-choice question (MCQ) would be appropriate. True/false might not work here because the information is too detailed. Assertion-reason could be possible, but the content is more about a model with specific components rather than a cause-effect relationship.\n\nNext, I need to create the stem of the question. It should ask about the components of the 3-tier model and the triage matrix. The options should include the correct answer and plausible distractors. The correct answer is the one that accurately describes Tier 1, Tier 2 with the triage matrix colors, and Tier 3. Distractors might mix up the responsibilities of each tier or the triage colors.\n\nFor example, a distractor for Tier 1 might mention something about the physician's role instead of the front desk. For Tier 2, a distractor could have the wrong percentages or incorrect triage color assignments. Tier 3 might be confused with other roles or protocols.\n\nI need to ensure that the explanation in the JSON is brief and accurate, pointing out why the correct option is right and the distractors are wrong. Also, checking that all clinical details from the original answer are correctly represented without any inaccuracies.\n\nFinally, structure the JSON with the correct type, stem, options, correct option index, and explanation. Make sure there are exactly four options, each clearly different, and the correct one matches the original answer."
     }
   ]
 }

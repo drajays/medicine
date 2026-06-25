@@ -122,6 +122,38 @@
         "Quick multiply for meal protein estimates"
       ],
       "reference": "User-provided reference table values."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why are egg whites often preferred over whole eggs in certain chronic kidney disease (CKD) dietary plans?",
+      "options": [
+        "A) Egg whites provide high-quality protein with minimal phosphorus and fat compared to whole eggs, which contain higher phosphorus and lipids from the yolk.",
+        "B) Egg whites contain more protein per gram than whole eggs, making them more efficient for meeting protein requirements.",
+        "C) Egg whites are lower in sodium than whole eggs, which is critical for CKD patients with hypertension.",
+        "D) Whole eggs are contraindicated in CKD due to their high phosphorus content, whereas egg whites are phosphorus-free."
+      ],
+      "correctOption": 0,
+      "explanation": "Egg whites offer high-quality protein with minimal phosphorus and fat, whereas whole eggs include phosphorus and lipids from the yolk. This makes egg whites a more favorable choice for CKD patients needing protein while limiting phosphate intake.",
+      "id": "ht-018-why1-obj-67e42f",
+      "subtopic": "CKD Counseling",
+      "_generatedFrom": "ht-018-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A about why egg whites are preferred over whole eggs in CKD diets. First, I need to determine the best question type. The answer explains that egg whites have high protein with less phosphorus and fat, which is important for CKD patients managing phosphate levels. This seems like a specific fact, so an MCQ would be suitable.\n\nNext, I'll formulate the stem. The question should ask why egg whites are favored. The options need to be plausible but incorrect except for the correct one. The key points are high-quality protein, minimal phosphorus, and lower fat. The distractors could include things like higher protein content (which isn't true), lower sodium (not mentioned), or higher phosphorus (opposite of correct). \n\nOption A should be the correct one, stating the high-quality protein with minimal phosphorus and fat. The other options need to be incorrect but realistic. For example, Option B might mention higher protein, which is wrong because egg whites have similar protein but less phosphorus. Option C could talk about lower sodium, which isn't a key point here. Option D might say higher phosphorus, which is the opposite. \n\nThe explanation should briefly mention that egg whites have high protein and lower phosphorus, making them better for CKD patients. I need to ensure the JSON structure is correct with the right keys and values. Also, check that the correctOption is 0 for the first option. Let me verify the answer again to make sure there's no mistake in the facts. Yes, the key points support the correct answer. Alright, that should do it."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the best method to estimate daily protein intake from eggs at the bedside?",
+      "options": [
+        "A) Use 6.3 g protein per large whole egg and 10.9 g protein per 100 g egg white",
+        "B) Use 5 g protein per whole egg and 10 g protein per 100 g egg white",
+        "C) Use 7 g protein per whole egg and 12 g protein per 100 g egg white",
+        "D) Use 6.3 g protein per 100 g whole egg and 10.9 g protein per whole egg white"
+      ],
+      "correctOption": 0,
+      "explanation": "Clinical guidelines specify 6.3 g protein per large whole egg and 10.9 g protein per 100 g egg white as standard values for bedside estimation.",
+      "id": "ht-018-how1-obj-b80fc8",
+      "subtopic": "Quick Calculation",
+      "_generatedFrom": "ht-018-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A about estimating daily egg protein intake. The original answer gives specific values for whole eggs and egg whites. \n\nFirst, I need to determine the best question type. The information is specific with numerical values, so MCQ seems appropriate. True/false might not capture the nuances, and assertion-reason could work but MCQ is better for multiple options.\n\nNext, the stem should ask how to estimate protein intake. The options need to include the correct method and plausible distractors. The correct answer uses 6.3g per whole egg and 10.9g per 100g egg white. Distractors could be common mistakes, like using different multipliers or mixing up whole egg and white values.\n\nI should check for clinical accuracy. The values given are standard, so the options should reflect that. For example, option A is correct. Other options might use 5g or 7g for whole eggs, or 10g for egg white, which are close but incorrect. \n\nMake sure the explanation in the JSON is brief and accurate, pointing out the correct values. Also, ensure that the options are clearly wrong but plausible. That way, the question effectively tests the knowledge without being too tricky."
     }
   ]
 }

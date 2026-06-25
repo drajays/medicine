@@ -14,6 +14,7 @@ import { CommandPalette } from '@/components/ui/CommandPalette'
 import { Button } from '@/components/ui/Button'
 import { useAppStore } from '@/store/useAppStore'
 import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts'
+import { useAutoCloudSync } from '@/hooks/useAutoCloudSync'
 
 export function AppShell() {
   const initCatalog = useAppStore((s) => s.initCatalog)
@@ -37,6 +38,7 @@ export function AppShell() {
   const canFwd = historyIndex < historyLen - 1
 
   useKeyboardShortcuts()
+  useAutoCloudSync()
 
   useEffect(() => {
     initCatalog()

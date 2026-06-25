@@ -9,6 +9,7 @@ import {
   retentionByInterval,
   summarize,
 } from '@/lib/revisionAnalytics'
+import { StudyAccountPanel } from '@/components/StudyAccountPanel'
 import { cn } from '@/lib/utils'
 import type { HeaderKind } from '@/lib/types'
 
@@ -230,20 +231,24 @@ export function StudyProgressDashboard() {
 
   if (!hasAny) {
     return (
-      <div className="clinical-card p-8 text-center">
-        <BarChart3 className="mx-auto h-10 w-10 text-indigo-600 dark:text-indigo-400" />
-        <h2 className="mt-4 text-lg font-semibold">No study progress yet</h2>
-        <p className="clinical-serif mx-auto mt-2 max-w-md text-[15px] leading-relaxed clinical-muted">
-          Progress counts when you <strong>reveal an answer</strong>, <strong>solve a question</strong>,{' '}
-          <strong>mark an item</strong>, or tap <strong>Mark as read</strong> on notes — not from scrolling
-          alone.
-        </p>
+      <div className="space-y-6">
+        <StudyAccountPanel />
+        <div className="clinical-card p-8 text-center">
+          <BarChart3 className="mx-auto h-10 w-10 text-indigo-600 dark:text-indigo-400" />
+          <h2 className="mt-4 text-lg font-semibold">No study progress yet</h2>
+          <p className="clinical-serif mx-auto mt-2 max-w-md text-[15px] leading-relaxed clinical-muted">
+            Progress counts when you <strong>reveal an answer</strong>, <strong>solve a question</strong>,{' '}
+            <strong>mark an item</strong>, or tap <strong>Mark as read</strong> on notes — not from scrolling
+            alone. Register a study account above to keep stats after reinstall.
+          </p>
+        </div>
       </div>
     )
   }
 
   return (
     <div className="space-y-6">
+      <StudyAccountPanel />
       <div className="clinical-card border-l-4 border-l-indigo-500 p-5 md:p-6">
         <p className="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">
           Overall

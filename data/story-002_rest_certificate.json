@@ -187,6 +187,32 @@
         "Limitation: rules vary by jurisdiction/employer; partial-incapacity cases not covered.",
         "Assumptions: no rest indication, false certificates barred, employer accepts attendance proof."
       ]
+    },
+    {
+      "type": "true_false",
+      "statement": "The time a patient spends on outpatient investigations justifies a medical 'rest' certificate.",
+      "correctAnswer": false,
+      "explanation": "A rest certificate attests to medical incapacity, not administrative inconvenience. Outpatient investigations are part of diagnostic evaluation, not convalescence from illness.",
+      "id": "story-002-why1-obj-01cd9d",
+      "subtopic": "Ethics & Law",
+      "_generatedFrom": "story-002-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why time spent on outpatient investigations doesn't justify a medical rest certificate.\n\nFirst, I need to determine the best question type. The answer explains that a rest certificate is for medical incapacity, and outpatient visits aren't about recovery. The key points are about the difference between incapacity and administrative inconvenience. This seems like a clear factual statement, so maybe a true_false question. But wait, the original answer is more of an explanation, not just a true/false statement. Alternatively, an assertion_reason might work here. The assertion could be that outpatient investigations justify a rest certificate, and the reason would be that they are part of evaluation, not recovery. But the correct answer is that they don't justify it. Hmm.\n\nWait, the original answer states that a rest certificate is for incapacity, and outpatient workup isn't. So maybe a true_false question where the statement is \"The time spent on outpatient investigations justifies a medical rest certificate.\" The correct answer would be false. The explanation would be that rest certificates are for incapacity, not for administrative time. That seems to fit. Let me check the rules again. The user said to choose the best format. True_false is for clear factual statements. The statement here is a clear fact: outpatient time doesn't justify a rest certificate. So true_false is appropriate. The options are straightforward. The explanation should be brief, pointing out that rest certificates are for incapacity, not evaluation. That matches the key points given. I think that's the right approach. Let me structure the JSON accordingly."
+    },
+    {
+      "type": "mcq",
+      "stem": "A patient is angry and demands a rest certificate. Which response is most appropriate?",
+      "options": [
+        "A) Acknowledge their frustration, explain that certificates are only issued for genuine incapacity, and offer an attendance certificate covering days 1–5",
+        "B) Refuse the request immediately and direct them to the hospital administrator",
+        "C) Agree to issue the certificate but request additional documentation from the employer",
+        "D) Explain that rest certificates are no longer available due to policy changes"
+      ],
+      "correctOption": 0,
+      "explanation": "The correct approach involves validating the patient's concerns, setting boundaries based on medical rules, and offering a legitimate alternative (attendance certificate) as per the key points in the answer.",
+      "id": "story-002-how1-obj-50a1be",
+      "subtopic": "De-escalation",
+      "_generatedFrom": "story-002-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about responding to an angry patient demanding a rest certificate. The answer outlines three steps: validate, set boundaries by citing rules, and offer an alternative certificate.\n\nFirst, I need to determine the best question type. The answer involves a sequence of steps and specific actions, which suggests a MCQ might be suitable. True/false doesn't fit here because the answer isn't a simple yes/no. Assertion-reason could work if there's a cause-effect, but the original answer is more about a procedure than a relationship between two statements.\n\nNext, formulating the stem. The question should ask about the appropriate response to an angry patient. The options need to be plausible but clearly wrong. The correct answer should include validating, citing rules, and offering an alternative. Distractors might miss one of these steps or suggest inappropriate actions like refusing to help.\n\nI need to ensure clinical accuracy. The key points from the answer are validation, attributing to rules, and offering the attendance certificate. The distractors should omit these elements. For example, one option might skip validation, another might refuse to help, and another might not mention the alternative certificate.\n\nNow, structuring the JSON. The stem should be clear. The options should be A to D, with the correct option being the one that includes all three steps. The explanation should briefly mention the three key points. Let me check the rules again: distractors must be plausible but wrong. So, each incorrect option should have one correct element but miss others, or have incorrect advice.\n\nOption A: Correct, includes all three steps. Option B: Validates and cites rules but doesn't offer alternative. Option C: Offers alternative but doesn't validate or cite rules. Option D: Refuses to help, which is incorrect. That should work. The explanation should note that the correct answer includes validation, citing rules, and offering the alternative certificate."
     }
   ]
 }

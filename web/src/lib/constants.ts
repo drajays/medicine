@@ -8,5 +8,10 @@ export const AR_OPTIONS = [
 
 export const DATA_BASE = `${import.meta.env.BASE_URL}data/`
 
+/** Cloud sync API (Cloudflare Worker). Set at build time via VITE_SYNC_API_URL. */
+export const SYNC_API_URL = (
+  (import.meta.env.VITE_SYNC_API_URL as string | undefined) ?? ''
+).replace(/\/$/, '')
+
 /** GitHub repo (owner/name) where content flags are filed as issues. */
 export const FLAG_REPO = 'drajays/medicine'

@@ -162,7 +162,12 @@
       "type": "mcq",
       "subtopic": "Carb Counting",
       "stem": "Rohan’s dinner ICR is set to 1:15 (1 unit per 15 g carbs). Dinner is 2 rotis (~30 g) + 1 katori rice (~45 g) + 1 katori rajma (~15 g) = 90 g carbohydrate. What mealtime dose matches this meal?",
-      "options": ["4 units", "6 units", "9 units", "15 units"],
+      "options": [
+        "4 units",
+        "6 units",
+        "9 units",
+        "15 units"
+      ],
       "correctOption": 1,
       "explanation": "Dose = total carbohydrate ÷ ICR = 90 ÷ 15 = 6 units. The ICR lets the dose flex with the size of the plate — a larger pubertal meal is safely covered by a larger, calculated dose rather than a fixed one."
     },
@@ -245,6 +250,49 @@
         "Limitation: carb/ICR numbers are averages; assumes CGM/lab access; not a substitute for the care team.",
         "Assumptions: stable basal-bolus regimen, reliable logs, and a reachable diabetes team."
       ]
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "A pubertal child with Type 1 Diabetes often requires a higher insulin dose per kilogram than a younger child.",
+      "reason": "This is due to increased growth hormone and cortisol levels during puberty, which induce temporary insulin resistance.",
+      "correctOption": 0,
+      "explanation": "Pubertal insulin resistance caused by growth hormone and cortisol explains the increased insulin requirements. This is a normal physiological adaptation, not indicative of poor diabetes control.",
+      "id": "story-003-why1-obj-322e21",
+      "subtopic": "Physiology",
+      "_generatedFrom": "story-003-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A about why pubertal children with Type 1 Diabetes need more insulin. The answer mentions growth hormone and cortisol causing insulin resistance.\n\nFirst, I need to determine the best question type. The explanation is about a cause-effect relationship between puberty hormones and insulin resistance. That points towards an assertion-reason format. \n\nThe assertion could be that pubertal children require more insulin per kg. The reason would be the increased growth hormone and cortisol leading to insulin resistance. \n\nI need to check if the options are plausible. The correct option is both true with the reason explaining the assertion. Distractors might involve other hormones or incorrect mechanisms. \n\nWait, the key points mention growth hormone and cortisol specifically. So the reason should include both. Let me structure the assertion and reason accordingly. \n\nMake sure the explanation in the JSON is concise, highlighting the role of growth hormone and cortisol in causing insulin resistance. Also, note that the increased need is normal, not due to poor control. \n\nI think that's covered. Now, formulating the JSON with the correct assertion and reason, and the explanation."
+    },
+    {
+      "type": "mcq",
+      "stem": "How should parents manage a growing child with type 1 diabetes who is constantly hungry but has stable blood glucose levels?",
+      "options": [
+        "A) Allow healthy eating to fuel growth, use insulin-to-carbohydrate ratio (ICR) for dosing, and avoid arbitrary insulin adjustments.",
+        "B) Restrict carbohydrate intake to prevent hyperglycemia and double insulin doses for meals.",
+        "C) Implement a zero-carbohydrate diet and adjust insulin based on hunger cues alone.",
+        "D) Discontinue insulin during periods of increased hunger to avoid hypoglycemia."
+      ],
+      "correctOption": 0,
+      "explanation": "Allowing healthy eating to meet metabolic demands during growth, using ICR to match insulin to actual carbohydrate intake, and avoiding arbitrary dose changes prevents nutritional deficiencies, hypoglycemia, and disordered eating while maintaining glycemic control.",
+      "id": "story-003-how1-obj-a45bd2",
+      "subtopic": "Parent Strategy",
+      "_generatedFrom": "story-003-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a medical question based on the provided Q&A, formatted as JSON. The topic is about managing a growing T1D child who's constantly hungry but has stable blood sugars.\n\nFirst, I need to determine the best question type. The answer given is a set of recommendations, so an MCQ seems appropriate here. The key points are allowing healthy eating, carb-counting with ICR, and avoiding arbitrary dose changes. The options should include these correct points and plausible distractors.\n\nThe stem should ask how parents should respond. The correct option (A) includes allowing healthy eating, using ICR, and avoiding arbitrary changes. Distractors need to be wrong but plausible. For example, option B might suggest restricting carbs, which contradicts the key points. Option C could mention doubling insulin without carb counting, which is incorrect. Option D might recommend a zero-carb diet, which is also against the advice.\n\nI need to ensure the explanation in the JSON correctly states that matching insulin to carbohydrate intake via ICR is essential, and avoiding arbitrary changes prevents complications. Also, checking that the correct option is 0 (A) and the explanation is concise. Let me structure the JSON accordingly, making sure all rules are followed and the options are plausible but clearly wrong where necessary."
+    },
+    {
+      "type": "mcq",
+      "stem": "Using the 500 rule, what is the appropriate dinner dose for a patient with a total daily dose of 43 units who is consuming a meal containing 60 g of carbohydrates (45 g rice + 15 g dal)?",
+      "options": [
+        "A) 5 units",
+        "B) 6 units",
+        "C) 10 units",
+        "D) 15 units"
+      ],
+      "correctOption": 1,
+      "explanation": "The 500 rule calculates insulin-to-carbohydrate ratio (ICR) as 500 ÷ total daily dose (43) ≈ 11.6 g/unit, rounded to 1:10-1:12. Using 1:10, dinner dose = 60 g ÷ 10 = 6 units. 1:12 would yield 5 units, but 1:10 is the standard starting ratio.",
+      "id": "story-003-sa1-obj-c5cf77",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-003-sa1",
+      "distillation_trace": "Okay, let's tackle this question. The user wants an objective exam question based on the provided Q&A. The original question involves using the 500 rule to estimate a starting ICR and then calculating the dinner dose for a specific meal.\n\nFirst, I need to determine the type of question. The 500 rule and carbohydrate-to-insulin ratio calculation are specific facts, so an MCQ seems appropriate. The options should include the correct answer and plausible distractors.\n\nThe correct answer is 6 units, based on the 1:10 ratio. Distractors could be other ratios like 1:12 (which would give 5 units), or incorrect calculations like 10 units (maybe doubling the ratio by mistake), or 15 units (adding instead of dividing). \n\nI need to ensure the options are plausible but clearly wrong. The explanation should mention the 500 rule and the calculation steps. Let me structure the JSON with the stem, options, correct option, and explanation. Check that the math is correct and the options are realistic."
     }
   ]
 }

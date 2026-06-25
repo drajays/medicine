@@ -804,6 +804,38 @@
       "id": "cr-017-how2-obj-d01abe",
       "subtopic": "GH Protocol",
       "_generatedFrom": "cr-017-how2"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the optimal bone age target at discontinuation of GnRH agonist in girls, and why is this range selected?",
+      "options": [
+        "A) 12-12.5 years: Preserves residual growth potential while avoiding premature epiphyseal fusion",
+        "B) 11-11.5 years: Allows maximal skeletal maturation before puberty",
+        "C) 13-13.5 years: Matches typical bone age at menarche",
+        "D) 14-14.5 years: Ensures complete epiphyseal closure"
+      ],
+      "correctOption": 0,
+      "explanation": "The 12-12.5 year range balances preservation of growth potential with prevention of epiphyseal fusion, as explained in the original text. Other options either under- or overestimate optimal timing.",
+      "id": "cr-017-sa3-obj-ab4b9d",
+      "subtopic": "Stopping Criteria",
+      "_generatedFrom": "cr-017-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A about the bone age target when discontinuing GnRH agonists in girls. \n\nFirst, I need to determine the best question type. The answer gives a specific range (12-12.5 years) and explains why it's optimal. This seems like a fact-based question with a clear correct answer, so MCQ is probably the best choice. \n\nNext, the stem should ask for the target bone age and the reason. The options need to include the correct answer and plausible distractors. The original answer mentions 12-12.5 years for girls, so the correct option should be that. Distractors could be other age ranges, like 11-11.5, 13-13.5, or 14-14.5. Also, maybe a distractor that confuses boys and girls, like 13-13.5 for girls. \n\nI need to ensure the explanation in the JSON is brief but accurate, mentioning preservation of growth potential and epiphyseal status. Checking the rules: distractors must be plausible but wrong. The original answer also notes that for boys it's 13-13.5, so including that as a distractor for girls makes sense. \n\nLet me structure the MCQ. The stem asks for the target bone age and the reason. The options should include the correct answer and other ranges. The correct option is 12-12.5 years with the correct explanation. The explanation in the JSON should state that this range preserves growth potential while ensuring epiphyses aren't fused. \n\nI need to make sure that the options are distinct and that the explanation is concise. Also, check that the JSON is valid, with the correctOption index pointing to the right answer. Let me verify the options again. Option A is correct, B is lower than optimal, C is for boys, D is higher. That should work."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following correctly describes the Bayley-Pinneau method for calculating predicted adult height (PAH)?",
+      "options": [
+        "A) Use chronological age, not bone age, to find the percentage of adult height attained in reference tables",
+        "B) Multiply current height by the percentage of adult height attained (from bone age) to calculate PAH",
+        "C) Use bone age from left hand/wrist X-ray, divide current height by the percentage of adult height attained (as decimal) from reference tables",
+        "D) Apply the same formula regardless of whether the child is an 'average' or 'advanced' maturer in the reference tables"
+      ],
+      "correctOption": 2,
+      "explanation": "The Bayley-Pinneau method uses bone age (not chronological age) to determine the percentage of adult height attained from reference tables. PAH is calculated by dividing current height by this percentage (as a decimal), and 'average' vs 'advanced' maturer columns yield different percentages. Option C correctly reflects these steps.",
+      "id": "cr-017-how1-obj-4c2ce9",
+      "subtopic": "PAH Calculation",
+      "_generatedFrom": "cr-017-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert the given Q&A into an objective exam question in JSON format. The original question is about the Bayley-Pinneau method for calculating predicted adult height.\n\nFirst, I need to determine the best question type. The original answer is a step-by-step process, which suggests a multiple-choice question (MCQ) since it's about specific steps and procedures. True/false and assertion-reason don't fit here as well because the content is procedural, not a simple fact or cause-effect relationship.\n\nNext, I'll structure the MCQ. The stem should ask about the steps involved in the Bayley-Pinneau method. The options need to be plausible but only one correct. The correct answer is the one that accurately describes the three steps mentioned: obtaining bone age, using the reference tables to find the percentage, and dividing current height by that percentage. \n\nDistractors should be common mistakes. For example, using the child's chronological age instead of bone age, using the percentage as a multiplier instead of a divisor, or not considering interobserver variability. These are common errors in clinical practice, making them plausible but incorrect options.\n\nI need to ensure the explanation in the JSON is brief and accurate, highlighting the correct steps and the importance of bone age over chronological age. Also, the caveat about interobserver variability is crucial and should be part of the correct answer to emphasize the uncertainty.\n\nChecking the rules: only one JSON output, no markdown, correct formatting. The options are A to D, with the correct option as 0. The explanation should be concise, mentioning the key steps and the critical caveat.\n\nFinally, verify that the JSON is valid, with proper commas and brackets. Make sure the explanation doesn't include any markdown and is in plain text."
     }
   ]
 }
