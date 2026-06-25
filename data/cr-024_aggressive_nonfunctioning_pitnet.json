@@ -8,9 +8,22 @@
   "authors": "Endocrine fellowship training module — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "h2-075", "title": "Pituitary Tumor Syndromes" },
-    { "id": "h2-074", "title": "Hypopituitarism" },
-    { "id": "cr-027", "title": "Panhypopituitarism from Hemochromatosis" }
+    {
+      "id": "cr-037",
+      "title": "Panhypopituitarism, Prostate Cancer & Testosterone Withdrawal"
+    },
+    {
+      "id": "h2-075",
+      "title": "Pituitary Tumor Syndromes"
+    },
+    {
+      "id": "h2-074",
+      "title": "Hypopituitarism"
+    },
+    {
+      "id": "cr-027",
+      "title": "Panhypopituitarism from Hemochromatosis"
+    }
   ],
   "patient": {
     "age": 45,
@@ -415,6 +428,70 @@
       "reason": "Surgical packing material and post-operative inflammation enhance with gadolinium and can mimic residual tumor for months after surgery.",
       "correctOption": 3,
       "explanation": "The assertion is false: the gold standard for residual tumor is the immediate (24-48 h) post-operative MRI, not one at 5 months. The reason is true — packing and inflammation enhance and mimic tumor for months, which is precisely why late early-phase scans are unreliable and the immediate scan is preferred. True reason, false assertion = option 3."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which approach is most appropriate for managing a growing pituitary tumor remnant with Knosp classification 4?",
+      "options": [
+        "A) Urgent transsphenoidal re-surgery if optic chiasm compression is present; otherwise, consider fractionated stereotactic radiotherapy (FSRT) for cavernous sinus extension",
+        "B) Immediate craniotomy for maximal resection regardless of tumor location",
+        "C) Adjuvant temozolomide monotherapy without surgical or radiological intervention",
+        "D) Gamma Knife radiosurgery as first-line therapy even with optic chiasm contact"
+      ],
+      "correctOption": 0,
+      "explanation": "Management prioritizes optic chiasm decompression if vision is worsening. For Knosp-4 tumors (cavernous sinus extension), FSRT is preferred due to high surgical risk, while Gamma Knife requires ≥2-3 mm chiasm distance. Temozolomide/cabergoline are adjuncts, not primary therapies.",
+      "id": "cr-024-how1-obj-7e8045",
+      "subtopic": "Re-surgery vs RT",
+      "_generatedFrom": "cr-024-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into an objective exam question in JSON format, following the rules given. The original question is about deciding between re-surgery and radiotherapy for a growing remnant, with a detailed answer that includes specific criteria like optic chiasm compression, tumor location, and treatment options based on Knosp classification.\n\nFirst, I need to determine the best question type. The answer involves specific clinical decision points, so an MCQ seems appropriate. The options should be plausible but clearly wrong. The correct answer would be the one that aligns with the answer provided, which mentions checking optic chiasm compression, tumor accessibility, and treatment based on location.\n\nNext, I'll structure the stem. The question should ask about the decision-making process between re-surgery and radiotherapy. The options need to reflect different approaches. The correct option (A) should mention urgent transsphenoidal surgery if there's chiasm compression, and radiotherapy for cavernous sinus growth. Distractors might include options that don't consider the optic chiasm, suggest surgery for inaccessible tumors, or use incorrect treatment modalities.\n\nI need to ensure the explanation in the JSON is brief and accurate, highlighting the key factors: optic chiasm status, tumor location, and treatment preferences based on Knosp classification. Also, checking that the correctOption is set to 0, as it's the first option here. Making sure all options are distinct and the distractors are clinically plausible but incorrect."
+    },
+    {
+      "type": "mcq",
+      "stem": "A post-pituitary-surgery patient develops serum sodium of 128 mEq/L on day 7. What is the most likely diagnosis and immediate management?",
+      "options": [
+        "A: SIADH with fluid restriction (<1000 mL/24 h) and slow sodium correction (≤8-10 mEq/L/24 h)",
+        "B: Hypovolemic hyponatremia with isotonic saline infusion",
+        "C: Adrenal insufficiency with corticosteroid replacement",
+        "D: Inappropriate ADH secretion with tolvaptan administration"
+      ],
+      "correctOption": 0,
+      "explanation": "Post-pituitary surgery hyponatremia is commonly SIADH, part of the triphasic response. Management requires fluid restriction and cautious sodium correction to prevent central pontine myelinolysis.",
+      "id": "cr-024-sa1-obj-68b0e5",
+      "subtopic": "Post-op sodium",
+      "_generatedFrom": "cr-024-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about a post-pituitary surgery patient with hyponatremia. The answer mentions SIADH and management with fluid restriction.\n\nFirst, I need to determine the question type. The answer provides a specific diagnosis and management, so an MCQ seems appropriate. The key points are the diagnosis (SIADH) and management (fluid restriction). \n\nNext, I need to create plausible distractors. Common causes of hyponatremia after surgery include SIADH, hypovolemia, and adrenal insufficiency. However, in the context of post-pituitary surgery, SIADH is more likely. Other options could be inappropriate ADH secretion or adrenal insufficiency, but those might be less common here.\n\nFor the management options, fluid restriction is correct. Other options might include administering hypertonic saline (used in severe cases), vasopressin antagonists (like tolvaptan), or corticosteroids (for adrenal insufficiency). These are plausible but incorrect in this context.\n\nI need to ensure the correct option is clearly the best choice. The explanation should mention the triphasic response and the risk of central pontine myelinolysis with rapid correction. \n\nWait, the original answer mentions \"delayed post-operative hyponatremia\" as part of the triphasic response. That's a key detail. So the correct option should include SIADH and fluid restriction. The other options need to be incorrect but plausible. \n\nLet me structure the options. Option A is correct. Option B could be hypovolemic hyponatremia managed with fluids. Option C might be adrenal insufficiency with steroids. Option D could be inappropriate ADH with vasopressin antagonists. \n\nI need to check if the management for SIADH is indeed fluid restriction. Yes, that's standard. The explanation should highlight the triphasic response and slow correction. \n\nNow, making sure the JSON is correctly formatted with the right keys and values. The correctOption is 0 for the first option. The explanation should be concise, mentioning the triphasic response and avoiding complications."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the clinical significance of MGMT status in aggressive non-functioning PitNETs?",
+      "options": [
+        "A) Low MGMT expression predicts better response to temozolomide, guiding salvage therapy selection",
+        "B) High MGMT expression correlates with improved prognosis independent of treatment",
+        "C) MGMT status determines tumor origin between pituitary and hypothalamic lesions",
+        "D) MGMT immunohistochemistry is used to assess radiation sensitivity"
+      ],
+      "correctOption": 0,
+      "explanation": "MGMT reverses temozolomide-induced alkylation; low expression correlates with better response to TMZ, making it critical for selecting patients for salvage therapy.",
+      "id": "cr-024-sa2-obj-e7eb33",
+      "subtopic": "Pharmacotherapy",
+      "_generatedFrom": "cr-024-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about MGMT status in PitNETs.\n\nFirst, I need to determine the question type. The original answer explains the role of MGMT in temozolomide response. This seems like a fact-based question, so maybe MCQ. But let me check the rules again. The options need to be plausible but wrong. \n\nThe key point is that low MGMT predicts good response, high predicts resistance. So the correct answer is that low MGMT is associated with better response. The options should include this and other plausible distractors. \n\nPossible distractors could be about other drugs, or the opposite effect. For example, high MGMT leading to better response, or MGMT being a receptor. \n\nI need to make sure the explanation in the JSON is brief and accurate. Also, the stem should be clear. Let me structure the MCQ with four options, ensuring the correct option is A, and others are incorrect but plausible. The explanation should mention the role of MGMT in reversing alkylation and the correlation with TMZ response."
+    },
+    {
+      "type": "mcq",
+      "stem": "Before referring a patient for Gamma Knife radiosurgery, which anatomical parameter on MRI must be evaluated, and what is the critical threshold to avoid radiation-induced optic neuropathy?",
+      "options": [
+        "A) Distance from tumor to brainstem; threshold ≥1 mm",
+        "B) Distance from tumor to optic chiasm; threshold ≥2-3 mm",
+        "C) Tumor volume; threshold <10 cm³",
+        "D) Distance from tumor to cerebellum; threshold ≥5 mm"
+      ],
+      "correctOption": 1,
+      "explanation": "The optic chiasm must be at least 2-3 mm from the tumor margin to prevent irreversible radiation damage (chiasm tolerance ~8-10 Gy). Closer proximity necessitates fractionated RT instead of single-fraction SRS.",
+      "id": "cr-024-sa3-obj-8a46ad",
+      "subtopic": "Radiotherapy",
+      "_generatedFrom": "cr-024-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The original question is about the anatomical parameter to check before Gamma Knife radiosurgery and the threshold. The answer mentions the distance between the tumor margin and the optic chiasm needing at least a 2-3 mm gap.\n\nFirst, I need to determine the best question type. Since it's a specific fact with a clear answer, MCQ seems appropriate. The options should include the correct answer and plausible distractors. The key points here are the anatomical parameter (optic chiasm) and the threshold (2-3 mm). \n\nPossible distractors could be other structures like the brainstem or cerebellum, and different distances like 1 mm or 5 mm. I need to ensure the options are clinically accurate. The correct option is the distance to the optic chiasm with 2-3 mm. Other options might mention incorrect structures or thresholds. \n\nI should also check the explanation to ensure it's brief and accurate, mentioning the risk of optic neuropathy and the alternative treatment if the threshold isn't met. Making sure the JSON is correctly formatted with the right keys and values. No markdown, just valid JSON. Let me structure the options so that the correct one is clearly the best choice, and the others are plausible but wrong."
     }
   ]
 }

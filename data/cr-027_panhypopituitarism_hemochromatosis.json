@@ -8,10 +8,26 @@
   "authors": "Endocrine residency training module — illustrative teaching case (OCR of clinical document)",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "h2-074", "title": "Hypopituitarism" },
-    { "id": "h2-073", "title": "Physiology of Anterior Pituitary Hormones" },
-    { "id": "cr-024", "title": "Aggressive Non-Functioning PitNET" },
-    { "id": "cr-028", "title": "Klinefelter Syndrome (47,XXY)" }
+    {
+      "id": "cr-037",
+      "title": "Panhypopituitarism, Prostate Cancer & Testosterone Withdrawal"
+    },
+    {
+      "id": "h2-074",
+      "title": "Hypopituitarism"
+    },
+    {
+      "id": "h2-073",
+      "title": "Physiology of Anterior Pituitary Hormones"
+    },
+    {
+      "id": "cr-024",
+      "title": "Aggressive Non-Functioning PitNET"
+    },
+    {
+      "id": "cr-028",
+      "title": "Klinefelter Syndrome (47,XXY)"
+    }
   ],
   "patient": {
     "age": 41,
@@ -374,6 +390,70 @@
       "reason": "Classic high-penetrance HFE hemochromatosis is caused by C282Y homozygosity, whereas a single HFE allele usually causes little or no iron overload.",
       "correctOption": 3,
       "explanation": "The assertion is false: a single HFE allele rarely produces severe overload, so it cannot adequately explain ferritin >2000. The reason is true — classic disease is C282Y homozygous and single heterozygotes load little iron — which is exactly why the heterozygous result is insufficient and further (non-HFE) testing is needed. False assertion, true reason = option 3."
+    },
+    {
+      "type": "mcq",
+      "stem": "A 35-year-old male with a heterozygous HFE mutation (C282Y) and serum ferritin of 2500 µg/L undergoes whole-exome sequencing. What is the most likely reason for this additional testing?",
+      "options": [
+        "A) To confirm the diagnosis of hereditary hemochromatosis",
+        "B) To identify non-HFE genetic causes of iron overload or compound heterozygosity",
+        "C) To assess for secondary causes of iron overload (e.g., alcohol use)",
+        "D) To determine the need for phlebotomy in this patient"
+      ],
+      "correctOption": 1,
+      "explanation": "Heterozygous HFE mutations alone typically do not cause severe iron overload. Whole-exome sequencing is indicated to identify other hereditary causes (e.g., HJV, HAMP, TFR2, ferroportin) or compound/mosaic variants that better explain the severe iron loading observed in this patient.",
+      "id": "cr-027-why1-obj-9329e0",
+      "subtopic": "Genetics",
+      "_generatedFrom": "cr-027-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why whole-exome sequencing was advised despite a HFE mutation. The answer explains that HFE being heterozygous isn't enough for severe iron overload and that exome sequencing looks for other causes or modifier variants.\n\nFirst, I need to determine the best question type. The answer involves a cause-effect relationship between HFE heterozygosity and the need for further testing. So assertion-reason might fit, but the options are about reasons. Alternatively, an MCQ could work with options explaining different reasons.\n\nLooking at the answer, the key points are: HFE heterozygous isn't sufficient, ferritin >2000 is a mismatch, and exome sequencing finds non-HFE causes or modifiers. The MCQ options should include these points as correct and plausible distractors.\n\nPossible distractors could be things like HFE testing being outdated, or exome sequencing for other reasons. But they need to be plausible but wrong. For example, maybe someone thinks HFE homozygous is the issue, but the answer says heterozygous. Or maybe other reasons like cost or availability, but those aren't medical reasons.\n\nSo the stem should ask why exome sequencing was advised despite HFE mutation. The correct option is about HFE heterozygosity and needing to find other causes. Distractors could be about HFE homozygous, other tests like MRI, or unrelated factors.\n\nI need to make sure the explanation in the JSON is concise, pointing out that HFE heterozygous isn't enough and exome helps find other causes. The correct option would be the one that matches the answer given."
+    },
+    {
+      "type": "mcq",
+      "stem": "In a patient with newly diagnosed panhypopituitarism, what is the correct sequence for initiating glucocorticoid and thyroid hormone replacement, and what is the rationale?",
+      "options": [
+        "A) Initiate levothyroxine first, then hydrocortisone; thyroid hormone reduces cortisol demand",
+        "B) Initiate hydrocortisone first, then levothyroxine; thyroid hormone increases cortisol clearance and demand",
+        "C) Administer both simultaneously; adrenal and thyroid axes are equally critical",
+        "D) Delay both until adrenal axis is confirmed; no immediate replacement is needed"
+      ],
+      "correctOption": 1,
+      "explanation": "Thyroid hormone increases metabolic rate and cortisol demand, so glucocorticoid replacement must precede thyroid hormone to prevent adrenal crisis in patients with undiagnosed secondary adrenal insufficiency.",
+      "id": "cr-027-how1-obj-d0fbf2",
+      "subtopic": "Replacement safety",
+      "_generatedFrom": "cr-027-how1",
+      "distillation_trace": "Okay, let's tackle this question. The user wants an objective exam question based on the provided Q&A about sequencing glucocorticoid and thyroid hormone replacement in panhypopituitarism.\n\nFirst, I need to determine the best question type. The original answer explains why glucocorticoid should be replaced first, mentioning the risk of adrenal crisis if thyroid hormone is given first. This seems like a cause-effect relationship, so assertion_reason might be suitable. However, the question is about the correct sequence, which is a specific fact. MCQ could also work here with options about the order and reasons.\n\nLooking at the rules, MCQ is best for specific facts with plausible options. The answer mentions that thyroid hormone increases cortisol demand, so giving it first could cause adrenal crisis. The correct sequence is glucocorticoid first. For MCQ, the options should include this correct answer and plausible distractors. Distractors might include starting thyroid hormone first, or not considering adrenal axis, or other incorrect reasons.\n\nI need to make sure the options are plausible but wrong. For example, one option could be starting thyroid hormone first without checking adrenal function, another might mention monitoring blood pressure, which isn't directly related. The explanation should briefly state that thyroid hormone increases cortisol demand, so glucocorticoid must be given first to prevent adrenal crisis.\n\nSo the MCQ stem would ask about the correct sequence and reason. The correct option is replacing glucocorticoid first. The explanation should link thyroid hormone's effect on cortisol clearance to the need for prior glucocorticoid replacement."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which pituitary axis is affected earliest and most commonly in hereditary hemochromatosis?",
+      "options": [
+        "A) Gonadal axis",
+        "B) Adrenal axis",
+        "C) Thyroid axis",
+        "D) Hypothalamic axis"
+      ],
+      "correctOption": 0,
+      "explanation": "The gonadal axis is affected earliest due to iron-avid gonadotrophs (rich in transferrin receptors) being damaged before other cell types, leading to hypogonadotropic hypogonadism.",
+      "id": "cr-027-sa1-obj-418a78",
+      "subtopic": "Pathophysiology",
+      "_generatedFrom": "cr-027-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. \n\nFirst, I need to determine the type of question. The original answer discusses the pituitary axis affected earliest in hereditary hemochromatosis, specifically the gonadal axis, and explains why. This seems like a fact-based question with specific details, so an MCQ would be appropriate here.\n\nNext, I need to formulate the stem. The question is about which pituitary axis is affected earliest and most commonly. The options should include the correct answer (gonadal axis) and plausible distractors. The other axes could be adrenal, thyroid, or hypothalamic. \n\nThe correct option is A: Gonadal axis. The explanation in the original answer mentions hypogonadotropic hypogonadism and the presence of secondary amenorrhea. The other options need to be incorrect but plausible. For example, adrenal axis might be a distractor since adrenal issues can occur, but they're not the earliest. Thyroid axis could be another option, but again, not the earliest. Hypothalamic axis might be confused with the pituitary, but the question specifies the pituitary axis.\n\nI need to ensure that the explanation in the JSON is brief and accurate, pointing out that the gonadotrophs are iron-avid and damaged early. Also, the correct option is 0, which means the first option is correct. \n\nI should check that all distractors are plausible but wrong. The original answer mentions that the gonadal issues precede thyroid and adrenal failure, so the other options should reflect later manifestations. \n\nFinally, structure the JSON with the correct type, stem, options, correctOption, and explanation. Make sure there's no markdown and it's valid JSON."
+    },
+    {
+      "type": "mcq",
+      "stem": "A patient with iron overload presents with paradoxically high serum B12 levels. What is the most likely explanation and initial investigation?",
+      "options": [
+        "A) Hepatocellular injury; check liver function tests (AST, ALT, GGT) and assess for fibrosis/cirrhosis",
+        "B) Myeloproliferative disease; check peripheral blood smear and bone marrow biopsy",
+        "C) Renal failure; check serum creatinine and electrolytes",
+        "D) Vitamin B12 supplementation; check dietary history and serum folate levels"
+      ],
+      "correctOption": 0,
+      "explanation": "In iron overload, hepatic damage from iron deposition leads to release of stored B12 from hepatocytes. Liver function tests and fibrosis assessment are critical to confirm hepatocellular injury and evaluate prognosis.",
+      "id": "cr-027-sa2-obj-5a30fa",
+      "subtopic": "Lab pitfalls",
+      "_generatedFrom": "cr-027-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A about high serum B12 in iron overload. The answer mentions hepatocellular injury and checking liver function.\n\nFirst, I need to determine the question type. The original answer explains a specific scenario where high B12 is due to liver damage from iron overload. The key points are the association between high B12 and liver injury, and the necessary investigations.\n\nAn MCQ seems appropriate here because it's a specific clinical scenario with a clear correct answer. The options should include the correct explanation and plausible distractors. The correct option would link high B12 to liver injury and mention liver function tests. Distractors could include other causes like myeloproliferative disorders or renal failure, which are mentioned in the answer as less likely.\n\nI need to ensure the options are plausible but clearly wrong. For example, option B might mention myeloproliferative disease, which is a possible cause but less likely in this context. Option C could talk about renal failure, another less likely cause. Option D might suggest checking renal function, which isn't the primary focus here.\n\nThe explanation should briefly state that in iron overload, liver damage leads to release of stored B12, so liver function tests are key. Other causes are less likely, making the correct answer the one about hepatocellular injury and liver tests.\n\nI need to structure the JSON correctly, making sure the stem is clear, options are in order, and the correct option is 0. The explanation should be concise and accurate."
     }
   ]
 }
