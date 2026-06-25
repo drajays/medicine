@@ -1,0 +1,343 @@
+{
+  "id": "cr-041",
+  "reportType": "case_report",
+  "title": "Escitalopram for 'Any Anxiety': Auditing a Resident's Prescribing Heuristics",
+  "subtitle": "A Resident Training Module: why anxiety is a differential not a prescription, the over-Rx and under-Rx harms of a fixed 5→10 mg / 3–4-month recipe, the correct escitalopram ceiling (20 mg, not 30), why 'bedtime for everyone' and 'never combine' are both wrong, and an assess→classify→treat→continue→taper framework",
+  "section": "Case Reports",
+  "category": "Psychiatry / Clinical Pharmacology",
+  "authors": "Resident/fellowship training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "patient": {
+    "age": null,
+    "sex": "Not applicable (prescribing-pattern teaching module)",
+    "chiefComplaint": "Audit of a blanket prescribing habit: escitalopram for any patient who 'feels anxious'.",
+    "pmh": ["Composite teaching scenario — a resident's standing prescribing rule, not a single patient"],
+    "medications": ["Escitalopram, started 5 mg at bedtime for all, capped at 10 mg, stopped at 3–4 months"]
+  },
+  "caseDescription": "A resident has adopted a fixed heuristic: anyone who reports anxiety is started on escitalopram 5 mg at bedtime, the dose never exceeds 10 mg, the drug is stopped at 3–4 months, there are no objective criteria to start or stop, and it is 'never combined' with any other anti-anxiety medication. This module audits that recipe — naming where each rule causes over-treatment, under-treatment or unsafe practice — and replaces it with a diagnosis-first, response-guided framework. (It is a prescribing-pattern teaching case, not a single-patient vignette.)",
+  "keyFindings": [
+    "Anxiety is a symptom with medical and psychiatric causes — prescribing without a diagnosis risks treating the wrong thing (thyrotoxicosis, arrhythmia, bipolar, depression, substance/withdrawal)",
+    "A universal 5→10 mg cap under-treats: many adults need escitalopram up to 20 mg (the true maximum; 10 mg in elderly/hepatic impairment) — 30 mg is NOT a recommended dose",
+    "A fixed 3–4-month stop ignores relapse prevention: first-episode GAD usually needs 6–12 months after remission, longer if recurrent",
+    "Stopping should be criteria-based (sustained remission, GAD-7 <5, function restored) and by gradual taper — not calendar-based or abrupt",
+    "'Bedtime for everyone' is wrong: escitalopram can be activating and cause insomnia — time it to the individual's side-effect profile",
+    "'Never combine' is a myth: short-term benzodiazepine or hydroxyzine bridging is legitimate; the real danger is stacking serotonergic agents (serotonin syndrome) and QT-prolonging drugs"
+  ],
+  "finalDiagnosis": "A prescribing-heuristic problem rather than a single diagnosis. The resident's rule is unsafe on five fronts: (1) starting without a diagnosis or objective threshold over-treats normal/situational anxiety and misses medical mimics, bipolarity and depression; (2) a universal 10 mg ceiling under-treats genuine anxiety disorders that need titration toward 20 mg; (3) a fixed 3–4-month stop courts relapse and discontinuation symptoms; (4) 'bedtime for all' ignores escitalopram's activating potential; and (5) 'never combine' is incorrect — short-term anxiolytic bridging is reasonable, while the genuinely dangerous combinations are multiple serotonergic drugs (serotonin syndrome) and QT-stacking agents. The remedy is a structured pathway: assess (history + GAD-7/PHQ-9 + medical and bipolar/substance screen + suicide risk) → classify severity → treat the right patients to response (titrate to effect, individualised timing, informed consent, offer CBT) → continue for an evidence-based duration → stop only by criteria with a gradual taper.",
+  "learningObjectives": [
+    "Treat anxiety as a differential diagnosis, screening for medical mimics, bipolarity, depression and substance causes before prescribing.",
+    "State the correct escitalopram dosing (titrate to response up to 20 mg; 10 mg max in elderly/hepatic impairment; 30 mg is not recommended) and the QT/dosing caveats.",
+    "Plan duration by response (6–12 months after first-episode remission, longer if recurrent) and stop by criteria with a gradual taper, not by the calendar.",
+    "Individualise dose timing to the side-effect profile rather than defaulting to bedtime for all.",
+    "Replace 'never combine' with safe, time-limited bridging while avoiding serotonin-syndrome and QT-prolonging combinations."
+  ],
+  "items": [
+    {
+      "id": "cr-041-n1",
+      "type": "note",
+      "subtopic": "Diagnosis first",
+      "title": "Why 'anxiety' is a differential diagnosis, not a prescription indication",
+      "content": "The foundational error is treating the word 'anxiety' as if it were a diagnosis. Anxiety is a symptom with a broad differential that splits into medical mimics and psychiatric disorders. Medical causes that present exactly like an anxiety attack include thyrotoxicosis, cardiac arrhythmia, hypoglycaemia, phaeochromocytoma, asthma/COPD, anaemia, caffeine/stimulant excess, and substance intoxication or withdrawal (including alcohol and benzodiazepines). Psychiatric causes are themselves heterogeneous — generalised anxiety disorder, panic disorder, social anxiety, OCD, PTSD, adjustment disorder, and anxiety that is really the presenting face of depression or a bipolar mixed state. Each of these has a different correct treatment, and several are actively harmed by reflexively starting an SSRI. Earning the right to prescribe means doing the assessment that distinguishes them first.",
+      "keyPoints": [
+        "Anxiety = symptom with medical mimics + heterogeneous psychiatric causes",
+        "Medical: thyrotoxicosis, arrhythmia, hypoglycaemia, phaeo, anaemia, caffeine, withdrawal",
+        "Psychiatric: GAD, panic, social, OCD, PTSD, adjustment, depression, bipolar — different treatments"
+      ]
+    },
+    {
+      "id": "cr-041-n2",
+      "type": "note",
+      "subtopic": "Diagnosis first",
+      "title": "How to screen before prescribing — the can't-miss work-up",
+      "content": "A focused screen separates the patient who needs an SSRI from the one who needs something else. History should map onset, course, triggers, the pattern of worry (excessive worry most days for ≥6 months suggests GAD; discrete surges with autonomic symptoms suggest panic; trauma symptoms suggest PTSD) and the functional impact. Two structural safety checks are non-negotiable: screen for bipolar disorder (a past manic/hypomanic episode), because an unopposed SSRI can precipitate mania, and assess suicide risk, which rises with comorbid anxiety and depression. Add a substance and medication review (steroids, bronchodilators, excess thyroxine, stimulants, caffeine) and targeted investigations where features point that way — TSH/free T4 for thyrotoxicosis, glucose for hypoglycaemia, ECG for arrhythmia, CBC for anaemia. Use a validated tool (GAD-7, with PHQ-9 for co-existing depression) to anchor a baseline and to track response.",
+      "keyPoints": [
+        "Characterise the pattern (GAD vs panic vs PTSD) and document functional impairment",
+        "Mandatory: bipolar screen (SSRI→mania risk) and suicide-risk assessment",
+        "Targeted labs/ECG for mimics; GAD-7 ± PHQ-9 for baseline and follow-up"
+      ]
+    },
+    {
+      "id": "cr-041-n3",
+      "type": "note",
+      "subtopic": "Over-treatment",
+      "title": "Why starting an SSRI for 'any anxiety' over-treats and exposes patients to harm",
+      "content": "Starting escitalopram without a threshold over-treats two groups: people whose anxiety is normal or situational (exam stress, grief, a new job) and people whose anxiety is secondary to something the SSRI will not fix (thyrotoxicosis, an arrhythmia, a medication effect, or untreated bipolar disorder). The cost is real: SSRIs cause nausea, headache, sexual dysfunction, sleep change, an early paradoxical increase in anxiety/'activation' in the first 1–2 weeks (dangerous in an already anxious patient), hyponatraemia (especially elderly, low body weight, on diuretics), increased bleeding risk with NSAIDs/anticoagulants, and dose-related QT effects. Beyond side-effects, reflexive prescribing medicalises ordinary distress — the patient learns 'anxiety means I need a pill' and never builds coping skills — and it can mask a depression or unmask a bipolar mixed state. None of this is justified for mild or self-limiting symptoms.",
+      "keyPoints": [
+        "Over-treats normal/situational anxiety and anxiety secondary to medical/bipolar causes",
+        "SSRI harms: GI, sexual dysfunction, activation, hyponatraemia, bleeding, QT, discontinuation",
+        "Medicalises normal distress and can mask depression / unmask bipolarity"
+      ]
+    },
+    {
+      "id": "cr-041-n4",
+      "type": "note",
+      "subtopic": "Under-treatment",
+      "title": "Why the 'never above 10 mg' ceiling under-treats real anxiety disorders",
+      "content": "A universal cap at 10 mg is the mirror-image error. Many adults with a genuine anxiety disorder need escitalopram titrated higher to reach remission — the recommended therapeutic range goes up to 20 mg/day, and stopping at 10 mg for everyone leaves a predictable group with a partial response: persistent worry, ongoing insomnia and palpitations, continued functional impairment, and the disillusionment ('the medicine doesn't work') that drives non-adherence and self-medication with alcohol or benzodiazepines. Under-treating moderate-to-severe GAD is not benign — it is associated with chronicity, depression, substance misuse and excess healthcare use. The correct principle is start low (5–10 mg) to limit early activation, then titrate to response over weeks, not to anchor on an arbitrary ceiling.",
+      "keyPoints": [
+        "Therapeutic escitalopram goes up to 20 mg — a 10 mg cap leaves partial responders",
+        "Under-treatment ⇒ persistent symptoms, non-adherence, self-medication",
+        "Start low to limit activation, then titrate to response — not to a fixed ceiling"
+      ]
+    },
+    {
+      "id": "cr-041-n5",
+      "type": "note",
+      "subtopic": "Dosing facts",
+      "title": "How to dose escitalopram correctly — and why 30 mg is not a target",
+      "content": "Get the numbers right. Escitalopram's recommended maximum is 20 mg/day in adults; the maximum is 10 mg/day in older adults (broadly ≥65) and in significant hepatic impairment, and caution/lower dosing applies with CYP2C19 poor-metaboliser status or interacting inhibitors. Doses of 30 mg are not recommended and should not be presented as a ceiling — that is a factual error to correct. The reason the limit is firm is dose-dependent QT-interval prolongation: escitalopram (like citalopram) prolongs QT in a dose-related way, so exceeding the recommended maximum, or using it with electrolyte disturbance (low K+/Mg2+), congenital long-QT, cardiac disease, or other QT-prolonging drugs, raises the risk of torsades. Practically: titrate within 5–20 mg (≤10 mg in the elderly/hepatic), check an ECG and electrolytes when QT risk factors are present, and avoid stacking QT-prolonging agents.",
+      "keyPoints": [
+        "Max 20 mg/day (10 mg in elderly/hepatic impairment); 30 mg is NOT recommended",
+        "QT prolongation is dose-related — the basis for the ceiling",
+        "ECG/electrolytes if QT risk factors; avoid combining QT-prolonging drugs"
+      ]
+    },
+    {
+      "id": "cr-041-n6",
+      "type": "note",
+      "subtopic": "Duration",
+      "title": "Why a fixed 3–4-month stop courts relapse",
+      "content": "Stopping at a calendar point ignores how anxiety disorders behave. Reaching symptom remission is not the end-point for treatment duration — the relapse risk stays high for months, so guidelines advise continuing an effective SSRI for at least 6–12 months after remission in a first episode, and longer (often 2 years or indefinitely) for recurrent, severe or residual-symptom courses. A rigid 3–4-month stop frequently lands while the patient is only partway to durable remission, producing relapse, repeated on–off 'cycling', and, if the drug is also stopped abruptly, discontinuation symptoms. The duration is a clinical decision tied to response and risk of recurrence, not a default interval applied to everyone.",
+      "keyPoints": [
+        "Continue ≥6–12 months after first-episode remission; longer if recurrent/severe/residual",
+        "A fixed 3–4-month stop usually pre-empts durable remission ⇒ relapse and cycling",
+        "Duration is individualised to response and recurrence risk"
+      ]
+    },
+    {
+      "id": "cr-041-n7",
+      "type": "note",
+      "subtopic": "Stopping criteria",
+      "title": "How to stop properly — criteria-based and by gradual taper",
+      "content": "Discontinuation should be earned and gentle. Criteria to consider stopping: sustained remission (e.g. GAD-7 consistently <5) for an adequate period, restored function (work, sleep, relationships), coping strategies in place, major stressors resolved or managed, and the patient's informed agreement. Then taper gradually rather than stopping abruptly — typically stepping the dose down over several weeks, and more slowly (including small/liquid decrements, a 'hyperbolic' taper) in those who have been on it long-term or who develop discontinuation symptoms. Abrupt cessation, or stopping while still symptomatic or in the face of a fresh stressor, predicts both relapse and a discontinuation syndrome (dizziness, 'brain zaps', irritability, flu-like symptoms). Do not stop simply because a fixed time has elapsed or because the patient 'feels fine' without rebuilt function.",
+      "keyPoints": [
+        "Stop only on criteria: sustained GAD-7 <5, function restored, stressors managed, consent",
+        "Taper gradually (slower/hyperbolic if long-term or symptomatic on reduction)",
+        "Abrupt or premature stop ⇒ relapse + discontinuation syndrome"
+      ]
+    },
+    {
+      "id": "cr-041-n8",
+      "type": "note",
+      "subtopic": "Timing myth",
+      "title": "Why 'escitalopram at bedtime for everyone' is wrong",
+      "content": "Defaulting every patient to a bedtime dose ignores that escitalopram is not uniformly sedating — for a meaningful minority it is activating and causes insomnia, jitteriness or vivid dreams, which a bedtime dose then aggravates. The correct rule is to individualise timing to the patient's side-effect profile: if the drug makes a given patient drowsy, dose it at night; if it is activating or disrupts their sleep, move it to the morning. Many tolerate either, so you can also let convenience and adherence guide timing once the side-effect pattern is known. The teaching point is small but emblematic of the whole module — replace a one-size rule with a patient-specific decision.",
+      "keyPoints": [
+        "Escitalopram can be activating and cause insomnia, not just sedation",
+        "Time it to the individual: sedating → night, activating/insomnia → morning",
+        "Individualise rather than applying a blanket bedtime rule"
+      ]
+    },
+    {
+      "id": "cr-041-n9",
+      "type": "note",
+      "subtopic": "Combination myth",
+      "title": "Why 'never combine with another anti-anxiety drug' is incorrect",
+      "content": "Treating 'never combine' as an absolute is wrong and can itself under-treat. Because an SSRI takes 2–6 weeks to work, severe early anxiety is legitimately bridged with a short, time-limited adjunct — a low-dose benzodiazepine for the shortest necessary course, or hydroxyzine as a non-dependence-forming alternative — and longer-term augmentation options (buspirone, pregabalin) exist when monotherapy is insufficient. The valid concern behind the slogan is specific, not general: avoid the genuinely dangerous combinations. Do not stack multiple serotonergic agents (another SSRI/SNRI, tramadol, triptans, linezolid or methylene blue, and serotonergic herbals such as St John's wort) because of serotonin-syndrome risk; avoid additive QT-prolonging drugs (e.g. pimozide is contraindicated); and be cautious with sedative stacking and falls in the elderly, and with benzodiazepines plus opioids/alcohol (respiratory depression). The safe rule is 'combine thoughtfully and briefly when indicated, and know the contraindicated pairs', not 'never combine'.",
+      "keyPoints": [
+        "Short-term benzodiazepine/hydroxyzine bridging (and buspirone/pregabalin augmentation) are legitimate",
+        "Real dangers: serotonergic stacking (serotonin syndrome) and QT-prolonging combinations",
+        "Caution with sedation/falls and benzodiazepine + opioid/alcohol — not a blanket 'never'"
+      ]
+    },
+    {
+      "id": "cr-041-n10",
+      "type": "note",
+      "subtopic": "Serotonin syndrome",
+      "title": "How to recognise the serotonin-syndrome risk the 'no-combine' instinct half-captures",
+      "content": "The kernel of truth in 'be careful combining' is serotonin syndrome — a potentially life-threatening result of excess serotonergic activity, usually from combining serotonergic drugs. The classic triad is neuromuscular excitation (clonus, hyperreflexia, tremor, rigidity), autonomic instability (hyperthermia, tachycardia, diaphoresis, diarrhoea) and altered mental state (agitation, confusion); inducible/spontaneous clonus is a particularly useful sign. The high-risk additions to an SSRI are other SSRIs/SNRIs, tramadol and pethidine, triptans, MAO inhibitors including linezolid and methylene blue, and St John's wort. Management is to stop the serotonergic agents, give supportive care (cooling, fluids, benzodiazepines for agitation/rigidity) and, in severe cases, cyproheptadine. So the lesson is not 'never combine anything' but 'know which serotonergic combinations to avoid and recognise the syndrome early'.",
+      "keyPoints": [
+        "Triad: neuromuscular (clonus/hyperreflexia), autonomic (fever/tachycardia), mental-state change",
+        "High-risk add-ons: SSRI/SNRI, tramadol/pethidine, triptans, linezolid/methylene blue, St John's wort",
+        "Treat: stop agents, supportive care/benzodiazepines, cyproheptadine if severe"
+      ]
+    },
+    {
+      "id": "cr-041-n11",
+      "type": "note",
+      "subtopic": "Right framework",
+      "title": "How to replace the heuristic — assess, classify, treat, continue, taper",
+      "content": "Swap the recipe for a pathway. (1) Assess: history plus GAD-7 and PHQ-9, screen for medical mimics, bipolarity and substances, and assess suicide risk. (2) Classify by severity and impairment: mild (GAD-7 <10) usually warrants psychoeducation, lifestyle and CBT with review, not a drug; moderate (10–14) is a shared decision between an SSRI and/or CBT; severe (≥15) or marked impairment warrants an SSRI plus CBT, with psychiatry referral if complex, suicidal, bipolar or refractory. (3) Treat the right patient to response: start escitalopram 5–10 mg, titrate toward 20 mg as needed (≤10 mg elderly/hepatic), individualise timing, give informed consent about side-effects and the 2–6-week onset, and bridge briefly if early anxiety is severe. (4) Continue for an evidence-based duration (≥6–12 months after first-episode remission). (5) Taper by criteria, gradually, watching for relapse. The unifying message: objective assessment in, response-guided treatment through, criteria-based stopping out.",
+      "keyPoints": [
+        "Assess (GAD-7/PHQ-9 + mimics/bipolar/substance/suicide) → classify by severity",
+        "Treat to response (titrate to 20 mg, individualise timing, consent, brief bridging) + offer CBT",
+        "Continue 6–12 months post-remission; taper by criteria, not the calendar"
+      ]
+    },
+    {
+      "id": "cr-041-n12",
+      "type": "note",
+      "subtopic": "Quick reference",
+      "title": "How to act on common OPD 'anxiety' presentations — a one-page rule",
+      "content": "Rapid triage: exam stress or new-job nerves with GAD-7 <10 → psychoeducation, coping, CBT, no SSRI. A single panic attack → rule out a cardiac/metabolic cause (ECG, glucose), then psychoeducation and CBT before reflex medication. Chronic excessive worry most days for over a year with functional impairment (GAD-7 ~14) → SSRI plus CBT referral. Severe anxiety with insomnia and inability to work (GAD-7 ~19) → SSRI (titrate to response) plus therapy, consider brief bridging. Anxiety with tremor and weight loss → check TSH/free T4 first (thyrotoxicosis). Anxiety with palpitations → ECG and glucose first. Anxious patient with a manic history → do not start an unopposed SSRI; refer. Across all of them: confirm the diagnosis, individualise the dose and timing, and plan the stop in advance — the antidote to the resident's recipe.",
+      "keyPoints": [
+        "Mild/situational → no SSRI; single panic → exclude cardiac/metabolic first",
+        "Moderate-severe GAD with impairment → SSRI + CBT, titrate to response",
+        "Tremor+weight loss → thyroid; palpitations → ECG/glucose; manic history → refer, no unopposed SSRI"
+      ]
+    },
+    {
+      "id": "cr-041-why1",
+      "type": "why",
+      "subtopic": "Diagnosis first",
+      "question": "Why is screening for bipolar disorder and medical mimics essential before starting an SSRI for anxiety?",
+      "answer": "Because both can be actively harmed by a reflexive SSRI. If the 'anxiety' is part of an undiagnosed bipolar disorder, an unopposed SSRI can precipitate a manic or mixed state — which can be dangerous and raises suicide risk — so a past manic/hypomanic episode must be sought before prescribing. If the anxiety is a medical mimic (thyrotoxicosis, cardiac arrhythmia, hypoglycaemia, phaeochromocytoma, anaemia, caffeine/stimulant excess, or substance withdrawal), the SSRI will not treat the underlying problem and may delay the correct diagnosis while exposing the patient to side-effects. Identifying comorbid depression also matters because it changes the dose, duration, suicide-risk assessment and prognosis. So the screen is not bureaucratic box-ticking — it changes whether an SSRI is the right treatment at all.",
+      "keyPoints": [
+        "Unopposed SSRI in bipolar disorder can precipitate mania/mixed state",
+        "Medical mimics need their own treatment — an SSRI delays the real diagnosis",
+        "Comorbid depression changes dose, duration, suicide risk and prognosis"
+      ]
+    },
+    {
+      "id": "cr-041-how1",
+      "type": "how",
+      "subtopic": "Right framework",
+      "question": "How should the resident's blanket heuristic be replaced for a patient presenting with anxiety?",
+      "answer": "With a structured pathway. (1) Assess: characterise the anxiety (worry pattern, panic, trauma, duration, impairment), apply GAD-7 and PHQ-9, screen for medical mimics (TSH, glucose, ECG, CBC as indicated), bipolar history and substances, and assess suicide risk. (2) Classify: mild (GAD-7 <10) → psychoeducation, lifestyle and CBT with review, not a drug; moderate (10–14) → shared decision between SSRI and/or CBT; severe (≥15) or marked impairment → SSRI plus CBT, referring to psychiatry if complex, suicidal, bipolar or refractory. (3) Treat the right patient to response: start escitalopram 5–10 mg, individualise the dose timing to the side-effect profile (not automatic bedtime), give informed consent about side-effects and the 2–6-week onset, titrate toward 20 mg if needed (≤10 mg in elderly/hepatic), and bridge briefly with a short benzodiazepine course or hydroxyzine if early anxiety is severe. (4) Continue for ≥6–12 months after first-episode remission (longer if recurrent). (5) Stop only by criteria (sustained GAD-7 <5, restored function, managed stressors, consent), tapering gradually and monitoring for relapse.",
+      "keyPoints": [
+        "Assess → classify by severity → treat to response (titrate to 20 mg, individualise timing) + CBT",
+        "Brief bridging when needed; informed consent and 2–6-week onset counselling",
+        "Continue 6–12 months post-remission; criteria-based gradual taper"
+      ]
+    },
+    {
+      "id": "cr-041-m1",
+      "type": "mcq",
+      "subtopic": "Dosing facts",
+      "stem": "A resident believes escitalopram can be titrated up to 30 mg/day and never below caution in any adult. What is the correct maximum dosing?",
+      "options": [
+        "Up to 20 mg/day in adults; maximum 10 mg/day in the elderly or significant hepatic impairment — 30 mg is not recommended",
+        "Up to 30 mg/day is the standard recommended maximum",
+        "A fixed 10 mg/day for every adult regardless of response",
+        "There is no maximum dose for escitalopram"
+      ],
+      "correctOption": 0,
+      "explanation": "Escitalopram's recommended maximum is 20 mg/day in adults and 10 mg/day in older adults or hepatic impairment, with caution in CYP2C19 poor metabolisers. Doses of 30 mg are not recommended because of dose-related QT prolongation. A universal 10 mg cap under-treats, and 'no maximum' is unsafe."
+    },
+    {
+      "id": "cr-041-m2",
+      "type": "mcq",
+      "subtopic": "Combination myth",
+      "stem": "Which statement about combining escitalopram with other agents is correct?",
+      "options": [
+        "Short-term benzodiazepine or hydroxyzine bridging can be appropriate; the dangerous combinations are serotonergic stacking and QT-prolonging drugs",
+        "Escitalopram must never be combined with any other medication for anxiety",
+        "Adding a second SSRI is a safe way to boost early response",
+        "Combining escitalopram with tramadol is a preferred analgesic strategy in anxious patients"
+      ],
+      "correctOption": 0,
+      "explanation": "Because SSRIs take 2–6 weeks to work, brief, time-limited bridging with a benzodiazepine or hydroxyzine is legitimate, and buspirone/pregabalin can augment. The real hazards are serotonin syndrome from stacking serotonergic drugs (a second SSRI/SNRI, tramadol, linezolid, St John's wort) and additive QT prolongation — not combination per se."
+    },
+    {
+      "id": "cr-041-m3",
+      "type": "mcq",
+      "subtopic": "Diagnosis first",
+      "stem": "A patient reports anxiety with tremor and recent weight loss. What is the most appropriate first step?",
+      "options": [
+        "Check thyroid function (TSH/free T4) before starting an SSRI — thyrotoxicosis mimics anxiety",
+        "Start escitalopram 5 mg at bedtime immediately",
+        "Start a benzodiazepine for rapid relief",
+        "Reassure and arrange review in 3 months with no testing"
+      ],
+      "correctOption": 0,
+      "explanation": "Tremor and weight loss with anxiety point to thyrotoxicosis, which mimics an anxiety disorder; thyroid function tests should be checked first because treating the thyroid, not an SSRI, is the answer. Reflexively starting escitalopram or a benzodiazepine would treat the wrong problem and delay diagnosis."
+    },
+    {
+      "id": "cr-041-m4",
+      "type": "mcq",
+      "subtopic": "Duration",
+      "stem": "A patient with first-episode GAD reaches remission after 3 months on escitalopram. What is the best plan?",
+      "options": [
+        "Continue the effective dose for at least 6–12 months after remission, then reassess for a criteria-based taper",
+        "Stop the drug now because 3 months have elapsed",
+        "Stop abruptly to test whether symptoms return",
+        "Halve the dose immediately to prevent 'too much' treatment"
+      ],
+      "correctOption": 0,
+      "explanation": "Relapse risk remains high after early remission, so an effective SSRI is continued for at least 6–12 months after first-episode remission (longer if recurrent), then stopped only by criteria and gradual taper. Calendar-based or abrupt stopping risks relapse and discontinuation symptoms."
+    },
+    {
+      "id": "cr-041-m5",
+      "type": "mcq",
+      "subtopic": "Serotonin syndrome",
+      "stem": "Which clinical picture should raise concern for serotonin syndrome in a patient on escitalopram?",
+      "options": [
+        "Clonus/hyperreflexia, agitation, fever, tachycardia and diaphoresis after adding a serotonergic drug",
+        "Isolated dry mouth and mild constipation",
+        "Gradual sexual dysfunction over weeks",
+        "A single episode of morning nausea"
+      ],
+      "correctOption": 0,
+      "explanation": "Serotonin syndrome presents with neuromuscular excitation (clonus, hyperreflexia, rigidity), autonomic instability (hyperthermia, tachycardia, diaphoresis, diarrhoea) and altered mental state, typically after adding a serotonergic agent. The other options are common, benign SSRI effects, not serotonin syndrome."
+    },
+    {
+      "id": "cr-041-m6",
+      "type": "mcq",
+      "subtopic": "Timing myth",
+      "stem": "A patient started on bedtime escitalopram develops insomnia and feels 'wired' at night. What is the best adjustment?",
+      "options": [
+        "Move the dose to the morning, since escitalopram can be activating for some patients",
+        "Increase the dose to overcome the insomnia",
+        "Add a second SSRI at night for balance",
+        "Stop the drug permanently as it has failed"
+      ],
+      "correctOption": 0,
+      "explanation": "Escitalopram is activating in a subset of patients and can disrupt sleep; the simple fix is to move the dose to the morning. Increasing the dose or adding a second SSRI would worsen the problem, and stopping permanently for a manageable timing issue is premature."
+    },
+    {
+      "id": "cr-041-tf1",
+      "type": "true_false",
+      "subtopic": "Under-treatment",
+      "statement": "Capping escitalopram at 10 mg for every patient is a safe universal rule that prevents harm.",
+      "correctAnswer": false,
+      "explanation": "False. While 10 mg is the maximum in the elderly and in hepatic impairment, many other adults need titration toward 20 mg to reach remission. A universal 10 mg cap under-treats genuine anxiety disorders, leaving partial responders with persistent symptoms and poor adherence."
+    },
+    {
+      "id": "cr-041-tf2",
+      "type": "true_false",
+      "subtopic": "Stopping criteria",
+      "statement": "Escitalopram should be stopped on a fixed 3–4-month schedule regardless of symptom status, and abrupt cessation is acceptable.",
+      "correctAnswer": false,
+      "explanation": "False. Duration is individualised — typically continued at least 6–12 months after first-episode remission — and stopping is criteria-based (sustained remission, restored function) with a gradual taper. A fixed calendar stop and abrupt cessation risk relapse and a discontinuation syndrome."
+    },
+    {
+      "id": "cr-041-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Diagnosis first",
+      "assertion": "An SSRI should not be started reflexively in a patient whose anxiety might be part of an undiagnosed bipolar disorder.",
+      "reason": "An unopposed SSRI can precipitate a manic or mixed episode in bipolar disorder.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion. Because an unopposed SSRI can trigger mania/mixed states in bipolar disorder, screening for a manic/hypomanic history is required before prescribing, and a reflexive start is unsafe until bipolarity is excluded. Hence option 0."
+    },
+    {
+      "id": "cr-041-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Combination myth",
+      "assertion": "Escitalopram must never, under any circumstances, be combined with another anti-anxiety medication.",
+      "reason": "All combinations of escitalopram with anxiolytics inevitably cause fatal serotonin syndrome.",
+      "correctOption": 4,
+      "explanation": "Both statements are false. Short-term benzodiazepine or hydroxyzine bridging, and buspirone/pregabalin augmentation, are legitimate; not all combinations are dangerous. Serotonin syndrome arises specifically from stacking serotonergic agents, not from any anxiolytic combination, and is not an inevitable or universally fatal outcome. Hence option 4."
+    },
+    {
+      "id": "cr-041-sa1",
+      "type": "shortanswer",
+      "subtopic": "Audit",
+      "question": "List the five things wrong with the resident's heuristic ('escitalopram for any anxiety, 5→10 mg cap, stop at 3–4 months, bedtime for all, never combine').",
+      "answer": "(1) Starting without a diagnosis or objective threshold over-treats normal/situational anxiety and misses medical mimics (thyrotoxicosis, arrhythmia, hypoglycaemia), bipolarity and depression. (2) A universal 10 mg ceiling under-treats genuine anxiety disorders that need titration toward 20 mg. (3) A fixed 3–4-month stop ignores relapse prevention (first-episode GAD usually needs 6–12 months after remission) and risks discontinuation symptoms. (4) 'Bedtime for everyone' ignores that escitalopram can be activating and cause insomnia — timing should be individualised. (5) 'Never combine' is incorrect: short-term benzodiazepine/hydroxyzine bridging is legitimate; the real dangers are serotonergic stacking (serotonin syndrome) and QT-prolonging combinations."
+    },
+    {
+      "id": "cr-041-sa2",
+      "type": "shortanswer",
+      "subtopic": "Dosing facts",
+      "question": "State the correct escitalopram dosing limits and the pharmacological reason for the ceiling.",
+      "answer": "Escitalopram is titrated within 5–20 mg/day in adults, with a maximum of 10 mg/day in older adults (broadly ≥65) and in significant hepatic impairment, and caution/lower dosing in CYP2C19 poor metabolisers or with interacting inhibitors; 30 mg is not a recommended dose. The ceiling exists because escitalopram causes dose-dependent QT-interval prolongation, so exceeding the recommended maximum — or using it with electrolyte disturbance, congenital long-QT, cardiac disease or other QT-prolonging drugs — increases the risk of torsades de pointes. Check an ECG and electrolytes when QT risk factors are present."
+    },
+    {
+      "id": "cr-041-sa3",
+      "type": "shortanswer",
+      "subtopic": "Stopping criteria",
+      "question": "What criteria and method should govern stopping escitalopram?",
+      "answer": "Stop only when criteria are met: sustained remission (e.g. GAD-7 consistently <5) for an adequate period, restored function (work, sleep, relationships), coping strategies in place, major stressors resolved or managed, and the patient's informed agreement — and not simply because a fixed time has elapsed or the patient 'feels fine' without rebuilt function. Then taper gradually over several weeks (slower, with small or liquid decrements, in long-term users or those who develop discontinuation symptoms), avoiding abrupt cessation, and monitor for relapse for some months afterwards. Do not stop while the patient is still symptomatic or facing a fresh major stressor."
+    }
+  ]
+}
