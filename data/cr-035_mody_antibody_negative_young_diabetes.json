@@ -1,0 +1,363 @@
+{
+  "id": "cr-035",
+  "reportType": "case_report",
+  "title": "Antibody-Negative Diabetes in an 18-Year-Old: Is It MODY, and Can the Insulin Stop?",
+  "subtitle": "A Resident Training Module: why young + lean + antibody-negative is not automatically type 1, the C-peptide honeymoon trap (1 year from onset), UCPCR and the MODY probability calculator, GCK vs HNF1A and the sulfonylurea trial, and how to come off insulin safely",
+  "section": "Case Reports",
+  "category": "Endocrinology (Diabetes / Monogenic)",
+  "authors": "Resident/fellowship training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "cr-023", "title": "Complex Diabetes Management in Advanced CKD" },
+    { "id": "cr-032", "title": "Type 3c Diabetes with ABPA and Chronic Pancreatitis" }
+  ],
+  "patient": {
+    "age": 18,
+    "sex": "Not specified",
+    "chiefComplaint": "Diabetes diagnosed at 17 after weight loss; on insulin, questioning the diagnosis.",
+    "pmh": [
+      "Diabetes diagnosed at age 17 (onset ~1 year ago)",
+      "No DKA, no documented ketones at any point",
+      "Strong family history: father DM at 32, mother DM at 32, grandmother DM at 70"
+    ],
+    "medications": ["Rapid-acting insulin 4-4-4 units with meals (≈12 units/day)"]
+  },
+  "caseDescription": "An 18-year-old, diagnosed with diabetes at 17 after weight loss, is on a low-dose bolus insulin regimen (4-4-4 units). Islet autoantibodies are negative (GAD-65 negative, IAA negative), fasting C-peptide is 1.1 ng/mL with a fasting insulin of 1.21 mIU/L, there has never been DKA or documented ketosis, and pancreatic ultrasound is normal. Family history is striking: both parents developed diabetes at 32 and a grandmother at 70 — a vertical, autosomal-dominant-looking pattern. The resident asks why type 1 diabetes is unlikely, what the differential is (MODY heading the list), whether insulin can be stopped, and how to follow the patient up.",
+  "keyFindings": [
+    "Young, lean, antibody-negative diabetes with a vertical multi-generation family history — a monogenic (MODY) pattern",
+    "Negative GAD-65 and IAA reduce, but do not by themselves exclude, type 1 diabetes",
+    "Detectable C-peptide at ~1 year is reassuring but falls within the type 1 honeymoon window — it is most discriminating ≥3–5 years after onset",
+    "Never any DKA/ketosis and a very low insulin requirement (~12 U/day) argue against classic insulin-deficient type 1",
+    "Both parents affected at 32 is atypical and worth scrutinising (shared mutation vs coincidental type 2 in one parent)",
+    "The diagnosis is actionable: confirming HNF1A/HNF4A MODY allows a sulfonylurea and potential insulin freedom; GCK-MODY usually needs no drug therapy at all"
+  ],
+  "finalDiagnosis": "Probable maturity-onset diabetes of the young (MODY) in an antibody-negative young person with preserved C-peptide and a dominant family history, mislabelled and treated as type 1. The correct path is to consolidate the non-type-1 evidence with a confirmatory C-peptide (interpreted against concurrent glucose, ideally repeated as the patient passes 3–5 years from onset), a urinary C-peptide:creatinine ratio and the MODY probability calculator, then genetic testing. If HNF1A (MODY 3) or HNF4A (MODY 1) is confirmed, transition from insulin to a low-dose sulfonylurea (these patients are exquisitely sulfonylurea-sensitive); if GCK (MODY 2) is confirmed, mild stable fasting hyperglycaemia usually needs no pharmacotherapy and insulin can stop. Genetic confirmation has lifelong and family-wide implications and should not be skipped before relabelling the patient.",
+  "learningObjectives": [
+    "Explain why a young, lean, antibody-negative patient with a dominant family history should raise MODY rather than default type 1.",
+    "Avoid the C-peptide 'honeymoon' trap — interpret residual C-peptide against time-from-diagnosis and concurrent glucose, not as a one-off normal value.",
+    "Use non-genetic tools (UCPCR, MODY probability calculator) to select who to send for genetic testing, and confirm with NGS before relabelling.",
+    "Distinguish GCK (MODY 2) from HNF1A/HNF4A (MODY 3/1) and tailor therapy — diet vs low-dose sulfonylurea — including the sulfonylurea-sensitivity pitfall.",
+    "Stop insulin safely via a planned transition, not an abrupt halt, and build a long-term monogenic-diabetes and family-screening follow-up plan."
+  ],
+  "items": [
+    {
+      "id": "cr-035-n1",
+      "type": "note",
+      "subtopic": "Why not type 1",
+      "title": "Why 'young and lean' does not equal type 1 diabetes",
+      "content": "The reflex to call any thin young person with diabetes 'type 1' is exactly what misclassifies monogenic diabetes. The features that should make you pause here are a constellation, not any single test: islet autoantibodies are negative, C-peptide is detectable (endogenous insulin is preserved), there has never been DKA or ketosis, the insulin requirement is tiny (~12 U/day), and there is a vertical, multi-generation family history. Each of those is individually compatible with other diagnoses, but together they describe a monogenic (MODY) pattern far better than autoimmune type 1. The task of this module is to test that hypothesis properly rather than accept or reject it on impression.",
+      "keyPoints": [
+        "Type 1 is a clinical-plus-laboratory diagnosis, not a body-habitus label",
+        "Antibody-negative + preserved C-peptide + no ketosis + dominant family history = think MODY",
+        "No single feature is decisive — weigh the whole constellation"
+      ]
+    },
+    {
+      "id": "cr-035-n2",
+      "type": "note",
+      "subtopic": "Why not type 1",
+      "title": "How to read the negative antibodies — strong but not absolute",
+      "content": "Over 90% of people with type 1 diabetes have at least one detectable islet autoantibody (GAD-65, IA-2, ZnT8, IAA) near diagnosis, so a panel that is negative makes autoimmune type 1 substantially less likely and is a cornerstone of the MODY argument. Two caveats keep you honest. First, only GAD-65 and IAA were checked here; a fuller panel (IA-2, ZnT8) raises the detection rate, so 'antibody-negative' is most secure when the broader panel is negative. Second, IAA is unreliable once exogenous insulin has been given — anti-insulin antibodies from injected insulin confound the assay — so a negative IAA in a treated patient adds little. The clean signal is the negative GAD-65 (ideally with IA-2/ZnT8 added).",
+      "keyPoints": [
+        ">90% of type 1 has ≥1 positive antibody — a negative panel lowers the probability",
+        "Only GAD-65 + IAA were done; adding IA-2/ZnT8 strengthens 'antibody-negative'",
+        "IAA is uninterpretable after exogenous insulin — lean on GAD-65/IA-2/ZnT8"
+      ]
+    },
+    {
+      "id": "cr-035-n3",
+      "type": "note",
+      "subtopic": "C-peptide interpretation",
+      "title": "Why the C-peptide must be read against time-from-diagnosis — the honeymoon trap",
+      "content": "This is the most important pitfall in the case. A fasting C-peptide of 1.1 ng/mL one year after diagnosis is reassuring but not yet decisive, because newly diagnosed type 1 patients retain meaningful C-peptide during the 'honeymoon' period and can take 3–5 years to become fully C-peptide deficient. So preserved C-peptide at ~12 months does not by itself exclude type 1. What makes C-peptide a powerful discriminator is persistence: a clearly detectable C-peptide measured ≥3–5 years after diagnosis (with a non-hypoglycaemic, ideally raised, concurrent glucose) strongly argues against type 1. The practical implications are to interpret today's value cautiously and to plan to repeat C-peptide as the patient moves beyond the honeymoon window — and never to interpret a C-peptide without the simultaneous glucose, since a 'normal' C-peptide during hypoglycaemia means something quite different from the same value during hyperglycaemia.",
+      "keyPoints": [
+        "Type 1 retains C-peptide in the honeymoon; full deficiency can take 3–5 years",
+        "Discriminating value = persistent C-peptide ≥3–5 years post-diagnosis",
+        "Always pair C-peptide with a concurrent glucose — never read it alone"
+      ]
+    },
+    {
+      "id": "cr-035-n4",
+      "type": "note",
+      "subtopic": "C-peptide interpretation",
+      "title": "Why C-peptide (not insulin level) is the right marker on an insulin-treated patient",
+      "content": "C-peptide is co-secreted with endogenous insulin in equimolar amounts but is not present in pharmaceutical insulin, so it reports the patient's own beta-cell output even while they inject insulin — which is why it, rather than a measured insulin level, is the tool of choice. The fasting insulin of 1.21 mIU/L is far less useful: immunoassays for insulin variably cross-react with (or miss) injected analogues, and the result blends endogenous and exogenous sources. So anchor the beta-cell-reserve argument on the C-peptide. For a non-invasive, real-world alternative, the urinary C-peptide:creatinine ratio (UCPCR) on a post-meal sample reflects endogenous secretion well and a preserved value supports a non-type-1, MODY-compatible picture.",
+      "keyPoints": [
+        "C-peptide reflects endogenous insulin even during exogenous insulin therapy",
+        "Measured insulin level is confounded by injected analogue — don't rely on it",
+        "UCPCR is a practical non-invasive surrogate of beta-cell reserve"
+      ]
+    },
+    {
+      "id": "cr-035-n5",
+      "type": "note",
+      "subtopic": "Clinical course",
+      "title": "Why never having ketosis and needing little insulin point away from type 1",
+      "content": "Classic type 1 diabetes is a state of progressive absolute insulin deficiency, so ketosis and DKA appear readily when insulin is withheld or during stress, and replacement requirements climb toward a full weight-based dose. This patient has the opposite trajectory: no DKA at onset, ketones never documented, and a strikingly low total insulin requirement (~12 U/day with no basal). That combination signals substantial residual endogenous insulin — enough to suppress ketogenesis — which fits MODY (or early type 2) rather than autoimmune beta-cell destruction. The weight loss at diagnosis simply reflects the hyperglycaemia and is not specific to any subtype.",
+      "keyPoints": [
+        "Type 1 = ketosis-prone with rising, full-replacement insulin needs",
+        "No ketosis ever + tiny insulin requirement ⇒ preserved endogenous insulin",
+        "Diagnostic weight loss reflects hyperglycaemia, not a specific subtype"
+      ]
+    },
+    {
+      "id": "cr-035-n6",
+      "type": "note",
+      "subtopic": "Family history",
+      "title": "Why the family pattern fits MODY — and why both parents at 32 deserves a second look",
+      "content": "MODY is autosomal dominant, so it characteristically shows vertical transmission across consecutive generations with young-adult onset — exactly the shape suggested here. But the detail that both parents developed diabetes at the same age (32) is unusual and should be examined rather than waved through. Possibilities: the affected parent carries the MODY mutation and transmitted it, while the other parent has coincidental early type 2 diabetes (so-called assortative mating, where people with diabetes partner together); or there is genuine bilineal inheritance. Sorting this out matters because it changes which family members to test and how to interpret the proband's likely mutation. A careful three-generation pedigree, ages at diagnosis, treatment each relative needs, and any associated features (renal cysts, deafness) should be drawn before genetic testing.",
+      "keyPoints": [
+        "Autosomal-dominant vertical transmission with young onset = MODY signature",
+        "Both parents at 32 is atypical — likely one MODY + one coincidental type 2 (assortative mating)",
+        "Draw a detailed three-generation pedigree before sending genetics"
+      ]
+    },
+    {
+      "id": "cr-035-n7",
+      "type": "note",
+      "subtopic": "Selecting who to test",
+      "title": "How to decide who actually needs MODY genetic testing",
+      "content": "Genetic testing is the diagnostic gold standard but should be targeted, not scattered. Build the pre-test probability first: antibody-negative status, persistent/preserved C-peptide (UCPCR ≥ ~0.2 nmol/mmol supports ongoing endogenous secretion), young onset, and a dominant family history. The Exeter MODY probability calculator turns these clinical variables into an estimated likelihood and helps justify testing. When the probability is meaningful, send next-generation-sequencing of the MODY genes (commonly a panel covering GCK, HNF1A, HNF4A, HNF1B and others). Testing the proband first is usual; confirming the same variant in an affected parent strengthens causality and clarifies the family's inheritance. The point is to use cheap clinical tools (antibodies, C-peptide/UCPCR, calculator) to select the right patients for the expensive confirmatory test.",
+      "keyPoints": [
+        "Stack the evidence: antibodies, C-peptide/UCPCR, age, pedigree, MODY calculator",
+        "Then send NGS MODY panel (GCK, HNF1A, HNF4A, HNF1B, …)",
+        "Test proband first; confirm the variant in an affected relative"
+      ]
+    },
+    {
+      "id": "cr-035-n8",
+      "type": "note",
+      "subtopic": "MODY subtypes",
+      "title": "How GCK (MODY 2) differs from HNF1A/HNF4A (MODY 3/1) — and why it changes everything",
+      "content": "The two big actionable buckets behave very differently. GCK-MODY (MODY 2) is a mild, stable, non-progressive fasting hyperglycaemia present from birth: HbA1c is usually only mildly elevated (often <7.5%), it does not typically cause diabetes complications, and it needs no pharmacotherapy outside pregnancy — these patients can usually stop diabetes treatment altogether. HNF1A-MODY (MODY 3) and HNF4A-MODY (MODY 1) are progressive, can cause significant hyperglycaemia and microvascular complications, and — crucially — respond exquisitely to low-dose sulfonylureas. HNF1A also lowers the renal glucose threshold, so glycosuria at near-normal blood glucose is a clinical clue. The therapeutic consequence is stark: confirming GCK means stop drugs; confirming HNF1A/HNF4A means a sulfonylurea and likely insulin freedom. Getting the subtype right is the whole reason for testing.",
+      "keyPoints": [
+        "GCK (MODY 2): mild, stable, complication-sparing — usually no drugs (except pregnancy)",
+        "HNF1A/HNF4A (MODY 3/1): progressive, complication-prone, sulfonylurea-responsive",
+        "HNF1A clue: glycosuria from a low renal threshold"
+      ]
+    },
+    {
+      "id": "cr-035-n9",
+      "type": "note",
+      "subtopic": "Treatment",
+      "title": "Why HNF1A/HNF4A MODY patients need a very low starting sulfonylurea dose",
+      "content": "HNF1A and HNF4A MODY patients are markedly more sensitive to sulfonylureas than people with type 2 diabetes — the defect is in the glucose-sensing/insulin-secretion pathway that sulfonylureas bypass, so a small dose produces a large insulin-secretory response. Most achieve excellent control on a sulfonylurea alone and can come off insulin. The pitfall is hypoglycaemia from starting at a conventional type-2 dose: begin at a fraction of the usual dose (for example gliclazide ~20–40 mg, or an equivalently low dose of another agent) and titrate up slowly with home glucose monitoring. This sulfonylurea sensitivity is also why the diagnosis is worth chasing — it converts a life of injections into, often, a single low-dose oral tablet.",
+      "keyPoints": [
+        "HNF1A/HNF4A are up to several-fold more sulfonylurea-sensitive than type 2",
+        "Start very low (e.g. gliclazide ~20–40 mg) to avoid hypoglycaemia; titrate slowly",
+        "Usually insulin can be withdrawn — a major quality-of-life gain"
+      ]
+    },
+    {
+      "id": "cr-035-n10",
+      "type": "note",
+      "subtopic": "Stopping insulin",
+      "title": "How to come off insulin safely — transition, don't abruptly stop",
+      "content": "Stopping insulin is reasonable here but must be a planned transition, never an abrupt halt, and ideally after the diagnosis is genetically anchored. A safe sequence: (1) confirm reserve with a stimulated C-peptide (mixed-meal or glucagon-stimulated; a stimulated value above ~0.6 ng/mL indicates enough beta-cell function to trial off insulin) and, where possible, the genetic result; (2) if HNF1A/HNF4A is confirmed, introduce a low-dose sulfonylurea while reducing insulin in steps under close self-monitoring (or CGM); (3) if GCK is confirmed, mild stable hyperglycaemia usually needs no drug and insulin can be stopped with dietary management; (4) if genetics are not yet available but the clinical case is strong, a supervised sulfonylurea trial with staged insulin reduction is acceptable. Throughout, watch for the warning signs that you were wrong — rising glucose, ketosis, or a need to re-escalate — which would point back toward type 1.",
+      "keyPoints": [
+        "Plan a transition; don't stop insulin abruptly or before confirming reserve",
+        "Stimulated C-peptide >~0.6 ng/mL supports trialling off insulin",
+        "Re-emerging ketosis/escalating needs ⇒ reconsider type 1"
+      ]
+    },
+    {
+      "id": "cr-035-n11",
+      "type": "note",
+      "subtopic": "Follow-up & family",
+      "title": "Why a MODY diagnosis is a family diagnosis, with lifelong follow-up",
+      "content": "Confirming a MODY mutation reaches beyond the patient. Inheritance is autosomal dominant, so first-degree relatives have a 50% chance of carrying the same variant; siblings and children should be offered testing, and genetic counselling is part of the care. Follow-up still matters because progressive subtypes (HNF1A/HNF4A) carry microvascular complication risk like other diabetes — so annual HbA1c and screening of eyes, kidneys, feet, blood pressure and lipids continue. Pregnancy needs specific planning: sulfonylureas are generally switched to insulin around conception/pregnancy, and in GCK-MODY management depends on whether the fetus has inherited the mutation. Finally, correcting the label in the records (this is not type 1, no autoimmune associations, different prognosis) prevents future clinicians from reflexively re-escalating insulin.",
+      "keyPoints": [
+        "Autosomal dominant — offer testing/counselling to first-degree relatives (50% risk)",
+        "Progressive MODY still needs annual complication screening",
+        "Plan pregnancy (usually switch sulfonylurea to insulin); fix the diagnosis label in records"
+      ]
+    },
+    {
+      "id": "cr-035-n12",
+      "type": "note",
+      "subtopic": "Wider differential",
+      "title": "How to keep the rest of the differential in view (and not miss a syndrome)",
+      "content": "MODY leads the differential, but a few alternatives carry specific tells worth a deliberate check. Early-onset type 2 diabetes fits the antibody-negative, preserved-C-peptide, dominant-family-history picture but usually comes with adiposity/insulin resistance, which this lean, weight-losing patient lacks. LADA is essentially excluded by negative GAD-65 and the young age. Two monogenic syndromes deserve a screening question each: Wolfram syndrome (DIDMOAD) — diabetes insipidus, optic atrophy and deafness (autosomal recessive); and maternally-inherited diabetes and deafness (MIDD, a mitochondrial disorder) — but MIDD is maternally inherited and so does not fit a father-affected pedigree. A pancreatic/structural cause is made unlikely by the normal ultrasound and absent exocrine history. The practical move is to ask about hearing, vision and thirst/polyuria and examine accordingly, so a syndromic diagnosis is not missed while you pursue MODY.",
+      "keyPoints": [
+        "Early type 2: expects adiposity/insulin resistance — absent here",
+        "LADA excluded by negative GAD-65 + young age",
+        "Screen for Wolfram (optic atrophy/deafness/DI); MIDD is maternally inherited (doesn't fit)"
+      ]
+    },
+    {
+      "id": "cr-035-n13",
+      "type": "note",
+      "subtopic": "Quick reference",
+      "title": "How to work up antibody-negative young-onset diabetes — a one-page rule",
+      "content": "Practical algorithm: (1) Confirm it is not type 1 — full islet-antibody panel (GAD-65, IA-2, ZnT8; IAA only pre-insulin) and a C-peptide interpreted with a concurrent glucose, repeated ≥3–5 years from onset to escape the honeymoon. (2) Quantify the family pattern with a three-generation pedigree and ages at diagnosis. (3) Estimate MODY probability (clinical features + UCPCR + Exeter calculator). (4) If probability is meaningful, send an NGS MODY gene panel; confirm in an affected relative. (5) Treat by subtype — GCK: usually no drugs; HNF1A/HNF4A: low-dose sulfonylurea and withdraw insulin; HNF1B: think renal cysts/genital anomalies and often insulin. (6) Transition off insulin under monitoring, watching for ketosis that would send you back to a type 1 diagnosis. (7) Offer family testing and counselling, and continue annual complication screening.",
+      "keyPoints": [
+        "Exclude type 1 (panel + time-corrected C-peptide) → pedigree → MODY calculator → NGS",
+        "Subtype drives therapy: GCK none; HNF1A/HNF4A low-dose sulfonylurea; HNF1B insulin",
+        "Transition off insulin safely; test the family; keep screening for complications"
+      ]
+    },
+    {
+      "id": "cr-035-why1",
+      "type": "why",
+      "subtopic": "C-peptide interpretation",
+      "question": "Why is the preserved C-peptide of 1.1 ng/mL not, on its own, enough to exclude type 1 diabetes here?",
+      "answer": "Because the patient is only about one year from diagnosis, still within the type 1 'honeymoon' window. Newly diagnosed type 1 patients retain clinically meaningful C-peptide for a period and may take 3–5 years to become fully C-peptide deficient, so a detectable value at 12 months is reassuring but not discriminating. C-peptide becomes a powerful argument against type 1 only when it persists at a clearly detectable level measured ≥3–5 years after diagnosis, and only when interpreted alongside the concurrent glucose (a given C-peptide means different things during hyperglycaemia versus hypoglycaemia). The right response is to weigh today's value cautiously within the whole picture (negative antibodies, no ketosis, family history) and to repeat C-peptide as the patient passes beyond the honeymoon, rather than treat one early-normal value as definitive.",
+      "keyPoints": [
+        "At ~1 year the patient is still in the honeymoon — type 1 retains C-peptide",
+        "Discriminating value = persistence ≥3–5 years post-diagnosis, read with concurrent glucose",
+        "Use it as part of the constellation and repeat it later"
+      ]
+    },
+    {
+      "id": "cr-035-how1",
+      "type": "how",
+      "subtopic": "Stopping insulin",
+      "question": "How would you take this patient off insulin safely?",
+      "answer": "Make it a planned transition, ideally after anchoring the diagnosis. First confirm beta-cell reserve with a stimulated C-peptide (mixed-meal or glucagon-stimulated; a value above ~0.6 ng/mL supports trialling off insulin) and, where possible, obtain the MODY genetic result. If HNF1A or HNF4A MODY is confirmed, start a very low-dose sulfonylurea (these patients are exquisitely sensitive — begin at a fraction of the usual dose to avoid hypoglycaemia) and reduce insulin in steps under close self-monitoring or CGM, withdrawing it once control holds. If GCK MODY is confirmed, mild stable fasting hyperglycaemia usually needs no drug and insulin can simply be stopped with dietary management. If genetics are not yet available but the clinical case is strong, a supervised sulfonylurea trial with staged insulin reduction is reasonable. Throughout, monitor for rising glucose or ketosis that would re-open the type 1 question and prompt resuming insulin.",
+      "keyPoints": [
+        "Confirm reserve (stimulated C-peptide >~0.6 ng/mL) ± genetics before withdrawing insulin",
+        "HNF1A/HNF4A: low-dose sulfonylurea + staged insulin reduction; GCK: stop, diet only",
+        "Watch for ketosis/escalating needs ⇒ revisit type 1"
+      ]
+    },
+    {
+      "id": "cr-035-m1",
+      "type": "mcq",
+      "subtopic": "Why not type 1",
+      "stem": "An 18-year-old diagnosed with diabetes at 17 is GAD-65 and IAA negative, has a fasting C-peptide of 1.1 ng/mL, has never had DKA, needs only ~12 U/day of insulin, and has both parents and a grandmother with diabetes. Which diagnosis should now lead the differential?",
+      "options": [
+        "Maturity-onset diabetes of the young (MODY)",
+        "Classic autoimmune type 1 diabetes",
+        "Latent autoimmune diabetes in adults (LADA)",
+        "Ketosis-prone (Flatbush) diabetes"
+      ],
+      "correctOption": 0,
+      "explanation": "Antibody-negative diabetes with preserved C-peptide, no ketosis, a very low insulin requirement and a vertical multi-generation family history is the classic monogenic (MODY) pattern. Negative GAD-65 with young age argues against LADA; the absence of ketosis argues against type 1 and ketosis-prone diabetes."
+    },
+    {
+      "id": "cr-035-m2",
+      "type": "mcq",
+      "subtopic": "C-peptide interpretation",
+      "stem": "How should the fasting C-peptide of 1.1 ng/mL be interpreted given the patient is ~1 year from diagnosis?",
+      "options": [
+        "Reassuring but not exclusionary — type 1 retains C-peptide in the honeymoon; it discriminates best ≥3–5 years from onset",
+        "Definitively excludes type 1 diabetes",
+        "Meaningless because the patient is on insulin",
+        "Indicates insulin resistance and confirms type 2 diabetes"
+      ],
+      "correctOption": 0,
+      "explanation": "Type 1 patients keep meaningful C-peptide during the honeymoon and may take 3–5 years to become fully deficient, so an early detectable value is reassuring but not exclusionary. C-peptide reflects endogenous secretion even on exogenous insulin (so it is not meaningless), and a single value does not establish insulin resistance."
+    },
+    {
+      "id": "cr-035-m3",
+      "type": "mcq",
+      "subtopic": "Selecting who to test",
+      "stem": "Which non-invasive tools best help decide whether to send this patient for MODY genetic testing?",
+      "options": [
+        "Urinary C-peptide:creatinine ratio and the MODY probability calculator, alongside the antibody/pedigree data",
+        "Fasting insulin level alone",
+        "A random blood glucose and BMI",
+        "HOMA-IR insulin-resistance index"
+      ],
+      "correctOption": 0,
+      "explanation": "The UCPCR captures endogenous secretion non-invasively and the Exeter MODY probability calculator combines clinical variables to estimate likelihood — together with the negative antibodies and pedigree they select who should have confirmatory NGS. A fasting insulin is confounded by injected insulin, and glucose/BMI/HOMA-IR do not address monogenic probability."
+    },
+    {
+      "id": "cr-035-m4",
+      "type": "mcq",
+      "subtopic": "MODY subtypes",
+      "stem": "If HNF1A (MODY 3) is confirmed, what is the most appropriate treatment change?",
+      "options": [
+        "Transition to a low-dose sulfonylurea and withdraw insulin, titrating carefully",
+        "Continue full basal-bolus insulin indefinitely",
+        "Start metformin at maximal dose and stop monitoring",
+        "Begin an SGLT2 inhibitor as first-line monotherapy"
+      ],
+      "correctOption": 0,
+      "explanation": "HNF1A-MODY responds exquisitely to sulfonylureas, so a low starting dose (to avoid hypoglycaemia) with staged insulin withdrawal is the targeted, evidence-based change and often achieves insulin freedom. Continuing full insulin is unnecessary, and metformin/SGLT2 inhibitors are not the first-line answer for HNF1A-MODY."
+    },
+    {
+      "id": "cr-035-m5",
+      "type": "mcq",
+      "subtopic": "MODY subtypes",
+      "stem": "Genetic testing instead returns a GCK (MODY 2) mutation. What is the expected management?",
+      "options": [
+        "Usually no pharmacotherapy is needed outside pregnancy; insulin can be stopped with dietary management",
+        "Lifelong high-dose insulin to normalise all glucose readings",
+        "Aggressive sulfonylurea therapy to push HbA1c below 6%",
+        "Immediate pancreas transplantation assessment"
+      ],
+      "correctOption": 0,
+      "explanation": "GCK-MODY causes mild, stable, non-progressive fasting hyperglycaemia that does not typically cause complications and needs no drug therapy outside pregnancy; insulin can be stopped. Chasing a near-normal HbA1c with insulin or sulfonylureas is unnecessary and risks hypoglycaemia."
+    },
+    {
+      "id": "cr-035-m6",
+      "type": "mcq",
+      "subtopic": "Treatment",
+      "stem": "Why must sulfonylureas be started at a very low dose in HNF1A/HNF4A MODY?",
+      "options": [
+        "These patients are markedly more sulfonylurea-sensitive than type 2 patients, risking hypoglycaemia at standard doses",
+        "Sulfonylureas are poorly absorbed in MODY and need loading doses",
+        "They have no effect unless given at maximal dose",
+        "High doses are required to overcome insulin resistance"
+      ],
+      "correctOption": 0,
+      "explanation": "The HNF1A/HNF4A defect lies in the insulin-secretion pathway that sulfonylureas bypass, so a small dose yields a large secretory response — patients are several-fold more sensitive than those with type 2 diabetes and can become hypoglycaemic on conventional doses. Start low and titrate slowly."
+    },
+    {
+      "id": "cr-035-tf1",
+      "type": "true_false",
+      "subtopic": "Why not type 1",
+      "statement": "Negative GAD-65 and IAA on their own completely exclude type 1 diabetes in this patient.",
+      "correctAnswer": false,
+      "explanation": "False. A negative antibody panel makes type 1 much less likely (>90% have ≥1 positive antibody) but does not completely exclude it, especially when only two antibodies were measured and IAA is unreliable after exogenous insulin. The diagnosis rests on the whole picture, including time-corrected C-peptide and, ultimately, genetics."
+    },
+    {
+      "id": "cr-035-tf2",
+      "type": "true_false",
+      "subtopic": "Stopping insulin",
+      "statement": "Insulin should be abruptly stopped as soon as MODY is suspected clinically.",
+      "correctAnswer": false,
+      "explanation": "False. Insulin should be withdrawn through a planned transition — ideally after confirming beta-cell reserve (stimulated C-peptide) and the genetic subtype — introducing a sulfonylurea where appropriate and reducing insulin in steps under monitoring, watching for ketosis that would point back to type 1."
+    },
+    {
+      "id": "cr-035-ar1",
+      "type": "assertion_reason",
+      "subtopic": "C-peptide interpretation",
+      "assertion": "A detectable serum C-peptide in this patient reflects her own beta-cell function despite ongoing insulin injections.",
+      "reason": "C-peptide is co-secreted with endogenous insulin but is not present in pharmaceutical insulin preparations.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion. Because C-peptide is released in equimolar amounts with endogenous insulin and is absent from injected insulin, a measurable C-peptide indicates the patient's own residual beta-cell secretion even while on insulin therapy. Hence option 0."
+    },
+    {
+      "id": "cr-035-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Family history",
+      "assertion": "Both parents developing diabetes at age 32 is fully expected and requires no further thought in a suspected MODY pedigree.",
+      "reason": "MODY is inherited in an autosomal recessive pattern requiring both parents to be affected.",
+      "correctOption": 4,
+      "explanation": "Both statements are false. MODY is autosomal dominant (not recessive), so it does not require both parents to be affected; and both parents being diagnosed at the same young age is atypical and warrants scrutiny — most likely one parent carries the MODY mutation while the other has coincidental early type 2 diabetes (assortative mating). Hence option 4."
+    },
+    {
+      "id": "cr-035-sa1",
+      "type": "shortanswer",
+      "subtopic": "Why not type 1",
+      "question": "List the features in this case that argue against classic type 1 diabetes.",
+      "answer": "Negative islet autoantibodies (GAD-65 and IAA); preserved/detectable C-peptide (1.1 ng/mL); no DKA at presentation and no ketosis ever documented; a very low insulin requirement (~12 U/day with no basal), implying substantial residual endogenous insulin; and a vertical, multi-generation (autosomal-dominant-looking) family history. Each is individually non-specific, but together they fit monogenic (MODY) diabetes better than autoimmune type 1 — with the caveat that the C-peptide is still within the honeymoon window and should be re-checked ≥3–5 years from onset."
+    },
+    {
+      "id": "cr-035-sa2",
+      "type": "shortanswer",
+      "subtopic": "MODY subtypes",
+      "question": "Contrast the treatment of GCK (MODY 2) versus HNF1A (MODY 3), and why the distinction matters.",
+      "answer": "GCK-MODY causes mild, stable, non-progressive fasting hyperglycaemia that does not typically cause diabetes complications and needs no pharmacotherapy outside pregnancy — patients can usually stop treatment, including insulin. HNF1A-MODY is progressive, can cause significant hyperglycaemia and microvascular complications, and responds exquisitely to low-dose sulfonylureas, so treatment is a small sulfonylurea dose with insulin withdrawal. The distinction matters because it dictates opposite actions — no drugs versus a targeted sulfonylurea — and because complication-screening intensity differs."
+    },
+    {
+      "id": "cr-035-sa3",
+      "type": "shortanswer",
+      "subtopic": "Follow-up & family",
+      "question": "Outline the family and long-term follow-up implications once a MODY mutation is confirmed.",
+      "answer": "MODY is autosomal dominant, so first-degree relatives (siblings, children) have a 50% chance of carrying the variant and should be offered genetic testing and counselling; confirming the variant in an affected parent also clarifies the pedigree. Long-term, progressive subtypes (HNF1A/HNF4A) carry microvascular complication risk, so continue annual HbA1c and screening of eyes, kidneys, feet, blood pressure and lipids. Pregnancy needs planning — sulfonylureas are generally switched to insulin around conception/pregnancy, and in GCK-MODY management depends on the fetal mutation status. Correct the diagnosis in the records so future clinicians do not reflexively re-escalate insulin."
+    }
+  ]
+}
