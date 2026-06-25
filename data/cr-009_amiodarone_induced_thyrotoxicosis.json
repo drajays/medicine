@@ -7,6 +7,9 @@
   "category": "Endocrinology & Cardiology",
   "authors": "Clinical case vignette — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "cr-031", "title": "Iatrogenic Hypothyroidism in Graves Disease" }
+  ],
   "patient": {
     "age": 75,
     "sex": "Male",
@@ -597,6 +600,54 @@
       "id": "cr-009-why9-obj-4326bc",
       "subtopic": "Pharmacology",
       "_generatedFrom": "cr-009-why9"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is propranolol preferred over other beta-blockers in the acute management of Graves’ thyrotoxicosis?",
+      "options": [
+        "A) It selectively blocks beta-1 receptors to reduce cardiac symptoms",
+        "B) It inhibits 5'-deiodinase, reducing peripheral conversion of T4 to T3",
+        "C) It has intrinsic sympathomimetic activity to counteract thyrotoxicosis",
+        "D) It increases thyroid hormone binding to plasma proteins"
+      ],
+      "correctOption": 1,
+      "explanation": "Propranolol's non-selective beta-blockade and inhibition of 5'-deiodinase enzyme uniquely reduce T3 levels, providing additional anti-thyroid effects beyond cardiovascular control.",
+      "id": "cr-009-why1-obj-817b42",
+      "subtopic": "Beta-Blockade",
+      "_generatedFrom": "cr-009-why1",
+      "distillation_trace": "Okay, let's tackle this question. The user wants to convert the given Q&A into an objective exam question in JSON format. The original question is about why propranolol is the drug of choice in the acute phase of Graves’ thyrotoxicosis. The answer explains that propranolol inhibits 5'-deiodinase, preventing T4 to T3 conversion.\n\nFirst, I need to determine the best question type. The answer involves a specific mechanism (inhibition of 5'-deiodinase), which is a factual detail. However, the question is about the reason for choosing propranolol, which might be better as an MCQ with options that include this mechanism and other plausible but incorrect reasons.\n\nLooking at the options provided in the answer, the key point is the inhibition of 5'-deiodinase. So, the correct option should mention this. Distractors could include other beta-blockers (like metoprolol) that are selective and don't inhibit the enzyme, or other mechanisms like blocking thyroid hormone receptors, which isn't how propranolol works.\n\nI need to ensure that the options are plausible but clearly wrong. For example, metoprolol is a selective beta-blocker and doesn't inhibit 5'-deiodinase. Another distractor might be that propranolol increases T4 conversion, which is incorrect. Another option could be about blocking thyroid hormone release, which isn't the case here.\n\nThe correct answer is the one that mentions non-selective beta-blocker and inhibition of 5'-deiodinase. The explanation should highlight that this inhibition reduces T3 levels, providing additional benefit beyond heart rate control.\n\nSo, the MCQ stem would ask why propranolol is preferred, and the options would include the correct mechanism and other incorrect ones. The correct option is the one that matches the explanation given in the original answer."
+    },
+    {
+      "type": "mcq",
+      "stem": "What are the life-threatening toxicities of administering methimazole beyond 60 mg/day?",
+      "options": [
+        "A. Agranulocytosis and cholestatic hepatotoxicity",
+        "B. Hypothyroidism and cutaneous rash",
+        "C. Acute liver failure and nephrotoxicity",
+        "D. Neutropenia and gastrointestinal bleeding"
+      ],
+      "correctOption": 0,
+      "explanation": "Methimazole doses >60 mg/day increase risks of agranulocytosis (severe neutropenia) and cholestatic hepatotoxicity, which are life-threatening.",
+      "id": "cr-009-sa4-obj-447999",
+      "subtopic": "Methimazole",
+      "_generatedFrom": "cr-009-sa4",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is the life-threatening toxicities of methimazole when given more than 60 mg/day.\n\nFirst, I need to determine the best question type. The answer provided mentions two specific toxicities: agranulocytosis and cholestatic hepatotoxicity. Since this is a specific fact with clear options, an MCQ seems appropriate. True/false might not work as well because the statement is more detailed. Assertion-reason could be possible, but the answer is straightforward, so MCQ is better.\n\nNext, the stem should be a clear question. The original Q is \"What are the primary risks...\" so maybe rephrase to \"What are the life-threatening toxicities...\" to match the original. The options need to include the correct answer and plausible distractors. The correct answer is agranulocytosis and cholestatic hepatotoxicity. Distractors could include other side effects like hypothyroidism, rash, or nephrotoxicity. These are common but not life-threatening. Another option might be liver failure, but cholestatic hepatotoxicity is more specific. Need to ensure the options are plausible but incorrect.\n\nCheck clinical accuracy: Methimazole's main severe toxicities at high doses are indeed agranulocytosis and hepatotoxicity. So the correct option is A. Other options should be incorrect but realistic. For example, option B could mention hypothyroidism and rash, which are common but not life-threatening. Option C might have liver failure, which is a risk but not the primary one. Option D could be nephrotoxicity and neutropenia, but neutropenia is part of agranulocytosis. Need to make sure the distractors are distinct and incorrect.\n\nNow, structure the JSON with the correct option as 0. Explanation should briefly state the primary risks. Make sure the options are in the right order. The stem is clear, and the explanation is concise. That should cover it."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the mechanism of Type 2 amiodarone-induced thyrotoxicosis (AIT)?",
+      "options": [
+        "A) Destructive thyroiditis due to direct cytotoxic effects of amiodarone on thyroid follicles",
+        "B) Autoimmune thyroiditis with TSH receptor antibodies",
+        "C) Iodine-induced hyperthyroidism from excess iodine intake",
+        "D) Thyroid adenoma with autonomous hormone secretion"
+      ],
+      "correctOption": 0,
+      "explanation": "Type 2 AIT results from amiodarone's direct cytotoxic effect on thyroid follicles, causing rupture and release of pre-formed thyroid hormone.",
+      "id": "cr-009-sa6-obj-59ab24",
+      "subtopic": "AIT Pathophysiology",
+      "_generatedFrom": "cr-009-sa6",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert the given Q&A into an objective exam question in JSON format. The question is about Type 2 amiodarone-induced thyrotoxicosis (AIT). \n\nFirst, I need to determine the best question type. The answer provided describes the mechanism of Type 2 AIT as a destructive thyroiditis due to amiodarone's cytotoxic effect. This seems like a specific fact, so an MCQ would be appropriate. \n\nNext, I'll formulate the stem. The original question asks \"What is Type 2 AIT?\" so the stem should be a question that asks for the definition or description. The correct option is given in the answer. Now, I need to create three plausible distractors. \n\nPossible distractors could be other thyroid conditions or mechanisms. For example, Type 1 AIT is an autoimmune condition, so that's a good distractor. Another could be a thyroid storm, which is a severe complication but not the definition. Another might be a goiter caused by iodine deficiency, which is unrelated. \n\nI need to ensure the options are plausible but clearly wrong. Then, assign the correct option as 0. The explanation should briefly state that Type 2 AIT is a destructive thyroiditis from amiodarone's direct effect. \n\nCheck if all options are distinct and accurate. Make sure the JSON structure is correct with proper commas and brackets. No markdown, just JSON. That should cover it."
     }
   ]
 }
