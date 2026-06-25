@@ -1,0 +1,326 @@
+{
+  "id": "cr-040",
+  "reportType": "case_report",
+  "title": "Primary-Prevention Lipids in an Indian Diabetic: Drop the Aspirin, Stop Chasing the 6%",
+  "subtitle": "A Resident Training Module: why aspirin comes off in primary prevention (ASCEND), why doubling a statin only buys ~6% (so add ezetimibe), risk-stratifying the South-Asian diabetic to an LDL target, the oral-to-injectable ladder (ezetimibe/bempedoic acid/PCSK9i/inclisiran), and the four classic OPD lipid errors",
+  "section": "Case Reports",
+  "category": "Endocrinology (Diabetes / Lipids) / Cardiology",
+  "authors": "Resident/fellowship training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "cr-039", "title": "Statins & Fenofibrate in Diabetic Macular Edema" },
+    { "id": "ht-020", "title": "Pattern B LDL: Small, Dense LDL" }
+  ],
+  "patient": {
+    "age": 50,
+    "sex": "Male",
+    "chiefComplaint": "Routine diabetes follow-up; lipid optimisation.",
+    "pmh": [
+      "Type 2 diabetes",
+      "No known atherosclerotic cardiovascular disease (ASCVD)"
+    ],
+    "medications": ["Ecosprin-AV (atorvastatin 20 mg + aspirin 75 mg) once daily"]
+  },
+  "caseDescription": "A 50-year-old Indian man with type 2 diabetes and no known ASCVD is on Ecosprin-AV (atorvastatin 20 mg + aspirin 75 mg) with an LDL-C of 120 mg/dL. A resident, seeing the LDL above target, switches him to atorvastatin 40 mg. The module audits two decisions — the routine aspirin for primary prevention and the statin up-titration — then builds the correct risk-based target, the oral-to-injectable lowering ladder, and the recurrent OPD lipid errors to drill out of trainees.",
+  "keyFindings": [
+    "Routine aspirin for primary prevention in a diabetic without ASCVD is outdated — ASCEND showed the ischaemic benefit is offset by major bleeding",
+    "He is on a fixed-dose combination (Ecosprin-AV), so stopping aspirin means switching to plain atorvastatin",
+    "Doubling a statin dose lowers LDL-C only ~6% extra ('rule of 6/7') — 20→40 mg barely moves 120 mg/dL toward target",
+    "Adding ezetimibe gives a predictable ~15–25% further LDL reduction — far more than another statin doubling",
+    "Most diabetics (especially the South-Asian phenotype) are at least high risk → LDL-C target <70 mg/dL, or <55 if target-organ damage/very-high risk",
+    "Reaching target from 120 mg/dL usually needs combination therapy (high-intensity statin + ezetimibe ± PCSK9i/inclisiran), not serial dose doublings"
+  ],
+  "finalDiagnosis": "A primary-prevention lipid optimisation problem in a higher-risk South-Asian diabetic, with two teaching corrections. First, the aspirin should generally be stopped: routine aspirin for primary prevention in diabetes without established ASCVD no longer has a favourable benefit–risk balance (ASCEND), so it is discontinued unless subclinical atherosclerosis is demonstrated (e.g. high coronary-artery-calcium score or significant plaque) and after a shared bleeding-risk discussion. Second, the statin step (20→40 mg) is directionally right but quantitatively weak — because doubling a statin adds only ~6% LDL lowering, the efficient path to an LDL-C target (<70 mg/dL at minimum, <55 if target-organ damage) is combination therapy: a high-intensity statin plus early ezetimibe, escalating to a PCSK9 inhibitor or inclisiran if still short. The module also fixes four habitual OPD errors: the 6% blind-spot, ignoring non-HDL-C, the triglyceride/fibrate trap, and premature de-escalation when LDL is gratifyingly low.",
+  "learningObjectives": [
+    "Apply ASCEND to stop routine aspirin in primary-prevention diabetes without ASCVD, and state when aspirin is still reasonable.",
+    "Use the rule of 6/7 to choose combination therapy (add ezetimibe) over serial statin doublings.",
+    "Risk-stratify a South-Asian diabetic to an LDL-C/non-HDL-C target, flagging that exact thresholds are guideline-dependent.",
+    "Sequence the lipid-lowering ladder from high-intensity statin → ezetimibe → bempedoic acid/PCSK9i/inclisiran.",
+    "Recognise and correct the four classic OPD lipid errors, including non-HDL-C use and avoiding premature de-escalation."
+  ],
+  "items": [
+    {
+      "id": "cr-040-n1",
+      "type": "note",
+      "subtopic": "Aspirin",
+      "title": "Why the aspirin should usually come off in primary prevention",
+      "content": "Routine low-dose aspirin for primary prevention in a person with diabetes but no established ASCVD is an outdated reflex. The ASCEND trial (diabetics without cardiovascular disease) showed aspirin produced a modest reduction in serious vascular events that was essentially cancelled out by an equal absolute increase in major bleeding — no net benefit. The practical directive is to discontinue aspirin unless subclinical atherosclerosis is explicitly demonstrated (for example a high coronary-artery-calcium score or significant carotid/coronary plaque), and even then as a shared decision that weighs bleeding risk. A subtlety specific to this prescription: he is on Ecosprin-AV, a fixed-dose atorvastatin+aspirin combination, so 'stopping the aspirin' means switching him to a plain atorvastatin preparation rather than simply omitting a separate tablet.",
+      "keyPoints": [
+        "ASCEND: aspirin's ischaemic benefit in diabetics offset by major bleeding — no net gain",
+        "Discontinue for primary prevention unless subclinical atherosclerosis is proven (CAC/plaque), as a shared decision",
+        "He is on a combo pill — switch to plain atorvastatin to drop the aspirin"
+      ]
+    },
+    {
+      "id": "cr-040-n2",
+      "type": "note",
+      "subtopic": "Aspirin",
+      "title": "How to decide the few diabetics in whom primary-prevention aspirin is still reasonable",
+      "content": "Stopping aspirin is the default, not an absolute rule. Guidelines (e.g. ADA) still allow that aspirin may be considered in selected diabetics at increased cardiovascular risk who are at low bleeding risk, after an explicit conversation — and demonstrated subclinical disease (a high CAC score, significant plaque) shifts the balance toward continuing. Conversely, it should clearly come off when bleeding risk is raised (peptic ulcer disease, prior GI bleed, low platelets, concurrent anticoagulation, advanced age). The teaching point is that aspirin in this setting is an individualised, risk-stratified decision rather than a routine diabetic 'package add-on' — which is exactly how it was being used here. (If he had established ASCVD, aspirin would instead be firmly indicated for secondary prevention.)",
+      "keyPoints": [
+        "Default off; may be considered if high CV risk + low bleeding risk + proven subclinical disease",
+        "Clearly stop if bleeding risk is raised (ulcer/GI bleed, anticoagulant, thrombocytopenia)",
+        "Established ASCVD flips it to a firm secondary-prevention indication"
+      ]
+    },
+    {
+      "id": "cr-040-n3",
+      "type": "note",
+      "subtopic": "Rule of 6",
+      "title": "Why doubling the statin (20→40 mg) barely moved his LDL",
+      "content": "The statin dose–response is logarithmic, captured by the 'rule of 6' (or 'rule of 7'): each doubling of the dose lowers LDL-C only about 6% further. So moving atorvastatin from 20 to 40 mg drops an LDL of 120 mg/dL only to roughly 110–113 mg/dL — directionally correct but quantitatively trivial against a target of <70. Residents intuitively expect a doubled dose to nearly halve the LDL; teaching the rule of 6 corrects that and reframes the question from 'how high can I push the statin?' to 'what do I add?'. The big initial drop comes from being on an effective statin at all (the first dose does most of the work); subsequent doublings yield diminishing returns.",
+      "keyPoints": [
+        "Statin response is logarithmic — each doubling ≈ 6% extra LDL reduction",
+        "Atorva 20→40 takes 120 only to ~110–113 mg/dL — far from <70",
+        "The first effective dose does most of the work; doublings give diminishing returns"
+      ]
+    },
+    {
+      "id": "cr-040-n4",
+      "type": "note",
+      "subtopic": "Ezetimibe",
+      "title": "Why adding ezetimibe beats another statin doubling",
+      "content": "Ezetimibe blocks intestinal cholesterol absorption at the NPC1L1 transporter in the small-bowel brush border, an entirely different mechanism from statins, and adds a predictable ~15–25% further LDL-C reduction on top of a statin — roughly three times what another statin doubling buys. It is well tolerated, oral, cheap, and supported by outcome data (IMPROVE-IT showed added benefit when ezetimibe was combined with a statin). So when an LDL sits well above target, the efficient move is early combination — high-intensity statin plus ezetimibe — rather than grinding up the statin dose for single-digit gains. Many guidelines now endorse upfront statin+ezetimibe when the gap to target is large, as it is here.",
+      "keyPoints": [
+        "Ezetimibe (NPC1L1 inhibitor) adds ~15–25% LDL reduction — ~3× a statin doubling",
+        "Oral, cheap, well tolerated; outcome benefit shown in IMPROVE-IT",
+        "Use early combination when the gap to target is wide"
+      ]
+    },
+    {
+      "id": "cr-040-n5",
+      "type": "note",
+      "subtopic": "Risk & targets",
+      "title": "How to risk-stratify this South-Asian diabetic to a target",
+      "content": "Set the LDL target from cardiovascular risk. Most patients with type 2 diabetes are at least high risk, and the South-Asian phenotype is a recognised risk-enhancing factor (premature, more extensive disease; Western calculators may under-estimate risk), so this 50-year-old diabetic falls at minimum into the high-risk band — broadly an LDL-C target <70 mg/dL (non-HDL-C <100). If screening reveals target-organ damage or additional risk factors — microalbuminuria/CKD, retinopathy, established subclinical atherosclerosis on CAC, or ≥2 major risk factors — he becomes very-high risk with a tighter LDL-C target <55 mg/dL (non-HDL-C <85). Honesty flag: exact numeric thresholds and the South-Asian risk multiplier differ between guidelines (Lipid Association of India / RSSDI vs ESC/EAS vs ACC/AHA), so cite the framework you are using and individualise — the unifying principle is 'higher risk → lower target', and he needs screening (albumin:creatinine ratio, fundus, ± CAC) to finalise the number.",
+      "keyPoints": [
+        "Most diabetics ≥ high risk; South-Asian ethnicity is a risk enhancer → LDL <70 at minimum",
+        "Target-organ damage (albuminuria/CKD, retinopathy) or ≥2 risk factors → very-high risk, LDL <55",
+        "Exact thresholds are guideline-dependent (LAI/RSSDI vs ESC vs ACC/AHA) — screen and individualise"
+      ]
+    },
+    {
+      "id": "cr-040-n6",
+      "type": "note",
+      "subtopic": "Non-HDL-C",
+      "title": "Why non-HDL-C must be read alongside LDL-C in the diabetic",
+      "content": "In diabetic dyslipidaemia LDL-C alone can look falsely reassuring because the particles are small and dense and triglyceride-rich remnant lipoproteins circulate — all atherogenic but not fully captured by LDL-C. Non-HDL-C (= total cholesterol − HDL-C) captures every atherogenic, ApoB-containing particle (LDL, VLDL and their remnants, Lp(a)) in one cheap number that needs no fasting and no Friedewald assumptions. Its target runs 30 mg/dL above the LDL target (so <100 for high risk, <85 for very-high). If the LDL looks 'fine' but non-HDL-C is elevated, atherogenic remnants are still circulating and treatment should be intensified. ApoB is an equivalent or better particle measure where available. Ignoring the rest of the panel and fixating on an isolated LDL is one of the commonest OPD errors.",
+      "keyPoints": [
+        "Non-HDL-C = TC − HDL-C captures all ApoB particles (LDL + remnants); no fasting needed",
+        "Target = LDL target + 30 (high <100, very-high <85)",
+        "Normal LDL with high non-HDL-C ⇒ residual atherogenic remnants — intensify"
+      ]
+    },
+    {
+      "id": "cr-040-n7",
+      "type": "note",
+      "subtopic": "Ladder",
+      "title": "How the oral-to-injectable lowering ladder is sequenced",
+      "content": "Build LDL-lowering in tiers. Step 1 — a high-intensity statin (atorvastatin 40–80 mg or rosuvastatin 20–40 mg) lowers LDL-C ≥50% and provides the bedrock mortality benefit and plaque stabilisation; it is always the foundation. Step 2 — add ezetimibe early (~15–25% more) when the statin alone misses target. For statin-intolerant patients, bempedoic acid (an oral ATP-citrate-lyase inhibitor, activated in liver not muscle, so fewer muscle symptoms) is a further oral option with outcome data (CLEAR Outcomes). Step 3 — injectables when target is still missed on maximally tolerated oral therapy: PCSK9-inhibitor monoclonal antibodies (evolocumab/alirocumab) bind plasma PCSK9 to spare LDL receptors, cutting LDL a further 50–60% with subcutaneous dosing every 2–4 weeks; inclisiran is a small-interfering-RNA that silences hepatic PCSK9 synthesis for a sustained ~50% reduction with dosing at day 0, month 3, then every 6 months — a major adherence advantage. From 120 mg/dL to <70 (let alone <55) this patient will usually need combination therapy, not serial statin doublings.",
+      "keyPoints": [
+        "Step 1 high-intensity statin (≥50%) → Step 2 ezetimibe (±bempedoic acid if statin-intolerant)",
+        "Step 3 PCSK9i mAb (−50–60%, q2–4 weeks) or inclisiran siRNA (~−50%, day 0/3 mo/then 6-monthly)",
+        "Reaching target from 120 usually needs combinations, not dose doublings"
+      ]
+    },
+    {
+      "id": "cr-040-n8",
+      "type": "note",
+      "subtopic": "Triglyceride trap",
+      "title": "Why you optimise the statin before reaching for a fibrate",
+      "content": "When triglycerides are high (>200 mg/dL) in a diabetic, the reflex to start a fibrate immediately is usually premature. High-intensity statins themselves clear a large share of triglyceride-rich VLDL remnants, so maximising the statin (and glycaemic control, weight, alcohol) often brings triglycerides down substantially and addresses the dominant ASCVD driver first. Only if triglycerides remain elevated after that do you add a PPAR-α agonist (fenofibrate; saroglitazar, a dual PPAR-α/γ agent, is used in India for diabetic dyslipidaemia though its cardiovascular-outcome evidence is limited — a doubt-flag). The exceptions that change urgency: very high triglycerides (>500, and especially >885 mg/dL) demand prompt triglyceride-directed therapy (fibrate, lifestyle, sometimes omega-3) to prevent pancreatitis, regardless of LDL. For moderate hypertriglyceridaemia at high ASCVD risk, icosapent ethyl is an evidence-based add-on in selected patients (REDUCE-IT).",
+      "keyPoints": [
+        "Maximise statin first — it clears much TG-rich VLDL and targets the main ASCVD risk",
+        "Add fenofibrate (or saroglitazar in India — limited outcome data) only if TG stays high",
+        "TG >500–885 ⇒ urgent TG-directed therapy to prevent pancreatitis"
+      ]
+    },
+    {
+      "id": "cr-040-n9",
+      "type": "note",
+      "subtopic": "De-escalation",
+      "title": "Why a very low LDL is the goal, not a reason to cut the dose",
+      "content": "A common follow-up error is to reduce the statin when the LDL comes back gratifyingly low (say 48 mg/dL), out of a misplaced fear of 'cholesterol that is too low'. In a high-risk metabolic phenotype a low LDL-C is the therapeutic achievement, not a toxicity — large statin and PCSK9-inhibitor trials drove LDL into the 20s–30s mg/dL with continued event reduction and without a credible harm signal, so 'lower is better' holds. Maintain the intensive regimen indefinitely unless genuine toxicity intervenes (significant transaminitis, statin-associated muscle symptoms with corroborating features). De-escalating an effective regimen simply lets the LDL climb back into the risk zone — undoing the benefit you worked to achieve.",
+      "keyPoints": [
+        "Low on-treatment LDL is the goal, not a side-effect — 'lower is better' has trial support",
+        "Continue the intensive dose indefinitely unless true toxicity occurs",
+        "De-escalation just lets LDL rebound into the risk range"
+      ]
+    },
+    {
+      "id": "cr-040-n10",
+      "type": "note",
+      "subtopic": "Quick reference",
+      "title": "How to manage this patient and drill the four OPD errors — a one-page rule",
+      "content": "Plan for this man: (1) Stop the aspirin (switch Ecosprin-AV to plain atorvastatin) unless subclinical atherosclerosis is proven — primary prevention, ASCEND. (2) Risk-stratify with screening — albumin:creatinine ratio, fundus, lipid panel including non-HDL-C/ApoB, ± CAC — to set the target (<70 at minimum; <55 if target-organ damage/very-high risk). (3) Go to combination, not serial doublings — high-intensity statin + ezetimibe early; escalate to a PCSK9 inhibitor or inclisiran (or bempedoic acid if statin-intolerant) if still short. (4) Treat triglycerides only after maximising the statin; act urgently if TG >500. (5) Maintain the dose when LDL is low — don't de-escalate. Drill the four errors: the 6% blind-spot (double vs add), ignoring non-HDL-C, the triglyceride/fibrate-first trap, and premature de-escalation.",
+      "keyPoints": [
+        "Stop aspirin → risk-stratify/screen → set target → combination therapy to reach it",
+        "Statin first for triglycerides; don't de-escalate a low LDL",
+        "Four errors: 6% blind-spot, ignoring non-HDL-C, fibrate-first, premature de-escalation"
+      ]
+    },
+    {
+      "id": "cr-040-why1",
+      "type": "why",
+      "subtopic": "Rule of 6",
+      "question": "Why is adding ezetimibe a better next step than escalating atorvastatin from 40 to 80 mg?",
+      "answer": "Because of the logarithmic statin dose–response — the 'rule of 6/7' — where each doubling of the statin dose lowers LDL-C only about 6% further. Going from atorvastatin 40 to 80 mg therefore buys only a few more mg/dL, leaving an LDL of ~110 far above a <70 target. Ezetimibe works by a completely different mechanism (blocking intestinal cholesterol absorption at NPC1L1) and adds a predictable ~15–25% further LDL reduction on top of the statin — roughly three times the gain of another doubling — and it is oral, cheap, well tolerated and outcome-supported (IMPROVE-IT). So when the gap to target is wide, early statin+ezetimibe combination is the efficient, evidence-based move rather than grinding the statin dose upward for single-digit returns.",
+      "keyPoints": [
+        "Statin doubling ≈ 6% extra LDL (logarithmic dose–response)",
+        "Ezetimibe adds ~15–25% via a different mechanism — ~3× a doubling",
+        "Early combination beats serial doublings when the gap is large"
+      ]
+    },
+    {
+      "id": "cr-040-how1",
+      "type": "how",
+      "subtopic": "Quick reference",
+      "question": "How would you correct and complete this patient's lipid management plan?",
+      "answer": "(1) Stop the aspirin: switch Ecosprin-AV to plain atorvastatin, because routine aspirin for primary prevention in a diabetic without ASCVD has no net benefit (ASCEND) — keep it only if subclinical atherosclerosis is proven and bleeding risk is low. (2) Risk-stratify properly: screen for target-organ damage (urine albumin:creatinine ratio, fundus) and consider a CAC score, and read non-HDL-C/ApoB alongside LDL-C; this sets the target at <70 mg/dL at minimum, or <55 if very-high risk. (3) Treat to target with combination therapy rather than dose doublings: a high-intensity statin plus early ezetimibe, escalating to a PCSK9 inhibitor or inclisiran (or bempedoic acid if statin-intolerant) if still short of target. (4) Manage triglycerides only after maximising the statin, adding a fibrate if they remain high (urgently if >500 mg/dL to prevent pancreatitis). (5) Once the LDL is low, maintain the intensive regimen indefinitely — do not de-escalate. Throughout, drill the four OPD errors: the 6% blind-spot, ignoring non-HDL-C, fibrate-first, and premature de-escalation.",
+      "keyPoints": [
+        "Stop aspirin (combo→plain statin); screen and risk-stratify to a target",
+        "Combination (statin+ezetimibe ± PCSK9i/inclisiran) to reach <70/<55",
+        "Statin-first for triglycerides; never de-escalate a low LDL"
+      ]
+    },
+    {
+      "id": "cr-040-m1",
+      "type": "mcq",
+      "subtopic": "Aspirin",
+      "stem": "A 50-year-old diabetic man with no known ASCVD is on Ecosprin-AV (atorvastatin 20 + aspirin 75). What is the most appropriate action regarding the aspirin?",
+      "options": [
+        "Stop it (switch to plain atorvastatin) — routine aspirin for primary prevention in diabetes lacks net benefit (ASCEND), unless subclinical atherosclerosis is proven",
+        "Continue it indefinitely — all diabetics need aspirin",
+        "Increase it to 150 mg daily for better protection",
+        "Replace it with clopidogrel for primary prevention"
+      ],
+      "correctOption": 0,
+      "explanation": "ASCEND showed that in diabetics without ASCVD, aspirin's reduction in vascular events is offset by an equal increase in major bleeding — no net benefit. It should be stopped for primary prevention unless subclinical atherosclerosis is demonstrated (and then as a shared decision). Continuing, increasing, or substituting clopidogrel for primary prevention are all inappropriate."
+    },
+    {
+      "id": "cr-040-m2",
+      "type": "mcq",
+      "subtopic": "Rule of 6",
+      "stem": "His LDL-C is 120 mg/dL on atorvastatin 20 mg. Approximately what does doubling to 40 mg achieve?",
+      "options": [
+        "About a 6% further LDL reduction (to roughly 110–113 mg/dL)",
+        "Roughly halving the LDL to ~60 mg/dL",
+        "No change at all",
+        "A 40% further reduction"
+      ],
+      "correctOption": 0,
+      "explanation": "By the rule of 6/7, each statin doubling lowers LDL-C only ~6% further, so 20→40 mg takes 120 only to ~110–113 mg/dL — directionally right but far from a <70 target. This is why combination therapy (adding ezetimibe) is preferred over serial doublings."
+    },
+    {
+      "id": "cr-040-m3",
+      "type": "mcq",
+      "subtopic": "Ezetimibe",
+      "stem": "What is the approximate additional LDL-C reduction from adding ezetimibe 10 mg to a statin, and its mechanism?",
+      "options": [
+        "~15–25% further reduction by inhibiting intestinal cholesterol absorption at NPC1L1",
+        "~6% further reduction by inhibiting HMG-CoA reductase",
+        "~50% further reduction by binding plasma PCSK9",
+        "No additional reduction; it only lowers triglycerides"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezetimibe blocks the NPC1L1 cholesterol transporter in the intestinal brush border, adding ~15–25% LDL-C reduction on top of a statin — roughly three times a statin doubling. It is not a reductase inhibitor (that is the statin) or a PCSK9 binder, and its main effect is on LDL-C."
+    },
+    {
+      "id": "cr-040-m4",
+      "type": "mcq",
+      "subtopic": "Risk & targets",
+      "stem": "Given diabetes plus South-Asian ethnicity and no proven ASCVD, what LDL-C target is most appropriate at minimum, and what would tighten it?",
+      "options": [
+        "<70 mg/dL at minimum (high risk); tighten to <55 if target-organ damage or very-high-risk features are found",
+        "<130 mg/dL is adequate for any diabetic",
+        "<100 mg/dL with no need for further screening",
+        "No target applies because he has no ASCVD"
+      ],
+      "correctOption": 0,
+      "explanation": "Most diabetics are at least high risk, and South-Asian ethnicity is a risk enhancer, so the minimum LDL target is <70 mg/dL; demonstrating target-organ damage (microalbuminuria/CKD, retinopathy), subclinical atherosclerosis or ≥2 risk factors moves him to very-high risk with a <55 target. Exact thresholds are guideline-dependent, but 'no target' or lax targets are wrong for a higher-risk diabetic."
+    },
+    {
+      "id": "cr-040-m5",
+      "type": "mcq",
+      "subtopic": "Non-HDL-C",
+      "stem": "His LDL-C looks near target but the resident has not calculated non-HDL-C. Why does non-HDL-C matter in diabetic dyslipidaemia?",
+      "options": [
+        "It captures all atherogenic ApoB particles including triglyceride-rich remnants that LDL-C can miss",
+        "It measures HDL function directly",
+        "It is only useful in familial hypercholesterolaemia",
+        "It replaces the need to treat LDL-C at all"
+      ],
+      "correctOption": 0,
+      "explanation": "Non-HDL-C (= total cholesterol − HDL-C) captures every atherogenic ApoB-containing particle — LDL plus VLDL/remnants and Lp(a) — which matters in diabetes where small dense LDL and triglyceride-rich remnants make an isolated LDL-C falsely reassuring. Its target is the LDL target + 30. It does not measure HDL function and complements rather than replaces LDL-C."
+    },
+    {
+      "id": "cr-040-m6",
+      "type": "mcq",
+      "subtopic": "Ladder",
+      "stem": "Which injectable lipid-lowering agent is dosed at day 0, month 3, then once every 6 months?",
+      "options": [
+        "Inclisiran (a small-interfering-RNA that silences hepatic PCSK9 synthesis)",
+        "Evolocumab (a PCSK9 monoclonal antibody)",
+        "Alirocumab (a PCSK9 monoclonal antibody)",
+        "Ezetimibe (an oral NPC1L1 inhibitor)"
+      ],
+      "correctOption": 0,
+      "explanation": "Inclisiran is an siRNA silencing hepatic PCSK9 production, dosed subcutaneously at day 0, month 3, then every 6 months — a major adherence advantage, with ~50% LDL reduction. PCSK9 monoclonal antibodies (evolocumab/alirocumab) are given every 2–4 weeks; ezetimibe is an oral daily tablet."
+    },
+    {
+      "id": "cr-040-tf1",
+      "type": "true_false",
+      "subtopic": "De-escalation",
+      "statement": "If a follow-up LDL-C returns at 48 mg/dL on intensive therapy in this high-risk diabetic, the statin dose should be reduced to avoid 'too low' cholesterol.",
+      "correctAnswer": false,
+      "explanation": "False. A low on-treatment LDL-C is the therapeutic goal, not a toxicity; trials have driven LDL into the 20s–30s with continued benefit and no credible harm signal. Maintain the intensive regimen indefinitely unless genuine toxicity occurs — de-escalation just lets the LDL rebound into the risk range."
+    },
+    {
+      "id": "cr-040-tf2",
+      "type": "true_false",
+      "subtopic": "Triglyceride trap",
+      "statement": "When a diabetic has triglycerides of 240 mg/dL, the first step is usually to maximise the statin rather than immediately starting a fibrate.",
+      "correctAnswer": true,
+      "explanation": "True. High-intensity statins clear much of the triglyceride-rich VLDL remnant burden and address the dominant ASCVD risk, so they are optimised first (with glycaemic/lifestyle measures); a fibrate is added only if triglycerides remain high. The exception is very high triglycerides (>500 mg/dL), where urgent triglyceride-directed therapy is needed to prevent pancreatitis."
+    },
+    {
+      "id": "cr-040-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Rule of 6",
+      "assertion": "For a large gap between current and target LDL-C, adding ezetimibe is preferable to doubling the statin dose.",
+      "reason": "Each doubling of a statin dose lowers LDL-C by only about 6%, whereas ezetimibe adds roughly 15–25%.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion. Because the statin dose–response is logarithmic (~6% per doubling) while ezetimibe adds ~15–25% via a different mechanism, combination therapy closes a wide gap to target far more efficiently than serial doublings. Hence option 0."
+    },
+    {
+      "id": "cr-040-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Aspirin",
+      "assertion": "Every patient with diabetes should be on low-dose aspirin regardless of ASCVD status.",
+      "reason": "Aspirin produces a large net cardiovascular benefit in primary prevention that clearly outweighs bleeding in all diabetics.",
+      "correctOption": 4,
+      "explanation": "Both statements are false. Aspirin is not indicated for all diabetics: in primary prevention (no established ASCVD) ASCEND showed the ischaemic benefit is offset by an equal increase in major bleeding, so there is no clear net benefit. Aspirin is reserved for secondary prevention or selected high-risk, low-bleeding-risk individuals. Hence option 4."
+    },
+    {
+      "id": "cr-040-sa1",
+      "type": "shortanswer",
+      "subtopic": "Aspirin",
+      "question": "Justify stopping the aspirin in this patient and state when it would still be reasonable to continue.",
+      "answer": "He is on aspirin for primary prevention (diabetes, no established ASCVD). The ASCEND trial showed that in such patients aspirin's modest reduction in serious vascular events is offset by an equal absolute increase in major bleeding, so there is no net benefit — hence it should be stopped (here by switching the Ecosprin-AV combo to plain atorvastatin). It would still be reasonable to continue (or start) aspirin if subclinical atherosclerosis is demonstrated (e.g. a high coronary-artery-calcium score or significant plaque) in a patient at low bleeding risk and after a shared decision, or — most clearly — if he has established ASCVD, where aspirin is indicated for secondary prevention."
+    },
+    {
+      "id": "cr-040-sa2",
+      "type": "shortanswer",
+      "subtopic": "Ladder",
+      "question": "Outline the lipid-lowering ladder you would use to get this patient from 120 mg/dL to target.",
+      "answer": "Step 1: a high-intensity statin (atorvastatin 40–80 mg or rosuvastatin 20–40 mg) for ≥50% LDL reduction and the core mortality/plaque benefit. Step 2: add ezetimibe early (~15–25% more) since the gap to target is wide; for statin intolerance, bempedoic acid (oral ATP-citrate-lyase inhibitor, activated in liver not muscle) is an alternative/add-on. Step 3: if still above target on maximally tolerated oral therapy, add an injectable — a PCSK9-inhibitor monoclonal antibody (evolocumab/alirocumab, −50–60%, every 2–4 weeks) or inclisiran (siRNA, ~−50%, day 0/month 3/then every 6 months). From 120 mg/dL to <70 (or <55) this usually requires combination therapy rather than serial statin doublings."
+    },
+    {
+      "id": "cr-040-sa3",
+      "type": "shortanswer",
+      "subtopic": "OPD errors",
+      "question": "Name the four classic OPD lipid errors this module targets and the correction for each.",
+      "answer": "(1) The 6% blind-spot — doubling the statin expecting a big drop; correction: each doubling adds only ~6%, so add ezetimibe (~15–25%) instead. (2) Ignoring non-HDL-C — fixating on an isolated LDL-C; correction: calculate non-HDL-C (TC − HDL-C; target = LDL target + 30) to capture atherogenic remnants, especially in diabetic dyslipidaemia. (3) The triglyceride/fibrate-first trap — starting a fibrate before optimising the statin; correction: maximise the high-intensity statin first (it clears much TG-rich VLDL), adding a fibrate only if triglycerides remain high (urgently if >500 to prevent pancreatitis). (4) Premature de-escalation — cutting the dose when LDL is gratifyingly low; correction: a low LDL is the goal ('lower is better'), so maintain the intensive regimen indefinitely unless true toxicity occurs."
+    }
+  ]
+}
