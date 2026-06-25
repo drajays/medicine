@@ -1,0 +1,779 @@
+{
+  "id": "h1-069",
+  "volume": 1,
+  "chapterNo": "78",
+  "title": "Principles of Cancer Treatment",
+  "section": "Oncology",
+  "authors": "Edward A. Sausville, Dan L. Longo",
+  "sourceFile": "Harrison1_chapters/069_Principles_of_Cancer_Treatment/content.md",
+  "items": [
+    {
+      "id": "h1-069-n1",
+      "type": "note",
+      "subtopic": "Diagnosis",
+      "title": "How to establish a cancer diagnosis by biopsy",
+      "content": "A tissue diagnosis is the foundation of cancer care.\nIn most circumstances establishing a cancer diagnosis requires a biopsy with pathologic confirmation; very rarely (e.g., a likely brainstem glioma where biopsy is injurious and imaging is unequivocal) treatment may be based on clinical/imaging evidence.\nThe biopsy hierarchy: excisional biopsy (entire mass with a normal margin) is optimal, incisional biopsy (a wedge) is second choice, core-needle gives less tissue, and fine-needle aspiration yields only a cell suspension — a 'negative' FNA cannot be taken as definitive evidence that a tumor is absent.\nBiopsy tissue also enables molecular characterization (mutational burden, DNA-repair status such as BRCA1/2 and microsatellite instability) to guide therapy.",
+      "keyPoints": [
+        "Biopsy hierarchy: excisional > incisional > core-needle > FNA",
+        "A negative FNA does not rule out cancer",
+        "Tissue defines histology plus molecular markers (mutational burden, BRCA, MSI) for treatment"
+      ],
+      "reference": "ESTABLISHING A CANCER DIAGNOSIS: \"A \\\"negative\\\" fine-needle aspiration cannot be taken as definitive evidence that a tumor is absent.\""
+    },
+    {
+      "id": "h1-069-n2",
+      "type": "note",
+      "subtopic": "Staging",
+      "title": "How TNM staging directs whether treatment is local or systemic",
+      "content": "Defining the extent of disease determines whether localized, combined-modality, or systemic treatment is used.\nStaging systems define a T component (tumor size/local invasion), an N component (number/nature of involved nodes), and an M component (local or distant metastases), aggregated into stages (usually I–III or IV).\nStage I tumors (small, node-negative/minimal, no metastases) are usually amenable to curative local treatment, whereas stage IV tumors (distant metastases or unresectable visceral invasion) are treated with palliative intent — except diseases exceptionally sensitive to systemic therapy.\nTNM is not useful in leukemia (marrow infiltration is never localized) or CNS tumors (histology and resectability drive prognosis).",
+      "keyPoints": [
+        "T (size/invasion) + N (nodes) + M (metastases) → stages I–IV",
+        "Stage I: usually curable with local treatment; stage IV: usually palliative",
+        "TNM does not apply to leukemia or CNS tumors"
+      ],
+      "reference": "CANCER STAGING: \"Staging systems define a \\\"T\\\" component related to the size of the tumor...an \\\"N\\\" component related to the number and nature of lymph node groups...and an \\\"M\\\" component, based on the presence of local or distant metastatic sites.\""
+    },
+    {
+      "id": "h1-069-n3",
+      "type": "note",
+      "subtopic": "Treatment Goals",
+      "title": "Why the goal (cure vs palliation) determines acceptable toxicity",
+      "content": "The treatment intent reframes the risk-benefit calculus.\nThe goal of cancer treatment is first to eradicate the cancer; if that is not possible, the goal shifts to palliation — amelioration of symptoms and preservation of quality of life while striving to extend life.\nWhen cure is possible, treatments may be undertaken despite the certainty of severe toxicities (though these may produce toxicity with no benefit).\nConversely, when the goal is palliation, careful attention to minimizing the toxicity of treatments becomes a significant goal.",
+      "keyPoints": [
+        "Curative intent can justify severe toxicity",
+        "Palliative intent prioritizes minimizing toxicity and preserving quality of life",
+        "Always define the goal before choosing the regimen"
+      ],
+      "reference": "CANCER TREATMENT: \"When cure of cancer is possible, cancer treatments may be undertaken despite the certainty of severe toxicities...Conversely, when the clinical goal is palliation, careful attention to minimizing the toxicity of treatments becomes a significant goal.\""
+    },
+    {
+      "id": "h1-069-n4",
+      "type": "note",
+      "subtopic": "Surgery",
+      "title": "How surgery cures cancer and what R0/sentinel-node mean",
+      "content": "Surgery is the single most effective curative modality.\nSurgery is the most effective means of treating cancer; at least 40% of cancer patients are cured by surgery.\nCurative surgery aims to excise the tumor completely with an adequate margin (an R0 resection); R1 and R2 resections have microscopic or macroscopic tumor at the margins, respectively, and may prompt reoperation.\nThe sentinel-node approach — injecting dye/radioisotope to find the first draining node — provides staging information without the lymphedema risk of resecting all regional nodes; advances in adjuvant therapy have allowed less extensive surgery (e.g., lumpectomy + radiation equals modified radical mastectomy).",
+      "keyPoints": [
+        "≥40% of cancer patients are cured by surgery",
+        "R0 = clear margins; R1/R2 = microscopic/macroscopic residual tumor",
+        "Sentinel-node biopsy stages the axilla without full nodal dissection morbidity"
+      ],
+      "reference": "SURGERY: \"Surgery is the most effective means of treating cancer. At least 40% of cancer patients are cured by surgery.\""
+    },
+    {
+      "id": "h1-069-n5",
+      "type": "note",
+      "subtopic": "Radiation Biology",
+      "title": "Why radiation kills cells (and why hypoxic cells resist)",
+      "content": "Therapeutic radiation works through DNA damage amplified by oxygen.\nIonizing radiation breaks DNA and generates free radicals from cell water that damage cancer-cell membranes, proteins, and organelles.\nRadiation damage is augmented by oxygen, so hypoxic cells are more resistant — a key reason tumor hypoxia limits radiotherapy efficacy.\nDose is quantitated by energy absorbed by the tissue (the Gray: 1 Gy = 1 J/kg = 100 cGy), not by the machine output; cell radiosensitivity is governed by DNA-repair proteins.",
+      "keyPoints": [
+        "Ionizing radiation → DNA breaks + free radicals → cell death",
+        "Oxygen augments damage; hypoxic cells are radioresistant",
+        "Dose = energy absorbed by tissue (Gray; 1 Gy = 100 cGy)"
+      ],
+      "reference": "RADIATION: \"Radiation damage is augmented by oxygen; hypoxic cells are more resistant.\""
+    },
+    {
+      "id": "h1-069-n6",
+      "type": "note",
+      "subtopic": "Radiation Delivery",
+      "title": "How radiation is delivered and why it is fractionated",
+      "content": "Radiation effect depends on total dose, number of fractions, and time.\nMost curative programs are delivered once daily, 5 days/week, in 150–200-cGy fractions; fractionation is used because nondividing cells are more resistant, so repeated fractions expose more tumor cells that have entered the division cycle (while allowing normal tissue to recover).\nRadiation is delivered three ways: teletherapy (external beams), brachytherapy (implanted sources), and systemic radionuclides (e.g., radioiodine for thyroid cancer via the iodide transporter; radium/samarium for prostate bone metastases).\nMegavoltage radiation (>1 MeV) has low lateral scatter, producing a skin-sparing effect and depositing more energy in the target.",
+      "keyPoints": [
+        "Fractionation (150–200 cGy/day) catches more cells in cycle and spares normal tissue",
+        "Delivery: teletherapy (external), brachytherapy (implanted), systemic radionuclides (radioiodine, radium)",
+        "Megavoltage (>1 MeV) is skin-sparing with deeper energy deposition"
+      ],
+      "reference": "Localized Radiation Therapy: \"delivering radiation in repeated fractions is done to expose a larger number of tumor cells that have entered the division cycle.\""
+    },
+    {
+      "id": "h1-069-n7",
+      "type": "note",
+      "subtopic": "Radiation Toxicity",
+      "title": "Why some organs are radiosensitive and the late risk of second cancers",
+      "content": "Radiation tolerance varies by tissue, and late effects can be serious.\nThe most sensitive organs are the male testis, female ovary, and bone marrow (any marrow in a radiation field is eradicated); bone is among the most radioresistant (in children, premature epiphyseal fusion).\nAcute toxicities include mucositis, skin erythema, and marrow suppression; chronic toxicities include hypothyroidism, cataracts/retinal damage, xerostomia with dental caries, accelerated myocardial vascular disease, lung fibrosis, and viscus stricture.\nA serious late toxicity is development of second solid or hematologic tumors in/adjacent to the radiation field, at a rate of ~1% per year beginning in the second decade after treatment.",
+      "keyPoints": [
+        "Most radiosensitive: testis, ovary, bone marrow; most resistant: bone (epiphyseal fusion in children)",
+        "Chronic effects: hypothyroidism, cataracts, xerostomia, cardiac disease, lung/viscus fibrosis",
+        "Second cancers in the field at ~1%/year, starting in the second decade post-treatment"
+      ],
+      "reference": "Toxicity of Radiation Therapy: \"Such tumors can develop in any organ or tissue and occur at a rate of ~1% per year beginning in the second decade after treatment.\""
+    },
+    {
+      "id": "h1-069-n8",
+      "type": "note",
+      "subtopic": "Drug Development",
+      "title": "How anticancer drugs progress through phase 1–3 trials",
+      "content": "Oncology drug development moves from dose-finding to efficacy.\nPhase 1 trials escalate doses (starting at ~1/6–1/10 of the toxic dose in the more sensitive animal species) until reversible toxicity defines dose-limiting toxicity (DLT) and a maximum-tolerated dose (MTD); the MTD or just below is used for phase 2.\nPhase 2 administers a fixed dose to a homogeneous tumor-type group to assess response — a partial response is a ≥50% decrease (bidimensional) or, by RECIST, a 30% decrease in unidimensional target-lesion sums; a complete response is disappearance of all tumor.\nPhase 3 seeks improved overall survival or time-to-progression versus a control; toxicity is graded 1 (no treatment) to 5 (death).",
+      "keyPoints": [
+        "Phase 1: dose escalation → DLT/MTD; phase 2: response at a fixed dose; phase 3: survival vs control",
+        "RECIST partial response = 30% decrease in unidimensional target lesions",
+        "Toxicity grades 1 (none) → 4 (life-threatening) → 5 (death)"
+      ],
+      "reference": "SYSTEMIC CANCER THERAPY OVERVIEW: \"Dose-limiting toxicity (DLT) defines a dose that conveys greater toxicity than would be acceptable in routine practice, allowing definition of a lower maximum-tolerated dose (MTD).\""
+    },
+    {
+      "id": "h1-069-n9",
+      "type": "note",
+      "subtopic": "Chemotherapy Strategy",
+      "title": "How chemotherapy is used: adjuvant, neoadjuvant, high-dose, and palliative",
+      "content": "Chemotherapy is deployed in distinct strategic roles.\nAdjuvant chemotherapy is given after surgery/radiation has removed all clinically apparent disease to eliminate micrometastatic disease (curative potential in lung, breast, colorectal cancer); neoadjuvant chemotherapy is given before local treatment to enhance its effect.\nHigh-dose regimens can markedly increase effect but require hematopoietic stem-cell support (autologous/allogeneic) or pharmacologic rescue, with curative potential in defined settings.\nWhen cure is impossible, palliative chemotherapy aims to improve symptom relief, progression-free survival, or overall survival, generally reserved for patients with ECOG performance status 0–2.",
+      "keyPoints": [
+        "Adjuvant = after local therapy (eliminates micrometastases); neoadjuvant = before local therapy",
+        "High-dose chemo needs stem-cell or pharmacologic rescue",
+        "Palliative chemo: improve symptoms/PFS/OS; generally ECOG PS 0–2"
+      ],
+      "reference": "Strategies in Systemic Cancer Management: \"This use of chemotherapy has curative potential in, for example, lung, breast, and colorectal neoplasms, as it eliminates micrometastatic clinically unapparent tumor.\""
+    },
+    {
+      "id": "h1-069-n10",
+      "type": "note",
+      "subtopic": "Therapeutic Index",
+      "title": "Why cytotoxic chemotherapy has a narrow therapeutic index",
+      "content": "The therapeutic index reflects how selectively a drug spares normal tissue.\nThe therapeutic index is the separation between toxic and therapeutic doses; useful drugs have large indices, usually when the target is expressed in the disease compartment rather than normal tissue.\nCytotoxic chemotherapeutic agents have the unfortunate property that their main targets — DNA and microtubules — are present in both normal and tumor tissues, so they have relatively narrow therapeutic indices.\nTargeted agents and biologics can also harm normal tissue (off-target effects, misdirected immune responses), so dosing seeks benefit with a tolerable side-effect profile.",
+      "keyPoints": [
+        "Therapeutic index = gap between toxic and effective doses",
+        "Cytotoxics target DNA/microtubules present in normal cells too → narrow index",
+        "Even targeted/biologic agents have off-target or immune toxicities"
+      ],
+      "reference": "General Principles: \"Cytotoxic chemotherapeutic agents have the unfortunate property that their main targets, DNA and microtubules, are present in both normal and tumor tissues. Therefore, they have relatively narrow therapeutic indices.\""
+    },
+    {
+      "id": "h1-069-n11",
+      "type": "note",
+      "subtopic": "Antibody Therapy",
+      "title": "How monoclonal antibodies are used against cancer",
+      "content": "Four general antibody strategies target tumors.\nAnti-tumor-cell antibodies bind tumor cells directly to inhibit intracellular functions or recruit immune/stromal cells (e.g., rituximab against CD20 in B-cell lymphomas; cetuximab against EGFR in colorectal/head-and-neck cancer).\nBispecific T-cell-engaging (BiTe) antibodies bind both a tumor antigen and a host immune cell (e.g., blinatumomab links CD19 on B cells to CD3 on T cells in ALL, with cytokine-release-syndrome risk).\nImmunoregulatory antibodies target host immune cells to boost antitumor immunity, and antibody conjugates link the antibody to a drug, toxin, or radioisotope; trastuzumab (anti-HER2) and pertuzumab can damage cardiac function, especially after anthracyclines.",
+      "keyPoints": [
+        "Anti-tumor-cell (rituximab/CD20, cetuximab/EGFR), BiTe (blinatumomab CD19×CD3), immunoregulatory, and conjugate antibodies",
+        "Trastuzumab/pertuzumab (anti-HER2) — check and monitor LVEF (cardiotoxic, worse after anthracyclines)",
+        "Blinatumomab → cytokine release syndrome and neurologic toxicity"
+      ],
+      "reference": "Antibody-Mediated Therapeutic Approaches: \"Four general strategies have emerged using antibodies. Anti-tumor cell antibodies target tumor cells directly...Bispecific tumor engaging (BiTe) antibodies directly bind to a tumor cell and to a host immune cell...\""
+    },
+    {
+      "id": "h1-069-n12",
+      "type": "note",
+      "subtopic": "Checkpoint Inhibitors",
+      "title": "How immune checkpoint inhibitors work and why MSI/TMB predict response",
+      "content": "Checkpoint inhibitors release the brakes on antitumor T cells.\nTumor-directed cytotoxic T cells are inhibited by ligands the tumor upregulates: PD-L1 engages the PD-1 receptor on T cells to dampen the response, and CTLA-4 on T cells downregulates the proliferative response to tumor antigens.\nAntibodies against this axis — ipilimumab (anti-CTLA-4), nivolumab (anti-PD-1), atezolizumab (anti-PD-L1), pembrolizumab — reactivate immunity across many cancers (pembrolizumab is first-line for PD-L1-expressing metastatic NSCLC, replacing chemotherapy in that subset).\nTumors with high mutational burden or DNA-mismatch-repair deficiency/MSI respond best (more neoantigens), leading to the first 'tissue-agnostic' approvals based on MSI-high or TMB ≥10 mutations/megabase.",
+      "keyPoints": [
+        "Block PD-1/PD-L1 and CTLA-4 to reactivate antitumor T cells",
+        "ipilimumab (CTLA-4), nivolumab/pembrolizumab (PD-1), atezolizumab (PD-L1)",
+        "MSI-high / mismatch-repair-deficient / high TMB → tissue-agnostic indication (more neoantigens)"
+      ],
+      "reference": "IMMUNOREGULATORY ANTIBODIES: \"detection of deficiencies in a tumor DNA mismatch repair system or with evidence of increased tumor mutation burden is a specific indication for use of certain immunoregulatory agents, irrespective of the disease site of origin.\""
+    },
+    {
+      "id": "h1-069-n13",
+      "type": "note",
+      "subtopic": "Immune-Related Toxicity",
+      "title": "Why checkpoint inhibitors cause immune-related adverse events",
+      "content": "Releasing immune brakes can unleash autoimmunity in normal organs.\nProminent autoimmune hepatic, cardiac, endocrine, cutaneous, neurologic, and gastrointestinal adverse events can occur with ipilimumab and PD-1-directed antibodies.\nEmergency glucocorticoids may be required to attenuate severe toxicities, and although glucocorticoids could theoretically blunt the antitumor effect, response rates do not appear compromised when steroids are used to abrogate serious organ toxicity.\nImportantly for the generalist, these immunologic toxicities can occur late after exposure — even while the patient still has sustained tumor control.",
+      "keyPoints": [
+        "Immune-related AEs: hepatic, cardiac, endocrine, cutaneous, neurologic, GI",
+        "Treat severe irAEs with glucocorticoids (antitumor efficacy generally preserved)",
+        "irAEs can appear late, even during ongoing tumor control"
+      ],
+      "reference": "IMMUNOREGULATORY ANTIBODIES: \"immunologic toxicities can occur late after exposure to the modulators of PD and CTLA4 action, even while the patient may have sustained control of tumor growth.\""
+    },
+    {
+      "id": "h1-069-n14",
+      "type": "note",
+      "subtopic": "CAR-T",
+      "title": "How CAR-T therapy works and its characteristic toxicities",
+      "content": "CAR-T cells re-engineer a patient's own T cells to attack the tumor.\nIn this autologous approach, the patient's T cells are removed, retrovirally transduced to express a chimeric antigen receptor (CAR) recognizing a tumor antigen, expanded ex vivo, and returned to the patient.\nCD19-directed CAR-T cells have durable activity in refractory B-cell neoplasms (diffuse large B-cell lymphoma, mantle cell lymphoma, ALL), and anti-BCMA CAR-T is approved for multiple myeloma.\nProminent adverse effects are cytokine release syndrome (fever, tachycardia, hypotension) and neurologic manifestations; the most common resistance mechanism is antigen-negative escape (outgrowth of tumor cells that no longer express the target).",
+      "keyPoints": [
+        "Autologous T cells engineered with a chimeric antigen receptor (e.g., anti-CD19, anti-BCMA)",
+        "Durable responses in refractory B-cell neoplasms and multiple myeloma",
+        "Toxicities: cytokine release syndrome and neurotoxicity; resistance via antigen loss"
+      ],
+      "reference": "T Cell-Mediated Therapies: \"Prominent adverse effects include cytokine release syndrome (fever, tachycardia, hypotension) and neurologic manifestations.\""
+    },
+    {
+      "id": "h1-069-n15",
+      "type": "note",
+      "subtopic": "Platinum Agents",
+      "title": "Why cisplatin requires vigorous hydration and causes neuro/oto toxicity",
+      "content": "Cisplatin forms DNA cross-links (grouped with alkylating agents) and has a distinctive toxicity profile.\nCisplatin is given with abundant hydration, including forced diuresis with mannitol, to prevent kidney damage; even so, gradual decline in kidney function and anemia are common, and hypomagnesemia frequently occurs (which can cause hypocalcemia and tetany).\nOther common toxicities are a stocking-and-glove sensorimotor neuropathy and hearing loss in 50% of patients at conventional doses, and cisplatin is intensely emetogenic (requires prophylactic antiemetics); myelosuppression is less than with other alkylators.\nCarboplatin causes less nephro-/oto-/neurotoxicity but more myelosuppression and is dosed by creatinine clearance; oxaliplatin is prominently neurotoxic and active in colon cancer.",
+      "keyPoints": [
+        "Cisplatin: hydrate to protect kidneys; nephrotoxicity, hypomagnesemia, neuropathy, hearing loss (50%), severe emesis",
+        "Carboplatin: more myelosuppression, less nephro/oto/neuro — dose by creatinine clearance",
+        "Oxaliplatin: prominent neurotoxicity, active in colon cancer"
+      ],
+      "reference": "DNA-Interactive Agents (Cisplatin): \"Cisplatin is administered with abundant hydration, including forced diuresis with mannitol to prevent kidney damage...Hearing loss occurs in 50% of patients treated with conventional doses.\""
+    },
+    {
+      "id": "h1-069-n16",
+      "type": "note",
+      "subtopic": "Anthracyclines",
+      "title": "Why doxorubicin causes cumulative cardiomyopathy",
+      "content": "Doxorubicin's signature dose-limiting toxicity is the heart.\nDoxorubicin intercalates DNA and poisons topoisomerase II, and can generate reactive oxygen radicals; cumulative doses >550 mg/m² are associated with a 10% incidence of chronic cardiomyopathy related to iron-catalyzed oxidative damage in the heart.\nThe risk relates to peak serum concentration, so low-dose frequent or continuous infusions are better tolerated than intermittent high doses; cardiotoxicity is increased when given with trastuzumab, and dexrazoxane is a cardioprotectant.\nDoxorubicin is a powerful vesicant (extravasation causes necrosis) and is hepatically metabolized, so doses must be reduced 50–75% in liver dysfunction.",
+      "keyPoints": [
+        "Cumulative dose >550 mg/m² → ~10% chronic cardiomyopathy (oxidative/iron-mediated)",
+        "Risk tied to peak concentration; worse with trastuzumab; dexrazoxane is cardioprotective",
+        "Powerful vesicant; reduce dose in hepatic dysfunction"
+      ],
+      "reference": "DNA-Interactive Agents (Doxorubicin): \"cumulative doses >550 mg/m^2 are associated with a 10% incidence of chronic cardiomyopathy.\""
+    },
+    {
+      "id": "h1-069-n17",
+      "type": "note",
+      "subtopic": "Bleomycin",
+      "title": "Why bleomycin causes pulmonary fibrosis and demands oxygen caution",
+      "content": "Bleomycin is curative in some tumors but uniquely lung-toxic.\nBleomycin (used in Hodgkin's lymphoma and germ-cell tumors) causes little myelosuppression, but its most feared complication is pulmonary fibrosis, which increases at >300 cumulative units and is minimally responsive to glucocorticoids.\nThe earliest indicator is a decline in the carbon monoxide diffusing capacity (DLCO) or cough; stopping the drug at that point may not prevent further decline.\nBecause bleomycin-dependent electron transport requires O2 and the inactivating enzyme bleomycin hydrolase is poorly expressed in lung, toxicity can appear after exposure to high inspired oxygen — so prior-bleomycin patients should be kept on the lowest FIO2 adequate for oxygenation during surgery.",
+      "keyPoints": [
+        "Bleomycin → pulmonary fibrosis (rises >300 cumulative units; minimally steroid-responsive)",
+        "Earliest sign: falling DLCO or cough",
+        "Avoid high FIO2 (e.g., during anesthesia) even late after treatment"
+      ],
+      "reference": "Antitumor Antibiotics (Bleomycin): \"patients with prior exposure to bleomycin should be maintained on the lowest FIO2 consistent with maintaining adequate tissue oxygenation.\""
+    },
+    {
+      "id": "h1-069-n18",
+      "type": "note",
+      "subtopic": "Cyclophosphamide",
+      "title": "How cyclophosphamide-induced cystitis is prevented",
+      "content": "Cyclophosphamide's bladder toxicity comes from a metabolite, and is preventable.\nCyclophosphamide is inactive until the liver metabolizes it to 4-hydroxy-cyclophosphamide, which decomposes to an alkylating species and to acrolein, the latter causing chemical cystitis — so excellent hydration must be maintained during use.\nIf severe (or anticipated from high doses), the cystitis can be attenuated or prevented by mesna (2-mercaptoethanesulfonate).\nIfosfamide, a cyclophosphamide analogue, requires co-administration of mesna to prevent bladder injury and can cause CNS effects (somnolence, confusion, psychosis), more so with low body surface area or reduced creatinine clearance.",
+      "keyPoints": [
+        "Acrolein (a cyclophosphamide metabolite) causes hemorrhagic cystitis → maintain excellent hydration",
+        "Mesna prevents/attenuates the cystitis",
+        "Ifosfamide requires mesna and can cause CNS toxicity (encephalopathy)"
+      ],
+      "reference": "Alkylating agents (Cyclophosphamide): \"The latter causes chemical cystitis; therefore, excellent hydration must be maintained while using cyclophosphamide. If severe, the cystitis may be attenuated or prevented altogether...by mesna (2-mercaptoethanesulfonate).\""
+    },
+    {
+      "id": "h1-069-n19",
+      "type": "note",
+      "subtopic": "Antimetabolites",
+      "title": "How leucovorin rescues normal cells from methotrexate",
+      "content": "Methotrexate's mechanism is exploited by a rescue strategy.\nMethotrexate inhibits dihydrofolate reductase, depleting reduced folates so cells die a 'thymine-less' death; N5-formyltetrahydrofolate (leucovorin) bypasses this block and rescues cells, enabling high-dose methotrexate with leucovorin rescue (e.g., adjuvant osteosarcoma).\nMethotrexate is renally cleared, so toxicity is augmented by renal dysfunction and by drugs undergoing tubular secretion (salicylates, probenecid, NSAIDs), and high doses can cause renal failure by tubular crystallization — requiring urine alkalinization and hydration.\nIt can be sequestered in third-space collections (ascites, effusions) and diffuse back, causing prolonged myelosuppression.",
+      "keyPoints": [
+        "Methotrexate inhibits dihydrofolate reductase → 'thymine-less' death; leucovorin rescues normal cells",
+        "Renal clearance: avoid with NSAIDs/salicylates/probenecid; alkalinize urine + hydrate at high dose",
+        "Third-space sequestration (effusions/ascites) prolongs myelosuppression"
+      ],
+      "reference": "Antimetabolites (Methotrexate): \"N5-Tetrahydrofolate or N5-formyltetrahydrofolate (leucovorin) can bypass this block and rescue cells from methotrexate...\""
+    },
+    {
+      "id": "h1-069-n20",
+      "type": "note",
+      "subtopic": "Microtubule Agents",
+      "title": "Why vinca alkaloids and taxanes act oppositely on microtubules",
+      "content": "Both classes disrupt the mitotic spindle but in opposite ways.\nMicrotubules are built from α/β-tubulin heterodimers; vincristine binds tubulin and disaggregates (depolymerizes) microtubules, blocking cells in M-phase with a disordered spindle that triggers apoptosis — its signature toxicity is glove-and-stocking neuropathy (with little myelosuppression at conventional doses), and it is a powerful vesicant.\nThe taxanes (paclitaxel, docetaxel) instead stabilize microtubules against depolymerization, so they cannot undergo the dynamic changes needed for cell division; they are broadly active in solid tumors but their vehicles cause hypersensitivity reactions, requiring premedication with dexamethasone and antihistamines.\nTaxanes also cause myelosuppression and glove-and-stocking neuropathy.",
+      "keyPoints": [
+        "Vinca alkaloids depolymerize microtubules; signature toxicity is neuropathy (vincristine spares marrow)",
+        "Taxanes stabilize microtubules; vehicle causes hypersensitivity → premedicate (dexamethasone/antihistamine)",
+        "Both cause peripheral neuropathy; vincristine is a vesicant"
+      ],
+      "reference": "Mitotic Spindle Inhibitors: \"The taxanes...differ from the vinca alkaloids in that the taxanes stabilize microtubules against depolymerization.\""
+    },
+    {
+      "id": "h1-069-q1",
+      "type": "mcq",
+      "subtopic": "Diagnosis",
+      "question": "A fine-needle aspiration of a suspicious breast mass returns 'negative for malignancy.' How should this be interpreted?",
+      "options": [
+        "It definitively excludes cancer",
+        "It cannot be taken as definitive evidence that a tumor is absent",
+        "It is equivalent to an excisional biopsy",
+        "It mandates immediate mastectomy"
+      ],
+      "correctOption": 1,
+      "explanation": "A negative FNA cannot be taken as definitive evidence that a tumor is absent; FNA yields only a cell suspension. Excisional biopsy (the whole mass with a margin) is the optimal diagnostic procedure.",
+      "reference": "ESTABLISHING A CANCER DIAGNOSIS: \"A \\\"negative\\\" fine-needle aspiration cannot be taken as definitive evidence that a tumor is absent.\""
+    },
+    {
+      "id": "h1-069-q2",
+      "type": "mcq",
+      "subtopic": "Staging",
+      "question": "The TNM staging system is generally NOT useful for which of the following?",
+      "options": [
+        "Breast cancer",
+        "Colon cancer",
+        "Leukemia",
+        "Lung cancer"
+      ],
+      "correctOption": 2,
+      "explanation": "TNM is not useful in leukemia, where bone marrow infiltration is never localized, or in CNS tumors, where histology and resectability drive prognosis.",
+      "reference": "CANCER STAGING: \"the TNM staging system is not useful in diseases such as leukemia, where bone marrow infiltration is never localized...\""
+    },
+    {
+      "id": "h1-069-q3",
+      "type": "mcq",
+      "subtopic": "Surgery",
+      "question": "A surgical resection leaving microscopic tumor at the margins is classified as:",
+      "options": [
+        "R0 resection",
+        "R1 resection",
+        "R2 resection",
+        "Sentinel resection"
+      ],
+      "correctOption": 1,
+      "explanation": "R0 is a complete resection with clear margins; R1 has microscopic residual tumor at the margin; R2 has macroscopic residual tumor. R1/R2 may prompt reoperation for optimal margins.",
+      "reference": "SURGERY: \"R1 and R2 resections, in contrast, are imprecisely defined pathologically as having microscopic or macroscopic, respectively, tumor at resection margins.\""
+    },
+    {
+      "id": "h1-069-q4",
+      "type": "mcq",
+      "subtopic": "Neoadjuvant",
+      "question": "Chemotherapy given before any surgery or radiation to a local tumor, to enhance the effect of subsequent local treatment, is termed:",
+      "options": [
+        "Adjuvant chemotherapy",
+        "Neoadjuvant chemotherapy",
+        "Palliative chemotherapy",
+        "High-dose chemotherapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Neoadjuvant chemotherapy is administered before local treatment to enhance its effect (and shrink the tumor). Adjuvant chemotherapy is given after local treatment to eliminate micrometastases.",
+      "reference": "Strategies in Systemic Cancer Management: \"Neoadjuvant chemotherapy refers to administration of chemotherapy before any surgery or radiation to a local tumor in an effort to enhance the effect of subsequent local treatment.\""
+    },
+    {
+      "id": "h1-069-q5",
+      "type": "mcq",
+      "subtopic": "Radiation Biology",
+      "question": "Why are hypoxic regions of a tumor relatively resistant to radiation therapy?",
+      "options": [
+        "Hypoxic cells divide faster",
+        "Radiation damage is augmented by oxygen, so its absence reduces DNA damage",
+        "Hypoxic cells lack DNA",
+        "Oxygen blocks radiation penetration"
+      ],
+      "correctOption": 1,
+      "explanation": "Radiation damage is augmented by oxygen (free-radical formation), so hypoxic cells are more resistant — a key limitation of radiotherapy in poorly oxygenated tumor regions.",
+      "reference": "RADIATION: \"Radiation damage is augmented by oxygen; hypoxic cells are more resistant.\""
+    },
+    {
+      "id": "h1-069-q6",
+      "type": "mcq",
+      "subtopic": "Radiation Toxicity",
+      "question": "Which organ is among the MOST sensitive to therapeutic radiation?",
+      "options": [
+        "Bone",
+        "Skeletal muscle",
+        "Bone marrow",
+        "Peripheral nerve"
+      ],
+      "correctOption": 2,
+      "explanation": "The male testis, female ovary, and bone marrow are the most sensitive organs (any marrow in a radiation field is eradicated). Bone, muscle, heart, and nerves are relatively resistant to immediate effects.",
+      "reference": "Toxicity of Radiation Therapy: \"the male testis, female ovary, and bone marrow are the most sensitive organs.\""
+    },
+    {
+      "id": "h1-069-q7",
+      "type": "mcq",
+      "subtopic": "Radiation Late Effects",
+      "question": "The risk of a second solid or hematologic tumor developing in or adjacent to a radiation field is approximately:",
+      "options": [
+        "1% per year, beginning in the second decade after treatment",
+        "10% per year, beginning immediately",
+        "Negligible at any time",
+        "50% lifetime risk within 1 year"
+      ],
+      "correctOption": 0,
+      "explanation": "Second tumors occur in or adjacent to the radiation field at a rate of about 1% per year, beginning in the second decade after treatment — a serious late toxicity.",
+      "reference": "Toxicity of Radiation Therapy: \"occur at a rate of ~1% per year beginning in the second decade after treatment.\""
+    },
+    {
+      "id": "h1-069-q8",
+      "type": "mcq",
+      "subtopic": "Drug Development",
+      "question": "In a phase 1 oncology trial, the dose just below that producing unacceptable toxicity, used to define the dose for phase 2, is the:",
+      "options": [
+        "Optimal biologic dose",
+        "Maximum-tolerated dose (MTD)",
+        "Minimum effective dose",
+        "Area under the curve"
+      ],
+      "correctOption": 1,
+      "explanation": "Dose escalation continues until dose-limiting toxicity (DLT) is observed, defining the maximum-tolerated dose (MTD); the MTD or just below is generally used for phase 2 trials.",
+      "reference": "SYSTEMIC CANCER THERAPY OVERVIEW: \"allowing definition of a lower maximum-tolerated dose (MTD). The MTD or a dose just lower than the MTD is usually the dose suitable for phase 2 trials...\""
+    },
+    {
+      "id": "h1-069-q9",
+      "type": "mcq",
+      "subtopic": "Performance Status",
+      "question": "Palliative (noncurative) chemotherapy is generally considered suitable for patients with which ECOG performance status?",
+      "options": [
+        "PS 0–2 only",
+        "PS 3 only",
+        "PS 4 only",
+        "Any performance status"
+      ],
+      "correctOption": 0,
+      "explanation": "Only ECOG PS 0, 1, and 2 patients are generally considered suitable for palliative (noncurative) treatment; poor-PS patients may still be treated if there is curative potential.",
+      "reference": "Strategies in Systemic Cancer Management: \"Only PS0, PS1, and PS2 patients are generally considered suitable for palliative (noncurative) treatment.\""
+    },
+    {
+      "id": "h1-069-q10",
+      "type": "mcq",
+      "subtopic": "Checkpoint Inhibitors",
+      "question": "Pembrolizumab and nivolumab exert their antitumor effect by:",
+      "options": [
+        "Directly cross-linking tumor DNA",
+        "Blocking the PD-1/PD-L1 axis to reactivate antitumor T cells",
+        "Inhibiting topoisomerase II",
+        "Depleting extracellular asparagine"
+      ],
+      "correctOption": 1,
+      "explanation": "Nivolumab (anti-PD-1) and pembrolizumab (anti-PD-1) block the PD-1/PD-L1 inhibitory axis, releasing the brake on tumor-directed T cells. They are most effective in tumors with high mutational burden or MSI.",
+      "reference": "IMMUNOREGULATORY ANTIBODIES: \"antibodies directed against the PD signaling axis (both anti-PD-L1 and anti-PD) might be useful in cancer treatment by allowing reactivation of the immune response against tumors.\""
+    },
+    {
+      "id": "h1-069-q11",
+      "type": "mcq",
+      "subtopic": "Tissue-Agnostic Therapy",
+      "question": "Which tumor feature is a tissue-agnostic indication for immune checkpoint inhibitor therapy?",
+      "options": [
+        "Low tumor mutational burden",
+        "Microsatellite-stable status",
+        "DNA mismatch-repair deficiency / MSI-high",
+        "Absence of PD-L1 expression"
+      ],
+      "correctOption": 2,
+      "explanation": "DNA mismatch-repair deficiency / microsatellite instability-high (and high tumor mutational burden, ≥10 mutations/megabase) is a tissue-agnostic indication for certain immunoregulatory agents, because more neoantigens are recognized as foreign.",
+      "reference": "IMMUNOREGULATORY ANTIBODIES: \"detection of deficiencies in a tumor DNA mismatch repair system or with evidence of increased tumor mutation burden is a specific indication...irrespective of the disease site of origin.\""
+    },
+    {
+      "id": "h1-069-q12",
+      "type": "mcq",
+      "subtopic": "Antibody Therapy",
+      "question": "Before starting trastuzumab (or pertuzumab), which assessment is most important, particularly in patients with prior anthracycline exposure?",
+      "options": [
+        "Pulmonary diffusing capacity (DLCO)",
+        "Left ventricular ejection fraction",
+        "Audiometry",
+        "Creatinine clearance"
+      ],
+      "correctOption": 1,
+      "explanation": "Trastuzumab and pertuzumab can damage cardiac function, especially after anthracyclines, so left ventricular function should be checked before and monitored during treatment.",
+      "reference": "ANTI-TUMOR CELL ANTIBODIES: \"Both trastuzumab and pertuzumab can damage cardiac function, particularly in patients with prior exposure to anthracyclines, and left ventricular function should be checked before treatment and monitored during treatment.\""
+    },
+    {
+      "id": "h1-069-q13",
+      "type": "mcq",
+      "subtopic": "BiTe / CAR-T",
+      "question": "A patient receiving blinatumomab (a CD19×CD3 BiTe antibody) develops fever, hypotension, and tachycardia. This most likely represents:",
+      "options": [
+        "Tumor lysis syndrome",
+        "Cytokine release syndrome",
+        "Anaphylaxis to the vehicle",
+        "Veno-occlusive disease"
+      ],
+      "correctOption": 1,
+      "explanation": "Cytokine release syndrome (fever, hypotension, tachycardia) is a characteristic toxicity of blinatumomab and of CAR-T therapy; neurologic deterioration (e.g., worsening handwriting) can also occur and may warrant dose pausing/glucocorticoids.",
+      "reference": "ANTI-TUMOR CELL ANTIBODIES: \"Unique toxicities include cytokine release syndrome (fever, hypotension, tachycardia)...\""
+    },
+    {
+      "id": "h1-069-q14",
+      "type": "mcq",
+      "subtopic": "Cisplatin",
+      "question": "Which toxicity occurs in about 50% of patients treated with conventional doses of cisplatin?",
+      "options": [
+        "Cardiomyopathy",
+        "Pulmonary fibrosis",
+        "Hearing loss",
+        "Hemorrhagic cystitis"
+      ],
+      "correctOption": 2,
+      "explanation": "Hearing loss occurs in 50% of patients treated with conventional cisplatin doses; other toxicities include nephrotoxicity (requiring hydration), hypomagnesemia, peripheral neuropathy, and severe emesis.",
+      "reference": "DNA-Interactive Agents (Cisplatin): \"Hearing loss occurs in 50% of patients treated with conventional doses.\""
+    },
+    {
+      "id": "h1-069-q15",
+      "type": "mcq",
+      "subtopic": "Doxorubicin",
+      "question": "Chronic cardiomyopathy from doxorubicin is most associated with which factor?",
+      "options": [
+        "A single low dose",
+        "Cumulative doses exceeding 550 mg/m²",
+        "Concurrent hydration",
+        "Subcutaneous administration"
+      ],
+      "correctOption": 1,
+      "explanation": "Cumulative doxorubicin doses >550 mg/m² carry a ~10% incidence of chronic cardiomyopathy (iron-catalyzed oxidative damage); risk relates to peak concentration, and it is worsened by trastuzumab. Dexrazoxane is cardioprotective.",
+      "reference": "DNA-Interactive Agents (Doxorubicin): \"cumulative doses >550 mg/m^2 are associated with a 10% incidence of chronic cardiomyopathy.\""
+    },
+    {
+      "id": "h1-069-q16",
+      "type": "mcq",
+      "subtopic": "Bleomycin",
+      "question": "A patient previously treated with bleomycin requires surgery. What perioperative precaution is most important?",
+      "options": [
+        "Give prophylactic high-dose glucocorticoids",
+        "Maintain the lowest FIO2 consistent with adequate oxygenation",
+        "Administer maximal supplemental oxygen",
+        "Avoid all intravenous fluids"
+      ],
+      "correctOption": 1,
+      "explanation": "Bleomycin's electron transport is O2-dependent and the inactivating enzyme is poorly expressed in lung, so high inspired oxygen can precipitate pulmonary toxicity even late after treatment; keep FIO2 as low as possible during anesthesia.",
+      "reference": "Antitumor Antibiotics (Bleomycin): \"patients with prior exposure to bleomycin should be maintained on the lowest FIO2 consistent with maintaining adequate tissue oxygenation.\""
+    },
+    {
+      "id": "h1-069-q17",
+      "type": "mcq",
+      "subtopic": "Cyclophosphamide",
+      "question": "Which agent prevents the hemorrhagic cystitis caused by the cyclophosphamide (and ifosfamide) metabolite acrolein?",
+      "options": [
+        "Leucovorin",
+        "Mesna",
+        "Dexrazoxane",
+        "Allopurinol"
+      ],
+      "correctOption": 1,
+      "explanation": "Acrolein, a metabolite of cyclophosphamide/ifosfamide, causes chemical cystitis; mesna (2-mercaptoethanesulfonate), along with excellent hydration, attenuates or prevents it. Ifosfamide always requires mesna.",
+      "reference": "Alkylating agents (Cyclophosphamide): \"the cystitis may be attenuated or prevented altogether...by mesna (2-mercaptoethanesulfonate).\""
+    },
+    {
+      "id": "h1-069-q18",
+      "type": "mcq",
+      "subtopic": "Irinotecan",
+      "question": "Patients with Gilbert's disease (UGT1A1 deficiency) are at increased risk of severe toxicity from which agent due to accumulation of its active metabolite SN-38?",
+      "options": [
+        "Methotrexate",
+        "Irinotecan",
+        "Vincristine",
+        "Bleomycin"
+      ],
+      "correctOption": 1,
+      "explanation": "Irinotecan is a prodrug converted to SN-38; in Gilbert's disease (defective UGT1A1) SN-38 levels are high, increasing myelosuppression and the characteristic delayed secretory diarrhea (treated with loperamide/octreotide).",
+      "reference": "Camptothecins (Irinotecan): \"Levels of SN-38 are particularly high in the setting of Gilbert's disease, characterized by defective uridine diphosphate glucuronosyl transferase (UGT) 1A1...\""
+    },
+    {
+      "id": "h1-069-q19",
+      "type": "mcq",
+      "subtopic": "Microtubule Agents",
+      "question": "How do taxanes (paclitaxel, docetaxel) differ mechanistically from vinca alkaloids?",
+      "options": [
+        "Taxanes depolymerize microtubules; vinca alkaloids stabilize them",
+        "Taxanes stabilize microtubules against depolymerization; vinca alkaloids disaggregate them",
+        "Both inhibit dihydrofolate reductase",
+        "Both intercalate DNA"
+      ],
+      "correctOption": 1,
+      "explanation": "Taxanes stabilize microtubules against depolymerization (so they cannot undergo the dynamic changes needed for division), whereas vinca alkaloids bind tubulin and disaggregate microtubules. Taxane vehicles cause hypersensitivity requiring premedication.",
+      "reference": "Mitotic Spindle Inhibitors: \"the taxanes stabilize microtubules against depolymerization.\""
+    },
+    {
+      "id": "h1-069-q20",
+      "type": "mcq",
+      "subtopic": "Drug Interactions",
+      "question": "When 6-mercaptopurine (6-MP) is co-administered with allopurinol, the 6-MP dose must be reduced because:",
+      "options": [
+        "Allopurinol increases 6-MP renal clearance",
+        "6-MP is metabolized by xanthine oxidase, which allopurinol inhibits",
+        "Allopurinol displaces 6-MP from albumin",
+        "6-MP induces hepatic enzymes"
+      ],
+      "correctOption": 1,
+      "explanation": "6-MP is metabolized by xanthine oxidase; allopurinol inhibits xanthine oxidase, raising 6-MP levels and toxicity, so the 6-MP dose must be reduced. (Thiopurine methyltransferase deficiency also causes excessive toxicity.)",
+      "reference": "Antimetabolites (6-Thioguanine and 6-mercaptopurine): \"6-MP is metabolized by xanthine oxidase and therefore requires dose reduction when used with allopurinol.\""
+    },
+    {
+      "id": "h1-069-tf1",
+      "type": "true_false",
+      "subtopic": "Surgery",
+      "statement": "At least 40% of cancer patients are cured by surgery, making it the most effective single modality.",
+      "correctAnswer": true,
+      "explanation": "True — surgery is the most effective means of treating cancer, curing at least 40% of patients.",
+      "reference": "SURGERY: \"Surgery is the most effective means of treating cancer. At least 40% of cancer patients are cured by surgery.\""
+    },
+    {
+      "id": "h1-069-tf2",
+      "type": "true_false",
+      "subtopic": "Adjuvant Therapy",
+      "statement": "Adjuvant chemotherapy is given after all clinically apparent disease has been removed, to eliminate micrometastatic disease.",
+      "correctAnswer": true,
+      "explanation": "True — adjuvant chemotherapy is given in addition to surgery/radiation, even after all clinically apparent disease has been removed, to eliminate micrometastatic clinically unapparent tumor (curative potential in lung, breast, colorectal cancer).",
+      "reference": "Strategies in Systemic Cancer Management: \"as it eliminates micrometastatic clinically unapparent tumor.\""
+    },
+    {
+      "id": "h1-069-tf3",
+      "type": "true_false",
+      "subtopic": "Radiation Delivery",
+      "statement": "Megavoltage radiation (>1 MeV) produces a skin-sparing effect with greater energy deposition in the target volume.",
+      "correctAnswer": true,
+      "explanation": "True — megavoltage radiation has very low lateral scatter, producing a skin-sparing effect, more homogeneous energy distribution, and greater deposition in the target volume.",
+      "reference": "Localized Radiation Therapy: \"Megavoltage radiation (>1 MeV) has very low lateral scatter; this produces a skin-sparing effect...and greater deposit of the energy in the tumor, or target volume.\""
+    },
+    {
+      "id": "h1-069-tf4",
+      "type": "true_false",
+      "subtopic": "Radioiodine",
+      "statement": "Systemically administered radioiodine treats thyroid cancer because the tumor selectively upregulates the iodide transporter.",
+      "correctAnswer": true,
+      "explanation": "True — systemic isotopes of iodide treat thyroid neoplasms owing to selective upregulation of the iodide transporter in the tumor cell compartment.",
+      "reference": "Localized Radiation Therapy: \"systemically administered isotopes of iodide have an important role in the treatment of thyroid neoplasms, owing to the selective upregulation of the iodide transporter in the tumor cell compartment.\""
+    },
+    {
+      "id": "h1-069-tf5",
+      "type": "true_false",
+      "subtopic": "Therapeutic Index",
+      "statement": "Cytotoxic chemotherapy agents generally have wide therapeutic indices because their targets are unique to tumor cells.",
+      "correctAnswer": false,
+      "explanation": "False — cytotoxics target DNA and microtubules, which are present in both normal and tumor tissue, so they have relatively narrow therapeutic indices.",
+      "reference": "General Principles: \"their main targets, DNA and microtubules, are present in both normal and tumor tissues. Therefore, they have relatively narrow therapeutic indices.\""
+    },
+    {
+      "id": "h1-069-tf6",
+      "type": "true_false",
+      "subtopic": "Checkpoint Inhibitors",
+      "statement": "Immune-related adverse events from checkpoint inhibitors can occur late, even while the patient has sustained tumor control.",
+      "correctAnswer": true,
+      "explanation": "True — immunologic toxicities (hepatic, cardiac, endocrine, cutaneous, neurologic, GI) can occur late after exposure to PD-1/CTLA-4 modulators, even during ongoing tumor control.",
+      "reference": "IMMUNOREGULATORY ANTIBODIES: \"immunologic toxicities can occur late after exposure to the modulators of PD and CTLA4 action, even while the patient may have sustained control of tumor growth.\""
+    },
+    {
+      "id": "h1-069-tf7",
+      "type": "true_false",
+      "subtopic": "Checkpoint Inhibitors",
+      "statement": "Using glucocorticoids to treat severe checkpoint-inhibitor toxicity has been shown to substantially reduce antitumor response rates.",
+      "correctAnswer": false,
+      "explanation": "False — although glucocorticoids could theoretically blunt the antitumor effect, response rates do not appear to be compromised by their use to abrogate serious organ toxicity from immunomodulatory antibodies.",
+      "reference": "IMMUNOREGULATORY ANTIBODIES: \"response rates do not appear to be compromised by their use to abrogate serious organ toxicity attributable to use of immunomodulatory antibodies.\""
+    },
+    {
+      "id": "h1-069-tf8",
+      "type": "true_false",
+      "subtopic": "Bevacizumab",
+      "statement": "Hypertension, thrombosis, proteinuria, hemorrhage, and gastrointestinal perforation are recognized side effects of the anti-VEGF antibody bevacizumab.",
+      "correctAnswer": true,
+      "explanation": "True — bevacizumab (and small-molecule VEGFR inhibitors) can cause hypertension, thrombosis, proteinuria, hemorrhage, and GI perforations.",
+      "reference": "STROMA-DIRECTED ANTIBODIES: \"Bevacizumab has a number of side effects including hypertension, thrombosis, proteinuria, hemorrhage, and gastrointestinal perforations...\""
+    },
+    {
+      "id": "h1-069-tf9",
+      "type": "true_false",
+      "subtopic": "Bleomycin",
+      "statement": "The earliest indicator of bleomycin pulmonary toxicity is usually a decline in the carbon monoxide diffusing capacity (DLCO) or coughing.",
+      "correctAnswer": true,
+      "explanation": "True — a fall in DLCO or cough is the earliest indicator; however, stopping the drug at that point may not prevent further decline in pulmonary function.",
+      "reference": "Antitumor Antibiotics (Bleomycin): \"The earliest indicator of an adverse effect is usually a decline in the carbon monoxide diffusing capacity (DLCO) or coughing...\""
+    },
+    {
+      "id": "h1-069-tf10",
+      "type": "true_false",
+      "subtopic": "Vincristine",
+      "statement": "Vincristine characteristically causes significant myelosuppression at conventional doses.",
+      "correctAnswer": false,
+      "explanation": "False — myelosuppression is not seen with vincristine at conventional doses; its dose-limiting toxicity is glove-and-stocking neuropathy. (Vinblastine, by contrast, is more myelotoxic.)",
+      "reference": "Mitotic Spindle Inhibitors: \"Myelosuppression is not seen at conventional doses.\""
+    },
+    {
+      "id": "h1-069-tf11",
+      "type": "true_false",
+      "subtopic": "Methotrexate",
+      "statement": "Concurrent NSAIDs, salicylates, or probenecid can augment methotrexate toxicity.",
+      "correctAnswer": true,
+      "explanation": "True — methotrexate is cleared by the kidney (filtration and tubular secretion), and drugs undergoing tubular secretion (salicylates, probenecid, NSAIDs) augment its toxicity, as does renal dysfunction.",
+      "reference": "Antimetabolites (Methotrexate): \"toxicity is augmented by renal dysfunction and drugs such as salicylates, probenecid, and nonsteroidal anti-inflammatory agents that undergo tubular secretion.\""
+    },
+    {
+      "id": "h1-069-tf12",
+      "type": "true_false",
+      "subtopic": "Vaccines",
+      "statement": "Therapeutic cancer vaccines against hepatitis B and HPV can effectively treat patients who have already developed virus-induced cancers.",
+      "correctAnswer": false,
+      "explanation": "False — hepatitis B and HPV vaccines prevent the virus infections that lead to cancer, but they are ineffective at treating patients who have already developed a virus-induced cancer.",
+      "reference": "T Cell-Mediated Therapies (vaccines): \"Unfortunately, these vaccines are ineffective at treating patients who have developed a virus-induced cancer.\""
+    },
+    {
+      "id": "h1-069-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Diagnosis",
+      "assertion": "An excisional biopsy is generally preferred over fine-needle aspiration for diagnosing an undiagnosed solid mass.",
+      "reason": "Fine-needle aspiration yields only a cell suspension, and a negative result cannot exclude cancer.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: because FNA provides limited material and a negative FNA cannot rule out cancer, excisional biopsy (whole mass with margin) is preferred for definitive diagnosis.",
+      "reference": "ESTABLISHING A CANCER DIAGNOSIS: \"A \\\"negative\\\" fine-needle aspiration cannot be taken as definitive evidence that a tumor is absent.\""
+    },
+    {
+      "id": "h1-069-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Treatment Goals",
+      "assertion": "When treating with palliative intent, minimizing treatment toxicity becomes a significant goal.",
+      "reason": "The aim of palliation is to ameliorate symptoms and preserve quality of life rather than to eradicate the cancer.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: because palliation targets symptom relief and quality of life, limiting toxicity becomes central — unlike curative intent, which may justify severe toxicity.",
+      "reference": "CANCER TREATMENT: \"when the clinical goal is palliation, careful attention to minimizing the toxicity of treatments becomes a significant goal.\""
+    },
+    {
+      "id": "h1-069-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Radiation",
+      "assertion": "Radiation is delivered in repeated daily fractions rather than a single large dose.",
+      "reason": "Nondividing cells are more resistant than dividing cells, so fractionation exposes more tumor cells that have entered the division cycle.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: fractionation catches more cells in their sensitive dividing phase (and lets normal tissue recover), which is why daily fractions are used.",
+      "reference": "Localized Radiation Therapy: \"delivering radiation in repeated fractions is done to expose a larger number of tumor cells that have entered the division cycle.\""
+    },
+    {
+      "id": "h1-069-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Therapeutic Index",
+      "assertion": "Cytotoxic chemotherapy agents tend to have narrow therapeutic indices.",
+      "reason": "Their principal targets, DNA and microtubules, are present in both normal and tumor tissues.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: because DNA and microtubules are shared by normal and malignant cells, cytotoxics damage both, yielding a narrow therapeutic window.",
+      "reference": "General Principles: \"their main targets, DNA and microtubules, are present in both normal and tumor tissues. Therefore, they have relatively narrow therapeutic indices.\""
+    },
+    {
+      "id": "h1-069-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Bleomycin",
+      "assertion": "Patients with prior bleomycin exposure should be kept on the lowest effective FIO2 during anesthesia.",
+      "reason": "Bleomycin-dependent electron transport requires oxygen, and the inactivating enzyme bleomycin hydrolase is poorly expressed in the lung.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: because oxygen drives bleomycin's toxic chemistry and the lung lacks the inactivating enzyme, high FIO2 can trigger pulmonary toxicity, so FIO2 is minimized.",
+      "reference": "Antitumor Antibiotics (Bleomycin): \"because bleomycin-dependent electron transport is dependent on O2, bleomycin toxicity may become apparent after exposure to transient very high fraction of inspired oxygen...\""
+    },
+    {
+      "id": "h1-069-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Cisplatin",
+      "assertion": "Cisplatin should be administered with vigorous hydration and forced diuresis.",
+      "reason": "Even with hydration, a gradual decrease in kidney function and hypomagnesemia commonly occur with cisplatin.",
+      "correctOption": 1,
+      "explanation": "Both statements are true, but the reason does not explain the assertion: hydration is given to PREVENT nephrotoxicity, whereas the reason describes that toxicity still occurs despite hydration — a true but non-explanatory statement. Both true, R not the explanation = option 1.",
+      "reference": "DNA-Interactive Agents (Cisplatin): \"Cisplatin is administered with abundant hydration...even with the use of hydration, gradual decrease in kidney function is common, along with noteworthy anemia.\""
+    },
+    {
+      "id": "h1-069-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Doxorubicin",
+      "assertion": "Doxorubicin's cumulative dose must be tracked across a patient's treatment course.",
+      "reason": "Cumulative doses above 550 mg/m² carry about a 10% incidence of chronic cardiomyopathy.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: because chronic cardiomyopathy risk rises with cumulative dose (~10% above 550 mg/m²), the lifetime cumulative dose must be tracked.",
+      "reference": "DNA-Interactive Agents (Doxorubicin): \"cumulative doses >550 mg/m^2 are associated with a 10% incidence of chronic cardiomyopathy.\""
+    },
+    {
+      "id": "h1-069-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Checkpoint Inhibitors",
+      "assertion": "Tumors with a high mutational burden tend to respond better to anti-PD-1/PD-L1 therapy.",
+      "reason": "A higher mutational burden produces more structurally altered proteins (neoantigens) that the immune system can recognize as foreign.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: more mutations generate more neoantigens, increasing immune recognition and the efficacy of checkpoint blockade.",
+      "reference": "IMMUNOREGULATORY ANTIBODIES: \"The increased efficacy in the setting of higher tumor mutational burden is thought to be due to the presence of more proteins in the tumor structurally altered by mutation that can be recognized as foreign by the immune system.\""
+    },
+    {
+      "id": "h1-069-ar9",
+      "type": "assertion_reason",
+      "subtopic": "Vaccines",
+      "assertion": "Hepatitis B and HPV vaccines reduce the incidence of the cancers caused by those viruses.",
+      "reason": "These vaccines can cure patients who have already developed virus-induced cancers.",
+      "correctOption": 2,
+      "explanation": "The assertion is true (the vaccines prevent the infections that cause hepatocellular and cervical cancer), but the reason is false — they are ineffective at treating established virus-induced cancers. True assertion + false reason = option 2.",
+      "reference": "T Cell-Mediated Therapies (vaccines): \"Unfortunately, these vaccines are ineffective at treating patients who have developed a virus-induced cancer.\""
+    },
+    {
+      "id": "h1-069-ar10",
+      "type": "assertion_reason",
+      "subtopic": "Irinotecan",
+      "assertion": "Patients with Gilbert's disease may experience excessive toxicity from irinotecan.",
+      "reason": "Gilbert's disease involves defective UGT1A1, leading to high levels of irinotecan's active metabolite SN-38.",
+      "correctOption": 0,
+      "explanation": "Both are true and the reason explains the assertion: defective UGT1A1 in Gilbert's disease reduces SN-38 glucuronidation, raising SN-38 levels and toxicity (myelosuppression, delayed diarrhea).",
+      "reference": "Camptothecins (Irinotecan): \"Levels of SN-38 are particularly high in the setting of Gilbert's disease, characterized by defective uridine diphosphate glucuronosyl transferase (UGT) 1A1...\""
+    }
+  ]
+}
