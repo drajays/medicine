@@ -7,6 +7,9 @@
   "category": "Endocrinology & Nephrology",
   "authors": "Resident training module — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "cr-032", "title": "Type 3c Diabetes with ABPA and Chronic Pancreatitis" }
+  ],
   "patient": {
     "age": 65,
     "sex": "Male",
@@ -402,6 +405,118 @@
       "reason": "DPP-4 inhibitors and GLP-1 receptor agonists both act on the incretin system, so combining them provides little additional glycaemic benefit.",
       "correctOption": 0,
       "explanation": "Both statements are true, and the mechanism in the reason explains the recommendation in the assertion: because DPP-4 inhibitors (which raise endogenous GLP-1) and GLP-1 RAs (direct receptor agonists) act on the same incretin pathway, adding one to the other yields negligible extra benefit, so the combination is avoided. Hence option 0."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why can linagliptin be used at an eGFR of 14 mL/min/1.73 m² without dose adjustment, unlike sitagliptin?",
+      "options": [
+        "A. Linagliptin is renally excreted but has a longer half-life, requiring no dose adjustment even at severe renal impairment",
+        "B. Sitagliptin is primarily metabolized by the liver, whereas linagliptin is renally excreted",
+        "C. Linagliptin is eliminated predominantly via the hepatobiliary route, making its plasma concentrations independent of renal function",
+        "D. Both drugs are excreted renally, but linagliptin has higher protein binding that prevents accumulation"
+      ],
+      "correctOption": 2,
+      "explanation": "Linagliptin's primary elimination pathway is hepatic (biliary/faecal), so renal function does not affect its plasma levels. Sitagliptin and other DPP-4 inhibitors are predominantly renally excreted, leading to accumulation in renal impairment and requiring dose reductions.",
+      "id": "cr-023-why1-obj-ee89af",
+      "subtopic": "DPP-4 inhibitors",
+      "_generatedFrom": "cr-023-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about why linagliptin can be used at eGFR 14 without dose adjustment compared to sitagliptin.\n\nFirst, I need to determine the question type. The answer explains the difference in elimination routes between linagliptin and sitagliptin. Since it's comparing two drugs and their mechanisms, an MCQ seems appropriate. True/false might not capture the nuance, and assertion-reason could work, but MCQ allows for clear options.\n\nNext, the stem should ask why linagliptin doesn't need dose adjustment. The options need to be plausible but wrong except for the correct one. The correct answer is about hepatic elimination. Distractors could include renal excretion, protein binding, or metabolism by CYP enzymes. \n\nWait, sitagliptin is renally excreted, so a distractor mentioning that would be good. Another option might mention hepatic metabolism but for the wrong drug. Also, checking if other DPP-4 inhibitors are renally excreted. The original answer says others are too, so maybe an option that says linagliptin is renally excreted but with different kinetics. But the key is that linagliptin is mainly hepatic, so the correct option should highlight that.\n\nI need to ensure the options are distinct. Let me structure the options:\n\nA. Linagliptin is renally excreted but has a longer half-life... (wrong, because it's hepatic)\nB. Sitagliptin is primarily metabolized by the liver... (wrong, sitagliptin is renally excreted)\nC. Linagliptin is eliminated via the hepatobiliary route... (correct)\nD. Both are excreted renally, but linagliptin has higher protein binding... (wrong, since linagliptin isn't renally excreted)\n\nExplanation should mention the elimination route and the effect on plasma levels. Correct option is C. Then, the JSON structure follows with the stem, options, correct option index, and explanation."
+    },
+    {
+      "type": "mcq",
+      "stem": "How should bolus insulin be adjusted when initiating a GLP-1 receptor agonist (GLP-1 RA) in a patient with type 2 diabetes?",
+      "options": [
+        "A) Wait for hypoglycaemia before reducing bolus insulin doses",
+        "B) Reduce mealtime aspart doses by 50% immediately if HbA1c is near target, regardless of hypoglycaemia history",
+        "C) Maintain current bolus insulin doses and adjust only if post-prandial glucose exceeds 180 mg/dL",
+        "D) Discontinue bolus insulin entirely and rely on GLP-1 RA for glucose control"
+      ],
+      "correctOption": 1,
+      "explanation": "GLP-1 RAs enhance insulin secretion and suppress glucagon, increasing hypoglycaemia risk when combined with insulin. Proactive bolus insulin reduction (e.g., 50% decrease in mealtime doses if HbA1c is near target) is recommended to prevent hypoglycaemia, with further adjustments based on glucose monitoring.",
+      "id": "cr-023-how1-obj-92f60a",
+      "subtopic": "Insulin de-escalation",
+      "_generatedFrom": "cr-023-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about adjusting bolus insulin when starting a GLP-1 RA. The answer details reducing the dose preemptively, specific dosing changes, monitoring, and adjusting over time.\n\nFirst, I need to determine the best question type. The answer has specific steps and adjustments, which suggests an MCQ. The options should include the correct approach and plausible distractors. The key points are reducing bolus insulin preemptively, adjusting based on HbA1c, monitoring glucose logs, and adjusting over weeks. Distractors might include waiting for hypoglycemia, not adjusting based on HbA1c, or not changing the basal dose.\n\nI need to ensure the options are plausible but clearly wrong. For example, one option could be to wait for hypoglycemia before adjusting, which is incorrect. Another might suggest not changing the basal dose, which the correct answer mentions reassessing it. The explanation should briefly mention the rationale, like preventing hypoglycemia and adjusting based on HbA1c levels.\n\nAlso, the correct option should be the one that matches the answer's steps. I need to structure the JSON correctly with the stem, options, correct option index, and explanation. Let me check the rules again to make sure I'm following them. Distractors must be plausible but wrong, and clinical accuracy is crucial. I think that's covered here."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which statement best critiques the claim that 'SGLT2 inhibitors have no evidence in CKD — avoid'?",
+      "options": [
+        "A) Evidence exists for eGFR 20-45 (CREDENCE, DAPA-CKD, EMPA-KIDNEY), limited evidence at eGFR 14, and the correct reason to withhold is 'insufficient evidence with unfavourable risk-benefit profile'",
+        "B) Evidence is absent for eGFR <30, and the risk of DKA precludes use in CKD",
+        "C) SGLT2 inhibitors are contraindicated in CKD due to increased risk of acute kidney injury",
+        "D) The only evidence for SGLT2 inhibitors in CKD is in eGFR >60, and they should be avoided in lower eGFR ranges"
+      ],
+      "correctOption": 0,
+      "explanation": "CREDENCE, DAPA-CKD, and EMPA-KIDNEY demonstrate cardio-renal benefits in eGFR 20-45. Evidence at eGFR 14 is limited, not absent, and withholding should be based on insufficient evidence and risk-benefit profile, not absence of evidence.",
+      "id": "cr-023-sa1-obj-88fff8",
+      "subtopic": "SGLT2 inhibitors",
+      "_generatedFrom": "cr-023-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into a single objective exam question in JSON format. The original question is about critiquing a resident's statement regarding SGLT2 inhibitors in CKD. The answer lists three points: existence of evidence for certain eGFR ranges, limited evidence at eGFR 14, and the correct reason for withholding.\n\nFirst, I need to determine the best question type. The answer involves specific facts about studies (CREDENCE, DAPA-CKD, EMPA-KIDNEY) and the appropriate reason for withholding. This seems like a multiple-choice question (MCQ) because it's asking for specific pieces of information with clear correct and incorrect options.\n\nNext, I'll structure the stem. The original question is a critique, so the stem should ask for the correct critique points. The options need to be plausible but incorrect, except for the correct one. The correct answer should include the three points mentioned: evidence in eGFR 20-45, limited evidence at eGFR 14, and the correct reason for withholding.\n\nI need to ensure that the distractors are plausible. For example, one might incorrectly state that evidence is absent in eGFR 20-45, another might mention the wrong reason for withholding, and another might incorrectly claim no evidence at eGFR 14. The correct option should accurately reflect the three points from the answer.\n\nI also need to check the clinical accuracy. The studies mentioned (CREDENCE, DAPA-CKD, EMPA-KIDNEY) do indeed show benefits in certain eGFR ranges. The correct reason for withholding at eGFR 14 is about insufficient evidence and risk-benefit profile, not the absence of evidence.\n\nFinally, I'll format this into JSON, making sure the options are in the correct order and the explanation is concise. The correct option is the first one (index 0) as per the answer provided."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is dulaglutide a reasonable GLP-1 RA choice at eGFR 14-15 whereas exenatide is not?",
+      "options": [
+        "A) Dulaglutide was studied down to eGFR ≥15 in REWIND and is not dependent on renal clearance, whereas exenatide is renally excreted and accumulates at low eGFR",
+        "B) Dulaglutide has greater MACE reduction efficacy in renal impairment compared to exenatide",
+        "C) Exenatide is preferred in patients with eGFR <30 due to lower GI side effects",
+        "D) Dulaglutide is contraindicated below eGFR 30, unlike exenatide"
+      ],
+      "correctOption": 0,
+      "explanation": "Dulaglutide's safety and efficacy in eGFR ≥15 (REWIND trial) and lack of renal dependence make it suitable at eGFR 14-15. Exenatide's renal excretion leads to accumulation and contraindication below eGFR 30.",
+      "id": "cr-023-sa2-obj-7de2a9",
+      "subtopic": "GLP-1 receptor agonists",
+      "_generatedFrom": "cr-023-sa2",
+      "distillation_trace": "Okay, let's tackle this question. The user wants an objective exam question based on the provided Q&A. The main topic is why dulaglutide is a better GLP-1 RA choice than exenatide at eGFR 14-15.\n\nFirst, I need to determine the question type. The answer explains the difference in renal clearance and study data. Since it's comparing two drugs and their suitability based on eGFR, an MCQ seems appropriate. The options should include the correct reason and plausible distractors.\n\nThe correct answer mentions REWIND study and renal clearance. Distractors could include other factors like cost, side effects, or other studies. But they need to be wrong. For example, mentioning exenatide's use in higher eGFR or dulaglutide's renal excretion would be incorrect.\n\nI need to ensure the options are plausible but clearly wrong. Also, the explanation should highlight the key points: dulaglutide's study data and lack of renal dependence, exenatide's renal excretion and contraindication below eGFR 30.\n\nCheck if the options are four, with the correct one first. Then structure the JSON accordingly. Make sure the explanation is concise and accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is HbA1c an unreliable glycaemic measure in a patient with CKD stage 5?",
+      "options": [
+        "A) Advanced CKD distorts the relationship between HbA1c and average glucose due to anaemia, shortened red-cell survival, iron deficiency, recent transfusion, and ESA use",
+        "B) Diabetes duration >10 years interferes with HbA1c glycation kinetics",
+        "C) Recurrent hypoglycaemia in type 1 diabetes causes HbA1c to underestimate true glucose levels",
+        "D) Vitamin B12 deficiency alters HbA1c by interfering with glycosylation pathways"
+      ],
+      "correctOption": 0,
+      "explanation": "In CKD stage 5, factors like anaemia, ESA use, and altered red-cell turnover disrupt the correlation between HbA1c and average glucose, leading to potential under- or overestimation of glycaemic control.",
+      "id": "cr-023-why2-obj-5dfef0",
+      "subtopic": "Monitoring",
+      "_generatedFrom": "cr-023-why2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why HbA1c is unreliable in a CKD5 patient. The answer lists several factors like anemia, shortened red-cell survival, iron deficiency, recent transfusion, and ESA use.\n\nFirst, I need to determine the best question type. The options are MCQ, true/false, or assertion/reason. The original answer explains multiple reasons, so an MCQ seems appropriate here because it's asking for the correct reason among several plausible options.\n\nNext, I need to formulate the stem. The question is about why HbA1c is unreliable in CKD5. The answer mentions factors that affect HbA1c in this context. The options should include the correct answer and three other plausible but incorrect ones. \n\nThe correct answer is that advanced CKD distorts the relationship between HbA1c and average glucose due to factors like anemia, shortened red-cell survival, etc. The distractors need to be other conditions that might affect HbA1c but aren't specific to CKD. For example, diabetes duration, hypoglycemia, or vitamin B12 deficiency. These are common issues but not directly related to CKD's impact on HbA1c.\n\nI need to ensure that the options are plausible but clearly wrong. For instance, diabetes duration affecting HbA1c is a known factor, but in the context of CKD, the main issue is the factors listed in the answer. Similarly, hypoglycemia and vitamin B12 deficiency are other causes but not the ones mentioned here.\n\nThen, the explanation should briefly state that in CKD, factors like anemia and ESA use alter HbA1c, making it unreliable. The correct option is the first one, so the correctOption is 0.\n\nI need to make sure the JSON is valid, with proper commas and brackets. Also, check that the explanation is concise and accurate. Let me structure the MCQ with the stem, options, correct option, and explanation as per the rules."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the appropriate management of ACEi/ARB and finerenone in a patient with eGFR 14?",
+      "options": [
+        "A) Discontinue ACEi/ARB and initiate finerenone",
+        "B) Continue ACEi/ARB unless contraindicated; avoid finerenone due to eGFR <25",
+        "C) Discontinue both ACEi/ARB and finerenone",
+        "D) Initiate finerenone and continue ACEi/ARB"
+      ],
+      "correctOption": 1,
+      "explanation": "ACEi/ARB should be continued for renal/cardiovascular protection unless contraindicated (e.g., hyperkalemia, AKI). Finerenone is contraindicated at eGFR <25 due to limited evidence and label restrictions.",
+      "id": "cr-023-how2-obj-98b74f",
+      "subtopic": "Kidney-protective therapy",
+      "_generatedFrom": "cr-023-how2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about managing ACEi/ARB and finerenone in a patient with eGFR 14.\n\nFirst, I need to determine the question type. The answer discusses continuing ACEi/ARB under certain conditions and not starting finerenone due to eGFR being too low. This seems like a MCQ because it's about specific guidelines and actions. True/false might not capture the nuances, and assertion-reason could work, but MCQ is better for multiple options.\n\nNext, the stem should ask about the appropriate management. The options need to be plausible. The correct answer is to continue ACEi/ARB unless specific issues arise and avoid finerenone. Distractors could include stopping ACEi/ARB due to low eGFR, starting finerenone, or other incorrect reasons.\n\nI need to ensure the explanation is brief and accurate, referencing the evidence/label window for finerenone. Also, check that the correct option is clearly marked. Let me structure the JSON accordingly, making sure all rules are followed."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the appropriate glycaemic target for a 65-year-old patient with coronary artery disease (CAD) and stage 5 chronic kidney disease (CKD5)?",
+      "options": [
+        "A) HbA1c <6.5% with intensive glucose monitoring",
+        "B) HbA1c 7-8% with avoidance of hypoglycaemia and use of SMBG/CGM",
+        "C) HbA1c >8.5% to prevent hypoglycaemia",
+        "D) HbA1c 6-7% with frequent insulin dose adjustments"
+      ],
+      "correctOption": 1,
+      "explanation": "In CKD5, insulin clearance and renal gluconeogenesis are impaired, increasing hypoglycaemia risk, which is particularly hazardous in CAD. HbA1c is unreliable in CKD, necessitating SMBG/CGM alongside a less stringent target (7-8%) to balance glycaemic control and safety.",
+      "id": "cr-023-sa3-obj-55728b",
+      "subtopic": "Glycaemic targets",
+      "_generatedFrom": "cr-023-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The question is about the appropriate glycaemic target for a 65-year-old patient with CAD and CKD5.\n\nFirst, I need to determine the type of question. The answer given is a specific recommendation (HbA1c 7-8%) with a rationale involving CKD5 and CAD. This seems like a good candidate for an MCQ because it's a specific fact with a clear correct answer and plausible distractors.\n\nNext, the stem should ask about the appropriate glycaemic target. The options need to include the correct answer and three other plausible but incorrect ones. The correct option is HbA1c 7-8% with the reasoning provided. Distractors could be tighter targets like 6.5% or lower, which might be too strict for CKD, or higher targets like 9% which might be too lenient. Another option could mention avoiding hypoglycaemia but not address the HbA1c range.\n\nI need to ensure the explanation in the JSON correctly states why the chosen option is right, mentioning CKD5's impact on insulin and gluconeogenesis, hypoglycaemia risk with CAD, and HbA1c reliability. Also, check that the distractors are clinically inaccurate but plausible. For example, a tight control target without considering CKD would be a common mistake, making it a good distractor.\n\nFinally, structure the JSON with the correct option as the first choice (index 0) and ensure all elements are correctly formatted without markdown or extra text."
     }
   ]
 }

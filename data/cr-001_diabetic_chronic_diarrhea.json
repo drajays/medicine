@@ -7,6 +7,9 @@
   "category": "Endocrinology & Gastroenterology",
   "authors": "Clinical case vignette — illustrative teaching case",
   "sourceFile": "user-provided content (chat); based on Lowry et al. 2016, Maisey 2016",
+  "relatedChapters": [
+    { "id": "cr-032", "title": "Type 3c Diabetes with ABPA and Chronic Pancreatitis" }
+  ],
   "patient": {
     "age": 62,
     "sex": "Male",
@@ -320,6 +323,16 @@
       "id": "cr-001-how3-obj-ccb8ca",
       "subtopic": "Metformin Rechallenge",
       "_generatedFrom": "cr-001-how3"
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Sugar-free gum contributes to chronic diarrhea in diabetic patients.",
+      "reason": "Sorbitol, mannitol, and xylitol in sugar-free products are poorly absorbed osmotic agents that draw water into the colon, causing osmotic diarrhea.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are correct, with the reason accurately explaining the cause.",
+      "id": "cr-001-why3-obj-1f3e24",
+      "subtopic": "Sorbitol",
+      "_generatedFrom": "cr-001-why3"
     }
   ]
 }

@@ -1,0 +1,384 @@
+{
+  "id": "cr-032",
+  "reportType": "case_report",
+  "title": "Type 3c (Pancreatogenic) Diabetes with ABPA and Chronic Pancreatitis: Four Problems, One Patient",
+  "subtitle": "A Resident Training Module: basal-bolus in pancreatogenic diabetes (why sulfonylureas/SGLT2i are hazardous and steroids will spike glucose), reading a total IgE >2500 in ABPA-S, the steroid + azole regimen and what 'remission' really means, fecal elastase and PERT, and the truth about cancer surveillance in chronic pancreatitis",
+  "section": "Case Reports",
+  "category": "Endocrinology / Pulmonology / Pancreatology",
+  "authors": "Resident/fellowship training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    { "id": "cr-001", "title": "Metformin Diarrhea in Type 2 Diabetes" },
+    { "id": "cr-023", "title": "Complex Diabetes Management in Advanced CKD" }
+  ],
+  "patient": {
+    "age": 42,
+    "sex": "Male",
+    "chiefComplaint": "Poorly controlled diabetes (HbA1c 10%) with a rising total IgE; multi-system follow-up.",
+    "pmh": [
+      "Chronic pancreatitis with pancreatogenic (type 3c) diabetes since 2018",
+      "Common bile duct stricture with CBD stent in situ",
+      "Bronchial asthma",
+      "Allergic bronchopulmonary aspergillosis, serologic type (ABPA-S)",
+      "House-dust-mite allergy"
+    ],
+    "medications": [
+      "Insulin glargine (Lantus) 14 units once daily",
+      "Gliclazide MR 100 mg",
+      "Voglibose 0.4 mg",
+      "Dapagliflozin 10 mg"
+    ]
+  },
+  "caseDescription": "A 42-year-old man with chronic pancreatitis and pancreatogenic (type 3c) diabetes since 2018, a CBD stricture with an indwelling stent, bronchial asthma and serologic ABPA (ABPA-S) presents with HbA1c 10% on glargine 14 units, gliclazide MR 100 mg, voglibose 0.4 mg and dapagliflozin 10 mg, and a total IgE above 2500 IU/mL with documented dust-mite allergy. The resident wants to switch him to a basal-bolus insulin regimen and asks: what to do about the rising IgE, the best ABPA regimen and how to define improvement/remission/cure on long-term follow-up, whether fecal elastase is needed, and how to approach cancer prevention in chronic pancreatitis.",
+  "keyFindings": [
+    "HbA1c 10% on a complex oral + low-dose basal regimen — basal-bolus insulin is appropriate, but the type 3c context changes which drugs are safe",
+    "Type 3c (pancreatogenic) diabetes: insulin-deficient AND glucagon-deficient → brittle, hypoglycaemia-prone; insulin is the mainstay",
+    "Total IgE >2500 with ABPA-S and dust allergy — total IgE is the activity marker, but it must be read against the patient's own baseline, not a fixed cut-off",
+    "Treating ABPA with systemic steroids will sharply worsen glycaemia — anticipate and pre-emptively up-titrate insulin",
+    "Itraconazole interacts: it is a strong CYP3A4 inhibitor (raises steroid exposure), needs LFT monitoring, and has erratic absorption",
+    "CBD stricture + stent + chronic pancreatitis raises the cholangiocarcinoma/pancreatic-cancer question — but routine cancer surveillance in ordinary chronic pancreatitis is not evidence-based"
+  ],
+  "finalDiagnosis": "Multi-system case: pancreatogenic (type 3c) diabetes that is poorly controlled and best managed with a basal-bolus insulin regimen (stopping the sulfonylurea, and reconsidering the SGLT2 inhibitor for euglycaemic-DKA risk), coexisting with active ABPA-S (total IgE >2500) requiring oral corticosteroid ± azole therapy — a combination that will transiently worsen glycaemia and demands coordinated insulin up-titration. Exocrine insufficiency should be objectively assessed (fecal elastase-1) and treated with enzyme replacement plus fat-soluble-vitamin care. Cancer concern centres on the CBD stricture (benign vs malignant) rather than a routine imaging-surveillance program, which is not indicated for ordinary chronic pancreatitis; smoking and alcohol cessation are the only proven risk-reducers, and new red-flag features drive targeted work-up.",
+  "learningObjectives": [
+    "Construct a safe basal-bolus regimen for type 3c diabetes and justify stopping the sulfonylurea and reconsidering the SGLT2 inhibitor.",
+    "Anticipate steroid-induced hyperglycaemia when starting ABPA therapy and plan pre-emptive insulin adjustment.",
+    "Interpret a high total IgE in ABPA as a per-patient activity marker (track a new baseline and a ~25–35% fall), not a number to normalise.",
+    "Outline the oral-steroid ± itraconazole regimen for ABPA, its drug interactions and monitoring, and define exacerbation/response/remission (and why 'cure' is the wrong word).",
+    "Use fecal elastase-1 to diagnose exocrine pancreatic insufficiency and start enzyme replacement; understand why routine cancer surveillance in chronic pancreatitis is not standard and what actually warrants work-up."
+  ],
+  "items": [
+    {
+      "id": "cr-032-n1",
+      "type": "note",
+      "subtopic": "Type 3c diabetes",
+      "title": "Why pancreatogenic (type 3c) diabetes is not just 'type 2 with a pancreas problem'",
+      "content": "Type 3c diabetes arises from loss of pancreatic islet mass (here from chronic pancreatitis), so it is characterised by deficiency of both insulin and glucagon, plus frequently pancreatic-polypeptide deficiency and concomitant exocrine insufficiency. The clinical consequence that matters most is brittleness: because the counter-regulatory glucagon response is blunted, these patients are unusually prone to severe and prolonged hypoglycaemia, especially once you intensify therapy. That single fact reshapes drug choice — agents that drive insulin secretion or independently cause hypoglycaemia/ketosis are hazardous, and insulin (carefully titrated) is the mainstay. Treating this man as if he had ordinary type 2 diabetes is the core trap.",
+      "keyPoints": [
+        "Type 3c = islet loss → insulin AND glucagon deficiency (± PP deficiency, ± EPI)",
+        "Blunted glucagon ⇒ brittle, hypoglycaemia-prone — drives every drug decision",
+        "Insulin is the mainstay; don't manage it like ordinary type 2 diabetes"
+      ]
+    },
+    {
+      "id": "cr-032-n2",
+      "type": "note",
+      "subtopic": "Type 3c diabetes",
+      "title": "Why the sulfonylurea should be stopped in this patient",
+      "content": "Gliclazide (a sulfonylurea) is a poor fit for type 3c diabetes for two reasons. First, it works by squeezing insulin out of beta cells that are already depleted in chronic pancreatitis — so its efficacy fades as islet mass falls, which is exactly why his HbA1c is 10% despite being on it. Second, and more dangerously, sulfonylureas cause hypoglycaemia, and in a glucagon-deficient patient that hypoglycaemia can be severe and protracted. Once you commit to a basal-bolus insulin regimen, continuing a sulfonylurea adds hypoglycaemia risk without meaningful benefit. Stop it.",
+      "keyPoints": [
+        "Sulfonylurea relies on residual beta-cell secretion that is failing here",
+        "Adds severe/prolonged hypoglycaemia risk in a glucagon-deficient patient",
+        "Redundant once on basal-bolus — discontinue"
+      ]
+    },
+    {
+      "id": "cr-032-n3",
+      "type": "note",
+      "subtopic": "Type 3c diabetes",
+      "title": "Why the SGLT2 inhibitor needs a hard rethink (euglycaemic DKA)",
+      "content": "Dapagliflozin in an insulin-deficient, often lean and malnourished type 3c patient carries a real risk of euglycaemic diabetic ketoacidosis — DKA with only modestly raised or near-normal glucose, which is easily missed. The risk rises with the very things this patient may face: reduced carbohydrate/caloric intake, intercurrent illness, alcohol, and dehydration. Pair that with steroid therapy for ABPA and the metabolic stress climbs further. The cautious default in type 3c diabetes is to avoid SGLT2 inhibitors, and certainly to stop the drug around any acute illness, steroid course, fasting, or procedure (sick-day rules). If it is continued at all, it is with explicit ketone-monitoring counselling — but in this multi-morbid patient stopping it is the safer call.",
+      "keyPoints": [
+        "SGLT2i risk: euglycaemic DKA — normal/near-normal glucose, easily missed",
+        "Risk amplified by low intake, illness, alcohol, dehydration, steroids",
+        "Default in type 3c: avoid/stop around illness, steroids, fasting, procedures"
+      ]
+    },
+    {
+      "id": "cr-032-n4",
+      "type": "note",
+      "subtopic": "Insulin regimen",
+      "title": "How to build the basal-bolus regimen and titrate it safely",
+      "content": "Basal-bolus is appropriate at HbA1c 10%. Estimate total daily insulin conservatively in type 3c (≈0.4–0.5 units/kg/day given hypoglycaemia-proneness), split roughly half basal and half rapid-acting analogue divided across meals, and carbohydrate-count where the patient can. His current glargine 14 units is a low starting basal; expect to increase it. Titrate basal against the fasting glucose and each meal's bolus against the next pre-meal/2-hour post-prandial value, in small steps. Targets should be individualised and deliberately not too tight given the hypoglycaemia risk — a fasting target around 100–130 mg/dL and post-prandial under ~180 mg/dL is reasonable, relaxed further if hypoglycaemia appears. Structured self-monitoring (or CGM, which is especially valuable in brittle type 3c) and hypoglycaemia education are part of the prescription, not an afterthought.",
+      "keyPoints": [
+        "Conservative TDI (≈0.4–0.5 U/kg/day) split ~50:50 basal:bolus analogue",
+        "Titrate basal to fasting, bolus to post-meal; small steps; individualised, not-too-tight targets",
+        "CGM + hypoglycaemia education are core given brittleness"
+      ]
+    },
+    {
+      "id": "cr-032-n5",
+      "type": "note",
+      "subtopic": "Drug interaction",
+      "title": "Why starting ABPA steroids is the key glycaemic event to plan for",
+      "content": "The most important interaction in this case is therapeutic, not pharmacokinetic: the oral corticosteroid needed for ABPA will substantially raise blood glucose, predominantly post-prandially and in the afternoon/evening with a morning prednisolone dose. In a patient already at HbA1c 10% this can be dramatic. The mistake is to start steroids and react to the hyperglycaemia afterwards; the correct move is to anticipate it — front-load the conversation about transiently higher insulin needs, intensify self-monitoring, pre-emptively raise bolus (and some basal) doses as the steroid starts, and then step the insulin back down in parallel with the steroid taper so he is not left over-insulinised and hypoglycaemic. This coordination between the endocrine and respiratory plans is the crux of managing this man well.",
+      "keyPoints": [
+        "Steroids for ABPA cause marked, mostly post-prandial hyperglycaemia",
+        "Pre-emptively raise insulin (mainly bolus) when steroids start — don't just react",
+        "Taper insulin down in lock-step with the steroid taper to avoid hypoglycaemia"
+      ]
+    },
+    {
+      "id": "cr-032-n6",
+      "type": "note",
+      "subtopic": "ABPA diagnosis",
+      "title": "Why this is ABPA-S, and how the IgE >2500 fits the diagnostic picture",
+      "content": "ABPA is diagnosed in a predisposed patient (asthma, or cystic fibrosis) by a cluster: a markedly elevated total IgE (commonly >1000 IU/mL), evidence of Aspergillus sensitisation (raised Aspergillus-specific IgE and/or a positive skin test), and supportive features such as eosinophilia, Aspergillus precipitins/IgG, and compatible radiology. The serologic subtype (ABPA-S) is defined by meeting these immunological criteria without central bronchiectasis on imaging — i.e. ABPA caught before fixed structural lung damage. His total IgE >2500 with dust-mite atopy is consistent with active ABPA; the job now is to confirm the Aspergillus-specific markers (specific IgE/IgG) and image the chest (HRCT) to confirm there is still no bronchiectasis and exclude mucoid impaction, because that staging drives both treatment intensity and prognosis.",
+      "keyPoints": [
+        "ABPA = predisposition (asthma/CF) + very high total IgE + Aspergillus sensitisation + supportive features",
+        "ABPA-S = serologic criteria met WITHOUT central bronchiectasis (caught early)",
+        "Confirm Aspergillus-specific IgE/IgG and HRCT to stage before/while treating"
+      ]
+    },
+    {
+      "id": "cr-032-n7",
+      "type": "note",
+      "subtopic": "ABPA monitoring",
+      "title": "Why total IgE is tracked as a per-patient trend, not normalised to a cut-off",
+      "content": "Total serum IgE is the single most useful marker of ABPA activity, but it is used as a relative, per-patient measure. After starting treatment you establish a new baseline (the value at 6–8 weeks) and follow the trend: a fall of roughly 25–35% indicates response, and a rise of similar magnitude from the patient's nadir flags an exacerbation. The classic error is to chase a 'normal' IgE — most treated ABPA patients never normalise their total IgE, and pushing therapy to force the number down over-treats them with steroids. So with his IgE >2500, the goal is a meaningful proportional fall and clinical/radiological improvement, not a specific target number.",
+      "keyPoints": [
+        "Total IgE = best activity marker, used as a per-patient trend",
+        "Response ≈ 25–35% fall to a new baseline; similar rise from nadir = exacerbation",
+        "Don't chase a 'normal' IgE — most never normalise; doing so over-treats"
+      ]
+    },
+    {
+      "id": "cr-032-n8",
+      "type": "note",
+      "subtopic": "ABPA treatment",
+      "title": "How to treat active ABPA: oral steroids first, azole as the steroid-sparing partner",
+      "content": "First-line treatment of an acute ABPA exacerbation is a course of oral corticosteroid (for example prednisolone starting around 0.5 mg/kg/day and tapered over roughly 3–4 months guided by symptoms, IgE trend and imaging). Itraconazole is the established steroid-sparing/antifungal partner: it reduces the fungal antigenic burden, can lower exacerbation rates and steroid exposure, and is typically given for around 16 weeks (often longer). It is added alongside or after the initial steroid response. Importantly the azole is not a substitute for steroids in a florid exacerbation — it complements them. Inhaled therapy for the underlying asthma continues throughout. Newer azoles (voriconazole/posaconazole) and anti-IgE/anti-IL5 biologics are reserved for relapsing, steroid-dependent or azole-failing disease.",
+      "keyPoints": [
+        "Acute exacerbation: oral prednisolone (~0.5 mg/kg/day) tapered over ~3–4 months",
+        "Itraconazole ~16 weeks as steroid-sparing antifungal — complements, not replaces, steroids",
+        "Reserve newer azoles / biologics for relapsing or steroid-dependent disease"
+      ]
+    },
+    {
+      "id": "cr-032-n9",
+      "type": "note",
+      "subtopic": "Drug interaction",
+      "title": "Why itraconazole needs respect: CYP3A4 inhibition, absorption and LFTs",
+      "content": "Itraconazole is a potent CYP3A4 inhibitor, so it raises exposure to many co-prescribed drugs — including corticosteroids (methylprednisolone and inhaled/oral budesonide especially), with reports of iatrogenic Cushing syndrome and adrenal suppression when an azole and a steroid are combined unwittingly. It also has erratic absorption: the capsule needs gastric acid and food, the oral solution is better absorbed on an empty stomach, and acid-suppressants blunt capsule uptake — checking a trough itraconazole level confirms therapeutic exposure. Monitor liver function (baseline and periodically) because of hepatotoxicity, review the full drug list for interactions, and be alert that combining the azole with the ABPA steroid can amplify both steroid side-effects and hyperglycaemia in this diabetic patient.",
+      "keyPoints": [
+        "Strong CYP3A4 inhibitor → raises steroid exposure (Cushing/adrenal suppression risk)",
+        "Erratic absorption — formulation/food/acid matter; check a trough level",
+        "Monitor LFTs; azole+steroid can worsen steroid effects and glycaemia"
+      ]
+    },
+    {
+      "id": "cr-032-n10",
+      "type": "note",
+      "subtopic": "ABPA follow-up",
+      "title": "How to define exacerbation, response, remission — and why 'cure' is the wrong word",
+      "content": "Use agreed, mostly objective definitions. Response: clinical improvement plus a ≥25% fall in total IgE at 6–8 weeks (with radiological clearing of any infiltrates). Exacerbation: clinical and/or radiological deterioration with a ≥50% rise in IgE from the patient's nadir. Remission: sustained clinical and radiological stability with no exacerbation for ≥6 months after stopping oral steroids. Glucocorticoid-dependent ABPA: disease that flares whenever steroids are withdrawn (or needs them for asthma control). 'Cure' is not a term used in ABPA — it is a chronic, relapsing immunological disease; the realistic and correct goal is durable remission with the least possible steroid exposure. Long-term follow-up tracks total IgE, symptoms and lung function, with HRCT for new or worsening structural disease.",
+      "keyPoints": [
+        "Response = clinical improvement + ≥25% IgE fall at 6–8 weeks",
+        "Exacerbation = clinical/radiological worsening + ≥50% IgE rise from nadir",
+        "Remission = ≥6 months stable off steroids; 'cure' is not used — aim for durable remission"
+      ]
+    },
+    {
+      "id": "cr-032-n11",
+      "type": "note",
+      "subtopic": "Exocrine insufficiency",
+      "title": "Why fecal elastase is needed here, and how to act on it",
+      "content": "Yes — fecal elastase-1 is indicated. This man has chronic pancreatitis, pancreatogenic diabetes and a CBD stricture, so exocrine pancreatic insufficiency (EPI) is likely and frequently under-treated. Fecal elastase-1 on a single stool sample is the practical screen: a value below 200 µg/g suggests insufficiency and below 100 µg/g indicates severe EPI (a watery/very loose sample can falsely lower it). EPI matters beyond steatorrhoea — it causes fat-soluble vitamin (A, D, E, K) deficiency, B12 issues, osteoporosis and protein-calorie malnutrition, all of which also worsen the brittleness of his diabetes. Confirmed or strongly suspected EPI is treated with pancreatic enzyme replacement (lipase ~25,000–50,000 units with main meals, less with snacks, titrated to symptoms and nutrition), taken with food, alongside fat-soluble-vitamin assessment and bone-health screening.",
+      "keyPoints": [
+        "Fecal elastase-1 <200 µg/g = EPI; <100 = severe (loose stool can falsely lower it)",
+        "EPI causes A/D/E/K and nutritional deficits that worsen diabetic brittleness",
+        "Treat with PERT (~25,000–50,000 U lipase/meal) + fat-soluble vitamins + bone screen"
+      ]
+    },
+    {
+      "id": "cr-032-n12",
+      "type": "note",
+      "subtopic": "Cancer risk",
+      "title": "Why routine cancer 'surveillance' in ordinary chronic pancreatitis is not standard",
+      "content": "Chronic pancreatitis does raise pancreatic-cancer risk, but the common reflex — enrolling every chronic-pancreatitis patient in 6-monthly CT/EUS/CA19-9 surveillance — is not evidence-based and risks harm from false positives and repeated radiation. Routine imaging surveillance is reserved for genuinely high-risk groups: hereditary pancreatitis (e.g. PRSS1) and familial pancreatic-cancer/known germline syndromes, where dedicated programs (MRI/MRCP ± EUS) are offered. For sporadic chronic pancreatitis the right strategy is risk-factor modification plus alertness to red flags, not a fixed surveillance calendar. CA19-9 is a poor screening test and is especially unreliable here because biliary obstruction/cholestasis (he has a CBD stricture and stent) elevates it non-specifically. Be careful not to over-promise a surveillance program that guidelines do not support.",
+      "keyPoints": [
+        "Routine CT/EUS/CA19-9 surveillance in sporadic chronic pancreatitis is NOT standard",
+        "Dedicated surveillance is for hereditary/familial high-risk groups only",
+        "CA19-9 is unreliable for screening and falsely raised by biliary obstruction/stent"
+      ]
+    },
+    {
+      "id": "cr-032-n13",
+      "type": "note",
+      "subtopic": "Cancer risk",
+      "title": "How to actually reduce and detect cancer risk in this man",
+      "content": "Two threads. Prevention: the only proven risk-reducers are complete cessation of smoking and alcohol — both independently drive chronic-pancreatitis progression and pancreatic cancer, and this is the single highest-value intervention. Optimise nutrition and diabetes control; chemoprevention (aspirin, statins, metformin) has only weak, hypothesis-level signals and is not a guideline indication. Detection: the live oncological question is his CBD stricture — distinguishing a benign chronic-pancreatitis stricture from cholangiocarcinoma or a pancreatic head cancer. That is pursued with cross-sectional imaging (MRCP/CT), and where suspicion exists, ERCP with brush cytology/biopsy and EUS-FNA, not with a generic surveillance schedule. Finally, a relevant teaching point: new-onset or abruptly worsening diabetes can itself be the presenting sign of pancreatic cancer, so unexplained deterioration deserves imaging, not just more insulin.",
+      "keyPoints": [
+        "Proven prevention = total smoking AND alcohol cessation; chemoprevention is not established",
+        "Focus detection on the CBD stricture (benign vs malignant) with MRCP/CT, ERCP brushings, EUS-FNA",
+        "Abrupt unexplained diabetes worsening can herald pancreatic cancer — image, don't just up-titrate"
+      ]
+    },
+    {
+      "id": "cr-032-why1",
+      "type": "why",
+      "subtopic": "Type 3c diabetes",
+      "question": "Why are sulfonylureas and SGLT2 inhibitors both problematic choices in type 3c diabetes?",
+      "answer": "Because the physiology of type 3c (pancreatogenic) diabetes — loss of islet mass causing deficiency of both insulin and glucagon — makes each drug class hazardous in its own way. Sulfonylureas act by stimulating insulin secretion from beta cells that are already depleted, so efficacy is limited and waning; worse, the hypoglycaemia they cause is dangerous in a patient whose glucagon counter-regulation is blunted, so lows are severe and prolonged. SGLT2 inhibitors carry a heightened risk of euglycaemic diabetic ketoacidosis in an insulin-deficient, often lean/malnourished patient — ketoacidosis with near-normal glucose that is easily missed, and the risk climbs with reduced intake, intercurrent illness, alcohol, dehydration and concurrent steroids. Insulin, carefully titrated with attention to hypoglycaemia, is the mainstay instead.",
+      "keyPoints": [
+        "Sulfonylurea: relies on failing beta cells; severe/prolonged hypoglycaemia with glucagon deficiency",
+        "SGLT2i: euglycaemic DKA risk in insulin-deficient, lean, illness-/steroid-stressed patients",
+        "Insulin is the mainstay in type 3c"
+      ]
+    },
+    {
+      "id": "cr-032-how1",
+      "type": "how",
+      "subtopic": "ABPA follow-up",
+      "question": "How should this patient's ABPA be monitored long-term, and when can you call it remission?",
+      "answer": "Track three things: symptoms, total serum IgE as a per-patient trend, and imaging. Set a new IgE baseline at 6–8 weeks of treatment; a fall of about 25–35% with clinical and radiological improvement signals response, and you do not aim to normalise the IgE. Follow IgE roughly every 6–8 weeks while treating and then periodically; a rise of about 50% from the patient's nadir with clinical/radiological deterioration defines an exacerbation. Spirometry and HRCT (for new infiltrates, mucoid impaction or evolving bronchiectasis) round out monitoring. Remission is sustained clinical and radiological stability with no exacerbation for at least 6 months after stopping oral steroids. 'Cure' is not used — ABPA is chronic and relapsing — so the goal is durable remission on the least steroid possible, escalating to azole or biologic therapy if he proves steroid-dependent or relapses.",
+      "keyPoints": [
+        "Monitor symptoms + total IgE trend (new baseline at 6–8 weeks) + imaging/spirometry",
+        "Response ≈ 25–35% IgE fall; exacerbation ≈ 50% rise from nadir",
+        "Remission = ≥6 months stable off steroids; no 'cure' — aim for durable remission"
+      ]
+    },
+    {
+      "id": "cr-032-m1",
+      "type": "mcq",
+      "subtopic": "Type 3c diabetes",
+      "stem": "A 42-year-old man with type 3c diabetes (chronic pancreatitis) has HbA1c 10% on glargine 14 U, gliclazide MR 100 mg, voglibose 0.4 mg and dapagliflozin 10 mg. As you move him to basal-bolus insulin, which medication change is most appropriate?",
+      "options": [
+        "Stop gliclazide because of limited benefit and hypoglycaemia risk in glucagon-deficient type 3c diabetes",
+        "Increase gliclazide to 160 mg for tighter control",
+        "Add a second sulfonylurea for synergy",
+        "Continue all oral agents unchanged alongside basal-bolus insulin"
+      ],
+      "correctOption": 0,
+      "explanation": "In type 3c diabetes the beta cells are depleted, so the sulfonylurea adds little glucose-lowering but real hypoglycaemia risk, which is dangerous given blunted glucagon counter-regulation. It should be stopped when moving to basal-bolus insulin. Increasing or adding sulfonylureas worsens the hazard."
+    },
+    {
+      "id": "cr-032-m2",
+      "type": "mcq",
+      "subtopic": "Type 3c diabetes",
+      "stem": "Why is dapagliflozin a concern in this patient with pancreatogenic diabetes?",
+      "options": [
+        "Risk of euglycaemic diabetic ketoacidosis in an insulin-deficient, malnourished patient",
+        "It causes severe hyperkalaemia in chronic pancreatitis",
+        "It directly damages residual islet cells",
+        "It blocks itraconazole absorption"
+      ],
+      "correctOption": 0,
+      "explanation": "SGLT2 inhibitors can precipitate euglycaemic DKA — ketoacidosis with near-normal glucose, easily missed — and insulin-deficient, lean type 3c patients facing reduced intake, illness, alcohol or steroids are at particular risk. The other options are not recognised effects."
+    },
+    {
+      "id": "cr-032-m3",
+      "type": "mcq",
+      "subtopic": "Drug interaction",
+      "stem": "You plan to start prednisolone for this man's ABPA exacerbation. What is the most important concurrent action for his diabetes?",
+      "options": [
+        "Anticipate steroid-induced hyperglycaemia and pre-emptively up-titrate insulin, then taper insulin as steroids taper",
+        "Stop all insulin while on steroids to avoid hypoglycaemia",
+        "Switch to metformin monotherapy during the steroid course",
+        "Make no changes; steroids do not affect glucose at this dose"
+      ],
+      "correctOption": 0,
+      "explanation": "Systemic steroids cause marked, mainly post-prandial hyperglycaemia. The right approach is to anticipate it — intensify monitoring and raise insulin (chiefly bolus) as the steroid starts — then step insulin back down in parallel with the taper to avoid later hypoglycaemia. Stopping insulin or relying on metformin would be unsafe."
+    },
+    {
+      "id": "cr-032-m4",
+      "type": "mcq",
+      "subtopic": "ABPA monitoring",
+      "stem": "How should the total IgE of >2500 IU/mL be used in following this patient's ABPA?",
+      "options": [
+        "As a per-patient activity marker — set a new baseline and track a ~25–35% fall as response, not a number to normalise",
+        "As a target to be driven into the normal range before stopping therapy",
+        "As an irrelevant value once Aspergillus-specific IgE is known",
+        "As a direct measure of his insulin requirement"
+      ],
+      "correctOption": 0,
+      "explanation": "Total IgE is the best activity marker in ABPA but is used relatively: establish a new baseline at 6–8 weeks, treat a ~25–35% fall (with clinical/radiological improvement) as response, and watch for a ~50% rise from nadir as exacerbation. Most patients never normalise IgE, so chasing a normal value over-treats with steroids."
+    },
+    {
+      "id": "cr-032-m5",
+      "type": "mcq",
+      "subtopic": "ABPA treatment",
+      "stem": "What is the first-line treatment of an acute ABPA exacerbation, and the role of itraconazole?",
+      "options": [
+        "Oral corticosteroids are first-line; itraconazole is a steroid-sparing antifungal partner",
+        "Itraconazole monotherapy replaces steroids in all exacerbations",
+        "Inhaled corticosteroids alone are sufficient for an acute flare",
+        "Omalizumab is the routine first-line agent for every exacerbation"
+      ],
+      "correctOption": 0,
+      "explanation": "Oral corticosteroids (e.g. prednisolone ~0.5 mg/kg/day tapered over ~3–4 months) are first-line for an acute ABPA exacerbation; itraconazole (~16 weeks) is the steroid-sparing antifungal that lowers fungal burden and steroid exposure but complements rather than replaces steroids. Biologics are reserved for relapsing/steroid-dependent disease."
+    },
+    {
+      "id": "cr-032-m6",
+      "type": "mcq",
+      "subtopic": "Exocrine insufficiency",
+      "stem": "A fecal elastase-1 of 80 µg/g is reported. What does this indicate and what is the next step?",
+      "options": [
+        "Severe exocrine pancreatic insufficiency — start pancreatic enzyme replacement and assess fat-soluble vitamins",
+        "Normal exocrine function — no action needed",
+        "Acute pancreatitis requiring hospital admission",
+        "Pancreatic cancer, mandating immediate surgery"
+      ],
+      "correctOption": 0,
+      "explanation": "Fecal elastase-1 below 100 µg/g indicates severe exocrine pancreatic insufficiency. Management is enzyme replacement (lipase ~25,000–50,000 units with main meals) taken with food, plus assessment/replacement of fat-soluble vitamins and bone-health screening. It is neither normal nor diagnostic of cancer or acute pancreatitis."
+    },
+    {
+      "id": "cr-032-m7",
+      "type": "mcq",
+      "subtopic": "Cancer risk",
+      "stem": "Regarding cancer in this man with chronic pancreatitis and a CBD stricture/stent, which statement is correct?",
+      "options": [
+        "Routine 6-monthly CT/EUS/CA19-9 surveillance is not standard; smoking/alcohol cessation and working up the stricture are the priorities",
+        "All chronic-pancreatitis patients require lifelong 6-monthly EUS surveillance",
+        "CA19-9 is a reliable screening test, especially with biliary obstruction",
+        "Chronic pancreatitis carries no increased cancer risk"
+      ],
+      "correctOption": 0,
+      "explanation": "Routine imaging/tumour-marker surveillance in sporadic chronic pancreatitis is not evidence-based (reserved for hereditary/familial high-risk groups). The proven risk-reducers are smoking and alcohol cessation, and the actionable oncological question here is benign-vs-malignant of the CBD stricture (MRCP/CT, ERCP brushings, EUS-FNA). CA19-9 is unreliable and falsely raised by biliary obstruction/stent; the risk is increased, not absent."
+    },
+    {
+      "id": "cr-032-tf1",
+      "type": "true_false",
+      "subtopic": "Type 3c diabetes",
+      "statement": "Patients with type 3c diabetes are protected from severe hypoglycaemia because of intact counter-regulation.",
+      "correctAnswer": false,
+      "explanation": "False. Type 3c diabetes involves loss of glucagon-secreting alpha cells as well as beta cells, so counter-regulation is impaired and patients are at increased risk of severe, prolonged hypoglycaemia — a key reason to avoid sulfonylureas and titrate insulin cautiously."
+    },
+    {
+      "id": "cr-032-tf2",
+      "type": "true_false",
+      "subtopic": "ABPA follow-up",
+      "statement": "Successful ABPA treatment is defined by normalising the total IgE into the reference range.",
+      "correctAnswer": false,
+      "explanation": "False. Total IgE is followed as a per-patient trend; response is a ~25–35% fall to a new baseline with clinical/radiological improvement. Most treated patients never normalise IgE, and aiming to do so leads to steroid over-treatment."
+    },
+    {
+      "id": "cr-032-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Drug interaction",
+      "assertion": "Insulin requirements should be increased pre-emptively when starting oral steroids for this patient's ABPA.",
+      "reason": "Systemic glucocorticoids raise blood glucose, predominantly post-prandially.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason explains the assertion. Because systemic steroids cause largely post-prandial hyperglycaemia, a patient already at HbA1c 10% will need higher (mainly bolus) insulin doses anticipated as the steroid starts, then tapered down with the steroid. Hence option 0."
+    },
+    {
+      "id": "cr-032-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Cancer risk",
+      "assertion": "A 6-monthly CA19-9 is a reliable way to screen this patient for pancreatic cancer.",
+      "reason": "CA19-9 is specific to pancreatic malignancy and is unaffected by biliary obstruction.",
+      "correctOption": 4,
+      "explanation": "Both statements are false. CA19-9 is neither sensitive nor specific enough for screening, and it is non-specifically elevated by biliary obstruction/cholestasis — which this patient has from his CBD stricture and stent — making it especially unreliable here. Hence option 4."
+    },
+    {
+      "id": "cr-032-sa1",
+      "type": "shortanswer",
+      "subtopic": "Insulin regimen",
+      "question": "Outline a safe starting basal-bolus plan and titration approach for this type 3c patient.",
+      "answer": "Estimate total daily insulin conservatively (~0.4–0.5 U/kg/day given hypoglycaemia-proneness), split roughly 50% basal analogue and 50% rapid-acting analogue divided across meals; his glargine 14 U is a low basal and will likely need increasing. Stop the sulfonylurea and reconsider/stop the SGLT2 inhibitor. Titrate basal to the fasting glucose and each meal bolus to the next pre-meal/2-hour post-prandial value in small steps. Use individualised, not-too-tight targets (fasting ~100–130, post-prandial <~180 mg/dL), relaxed if hypoglycaemia occurs. Add structured self-monitoring or CGM and hypoglycaemia education, and coordinate insulin up-titration with any steroid course."
+    },
+    {
+      "id": "cr-032-sa2",
+      "type": "shortanswer",
+      "subtopic": "ABPA follow-up",
+      "question": "Define ABPA response, exacerbation and remission, and explain why 'cure' is avoided.",
+      "answer": "Response: clinical improvement with a ≥25% fall in total IgE at 6–8 weeks and clearing of any infiltrates. Exacerbation: clinical and/or radiological deterioration with a ≥50% rise in total IgE from the patient's nadir. Remission: sustained clinical and radiological stability with no exacerbation for at least 6 months after stopping oral steroids. 'Cure' is avoided because ABPA is a chronic, relapsing immunological disease — the realistic goal is durable remission on the least steroid possible, escalating to azole or biologic therapy if the patient is steroid-dependent or relapses."
+    },
+    {
+      "id": "cr-032-sa3",
+      "type": "shortanswer",
+      "subtopic": "Cancer risk",
+      "question": "What is the evidence-based approach to cancer risk in this man with chronic pancreatitis and a CBD stricture?",
+      "answer": "Routine imaging/tumour-marker surveillance is not indicated in sporadic chronic pancreatitis (it is reserved for hereditary/familial high-risk groups). The proven, highest-value interventions are complete smoking and alcohol cessation; chemoprevention (aspirin/statin/metformin) is not established. The actionable oncological focus is the CBD stricture — distinguishing benign chronic-pancreatitis stricture from cholangiocarcinoma or pancreatic-head cancer with MRCP/CT, and where suspicion exists ERCP with brush cytology/biopsy and EUS-FNA. CA19-9 is unreliable for screening and falsely raised by biliary obstruction/stent. New-onset or abruptly worsening diabetes can itself herald pancreatic cancer and warrants imaging rather than simply more insulin."
+    }
+  ]
+}
