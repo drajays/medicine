@@ -814,6 +814,326 @@
       "statement": "Proton pump inhibitor co-prescription is optional when starting prednisolone in this patient with portal hypertension.",
       "correctAnswer": false,
       "explanation": "False. PPI co-prescription is mandatory, not optional. Steroids suppress prostaglandin-mediated mucosal protection, lowering the threshold for gastric and oesophageal variceal haemorrhage in portal hypertension — a potentially life-threatening event. A PPI should be started simultaneously with prednisolone in any patient with portal hypertension or known varices."
+    },
+    {
+      "type": "mcq",
+      "stem": "What are the two distinct mechanisms driving hypercalcemia in this patient?",
+      "options": [
+        "A: PTHrP-mediated osteoclastic bone resorption (humoral hypercalcemia of malignancy from the breast cancer), and calcitriol-mediated intestinal calcium absorption (granulomatous 1α-hydroxylase activity).",
+        "B: Vitamin D toxicity from excessive dietary intake and PTH-mediated renal calcium reabsorption.",
+        "C: Direct bone metastasis-induced osteolysis and PTH secretion from parathyroid adenoma.",
+        "D: Calcitriol-mediated intestinal absorption and PTHrP-independent osteoclast activation via cytokines."
+      ],
+      "correctOption": 0,
+      "explanation": "The correct answer identifies the two mechanisms: PTHrP-driven bone resorption from malignancy and granuloma-associated 1α-hydroxylase activity increasing calcitriol levels. Other options describe different etiologies (e.g., vitamin D toxicity, primary hyperparathyroidism) or incomplete mechanisms.",
+      "id": "cr-010-sa1-obj-e953a2",
+      "subtopic": "Pathophysiology",
+      "_generatedFrom": "cr-010-sa1"
+    },
+    {
+      "type": "mcq",
+      "stem": "In a patient with granulomatous disease and a 25(OH)D level of 85 ng/mL, which mechanism best explains the pathological contribution of this elevated 25(OH)D level?",
+      "options": [
+        "A) Increased intestinal calcium absorption due to enhanced vitamin D receptor activation",
+        "B) Suppression of parathyroid hormone (PTH) secretion via direct feedback on the parathyroid gland",
+        "C) Unregulated 1α-hydroxylase activity in macrophages leading to excessive 1,25(OH)2D production through first-order kinetics",
+        "D) Inhibition of renal 24-hydroxylase activity causing accumulation of 25(OH)D metabolites"
+      ],
+      "correctOption": 2,
+      "explanation": "In granulomatous disease, macrophage 1α-hydroxylase lacks negative feedback regulation, leading to increased 1,25(OH)2D production proportional to substrate availability (first-order kinetics). This explains the pathological role of elevated 25(OH)D levels.",
+      "id": "cr-010-how1-obj-1108d0",
+      "subtopic": "Pathophysiology",
+      "_generatedFrom": "cr-010-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why did denosumab fail to maintain normocalcemia in patients with granulomatous diseases?",
+      "options": [
+        "A) It increases renal excretion of calcium",
+        "B) It inhibits vitamin D synthesis in the liver",
+        "C) It blocks RANKL-mediated bone resorption but has no effect on intestinal calcium absorption",
+        "D) It causes hypoparathyroidism"
+      ],
+      "correctOption": 2,
+      "explanation": "Denosumab is a monoclonal antibody targeting RANKL, which inhibits osteoclastogenesis and reduces bone resorption. However, it does not affect intestinal calcium absorption. In granulomatous diseases, activated T cells in granulomas produce excess calcitriol, leading to increased intestinal calcium absorption despite suppressed bone resorption, resulting in hypercalcemia.",
+      "id": "cr-010-why2-obj-ef24b0",
+      "subtopic": "Therapy",
+      "_generatedFrom": "cr-010-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "What characterizes a ‘sarcoid-like reaction’ to malignancy?",
+      "options": [
+        "A. A localized or systemic granulomatous immune response to tumor antigens, histologically indistinguishable from sarcoidosis, often seen in regional lymph nodes or bone marrow in breast cancer.",
+        "B. A diffuse inflammatory response in the lungs due to metastatic carcinoma, resembling sarcoidosis.",
+        "C. A non-caseating granuloma formation in the liver secondary to chronic infection, mimicking sarcoidosis.",
+        "D. A hypersensitivity reaction to chemotherapy drugs, causing granulomatous lesions in the skin."
+      ],
+      "correctOption": 0,
+      "explanation": "A sarcoid-like reaction is a granulomatous response to tumor antigens, not caused by infection or drugs, and is commonly associated with breast cancer in lymph nodes/bone marrow, not the lungs or liver.",
+      "id": "cr-010-sa3-obj-988093",
+      "subtopic": "Diagnostics",
+      "_generatedFrom": "cr-010-sa3"
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Persistent hypercalcemia and elevated calcitriol levels in a patient on anti-tuberculosis therapy (ATT) for 3 months suggest a non-infectious etiology for the granuloma.",
+      "reason": "Effective ATT should reduce macrophage burden, leading to decreased 1,25(OH)2D production and normalization of calcium levels within 3 months.",
+      "correctOption": 0,
+      "explanation": "In tuberculosis, effective ATT reduces macrophage activation and subsequent calcitriol production. Persistent hypercalcemia and calcitriol despite treatment indicate an alternative mechanism, such as sarcoidosis, where granuloma formation is immune-mediated rather than infectious.",
+      "id": "cr-010-why3-obj-6296d0",
+      "subtopic": "Diagnostics",
+      "_generatedFrom": "cr-010-why3"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary role of PET scanning in this clinical scenario?",
+      "options": [
+        "A) Detecting lytic bone metastases and systemic granulomas to identify the dual-source hypercalcemia",
+        "B) Assessing tumor response to chemotherapy in patients with PTHrP-mediated hypercalcemia",
+        "C) Localizing adrenal masses that may secrete parathyroid hormone-related protein",
+        "D) Evaluating lymph node involvement in Hodgkin lymphoma with concurrent hypercalcemia"
+      ],
+      "correctOption": 0,
+      "explanation": "PET scanning is superior to conventional imaging for detecting metabolic activity in lytic bone metastases and systemic granulomas, which are key to identifying the dual pathophysiology of hypercalcemia in this context.",
+      "id": "cr-010-sa4-obj-262227",
+      "subtopic": "Diagnostics",
+      "_generatedFrom": "cr-010-sa4"
+    },
+    {
+      "type": "mcq",
+      "stem": "In a patient with hypercalcemia and an eGFR <30 mL/min/1.73m², which statement best describes the management implication?",
+      "options": [
+        "A) Intravenous bisphosphonates are contraindicated due to risk of acute tubular necrosis, with denosumab as the preferred alternative",
+        "B) Intravenous bisphosphonates can be safely used with close monitoring of renal function",
+        "C) Calcitonin is the preferred first-line therapy due to its renal safety profile",
+        "D) Denosumab is contraindicated in patients with eGFR <30 due to increased risk of hypocalcemia"
+      ],
+      "correctOption": 0,
+      "explanation": "Bisphosphonates are nephrotoxic and contraindicated in severe renal impairment; denosumab is preferred despite requiring monitoring for hypocalcemia.",
+      "id": "cr-010-how2-obj-6df957",
+      "subtopic": "Renal Constraints",
+      "_generatedFrom": "cr-010-how2"
+    },
+    {
+      "type": "mcq",
+      "stem": "In a patient with chronic liver disease and portal hypertension, which approach is contraindicated in the acute management of hypercalcemia?",
+      "options": [
+        "A) Aggressive normal-saline diuresis",
+        "B) Intravenous bisphosphonates",
+        "C) Calcitonin administration",
+        "D) Loop diuretics with hydration"
+      ],
+      "correctOption": 0,
+      "explanation": "Aggressive normal-saline diuresis can precipitate variceal bleeding or massive ascites due to altered portal hemodynamics in patients with cirrhosis and portal hypertension.",
+      "id": "cr-010-how3-obj-ec487d",
+      "subtopic": "Hepatic Constraints",
+      "_generatedFrom": "cr-010-how3"
+    },
+    {
+      "type": "mcq",
+      "stem": "How does chronic liver disease, specifically cirrhosis, influence the interpretation of vitamin D levels?",
+      "options": [
+        "A) Decreased vitamin D-binding protein (VDBP) synthesis leads to higher free, biologically active 1,25(OH)2D despite normal or low total vitamin D levels",
+        "B) Increased hepatic metabolism of vitamin D results in lower total and free 1,25(OH)2D levels",
+        "C) Impaired intestinal absorption of vitamin D causes falsely low total vitamin D measurements",
+        "D) Elevated hepatic vitamin D synthesis compensates for reduced renal activation, maintaining normal 1,25(OH)2D levels"
+      ],
+      "correctOption": 0,
+      "explanation": "The liver synthesizes vitamin D-binding protein (VDBP). In cirrhosis, reduced VDBP production decreases the binding of 1,25(OH)2D, increasing the free fraction that is biologically active, which may not be reflected in total vitamin D measurements.",
+      "id": "cr-010-how4-obj-bdc6ad",
+      "subtopic": "Hepatic Constraints",
+      "_generatedFrom": "cr-010-how4"
+    },
+    {
+      "type": "mcq",
+      "stem": "In a patient with chronic liver disease receiving romiplostim for thrombocytopenia, which mechanism explains the drug's effectiveness despite splenic sequestration of platelets?",
+      "options": [
+        "A) Portal hypertension-induced splenomegaly leads to platelet sequestration, which romiplostim counteracts by stimulating marrow production",
+        "B) Hepatic dysfunction impairs platelet production, which romiplostim directly addresses",
+        "C) Coagulopathy from liver disease is corrected by romiplostim's antifibrinolytic effects",
+        "D) Portal hypertension increases platelet consumption in the liver, which romiplostim reduces"
+      ],
+      "correctOption": 0,
+      "explanation": "Portal hypertension causes splenomegaly and splenic sequestration of platelets. Romiplostim stimulates marrow production to overcome peripheral sequestration.",
+      "id": "cr-010-how5-obj-170f9e",
+      "subtopic": "Comorbidity",
+      "_generatedFrom": "cr-010-how5"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is loop diuretic therapy (e.g., furosemide) considered a double-edged sword in patients with chronic liver disease (CLD) and acute kidney injury on chronic kidney disease (AKI-on-CKD)?",
+      "options": [
+        "A) It promotes calciuresis but worsens AKI-on-CKD by intravascular volume depletion and may precipitate hepatorenal syndrome in CLD",
+        "B) It causes hypokalemia and metabolic alkalosis, leading to cardiac arrhythmias",
+        "C) It increases risk of hyperuricemia and gout flare-ups",
+        "D) It induces nephrotic syndrome by increasing glomerular permeability"
+      ],
+      "correctOption": 0,
+      "explanation": "Loop diuretics exacerbate AKI-on-CKD through volume depletion and may trigger hepatorenal syndrome in CLD due to splanchnic vasodilation and reduced renal perfusion.",
+      "id": "cr-010-why5-obj-a218e8",
+      "subtopic": "Renal/Hepatic Constraints",
+      "_generatedFrom": "cr-010-why5"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary mechanism by which glucocorticoids reduce ectopic 1,25(OH)2D production in macrophages?",
+      "options": [
+        "A) Downregulation of CYP27B1 (1α-hydroxylase) gene expression",
+        "B) Inhibition of vitamin D receptor (VDR) activation in intestinal epithelial cells",
+        "C) Suppression of parathyroid hormone (PTH) secretion from the parathyroid glands",
+        "D) Blockade of calcium channel receptors in distal convoluted tubules"
+      ],
+      "correctOption": 0,
+      "explanation": "Glucocorticoids specifically target macrophage CYP27B1, which is responsible for converting 25(OH)D to active 1,25(OH)2D, thereby reducing ectopic vitamin D activation and intestinal calcium absorption.",
+      "id": "cr-010-sa6-obj-ee764d",
+      "subtopic": "Pharmacology",
+      "_generatedFrom": "cr-010-sa6"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the expected timeline for serum calcium reduction after initiating corticosteroid therapy?",
+      "options": [
+        "A) 2–5 days",
+        "B) 1–2 days",
+        "C) 1 week",
+        "D) 6–10 days"
+      ],
+      "correctOption": 0,
+      "explanation": "Calcium levels decrease as steroid-induced suppression of 1,25(OH)2D synthesis and reduced intestinal calcium absorption take effect over 2–5 days.",
+      "id": "cr-010-sa7-obj-b23acf",
+      "subtopic": "Pharmacology",
+      "_generatedFrom": "cr-010-sa7"
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Denosumab is still necessary if steroids are started.",
+      "reason": "Steroids do not control the PTHrP-driven bone metastasis.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains that steroids and denosumab act on different pathways (steroids target inflammation, denosumab inhibits osteoclastic resorption via RANKL), necessitating combined use for comprehensive management.",
+      "id": "cr-010-sa8-obj-22e9d9",
+      "subtopic": "Strategy",
+      "_generatedFrom": "cr-010-sa8"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary risk of continuing denosumab in a patient with severe chronic kidney disease (CKD)?",
+      "options": [
+        "A) Severe, refractory hypocalcemia",
+        "B) Hypercalcemia due to impaired renal excretion",
+        "C) Acute kidney injury from drug nephrotoxicity",
+        "D) Osteonecrosis of the jaw"
+      ],
+      "correctOption": 0,
+      "explanation": "Denosumab inhibits RANKL, reducing osteoclast activity. In severe CKD, impaired renal calcium handling and concurrent steroid use (which reduces intestinal calcium absorption) can lead to profound hypocalcemia when bone resorption is suppressed.",
+      "id": "cr-010-sa9-obj-8b167a",
+      "subtopic": "Safety",
+      "_generatedFrom": "cr-010-sa9"
+    },
+    {
+      "type": "mcq",
+      "stem": "For a patient with a palliative prognosis (1–2 year life expectancy), what is the recommended monitoring strategy for calcium and creatinine levels in the context of denosumab therapy?",
+      "options": [
+        "A) Monthly calcium and creatinine monitoring with denosumab dosing based on a fixed schedule",
+        "B) Quarterly calcium and creatinine monitoring with denosumab administered only when hypercalcemia is confirmed",
+        "C) Monthly calcium and creatinine monitoring with denosumab dosing triggered by upward calcium trends rather than a rigid schedule",
+        "D) Biweekly calcium and creatinine monitoring with denosumab withheld until severe hypercalcemia develops"
+      ],
+      "correctOption": 2,
+      "explanation": "Monthly monitoring allows timely adjustment of denosumab while avoiding over-treatment, and ionized calcium should be checked more frequently initially with prednisolone to prevent iatrogenic hypocalcemia.",
+      "id": "cr-010-sa10-obj-6bb757",
+      "subtopic": "Palliative Monitoring",
+      "_generatedFrom": "cr-010-sa10"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which mechanism best explains how hypercalcemia exacerbates acute kidney injury (AKI) through a self-amplifying loop?",
+      "options": [
+        "A. Activation of renal CaSR in collecting ducts and afferent arterioles leading to aquaporin-2 downregulation, nephrogenic DI, and GFR reduction",
+        "B. Direct tubular damage from calcium deposition causing obstructive nephropathy",
+        "C. Increased renal calcium reabsorption via parathyroid hormone (PTH) stimulation",
+        "D. Hypovolemia from polyuria secondary to osmotic diuresis"
+      ],
+      "correctOption": 0,
+      "explanation": "Hypercalcemia activates CaSR in collecting ducts (reducing aquaporin-2 and causing nephrogenic DI) and afferent arterioles (reducing GFR), creating a cycle of dehydration, pre-renal AKI, and further calcium retention.",
+      "id": "cr-010-sa11-obj-8cde5d",
+      "subtopic": "Vicious Cycle",
+      "_generatedFrom": "cr-010-sa11"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which cytokine is the primary inducer of macrophage CYP27B1 in granulomatous disease, and how do glucocorticoids interrupt this pathway?",
+      "options": [
+        "A) TNF-α activates NF-κB to upregulate CYP27B1; glucocorticoids inhibit NF-κB via IκB stabilization",
+        "B) IFN-γ signals via IFNGR1/2 → STAT1 phosphorylation → CYP27B1 transcription; glucocorticoids suppress STAT1 and reduce upstream IFN-γ/IL-2",
+        "C) IL-1β activates AP-1 to induce CYP27B1; glucocorticoids block AP-1 via MAPK inhibition",
+        "D) IL-6 activates JAK/STAT3 to drive CYP27B1; glucocorticoids inhibit STAT3 phosphorylation"
+      ],
+      "correctOption": 1,
+      "explanation": "IFN-γ is the key cytokine for CYP27B1 induction via STAT1 in granulomatous disease. Glucocorticoids suppress STAT1 signaling and reduce upstream IFN-γ/IL-2 production, blocking ectopic calcitriol synthesis.",
+      "id": "cr-010-sa12-obj-6c5f18",
+      "subtopic": "Cytokine Biology",
+      "_generatedFrom": "cr-010-sa12"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why does calcitonin lose effectiveness within 48–72 hours of administration?",
+      "options": [
+        "A) Tachyphylaxis due to downregulation of osteoclast calcium-sensing receptor (CaSR) and cAMP pathway",
+        "B) Upregulation of CaSR leading to increased calcitonin sensitivity",
+        "C) Inhibition of bone formation by osteoblasts",
+        "D) Rapid renal excretion of calcitonin"
+      ],
+      "correctOption": 0,
+      "explanation": "Calcitonin's efficacy diminishes due to tachyphylaxis, where prolonged exposure causes receptor internalization and uncoupling of the CaSR-cAMP pathway, reducing osteoclast inhibition.",
+      "id": "cr-010-sa13-obj-19b858",
+      "subtopic": "Rescue Therapy",
+      "_generatedFrom": "cr-010-sa13"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is exogenous calcitriol preferred over native vitamin D for preventing hypocalcemia in a CKD patient on steroids and denosumab?",
+      "options": [
+        "A. Native vitamin D requires renal 1α-hydroxylation, which is impaired in CKD and suppressed by steroids, making it inert.",
+        "B. Steroids enhance intestinal calcium absorption, reducing the need for vitamin D.",
+        "C. Denosumab directly increases serum calcium levels independent of vitamin D metabolism.",
+        "D. Exogenous calcitriol inhibits parathyroid hormone secretion more effectively than native vitamin D."
+      ],
+      "correctOption": 0,
+      "explanation": "Native vitamin D (cholecalciferol/ergocalciferol) requires renal 1α-hydroxylation to form active 1,25(OH)2D. In CKD (eGFR 15–20), renal 1α-hydroxylation is severely impaired, and steroids suppress macrophage ectopic 1α-hydroxylation, leaving native vitamin D inert. Exogenous calcitriol bypasses these steps, directly activating intestinal calcium absorption.",
+      "id": "cr-010-sa14-obj-8f08f2",
+      "subtopic": "Iatrogenic Hypocalcemia",
+      "_generatedFrom": "cr-010-sa14"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is phosphate a useful concordant biomarker when monitoring the response to steroids in a patient with hypercalcemia?",
+      "options": [
+        "A) Steroids reduce calcitriol production, decreasing intestinal phosphate absorption and normalizing phosphate levels as therapy takes effect",
+        "B) Phosphate directly counteracts calcitriol's effects on renal calcium excretion",
+        "C) Elevated phosphate levels are a compensatory mechanism to lower serum calcium",
+        "D) Steroids increase phosphate reabsorption in the proximal tubule, independent of calcitriol"
+      ],
+      "correctOption": 0,
+      "explanation": "Steroids inhibit calcitriol synthesis, reducing intestinal absorption of calcium and phosphate. As calcitriol decreases, phosphate levels normalize alongside calcium, providing a concordant biomarker of therapeutic efficacy.",
+      "id": "cr-010-sa15-obj-bc5534",
+      "subtopic": "Treatment Response",
+      "_generatedFrom": "cr-010-sa15"
+    },
+    {
+      "type": "mcq",
+      "stem": "What additional serum test and histological feature would most strongly support a diagnosis of IgG4-related disease (IgG4-RD) over a sarcoid-like reaction in this patient?",
+      "options": [
+        "A) Serum IgG4 >135 mg/dL and dense storiform fibrosis with obliterative phlebitis and >10 IgG4-positive plasma cells/HPF",
+        "B) Elevated ACE levels and non-caseating granulomas with sparse IgG4 staining",
+        "C) Serum IgG4 <50 mg/dL and focal fibrosis with scattered IgG4-positive cells",
+        "D) Normal IgG4 levels and diffuse lymphoplasmacytic infiltration without fibrosis"
+      ],
+      "correctOption": 0,
+      "explanation": "IgG4-RD is characterized by serum IgG4 >135 mg/dL and histological findings of storiform fibrosis, obliterative phlebitis, and dense IgG4-positive plasma cell infiltration. Sarcoidosis typically lacks IgG4 elevation and shows granulomas without these fibrotic features.",
+      "id": "cr-010-sa16-obj-fc01da",
+      "subtopic": "Diagnostics",
+      "_generatedFrom": "cr-010-sa16"
     }
   ]
 }

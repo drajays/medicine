@@ -11,8 +11,14 @@
     "age": "20–26",
     "sex": "Female",
     "chiefComplaint": "Hyperandrogenism — hirsutism, oligomenorrhea/amenorrhea, trainee management errors",
-    "pmh": ["Vignette 1 (Ms. A): NCCAH × 1 year, prednisolone 5 mg daily", "Vignette 2 (Ms. P): provisional NCCAH/PCOS label, severe virilization"],
-    "medications": ["Wysolone (prednisolone) 5 mg daily (Vignette 1)", "None at presentation (Vignette 2)"]
+    "pmh": [
+      "Vignette 1 (Ms. A): NCCAH × 1 year, prednisolone 5 mg daily",
+      "Vignette 2 (Ms. P): provisional NCCAH/PCOS label, severe virilization"
+    ],
+    "medications": [
+      "Wysolone (prednisolone) 5 mg daily (Vignette 1)",
+      "None at presentation (Vignette 2)"
+    ]
   },
   "caseDescription": "**Vignette 1 — The Metabolic Trap:** Ms. A, 20-year-old female with NCCAH diagnosed one year ago (severe cystic acne, hirsutism Ferriman-Gallwey 16, oligomenorrhea). On prednisolone 5 mg daily with mild acne improvement but persistent hirsutism, irregular menses (35–60 days), 7 kg weight gain, BMI 24→26.5, rising triglycerides. Trainee proposes increasing Wysolone to 7.5 mg and adding bioidentical estradiol + micronized progesterone HRT.\n\n**Vignette 2 — The Late-Onset Illusion:** Ms. P, 26-year-old female with severe hyperandrogenism, primary/secondary amenorrhea, significant virilization. Provisionally labeled NCCAH or severe PCOS because of adult presentation. LC-MS/MS: cortisol 2.98 µg/dL, 17-OHP 89.10 ng/mL, 21-deoxycortisol 10.30 µg/L, testosterone 296 ng/dL, aldosterone 19.1 ng/dL. Trainee plans OCP/anti-androgens only, assuming NCCAH with intact cortisol reserve.",
   "keyFindings": [
@@ -454,6 +460,156 @@
       "correctOption": 0,
       "explanation": "Both true; residual zona glomerulosa function preserves aldosterone while fasciculata cortisol synthesis fails.",
       "reference": "Teaching Q&A Question 5: \"just enough to synthesize mineralocorticoids (aldosterone) in the zona glomerulosa, but not enough to synthesize adequate cortisol in the zona fasciculata.\""
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is increasing Wysolone to 7.5 mg for hirsutism in NCCAH considered a dangerous clinical trap?",
+      "options": [
+        "A) It risks iatrogenic Cushingoid effects and worsens metabolic complications due to supraphysiologic glucocorticoid doses",
+        "B) It leads to adrenal insufficiency from excessive ACTH suppression",
+        "C) It causes virilization due to unopposed androgen activity",
+        "D) It increases liver toxicity from long-term glucocorticoid use"
+      ],
+      "correctOption": 0,
+      "explanation": "High-dose glucocorticoids (e.g., 7.5 mg prednisolone) suppress the HPA axis and induce iatrogenic Cushingoid features (weight gain, insulin resistance), while failing to address peripheral androgen excess without adjunct therapies.",
+      "id": "cr-004-why1-obj-47bd63",
+      "subtopic": "Vignette 1 — The Metabolic Trap",
+      "_generatedFrom": "cr-004-why1"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary mechanism by which combined oral contraceptives (OCPs) alter peripheral androgen kinetics compared to hormone replacement therapy (HRT)?",
+      "options": [
+        "A) OCPs contain bioidentical estradiol, which increases SHBG production more effectively than HRT",
+        "B) OCPs use ethinyl estradiol with a first-pass hepatic effect that induces SHBG synthesis, lowering free androgen index (FAI)",
+        "C) HRT suppresses adrenal androgen production, while OCPs do not",
+        "D) OCPs inhibit 5-alpha reductase, reducing dihydrotestosterone (DHT) conversion"
+      ],
+      "correctOption": 1,
+      "explanation": "Ethinyl estradiol in OCPs has a first-pass hepatic effect that dramatically increases SHBG, lowering FAI by increasing the denominator in the FAI equation. Bioidentical estradiol in HRT induces minimal SHBG increases.",
+      "id": "cr-004-why3-obj-8b3cf2",
+      "subtopic": "Vignette 1 — The Metabolic Trap",
+      "_generatedFrom": "cr-004-why3"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which progestin is most appropriate for managing severe hirsutism in a patient with non-classical congenital adrenal hyperplasia (NCCAH)?",
+      "options": [
+        "A) Dydrogesterone",
+        "B) Medroxyprogesterone acetate",
+        "C) Drospirenone",
+        "D) Norethisterone"
+      ],
+      "correctOption": 2,
+      "explanation": "Drospirenone is an anti-androgenic progestin that antagonizes androgen receptors at the pilosebaceous unit, effectively reducing adrenal and ovarian androgen activity. Dydrogesterone and micronized progesterone are androgen-neutral, while medroxyprogesterone acetate and norethisterone have androgenic properties.",
+      "id": "cr-004-why4-obj-8ef3fc",
+      "subtopic": "Vignette 1 — The Metabolic Trap",
+      "_generatedFrom": "cr-004-why4"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is combined oral contraceptive (OCP) use mandatory before initiating spironolactone in women of reproductive age?",
+      "options": [
+        "A) To prevent hyperkalemia caused by spironolactone",
+        "B) To reduce androgen levels exacerbated by spironolactone",
+        "C) To provide effective contraception due to spironolactone's teratogenicity",
+        "D) To mitigate liver toxicity from spironolactone"
+      ],
+      "correctOption": 2,
+      "explanation": "Spironolactone is teratogenic, causing fetal feminization. OCPs provide reliable contraception, which is essential before initiating a teratogenic medication in women of reproductive age.",
+      "id": "cr-004-why5-obj-8782ad",
+      "subtopic": "Vignette 1 — The Metabolic Trap",
+      "_generatedFrom": "cr-004-why5"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is clinical presentation age a dangerous diagnostic anchor when differentiating non-classical congenital adrenal hyperplasia (NCCAH) from classic simple virilizing congenital adrenal hyperplasia (SV-CAH)?",
+      "options": [
+        "A) NCCAH presents with ambiguous genitalia at birth, while SV-CAH manifests later in life",
+        "B) Age of diagnosis does not correlate with disease onset; SV-CAH is congenital but may be missed in infancy",
+        "C) NCCAH causes salt-wasting crises in infancy, whereas SV-CAH presents with late-onset virilization",
+        "D) Classic CAH is always diagnosed in childhood, while NCCAH is an adult-onset disorder"
+      ],
+      "correctOption": 1,
+      "explanation": "SV-CAH is a congenital defect present at birth that may be overlooked in infancy (e.g., missed genital ambiguity), leading to delayed diagnosis in adulthood. NCCAH typically presents biochemically in late childhood/puberty. Confusing diagnosis age with disease onset age can lead to misdiagnosis.",
+      "id": "cr-004-why6-obj-b869bf",
+      "subtopic": "Vignette 2 — The Late-Onset Illusion",
+      "_generatedFrom": "cr-004-why6"
+    },
+    {
+      "type": "mcq",
+      "stem": "How does a basal cortisol level of 2.98 µg/dL impact the diagnosis of non-classical congenital adrenal hyperplasia (NCCAH)?",
+      "options": [
+        "A) It confirms partial CYP21A2 enzyme activity (20–50%) typical of NCCAH",
+        "B) It suggests mild ACTH stimulation sufficient for glucocorticoid synthesis in NCCAH",
+        "C) It indicates pituitary compensation maintaining eucortisolism consistent with NCCAH",
+        "D) It excludes NCCAH due to overt hypocortisolism incompatible with partial enzyme deficiency"
+      ],
+      "correctOption": 3,
+      "explanation": "NCCAH is characterized by partial enzyme deficiency (20–50% CYP21A2 activity) with eucortisolism due to compensatory ACTH secretion. A cortisol level of 2.98 µg/dL (below normal) indicates severe enzyme deficiency (1–2% activity) seen in classic CAH, not NCCAH, as the pituitary cannot overcome the block to achieve normal cortisol levels.",
+      "id": "cr-004-why7-obj-309b02",
+      "subtopic": "Vignette 2 — The Late-Onset Illusion",
+      "_generatedFrom": "cr-004-why7"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the key 17-OHP threshold distinguishing Classic Congenital Adrenal Hyperplasia (CAH) from Non-Classic CAH?",
+      "options": [
+        "A) Basal 17-OHP >30 ng/mL",
+        "B) Basal 17-OHP 2–10 ng/mL",
+        "C) Basal 17-OHP 10–20 ng/mL",
+        "D) Basal 17-OHP 20–30 ng/mL"
+      ],
+      "correctOption": 0,
+      "explanation": "Classic CAH is defined by basal 17-OHP >30 ng/mL (often >100 ng/mL), reflecting severe 21-hydroxylase deficiency, whereas Non-Classic CAH has lower levels (2–10 ng/mL). Values between 20–30 ng/mL are not diagnostic of Classic CAH.",
+      "id": "cr-004-why8-obj-b5bd08",
+      "subtopic": "Vignette 2 — The Late-Onset Illusion",
+      "_generatedFrom": "cr-004-why8"
+    },
+    {
+      "type": "mcq",
+      "stem": "Elevated 21-deoxycortisol levels in a patient with 21-hydroxylase deficiency most specifically indicate which of the following?",
+      "options": [
+        "A) Partial CYP21A2 deficiency with normal 17-hydroxyprogesterone (17-OHP) metabolism",
+        "B) Near-total CYP21A2 block with shunting of 17-OHP via CYP11B1",
+        "C) Mild non-classical congenital adrenal hyperplasia (NCCAH) with compensatory 11β-hydroxylase activity",
+        "D) Heterozygous CYP21A2 mutation with minimal steroidogenic impairment"
+      ],
+      "correctOption": 1,
+      "explanation": "Elevated 21-deoxycortisol occurs only with near-total CYP21A2 block, which blocks the primary 17-OHP → 11-deoxycortisol pathway, forcing 17-OHP to bypass via CYP11B1 to form 21-deoxycortisol. This is pathognomonic for classic CAH, not mild NCCAH or heterozygotes.",
+      "id": "cr-004-why9-obj-ec5b6e",
+      "subtopic": "Vignette 2 — The Late-Onset Illusion",
+      "_generatedFrom": "cr-004-why9"
+    },
+    {
+      "type": "mcq",
+      "stem": "A hypocortisolemic patient with classic congenital adrenal hyperplasia (CAH) survived infancy without an Addisonian crisis. Which of the following best explains this outcome?",
+      "options": [
+        "A) Residual 21-hydroxylase activity (1–2%) in simple virilizing CAH is sufficient to produce aldosterone but not cortisol",
+        "B) Cortisol deficiency was compensated by increased ACTH secretion",
+        "C) Salt-wasting CAH was present but aldosterone synthesis was unaffected",
+        "D) The patient had non-classic CAH with partial enzyme deficiency"
+      ],
+      "correctOption": 0,
+      "explanation": "Simple virilizing CAH (1–2% 21-hydroxylase activity) preserves aldosterone production in the zona glomerulosa, preventing neonatal salt-wasting crisis despite cortisol deficiency. Salt-wasting CAH (complete enzyme deficiency) would cause life-threatening adrenal insufficiency in infancy.",
+      "id": "cr-004-why10-obj-60c594",
+      "subtopic": "Vignette 2 — The Late-Onset Illusion",
+      "_generatedFrom": "cr-004-why10"
+    },
+    {
+      "type": "mcq",
+      "stem": "In a patient with classic salt-wasting congenital adrenal hyperplasia (SV-CAH) and hypocortisolism, what is the critical management change from an initial OCP-only plan?",
+      "options": [
+        "A) OCPs remain the sole therapy with no additional requirements",
+        "B) Exogenous glucocorticoids are optional suppressive therapies",
+        "C) Glucocorticoid replacement is obligatory to prevent adrenal crisis",
+        "D) Anti-androgens alone suffice for cortisol replacement"
+      ],
+      "correctOption": 2,
+      "explanation": "Classic SV-CAH requires glucocorticoid replacement (not optional suppression) due to frank hypocortisolism; cortisol <3 µg/dL without replacement carries immediate adrenal crisis risk during stress.",
+      "id": "cr-004-why11-obj-ce5575",
+      "subtopic": "Vignette 2 — The Late-Onset Illusion",
+      "_generatedFrom": "cr-004-why11"
     }
   ]
 }

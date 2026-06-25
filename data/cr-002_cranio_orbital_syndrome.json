@@ -11,7 +11,10 @@
     "age": 48,
     "sex": "Female",
     "chiefComplaint": "Orbital redness and proptosis",
-    "pmh": ["No known thyroid disease", "No prior malignancy"],
+    "pmh": [
+      "No known thyroid disease",
+      "No prior malignancy"
+    ],
     "medications": []
   },
   "caseDescription": "A 48-year-old woman presents with orbital redness and proptosis. Orbital MRI shows extraocular muscle enlargement and orbital fat infiltration typical of thyroid orbitopathy. However, she is euthyroid with negative third-generation TRAb. Autoimmune screen: ANA negative, serum IgG4 subclass 0.58 g/L (negative). Serum ACE is 62 U/L (reference 8–52 U/L). Total calcium is 10.7 mg/dL.\n\nBrain MRI reveals a 12 × 10 mm left frontal lobe lesion with surrounding vasogenic edema, post-contrast enhancement, SWI blooming focus, adjacent sulcal effacement, and no diffusion restriction — highly suspicious for metastasis or granulomatous mass.\n\nInitial differential spans systemic sarcoidosis, metastatic disease, euthyroid Graves' orbitopathy (EGONA), and GPA. Recommended workup includes ionized calcium, iPTH, 25-OH and 1,25-(OH)₂ vitamin D, PTHrP, chest HRCT, and neurosurgical consultation.\n\nWhole-body FDG-PET/CT subsequently rules out occult primary malignancy and systemic lymphadenopathy. Hypermetabolic activity is strictly confined to the brain and orbit — reframing this as an isolated cranio-orbital macrophage/histiocyte-driven syndrome. Leading diagnoses: isolated neuro-ophthalmic sarcoidosis, clonal histiocytosis (RDD/ECD), isolated cranio-orbital tuberculosis, and (lower) IgG4-RD.\n\nRare genetic differentials must also be considered: somatic MAPK-pathway mutations (BRAF V600E in ECD/LCH), Blau syndrome (NOD2), Mendelian susceptibility to mycobacterial disease (IL12RB1/IFNGR1/STAT1), and STAT1 gain-of-function granulomatous disease. Tissue diagnosis with histiocyte immunophenotyping and targeted NGS is mandatory.",
@@ -395,6 +398,96 @@
       "correctOption": 0,
       "explanation": "Both A and R are true; R correctly explains A. After excluding malignancy, clonal histiocytosis with actionable BRAF/MEK mutations must be ruled in/out on biopsy.",
       "reference": "Diamond EL et al., Blood, 2014: \"molecular testing for BRAF V600E is recommended in all ECD cases.\""
+    },
+    {
+      "type": "mcq",
+      "stem": "Why does SWI blooming on brain MRI NOT confirm hemorrhagic metastasis in this case?",
+      "options": [
+        "A) SWI blooming is specific to hemorrhage and excludes other causes",
+        "B) PET imaging showing no systemic malignancy confirms metastasis",
+        "C) SWI blooming may arise from calcification/mineralization in sarcoidosis or tuberculomas",
+        "D) Hemorrhagic metastases never cause SWI blooming without frank hemorrhage"
+      ],
+      "correctOption": 2,
+      "explanation": "SWI blooming reflects susceptibility effects from hemorrhage, calcification, or mineralization. Sarcoidosis and tuberculomas frequently calcify/mineralize, producing identical artifacts without hemorrhage. PET findings of no systemic malignancy further reduce metastasis likelihood.",
+      "id": "cr-002-why2-obj-ee52ed",
+      "subtopic": "SWI Blooming",
+      "_generatedFrom": "cr-002-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which sequence correctly outlines the initial steps in evaluating a patient with hypercalcemia?",
+      "options": [
+        "A) Confirm with ionized calcium → measure intact PTH → assess 25-OH and 1,25-(OH)₂ Vit D → check PTHrP if PTH suppressed → evaluate phosphorus and ALP",
+        "B) Measure intact PTH first → confirm with total calcium → assess 25-OH and 1,25-(OH)₂ Vit D → check PTHrP if PTH suppressed → evaluate phosphorus and ALP",
+        "C) Confirm with ionized calcium → measure intact PTH → assess 1,25-(OH)₂ Vit D alone → check PTHrP if PTH suppressed → evaluate phosphorus and ALP",
+        "D) Confirm with total calcium → measure intact PTH → assess 25-OH and 1,25-(OH)₂ Vit D → check PTHrP if PTH suppressed → evaluate phosphorus and ALP"
+      ],
+      "correctOption": 0,
+      "explanation": "Ionized calcium confirms true hypercalcemia; intact PTH is the first diagnostic branch point. Granulomatous disease is distinguished by low 25-OH with elevated 1,25-(OH)₂ Vit D, and PTHrP is evaluated only if PTH is suppressed.",
+      "id": "cr-002-how1-obj-a279e8",
+      "subtopic": "Hypercalcemia Panel",
+      "_generatedFrom": "cr-002-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "A 35-year-old patient presents with mildly elevated ACE levels and symptoms suggesting orbital and CNS involvement. Which is the most appropriate initial investigation strategy for sarcoidosis in this clinical scenario?",
+      "options": [
+        "A) Brain MRI followed by lumbar puncture",
+        "B) Chest HRCT first, then whole-body FDG-PET/CT to identify biopsy sites",
+        "C) Direct orbital biopsy without imaging",
+        "D) Serum ACE level confirmation and observation"
+      ],
+      "correctOption": 1,
+      "explanation": "HRCT chest is first-line for structural screening, PET/CT maps hypermetabolic sites for biopsy planning, and CSF studies are indicated for neurosarcoidosis when safe (key points from the original answer).",
+      "id": "cr-002-how2-obj-9b6557",
+      "subtopic": "Sarcoidosis Investigation",
+      "_generatedFrom": "cr-002-how2"
+    },
+    {
+      "type": "mcq",
+      "stem": "After PET identifies disease confined to the brain and orbit, which approach is most appropriate for tissue diagnosis?",
+      "options": [
+        "A) Consult neurosurgery and oculoplastics to compare morbidity of orbital biopsy vs intracranial biopsy, and perform lumbar puncture (if ICP safe) for CSF ACE, ADA, cytology, and infectious PCR if intracranial biopsy is high-risk",
+        "B) Proceed directly with stereotactic brain biopsy without considering morbidity or CSF analysis",
+        "C) Use flow cytometry alone for CSF analysis and initiate empiric immunosuppression immediately",
+        "D) Perform orbital biopsy exclusively and delay TB testing until histopathology results are available"
+      ],
+      "correctOption": 0,
+      "explanation": "The optimal approach balances morbidity of biopsy sites and uses CSF analysis (ACE, ADA, PCR) as a backup when intracranial biopsy is too risky, while prioritizing TB exclusion before immunosuppression.",
+      "id": "cr-002-how3-obj-23f905",
+      "subtopic": "Tissue Diagnosis",
+      "_generatedFrom": "cr-002-how3"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why must rare clonal histiocytoses be considered after PET excludes systemic malignancy?",
+      "options": [
+        "A) These disorders are genetic diseases caused by germline BRAF mutations",
+        "B) The isolated cranio-orbital hypermetabolic pattern mimics sarcoidosis but requires BRAF/MEK inhibitors rather than steroids",
+        "C) PET-negative findings are specific for histiocytoses and rule out all other diagnoses",
+        "D) Somatic MAPK mutations are only present in systemic malignancies"
+      ],
+      "correctOption": 1,
+      "explanation": "After PET excludes malignancy, the cranio-orbital imaging and biochemical features (e.g., ACE, hypercalcemia) of histiocytoses (ECD/LCH) mimic sarcoidosis but require distinct targeted therapy (BRAF/MEK inhibitors). These are clonal somatic mutations, not germline, and PET-negative does not exclusively diagnose histiocytoses.",
+      "id": "cr-002-why4-obj-04ec25",
+      "subtopic": "Rare Genetic DD",
+      "_generatedFrom": "cr-002-why4"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following is the most appropriate approach to investigate rare genetic and clonal histiocytic disorders on tissue biopsy?",
+      "options": [
+        "A) Immunohistochemistry for CD68, CD1a, S100, and factor XIH; special stains for TB/fungal infections; and histiocyte panel NGS for BRAF/MAP2K1 mutations",
+        "B) Immunohistochemistry for CD68 only, followed by routine histopathology and no molecular testing",
+        "C) Special stains for TB/fungal infections and germline NGS for BRAF/MAP2K1 mutations without IHC",
+        "D) Histiocyte panel NGS for somatic mutations and IFN-γ release assay for all cases regardless of clinical suspicion"
+      ],
+      "correctOption": 0,
+      "explanation": "The correct approach includes IHC to differentiate histiocytic subtypes, special stains for infectious mimics, and targeted NGS for clonal mutations (BRAF/MAP2K1) and germline testing in syndromic contexts. Options B, C, and D omit critical components or apply tests inappropriately.",
+      "id": "cr-002-how4-obj-ed46c9",
+      "subtopic": "Genetic Workup",
+      "_generatedFrom": "cr-002-how4"
     }
   ]
 }

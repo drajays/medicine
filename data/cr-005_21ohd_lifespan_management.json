@@ -11,8 +11,16 @@
     "age": "Infancy to 35 years",
     "sex": "Male and Female",
     "chiefComplaint": "21-OHD management traps across Classic SW, Classic SV, and NCCAH phenotypes",
-    "pmh": ["Case 1: Classic Salt-Wasting CAH", "Case 2: Classic Simple Virilizing CAH", "Case 3: Non-Classic CAH"],
-    "medications": ["Hydrocortisone ± fludrocortisone (Classic)", "Prednisolone in adulthood", "OCP/anti-androgens (NCCAH cosmetic phase)"]
+    "pmh": [
+      "Case 1: Classic Salt-Wasting CAH",
+      "Case 2: Classic Simple Virilizing CAH",
+      "Case 3: Non-Classic CAH"
+    ],
+    "medications": [
+      "Hydrocortisone ± fludrocortisone (Classic)",
+      "Prednisolone in adulthood",
+      "OCP/anti-androgens (NCCAH cosmetic phase)"
+    ]
   },
   "caseDescription": "Three-vignette teaching module tracing 21-hydroxylase deficiency (21-OHD) across the lifespan.\n\n**Overarching Principle — The Goldilocks Target:** Never completely normalize early morning 17-OHP; forcing into normal range guarantees iatrogenic Cushing's. Target mild elevation 400–1200 ng/dL (4–12 ng/mL). Draw before 8:00 AM, strictly before morning dose, using LC-MS/MS not immunoassay.\n\n**Case 1 — Classic Salt-Wasting (<1% activity):** 2-week-old male with vomiting, FTT, shock, hyponatremia, hyperkalemia → hydrocortisone + fludrocortisone. Lifespan traps: forgotten infant NaCl supplementation, overtreating 17-OHP in childhood, increasing fludrocortisone when PRA suppressed, missing TART surveillance in adult males.\n\n**Case 2 — Classic Simple Virilizing (1–2% activity):** 4-year-old female with rapid growth, advanced bone age, pubic hair, clitoromegaly, normal electrolytes. Lifespan traps: misunderstanding why no neonatal salt wasting, intermittent fludrocortisone need in heat stress, stopping lifelong GC in adulthood.\n\n**Case 3 — Non-Classic (20–50% activity):** 24-year-old female with acne, hirsutism FG 16, oligomenorrhea, normal cortisol, 17-OHP 15 ng/mL. Lifespan traps: GC for cosmetic hyperandrogenism, unnecessary stress-dose steroids for all NCCAH, missing GC indication for fertility, continuing prenatal GC indefinitely postpartum.",
   "keyFindings": [
@@ -445,6 +453,166 @@
       "correctOption": 2,
       "explanation": "A is true (fertility-phase GC indication); R is false (GC indicated for fertility and in stim-test failure subset, not never).",
       "reference": "Case 3 Q3: \"This is the specific scenario where Glucocorticoids... are indicated in NCCAH.\""
+    },
+    {
+      "type": "mcq",
+      "stem": "A 2-week-old infant with 21-hydroxylase deficiency (SW-CAH) remains hyponatremic despite weight-based hydrocortisone and fludrocortisone. What is the most likely explanation?",
+      "options": [
+        "A) Insufficient hydrocortisone dose",
+        "B) Concurrent aldosterone deficiency",
+        "C) Immature renal tubules resistant to fludrocortisone",
+        "D) Lack of supplemental sodium chloride"
+      ],
+      "correctOption": 3,
+      "explanation": "Infants with SW-CAH require 1–2 g/day supplemental NaCl due to immature renal tubules that are resistant to fludrocortisone. Mineralocorticoid replacement alone is insufficient without adequate sodium intake.",
+      "id": "cr-005-why1-obj-3eb2b4",
+      "subtopic": "Case 1 — Classic Salt-Wasting",
+      "_generatedFrom": "cr-005-why1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why should hydrocortisone not be increased in a child with a 17-OHP level of 800 ng/dL?",
+      "options": [
+        "A) 800 ng/dL is within the therapeutic range (400–1200 ng/dL), and over-treatment risks growth suppression and obesity",
+        "B) 800 ng/dL indicates adrenal insufficiency requiring immediate dose escalation",
+        "C) The Goldilocks range for 17-OHP in children is 200–600 ng/dL",
+        "D) Normalizing 17-OHP is required to prevent iatrogenic Cushing's syndrome"
+      ],
+      "correctOption": 0,
+      "explanation": "800 ng/dL falls within the accepted therapeutic range for childhood congenital adrenal hyperplasia. Over-treatment to normalize 17-OHP leads to growth suppression and obesity, while growth velocity and bone age are primary monitoring parameters.",
+      "id": "cr-005-why2-obj-7424e3",
+      "subtopic": "Case 1 — Classic Salt-Wasting",
+      "_generatedFrom": "cr-005-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is increasing fludrocortisone contraindicated in an adult patient with steroid-resistant (SW) congenital adrenal hyperplasia (CAH) and suppressed plasma renin activity (PRA)?",
+      "options": [
+        "A) Suppressed PRA indicates mineralocorticoid overtreatment, and increasing fludrocortisone risks severe secondary hypertension",
+        "B) Increasing fludrocortisone is required to correct hypotension caused by PRA suppression",
+        "C) The target PRA for SW-CAH patients is below the lower limit of normal reference range",
+        "D) Fludrocortisone should be increased to prevent adrenal insufficiency in suppressed PRA states"
+      ],
+      "correctOption": 0,
+      "explanation": "Low PRA reflects excess mineralocorticoid activity from fludrocortisone, which suppresses renin secretion. Increasing fludrocortisone would exacerbate this suppression, leading to volume expansion and severe hypertension. The target PRA is the upper limit of normal, requiring dose reduction when suppressed.",
+      "id": "cr-005-why3-obj-977986",
+      "subtopic": "Case 1 — Classic Salt-Wasting",
+      "_generatedFrom": "cr-005-why3"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the recommended routine imaging for adult males with classic 21-hydroxylase deficiency congenital adrenal hyperplasia (CAH)?",
+      "options": [
+        "A) Abdominal ultrasound",
+        "B) Testicular ultrasound",
+        "C) CT scan of the abdomen",
+        "D) MRI of the pelvis"
+      ],
+      "correctOption": 1,
+      "explanation": "Testicular ultrasound is required for surveillance of testicular adrenal rest tumors (TARTs), which develop due to chronic ACTH stimulation in classic CAH males.",
+      "id": "cr-005-why4-obj-8cb9d3",
+      "subtopic": "Case 1 — Classic Salt-Wasting",
+      "_generatedFrom": "cr-005-why4"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why did a 4-year-old female with salt-wasting (SV) congenital adrenal hyperplasia (CAH) not experience a neonatal salt-wasting crisis despite severe cortisol deficiency?",
+      "options": [
+        "A) Residual 1–2% 21-hydroxylase activity in zona glomerulosa produces sufficient aldosterone to prevent salt wasting",
+        "B) Cortisol deficiency is compensated by adrenal androgens in SV-CAH",
+        "C) Neonatal salt-wasting crises occur only in classical CAH, not SV-CAH",
+        "D) The patient had undiagnosed adrenal insufficiency until age 4"
+      ],
+      "correctOption": 0,
+      "explanation": "SV-CAH retains ~1–2% 21-hydroxylase activity, sufficient for aldosterone synthesis in zona glomerulosa but not cortisol in zona fasciculata, preventing salt-wasting despite cortisol deficiency.",
+      "id": "cr-005-why5-obj-21778f",
+      "subtopic": "Case 2 — Classic Simple Virilizing",
+      "_generatedFrom": "cr-005-why5"
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "SV-CAH adolescents may require fludrocortisone during extreme heat.",
+      "reason": "Subclinical aldosterone deficiency under physiological stress leads to insufficient mineralocorticoid production.",
+      "correctOption": 0,
+      "explanation": "SV-CAH patients typically do not require mineralocorticoids, but subclinical aldosterone deficiency may become clinically relevant during extreme stress (e.g., heat), necessitating intermittent low-dose fludrocortisone to compensate for inadequate enzyme activity.",
+      "id": "cr-005-why6-obj-930fcd",
+      "subtopic": "Case 2 — Classic Simple Virilizing",
+      "_generatedFrom": "cr-005-why6"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is discontinuation of glucocorticoids in adulthood particularly hazardous for patients with classic salt-wasting congenital adrenal hyperplasia (SV-CAH)?",
+      "options": [
+        "A) Glucocorticoids are required for both cortisol replacement and suppression of ACTH-driven androgen excess; abrupt cessation risks Addisonian crisis",
+        "B) Prolonged glucocorticoid use causes irreversible adrenal hyperplasia that cannot be reversed without steroids",
+        "C) Stopping steroids leads to compensatory aldosterone overproduction causing severe hypertension",
+        "D) Adult patients develop steroid dependency that requires lifelong dosing to prevent metabolic syndrome"
+      ],
+      "correctOption": 0,
+      "explanation": "Glucocorticoids in classic SV-CAH serve dual roles: replacing deficient cortisol and suppressing ACTH-mediated androgen overproduction. Discontinuation disrupts both physiological cortisol replacement and androgen control, precipitating acute adrenal insufficiency (Addisonian crisis). DXA monitoring addresses iatrogenic bone loss, not the immediate danger of steroid withdrawal.",
+      "id": "cr-005-why7-obj-b917cf",
+      "subtopic": "Case 2 — Classic Simple Virilizing",
+      "_generatedFrom": "cr-005-why7"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is low-dose hydrocortisone to normalize 17-OHP not considered first-line therapy for cosmetic hyperandrogenism in non-classical congenital adrenal hyperplasia (NCCAH)?",
+      "options": [
+        "A) Patients with NCCAH maintain normal baseline cortisol levels, making glucocorticoid therapy unnecessary for cosmetic hyperandrogenism and exposing patients to avoidable metabolic risks",
+        "B) Hydrocortisone is ineffective in reducing 17-OHP levels in NCCAH",
+        "C) Adrenal suppression occurs rapidly with low-dose hydrocortisone in NCCAH",
+        "D) Normalizing 17-OHP is contraindicated in NCCAH due to increased risk of osteoporosis"
+      ],
+      "correctOption": 0,
+      "explanation": "NCCAH is characterized by eucortisolism, so glucocorticoid therapy is not required for cosmetic hyperandrogenism. First-line treatment focuses on symptom management with combined oral contraceptives and peripheral anti-androgens, avoiding unnecessary glucocorticoid use and its metabolic risks.",
+      "id": "cr-005-why8-obj-44b1b6",
+      "subtopic": "Case 3 — Non-Classic CAH",
+      "_generatedFrom": "cr-005-why8"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which statement best describes the need for stress-dose steroids in a patient with non-classical adrenal hyperplasia (NCCAH) undergoing elective cholecystectomy?",
+      "options": [
+        "A) Most NCCAH patients do not require stress-dose steroids due to intact cortisol reserve, unless the ACTH stimulation test was previously abnormal",
+        "B) All NCCAH patients require stress-dose steroids during elective surgery regardless of adrenal function",
+        "C) Stress-dose steroids are indicated based on morning serum cortisol levels alone",
+        "D) Stress-dose steroids are universally contraindicated in NCCAH patients"
+      ],
+      "correctOption": 0,
+      "explanation": "Most NCCAH patients have intact cortisol reserve and do not require stress-dose steroids for elective procedures. However, those with a history of abnormal ACTH stimulation test may require glucocorticoid coverage during major surgery.",
+      "id": "cr-005-why9-obj-0ad948",
+      "subtopic": "Case 3 — Non-Classic CAH",
+      "_generatedFrom": "cr-005-why9"
+    },
+    {
+      "type": "mcq",
+      "stem": "In which scenario is a pharmacological shift to glucocorticoids indicated in a patient with non-classical congenital adrenal hyperplasia (NCCAH)?",
+      "options": [
+        "A) When a patient is actively trying to conceive but remains anovulatory after discontinuing oral contraceptive pills",
+        "B) In the presence of severe hyperandrogenism with hirsutism and acne unresponsive to metformin",
+        "C) During acute adrenal insufficiency with hypotension and hyponatremia",
+        "D) For long-term management of mild hirsutism in a postmenopausal woman"
+      ],
+      "correctOption": 0,
+      "explanation": "Glucocorticoids (low-dose hydrocortisone or bedtime dexamethasone) are specifically indicated in NCCAH during the fertility phase to suppress adrenal androgens, restore ovulation, and improve pregnancy outcomes by normalizing 17-hydroxyprogesterone levels.",
+      "id": "cr-005-why10-obj-8fbf01",
+      "subtopic": "Case 3 — Non-Classic CAH",
+      "_generatedFrom": "cr-005-why10"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why should prenatal glucocorticoids be tapered after successful conception in a patient with non-classical congenital adrenal hyperplasia (NCCAH)?",
+      "options": [
+        "A) To prevent adrenal insufficiency during pregnancy",
+        "B) To reduce the risk of gestational diabetes",
+        "C) To minimize the risk of metabolic syndrome and insulin resistance",
+        "D) To avoid fetal growth restriction"
+      ],
+      "correctOption": 2,
+      "explanation": "Prolonged glucocorticoid use post-conception in NCCAH increases metabolic syndrome risk due to insulin resistance and weight gain. Tapering is necessary once reproductive goals are achieved, with OCPs used if hyperandrogenism recurs.",
+      "id": "cr-005-why11-obj-b824d8",
+      "subtopic": "Case 3 — Non-Classic CAH",
+      "_generatedFrom": "cr-005-why11"
     }
   ]
 }

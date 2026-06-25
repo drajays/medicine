@@ -1,0 +1,272 @@
+{
+  "id": "h1-068",
+  "volume": 1,
+  "chapterNo": "77",
+  "title": "Cancer Cell Biology",
+  "section": "Oncology",
+  "authors": "Jeffrey W. Clark, Dan L. Longo",
+  "sourceFile": "Harrison1_chapters/068_Cancer_Cell_Biology/content.md",
+  "items": [
+    {
+      "id": "h1-068-n1",
+      "type": "note",
+      "subtopic": "Definitions",
+      "title": "How cancers are defined and named by tissue of origin",
+      "content": "Cancer is defined by a set of cellular behaviors.\nCancers are characterized by unregulated cell division, avoidance of cell death, tissue invasion, and the ability to metastasize; a neoplasm is benign when it grows in an unregulated fashion without invasion or metastasis.\nCancers are named by tissue of origin: those from epithelial tissue are carcinomas, from mesenchymal tissue are sarcomas, and from hematopoietic tissue are leukemias, lymphomas, and plasma cell dyscrasias (including multiple myeloma).\nCancers arise from genetic alterations, the vast majority beginning in a single cell and therefore monoclonal in origin, though they become markedly heterogeneous over time.",
+      "keyPoints": [
+        "Malignancy = unregulated growth + invasion + metastasis (benign lacks invasion/metastasis)",
+        "Epithelial → carcinoma; mesenchymal → sarcoma; hematopoietic → leukemia/lymphoma/myeloma",
+        "Monoclonal origin but marked heterogeneity and plasticity develop over time"
+      ],
+      "reference": "CANCER CELL BIOLOGY: \"those derived from epithelial tissue are called carcinomas, those derived from mesenchymal tissues are sarcomas, and those derived from hematopoietic tissue are leukemias, lymphomas, and plasma cell dyscrasias (including multiple myeloma).\""
+    },
+    {
+      "id": "h1-068-n2",
+      "type": "note",
+      "subtopic": "Multistep Carcinogenesis",
+      "title": "How most cancers develop through a multistep progression",
+      "content": "While a few cancers are driven primarily by a single dominant oncogene, most are multistep.\nMost human cancers involve many genetic abnormalities, each contributing to loss of control of proliferation/differentiation and to acquired capabilities such as tissue invasion, metastasis, angiogenesis, and alteration of the extracellular environment.\nMany cancers progress through recognizable phenotypes: hyperplasia → adenoma → dysplasia → carcinoma in situ → invasive cancer with the ability to metastasize, usually over many years.\nNormal cells have extensive safeguards (DNA repair, DNA-damage responses) against the damage that these steps overcome.",
+      "keyPoints": [
+        "A few cancers are single-oncogene-driven (e.g., CML/abl, ~half of melanomas/braf), but most are multistep",
+        "Progression: hyperplasia → adenoma → dysplasia → carcinoma in situ → invasive cancer",
+        "The process usually takes many years and overcomes normal DNA-repair safeguards"
+      ],
+      "reference": "CANCER CELL BIOLOGY: \"Many cancers go through recognizable steps of progressively more abnormal phenotypes: hyperplasia, to adenoma, to dysplasia, to carcinoma in situ, to invasive cancer with the ability to metastasize.\""
+    },
+    {
+      "id": "h1-068-n3",
+      "type": "note",
+      "subtopic": "Oncogenes vs Tumor Suppressors",
+      "title": "Why oncogenes and tumor-suppressor genes affect cancer in opposite ways",
+      "content": "Two opposite classes of genes drive deregulated proliferation.\nOncogenes are genes that can promote cell growth when altered (e.g., Ras, Myc); they were first identified as captured, mutated normal cellular genes in tumor-causing animal viruses.\nTumor-suppressor genes (e.g., Rb, p53) normally inhibit cancer development or growth, so their loss of function permits malignant behavior.\nDeregulated proliferation in cancer combines increased action of positive growth regulators (oncogenes) with loss of function of negative growth regulators (tumor suppressors).",
+      "keyPoints": [
+        "Oncogenes (Ras, Myc) promote growth when activated — gain of function",
+        "Tumor-suppressor genes (Rb, p53) restrain growth — loss of function enables cancer",
+        "Cancer typically combines activated oncogenes with inactivated suppressors"
+      ],
+      "reference": "TABLE 77-1: \"Loss of function of negative growth regulators (tumor suppressor genes, i.e., Rb, p53) and increased action of positive growth regulators (oncogenes, i.e., Ras, Myc).\""
+    },
+    {
+      "id": "h1-068-n4",
+      "type": "note",
+      "subtopic": "Cell Cycle — G1/S",
+      "title": "How Rb controls the G1/S checkpoint",
+      "content": "Entry into DNA synthesis is gated at the G1/S checkpoint, with Rb as the brake.\nIn G1 the cell verifies it is ready to replicate (repair machinery, replicating enzymes, nucleotides, energy); the retinoblastoma protein Rb places a brake on progression until the cell is ready.\nWhen ready, sequential activation of cyclin-dependent kinases (CDKs) phosphorylates and inactivates Rb, which releases the transcription factor E2F/DP1 so S-phase genes are expressed; CDK inhibitors such as p21, p16INK4a, and p27 can block the CDKs if the cell is not ready.\nNearly every cancer has one or more defects in the G1 checkpoint, permitting progression to S phase despite DNA-repair abnormalities.",
+      "keyPoints": [
+        "Rb is the brake at G1/S; CDK phosphorylation inactivates it, releasing E2F to drive S-phase genes",
+        "CDK inhibitors (p21, p16INK4a, p27) hold the cell if it is not ready",
+        "Nearly every cancer has a G1-checkpoint defect"
+      ],
+      "reference": "CELL CYCLE CHECKPOINTS: \"Nearly every cancer has one or more defects in the G1 checkpoint that permit progression to S phase despite abnormalities in DNA repair machinery...\""
+    },
+    {
+      "id": "h1-068-n5",
+      "type": "note",
+      "subtopic": "p53",
+      "title": "Why p53 is called the guardian of the genome",
+      "content": "p53 is the master sensor that prevents propagation of damaged cells.\nNormally present at very low levels (bound to the ubiquitin ligase mdm2, which both inhibits and degrades it), p53 is stabilized when DNA damage activates the ATM pathway, which phosphorylates mdm2 and releases p53.\nFreed p53 stops cell-cycle progression, directs synthesis of repair enzymes, or — if damage is too great — initiates apoptosis to prevent propagation of a damaged cell.\nMutations in p53 (chromosome 17p) are among the most frequent in human cancers; germline mutation causes Li-Fraumeni syndrome, and HPV degrades p53 via its E6 oncoprotein.",
+      "keyPoints": [
+        "p53 is held low by mdm2; DNA damage (via ATM) releases it",
+        "p53 → cell-cycle arrest, DNA repair, or apoptosis if damage is severe",
+        "Among the most commonly mutated genes; germline mutation = Li-Fraumeni syndrome"
+      ],
+      "reference": "CELL CYCLE CHECKPOINTS: \"Called the guardian of the genome, p53 is a transcription factor that is normally present in the cell in very low levels...p53 then stops cell cycle progression, directs the synthesis of repair enzymes, or if the damage is too great, initiates apoptosis...\""
+    },
+    {
+      "id": "h1-068-n6",
+      "type": "note",
+      "subtopic": "HPV Transformation",
+      "title": "How HPV transforms cells by inactivating p53 and Rb",
+      "content": "The importance of p53 and Rb is underscored by how a common oncogenic virus works.\nHuman papillomavirus has two main oncogenes, E6 and E7: E6 increases the rapid turnover (degradation) of p53, and E7 inhibits Rb function.\nInhibition of these two tumor-suppressor pathways is required for transformation of epithelial cells by the virus.\nThis shows that simultaneously disabling the p53 and Rb checkpoints — whether by mutation or by viral proteins — is central to malignant transformation.",
+      "keyPoints": [
+        "HPV E6 → degrades p53; HPV E7 → inhibits Rb",
+        "Inactivating both is required for HPV-mediated epithelial transformation",
+        "Illustrates the centrality of the p53 and Rb checkpoints to cancer"
+      ],
+      "reference": "CELL CYCLE CHECKPOINTS: \"This virus has two main oncogenes, E6 and E7. E6 acts to increase the rapid turnover of p53, and E7 acts to inhibit Rb function; inhibition of these two targets is required for transformation of epithelial cells by the virus.\""
+    },
+    {
+      "id": "h1-068-n7",
+      "type": "note",
+      "subtopic": "Spindle Checkpoint",
+      "title": "Why spindle-checkpoint failure produces aneuploidy",
+      "content": "A third checkpoint during mitosis guards chromosome number.\nThe spindle checkpoint (in M phase) ensures proper attachment of chromosomes to the mitotic spindle before the cell divides; if alignment is wrong, chromosome number is abnormal, or centromeres are improperly paired, the cell initiates death to prevent aneuploid progeny.\nAbnormalities in the spindle checkpoint facilitate the development of aneuploidy (an altered number of chromosomes), which is frequently found in cancers and is a predominant genetic feature of some tumors.\nIn general, tumors have either defects in chromosome number (chromosomal instability) or defective DNA repair pathways, but not both.",
+      "keyPoints": [
+        "Spindle checkpoint ensures correct chromosome-spindle attachment before division",
+        "Its failure permits aneuploidy, common in cancers",
+        "Tumors usually have chromosomal instability OR defective DNA repair, not both"
+      ],
+      "reference": "CELL CYCLE CHECKPOINTS: \"Abnormalities in the spindle checkpoint facilitate the development of aneuploidy, which is frequently found in cancers.\""
+    },
+    {
+      "id": "h1-068-n8",
+      "type": "note",
+      "subtopic": "Telomerase & Senescence",
+      "title": "How telomerase reactivation grants cancer cells replicative immortality",
+      "content": "Normal cells have a built-in replication limit that cancer cells escape.\nNormal cells stop dividing after a limited number of doublings (replicative senescence), in part because DNA polymerase cannot replicate chromosome tips, so telomeres shorten with each division until a p53-regulated DNA-damage response triggers arrest.\nCells that bypass this limit (e.g., with nonfunctional pRb and p53) survive crisis and reactivate telomerase — an enzyme with a reverse-transcriptase subunit (hTERT) and an RNA template that adds TTAGGG repeats to chromosome ends.\nMore than 90% of human cancers express high levels of telomerase, allowing indefinite proliferation; inhibiting it causes tumor-cell apoptosis in vitro, though normal stem cells also require telomerase.",
+      "keyPoints": [
+        "Telomeres shorten each division → senescence/crisis (a tumor-suppressive limit)",
+        ">90% of cancers reactivate telomerase (hTERT) to maintain telomeres and divide indefinitely",
+        "Telomerase inhibition is a target, but normal stem cells also depend on telomerase"
+      ],
+      "reference": "CELLULAR SENESCENCE: \"More than 90% of human cancers express high levels of telomerase that prevent telomere shortening to critical levels and allow indefinite cell proliferation.\""
+    },
+    {
+      "id": "h1-068-n9",
+      "type": "note",
+      "subtopic": "Signal Transduction",
+      "title": "How kinase-driven signaling pathways are targeted in cancer",
+      "content": "Cancers hijack reversible phosphorylation cascades for proliferation and survival.\nKinases add phosphate groups (tyrosine kinases, serine/threonine kinases; some like MEK do both) and phosphatases remove them; two key pathways are RAS-RAF-MEK-ERK and the PI3K pathway.\nIn many cancers receptor tyrosine kinases or downstream components are activated by mutation, amplification, or translocation to have prolonged activity, making them therapeutic targets.\nExamples: EGFR-mutant lung cancers respond to osimertinib; BRAF (a serine/threonine kinase) inhibitors are effective in melanoma/thyroid cancer (combined BRAF+MEK inhibition is better); imatinib targets BCR-Abl in CML, c-Kit and PDGFRα in GIST.",
+      "keyPoints": [
+        "Key oncogenic pathways: RAS-RAF-MEK-ERK and PI3K",
+        "RTKs/components activated by mutation, amplification, or translocation → druggable targets",
+        "Osimertinib (EGFR lung), BRAF±MEK inhibitors (melanoma), imatinib (BCR-Abl CML, c-Kit/PDGFRα GIST)"
+      ],
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"Two important signaling pathways are the RAS-RAF-MEK-ERK pathway and the phosphatidylinositol-3-kinase (PI3K) pathway.\""
+    },
+    {
+      "id": "h1-068-n10",
+      "type": "note",
+      "subtopic": "Oncogene Addiction",
+      "title": "Why 'oncogene addiction' makes targeted therapy work",
+      "content": "Some tumors become dependent on a single activated pathway.\nOncogene addiction occurs when a tumor cell develops an activating mutation in an oncogene that becomes the dominant pathway for survival and growth, with reduced contributions from other pathways.\nThis dependency creates a cell that is vulnerable to inhibitors of that oncogene pathway — for example, BRAF-mutant cells are sensitive to MEK inhibitors that block BRAF-pathway signaling.\nHowever, no targeted therapy has yet been curative alone, and resistance almost always eventually develops (e.g., the BCR-Abl T315I mutation prevents imatinib binding).",
+      "keyPoints": [
+        "Oncogene addiction = dependence on one activated pathway → vulnerability to its inhibitor",
+        "Basis of targeted therapy (e.g., BRAF-mutant cells sensitive to MEK inhibition)",
+        "Resistance almost always develops (e.g., BCR-Abl T315I blocks imatinib)"
+      ],
+      "reference": "SIGNAL TRANSDUCTION PATHWAYS IN CANCER CELLS: \"This dependency on a single pathway creates a cell that is vulnerable to inhibitors of that oncogene pathway.\""
+    },
+    {
+      "id": "h1-068-n11",
+      "type": "note",
+      "subtopic": "Synthetic Lethality",
+      "title": "How synthetic lethality lets PARP inhibitors target BRCA-mutant cancers",
+      "content": "Synthetic lethality exploits a tumor's DNA-repair defect rather than repairing it.\nSynthetic lethality occurs when loss of function in either of two genes alone has limited effect on survival, but loss of both leads to cell death.\nCells with BRCA1 or BRCA2 mutations cannot repair DNA damage by homologous recombination; PARP is essential for single-strand-break repair, so PARP inhibition selectively kills BRCA-deficient cancer cells.\nThis is far more tractable than trying to restore a mutated tumor suppressor, and PARP inhibitors are approved for BRCA-mutated ovarian, breast, and pancreatic cancers (and likely other DNA-repair-deficient tumors).",
+      "keyPoints": [
+        "Synthetic lethality: losing either gene alone is tolerated, losing both is lethal",
+        "BRCA-mutant cells lack homologous recombination → depend on PARP-mediated repair",
+        "PARP inhibition selectively kills BRCA-deficient cells (approved in ovarian/breast/pancreatic cancer)"
+      ],
+      "reference": "CANCER-SPECIFIC GENETIC CHANGES AND SYNTHETIC LETHALITY: \"PARP inhibition results in selective killing of cancer cells that have lost BRCA1 or BRCA2 function.\""
+    },
+    {
+      "id": "h1-068-n12",
+      "type": "note",
+      "subtopic": "Epigenetics",
+      "title": "Why promoter hypermethylation silences tumor-suppressor genes",
+      "content": "Epigenetic change can inactivate a gene without altering its DNA sequence.\nEpigenetic changes alter gene expression across at least one cell division without changing the DNA code — including cytosine (CpG) methylation, histone acetylation/methylation, and higher-order chromatin changes.\nHypermethylation of DNA promoter regions is a common mechanism by which tumor-suppressor loci are epigenetically silenced; one allele may be inactivated by mutation/deletion while the other is silenced by methylation, causing loss of function.\nUnlike DNA mutations, epigenetic changes are potentially reversible and amenable to therapy (e.g., silenced VHL, BRCA1, MLH1; demethylating agents like 5-aza-2-deoxycytidine in myelodysplastic syndrome).",
+      "keyPoints": [
+        "Epigenetic = heritable expression change without DNA-sequence change",
+        "Promoter hypermethylation silences tumor suppressors (often the 'second hit')",
+        "Reversible → targetable (demethylating agents, HDAC inhibitors)"
+      ],
+      "reference": "EPIGENETIC INFLUENCES ON CANCER GENE TRANSCRIPTION: \"Hypermethylation of DNA promoter regions is a common mechanism by which tumor-suppressor loci are epigenetically silenced in cancer cells.\""
+    },
+    {
+      "id": "h1-068-n13",
+      "type": "note",
+      "subtopic": "Epigenetic Therapy",
+      "title": "How PML-RARα and ATRA exemplify reversing an epigenetic block",
+      "content": "Acute promyelocytic leukemia is the model of epigenetic, differentiation-based therapy.\nThe PML-RARα fusion protein, generated by the t(15;17) translocation in most acute promyelocytic leukemia (APL), binds retinoic-acid-response-element promoters and recruits histone deacetylases (HDACs), inhibiting gene expression and arresting differentiation at the promyelocyte stage.\nPharmacologic all-trans retinoic acid (ATRA), the ligand for RARα, releases HDAC activity and recruits coactivators, overcoming the differentiation block.\nATRA represents a treatment paradigm for the reversal of epigenetic changes in cancer; several HDAC inhibitors are approved (e.g., for cutaneous/peripheral T-cell lymphoma and multiple myeloma).",
+      "keyPoints": [
+        "APL: t(15;17) PML-RARα recruits HDACs → differentiation block at promyelocyte stage",
+        "ATRA releases HDACs and restores differentiation — a paradigm for reversing epigenetic change",
+        "HDAC inhibitors (vorinostat, romidepsin, belinostat, panobinostat) are approved for some cancers"
+      ],
+      "reference": "EPIGENETIC INFLUENCES ON CANCER GENE TRANSCRIPTION: \"Treatment with pharmacologic doses of all-trans retinoic acid (ATRA), the ligand for RARα, results in the release of HDAC activity and the recruitment of coactivators, which overcome the differentiation block.\""
+    },
+    {
+      "id": "h1-068-n14",
+      "type": "note",
+      "subtopic": "Apoptosis",
+      "title": "How the extrinsic and intrinsic apoptosis pathways converge on caspases",
+      "content": "Programmed cell death proceeds by two main pathways feeding effector caspases.\nThe extrinsic pathway is activated by cross-linking TNF-receptor-superfamily death receptors (CD95/Fas, DR4/DR5) by their ligands, recruiting FADD and procaspase-8 to activate effector caspases-3 and -7.\nThe intrinsic pathway releases cytochrome c and SMAC from mitochondria in response to DNA damage, loss of ECM adherence, oncogene-induced proliferation, or growth-factor deprivation, activating caspase-9; the balance of antiapoptotic Bcl-2-family members (Bcl-2, Bcl-XL, Mcl-1) versus proapoptotic BH3-only proteins governs mitochondrial pore formation.\nCancers subvert apoptosis (e.g., Bcl-2 overexpression from t(14;18) in follicular lymphoma), which also makes them vulnerable to BH3-mimetics such as venetoclax.",
+      "keyPoints": [
+        "Extrinsic: death receptors (Fas/DR4/DR5) → FADD/caspase-8 → caspase-3/7",
+        "Intrinsic: mitochondrial cytochrome c/SMAC → caspase-9; balanced by Bcl-2 vs BH3-only proteins",
+        "Bcl-2 overexpression (t(14;18)) blocks apoptosis; venetoclax (BH3-mimetic) targets it in CLL/AML"
+      ],
+      "reference": "APOPTOSIS AND OTHER MECHANISMS OF CELL DEATH: \"An oral BH3 mimetic inhibitor of BCL-2, venetoclax, is approved for use in patients with refractory CLL with 17p deletion, and is active in AML.\""
+    },
+    {
+      "id": "h1-068-n15",
+      "type": "note",
+      "subtopic": "Tumor Kinetics",
+      "title": "Why Gompertzian growth means tumors slow their own growth",
+      "content": "Tumor growth is not exponential, which has therapeutic implications.\nMost cancers become clinically detectable at ~1 cm (≈10^9 cells), often present at ~10^10 cells, and reach a lethal burden at ~10^12–10^13 cells.\nHuman tumors grow by Gompertzian kinetics — not every daughter cell keeps dividing — so the growth fraction declines with time: it is 100% for the first malignant cell but estimated to be <5% by the time a patient presents.\nThis presentation growth fraction is similar to that of normal bone marrow and intestinal epithelium, explaining the dose-limiting toxicities of agents that target dividing cells.",
+      "keyPoints": [
+        "Tumor burden: detectable ~1 cm/10^9 cells; lethal ~10^12–10^13 cells",
+        "Gompertzian kinetics: growth fraction falls from 100% (first cell) to <5% at presentation",
+        "Similar growth fraction to marrow/gut epithelium → dose-limiting toxicity of cytotoxics"
+      ],
+      "reference": "DIFFERENCES BETWEEN PEDIATRIC AND ADULT CANCERS: \"The growth fraction of the first malignant cell is 100%, and by the time a patient presents for medical care, the growth fraction is estimated to be <5%...\""
+    },
+    {
+      "id": "h1-068-n16",
+      "type": "note",
+      "subtopic": "Metastasis",
+      "title": "How tumor cells complete the metastatic cascade",
+      "content": "Metastasis accounts for the vast majority of deaths from solid tumors and requires multiple steps.\nThe initial step is migration and invasion through the extracellular matrix — adhesion to the basement membrane, local proteolysis, and movement through the membrane and ECM.\nCells that lose ECM contact normally undergo anoikis (apoptosis from loss of contact), which must be suppressed in metastasizing cells, and many epithelial cancers undergo epithelial-mesenchymal transition (EMT) to gain motility while retaining proliferative capacity.\nThe rate-limiting step is the ability of tumor cells to survive and expand in the novel microenvironment of the metastatic site while evading host defenses including the immune system.",
+      "keyPoints": [
+        "Invasion = basement-membrane adhesion + local proteolysis + migration through ECM",
+        "Metastasizing cells suppress anoikis and often undergo EMT (motile mesenchymal phenotype)",
+        "Rate-limiting step: surviving and expanding in the foreign metastatic niche"
+      ],
+      "reference": "METASTASIS: \"The rate-limiting step for metastasis is the ability for tumor cells to survive and expand in the novel microenvironment of the metastatic site...\""
+    },
+    {
+      "id": "h1-068-n17",
+      "type": "note",
+      "subtopic": "Bone Metastasis",
+      "title": "How bone metastases exploit the RANK/RANKL/OPG axis",
+      "content": "Bone metastases hijack normal bone-remodeling signaling.\nOsteoclasts (and their precursors) express RANK, required for their differentiation and activation; osteoblasts/stromal cells express RANK ligand (RANKL), and osteoprotegerin (OPG) is a decoy receptor that inhibits RANK activation — the RANKL/OPG balance sets osteoclast activity.\nMany tumors increase osteoclast activity by secreting PTH, PTH-related peptide, IL-1, or Mip1, tipping the balance toward bone resorption (e.g., multiple myeloma's lytic lesions).\nInhibition of RANKL by the antibody denosumab can prevent further bone destruction, and bisphosphonates also inhibit osteoclast function in patients with bone metastases.",
+      "keyPoints": [
+        "RANK (osteoclasts) / RANKL (osteoblasts) / OPG (decoy) balance controls bone resorption",
+        "Tumors secrete PTHrP, IL-1, etc. to drive osteoclast-mediated bone destruction (e.g., myeloma)",
+        "Denosumab (anti-RANKL) and bisphosphonates inhibit osteoclasts in bone metastases"
+      ],
+      "reference": "METASTASIS: \"Inhibition of RANKL by an antibody (denosumab) can prevent further bone destruction. Bisphosphonates are also effective inhibitors of osteoclast function...\""
+    },
+    {
+      "id": "h1-068-n18",
+      "type": "note",
+      "subtopic": "Cancer Metabolism",
+      "title": "Why cancer cells use aerobic glycolysis (the Warburg effect)",
+      "content": "Cancer metabolism is reprogrammed to build new cells, not just make energy.\nMany cancer cells use aerobic glycolysis (the Warburg effect) to metabolize glucose, producing increased lactic acid, whereas normal cells use the more ATP-efficient oxidative phosphorylation — but glycolysis better supplies the building blocks needed for new cells.\nA consequence is increased glucose uptake, exploited clinically by FDG-PET scanning to detect tumors.\nMutations in metabolic genes also occur: IDH1/IDH2 mutations (gliomas, AML, cholangiocarcinoma) produce the oncometabolite 2-hydroxyglutarate, which alters DNA methylation; IDH inhibitors are approved for IDH-mutant disease.",
+      "keyPoints": [
+        "Warburg effect: aerobic glycolysis (↑lactate) provides biosynthetic building blocks",
+        "↑Glucose uptake underlies FDG-PET tumor detection",
+        "IDH1/2 mutations make 2-hydroxyglutarate (oncometabolite); IDH inhibitors approved (AML, cholangiocarcinoma, glioma)"
+      ],
+      "reference": "CANCER METABOLISM: \"Many cancer cells utilize aerobic glycolysis (the Warburg effect)...One consequence is increased glucose uptake and utilization by cancer cells, a fact utilized in fluorodeoxyglucose (FDG)-positron emission tomography (PET) scanning to detect tumors.\""
+    },
+    {
+      "id": "h1-068-n19",
+      "type": "note",
+      "subtopic": "Angiogenesis",
+      "title": "How tumors switch on angiogenesis and how it is targeted",
+      "content": "Growth beyond a small size requires new blood vessels via the 'angiogenic switch'.\nThe angiogenic switch is the phase when the balance of pro- and antiangiogenic factors tips toward vessel formation; stimuli include hypoxia, inflammation, and oncogene/tumor-suppressor lesions, and most tumor vessels arise by sprouting driven by VEGFs.\nHypoxia-inducible factors (HIF-1, HIF-2) are central, stimulating VEGF and VEGF-receptor transcription (HIF-2 has the bigger angiogenic role); VHL loss (e.g., in RCC) stabilizes HIF.\nBevacizumab (an anti-VEGF antibody) modestly potentiates chemotherapy in several cancers, and VEGF-pathway inhibitors are especially effective in renal cell cancer; hypertension is the most common side effect.",
+      "keyPoints": [
+        "Angiogenic switch tips pro-/antiangiogenic balance toward vessel formation (mostly VEGF-driven sprouting)",
+        "HIF-1/HIF-2 drive VEGF transcription; VHL loss stabilizes HIF (RCC)",
+        "Bevacizumab (anti-VEGF) and VEGF-pathway TKIs (effective in RCC); hypertension is the commonest toxicity"
+      ],
+      "reference": "MECHANISMS OF TUMOR VESSEL FORMATION: \"most tumor blood vessels arise by the process of sprouting, in which tumors secrete trophic angiogenic molecules, the most potent being vascular endothelial growth factors (VEGFs)...\""
+    },
+    {
+      "id": "h1-068-n20",
+      "type": "note",
+      "subtopic": "Immune Evasion",
+      "title": "How cancers evade the immune system and how checkpoint inhibitors counter it",
+      "content": "The immune system normally restrains cancer, and tumors evolve to escape it.\nImmunosuppressed individuals (inherited immune defects, transplant immunosuppression, HIV) have increased cancer risk, underscoring immune surveillance.\nCancers evade detection by downregulating MHC and tumor antigens, expressing inhibitory ligands (e.g., PD-L1), secreting immunosuppressive factors (TGF-β), recruiting regulatory T cells, and inducing T-cell tolerance.\nImmunotherapy either activates the immune response or releases its brakes: checkpoint inhibitors against CTLA-4, PD-1, and PD-L1 are approved across many cancers; CAR-T cells (e.g., anti-CD19) achieve durable remissions in ALL/DLBCL; tumors with high mutational burden or microsatellite instability respond best.",
+      "keyPoints": [
+        "Immune surveillance is real — immunosuppression raises cancer risk",
+        "Evasion: ↓MHC/antigens, PD-L1, TGF-β, regulatory T cells, T-cell tolerance",
+        "Checkpoint inhibitors (CTLA-4/PD-1/PD-L1) and CAR-T (anti-CD19) work; high TMB/MSI predict response"
+      ],
+      "reference": "EVASION OF THE IMMUNE SYSTEM BY CANCERS: \"These include downregulation of cell surface proteins involved in immune recognition...expression of other cell surface proteins that inhibit immune function (including members of the B7 family of proteins such as PD-L1)...\""
+    },
+    "%%MCQ%%"
+  ]
+}

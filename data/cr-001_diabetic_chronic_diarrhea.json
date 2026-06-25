@@ -11,8 +11,17 @@
     "age": 62,
     "sex": "Male",
     "chiefComplaint": "5 watery bowel movements daily for 6 weeks",
-    "pmh": ["Type 2 diabetes mellitus (12 years)", "Hypertension", "Obesity (BMI 31)"],
-    "medications": ["Metformin IR 2000 mg/day (8 years)", "Sitagliptin 100 mg/day", "Lisinopril 10 mg/day", "Sugar-free gum daily"]
+    "pmh": [
+      "Type 2 diabetes mellitus (12 years)",
+      "Hypertension",
+      "Obesity (BMI 31)"
+    ],
+    "medications": [
+      "Metformin IR 2000 mg/day (8 years)",
+      "Sitagliptin 100 mg/day",
+      "Lisinopril 10 mg/day",
+      "Sugar-free gum daily"
+    ]
   },
   "caseDescription": "A 62-year-old man with type 2 diabetes presents with 6 weeks of painless watery diarrhea (5 stools/day), without nocturnal symptoms, blood, or weight loss. He has taken metformin immediate-release 2000 mg daily for 8 years without prior GI issues. He chews sugar-free gum throughout the day. Examination is unremarkable; abdomen soft, non-tender. Vitals stable. HbA1c 7.4%. He was referred for colonoscopy, which was normal.\n\nThe referring physician labeled this \"diabetic autonomic neuropathy\" and planned octreotide. Before invasive escalation, a structured 4-phase approach was applied.",
   "keyFindings": [
@@ -236,6 +245,81 @@
       "correctOption": 2,
       "explanation": "A is true (no alarm features, Phase 1 not done first); R is false (no hematochezia or nocturnal diarrhea).",
       "reference": "Phase 2 Step 1 alarm criteria — none present in this case."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why can metformin cause severe diarrhea years after initiation?",
+      "options": [
+        "A) Altered bile acid absorption and elevated GLP-1 leading to secretory diarrhea",
+        "B) Direct irritation of the gastrointestinal mucosa",
+        "C) Small intestinal bacterial overgrowth",
+        "D) Pancreatic enzyme inhibition"
+      ],
+      "correctOption": 0,
+      "explanation": "Metformin alters bile acid absorption and elevates GLP-1, causing secretory diarrhea. Late-onset diarrhea (1–2% of patients) is attributed to this mechanism, not other GI disturbances.",
+      "id": "cr-001-why1-obj-d17533",
+      "subtopic": "Metformin Toxicity",
+      "_generatedFrom": "cr-001-why1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why was colonoscopy premature in this case?",
+      "options": [
+        "A. Presence of alarm features (nocturnal diarrhea, weight loss)",
+        "B. Completion of Phase 1 medication and dietary audit prior to referral",
+        "C. Absence of alarm features and incomplete Phase 1 evaluation",
+        "D. Abnormal findings on colonoscopy confirming IBD"
+      ],
+      "correctOption": 2,
+      "explanation": "Colonoscopy is premature when no alarm features (e.g., weight loss, hematochezia) are present and before completing Phase 1 evaluation, as these factors suggest alternative diagnoses like iatrogenic causes rather than structural disease.",
+      "id": "cr-001-why2-obj-609f34",
+      "subtopic": "Diagnostic Approach",
+      "_generatedFrom": "cr-001-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "When managing chronic diarrhea in a diabetic patient on metformin, which approach is most appropriate for Phase 1?",
+      "options": [
+        "A. Continue metformin, eliminate sorbitol-containing products, and order stool studies immediately",
+        "B. Pause metformin for 2–4 weeks, eliminate sugar-free products, and reassess symptoms before further testing",
+        "C. Switch to metformin XR without medication changes, restrict dietary fiber, and monitor glycemic control",
+        "D. Discontinue metformin permanently, initiate insulin therapy, and perform colonoscopy within 1 week"
+      ],
+      "correctOption": 1,
+      "explanation": "Phase 1 management prioritizes metformin adjustment (pause or XR switch), elimination of osmotic laxatives (sorbitol/mannitol/xylitol), and clinical reassessment before invasive testing. Immediate imaging or permanent metformin discontinuation are not indicated at this stage.",
+      "id": "cr-001-how1-obj-18a29d",
+      "subtopic": "Phase 1",
+      "_generatedFrom": "cr-001-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the appropriate approach for Phase 2 workup of persistent diarrhea after Phase 1?",
+      "options": [
+        "A) Screen for alarm symptoms first; if absent, order tTG-IgA with total IgA, fecal calprotectin, fecal elastase-1, CBC, electrolytes, and TSH; refer for colonoscopy only if alarm features are present",
+        "B) Proceed directly to colonoscopy without initial screening for alarm symptoms",
+        "C) Order fecal calprotectin and CBC only, avoiding serologic testing for celiac disease",
+        "D) Perform invasive motility studies before empiric Phase 3 testing"
+      ],
+      "correctOption": 0,
+      "explanation": "Alarm symptoms necessitate immediate colonoscopy; in their absence, non-invasive testing (celiac screening, IBD markers, PEI, CBC, TSH) is prioritized. Colonoscopy is reserved for alarm features, and empiric Phase 3 is pursued before invasive motility studies if initial tests are negative.",
+      "id": "cr-001-how2-obj-d2cab4",
+      "subtopic": "Phase 2",
+      "_generatedFrom": "cr-001-how2"
+    },
+    {
+      "type": "mcq",
+      "stem": "How should metformin be reintroduced after confirming metformin-induced diarrhea?",
+      "options": [
+        "A) Switch to extended-release formulation; start at 500 mg daily, titrate slowly over 4 weeks, and monitor GI tolerance",
+        "B) Use immediate-release formulation; start at 1000 mg daily and titrate to target dose within 2 weeks",
+        "C) Initiate therapy with 500 mg twice daily without dose adjustment",
+        "D) Discontinue metformin permanently and use alternative glucose-lowering agents only"
+      ],
+      "correctOption": 0,
+      "explanation": "The extended-release formulation minimizes GI side effects; a gradual titration from 500 mg daily over 4 weeks reduces recurrence risk. Immediate-release (option B/C) and permanent discontinuation (option D) are not recommended per guidelines.",
+      "id": "cr-001-how3-obj-ccb8ca",
+      "subtopic": "Metformin Rechallenge",
+      "_generatedFrom": "cr-001-how3"
     }
   ]
 }

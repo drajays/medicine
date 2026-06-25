@@ -220,7 +220,12 @@
       "type": "mcq",
       "subtopic": "Beta-Blockade",
       "stem": "Which beta-blocker is the ultra-short-acting IV agent reserved for unstable thyroid storm or haemodynamic compromise?",
-      "options": ["Atenolol", "Bisoprolol", "Esmolol", "Propranolol"],
+      "options": [
+        "Atenolol",
+        "Bisoprolol",
+        "Esmolol",
+        "Propranolol"
+      ],
       "correctOption": 2,
       "explanation": "Esmolol is an ultra-short-acting intravenous β1 blocker used in acute inpatient/ICU settings for unstable thyroid storm or a rapid ventricular rate causing haemodynamic compromise; the others are oral agents for ongoing rate control."
     },
@@ -324,7 +329,12 @@
       "type": "mcq",
       "subtopic": "Beta-Blockade",
       "stem": "Which beta-blocker best provides convenient once-daily, cardioselective long-term rate control in this 75-year-old?",
-      "options": ["Bisoprolol", "Propranolol", "Esmolol", "Atenolol"],
+      "options": [
+        "Bisoprolol",
+        "Propranolol",
+        "Esmolol",
+        "Atenolol"
+      ],
       "correctOption": 0,
       "explanation": "Bisoprolol is a highly cardioselective β1 antagonist giving stable 24-hour control with once-daily dosing and a low risk of bronchospasm or CNS effects — ideal for an elderly patient. Propranolol is non-selective, lipophilic, and short-acting; esmolol is IV-only; atenolol is renally cleared and often twice-daily."
     },
@@ -367,6 +377,226 @@
       "statement": "Glucocorticoids used for Type 2 AIT also further inhibit peripheral conversion of T4 to T3.",
       "correctAnswer": true,
       "explanation": "True. Beyond stabilising follicular membranes and halting the destructive inflammation, glucocorticoids give a secondary benefit by further inhibiting peripheral T4-to-T3 conversion."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the main drawback of using propranolol for rate control?",
+      "options": [
+        "A: It has a short half-life, so it requires frequent dosing (3–4 times daily) unless an extended-release formulation is used.",
+        "B: It causes significant peripheral vasoconstriction and hypotension.",
+        "C: It increases the risk of bronchoconstriction in patients with asthma.",
+        "D: It is associated with a high incidence of heart failure exacerbation."
+      ],
+      "correctOption": 0,
+      "explanation": "Propranolol's short half-life necessitates frequent dosing unless an extended-release formulation is used, which can impact patient adherence.",
+      "id": "cr-009-sa1-obj-3e161f",
+      "subtopic": "Beta-Blockade",
+      "_generatedFrom": "cr-009-sa1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is bisoprolol preferred for long-term maintenance in a patient requiring β-blocker therapy?",
+      "options": [
+        "A) It has a longer half-life than other β-blockers, reducing the frequency of dosing",
+        "B) It is a highly cardioselective β1 antagonist with 24-hour rate control and once-daily dosing, with lower risk of bronchospasm and metabolic adverse effects",
+        "C) It is associated with greater reduction in blood pressure compared to other β-blockers",
+        "D) It is less likely to cause peripheral vasoconstriction than non-selective β-blockers"
+      ],
+      "correctOption": 1,
+      "explanation": "Bisoprolol's cardioselectivity, 24-hour efficacy, once-daily dosing, and reduced risk of bronchospasm and metabolic effects make it optimal for long-term use.",
+      "id": "cr-009-why2-obj-150799",
+      "subtopic": "Beta-Blockade",
+      "_generatedFrom": "cr-009-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "Esmolol is indicated in which of the following scenarios?",
+      "options": [
+        "A. Unstable thyroid storm or rapid ventricular rate causing hemodynamic compromise in acute inpatient settings",
+        "B. Propranolol-resistant migraine prophylaxis",
+        "C. Chronic hypertension management in outpatient settings",
+        "D. Heart failure with reduced ejection fraction"
+      ],
+      "correctOption": 0,
+      "explanation": "Esmolol's ultra-short half-life and intravenous route make it ideal for acute hemodynamic instability (e.g., thyroid storm, rapid ventricular rate), unlike other beta-blockers used for chronic conditions or different indications.",
+      "id": "cr-009-sa2-obj-932606",
+      "subtopic": "Beta-Blockade",
+      "_generatedFrom": "cr-009-sa2"
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Switching this patient to propranolol offers no additional clinical benefit.",
+      "reason": "Amiodarone has already blunted T4-to-T3 conversion, rendering high-dose propranolol metabolically ineffective, and bisoprolol adequately controls heart rate.",
+      "correctOption": 0,
+      "explanation": "Both assertion and reason are true, and the reason correctly explains the assertion. Amiodarone's inhibition of T4-to-T3 conversion and bisoprolol's effective heart rate control eliminate potential benefits of propranolol in this context.",
+      "id": "cr-009-why4-obj-6a1ad0",
+      "subtopic": "Beta-Blockade",
+      "_generatedFrom": "cr-009-why4"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why should the methimazole dose not be increased beyond 60 mg/day?",
+      "options": [
+        "A) At 60 mg/day, thyroid peroxidase (TPO) is already maximally inhibited. Increasing the dose does not suppress new hormone synthesis any further or faster, but it exponentially increases the risk of severe, dose-dependent toxicities.",
+        "B) Methimazole becomes immediately ineffective beyond 60 mg/day due to rapid metabolic degradation.",
+        "C) The 60 mg/day dose is the maximum approved by regulatory agencies for long-term use.",
+        "D) Increasing the dose beyond 60 mg/day causes rapid development of thyroid hormone resistance in patients."
+      ],
+      "correctOption": 0,
+      "explanation": "At 60 mg/day, TPO inhibition is maximal, and higher doses do not enhance suppression but increase toxicity risks.",
+      "id": "cr-009-why5-obj-0474d0",
+      "subtopic": "Methimazole",
+      "_generatedFrom": "cr-009-why5"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why does a patient with hyperthyroidism still have elevated free T4 levels after 1 month of maximum-dose methimazole therapy?",
+      "options": [
+        "A) Methimazole inhibits TSH secretion, delaying feedback regulation",
+        "B) The thyroid gland rapidly converts T4 to T3, bypassing methimazole's effects",
+        "C) Pre-formed thyroid hormone stored in follicular colloid persists for 4–8 weeks before clearing",
+        "D) Methimazole induces hepatic enzyme activity, accelerating T4 metabolism"
+      ],
+      "correctOption": 2,
+      "explanation": "Methimazole blocks thyroid hormone synthesis but does not affect existing hormone stores in the thyroid follicles. These pre-formed hormones remain in the colloid and are gradually released into circulation over 4–8 weeks.",
+      "id": "cr-009-why6-obj-f9841e",
+      "subtopic": "Hormone Kinetics",
+      "_generatedFrom": "cr-009-why6"
+    },
+    {
+      "type": "mcq",
+      "stem": "How does cholestyramine accelerate clearance of thyroid hormone in thyrotoxicosis?",
+      "options": [
+        "A) By inhibiting thyroid hormone synthesis in the thyroid gland",
+        "B) By enhancing renal excretion of T4 and T3",
+        "C) By acting as an intraluminal sink, binding T4 and T3 in the gut and promoting fecal excretion",
+        "D) By blocking thyroid hormone receptors in target tissues"
+      ],
+      "correctOption": 2,
+      "explanation": "Cholestyramine binds thyroid hormones in the gastrointestinal tract, interrupting enterohepatic recirculation and increasing fecal excretion of T4 and T3.",
+      "id": "cr-009-how1-obj-6d66f7",
+      "subtopic": "Adjuncts",
+      "_generatedFrom": "cr-009-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "How should cholestyramine be administered to avoid interactions with drugs like bisoprolol and methimazole?",
+      "options": [
+        "A) Staggered administration — at least 1 hour after or 4 hours before drug ingestion",
+        "B) Concurrent administration with food to enhance absorption",
+        "C) 2 hours before drug intake to reduce gut binding",
+        "D) Simultaneous administration with the drug to ensure complete resin binding"
+      ],
+      "correctOption": 0,
+      "explanation": "Cholestyramine is a bile acid sequestrant that binds drugs in the gastrointestinal tract. To prevent absorption inhibition, it must be administered at least 1 hour after or 4 hours before other medications.",
+      "id": "cr-009-how2-obj-4fc6b8",
+      "subtopic": "Adjuncts",
+      "_generatedFrom": "cr-009-how2"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which mechanism best explains the laboratory finding of elevated free T4 and normal T3 levels in a patient taking amiodarone?",
+      "options": [
+        "A) Structural similarity to thyroxine, high iodine content, and inhibition of 5'-deiodinase enzyme",
+        "B) Increased hepatic clearance of T3 with unchanged T4 metabolism",
+        "C) Iodine deficiency-induced thyrotropin (TSH) stimulation of the thyroid",
+        "D) Direct stimulation of thyroid hormone synthesis by amiodarone"
+      ],
+      "correctOption": 0,
+      "explanation": "Amiodarone inhibits 5'-deiodinase, blocking peripheral conversion of T4 to T3, leading to elevated free T4 and preserved T3 levels.",
+      "id": "cr-009-how3-obj-3ee7b7",
+      "subtopic": "AIT Pathophysiology",
+      "_generatedFrom": "cr-009-how3"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is Type 1 amiodarone-induced thyrotoxicosis (AIT)?",
+      "options": [
+        "A) Iodine-induced hyperthyroidism due to excessive iodine from amiodarone in a gland with autonomous pathology (e.g., multinodular goiter)",
+        "B) Autoimmune destruction of thyroid tissue leading to hormone release",
+        "C) Iodine deficiency-induced hypothyroidism",
+        "D) Inhibition of thyroid hormone synthesis by amiodarone"
+      ],
+      "correctOption": 0,
+      "explanation": "Type 1 AIT occurs when amiodarone's high iodine content stimulates hormone production in a thyroid with preexisting autonomous function (e.g., multinodular goiter), unlike Type 2 AIT which involves thyroiditis.",
+      "id": "cr-009-sa5-obj-fe1d01",
+      "subtopic": "AIT Pathophysiology",
+      "_generatedFrom": "cr-009-sa5"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is methimazole ineffective in treating pure Type 2 autoimmune thyroiditis (AIT)?",
+      "options": [
+        "A) It increases thyroid hormone uptake by peripheral tissues",
+        "B) It stimulates thyroid gland destruction",
+        "C) It has no effect on thyroid hormone synthesis",
+        "D) It is metabolized by the same enzymes as thyroid hormones"
+      ],
+      "correctOption": 2,
+      "explanation": "Methimazole inhibits thyroid hormone synthesis, but in Type 2 AIT, thyrotoxicosis results from preformed hormone leakage due to gland destruction, not ongoing synthesis.",
+      "id": "cr-009-why7-obj-3161f3",
+      "subtopic": "AIT Pathophysiology",
+      "_generatedFrom": "cr-009-why7"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which finding on color-flow Doppler ultrasound best differentiates Type 1 from Type 2 autoimmune thyroiditis (AIT)?",
+      "options": [
+        "A) High vascularity (‘inferno’ pattern) in Type 1 vs low/absent vascularity in Type 2",
+        "B) Low vascularity in Type 1 vs high vascularity in Type 2",
+        "C) Echogenicity changes in Type 1 vs architectural distortion in Type 2",
+        "D) Thyroid size enlargement in Type 1 vs normal size in Type 2"
+      ],
+      "correctOption": 0,
+      "explanation": "Type 1 AIT (active synthesis) shows high vascularity on Doppler, while Type 2 (destructive thyroiditis) shows low or absent vascularity due to tissue destruction.",
+      "id": "cr-009-how4-obj-10c6d8",
+      "subtopic": "Diagnostics",
+      "_generatedFrom": "cr-009-how4"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary mechanism by which glucocorticoids (e.g., prednisolone) are the optimal treatment for Type 2 autoimmune thyroiditis (Hashimoto's thyroiditis)?",
+      "options": [
+        "A) Rapid inhibition of thyroid peroxidase activity",
+        "B) Stabilization of follicular membranes and suppression of T4-to-T3 peripheral conversion",
+        "C) Induction of thyroid-stimulating hormone receptor antibodies",
+        "D) Enhancement of thyroid hormone uptake by target tissues"
+      ],
+      "correctOption": 1,
+      "explanation": "Glucocorticoids stabilize thyroid follicular membranes to halt inflammation and inhibit peripheral T4-to-T3 conversion, reducing thyroid hormone levels and inflammation in Hashimoto's thyroiditis.",
+      "id": "cr-009-sa7-obj-2035c6",
+      "subtopic": "Management",
+      "_generatedFrom": "cr-009-sa7"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is the methimazole dose reduced to 20–30 mg/day instead of being stopped completely once Type 2 AIT is suspected?",
+      "options": [
+        "A) A moderate holding dose covers the common possibility of mixed AIT (some iodine-driven synthesis occurring alongside the destruction), while simultaneously reducing the high risk of hepatotoxicity and agranulocytosis associated with the 60 mg dose.",
+        "B) To prevent hypothyroidism caused by complete drug withdrawal.",
+        "C) To minimize long-term costs of treatment.",
+        "D) To avoid thyroid storm associated with abrupt dose changes."
+      ],
+      "correctOption": 0,
+      "explanation": "A moderate holding dose balances the risk of ongoing thyroid dysfunction with the safety profile of lower methimazole doses, as higher doses carry significant risks of hepatotoxicity and agranulocytosis.",
+      "id": "cr-009-why8-obj-ef1b7c",
+      "subtopic": "Management",
+      "_generatedFrom": "cr-009-why8"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why does amiodarone continue to drive thyroid pathology long after the drug is discontinued?",
+      "options": [
+        "A) Amiodarone contains high levels of iodine, which persists in the thyroid gland after discontinuation",
+        "B) Amiodarone directly inhibits thyroid hormone receptors, causing prolonged effects",
+        "C) Amiodarone is highly lipophilic with a massive volume of distribution and a terminal half-life of 50–100 days, so the drug and its iodine load remain in the patient’s system for months",
+        "D) Amiodarone induces autoimmune thyroiditis that is independent of drug levels"
+      ],
+      "correctOption": 2,
+      "explanation": "Amiodarone's lipophilicity, large volume of distribution, and prolonged terminal half-life (50–100 days) result in persistent drug and iodine exposure, explaining delayed thyroid effects after discontinuation.",
+      "id": "cr-009-why9-obj-4326bc",
+      "subtopic": "Pharmacology",
+      "_generatedFrom": "cr-009-why9"
     }
   ]
 }

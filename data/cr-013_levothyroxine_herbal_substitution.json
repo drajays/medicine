@@ -246,7 +246,12 @@
       "type": "mcq",
       "subtopic": "Danger Spectrum",
       "stem": "What is the most feared, life-threatening endpoint of profound untreated hypothyroidism (e.g. after stopping thyroid hormone)?",
-      "options": ["Thyroid storm", "Myxedema coma", "Graves’ ophthalmopathy", "Hashitoxicosis"],
+      "options": [
+        "Thyroid storm",
+        "Myxedema coma",
+        "Graves’ ophthalmopathy",
+        "Hashitoxicosis"
+      ],
       "correctOption": 1,
       "explanation": "Myxedema coma — hypothermia, altered mentation, hypoventilation, bradycardia, and hyponatremia with high mortality — is the dangerous endpoint of severe untreated hypothyroidism. Thyroid storm and hashitoxicosis are hyperthyroid states."
     },
@@ -269,7 +274,12 @@
       "type": "mcq",
       "subtopic": "Monitoring",
       "stem": "After restarting levothyroxine, when should TSH and free T4 be rechecked?",
-      "options": ["In 2–3 days", "In about 6 weeks", "In 6 months", "No recheck is needed"],
+      "options": [
+        "In 2–3 days",
+        "In about 6 weeks",
+        "In 6 months",
+        "No recheck is needed"
+      ],
       "correctOption": 1,
       "explanation": "Thyroid function should be rechecked about 6 weeks after restarting or changing the dose, the time needed for the hypothalamic–pituitary–thyroid axis to re-equilibrate, then the dose is titrated to target."
     },
@@ -453,6 +463,51 @@
       "statement": "Herbal supplements may be used alongside levothyroxine, but only after discussing with the doctor, since some can impair its absorption.",
       "correctAnswer": true,
       "explanation": "True. The ‘with, not instead of’ rule allows supplements for general well-being alongside levothyroxine, but they should be discussed first because several reduce its absorption."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why can’t Ayurvedic or herbal supplements substitute for levothyroxine in primary hypothyroidism?",
+      "options": [
+        "A) Herbal supplements contain bioactive compounds that stimulate thyroid hormone production.",
+        "B) They cause gastrointestinal side effects that interfere with levothyroxine absorption.",
+        "C) The deficiency is of a specific hormone (T4), which only levothyroxine can replace.",
+        "D) Herbal products are contraindicated with thyroid hormone receptor blockers."
+      ],
+      "correctOption": 2,
+      "explanation": "Primary hypothyroidism involves a deficiency of T4, which requires direct hormone replacement. Herbal supplements lack T4 and cannot fill this gap, unlike levothyroxine. While some supplements may impair absorption when taken concurrently, the fundamental reason is the absence of the required hormone in herbal products.",
+      "id": "cr-013-why2-obj-60e795",
+      "subtopic": "Pharmacology",
+      "_generatedFrom": "cr-013-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "How should levothyroxine be taken to ensure proper absorption?",
+      "options": [
+        "A. Take once daily in the morning on an empty stomach, 30–60 minutes before food or medications, and avoid calcium, iron, antacids, soy, and supplements.",
+        "B. Take with a meal to improve absorption and reduce gastrointestinal side effects.",
+        "C. Take once weekly with a multivitamin to ensure adequate nutrient intake.",
+        "D. Take at night with a glass of milk to enhance absorption."
+      ],
+      "correctOption": 0,
+      "explanation": "Levothyroxine requires an empty stomach administration to avoid binding with calcium, iron, antacids, soy, and supplements, which inhibit absorption. Timing and consistency are critical for stable thyroid hormone levels.",
+      "id": "cr-013-how1-obj-550b39",
+      "subtopic": "Management",
+      "_generatedFrom": "cr-013-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "A patient with untreated hypothyroidism (TSH 40) insists on using herbal supplements instead of levothyroxine and becomes offended when advised against it. Which approach is most effective in addressing this situation?",
+      "options": [
+        "A) Emphasize the dangers of herbal supplements without acknowledging the patient's concerns",
+        "B) Use the patient's TSH result to explain that supplements lack thyroid hormone and cannot replace levothyroxine, while validating their interest in natural approaches",
+        "C) Immediately prescribe both levothyroxine and herbal supplements to accommodate the patient's preferences",
+        "D) Discontinue the discussion to avoid conflict and revisit later"
+      ],
+      "correctOption": 1,
+      "explanation": "Validating the patient's motivation, using objective data (their TSH), and explaining the fixed fact that supplements lack thyroid hormone aligns with the recommended approach. Offering partnership (supplements for well-being alongside levothyroxine) preserves the relationship and promotes concordance.",
+      "id": "cr-013-how2-obj-cf299e",
+      "subtopic": "Communication",
+      "_generatedFrom": "cr-013-how2"
     }
   ]
 }

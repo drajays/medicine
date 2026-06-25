@@ -423,6 +423,151 @@
       "correctOption": 0,
       "explanation": "Both true; hypokalemia is both a clinical problem in this patient (K+ 3.1) and a biochemical trap for PA diagnosis.",
       "reference": "Crucial Clinical Safeguard: \"Serum potassium must be aggressively corrected with oral potassium supplementation throughout this entire washout phase\" and \"Hypokalemia directly suppresses aldosterone secretion.\""
+    },
+    {
+      "type": "mcq",
+      "stem": "Which clinical findings most strongly suggest primary aldosteronism as the cause of this patient's hypertension?",
+      "options": [
+        "A) Severe resistant hypertension requiring multiple medications and hypokalemia unresponsive to oral supplementation",
+        "B) Pheochromocytoma with episodic hypertension and headaches",
+        "C) Cushing's syndrome with central obesity and glucose intolerance",
+        "D) Renal artery stenosis confirmed by angiography"
+      ],
+      "correctOption": 0,
+      "explanation": "Resistant hypertension combined with hypokalemia refractory to supplementation is the classic phenotype of primary aldosteronism, reflecting aldosterone-mediated renal potassium wasting.",
+      "id": "cr-008-why1-obj-5527b9",
+      "subtopic": "Clinical Dilemma & Discussion",
+      "_generatedFrom": "cr-008-why1"
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Spironolactone use can lead to false-negative results in primary aldosteronism (PA) screening.",
+      "reason": "Spironolactone induces a compensatory surge in renin and aldosterone, masking autonomous aldosterone production.",
+      "correctOption": 0,
+      "explanation": "Spironolactone's mineralocorticoid receptor antagonism triggers RAAS activation, altering baseline physiology and obscuring true aldosterone excess in PA screening.",
+      "id": "cr-008-why2-obj-5946fb",
+      "subtopic": "Clinical Dilemma & Discussion",
+      "_generatedFrom": "cr-008-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why should biochemical screening (aldosterone-renin ratio) precede adrenal CT imaging in a patient with suspected primary aldosteronism?",
+      "options": [
+        "A) To avoid radiation exposure from CT scans",
+        "B) To identify adrenal incidentalomas that may require surgical removal",
+        "C) To prevent misdiagnosis of non-functioning adrenal nodules and unnecessary surgery",
+        "D) To confirm the presence of adrenal adenomas before imaging"
+      ],
+      "correctOption": 2,
+      "explanation": "Approximately 10% of patients over age 50 have non-functioning adrenal incidentalomas that may appear normal on CT, leading to potential misdiagnosis and unnecessary surgery. Bilateral idiopathic adrenal hyperplasia (the most common cause of PA in older adults) often shows normal adrenal architecture on CT, making biochemical confirmation essential before anatomical imaging.",
+      "id": "cr-008-why3-obj-27ad72",
+      "subtopic": "Step 1: Immediate Screening",
+      "_generatedFrom": "cr-008-why3"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is aggressive correction of serum potassium essential during the washout phase for diagnosing primary aldosteronism (PA)?",
+      "options": [
+        "A) To prevent cardiac arrhythmias caused by hypokalemia",
+        "B) To avoid false-negative aldosterone-renin ratio (ARR) results due to aldosterone suppression",
+        "C) To normalize renal function impaired by chronic hypokalemia",
+        "D) To mitigate metabolic alkalosis associated with aldosteronism"
+      ],
+      "correctOption": 1,
+      "explanation": "Hypokalemia suppresses adrenal aldosterone secretion, which can blunt aldosterone output even in PA, leading to falsely low ARR values. Maintaining potassium levels prevents this diagnostic pitfall.",
+      "id": "cr-008-why5-obj-7f456e",
+      "subtopic": "Step 2: Medication Modification & Washout",
+      "_generatedFrom": "cr-008-why5"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why are verapamil SR, hydralazine, and prazosin/doxazosin preferred during PA washout?",
+      "options": [
+        "A) These agents have minimal effect on the RAAS axis, preserving biochemical readability of ARR without altering renin dynamics.",
+        "B) They directly inhibit aldosterone production, reducing false positives in ARR testing.",
+        "C) They are more effective than ACE inhibitors in lowering blood pressure during washout.",
+        "D) Their use prevents the need for prolonged washout periods by stabilizing renin levels."
+      ],
+      "correctOption": 0,
+      "explanation": "Verapamil SR (non-DHP CCB), hydralazine (direct vasodilator), and prazosin/doxazosin (α₁ blockers) minimally affect RAAS, unlike ACE inhibitors, ARBs, and MRAs, which alter renin dynamics and confound ARR interpretation. This allows blood pressure control during washout without compromising biochemical accuracy.",
+      "id": "cr-008-why6-obj-398a15",
+      "subtopic": "Step 2: Medication Modification & Washout",
+      "_generatedFrom": "cr-008-why6"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is triple-phase adrenal CT preferred over standard abdominal CECT for adrenal lesion characterization?",
+      "options": [
+        "A. Standard CT provides higher spatial resolution for small adrenal lesions",
+        "B. Triple-phase protocol enables assessment of contrast washout patterns to differentiate adrenal adenomas from malignant or lipid-poor lesions",
+        "C. Standard CT uses lower radiation doses compared to triple-phase protocols",
+        "D. Triple-phase imaging is more cost-effective for adrenal lesion evaluation"
+      ],
+      "correctOption": 1,
+      "explanation": "Triple-phase adrenal CT (unenhanced, early, delayed) allows quantification of contrast washout, critical for distinguishing lipid-rich adenomas (>60% absolute washout) from lipid-poor lesions (malignancy/pheochromocytoma). Standard CT lacks this capability due to thicker slices and suboptimal contrast timing.",
+      "id": "cr-008-why7-obj-6582d5",
+      "subtopic": "Step 3: Anatomical Localization",
+      "_generatedFrom": "cr-008-why7"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is adrenal vein sampling (AVS) indicated before unilateral adrenalectomy in patients over 40 with confirmed primary aldosteronism (PA)?",
+      "options": [
+        "A) To confirm the diagnosis of PA",
+        "B) To assess adrenal tumor size",
+        "C) To lateralize aldosterone secretion when imaging is inconclusive",
+        "D) To monitor response to medical therapy"
+      ],
+      "correctOption": 2,
+      "explanation": "CT imaging may not reliably lateralize aldosterone secretion, especially in bilateral disease or incidentalomas. AVS confirms the side of autonomous production to guide appropriate unilateral surgery and avoid unnecessary or incorrect adrenalectomy in patients >40 years.",
+      "id": "cr-008-why8-obj-bc5033",
+      "subtopic": "Summary Clinical Workflow",
+      "_generatedFrom": "cr-008-why8"
+    },
+    {
+      "type": "mcq",
+      "stem": "When interpreting baseline aldosterone-renin ratio (ARR) on a spironolactone-containing regimen, which statement is correct?",
+      "options": [
+        "A) Order CT scan first before measuring PAC/PRA",
+        "B) Suppressed renin (PRA <1.0 ng/mL/h) confirms adrenal adenoma",
+        "C) Elevated renin levels require immediate adrenal venous sampling",
+        "D) Suppressed renin despite spironolactone suggests strong presumptive primary aldosteronism"
+      ],
+      "correctOption": 3,
+      "explanation": "Spironolactone suppresses renin; suppressed renin in this context strongly suggests primary aldosteronism. Elevated renin requires washout, not immediate imaging. CT should not be ordered before ARR interpretation.",
+      "id": "cr-008-how1-obj-e63e20",
+      "subtopic": "Step 1: Immediate Screening",
+      "_generatedFrom": "cr-008-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following correctly describes the 4-to-6-week medication washout and substitution protocol for safe execution?",
+      "options": [
+        "A. Discontinue MRA (spironolactone/eplerenone/amiloride) first; substitute RAAS-neutral antihypertensives (verapamil SR, hydralazine, prazosin/doxazosin); aggressively replete potassium; repeat ARR after washout.",
+        "B. Continue ACEi/ARB while discontinuing MRA; substitute DHP-CCB (amlodipine); avoid potassium repletion.",
+        "C. Discontinue beta-blockers for 2 weeks; substitute ACEi/ARB; omit potassium repletion.",
+        "D. Discontinue MRA and DHP-CCB simultaneously; substitute thiazide diuretic; repeat ARR without potassium repletion."
+      ],
+      "correctOption": 0,
+      "explanation": "Correct answer (A) aligns with key steps: MRA discontinuation first (primary confounder), RAAS-neutral substitution (verapamil SR, hydralazine, prazosin/doxazosin), potassium repletion, and ARR repetition. Distractors (B-D) incorrectly retain or substitute non-RAAS-neutral agents, omit potassium repletion, or use inappropriate diuretics.",
+      "id": "cr-008-how2-obj-4a6011",
+      "subtopic": "Step 2: Medication Modification & Washout",
+      "_generatedFrom": "cr-008-how2"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the correct sequence for the complete PA diagnostic workflow from presentation to localization?",
+      "options": [
+        "A. Resistant HTN + hypokalemia → baseline PAC/PRA → suppressed renin → biochemical confirmation → CT → AVS (if surgery candidate >40)",
+        "B. Resistant HTN + hypokalemia → CT → baseline PAC/PRA → washout → ARR → AVS",
+        "C. Resistant HTN + hypokalemia → ARR → elevated renin → CT → biochemical confirmation → AVS",
+        "D. Resistant HTN + hypokalemia → biochemical confirmation → washout → CT → AVS (if surgery candidate >40)"
+      ],
+      "correctOption": 0,
+      "explanation": "Biochemistry (PAC/PRA and ARR) must precede imaging (CT). Washout and confirmatory tests (saline infusion) occur after an inconclusive ARR. AVS is reserved for unilateral surgery candidates over 40.",
+      "id": "cr-008-how3-obj-36d100",
+      "subtopic": "Summary Clinical Workflow",
+      "_generatedFrom": "cr-008-how3"
     }
   ]
 }

@@ -8,14 +8,21 @@
   "authors": "Clinical protocol module — illustrative case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "pe-cr-006", "title": "Precocious Puberty (Pediatric Endo Ch. 6)" }
+    {
+      "id": "pe-cr-006",
+      "title": "Precocious Puberty (Pediatric Endo Ch. 6)"
+    }
   ],
   "patient": {
     "age": "Girl on GnRH-agonist therapy (illustrative)",
     "sex": "Female",
     "chiefComplaint": "Unsuppressed LH on leuprolide depot 11.25 mg every 90 days",
-    "pmh": ["Central precocious puberty on GnRH-agonist suppression"],
-    "medications": ["Leuprolide depot 11.25 mg IM every 90 days"]
+    "pmh": [
+      "Central precocious puberty on GnRH-agonist suppression"
+    ],
+    "medications": [
+      "Leuprolide depot 11.25 mg IM every 90 days"
+    ]
   },
   "caseDescription": "A girl with central precocious puberty on leuprolide depot 11.25 mg every 90 days is found to have an unsuppressed LH. This is a treatment failure that demands prompt protocol revision before further irreversible bone-age advancement and lost adult height. The work-up and rescue cover: how GnRH agonists work and why a flare occurs, why a 3-monthly depot can fail, flare-prevention options beyond medroxyprogesterone, the rescue strategy (switch to monthly, escalate, maximum dosing), the harms of over-suppression and how to monitor for them, and how to weigh LH versus estradiol with their target ranges.",
   "keyFindings": [
@@ -441,6 +448,46 @@
       "reason": "Every month of inadequate suppression allows irreversible bone-age advancement and loss of adult-height potential.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason explains the assertion. Because the harm of continued escape (irreversible skeletal maturation) accrues monthly, the dosing should be intensified immediately rather than after another 3-month interval."
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "A GnRH agonist causes an initial flare of LH and FSH secretion before suppression.",
+      "reason": "Because continuous agonist stimulation initially activates GnRH receptors, leading to receptor internalization and depletion over time.",
+      "correctOption": 0,
+      "explanation": "The initial flare occurs due to receptor activation by continuous agonist stimulation, while prolonged occupancy leads to receptor downregulation and suppression of gonadotropins.",
+      "id": "cr-016-why1-obj-388547",
+      "subtopic": "Mechanism",
+      "_generatedFrom": "cr-016-why1"
+    },
+    {
+      "type": "mcq",
+      "stem": "A 12-year-old girl on leuprolide 11.25 mg every 90 days has unsuppressed LH levels. What is the most appropriate next step in management?",
+      "options": [
+        "A) Continue every 90 days and recheck in 3 months",
+        "B) Confirm escape with trough and stimulated LH; switch to monthly dosing (7.5 mg or 11.25 mg every 28 days) and recheck at 4-week trough",
+        "C) Initiate aromatase inhibitor monotherapy without changing leuprolide regimen",
+        "D) Increase leuprolide to 22.5 mg every 90 days and monitor in 6 months"
+      ],
+      "correctOption": 1,
+      "explanation": "Management requires confirming escape (trough + stimulated LH), excluding peripheral estradiol sources, and switching to monthly dosing to optimize suppression. Continuing every 90 days (A) risks persistent escape. Aromatase inhibitors (C) are adjunctive, not first-line. Increasing dose without changing frequency (D) may not address pharmacokinetic issues.",
+      "id": "cr-016-how1-obj-fae3bc",
+      "subtopic": "Rescue",
+      "_generatedFrom": "cr-016-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following is the most definitive flare-prevention strategy beyond medroxyprogesterone in GnRH agonist therapy?",
+      "options": [
+        "A) GnRH-antagonist pre-treatment (cetrorelix/ganirelix/degarelix) for 1-3 days before and 1-2 weeks into agonist therapy",
+        "B) Aromatase inhibitor (anastrozole/letrozole) started with the agonist",
+        "C) Tamoxifen (SERM) for estrogen action at target tissues",
+        "D) 'Step-up' daily subcutaneous leuprolide (20 mcg/kg/day) for 2-4 weeks then depot"
+      ],
+      "correctOption": 0,
+      "explanation": "GnRH-antagonist pre-treatment provides immediate receptor blockade, eliminating the flare entirely (unlike other options which mitigate but do not prevent the flare).",
+      "id": "cr-016-sa1-obj-5b3c3b",
+      "subtopic": "Apply It",
+      "_generatedFrom": "cr-016-sa1"
     }
   ]
 }

@@ -11,8 +11,12 @@
     "age": 32,
     "sex": "Female",
     "chiefComplaint": "Primary hypothyroidism on levothyroxine — pregnancy thyroid monitoring at 17 weeks gestation",
-    "pmh": ["Primary hypothyroidism"],
-    "medications": ["Levothyroxine 175 mcg daily (recently increased from 125 mcg)"]
+    "pmh": [
+      "Primary hypothyroidism"
+    ],
+    "medications": [
+      "Levothyroxine 175 mcg daily (recently increased from 125 mcg)"
+    ]
   },
   "caseDescription": "A pregnant woman with primary hypothyroidism on levothyroxine had her dose escalated from 125 mcg to 175 mcg daily during early pregnancy. At 17 weeks gestation, TSH returns 1.21 mIU/L.\n\n**Clinical interpretation:** TSH 1.21 is optimal — squarely within second-trimester target (0.2–3.0 mIU/L). Maintain 175 mcg daily. Recheck TSH in 4 weeks (~week 21).\n\n**Trainee question:** Should we also track FT4 and FT3? **Answer:** With stable euthyroid TSH, routine FT4 is unnecessary and assay artifacts in pregnancy can mislead. FT3 has zero role in levothyroxine monotherapy monitoring — fetal neurodevelopment depends on maternal T4 transfer, not FT3 titration.",
   "keyFindings": [
@@ -187,6 +191,61 @@
       "correctOption": 0,
       "explanation": "Both true; R correctly explains A. No dose change when TSH optimally controlled.",
       "reference": "Clinical Interpretation & Management: \"A TSH of 1.21 mIU/L at 17 weeks gestation is optimal\" and \"Maintain the current 175 mcg daily dose.\""
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is a TSH level of 1.21 mIU/L at 17 weeks considered optimal in pregnancy?",
+      "options": [
+        "A. The TSH is within the second-trimester target range (0.2–3.0 mIU/L), confirming adequate levothyroxine replacement.",
+        "B. The TSH level indicates overtreatment requiring dose reduction.",
+        "C. The value falls below the first-trimester target range (0.1–2.5 mIU/L), necessitating dose escalation.",
+        "D. A TSH of 1.21 mIU/L is pathognomonic for gestational hypothyroidism."
+      ],
+      "correctOption": 0,
+      "explanation": "Second-trimester TSH target is 0.2–3.0 mIU/L. A value of 1.21 mIU/L is within this range, indicating euthyroidism and appropriate levothyroxine dosing for increased metabolic demands in mid-pregnancy.",
+      "id": "cr-006-why1-obj-873e45",
+      "subtopic": "Clinical Interpretation & Management",
+      "_generatedFrom": "cr-006-why1"
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "FT4 should not be routinely tracked when TSH is stable and optimized in pregnancy.",
+      "reason": "Because standard immunoassays are unreliable in pregnancy due to increased TBG and dilutional changes, leading to falsely low FT4 readings.",
+      "correctOption": 0,
+      "explanation": "TBG elevation and assay limitations cause systematic underestimation of FT4, making it clinically irrelevant when TSH is appropriately controlled.",
+      "id": "cr-006-why2-obj-72a7c9",
+      "subtopic": "Clinical Interpretation & Management",
+      "_generatedFrom": "cr-006-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is FT3 testing not recommended for monitoring levothyroxine monotherapy in pregnant patients with hypothyroidism?",
+      "options": [
+        "A) Maternal FT3 levels do not correlate with fetal neurodevelopment, and FT3-guided titration increases risk of maternal over-replacement",
+        "B) FT3 is more sensitive than TSH for detecting thyroid dysfunction in pregnancy",
+        "C) Fetal brain development depends on maternal FT3 levels rather than T4",
+        "D) FT3 testing is contraindicated in pregnancy due to risk of fetal thyrotoxicosis"
+      ],
+      "correctOption": 0,
+      "explanation": "Maternal FT3 does not correlate with fetal neurodevelopment (which depends on maternal T4 transfer), and FT3-guided dosing increases risk of maternal over-replacement, which harms pregnancy outcomes.",
+      "id": "cr-006-why3-obj-ca4733",
+      "subtopic": "Utility of FT4 and FT3 Testing",
+      "_generatedFrom": "cr-006-why3"
+    },
+    {
+      "type": "mcq",
+      "stem": "A 17-week pregnant patient with a TSH of 1.21 mIU/L is on levothyroxine. Which management approach is most appropriate?",
+      "options": [
+        "A) Maintain current 175 mcg daily dose; recheck TSH in 4 weeks; avoid FT4/FT3 testing unless indicated",
+        "B) Increase levothyroxine dose to 200 mcg daily based on TSH level",
+        "C) Decrease levothyroxine dose to 150 mcg daily and monitor FT4 weekly",
+        "D) Discontinue levothyroxine and monitor TSH every 6 weeks"
+      ],
+      "correctOption": 0,
+      "explanation": "TSH should be monitored every 4 weeks in the second trimester with dose adjustments based solely on TSH levels (not FT4/FT3) when outside trimester-specific targets. The TSH of 1.21 mIU/L is within the second-trimester target range (<2.5 mIU/L), so no dose change is needed.",
+      "id": "cr-006-how1-obj-c372b7",
+      "subtopic": "Clinical Interpretation & Management",
+      "_generatedFrom": "cr-006-how1"
     }
   ]
 }

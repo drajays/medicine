@@ -233,7 +233,12 @@
       "type": "mcq",
       "subtopic": "Imaging",
       "stem": "In a girl with biochemically confirmed central precocious puberty, at what age is brain MRI an absolute indication?",
-      "options": ["Under 6 years", "Any age above 10", "Only after menarche", "It is never indicated"],
+      "options": [
+        "Under 6 years",
+        "Any age above 10",
+        "Only after menarche",
+        "It is never indicated"
+      ],
       "correctOption": 0,
       "explanation": "Under 6 years, brain MRI is an absolute indication in confirmed CPP because of the high risk of CNS pathology (hamartomas, astrocytomas). From 6–8 years it is debated but strongly recommended in aggressive presentations; over 8 years it is usually reserved for those with neurological symptoms."
     },
@@ -335,6 +340,81 @@
       "reason": "At a fused or fusing epiphyseal stage, GnRH-analog therapy yields no net gain in final adult height.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason correctly explains the assertion. Since GnRH analogs improve height only while growth plates remain open, an advanced bone age with menarche means there is no height to salvage — so the therapy is not justified for that purpose, even though the cause must still be diagnosed."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why must chronological age and height velocity be established before interpreting laboratory results in a girl with B5 and menarche?",
+      "options": [
+        "A) To determine the reference for bone age and adult height prediction and assess the tempo of puberty progression",
+        "B) To diagnose the underlying cause of precocious puberty",
+        "C) To measure the levels of LH and estradiol accurately",
+        "D) To predict the timing of future menarche"
+      ],
+      "correctOption": 0,
+      "explanation": "Chronological age provides the reference for interpreting bone age and predicting adult height, while height velocity indicates the tempo of puberty progression, both critical for grading severity and treatment decisions.",
+      "id": "cr-012-why1-obj-885f6b",
+      "subtopic": "Clinical Reasoning",
+      "_generatedFrom": "cr-012-why1"
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the gold standard criterion for confirming central activation of the hypothalamic–pituitary–gonadal axis in the GnRH stimulation test for central precocious puberty?",
+      "options": [
+        "A. Basal LH level >0.3 IU/L",
+        "B. Stimulated peak LH >5 IU/L",
+        "C. Stimulated FSH predominance over LH",
+        "D. Basal FSH level >10 IU/L"
+      ],
+      "correctOption": 1,
+      "explanation": "A stimulated peak LH >5 IU/L confirms central axis activation, as it indicates hypothalamic stimulation. Basal LH may be prepubertal in early CPP. FSH predominance suggests peripheral causes, and basal FSH is not a diagnostic criterion.",
+      "id": "cr-012-how1-obj-cefc72",
+      "subtopic": "Diagnostics",
+      "_generatedFrom": "cr-012-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is a brain MRI not indicated in a patient with peripheral precocious puberty and suppressed LH/FSH levels?",
+      "options": [
+        "A) To rule out central nervous system tumors",
+        "B) To evaluate for hypothalamic dysfunction",
+        "C) Because the pathology is gonadal or adrenal, not central",
+        "D) To assess for pituitary gland abnormalities"
+      ],
+      "correctOption": 2,
+      "explanation": "Peripheral precocious puberty is caused by gonadal or adrenal sex-steroid production (e.g., ovarian cysts, adrenal tumors) with suppressed LH/FSH, not central axis activation. Brain MRI is unnecessary as the lesion is not in the CNS; imaging should focus on abdomen/pelvis.",
+      "id": "cr-012-why2-obj-1cf88d",
+      "subtopic": "Imaging",
+      "_generatedFrom": "cr-012-why2"
+    },
+    {
+      "type": "mcq",
+      "stem": "At what bone age threshold is GnRH-analog therapy most likely to salvage final height in a prepubertal child?",
+      "options": [
+        "A) Bone age >12.5 years with menarche",
+        "B) Bone age matching chronological age",
+        "C) Bone age <12 years with open growth plates",
+        "D) Bone age >14 years with advanced skeletal maturity"
+      ],
+      "correctOption": 2,
+      "explanation": "GnRH analogs add height only while growth plates remain open. Bone age <12 years indicates significant remaining growth potential, whereas bone age ≥12.5 years with menarche signifies epiphyseal fusion or imminent fusion, making therapy ineffective for height salvage.",
+      "id": "cr-012-how2-obj-0ef1c1",
+      "subtopic": "Management",
+      "_generatedFrom": "cr-012-how2"
+    },
+    {
+      "type": "mcq",
+      "stem": "Which tests are most appropriate to exclude an androgen-secreting tumor in this estrogen-dominant girl with mild androgenic features, and under what circumstances should a full steroid profile be ordered?",
+      "options": [
+        "A) 17-OHP and cortisol; escalate if clitoromegaly is present",
+        "B) DHEAS and free testosterone; escalate if hirsutism worsens over months",
+        "C) DHEAS and total testosterone; escalate if 17-OHP is borderline or virilization is rapid",
+        "D) 17-OHP and testosterone; escalate only if CAH is suspected"
+      ],
+      "correctOption": 2,
+      "explanation": "DHEAS and total testosterone are sufficient for initial screening of adrenal/ovarian androgen-secreting tumors. Escalation to LC-MS/MS steroid profiling is indicated only when 17-OHP is borderline (suggesting CAH variants) or there is rapid virilization (e.g., clitoromegaly), which are not present here. Options A and D use inappropriate initial tests, while B incorrectly delays escalation.",
+      "id": "cr-012-sa1-obj-61aeaf",
+      "subtopic": "Diagnostics",
+      "_generatedFrom": "cr-012-sa1"
     }
   ]
 }

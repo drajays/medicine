@@ -158,7 +158,12 @@
       "type": "mcq",
       "subtopic": "Drug Selection",
       "stem": "Which agent is a uroselective α1A-blocker that relieves LUTS with minimal effect on blood pressure?",
-      "options": ["Prazosin", "Doxazosin", "Silodosin", "Phenoxybenzamine"],
+      "options": [
+        "Prazosin",
+        "Doxazosin",
+        "Silodosin",
+        "Phenoxybenzamine"
+      ],
       "correctOption": 2,
       "explanation": "Silodosin is highly α1A-selective (prostate stroma and bladder neck) with minimal vascular α1B affinity, giving hemodynamic neutrality. Prazosin and doxazosin are non-selective with greater orthostatic risk, and phenoxybenzamine is a non-selective irreversible α-blocker used for pheochromocytoma."
     },
@@ -209,7 +214,12 @@
       "type": "mcq",
       "subtopic": "Execution Pearl",
       "stem": "To minimise twilight dizziness, when should the uroselective α-blocker (silodosin) be taken?",
-      "options": ["First thing in the morning fasting", "At bedtime", "With each meal three times daily", "Only on alternate days"],
+      "options": [
+        "First thing in the morning fasting",
+        "At bedtime",
+        "With each meal three times daily",
+        "Only on alternate days"
+      ],
       "correctOption": 1,
       "explanation": "Dosing the uroselective α-blocker at bedtime helps blunt any minor orthostatic or twilight dizziness, improving tolerability while the foundational antihypertensive controls the systolic pressure."
     },
@@ -269,6 +279,36 @@
       "reason": "Its α1A selectivity relieves LUTS while sparing vascular α1B receptors, avoiding the precipitous orthostatic blood-pressure drops prazosin would cause.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason correctly explains the assertion. Because the obstructive tone is α1A-mediated and silodosin spares vascular α1B, it treats the LUTS without the systemic hypotension that makes non-selective prazosin hazardous here."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary reason silodosin is hemodynamically safer than prazosin in treating lower urinary tract symptoms (LUTS)?",
+      "options": [
+        "A) Silodosin selectively targets α1A-adrenoceptors in the prostate/bladder neck, sparing vascular α1B-receptors that regulate blood pressure.",
+        "B) Silodosin blocks α1D-adrenoceptors, which are less involved in vascular tone than α1B.",
+        "C) Prazosin's α1A-selectivity prevents excessive bladder-neck relaxation, avoiding hypotension.",
+        "D) Prazosin's non-selective blockade of α1A and α1D receptors reduces systemic vascular resistance without affecting bladder function."
+      ],
+      "correctOption": 0,
+      "explanation": "Silodosin's α1A-selectivity relaxes prostate/bladder-neck smooth muscle without significantly affecting vascular α1B-receptors, preventing hypotension. Prazosin's non-selective α1-blockade (including α1B) causes vasodilation and orthostatic hypotension.",
+      "id": "cr-014-how1-obj-126b02",
+      "subtopic": "Pharmacology",
+      "_generatedFrom": "cr-014-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "For a 67-year-old man with LUTS, BP 170/80, eGFR 55, and a 40 cc prostate, which regimen is optimal and what is a key monitoring step?",
+      "options": [
+        "A) Silodosin (bedtime) + amlodipine; monitor potassium/creatinine",
+        "B) Tamsulosin (morning) + lisinopril; monitor PSA",
+        "C) Prazosin + hydrochlorothiazide; monitor orthostatic BP",
+        "D) Dutasteride + telmisartan; monitor prostate size"
+      ],
+      "correctOption": 0,
+      "explanation": "Uroselective α1A-blockers (silodosin/tamsulosin) are first-line for LUTS; bedtime dosing minimizes dizziness. For CKD 3a, ARB (telmisartan) or CCB (amlodipine) are preferred for hypertension. Prazosin is contraindicated as a dual agent. Monitoring potassium/creatinine is critical with ARB/ACE inhibitor initiation.",
+      "id": "cr-014-sa1-obj-875404",
+      "subtopic": "Apply It",
+      "_generatedFrom": "cr-014-sa1"
     }
   ]
 }
