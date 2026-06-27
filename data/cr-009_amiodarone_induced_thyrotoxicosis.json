@@ -8,7 +8,10 @@
   "authors": "Clinical case vignette — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "cr-031", "title": "Iatrogenic Hypothyroidism in Graves Disease" }
+    {
+      "id": "cr-031",
+      "title": "Iatrogenic Hypothyroidism in Graves Disease"
+    }
   ],
   "patient": {
     "age": 75,
@@ -648,6 +651,38 @@
       "subtopic": "AIT Pathophysiology",
       "_generatedFrom": "cr-009-sa6",
       "distillation_trace": "Okay, let's tackle this query. The user wants to convert the given Q&A into an objective exam question in JSON format. The question is about Type 2 amiodarone-induced thyrotoxicosis (AIT). \n\nFirst, I need to determine the best question type. The answer provided describes the mechanism of Type 2 AIT as a destructive thyroiditis due to amiodarone's cytotoxic effect. This seems like a specific fact, so an MCQ would be appropriate. \n\nNext, I'll formulate the stem. The original question asks \"What is Type 2 AIT?\" so the stem should be a question that asks for the definition or description. The correct option is given in the answer. Now, I need to create three plausible distractors. \n\nPossible distractors could be other thyroid conditions or mechanisms. For example, Type 1 AIT is an autoimmune condition, so that's a good distractor. Another could be a thyroid storm, which is a severe complication but not the definition. Another might be a goiter caused by iodine deficiency, which is unrelated. \n\nI need to ensure the options are plausible but clearly wrong. Then, assign the correct option as 0. The explanation should briefly state that Type 2 AIT is a destructive thyroiditis from amiodarone's direct effect. \n\nCheck if all options are distinct and accurate. Make sure the JSON structure is correct with proper commas and brackets. No markdown, just JSON. That should cover it."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why should atenolol be avoided or used with caution compared to bisoprolol?",
+      "options": [
+        "A. Atenolol is hydrophilic with a shorter effective half-life, often requiring twice-daily dosing, and it relies heavily on renal clearance — a concern in an elderly patient.",
+        "B. Atenolol has greater β1-selectivity than bisoprolol, making it more suitable for patients with asthma.",
+        "C. Atenolol is metabolized primarily by the liver, increasing the risk of drug interactions.",
+        "D. Atenolol has a longer duration of action, necessitating once-daily dosing but causing greater risk of bradycardia."
+      ],
+      "correctOption": 0,
+      "explanation": "Atenolol's hydrophilicity, shorter half-life, and renal dependence (vs. bisoprolol's lipophilicity, longer half-life, and hepatic metabolism) make it less favorable in renal impairment or elderly patients.",
+      "id": "cr-009-why3-obj-9f9ef2",
+      "subtopic": "Beta-Blockade",
+      "_generatedFrom": "cr-009-why3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why atenolol should be avoided or used cautiously compared to bisoprolol. The answer mentions atenolol's hydrophilic nature, shorter half-life, twice-daily dosing, and reliance on renal clearance, especially in the elderly.\n\nFirst, I need to determine the best question type. The answer provides specific pharmacokinetic differences, which are factual. An MCQ seems appropriate here because it's comparing two drugs and their properties. True/false might not capture the nuances, and assertion-reason could work, but MCQ allows for multiple plausible distractors.\n\nNext, the stem should ask why atenolol is avoided compared to bisoprolol. The options need to be plausible but incorrect except for the correct one. The correct answer is about hydrophilic, half-life, dosing frequency, and renal clearance. Distractors could include things like lipophilicity, longer half-life, or hepatic metabolism, which are characteristics of bisoprolol or other beta-blockers.\n\nI need to ensure the explanation in the JSON is brief and accurate, highlighting the key points from the answer. Also, check that the correct option is clearly the best choice and that distractors are clearly wrong but plausible. For example, mentioning that bisoprolol is more lipophilic and has a longer half-life could be a distractor. Another might be that atenolol is more effective in certain conditions, which isn't relevant here.\n\nFinally, structure the JSON correctly with the stem, options, correct option index, and explanation. Make sure there are exactly four options, and the explanation succinctly covers the key pharmacokinetic differences mentioned in the original answer."
+    },
+    {
+      "type": "mcq",
+      "stem": "What specific risks does propranolol pose for a 75-year-old patient?",
+      "options": [
+        "A. Being highly lipophilic, it readily crosses the blood–brain barrier, raising the risk of CNS effects such as confusion, lethargy, and sleep disturbance. Its β2 blockade can also trigger bronchospasm or mask recovery from hypoglycaemia.",
+        "B. It causes peripheral vasoconstriction and edema due to α1-adrenergic blockade, increasing the risk of heart failure in elderly patients.",
+        "C. It may precipitate heart block in patients with preexisting conduction system disease due to its nonselective β-blockade.",
+        "D. It increases the risk of arrhythmias by prolonging the QT interval, particularly in patients with electrolyte imbalances."
+      ],
+      "correctOption": 0,
+      "explanation": "Propranolol's lipophilicity allows it to cross the blood–brain barrier, increasing CNS side effects in elderly patients. Its β2 blockade can exacerbate bronchospasm and mask hypoglycemia symptoms, which are critical considerations in older adults.",
+      "id": "cr-009-sa3-obj-b24e93",
+      "subtopic": "Beta-Blockade",
+      "_generatedFrom": "cr-009-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about the specific risks of propranolol in a 75-year-old patient. The answer mentions two main points: lipophilicity leading to CNS effects and β2 blockade causing bronchospasm and masking hypoglycemia.\n\nFirst, I need to determine the best question type. The answer has two distinct points, so an MCQ might work here. The options should include the correct answer and plausible distractors. The correct answer combines both CNS effects and β2 blockade issues. Distractors could be other side effects not mentioned, like peripheral vasoconstriction or gastrointestinal issues, which are common with beta-blockers but not specific to propranolol's risks in the elderly.\n\nWait, the original answer also mentions bronchospasm and hypoglycemia masking. So the correct option should include both CNS effects and β2 blockade. The distractors need to be incorrect but plausible. Maybe options about other beta-blocker side effects or age-related issues not directly related to propranolol's mechanism.\n\nI should structure the MCQ stem to ask about the specific risks, then list the options. The correct option is A, as per the original answer. The explanation should note that propranolol's lipophilicity and β2 blockade are the key points. Need to make sure the other options are wrong but make sense. For example, option B might mention peripheral edema, which is more common with calcium channel blockers. Option C could talk about heart block, which is a risk but not specific to propranolol's characteristics in the elderly. Option D might mention arrhythmias, which are a general concern but not the specific risks highlighted here.\n\nDouble-checking clinical accuracy: Propranolol is indeed lipophilic, crosses the BBB, and can cause CNS effects. β2 blockade can lead to bronchospasm and mask hypoglycemia. So the correct answer is A. The distractors should be other side effects that aren't directly related to the question's focus. That should cover it."
     }
   ]
 }

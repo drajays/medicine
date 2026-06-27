@@ -8,8 +8,14 @@
   "authors": "Resident/fellowship training module — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "cr-023", "title": "Complex Diabetes Management in Advanced CKD" },
-    { "id": "cr-032", "title": "Type 3c Diabetes with ABPA and Chronic Pancreatitis" }
+    {
+      "id": "cr-023",
+      "title": "Complex Diabetes Management in Advanced CKD"
+    },
+    {
+      "id": "cr-032",
+      "title": "Type 3c Diabetes with ABPA and Chronic Pancreatitis"
+    }
   ],
   "patient": {
     "age": 18,
@@ -20,7 +26,9 @@
       "No DKA, no documented ketones at any point",
       "Strong family history: father DM at 32, mother DM at 32, grandmother DM at 70"
     ],
-    "medications": ["Rapid-acting insulin 4-4-4 units with meals (≈12 units/day)"]
+    "medications": [
+      "Rapid-acting insulin 4-4-4 units with meals (≈12 units/day)"
+    ]
   },
   "caseDescription": "An 18-year-old, diagnosed with diabetes at 17 after weight loss, is on a low-dose bolus insulin regimen (4-4-4 units). Islet autoantibodies are negative (GAD-65 negative, IAA negative), fasting C-peptide is 1.1 ng/mL with a fasting insulin of 1.21 mIU/L, there has never been DKA or documented ketosis, and pancreatic ultrasound is normal. Family history is striking: both parents developed diabetes at 32 and a grandmother at 70 — a vertical, autosomal-dominant-looking pattern. The resident asks why type 1 diabetes is unlikely, what the differential is (MODY heading the list), whether insulin can be stopped, and how to follow the patient up.",
   "keyFindings": [
@@ -358,6 +366,54 @@
       "subtopic": "Follow-up & family",
       "question": "Outline the family and long-term follow-up implications once a MODY mutation is confirmed.",
       "answer": "MODY is autosomal dominant, so first-degree relatives (siblings, children) have a 50% chance of carrying the variant and should be offered genetic testing and counselling; confirming the variant in an affected parent also clarifies the pedigree. Long-term, progressive subtypes (HNF1A/HNF4A) carry microvascular complication risk, so continue annual HbA1c and screening of eyes, kidneys, feet, blood pressure and lipids. Pregnancy needs planning — sulfonylureas are generally switched to insulin around conception/pregnancy, and in GCK-MODY management depends on the fetal mutation status. Correct the diagnosis in the records so future clinicians do not reflexively re-escalate insulin."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the first step in safely transitioning a patient off insulin in this scenario?",
+      "options": [
+        "A) Initiate a very low-dose sulfonylurea immediately",
+        "B) Perform a stimulated C-peptide test to confirm beta-cell reserve",
+        "C) Obtain MODY genetic testing without prior C-peptide assessment",
+        "D) Discontinue insulin and manage with diet alone"
+      ],
+      "correctOption": 1,
+      "explanation": "Confirming beta-cell reserve with a stimulated C-peptide (>~0.6 ng/mL) is critical before insulin withdrawal to avoid unmasking type 1 diabetes. Genetic testing and sulfonylurea initiation depend on confirmed reserve and specific MODY subtypes. Diet alone is insufficient without confirming reserve.",
+      "id": "cr-035-how1-obj-8d5b07",
+      "subtopic": "Stopping insulin",
+      "_generatedFrom": "cr-035-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a medical question based on the provided Q&A, formatted as JSON. The original question is about safely transitioning a patient off insulin, with specific steps involving C-peptide testing, MODY subtypes, and sulfonylurea use.\n\nFirst, I need to determine the best question type. The answer involves multiple steps and specific conditions, so an MCQ seems appropriate. The key points are confirming beta-cell reserve, genetic testing, and differentiating between MODY subtypes. The options should include these elements as correct and plausible distractors.\n\nFor the stem, I'll ask about the first step in safely transitioning a patient off insulin. The correct answer is confirming beta-cell reserve with a stimulated C-peptide. Distractors could include checking HbA1c, genetic testing alone, or starting sulfonylurea immediately. These are all related but not the first step.\n\nI need to ensure the explanation in the JSON clearly states why the correct option is right and why others are wrong. Also, the correct option should be the first step, which is the C-peptide test. The other options might be steps that come later or are not the initial action.\n\nI should check that all options are plausible but clearly incorrect except the correct one. For example, HbA1c is a measure of control, not reserve. Genetic testing is important but comes after confirming reserve. Starting sulfonylurea without confirming reserve would be unsafe.\n\nFinally, structure the JSON with the correct option as 0 and the explanation. Make sure there are no markdown elements and it's valid JSON."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which statement best contrasts the treatment of GCK-MODY (MODY 2) versus HNF1A-MODY (MODY 3) and explains why the distinction matters?",
+      "options": [
+        "A) GCK-MODY requires sulfonylureas for hyperglycaemia control, while HNF1A-MODY is managed with insulin; distinction matters for drug choice.",
+        "B) GCK-MODY typically requires no pharmacotherapy (except during pregnancy), while HNF1A-MODY responds exquisitely to low-dose sulfonylureas; distinction matters for treatment approach and complication screening.",
+        "C) Both require insulin therapy, but GCK-MODY may discontinue it, while HNF1A-MODY needs lifelong insulin; distinction matters for metabolic stability.",
+        "D) GCK-MODY is treated with metformin, while HNF1A-MODY requires sulfonylureas; distinction matters for drug efficacy."
+      ],
+      "correctOption": 1,
+      "explanation": "GCK-MODY causes mild, stable hyperglycaemia without complications and requires no drugs (except during pregnancy), whereas HNF1A-MODY is progressive and responds to sulfonylureas. The distinction guides treatment (no drugs vs. sulfonylureas) and determines the need for complication screening.",
+      "id": "cr-035-sa2-obj-32c343",
+      "subtopic": "MODY subtypes",
+      "_generatedFrom": "cr-035-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the contrast between GCK (MODY 2) and HNF1A (MODY 3) treatments and why it matters. The answer provided explains that GCK-MODY doesn't need treatment except during pregnancy, while HNF1A responds well to sulfonylureas. The distinction affects treatment and screening.\n\nFirst, I need to determine the question type. The answer has specific facts about treatment differences, so MCQ seems best. The options should include the key points from the answer and plausible distractors.\n\nThe stem should ask about the treatment differences and the importance of the distinction. The correct option should mention no pharmacotherapy for GCK and sulfonylureas for HNF1A. Distractors might mix up the treatments or mention incorrect complications.\n\nI need to ensure the explanation in the JSON is concise, highlighting that GCK doesn't require drugs except in pregnancy, while HNF1A benefits from sulfonylureas. Also, the distinction affects treatment and screening. Checking for clinical accuracy, MODY 2 is indeed managed without drugs, and MODY 3 with sulfonylureas. The explanation should note that complications are less in GCK but present in HNF1A, which is why screening differs."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following best outlines the family and long-term follow-up implications after confirming a MODY mutation?",
+      "options": [
+        "A) First-degree relatives should undergo genetic testing and counseling due to 50% inheritance risk; progressive subtypes require annual HbA1c, microvascular screening, and insulin use during pregnancy; GCK-MODY management depends on fetal mutation status, with diagnosis correction in medical records.",
+        "B) Genetic testing is unnecessary for relatives; all MODY subtypes require identical annual screening; sulfonylureas are preferred during pregnancy.",
+        "C) MODY is autosomal recessive with 25% inheritance risk; no long-term screening is needed for subtypes; GCK-MODY requires no special pregnancy management.",
+        "D) Only second-degree relatives require counseling; HNF1A/HNF4A subtypes do not carry microvascular risks; sulfonylureas are continued during pregnancy."
+      ],
+      "correctOption": 0,
+      "explanation": "MODY is autosomal dominant with 50% inheritance risk in first-degree relatives. Progressive subtypes (HNF1A/HNF4A) require microvascular screening, insulin during pregnancy, and GCK-MODY management based on fetal mutation status. Correcting the diagnosis prevents inappropriate insulin escalation.",
+      "id": "cr-035-sa3-obj-90fbe0",
+      "subtopic": "Follow-up & family",
+      "_generatedFrom": "cr-035-sa3",
+      "distillation_trace": "Okay, I need to convert the given Q&A into an objective exam question. The user provided a detailed answer about MODY's family implications and long-term follow-up. Let me start by understanding the key points.\n\nFirst, MODY is autosomal dominant, so first-degree relatives have a 50% chance. Genetic testing and counseling are recommended. Then, for long-term follow-up, certain subtypes like HNF1A/HNF4A require annual screenings for microvascular complications. Pregnancy management involves switching to insulin and considering fetal mutation status in GCK-MODY. Also, correcting the diagnosis in medical records is important.\n\nThe question needs to be in JSON format. The type should be MCQ because it's asking for specific actions and implications. The stem should ask about the implications of confirming a MODY mutation. The options need to be plausible but only one correct. Let me break down the answer into key points and create options that include these elements.\n\nOption A should include genetic counseling for relatives, annual screenings for specific subtypes, insulin during pregnancy, and correcting the diagnosis. The other options might miss some elements, like not mentioning genetic counseling, or incorrect management during pregnancy. I need to ensure distractors are plausible but wrong. For example, option B might say sulfonylureas are continued during pregnancy, which is incorrect. Option C might not mention the 50% risk. Option D could have incorrect screening recommendations.\n\nI need to check clinical accuracy. MODY is indeed autosomal dominant. First-degree relatives have 50% risk. HNF1A/HNF4A subtypes are associated with microvascular complications. Sulfonylureas are avoided in pregnancy, so insulin is used. GCK-MODY management depends on fetal mutation. Correcting the diagnosis is crucial to prevent inappropriate insulin use.\n\nNow, structure the JSON with the correct option as A and the others as distractors. The explanation should mention the key points covered in the correct option."
     }
   ]
 }

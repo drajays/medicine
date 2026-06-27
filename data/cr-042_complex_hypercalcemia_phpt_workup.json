@@ -407,6 +407,70 @@
       "reason": "Familial hypocalciuric hypercalcemia mimics PHPT biochemically but is not cured by surgery and is distinguished by a low calcium/creatinine clearance ratio.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason correctly explains the assertion. FHH exclusion prevents unnecessary and harmful parathyroid surgery — the critical miss in both residents' plans."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary reason myeloma screening is not the first step when intact PTH is 441 pg/mL?",
+      "options": [
+        "A) Myeloma typically causes elevated PTH levels",
+        "B) PTH 441 indicates PTH-dependent hypercalcemia, pointing to parathyroid disease rather than myeloma",
+        "C) Myeloma screening is always unnecessary in hypercalcemia",
+        "D) Elevated 1,25-D levels are more indicative of myeloma than PTH"
+      ],
+      "correctOption": 1,
+      "explanation": "PTH 441 pg/mL indicates PTH-dependent hypercalcemia, which is caused by parathyroid gland dysfunction (e.g., hyperparathyroidism), not myeloma. Myeloma and PTHrP-mediated malignancies cause PTH-independent hypercalcemia with suppressed PTH levels. Initial evaluation should focus on parathyroid disease rather than myeloma in this context.",
+      "id": "cr-042-why1-obj-c95e44",
+      "subtopic": "Framework",
+      "_generatedFrom": "cr-042-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why myeloma screening is not the first step when intact PTH is 441 pg/mL.\n\nFirst, I need to determine the best question type. The answer explains the difference between PTH-dependent and PTH-independent hypercalcemia. Since it's about a cause-effect relationship (elevated PTH indicating parathyroid disease rather than myeloma), assertion_reason might be suitable. But looking at the answer, it's more about a specific fact—PTH levels guiding the initial workup. Maybe MCQ is better here because it's a specific fact with options.\n\nWait, the answer mentions that myeloma causes PTH-independent hypercalcemia with suppressed PTH. So the key point is that high PTH points to parathyroid issues, not myeloma. The question is why myeloma screening is wrong first step. So the correct answer would be that PTH is elevated, indicating parathyroid disease, not myeloma. The options need to reflect this.\n\nFor an MCQ, the stem could be: \"What is the primary reason myeloma screening is not the first step when intact PTH is 441 pg/mL?\" The options would include the correct answer about PTH-dependent hypercalcemia and distractors like PTHrP, vitamin D toxicity, etc.\n\nI need to make sure the distractors are plausible but wrong. For example, PTHrP-mediated malignancy causes suppressed PTH, so that's a distractor. Vitamin D toxicity might be another option. The correct answer is that PTH is elevated, so parathyroid disease is the cause, not myeloma.\n\nSo the MCQ would have the stem asking for the reason, options including the correct one and plausible wrong ones. The explanation would mention that elevated PTH indicates parathyroid disease, not myeloma, which causes suppressed PTH."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the most appropriate initial step to exclude familial hypocalciuric hypercalcemia (FHH) before referring a patient for parathyroid surgery?",
+      "options": [
+        "A: Measure 24-hour urinary calcium and calculate the calcium/creatinine clearance ratio (Urine Ca × Plasma Cr)/(Plasma Ca × Urine Cr). Ratio <0.01 suggests FHH.",
+        "B: Perform serum parathyroid hormone (PTH) level measurement alone, as FHH typically shows inappropriately normal PTH.",
+        "C: Obtain a parathyroid ultrasound to assess for adenoma size.",
+        "D: Measure 24-hour urinary calcium alone, as levels are always elevated in PHPT but normal in FHH."
+      ],
+      "correctOption": 0,
+      "explanation": "The calcium/creatinine clearance ratio discriminates FHH (low ratio) from PHPT (higher ratio), as both conditions have similar serum calcium and PTH levels. Serum PTH alone is insufficient, imaging is not diagnostic, and urinary calcium alone is not discriminative.",
+      "id": "cr-042-how1-obj-829136",
+      "subtopic": "FHH",
+      "_generatedFrom": "cr-042-how1",
+      "distillation_trace": "Okay, let's tackle this question. The user wants an objective exam question based on the provided Q&A about excluding familial hypocalciuric hypercalcemia (FHH) before parathyroid surgery.\n\nFirst, I need to determine the best question type. The original answer discusses a specific test (urinary calcium and creatinine clearance ratio) and its cutoff values. This seems like a multiple-choice question (MCQ) because it's asking for a specific diagnostic step with clear options.\n\nNext, the stem should be a question that asks about the method to exclude FHH. The options need to include the correct method and plausible distractors. The correct answer is measuring 24-hour urinary calcium and the calcium/creatinine clearance ratio. Distractors could include other tests like serum PTH, imaging studies, or other urine tests that aren't specific for FHH.\n\nI need to ensure the options are plausible but clearly wrong. For example, serum calcium alone isn't sufficient because both FHH and PHPT have similar serum levels. Imaging like ultrasound or CT might be used but aren't the primary test for exclusion. Another distractor could be measuring urine creatinine alone without the ratio.\n\nThe explanation should mention that the ratio helps differentiate FHH from PHPT, as FHH has a low ratio and PHPT a higher one. Also, note that the residents' plans missed this step, emphasizing its importance.\n\nNow, structuring the JSON. The stem is the question about excluding FHH. The options include the correct method and other tests. The correct option is the first one. The explanation briefly states the rationale.\n\nI need to check that all distractors are incorrect but realistic. Also, ensure the explanation is concise and accurate, aligning with the original answer's points about the ratio and the necessity of this test before surgery."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which finding most strongly supports consideration of coexisting sarcoidosis in a patient with PTH-dependent hypercalcemia?",
+      "options": [
+        "A) 1,25-dihydroxyvitamin D level of 230 pg/mL",
+        "B) Mildly elevated ACE level of 55 U/L",
+        "C) PTH level consistent with primary hyperparathyroidism",
+        "D) Hypercalcemia responsive to hydration"
+      ],
+      "correctOption": 0,
+      "explanation": "Granulomatous macrophages in sarcoidosis produce autonomous 1α-hydroxylase, leading to 1,25-D levels exceeding 150 pg/mL, which is disproportionately high compared to PHPT alone (60-120 pg/mL). This biochemical distinction is critical for identifying a treatable cofactor.",
+      "id": "cr-042-why2-obj-08a239",
+      "subtopic": "1,25-Dihydroxyvitamin D",
+      "_generatedFrom": "cr-042-why2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why coexisting sarcoidosis should be considered despite PTH-dependent hypercalcemia. The answer explains that high 1,25-D levels, even when PTH is elevated, could be due to sarcoidosis because granulomas produce 1α-hydroxylase independently of PTH.\n\nFirst, I need to determine the best question type. The answer involves a specific fact with a clear explanation, so an MCQ might be suitable. The key point is the elevated 1,25-D levels in sarcoidosis compared to PHPT alone. The options should include the correct answer and plausible distractors.\n\nThe correct option is that 1,25-D levels are disproportionately high. Distractors could be other conditions or incorrect explanations. For example, maybe a distractor mentions low 1,25-D, or attributes the elevation to PTH alone. I need to ensure the options are clinically accurate and plausible but wrong.\n\nI should structure the MCQ with the stem asking why sarcoidosis should be considered, then list options. The correct option would be the one about 1,25-D levels being higher than typical for PHPT. The explanation should mention granulomatous macrophages and autonomous 1α-hydroxylase.\n\nI need to check that the JSON is valid, with the correct keys and structure. Also, ensure that the explanation is brief and accurate. Let me make sure the options are distinct and the correct answer is clearly the best choice."
+    },
+    {
+      "type": "mcq",
+      "stem": "When neck ultrasound is normal in a patient with suspected primary hyperparathyroidism (PHPT), which is the most appropriate next step in parathyroid localization?",
+      "options": [
+        "A) Proceed directly to bilateral neck exploration without further imaging",
+        "B) Perform a Tc-99m sestamibi (MIBI) scan followed by repeat ultrasound by an experienced operator if negative or discordant",
+        "C) Initiate medical management without localization studies",
+        "D) Use choline PET-CT as the first-line imaging modality"
+      ],
+      "correctOption": 1,
+      "explanation": "Normal ultrasound does not exclude PHPT; biochemical confirmation is essential. Tc-99m MIBI scan is the first-line imaging after normal ultrasound, with repeat ultrasound by an experienced operator if needed. Advanced imaging (e.g., 4D-CT, choline PET-CT) follows if MIBI is inconclusive, and localization guides surgical approach but does not replace biochemical confirmation.",
+      "id": "cr-042-how2-obj-34ff9b",
+      "subtopic": "Localization",
+      "_generatedFrom": "cr-042-how2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about parathyroid localization when neck ultrasound is normal.\n\nFirst, I need to determine the best question type. The answer provided is detailed, mentioning steps like Tc-99m sestamibi scan, repeat USG, 4D-CT, choline PET-CT, and the role of localization in surgery. Since there are multiple steps and options, an MCQ seems appropriate. True/false might not capture the nuances, and assertion-reason could be too vague here.\n\nNext, the stem. The question should ask about the approach when US is normal. The options need to be plausible but incorrect except for the correct one. The correct answer includes MIBI scan, repeat US, and advanced imaging if needed. Distractors might include incorrect imaging modalities or steps not mentioned, like immediate surgery without further imaging.\n\nI need to ensure the explanation in the JSON is brief but accurate, highlighting that normal US doesn't exclude PHPT and the role of MIBI scan. Also, the correct option should be the one that lists the proper sequence of tests. Checking for clinical accuracy: Tc-99m sestamibi is indeed the first step after normal US, followed by repeat US and then advanced imaging if needed. The explanation should note that biochemical confirmation is key and that localization guides surgery but doesn't replace it.\n\nNow, structuring the JSON with the correct options and explanations. Making sure the distractors are common mistakes, like skipping the MIBI scan or using incorrect imaging. Also, ensuring that the correct option includes all necessary steps without overcomplicating."
     }
   ]
 }

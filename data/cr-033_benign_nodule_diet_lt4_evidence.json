@@ -381,6 +381,70 @@
       "reason": "TSH suppression with LT4 does not meaningfully shrink benign nodules in iodine-replete euthyroid adults and exposes patients to risks of subclinical hyperthyroidism.",
       "correctOption": 0,
       "explanation": "Both statements are true and the reason correctly explains the assertion. ATA guidance recommends against suppressive therapy in this scenario because benefit is unproven and harm is real."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is advising a euthyroid patient with TSH 1.6 and negative TPO antibodies to avoid cauliflower and soy clinically inappropriate?",
+      "options": [
+        "A) Goitrogenic foods only impact thyroid function in iodine deficiency, excessive intake, or hypothyroidism; this patient has none of these factors",
+        "B) Cruciferous vegetables directly increase thyroid nodule risk regardless of iodine status",
+        "C) Soy contains thyroid hormone antagonists that require no cofactors to cause dysfunction",
+        "D) TSH 1.6 indicates subclinical hypothyroidism requiring dietary restriction"
+      ],
+      "correctOption": 0,
+      "explanation": "Goitrogens only clinically affect thyroid function in iodine deficiency, extreme intake, or hypothyroidism. This patient has normal TSH, negative TPO antibodies, and lives in an iodine-sufficient region, making dietary restriction unnecessary and potentially harmful.",
+      "id": "cr-033-why1-obj-cad34a",
+      "subtopic": "Diet",
+      "_generatedFrom": "cr-033-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A. The main point is why advising a euthyroid patient to avoid cauliflower and soy is unsound.\n\nFirst, I need to determine the question type. The answer explains that goitrogenic foods are only an issue under specific conditions like iodine deficiency, excessive intake, or existing hypothyroidism. The patient's TSH is normal, TPO antibodies are negative, and she's in an iodine-sufficient area. So the question should highlight these factors.\n\nMCQ seems appropriate here because it's about specific conditions and their implications. The options should include the correct reasoning and plausible distractors. The correct answer would mention the patient's normal TSH and iodine sufficiency. Distractors might include incorrect reasons like iodine deficiency or hypothyroidism.\n\nI need to ensure the options are plausible but wrong. For example, one might say goitrogens always affect thyroid function, which is incorrect. Another could mention TSH levels being elevated, which isn't the case here. The explanation should tie back to the key points given in the answer.\n\nAlso, checking the rules: only JSON output, no markdown, correct clinical accuracy. The correct option is A, and the explanation should note that the patient's normal TSH and iodine status make the advice unnecessary."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the recommended ultrasound surveillance strategy for a Bethesda II / TIRADS 2 thyroid nodule in a euthyroid patient?",
+      "options": [
+        "A) Immediate biopsy followed by annual ultrasound",
+        "B) Initial ultrasound at 6–12 months; extend to 12–24 months if stable, with no medication required",
+        "C) Monthly ultrasound for 6 months regardless of stability",
+        "D) Initiate levothyroxine suppression therapy and monitor every 3 months"
+      ],
+      "correctOption": 1,
+      "explanation": "ATA guidelines recommend initial follow-up ultrasound at 6–12 months for low-suspicion benign nodules (Bethesda II/TIRADS 2), with interval extension to 12–24 months if stable and asymptomatic. Medication is not indicated unless specific criteria (growth, new suspicious features, or indeterminate cytology) are met.",
+      "id": "cr-033-how1-obj-7600fb",
+      "subtopic": "Follow-up",
+      "_generatedFrom": "cr-033-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. The original question is about ultrasound surveillance for a Bethesda II/TIRADS 2 nodule. The answer details the follow-up schedule and when to escalate.\n\nFirst, I need to determine the best question type. The answer provides specific guidelines (6-12 months initially, extending if stable), which suggests an MCQ would be appropriate since it's about specific facts with clear options.\n\nNext, I'll structure the stem. The question should ask about the appropriate surveillance strategy. The options need to be plausible but only one correct. The correct answer is the initial 6-12 months follow-up, extending if stable. Distractors could include incorrect intervals, unnecessary medication, or escalation based on wrong criteria.\n\nI need to ensure the explanation in the JSON is brief and accurate, referencing ATA guidelines. Also, check that all distractors are clearly wrong but plausible. For example, one might suggest immediate biopsy, another might mention medication, which isn't needed here. Another could be a different follow-up interval. \n\nMake sure the JSON is valid, with correct syntax, no markdown, and only the required fields. Also, confirm that the correct option is correctly numbered (0 in this case). The explanation should mention the ATA guidance and the criteria for follow-up."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why should LT4 suppression not be offered to a euthyroid patient with a benign thyroid nodule?",
+      "options": [
+        "A) Because suppressive LT4 therapy does not cause clinically meaningful nodule regression in iodine-replete euthyroid adults and risks iatrogenic subclinical hyperthyroidism with atrial fibrillation, bone loss, and cardiovascular harm.",
+        "B) Because the nodule is likely malignant and requires surgical removal.",
+        "C) Due to the risk of inducing hypothyroidism and myxedema.",
+        "D) To prevent the development of thyroid storm in patients with multinodular goiter."
+      ],
+      "correctOption": 0,
+      "explanation": "ATA guidelines emphasize that suppressive LT4 therapy is ineffective for nodule shrinkage in euthyroid patients and carries significant risks of subclinical hyperthyroidism, including atrial fibrillation, bone loss, and cardiovascular complications.",
+      "id": "cr-033-why2-obj-bc7c1c",
+      "subtopic": "LT4",
+      "_generatedFrom": "cr-033-why2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why LT4 suppression isn't recommended for a euthyroid patient with a benign nodule.\n\nFirst, I need to determine the question type. The answer discusses the lack of effectiveness and the risks involved, which points to a cause-effect relationship. However, looking at the key points, the main issue is the recommendation against using LT4 due to futility and harm. That might lean towards a true/false or MCQ. But the original answer is a detailed explanation, so maybe an MCQ with options that include the correct reasoning and plausible distractors.\n\nWait, the user's example shows that for MCQs, the options should be plausible but wrong. The correct answer here is that suppressive LT4 isn't effective and causes harm. So the question stem should ask why LT4 suppression isn't offered. The options need to include the correct reason and other possible reasons that are incorrect.\n\nPossible distractors could be things like \"because the nodule is malignant\" (but the question states it's benign), or \"due to risk of hypothyroidism\" (but the issue here is hyperthyroidism). The correct answer is about no shrinkage and risks of subclinical hyperthyroidism.\n\nSo the MCQ stem would be: \"Why should LT4 suppression not be offered to a euthyroid patient with a benign thyroid nodule?\" The options would include the correct one about no shrinkage and risks, and others that are incorrect. The explanation should mention the ATA guidelines and the lack of benefit versus harm.\n\nI need to make sure the JSON structure is correct, with the type as mcq, the stem, options, correctOption index, and explanation. The options should be in order, with the correct one first (index 0). The explanation should briefly state the key points from the original answer."
+    },
+    {
+      "type": "mcq",
+      "stem": "How should the resident correct the dietary advice in the next clinic visit?",
+      "options": [
+        "A: Explicitly retract the goitrogen restriction, clarify no extra iodized salt is needed, reassure about low malignancy risk (Bethesda II/TIRADS 2), and document the corrected counseling.",
+        "B: Continue advising avoidance of goitrogens but add reassurance about thyroid function and document the counseling.",
+        "C: Retract the goitrogen restriction and emphasize a healthy diet but omit discussion of cancer risk or documentation.",
+        "D: Advise continued goitrogen restriction with modified iodine intake and no mention of cancer risk or documentation."
+      ],
+      "correctOption": 0,
+      "explanation": "Correct retraction of goitrogen advice aligns with normal TSH (1.6) and Bethesda II/TIRADS 2 classification (low cancer risk). Documentation prevents perpetuation of dietary myths.",
+      "id": "cr-033-how2-obj-a5f0ed",
+      "subtopic": "Counseling",
+      "_generatedFrom": "cr-033-how2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about correcting dietary advice for a patient with a thyroid condition. The answer provided includes retracting the goitrogen restriction, reassuring the patient about low cancer risk, and documenting the counseling.\n\nFirst, I need to determine the best question type. The answer involves multiple steps and specific actions, so an MCQ might be appropriate here. The key points are retracting the goitrogen advice, reassurance about cancer risk, and documentation. The distractors should be plausible but incorrect. For example, options might include continuing the goitrogen restriction, recommending extra iodine, not addressing the cancer risk, or not documenting the change.\n\nI need to ensure that the correct option includes all three key points. The other options should miss one or more elements. The explanation should mention the correction of dietary advice, reassurance based on TSH and Bethesda classification, and proper documentation.\n\nI also need to check for clinical accuracy. Goitrogens are generally not restricted unless there's a specific thyroid issue, and extra iodine isn't needed if TSH is normal. The Bethesda II/TIRADS 2 classification does indicate low cancer risk, so reassurance is appropriate. Documentation is important to prevent future errors.\n\nNow, structuring the JSON. The stem should ask how the resident should correct the dietary advice. The options need to be A to D, with the correct option (A) covering all three key points. The explanation should briefly state the reasons for retracting the advice, reassurance, and documentation.\n\nI need to make sure the distractors are plausible. For example, option B might mention continuing the goitrogen restriction but not the other points. Option C might include reassurance but not the documentation. Option D could mention documentation but not the other two. Each distractor should be clearly wrong but plausible to someone who might have partial knowledge.\n\nFinally, verifying that the JSON is correctly formatted with the right keys and values. The correctOption is 0, which corresponds to option A. The explanation is concise and accurate."
     }
   ]
 }

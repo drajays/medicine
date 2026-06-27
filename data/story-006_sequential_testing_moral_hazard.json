@@ -247,6 +247,22 @@
         "Limitation: assumes lab/IT infrastructure; some pathways still need staged visits.",
         "Assumptions: one payer, reflex-capable lab, and known pre-test probabilities."
       ]
+    },
+    {
+      "type": "mcq",
+      "stem": "Which strategy is most effective for reducing patient visits while maintaining stepwise testing in clinical practice?",
+      "options": [
+        "A) Avoiding tier-one tests to minimize initial visits",
+        "B) Scheduling all follow-up tests on separate days to ensure thorough evaluation",
+        "C) Batching tier-one investigations into a single visit and using reflex testing for confirmatory tests",
+        "D) Delaying test results until the next in-person visit to avoid remote communication"
+      ],
+      "correctOption": 2,
+      "explanation": "Batching tier-one tests reduces initial visits, reflex testing automates confirmatory steps on the same sample, and remote result delivery minimizes unnecessary in-person encounters as outlined in the answer.",
+      "id": "story-006-how1-obj-d54eda",
+      "subtopic": "Logistics",
+      "_generatedFrom": "story-006-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following specific rules. The original question is about reducing patient visits without abandoning stepwise testing. The answer outlines four strategies: batching tier-one tests, reflex testing, remote results delivery, and pre-booking sequential steps.\n\nFirst, I need to determine the best question type. The answer provides multiple strategies, so an MCQ might be suitable here. The options should include the correct answer and plausible distractors. The key points from the answer are batching tests, reflex testing, remote delivery, and pre-booking. \n\nFor the MCQ, the stem should ask which strategy is effective. The correct option would be one of these strategies. Distractors need to be plausible but incorrect. For example, options could include things like \"Avoiding all follow-up tests\" or \"Scheduling all tests on separate days,\" which contradict the answer's advice.\n\nI need to ensure that the options are clear and that the correct answer is unambiguously the best choice. The explanation should briefly mention the key strategies from the answer. Let me structure the JSON accordingly, making sure to follow the rules provided."
     }
   ]
 }

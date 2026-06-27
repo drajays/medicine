@@ -301,6 +301,22 @@
       "id": "cr-011-how1-obj-47925f",
       "subtopic": "Strategy",
       "_generatedFrom": "cr-011-how1"
+    },
+    {
+      "type": "mcq",
+      "stem": "Why does naproxen’s ~14-hour half-life permit twice-daily (or once-daily) dosing?",
+      "options": [
+        "A long terminal half-life flattens the plasma concentration curve, maintaining therapeutic levels for 8–12 hours without significant peaks and troughs.",
+        "A long half-life increases drug metabolism, reducing the need for frequent dosing.",
+        "A long half-life enhances renal excretion, allowing for less frequent administration.",
+        "A long half-life decreases drug absorption, prolonging its effect"
+      ],
+      "correctOption": 0,
+      "explanation": "A long terminal half-life reduces fluctuations in plasma concentration, sustaining therapeutic levels for extended periods and enabling less frequent dosing without compromising efficacy.",
+      "id": "cr-011-why1-obj-c3237d",
+      "subtopic": "Pharmacokinetics",
+      "_generatedFrom": "cr-011-why1",
+      "distillation_trace": "Okay, let's tackle this. The user wants me to convert the given Q&A into an objective exam question in JSON format. The question is about why naproxen's half-life allows for twice-daily or once-daily dosing.\n\nFirst, I need to determine the question type. The answer explains that a long half-life flattens the plasma concentration curve, keeping levels within the therapeutic window. This is a cause-effect relationship, so assertion_reason might be appropriate. But looking at the options, maybe MCQ is better since it's about specific facts with options.\n\nWait, the original answer mentions the half-life leading to sustained exposure and steady state. The key points are about the effect of the half-life on dosing frequency. The question is asking why the long half-life allows for less frequent dosing. \n\nFor an MCQ, the stem should be a question. The options need to be plausible but incorrect except for the correct one. The correct answer is that the long half-life leads to a flattened curve, maintaining therapeutic levels. Distractors could be about peak/trough effects, metabolism, or other factors like bioavailability.\n\nAlternatively, assertion_reason could work if the question is structured as an assertion and a reason. For example, \"A long half-life allows for less frequent dosing because it sustains plasma levels.\" But the user's example shows that MCQ is possible here.\n\nLooking at the rules, the best format for cause-effect is assertion_reason. However, the answer here is explaining the mechanism, which could be a true/false or MCQ. But the key point is the relationship between half-life and dosing frequency. \n\nWait, the original answer is a detailed explanation. The question is why the half-life permits dosing. The correct answer is the flattening of the curve. So maybe the best format is MCQ with options that address the mechanism. Let me check the options again.\n\nThe correct answer is that a long half-life flattens the curve, keeping levels in the therapeutic window. Distractors could be things like \"it's metabolized more slowly,\" \"it has higher potency,\" or \"it's excreted more slowly.\" But the key is the plasma concentration curve.\n\nSo the MCQ stem would be: \"Why does naproxen’s long half-life permit twice-daily or once-daily dosing?\" The options would include the correct one about flattening the curve and others that are incorrect. The correct option is A, and the explanation would mention the sustained exposure and therapeutic window.\n\nI think that's the way to go. So the JSON would be an MCQ with the stem, options, correct option, and explanation."
     }
   ]
 }

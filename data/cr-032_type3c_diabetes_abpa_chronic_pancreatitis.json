@@ -8,9 +8,18 @@
   "authors": "Resident/fellowship training module — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "cr-001", "title": "Metformin Diarrhea in Type 2 Diabetes" },
-    { "id": "cr-023", "title": "Complex Diabetes Management in Advanced CKD" },
-    { "id": "cr-035", "title": "Antibody-Negative Young Diabetes (MODY)" }
+    {
+      "id": "cr-001",
+      "title": "Metformin Diarrhea in Type 2 Diabetes"
+    },
+    {
+      "id": "cr-023",
+      "title": "Complex Diabetes Management in Advanced CKD"
+    },
+    {
+      "id": "cr-035",
+      "title": "Antibody-Negative Young Diabetes (MODY)"
+    }
   ],
   "patient": {
     "age": 42,
@@ -380,6 +389,70 @@
       "subtopic": "Cancer risk",
       "question": "What is the evidence-based approach to cancer risk in this man with chronic pancreatitis and a CBD stricture?",
       "answer": "Routine imaging/tumour-marker surveillance is not indicated in sporadic chronic pancreatitis (it is reserved for hereditary/familial high-risk groups). The proven, highest-value interventions are complete smoking and alcohol cessation; chemoprevention (aspirin/statin/metformin) is not established. The actionable oncological focus is the CBD stricture — distinguishing benign chronic-pancreatitis stricture from cholangiocarcinoma or pancreatic-head cancer with MRCP/CT, and where suspicion exists ERCP with brush cytology/biopsy and EUS-FNA. CA19-9 is unreliable for screening and falsely raised by biliary obstruction/stent. New-onset or abruptly worsening diabetes can itself herald pancreatic cancer and warrants imaging rather than simply more insulin."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why are sulfonylureas and SGLT2 inhibitors both problematic in type 3c diabetes?",
+      "options": [
+        "A) Sulfonylureas cause hypoglycaemia due to beta-cell depletion, while SGLT2 inhibitors increase euglycaemic DKA risk from insulin deficiency",
+        "B) Both drugs are contraindicated in type 1 diabetes, not type 3c",
+        "C) Sulfonylureas cause weight gain, while SGLT2 inhibitors increase hypoglycaemia risk",
+        "D) Both drugs are ineffective in type 2 diabetes, not type 3c"
+      ],
+      "correctOption": 0,
+      "explanation": "Type 3c diabetes involves beta-cell loss and glucagon deficiency. Sulfonylureas (which depend on functional beta cells) cause severe hypoglycaemia due to impaired glucagon counter-regulation. SGLT2 inhibitors risk euglycaemic DKA in insulin-deficient, often lean patients with reduced caloric intake or intercurrent illness.",
+      "id": "cr-032-why1-obj-da7d54",
+      "subtopic": "Type 3c diabetes",
+      "_generatedFrom": "cr-032-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A about why sulfonylureas and SGLT2 inhibitors are problematic in type 3c diabetes. The answer explains that sulfonylureas are bad because they rely on beta cells that are already depleted, leading to hypoglycemia due to glucagon deficiency. SGLT2 inhibitors are risky because of euglycaemic DKA in insulin-deficient patients.\n\nFirst, I need to determine the best question type. The key points involve specific mechanisms and risks, so an MCQ seems appropriate. The options should include the correct answer and plausible distractors.\n\nThe stem should ask why these drugs are problematic. The correct option would mention both mechanisms. Distractors might focus on other diabetes types or incorrect risks. For example, option B might mention type 1 diabetes, which is different. Option C could incorrectly link SGLT2 inhibitors to hypoglycemia. Option D might confuse type 2 diabetes with type 3c.\n\nI need to ensure the explanation in the JSON is concise, highlighting the beta cell depletion and glucagon deficiency for sulfonylureas, and euglycaemic DKA for SGLT2 inhibitors. Also, the correct option should be the one that covers both points accurately."
+    },
+    {
+      "type": "mcq",
+      "stem": "What defines remission in a patient with allergic bronchopulmonary aspergillosis (ABPA) undergoing long-term monitoring?",
+      "options": [
+        "A) Sustained clinical and radiological stability with no exacerbation for at least 6 months after discontinuing oral steroids",
+        "B) Normalization of total serum IgE levels to within the reference range",
+        "C) Absence of symptoms for 3 months while on maintenance azole therapy",
+        "D) A 50% reduction in total serum IgE from baseline with stable spirometry"
+      ],
+      "correctOption": 0,
+      "explanation": "Remission in ABPA is defined by sustained clinical and radiological stability without exacerbation for at least 6 months after stopping oral steroids, as per the monitoring guidelines. Normalization of IgE is not a target, and 3 months is insufficient for remission criteria.",
+      "id": "cr-032-how1-obj-e09e0b",
+      "subtopic": "ABPA follow-up",
+      "_generatedFrom": "cr-032-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into an objective exam question in JSON format, following specific rules. The original question is about monitoring ABPA long-term and determining remission. The answer details monitoring aspects like IgE levels, imaging, symptoms, and defines remission as 6 months of stability off steroids.\n\nFirst, I need to decide the question type. The answer has specific criteria, so an MCQ seems appropriate. The key points are monitoring symptoms, IgE trend, imaging, and the definition of remission. The options should include these elements correctly and have plausible distractors.\n\nFor the stem, I'll ask about the criteria for remission in ABPA. The correct answer should mention 6 months of stability off steroids. Distractors could include incorrect durations (like 3 months), incorrect criteria (like normal IgE levels), or other factors not mentioned in the answer.\n\nI need to ensure that the options are plausible but clearly wrong. For example, one option might say \"normalization of IgE levels,\" which the original answer states isn't the goal. Another might mention a different duration, like 3 months. The explanation should briefly reference the key points from the answer.\n\nChecking the rules again: JSON only, no markdown, correct formatting. The correct option is the one that matches the 6-month stability off steroids. The explanation should note that remission is defined by sustained stability without exacerbation for at least 6 months after stopping steroids, as per the original answer.\n\nI think that covers it. Now, structuring the JSON with the correct stem, options, and explanation."
+    },
+    {
+      "type": "mcq",
+      "stem": "For a patient with type 3c diabetes, which of the following is the most appropriate initial basal-bolus insulin strategy and titration approach?",
+      "options": [
+        "A) Initiate total daily insulin at 1.0–1.5 U/kg/day, using 70% basal and 30% rapid-acting analogue, continue sulfonylurea, and target fasting glucose <70 mg/dL",
+        "B) Estimate total daily insulin at 0.4–0.5 U/kg/day (50% basal analogue, 50% rapid-acting analogue), discontinue sulfonylurea, titrate basal to fasting glucose, and use postprandial targets of <180 mg/dL",
+        "C) Start glargine 10 U daily, add lispro 2 U pre-meals, continue SGLT2 inhibitor, and target fasting glucose <80 mg/dL with no CGM use",
+        "D) Use 0.3 U/kg/day total insulin (60% basal, 40% bolus), continue metformin, and titrate based on HbA1c alone"
+      ],
+      "correctOption": 1,
+      "explanation": "Type 3c diabetes requires cautious insulin initiation due to hypoglycemia risk. The correct approach uses conservative total daily insulin (0.4–0.5 U/kg), balanced basal-bolus split, discontinuation of sulfonylurea, and pragmatic glucose targets. Options A, C, and D either use incorrect dosing, fail to address medication adjustments, or employ inappropriate monitoring strategies.",
+      "id": "cr-032-sa1-obj-9c158d",
+      "subtopic": "Insulin regimen",
+      "_generatedFrom": "cr-032-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a JSON-based objective exam question based on the provided Q&A. The original question is about a safe starting basal-bolus plan for a type 3c patient. The answer includes several key points: estimating total daily insulin, splitting between basal and bolus, adjusting medications, titration based on glucose levels, setting targets, monitoring, and coordinating with steroids.\n\nFirst, I need to determine the question type. Since the answer has multiple components, an MCQ might be best. The options should include the correct answer and plausible distractors. The correct answer should cover all the main points mentioned. Distractors might miss some elements, like not adjusting medications, incorrect insulin split, or wrong titration targets.\n\nI need to ensure the options are plausible but clearly wrong. For example, one option might suggest a higher insulin dose, another might not mention stopping sulfonylurea, or use incorrect glucose targets. The explanation should highlight why the correct answer is right and the errors in the distractors.\n\nAlso, checking clinical accuracy: type 3c diabetes (secondary to pancreatitis) often requires careful insulin management due to hypoglycemia risk. The answer's points align with standard guidelines, so the MCQ should reflect that. Making sure the correct option includes all key steps and the distractors omit or alter critical elements."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the evidence-based approach to cancer risk in a man with chronic pancreatitis and a common bile duct (CBD) stricture?",
+      "options": [
+        "A) Routine imaging and tumor-marker surveillance are indicated for all patients with chronic pancreatitis.",
+        "B) Chemoprevention with aspirin, statins, or metformin is established as first-line intervention for cancer risk reduction.",
+        "C) Evaluation of the CBD stricture via MRCP/CT, with ERCP brush cytology or EUS-FNA if suspicion of malignancy exists, is the highest priority.",
+        "D) CA19-9 levels are reliable for screening and should guide further investigation in patients with biliary obstruction."
+      ],
+      "correctOption": 2,
+      "explanation": "In sporadic chronic pancreatitis, routine imaging/tumor-marker surveillance is not indicated (reserved for hereditary/familial high-risk groups). The highest-value interventions are smoking/alcohol cessation. The CBD stricture requires evaluation with MRCP/CT, with ERCP or EUS-FNA if malignancy is suspected. CA19-9 is unreliable for screening due to elevation from biliary obstruction.",
+      "id": "cr-032-sa3-obj-9cea50",
+      "subtopic": "Cancer risk",
+      "_generatedFrom": "cr-032-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A about cancer risk in a man with chronic pancreatitis and a CBD stricture. The answer given is detailed, so I need to extract the key points.\n\nFirst, the main evidence-based approach mentioned is that routine imaging and tumor markers aren't indicated for sporadic cases. The correct interventions are smoking and alcohol cessation. Chemoprevention with aspirin, statins, or metformin isn't established. The focus is on evaluating the CBD stricture using MRCP/CT, and if suspicion is high, ERCP with brush cytology or EUS-FNA. CA19-9 isn't reliable for screening. New-onset diabetes should prompt imaging.\n\nNow, the question needs to be an MCQ. The stem should ask about the evidence-based approach. The options should include the correct answer and plausible distractors. The correct answer would be about evaluating the CBD stricture with imaging and ERCP procedures. Distractors could include routine imaging, chemoprevention, and relying on CA19-9.\n\nI need to ensure the options are plausible but clearly wrong. For example, option A might mention routine imaging, which the answer says isn't indicated. Option B could be about chemoprevention, which isn't established. Option C would be the correct one about evaluating the stricture. Option D might mention CA19-9, which is unreliable. The explanation should highlight that the correct approach is evaluating the stricture with specific imaging and procedures, while other options are not supported by evidence."
     }
   ]
 }

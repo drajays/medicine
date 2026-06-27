@@ -8,8 +8,14 @@
   "authors": "Resident/fellowship training module — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "cr-027", "title": "Panhypopituitarism from Hemochromatosis" },
-    { "id": "cr-024", "title": "Aggressive Non-Functioning PitNET" }
+    {
+      "id": "cr-027",
+      "title": "Panhypopituitarism from Hemochromatosis"
+    },
+    {
+      "id": "cr-024",
+      "title": "Aggressive Non-Functioning PitNET"
+    }
   ],
   "patient": {
     "age": 68,
@@ -325,6 +331,54 @@
       "subtopic": "Panhypopituitarism principle",
       "question": "What general panhypopituitarism principle does this case illustrate, and how should it have been applied when testosterone was stopped?",
       "answer": "That the pituitary axes are interdependent, so any deliberate change in one axis mandates reassessment of the others — through shared binding globulins, altered cortisol demand and changes in body composition/well-being. Applied here, when urology stopped testosterone the team should have proactively planned a free-T4 check (anticipating the rise in TBG and a possible need to up-titrate levothyroxine) and a clinical review of glucocorticoid adequacy with reinforced stress-dose rules, rather than waiting for the patient to return with profound weakness. The durable reflex is: one axis changed, re-check the rest."
+    },
+    {
+      "type": "mcq",
+      "stem": "A patient is symptomatically hypothyroid and under-replaced despite a 'normal' total T4 and a 'normal' AM cortisol. What is the most likely explanation?",
+      "options": [
+        "A) Total T4 and cortisol assays are not reflective of free hormone levels or adrenal function in this context",
+        "B) The patient has a pituitary tumor causing TSH resistance",
+        "C) The patient is taking excessive levothyroxine leading to iatrogenic hyperthyroidism",
+        "D) The patient has a genetic defect in thyroid hormone receptor binding"
+      ],
+      "correctOption": 0,
+      "explanation": "Total T4 assays correlate with binding proteins (e.g., TBG), not free (active) T4. Stopping testosterone increases TBG, lowering free T4 despite normal total T4. AM cortisol reflects exogenous hydrocortisone dose, not adrenal reserve. Free T4 and clinical assessment are required for accurate replacement titration.",
+      "id": "cr-037-why1-obj-b5592c",
+      "subtopic": "Total vs free",
+      "_generatedFrom": "cr-037-why1",
+      "distillation_trace": "Okay, let's tackle this. The user wants a question based on the provided Q&A. The main issue here is why a patient might be hypothyroid and under-replaced despite normal total T4 and AM cortisol.\n\nFirst, I need to figure out the best question type. The answer explains that total T4 isn't the right measure because free T4 is what's active, and TBG levels can affect that. Also, the cortisol level is influenced by exogenous hydrocortisone, not adrenal function. This seems like a case for an MCQ because it's about specific facts with multiple plausible options.\n\nThe stem should ask why the patient is hypothyroid despite normal tests. The options need to address the key points: free vs total T4, TBG changes, cortisol assay limitations. The correct answer is that total T4 and cortisol assays are not the right measures here. Distractors could include things like incorrect TSH levels or other factors, but they need to be plausible but wrong.\n\nI need to make sure the explanation in the JSON is concise, mentioning free T4 and the effect of TBG, as well as the cortisol being from hydrocortisone. The correct option should be the one that points out the assays measure the wrong things. Let me structure the JSON accordingly."
+    },
+    {
+      "type": "mcq",
+      "stem": "A 65-year-old man presents with profound weakness. What is the priority order for evaluation and management?",
+      "options": [
+        "A) Check TSH, then MRI for spinal cord compression, then adjust glucocorticoids",
+        "B) Image spine for cord compression/hypercalcaemia, then assess free T4, then review glucocorticoid regimen",
+        "C) Initiate testosterone replacement, then check calcium, then optimize hydrocortisone",
+        "D) Perform MRI, then check TSH, then start resistance exercise"
+      ],
+      "correctOption": 1,
+      "explanation": "Urgent exclusion of spinal cord compression (via MRI) and hypercalcaemia (via calcium check) is priority. Free T4 assessment and glucocorticoid review follow, as per the stepwise approach.",
+      "id": "cr-037-how1-obj-7411c2",
+      "subtopic": "Quick reference",
+      "_generatedFrom": "cr-037-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The original answer outlines a priority order for evaluating and managing a man's profound weakness, focusing on excluding emergencies, endocrine assessments, glucocorticoid management, and addressing myopathy.\n\nFirst, I need to determine the best question type. The answer lists a sequence of steps, which suggests a priority order. MCQ seems appropriate here because it can test the correct order of steps. The key points mention excluding cord compression and hypercalcemia first, then checking free T4, reviewing glucocorticoids, and managing myopathy. \n\nNext, I'll need to create the stem of the question. It should ask about the priority order of evaluation and management. The options should present different sequences, with the correct one being the one from the answer. Distractors should be plausible but incorrect. For example, one might start with checking TSH instead of free T4, or address myopathy before excluding emergencies.\n\nI need to ensure that the correct option is the one that follows the key points: MRI and calcium first, then free T4, glucocorticoid review, and then myopathy management. The explanation should mention the urgency of excluding spinal emergencies and hypercalcemia.\n\nI also need to check that the distractors are clinically plausible but wrong. For instance, starting with endocrine axes before imaging, or not considering glucocorticoid adequacy. Each option should be a different permutation of the steps, making sure that only the correct sequence aligns with the answer provided.\n\nFinally, the JSON structure must be correct, with the stem, options, correctOption index, and explanation. The explanation should briefly state the rationale for the correct order, emphasizing the urgency of the first steps."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following is the most priority cause of profound weakness to consider in this patient?",
+      "options": [
+        "A) Metastatic spinal-cord/cauda-equina compression from prostate cancer",
+        "B) Hypercalcaemia from bone metastases",
+        "C) Hypogonadal/ADT-related myopathy and fatigue",
+        "D) Unmasked relative (central) hypothyroidism"
+      ],
+      "correctOption": 0,
+      "explanation": "Metastatic spinal-cord/cauda-equina compression is a neuro-oncological emergency requiring immediate evaluation (e.g., MRI, corticosteroids), making it the highest priority. Other options are important but lower priority in acute presentation.",
+      "id": "cr-037-sa2-obj-fd16b0",
+      "subtopic": "Differential",
+      "_generatedFrom": "cr-037-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A about causes of profound weakness in a patient. The original answer lists six causes in priority order. The task is to convert this into an objective exam question.\n\nFirst, I need to determine the best question type. The answer lists multiple causes with priorities, which suggests a ranking. However, the options in a multiple-choice question need to be structured as possible answers. Since the original answer has six points, but the question format requires four options, I need to condense the information.\n\nLooking at the answer, the top priority is metastatic spinal compression. The next is hypercalcaemia, then hypogonadal myopathy, followed by hypothyroidism, glucocorticoid under-replacement, and anaemia. The question should ask for the most priority cause to consider first. That would make sense as a multiple-choice question with options that include the top priority and other plausible but lower priority causes.\n\nThe correct answer would be the first point. The distractors should be other causes listed but in lower priority. For example, hypercalcaemia is second, so that's a distractor. Hypogonadal myopathy is third, another distractor. Then, maybe include something not listed, like electrolyte imbalance, to make it a plausible but incorrect option.\n\nI need to ensure the options are plausible but clearly wrong. The explanation should mention that spinal compression is a neuro-oncological emergency and needs immediate attention. The other options are correct but not the first priority. The JSON structure should have the stem, options, correct option index, and explanation. Let me check the rules again: distractors must be plausible but clearly wrong, clinical accuracy is key. Also, the question should be in JSON format without markdown. Alright, that should cover it."
     }
   ]
 }

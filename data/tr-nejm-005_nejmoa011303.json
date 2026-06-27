@@ -716,6 +716,54 @@
       "subtopic": "IDNT",
       "_generatedFrom": "tr-nejm-005-how24",
       "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into an objective exam question in JSON format, following the rules given. The original question is about how the process in reference 24 relates to IDNT. The answer discusses statistical power and sample size differences between the irbesartan study and the Heart Outcomes Prevention Evaluation Study.\n\nFirst, I need to determine the best question type. The answer talks about statistical significance and study power, which are specific facts. So an MCQ might be suitable here. The key points are the lack of statistical significance in the irbesartan study due to smaller sample size compared to a larger study with more power.\n\nNext, I need to create the stem. The question should ask about the relationship between the process in reference 24 and IDNT, focusing on statistical power. The options should include plausible distractors. The correct answer is that the irbesartan study lacked power due to smaller sample size. Distractors could include other factors like study design, patient selection, or different endpoints.\n\nI need to ensure the options are plausible but clearly wrong. For example, one might say the study was underpowered due to high dropout rates, which isn't mentioned in the answer. Another could mention differences in drug dosages, which also isn't discussed. The correct option should directly relate to sample size and statistical power.\n\nThen, the explanation should briefly state that the irbesartan study had a smaller sample, leading to insufficient power to detect significant differences. I need to check that all options are accurate and that the correct answer is clearly supported by the original text.\n\nFinally, structure the JSON with the correct type, stem, options, correct option index, and explanation. Make sure there's no markdown and that it's valid JSON. Let me review the rules again to ensure compliance with all requirements."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the clinically relevant feature of the IDNT study design mentioned in the context?",
+      "options": [
+        "A. Involvement of 210 clinical centers",
+        "B. Double-blind methodology",
+        "C. Role of the biostatistical coordinating center",
+        "D. Ethical approval by institutional review boards"
+      ],
+      "correctOption": 0,
+      "explanation": "A large number of clinical centers enhances generalizability and reduces selection bias in trial results.",
+      "id": "tr-nejm-005-why9-obj-91eacb",
+      "subtopic": "IDNT",
+      "_generatedFrom": "tr-nejm-005-why9",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert a descriptive Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about the IDNT study, and the answer provided details about the study's conduct, including the number of centers, the roles of different entities, and ethical approvals.\n\nFirst, I need to determine the best question type. The answer describes the study's methodology, which is a specific fact. The key point here is the number of clinical centers involved, which is 210. The other parts of the answer mention the management by the coordinating center and ethical approvals, but the main clinically relevant detail is the number of centers. \n\nSo, the question should focus on that specific number. The options need to be plausible but incorrect. Common distractors might be numbers close to 210, like 150, 200, 250, or 300. \n\nNext, I need to structure the JSON. The type is MCQ. The stem should ask why the number of centers is clinically relevant. The options are the numbers, with the correct one being 210. The explanation should mention that a large number of centers ensures generalizability and reduces bias. \n\nI need to make sure that the explanation is brief and accurate. Also, check that the correct option is the first one (index 0). Let me verify the numbers again to avoid any mistakes. Yes, 210 is the correct number from the answer. The other options are just plausible distractors. \n\nI think that's all. Now, format it into the required JSON without any markdown or explanations."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which statistical method was used to compare the times to the primary end point and its components in the IDNT study?",
+      "options": [
+        "A) Chi-square test",
+        "B) Analysis of variance",
+        "C) Log-rank test",
+        "D) Cox proportional-hazards model"
+      ],
+      "correctOption": 2,
+      "explanation": "The log-rank test is specifically used for comparing survival curves in time-to-event analyses, which aligns with the comparison of times to the primary endpoint described in the text.",
+      "id": "tr-nejm-005-why12-obj-c4a6d5",
+      "subtopic": "IDNT",
+      "_generatedFrom": "tr-nejm-005-why12",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into an objective exam question in JSON format, following the rules they specified. The original question is about why a certain statistical method is clinically relevant in the IDNT study. The answer details various statistical tests used, like chi-square, ANOVA, log-rank test, etc.\n\nFirst, I need to determine the best question type. The original answer lists multiple statistical methods and their applications. Since the question is about why a specific method is used, an MCQ might be appropriate here. However, the answer includes several points, so maybe an assertion-reason question? Wait, the user's example shows that MCQ is used for specific facts with options. The original answer is explaining the statistical methods used, so perhaps the question is about which statistical test was used for a specific purpose, like comparing survival curves. \n\nLooking at the answer, it mentions the log-rank test for comparing survival curves. So the question could be: \"Which statistical test was used to compare the survival curves for the primary endpoint in the IDNT study?\" Then the options would include log-rank test, chi-square, ANOVA, etc. The correct answer is log-rank test. That fits an MCQ format.\n\nAlternatively, the original question's stem is about why the methods are clinically relevant. But the answer lists various methods. Maybe the question is about the intention-to-treat principle. However, the answer mentions that all analyses were based on intention-to-treat. But the user's example shows that MCQ is for specific facts. So perhaps the best approach is to pick a specific fact from the answer and make an MCQ around that. For example, the method used for comparing survival curves. That would be a clear MCQ with four options, one correct. The explanation would be that the log-rank test is used for comparing survival curves. \n\nI need to ensure that the distractors are plausible but wrong. So options could include chi-square, ANOVA, Breslow-Gehan test (which is mentioned for cardiovascular endpoints), and Cox models. The correct answer is log-rank test. That makes sense. So the JSON would be an MCQ with the stem asking which test was used for primary endpoint survival curves, options including the correct one and plausible distractors. The explanation would state that the log-rank test is used for comparing survival curves. That should meet the user's requirements."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary mechanism by which ACE inhibitors exert renoprotection in diabetic nephropathy?",
+      "options": [
+        "A) Reduction of systemic blood pressure",
+        "B) Increase in glomerular filtration rate",
+        "C) Diminishment of intrarenal angiotensin II activity",
+        "D) Inhibition of sodium reabsorption in the proximal tubule"
+      ],
+      "correctOption": 2,
+      "explanation": "ACE inhibitors reduce intrarenal angiotensin II activity, lowering intraglomerular pressure, decreasing proteinuria, and inhibiting collagen formation through reduced TGF-β stimulation.",
+      "id": "tr-nejm-005-why21-obj-33a045",
+      "subtopic": "IDNT",
+      "_generatedFrom": "tr-nejm-005-why21",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about why a certain notion is clinically relevant in IDNT, with the answer explaining that ACE inhibitors work by diminishing angiotensin II's action, leading to renoprotection through various mechanisms.\n\nFirst, I need to determine the best question type. The answer discusses mechanisms of action and their clinical relevance, which seems like a good fit for an MCQ. The key point here is the mechanism of ACE inhibitors in renoprotection, so the question should focus on that.\n\nNext, the stem of the question. The original context mentions the notion that ACE inhibitors alter renal hemodynamics by diminishing angiotensin II. The answer explains that this leads to renoprotection through hemodynamic factors, reduced proteinuria, and collagen formation. So the question should ask about the primary mechanism of renoprotection by ACE inhibitors in diabetic nephropathy.\n\nNow, the options. The correct answer is that they reduce intrarenal angiotensin activity. Distractors should be plausible but incorrect. Possible options could include decreasing systemic blood pressure, increasing glomerular filtration rate, or inhibiting sodium reabsorption. These are related but not the primary mechanism discussed in the answer.\n\nI need to ensure clinical accuracy. The answer mentions intrarenal angiotensin activity, hemodynamic factors lowering intraglomerular pressure, reduced proteinuria, and decreased collagen formation. So the correct option should reflect the reduction of intrarenal angiotensin, while the distractors might focus on other effects like systemic blood pressure or other pathways.\n\nFinally, the explanation should briefly state that ACE inhibitors reduce intrarenal angiotensin, leading to the mentioned renoprotective effects. Checking the rules: JSON only, no markdown, correct formatting, plausible distractors, clinical accuracy. That should cover it."
     }
   ]
 }

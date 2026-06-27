@@ -1081,6 +1081,22 @@
       "subtopic": "Why/How 15 — Cardiovascular Outcomes",
       "_generatedFrom": "tr-nejm-004-why15",
       "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why a study didn't show a significant difference in cardiovascular outcomes. The answer given points to a small sample size and strict enrollment criteria excluding high-risk patients.\n\nFirst, I need to determine the best question type. The answer involves multiple factors (sample size and enrollment criteria), which suggests an MCQ might be suitable. True/false could work, but the explanation is more complex. Assertion-reason might also be an option, but the answer isn't a direct cause-effect pair. So MCQ seems better here.\n\nNext, the stem should ask why the study failed to show significance. The options need to be plausible but incorrect except for the correct one. The correct answer is about sample size and exclusion criteria. Distractors could include things like statistical methods, follow-up duration, or patient compliance. These are common issues in study design.\n\nI need to ensure the options are distinct and not overlapping. The correct option should combine both factors mentioned in the key points. Then, the explanation should briefly mention the sample size and exclusion criteria as the main reasons. Let me check the rules again: JSON only, no markdown, correct option index, and clinical accuracy. Looks good. Now, structure the JSON accordingly."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why was an alpha spending function of the O'Brien-Fleming type utilized in the statistical analysis?",
+      "options": [
+        "A) Because the steering committee conducted interim analyses, this boundary adjusted the critical P value to 0.048 to maintain rigor of primary hypothesis testing.",
+        "B) To account for sample size adjustments during the trial.",
+        "C) To reduce the risk of Type II error in subgroup analyses.",
+        "D) To ensure equal allocation of alpha spending across all planned interim analyses."
+      ],
+      "correctOption": 0,
+      "explanation": "The O'Brien-Fleming alpha spending function is designed to maintain strict control of the Type I error rate during interim analyses by progressively tightening the critical P value thresholds, with the first interim analysis typically using a more stringent threshold (e.g., 0.048) to preserve overall statistical rigor.",
+      "id": "tr-nejm-004-why11-obj-f1607a",
+      "subtopic": "Why/How 11 — Statistics — Interim",
+      "_generatedFrom": "tr-nejm-004-why11",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why an alpha spending function of the O'Brien-Fleming type was used. The answer mentions interim analyses adjusting the critical P value to 0.048.\n\nFirst, I need to determine the question type. The answer is explaining a specific statistical method's use, which seems like a MCQ scenario. The key point is about adjusting the P value due to interim analyses. The options need to be plausible but incorrect except for the correct one.\n\nThe correct answer is that the steering committee conducted interim analyses, leading to the adjustment. Distractors could include other reasons like sample size adjustments, multiple comparisons, or reducing Type I error. Wait, but the answer specifically mentions maintaining rigor in primary hypothesis testing. So the correct option should reflect that.\n\nI need to ensure the options are distinct. Let me think of possible distractors. Maybe options about sample size, Type I error rates, or other statistical methods. The explanation should mention the O'Brien-Fleming method's purpose in interim analyses. Also, the correct option is A, so the JSON should have the correctOption as 0. Let me structure the MCQ accordingly."
     }
   ]
 }

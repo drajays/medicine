@@ -8,8 +8,14 @@
   "authors": "Resident/fellowship training module — illustrative teaching case",
   "sourceFile": "user-provided content (chat)",
   "relatedChapters": [
-    { "id": "cr-020", "title": "Post-Thyroidectomy Levothyroxine in CAD" },
-    { "id": "cr-031", "title": "Iatrogenic Hypothyroidism in Graves Disease" }
+    {
+      "id": "cr-020",
+      "title": "Post-Thyroidectomy Levothyroxine in CAD"
+    },
+    {
+      "id": "cr-031",
+      "title": "Iatrogenic Hypothyroidism in Graves Disease"
+    }
   ],
   "patient": {
     "age": 56,
@@ -20,7 +26,9 @@
       "Head-and-neck malignancy requiring composite (commando) resection + neck dissection under general anaesthesia",
       "No cardiac disease"
     ],
-    "medications": ["Methimazole (Methimez) 7.5 mg once daily"]
+    "medications": [
+      "Methimazole (Methimez) 7.5 mg once daily"
+    ]
   },
   "caseDescription": "A 56-year-old woman with Graves disease, on methimazole 7.5 mg daily for a year, is listed for an urgent oncologic commando (composite) resection with neck dissection under general anaesthesia. Her thyroid function shows free T3 and free T4 both normal (in the high-normal range, just below the upper limit), an undetectable TSH, a resting pulse of 86/min and no cardiac symptoms. The resident is weighing three options: (1) increase methimazole to 10 mg, add propranolol LA 40 mg, declare her fit and proceed now with close anaesthetic monitoring; (2) defer surgery and start that regimen first; or simply (3) proceed. The teaching question is whether the undetectable TSH should delay an urgent cancer operation.",
   "keyFindings": [
@@ -310,6 +318,86 @@
       "subtopic": "Perioperative continuity",
       "question": "How should methimazole and beta-blockade be managed across the NPO perioperative period?",
       "answer": "Maintain continuity of thyroid control. Give methimazole preoperatively if oral intake is allowed; if the patient is NPO post-operatively, deliver it enterally via the nasogastric/feeding tube (well absorbed) once permitted — readily arranged after a commando resection where a feeding route is usually present — and resume oral dosing when swallowing is safe; rectal/parenteral routes exist if enteral access is unavailable. Bridge the beta-blocker intravenously (e.g. esmolol or metoprolol) during the period of no oral intake to keep heart rate controlled. A clear written plan prevents an unintended multi-day cessation of the antithyroid drug."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is an undetectable TSH, alone, not a valid reason to postpone urgent surgery in a patient with controlled Graves disease?",
+      "options": [
+        "A) Because TSH is a lagging indicator and does not reflect current thyrotoxic risk",
+        "B) Because TSH suppression is a direct marker of ongoing thyrotoxicosis",
+        "C) Because waiting for TSH normalization is required before surgery to avoid storm",
+        "D) Because TSH levels correlate directly with perioperative cardiac risk"
+      ],
+      "correctOption": 0,
+      "explanation": "TSH is suppressed for weeks to months after free T3/T4 normalize, reflecting prior thyrotoxicosis rather than current risk. Perioperative risk depends on current free hormone levels and clinical status, not TSH alone.",
+      "id": "cr-036-why1-obj-ab7f04",
+      "subtopic": "Interpreting the tests",
+      "_generatedFrom": "cr-036-why1",
+      "distillation_trace": "Okay, let's tackle this. The user wants an objective exam question based on the provided Q&A. The main point is that an undetectable TSH isn't a reason to delay surgery because TSH lags behind free hormones.\n\nFirst, I need to determine the question type. The original answer explains why TSH isn't a valid reason, so a true/false might work, but the explanation is more detailed, so maybe MCQ. The key points are about TSH being a lagging indicator and the actual risk factors being free hormones and clinical state.\n\nFor an MCQ, the stem should ask why undetectable TSH isn't a valid reason. The options need to include the correct answer and plausible distractors. The correct answer would be about TSH lagging and not reflecting current risk. Distractors could be things like TSH being the best indicator, needing to wait for TSH normalization, or TSH directly indicating current thyrotoxicosis.\n\nI need to ensure the options are plausible but wrong. For example, one might say TSH is the most accurate measure, which is incorrect because free hormones are more immediate. Another could suggest waiting for TSH to normalize, which the original answer says would delay surgery unnecessarily.\n\nThe explanation should mention that TSH lags and that perioperative risk is based on free hormones and clinical state. The correct option would be the one that states TSH is a lagging indicator and doesn't reflect current risk. I'll structure the JSON accordingly, making sure the correct option is first and the explanation is concise."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following is the correct approach to optimise and clear a euthyroid patient with controlled hyperthyroidism for urgent non-thyroid surgery?",
+      "options": [
+        "A) Continue methimazole (enteral route if NPO), check CBC/LFT and ECG, add beta-blocker if tolerated, avoid Lugol's iodine, and proceed without deferring",
+        "B) Discontinue methimazole preoperatively, administer Lugol's iodine, and defer surgery until thyroid function normalises",
+        "C) Use beta-blocker alone, avoid methimazole, and proceed without endocrine clearance documentation",
+        "D) Administer Lugol's iodine, check ECG only if arrhythmia is present, and proceed without methimazole"
+      ],
+      "correctOption": 0,
+      "explanation": "Correct management includes continuing methimazole (enteral route if NPO), checking CBC/LFT and ECG, adding beta-blocker if tolerated, avoiding Lugol's iodine (which is for thyroidectomy), and proceeding without deferral in a euthyroid patient. Discontinuing methimazole, using Lugol's iodine, or omitting endocrine clearance documentation are incorrect.",
+      "id": "cr-036-how1-obj-1254cf",
+      "subtopic": "Decision summary",
+      "_generatedFrom": "cr-036-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A about optimizing a patient for urgent commando surgery. The answer given outlines several steps, including confirming euthyroid status, continuing methimazole, using beta-blockers, checking labs, avoiding Lugol's iodine, and monitoring.\n\nFirst, I need to determine the best question type. The content involves multiple steps and specific actions, which suggests a multiple-choice question (MCQ) would be appropriate. True/false might not capture the nuances, and assertion-reason could be too vague here.\n\nNext, the stem of the question should ask about the correct approach to optimize the patient. The options need to be plausible but clearly wrong except for the correct one. Let me look at the key points again: document euthyroid clearance, continue methimazole, beta-blocker if tolerated, check CBC/LFT and ECG, no Lugol's, and close monitoring.\n\nPossible distractors could include incorrect actions like using Lugol's iodine, stopping methimazole, not using beta-blockers, or deferring surgery. The correct option should include continuing methimazole, checking labs, beta-blocker if appropriate, and no Lugol's.\n\nI need to ensure each option is distinct and clearly wrong. For example, one option might mention Lugol's iodine, another might suggest stopping methimazole. The correct option should include all the right steps. Also, the explanation should briefly mention the key points from the answer, like continuing methimazole, avoiding Lugol's, and monitoring.\n\nLet me structure the MCQ with four options. The correct answer is option A, which includes continuing methimazole, checking CBC/LFT, ECG, using beta-blocker if tolerated, no Lugol's, and close monitoring. The other options have errors like stopping methimazole, using Lugol's, or deferring surgery.\n\nI need to make sure the explanation is concise, highlighting the correct actions and why the others are wrong. That should cover the necessary points without being too lengthy."
+    },
+    {
+      "type": "mcq",
+      "stem": "A 45-year-old woman with papillary thyroid carcinoma and suppressed TSH (undetectable) is scheduled for urgent commando surgery. Her free T3/T4 are normal, pulse is 86, and she has no cardiac disease or thyrotoxic symptoms. What is the most appropriate management strategy?",
+      "options": [
+        "A) Proceed with surgery after standard optimisation (methimazole, beta-blocker if tolerated, CBC/LFTs, ECG) without deferring for TSH",
+        "B) Defer surgery until TSH normalises with thyroid hormone replacement",
+        "C) Administer Lugol's iodine preoperatively to prevent thyroid storm",
+        "D) Cancel surgery and initiate definitive antithyroid therapy with propylthiouracil"
+      ],
+      "correctOption": 0,
+      "explanation": "The suppressed TSH is a lagging indicator that does not reflect current thyroid function or cancer risk. The patient is biochemically euthyroid and clinically stable, making her fit for general anaesthesia. Lugol's iodine is contraindicated in this context, and thyroid hormone replacement would worsen cancer outcomes.",
+      "id": "cr-036-sa1-obj-57fc4f",
+      "subtopic": "The key decision",
+      "_generatedFrom": "cr-036-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into an objective exam question in JSON format, following the rules they've given. First, I need to understand the content of the Q&A.\n\nThe question is about a patient who needs urgent commando surgery. The answer states that proceeding with surgery is recommended despite an undetectable TSH because the patient is euthyroid and stable. The reasoning is that the suppressed TSH is a lagging indicator and doesn't reflect current risk, so delaying surgery would harm cancer outcomes. Optimization steps include methimazole, beta-blockers, lab tests, and anesthetic monitoring, but not Lugol's iodine.\n\nNow, the task is to create an objective question. The options should be plausible but clearly wrong. The correct answer is to proceed with surgery after optimization. The distractors might include deferring surgery for TSH, using Lugol's iodine, or other incorrect steps.\n\nConsidering the format, since it's a specific clinical decision with options, MCQ seems appropriate. The stem should ask about the recommended action and reasoning. The options need to reflect common mistakes, like waiting for TSH or using Lugol's. The correct option is proceeding with surgery after optimization, explaining that TSH is a lagging indicator.\n\nI need to ensure that the explanation in the JSON is brief and accurate, highlighting that TSH isn't a current risk indicator. Also, checking that all distractors are plausible but incorrect. For example, one option might mention deferring surgery for TSH, another might include Lugol's iodine, which is not recommended here. Another could be incorrect optimization steps.\n\nFinally, structure the JSON with the correct option as 0, and the explanation stating the reasoning about TSH being a lagging indicator. Make sure there are four options, each clearly wrong except the first one."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following findings would justify deferring thyroid surgery?",
+      "options": [
+        "A) Elevated free T3/free T4 (overt biochemical thyrotoxicosis) or clinical thyrotoxicosis",
+        "B) Isolated undetectable TSH with normal free T3/T4 and stable patient",
+        "C) Mild diffuse goiter without functional abnormalities",
+        "D) History of previous thyroidectomy for benign nodule"
+      ],
+      "correctOption": 0,
+      "explanation": "Overt thyrotoxicosis, thyroid storm, cardiac complications, and drug toxicity are indications for deferring surgery. An isolated undetectable TSH with normal hormones and stable patient does not require deferral.",
+      "id": "cr-036-sa2-obj-004060",
+      "subtopic": "Storm / deferral",
+      "_generatedFrom": "cr-036-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about findings that would justify deferring thyroid surgery. The answer lists several conditions like overt thyrotoxicosis, thyroid storm, specific heart issues, and drug toxicity.\n\nFirst, I need to determine the best question type. The answer provides a list of specific findings, so an MCQ seems appropriate here. The options should include the correct answer and plausible distractors. The correct answer includes elevated free T3/T4, clinical thyrotoxicosis, etc. The distractor mentioned in the answer is an isolated undetectable TSH with normal hormones and a stable patient, which shouldn't be a reason to defer surgery.\n\nI need to make sure the options are plausible but clearly wrong. For example, including the isolated TSH as a distractor. The explanation should briefly state that the correct answer includes the listed conditions, while the distractor doesn't meet the criteria. Also, checking that the JSON structure is correct with the right keys and values. Let me make sure the correctOption is pointing to the right answer (option A in this case) and that the explanation is concise and accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the appropriate management of methimazole and beta-blockade during the NPO perioperative period?",
+      "options": [
+        "A) Continue methimazole via enteral administration if oral intake is restricted, use IV beta-blockers during NPO periods, and maintain a written plan to avoid drug cessation",
+        "B) Discontinue methimazole during NPO periods and resume oral beta-blockade once oral intake is permitted",
+        "C) Administer methimazole parenterally and use oral beta-blockers during NPO periods",
+        "D) Use rectal methimazole and discontinue beta-blockade if heart rate remains stable"
+      ],
+      "correctOption": 0,
+      "explanation": "Methimazole should be continued via enteral routes during NPO periods to maintain thyroid control, while IV beta-blockers (e.g., esmolol/metoprolol) are required during fasting to manage heart rate. Discontinuation or incorrect routes increase risk of thyroid storm or arrhythmias.",
+      "id": "cr-036-sa3-obj-1fe602",
+      "subtopic": "Perioperative continuity",
+      "_generatedFrom": "cr-036-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is managing methimazole and beta-blockade during the NPO perioperative period.\n\nFirst, I need to determine the best question type. The answer provided is detailed, so an MCQ might work best here. The key points are maintaining thyroid control, administering methimazole enterally if NPO, using IV beta-blockers, and having a written plan. \n\nNow, the stem should ask about the management strategy. The options need to be plausible but incorrect. Let me think of common mistakes. Maybe someone might stop methimazole during NPO, or use oral beta-blockers instead of IV. Also, incorrect routes like rectal for methimazole could be a distractor.\n\nOption A should be correct, as per the answer. Option B could suggest stopping methimazole, which is wrong. Option C might use oral beta-blockers, which isn't appropriate during NPO. Option D might mention incorrect routes like rectal for methimazole. \n\nI need to ensure the explanation in the JSON is concise, highlighting the correct approach and why the other options are wrong. Also, check that the correct option is 0, and the explanation mentions maintaining thyroid control and IV beta-blockers. Let me structure the JSON accordingly."
     }
   ]
 }

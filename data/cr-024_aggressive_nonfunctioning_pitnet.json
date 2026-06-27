@@ -492,6 +492,22 @@
       "subtopic": "Radiotherapy",
       "_generatedFrom": "cr-024-sa3",
       "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The original question is about the anatomical parameter to check before Gamma Knife radiosurgery and the threshold. The answer mentions the distance between the tumor margin and the optic chiasm needing at least a 2-3 mm gap.\n\nFirst, I need to determine the best question type. Since it's a specific fact with a clear answer, MCQ seems appropriate. The options should include the correct answer and plausible distractors. The key points here are the anatomical parameter (optic chiasm) and the threshold (2-3 mm). \n\nPossible distractors could be other structures like the brainstem or cerebellum, and different distances like 1 mm or 5 mm. I need to ensure the options are clinically accurate. The correct option is the distance to the optic chiasm with 2-3 mm. Other options might mention incorrect structures or thresholds. \n\nI should also check the explanation to ensure it's brief and accurate, mentioning the risk of optic neuropathy and the alternative treatment if the threshold isn't met. Making sure the JSON is correctly formatted with the right keys and values. No markdown, just valid JSON. Let me structure the options so that the correct one is clearly the best choice, and the others are plausible but wrong."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is serum TSH not useful for adjusting levothyroxine in a patient with central (secondary) hypothyroidism?",
+      "options": [
+        "A) Because pituitary dysfunction leads to inappropriately low or normal TSH regardless of thyroid status, making TSH uninformative for dosing",
+        "B) Because TSH is elevated due to thyroid resistance to thyroid hormone",
+        "C) Because the patient is non-compliant with medication",
+        "D) Because TSH levels do not correlate with free T4 in patients on levothyroxine replacement"
+      ],
+      "correctOption": 0,
+      "explanation": "In central hypothyroidism, pituitary TSH secretion is impaired, resulting in low or normal TSH levels irrespective of thyroid function. TSH cannot guide dosing in this context; free T4 levels targeted to the upper-mid reference range are used instead.",
+      "id": "cr-024-why1-obj-b5ca56",
+      "subtopic": "Replacement monitoring",
+      "_generatedFrom": "cr-024-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question in JSON format. The original question is about why serum TSH is useless for adjusting levothyroxine in a patient with central hypothyroidism.\n\nFirst, I need to determine the best question type. The answer explains that TSH is uninformative because the pituitary is damaged, leading to low or normal TSH regardless of thyroid status. This is a specific fact, so MCQ seems appropriate. True/false might not capture the reasoning well, and assertion-reason could work, but MCQ allows for multiple plausible options.\n\nNext, the stem should be clear. The original question is \"Why is a serum TSH useless...\" so the stem should reflect that. The options need to be plausible but incorrect except for the correct one. The correct answer is about central hypothyroidism and TSH being low or normal. Distractors could include things like TSH being elevated, patient non-compliance, or TSH not reflecting free T4.\n\nI need to ensure clinical accuracy. Central hypothyroidism does cause low TSH because the pituitary isn't functioning. So the correct option should mention that. Other options might mention other causes, like peripheral issues or medication interference, which are not relevant here.\n\nNow, structuring the JSON. The type is MCQ. The stem is the question. Options should be A to D, with the correct option being the one about central hypothyroidism. Explanation should briefly state that in central hypothyroidism, TSH is low or normal, making it uninformative for titration.\n\nCheck for distractors: maybe option B says TSH is elevated, which is wrong. Option C could be about patient non-adherence, which isn't related. Option D might mention TSH not reflecting free T4, which is partially true but not the main reason here. The correct answer is A, explaining the central cause.\n\nMake sure the explanation is concise and accurate. The correctOption is 0 (the first option). That should cover it."
     }
   ]
 }

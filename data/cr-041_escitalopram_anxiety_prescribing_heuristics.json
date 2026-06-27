@@ -11,8 +11,12 @@
     "age": null,
     "sex": "Not applicable (prescribing-pattern teaching module)",
     "chiefComplaint": "Audit of a blanket prescribing habit: escitalopram for any patient who 'feels anxious'.",
-    "pmh": ["Composite teaching scenario — a resident's standing prescribing rule, not a single patient"],
-    "medications": ["Escitalopram, started 5 mg at bedtime for all, capped at 10 mg, stopped at 3–4 months"]
+    "pmh": [
+      "Composite teaching scenario — a resident's standing prescribing rule, not a single patient"
+    ],
+    "medications": [
+      "Escitalopram, started 5 mg at bedtime for all, capped at 10 mg, stopped at 3–4 months"
+    ]
   },
   "caseDescription": "A resident has adopted a fixed heuristic: anyone who reports anxiety is started on escitalopram 5 mg at bedtime, the dose never exceeds 10 mg, the drug is stopped at 3–4 months, there are no objective criteria to start or stop, and it is 'never combined' with any other anti-anxiety medication. This module audits that recipe — naming where each rule causes over-treatment, under-treatment or unsafe practice — and replaces it with a diagnosis-first, response-guided framework. (It is a prescribing-pattern teaching case, not a single-patient vignette.)",
   "keyFindings": [
@@ -338,6 +342,70 @@
       "subtopic": "Stopping criteria",
       "question": "What criteria and method should govern stopping escitalopram?",
       "answer": "Stop only when criteria are met: sustained remission (e.g. GAD-7 consistently <5) for an adequate period, restored function (work, sleep, relationships), coping strategies in place, major stressors resolved or managed, and the patient's informed agreement — and not simply because a fixed time has elapsed or the patient 'feels fine' without rebuilt function. Then taper gradually over several weeks (slower, with small or liquid decrements, in long-term users or those who develop discontinuation symptoms), avoiding abrupt cessation, and monitor for relapse for some months afterwards. Do not stop while the patient is still symptomatic or facing a fresh major stressor."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is screening for bipolar disorder essential before initiating an SSRI for anxiety?",
+      "options": [
+        "A) To avoid precipitating a manic or mixed state in undiagnosed bipolar disorder",
+        "B) To prevent weight gain associated with SSRI use",
+        "C) To reduce the risk of common SSRI side effects like nausea",
+        "D) To avoid drug interactions with other medications"
+      ],
+      "correctOption": 0,
+      "explanation": "Unopposed SSRI use in bipolar disorder can trigger manic or mixed states, which are dangerous and increase suicide risk.",
+      "id": "cr-041-why1-obj-ab14b4",
+      "subtopic": "Diagnosis first",
+      "_generatedFrom": "cr-041-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A about screening for bipolar disorder and medical mimics before starting an SSRI for anxiety. The answer explains why this screening is essential, mentioning risks like inducing mania, delaying proper treatment for medical conditions, and considering comorbid depression.\n\nFirst, I need to determine the best question type. The key points involve specific risks and reasons, which suggests a multiple-choice question (MCQ) would be appropriate. True/false might be too simplistic here, and assertion-reason could work, but MCQ allows for multiple plausible distractors.\n\nNext, the stem should ask why screening is essential. The options need to be plausible but incorrect except for the correct one. The correct answer should mention the risk of inducing mania in bipolar disorder. Distractors could include things like preventing weight gain, reducing side effects, or avoiding drug interactions, which are common but not the main reasons here.\n\nI need to ensure clinical accuracy. The explanation in the answer emphasizes that SSRIs can trigger mania in bipolar patients and that medical mimics require different treatments. So the correct option must reflect that. Other options should be related to SSRI use but not the primary reason for screening in this context.\n\nNow, structuring the JSON. The stem is the question, options are A to D, correctOption is 0 (since the first option is correct), and the explanation should briefly state the reason related to mania induction in bipolar disorder.\n\nI need to check that all distractors are plausible but wrong. For example, option B about weight gain isn't directly related to the screening's necessity. Option C about side effects is too vague. Option D about drug interactions isn't the main point here. The correct answer (A) directly addresses the risk of mania, which is a key point from the original answer.\n\nFinally, ensuring that the JSON is valid with proper syntax, no markdown, and only the required fields. The explanation should be concise, linking the correct answer to the risk of mania in bipolar disorder."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the recommended approach to replace a resident's blanket heuristic when managing a patient with anxiety?",
+      "options": [
+        "A) Initiate benzodiazepines for immediate relief without further assessment",
+        "B) Use a structured pathway involving assessment, classification, and tailored treatment",
+        "C) Prescribe SSRIs universally at maximum dose regardless of severity",
+        "D) Recommend CBT alone for all patients without pharmacologic intervention"
+      ],
+      "correctOption": 1,
+      "explanation": "A structured pathway is essential for anxiety management, including assessment (GAD-7, suicide risk, medical screening), classification by severity (mild/moderate/severe), and individualized treatment (SSRIs with CBT, dose titration, informed consent, and continuation for 6–12 months post-remission).",
+      "id": "cr-041-how1-obj-9b7582",
+      "subtopic": "Right framework",
+      "_generatedFrom": "cr-041-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a medical question based on the provided Q&A, formatted as JSON. The original answer details a structured approach to managing anxiety in a patient, replacing the blanket heuristic with a specific pathway.\n\nFirst, I need to determine the best question type. The answer outlines a multi-step process, which suggests a MCQ would be appropriate since it's about specific steps and classifications. True/false might not capture the nuances, and assertion-reason could be tricky here.\n\nNext, the stem should ask about replacing the blanket heuristic. The options need to be plausible but incorrect except for the correct one. The key points from the answer are assessing, classifying severity, treating with SSRIs and CBT, and continuation duration. The distractors could include other treatments like benzodiazepines as primary, not using CBT, or incorrect duration.\n\nI need to ensure the correct option is the structured pathway as described. The explanation should mention the steps like assessment, classification, treatment, and continuation. Also, check that distractors are common mistakes, like using benzodiazepines long-term or not using CBT.\n\nNow, structure the JSON with the stem, options, correct option, and explanation. Make sure the explanation is brief but covers the main points. Avoid markdown and ensure valid JSON syntax."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the correct dosing limit for escitalopram in adults, and what is the pharmacological reason for this ceiling?",
+      "options": [
+        "A. 5–20 mg/day in adults; ceiling due to risk of serotonin syndrome",
+        "B. 10–30 mg/day in adults; ceiling due to hepatic toxicity",
+        "C. 5–20 mg/day in adults; ceiling due to dose-dependent QT-interval prolongation",
+        "D. 5–40 mg/day in adults; ceiling due to risk of hyponatremia"
+      ],
+      "correctOption": 2,
+      "explanation": "Escitalopram's maximum dose is 20 mg/day in adults due to dose-dependent QT prolongation, which increases torsades de pointes risk. Options A, B, and D incorrectly attribute the ceiling to serotonin syndrome, hepatic toxicity, or hyponatremia, respectively, and include incorrect dose ranges.",
+      "id": "cr-041-sa2-obj-4269f2",
+      "subtopic": "Dosing facts",
+      "_generatedFrom": "cr-041-sa2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the provided Q&A into an objective exam question in JSON format, following the rules given. The original question is about escitalopram dosing limits and the pharmacological reason for the ceiling.\n\nFirst, I need to determine the best question type. The answer involves specific dosing guidelines and a reason related to QT prolongation. Since there are specific facts here, an MCQ seems appropriate. The options should include the correct answer and plausible distractors.\n\nThe correct answer mentions 5–20 mg/day in adults, 10 mg in older adults and hepatic impairment, and avoiding 30 mg. The reason is QT prolongation leading to torsades de pointes. Distractors might include incorrect maximum doses or reasons like liver toxicity or serotonin syndrome. I need to ensure the options are plausible but clearly wrong.\n\nNext, structuring the JSON. The stem should ask for the correct dosing limits and the reason. The options need to be A to D, with the correct option as 0. The explanation should briefly state the reason related to QT prolongation.\n\nI need to check that all distractors are incorrect but realistic. For example, 20 mg in older adults is wrong, and serotonin syndrome isn't the reason here. Also, ensuring that the explanation in the JSON is concise and accurate.\n\nFinally, making sure the JSON is valid with no markdown or extra text. Double-checking the correctOption index and that all fields are present. That should cover it."
+    },
+    {
+      "type": "mcq",
+      "stem": "What criteria and method should govern stopping escitalopram?",
+      "options": [
+        "A) Stop when sustained remission (e.g., GAD-7 <5), restored function, coping strategies in place, stressors resolved, and patient agreement; taper gradually over weeks, avoid abrupt cessation, and monitor for relapse.",
+        "B) Stop after 6 months of treatment regardless of symptoms, with abrupt cessation and no monitoring for relapse.",
+        "C) Stop when the patient feels fine, even without restored function, and discontinue abruptly without tapering.",
+        "D) Stop only if the patient requests it, regardless of clinical status, with no tapering or monitoring."
+      ],
+      "correctOption": 0,
+      "explanation": "Stopping escitalopram requires sustained remission, restored function, resolved stressors, and patient agreement, with gradual tapering and relapse monitoring to prevent recurrence.",
+      "id": "cr-041-sa3-obj-296a97",
+      "subtopic": "Stopping criteria",
+      "_generatedFrom": "cr-041-sa3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about stopping escitalopram.\n\nFirst, I need to determine the best question type. The answer provided is detailed, listing criteria for stopping the medication and the method. Since it's about specific criteria and steps, an MCQ might be suitable. However, the answer includes multiple points, so maybe an assertion-reason question? Wait, the answer is more about a set of criteria rather than a cause-effect relationship. So perhaps MCQ is better here.\n\nLooking at the answer, the key points are: sustained remission, restored function, coping strategies, resolved stressors, informed agreement. The method involves tapering gradually, avoiding abrupt cessation, monitoring for relapse. The incorrect options should be plausible but wrong. For example, stopping after a fixed time, stopping when the patient feels fine without restored function, abrupt cessation, not monitoring for relapse.\n\nSo the stem should ask about the correct criteria and method for stopping escitalopram. The options need to reflect these points. The correct answer would include all the criteria mentioned and the proper tapering method. Distractors might include stopping after a fixed duration, stopping based on feeling fine without restored function, abrupt cessation, or not monitoring for relapse.\n\nI need to ensure that the options are plausible but clearly wrong. For example, one option might say stopping after 6 months regardless of symptoms, another might mention abrupt cessation, another might say not monitoring for relapse. The correct option should include all the criteria and the proper tapering.\n\nNow, structuring the MCQ: the stem is the question, options A-D, correctOption as 0 (assuming the first option is correct). The explanation should mention the criteria and the tapering method. Let me check the original answer again to make sure all points are covered. Yes, sustained remission, restored function, coping strategies, stressors resolved, informed agreement, gradual tapering, avoiding abrupt, monitor for relapse.\n\nSo the correct option should include all these. The distractors should miss one or more of these points. For example, an option that says stopping after a fixed time, or stopping when the patient feels fine without restored function, or not tapering gradually, or not monitoring for relapse.\n\nI think that's covered. Now, formatting the JSON as per the rules. Make sure the options are in order, correctOption is 0, and the explanation is concise."
     }
   ]
 }
