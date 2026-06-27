@@ -50,7 +50,8 @@ for (const entry of readdirSync(assetsDest)) {
 }
 copyDir(resolve(distDir, 'assets'), assetsDest)
 
-for (const file of ['favicon.svg']) {
+// Copy static public assets (favicon, PWA service worker + manifest, icons).
+for (const file of ['favicon.svg', 'icons.svg', 'sw.js', 'manifest.webmanifest']) {
   const src = resolve(distDir, file)
   try {
     cpSync(src, resolve(repoRoot, file))
@@ -59,4 +60,4 @@ for (const file of ['favicon.svg']) {
   }
 }
 
-console.log('Deployed web/dist → repo root (index.html + assets/)')
+console.log('Deployed web/dist → repo root (index.html + assets/ + sw.js + manifest)')
