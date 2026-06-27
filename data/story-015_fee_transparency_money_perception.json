@@ -253,6 +253,49 @@
         "Limitation: if charges are genuinely unnecessary, the practice (not just messaging) must change.",
         "Assumptions: the clinic controls pricing/receipting/ordering and patients respond to transparency."
       ]
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "A financially honest clinic can be perceived as 'only wanting money' despite its integrity.",
+      "reason": "Because opacity in financial handling allows patients to interpret unexplained charges as predatory, even if the clinic is honest.",
+      "correctOption": 0,
+      "explanation": "Patients evaluate fairness based on transparency of financial practices, not clinical necessity. Without clear explanations for fees, even honest clinics risk being perceived as exploitative due to the lack of benign narratives around charges.",
+      "id": "story-015-why1-obj-88fe0b",
+      "subtopic": "Perception",
+      "_generatedFrom": "story-015-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a question based on the provided Q&A, following the rules for Harrison's. The main point is about why a financially honest clinic might be seen as money-driven. The answer emphasizes patient perception based on how money is handled, not clinical judgment. Key points are patients evaluating fairness, opacity leading to cynical interpretations, and honesty without transparency seeming exploitative.\n\nFirst, I need to determine the question type. The answer explains a cause-effect relationship between the clinic's transparency and patient perception. So assertion_reason might be suitable here. The assertion could be that a financially honest clinic can be perceived as predatory, and the reason would relate to lack of transparency in handling money.\n\nBut wait, the original answer says that even if the clinic is honest, if they're opaque about money, patients see them as predatory. So the assertion is about the perception despite honesty, and the reason is the opacity. Let me check the options again. The key points mention that honesty without transparency still reads as exploitation. So the assertion is that an honest clinic can be seen as predatory, and the reason is because of opacity in financial handling.\n\nNow, the assertion_reason format requires two parts: assertion and reason. The correct option would be 0 (both true, reason explains assertion). The explanation should link the lack of transparency leading to the perception. Let me structure that properly. The assertion is the clinic being perceived as predatory despite honesty. The reason is the opacity in financial dealings. The explanation would tie the two together, explaining that without transparency, even honest practices are misinterpreted."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which strategy is most effective for ensuring fair and transparent fee practices in a clinic?",
+      "options": [
+        "A. Display all charges upfront, justify each item with a one-sentence rationale, use cost-effective generics, provide automatic itemized receipts, avoid gating safety information behind fees, and audit for over-ordering.",
+        "B. Offer discounts for cash payments and bundle services into annual packages to simplify billing.",
+        "C. Use vague pricing statements and require patients to ask for detailed breakdowns upon request.",
+        "D. Charge separately for safety-critical consultations and bundle routine follow-ups into fixed-fee packages."
+      ],
+      "correctOption": 0,
+      "explanation": "Transparency, justification of costs, use of generics, itemized receipts, and avoiding fee barriers for safety information are central to fair practices, as outlined in the answer.",
+      "id": "story-015-how1-obj-ae8ac1",
+      "subtopic": "Building Trust",
+      "_generatedFrom": "story-015-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about making clinic fees feel fair and transparent.\n\nFirst, I need to determine the best question type. The answer provided has several key points: up-front pricing, one-line necessity, least-cost options, itemized receipts, not gating safety info with fees, and auditing. These are specific strategies, so an MCQ might work best here. True/false could be too broad, and assertion-reason might not fit as well since the answer is a list of actions rather than a cause-effect relationship.\n\nNext, the stem should ask about the best approach to ensure fair and transparent fees. The options need to be plausible but clearly wrong. Let me think of distractors. Maybe options that don't address up-front pricing, or that include gating safety info, or don't mention audits. \n\nOption A should be the correct one, incorporating all key points. The other options might miss some elements. For example, one might not mention itemized receipts, another could include gating safety info behind fees, which is against the key points. Another might not address auditing. \n\nI need to ensure the explanation in the JSON correctly identifies why the correct option is right, focusing on the key points mentioned. Also, check that the distractors are clearly wrong but plausible. Let me structure the JSON accordingly, making sure the correct option is A and the explanation covers the main strategies."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following is the appropriate transparency fix for the signal 'No receipt' in financial exploitation scenarios?",
+      "options": [
+        "A. Display consultation and common charges up front",
+        "B. Issue an itemised receipt automatically",
+        "C. Practise stewardship by ordering only necessary investigations",
+        "D. Offer the least costly effective drug option"
+      ],
+      "correctOption": 1,
+      "explanation": "The correct fix for 'No receipt' is automatic itemised receipts (B). Other options address different signals: A addresses 'No price visibility,' C addresses 'Many investigations,' and D addresses 'Default branded drugs.'",
+      "id": "story-015-sa1-obj-bffb91",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-015-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A about financial exploitation signals and transparency fixes into an objective exam question for Harrison's. The original answer lists seven signals with corresponding fixes. \n\nFirst, I need to determine the best question type. The options are MCQ, True/False, or Assertion/Reason. Since the original answer pairs each signal with a fix, an MCQ might work best here. Each option can present a signal and its fix, and the correct answer would be the matching pair.\n\nLooking at the signals and fixes, each is a specific fact. For example, \"No receipt → issue an itemised receipt automatically.\" So, the question could ask which fix corresponds to a specific signal. The distractors would be other fixes from the list, ensuring they're plausible but incorrect.\n\nI need to ensure that the options are plausible but clearly wrong. For instance, if the signal is \"No receipt,\" the correct fix is itemised receipt, but other options might pair it with different fixes like \"display consultation charges\" or \"practise stewardship.\" These are from other signals, making them incorrect but plausible.\n\nThe explanation should briefly state why the correct answer is right and why the others are wrong. For example, explaining that the correct fix for no receipt is itemised receipts, while others address different issues.\n\nI need to check that all seven signals are covered, but since the user asked for one question, I have to pick one signal and its fix as the question. Maybe the most common or critical one, like \"No receipt\" as it's a straightforward example. The options would include the correct fix and others from the list.\n\nFinally, structure the JSON with the stem, options, correct option index, and explanation. Make sure the JSON is valid, with no markdown or extra text. Double-check the clinical accuracy and that the distractors are indeed incorrect but plausible."
     }
   ]
 }

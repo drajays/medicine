@@ -1,0 +1,1271 @@
+
+============================================================
+🤖 Model   : qwen3:14b
+📁 Files   : 207
+⏱  Timeout : 180s  |  🔁 Retries: 3
+✏️  WRITE MODE
+============================================================
+
+📄 cr-001_diabetic_chronic_diarrhea.json                    [0/6 done]  ⏱0s
+  🔄 [why        ] cr-001-why1 ... ✅ mcq
+  🔄 [why        ] cr-001-why2 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [why        ] cr-001-why3 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-001-how1 ... ✅ mcq
+  🔄 [how        ] cr-001-how2 ... ✅ mcq
+  🔄 [how        ] cr-001-how3 ... ✅ mcq
+  💾 5 items written → cr-001_diabetic_chronic_diarrhea.json
+📄 cr-002_cranio_orbital_syndrome.json                      [0/9 done]  ⏱668s
+  🔄 [why        ] cr-002-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-002-why2 ... ✅ mcq
+  🔄 [why        ] cr-002-why3 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-002-how1 ... ✅ mcq
+  🔄 [how        ] cr-002-how2 ... ✅ mcq
+  🔄 [how        ] cr-002-how3 ... ✅ mcq
+  🔄 [why        ] cr-002-why4 ... ✅ mcq
+  🔄 [why        ] cr-002-why5 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-002-how4 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  💾 6 items written → cr-002_cranio_orbital_syndrome.json
+📄 cr-003_severe_hypercalcemia_calcitriol.json              [0/6 done]  ⏱1975s
+  🔄 [why        ] cr-003-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-003-why2 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-003-why3 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-003-how1 ... ✅ mcq
+  🔄 [how        ] cr-003-how2 ... ✅ mcq
+  🔄 [how        ] cr-003-how3 ... ⚠️retry1 ✅ mcq
+  💾 4 items written → cr-003_severe_hypercalcemia_calcitriol.json
+📄 cr-004_nccah_metabolic_trap_classic_reclassification.json  [0/11 done]  ⏱2912s
+  🔄 [why        ] cr-004-why1 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [why        ] cr-004-why2 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-004-why3 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-004-why4 ... ✅ mcq
+  🔄 [why        ] cr-004-why5 ... ✅ mcq
+  🔄 [why        ] cr-004-why6 ... ✅ mcq
+  🔄 [why        ] cr-004-why7 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-004-why8 ... ✅ mcq
+  🔄 [why        ] cr-004-why9 ... ✅ mcq
+  🔄 [why        ] cr-004-why10 ... ✅ mcq
+  🔄 [why        ] cr-004-why11 ... ✅ mcq
+  💾 10 items written → cr-004_nccah_metabolic_trap_classic_reclassification.json
+📄 cr-005_21ohd_lifespan_management.json                    [0/11 done]  ⏱4158s
+  🔄 [why        ] cr-005-why1 ... ✅ mcq
+  🔄 [why        ] cr-005-why2 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-005-why3 ... ✅ mcq
+  🔄 [why        ] cr-005-why4 ... ✅ mcq
+  🔄 [why        ] cr-005-why5 ... ✅ mcq
+  🔄 [why        ] cr-005-why6 ... ✅ assertion_reason
+  🔄 [why        ] cr-005-why7 ... ✅ mcq
+  🔄 [why        ] cr-005-why8 ... ✅ mcq
+  🔄 [why        ] cr-005-why9 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [why        ] cr-005-why10 ... ✅ mcq
+  🔄 [why        ] cr-005-why11 ... ✅ mcq
+  💾 11 items written → cr-005_21ohd_lifespan_management.json
+📄 cr-006_pregnancy_hypothyroidism_tsh_guided.json          [0/4 done]  ⏱5162s
+  🔄 [why        ] cr-006-why1 ... ✅ mcq
+  🔄 [why        ] cr-006-why2 ... ✅ assertion_reason
+  🔄 [why        ] cr-006-why3 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [how        ] cr-006-how1 ... ✅ mcq
+  💾 4 items written → cr-006_pregnancy_hypothyroidism_tsh_guided.json
+📄 cr-007_short_stature_neonatal_insult.json                [0/30 done]  ⏱5606s
+  🔄 [why        ] cr-007-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why2 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-007-why3 ... ✅ mcq
+  🔄 [why        ] cr-007-why4 ... ✅ mcq
+  🔄 [why        ] cr-007-why5 ... ✅ mcq
+  🔄 [why        ] cr-007-why6 ... ✅ mcq
+  🔄 [why        ] cr-007-why7 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why8 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [why        ] cr-007-why9 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why10 ... ✅ mcq
+  🔄 [why        ] cr-007-why11 ... ✅ mcq
+  🔄 [why        ] cr-007-why12 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why13 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why14 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why15 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-007-why16 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-007-why17 ... ✅ mcq
+  🔄 [why        ] cr-007-why18 ... ✅ mcq
+  🔄 [why        ] cr-007-why19 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why20 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [why        ] cr-007-why21 ... ✅ mcq
+  🔄 [why        ] cr-007-why22 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [why        ] cr-007-why23 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-007-why24 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-007-why25 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-007-why26 ... ✅ assertion_reason
+  🔄 [why        ] cr-007-why27 ... ✅ mcq
+  🔄 [why        ] cr-007-why28 ... ✅ mcq
+  🔄 [why        ] cr-007-why29 ... ✅ mcq
+  🔄 [why        ] cr-007-why30 ... ⚠️retry1 ⚠️retry2 ✅ assertion_reason
+  💾 22 items written → cr-007_short_stature_neonatal_insult.json
+📄 cr-008_primary_aldosteronism_resistant_htn.json          [0/11 done]  ⏱10004s
+  🔄 [why        ] cr-008-why1 ... ✅ mcq
+  🔄 [why        ] cr-008-why2 ... ⚠️retry1 ⚠️retry2 ✅ assertion_reason
+  🔄 [why        ] cr-008-why3 ... ✅ mcq
+  🔄 [why        ] cr-008-why4 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-008-why5 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-008-why6 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-008-why7 ... ✅ mcq
+  🔄 [why        ] cr-008-why8 ... ✅ mcq
+  🔄 [how        ] cr-008-how1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] cr-008-how2 ... ✅ mcq
+  🔄 [how        ] cr-008-how3 ... ⚠️retry1 ✅ mcq
+  💾 10 items written → cr-008_primary_aldosteronism_resistant_htn.json
+📄 cr-009_amiodarone_induced_thyrotoxicosis.json            [0/20 done]  ⏱11437s
+  🔄 [why        ] cr-009-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [shortanswer] cr-009-sa1 ... ✅ mcq
+  🔄 [why        ] cr-009-why2 ... ✅ mcq
+  🔄 [why        ] cr-009-why3 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [shortanswer] cr-009-sa2 ... ✅ mcq
+  🔄 [why        ] cr-009-why4 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [shortanswer] cr-009-sa3 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-009-why5 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [shortanswer] cr-009-sa4 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-009-why6 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [how        ] cr-009-how1 ... ✅ mcq
+  🔄 [how        ] cr-009-how2 ... ✅ mcq
+  🔄 [how        ] cr-009-how3 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [shortanswer] cr-009-sa5 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-009-sa6 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-009-why7 ... ✅ mcq
+  🔄 [how        ] cr-009-how4 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-009-sa7 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-009-why8 ... ✅ mcq
+  🔄 [why        ] cr-009-why9 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  💾 15 items written → cr-009_amiodarone_induced_thyrotoxicosis.json
+📄 cr-010_dual_mechanism_hypercalcemia.json                 [0/26 done]  ⏱14584s
+  🔄 [shortanswer] cr-010-sa1 ... ✅ mcq
+  🔄 [why        ] cr-010-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-010-how1 ... ✅ mcq
+  🔄 [why        ] cr-010-why2 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa2 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [shortanswer] cr-010-sa3 ... ✅ mcq
+  🔄 [why        ] cr-010-why3 ... ✅ assertion_reason
+  🔄 [shortanswer] cr-010-sa4 ... ✅ mcq
+  🔄 [why        ] cr-010-why4 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [shortanswer] cr-010-sa5 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-010-how2 ... ✅ mcq
+  🔄 [how        ] cr-010-how3 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] cr-010-how4 ... ✅ mcq
+  🔄 [how        ] cr-010-how5 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] cr-010-why5 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa6 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa7 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa8 ... ✅ assertion_reason
+  🔄 [shortanswer] cr-010-sa9 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-010-sa10 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa11 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa12 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-010-sa13 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-010-sa14 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa15 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa16 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  💾 22 items written → cr-010_dual_mechanism_hypercalcemia.json
+📄 cr-011_naproxen_prescribing_module.json                  [0/2 done]  ⏱17553s
+  🔄 [why        ] cr-011-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-011-how1 ... ✅ mcq
+  💾 1 items written → cr-011_naproxen_prescribing_module.json
+📄 cr-012_precocious_puberty_resident_module.json           [0/5 done]  ⏱17841s
+  🔄 [why        ] cr-012-why1 ... ✅ mcq
+  🔄 [how        ] cr-012-how1 ... ✅ mcq
+  🔄 [why        ] cr-012-why2 ... ✅ mcq
+  🔄 [how        ] cr-012-how2 ... ✅ mcq
+  🔄 [shortanswer] cr-012-sa1 ... ✅ mcq
+  💾 5 items written → cr-012_precocious_puberty_resident_module.json
+📄 cr-013_levothyroxine_herbal_substitution.json            [0/5 done]  ⏱18163s
+  🔄 [why        ] cr-013-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [why        ] cr-013-why2 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [how        ] cr-013-how1 ... ✅ mcq
+  🔄 [how        ] cr-013-how2 ... ✅ mcq
+  🔄 [shortanswer] cr-013-sa1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  💾 3 items written → cr-013_levothyroxine_herbal_substitution.json
+📄 cr-014_bph_isolated_systolic_htn_alpha_blocker.json      [0/3 done]  ⏱18961s
+  🔄 [why        ] cr-014-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-014-how1 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [shortanswer] cr-014-sa1 ... ✅ mcq
+  💾 2 items written → cr-014_bph_isolated_systolic_htn_alpha_blocker.json
+📄 cr-015_lookalike_insulin_device_error.json               [0/3 done]  ⏱19491s
+  🔄 [why        ] cr-015-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] cr-015-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-015-sa1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  💾 2 items written → cr-015_lookalike_insulin_device_error.json
+📄 cr-016_gnrh_agonist_failure_rescue.json                  [0/3 done]  ⏱19911s
+  🔄 [why        ] cr-016-why1 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [how        ] cr-016-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-016-sa1 ... ✅ mcq
+  💾 3 items written → cr-016_gnrh_agonist_failure_rescue.json
+📄 cr-017_gnrh_agonist_stopping_criteria_gh.json            [0/16 done]  ⏱20176s
+  🔄 [shortanswer] cr-017-sa1 ... ✅ mcq
+  🔄 [shortanswer] cr-017-sa2 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-017-sa3 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [shortanswer] cr-017-sa4 ... ✅ mcq
+  🔄 [shortanswer] cr-017-sa5 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-017-sa6 ... ✅ mcq
+  🔄 [shortanswer] cr-017-sa7 ... ✅ mcq
+  🔄 [shortanswer] cr-017-sa8 ... ✅ mcq
+  🔄 [shortanswer] cr-017-sa9 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [shortanswer] cr-017-sa10 ... ✅ mcq
+  🔄 [why        ] cr-017-why1 ... ✅ mcq
+  🔄 [why        ] cr-017-why2 ... ✅ mcq
+  🔄 [why        ] cr-017-why3 ... ✅ assertion_reason
+  🔄 [why        ] cr-017-why4 ... ⚠️retry1 ⚠️retry2 ✅ mcq
+  🔄 [how        ] cr-017-how1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-017-how2 ... ✅ assertion_reason
+  💾 14 items written → cr-017_gnrh_agonist_stopping_criteria_gh.json
+📄 cr-018_sex_steroid_priming_ghst_empty_sella.json         [0/3 done]  ⏱22105s
+  🔄 [why        ] cr-018-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] cr-018-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-018-sa1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  💾 2 items written → cr-018_sex_steroid_priming_ghst_empty_sella.json
+📄 cr-019_tbm_chronic_liver_disease_module.json             [0/2 done]  ⏱22592s
+  🔄 [why        ] cr-019-why1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  🔄 [how        ] cr-019-how1 ... ✅ mcq
+  💾 1 items written → cr-019_tbm_chronic_liver_disease_module.json
+📄 cr-020_post_thyroidectomy_lt4_cad.json                   [0/2 done]  ⏱22937s
+  🔄 [why        ] cr-020-why1 ... ✅ assertion_reason
+  🔄 [how        ] cr-020-how1 ... ⚠️retry1 ⚠️retry2 ❌ skip
+  💾 1 items written → cr-020_post_thyroidectomy_lt4_cad.json
+📄 cr-021_severe_hypothyroidism_urgent_onco_surgery.json    [0/2 done]  ⏱23373s
+  🔄 [why        ] cr-021-why1 ... ⚠️retry1 ⚠️retry2 Traceback (most recent call last):
+  File "/Users/dr.ajayshukla/harrison_app/convert_descriptive_to_objective.py", line 273, in <module>
+    main()
+    ~~~~^^
+  File "/Users/dr.ajayshukla/harrison_app/convert_descriptive_to_objective.py", line 261, in main
+    added  = process_file(fpath, args.model, args.dry_run,
+                          args.limit, counter, args.timeout, args.retries)
+  File "/Users/dr.ajayshukla/harrison_app/convert_descriptive_to_objective.py", line 155, in process_file
+    raw = call_ollama(build_prompt(item), model, timeout)
+  File "/Users/dr.ajayshukla/harrison_app/convert_descriptive_to_objective.py", line 67, in call_ollama
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 487, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1350, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 1325, in do_open
+    r = h.getresponse()
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+============================================================
+🤖 Model   : qwen2.5:3b
+📁 Files   : 209
+⏱  Timeout : 120s  |  🔁 Retries: 3
+✏️  WRITE MODE
+============================================================
+
+📄 cr-001_diabetic_chronic_diarrhea.json                    [5/6 done]  ⏱0s
+  🔄 [why        ] cr-001-why3 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+📄 cr-002_cranio_orbital_syndrome.json                      [6/9 done]  ⏱10s
+  🔄 [why        ] cr-002-why1 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+  🔄 [why        ] cr-002-why3 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+  🔄 [why        ] cr-002-why5 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+📄 cr-003_severe_hypercalcemia_calcitriol.json              [4/6 done]  ⏱40s
+  🔄 [why        ] cr-003-why1 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+  🔄 [why        ] cr-003-why3 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+📄 cr-004_nccah_metabolic_trap_classic_reclassification.json  [10/11 done]  ⏱60s
+  🔄 [why        ] cr-004-why2 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+📄 cr-007_short_stature_neonatal_insult.json                [22/30 done]  ⏱70s
+  🔄 [why        ] cr-007-why1 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+  🔄 [why        ] cr-007-why7 ... ⏱retry1 ⏱retry2 ❌ FAIL (HTTP Error 404: Not Found)
+❌ skip
+  🔄 [why        ] cr-007-why9 ... ⏱retry1 
+============================================================
+🤖 Model   : deepseek-r1:14b
+📁 Files   : 209
+⏱  Timeout : 240s  |  🔁 Retries: 3
+✏️  WRITE MODE
+============================================================
+
+📄 cr-001_diabetic_chronic_diarrhea.json                    [5/6 done]  ⏱0s
+  🔄 [why        ] cr-001-why3 ... ✅ assertion_reason
+  💾 1 items written → cr-001_diabetic_chronic_diarrhea.json
+📄 cr-002_cranio_orbital_syndrome.json                      [6/9 done]  ⏱81s
+  🔄 [why        ] cr-002-why1 ... ✅ assertion_reason
+  🔄 [why        ] cr-002-why3 ... ✅ assertion_reason
+  🔄 [why        ] cr-002-why5 ... ✅ mcq
+  💾 3 items written → cr-002_cranio_orbital_syndrome.json
+📄 cr-003_severe_hypercalcemia_calcitriol.json              [4/6 done]  ⏱303s
+  🔄 [why        ] cr-003-why1 ... ✅ assertion_reason
+  🔄 [why        ] cr-003-why3 ... ✅ mcq
+  💾 2 items written → cr-003_severe_hypercalcemia_calcitriol.json
+📄 cr-004_nccah_metabolic_trap_classic_reclassification.json  [10/11 done]  ⏱509s
+  🔄 [why        ] cr-004-why2 ... ✅ assertion_reason
+  💾 1 items written → cr-004_nccah_metabolic_trap_classic_reclassification.json
+📄 cr-007_short_stature_neonatal_insult.json                [22/30 done]  ⏱570s
+  🔄 [why        ] cr-007-why1 ... ✅ mcq
+  🔄 [why        ] cr-007-why7 ... ✅ assertion_reason
+  🔄 [why        ] cr-007-why9 ... ✅ mcq
+  🔄 [why        ] cr-007-why12 ... ✅ mcq
+  🔄 [why        ] cr-007-why13 ... ✅ mcq
+  🔄 [why        ] cr-007-why14 ... ⚠️retry1 ✅ true_false
+  🔄 [why        ] cr-007-why19 ... ✅ mcq
+  🔄 [why        ] cr-007-why24 ... ✅ true_false
+  💾 8 items written → cr-007_short_stature_neonatal_insult.json
+📄 cr-008_primary_aldosteronism_resistant_htn.json          [10/11 done]  ⏱1447s
+  🔄 [why        ] cr-008-why4 ... 
+============================================================
+🤖 Model   : deepseek-r1:14b
+📁 Files   : 209
+⏱  Timeout : 240s  |  🔁 Retries: 3
+✏️  WRITE MODE
+============================================================
+
+📄 cr-008_primary_aldosteronism_resistant_htn.json          [10/11 done]  ⏱0s
+  🔄 [why        ] cr-008-why4 ... ✅ assertion_reason
+  💾 1 items written → cr-008_primary_aldosteronism_resistant_htn.json
+📄 cr-009_amiodarone_induced_thyrotoxicosis.json            [15/20 done]  ⏱59s
+  🔄 [why        ] cr-009-why1 ... ✅ mcq
+  🔄 [why        ] cr-009-why3 ... 
+============================================================
+🤖 Model   : qwen3:14b
+📁 Files   : 209
+⏱  Timeout : 300s  |  🔁 Retries: 2
+✏️  WRITE MODE
+============================================================
+
+📄 cr-009_amiodarone_induced_thyrotoxicosis.json            [15/20 done]  ⏱0s
+  🔄 [why        ] cr-009-why1 ... ✅ mcq
+  🔄 [why        ] cr-009-why3 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] cr-009-sa3 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] cr-009-sa4 ... ✅ mcq
+  🔄 [shortanswer] cr-009-sa6 ... ✅ mcq
+  💾 3 items written → cr-009_amiodarone_induced_thyrotoxicosis.json
+📄 cr-010_dual_mechanism_hypercalcemia.json                 [22/26 done]  ⏱887s
+  🔄 [why        ] cr-010-why1 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] cr-010-sa2 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] cr-010-why4 ... ✅ mcq
+  🔄 [shortanswer] cr-010-sa5 ... ⚠️retry1 ❌ skip
+  💾 1 items written → cr-010_dual_mechanism_hypercalcemia.json
+📄 cr-011_naproxen_prescribing_module.json                  [1/2 done]  ⏱1919s
+  🔄 [why        ] cr-011-why1 ... ⚠️retry1 ❌ skip
+📄 cr-013_levothyroxine_herbal_substitution.json            [3/5 done]  ⏱2072s
+  🔄 [why        ] cr-013-why1 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [shortanswer] cr-013-sa1 ... ⚠️retry1 ❌ skip
+  💾 1 items written → cr-013_levothyroxine_herbal_substitution.json
+📄 cr-014_bph_isolated_systolic_htn_alpha_blocker.json      [2/3 done]  ⏱2366s
+  🔄 [why        ] cr-014-why1 ... ⚠️retry1 ❌ skip
+📄 cr-015_lookalike_insulin_device_error.json               [2/3 done]  ⏱2527s
+  🔄 [shortanswer] cr-015-sa1 ... ⚠️retry1 ❌ skip
+📄 cr-017_gnrh_agonist_stopping_criteria_gh.json            [14/16 done]  ⏱2692s
+  🔄 [shortanswer] cr-017-sa3 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] cr-017-how1 ... ✅ mcq
+  💾 2 items written → cr-017_gnrh_agonist_stopping_criteria_gh.json
+📄 cr-018_sex_steroid_priming_ghst_empty_sella.json         [2/3 done]  ⏱2909s
+  🔄 [shortanswer] cr-018-sa1 ... ✅ mcq
+  💾 1 items written → cr-018_sex_steroid_priming_ghst_empty_sella.json
+📄 cr-019_tbm_chronic_liver_disease_module.json             [1/2 done]  ⏱2971s
+  🔄 [why        ] cr-019-why1 ... ✅ mcq
+  💾 1 items written → cr-019_tbm_chronic_liver_disease_module.json
+📄 cr-020_post_thyroidectomy_lt4_cad.json                   [1/2 done]  ⏱3041s
+  🔄 [how        ] cr-020-how1 ... ✅ mcq
+  💾 1 items written → cr-020_post_thyroidectomy_lt4_cad.json
+📄 cr-021_severe_hypothyroidism_urgent_onco_surgery.json    [0/2 done]  ⏱3126s
+  🔄 [why        ] cr-021-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] cr-021-how1 ... ⚠️retry1 ❌ skip
+📄 cr-022_cpp_primary_hypothyroidism_module.json            [0/5 done]  ⏱3468s
+  🔄 [shortanswer] cr-021-sa1 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-021-sa2 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] cr-021-sa3 ... ✅ mcq
+  🔄 [why        ] cr-021-why1 ... ✅ mcq
+  🔄 [how        ] cr-021-how1 ... ✅ mcq
+  💾 4 items written → cr-022_cpp_primary_hypothyroidism_module.json
+📄 cr-023_diabetes_management_advanced_ckd.json             [0/7 done]  ⏱3968s
+  🔄 [why        ] cr-023-why1 ... ✅ mcq
+  🔄 [how        ] cr-023-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-023-sa1 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-023-sa2 ... ✅ mcq
+  🔄 [why        ] cr-023-why2 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] cr-023-how2 ... ✅ mcq
+  🔄 [shortanswer] cr-023-sa3 ... ✅ mcq
+  💾 7 items written → cr-023_diabetes_management_advanced_ckd.json
+📄 cr-024_aggressive_nonfunctioning_pitnet.json             [0/5 done]  ⏱4615s
+  🔄 [why        ] cr-024-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] cr-024-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-024-sa1 ... ✅ mcq
+  🔄 [shortanswer] cr-024-sa2 ... ✅ mcq
+  🔄 [shortanswer] cr-024-sa3 ... ✅ mcq
+  💾 4 items written → cr-024_aggressive_nonfunctioning_pitnet.json
+📄 cr-025_primary_hyperparathyroidism_young_adult.json      [0/5 done]  ⏱5046s
+  🔄 [why        ] cr-025-why1 ... ✅ mcq
+  🔄 [how        ] cr-025-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-025-sa1 ... ✅ mcq
+  🔄 [shortanswer] cr-025-sa2 ... ✅ mcq
+  🔄 [shortanswer] cr-025-sa3 ... ✅ mcq
+  💾 5 items written → cr-025_primary_hyperparathyroidism_young_adult.json
+📄 cr-026_gynecomastia_adolescent_male.json                 [0/4 done]  ⏱5397s
+  🔄 [why        ] cr-026-why1 ... ✅ mcq
+  🔄 [how        ] cr-026-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-026-sa1 ... ✅ mcq
+  🔄 [shortanswer] cr-026-sa2 ... ✅ mcq
+  💾 4 items written → cr-026_gynecomastia_adolescent_male.json
+📄 cr-027_panhypopituitarism_hemochromatosis.json           [0/4 done]  ⏱5673s
+  🔄 [why        ] cr-027-why1 ... ✅ mcq
+  🔄 [how        ] cr-027-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-027-sa1 ... ✅ mcq
+  🔄 [shortanswer] cr-027-sa2 ... ✅ mcq
+  💾 4 items written → cr-027_panhypopituitarism_hemochromatosis.json
+📄 cr-028_klinefelter_syndrome_adult.json                   [0/4 done]  ⏱5923s
+  🔄 [why        ] cr-028-why1 ... ✅ mcq
+  🔄 [how        ] cr-028-how1 ... ✅ mcq
+  🔄 [shortanswer] cr-028-sa1 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] cr-028-sa2 ... ⚠️retry1 ✅ mcq
+  💾 4 items written → cr-028_klinefelter_syndrome_adult.json
+📄 cr-029_pediatric_short_stature_body_proportions.json     [0/4 done]  ⏱6346s
+  🔄 [why        ] cr-029-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] cr-029-how1 ... ✅ mcq
+  🔄 [why        ] cr-029-why2 ... ✅ mcq
+  🔄 [how        ] cr-029-how2 ... ✅ mcq
+  💾 3 items written → cr-029_pediatric_short_stature_body_proportions.json
+📄 ht-008_mirabegron.json                                   [0/4 done]  ⏱6722s
+  🔄 [why        ] ht-008-why1 ... ✅ mcq
+  🔄 [why        ] ht-008-why2 ... ✅ mcq
+  🔄 [how        ] ht-008-how1 ... ✅ mcq
+  🔄 [how        ] ht-008-how2 ... ✅ mcq
+  💾 4 items written → ht-008_mirabegron.json
+📄 ht-018_egg_protein_content.json                          [0/2 done]  ⏱6994s
+  🔄 [why        ] ht-018-why1 ... ✅ mcq
+  🔄 [how        ] ht-018-how1 ... ✅ mcq
+  💾 2 items written → ht-018_egg_protein_content.json
+📄 ht-019_solifenacin.json                                  [0/4 done]  ⏱7123s
+  🔄 [why        ] ht-019-why1 ... ✅ mcq
+  🔄 [why        ] ht-019-why2 ... ✅ assertion_reason
+  🔄 [how        ] ht-019-how1 ... ✅ mcq
+  🔄 [how        ] ht-019-how2 ... ✅ mcq
+  💾 4 items written → ht-019_solifenacin.json
+📄 ht-020_pattern_b_ldl.json                                [0/4 done]  ⏱7391s
+  🔄 [why        ] ht-020-why1 ... ✅ assertion_reason
+  🔄 [why        ] ht-020-why2 ... ✅ mcq
+  🔄 [how        ] ht-020-how1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] ht-020-how2 ... ✅ mcq
+  💾 4 items written → ht-020_pattern_b_ldl.json
+📄 ht-023_pediatric_vaginal_bleeding_precocious_puberty.json  [0/6 done]  ⏱7776s
+  🔄 [shortanswer] ht-023-sa1 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] ht-023-sa2 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] ht-023-sa3 ... ✅ mcq
+  🔄 [shortanswer] ht-023-sa4 ... ✅ mcq
+  🔄 [shortanswer] ht-023-sa5 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] ht-023-sa6 ... ✅ mcq
+  💾 5 items written → ht-023_pediatric_vaginal_bleeding_precocious_puberty.json
+📄 pe-cr-006_precocious_puberty.json                        [0/12 done]  ⏱8519s
+  🔄 [why        ] pe-cr-006-pva-why1 ... ✅ mcq
+  🔄 [how        ] pe-cr-006-pva-how1 ... ✅ mcq
+  🔄 [why        ] pe-cr-006-cp-why1 ... ✅ assertion_reason
+  🔄 [how        ] pe-cr-006-cp-how1 ... ✅ mcq
+  🔄 [why        ] pe-cr-006-leup-why1 ... ✅ mcq
+  🔄 [how        ] pe-cr-006-leup-how1 ... ✅ mcq
+  🔄 [why        ] pe-cr-006-fmpp-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] pe-cr-006-fmpp-how1 ... ✅ mcq
+  🔄 [why        ] pe-cr-006-tt-why1 ... ✅ mcq
+  🔄 [how        ] pe-cr-006-tt-how1 ... ✅ mcq
+  🔄 [why        ] pe-cr-006-mas-why1 ... ✅ mcq
+  🔄 [how        ] pe-cr-006-mas-how1 ... ✅ mcq
+  💾 12 items written → pe-cr-006_precocious_puberty.json
+📄 story-001_truth_telling.json                             [0/2 done]  ⏱9514s
+  🔄 [why        ] story-001-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] story-001-how1 ... ✅ mcq
+  💾 2 items written → story-001_truth_telling.json
+📄 story-002_rest_certificate.json                          [0/3 done]  ⏱9768s
+  🔄 [why        ] story-002-why1 ... ✅ true_false
+  🔄 [how        ] story-002-how1 ... ✅ mcq
+  🔄 [shortanswer] story-002-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-002_rest_certificate.json
+📄 story-003_growth_spurt_t1d.json                          [0/3 done]  ⏱10096s
+  🔄 [why        ] story-003-why1 ... ✅ assertion_reason
+  🔄 [how        ] story-003-how1 ... ✅ mcq
+  🔄 [shortanswer] story-003-sa1 ... ✅ mcq
+  💾 3 items written → story-003_growth_spurt_t1d.json
+📄 story-004_obesity_opd_conflict.json                      [0/3 done]  ⏱10269s
+  🔄 [why        ] story-004-why1 ... ✅ assertion_reason
+  🔄 [how        ] story-004-how1 ... ✅ mcq
+  🔄 [shortanswer] story-004-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-004_obesity_opd_conflict.json
+📄 story-005_handling_hostile_review.json                   [0/3 done]  ⏱10597s
+  🔄 [why        ] story-005-why1 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [how        ] story-005-how1 ... ✅ mcq
+  🔄 [shortanswer] story-005-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-005_handling_hostile_review.json
+📄 story-006_sequential_testing_moral_hazard.json           [0/3 done]  ⏱11052s
+  🔄 [why        ] story-006-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] story-006-how1 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] story-006-sa1 ... ⚠️retry1 ❌ skip
+📄 story-007_diagnostics_management_case.json               [0/3 done]  ⏱11668s
+  🔄 [why        ] story-007-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] story-007-how1 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] story-007-sa1 ... ⚠️retry1 ✅ mcq
+  💾 1 items written → story-007_diagnostics_management_case.json
+📄 story-008_after_hours_late_patient.json                  [0/3 done]  ⏱12334s
+  🔄 [why        ] story-008-why1 ... ✅ mcq
+  🔄 [how        ] story-008-how1 ... ✅ mcq
+  🔄 [shortanswer] story-008-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-008_after_hours_late_patient.json
+📄 story-009_patient_preferences.json                       [0/3 done]  ⏱12727s
+  🔄 [why        ] story-009-why1 ... ✅ assertion_reason
+  🔄 [how        ] story-009-how1 ... ✅ mcq
+  🔄 [shortanswer] story-009-sa1 ... ✅ mcq
+  💾 3 items written → story-009_patient_preferences.json
+📄 story-010_front_desk_chaos_leadership.json               [0/3 done]  ⏱12946s
+  🔄 [why        ] story-010-why1 ... ✅ mcq
+  🔄 [how        ] story-010-how1 ... ✅ mcq
+  🔄 [shortanswer] story-010-sa1 ... ⚠️retry1 ✅ mcq
+  💾 3 items written → story-010_front_desk_chaos_leadership.json
+📄 story-011_transactional_clinic_data_over_care.json       [0/3 done]  ⏱13279s
+  🔄 [why        ] story-011-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] story-011-how1 ... ✅ mcq
+  🔄 [shortanswer] story-011-sa1 ... ✅ mcq
+  💾 2 items written → story-011_transactional_clinic_data_over_care.json
+📄 story-012_premium_friction_chronic_care_triage.json      [0/3 done]  ⏱13635s
+  🔄 [why        ] story-012-why1 ... ✅ mcq
+  🔄 [how        ] story-012-how1 ... ✅ mcq
+  🔄 [shortanswer] story-012-sa1 ... ✅ mcq
+  💾 3 items written → story-012_premium_friction_chronic_care_triage.json
+📄 story-013_hostile_review_process_driven_pr.json          [0/3 done]  ⏱13852s
+  🔄 [why        ] story-013-why1 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [how        ] story-013-how1 ... ✅ mcq
+  🔄 [shortanswer] story-013-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-013_hostile_review_process_driven_pr.json
+📄 story-014_ok_but_not_sparking_visit.json                 [0/3 done]  ⏱14354s
+  🔄 [why        ] story-014-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] story-014-how1 ... ✅ mcq
+  🔄 [shortanswer] story-014-sa1 ... ⚠️retry1 ❌ skip
+  💾 1 items written → story-014_ok_but_not_sparking_visit.json
+📄 story-015_fee_transparency_money_perception.json         [0/3 done]  ⏱14855s
+  🔄 [why        ] story-015-why1 ... ✅ assertion_reason
+  🔄 [how        ] story-015-how1 ... ✅ mcq
+  🔄 [shortanswer] story-015-sa1 ... ⚠️retry1 ✅ mcq
+  💾 3 items written → story-015_fee_transparency_money_perception.json
+📄 story-016_alleged_adverse_outcome_response.json          [0/3 done]  ⏱16113s
+  🔄 [why        ] story-016-why1 ... ✅ mcq
+  🔄 [how        ] story-016-how1 ... ✅ mcq
+  🔄 [shortanswer] story-016-sa1 ... ⚠️retry1 ✅ mcq
+  💾 3 items written → story-016_alleged_adverse_outcome_response.json
+📄 story-017_compassion_fee_gating_bereavement.json         [0/3 done]  ⏱16644s
+  🔄 [why        ] story-017-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] story-017-how1 ... ✅ mcq
+  🔄 [shortanswer] story-017-sa1 ... ✅ mcq
+  💾 3 items written → story-017_compassion_fee_gating_bereavement.json
+📄 story-018_receiving_feedback_martyr_reply.json           [0/3 done]  ⏱17353s
+  🔄 [why        ] story-018-why1 ... ✅ assertion_reason
+  🔄 [how        ] story-018-how1 ... ✅ mcq
+  🔄 [shortanswer] story-018-sa1 ... ⚠️retry1 ✅ mcq
+  💾 3 items written → story-018_receiving_feedback_martyr_reply.json
+📄 story-019_selling_injections_over_diagnosis.json         [0/3 done]  ⏱17592s
+  🔄 [why        ] story-019-why1 ... ✅ mcq
+  🔄 [how        ] story-019-how1 ... ✅ mcq
+  🔄 [shortanswer] story-019-sa1 ... ✅ mcq
+  💾 3 items written → story-019_selling_injections_over_diagnosis.json
+📄 story-020_weight_stigma_failure_to_listen.json           [0/3 done]  ⏱17788s
+  🔄 [why        ] story-020-why1 ... ✅ mcq
+  🔄 [how        ] story-020-how1 ... ✅ mcq
+  🔄 [shortanswer] story-020-sa1 ... ✅ mcq
+  💾 3 items written → story-020_weight_stigma_failure_to_listen.json
+📄 story-021_prescribing_without_reviewing_records.json     [0/3 done]  ⏱17982s
+  🔄 [why        ] story-021-why1 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [how        ] story-021-how1 ... ✅ mcq
+  🔄 [shortanswer] story-021-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-021_prescribing_without_reviewing_records.json
+📄 story-022_titration_disconnect.json                      [0/3 done]  ⏱18427s
+  🔄 [why        ] story-022-why1 ... ✅ mcq
+  🔄 [how        ] story-022-how1 ... ✅ mcq
+  🔄 [shortanswer] story-022-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-022_titration_disconnect.json
+📄 story-023_burnout_fee_perception.json                    [0/3 done]  ⏱18760s
+  🔄 [why        ] story-023-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] story-023-how1 ... ✅ mcq
+  🔄 [shortanswer] story-023-sa1 ... ⚠️retry1 ❌ skip
+  💾 1 items written → story-023_burnout_fee_perception.json
+📄 story-024_ethical_boundaries_crisis_management.json      [0/3 done]  ⏱19222s
+  🔄 [why        ] story-024-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] story-024-how1 ... ✅ mcq
+  🔄 [shortanswer] story-024-sa1 ... ✅ mcq
+  💾 3 items written → story-024_ethical_boundaries_crisis_management.json
+📄 story-025_brand_dilution_co_consultation.json            [0/3 done]  ⏱19536s
+  🔄 [why        ] story-025-why1 ... ✅ mcq
+  🔄 [how        ] story-025-how1 ... ✅ mcq
+  🔄 [shortanswer] story-025-sa1 ... ⚠️retry1 ❌ skip
+  💾 2 items written → story-025_brand_dilution_co_consultation.json
+📄 story-026_clinical_inattentiveness_remission.json        [0/3 done]  ⏱19871s
+  🔄 [why        ] story-026-why1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] story-026-how1 ... ✅ mcq
+  🔄 [shortanswer] story-026-sa1 ... ✅ mcq
+  💾 2 items written → story-026_clinical_inattentiveness_remission.json
+📄 story-027_therapeutic_anchoring_glp1.json                [0/3 done]  ⏱20201s
+  🔄 [why        ] story-027-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] story-027-how1 ... ✅ mcq
+  🔄 [shortanswer] story-027-sa1 ... ✅ mcq
+  💾 3 items written → story-027_therapeutic_anchoring_glp1.json
+📄 story-028_opd_overcrowding_space_model.json              [0/3 done]  ⏱22082s
+  🔄 [why        ] story-028-why1 ... ✅ assertion_reason
+  🔄 [how        ] story-028-how1 ... ✅ mcq
+  🔄 [shortanswer] story-028-sa1 ... ✅ mcq
+  💾 3 items written → story-028_opd_overcrowding_space_model.json
+📄 tr-001_ukpds_33.json                                     [0/4 done]  ⏱22366s
+  🔄 [why        ] tr-001-why1 ... ✅ mcq
+  🔄 [how        ] tr-001-how1 ... ✅ mcq
+  🔄 [why        ] tr-001-why2 ... ✅ mcq
+  🔄 [why        ] tr-001-why3 ... ✅ true_false
+  💾 4 items written → tr-001_ukpds_33.json
+📄 tr-nejm-001_burch2019.json                               [0/11 done]  ⏱22767s
+  🔄 [how        ] tr-nejm-001-how1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how2 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-001-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how4 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how6 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how8 ... ✅ mcq
+  🔄 [how        ] tr-nejm-001-how9 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-001-sa1 ... ⚠️retry1 ❌ skip
+  💾 9 items written → tr-nejm-001_burch2019.json
+📄 tr-nejm-002_nejmoa2502081.json                           [0/25 done]  ⏱28357s
+  🔄 [why        ] tr-nejm-002-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-002-how2 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-002-how3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-002-how4 ... ✅ mcq
+  🔄 [how        ] tr-nejm-002-how5 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-002-how6 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-002-how7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-002-how8 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-002-how9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why10 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-002-why11 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why12 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-002-why13 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why15 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why16 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why17 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why19 ... ✅ mcq
+  🔄 [how        ] tr-nejm-002-how20 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-002-how21 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-002-why36 ... ✅ mcq
+  🔄 [why        ] tr-nejm-002-why37 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-002-why38 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-002-why39 ... ⚠️retry1 ✅ mcq
+  💾 24 items written → tr-nejm-002_nejmoa2502081.json
+📄 tr-nejm-003_nejm199309303291401.json                     [0/50 done]  ⏱32578s
+  🔄 [why        ] tr-nejm-003-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how2 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-003-why3 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how4 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-003-how5 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why6 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-003-how7 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why8 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how9 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how10 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how11 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why12 ... ✅ assertion_reason
+  🔄 [why        ] tr-nejm-003-why13 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-003-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why15 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how16 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how17 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why18 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-003-how19 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why20 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how21 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how22 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-003-why23 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-003-how24 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how25 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why26 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how27 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how28 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why29 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how30 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why31 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how32 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how33 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-003-why34 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how35 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why36 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-003-how37 ... ✅ true_false
+  🔄 [why        ] tr-nejm-003-why38 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how39 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why40 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why41 ... ✅ mcq
+  🔄 [how        ] tr-nejm-003-how42 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why43 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how44 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-003-why45 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-003-how46 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why47 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-003-how48 ... ✅ mcq
+  🔄 [why        ] tr-nejm-003-why49 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-003-how50 ... ✅ mcq
+  💾 41 items written → tr-nejm-003_nejm199309303291401.json
+📄 tr-nejm-004_nejmoa011161.json                            [0/15 done]  ⏱43141s
+  🔄 [how        ] tr-nejm-004-how1 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-004-why2 ... ✅ mcq
+  🔄 [how        ] tr-nejm-004-how3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-004-why4 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-004-how5 ... ✅ mcq
+  🔄 [why        ] tr-nejm-004-why6 ... ✅ true_false
+  🔄 [how        ] tr-nejm-004-how7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-004-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-004-why9 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-004-how10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-004-why11 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-004-how12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-004-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-004-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-004-why15 ... ✅ mcq
+  💾 14 items written → tr-nejm-004_nejmoa011161.json
+📄 tr-nejm-005_nejmoa011303.json                            [0/24 done]  ⏱44959s
+  🔄 [why        ] tr-nejm-005-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-005-why2 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-005-why3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why5 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why7 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why9 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-005-why10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why11 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why12 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-005-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-005-how14 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-005-why15 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why16 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [why        ] tr-nejm-005-why17 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why19 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why20 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why21 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-005-why22 ... ✅ mcq
+  🔄 [why        ] tr-nejm-005-why23 ... ✅ mcq
+  🔄 [how        ] tr-nejm-005-how24 ... ✅ mcq
+  💾 21 items written → tr-nejm-005_nejmoa011303.json
+📄 tr-nejm-006_nejmoa012512.json                            [0/15 done]  ⏱48401s
+  🔄 [why        ] tr-nejm-006-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-006-how2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-006-why3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-006-how4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-006-why5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-006-how6 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-006-why7 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-006-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-006-why9 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-006-how10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-006-why11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-006-how12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-006-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-006-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-006-why15 ... ✅ mcq
+  💾 14 items written → tr-nejm-006_nejmoa012512.json
+📄 tr-nejm-007_nejmoa0802743.json                           [0/15 done]  ⏱49879s
+  🔄 [why        ] tr-nejm-007-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-007-how2 ... ✅ true_false
+  🔄 [why        ] tr-nejm-007-why3 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-007-how4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-007-why5 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-007-how6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-007-why7 ... ✅ true_false
+  🔄 [how        ] tr-nejm-007-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-007-why9 ... ✅ mcq
+  🔄 [how        ] tr-nejm-007-how10 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-007-why11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-007-how12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-007-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-007-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-007-why15 ... ⚠️retry1 ✅ assertion_reason
+  💾 14 items written → tr-nejm-007_nejmoa0802743.json
+📄 tr-nejm-008_nejmoa0806470.json                           [0/15 done]  ⏱51541s
+  🔄 [why        ] tr-nejm-008-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-008-how2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-008-why3 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-008-how4 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-008-why5 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-008-how6 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-008-why7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-008-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-008-why9 ... ✅ mcq
+  🔄 [how        ] tr-nejm-008-how10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-008-why11 ... ⚠️retry1 ✅ true_false
+  🔄 [how        ] tr-nejm-008-how12 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-008-why13 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-008-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-008-why15 ... ⚠️retry1 ✅ mcq
+  💾 15 items written → tr-nejm-008_nejmoa0806470.json
+📄 tr-nejm-009_nejmoa1200225.json                           [0/15 done]  ⏱53239s
+  🔄 [why        ] tr-nejm-009-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-009-how2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-009-why3 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-009-how4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-009-why5 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-009-how6 ... ✅ mcq
+  🔄 [how        ] tr-nejm-009-how7 ... ✅ mcq
+  🔄 [why        ] tr-nejm-009-why8 ... ✅ mcq
+  🔄 [how        ] tr-nejm-009-how9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-009-why10 ... ✅ mcq
+  🔄 [how        ] tr-nejm-009-how11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-009-how12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-009-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-009-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-009-why15 ... ✅ assertion_reason
+  💾 14 items written → tr-nejm-009_nejmoa1200225.json
+📄 tr-nejm-010_nejmoa1411892.json                           [0/15 done]  ⏱80065s
+  🔄 [why        ] tr-nejm-010-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-010-how2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-010-why3 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-010-how4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-010-why5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-010-how6 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-010-why7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-010-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-010-why9 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-010-how10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-010-why11 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-010-how12 ... ✅ true_false
+  🔄 [why        ] tr-nejm-010-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-010-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-010-why15 ... ✅ assertion_reason
+  💾 15 items written → tr-nejm-010_nejmoa1411892.json
+📄 tr-nejm-011_nejmoa1501352.json                           [0/15 done]  ⏱82002s
+  🔄 [why        ] tr-nejm-011-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-011-how2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-011-why3 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-011-how4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-011-why5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-011-how6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-011-why7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-011-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-011-why9 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-011-how10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-011-why11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-011-how12 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-011-why13 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-011-how14 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-011-why15 ... ✅ mcq
+  💾 12 items written → tr-nejm-011_nejmoa1501352.json
+📄 tr-nejm-012_nejmoa1504720.json                           [0/15 done]  ⏱83840s
+  🔄 [how        ] tr-nejm-012-how1 ... ✅ mcq
+  🔄 [why        ] tr-nejm-012-why2 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-012-how3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-012-why4 ... ✅ true_false
+  🔄 [how        ] tr-nejm-012-how5 ... ✅ mcq
+  🔄 [why        ] tr-nejm-012-why6 ... ✅ mcq
+  🔄 [how        ] tr-nejm-012-how7 ... ✅ mcq
+  🔄 [why        ] tr-nejm-012-why8 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-012-how9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-012-why10 ... ✅ mcq
+  🔄 [how        ] tr-nejm-012-how11 ... ✅ mcq
+  🔄 [why        ] tr-nejm-012-why12 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-012-how13 ... ✅ mcq
+  🔄 [why        ] tr-nejm-012-why14 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-012-how15 ... ✅ mcq
+  💾 15 items written → tr-nejm-012_nejmoa1504720.json
+📄 tr-nejm-013_nejmoa1600869.json                           [0/15 done]  ⏱85829s
+  🔄 [why        ] tr-nejm-013-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-013-how2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-013-why3 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-013-how4 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-013-why5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-013-how6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-013-why7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-013-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-013-why9 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-013-how10 ... ✅ true_false
+  🔄 [why        ] tr-nejm-013-why11 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-013-how12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-013-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-013-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-013-why15 ... ✅ assertion_reason
+  💾 14 items written → tr-nejm-013_nejmoa1600869.json
+📄 tr-nejm-014_nejmoa1603827.json                           [0/15 done]  ⏱87791s
+  🔄 [why        ] tr-nejm-014-why1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-014-how2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-014-why3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-014-how4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-014-why5 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-014-how6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-014-why7 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-014-how8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-014-why9 ... ✅ mcq
+  🔄 [how        ] tr-nejm-014-how10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-014-why11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-014-how12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-014-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-014-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-014-why15 ... ⚠️retry1 ❌ skip
+  💾 13 items written → tr-nejm-014_nejmoa1603827.json
+📄 tr-nejm-015_nejmoa1607141.json                           [0/6 done]  ⏱90008s
+  🔄 [how        ] tr-nejm-015-how1 ... ✅ mcq
+  🔄 [why        ] tr-nejm-015-why2 ... ✅ mcq
+  🔄 [how        ] tr-nejm-015-how3 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-015-sa5 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-015-why6 ... ✅ assertion_reason
+  🔄 [how        ] tr-nejm-015-how8 ... ✅ mcq
+  💾 6 items written → tr-nejm-015_nejmoa1607141.json
+📄 tr-nejm-016_nejmoa1611925.json                           [0/24 done]  ⏱92452s
+  🔄 [how        ] tr-nejm-016-how1 ... ✅ mcq
+  🔄 [how        ] tr-nejm-016-how2 ... ✅ mcq
+  🔄 [how        ] tr-nejm-016-how3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-016-how4 ... ✅ mcq
+  🔄 [how        ] tr-nejm-016-how5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-016-how6 ... ✅ mcq
+  🔄 [how        ] tr-nejm-016-how7 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-016-how8 ... ✅ mcq
+  🔄 [how        ] tr-nejm-016-how9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why10 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-016-sa11 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-016-why12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why13 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why15 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-016-why16 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why17 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why19 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-016-why20 ... ✅ mcq
+  🔄 [why        ] tr-nejm-016-why21 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-016-why22 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-016-why23 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-016-why24 ... ⚠️retry1 ✅ mcq
+  💾 19 items written → tr-nejm-016_nejmoa1611925.json
+📄 tr-nejm-017_nejmoa1804988.json                           [0/22 done]  ⏱94965s
+  🔄 [shortanswer] tr-nejm-017-sa1 ... ✅ mcq
+  🔄 [why        ] tr-nejm-017-why2 ... ✅ true_false
+  🔄 [why        ] tr-nejm-017-why3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-017-why4 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-017-how5 ... ✅ true_false
+  🔄 [how        ] tr-nejm-017-how6 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-017-how7 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-017-how8 ... ✅ mcq
+  🔄 [how        ] tr-nejm-017-how9 ... ✅ mcq
+  🔄 [how        ] tr-nejm-017-how10 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-017-how11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-017-how12 ... ✅ mcq
+  🔄 [how        ] tr-nejm-017-how13 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-017-how14 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-017-why15 ... ✅ mcq
+  🔄 [why        ] tr-nejm-017-why16 ... ✅ mcq
+  🔄 [why        ] tr-nejm-017-why19 ... ✅ mcq
+  🔄 [how        ] tr-nejm-017-how20 ... ✅ mcq
+  🔄 [how        ] tr-nejm-017-how21 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-017-how22 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-017-how23 ... ✅ mcq
+  🔄 [how        ] tr-nejm-017-how24 ... ✅ mcq
+  💾 20 items written → tr-nejm-017_nejmoa1804988.json
+📄 tr-nejm-018_nejmoa1812389.json                           [0/30 done]  ⏱100344s
+  🔄 [why        ] tr-nejm-018-why1 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why5 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why7 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-018-why8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why9 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-018-sa10 ... ✅ mcq
+  🔄 [how        ] tr-nejm-018-how11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-018-how12 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-018-how13 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-018-how16 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-018-how17 ... ✅ mcq
+  🔄 [how        ] tr-nejm-018-how18 ... ✅ mcq
+  🔄 [how        ] tr-nejm-018-how19 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] tr-nejm-018-sa20 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-018-why21 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-018-why22 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why23 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-018-sa24 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-018-why25 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why26 ... ✅ mcq
+  🔄 [how        ] tr-nejm-018-how30 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-018-how31 ... ✅ mcq
+  🔄 [how        ] tr-nejm-018-how32 ... ✅ mcq
+  🔄 [how        ] tr-nejm-018-how33 ... ✅ mcq
+  🔄 [why        ] tr-nejm-018-why34 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-018-why35 ... ✅ mcq
+  💾 29 items written → tr-nejm-018_nejmoa1812389.json
+📄 tr-nejm-019_nejmoa2004967.json                           [0/14 done]  ⏱104426s
+  🔄 [how        ] tr-nejm-019-how1 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-019-sa2 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-019-how3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-019-how4 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-019-how5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-019-how6 ... ✅ mcq
+  🔄 [how        ] tr-nejm-019-how7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-019-how8 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-019-sa12 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] tr-nejm-019-sa13 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-019-why14 ... ✅ mcq
+  🔄 [how        ] tr-nejm-019-how15 ... ✅ assertion_reason
+  🔄 [shortanswer] tr-nejm-019-sa16 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-019-sa17 ... ✅ mcq
+  💾 12 items written → tr-nejm-019_nejmoa2004967.json
+📄 tr-nejm-020_nejmoa2024816.json                           [0/19 done]  ⏱105909s
+  🔄 [why        ] tr-nejm-020-why1 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-020-why2 ... ✅ mcq
+  🔄 [how        ] tr-nejm-020-how3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-020-how4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why5 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why7 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why9 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-020-how10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why11 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-020-why12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why13 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-020-sa14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-020-why15 ... ✅ mcq
+  🔄 [how        ] tr-nejm-020-how16 ... ✅ mcq
+  🔄 [how        ] tr-nejm-020-how18 ... ✅ mcq
+  🔄 [how        ] tr-nejm-020-how19 ... ✅ mcq
+  🔄 [how        ] tr-nejm-020-how20 ... ⚠️retry1 ✅ mcq
+  💾 17 items written → tr-nejm-020_nejmoa2024816.json
+📄 tr-nejm-021_nejmoa2032183.json                           [0/25 done]  ⏱107770s
+  🔄 [shortanswer] tr-nejm-021-sa1 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-021-how9 ... ✅ mcq
+  🔄 [how        ] tr-nejm-021-how10 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-021-why11 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-021-why12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-021-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why15 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why16 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why17 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-021-sa27 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] tr-nejm-021-sa28 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] tr-nejm-021-sa29 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-021-sa30 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] tr-nejm-021-sa31 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] tr-nejm-021-sa32 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why33 ... ✅ true_false
+  🔄 [how        ] tr-nejm-021-how34 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-021-how35 ... ✅ assertion_reason
+  🔄 [why        ] tr-nejm-021-why36 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why37 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why38 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why39 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why40 ... ✅ mcq
+  🔄 [why        ] tr-nejm-021-why41 ... ✅ mcq
+  💾 19 items written → tr-nejm-021_nejmoa2032183.json
+📄 tr-nejm-022_nejmoa2107519.json                           [0/22 done]  ⏱113934s
+  🔄 [why        ] tr-nejm-022-why1 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why2 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-022-why3 ... ✅ mcq
+  🔄 [how        ] tr-nejm-022-how4 ... ✅ mcq
+  🔄 [how        ] tr-nejm-022-how5 ... ✅ mcq
+  🔄 [how        ] tr-nejm-022-how6 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-022-how7 ... ✅ mcq
+  🔄 [how        ] tr-nejm-022-how8 ... ✅ mcq
+  🔄 [how        ] tr-nejm-022-how9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why10 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-022-why11 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why13 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why15 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-022-why16 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why17 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why19 ... ✅ mcq
+  🔄 [how        ] tr-nejm-022-how20 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-022-sa21 ... ✅ mcq
+  🔄 [why        ] tr-nejm-022-why24 ... ⚠️retry1 ❌ skip
+  💾 21 items written → tr-nejm-022_nejmoa2107519.json
+📄 tr-nejm-023_nejmoa2206038.json                           [0/26 done]  ⏱117280s
+  🔄 [why        ] tr-nejm-023-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-023-why2 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-023-why3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why4 ... ✅ true_false
+  🔄 [why        ] tr-nejm-023-why5 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why7 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why8 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-023-sa9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-023-how13 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-023-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why19 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why20 ... ✅ mcq
+  🔄 [how        ] tr-nejm-023-how21 ... ✅ mcq
+  🔄 [how        ] tr-nejm-023-how22 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why23 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why24 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why25 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why26 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why27 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why28 ... ✅ mcq
+  🔄 [why        ] tr-nejm-023-why29 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-023-why30 ... ✅ mcq
+  💾 24 items written → tr-nejm-023_nejmoa2206038.json
+📄 tr-nejm-024_nejmoa2208601.json                           [0/30 done]  ⏱120747s
+  🔄 [why        ] tr-nejm-024-why1 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why2 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-024-why3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why4 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how6 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how7 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-024-how8 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-024-how10 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how12 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-024-how13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how14 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-024-how15 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-024-how17 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how20 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how21 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why23 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-024-why24 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why25 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why26 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why27 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why28 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why30 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how31 ... ✅ assertion_reason
+  🔄 [why        ] tr-nejm-024-why33 ... ✅ mcq
+  🔄 [how        ] tr-nejm-024-how34 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why36 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why37 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why38 ... ✅ mcq
+  🔄 [why        ] tr-nejm-024-why39 ... ⚠️retry1 ✅ mcq
+  💾 26 items written → tr-nejm-024_nejmoa2208601.json
+📄 tr-nejm-025_nejmoa2301972.json                           [0/28 done]  ⏱136113s
+  🔄 [why        ] tr-nejm-025-why1 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-025-why2 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-025-why3 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why4 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why5 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-025-why6 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-025-why7 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-025-why8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why11 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why12 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why16 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why17 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why19 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-025-why20 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why21 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why22 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-025-why23 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why24 ... ✅ assertion_reason
+  🔄 [why        ] tr-nejm-025-why25 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why26 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why27 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why28 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why29 ... ✅ mcq
+  🔄 [why        ] tr-nejm-025-why30 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-025-why31 ... ✅ mcq
+  💾 24 items written → tr-nejm-025_nejmoa2301972.json
+📄 tr-nejm-026_nejmoa2306963.json                           [0/37 done]  ⏱139436s
+  🔄 [why        ] tr-nejm-026-why1 ... ✅ assertion_reason
+  🔄 [why        ] tr-nejm-026-why2 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why3 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [why        ] tr-nejm-026-why4 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-026-why5 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-026-why6 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why7 ... ⚠️retry1 ✅ assertion_reason
+  🔄 [why        ] tr-nejm-026-why8 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why9 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why10 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why11 ... ✅ assertion_reason
+  🔄 [why        ] tr-nejm-026-why12 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how13 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how14 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why15 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-026-how16 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how17 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why19 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-026-why20 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-026-why21 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-026-why22 ... ✅ mcq
+  🔄 [why        ] tr-nejm-026-why23 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-026-why24 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how30 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how31 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how32 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how33 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how34 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how35 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-026-why36 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how37 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how38 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how39 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-026-why40 ... ✅ assertion_reason
+  🔄 [why        ] tr-nejm-026-why41 ... ✅ mcq
+  🔄 [how        ] tr-nejm-026-how42 ... ⚠️retry1 ❌ skip
+  💾 31 items written → tr-nejm-026_nejmoa2306963.json
+📄 tr-nejm-027_nejmoa2307563.json                           [0/28 done]  ⏱143563s
+  🔄 [shortanswer] tr-nejm-027-sa10 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-027-how11 ... ✅ mcq
+  🔄 [how        ] tr-nejm-027-how14 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-027-why16 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-027-how17 ... ✅ mcq
+  🔄 [how        ] tr-nejm-027-how18 ... ✅ mcq
+  🔄 [why        ] tr-nejm-027-why19 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-027-sa20 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-027-why21 ... ⚠️retry1 ✅ mcq
+  🔄 [how        ] tr-nejm-027-how23 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-027-sa24 ... ✅ mcq
+  🔄 [why        ] tr-nejm-027-why25 ... ✅ mcq
+  🔄 [why        ] tr-nejm-027-why28 ... ✅ mcq
+  🔄 [why        ] tr-nejm-027-why29 ... ✅ mcq
+  🔄 [why        ] tr-nejm-027-why30 ... ⚠️retry1 ✅ mcq
+  🔄 [why        ] tr-nejm-027-why31 ... ✅ true_false
+  🔄 [how        ] tr-nejm-027-how32 ... ✅ mcq
+  🔄 [how        ] tr-nejm-027-how33 ... ⚠️retry1 ❌ skip
+  🔄 [how        ] tr-nejm-027-how34 ... ✅ mcq
+  🔄 [why        ] tr-nejm-027-why35 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-027-why36 ... ⚠️retry1 ✅ mcq
+  🔄 [shortanswer] tr-nejm-027-sa37 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] tr-nejm-027-sa38 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-027-sa39 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] tr-nejm-027-sa40 ... ✅ mcq
+  🔄 [shortanswer] tr-nejm-027-sa41 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] tr-nejm-027-sa42 ... ⚠️retry1 ❌ skip
+  🔄 [shortanswer] tr-nejm-027-sa43 ... ✅ mcq
+  💾 20 items written → tr-nejm-027_nejmoa2307563.json
+📄 tr-nejm-028_step-9-oa-2024.json                          [0/2 done]  ⏱146925s
+  🔄 [why        ] tr-nejm-028-why2 ... ✅ mcq
+  🔄 [how        ] tr-nejm-028-how4 ... ✅ mcq
+  💾 2 items written → tr-nejm-028_step-9-oa-2024.json
+📄 tr-nejm-029_ukpds-34-wiki.json                           [0/2 done]  ⏱147097s
+  🔄 [why        ] tr-nejm-029-why1 ... ⚠️retry1 ❌ skip
+  🔄 [why        ] tr-nejm-029-why2 ... ⚠️retry1 ❌ skip
+
+============================================================
+✅ Complete!  Generated: 649  |  Time: 147446s (2457m 26s)
+💡 Now run:  cd harrison_app/web && npm run build
+📋 Log: /Users/dr.ajayshukla/harrison_app/conversion_log.jsonl

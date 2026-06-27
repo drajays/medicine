@@ -873,6 +873,214 @@
       "correctAnswer": true,
       "explanation": "ESRD-or-death secondary endpoint showed ~20% risk reduction.",
       "reference": "RENAAL T/F 20: ESRD-or-death secondary endpoint showed ~20% risk reduction. — Brenner BM, Cooper ME, de Zeeuw D, et al. Effects of losartan on renal and cardiovascular outcomes in patients with type 2 diabetes and nephropathy. N Engl J Med 2001;345:861-869."
+    },
+    {
+      "type": "mcq",
+      "stem": "How was baseline nephropathy rigorously defined for patient inclusion in this trial?",
+      "options": [
+        "A: Nephropathy was defined by two occurrences of a urinary albumin-to-creatinine ratio ≥300 (or protein excretion ≥0.5 g/day) alongside serum creatinine values between 1.3 and 3.0 mg/dL.",
+        "B: Nephropathy was defined by a single occurrence of a urinary albumin-to-creatinine ratio ≥300 (or protein excretion ≥0.5 g/day) with serum creatinine ≤1.3 mg/dL.",
+        "C: Nephropathy was defined by two occurrences of a urinary albumin-to-creatinine ratio ≥150 (or protein excretion ≥0.3 g/day) alongside serum creatinine values between 1.3 and 3.0 mg/dL.",
+        "D: Nephropathy was defined by three occurrences of a urinary albumin-to-creatinine ratio ≥300 (or protein excretion ≥0.5 g/day) with serum creatinine ≥3.0 mg/dL."
+      ],
+      "correctOption": 0,
+      "explanation": "The definition required two confirmatory episodes of albuminuria/proteinuria and moderate renal impairment (serum creatinine 1.3–3.0 mg/dL) to ensure specificity.",
+      "id": "tr-nejm-004-how1-obj-b6d6cd",
+      "subtopic": "Why/How 1 — Inclusion",
+      "_generatedFrom": "tr-nejm-004-how1",
+      "distillation_trace": "Okay, let's tackle this. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about how baseline nephropathy was defined in a trial. The answer mentions two occurrences of a urinary albumin-to-creatinine ratio ≥300 or protein excretion ≥0.5 g/day, along with serum creatinine between 1.3 and 3.0 mg/dL.\n\nFirst, I need to determine the question type. Since it's asking for a specific definition with multiple components, an MCQ seems appropriate. The options should include the correct answer and plausible distractors. The key here is to make sure the distractors are similar but incorrect. For example, changing the number of occurrences, altering the creatinine range, or mixing up the criteria.\n\nThe correct option is A as per the answer. The other options need to be variations that are commonly seen in such definitions but are incorrect. For instance, maybe one option uses a single occurrence instead of two, another might have a different creatinine range, or perhaps the protein excretion threshold is different. I need to ensure that each distractor is plausible but clearly wrong based on the provided answer.\n\nAlso, the explanation should briefly state why the correct option is right, focusing on the two occurrences and the creatinine range. I have to make sure the JSON structure is correct, with the stem, options, correctOption index, and explanation. No markdown, just pure JSON. Let me check the rules again to ensure compliance with all the requirements."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why was the trial prematurely terminated by the steering committee?",
+      "options": [
+        "A. New external evidence suggested ACE inhibitors (excluded by protocol) might reduce cardiovascular events in diabetic patients with renal impairment",
+        "B. Safety concerns with the study drug were identified",
+        "C. The study drug showed no efficacy in reducing cardiovascular events",
+        "D. Protocol violations necessitated termination"
+      ],
+      "correctOption": 0,
+      "explanation": "The trial was stopped due to emerging external evidence indicating potential benefits of ACE inhibitors, which were excluded by the protocol, in reducing cardiovascular events in this patient population.",
+      "id": "tr-nejm-004-why2-obj-86b2ce",
+      "subtopic": "Why/How 2 — Termination",
+      "_generatedFrom": "tr-nejm-004-why2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about why a trial was terminated early, with the answer pointing to new external evidence suggesting ACE inhibitors might be effective despite being excluded by the protocol.\n\nFirst, I need to determine the best question type. The answer involves a specific fact, so MCQ seems appropriate. The key point is the reason for trial termination related to ACE inhibitors and external evidence. The options need to be plausible but clearly wrong except for the correct one.\n\nI should start by formulating the stem. The original question is straightforward, so the stem can be: \"Why was the trial prematurely terminated by the steering committee?\" Then, the options. The correct answer is about new external evidence regarding ACE inhibitors. Distractors could include things like safety concerns, lack of efficacy, or protocol violations. Each distractor must be plausible but incorrect.\n\nOption A: New external evidence suggesting ACE inhibitors might reduce cardiovascular events. That's correct. \n\nOption B: Safety concerns with the study drug. Not mentioned in the original answer, so a good distractor.\n\nOption C: Lack of efficacy of the study drug. Also not mentioned, but plausible.\n\nOption D: Protocol violations leading to termination. Again, not the reason given, so another distractor.\n\nThe correct option is A. The explanation should note that external evidence about ACE inhibitors led to termination, even though they were excluded by the protocol. That's the key point from the original answer.\n\nI need to make sure the JSON is valid, with the correct structure. The type is mcq, the stem, options, correctOption as 0, and the explanation. No markdown, just JSON. Let me check the rules again: distractors must be plausible but wrong, clinical accuracy. Yes, this fits. I think that's all."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did the investigators ensure that the observed renal benefits were not merely an artifact of better blood pressure control?",
+      "options": [
+        "A) They used logistic regression with mean arterial pressure as a fixed covariate",
+        "B) They matched groups based on baseline blood pressure",
+        "C) They added mean arterial pressure during treatment as a time-dependent covariate in the Cox regression model",
+        "D) They excluded patients with hypertension from the analysis"
+      ],
+      "correctOption": 2,
+      "explanation": "Adding mean arterial pressure as a time-dependent covariate in Cox regression accounts for dynamic changes in blood pressure over time, confirming that the renal risk reduction persisted after adjusting for BP fluctuations.",
+      "id": "tr-nejm-004-how3-obj-7364ba",
+      "subtopic": "Why/How 3 — Statistics — BP",
+      "_generatedFrom": "tr-nejm-004-how3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about how investigators ensured renal benefits weren't just due to better blood pressure control. The answer mentions using mean arterial pressure as a time-dependent covariate in a Cox model, with a 15% risk reduction remaining significant.\n\nFirst, I need to determine the question type. The answer is specific, mentioning a statistical method. So MCQ seems appropriate here. The key point is the use of a time-dependent covariate in the Cox model. The options should include this correct answer and plausible distractors.\n\nWhat are other ways to adjust for blood pressure? Maybe using it as a fixed covariate, but that's not time-dependent. Alternatively, they might have used a different model like logistic regression. Another option could be matching groups based on blood pressure. The correct answer is adding it as a time-dependent covariate in Cox regression. The explanation should note that this adjustment accounts for changes over time, confirming the renal benefit isn't just from BP control.\n\nI need to make sure the options are plausible but clearly wrong. For example, fixed covariate in Cox, logistic regression, or matching. The correct option is the time-dependent in Cox. The explanation should mention that time-dependent covariates adjust for changing BP over time, so the risk reduction remains significant after accounting for BP changes. That makes sense because if BP was a confounder, adjusting for it properly would show the true effect of the treatment on renal outcomes."
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Patients with a recent myocardial infarction or stroke were excluded from enrollment.",
+      "reason": "To prevent acute, severe baseline cardiovascular confounders from skewing the specific assessment of renal disease progression and heart failure outcomes.",
+      "correctOption": 0,
+      "explanation": "Excluding patients with recent cardiovascular events avoids confounding factors that could distort the evaluation of renal and heart failure outcomes in the study.",
+      "id": "tr-nejm-004-why4-obj-b3455f",
+      "subtopic": "Why/How 4 — Exclusion",
+      "_generatedFrom": "tr-nejm-004-why4",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about why patients with recent MI or stroke were excluded from a study.\n\nFirst, I need to determine the best question type. The answer provided explains the exclusion to prevent confounders affecting the study's outcomes. This seems like a specific fact, so MCQ might be suitable. However, the answer is a statement rather than a multiple-choice scenario. Wait, the user's example shows an MCQ with options, but the original answer is a single statement. Maybe a true/false or assertion-reason would be better here.\n\nLooking at the rules, assertion-reason is for cause-effect relationships. The original answer is explaining the reason for exclusion. The key point is that excluding these patients prevents confounders from skewing the assessment. So the assertion could be \"Patients with recent MI or stroke were excluded from enrollment,\" and the reason is \"to prevent acute, severe baseline cardiovascular confounders from skewing the specific assessment of renal disease progression and heart failure outcomes.\" That fits assertion-reason format.\n\nNow, checking the options for assertion-reason. The correctOption would be 0 because both the assertion and reason are true, and the reason correctly explains the assertion. The explanation should briefly state that excluding these patients avoids confounding factors in the study's outcomes.\n\nAlternatively, could this be a true/false? The statement would be \"Patients with recent MI or stroke were excluded to prevent acute cardiovascular confounders from skewing the study's outcomes.\" But the user's example uses MCQ, but the answer is a single statement. However, the original answer is a direct explanation, so assertion-reason seems more appropriate here.\n\nSo, constructing the JSON for assertion-reason. The assertion is the question part, the reason is the answer part. The correctOption is 0. The explanation is that excluding these patients avoids confounders affecting the study's assessment of renal disease and heart failure outcomes.\n\nI need to make sure the JSON is valid, with proper syntax. No markdown, just the JSON object. Also, ensure that the explanation is concise and accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "How is a \"doubling of the serum creatinine concentration\" clinically verified to prevent false positives?",
+      "options": [
+        "A) A serum creatinine value twice the baseline confirmed by a second measurement within 24 hours",
+        "B) A serum creatinine value twice the baseline confirmed by a second measurement at least 4 weeks after the initial spike",
+        "C) A serum creatinine value twice the baseline without requiring additional measurements",
+        "D) A serum creatinine value twice the baseline confirmed by a single measurement 1 week after the initial spike"
+      ],
+      "correctOption": 1,
+      "explanation": "Confirmation by a second independent measurement at least 4 weeks later ensures the doubling is sustained and not due to transient factors like acute kidney injury or laboratory error.",
+      "id": "tr-nejm-004-how5-obj-1c1c25",
+      "subtopic": "Why/How 5 — Endpoints",
+      "_generatedFrom": "tr-nejm-004-how5",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert the given Q&A into an objective exam question in JSON format. The original question is about how a \"doubling of the serum creatinine concentration\" is verified to prevent false positives. The answer mentions requiring a second independent measurement at least four weeks after the initial spike.\n\nFirst, I need to determine the best question type. The answer is specific and factual, so an MCQ seems appropriate. The key point is the requirement for a second measurement after four weeks. The distractors should be plausible but incorrect. Possible options could include different time frames (like 24 hours or 1 week) or not requiring a second measurement. \n\nI need to ensure the correct option is clearly the one mentioned in the answer. The explanation should briefly state the reason, which is to confirm the doubling and avoid false positives due to transient increases. Let me structure the JSON with the stem, options, correct option, and explanation. Check that all options are plausible and the correct one matches the key point. Also, make sure the explanation is concise and accurate."
+    },
+    {
+      "type": "true_false",
+      "statement": "The intention-to-treat approach preserves the integrity of the randomized cohorts by including data from all randomized patients from randomization through study end, regardless of subsequent treatment adherence.",
+      "correctAnswer": true,
+      "explanation": "This approach maintains the benefits of randomization by preventing bias that could arise from excluding non-adherent patients or those who switch treatments.",
+      "id": "tr-nejm-004-why6-obj-c09945",
+      "subtopic": "Why/How 6 — Statistics — ITT",
+      "_generatedFrom": "tr-nejm-004-why6",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about why an intention-to-treat (ITT) approach is chosen.\n\nFirst, I need to determine the question type. The answer explains that ITT preserves cohort integrity by including all randomized patients. This seems like a factual statement, so maybe true_false. But wait, the original Q&A is a question with a specific answer. However, the key point is a statement that's being explained. \n\nWait, the user provided a Q&A where the question is asking why ITT was chosen, and the answer is about preserving integrity. The key point repeats the answer. So the question is asking for the reason behind choosing ITT. The answer is a specific fact. \n\nLooking at the rules, MCQ is best for specific facts with 4 options. True_false is for clear statements. Assertion_reason is for cause-effect. Here, the question is asking for the reason, which is a specific fact. So maybe MCQ. But the original answer is a single statement. However, the user might want a true/false question based on the key point. \n\nWait, the key point is a statement that's being explained. The original question is \"Why was ITT chosen?\" and the answer is the statement about preserving integrity. So the key point is the correct answer. If we make a true/false question, the statement would be \"The intention-to-treat approach preserves the integrity of the randomized cohorts by including data from all randomized patients...\" and the correct answer is true. \n\nAlternatively, if we make an MCQ, the stem would be \"Why was an intention-to-treat approach chosen...\" with options including the correct answer and plausible distractors. But the user's example shows that the answer is a single statement. However, the user's instruction says to output one objective question. \n\nLooking at the example given by the user, they might prefer a true_false question. Let me check the rules again. True_false is best for clear factual statements. The key point is a factual statement. So converting that into a true_false question would be appropriate. The statement would be the key point, and the correct answer is true. The explanation would be that ITT includes all patients, preserving cohort integrity. \n\nAlternatively, if the question is phrased as a true/false, the statement would be \"The intention-to-treat approach preserves the integrity of the randomized cohorts by including data from all randomized patients...\" and the answer is true. That fits the true_false format. \n\nI think that's the best approach here. The user's key point is a factual statement, so true_false is suitable. The explanation would be the reason given in the answer. So the JSON would be a true_false question with the statement and correct answer as true, and the explanation as the reason."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did the per-protocol analysis results contrast with the intention-to-treat findings?",
+      "options": [
+        "A. The per-protocol analysis demonstrated a 22% risk reduction for the primary composite endpoint versus 16% in the intention-to-treat analysis.",
+        "B. The per-protocol analysis demonstrated a 24% risk reduction for the primary composite endpoint versus 16% in the intention-to-treat analysis.",
+        "C. The per-protocol analysis demonstrated an 18% risk reduction for the primary composite endpoint versus 12% in the intention-to-treat analysis.",
+        "D. The per-protocol analysis demonstrated a 22% risk reduction for the primary composite endpoint versus 18% in the intention-to-treat analysis."
+      ],
+      "correctOption": 0,
+      "explanation": "Per-protocol analysis typically shows greater treatment effects than intention-to-treat analysis because it excludes participants who deviated from the protocol, leading to a larger observed risk reduction (22% vs. 16% in this case).",
+      "id": "tr-nejm-004-how7-obj-2b5e41",
+      "subtopic": "Why/How 7 — Statistics — Per-Protocol",
+      "_generatedFrom": "tr-nejm-004-how7",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about the contrast between per-protocol analysis and intention-to-treat findings.\n\nFirst, I need to determine the question type. The answer provided is a specific percentage difference, so an MCQ seems appropriate here. The key point is the 22% vs. 16% risk reduction. \n\nNext, I need to create plausible distractors. The correct answer is A, so the other options should be close but incorrect. Maybe 24% vs. 16%, 18% vs. 12%, and 22% vs. 18%? Those are similar but not the exact numbers given. \n\nI should make sure the explanation clearly states that per-protocol shows a higher risk reduction compared to intention-to-treat. Also, check that the JSON structure is correct with the right keys and values. No markdown, just plain JSON. Let me double-check the rules to ensure compliance."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did losartan affect proteinuria levels over a 3.4-year follow-up compared to placebo?",
+      "options": [
+        "A. Losartan reduced proteinuria by 35% while placebo showed an increase",
+        "B. Losartan reduced proteinuria by 20% with no change in placebo",
+        "C. Losartan had no effect on proteinuria levels",
+        "D. Losartan increased proteinuria by 10% while placebo decreased"
+      ],
+      "correctOption": 0,
+      "explanation": "Losartan demonstrated a significant 35% reduction in proteinuria compared to placebo, where proteinuria increased over time, as shown in clinical trials evaluating its renoprotective effects.",
+      "id": "tr-nejm-004-how8-obj-679a98",
+      "subtopic": "Why/How 8 — Proteinuria",
+      "_generatedFrom": "tr-nejm-004-how8",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about how losartan affected proteinuria over 3.4 years. The answer states a 35% reduction compared to placebo.\n\nFirst, I need to determine the best question type. The answer is a specific fact with a clear comparison, so MCQ seems appropriate. True/false might be too simplistic here, and assertion-reason could work but MCQ is better for comparing two groups.\n\nNext, the stem should ask about the effect of losartan on proteinuria. The options need to include the correct answer and plausible distractors. The correct answer is a 35% reduction. Distractors could be other percentages or mention other outcomes like no change or increase. But the key point is the comparison with placebo. So, one option should mention the 35% reduction and the placebo's increase. Another might say losartan had no effect, another a smaller reduction, and another a larger one. Wait, the original answer says 35% reduction, so the correct option must include that. The other options need to be incorrect but plausible. Maybe 20% reduction, 50% reduction, or no change. Also, the placebo group's trend is important. The correct answer mentions that proteinuria increased in placebo. So, the options should reflect that. Let me structure the options:\n\nA. Losartan reduced proteinuria by 35% while placebo showed an increase. (Correct)\nB. Losartan reduced proteinuria by 20% with no change in placebo. (Plausible but wrong)\nC. Losartan had no effect on proteinuria. (Wrong)\nD. Losartan increased proteinuria by 10% while placebo decreased. (Wrong)\n\nExplanation should note the study's findings. The correct option is A. The explanation would mention the study showing the 35% reduction and placebo's increase. Need to ensure the explanation is brief and accurate. Also, check that the options are distinct and not overlapping. Make sure the distractors are plausible but clearly incorrect based on the key point provided."
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Calcium-channel antagonists increase angiotensin II production.",
+      "reason": "Losartan blocks angiotensin II receptors, counteracting this effect.",
+      "correctOption": 0,
+      "explanation": "Calcium-channel antagonists can paradoxically increase angiotensin II levels via feedback mechanisms; losartan mitigates this by blocking angiotensin II type 1 receptors, preventing downstream vasoconstrictive and proliferative effects.",
+      "id": "tr-nejm-004-why9-obj-97203a",
+      "subtopic": "Why/How 9 — Concomitant Therapy",
+      "_generatedFrom": "tr-nejm-004-why9",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why calcium-channel antagonists might interfere with study goals and how losartan mitigates that.\n\nFirst, I need to determine the best question type. The answer involves a cause-effect relationship: calcium-channel blockers increasing angiotensin II, and losartan blocking that. Assertion-reason seems suitable here because it's explaining the mechanism.\n\nNow, the assertion would be the main point, and the reason the explanation. The original answer states that calcium-channel antagonists augment angiotensin II, and losartan blocks it. So the assertion could be that calcium-channel antagonists increase angiotensin II, and the reason is that losartan blocks its receptors.\n\nI need to check if the options are plausible. The correct option is both true with the reason explaining the assertion. Distractors might involve other mechanisms, like losartan affecting calcium channels directly, which isn't correct. Another distractor could be that losartan decreases angiotensin II production, but the correct point is blocking the receptor, not reducing production.\n\nMake sure the explanation is concise and accurate. Also, verify that the JSON structure is correct with the right keys and values. Avoid markdown and ensure only the JSON is output."
+    },
+    {
+      "type": "mcq",
+      "stem": "How was the mathematical progression of renal disease tracked independently of clinical endpoints?",
+      "options": [
+        "A: Progression was assessed by comparing slopes of the reciprocal of serum creatinine concentration using a linear random-effects model.",
+        "B: Progression was measured by direct serum creatinine level changes over time using logistic regression.",
+        "C: Progression was estimated via glomerular filtration rate (GFR) calculated from cystatin C with mixed-effects modeling.",
+        "D: Progression was monitored using urinary albumin excretion rates with exponential decay modeling."
+      ],
+      "correctOption": 0,
+      "explanation": "The reciprocal of serum creatinine accounts for non-linear changes in creatinine clearance, and linear random-effects models appropriately handle repeated measures in longitudinal studies.",
+      "id": "tr-nejm-004-how10-obj-bb1782",
+      "subtopic": "Why/How 10 — Statistics — GFR Slope",
+      "_generatedFrom": "tr-nejm-004-how10",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The question is about how the mathematical progression of renal disease was tracked independently of clinical endpoints. The answer given uses the reciprocal of serum creatinine concentration with a linear random-effects model.\n\nFirst, I need to determine the best question type. The answer is a specific method, so MCQ seems appropriate. The key point here is the use of the reciprocal of serum creatinine and the statistical model. The options should include this correct answer and plausible distractors.\n\nDistractors need to be clinically plausible but incorrect. For example, using serum creatinine directly without reciprocal, other models like logistic regression, or unrelated methods like imaging. I'll make sure each option is a common alternative but wrong in this context.\n\nThe stem should ask about the method used to track progression independently of clinical endpoints. The correct option is A, as per the answer. The explanation should mention that reciprocal serum creatinine accounts for non-linear changes and the model used for analysis.\n\nI need to ensure that the JSON is correctly formatted with the right keys and structure. Also, check that the explanation is brief and accurate. Let me verify the options again to ensure they are all plausible but only one is correct. Once that's confirmed, the JSON should be valid and meet all the user's requirements."
+    },
+    {
+      "type": "mcq",
+      "stem": "What effect did losartan have on the estimated decline in glomerular filtration rate (GFR) compared with placebo?",
+      "options": [
+        "A) 15.2% reduction in the estimated decline in GFR",
+        "B) 5.8% increase in the estimated decline in GFR",
+        "C) No significant difference in GFR decline",
+        "D) 22.4% reduction in the estimated decline in GFR"
+      ],
+      "correctOption": 0,
+      "explanation": "Losartan was associated with a 15.2% reduction in the estimated decline in GFR compared with placebo in clinical trials, demonstrating its renoprotective effects.",
+      "id": "tr-nejm-004-how12-obj-1da0e1",
+      "subtopic": "Why/How 12 — Renal Outcomes",
+      "_generatedFrom": "tr-nejm-004-how12",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about losartan's impact on GFR decline.\n\nFirst, I need to determine the question type. The answer is a specific percentage reduction compared to placebo. That sounds like a multiple-choice question (MCQ) because it's a factual statement with a numerical answer. True/false might be too simplistic here, and assertion-reason doesn't fit since there's no cause-effect relationship mentioned.\n\nNext, the stem should ask about the effect of losartan on GFR decline. The correct answer is a 15.2% reduction. Now, I need three plausible distractors. Common alternatives could be percentages like 5%, 10%, 20%, or maybe even a statement about no significant difference. These should be realistic but incorrect based on the key point provided.\n\nI should check clinical accuracy. Losartan is an ARB, and studies have shown it can slow GFR decline in conditions like diabetic nephropathy. A 15.2% reduction seems reasonable. Distractors should not be too far off but still wrong. Maybe 5% (too low), 10% (close but incorrect), 20% (higher than correct), and no significant difference (contradicts the key point).\n\nNow, structure the JSON. The stem is the question, options include the correct answer and three distractors. The correct option is index 0. The explanation should briefly state that the study found a 15.2% reduction compared to placebo.\n\nMake sure the JSON is valid, no markdown, and follows the rules. Check for any typos or formatting issues. That should cover it."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why did the steering committee require patients previously taking ACE inhibitors to switch to alternative medications during screening?",
+      "options": [
+        "A) To reduce the risk of hyperkalemia",
+        "B) To minimize the risk of adverse drug reactions",
+        "C) To isolate the specific renoprotective effects of losartan",
+        "D) To improve patient adherence to the study protocol"
+      ],
+      "correctOption": 2,
+      "explanation": "Existing therapies that interrupted the renin-angiotensin system needed to be excluded to isolate losartan's specific renoprotective effects.",
+      "id": "tr-nejm-004-why13-obj-e7300f",
+      "subtopic": "Why/How 13 — Run-in",
+      "_generatedFrom": "tr-nejm-004-why13",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question in JSON format. The original question is about why patients on ACE inhibitors were asked to switch medications during screening. The answer given is to isolate losartan's renoprotective effects by excluding existing RAS inhibitors.\n\nFirst, I need to determine the best question type. The answer explains a cause-effect relationship: switching medications (action) to isolate the drug's effects (reason). That points towards an assertion-reason question. But let me check the options again.\n\nThe key point is that existing RAS inhibitors (like ACE inhibitors) were excluded to isolate losartan's effects. So the question is about the rationale behind excluding these medications. An MCQ might work here, with options about different reasons. However, the original answer is a specific explanation, so maybe assertion-reason is better. But assertion-reason requires two statements. Let me think again.\n\nWait, the user's example shows that the answer is a single statement. The original Q&A is a direct question with a specific answer. Maybe an MCQ is more appropriate here, with options that include the correct reason and plausible distractors. Let me consider possible distractors. For example, options could include things like reducing side effects, improving patient compliance, or avoiding drug interactions. The correct answer is about isolating renoprotective effects.\n\nSo the MCQ stem would be: \"Why did the steering committee require patients previously taking ACE inhibitors to switch to alternative medications during screening?\" The options would include the correct answer and three other plausible but incorrect reasons. The correct option would be the one about isolating losartan's renoprotective effects. The explanation would mention the need to exclude existing RAS inhibitors to determine the specific effect of losartan.\n\nI need to ensure that the distractors are plausible but clearly wrong. For example, \"To reduce the risk of hyperkalemia\" might be a distractor, but the main reason here is about isolating the drug's effect. Another distractor could be \"To minimize the risk of adverse drug reactions,\" which is a common reason but not the specific one given in the answer. \n\nSo the final JSON would be an MCQ with the correct option as the one that matches the key point provided. The explanation should briefly state that existing RAS inhibitors were excluded to isolate losartan's renoprotective effects."
+    },
+    {
+      "type": "mcq",
+      "stem": "What was the economic rationale for studying pharmacological interventions to delay end-stage renal disease (ESRD) in the context of diabetes?",
+      "options": [
+        "A. ESRD costs in the US reached $12 billion in 1998, with diabetes accounting for ~40% of cases.",
+        "B. ESRD costs in the US reached $12 billion in 2008, with diabetes accounting for ~30% of cases.",
+        "C. ESRD costs in the US reached $12 billion in 1998, with hypertension accounting for ~40% of cases.",
+        "D. ESRD costs in the US reached $12 billion in 1998, with diabetes accounting for ~60% of cases."
+      ],
+      "correctOption": 0,
+      "explanation": "In 1998, ESRD costs in the US were $12 billion, with diabetes responsible for ~40% of cases, highlighting the economic and clinical importance of delaying ESRD.",
+      "id": "tr-nejm-004-how14-obj-33f1bd",
+      "subtopic": "Why/How 14 — Public Health",
+      "_generatedFrom": "tr-nejm-004-how14",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. The original question is about the clinical toll of end-stage renal disease (ESRD) and its economic impact, specifically mentioning the $12 billion cost in 1998 and diabetes accounting for 40% of cases.\n\nFirst, I need to determine the best question type. The answer provided is a specific fact with numbers, so an MCQ seems appropriate here. The key points mention the cost and the percentage due to diabetes, so the correct option should include both. The distractors need to be plausible but incorrect. \n\nPossible distractors could be other costs or percentages, maybe different years or causes. For example, changing the year to 2008, or stating a different percentage like 30% for diabetes, or mentioning another condition like hypertension. Also, maybe a distractor that confuses the cost with another disease's economic impact.\n\nI need to ensure that the correct answer is option A, and the others have slight variations that are factually incorrect. The explanation should briefly mention the correct figures from the key points. Let me structure the JSON accordingly, making sure the options are in the right order and the correctOption is set to 0. Also, check that the explanation is concise and accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why might the study have failed to demonstrate a significant difference in the composite of overall cardiovascular morbidity and mortality?",
+      "options": [
+        "A) The study used a non-specific statistical analysis method",
+        "B) The follow-up period was too short to detect long-term outcomes",
+        "C) The relatively small sample size combined with strict enrollment criteria that excluded patients at high cardiovascular risk",
+        "D) Patient compliance with the intervention was consistently low across both groups"
+      ],
+      "correctOption": 2,
+      "explanation": "The lack of significance likely resulted from limited statistical power due to small sample size and selection bias from excluding high-risk patients, which reduced the ability to detect clinically meaningful differences.",
+      "id": "tr-nejm-004-why15-obj-42da8a",
+      "subtopic": "Why/How 15 — Cardiovascular Outcomes",
+      "_generatedFrom": "tr-nejm-004-why15",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why a study didn't show a significant difference in cardiovascular outcomes. The answer given points to a small sample size and strict enrollment criteria excluding high-risk patients.\n\nFirst, I need to determine the best question type. The answer involves multiple factors (sample size and enrollment criteria), which suggests an MCQ might be suitable. True/false could work, but the explanation is more complex. Assertion-reason might also be an option, but the answer isn't a direct cause-effect pair. So MCQ seems better here.\n\nNext, the stem should ask why the study failed to show significance. The options need to be plausible but incorrect except for the correct one. The correct answer is about sample size and exclusion criteria. Distractors could include things like statistical methods, follow-up duration, or patient compliance. These are common issues in study design.\n\nI need to ensure the options are distinct and not overlapping. The correct option should combine both factors mentioned in the key points. Then, the explanation should briefly mention the sample size and exclusion criteria as the main reasons. Let me check the rules again: JSON only, no markdown, correct option index, and clinical accuracy. Looks good. Now, structure the JSON accordingly."
     }
   ]
 }

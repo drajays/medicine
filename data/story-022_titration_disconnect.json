@@ -189,6 +189,38 @@
       "subtopic": "Operations",
       "question": "Briefly explain the role of a pre-consultation buffer (like a nurse or educator) in managing a titration check-in, and how this changes the doctor-patient dynamics in the consultation room.",
       "answer": "The clinical buffer intercepts the patient before they enter the consultant's room, logs current vitals, reviews their blood glucose logs, and documents the exact dose of insulin they have been taking. This buffers the physician from immediate confrontation. By the time the patient meets the doctor, the physician is armed with objective, logged data. This shifts the dynamic of the consultation from a memory-based or emotional argument ('he said, she said') to a collaborative, data-driven clinical review of the patient's metabolic response."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why does a discrepancy between a patient's memory of a dosage and the clinic's record destroy the therapeutic alliance?",
+      "options": [
+        "A) Because it indicates a systemic failure in medication management",
+        "B) Because the prescription pad represents a legal and psychological contract, and defensive denial by the physician is perceived as gaslighting or neglect",
+        "C) Because patients inherently distrust medical records",
+        "D) Because it reflects poor communication between healthcare providers"
+      ],
+      "correctOption": 1,
+      "explanation": "The prescription serves as both a legal document and a psychological agreement in high-stakes metabolic management. Defensive reactions by clinicians to discrepancies undermine trust, perceived as gaslighting or incompetence, which fractures the therapeutic alliance.",
+      "id": "story-022-why1-obj-ef90ec",
+      "subtopic": "Therapeutic Alliance",
+      "_generatedFrom": "story-022-why1",
+      "distillation_trace": "Okay, let's tackle this. The user wants a question based on the provided Q&A. The main point is about why a discrepancy between a patient's memory and clinic records harms the therapeutic alliance.\n\nFirst, I need to determine the question type. The answer explains the mechanism involving the prescription as a contract and the physician's defensive reaction leading to loss of trust. This seems like a cause-effect relationship, so assertion-reason might be suitable. But maybe MCQ is better if there are clear options.\n\nWait, the answer mentions specific elements: legal/psychological contract, defensive behavior leading to gaslighting, and the need for shared understanding. If I make an MCQ, the options should include these points as correct and plausible distractors. However, the original answer is more about explaining the reason rather than choosing between options. \n\nAlternatively, an assertion-reason question where the assertion is \"A discrepancy between a patient's memory and clinic records destroys the therapeutic alliance\" and the reason is \"Because the prescription pad represents a legal and psychological contract, and defensive denial by the physician is perceived as gaslighting.\" Then check if the reason correctly explains the assertion. \n\nBut the key points in the answer also mention systems-based approach and shared understanding. Maybe the best fit is MCQ with options that include the correct explanation and distractors that miss these elements. Let me structure the options. The correct answer would be the one that mentions the legal/psychological contract and the physician's defensive behavior leading to trust issues. Distractors could be about communication errors, patient non-adherence, or administrative errors. \n\nSo, the MCQ stem would ask why the discrepancy destroys the alliance, with options A-D. The correct option is the one that matches the explanation given. Then the explanation in JSON would note that the prescription's role as a contract and the physician's reaction are key. I think that's the way to go."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which statement best describes the mechanism of the 'Acknowledge, Inspect, Realign' (AIR) technique in de-escalating patient confrontation?",
+      "options": [
+        "A) Acknowledge patient concerns without denial, inspect records collaboratively to establish objective facts, and realign based on current data while emphasizing safety.",
+        "B) Acknowledge concerns, inspect records unilaterally to correct errors, and realign by focusing on past clinical decisions.",
+        "C) Acknowledge concerns, inspect memory-based accounts, and realign by directly confronting patient misconceptions.",
+        "D) Acknowledge concerns, inspect records collaboratively, and realign by prioritizing institutional policies over patient safety."
+      ],
+      "correctOption": 0,
+      "explanation": "The AIR technique effectively de-escalates conflict by validating patient concerns (acknowledge), using objective records to replace subjective disputes (inspect), and refocusing on safety through data-driven adjustments (realign) without blame.",
+      "id": "story-022-how1-obj-722697",
+      "subtopic": "De-escalation",
+      "_generatedFrom": "story-022-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about the AIR technique for de-escalating patient confrontation.\n\nFirst, I need to determine the best question type. The answer describes a process with three steps, so a multiple-choice question (MCQ) seems appropriate. True/false might not capture the nuances, and assertion-reason could be tricky here since it's more about a procedure than a cause-effect relationship.\n\nNext, the stem should ask about the mechanism of the AIR technique. The options need to be plausible but clearly wrong. Let me look at the key points: acknowledgment, inspecting records collaboratively, realigning with safety. The correct answer should mention all three steps. Distractors could be missing one of the steps, or have incorrect details like attacking the patient's intelligence, which contradicts the realign step.\n\nOption A is the correct one as per the answer. Option B might miss the realignment part. Option C could incorrectly mention attacking the patient. Option D might focus on blame instead of safety. The explanation should highlight that the correct option includes all three steps and the collaborative approach.\n\nI need to ensure the JSON is valid, with the correctOption set to 0 for the first option. The explanation should be brief, pointing out the three steps and the collaborative fact-based approach. Let me structure that now."
     }
   ]
 }

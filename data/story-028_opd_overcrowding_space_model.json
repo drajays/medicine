@@ -278,6 +278,49 @@
         "Limitation: context-bound; must flex for children, dementia/disability, frail elders, interpreters, or a wanted chaperone.",
         "Assumptions: a competent adult who wants privacy, a reconfigurable space, trainable staff, and a doctor who keeps the debrief promise."
       ]
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Reframing the rule from 'clinic policy' to 'protecting the patient's care' aligns the family's goal with the clinic's goal.",
+      "reason": "Because it changes the family's perception of their behavior as an expression of love rather than a surrender.",
+      "correctOption": 0,
+      "explanation": "Reframing shifts the emotional valence of compliance from resistance to caring, aligning motivations through narrative change.",
+      "id": "story-028-why1-obj-0af1e2",
+      "subtopic": "Reframing",
+      "_generatedFrom": "story-028-why1",
+      "distillation_trace": "Okay, let's tackle this. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about reframing a clinic policy to protect the patient's care. The answer explains that aligning the family's goal with the clinic's goal makes the behavior more acceptable.\n\nFirst, I need to determine the question type. The original answer discusses a cause-effect relationship between reframing the rule and the family's behavior. So assertion_reason might be suitable here. But let me check the options again.\n\nThe key points mention that reframing changes the story the family tells themselves, which affects their behavior. That's a cause-effect relationship. So assertion_reason is appropriate. The assertion would be that reframing the rule aligns the family's goal with the clinic's, and the reason is that it changes the family's perception of their behavior as caring.\n\nNow, the options for assertion_reason need to be structured. The correct option is both assertion and reason being true, with the reason explaining the assertion. The other options would be variations where either the assertion or reason is incorrect.\n\nWait, the original answer says that the behavior becomes an expression of love instead of surrender. The explanation is that the story the family tells themselves changes. So the assertion is that reframing aligns goals, and the reason is that it changes the family's perception of their behavior as caring.\n\nI need to make sure the JSON structure is correct. The assertion and reason should be concise. Let me check the rules again: the correctOption is 0 for both true and reason explains assertion. The explanation should be brief.\n\nSo the JSON would have type assertion_reason, assertion as \"Reframing the rule from 'clinic policy' to 'protecting the patient's care' aligns the family's goal with the clinic's goal.\" The reason would be \"Because it changes the family's perception of their behavior as an expression of love rather than a surrender.\" The correctOption is 0, and the explanation is that reframing shifts the emotional valence from confrontation to alignment.\n\nI need to ensure that the distractors are plausible but wrong. However, since this is assertion_reason, the other options would be different combinations. But the user only wants the correct JSON, not the distractors. Wait, the user said to output ONE objective question as JSON. The example shows that for assertion_reason, the JSON includes assertion, reason, correctOption, and explanation. So I just need to structure that correctly.\n\nYes, that should be it. Let me put it all together."
+    },
+    {
+      "type": "mcq",
+      "stem": "A solo clinician with no two-zone layout and no SMS system wishes to implement S.P.A.C.E. tomorrow. Which approach best aligns with the principles described?",
+      "options": [
+        "A) Use two chairs at the entrance, a verbal check-in line, and have the doctor personally conduct the authority move and debrief",
+        "B) Implement a full two-zone layout and SMS system immediately, even if resources are limited",
+        "C) Rely solely on the assistant to manage spatial triage and priming without direct clinician involvement",
+        "D) Skip the spatial and priming components to focus on authority and debriefing only"
+      ],
+      "correctOption": 0,
+      "explanation": "The correct approach emphasizes minimal viable implementation (two chairs, verbal check-in line) with direct clinician involvement in authority and debriefing, prioritizing structure over budget and measuring breaches for future scaling.",
+      "id": "story-028-how1-obj-c2cca9",
+      "subtopic": "Application",
+      "_generatedFrom": "story-028-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a medical question based on the provided Q&A, formatted as JSON. The original question is about applying the S.P.A.C.E. model in a solo clinician's setting with limited resources. The answer details specific steps like using two chairs, a verbal line at check-in, and personal involvement in authority and debriefing.\n\nFirst, I need to determine the best question type. The answer involves specific strategies and steps, which suggests an MCQ format. True/false might not capture the nuances, and assertion-reason could be possible but MCQ seems better for listing options.\n\nNext, the stem should ask about the appropriate application of S.P.A.C.E. given the constraints. The options need to be plausible but only one correct. The key points from the answer are the two chairs, verbal line, doctor's personal involvement, and starting minimal. Distractors might include things like using SMS, two-zone layout, or not involving the doctor directly.\n\nI need to ensure that the correct option includes the minimal steps mentioned, while the distractors either add unnecessary elements or omit key components. The explanation should reference the key points from the answer, like structure over budget and measuring breaches.\n\nI also need to check that the JSON is valid, with the correct option index and proper formatting. Making sure that the options are clear and the explanation is concise but accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which single metric should be monitored to confirm that the family-debrief promise is being consistently upheld during consultations?",
+      "options": [
+        "A. Patient satisfaction scores",
+        "B. Rate of 'kept out / not informed' complaints",
+        "C. Number of attendants allowed per consultation",
+        "D. Duration of each consultation"
+      ],
+      "correctOption": 1,
+      "explanation": "A rising rate of 'kept out / not informed' complaints directly indicates breaches of the family-debrief promise, even if other metrics (like attendance rates) appear stable.",
+      "id": "story-028-sa1-obj-cd743f",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-028-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a medical question in JSON format based on the provided Q&A. First, I need to understand the content of the Q&A. Part (a) is about drafting an SMS for an attendant policy using care-framed language. Part (b) involves the doctor's opening lines to manage a crowded chamber. The metric to watch is the rate of complaints about being kept out or not informed, or the percentage of consults with a documented family debrief.\n\nThe challenge is converting this into an objective exam question. The original answer includes specific examples, so the question should focus on identifying the correct metric. The options need to be plausible but incorrect. The correct answer is the rate of complaints or the documented debrief percentage. Distractors could include other metrics like patient satisfaction, attendance rates, or time spent per consultation. \n\nSince the question is about selecting the correct metric, an MCQ format is appropriate. The stem should ask which metric confirms the family-debrief promise is kept. The options need to be clear, with the correct one being the complaint rate or documented debrief. The explanation should mention that rising complaints indicate the debrief is being skipped despite other metrics improving.\n\nI need to ensure the JSON structure is correct, with the right type, stem, options, correct option, and explanation. Also, check that the distractors are plausible but wrong. The explanation should be brief and accurate."
     }
   ]
 }

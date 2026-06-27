@@ -1,0 +1,412 @@
+{
+  "id": "cr-042",
+  "reportType": "case_report",
+  "title": "Complex Hypercalcemia Workup: PTH-Dependent Disease in an 82-Year-Old Man",
+  "subtitle": "A Resident Training Module: why PTH divides all hypercalcemia, the Resident 1 myeloma error, FHH exclusion before surgery, disproportionately elevated 1,25-dihydroxyvitamin D and sarcoid cofactor, localization vs diagnosis, pathological fracture and carcinoma red flags, and the complete pre-operative checklist",
+  "section": "Case Reports",
+  "category": "Endocrinology (Parathyroid & Bone)",
+  "authors": "Resident training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    {
+      "id": "cr-025",
+      "title": "Primary Hyperparathyroidism in a Young Adult"
+    },
+    {
+      "id": "cr-003",
+      "title": "Severe PTH-Independent Hypercalcemia with Elevated Calcitriol"
+    },
+    {
+      "id": "cr-010",
+      "title": "Refractory PTH-Independent Hypercalcemia in Metastatic Breast Cancer"
+    }
+  ],
+  "patient": {
+    "age": 82,
+    "sex": "Male",
+    "chiefComplaint": "Hypercalcemia discovered on routine labs with history of pathological fracture",
+    "pmh": [
+      "Serum calcium 11.7 mg/dL (hypercalcemia)",
+      "Intact PTH 441 pg/mL (markedly elevated) — PTH-dependent",
+      "1,25-dihydroxyvitamin D 230 pg/mL (very elevated)",
+      "25-hydroxyvitamin D not yet done",
+      "ACE 55 U/L (reference 8-52, mildly elevated)",
+      "PTHrP pending",
+      "ALP mildly elevated",
+      "Creatinine 0.8 mg/dL, phosphorus 2 mg/dL (low-normal)",
+      "Neck ultrasound normal — no obvious adenoma",
+      "History of pathological fracture",
+      "Asthma"
+    ],
+    "medications": []
+  },
+  "caseDescription": "An 82-year-old man with calcium 11.7 mg/dL, intact PTH 441 pg/mL, 1,25-dihydroxyvitamin D 230 pg/mL, mildly elevated ACE (55), pathological fracture, and normal neck ultrasound. Two residents debate the workup: Resident 1 wrongly prioritises myeloma screen despite high PTH (PTH-independent malignancy suppresses PTH); Resident 2 is mostly correct (25-OH vitamin D, MIBI, repeat USG, BMD, hand X-ray) but misses critical FHH exclusion and sarcoid cofactor evaluation. Teaching framework: PTH level determines the entire pathway; PHPT is a biochemical diagnosis; 24-hour urine calcium and calcium/creatinine clearance ratio must precede surgical referral; 1,25-D of 230 is disproportionately high for PHPT alone — consider coexisting granulomatous disease; pathological fracture with PTH 441 raises brown tumour and parathyroid carcinoma red flags; localization studies (MIBI, 4D-CT, choline PET) are for surgical planning only.",
+  "keyFindings": [
+    "PTH 441 → PTH-dependent hypercalcemia — parathyroid pathology first, not myeloma",
+    "1,25-D 230 very high + ACE 55 — consider coexisting sarcoidosis despite high PTH",
+    "25-OH vitamin D not done — critical gap (FHH/sarcoid/toxicity differentiation and pre-op optimisation)",
+    "FHH exclusion (24-h urine calcium, Ca/Cr clearance ratio) missing from both resident plans",
+    "Pathological fracture + PTH 441 — severe PHPT bone disease; carcinoma red flags",
+    "Neck USG normal — does not exclude PHPT; localization ≠ diagnosis"
+  ],
+  "finalDiagnosis": "PTH-dependent hypercalcemia — primary hyperparathyroidism most likely; complete workup before surgery: 24-h urine calcium and Ca/Cr clearance ratio (exclude FHH), 25-OH vitamin D, evaluate disproportionately elevated 1,25-D and ACE for coexisting sarcoidosis (chest CT), MEN1 screening, localization (repeat expert USG, MIBI, 4D-CT or choline PET if discordant), bone evaluation (hand X-ray, DXA, consider skeletal survey given pathological fracture), age-appropriate malignancy screen (SPEP/UPEP, PSA), parathyroid carcinoma red flags (PTH 441 borderline, pathological fracture), endocrine surgery referral with intraoperative PTH monitoring.",
+  "learningObjectives": [
+    "Classify hypercalcemia by PTH level and choose the correct initial diagnostic pathway",
+    "Explain why high PTH excludes myeloma as the primary explanation and why Resident 1's approach is wrong",
+    "Exclude FHH with 24-hour urine calcium and calcium/creatinine clearance ratio before surgical referral",
+    "Interpret disproportionately elevated 1,25-dihydroxyvitamin D and ACE in the context of PHPT",
+    "Differentiate localization from diagnosis and apply adenoma vs hyperplasia vs carcinoma pre-operative reasoning"
+  ],
+  "items": [
+    {
+      "id": "cr-042-n1",
+      "type": "note",
+      "subtopic": "Case snapshot",
+      "title": "Clinical snapshot: PTH-dependent hypercalcemia in an elderly man",
+      "content": "82-year-old man: calcium 11.7 mg/dL, intact PTH 441 pg/mL, 1,25-dihydroxyvitamin D 230 pg/mL, 25-OH vitamin D not done, ACE 55 (mildly elevated), ALP mildly elevated, creatinine 0.8, phosphorus 2 mg/dL, PTHrP pending, neck USG normal. History of pathological fracture and asthma. The biochemical anchor is unmistakable: PTH is markedly elevated → PTH-dependent hypercalcemia. The workup must focus on parathyroid gland pathology first, while not ignoring disproportionately high 1,25-D, missing 25-OH vitamin D, FHH exclusion, and bone/malignancy evaluation appropriate for age 82.",
+      "keyPoints": [
+        "Ca 11.7 + PTH 441 = PTH-dependent.",
+        "1,25-D 230 very high; 25-OH not done — gap.",
+        "Pathological fracture + normal neck USG."
+      ]
+    },
+    {
+      "id": "cr-042-n2",
+      "type": "note",
+      "subtopic": "Framework",
+      "title": "Why the PTH level determines the entire hypercalcemia pathway",
+      "content": "The first branch in any hypercalcemia workup is intact PTH. PTH high or inappropriately normal for the calcium → PTH-dependent causes: primary hyperparathyroidism (adenoma, hyperplasia, carcinoma), familial hypocalciuric hypercalcemia, lithium. PTH low/suppressed → PTH-independent: malignancy (PTHrP, lytic metastases, myeloma), granulomatous disease (sarcoid, TB), vitamin D toxicity, thyrotoxicosis, adrenal insufficiency. This patient has PTH 441 — firmly PTH-dependent. Every subsequent test flows from that branch. Skipping this step and jumping to myeloma screening (Resident 1's error) wastes time and misdirects the pathway.",
+      "keyPoints": [
+        "First step: intact PTH — divides all hypercalcemia.",
+        "PTH high → parathyroid pathology first.",
+        "PTH suppressed → malignancy, granuloma, D toxicity."
+      ]
+    },
+    {
+      "id": "cr-042-n3",
+      "type": "note",
+      "subtopic": "Resident debate",
+      "title": "Why Resident 1 is wrong to suspect PTH-independent myeloma first",
+      "content": "Resident 1 wants to rule out myeloma because of elevated 1,25-D and ACE — but PTH is 441, which is incompatible with myeloma as the primary driver. In myeloma and PTHrP-mediated malignancy, PTH is suppressed (low/undetectable). The resident likely confused granulomatous-pattern labs (high 1,25-D, ACE) with a PTH-independent pathway. Myeloma screening may still be reasonable at age 82 as a baseline, but it is not the first step and cannot explain high PTH. The teaching error is fundamental: ignoring that PTH level defines the pathway.",
+      "keyPoints": [
+        "Myeloma/malignancy → PTH suppressed, not 441.",
+        "PTHrP hypercalcemia → low PTH.",
+        "Resident 1 confused by 1,25-D and ACE elevation."
+      ]
+    },
+    {
+      "id": "cr-042-n4",
+      "type": "note",
+      "subtopic": "1,25-Dihydroxyvitamin D",
+      "title": "Why 1,25-dihydroxyvitamin D of 230 is disproportionately high for PHPT alone",
+      "content": "In PHPT, PTH stimulates renal 1α-hydroxylase and 1,25-D is often mildly elevated — typically in the 60-120 pg/mL range. This patient's 1,25-D is 230 pg/mL — very high and disproportionate. Granulomatous disease (sarcoidosis) produces autonomous macrophage 1α-hydroxylase, driving 1,25-D above 150 pg/mL with ACE often elevated. ACE here is 55 (slightly above reference). Asthma history does not exclude sarcoid — it can mimic or coexist. Teaching point: PHPT and sarcoid can coexist; do not dismiss ACE and very high 1,25-D as irrelevant just because PTH is also high. Chest CT and 25-OH vitamin D help differentiate.",
+      "keyPoints": [
+        "PHPT: 1,25-D typically 60-120; 230 is very high.",
+        "Sarcoid: macrophage 1α-hydroxylase → high 1,25-D + ACE.",
+        "Coexisting granulomatous disease must be considered."
+      ]
+    },
+    {
+      "id": "cr-042-n5",
+      "type": "note",
+      "subtopic": "25-Hydroxyvitamin D",
+      "title": "Why 25-hydroxyvitamin D must be measured before surgery",
+      "content": "25-OH vitamin D was not done — a critical gap both residents should have caught immediately. Reasons: (1) sarcoid differentiation — normal/high 25-OH with very high 1,25-D suggests granulomatous conversion; (2) pre-operative optimisation — parathyroid surgery requires adequate 25-OH vitamin D (>30 ng/mL) to reduce hungry bone syndrome risk; (3) vitamin D toxicity exclusion — 25-OH >150 ng/mL with suppressed PTH would indicate PTH-independent toxicity (not this patient's pattern); (4) baseline for post-operative management. Resident 2 correctly identified this; Resident 1 did not.",
+      "keyPoints": [
+        "25-OH D mandatory — not optional.",
+        "Pre-op repletion prevents hungry bone syndrome.",
+        "Differentiates sarcoid, toxicity, and deficiency."
+      ]
+    },
+    {
+      "id": "cr-042-n6",
+      "type": "note",
+      "subtopic": "FHH",
+      "title": "How to exclude familial hypocalciuric hypercalcemia before surgical referral",
+      "content": "FHH mimics PHPT biochemically (high calcium, normal-to-mildly elevated PTH) but surgery does not help — it is a CASR mutation causing inappropriately low urinary calcium excretion. Both residents missed this. Order 24-hour urine calcium and calculate the calcium/creatinine clearance ratio: (Urine Ca × Plasma Cr) / (Plasma Ca × Urine Cr). Ratio <0.01 → FHH (surgery contraindicated); >0.02 → PHPT (surgery may be indicated). USG may be normal in both. Especially critical in elderly patients before any surgical referral — operating on FHH causes harm without benefit.",
+      "keyPoints": [
+        "24-h urine Ca + Ca/Cr clearance ratio — mandatory pre-op.",
+        "<0.01 → FHH; >0.02 → PHPT.",
+        "Both residents missed this critical step."
+      ]
+    },
+    {
+      "id": "cr-042-n7",
+      "type": "note",
+      "subtopic": "Bone disease",
+      "title": "Pathological fracture and severe PHPT bone disease",
+      "content": "Pathological fracture in this context could reflect osteoporosis from long-standing PHPT, brown tumour (osteitis fibrosa cystica), myeloma, or metastasis. PTH 441 indicates severe PHPT with significant bone turnover — ALP mildly elevated supports this. Brown tumours are rare today but still seen in severe/long-standing disease. Parathyroid carcinoma must also be considered with very high PTH and pathological fracture. Distinguishing brown tumour from myeloma lytic lesions requires correlation with biochemistry (PTH high vs suppressed in myeloma) and appropriate imaging.",
+      "keyPoints": [
+        "PTH 441 + pathological fracture = severe bone disease.",
+        "Brown tumour possible in long-standing PHPT.",
+        "Carcinoma red flags — do not dismiss."
+      ]
+    },
+    {
+      "id": "cr-042-n8",
+      "type": "note",
+      "subtopic": "Skeletal imaging",
+      "title": "How to evaluate skeletal disease: hand X-ray, BMD, and skeletal survey",
+      "content": "Resident 2 correctly suggested hand X-ray and DXA — excellent choices. Subperiosteal bone resorption on the radial aspect of the middle phalanx of index/middle fingers is pathognomonic of PHPT. Also look for salt-and-pepper skull, rugger-jersey spine, and brown tumours. DXA at three sites (spine, hip, distal radius — the radius is often most affected in PHPT). Given pathological fracture and PTH 441, skeletal survey is contextually reasonable to seek brown tumours, though brown tumours are late findings. If myeloma not biochemically excluded at age 82, SPEP/UPEP and PET may be more useful than survey alone for lytic lesions.",
+      "keyPoints": [
+        "Hand X-ray: subperiosteal resorption — pathognomonic.",
+        "DXA three sites including distal radius.",
+        "Skeletal survey reasonable with pathological fracture + PTH 441."
+      ]
+    },
+    {
+      "id": "cr-042-n9",
+      "type": "note",
+      "subtopic": "Localization",
+      "title": "Localization studies are for surgical planning, not diagnosis",
+      "content": "PHPT diagnosis is biochemical: elevated calcium with non-suppressed PTH. Imaging localizes for the surgeon — it does not make or exclude the diagnosis. Neck USG sensitivity 70-80% (operator-dependent); Tc-99m sestamibi (MIBI) 80-85% for single adenoma; 4D-CT 85-90% when USG/MIBI fail; choline PET-CT >90% for multigland disease and failed localization. Normal neck USG does NOT exclude PHPT. Negative MIBI does NOT exclude PHPT — bilateral neck exploration remains valid. Resident 2's MIBI and repeat USG suggestions are appropriate for localization, not for confirming diagnosis.",
+      "keyPoints": [
+        "Diagnosis = biochemistry; imaging = surgical planning.",
+        "Normal USG or negative MIBI ≠ no PHPT.",
+        "4D-CT or choline PET if discordant localization."
+      ]
+    },
+    {
+      "id": "cr-042-n10",
+      "type": "note",
+      "subtopic": "Pre-operative differentiation",
+      "title": "How to differentiate adenoma, hyperplasia, and carcinoma before surgery",
+      "content": "Single adenoma (85-90%): single hot spot on MIBI, single enlarged gland on USG, minimally invasive parathyroidectomy, intraoperative PTH drop >50%. Multigland hyperplasia (10-15%): multiple glands, MEN1/MEN2A association — bilateral exploration/subtotal parathyroidectomy; screen prolactin, gastrin, fasting glucose for MEN1. Parathyroid carcinoma (<1%): PTH often >500-1000, calcium may exceed 14 mg/dL, palpable hard neck mass, irregular infiltrative USG, recurrent disease. Pre-op red flags in this patient: PTH 441 (borderline suspicious), pathological fracture, severe hypercalcemia. Consider CDC73/HRPT2 testing and parafibromin immunostaining on surgical specimen if carcinoma suspected.",
+      "keyPoints": [
+        "Adenoma 85-90% — single gland, MIP, IOPTH drop >50%.",
+        "Hyperplasia — MEN screen, bilateral surgery.",
+        "Carcinoma rare — PTH very high, invasive mass; CDC73 if suspicious."
+      ]
+    },
+    {
+      "id": "cr-042-n11",
+      "type": "note",
+      "subtopic": "Complete workup",
+      "title": "Complete recommended workup checklist",
+      "content": "Confirmed PTH-dependent hypercalcemia (PTH 441). Step 1: 24-h urine calcium + Ca/Cr clearance ratio (exclude FHH) — critical miss in both residents. Step 2: 25-OH vitamin D. Step 3: evaluate 1,25-D 230 and ACE 55 — chest CT for sarcoid. Step 4: family history and MEN1 screening (prolactin, gastrin, glucose). Step 5: localization — expert repeat USG, MIBI, 4D-CT/choline PET if discordant. Step 6: bone — hand X-ray, DXA, skeletal survey if indicated. Step 7: age-appropriate malignancy screen — SPEP/UPEP, free light chains, PSA; PTHrP pending. Step 8: pre-op — cardiac evaluation (age 82), renal stone imaging, endocrine surgery referral with intraoperative PTH monitoring, optimise 25-OH vitamin D to prevent hungry bone.",
+      "keyPoints": [
+        "FHH exclusion first — both residents missed.",
+        "25-OH D, sarcoid workup, MEN screen, localization, bone, malignancy screen.",
+        "Pre-op vitamin D optimisation and IOPTH monitoring."
+      ]
+    },
+    {
+      "id": "cr-042-n12",
+      "type": "note",
+      "subtopic": "Resident scorecard",
+      "title": "Resident assessment scorecard and key teaching messages",
+      "content": "Resident 1: wrong pathway (myeloma first despite high PTH) — failed fundamental classification. Resident 2: mostly correct (25-OH D, MIBI, repeat USG, BMD, hand X-ray) but missed FHH exclusion, sarcoid cofactor consideration, carcinoma red flags, and MEN screening. Eight key messages: (1) PTH divides all hypercalcemia; (2) FHH exclusion mandatory before surgery; (3) localization ≠ diagnosis; (4) 1,25-D 230 too high for PHPT alone — think sarcoid; (5) pathological fracture + PTH 441 → carcinoma and brown tumour; (6) age 82 warrants baseline malignancy screen but not as first step; (7) pre-op optimise 25-OH vitamin D; (8) intraoperative PTH is gold standard for cure confirmation.",
+      "keyPoints": [
+        "Resident 1: fundamental PTH pathway error.",
+        "Resident 2: good but missed FHH and sarcoid.",
+        "Eight teaching messages for board and clinic."
+      ]
+    },
+    {
+      "id": "cr-042-why1",
+      "type": "why",
+      "subtopic": "Framework",
+      "question": "Why is myeloma screening the wrong first step when intact PTH is 441 pg/mL?",
+      "answer": "Because PTH 441 defines PTH-dependent hypercalcemia — the parathyroid glands are driving the calcium elevation. Myeloma and PTHrP-mediated malignancy cause PTH-independent hypercalcemia with suppressed PTH. A markedly elevated PTH cannot be explained by myeloma as the primary mechanism. The correct first pathway is parathyroid disease evaluation with FHH exclusion, not a myeloma workup prompted by misreading elevated 1,25-D and ACE. Age-appropriate SPEP/UPEP may still be done later as baseline, but it is not step one."
+    },
+    {
+      "id": "cr-042-how1",
+      "type": "how",
+      "subtopic": "FHH",
+      "question": "How do you exclude FHH before referring this patient for parathyroid surgery?",
+      "answer": "Measure 24-hour urinary calcium and calculate the calcium/creatinine clearance ratio: (Urine Ca × Plasma Cr) / (Plasma Ca × Urine Cr). Ratio <0.01 strongly suggests FHH — surgery will not cure and should not be performed. Ratio >0.02 supports true PHPT where surgery may be indicated. FHH and PHPT look identical on serum calcium and PTH; urinary calcium handling is the discriminator. This step was missing from both residents' plans and is mandatory before any surgical referral."
+    },
+    {
+      "id": "cr-042-why2",
+      "type": "why",
+      "subtopic": "1,25-Dihydroxyvitamin D",
+      "question": "Why should coexisting sarcoidosis be considered despite PTH-dependent hypercalcemia?",
+      "answer": "Because 1,25-dihydroxyvitamin D of 230 pg/mL is disproportionately high for PHPT alone, where levels typically reach 60-120 pg/mL. Granulomatous macrophages produce autonomous 1α-hydroxylase independent of PTH feedback, driving 1,25-D above 150 pg/mL. ACE is mildly elevated at 55. PHPT and sarcoid can coexist — PTH can be high from parathyroid disease while granulomas independently elevate 1,25-D. Dismissing ACE and very high 1,25-D because PTH is also elevated risks missing a treatable cofactor and misplanning surgery."
+    },
+    {
+      "id": "cr-042-how2",
+      "type": "how",
+      "subtopic": "Localization",
+      "question": "How should parathyroid localization be approached when neck ultrasound is normal?",
+      "answer": "Remember that normal USG does not exclude PHPT — diagnosis is biochemical. Proceed with Tc-99m sestamibi (MIBI) scan and repeat USG by an experienced operator. If discordant or negative, use 4D-CT parathyroid protocol or choline PET-CT (especially for multigland disease or failed localization). Localization guides minimally invasive vs bilateral exploration but never replaces biochemical confirmation and FHH exclusion. Negative MIBI still permits bilateral neck exploration with intraoperative PTH monitoring."
+    },
+    {
+      "id": "cr-042-m1",
+      "type": "mcq",
+      "subtopic": "Framework",
+      "stem": "An 82-year-old man has calcium 11.7 mg/dL and intact PTH 441 pg/mL. What is the correct initial classification?",
+      "options": [
+        "PTH-independent hypercalcemia — screen for myeloma first",
+        "PTH-dependent hypercalcemia — evaluate parathyroid pathology",
+        "Vitamin D toxicity — stop all supplements",
+        "Factitious hypercalcemia — repeat in fasting state only"
+      ],
+      "correctOption": 1,
+      "explanation": "PTH 441 with hypercalcemia is PTH-dependent by definition. Focus on parathyroid gland pathology and exclude FHH before surgery. Myeloma suppresses PTH."
+    },
+    {
+      "id": "cr-042-m2",
+      "type": "mcq",
+      "subtopic": "FHH",
+      "stem": "Before parathyroid surgery, which test is mandatory to exclude familial hypocalciuric hypercalcemia?",
+      "options": [
+        "Serum calcitonin",
+        "24-hour urine calcium with calcium/creatinine clearance ratio",
+        "Bone marrow biopsy",
+        "Thyroid scintigraphy"
+      ],
+      "correctOption": 1,
+      "explanation": "Ca/Cr clearance ratio <0.01 suggests FHH where surgery does not help; >0.02 supports PHPT. Both residents in this case missed this critical step."
+    },
+    {
+      "id": "cr-042-m3",
+      "type": "mcq",
+      "subtopic": "1,25-Dihydroxyvitamin D",
+      "stem": "1,25-dihydroxyvitamin D is 230 pg/mL with ACE 55 and intact PTH 441. What is the best interpretation?",
+      "options": [
+        "1,25-D elevation is fully explained by PHPT — ignore ACE",
+        "Consider coexisting granulomatous disease (e.g. sarcoid) despite high PTH",
+        "1,25-D elevation proves vitamin D toxicity with suppressed PTH",
+        "ACE elevation confirms pulmonary embolism as the cause"
+      ],
+      "correctOption": 1,
+      "explanation": "1,25-D of 230 is disproportionately high for PHPT alone (typically 60-120). Granulomatous 1α-hydroxylase can coexist with PHPT. Chest CT and 25-OH vitamin D help evaluate."
+    },
+    {
+      "id": "cr-042-m4",
+      "type": "mcq",
+      "subtopic": "Localization",
+      "stem": "Neck ultrasound is normal in a patient with biochemically confirmed PHPT. What is correct?",
+      "options": [
+        "PHPT is excluded — stop the workup",
+        "Proceed with MIBI and/or 4D-CT; normal USG does not exclude PHPT",
+        "Start calcitonin and defer all imaging",
+        "Diagnosis requires positive ultrasound only"
+      ],
+      "correctOption": 1,
+      "explanation": "PHPT is a biochemical diagnosis. Normal USG (70-80% sensitivity) does not exclude disease. MIBI, 4D-CT, or choline PET guide surgical planning."
+    },
+    {
+      "id": "cr-042-m5",
+      "type": "mcq",
+      "subtopic": "Bone imaging",
+      "stem": "Which imaging finding is pathognomonic of PHPT on hand radiograph?",
+      "options": [
+        "Subperiosteal bone resorption on the radial aspect of middle phalanges",
+        "Diffuse osteosclerotic bands",
+        "Periosteal reaction of all metacarpals uniformly",
+        "Normal hand X-ray excludes PHPT bone disease"
+      ],
+      "correctOption": 0,
+      "explanation": "Subperiosteal resorption of index/middle finger middle phalanges is classic for PHPT. Resident 2 correctly suggested hand X-ray in this case."
+    },
+    {
+      "id": "cr-042-m6",
+      "type": "mcq",
+      "subtopic": "Carcinoma",
+      "stem": "Which finding most raises suspicion for parathyroid carcinoma in this patient?",
+      "options": [
+        "Mildly elevated ACE alone",
+        "PTH 441 with pathological fracture and severe hypercalcemia",
+        "Normal creatinine 0.8 mg/dL",
+        "History of asthma"
+      ],
+      "correctOption": 1,
+      "explanation": "Carcinoma red flags: very high PTH (often >500-1000), severe hypercalcemia, palpable invasive mass, pathological fracture from severe bone disease. PTH 441 is borderline suspicious."
+    },
+    {
+      "id": "cr-042-m7",
+      "type": "mcq",
+      "subtopic": "25-Hydroxyvitamin D",
+      "stem": "Why must 25-hydroxyvitamin D be measured before parathyroid surgery?",
+      "options": [
+        "It localizes the adenoma",
+        "Pre-operative repletion reduces hungry bone syndrome risk and aids sarcoid/toxicity differentiation",
+        "It replaces the need for intraoperative PTH",
+        "25-OH vitamin D is always low in PHPT and needs no action"
+      ],
+      "correctOption": 1,
+      "explanation": "25-OH D repletion (>30 ng/mL) before surgery reduces post-parathyroidectomy hypocalcaemia/hungry bone risk. It also differentiates sarcoid pattern and vitamin D toxicity."
+    },
+    {
+      "id": "cr-042-m8",
+      "type": "mcq",
+      "subtopic": "Resident debate",
+      "stem": "Resident 1 wants myeloma screening first because of elevated 1,25-D and ACE. Resident 2 orders 25-OH D, MIBI, repeat USG, BMD, and hand X-ray. What did both miss?",
+      "options": [
+        "Serum sodium",
+        "24-hour urine calcium and Ca/Cr clearance ratio to exclude FHH",
+        "TSH alone",
+        "EEG"
+      ],
+      "correctOption": 1,
+      "explanation": "FHH exclusion with 24-h urine calcium and Ca/Cr clearance ratio is mandatory before surgical referral — the critical miss in both plans. Resident 2 was otherwise more appropriate."
+    },
+    {
+      "id": "cr-042-tf1",
+      "type": "true_false",
+      "subtopic": "Framework",
+      "statement": "In myeloma-associated hypercalcemia, intact PTH is typically suppressed.",
+      "correctAnswer": true,
+      "explanation": "True. Malignancy causes PTH-independent hypercalcemia with low/suppressed PTH — the opposite of this patient's PTH 441."
+    },
+    {
+      "id": "cr-042-tf2",
+      "type": "true_false",
+      "subtopic": "Localization",
+      "statement": "A negative sestamibi (MIBI) scan excludes primary hyperparathyroidism.",
+      "correctAnswer": false,
+      "explanation": "False. MIBI is for localization, not diagnosis. Negative MIBI does not exclude PHPT — bilateral exploration with intraoperative PTH remains valid."
+    },
+    {
+      "id": "cr-042-tf3",
+      "type": "true_false",
+      "subtopic": "FHH",
+      "statement": "Familial hypocalciuric hypercalcemia is cured by parathyroidectomy.",
+      "correctAnswer": false,
+      "explanation": "False. FHH is a CASR mutation causing low urinary calcium excretion. Surgery does not help and should be avoided — exclude with Ca/Cr clearance ratio first."
+    },
+    {
+      "id": "cr-042-tf4",
+      "type": "true_false",
+      "subtopic": "1,25-Dihydroxyvitamin D",
+      "statement": "1,25-dihydroxyvitamin D of 230 pg/mL can be fully explained by PHPT without considering coexisting granulomatous disease.",
+      "correctAnswer": false,
+      "explanation": "False. PHPT typically raises 1,25-D to 60-120 pg/mL. A level of 230 with elevated ACE warrants sarcoid/granulomatous evaluation even when PTH is also high."
+    },
+    {
+      "id": "cr-042-tf5",
+      "type": "true_false",
+      "subtopic": "Surgery",
+      "statement": "Intraoperative PTH monitoring confirming a greater than 50% drop supports curative resection in PHPT.",
+      "correctAnswer": true,
+      "explanation": "True. Intraoperative PTH drop >50% from baseline is the gold standard for confirming adequate parathyroid tissue removal during surgery."
+    },
+    {
+      "id": "cr-042-tf6",
+      "type": "true_false",
+      "subtopic": "Malignancy screen",
+      "statement": "At age 82, SPEP/UPEP and PSA are never indicated when PHPT is biochemically confirmed.",
+      "correctAnswer": false,
+      "explanation": "False. PHPT is the primary diagnosis, but age-appropriate baseline malignancy screening (SPEP/UPEP, free light chains, PSA) is reasonable — just not as the first step replacing PTH-pathway logic."
+    },
+    {
+      "id": "cr-042-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Framework",
+      "assertion": "This patient's hypercalcemia should be worked up as PTH-dependent disease rather than prioritising a myeloma screen.",
+      "reason": "Intact PTH is markedly elevated at 441 pg/mL, whereas myeloma and PTHrP-mediated malignancy suppress PTH.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason correctly explains the assertion. PTH level is the first branch point — high PTH mandates parathyroid-focused workup with FHH exclusion."
+    },
+    {
+      "id": "cr-042-ar2",
+      "type": "assertion_reason",
+      "subtopic": "FHH",
+      "assertion": "24-hour urine calcium testing should be performed before referring this patient for parathyroid surgery.",
+      "reason": "Familial hypocalciuric hypercalcemia mimics PHPT biochemically but is not cured by surgery and is distinguished by a low calcium/creatinine clearance ratio.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason correctly explains the assertion. FHH exclusion prevents unnecessary and harmful parathyroid surgery — the critical miss in both residents' plans."
+    }
+  ]
+}

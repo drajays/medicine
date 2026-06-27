@@ -241,6 +241,54 @@
         "Limitation: 'free clarification' must be scoped to avoid abuse; needs trained staff.",
         "Assumptions: a resourced coordinator channel and leadership willing to empower discretion."
       ]
+    },
+    {
+      "type": "mcq",
+      "stem": "Refusing to clarify an existing prescription until a new fee is paid is considered both unkind and unsafe because",
+      "options": [
+        "A) It prioritizes financial gain over patient autonomy and risks medication errors due to confusion about prescribed drugs",
+        "B) It reduces healthcare costs but increases patient anxiety and may delay treatment",
+        "C) It ensures clinic revenue stability while minimizing the risk of prescription duplication",
+        "D) It streamlines administrative processes but may lead to patient non-adherence due to cost concerns"
+      ],
+      "correctOption": 0,
+      "explanation": "The unkind aspect lies in prioritizing financial gain over the patient's emotional needs during a vulnerable time, while the unsafe aspect stems from the risk of medication errors due to unresolved prescription confusion, which falls under the clinic's duty of care.",
+      "id": "story-017-why1-obj-4d20db",
+      "subtopic": "Safety & Compassion",
+      "_generatedFrom": "story-017-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why refusing to clarify a prescription until a new fee is paid is both unkind and unsafe. The answer provided explains both aspects: the unkindness related to the patient's emotional state and the unsafe aspect regarding medication errors.\n\nFirst, I need to determine the best question type. The answer has two parts, so maybe assertion_reason? But looking at the rules, assertion_reason is for cause-effect relationships. Alternatively, since there are two distinct points (unkind and unsafe), maybe a true_false question isn't suitable because it's not a single statement. MCQ might be better here, as it can cover both aspects with options that address each part.\n\nWait, the key points mention both unkind and unsafe. So the question could be a MCQ asking which of the options correctly identifies the unkind and unsafe aspects. The options would need to include the correct answer and plausible distractors. Let me check the rules again: distractors must be plausible but clearly wrong. The correct answer combines both aspects. The options should reflect that.\n\nSo the stem could be: \"Refusing to clarify an existing prescription until a new fee is paid is considered both unkind and unsafe because...\" Then the options would include the correct one that mentions both the emotional impact on the patient and the risk of medication error. Distractors might focus on only one aspect, or incorrect reasons.\n\nAnother consideration: the original answer explains that the unkind aspect is about valuing money over the patient's situation, and the unsafe aspect is about medication confusion leading to errors. So the correct option should include both elements. The distractors could be things like \"it's unkind but safe\" or \"it's safe but unkind,\" or other incorrect reasons like \"it's unkind due to financial loss\" instead of emotional impact.\n\nI need to ensure clinical accuracy. The unsafe part is about medication errors, which is a clinical duty of care. The unkind part is about the emotional context. So the correct option must address both. The JSON structure would be MCQ with the correct option as the one that includes both reasons. The explanation should mention both aspects as per the original answer."
+    },
+    {
+      "type": "mcq",
+      "stem": "A bereaved relative asks to clarify an existing medication. Which approach should front-desk staff prioritize?",
+      "options": [
+        "A) Acknowledge the loss, address the query directly if possible, and defer payment discussions",
+        "B) Require immediate payment before discussing medication details",
+        "C) Transfer the call to a clinical coordinator without initial acknowledgment of the bereavement",
+        "D) Document the request and inform the patient that clarification cannot be provided until payment is settled"
+      ],
+      "correctOption": 0,
+      "explanation": "Proper protocol emphasizes empathy, immediate resolution of safety-related queries, and deferring financial discussions in compassionate circumstances.",
+      "id": "story-017-how1-obj-f5c508",
+      "subtopic": "Front Desk",
+      "_generatedFrom": "story-017-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The main topic is how front-desk staff should handle a bereaved relative asking about a medication.\n\nFirst, I need to determine the question type. The answer involves specific steps: acknowledging the loss, addressing the query, and deferring fees. This seems like a multiple-choice question (MCQ) because it's about a specific procedure with clear correct steps and possible distractors.\n\nNext, the stem should ask about the appropriate action. The options need to include the correct answer and plausible but wrong ones. The correct answer includes acknowledging the loss, resolving the need, and deferring payment. Distractors might involve charging first, not acknowledging the bereavement, or not involving a coordinator.\n\nI need to ensure the options are plausible but clearly wrong. For example, an option that says \"Charge the fee immediately before addressing the query\" would be incorrect. Another might ignore the emotional aspect. The correct option should cover all key points: acknowledgment, resolving the issue, and deferring payment.\n\nAlso, the explanation should briefly mention the key points from the original answer. Let me structure the JSON accordingly, making sure the correct option is first (index 0) and the explanation is concise."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the most appropriate approach to managing a bereavement-related phone call and preventing recurrence of similar issues?",
+      "options": [
+        "A) Acknowledge the bereavement, clarify the prescription without charge, and defer fees; implement a policy distinguishing chargeable consultations from low-cost clarifications and provide bereavement communication training",
+        "B) Charge for the call as a new consultation and document the interaction without additional policy changes",
+        "C) Escalate the call to a consultant immediately and bill for the consultation as usual",
+        "D) Refuse to discuss the prescription and direct the patient to in-person services only"
+      ],
+      "correctOption": 0,
+      "explanation": "Proper bereavement communication, fee deferral for clarifications, policy differentiation between consultation types, and staff training are critical to prevent recurrence and ensure compassionate care.",
+      "id": "story-017-sa1-obj-e6e5d1",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-017-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about handling a bereavement encounter and preventing repeats. The answer details proper handling and policy changes.\n\nFirst, I need to determine the best question type. The answer involves multiple steps and policies, which suggests a MCQ might be suitable. However, the answer also includes a policy, which could be a true/false or assertion-reason. But the original answer is more about a scenario with specific actions and policies, so MCQ with options that cover both handling and policy seems best.\n\nNext, the stem should ask about the appropriate handling and policy. The options need to be plausible but clearly wrong. The correct answer includes acknowledging bereavement, distinguishing chargeable vs. non-chargeable consultations, having a coordinator channel, and staff empowerment. Distractors might include options that don't address policy changes or miss key elements like communication training.\n\nI need to ensure the explanation in the JSON is brief and accurate. Also, check that the correct option is correctly identified. Let me structure the options so that each one addresses different aspects, with the correct one covering all necessary points. Make sure distractors are plausible but lack key components from the answer."
     }
   ]
 }

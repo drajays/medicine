@@ -261,6 +261,54 @@
         "Limitation: a review can't prove the work-up was skipped; the drugs are appropriate for many — it's about process.",
         "Assumptions: capacity to work up weight, trainable communication, and disclosable/separable conflicts."
       ]
+    },
+    {
+      "type": "mcq",
+      "stem": "Why is it critical to assess the underlying cause of weight gain prior to initiating a GLP-1 receptor agonist for weight loss?",
+      "options": [
+        "A) To identify contraindications to GLP-1 therapy such as medullary thyroid carcinoma",
+        "B) Because weight gain may result from treatable conditions (e.g., hypothyroidism, Cushing's syndrome) that require distinct interventions",
+        "C) To determine the patient's adherence to prior weight-loss regimens",
+        "D) To evaluate for drug-induced weight gain caused by antipsychotics or antidepressants"
+      ],
+      "correctOption": 1,
+      "explanation": "Weight gain has multiple potential etiologies requiring different treatments. Initiating GLP-1 therapy without addressing underlying conditions (e.g., hypothyroidism, Cushing's syndrome) risks masking serious treatable causes and providing inappropriate care.",
+      "id": "story-019-why1-obj-27b84c",
+      "subtopic": "Clinical Reasoning",
+      "_generatedFrom": "story-019-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. The original question is about why assessing the cause of weight gain is important before using a weight-loss injection.\n\nFirst, I need to determine the best question type. The answer explains that weight gain has multiple causes, each requiring different treatments. This seems like a classic case for a multiple-choice question (MCQ) because it's asking for the reason behind a specific action, and there are multiple plausible distractors.\n\nNext, I'll craft the stem. The original question is \"Why must the cause of weight gain be assessed...\" so the stem should reflect that. The options need to be plausible but incorrect except for the correct one. The key points from the answer are that weight gain has many causes, each needing different treatments, and skipping the work-up risks masking a condition. \n\nSo, the correct option should mention that weight gain has multiple causes requiring different treatments. The distractors could include things like \"to avoid side effects of the injection,\" \"to determine the patient's motivation,\" or \"to check for allergies.\" These are plausible but not the main reason as per the answer.\n\nI need to ensure the explanation in the JSON is brief and accurate, pointing out that the correct answer is about different underlying conditions needing specific treatments. Also, checking that the JSON structure is correct with the right keys and values. Let me make sure the correctOption is 0, which corresponds to the first option in the list. \n\nWait, the original answer mentions hypothyroidism, Cushing's, PCOS, and medications. The correct option should capture that different causes need different treatments. The other options should be incorrect but realistic. For example, one might say that the injection is only effective for certain causes, but that's not the main point. The main point is that the underlying cause needs to be addressed first.\n\nI think that's covered. Now, structuring the JSON with the stem, options, correctOption, and explanation. Let me double-check the rules: only JSON, no markdown, correctOption is 0-based, and the explanation is brief. Looks good."
+    },
+    {
+      "type": "mcq",
+      "stem": "When introducing a weight-loss injection to a patient, which approach is most appropriate?",
+      "options": [
+        "A) Begin by administering the injection after a brief discussion about lifestyle changes",
+        "B) Only after confirming the indication through assessment, explain it as an adjunct to lifestyle modifications, discuss benefits, side effects, cost, and alternatives, and avoid steering the patient toward the injection",
+        "C) Emphasize the injection as a standalone cure for obesity without discussing alternatives",
+        "D) Introduce the injection immediately upon diagnosis of obesity without assessing comorbidities"
+      ],
+      "correctOption": 1,
+      "explanation": "The appropriate approach involves confirming the indication through assessment, framing the injection as an adjunct to lifestyle changes, discussing benefits, side effects, cost, and alternatives, and avoiding steering the patient toward the injection as the only option.",
+      "id": "story-019-how1-obj-07c31d",
+      "subtopic": "Shared Decision",
+      "_generatedFrom": "story-019-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants a medical question based on the provided Q&A, formatted as JSON. The original answer is about introducing a weight-loss injection to a patient. The key points are assessing the indication, framing it as an adjunct to lifestyle, covering benefits and side effects, offering alternatives, and not steering the patient.\n\nFirst, I need to determine the question type. The answer is a detailed process, so an MCQ would be best here. The question should ask about the appropriate steps for introducing the injection. The options need to be plausible but only one correct. \n\nThe correct answer includes assessing indication, discussing as an adjunct, covering benefits, side effects, cost, alternatives, and not steering. Distractors might miss some of these elements. For example, one option might say to introduce it without assessing, another might not mention alternatives, or frame it as a standalone treatment.\n\nI need to ensure the options are distinct and the correct one includes all key points. The explanation should mention the key points from the original answer. Let me structure the JSON accordingly, making sure the correct option is the one that includes all the necessary steps."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following is the most appropriate approach when considering a weight-loss injection for a patient with weight gain?",
+      "options": [
+        "A) Prescribe the injection immediately after diagnosing obesity without discussing alternatives",
+        "B) Default to an injection without addressing potential secondary causes of weight gain",
+        "C) Introduce the injection through shared decision-making after addressing modifiable causes and comorbidities",
+        "D) Emphasize the injection as the sole solution without discussing lifestyle modifications"
+      ],
+      "correctOption": 2,
+      "explanation": "Shared decision-making after comprehensive evaluation ensures patient-centered care, avoids a 'sales' approach, and aligns with guidelines emphasizing addressing underlying causes before pharmacologic intervention.",
+      "id": "story-019-sa1-obj-1354d7",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-019-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original answer outlines steps to handle a weight-gain presentation without making the patient feel like they're being sold an injection.\n\nFirst, I need to determine the best question type. The answer has multiple steps, so an MCQ might be suitable. However, the key points are about the approach to avoid making the patient feel pressured, which is more of a process. But looking at the options, maybe a true/false isn't right because it's not a simple statement. Assertion-reason could work if there's a cause-effect, but the answer is more about steps rather than a single assertion.\n\nWait, the answer lists several steps. The main idea is that treating the cause first and using shared decision-making is important. Maybe the question can focus on the correct approach to introducing weight-loss injections. The options could include different steps, and the correct one would be the shared decision-making part. Let me check the answer again. The steps include diagnosing first, treating the cause, using shared decision-making when injections are needed, explaining the rationale, and being courteous.\n\nSo, the correct answer is step 3. The question could be phrased as: \"Which of the following is the most appropriate approach when considering a weight-loss injection for a patient with weight gain?\" The options would include the steps from the answer, with the correct one being the shared decision-making part. The distractors could be other steps like defaulting to an injection without discussion, not explaining the rationale, etc.\n\nI need to make sure the options are plausible but clearly wrong. For example, one option might be \"Default to an injection without discussing alternatives,\" which is incorrect. Another could be \"Prescribe the injection immediately without a thorough history,\" which is also wrong. The correct option would be the one about shared decision-making. The explanation should mention the importance of shared decision-making and avoiding a sales-like approach."
     }
   ]
 }

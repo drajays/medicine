@@ -865,6 +865,209 @@
       "correctAnswer": false,
       "explanation": "All-cause mortality significantly reduced (HR 0.85; 15% RRR).",
       "reference": "LEADER T/F 15: All-cause mortality significantly reduced (HR 0.85; 15% RRR). — Marso SP, Daniels GH, Brown-Frandsen K, et al. Liraglutide and cardiovascular outcomes in type 2 diabetes. N Engl J Med 2016;375:311-322."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why was the LEADER trial initiated despite liraglutide already possessing established glucose-lowering efficacy?",
+      "options": [
+        "A) To satisfy regulatory mandates requiring robust cardiovascular safety assessments for new diabetes treatments, given historical concerns that some antihyperglycemic therapies might inadvertently increase cardiovascular risk",
+        "B) To evaluate the long-term weight-loss effects of liraglutide in patients with type 2 diabetes",
+        "C) To compare liraglutide with newer GLP-1 receptor agonists in terms of glycemic control",
+        "D) To address gaps in understanding liraglutide's renal safety profile in patients with diabetic nephropathy"
+      ],
+      "correctOption": 0,
+      "explanation": "The LEADER trial was primarily designed to assess cardiovascular outcomes due to historical concerns about the cardiovascular safety of antihyperglycemic therapies, even though liraglutide already demonstrated glucose-lowering efficacy.",
+      "id": "tr-nejm-014-why1-obj-2ab4ea",
+      "subtopic": "Why/How 1",
+      "_generatedFrom": "tr-nejm-014-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert the given Q&A into an objective exam question in JSON format. The original question is about why the LEADER trial was initiated despite liraglutide's established glucose-lowering efficacy. The answer mentions regulatory mandates for cardiovascular safety assessments due to historical concerns about other diabetes drugs increasing cardiovascular risk.\n\nFirst, I need to determine the best question type. The answer is explaining the reason behind initiating the trial, which is a cause-effect relationship. So assertion_reason might be suitable here. But let me check the options again.\n\nThe question is asking for the reason, which is a specific fact. However, the answer is more about the rationale behind the trial, which could be a true/false statement. Wait, but the answer is a specific reason, so maybe MCQ is better. Let me think again.\n\nThe key point is that the trial was initiated to satisfy regulatory mandates for cardiovascular safety. The options would need to be plausible but incorrect. For example, other options might mention things like testing new formulations, exploring weight loss effects, or addressing renal safety. But the correct answer is about regulatory mandates and cardiovascular risk.\n\nAlternatively, since the answer is a direct statement, maybe true_false. But the original answer is more of an explanation, so perhaps MCQ is better. Let me structure it as an MCQ with four options, one correct and three distractors. The correct option is the one about regulatory mandates and cardiovascular safety. The distractors could be about other aspects like weight loss, renal safety, or new formulations. That makes sense. So the question stem would be \"Why was the LEADER trial initiated despite liraglutide's established glucose-lowering efficacy?\" with options A to D, and the correct answer is A. The explanation would mention regulatory requirements and historical concerns about cardiovascular risk. That seems accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "How was the primary statistical hypothesis of the study structured to evaluate safety and efficacy?",
+      "options": [
+        "A) The trial utilized a hierarchical testing strategy that first tested for noninferiority (requiring the upper limit of the 95% confidence interval of the hazard ratio to be less than 1.30). Once noninferiority was established, the model subsequently tested for statistical superiority.",
+        "B) The trial first tested for statistical superiority, then evaluated noninferiority using a 95% confidence interval upper limit of 1.20.",
+        "C) The trial used a single noninferiority test with a 95% confidence interval upper limit of 1.10.",
+        "D) The trial tested for equivalence (95% CI bounds of 0.90 to 1.10) without subsequent superiority testing."
+      ],
+      "correctOption": 0,
+      "explanation": "The hierarchical approach first establishes noninferiority with a 1.30 threshold, then tests for superiority, which aligns with the described methodology.",
+      "id": "tr-nejm-014-how2-obj-058c06",
+      "subtopic": "Why/How 2",
+      "_generatedFrom": "tr-nejm-014-how2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about the primary statistical hypothesis structure of a study evaluating safety and efficacy. The answer mentions a hierarchical testing strategy with noninferiority and then superiority testing.\n\nFirst, I need to determine the best question type. The answer provides specific details about the statistical method used, so an MCQ seems appropriate here. The key points are about the hierarchical approach, noninferiority with a specific confidence interval limit, and then superiority testing.\n\nNext, I need to create plausible distractors. The correct answer is the hierarchical testing starting with noninferiority (upper limit <1.30) followed by superiority. Distractors should be similar but incorrect. For example, switching the order of noninferiority and superiority, using a different confidence interval limit, or mentioning equivalence instead of noninferiority.\n\nI should ensure that each option is distinct and clearly wrong. Option A is the correct one. Option B might reverse the order. Option C could use a different CI limit, like 1.20. Option D might mention equivalence instead of noninferiority. \n\nThe explanation needs to be brief, highlighting the hierarchical approach and the specific CI limit. Also, checking that the correct option is 0 (A) and others are incorrect. Need to make sure the JSON structure is valid with proper commas and brackets. No markdown, just JSON. Let me put that all together."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why do the authors suggest the cardiovascular benefits of liraglutide differ mechanistically from those of empagliflozin (an SGLT2 inhibitor)?",
+      "options": [
+        "A) Benefits in the LEADER trial emerged gradually, reflecting modified atherosclerotic disease progression rather than acute fluid shifts.",
+        "B) Empagliflozin's benefits are mediated by GLP-1 receptor activation, while liraglutide acts via SGLT2 inhibition.",
+        "C) Liraglutide reduces LDL-C more effectively than empagliflozin, leading to delayed vascular improvements.",
+        "D) Empagliflozin's benefits are due to acute hemodynamic changes, while liraglutide's effects are linked to rapid weight loss."
+      ],
+      "correctOption": 0,
+      "explanation": "The LEADER trial showed delayed cardiovascular benefits with liraglutide, consistent with atherosclerotic disease modification, unlike empagliflozin's early benefits from hemodynamic effects (EMPA-REG OUTCOME).",
+      "id": "tr-nejm-014-why3-obj-980953",
+      "subtopic": "Why/How 3",
+      "_generatedFrom": "tr-nejm-014-why3",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided.\n\nFirst, I need to determine the best question type. The original answer discusses the difference in mechanisms between liraglutide and empagliflozin, specifically the timing of benefits in their respective trials. The key point is about the gradual vs. early emergence of benefits and the underlying reasons. This seems like a comparison of mechanisms, which is a specific fact. So an MCQ might be suitable here.\n\nNext, I need to formulate the stem. The question should ask why the cardiovascular benefits differ mechanistically. The options need to be plausible but incorrect except for the correct one. The correct answer is about the timing of benefits and the hypothesis regarding atherosclerotic disease progression. Distractors could include other mechanisms like fluid shifts, receptor activation, or lipid changes, which are common in other drugs but not the focus here.\n\nI need to ensure that the explanation in the JSON is brief and accurate. Also, checking that the correct option is clearly the one that matches the key points provided. Let me structure the options so that option A is the correct one, and others are plausible but wrong. For example, option B might mention acute fluid shifts, which is actually part of the explanation but in the wrong context. Option C could refer to GLP-1 receptor activation, which is a mechanism for liraglutide but not directly related to the timing of benefits. Option D might mention lipid profile changes, which is another possible mechanism but not the main point here.\n\nFinally, making sure the JSON is valid with the correct keys and structure. No markdown, just the JSON object. Double-checking the rules to ensure compliance with distractors being plausible and clinical accuracy."
+    },
+    {
+      "type": "mcq",
+      "stem": "In subgroup analyses, how did baseline renal function influence the primary cardiovascular outcome in patients treated with liraglutide?",
+      "options": [
+        "A) Patients with an eGFR <60 ml/min/1.73 m² experienced greater cardiovascular benefit compared to those with eGFR ≥60",
+        "B) Patients with an eGFR ≥60 ml/min/1.73 m² experienced greater cardiovascular benefit compared to those with eGFR <60",
+        "C) No significant interaction was observed between eGFR and cardiovascular outcomes",
+        "D) Patients with an eGFR <60 ml/min/1.73 m² had a higher risk of cardiovascular events compared to those with eGFR ≥60"
+      ],
+      "correctOption": 0,
+      "explanation": "Interaction testing demonstrated greater cardiovascular benefit from liraglutide in patients with reduced eGFR (<60 ml/min/1.73 m²) compared to those with higher eGFR.",
+      "id": "tr-nejm-014-how4-obj-7b4cd1",
+      "subtopic": "Why/How 4",
+      "_generatedFrom": "tr-nejm-014-how4",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about how baseline renal function influenced the primary cardiovascular outcome in subgroup analyses, with the answer mentioning that patients with eGFR <60 had greater cardiovascular benefit from liraglutide.\n\nFirst, I need to determine the best question type. The answer is a specific finding from a study, so MCQ seems appropriate. The key point is the interaction between eGFR and liraglutide's effect. The correct answer is that lower eGFR patients had more benefit. Distractors should be plausible but incorrect. Possible options could be no difference, greater risk, or higher eGFR having more benefit. \n\nI need to ensure the options are realistic. For example, one might say that higher eGFR had more benefit, which is the opposite of the correct answer. Another could mention no significant difference. Another might incorrectly state that lower eGFR had greater risk. The correct option is the one about greater benefit in lower eGFR. \n\nThe explanation should briefly state that the study found greater benefit in those with lower eGFR. Also, checking the JSON structure to make sure it's valid with the correct keys: type, stem, options, correctOption, explanation. Making sure the correctOption is 0 since it's the first option. Need to avoid markdown and only output JSON."
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "Calcitonin was monitored to assess the risk of medullary thyroid carcinoma in patients receiving liraglutide.",
+      "reason": "GLP-1 receptor agonists activate thyroid C-cells, causing calcitonin release and proliferation in preclinical studies.",
+      "correctOption": 0,
+      "explanation": "Preclinical data showed GLP-1 agonists stimulate thyroid C-cells, necessitating calcitonin monitoring to evaluate potential medullary thyroid carcinoma risk (which was not observed in clinical trials).",
+      "id": "tr-nejm-014-why5-obj-0c956b",
+      "subtopic": "Why/How 5",
+      "_generatedFrom": "tr-nejm-014-why5",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The key point here is that calcitonin was monitored because preclinical studies showed GLP-1 agonists activate thyroid C-cells, leading to calcitonin release and proliferation, and they wanted to check for medullary thyroid carcinoma risk.\n\nFirst, I need to determine the question type. The original answer explains a cause-effect relationship between GLP-1 agonists and calcitonin monitoring. So assertion_reason might be suitable here. But let me check the options again.\n\nThe question is about why calcitonin was monitored. The answer is because of preclinical studies showing activation of C-cells, leading to possible medullary thyroid carcinoma. So the assertion would be that calcitonin was monitored to assess the risk of medullary thyroid carcinoma. The reason would be that GLP-1 receptor agonists activate thyroid C-cells, causing calcitonin release and proliferation.\n\nLooking at the assertion_reason format, the correct option would be 0 (both true, R explains A). The other options would be distractors. For example, if someone thought the reason was about hypercalcemia, that's wrong. Or if they thought the monitoring was for a different type of cancer.\n\nI need to make sure the options are plausible but incorrect. So possible distractors could be other cancers, different mechanisms (like affecting parathyroid cells), or unrelated reasons like monitoring for hyperglycemia.\n\nSo the final JSON would be an assertion_reason question with the correct assertion and reason, and the explanation stating that preclinical studies linked GLP-1 agonists to C-cell activation, hence monitoring calcitonin to check for medullary thyroid carcinoma risk."
+    },
+    {
+      "type": "mcq",
+      "stem": "What was the effect of liraglutide on the composite microvascular outcome of renal and retinal events in the study?",
+      "options": [
+        "A) No significant impact on the composite outcome",
+        "B) Significant reduction in retinal events only (HR 0.75)",
+        "C) Significant reduction in the composite outcome (HR 0.84), driven by decreased nephropathy",
+        "D) Increased risk of macroalbuminuria (HR 1.20)"
+      ],
+      "correctOption": 2,
+      "explanation": "Liraglutide significantly reduced the composite outcome (HR 0.84) with the benefit primarily from nephropathy reduction, not retinal events or macroalbuminuria.",
+      "id": "tr-nejm-014-how6-obj-730a73",
+      "subtopic": "Why/How 6",
+      "_generatedFrom": "tr-nejm-014-how6",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The main point here is about the impact of liraglutide on composite microvascular outcomes, specifically mentioning a hazard ratio and the fact that the benefit was driven by a reduction in nephropathy, especially macroalbuminuria.\n\nFirst, I need to determine the question type. The information given is a specific fact with a numerical value (HR 0.84) and a cause-effect relationship (liraglutide reducing nephropathy leading to the benefit). However, the key point is about the effect on the composite outcome, which is a specific fact. So maybe an MCQ would be best here, as it allows for multiple options with one correct answer.\n\nNext, the stem of the question should ask about the effect of liraglutide on the composite outcome. The options need to include the correct answer and plausible distractors. The correct answer is that it significantly lowered the composite outcome with HR 0.84, driven by nephropathy reduction. Distractors could include other HR values, different outcomes (like retinal events only), or incorrect causes (e.g., reduction in retinopathy).\n\nI need to ensure that the options are plausible but clearly wrong. For example, an option might say HR 0.90, which is close but incorrect. Another might attribute the benefit to retinal events instead of nephropathy. The explanation should briefly state that the correct answer is supported by the study's findings, while others are incorrect based on the data provided.\n\nI also need to check if the user's rules are followed: only JSON output, no markdown, clinical accuracy. The correct option is the one that matches the given answer exactly. The explanation should be concise, mentioning the HR and the specific benefit from nephropathy reduction.\n\nSo, the final JSON should be an MCQ with the correct option as the one that states the HR 0.84 and the nephropathy link. The other options should be variations that are factually incorrect based on the provided information."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did liraglutide clinically alter patients' cardiovascular vital signs at 36 months?",
+      "options": [
+        "A. 1.2 mm Hg reduction in systolic BP, 0.6 mm Hg reduction in diastolic BP, and 3.0 bpm increase in resting heart rate",
+        "B. 2.0 mm Hg reduction in systolic BP, 1.0 mm Hg reduction in diastolic BP, and no change in heart rate",
+        "C. 1.2 mm Hg increase in systolic BP, 0.6 mm Hg increase in diastolic BP, and 3.0 bpm decrease in heart rate",
+        "D. No significant changes in BP or heart rate"
+      ],
+      "correctOption": 0,
+      "explanation": "Liraglutide demonstrated small BP reductions but increased resting heart rate in long-term studies.",
+      "id": "tr-nejm-014-how8-obj-928ff6",
+      "subtopic": "Why/How 8",
+      "_generatedFrom": "tr-nejm-014-how8",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The topic is about liraglutide's effect on cardiovascular vital signs.\n\nFirst, I need to determine the question type. The answer provides specific numerical data on blood pressure reduction and heart rate increase. This seems like a fact-based question with multiple options, so MCQ is appropriate.\n\nNext, the stem should ask about the clinical alterations in vital signs. The correct answer mentions specific reductions in systolic and diastolic BP and an increase in heart rate. Distractors need to be plausible but incorrect. Maybe swap the numbers or change the direction of the effect. For example, one option could have higher BP reductions but no heart rate change, another might incorrectly state a decrease in heart rate, and another could mix up the BP values.\n\nI need to ensure the options are realistic. Also, check clinical accuracy—liraglutide is known to affect heart rate, so the correct answer aligns with that. The explanation should briefly mention the study duration and the specific findings. Let me structure the JSON with the correct option as A and the others as distractors. Make sure the explanation is concise and accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why did the researchers specify a 2-week placebo run-in phase prior to randomization?",
+      "options": [
+        "A) To establish medication tolerance and ensure adherence to the daily subcutaneous injection regimen",
+        "B) To assess baseline symptoms and evaluate treatment response",
+        "C) To ensure compliance with the study protocol and screen for eligibility",
+        "D) To evaluate the safety profile of the investigational drug"
+      ],
+      "correctOption": 0,
+      "explanation": "The run-in phase is used to assess patients' ability to tolerate the medication and adhere to the injection regimen before formal randomization.",
+      "id": "tr-nejm-014-why9-obj-42b298",
+      "subtopic": "Why/How 9",
+      "_generatedFrom": "tr-nejm-014-why9",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why researchers used a 2-week placebo run-in phase. The answer mentions establishing medication tolerance and ensuring adherence to daily injections.\n\nFirst, I need to determine the question type. The answer is explaining the purpose of the run-in phase, which is a specific fact. So an MCQ seems appropriate here. The key points are about medication tolerance and adherence. \n\nNext, I need to create plausible distractors. Common reasons for run-in phases include assessing baseline symptoms, ensuring compliance, evaluating safety, and screening for eligibility. But the correct answer is about tolerance and adherence. I should make sure the options are similar but not exactly the same. \n\nOption A is the correct one. The other options should be related but incorrect. For example, assessing baseline symptoms (B) is a common reason, but not the one mentioned here. Ensuring compliance (C) is part of the answer but not the full reason. Evaluating safety (D) is another possible reason. \n\nI need to check that the options are distinct and that the correct answer is clearly the best choice. The explanation should mention that the run-in phase is used to assess tolerance and adherence, which are key points from the original answer. \n\nNow, structuring the JSON with the stem, options, correct option index, and explanation. Make sure the JSON is valid without any markdown. Also, ensure that the explanation is brief and accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did the investigators address the theoretical risk of acute pancreatitis associated with incretin therapies?",
+      "options": [
+        "A) Utilized an external, independent event-adjudication committee to review outcomes blindly",
+        "B) Relyed on patient self-reporting of symptoms",
+        "C) Conducted post-hoc statistical adjustments for confounding variables",
+        "D) Excluded patients with a history of pancreatitis from enrollment"
+      ],
+      "correctOption": 0,
+      "explanation": "An external, independent event-adjudication committee ensures unbiased assessment of adverse events, which is critical for accurately evaluating risks like acute pancreatitis in clinical trials.",
+      "id": "tr-nejm-014-how10-obj-ce685d",
+      "subtopic": "Why/How 10",
+      "_generatedFrom": "tr-nejm-014-how10",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The main topic here is how investigators addressed the risk of acute pancreatitis with incretin therapies. The answer mentions using an external, independent event-adjudication committee and the trial results showing a lower rate in the liraglutide group.\n\nFirst, I need to determine the question type. The answer involves a specific method (external committee) and a result (numerically lower cases). Since the question is about a specific action taken by the investigators, an MCQ seems appropriate. The options should include the correct answer and plausible distractors.\n\nThe correct answer is the use of an external committee. Distractors could be other methods like patient self-reporting, internal review, or statistical adjustments. These are plausible but incorrect. The explanation should note that the committee ensured unbiased assessment, which is a key point in clinical trials.\n\nI need to structure the JSON correctly. The stem should ask about the method used. The options should be A to D, with the correct option being A. The explanation must be concise, highlighting the role of the committee in reducing bias. I'll check that all distractors are clinically accurate but wrong, ensuring the question meets the rules provided."
+    },
+    {
+      "type": "mcq",
+      "stem": "What was the primary reason for higher discontinuation rates in the liraglutide group compared to placebo in clinical trials?",
+      "options": [
+        "A. Higher rates of nausea, vomiting, and diarrhea",
+        "B. Increased incidence of hypoglycemia",
+        "C. More frequent injection site reactions",
+        "D. Elevated risk of cardiovascular events"
+      ],
+      "correctOption": 0,
+      "explanation": "Liraglutide is associated with gastrointestinal adverse effects (nausea, vomiting, diarrhea) due to its GLP-1 receptor agonist mechanism, which can slow gastric emptying and stimulate gut motility.",
+      "id": "tr-nejm-014-why11-obj-c97265",
+      "subtopic": "Why/How 11",
+      "_generatedFrom": "tr-nejm-014-why11",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why more patients on liraglutide discontinued the trial compared to placebo. The answer points to gastrointestinal adverse events like nausea, vomiting, and diarrhea.\n\nFirst, I need to determine the best question type. The answer is specific and factual, so an MCQ seems appropriate. The key is to create plausible distractors. Common reasons for drug discontinuation could include things like hypoglycemia, injection site reactions, or cardiovascular issues. But the correct answer here is gastrointestinal events.\n\nNext, I'll structure the MCQ. The stem should ask about the primary reason for discontinuation. The options need to include the correct answer and three other plausible but incorrect ones. Let me think of other possible side effects. Maybe hypoglycemia is a common issue with GLP-1 agonists, but liraglutide is more known for GI issues. Injection site reactions are possible, but not as common. Cardiovascular events might be a concern, but again, not the primary reason here.\n\nSo the options could be:\nA. Higher rates of nausea, vomiting, and diarrhea (correct)\nB. Increased incidence of hypoglycemia (plausible but incorrect)\nC. More frequent injection site reactions (less common)\nD. Elevated risk of cardiovascular events (not primary here)\n\nThe explanation should mention that liraglutide is associated with GI side effects leading to discontinuation. Need to ensure clinical accuracy. Also, check that the correct option is A and the explanation aligns with the key points provided. That should cover it."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did the \"expanded composite outcome\" differ conceptually from the primary composite outcome?",
+      "options": [
+        "A) While the primary outcome focused on hard endpoints (CV death, nonfatal MI, nonfatal stroke), the expanded composite outcome added clinical utilization metrics, specifically coronary revascularization and hospitalization for unstable angina pectoris or heart failure.",
+        "B) The expanded composite outcome replaced hard endpoints with patient-reported outcomes such as quality of life and symptom severity.",
+        "C) The expanded composite outcome focused exclusively on hard endpoints, whereas the primary outcome included surrogate markers.",
+        "D) The expanded composite outcome added genetic risk markers to the primary outcome's hard endpoints."
+      ],
+      "correctOption": 0,
+      "explanation": "The expanded composite outcome included additional clinical utilization metrics (coronary revascularization and hospitalizations) beyond the primary outcome's focus on hard endpoints.",
+      "id": "tr-nejm-014-how12-obj-519a46",
+      "subtopic": "Why/How 12",
+      "_generatedFrom": "tr-nejm-014-how12",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about the difference between the \"expanded composite outcome\" and the primary composite outcome.\n\nFirst, I need to determine the best question type. The answer provided explains that the primary outcome includes hard endpoints like CV death, MI, stroke, while the expanded one adds clinical utilization metrics such as revascularization and hospitalizations. This seems like a comparison between two concepts, so a multiple-choice question (MCQ) would be appropriate here. True/false and assertion-reason don't fit as well because the question is about distinguishing between two outcomes, not a simple fact or cause-effect.\n\nNext, I need to formulate the stem. The original question asks how the expanded composite outcome differs conceptually. The answer mentions adding clinical utilization metrics. So the stem should ask about the conceptual difference, focusing on what was added.\n\nFor the options, the correct answer (A) should state that the expanded outcome added the clinical metrics. The other options need to be plausible but incorrect. Let me think of possible distractors. Maybe option B could mention adding quality-of-life measures, which are different from clinical utilization. Option C might incorrectly say the expanded outcome focused only on hard endpoints, which is actually the primary outcome's focus. Option D could mention adding genetic markers, which aren't related here.\n\nI need to ensure that the options are distinct and that the correct answer is clearly the one that matches the key points provided. The explanation should briefly state that the expanded outcome includes additional clinical utilization metrics beyond the hard endpoints.\n\nChecking the rules: JSON only, no markdown, correct formatting. The correct option is A, so the correctOption is 0. The explanation should be concise, mentioning the addition of coronary revascularization and hospitalizations.\n\nI think that covers all the requirements. Let me structure the JSON accordingly."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why was the finding regarding hospitalization for heart failure notable within the context of diabetes pharmacology?",
+      "options": [
+        "A. Previous trials involving DPP-4 inhibitors had raised significant clinical concerns regarding increased risks of heart failure hospitalization, whereas LEADER showed numerically lower rates with liraglutide.",
+        "B. Liraglutide was associated with increased cardiovascular mortality compared to DPP-4 inhibitors in prior trials.",
+        "C. Heart failure hospitalization rates were unchanged with liraglutide compared to placebo in the LEADER trial.",
+        "D. DPP-4 inhibitors were linked to hypoglycemia, which was mitigated by liraglutide in the LEADER trial."
+      ],
+      "correctOption": 0,
+      "explanation": "Previous DPP-4 inhibitor trials raised concerns about heart failure risk, making the LEADER trial's findings with liraglutide (numerically lower hospitalizations) a critical safety reassessment.",
+      "id": "tr-nejm-014-why13-obj-62f61e",
+      "subtopic": "Why/How 13",
+      "_generatedFrom": "tr-nejm-014-why13",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The main point here is about why the finding on heart failure hospitalization was notable in diabetes pharmacology, specifically regarding liraglutide.\n\nFirst, I need to determine the question type. The original answer compares DPP-4 inhibitors with liraglutide (a GLP-1 receptor agonist). The key point is that previous DPP-4 trials raised concerns about heart failure, but LEADER showed lower hospitalizations with liraglutide. This seems like a comparison between two drug classes, so a multiple-choice question (MCQ) would be appropriate here.\n\nNext, the stem should ask why the finding was notable. The options need to include the correct answer and plausible distractors. The correct answer is that previous DPP-4 inhibitors had raised concerns, and LEADER showed lower rates with liraglutide. Distractors could be other side effects or unrelated drug classes. For example, maybe mentioning cardiovascular mortality or hypoglycemia, which are common with other drugs but not specifically related to heart failure here.\n\nI need to ensure the options are plausible but clearly wrong. Option A is the correct one. Options B and C could be about other outcomes, and D might mention a different drug class. The explanation should highlight that DPP-4 inhibitors had prior concerns, and liraglutide's results addressed that.\n\nAlso, checking the rules: JSON only, no markdown, correct formatting. Make sure the explanation is brief and accurate. The correct option is A, so the correctOption is 0. The explanation should note that previous DPP-4 trials raised heart failure concerns, and LEADER's findings with liraglutide alleviated that."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did the incidence of acute gallstone disease differ between the liraglutide and placebo groups in the study?",
+      "options": [
+        "A) Acute gallstone disease was significantly more common in the liraglutide group (145 patients) compared to the placebo group (90 patients), with higher rates of severe events and acute cholecystitis",
+        "B) Acute gallstone disease was significantly more common in the placebo group (145 patients) compared to the liraglutide group (90 patients)",
+        "C) No significant difference in acute gallstone disease incidence was observed between the two groups",
+        "D) The liraglutide group had a higher incidence of cholecystectomy but not acute gallstone disease"
+      ],
+      "correctOption": 0,
+      "explanation": "The study demonstrated a higher incidence of acute gallstone disease in the liraglutide group, including more severe events and acute cholecystitis, compared to the placebo group.",
+      "id": "tr-nejm-014-how14-obj-7e16a0",
+      "subtopic": "Why/How 14",
+      "_generatedFrom": "tr-nejm-014-how14",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about the incidence of acute gallstone disease between two study groups.\n\nFirst, I need to determine the best question type. The answer provided has specific numbers (145 vs. 90 patients) and mentions higher rates of severe events and acute cholecystitis. This seems like a multiple-choice question (MCQ) because it's asking for a comparison with specific data. True/false might not capture the nuances here, and assertion-reason could work, but MCQ is more straightforward for this type of factual comparison.\n\nNext, I'll structure the MCQ. The stem should ask about the difference in incidence between the two groups. The correct option is that liraglutide had a higher incidence. The distractors need to be plausible but incorrect. Possible options could be reversing the numbers, mentioning no significant difference, or focusing on a different outcome like cholecystectomy instead of cholecystitis.\n\nI need to ensure the options are clear and the explanation briefly states the correct comparison. Also, checking clinical accuracy: liraglutide is a GLP-1 agonist, and weight-loss medications are known to increase gallstone risk, so the higher incidence in the liraglutide group makes sense. The explanation should note that the study found more cases in the liraglutide group with severe events and acute cholecystitis.\n\nNow, constructing the JSON. The stem is the question about incidence difference. Options A to D, with the correct option being A. Explanation mentions the study results. Distractors B and C reverse the numbers or mention no difference, D talks about cholecystectomy instead. Need to make sure the options are distinct and the correct answer is clearly supported by the key points."
     }
   ]
 }

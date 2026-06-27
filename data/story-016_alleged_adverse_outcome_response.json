@@ -253,6 +253,54 @@
         "Limitation: doesn't establish the clinical facts; real cases add medico-legal/regulatory steps.",
         "Assumptions: an objective internal review is possible and good-faith engagement occurs."
       ]
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following is the most appropriate response when a family reports harm due to incomplete information in a patient's medical record?",
+      "options": [
+        "A) Blame the patient for not providing full information to avoid liability",
+        "B) Acknowledge the family's concerns, review the care process, and address gaps internally without public blame",
+        "C) Focus solely on improving clinic processes to prevent future errors",
+        "D) Dismiss the complaint as unfounded if no direct negligence is evident"
+      ],
+      "correctOption": 1,
+      "explanation": "Public blame deflects responsibility and inflames the complaint, while acknowledging the family's distress and addressing gaps internally aligns with accountability and process improvement without shifting blame.",
+      "id": "story-016-why1-obj-088515",
+      "subtopic": "Accountability",
+      "_generatedFrom": "story-016-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. The original question is about why blaming the patient for incomplete information is wrong. The answer explains that it's about acknowledging the family's distress, not deflecting responsibility, and separating process improvement from accountability.\n\nFirst, I need to determine the best question type. The answer discusses reasons and explanations, so maybe assertion_reason? But looking at the key points, it's more about understanding the correct approach, which might be a MCQ with options that include the correct reasoning and plausible distractors.\n\nWait, the original answer has three key points. For an MCQ, the stem should be a question that asks for the reason, and the options should include the correct answer and three incorrect ones. The correct answer would be the one that mentions acknowledging the family's distress and not deflecting responsibility. Distractors could be things like \"to improve clinic processes\" or \"to avoid legal action,\" which are plausible but wrong.\n\nAlternatively, maybe a true/false question. But the statement would need to be a clear factual statement, which might be harder here. The original answer is more about explaining the reasoning, so MCQ seems better.\n\nSo, the stem could be: \"Which of the following is the most appropriate response when a family reports harm due to incomplete information?\" Then the options would include the correct answer about acknowledgment and review, and distractors like blaming the patient, focusing on legal aspects, or suggesting it's the patient's fault.\n\nWait, the original answer says that blaming the patient is wrong because it deflects responsibility. So the correct option should be the one that emphasizes acknowledging the family's need for review and not blaming them. The explanation in the JSON should mention that public blame deflects responsibility and inflames the complaint, as per the key points.\n\nI need to make sure the options are plausible but clearly wrong. For example, one distractor could be \"To shift responsibility to the patient for not providing full information,\" which is exactly what the question is against. Another could be \"To focus on improving clinic processes without addressing the family's concerns,\" which is a partial truth but misses the accountability part.\n\nSo the correct option would be the one that says the family needs acknowledgment and review, not fault-finding. The explanation would tie back to the key points provided. Let me structure that into the JSON as an MCQ with four options, correctOption set to the index of the correct answer, and the explanation summarizing the key points."
+    },
+    {
+      "type": "mcq",
+      "stem": "When a patient alleges harm from a wrong diagnosis, which approach is most appropriate for the clinician?",
+      "options": [
+        "A) Publicly admit fault and apologize immediately",
+        "B) Argue the clinical timeline publicly and shift blame to the family",
+        "C) Empathize, take the matter offline, and conduct an objective case review with governance",
+        "D) Dismiss the concern and avoid documenting the incident"
+      ],
+      "correctOption": 2,
+      "explanation": "Empathy, private review, and governance are critical to address patient concerns while maintaining clinical integrity and system improvements.",
+      "id": "story-016-how1-obj-3512e3",
+      "subtopic": "Governance",
+      "_generatedFrom": "story-016-how1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following specific rules. The original question is about how a clinician should respond when a patient alleges harm from a wrong diagnosis. The answer emphasizes empathy, not admitting fault publicly, taking it offline, conducting a case review, applying duty of candour if needed, and fixing system issues.\n\nFirst, I need to determine the best question type. The answer provides a detailed process with multiple steps, so an MCQ might be suitable here. The key points are about empathy, not public admission, offline discussion, case review, and system improvements. The distractors need to be plausible but incorrect. For example, options that suggest admitting fault publicly or arguing the timeline publicly would be wrong.\n\nNext, I'll structure the stem to ask about the appropriate response. The options should include the correct approach and common mistakes. The correct option should align with the key points provided. The explanation needs to be brief, highlighting the correct actions like empathy, offline review, and system improvements.\n\nI need to ensure that the JSON is valid, with the correct type, stem, options, and explanation. Also, the correctOption index should point to the right answer. Let me check the rules again to make sure I'm not missing anything. Distractors must be plausible but clearly wrong, and clinical accuracy is crucial. \n\nI think that's all. Now, time to put it into the JSON structure."
+    },
+    {
+      "type": "mcq",
+      "stem": "A clinic received a review citing inadequate care following a child's deterioration. Which response aligns with best practices for addressing patient concerns and improving care, contrasting with the clinic's initial blaming reply of 'incomplete documents'?",
+      "options": [
+        "A) Publicly apologize, admit fault, and immediately implement new documentation protocols",
+        "B) Empathize with the family, offer a private review of records, initiate internal governance, and improve process-based intake without blaming patients",
+        "C) Dismiss the review as unfounded and reinforce current practices without changes",
+        "D) Transfer the case to another provider and avoid public comment"
+      ],
+      "correctOption": 1,
+      "explanation": "The correct approach emphasizes empathy, private review, internal governance, and systemic process improvements (option B). It avoids public admission of fault (contrary to option A) or avoidance (options C/D) and addresses root causes rather than blaming patients.",
+      "id": "story-016-sa1-obj-27b5d5",
+      "subtopic": "Apply It",
+      "_generatedFrom": "story-016-sa1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about outlining the correct response to a review, contrasting it with a clinic's blaming reply. The answer provided lists six steps, from empathizing with the family to addressing process improvements.\n\nFirst, I need to determine the best question type. The answer involves multiple steps and specific actions, which suggests that a multiple-choice question (MCQ) would be appropriate. True/false and assertion-reason don't fit here because the content isn't a single statement or a cause-effect relationship.\n\nNext, I need to formulate the stem of the question. The original question asks to outline the correct response, so the stem should ask for the correct approach to a situation where a clinic is being blamed for incomplete documents. The options should include the correct steps and plausible distractors that are incorrect.\n\nLooking at the answer, the correct response includes empathy, moving offline, internal review, communication strategies, process fixes, and addressing professionalism. Distractors could be options that miss these key points, like not empathizing, not offering a review, or blaming the family again.\n\nI need to ensure that the options are plausible but clearly wrong. For example, one distractor might be \"Publicly admit fault immediately,\" which contradicts the correct approach of not admitting or denying fault publicly. Another could be \"Ignore the family's concerns and focus on internal processes,\" which misses the empathy and communication aspects.\n\nThe correct option should be the one that lists the steps from the answer, but in a concise manner. Since the original answer has six points, the options need to be summarized. However, MCQs typically have four options. So, I'll need to condense the correct answer into a single option that captures the main points, and create three other options that are incorrect but plausible.\n\nI also need to make sure that the explanation in the JSON is brief and accurate, highlighting why the correct option is right and the distractors are wrong. For example, the correct option includes empathy, offline review, internal governance, and process improvements, which align with the answer provided.\n\nFinally, I'll structure the JSON with the type as \"mcq\", the stem as the question, the options as the four choices, the correctOption index, and the explanation. I need to ensure that the JSON is valid, with proper commas and brackets, and no markdown or extra text."
     }
   ]
 }

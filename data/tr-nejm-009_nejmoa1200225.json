@@ -845,6 +845,225 @@
       "correctAnswer": false,
       "explanation": "All groups received intensive medical therapy; surgery was added to medical therapy.",
       "reference": "STAMPEDE T/F 15: All groups received intensive medical therapy; surgery was added to medical therapy. — Schauer PR, Bhatt DL, Kirwan JP, et al. Bariatric surgery versus intensive medical therapy in obese patients with diabetes. N Engl J Med 2012;366:1567-1576."
+    },
+    {
+      "type": "mcq",
+      "stem": "What was the primary objective of the STAMPEDE trial?",
+      "options": [
+        "A) To compare the efficacy of bariatric surgery versus intensive medical therapy for glycemic control in moderately obese patients with uncontrolled type 2 diabetes",
+        "B) To evaluate long-term weight loss outcomes of gastric bypass versus sleeve gastrectomy in severely obese patients",
+        "C) To assess the role of pharmacologic therapy in conjunction with lifestyle modification for diabetes management",
+        "D) To determine the safety profile of bariatric surgery in patients with a BMI <30"
+      ],
+      "correctOption": 0,
+      "explanation": "The STAMPEDE trial specifically aimed to compare bariatric surgery (sleeve gastrectomy) with intensive medical therapy for glycemic control in moderately obese patients (BMI 30-35) with uncontrolled type 2 diabetes.",
+      "id": "tr-nejm-009-why1-obj-533746",
+      "subtopic": "Why/How 1",
+      "_generatedFrom": "tr-nejm-009-why1",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about why the STAMPEDE trial was initiated. The answer mentions comparing bariatric surgery to intensive medical therapy for glycemic control in moderately obese patients with uncontrolled type 2 diabetes.\n\nFirst, I need to determine the best question type. The question is asking for the reason behind initiating the trial, which is a specific fact. MCQ seems appropriate here because it's about a specific trial's purpose. True/false might be too simplistic, and assertion-reason could work, but MCQ allows for multiple plausible options.\n\nNext, I need to create the stem. The original question is straightforward, so the stem can be phrased as: \"What was the primary objective of the STAMPEDE trial?\" Then, the options need to be plausible but incorrect except for the correct one. The correct answer is about comparing bariatric surgery to medical therapy in moderately obese patients. Distractors should be other trials or incorrect patient populations. For example, maybe a trial comparing different surgeries, or focusing on severely obese patients, or using pharmacologic therapy instead of medical.\n\nI need to ensure clinical accuracy. The STAMPEDE trial did compare bariatric surgery (specifically sleeve gastrectomy) with intensive medical therapy in patients with a BMI of 30-35 and uncontrolled diabetes. So the correct option should reflect that. Distractors could include incorrect BMI ranges, different types of interventions, or different outcomes like weight loss instead of glycemic control.\n\nNow, structuring the JSON. The stem is the question, options are A to D, correctOption is 0 (since the first option is correct), and the explanation should briefly state that the trial aimed to compare the two interventions in the specified patient group.\n\nI need to check that all options are plausible but clearly wrong except the correct one. For example, option B might mention a different BMI range, C could involve a different type of surgery, and D might focus on pharmacologic therapy. The explanation should be concise, confirming the correct answer's details."
+    },
+    {
+      "type": "mcq",
+      "stem": "How was the primary clinical endpoint defined in the trial?",
+      "options": [
+        "A) The proportion of patients achieving an HbA1c ≤6.0% at 12 months, regardless of diabetes medication use",
+        "B) The proportion of patients achieving an HbA1c ≤7.0% at 6 months, regardless of diabetes medication use",
+        "C) The proportion of patients achieving an HbA1c ≤5.5% at 24 months, regardless of diabetes medication use",
+        "D) The proportion of patients achieving an HbA1c ≤6.0% at 12 months, only while using diabetes medications"
+      ],
+      "correctOption": 0,
+      "explanation": "The primary endpoint was specifically defined as HbA1c ≤6.0% at 12 months, with or without diabetes medications, as stated in the key point.",
+      "id": "tr-nejm-009-how2-obj-5bc0c0",
+      "subtopic": "Why/How 2",
+      "_generatedFrom": "tr-nejm-009-how2",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about how a trial defined its primary clinical endpoint, with the answer focusing on HbA1c levels after 12 months.\n\nFirst, I need to determine the best question type. The answer is a specific fact, so MCQ seems appropriate. The key point is the definition of the primary endpoint, which includes HbA1c ≤6.0% at 12 months, regardless of medication use.\n\nNext, I'll create the stem. It should ask about the primary endpoint definition. The correct option is the one provided in the answer. For distractors, I need plausible but incorrect options. Let me think of common variations: maybe different HbA1c targets (like 7.0% or 5.5%), different timeframes (6 months or 24 months), or excluding medication use. These are all common mistakes in trial endpoints.\n\nOption A could be the correct one. Option B might have a higher HbA1c target. Option C could have a different timeframe. Option D might exclude medication use. I need to ensure that the distractors are realistic but clearly wrong based on the key point provided.\n\nThen, the explanation should briefly state that the primary endpoint was HbA1c ≤6.0% at 12 months, with or without medications. That's straightforward.\n\nI need to make sure the JSON is valid, with the correct structure. The correctOption is 0 since it's the first option. Let me check for any errors in the options and ensure they are distinct and plausible.\n\nYes, this should work. The MCQ format is suitable here, and the distractors are crafted to test understanding of the specific endpoint criteria."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why did the researchers stratify patients according to their use of insulin at baseline?",
+      "options": [
+        "A: Stratification was used during the randomization process to ensure an equal distribution of patients requiring insulin across the three study groups, accounting for baseline disease severity.",
+        "B: Stratification was used to ensure similar age distribution across groups and reduce confounding by age.",
+        "C: Stratification was used to minimize variability in treatment adherence across study groups.",
+        "D: Stratification was used to ensure all groups had comparable baseline HbA1c levels."
+      ],
+      "correctOption": 0,
+      "explanation": "Stratification by insulin use ensures balanced group allocation for a key prognostic factor (insulin dependence), which reflects baseline disease severity and improves study validity.",
+      "id": "tr-nejm-009-why3-obj-bd9621",
+      "subtopic": "Why/How 3",
+      "_generatedFrom": "tr-nejm-009-why3",
+      "distillation_trace": "Okay, let's tackle this. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why researchers stratified patients based on insulin use at baseline. The answer mentions stratification during randomization to ensure equal distribution across groups, considering disease severity.\n\nFirst, I need to determine the question type. The answer explains a method (stratification) and its purpose (equal distribution, accounting for severity). This seems like a MCQ because it's asking for the reason behind a specific action, which is a common type of question in medical exams. True/false might be too simplistic here, and assertion-reason could work, but MCQ is more standard for this kind of scenario.\n\nNext, the stem should be a clear question. The original Q is \"Why did the researchers...\" which is good. Now, I need to create four options. The correct answer is option A. The other options need to be plausible but incorrect. Let me think of common distractors. Maybe options that mention other factors like age, gender, or different outcomes. For example, ensuring similar age distribution, reducing confounding variables, or improving treatment adherence. These are all plausible but not related to insulin use specifically.\n\nWait, the key point is about baseline disease severity. So the correct answer ties insulin use to disease severity. Distractors should be related to other variables. Let me check if the options are accurate. Option B could be about age, C about confounding variables, D about adherence. That makes sense.\n\nNow, the explanation should briefly state that stratification ensures equal distribution of insulin users across groups, accounting for disease severity. That's concise and accurate.\n\nI need to make sure the JSON is valid. The correctOption is 0 for the first option. All options are in an array. The stem is the question. The explanation is a brief reason. That should cover it. Let me double-check the rules: clinical accuracy, plausible distractors, correct format. Looks good."
+    },
+    {
+      "type": "mcq",
+      "stem": "Which of the following accurately describes the structural alterations in the gastrointestinal anatomy after a Roux-en-Y gastric bypass?",
+      "options": [
+        "A. Creation of a 15-to-20-ml gastric pouch, a 150-cm Roux limb, and a 50-cm biliopancreatic limb",
+        "B. Creation of a 50-to-100-ml gastric pouch, a 100-cm Roux limb, and a 100-cm biliopancreatic limb",
+        "C. Creation of a 15-to-20-ml gastric pouch, a 50-cm Roux limb, and a 150-cm biliopancreatic limb",
+        "D. Creation of a 100-to-150-ml gastric pouch, a 200-cm Roux limb, and no biliopancreatic limb"
+      ],
+      "correctOption": 0,
+      "explanation": "The Roux-en-Y gastric bypass typically involves a small gastric pouch (15–20 mL), a longer Roux limb (150 cm), and a shorter biliopancreatic limb (50 cm) to achieve malabsorption and restriction.",
+      "id": "tr-nejm-009-how4-obj-1f7ae0",
+      "subtopic": "Why/How 4",
+      "_generatedFrom": "tr-nejm-009-how4",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about the structural changes in the gastrointestinal anatomy after a gastric bypass procedure.\n\nFirst, I need to determine the best question type. The answer provided is a specific fact about the Roux-en-Y gastric bypass, mentioning the sizes of the gastric pouch and the limbs. This seems like a classic MCQ scenario where there are specific numerical details that can be tested with multiple options.\n\nNext, I'll need to create plausible distractors. The correct answer is a 15-20 ml pouch, 150 cm Roux limb, and 50 cm biliopancreatic limb. Common mistakes might involve mixing up the lengths of the limbs or the pouch size. For example, someone might confuse the pouch size with a different procedure or swap the lengths of the Roux and biliopancreatic limbs. Also, incorrect pouch sizes like 50-100 ml could be a distractor.\n\nI should ensure that the options are realistic and based on common errors. The explanation needs to be brief, pointing out the correct components and their measurements. The correct option is the one that matches the key points given. I need to check that all options are distinct and that the correct answer is clearly the best choice.\n\nFinally, structure the JSON with the correct type, stem, options, correct option index, and explanation. Make sure there's no markdown and that it's valid JSON. Let me review the rules again to confirm compliance with the requirements."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did weight loss outcomes compare between the three study groups at 12 months?",
+      "options": [
+        "A) Gastric bypass and sleeve gastrectomy resulted in significantly greater mean weight loss (-29.4 kg and -25.1 kg) compared to medical therapy (-5.4 kg)",
+        "B) Sleeve gastrectomy resulted in greater weight loss than gastric bypass",
+        "C) Medical therapy resulted in greater weight loss than either surgical intervention",
+        "D) No significant differences in weight loss were observed between groups"
+      ],
+      "correctOption": 0,
+      "explanation": "Surgical interventions (gastric bypass and sleeve gastrectomy) produced significantly greater weight loss than medical therapy alone, as evidenced by the mean values reported.",
+      "id": "tr-nejm-009-how6-obj-44542f",
+      "subtopic": "Why/How 6",
+      "_generatedFrom": "tr-nejm-009-how6",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided.\n\nFirst, I need to determine the type of question. The original answer compares weight loss outcomes between three groups: gastric bypass, sleeve gastrectomy, and medical therapy. The key point is that the surgical groups had significantly more weight loss than medical therapy. Since this is a comparison of specific outcomes with numerical data, an MCQ seems appropriate. True/false might not capture the comparison well, and assertion-reason could be possible but MCQ is better for specific facts with options.\n\nNext, the stem should ask about the comparison of weight loss outcomes at 12 months. The options need to include the correct answer and plausible distractors. The correct answer is that gastric bypass and sleeve gastrectomy had greater loss than medical therapy. Distractors could be other comparisons, like sleeve gastrectomy being better than gastric bypass, or medical therapy being better, or no significant difference. These are all plausible but incorrect based on the given data.\n\nI need to ensure the options are clear and the correct option is the first one (index 0). The explanation should briefly state that the surgical groups had significantly more weight loss than medical therapy. Also, check that the JSON is valid, with proper commas and brackets. No markdown, just the JSON object. Let me structure it step by step, making sure each part aligns with the rules."
+    },
+    {
+      "type": "mcq",
+      "stem": "What is the primary physiological mechanism proposed for improved glycemic control after surgery?",
+      "options": [
+        "A) Enhanced insulin sensitivity with reduced fasting insulin levels and improved HOMA-IR, linked to reduced systemic inflammation",
+        "B) Increased insulin secretion from preserved pancreatic beta-cell function",
+        "C) Weight loss due to caloric restriction during postoperative recovery",
+        "D) Altered gut microbiota composition promoting glucose metabolism"
+      ],
+      "correctOption": 0,
+      "explanation": "The improvement is attributed to enhanced insulin sensitivity, reduced fasting insulin, and improved HOMA-IR, which correlate with decreased chronic inflammation rather than direct pancreatic or microbiota effects.",
+      "id": "tr-nejm-009-how7-obj-0ece08",
+      "subtopic": "Why/How 7",
+      "_generatedFrom": "tr-nejm-009-how7",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about the physiological mechanism behind improved glycemic control after surgery, with the answer focusing on enhanced insulin sensitivity, reduced fasting insulin levels, improved HOMA-IR, and reduced inflammation.\n\nFirst, I need to determine the best question type. The answer is a specific explanation involving multiple factors. Since it's a detailed mechanism, an MCQ might be suitable here. The options should include the correct answer and plausible distractors that are incorrect but make sense clinically.\n\nThe stem should ask about the mechanism, and the options need to reflect different possible explanations. The correct answer is the one mentioning insulin sensitivity, HOMA-IR, and inflammation. Distractors could include things like increased insulin secretion, weight loss, gut microbiota changes, or increased glucagon-like peptide-1. These are all plausible but not the ones mentioned in the original answer.\n\nI need to ensure that the options are distinct and that the correct one is clearly the best choice. The explanation should briefly state that the correct answer is linked to reduced inflammation and improved insulin sensitivity, which aligns with the key points provided. Let me structure the JSON accordingly, making sure the correct option is at index 0 and the explanation is concise."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why might diabetes remission rates in the STAMPEDE trial appear lower compared to earlier observational studies?",
+      "options": [
+        "A) The trial enrolled patients with more advanced type 2 diabetes and used stricter biochemical criteria for remission",
+        "B) The trial used a shorter follow-up period, whereas observational studies tracked outcomes over decades",
+        "C) Observational studies excluded patients on insulin, leading to artificially higher remission rates",
+        "D) The trial enrolled a younger population with less comorbidities, making remission less likely"
+      ],
+      "correctOption": 0,
+      "explanation": "The STAMPEDE trial's stricter biochemical remission criteria and enrollment of patients with more advanced disease (longer duration, higher HbA1c, higher insulin use) likely contributed to lower observed remission rates compared to observational studies with more liberal definitions.",
+      "id": "tr-nejm-009-why8-obj-cdf314",
+      "subtopic": "Why/How 8",
+      "_generatedFrom": "tr-nejm-009-why8",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why diabetes remission rates in a trial might be lower than in earlier observational studies. The answer points out that the STAMPEDE trial had more advanced patients and stricter remission criteria.\n\nFirst, I need to determine the best question type. The question is asking for a reason related to study design differences, which seems like a good fit for an MCQ. The key points mention differences in patient selection and remission definitions, so the options should reflect these aspects.\n\nNext, I'll craft the stem. It should ask why remission rates in the trial are lower. The correct answer is about the trial's patient population and stricter criteria. Distractors need to be plausible but incorrect. Maybe options about medication differences, follow-up duration, or patient age. \n\nI need to ensure the explanation in the JSON is brief and accurate, highlighting the stricter definitions and more advanced disease in the trial. Also, check that the correct option is clearly the one that matches the key points. Let me structure the JSON with the correct option as A and the others as distractors. Make sure the options are clear and the explanation ties back to the trial's patient selection and remission criteria."
+    },
+    {
+      "type": "mcq",
+      "stem": "Compared to medical therapy, how did bariatric surgery affect medication use in patients with hyperlipidemia and hypertension at 12 months?",
+      "options": [
+        "A) Surgical groups required fewer medications to achieve similar lipid and blood-pressure levels",
+        "B) Surgical groups required more medications due to increased metabolic demands",
+        "C) Medication requirements were identical between groups",
+        "D) Surgical groups achieved better lipid control without any medication changes"
+      ],
+      "correctOption": 0,
+      "explanation": "Bariatric surgery led to similar lipid and blood-pressure levels as medical therapy but with reduced medication use for hyperlipidemia and hypertension.",
+      "id": "tr-nejm-009-how9-obj-b1d0d3",
+      "subtopic": "Why/How 9",
+      "_generatedFrom": "tr-nejm-009-how9",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, following the rules provided. The original question is about how bariatric surgery affects patients' reliance on cardiovascular medications. The answer mentions that despite similar lipid and blood pressure levels at 12 months, surgical groups needed fewer medications for hyperlipidemia and hypertension compared to the medical group.\n\nFirst, I need to determine the best question type. The answer is comparing medication use between groups, which is a specific fact. MCQ seems appropriate here because it's a clear comparison with specific outcomes. True/false might be too simplistic, and assertion-reason could work, but MCQ allows for multiple plausible options.\n\nNext, the stem should be a question that asks about the impact of bariatric surgery on medication reliance. The options need to be plausible but incorrect except for one. The correct answer is that surgical groups required fewer medications. Distractors could include options like no change, more medications, or similar medication use but different outcomes. I need to ensure the distractors are clinically plausible but wrong.\n\nThe explanation should briefly state that surgical patients achieved similar levels with fewer medications. Also, checking the rules: only JSON output, no markdown, correct formatting. Making sure the correctOption is 0 (the first option) and the explanation is concise. Let me structure the JSON accordingly, ensuring all elements are present and correct."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why were some randomized patients excluded from the final 12-month data analysis?",
+      "options": [
+        "A) Eight patients withdrew (seven in the medical-therapy group and one before sleeve gastrectomy), and two in the medical-therapy group missed 9- and 12-month visits",
+        "B) Four patients withdrew, and three missed follow-up visits due to adverse events",
+        "C) Six patients underwent bariatric surgery, and five were lost to follow-up",
+        "D) Ten patients withdrew, and one missed the 12-month visit due to protocol violation"
+      ],
+      "correctOption": 0,
+      "explanation": "The correct answer identifies the specific numbers and reasons for exclusion as stated in the key points.",
+      "id": "tr-nejm-009-why10-obj-c7e476",
+      "subtopic": "Why/How 10",
+      "_generatedFrom": "tr-nejm-009-why10",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about why some patients were excluded from the final 12-month data analysis. The answer mentions eight patients withdrawing and two missing follow-ups.\n\nFirst, I need to determine the best question type. The answer provides specific numbers and reasons, so an MCQ seems appropriate here. The key points are about withdrawal and missed follow-ups, which are specific facts.\n\nNext, I'll structure the MCQ. The stem should ask why patients were excluded. The options need to include the correct answer and plausible distractors. The correct option is the one mentioned in the answer. Distractors could involve different numbers or reasons, like surgical procedures or different time points.\n\nI need to ensure the options are plausible but clearly wrong. For example, mentioning different numbers of withdrawals or different follow-up times. Also, check clinical accuracy to make sure the options are realistic in a medical context.\n\nThen, the explanation should briefly state the correct answer. The correct option is A, so the explanation would note the eight withdrawals and two missed visits. The other options are incorrect because they alter the numbers or reasons.\n\nFinally, validate the JSON structure to ensure it's correct, with the right keys and values. Make sure the explanation is concise and accurate."
+    },
+    {
+      "type": "mcq",
+      "stem": "Compared to medical therapy, how do surgical interventions (gastric bypass and sleeve gastrectomy) affect high-sensitivity C-reactive protein (CRP) levels in patients with obesity?",
+      "options": [
+        "A. Gastric bypass (84% median reduction), sleeve gastrectomy (80% median reduction), medical therapy (33.2% reduction)",
+        "B. Gastric bypass (33.2% median reduction), sleeve gastrectomy (20% median reduction), medical therapy (84% reduction)",
+        "C. Both surgical procedures result in a 50% reduction, with medical therapy showing no significant change",
+        "D. Surgical interventions increase CRP levels, while medical therapy reduces them by 40%"
+      ],
+      "correctOption": 0,
+      "explanation": "Surgical procedures (gastric bypass and sleeve gastrectomy) produce significantly greater reductions in CRP levels (84% and 80%, respectively) compared to medical therapy (33.2% reduction), as demonstrated in clinical studies.",
+      "id": "tr-nejm-009-how11-obj-89ac89",
+      "subtopic": "Why/How 11",
+      "_generatedFrom": "tr-nejm-009-how11",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about how surgical interventions affect inflammation markers compared to medical therapy. The answer provided mentions specific percentages for CRP reduction in gastric bypass, sleeve gastrectomy, and medical therapy.\n\nFirst, I need to determine the best question type. The answer gives specific numerical data, which is perfect for a multiple-choice question (MCQ). True/false might be too simplistic here, and assertion-reason could work, but MCQ allows for clear options with distractors.\n\nNext, the stem should ask about the comparison of CRP reduction between surgical procedures and medical therapy. The correct answer is the 84% and 80% for surgery versus 33.2% for medical. Distractors need to be plausible but incorrect. Maybe swap the percentages or use different markers like IL-6. Also, check if the key points mention any other markers, but in this case, only CRP is discussed.\n\nEnsure the options are in the same order as the answer. The correct option is A. Explanation should note the specific reductions. Need to make sure the distractors are realistic but wrong. For example, option B could have lower surgery percentages and higher medical, which is the opposite. Option C might mention another marker with lower reduction. Option D could mix up the numbers. \n\nCheck clinical accuracy: CRP is a valid marker, and the percentages make sense in the context of bariatric surgery. No errors here. Now, structure the JSON with the correct options and explanation. Make sure the explanation is brief and directly relates to the correct answer."
+    },
+    {
+      "type": "mcq",
+      "stem": "How did medication reliance differ between patients who achieved an HbA1c of 6.0% or less in the gastric-bypass and sleeve-gastrectomy groups?",
+      "options": [
+        "A) 100% of gastric-bypass patients required medications, compared to 72% in the sleeve-gastrectomy group",
+        "B) 28% of gastric-bypass patients required medications, compared to 72% in the sleeve-gastrectomy group",
+        "C) All gastric-bypass patients achieved the target without medications, while 28% of sleeve-gastrectomy patients still required glucose-lowering drugs",
+        "D) Medication reliance was identical between the two groups (72% required drugs)"
+      ],
+      "correctOption": 2,
+      "explanation": "The gastric-bypass group achieved the HbA1c target without medications in all cases, whereas 28% of the sleeve-gastrectomy group required continued glucose-lowering therapy despite meeting the endpoint.",
+      "id": "tr-nejm-009-how12-obj-2e1cdc",
+      "subtopic": "Why/How 12",
+      "_generatedFrom": "tr-nejm-009-how12",
+      "distillation_trace": "Okay, let's tackle this query. The user wants an objective exam question based on the provided Q&A. The key point is the difference in medication reliance between gastric-bypass and sleeve-gastrectomy patients who achieved the primary endpoint.\n\nFirst, I need to determine the question type. The information is specific and comparative, so an MCQ seems appropriate. The options should highlight the key difference mentioned: gastric-bypass patients not needing meds versus 28% in sleeve-gastrectomy still needing them.\n\nNext, I'll draft the stem. It should ask about the difference in medication reliance between the two groups. The correct option should state that all gastric-bypass patients achieved the target without meds, while 28% of sleeve-gastrectomy patients still needed drugs.\n\nFor distractors, I need plausible but incorrect options. Maybe options that reverse the percentages or mention different HbA1c targets. Also, check for clinical accuracy to ensure the numbers and terms are correct. Finally, the explanation should clarify why the correct option is right, focusing on the 100% vs 28% difference in medication use."
+    },
+    {
+      "type": "mcq",
+      "stem": "Why do the authors suggest that weight loss is not the exclusive driver of diabetes resolution post-surgery?",
+      "options": [
+        "A) Early reductions in diabetes medications occurred before maximal weight loss, indicating gut hormone effects on glycemic physiology",
+        "B) Weight loss directly improves insulin sensitivity independent of gut hormones",
+        "C) Post-surgical dietary restrictions alone account for diabetes resolution",
+        "D) Bariatric surgery reduces caloric intake, which is the primary mechanism for diabetes remission"
+      ],
+      "correctOption": 0,
+      "explanation": "Early medication reductions before maximal weight loss suggest that gut hormone changes, rather than weight loss alone, drive early glycemic improvements.",
+      "id": "tr-nejm-009-why13-obj-647de5",
+      "subtopic": "Why/How 13",
+      "_generatedFrom": "tr-nejm-009-why13",
+      "distillation_trace": "Okay, let's tackle this query. The user wants to convert a Q&A into an objective exam question for Harrison's. The original question is about why weight loss isn't the only reason diabetes resolves after surgery. The answer mentions that medication reductions happened before maximum weight loss, pointing to gut hormones.\n\nFirst, I need to determine the question type. The answer explains a cause-effect relationship between gut hormones and diabetes resolution, so assertion_reason might be suitable. But maybe an MCQ is better if there are clear options. However, the key point here is the timing of medication reduction versus weight loss, which is a specific fact. Wait, the answer is explaining the reason behind the authors' suggestion. The original question is asking for the reason, so assertion_reason could work where the assertion is \"Weight loss is not the exclusive driver of diabetes resolution post-surgery\" and the reason is about early medication reduction due to gut hormones. But the user's example shows that the correct answer is option A in assertion_reason. Let me check the rules again.\n\nThe rules say assertion_reason is for cause-effect relationships. The original answer is explaining that gut hormones (reason) lead to early medication reduction (effect), which supports the assertion that weight loss isn't the only driver. So the assertion would be the authors' suggestion, and the reason is the gut hormone effect. The options would be different reasons. But the user's example answer is in MCQ format. Wait, the user's example answer is an MCQ with options. Let me re-examine the original Q&A.\n\nThe original Q is asking why the authors suggest weight loss isn't the exclusive driver. The answer is that medication reductions happened early, before max weight loss, implying gut hormones. So the correct option would be the one that mentions early reduction in meds and gut hormones. The other options would be plausible but wrong. So an MCQ with four options, one correct. The options need to be plausible but incorrect. For example, other options might mention factors like reduced calorie intake, increased physical activity, or insulin sensitivity. But the correct answer is about gut hormones and early medication changes. So the MCQ stem would be the question, options would include these, and the correct option is the one about gut hormones. The explanation would note that early medication reduction before max weight loss indicates gut hormones' role. That fits the MCQ format. So the correct type here is MCQ. Let me structure that."
+    },
+    {
+      "type": "mcq",
+      "stem": "How was the sleeve gastrectomy surgically executed in this trial?",
+      "options": [
+        "A: The procedure reduced the gastric volume by 75 to 80% by resecting the stomach alongside a 30-French endoscope, beginning 3 cm from the pylorus and ending at the angle of His.",
+        "B: The procedure reduced the gastric volume by 50 to 60% using a 40-French endoscope, starting at the fundus and ending at the cardia.",
+        "C: The procedure involved removing 25 to 30% of the stomach with a 24-French endoscope, beginning 5 cm from the pylorus and ending at the lesser curvature.",
+        "D: The procedure utilized a 36-French endoscope to resect 85 to 90% of the stomach, starting at the cardia and ending at the angle of His."
+      ],
+      "correctOption": 0,
+      "explanation": "The correct technique involves a 30-French endoscope, 75-80% volume reduction, and resection from 3 cm proximal to the pylorus to the angle of His, as described in the key points.",
+      "id": "tr-nejm-009-how14-obj-455250",
+      "subtopic": "Why/How 14",
+      "_generatedFrom": "tr-nejm-009-how14",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format. The original question is about how sleeve gastrectomy was executed in a trial, with the answer detailing the procedure using a 30-French endoscope, resecting from 3 cm from the pylorus to the angle of His.\n\nFirst, I need to determine the best question type. The answer is a specific fact about the surgical technique, so MCQ seems appropriate. True/false might not capture the details well, and assertion-reason would require a cause-effect relationship, which isn't present here.\n\nNext, the stem should be clear and concise. The original question is straightforward, so I can use that. For the options, the correct answer is given. I need three plausible distractors. Let me think about common variations in sleeve gastrectomy techniques. Maybe different percentages of gastric volume reduction, different positions (like starting from the fundus instead of the pylorus), or using different instruments like a 40-French endoscope. Also, incorrect landmarks like the cardia instead of the angle of His.\n\nI should ensure that the distractors are clinically plausible but incorrect. For example, 50-60% reduction is less than the correct 75-80%. Starting at the fundus is a common mistake. Using a larger endoscope size might be a distractor. Ending at the cardia is another possible error.\n\nNow, structuring the JSON. The correct option is A, so correctOption is 0. The explanation should mention the specific details from the key points. Let me check the options again to ensure they are distinct and incorrect. Yes, each distractor changes a key parameter. That should work."
+    },
+    {
+      "type": "assertion_reason",
+      "assertion": "The durability and long-term safety profile of these results is classified as uncertain.",
+      "reason": "Because the study only reports on a relatively short 12-month follow-up period, making a planned 4-year extension study necessary to properly evaluate long-term outcomes and potential late surgical complications.",
+      "correctOption": 0,
+      "explanation": "The short follow-up period limits assessment of long-term outcomes and late complications, justifying the classification of durability and safety as uncertain.",
+      "id": "tr-nejm-009-why15-obj-43986d",
+      "subtopic": "Why/How 15",
+      "_generatedFrom": "tr-nejm-009-why15",
+      "distillation_trace": "Okay, let's tackle this query. The user wants me to convert the given Q&A into an objective exam question in JSON format, specifically for Harrison's Principles of Internal Medicine. The original question is about why the authors classify the durability and long-term safety as uncertain, with the answer pointing to the short 12-month follow-up and the need for a 4-year extension study.\n\nFirst, I need to determine the best question type. The answer is explaining a cause-effect relationship: the short follow-up (cause) leads to uncertainty in long-term outcomes (effect). So assertion_reason might be suitable here. But let me check the options again.\n\nAlternatively, since the answer is a specific fact about the study's follow-up period, maybe an MCQ would work. However, the original answer is a statement, not multiple choices. But the user provided a key point that's a single statement. Wait, the user's example shows that the answer is a specific reason, so maybe assertion_reason is better here.\n\nLooking at the rules: assertion_reason is for cause-effect. The question is why the authors classify the results as uncertain. The answer is because of the short follow-up. So the assertion would be \"The durability and long-term safety profile is uncertain,\" and the reason is \"the study only reports on a 12-month follow-up period, requiring a 4-year extension study.\" That fits assertion_reason.\n\nNow, constructing the JSON. The assertion is the statement from the question, and the reason is the answer. The correct option would be 0 (both true, reason explains assertion). The explanation would mention the need for longer follow-up to assess late complications.\n\nWait, but the original question is phrased as \"Why do the authors...?\" which is asking for the reason. So the assertion is the fact (durability is uncertain), and the reason is the short follow-up. So the assertion_reason format would have the assertion as \"The durability and long-term safety profile of these results is classified as uncertain\" and the reason as \"Because the study only reports on a relatively short 12-month follow-up period, making a planned 4-year extension study necessary to properly evaluate long-term outcomes and potential late surgical complications.\" Then the correct option is 0, as both are true and the reason explains the assertion.\n\nI need to make sure the JSON is correctly formatted with the right keys. Also, the explanation should be brief, pointing out that the short follow-up period limits the ability to assess long-term outcomes, hence the uncertainty."
     }
   ]
 }
