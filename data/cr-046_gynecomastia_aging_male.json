@@ -1,0 +1,247 @@
+{
+  "id": "cr-046",
+  "reportType": "case_report",
+  "title": "Gynecomastia in the Aging Male (≥ 40 Years)",
+  "subtitle": "Obesity-associated hypogonadism, spironolactone unmasking, and SHBG shifts in cirrhosis",
+  "section": "Case Reports",
+  "category": "Endocrinology (Andrology / Reproductive)",
+  "authors": "Resident/fellowship training module — illustrative teaching case",
+  "sourceFile": "user-provided content (chat)",
+  "relatedChapters": [
+    {
+      "id": "cr-026",
+      "title": "Gynecomastia in an Adolescent Male"
+    },
+    {
+      "id": "cr-028",
+      "title": "Klinefelter Syndrome in Adults"
+    }
+  ],
+  "patient": {
+    "age": 52,
+    "sex": "Male",
+    "chiefComplaint": "Progressive, painless bilateral breast enlargement, fatigue, and diminished libido.",
+    "pmh": [
+      "Type 2 Diabetes",
+      "Obstructive Sleep Apnea",
+      "Heart Failure (HFrEF)",
+      "NASH Cirrhosis"
+    ],
+    "medications": [
+      "Spironolactone (in Case 2)"
+    ]
+  },
+  "caseDescription": "This training module explores the mechanical disruption of the free testosterone-to-estrogen ratio across three classic presentations in men over 40: adipose-mediated aromatization in severe obesity (MOSHD), pharmacologic unmasking by spironolactone in HFrEF, and altered protein-binding kinetics in NASH cirrhosis.",
+  "keyFindings": [
+    "True glandular tissue on palpation (>2 cm rubbery disk)",
+    "Profoundly low free T/E2 ratio",
+    "Inappropriately low-normal LH/FSH in MOSHD",
+    "Elevated SHBG in cirrhosis masking tissue-level hypogonadism"
+  ],
+  "finalDiagnosis": "Secondary hypogonadism and gynecomastia driven by peripheral aromatization, androgen receptor blockade, and SHBG-mediated free hormone shifts.",
+  "learningObjectives": [
+    "Understand the adipose-endocrine loop in Male Obesity-Associated Secondary Hypogonadism (MOSHD).",
+    "Differentiate the dual hit of spironolactone on the androgen axis and why aging unmasks it.",
+    "Calculate and interpret free testosterone in the context of liver disease and elevated SHBG."
+  ],
+  "items": [
+    {
+      "id": "cr-046-n1",
+      "type": "note",
+      "subtopic": "Case 1: MOSHD",
+      "title": "Case 1: Obesity-Associated Secondary Hypogonadism (MOSHD)",
+      "content": "A 52-year-old male with a BMI of 41 kg/m² presents with progressive, painless bilateral breast enlargement, fatigue, and diminished libido over the past three years. His comorbidities include poorly controlled Type 2 Diabetes and Obstructive Sleep Apnea (OSA).\n\nPalpation confirms true glandular tissue (rubbery subareolar disk >2 cm), not lipomastia. Laboratory evaluation reveals profoundly low total testosterone (190 ng/dL), inappropriately low-normal LH and FSH, and high-normal serum estradiol. Prolactin and thyroid panels are normal."
+    },
+    {
+      "id": "cr-046-n2",
+      "type": "note",
+      "subtopic": "Case 1: MOSHD",
+      "title": "Why does severe obesity cause hypogonadotropic hypogonadism?",
+      "content": "White adipose tissue is a highly active endocrine organ expressing abundant aromatase. In severe obesity, the mass-action conversion of circulating testosterone to estradiol skyrockets. The resulting hyperestrogenemia exerts negative feedback on the hypothalamus and pituitary, suppressing GnRH and LH/FSH secretion. This traps the patient in a vicious cycle: low T leads to increased adiposity, which further increases aromatization and lowers T."
+    },
+    {
+      "id": "cr-046-n3",
+      "type": "note",
+      "subtopic": "Case 1: MOSHD",
+      "title": "How does TRT paradoxically worsen gynecomastia in MOSHD?",
+      "content": "Testosterone replacement therapy (TRT) without addressing the aromatase burden can paradoxically worsen gynecomastia, as the exogenous testosterone is rapidly aromatized into estradiol by the excess adipose tissue. Weight loss (via lifestyle, GLP-1 RAs, or bariatric surgery) is the definitive treatment to restore the physiological axis."
+    },
+    {
+      "id": "cr-046-why1",
+      "type": "why",
+      "subtopic": "Case 1: MOSHD",
+      "question": "Why is weight loss considered the definitive treatment for MOSHD rather than starting testosterone replacement therapy?",
+      "answer": "Weight loss reduces the mass of aromatase-expressing adipose tissue. This decreases the peripheral conversion of testosterone to estradiol, lifting the estrogenic negative feedback on the HPG axis, and allowing endogenous LH/FSH and testosterone production to recover. Exogenous TRT alone would just provide more substrate for aromatization, potentially worsening gynecomastia."
+    },
+    {
+      "id": "cr-046-m1",
+      "type": "mcq",
+      "subtopic": "Case 1: MOSHD",
+      "stem": "A 52-year-old man with a BMI of 41 kg/m² presents with true gynecomastia. Labs show total testosterone 190 ng/dL, inappropriately normal LH, and high-normal estradiol. If he is prescribed intramuscular testosterone cypionate without any other intervention, which of the following is the most likely clinical outcome regarding his gynecomastia?",
+      "options": [
+        "Regression of gynecomastia due to an increased androgen-to-estrogen ratio.",
+        "Worsening of gynecomastia due to mass-action aromatization of exogenous testosterone.",
+        "No change in breast tissue as the exogenous testosterone suppresses endogenous estrogen production.",
+        "Rapid involution of glandular tissue secondary to LH suppression."
+      ],
+      "correctOption": 1,
+      "explanation": "In severe obesity (MOSHD), there is a massive excess of adipose tissue expressing aromatase. Exogenous testosterone acts as abundant substrate for this aromatase, leading to a surge in estradiol production that can paradoxically worsen gynecomastia. This is why addressing the adiposity is the definitive treatment."
+    },
+    {
+      "id": "cr-046-tf1",
+      "type": "true_false",
+      "subtopic": "Case 1: MOSHD",
+      "statement": "In Male Obesity-Associated Secondary Hypogonadism, the primary defect is primary testicular failure leading to elevated LH and FSH.",
+      "correctAnswer": false,
+      "explanation": "MOSHD is a secondary (hypogonadotropic) hypogonadism. Aromatization of testosterone to estradiol in adipose tissue leads to hyperestrogenemia, which exerts negative feedback on the hypothalamus and pituitary, suppressing LH and FSH."
+    },
+    {
+      "id": "cr-046-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Case 1: MOSHD",
+      "assertion": "Patients with severe obesity often develop secondary hypogonadism and gynecomastia.",
+      "reason": "Excess white adipose tissue expresses abundant aromatase, causing mass-action conversion of circulating testosterone to estradiol and subsequent HPG axis suppression.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and the reason are true, and the reason is the correct explanation for the assertion. The hyperestrogenemia suppresses GnRH/LH/FSH while directly stimulating breast tissue."
+    },
+    {
+      "id": "cr-046-sa1",
+      "type": "shortanswer",
+      "subtopic": "Case 1: MOSHD",
+      "question": "What is the expected gonadotropin (LH/FSH) profile in a patient with MOSHD?",
+      "answer": "Inappropriately low or low-normal, due to negative feedback from elevated estradiol levels."
+    },
+    {
+      "id": "cr-046-n4",
+      "type": "note",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "title": "Case 2: Age-Related Hypogonadism Unmasked by Pharmacotherapy",
+      "content": "A 68-year-old male presents with tender, unilateral left-sided breast enlargement. He has a history of Heart Failure with Reduced Ejection Fraction (HFrEF) and was recently stepped up to guideline-directed medical therapy, including the addition of Spironolactone 25 mg daily four months prior.\n\nA basic metabolic panel confirms stable renal function. His baseline serum testosterone is 310 ng/dL (reflecting expected age-related decline). Estradiol is within normal limits. Mammography/ultrasound confirms unilateral gynecomastia with no concerning features for malignancy."
+    },
+    {
+      "id": "cr-046-n5",
+      "type": "note",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "title": "How does spironolactone cause a 'double-hit' on the T/E2 ratio?",
+      "content": "Spironolactone disrupts the T/E2 ratio via two distinct mechanisms:\n1. It aggressively and competitively antagonizes the androgen receptor, blocking testosterone action directly at the breast tissue level.\n2. It inhibits 17-α-hydroxylase, an enzyme required for endogenous testosterone synthesis, directly reducing circulating testosterone levels."
+    },
+    {
+      "id": "cr-046-n6",
+      "type": "note",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "title": "Why does aging unmask spironolactone-induced gynecomastia?",
+      "content": "A young male with a robust Leydig cell reserve might compensate for spironolactone's minor suppression of testosterone synthesis via a compensatory LH surge. However, aging causes a physiological decline in Leydig cell mass and testicular perfusion. The 68-year-old testicle cannot overcome the spironolactone blockade, allowing estrogenic action to completely dominate the breast stroma."
+    },
+    {
+      "id": "cr-046-how1",
+      "type": "how",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "question": "How should spironolactone-induced gynecomastia in a patient with HFrEF be managed?",
+      "answer": "The offending agent should be discontinued and substituted with Eplerenone. Eplerenone is a highly selective mineralocorticoid receptor antagonist with negligible affinity for the androgen receptor. Switching agents typically resolves the breast pain rapidly, with glandular regression following over several months."
+    },
+    {
+      "id": "cr-046-m2",
+      "type": "mcq",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "stem": "A 68-year-old man with HFrEF develops painful unilateral gynecomastia four months after starting spironolactone 25 mg daily. His testosterone is 310 ng/dL and estradiol is normal. Which of the following is the most appropriate management step for his gynecomastia?",
+      "options": [
+        "Add tamoxifen 10 mg daily to block estrogen receptors in the breast.",
+        "Switch spironolactone to eplerenone.",
+        "Start testosterone replacement therapy to overcome the androgen blockade.",
+        "Refer for urgent surgical excision of the breast tissue."
+      ],
+      "correctOption": 1,
+      "explanation": "Discontinuation of the offending agent is required. Eplerenone is a highly selective mineralocorticoid receptor antagonist that does not possess the anti-androgenic effects of spironolactone, making it the ideal substitute in patients who develop spironolactone-induced gynecomastia."
+    },
+    {
+      "id": "cr-046-tf2",
+      "type": "true_false",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "statement": "Spironolactone induces gynecomastia solely by increasing the peripheral aromatization of testosterone to estradiol.",
+      "correctAnswer": false,
+      "explanation": "Spironolactone works via a 'double-hit' mechanism: it competitively antagonizes the androgen receptor and inhibits 17-α-hydroxylase to decrease testosterone synthesis. It does not primarily increase aromatization."
+    },
+    {
+      "id": "cr-046-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "assertion": "Older men are more susceptible to developing gynecomastia when started on spironolactone compared to younger men.",
+      "reason": "Aging causes a physiological decline in Leydig cell mass, impairing the testicle's ability to mount a compensatory LH surge to overcome spironolactone-induced testosterone suppression.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and causally linked. The lack of Leydig cell reserve in the aging male prevents the compensatory increase in testosterone production that might protect a younger man from the anti-androgenic effects."
+    },
+    {
+      "id": "cr-046-sa2",
+      "type": "shortanswer",
+      "subtopic": "Case 2: Pharmacotherapy",
+      "question": "What specific enzyme in the testosterone synthesis pathway is inhibited by spironolactone?",
+      "answer": "17-α-hydroxylase."
+    },
+    {
+      "id": "cr-046-n7",
+      "type": "note",
+      "subtopic": "Case 3: Liver Disease",
+      "title": "Case 3: Comorbidity-Driven SHBG Alteration (NASH Cirrhosis)",
+      "content": "A 60-year-old male with long-standing metabolic syndrome presents to the hepatology clinic with early ascites, palmar erythema, and bilateral gynecomastia. He has a known diagnosis of Non-Alcoholic Steatohepatitis (NASH) progressing to cirrhosis.\n\nTotal testosterone is deceivingly low-normal (340 ng/dL). However, calculated free testosterone is severely depressed. Sex Hormone-Binding Globulin (SHBG) is highly elevated. Hepatic function panels show elevated transaminases and a prolonged INR."
+    },
+    {
+      "id": "cr-046-n8",
+      "type": "note",
+      "subtopic": "Case 3: Liver Disease",
+      "title": "Why is total testosterone a misleading metric in cirrhosis?",
+      "content": "Cirrhosis and advanced hepatic dysfunction often trigger a paradoxical increase in Sex Hormone-Binding Globulin (SHBG) synthesis, even as albumin decreases. Because SHBG binds testosterone with significantly higher affinity than it binds estradiol, total testosterone may appear normal while the biologically active free fraction is severely depleted."
+    },
+    {
+      "id": "cr-046-n9",
+      "type": "note",
+      "subtopic": "Case 3: Liver Disease",
+      "title": "How does cirrhosis compound the estrogen-dominant state?",
+      "content": "The cirrhotic liver simultaneously fails to metabolize and clear circulating estrogens efficiently. This decreased clearance, combined with the SHBG-mediated drop in free testosterone, creates a free T/E2 ratio that heavily favors estrogen, potently stimulating breast tissue proliferation."
+    },
+    {
+      "id": "cr-046-why2",
+      "type": "why",
+      "subtopic": "Case 3: Liver Disease",
+      "question": "Why does an elevation in SHBG selectively cause an estrogen-dominant state at the tissue level?",
+      "answer": "SHBG binds testosterone with a significantly higher affinity than it binds estradiol. Therefore, an increase in SHBG will sequester a large proportion of circulating testosterone, causing free (active) testosterone to plummet, while free estradiol remains relatively untouched. This heavily shifts the active hormone ratio toward estrogen."
+    },
+    {
+      "id": "cr-046-m3",
+      "type": "mcq",
+      "subtopic": "Case 3: Liver Disease",
+      "stem": "A 60-year-old man with NASH cirrhosis presents with new-onset gynecomastia. His total testosterone is 340 ng/dL (lower limit of normal: 300 ng/dL) and estradiol is normal. Which of the following is the most critical next step to accurately assess his androgen status at the tissue level?",
+      "options": [
+        "Measure 24-hour urinary testosterone excretion.",
+        "Measure or calculate free testosterone alongside SHBG and albumin.",
+        "Perform a GnRH stimulation test.",
+        "Measure prolactin to rule out a prolactinoma."
+      ],
+      "correctOption": 1,
+      "explanation": "In liver disease, elevated SHBG binds testosterone with high affinity, drastically lowering the free, biologically active fraction even if total testosterone appears normal. Measuring SHBG and calculating free testosterone is the diagnostic anchor in this context."
+    },
+    {
+      "id": "cr-046-tf3",
+      "type": "true_false",
+      "subtopic": "Case 3: Liver Disease",
+      "statement": "In patients with cirrhosis, the liver's ability to clear circulating estrogens is typically upregulated as a compensatory mechanism.",
+      "correctAnswer": false,
+      "explanation": "The cirrhotic liver fails to metabolize and clear circulating estrogens efficiently, which compounds the estrogen-dominant state and contributes to manifestations like gynecomastia and palmar erythema."
+    },
+    {
+      "id": "cr-046-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Case 3: Liver Disease",
+      "assertion": "A normal total testosterone level effectively rules out hypogonadism as a cause for gynecomastia in a patient with cirrhosis.",
+      "reason": "Cirrhosis often triggers an increase in SHBG synthesis, which preferentially binds estradiol and leaves free testosterone unaffected.",
+      "correctOption": 4,
+      "explanation": "Both the assertion and reason are false. A normal total testosterone does not rule out hypogonadism because elevated SHBG in cirrhosis preferentially binds testosterone, causing free testosterone to plummet while leaving free estradiol relatively unaffected. This masks the tissue-level hypogonadism if only total testosterone is checked."
+    },
+    {
+      "id": "cr-046-sa3",
+      "type": "shortanswer",
+      "subtopic": "Case 3: Liver Disease",
+      "question": "What happens to SHBG and albumin levels, respectively, in advanced hepatic dysfunction?",
+      "answer": "SHBG synthesis often paradoxically increases, while albumin decreases."
+    }
+  ]
+}
