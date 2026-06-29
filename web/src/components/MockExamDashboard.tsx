@@ -58,6 +58,12 @@ function MockExamSetup() {
            const data = await loadChapter(ch.id)
            if (data) pool.push(...data.items.filter(i => OBJECTIVE_TYPES.includes(i.type)))
          }
+      } else if (config.source === 'all_live') {
+         const shuffled = [...chapters].sort(() => 0.5 - Math.random()).slice(0, 50)
+         const results = await Promise.all(shuffled.map(ch => loadChapter(ch.id)))
+         for (const data of results) {
+           if (data) pool.push(...data.items.filter(i => OBJECTIVE_TYPES.includes(i.type)))
+         }
       } else {
          if (!config.chapterId) {
             setError('Please select a chapter.')
@@ -125,7 +131,8 @@ function MockExamSetup() {
               onChange={(e) => setConfig({ source: e.target.value as any })}
             >
               <option value="chapter">Specific Chapter</option>
-              <option value="random">Random (across topics)</option>
+              <option value="random">Random (across 10 topics)</option>
+              <option value="all_live">All Live (Grand Mock)</option>
             </select>
           </div>
 

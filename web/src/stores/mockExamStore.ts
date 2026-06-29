@@ -6,7 +6,7 @@ import { useAppStore } from '@/store/useAppStore'
 export type MockExamPhase = 'setup' | 'instructions' | 'active' | 'results'
 
 export interface MockExamConfig {
-  source: 'chapter' | 'random' | 'mistakes'
+  source: 'chapter' | 'random' | 'mistakes' | 'all_live'
   chapterId?: string
   subtopic?: string
   count: number
