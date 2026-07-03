@@ -1,0 +1,363 @@
+{
+  "id": "ht-031",
+  "topicType": "hot_topic",
+  "title": "Direct Renin Concentration (DRC) vs Plasma Renin Activity (PRA) in Primary Aldosteronism Screening",
+  "subtitle": "Evidence-based comparison of aldosterone/renin ratios by renin method — 2025 Endocrine Society cutoffs, assay-specific thresholds, ADRR vs ARR diagnostic accuracy, and when suppressed renin plus an aldosterone floor matter more than the ratio alone",
+  "section": "Hot Topics",
+  "category": "Endocrinology & Metabolism",
+  "authors": "User-provided evidence synthesis (July 2016–July 2026 literature review); refs: Endocrine Society 2016/2025 PA guidelines, Japanese Endocrine Society 2022, Liu 2022, Gao 2022, Tetti 2024, Nagasaka 2025, Leung 2026, Fuld 2026 ARRplus",
+  "sourceFile": "user-provided content (chat) — DRC vs PRA PA screening comparison",
+  "relatedChapters": [
+    {
+      "id": "cr-008",
+      "title": "Primary Aldosteronism in Resistant Hypertension"
+    }
+  ],
+  "items": [
+    {
+      "id": "ht-031-n1",
+      "type": "note",
+      "subtopic": "Bottom line",
+      "title": "Why direct renin concentration is not just a faster PRA",
+      "content": "DRC measures renin mass/concentration (typically mU/L or pg/mL). PRA measures enzymatic activity — angiotensin I generation over time (ng/mL/h). These are biologically and analytically different readouts: correlated but not interchangeable, especially in the low-renin range that defines primary aldosteronism screening.\n\nIn modern practice, DRC-based screening is operationally easier and usually diagnostically comparable to PRA-based screening, but cutoffs are assay-, unit-, and aldosterone-method specific. Never port a threshold from one platform to another without local validation.",
+      "keyPoints": [
+        "Mass vs activity — different assays",
+        "Most discordance in low-renin zone",
+        "Cutoffs are platform-specific"
+      ],
+      "reference": "Bottom line: \"Direct renin is not just a faster PRA. DRC measures renin mass/concentration, whereas PRA measures enzymatic activity (angiotensin I generation over time).\""
+    },
+    {
+      "id": "ht-031-n2",
+      "type": "note",
+      "subtopic": "Screening criteria",
+      "title": "How the 2025 Endocrine Society defines a positive primary aldosteronism screen",
+      "content": "The 2025 guideline accepts plasma renin concentration or activity for screening and recommends screening all people with hypertension. A positive screen in most settings requires all three elements:\n\n• Suppressed renin: PRA ≤1 ng/mL/h OR DRC ≤8.2 mU/L\n• Minimum aldosterone: ≥10 ng/dL by immunoassay OR ≥7.5 ng/dL by LC-MS/MS\n• Elevated ratio: aldosterone/PRA >20 OR aldosterone/DRC >70 pmol/L per mU/L when aldosterone is measured by immunoassay\n\nThe ARR is about 25% lower when aldosterone is measured by LC-MS/MS. Use local lab cut points where possible.",
+      "keyPoints": [
+        "Suppressed renin + aldosterone floor + elevated ratio",
+        "PRA and DRC on equal guideline footing",
+        "LC-MS/MS aldosterone lowers ratio threshold ~25%"
+      ],
+      "reference": "Guideline position: \"suppressed renin: PRA ≤1 ng/mL/h or DRC ≤8.2 mU/L, minimum aldosterone: ≥10 ng/dL by immunoassay or ≥7.5 ng/dL by LC-MS/MS, and elevated ratio: aldosterone/PRA >20 or aldosterone/DRC >70 pmol/L per mU/L when aldosterone is measured by immunoassay.\""
+    },
+    {
+      "id": "ht-031-n3",
+      "type": "note",
+      "subtopic": "Ratio pitfalls",
+      "title": "Why the aldosterone-to-renin ratio alone is insufficient",
+      "content": "The ratio is vulnerable to denominator artifacts: when renin is extremely low, even modest aldosterone can produce an apparently positive ratio. Best contemporary guidance requires suppressed renin + inappropriately high aldosterone + an elevated ratio — interpreted with potassium, posture, medications, kidney function, and assay type.\n\nThis applies to both ARR (aldosterone/PRA) and ADRR or concentration-based ARR (aldosterone/DRC). The Japanese 2022 guideline explicitly requires a minimum PAC floor alongside the ratio for this reason.",
+      "keyPoints": [
+        "Low renin inflates ratio artifactually",
+        "Need aldosterone floor + suppressed renin",
+        "Context: K+, meds, CKD, posture"
+      ],
+      "reference": "Bottom line: \"A second key point: the ratio alone is not enough. The best contemporary guidance requires suppressed renin + inappropriately high aldosterone + an elevated ratio, interpreted in the context of potassium, posture, medications, kidney function, and assay type.\""
+    },
+    {
+      "id": "ht-031-n4",
+      "type": "note",
+      "subtopic": "Aldosterone assay",
+      "title": "How aldosterone assay method changes ARR cutoff interpretation",
+      "content": "A 2024 prospective within-patient study comparing LC-MS/MS vs immunoassay aldosterone showed no clinically relevant difference in overall screening performance of the derived ARR, but the cutoff needed for 95% sensitivity differed materially: about 30 pmol/mU for immunoassay vs 21–22 pmol/mU for LC-MS/MS.\n\nThe 2025 Endocrine Society mirrors this: ARR indicative of PA is about 25% lower with LC-MS/MS aldosterone. Asking 'Is direct renin better than PRA?' is incomplete unless you also specify how aldosterone was measured.",
+      "keyPoints": [
+        "Same sensitivity needs different cutoffs by aldosterone method",
+        "LC-MS/MS → ~25% lower ARR threshold",
+        "Renin and aldosterone assays are a paired system"
+      ],
+      "reference": "Aldosterone assay matters: \"the cutoff required for 95% sensitivity differs materially by aldosterone assay: about 30 pmol/mU for immunoassay vs 21–22 pmol/mU for LC-MS/MS.\""
+    },
+    {
+      "id": "ht-031-n5",
+      "type": "note",
+      "subtopic": "Head-to-head accuracy",
+      "title": "How Tetti 2024 reconciles weak DRC–PRA correlation with similar screening performance",
+      "content": "In 1110 referred patients (Tetti et al. 2024): aldosterone by CLIA vs RIA correlated extremely well (R=0.945), but DRC vs PRA correlated much less strongly (R=0.422). Despite discordant renin numbers, screening performance was very close: AUC 0.928 for ADRR vs 0.943 for ARR, not significantly different.\n\nBest ADRR cutoff: 25 (ng/L)/(mIU/L) — sensitivity 91%, specificity 85%. Practical message: discordant numbers do not necessarily translate into worse screening performance if the cutoff is locally calibrated.",
+      "keyPoints": [
+        "DRC–PRA R=0.422 in low-renin era",
+        "ADRR AUC 0.928 vs ARR 0.943",
+        "Local calibration matters more than assay choice"
+      ],
+      "reference": "Diagnostic accuracy: \"Despite that, the actual screening performance was very close: AUC 0.928 for ADRR vs 0.943 for ARR, with no significant difference. The best ADRR cutoff was 25 (ng/L)/(mIU/L), giving 91% sensitivity and 85% specificity.\""
+    },
+    {
+      "id": "ht-031-n6",
+      "type": "note",
+      "subtopic": "Confirmatory testing",
+      "title": "Why DRC may detect renin responsiveness more consistently in confirmatory tests",
+      "content": "Nagasaka et al. 2025 found that during captopril, saline infusion, and furosemide-upright tests, renin responsiveness positivity was significantly higher for DRC than for PRA, while PRA–DRC correlation was weak in low-renin PA.\n\nThis does not prove DRC is universally superior for diagnosis, but suggests concentration-based assays may be more stable and readable in the low-renin confirmatory setting. DRC's main first-line advantages remain practical: automated CLIA/CLEIA, faster turnaround, simpler workflow.",
+      "keyPoints": [
+        "DRC more consistent in dynamic tests",
+        "Weak PRA–DRC correlation in low-renin PA",
+        "Operational + possible confirmatory sensitivity edge"
+      ],
+      "reference": "Where direct renin seems stronger: \"during captopril, saline infusion, and furosemide-upright tests, renin responsiveness positivity was significantly higher for DRC than for PRA.\""
+    },
+    {
+      "id": "ht-031-n7",
+      "type": "note",
+      "subtopic": "Fixed cutoffs",
+      "title": "Why fixed ARR cutoffs overcall some patients and miss others",
+      "content": "ARRplus (Fuld et al. 2026): women without PA had higher ARRs than men because of higher aldosterone and lower renin — increasing false positives. A sex-specific, renin-dependent model improved specificity to 71% in women and 82% in men, with 47–82% fewer false positives in validation.\n\nLeung et al. 2026 (big-data): AUC 0.84 with DRC vs 0.82 with PRA — similar ROC performance, but common high cutoffs had only 68% sensitivity for DRC-based ARR and 82% for PRA-based ARR for surgically relevant PA. Fixed thresholds can be too sensitive in some groups and not sensitive enough in others.",
+      "keyPoints": [
+        "Women: higher ARR without PA — sex matters",
+        "High conventional cutoffs miss surgical PA",
+        "One-size-fits-all ratios are biologically naive"
+      ],
+      "reference": "Important modern nuance: \"Women without PA had higher ARRs than men because they had higher aldosterone and lower renin concentrations, which increased false positives.\""
+    },
+    {
+      "id": "ht-031-n8",
+      "type": "note",
+      "subtopic": "Japanese guideline",
+      "title": "How the 2022 Japanese guideline illustrates parallel PRA- and ARC-based cutoffs",
+      "content": "The Japanese Endocrine Society 2022 guideline gives explicit paired thresholds and warns that ratio interpretation changes after assay modernization. With CLEIA-measured aldosterone, a positive screen is PAC/PRA ≥200 with PAC ≥60 pg/mL, OR if active renin concentration is used, PAC/ARC ≥40 with PAC ≥60 pg/mL — plus defined borderline zones for each.\n\nThe same patient can move above or below cutoff solely because the assay system changed. Conversion of active renin concentration to PRA is difficult; DRC and PRA are not numerically interchangeable.",
+      "keyPoints": [
+        "Parallel cutoffs: PRA ≥200 vs ARC ≥40 (with PAC floor)",
+        "Assay modernization shifts thresholds",
+        "No universal DRC-to-PRA conversion"
+      ],
+      "reference": "Japanese 2022 guideline: \"with CLEIA-measured aldosterone, a positive screen is PAC/PRA ≥200 with PAC ≥60 pg/mL, or if active renin concentration is used, PAC/ARC ≥40 with PAC ≥60 pg/mL.\""
+    },
+    {
+      "id": "ht-031-n9",
+      "type": "note",
+      "subtopic": "Meta-analyses",
+      "title": "Pooled diagnostic accuracy: ADRR and concentration-based ARR",
+      "content": "Liu et al. 2022 meta-analysis: concentration-based ARR had higher overall diagnostic accuracy than PRA-based ARR; for PAC/PRC, pooled sensitivity 0.82, specificity 0.94, SAUC 0.982.\n\nGao et al. 2022 meta-analysis on ADRR: pooled sensitivity 0.87, specificity 0.85, AUC 0.9333, positive LR 5.84, negative LR 0.16, diagnostic OR 39.82.\n\nSynthesis: DRC-based screening is usually similar to PRA-based ARR and in some analyses modestly better — but platform-specific threshold validation matters more than abstract choice of renin mass vs activity.",
+      "keyPoints": [
+        "Liu: PAC/PRC SAUC 0.982",
+        "Gao ADRR: sens 87%, spec 85%",
+        "Similar to slightly better for DRC — not overwhelming"
+      ],
+      "reference": "Diagnostic accuracy: \"for PAC/PRC, pooled sensitivity was 0.82, specificity 0.94, and SAUC 0.982\" and \"pooled sensitivity 0.87, specificity 0.85, AUC 0.9333.\""
+    },
+    {
+      "id": "ht-031-n10",
+      "type": "note",
+      "subtopic": "PRA strengths",
+      "title": "When PRA-based pathways still retain institutional value",
+      "content": "PRA's main strength is historical depth of validation — much classic PA literature and many institutional pathways were built around PRA-based ARR. The 2016 Endocrine Society guideline emerged from that tradition.\n\nPRA can still be preferable when local confirmatory protocols, AVS workflows, and outcome studies were validated using PRA, especially if DRC was introduced recently without robust local calibration. PRA's advantage today is mostly continuity of institutional evidence, not clear superiority in screening accuracy.",
+      "keyPoints": [
+        "Deeper historical validation base",
+        "Institutional AVS/confirmatory calibration",
+        "Not inherently more accurate in modern head-to-head data"
+      ],
+      "reference": "Where PRA still retains strengths: \"PRA's advantage today is mostly continuity of institutional evidence, not clear superiority in screening accuracy.\""
+    },
+    {
+      "id": "ht-031-q1",
+      "type": "mcq",
+      "subtopic": "Assay biology",
+      "question": "A hypertensive patient undergoes PA screening. DRC measures active renin protein mass; PRA measures:",
+      "options": [
+        "Aldosterone secretion rate over 24 hours",
+        "Enzymatic generation of angiotensin I per unit time",
+        "Renin gene transcription in juxtaglomerular cells",
+        "Mineralocorticoid receptor occupancy"
+      ],
+      "correctOption": 1,
+      "explanation": "PRA is a functional enzymatic activity assay (ng/mL/h of angiotensin I generated); DRC is renin mass/concentration — biologically distinct readouts.",
+      "reference": "What the two renin tests measure: \"PRA measures the functional enzymatic activity of renin, usually expressed as ng/mL/h of generated angiotensin I. DRC measures the mass/concentration of active renin protein.\""
+    },
+    {
+      "id": "ht-031-q2",
+      "type": "mcq",
+      "subtopic": "2025 guideline",
+      "question": "Per the 2025 Endocrine Society guideline, which combination defines a positive PA screen (immunoassay aldosterone)?",
+      "options": [
+        "Elevated ARR alone, regardless of absolute aldosterone",
+        "PRA ≤1 ng/mL/h, aldosterone ≥10 ng/dL, and aldosterone/PRA >20",
+        "DRC >8.2 mU/L with any aldosterone level",
+        "Aldosterone ≥7.5 ng/dL without renin measurement"
+      ],
+      "correctOption": 1,
+      "explanation": "Positive screen requires suppressed renin, minimum aldosterone floor, and elevated ratio — not ratio alone.",
+      "reference": "2025 Endocrine Society: \"suppressed renin: PRA ≤1 ng/mL/h or DRC ≤8.2 mU/L, minimum aldosterone: ≥10 ng/dL by immunoassay... and elevated ratio: aldosterone/PRA >20.\""
+    },
+    {
+      "id": "ht-031-q3",
+      "type": "mcq",
+      "subtopic": "Ratio pitfalls",
+      "question": "A patient has ARR 35 but aldosterone 6 ng/dL (immunoassay) and PRA 0.17 ng/mL/h. The most appropriate interpretation is:",
+      "options": [
+        "Definite primary aldosteronism — start confirmatory testing",
+        "Ratio is artifactually elevated by very low renin; aldosterone does not meet minimum floor — screen not positive",
+        "Negative screen — aldosterone too high",
+        "Order thyroid uptake scan before interpreting"
+      ],
+      "correctOption": 1,
+      "explanation": "Extremely low renin inflates ratio; 2025 guideline and Japanese guideline require minimum aldosterone alongside suppressed renin and elevated ratio.",
+      "reference": "Why ARR can be misleading: \"When renin is extremely low, even a modest aldosterone can produce an apparently positive ratio\" and \"requires a minimum PAC floor in addition to the ratio.\""
+    },
+    {
+      "id": "ht-031-q4",
+      "type": "mcq",
+      "subtopic": "Aldosterone assay",
+      "question": "When aldosterone is measured by LC-MS/MS instead of immunoassay, the ARR cutoff indicative of PA is approximately:",
+      "options": [
+        "25% higher than immunoassay-based thresholds",
+        "Unchanged across all platforms",
+        "25% lower than immunoassay-based thresholds",
+        "Doubled to maintain sensitivity"
+      ],
+      "correctOption": 2,
+      "explanation": "LC-MS/MS aldosterone requires lower ARR cutoffs (~21–22 vs ~30 pmol/mU for 95% sensitivity in the 2024 within-patient study; ~25% lower per 2025 Endocrine Society).",
+      "reference": "Aldosterone assay matters: \"the ARR indicative of PA is about 25% lower when aldosterone is measured by LC-MS/MS.\""
+    },
+    {
+      "id": "ht-031-q5",
+      "type": "mcq",
+      "subtopic": "Tetti 2024",
+      "question": "In Tetti et al. 2024 (n=1110), the best-performing ADRR cutoff and its sensitivity/specificity were:",
+      "options": [
+        "70 pmol/mIU — sensitivity 68%, specificity 82%",
+        "25 (ng/L)/(mIU/L) — sensitivity 91%, specificity 85%",
+        "20 ng/dL aldosterone alone — sensitivity 94%",
+        "PRA >1 ng/mL/h — sensitivity 91%"
+      ],
+      "correctOption": 1,
+      "explanation": "Best ADRR cutoff 25 (ng/L)/(mIU/L) with 91% sensitivity and 85% specificity; ADRR AUC 0.928 vs ARR 0.943.",
+      "reference": "Tetti et al. 2024: \"The best ADRR cutoff was 25 (ng/L)/(mIU/L), giving 91% sensitivity and 85% specificity.\""
+    },
+    {
+      "id": "ht-031-q6",
+      "type": "mcq",
+      "subtopic": "Japanese guideline",
+      "question": "Per the Japanese 2022 guideline (CLEIA aldosterone), a positive screen using active renin concentration requires:",
+      "options": [
+        "PAC/ARC ≥40 with PAC ≥60 pg/mL",
+        "PAC/PRA ≥200 with PAC ≥60 pg/mL only",
+        "Any positive ARC regardless of aldosterone",
+        "PAC/ARC ≥200 with no minimum aldosterone"
+      ],
+      "correctOption": 0,
+      "explanation": "Japanese guideline gives parallel thresholds: PAC/PRA ≥200 or PAC/ARC ≥40, both with PAC ≥60 pg/mL floor.",
+      "reference": "Japanese 2022 guideline: \"PAC/ARC ≥40 with PAC ≥60 pg/mL.\""
+    },
+    {
+      "id": "ht-031-q7",
+      "type": "mcq",
+      "subtopic": "Confirmatory tests",
+      "question": "During captopril, saline, and furosemide-upright confirmatory testing, Nagasaka et al. 2025 found:",
+      "options": [
+        "PRA detected renin responsiveness more consistently than DRC",
+        "DRC detected renin responsiveness more consistently than PRA",
+        "No difference between DRC and PRA in any test",
+        "Both assays were uninterpretable in low-renin PA"
+      ],
+      "correctOption": 1,
+      "explanation": "Renin responsiveness positivity was significantly higher for DRC than PRA during dynamic confirmatory tests.",
+      "reference": "Nagasaka et al. 2025: \"renin responsiveness positivity was significantly higher for DRC than for PRA.\""
+    },
+    {
+      "id": "ht-031-q8",
+      "type": "mcq",
+      "subtopic": "ARRplus",
+      "question": "The ARRplus study (Fuld et al. 2026) found that women without PA had higher ARRs than men primarily because:",
+      "options": [
+        "Women have higher PA prevalence at young ages",
+        "Women had higher aldosterone and lower renin concentrations",
+        "Women were screened with LC-MS/MS more often",
+        "PRA assays are invalid in women"
+      ],
+      "correctOption": 1,
+      "explanation": "Higher aldosterone and lower renin in women without PA inflated fixed-ratio false positives — sex-specific modeling improved specificity.",
+      "reference": "ARRplus: \"Women without PA had higher ARRs than men because they had higher aldosterone and lower renin concentrations.\""
+    },
+    {
+      "id": "ht-031-q9",
+      "type": "mcq",
+      "subtopic": "Leung 2026",
+      "question": "Leung et al. 2026 found that commonly used high ARR cutoffs for surgically relevant PA had sensitivity of approximately:",
+      "options": [
+        "95% for both DRC and PRA",
+        "68% for DRC-based ARR and 82% for PRA-based ARR",
+        "100% for DRC and 0% for PRA",
+        "Equal at 50% for both methods"
+      ],
+      "correctOption": 1,
+      "explanation": "Similar overall AUC (0.84 DRC vs 0.82 PRA) but conventional high cutoffs may miss surgically relevant disease.",
+      "reference": "Leung et al. 2026: \"common high cutoffs had only 68% sensitivity for DRC-based ARR and 82% for PRA-based ARR for a surgically relevant PA phenotype.\""
+    },
+    {
+      "id": "ht-031-q10",
+      "type": "mcq",
+      "subtopic": "Clinical practice",
+      "question": "A modern hypertension lab uses validated automated DRC with locally calibrated ADRR cutoffs. Regarding first-line PA screening, the evidence-based position is:",
+      "options": [
+        "PRA is inherently superior and DRC should only be a backup",
+        "DRC is acceptable and usually comparable to PRA; local assay-pair validation matters most",
+        "Neither renin method is useful — screen with CT only",
+        "Convert DRC results to PRA using a universal factor of 8.2"
+      ],
+      "correctOption": 1,
+      "explanation": "2025 Endocrine Society places PRA and DRC on equal footing; bigger issue is platform-specific calibration, not mass vs activity per se.",
+      "reference": "My synthesis: \"if your laboratory uses a modern validated DRC assay, there is no evidence-based reason to consider PRA inherently superior for first-line screening.\""
+    },
+    {
+      "id": "ht-031-tf1",
+      "type": "true_false",
+      "subtopic": "Assay interchangeability",
+      "statement": "DRC and PRA values can be directly converted using a universal factor across laboratories.",
+      "correctAnswer": false,
+      "explanation": "Japanese guideline and comparative studies state conversion is difficult; assays diverge most in low-renin range.",
+      "reference": "What the two renin tests measure: \"conversion of active renin concentration to PRA is difficult, reinforcing that DRC and PRA are not numerically interchangeable.\""
+    },
+    {
+      "id": "ht-031-tf2",
+      "type": "true_false",
+      "subtopic": "Guidelines",
+      "statement": "The 2025 Endocrine Society guideline accepts either plasma renin concentration or plasma renin activity for PA screening.",
+      "correctAnswer": true,
+      "explanation": "Modern guidelines place both renin methods on equal footing with assay-specific cutoffs.",
+      "reference": "Guideline position: \"The 2025 Endocrine Society guideline recommends PA screening with plasma aldosterone plus plasma renin concentration or activity.\""
+    },
+    {
+      "id": "ht-031-tf3",
+      "type": "true_false",
+      "subtopic": "Screening",
+      "statement": "An elevated aldosterone-to-renin ratio alone, without assessing absolute aldosterone and renin suppression, is sufficient for a positive PA screen.",
+      "correctAnswer": false,
+      "explanation": "Ratio-only interpretation is explicitly rejected by 2025 Endocrine Society and Japanese guidelines.",
+      "reference": "Why ARR can be misleading: \"the ratio is not enough; you want suppressed renin and inappropriately high aldosterone together.\""
+    },
+    {
+      "id": "ht-031-tf4",
+      "type": "true_false",
+      "subtopic": "Diagnostic accuracy",
+      "statement": "Tetti et al. 2024 found a statistically significant inferiority of ADRR compared with PRA-based ARR for PA screening.",
+      "correctAnswer": false,
+      "explanation": "AUC 0.928 vs 0.943 — not significantly different despite weak DRC–PRA correlation.",
+      "reference": "Tetti et al. 2024: \"AUC 0.928 for ADRR vs 0.943 for ARR, not significantly different.\""
+    },
+    {
+      "id": "ht-031-tf5",
+      "type": "true_false",
+      "subtopic": "2016 vs 2025",
+      "statement": "Compared with the 2016 Endocrine Society guideline, the 2025 update broadens screening to all hypertensive adults and formally accepts concentration-based renin assays.",
+      "correctAnswer": true,
+      "explanation": "Field moved from high-risk-group PRA-centric screening to broader screening with DRC acceptance.",
+      "reference": "Guideline position: \"recommends screening all people with hypertension\" and \"greater formal acceptance of concentration-based renin assays.\""
+    },
+    {
+      "id": "ht-031-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Screening strategy",
+      "assertion": "A laboratory with a validated automated DRC assay can use DRC-based ADRR as an acceptable first-line PA screening pathway.",
+      "reason": "Head-to-head and meta-analytic data show DRC-based ratios have diagnostic performance similar to or modestly better than PRA-based ARR when cutoffs are locally calibrated.",
+      "correctOption": 0,
+      "explanation": "Both assertion and reason are true; reason correctly explains the evidence base for DRC acceptance.",
+      "reference": "My synthesis: \"DRC-based screening has matured from a practical laboratory substitute into a fully acceptable endocrine diagnostic pathway for PA, with performance that is usually similar to PRA-based ARR and in some analyses modestly better.\""
+    },
+    {
+      "id": "ht-031-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Cutoff pitfalls",
+      "assertion": "Applying a high conventional ARR cutoff without local validation may miss surgically relevant primary aldosteronism.",
+      "reason": "Leung et al. 2026 showed that commonly used high thresholds achieved only 68% sensitivity for DRC-based ARR and 82% for PRA-based ARR for a surgically relevant PA phenotype.",
+      "correctOption": 0,
+      "explanation": "Both true — fixed high cutoffs trade sensitivity for specificity and may miss clinically important disease.",
+      "reference": "Leung et al. 2026: \"common high cutoffs had only 68% sensitivity for DRC-based ARR and 82% for PRA-based ARR for a surgically relevant PA phenotype.\""
+    }
+  ]
+}

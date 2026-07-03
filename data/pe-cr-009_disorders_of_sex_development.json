@@ -5,6 +5,16 @@
   "title": "Disorders of Sex Development",
   "section": "Pediatric Endo",
   "sourceFile": "pediatric_endo/clinical_rounds/009_disorders_of_sex_development",
+  "relatedChapters": [
+    {
+      "id": "cr-055",
+      "title": "Leydig Cell Hypoplasia (LCH): Two Published Cases of LHCGR Mutations in 46,XY DSD"
+    },
+    {
+      "id": "cr-056",
+      "title": "Clinical Evaluation of Gonadal Dysgenesis: Five-Case Resident Training Module"
+    }
+  ],
   "items": [
     {
       "id": "pe-cr-009-n1",
@@ -126,14 +136,118 @@
     {
       "id": "pe-cr-009-n10",
       "subtopic": "Assessment",
-      "title": "How Prader staging and EMS quantify genital ambiguity",
-      "content": "Prader staging grades virilization in 46,XX infants, while the external masculinization score (EMS) quantifies undervirilization in 46,XY DSD, with a typical male score of 12 and female score of 0.",
+      "title": "How Prader staging, EMS, and EGS quantify atypical genitalia in infants",
+      "content": "Prader staging grades virilization in 46,XX infants with androgen excess. For quantitative documentation of external genital anatomy in DSD — especially 46,XY undervirilization — two parallel 0-to-12 scoring systems exist:\n\n• External Masculinization Score (EMS) — Ahmed et al. (2000): grades degree of masculinization using male-oriented terminology (micropenis, hypospadias). Score 12 = typical fully masculinized male external genitalia; 0 = typical female phenotype.\n\n• External Genitalia Score (EGS) — van der Zwan et al. (2015): maps to the identical mathematical structure of EMS (0–12) but uses strictly descriptive, gender-neutral embryological anatomy (genital tubercle, labioscrotal fusion, urethral meatus on the tubercle). Score 0 = typical female genitalia; 12 = typical male genitalia.\n\nBoth tools document baseline anatomy, track change after hormonal stimulation (e.g. testosterone or DHT), and communicate findings quantitatively between endocrinologists, geneticists, and surgeons. EGS is preferred before definitive diagnosis or sex of rearing is assigned because EMS terminology embeds a male baseline.",
       "keyPoints": [
-        "Prader staging is for 46,XX virilization.",
-        "EMS grades undervirilization in 46,XY DSD.",
-        "Normal male EMS is 12 and female EMS is 0."
+        "Prader = 46,XX virilization grading.",
+        "EMS (Ahmed 2000) and EGS (van der Zwan 2015) both range 0–12.",
+        "EGS = same math, gender-neutral nomenclature."
       ],
-      "reference": "Prader staging grades virilization in 46,XX, while EMS grades undervirilization in 46,XY with male score 12 and female score 0.",
+      "reference": "EMS grades undervirilization in 46,XY DSD with male score 12 and female score 0; EGS maps to the same 0–12 structure using gender-neutral embryological anatomy.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n29",
+      "subtopic": "Assessment — EMS",
+      "title": "How to calculate the External Masculinization Score (EMS)",
+      "content": "EMS (Ahmed et al., 2000) quantifies masculinization in 46,XY ambiguous genitalia. Maximum score 12. Component scores:\n\nLabioscrotal fusion: complete normal male scrotum 3; partial fusion 1.5; no fusion (female phenotype) 0.\n\nPhallus size: absent/normal size 3; micropenis present 0.\n\nUrethral meatus: tip of phallus 3; glandular/coronal hypospadias 2; penile hypospadias 1; perineal/female configuration 0.\n\nRight gonad: palpable in scrotum 1.5; inguinal/abdominal non-palpable 0.\n\nLeft gonad: palpable in scrotum 1.5; inguinal/abdominal non-palpable 0.\n\nClinical utility: baseline documentation, tracking response to DHT or testosterone stimulation, and standardized communication between specialists. Limitation: terms like masculinization, micropenis, and hypospadias assume a male reference frame.",
+      "keyPoints": [
+        "Five domains — max 12 points.",
+        "Fusion 3 + phallus 3 + meatus 3 + gonads 3.",
+        "Useful for tracking post-stimulation change."
+      ],
+      "reference": "EMS ranges from 0 to 12, where 12 represents typical, fully masculinized male external genitalia, and lower scores indicate varying degrees of undervirilization.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n30",
+      "subtopic": "Assessment — EGS",
+      "title": "How to calculate the External Genitalia Score (EGS)",
+      "content": "EGS (van der Zwan et al., 2015) uses the same mathematical structure as EMS (0–12) with gender-neutral embryological descriptors:\n\nLabioscrotal fusion: complete fusion 3; partial fusion 1.5; no fusion 0.\n\nGenital tubercle size: normal length 3; reduced length 0.\n\nUrethral meatus location: tip of genital tubercle 3; proximal on tubercle 2; base of tubercle 1; perineal (typical female) 0.\n\nRight gonad: palpable in labioscrotal fold 1.5; non-palpable 0.\n\nLeft gonad: palpable in labioscrotal fold 1.5; non-palpable 0.\n\nScore 0 = typical female external genitalia; 12 = typical male. Applicable to any infant with DSD — 46,XX, 46,XY, or mosaic — without prematurely imposing male or female clinical paradigms. Serves the same diagnostic and longitudinal tracking purpose as EMS with standardized nomenclature.",
+      "keyPoints": [
+        "Identical point structure to EMS.",
+        "Genital tubercle — not micropenis.",
+        "Gender-neutral — any karyotype before sex of rearing."
+      ],
+      "reference": "The EGS maps exactly to the mathematical structure of the EMS (ranging from 0 to 12) but utilizes strictly descriptive, gender-neutral embryological anatomy.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n31",
+      "subtopic": "Assessment",
+      "title": "Why EGS was developed to address gender bias in EMS terminology",
+      "content": "EMS terminology — masculinization, micropenis, hypospadias — assumes a male anatomical baseline. Before definitive diagnosis, karyotype confirmation, or sex-of-rearing decisions, this language can prematurely frame the infant within a male clinical paradigm and create psychological and communication problems for families and multidisciplinary teams.\n\nEGS replaces gendered labels with embryological descriptors: genital tubercle (not penis/clitoris dichotomy in scoring), labioscrotal fold (not scrotum/labia), and urethral meatus position on the tubercle (not hypospadias grading). Because the numeric weights are identical, EMS and EGS scores are directly comparable for the same examination — allowing transition to EMS in research contexts while using EGS in early neutral documentation.\n\nPractical rule: use EGS (or neutral prose) at initial presentation of atypical genitalia; EMS remains valid for 46,XY undervirilization tracking once the diagnostic framework is established.",
+      "keyPoints": [
+        "EMS embeds male-reference terminology.",
+        "EGS = neutral embryology, same 0–12 math.",
+        "EGS preferred before sex of rearing assigned."
+      ],
+      "reference": "Using terms like masculinization, micropenis, or hypospadias assumes a male baseline, which is problematic before a definitive diagnosis or sex of rearing is assigned.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n32",
+      "subtopic": "Investigation thresholds",
+      "title": "When to investigate suspected DSD — EMS, EGS, and clinical triggers",
+      "content": "DSD clinical evaluation criteria (consensus guideline) define who needs investigation vs who can avoid unnecessary detailed workup:\n\nScore thresholds: EMS <11 or EGS <10.5 → consider investigation for suspected DSD.\n\nBoys — warrant investigation: isolated perineal hypospadias; any familial hypospadias; bilateral undescended testes; micropenis (stretched penile length <2.5 SD, with contemporary studies using <2 cm as a reasonable newborn cut-off, e.g. 1.8 cm is actionable).\n\nBoys — generally avoid unnecessary detailed investigation if isolated benign findings only: glandular hypospadias, coronal hypospadias, mid-shaft hypospadias (without other features), unilateral inguinal testis, retractile or acquired undescended testes.\n\nGirls — warrant investigation: isolated clitoromegaly; clitoral length >8 mm (length does not seem dependent on gestational age).\n\nLower threshold for investigation: family history of any familial hypospadias, consanguinity, stillbirths, multiple miscarriages, need for steroid replacement, unexplained deaths; associated systemic metabolic disorder; dysmorphic features (XY DSD is part of a complex multi-system condition in ~25% of affected cases).\n\nPurpose of explicit cut-offs: isolate infants who need evaluation while avoiding unnecessary investigation of boys with isolated benign findings.",
+      "keyPoints": [
+        "EMS <11 or EGS <10.5 → investigate.",
+        "Perineal hypospadias, bilateral cryptorchidism, micropenis, clitoromegaly → investigate.",
+        "Isolated glandular/mid-shaft hypospadias → avoid unnecessary workup."
+      ],
+      "reference": "An EMS below 11 and an EGS below 10.5 require consideration for investigation for suspected DSD.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n33",
+      "subtopic": "Investigation thresholds",
+      "title": "Why explicit DSD investigation thresholds prevent over-investigation",
+      "content": "Without defined cut-offs, every minor genital variant triggers karyotype, hormone panels, and imaging — burdening families and services. The guideline separates high-yield triggers (EMS <11, EGS <10.5, perineal hypospadias, bilateral undescended testes, micropenis <2 cm, clitoral length >8 mm, isolated clitoromegaly) from low-yield isolated findings (glandular or mid-shaft hypospadias alone, unilateral inguinal testis).\n\nFamily and systemic red flags (consanguinity, stillbirths, miscarriages, steroid replacement in family, metabolic disorder, dysmorphism) lower the threshold even when anatomy is mild — reflecting that ~25% of XY DSD occurs within complex multi-system conditions. Clinical reasoning: match investigation intensity to pre-test probability.",
+      "keyPoints": [
+        "Cut-offs reduce unnecessary testing of benign isolates.",
+        "Family/systemic flags lower threshold.",
+        "~25% XY DSD is multi-system — dysmorphism matters."
+      ],
+      "reference": "To isolate patients requiring evaluation, thereby avoiding unnecessary detailed investigations of boys with isolated benign findings like unilateral inguinal testis.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n34",
+      "subtopic": "Investigation thresholds",
+      "title": "How birthweight, dysmorphism, and family history modify the XY DSD workup",
+      "content": "XY DSD is part of a complex multi-system condition in approximately 25% of affected cases — so dysmorphic features on thorough examination lower the threshold for investigation even when genital anomalies are mild.\n\nBirthweight is clinically important: knowledge of birthweight in XY DSD is very helpful given the well-reported association between low birthweight, intra-uterine growth retardation (IUGR), and XY DSD. An infant who is small for gestational age with documented maternal severe IUGR should prompt fuller evaluation alongside genital findings.\n\nFamily history factors that lower the threshold for investigation (work up milder genital findings more aggressively): consanguinity; family history of genital surgery, hernias, fertility problems, or delayed puberty; stillbirths; multiple miscarriages; unexplained deaths in infancy; need for steroid replacement in a relative. Coexisting systemic metabolic disorder similarly lowers threshold — investigate borderline genital anomalies that might otherwise be observed.\n\nPractical meaning of \"lower the threshold\": initiate comprehensive DSD workup with milder or borderline genital findings when these modifiers are present; do not wait for severe or unambiguous anatomy alone.",
+      "keyPoints": [
+        "~25% XY DSD is multi-system — examine for dysmorphism.",
+        "Low birthweight/IUGR associates with XY DSD — record birthweight.",
+        "Consanguinity, stillbirths, steroid replacement in family → lower threshold."
+      ],
+      "reference": "Knowledge of birth-weight in XY DSD is very helpful given the well-reported association between low birthweight, intra-uterine growth retardation and XY DSD.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n35",
+      "subtopic": "Neonatal workup",
+      "title": "How to structure first-tier investigations for atypical genitalia in the newborn",
+      "content": "First-tier investigations for an infant with atypical genitalia should define sex chromosomes (PCR or FISH using Y and X-specific markers), delineate internal genitalia by pelvic ultrasound, and rapidly screen for the commonest life-threatening cause — 21-hydroxylase deficiency CAH.\n\nBiochemical first tier: plasma glucose, serum 17-OHP, and serial measurement of electrolytes. Prioritize exclusion of 21-OHD because it is the commonest cause of a life-threatening condition associated with atypical genitalia in the newborn.\n\nTiming pitfalls: serum 17-OHP is usually unreliable before 36 hours of age — a 12-hour draw can mislead. In salt-losing CAH, serum electrolytes usually do not become abnormal before day 4 of life — normal electrolytes at 48 hours provide false reassurance. 17-OHP may be falsely elevated in premature or sick neonates — interpret with caution, not knee-jerk diagnosis.\n\nIn specialist centres, PCR/FISH and serum 17-OHP results should be available within a maximum of two working days. Baseline or stimulated serum cortisol can be difficult to interpret in the newborn, especially in the premature infant.",
+      "keyPoints": [
+        "First tier: glucose, 17-OHP, serial electrolytes + karyotype + pelvic US.",
+        "17-OHP unreliable <36 h; electrolytes often normal until day 4+.",
+        "21-OHD = commonest life-threatening cause — prioritize."
+      ],
+      "reference": "First tier should include plasma glucose, serum 17OHP and serial measurement of electrolytes; serum 17OHP is usually unreliable before the age of 36 hours.",
+      "type": "note"
+    },
+    {
+      "id": "pe-cr-009-n36",
+      "subtopic": "Emergency CAH",
+      "title": "Why serum and urine must be stored before emergency steroid therapy in suspected CAH",
+      "content": "When immediate life-saving steroid hormone replacement is required for suspected CAH, further serum and urine samples of sufficient volume must be collected and stored before starting therapy — otherwise post-treatment samples cannot support accurate diagnosis.\n\nIf blood volume is limited before emergency steroids, allocate assays in strict priority order: (1) 17-OHP, (2) testosterone, (3) androstenedione, (4) renin activity, (5) aldosterone. Do not delay hydrocortisone for a complete panel when the infant is in extremis — but never start steroids without saving diagnostic material when clinically feasible.\n\nPelvic ultrasound delineates internal genitalia in bilateral impalpable gonads — it does not replace biochemical CAH screening or karyotype.",
+      "keyPoints": [
+        "Store serum + urine before first steroid dose.",
+        "Limited volume priority: 17-OHP → testosterone → androstenedione → renin → aldosterone.",
+        "US = internal genitalia; not a substitute for 17-OHP/electrolytes."
+      ],
+      "reference": "Further serum and urine samples should be collected and stored before starting therapy; order of priority: 17OHP, testosterone, androstenedione, renin activity, and aldosterone.",
       "type": "note"
     },
     {
@@ -205,13 +319,13 @@
       "id": "pe-cr-009-n16",
       "subtopic": "Clinical features",
       "title": "How micropenis is defined and what it implies",
-      "content": "Micropenis is defined as stretched penile length below minus 2.5 standard deviations for age, with a term newborn cutoff near 2.5 cm, and suggests impaired androgen synthesis/action or pituitary disease.",
+      "content": "Micropenis is defined statistically as stretched penile length below minus 2.5 standard deviations for age. Contemporary studies use less than 2 cm as a reasonable absolute cut-off in the newborn — e.g. 1.8 cm is clinically actionable and warrants investigation for suspected DSD per evaluation criteria. Older teaching often cites ~2.5 cm at term as approximate -2.5 SD. Micropenis suggests impaired androgen synthesis/action or pituitary disease and requires investigation even when hypospadias is absent.",
       "keyPoints": [
-        "Definition uses stretched penile length.",
-        "Term newborn cutoff is about 2.5 cm.",
-        "Etiologies include hypogonadism or GH deficiency."
+        "Statistical definition: <2.5 SD stretched penile length.",
+        "Newborn practical cut-off: <2 cm (e.g. 1.8 cm actionable).",
+        "Investigate for DSD — not a benign isolated finding."
       ],
-      "reference": "Micropenis is stretched penile length below -2.5 SD, about 2.5 cm in term newborns, and suggests androgen or pituitary disorders.",
+      "reference": "Micropenis is a stretched penile length of less than 2.5 SD from the mean; less than 2cm is a reasonable cut-off in a newborn.",
       "type": "note"
     },
     {
@@ -256,14 +370,14 @@
     {
       "id": "pe-cr-009-n20",
       "subtopic": "Clinical features",
-      "title": "Why cryptorchidism with hypospadias raises DSD risk",
-      "content": "Isolated cryptorchidism is usually idiopathic, but the combination with hypospadias increases the probability of DSD and suggests etiologies such as PAIS, androgen biosynthetic defects, mixed gonadal dysgenesis, or OT-DSD.",
+      "title": "Why cryptorchidism with hypospadias raises DSD and chromosomal anomaly risk",
+      "content": "Isolated cryptorchidism is usually idiopathic, but in boys with atypical genitalia the probability of an underlying chromosomal anomaly rises with anatomical complexity: approximately 3% with isolated cryptorchidism, 7% with isolated hypospadias, and 13% when cryptorchidism and hypospadias coexist. The combination significantly increases DSD likelihood and suggests etiologies such as PAIS, androgen biosynthetic defects, mixed gonadal dysgenesis, or ovotesticular DSD.\n\nOnce 46,XY karyotype is confirmed, comprehensive endocrine and genetic investigations still yield a definitive abnormality in at least a quarter of cases — underscoring that normal XY chromosomes do not exclude DSD and that thorough biochemical and genetic workup remains mandatory.",
       "keyPoints": [
-        "DSD is uncommon in isolated cryptorchidism.",
-        "Hypospadias increases the likelihood of DSD.",
-        "PAIS, biosynthetic defects, MGD, and OT-DSD are key causes."
+        "Chromosomal anomaly risk: isolated cryptorchidism ~3%, hypospadias ~7%, both ~13%.",
+        "Cryptorchidism + hypospadias = highest chromosomal risk among these patterns.",
+        "46,XY confirmed: endocrine/genetic diagnosis in ≥25% with full workup."
       ],
-      "reference": "Cryptorchidism plus hypospadias increases DSD likelihood, with causes including PAIS, androgen biosynthetic defects, MGD, and OT-DSD.",
+      "reference": "In boys with atypical genitalia, a chromosomal anomaly may be present in approximately 3% of those with isolated cryptorchidism, 7% of those with hypospadias and 13% of those with a combination of cryptorchidism and hypospadias.",
       "type": "note"
     },
     {
@@ -508,7 +622,7 @@
     {
       "id": "pe-cr-009-q10",
       "subtopic": "Assessment",
-      "question": "The external masculinization score for a typical male newborn is:",
+      "question": "The external masculinization score (EMS) for a typical male newborn is:",
       "options": [
         "12",
         "8",
@@ -516,7 +630,7 @@
         "0"
       ],
       "correctOption": 0,
-      "explanation": "EMS ranges from 0 in typical females to 12 in typical males.",
+      "explanation": "EMS (Ahmed et al., 2000) ranges from 0 (typical female phenotype) to 12 (fully masculinized male external genitalia).",
       "reference": "EMS score is 12 for a normal male external genitalia and 0 for a normal female.",
       "type": "mcq"
     },
@@ -761,6 +875,891 @@
       "type": "mcq"
     },
     {
+      "id": "pe-cr-009-q27",
+      "subtopic": "Assessment — EMS",
+      "question": "In the EMS, complete labioscrotal fusion (normal male scrotum) contributes how many points?",
+      "options": [
+        "3",
+        "1.5",
+        "0",
+        "6"
+      ],
+      "correctOption": 0,
+      "explanation": "Labioscrotal fusion: complete 3, partial 1.5, none 0 — one of five domains summing to max 12.",
+      "reference": "Labioscrotal Fusion: Complete (normal male scrotum) 3; Partial fusion 1.5; No fusion (female phenotype) 0.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q28",
+      "subtopic": "Assessment — EGS",
+      "question": "The External Genitalia Score (EGS) differs from EMS primarily because it:",
+      "options": [
+        "Uses a 0–20 scale instead of 0–12",
+        "Uses gender-neutral embryological descriptors with the same 0–12 point structure as EMS",
+        "Applies only to 46,XX infants",
+        "Replaces gonadal palpation with ultrasound scoring"
+      ],
+      "correctOption": 1,
+      "explanation": "EGS (van der Zwan 2015) maps identically to EMS mathematically but uses neutral terms (genital tubercle, labioscrotal fold) — applicable before sex of rearing is assigned.",
+      "reference": "The EGS maps exactly to the mathematical structure of the EMS (ranging from 0 to 12) but utilizes strictly descriptive, gender-neutral embryological anatomy.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q29",
+      "subtopic": "Assessment — EMS/EGS",
+      "question": "A 46,XY infant with perineal urethral opening, no labioscrotal fusion, micropenis, and bilateral non-palpable gonads would score 0 on which EMS/EGS domains?",
+      "options": [
+        "Labioscrotal fusion, phallus/tubercle size, and urethral meatus only",
+        "Labioscrotal fusion, phallus/tubercle size, urethral meatus, and both gonads",
+        "Gonads only",
+        "Urethral meatus only"
+      ],
+      "correctOption": 1,
+      "explanation": "No fusion 0 + micropenis/reduced tubercle 0 + perineal meatus 0 + non-palpable gonads 0 each = 0 on all five domains (total EMS/EGS 0).",
+      "reference": "No fusion 0; micropenis/reduced genital tubercle 0; perineal meatus 0; non-palpable gonads 0.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q30",
+      "subtopic": "Assessment — EMS",
+      "question": "A newborn has glandular/coronal hypospadias on EMS assessment. The urethral meatus domain score is:",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctOption": 1,
+      "explanation": "EMS urethral meatus: tip 3, glandular/coronal 2, penile 1, perineal/female 0.",
+      "reference": "Urethral Meatus Location: Glandular/Coronal hypospadias 2.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q31",
+      "subtopic": "Assessment — EMS",
+      "question": "On EMS, penile hypospadias (meatus on penile shaft) scores:",
+      "options": [
+        "3 points",
+        "2 points",
+        "1 point",
+        "0 points"
+      ],
+      "correctOption": 2,
+      "explanation": "Penile hypospadias = 1 point; glandular/coronal = 2; tip = 3; perineal = 0.",
+      "reference": "Urethral Meatus Location: Penile hypospadias 1.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q32",
+      "subtopic": "Assessment — EMS/EGS",
+      "question": "Partial labioscrotal fusion scores how many points on both EMS and EGS?",
+      "options": [
+        "3",
+        "1.5",
+        "1",
+        "0"
+      ],
+      "correctOption": 1,
+      "explanation": "Partial fusion = 1.5 on both systems; complete = 3; none = 0.",
+      "reference": "Labioscrotal Fusion: Partial fusion 1.5.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q33",
+      "subtopic": "Assessment — EMS",
+      "question": "A 46,XY infant has complete labioscrotal fusion, normal phallus size, urethral meatus at the tip, and one palpable gonad in the scrotum with a non-palpable contralateral gonad. The EMS total is:",
+      "options": [
+        "12",
+        "10.5",
+        "9",
+        "7.5"
+      ],
+      "correctOption": 1,
+      "explanation": "Fusion 3 + phallus 3 + meatus 3 + one scrotal gonad 1.5 + one non-palpable 0 = 10.5.",
+      "reference": "EMS component scores: fusion 3, phallus 3, meatus 3, palpable scrotal gonad 1.5 each.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q34",
+      "subtopic": "Assessment — EMS",
+      "question": "A 46,XY infant has partial labioscrotal fusion, micropenis, penile hypospadias, and bilateral non-palpable gonads. The EMS total score is:",
+      "options": [
+        "2.5",
+        "1.5",
+        "4",
+        "0"
+      ],
+      "correctOption": 0,
+      "explanation": "Partial fusion 1.5 + micropenis 0 + penile meatus 1 + gonads 0 + 0 = 2.5.",
+      "reference": "Partial fusion 1.5; micropenis 0; penile hypospadias 1; non-palpable gonads 0.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q35",
+      "subtopic": "Assessment — EMS",
+      "question": "A 46,XY infant has complete scrotal fusion, normal phallus, coronal hypospadias, and both gonads palpable in the scrotum. The EMS total is:",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "8.5"
+      ],
+      "correctOption": 0,
+      "explanation": "Fusion 3 + phallus 3 + glandular/coronal meatus 2 + both scrotal gonads 3 = 11.",
+      "reference": "Complete fusion 3; normal phallus 3; glandular/coronal meatus 2; scrotal gonads 1.5 each.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q36",
+      "subtopic": "Assessment — EGS",
+      "question": "On EGS, a urethral opening at the base of the genital tubercle scores:",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "0"
+      ],
+      "correctOption": 2,
+      "explanation": "EGS meatus: tip 3, proximal on tubercle 2, base of tubercle 1, perineal 0 — parallels EMS penile/base category.",
+      "reference": "Urethral Meatus Location: Base of the genital tubercle 1.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q37",
+      "subtopic": "Assessment — EGS",
+      "question": "The EGS replaces the EMS phallus-size domain with assessment of:",
+      "options": [
+        "Stretched penile length percentile only",
+        "Genital tubercle length (normal vs reduced)",
+        "Clitoral index by Prader grade",
+        "Anogenital distance alone"
+      ],
+      "correctOption": 1,
+      "explanation": "EGS uses genital tubercle length — normal 3, reduced 0 — avoiding the term micropenis.",
+      "reference": "Genital Tubercle Size: Normal length 3; Reduced length 0.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q38",
+      "subtopic": "Assessment",
+      "question": "A newborn with atypical genitalia is first seen before karyotype results are available. The most appropriate quantitative scoring system is:",
+      "options": [
+        "EMS, because it is the older validated standard",
+        "EGS, because it uses gender-neutral embryological descriptors",
+        "Prader staging alone",
+        "No scoring until sex of rearing is assigned"
+      ],
+      "correctOption": 1,
+      "explanation": "EGS (van der Zwan 2015) avoids male-baseline terminology before diagnosis and sex-of-rearing decisions; same 0–12 math as EMS.",
+      "reference": "EGS allows scoring any infant with DSD without prematurely imposing male or female clinical paradigms.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q39",
+      "subtopic": "Assessment",
+      "question": "The primary clinical utility of serial EMS or EGS measurement after short-course testosterone or DHT stimulation is to:",
+      "options": [
+        "Replace the need for karyotype",
+        "Document quantitatively whether external genital anatomy responds to androgen",
+        "Determine AMH production",
+        "Diagnose CAH by cortisol change"
+      ],
+      "correctOption": 1,
+      "explanation": "Both scores track anatomical change post-stimulation — baseline vs follow-up comparison for androgen responsiveness.",
+      "reference": "EMS is useful for documenting baseline anatomy and tracking changes post-hormonal stimulation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q40",
+      "subtopic": "Assessment",
+      "question": "Prader staging is preferred over EMS/EGS for quantifying external genitalia in which population?",
+      "options": [
+        "46,XY infants with undervirilization",
+        "46,XX infants with virilization from androgen excess",
+        "Adult males with hypospadias",
+        "All DSD infants regardless of karyotype"
+      ],
+      "correctOption": 1,
+      "explanation": "Prader grades virilization in 46,XX DSD; EMS/EGS quantify undervirilization or neutral anatomy scoring in atypical genitalia workup.",
+      "reference": "Prader staging grades virilization in 46,XX infants.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q41",
+      "subtopic": "Assessment — EMS/EGS",
+      "question": "A typical female external genital phenotype scores how many points on EMS or EGS?",
+      "options": [
+        "12",
+        "6",
+        "3",
+        "0"
+      ],
+      "correctOption": 3,
+      "explanation": "Score 0 = no fusion, reduced/absent tubercle relative to male norm, perineal meatus, non-palpable gonads — typical female configuration.",
+      "reference": "A score of 0 represents typical female genitalia.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q42",
+      "subtopic": "Neonatal evaluation",
+      "question": "What is the approximate probability of identifying a chromosomal anomaly in a boy presenting solely with isolated cryptorchidism?",
+      "options": [
+        "1%",
+        "3%",
+        "7%",
+        "13%"
+      ],
+      "correctOption": 1,
+      "explanation": "Isolated cryptorchidism in boys with atypical genitalia carries approximately a 3% risk of underlying chromosomal anomaly — lower than isolated hypospadias (7%) or the combination (13%).",
+      "reference": "A chromosomal anomaly may be present in approximately 3% of those with isolated cryptorchidism.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q43",
+      "subtopic": "Neonatal evaluation",
+      "question": "Among boys with atypical genitalia, which physical finding carries the highest approximate risk (~13%) for an underlying chromosomal anomaly?",
+      "options": [
+        "Isolated hypospadias",
+        "Isolated cryptorchidism",
+        "A combination of cryptorchidism and hypospadias",
+        "Bilateral palpable gonads with micropenis"
+      ],
+      "correctOption": 2,
+      "explanation": "Cryptorchidism plus hypospadias together carry ~13% chromosomal anomaly risk vs 3% (isolated cryptorchidism) and 7% (isolated hypospadias).",
+      "reference": "13% of those with a combination of cryptorchidism and hypospadias.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q44",
+      "subtopic": "Neonatal evaluation",
+      "question": "In a boy with atypical genitalia and confirmed 46,XY karyotype, comprehensive investigations are expected to reveal a definitive endocrine or genetic abnormality in at least what proportion of cases?",
+      "options": [
+        "10% (one-tenth)",
+        "25% (a quarter)",
+        "50% (half)",
+        "75% (three-quarters)"
+      ],
+      "correctOption": 1,
+      "explanation": "Even with confirmed 46,XY, full biochemical and genetic workup finds a specific endocrine or genetic diagnosis in at least 25% — karyotype alone does not exclude DSD.",
+      "reference": "In boys with 46,XY, comprehensive investigations will reveal an endocrine or genetic abnormality in at least a quarter of cases.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q45",
+      "subtopic": "Neonatal evaluation",
+      "question": "A male infant has isolated hypospadias with both gonads palpable in the scrotum. What is the approximate likelihood of an underlying chromosomal anomaly?",
+      "options": [
+        "1%",
+        "3%",
+        "7%",
+        "13%"
+      ],
+      "correctOption": 2,
+      "explanation": "Isolated hypospadias carries approximately 7% chromosomal anomaly risk — higher than isolated cryptorchidism (3%) but lower than cryptorchidism plus hypospadias (13%).",
+      "reference": "A chromosomal anomaly is present in approximately 7% of those with hypospadias.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q46",
+      "subtopic": "Investigation thresholds",
+      "question": "According to DSD clinical evaluation criteria, an External Masculinization Score (EMS) below what threshold indicates that an infant should be considered for investigation for suspected DSD?",
+      "options": [
+        "Less than 10.5",
+        "Less than 11",
+        "Less than 11.5",
+        "Less than 12"
+      ],
+      "correctOption": 1,
+      "explanation": "EMS <11 triggers consideration for suspected DSD investigation; 12 is typical male external genitalia.",
+      "reference": "An EMS below 11 requires consideration for investigation for suspected DSD.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q47",
+      "subtopic": "Investigation thresholds",
+      "question": "An External Genitalia Score (EGS) below which value requires further clinical evaluation for suspected DSD?",
+      "options": [
+        "Less than 10.0",
+        "Less than 10.5",
+        "Less than 11.0",
+        "Less than 11.5"
+      ],
+      "correctOption": 1,
+      "explanation": "EGS <10.5 is the investigation threshold — parallel to EMS <11 on the same 0–12 scale.",
+      "reference": "An EGS below 10.5 requires further clinical evaluation for suspected DSD.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q48",
+      "subtopic": "Investigation thresholds",
+      "question": "Which specific type of isolated hypospadias is explicitly listed as requiring further investigation for suspected DSD?",
+      "options": [
+        "Glandular hypospadias",
+        "Coronal hypospadias",
+        "Mid-shaft hypospadias",
+        "Perineal hypospadias"
+      ],
+      "correctOption": 3,
+      "explanation": "Isolated perineal hypospadias warrants investigation; isolated glandular, coronal, and mid-shaft forms alone generally do not.",
+      "reference": "Investigation is warranted for isolated perineal hypospadias.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q49",
+      "subtopic": "Investigation thresholds",
+      "question": "Investigation for suspected DSD is warranted for which of the following familial presentations?",
+      "options": [
+        "Only familial perineal hypospadias",
+        "Any form of familial hypospadias",
+        "Familial unilateral inguinal testis",
+        "Familial glandular hypospadias only"
+      ],
+      "correctOption": 1,
+      "explanation": "Any familial hypospadias lowers the threshold and warrants investigation — not limited to perineal or glandular forms.",
+      "reference": "Any form of familial hypospadias warrants investigation for suspected DSD.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q50",
+      "subtopic": "Investigation thresholds",
+      "question": "In newborn girls, a clitoral length greater than what measurement requires further clinical evaluation?",
+      "options": [
+        "5 mm",
+        "6 mm",
+        "8 mm",
+        "10 mm"
+      ],
+      "correctOption": 2,
+      "explanation": "Clitoral length >8 mm triggers evaluation; clitoral length does not seem dependent on gestational age.",
+      "reference": "A clitoral length greater than 8mm requires further clinical evaluation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q51",
+      "subtopic": "Investigation thresholds",
+      "question": "What is the statistical definition of micropenis provided in DSD evaluation criteria?",
+      "options": [
+        "Stretched penile length less than 2.0 SD from the mean",
+        "Stretched penile length less than 2.5 SD from the mean",
+        "Stretched penile length less than 3.0 SD from the mean",
+        "Stretched penile length less than 1.5 SD from the mean"
+      ],
+      "correctOption": 1,
+      "explanation": "Micropenis = stretched penile length <2.5 SD; contemporary absolute newborn cut-off often <2 cm.",
+      "reference": "Micropenis is a stretched penile length of less than 2.5 SD from the mean.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q52",
+      "subtopic": "Investigation thresholds",
+      "question": "Based on contemporary studies cited in DSD evaluation criteria, what absolute measurement is a reasonable cut-off for micropenis in a newborn?",
+      "options": [
+        "Less than 1.5 cm",
+        "Less than 2 cm",
+        "Less than 2.5 cm",
+        "Less than 3 cm"
+      ],
+      "correctOption": 1,
+      "explanation": "<2 cm is the practical newborn cut-off — e.g. 1.8 cm stretched length is clinically actionable.",
+      "reference": "Less than 2cm is a reasonable cut-off in a newborn.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q53",
+      "subtopic": "Investigation thresholds",
+      "question": "In approximately what percentage of affected cases is XY DSD part of a complex multi-system condition?",
+      "options": [
+        "10%",
+        "15%",
+        "25%",
+        "40%"
+      ],
+      "correctOption": 2,
+      "explanation": "~25% of XY DSD occurs within complex multi-system disorders — dysmorphic features lower investigation threshold.",
+      "reference": "XY DSD is part of a complex multi-system condition in approximately 25% of affected cases.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q54",
+      "subtopic": "Investigation thresholds",
+      "question": "Which isolated testicular presentation in boys warrants investigation for suspected DSD?",
+      "options": [
+        "Unilateral inguinal testis",
+        "Bilateral undescended testes",
+        "Retractile testes",
+        "Acquired undescended testes"
+      ],
+      "correctOption": 1,
+      "explanation": "Bilateral undescended testes warrants investigation; unilateral inguinal testis alone generally does not.",
+      "reference": "Bilateral undescended testes warrants investigation for suspected DSD.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q55",
+      "subtopic": "Investigation thresholds",
+      "question": "Which isolated finding in a female newborn is explicitly stated to require further investigation?",
+      "options": [
+        "Labial fusion",
+        "Prominent labia minora",
+        "Isolated clitoromegaly",
+        "Clitoral length of 7 mm"
+      ],
+      "correctOption": 2,
+      "explanation": "Isolated clitoromegaly requires investigation; clitoral length >8 mm is the quantitative trigger (7 mm alone does not meet threshold).",
+      "reference": "Isolated clitoromegaly in a female newborn requires further investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q56",
+      "subtopic": "Investigation thresholds",
+      "question": "Which of the following is NOT explicitly mentioned as a family history factor that lowers the threshold for DSD investigation?",
+      "options": [
+        "Stillbirths",
+        "Multiple miscarriages",
+        "Early-onset diabetes",
+        "Need for steroid replacement"
+      ],
+      "correctOption": 2,
+      "explanation": "Stillbirths, miscarriages, consanguinity, unexplained deaths, and need for steroid replacement lower threshold — early-onset diabetes is not listed.",
+      "reference": "Family history factors include stillbirths, multiple miscarriages, and need for steroid replacement.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q57",
+      "subtopic": "Investigation thresholds",
+      "question": "The presence of which of the following would lower the clinical threshold for investigating suspected DSD?",
+      "options": [
+        "Isolated glandular hypospadias",
+        "Unilateral inguinal testis",
+        "A systemic metabolic disorder",
+        "A clitoral length of 7 mm"
+      ],
+      "correctOption": 2,
+      "explanation": "Systemic metabolic disorder associated with ambiguous genitalia lowers threshold; isolated glandular hypospadias and unilateral inguinal testis do not.",
+      "reference": "A systemic metabolic disorder lowers the clinical threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q58",
+      "subtopic": "Clinical reasoning",
+      "question": "Why does the gestational age of a newborn girl not heavily alter the diagnostic threshold for clitoromegaly?",
+      "options": [
+        "Because premature infants lack androgen receptors",
+        "Because clitoral length does not seem to be dependent on gestation",
+        "Because gestational age only impacts the External Genitalia Score (EGS)",
+        "Because DSDs do not manifest until term gestation is reached"
+      ],
+      "correctOption": 1,
+      "explanation": "The >8 mm clitoral threshold applies without gestational-age adjustment — clitoral length is not gestation-dependent per criteria.",
+      "reference": "The length of the clitoris does not seem to be dependent on gestation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q59",
+      "subtopic": "Clinical reasoning",
+      "question": "How should a clinician manage a newborn boy with isolated glandular hypospadias and no other abnormal features or concerning family history?",
+      "options": [
+        "Initiate a comprehensive genetic and endocrine DSD workup",
+        "Avoid unnecessary detailed investigations",
+        "Measure stretched penile length to rule in micropenis regardless of appearance",
+        "Lower the threshold for metabolic screening"
+      ],
+      "correctOption": 1,
+      "explanation": "Isolated glandular hypospadias without red flags does not meet suspected DSD investigation criteria — avoid unnecessary workup.",
+      "reference": "Avoid unnecessary detailed investigations in boys with isolated benign findings such as glandular hypospadias.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q60",
+      "subtopic": "Clinical reasoning",
+      "question": "Why does the guideline specify clinical cut-offs such as EMS <11, EGS <10.5, and isolated perineal hypospadias?",
+      "options": [
+        "To mandate surgical intervention in all identified infants",
+        "To define the exact parameters of complex multi-system conditions",
+        "To identify infants requiring evaluation while avoiding unnecessary investigation of boys with isolated benign findings",
+        "To establish the 2.5 SD threshold for normal genital development across all sexes"
+      ],
+      "correctOption": 2,
+      "explanation": "Explicit triggers balance sensitivity for true DSD against over-investigation of low-risk isolated variants (e.g. unilateral inguinal testis).",
+      "reference": "To isolate patients requiring evaluation, thereby avoiding unnecessary detailed investigations of boys with isolated benign findings.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q61",
+      "subtopic": "Clinical reasoning",
+      "question": "How does documented family history of consanguinity or unexplained deaths influence the approach to an infant with mild atypical genitalia?",
+      "options": [
+        "It automatically confirms a diagnosis of XY DSD",
+        "It lowers the clinical threshold required to initiate further investigation",
+        "It invalidates the use of the External Masculinization Score (EMS)",
+        "It requires immediate classification as a systemic metabolic disorder"
+      ],
+      "correctOption": 1,
+      "explanation": "Consanguinity, stillbirths, miscarriages, and unexplained deaths lower threshold — they do not confirm diagnosis alone.",
+      "reference": "Family history of consanguinity or unexplained deaths lowers the clinical threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q62",
+      "subtopic": "Clinical reasoning",
+      "question": "Why is a stretched penile length of 1.8 cm in a newborn considered clinically actionable per DSD evaluation criteria?",
+      "options": [
+        "Because it falls below the 2.5 SD / 2 cm reasonable cut-off for micropenis, which requires investigation",
+        "Because it indicates a systemic metabolic disorder",
+        "Because it automatically results in an EMS of less than 11",
+        "Because it is indicative of a complex multi-system condition in 25% of cases"
+      ],
+      "correctOption": 0,
+      "explanation": "1.8 cm <2 cm newborn cut-off → micropenis → investigate; does not require EMS calculation to act.",
+      "reference": "Less than 2cm is a reasonable cut-off; micropenis requires investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q63",
+      "subtopic": "Clinical reasoning",
+      "question": "How should a physician proceed if a newborn boy has isolated mid-shaft hypospadias without other abnormal features?",
+      "options": [
+        "Classify as suspected DSD and begin investigations",
+        "Avoid unnecessary detailed investigations",
+        "Screen the family for a history of genital surgery",
+        "Calculate phallus length SD to ensure it is greater than 2.5 SD"
+      ],
+      "correctOption": 1,
+      "explanation": "Isolated mid-shaft hypospadias alone does not meet criteria for suspected DSD evaluation — perineal hypospadias differs.",
+      "reference": "Avoid unnecessary detailed investigations for isolated mid-shaft hypospadias without other features.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q64",
+      "subtopic": "Clinical reasoning",
+      "question": "Why might dysmorphic features in an infant with ambiguous genitalia change the management plan?",
+      "options": [
+        "Because dysmorphic features prove familial hypospadias",
+        "Because they lower the threshold for investigation, likely reflecting that ~25% of XY DSD is part of a complex multi-system condition",
+        "Because dysmorphic features indicate an EGS above 10.5",
+        "Because they redefine the statistical parameters of micropenis"
+      ],
+      "correctOption": 1,
+      "explanation": "Dysmorphism suggests syndromic/multi-system disease — lower threshold to investigate even with mild genital findings.",
+      "reference": "XY DSD is part of a complex multi-system condition in approximately 25% of affected cases.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q65",
+      "subtopic": "Clinical reasoning",
+      "question": "An infant has an External Genitalia Score (EGS) of 10.0. How should the clinical team respond based on DSD evaluation criteria?",
+      "options": [
+        "Discharge — score is within normal limits",
+        "Consider investigation for suspected DSD because the score is less than 10.5",
+        "Investigate only if there is a family history of hernias",
+        "Bypass investigation and proceed to steroid replacement"
+      ],
+      "correctOption": 1,
+      "explanation": "EGS 10.0 <10.5 threshold → consider suspected DSD workup regardless of other features until evaluated.",
+      "reference": "An EGS below 10.5 requires further clinical evaluation for suspected DSD.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q66",
+      "subtopic": "High-order reasoning",
+      "question": "A cohort of 60 infants has definitive XY DSD. Based on epidemiological data (~25% part of complex multi-system conditions), how many are statistically expected to have multi-system involvement?",
+      "options": [
+        "10",
+        "15",
+        "25",
+        "40"
+      ],
+      "correctOption": 1,
+      "explanation": "25% of 60 = 15 infants expected to have XY DSD as a component of a broader complex multi-system condition.",
+      "reference": "XY DSD is part of a complex multi-system condition in approximately 25% of affected cases.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q67",
+      "subtopic": "High-order reasoning",
+      "question": "A newborn boy has mildly atypical genitalia that might otherwise be observed. Family history reveals first-cousin parents and an uncle who required genital surgery in childhood. How should management change?",
+      "options": [
+        "Raise the diagnostic threshold — investigate only if severe metabolic acidosis develops",
+        "No change — only the infant's physical examination dictates investigation",
+        "Lower the threshold for investigation and pursue detailed DSD workup despite mild genital findings",
+        "Confirm isolated intra-uterine growth retardation without DSD testing"
+      ],
+      "correctOption": 2,
+      "explanation": "Consanguinity and family history of genital surgery lower the threshold — work up mild findings aggressively.",
+      "reference": "Consanguinity and a family history of genital surgery lower the threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q68",
+      "subtopic": "High-order reasoning",
+      "question": "Why should a thorough physical examination for dysmorphic features be performed in an infant with XY DSD?",
+      "options": [
+        "Dysmorphic features are the primary cause of isolated micropenis",
+        "Dysmorphic features suggest coexisting multi-system disease and lower the threshold for investigating suspected DSD",
+        "Dysmorphic features are universally present in low-birthweight infants",
+        "Absence of dysmorphic features guarantees isolated DSD requiring no endocrine workup"
+      ],
+      "correctOption": 1,
+      "explanation": "~25% of XY DSD is syndromic/multi-system — dysmorphism lowers investigation threshold even with mild genital anomalies.",
+      "reference": "Dysmorphic features lower the threshold for investigation; 25% of XY DSD is part of a complex multi-system condition.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q69",
+      "subtopic": "High-order reasoning",
+      "question": "A newborn with XY DSD is small for gestational age; the maternal chart documents severe intra-uterine growth retardation (IUGR). How does the guideline characterize this relationship?",
+      "options": [
+        "Rare coincidence — fetal growth does not influence sexual differentiation",
+        "Inversely related — XY DSD associates with fetal macrosomia",
+        "Well-reported association — birthweight knowledge is highly helpful in XY DSD evaluation",
+        "Diagnostic criterion that alone confirms systemic metabolic disorder"
+      ],
+      "correctOption": 2,
+      "explanation": "Low birthweight and IUGR are well-reported associations with XY DSD — record and interpret birthweight in the workup.",
+      "reference": "Knowledge of birth-weight in XY DSD is very helpful given the well-reported association between low birthweight, intra-uterine growth retardation and XY DSD.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q70",
+      "subtopic": "High-order reasoning",
+      "question": "Which combination of familial traits provides the strongest evidence-based rationale for lowering the investigation threshold in suspected XY DSD?",
+      "options": [
+        "Sibling with asthma, parent with hypertension, grandparent with type 2 diabetes",
+        "Parents of different ethnicities, twin births, grandfather with prostate cancer",
+        "Multiple miscarriages, unexplained infant deaths, and a cousin requiring steroid replacement",
+        "Family history of macrosomia, advanced maternal age, sibling with fractured femur"
+      ],
+      "correctOption": 2,
+      "explanation": "Miscarriages, unexplained deaths, and need for steroid replacement are explicit familial red flags in DSD evaluation criteria.",
+      "reference": "Family history of multiple miscarriages, unexplained deaths, and need for steroid replacement lowers the threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q71",
+      "subtopic": "High-order reasoning",
+      "question": "A newborn with atypical genitalia also has a coexisting systemic metabolic disorder. Practically, \"lower the threshold for investigation\" means the physician should:",
+      "options": [
+        "Require more severe genital abnormalities before initiating comprehensive DSD workup",
+        "Be more willing to initiate comprehensive DSD workup even if genital anomalies are mild or borderline",
+        "Delay endocrine investigation until puberty",
+        "Proceed directly to genital surgery without laboratory results"
+      ],
+      "correctOption": 1,
+      "explanation": "Lowering threshold = act on milder genital findings when metabolic or familial modifiers increase pre-test probability of DSD.",
+      "reference": "A systemic metabolic disorder lowers the clinical threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q72",
+      "subtopic": "High-order reasoning",
+      "question": "The mother reports a brother with fertility problems and another with delayed puberty. Why are these details relevant to an infant with ambiguous genitalia?",
+      "options": [
+        "They prove isolated XY DSD without multi-system involvement",
+        "They are familial red flags that lower the clinical threshold for DSD investigation",
+        "They indicate the infant's birthweight will fall below the 5th percentile",
+        "They require immediate steroid replacement therapy for the newborn"
+      ],
+      "correctOption": 1,
+      "explanation": "Fertility problems and delayed puberty in relatives are listed family-history modifiers that lower investigation threshold.",
+      "reference": "Family history of fertility problems and delayed puberty lowers the threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q73",
+      "subtopic": "High-order reasoning",
+      "question": "An NICU team is deciding whether to initiate costly DSD workup for an infant with atypical genitalia. Which historical fact alone would justify lowering the investigation threshold per guideline?",
+      "options": [
+        "Delivery by Cesarean section",
+        "Known family history of stillbirths",
+        "Birthweight above the 90th percentile",
+        "Maternal gestational diabetes"
+      ],
+      "correctOption": 1,
+      "explanation": "Family history of stillbirths is an explicit modifier lowering DSD investigation threshold — not isolated Cesarean or gestational diabetes.",
+      "reference": "A family history of stillbirths lowers the threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q74",
+      "subtopic": "High-order reasoning",
+      "question": "Why is a family history of a relative requiring steroid replacement a critical trigger for early DSD investigation?",
+      "options": [
+        "Because steroid replacement is standard treatment for IUGR",
+        "Because it is grouped with severe familial red flags suggesting genetic or metabolic etiology, lowering the investigation threshold",
+        "Because it implies the newborn will definitely require immediate hernia surgery",
+        "Because it occurs in exactly 25% of XY DSD cases"
+      ],
+      "correctOption": 1,
+      "explanation": "Steroid replacement need in a relative sits alongside consanguinity, unexplained deaths, and genital abnormalities as threshold-lowering family history.",
+      "reference": "Need for steroid replacement in the family lowers the threshold for investigation.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q75",
+      "subtopic": "High-order reasoning",
+      "question": "A researcher designs a neonatal DSD screening protocol. Why should birthweight data collection be strongly emphasized?",
+      "options": [
+        "High birthweight completely rules out complex multi-system conditions",
+        "Birthweight dictates the precise surgical technique for genital correction",
+        "There is a well-reported association between low birthweight/IUGR and XY DSD",
+        "Birthweight is the only metric identifying systemic metabolic disorder"
+      ],
+      "correctOption": 2,
+      "explanation": "Low birthweight and IUGR associate with XY DSD — birthweight is a helpful evaluation data point, not a sole diagnostic criterion.",
+      "reference": "Knowledge of birth-weight in XY DSD is very helpful given the well-reported association between low birthweight, intra-uterine growth retardation and XY DSD.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q76",
+      "subtopic": "Neonatal workup",
+      "question": "A 12-hour-old term neonate has atypical genitalia. The resident plans an immediate serum 17-OHP to definitively rule out CAH. Why is this plan flawed?",
+      "options": [
+        "17-OHP is only useful for rarer CAH forms, not 21-hydroxylase deficiency",
+        "Serum 17-OHP is usually unreliable before 36 hours of age",
+        "Pelvic ultrasound must precede any blood draw",
+        "Plasma glucose must be corrected before 17-OHP can be measured"
+      ],
+      "correctOption": 1,
+      "explanation": "Serum 17-OHP before 36 h can mislead — combine with serial electrolytes, glucose, and repeat timing per protocol.",
+      "reference": "Serum 17OHP is usually unreliable before the age of 36 hours.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q77",
+      "subtopic": "Neonatal workup",
+      "question": "A 48-hour-old neonate with bilateral impalpable gonads has normal electrolytes. The team concludes salt-losing CAH is excluded. What is the fundamental error?",
+      "options": [
+        "Electrolytes are never abnormal in 21-hydroxylase deficiency",
+        "In salt-losing CAH, electrolytes usually do not become abnormal before day 4 of life",
+        "Normal electrolytes at 48 hours confirm salt-losing CAH",
+        "Electrolytes should only be measured if glucose is profoundly elevated"
+      ],
+      "correctOption": 1,
+      "explanation": "False reassurance at 48 h — serial electrolytes through days 4–7 are required in atypical genitalia workup.",
+      "reference": "In the salt-losing form of CAH, serum electrolytes usually do not become abnormal before day 4 of life.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q78",
+      "subtopic": "Neonatal workup",
+      "question": "A 30-week gestation neonate at 48 hours has elevated serum 17-OHP and atypical genitalia. Best integration of this finding?",
+      "options": [
+        "Diagnose 21-hydroxylase deficiency immediately and start lifelong steroids",
+        "Interpret with caution — 17-OHP may be falsely elevated in premature or sick neonates",
+        "Disregard the result and rely solely on baseline cortisol",
+        "Assume the elevation is exclusively due to a rarer CAH form"
+      ],
+      "correctOption": 1,
+      "explanation": "Prematurity and illness elevate 17-OHP — clinical correlation, serial electrolytes, and confirmatory testing required.",
+      "reference": "17OHP concentrations may be falsely elevated in premature or sick neonates.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q79",
+      "subtopic": "Emergency CAH",
+      "question": "A 5-day-old infant with atypical genitalia is in extremis with high CAH suspicion. Immediate steroids are ordered. What critical step must occur before the first dose?",
+      "options": [
+        "Pelvic ultrasound to delineate internal genitalia",
+        "Stimulated serum cortisol concentration",
+        "Collect and store further serum and urine samples of sufficient volume",
+        "Wait for PCR or FISH results"
+      ],
+      "correctOption": 2,
+      "explanation": "Store diagnostic samples before therapy — post-steroid samples cannot support accurate diagnosis.",
+      "reference": "Further serum and urine samples should be collected and stored before starting therapy.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q80",
+      "subtopic": "Emergency CAH",
+      "question": "Only a very small blood volume can be obtained before emergency steroids in a critically ill infant. Which assay receives first priority?",
+      "options": [
+        "Aldosterone",
+        "Testosterone",
+        "Renin activity",
+        "17-OHP"
+      ],
+      "correctOption": 3,
+      "explanation": "Priority order: 17-OHP, testosterone, androstenedione, renin activity, aldosterone.",
+      "reference": "Order of priority: 17OHP, testosterone, androstenedione, renin activity, and aldosterone.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q81",
+      "subtopic": "Neonatal workup",
+      "question": "When initiating first-tier investigation for bilateral impalpable gonads, what is the primary objective of pelvic ultrasound?",
+      "options": [
+        "Measure baseline serum cortisol",
+        "Delineate the internal genitalia",
+        "Confirm exact Y-chromosome position",
+        "Exclude all rarer forms of CAH"
+      ],
+      "correctOption": 1,
+      "explanation": "First tier defines sex chromosomes and delineates internal genitalia by pelvic ultrasound.",
+      "reference": "Delineate, by pelvic ultrasound, the internal genitalia.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q82",
+      "subtopic": "Neonatal workup",
+      "question": "Why does first-tier atypical genitalia protocol prioritize rapid exclusion of 21-hydroxylase deficiency?",
+      "options": [
+        "It is the commonest cause of a life-threatening condition associated with atypical genitalia in the newborn",
+        "It is the only condition causing bilateral impalpable gonads",
+        "It is the sole cause of falsely elevated 17-OHP in premature infants",
+        "It is the only condition requiring PCR or FISH for diagnosis"
+      ],
+      "correctOption": 0,
+      "explanation": "Morbidity/mortality urgency — 21-OHD CAH is the commonest life-threatening association with atypical genitalia.",
+      "reference": "21-hydroxylase deficiency is the commonest cause of a life-threatening condition associated with atypical genitalia in the newborn.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q83",
+      "subtopic": "Neonatal workup",
+      "question": "A specialist centre sends PCR/FISH and serum 17-OHP on Monday morning for atypical genitalia. By when should results be available per specialist standards?",
+      "options": [
+        "Within 12 hours",
+        "Within 36 hours",
+        "Within two working days",
+        "Within four days"
+      ],
+      "correctOption": 2,
+      "explanation": "PCR/FISH and serum 17-OHP should be available within a maximum of two working days in specialist centres.",
+      "reference": "Results should be available within a maximum of two working days in all specialist centres.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q84",
+      "subtopic": "Neonatal workup",
+      "question": "A resident proposes stimulated serum cortisol to rapidly rule in CAH in a premature newborn with atypical genitalia. Why is this sub-optimal?",
+      "options": [
+        "Stimulated cortisol perfectly mimics 17-OHP, making it redundant",
+        "Cortisol is only useful if drawn before 36 hours",
+        "Baseline or stimulated cortisol can be difficult to interpret in newborns, especially premature infants",
+        "Cortisol assays always require larger volumes than renin assays"
+      ],
+      "correctOption": 2,
+      "explanation": "Cortisol interpretation is unreliable in premature neonates — prioritize 17-OHP, electrolytes, glucose, and karyotype per first-tier protocol.",
+      "reference": "Baseline or stimulated serum cortisol concentrations can be difficult to interpret in the newborn especially in the premature infant.",
+      "type": "mcq"
+    },
+    {
+      "id": "pe-cr-009-q85",
+      "subtopic": "Neonatal workup",
+      "question": "Which combination must be included in first-tier SOP for atypical genitalia to screen for the commonest life-threatening complication?",
+      "options": [
+        "Plasma glucose, serum 17-OHP, and serial measurement of electrolytes",
+        "Serum 17-OHP, testosterone, and aldosterone only",
+        "Renin activity, androstenedione, and baseline cortisol",
+        "Serum 17-OHP and one-time potassium at 24 hours"
+      ],
+      "correctOption": 0,
+      "explanation": "First-tier biochemical screen for CAH in atypical genitalia: glucose, 17-OHP, serial electrolytes — plus karyotype and pelvic US.",
+      "reference": "First tier should include plasma glucose, serum 17OHP and serial measurement of electrolytes.",
+      "type": "mcq"
+    },
+    {
       "id": "pe-cr-009-tf1",
       "subtopic": "Definition",
       "statement": "DSD includes congenital discordance between chromosomal, gonadal, or phenotypic sex, even without overt genital ambiguity.",
@@ -866,6 +1865,42 @@
       "correctAnswer": true,
       "explanation": "Tumor risk drives early removal in high-risk conditions.",
       "reference": "Gonadectomy is recommended at diagnosis for high-risk conditions such as mixed gonadal dysgenesis.",
+      "type": "true_false"
+    },
+    {
+      "id": "pe-cr-009-tf13",
+      "subtopic": "Assessment",
+      "statement": "The External Genitalia Score (EGS) uses the same 0-to-12 point structure as the EMS but with gender-neutral embryological terminology.",
+      "correctAnswer": true,
+      "explanation": "EGS (van der Zwan 2015) maps mathematically to EMS; descriptors replace masculinization/micropenis/hypospadias language.",
+      "reference": "The EGS maps exactly to the mathematical structure of the EMS (ranging from 0 to 12) but utilizes strictly descriptive, gender-neutral embryological anatomy.",
+      "type": "true_false"
+    },
+    {
+      "id": "pe-cr-009-tf14",
+      "subtopic": "Neonatal evaluation",
+      "statement": "In boys with confirmed 46,XY karyotype and atypical genitalia, comprehensive endocrine and genetic investigations reveal an abnormality in at least 25% of cases.",
+      "correctAnswer": true,
+      "explanation": "A quarter or more receive a definitive endocrine or genetic diagnosis despite normal XY karyotype — full workup remains mandatory.",
+      "reference": "Comprehensive investigations will reveal an endocrine or genetic abnormality in at least a quarter of cases.",
+      "type": "true_false"
+    },
+    {
+      "id": "pe-cr-009-tf15",
+      "subtopic": "Investigation thresholds",
+      "statement": "An External Masculinization Score below 11 warrants consideration for investigation for suspected DSD.",
+      "correctAnswer": true,
+      "explanation": "EMS investigation threshold is <11; 12 is typical male external genitalia.",
+      "reference": "An EMS below 11 requires consideration for investigation for suspected DSD.",
+      "type": "true_false"
+    },
+    {
+      "id": "pe-cr-009-tf16",
+      "subtopic": "Investigation thresholds",
+      "statement": "Isolated glandular hypospadias in a newborn boy without other features always requires comprehensive DSD genetic and endocrine investigation.",
+      "correctAnswer": false,
+      "explanation": "Isolated glandular (and mid-shaft) hypospadias alone — avoid unnecessary detailed investigation unless other triggers present.",
+      "reference": "Avoid unnecessary detailed investigations of boys with isolated benign findings like glandular hypospadias.",
       "type": "true_false"
     },
     {
@@ -986,6 +2021,16 @@
       "correctOption": 0,
       "explanation": "Both statements are true and the reason explains the findings.",
       "reference": "XX male syndrome results from SRY translocation with small testes, infertility, and elevated FSH.",
+      "type": "assertion_reason"
+    },
+    {
+      "id": "pe-cr-009-ar13",
+      "subtopic": "Assessment",
+      "assertion": "The External Genitalia Score (EGS) is preferred over EMS for initial documentation of atypical genitalia before sex of rearing is assigned.",
+      "reason": "EMS terminology such as masculinization, micropenis, and hypospadias assumes a male anatomical baseline, whereas EGS uses gender-neutral embryological descriptors with identical scoring weights.",
+      "correctOption": 0,
+      "explanation": "Both true — EGS addresses the gender bias limitation of EMS while preserving the 0–12 quantitative framework.",
+      "reference": "Using terms like masculinization, micropenis, or hypospadias assumes a male baseline, which is problematic before a definitive diagnosis or sex of rearing is assigned.",
       "type": "assertion_reason"
     }
   ]

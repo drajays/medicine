@@ -1,0 +1,475 @@
+{
+  "id": "cr-057",
+  "reportType": "case_report",
+  "title": "17-Hydroxyprogesterone in the Newborn: Pitfalls in Ruling Out or Diagnosing CAH",
+  "subtitle": "A Fellow Training Module: five-coordinate interpretation (age at sampling, GA/BW, stress, glucocorticoid exposure, assay/specimen); false-positive and false-negative patterns; 17 published-case teaching set; diagnostic algorithm; EMS/NBS thresholds — do not use 17-OHP as a stand-alone rule-out",
+  "section": "Case Reports",
+  "category": "Pediatric Endocrinology / Adrenal Disorders",
+  "authors": "Fellow training module — compiled 2026-07-03 (Dr. Ajay Kumar Shukla); refs: Gudmundsson 1999, Rohrer 2003, Houang 2022, Rizzuto 2026, Schreiner 2008, Held 2020, Endocrine Society 2018",
+  "sourceFile": "CAH_17OHP_Newborn_Pitfalls_Fellow_Module.md; Speiser PW JCEM 2018; Held PK Int J Neonatal Screen 2020",
+  "relatedChapters": [
+    {
+      "id": "pe-cr-010",
+      "title": "Congenital Adrenal Hyperplasia"
+    },
+    {
+      "id": "pe-cr-009",
+      "title": "Disorders of Sex Development"
+    },
+    {
+      "id": "cr-005",
+      "title": "Classic CAH: Goldilocks 17-OHP Pitfalls"
+    },
+    {
+      "id": "cr-004",
+      "title": "NCCAH: The Metabolic Trap & Classic CAH Reclassification"
+    }
+  ],
+  "patient": {
+    "age": "Newborn to 3 months (multi-case teaching module)",
+    "sex": "Male and female",
+    "chiefComplaint": "Newborn 17-OHP screening and confirmatory CAH work-up — pitfalls module",
+    "pmh": [
+      "Case themes: borderline early 17-OHP with virilization (Gudmundsson); dexamethasone false-negative NBS (Rohrer); maternal triamcinolone (Houang); four negative NBS in preterm/LBW (Rizzuto); screening-negative later virilization (Onuma); normal 17-OHP with 11β-OHD (Singer-Granick); high 17-OHP with 3β-HSD2 (Levy-Shraga, Jeandron); PORD mimics (Fukami, Wudy); EDTA false-positive DBS (Fingerhut); transient hyper-17-OHPemia (Mizuno, Cavarzere)"
+    ],
+    "medications": []
+  },
+  "caseDescription": "Fellow deep-dive on 17-hydroxyprogesterone (17-OHP) in newborn screening and confirmatory diagnosis of congenital adrenal hyperplasia. Core principle: 17-OHP is a screening analyte, not a standalone diagnosis. The commonest pitfall is interpreting a single value without five coordinates — age at sampling after birth, gestational age/birth weight, clinical stress/NICU context, glucocorticoid exposure (antenatal, maternal inhaled/nasal/topical, neonatal dexamethasone/hydrocortisone), and assay/specimen type (DBS immunoassay vs LC-MS/MS serum; native heel-prick vs EDTA-contaminated spots). False positives: early sampling (<24–48 h), preterm/LBW/stress, immunoassay cross-reactivity. False negatives: steroid suppression, mild/SV phenotypes, preterm physiology, non-21-OHD CAH. Seventeen published cases illustrate missed and misclassified infants. Includes permutation matrix, diagnostic algorithm, do/don't table, and board-style MCQs.",
+  "keyFindings": [
+    "Anchor every 17-OHP to age at collection, GA/BW, illness/stress, steroid exposure, and assay/units",
+    "Most false positives: DBS before 24–48 h, preterm/LBW, stressed term infant, immunoassay cross-reactivity",
+    "Most dangerous false negatives: glucocorticoid exposure, borderline/SV disease, serial negative NBS in preterm with electrolyte abnormalities",
+    "Normal newborn screen never rules out CAH when genital findings, salt-wasting symptoms, family history, or hyponatremia/hyperkalemia present",
+    "Elevated 17-OHP ≠ 21-OHD alone — evaluate 3β-HSD2, 11β-OHD, PORD with broader steroid profile",
+    "Fasting not required for newborn DBS; time since birth matters more than clock time in first month",
+    "In adrenal crisis: treat first — do not delay hydrocortisone for a perfect panel"
+  ],
+  "finalDiagnosis": "Teaching module — not a single patient. Synthesis: treat 17-OHP as a conditional screening test whose meaning depends on pre-analytical and clinical context. When phenotype and biochemistry disagree, believe the baby and broaden the work-up (LC-MS/MS steroid profile, electrolytes/renin, ACTH stimulation, genetics). After infancy, monitoring uses consistently timed pre-dose samples — not NBS cutoffs.",
+  "learningObjectives": [
+    "Apply the five-coordinate framework to every newborn 17-OHP result",
+    "Classify scenarios as false-positive risk, false-negative risk, or emergency",
+    "Recognize published pitfalls: steroid exposure, preterm NBS, EDTA contamination, rare CAH subtypes",
+    "Execute the diagnostic algorithm for abnormal screen or clinical suspicion",
+    "Distinguish newborn screening interpretation from post-infancy treatment monitoring"
+  ],
+  "items": [
+    {
+      "id": "cr-057-n1",
+      "type": "note",
+      "subtopic": "Framework",
+      "title": "Why a single 17-OHP value is the commonest CAH newborn pitfall",
+      "content": "The commonest practical pitfall is interpreting a single 17-OHP without anchoring it to five coordinates: (1) age at sampling after birth — especially specimens collected too early; (2) gestational age and birth weight — especially preterm/LBW; (3) clinical stress/illness and NICU context; (4) glucocorticoid exposure — antenatal betamethasone/dexamethasone, maternal chronic/inhaled/nasal steroids, neonatal dexamethasone/hydrocortisone before the sample; (5) assay and specimen type — first-tier DBS immunoassay vs LC-MS/MS; native heel-prick DBS vs EDTA-contaminated spots.\n\n17-OHP is a screening analyte, not a standalone diagnosis. In a sick newborn, adrenal crisis treatment must not wait for a perfect endocrine work-up.",
+      "keyPoints": [
+        "Five coordinates — never a lone number.",
+        "Screening ≠ diagnosis.",
+        "Crisis → treat while sampling if safe."
+      ]
+    },
+    {
+      "id": "cr-057-n2",
+      "type": "note",
+      "subtopic": "False positives",
+      "title": "How early sampling, prematurity, and stress produce false-positive 17-OHP screens",
+      "content": "Most common false-positive pattern: first-tier immunoassay 17-OHP elevated in a baby without classic 21-hydroxylase deficiency because the sample was collected before 24–48 h, or because the infant is preterm/LBW/stressed, with additional immunoassay cross-reactivity from fetal-zone steroid sulfates.\n\nHealthy newborns have high 17-OHP at birth that falls over 24–72 h. Preterm infants have persistent fetal-zone physiology and immature enzyme activity — precursors can be high without CAH. Sick/stressed term infants: ACTH/stress elevates precursors — do not dismiss a high result as 'just stress' without electrolytes, renin, and clinical exam.\n\nTeaching pearl: term vs post-term is not the major axis; preterm/LBW and timing after birth are.",
+      "keyPoints": [
+        "<24–48 h sampling → high false-positive risk.",
+        "Preterm/LBW — GA/BW-adjusted cutoffs; repeat at 48–72 h and ~28 d.",
+        "Stress elevates 17-OHP — still evaluate clinically."
+      ]
+    },
+    {
+      "id": "cr-057-n3",
+      "type": "note",
+      "subtopic": "False negatives",
+      "title": "Why a normal newborn 17-OHP screen does not rule out CAH",
+      "content": "Most dangerous false-negative pattern: a baby with true CAH has a 'normal' screen because 17-OHP was not yet high enough, cutoffs were too high for the phenotype, the baby was preterm, or maternal/neonatal glucocorticoids suppressed the fetal/neonatal HPA axis.\n\nTherefore: a normal newborn screen never rules out CAH when genital findings, salt-wasting symptoms, family history, or unexplained hyponatremia/hyperkalemia are present. Screening sensitivity is high but not 100% (Schreiner: 5/214 classic CAH missed). NBS mainly targets 21-OHD; 11β-OHD, 3β-HSD2, and PORD may present with atypical or normal 17-OHP patterns.",
+      "keyPoints": [
+        "Steroids, early/mild disease, preterm → false negative.",
+        "Normal NBS + electrolytes abnormal → work up.",
+        "Non-21-OHD CAH may escape 17-OHP screen."
+      ]
+    },
+    {
+      "id": "cr-057-n4",
+      "type": "note",
+      "subtopic": "Assay & specimen",
+      "title": "How assay type, units, and EDTA contamination mislead 17-OHP interpretation",
+      "content": "First-tier NBS generally measures 17-OHP in dried blood spots by immunoassay; LC-MS/MS second-tier improves specificity (21-deoxycortisol, androstenedione, cortisol ratios). Pitfalls: immunoassay cross-reactivity with 17-hydroxypregnenolone sulfate; comparing DBS ng/mL with serum ng/dL (100-fold unit mismatch); applying adult/term cutoffs to preterm DBS.\n\nEDTA contamination of DBS causes false-positive 17-OHP on lanthanide fluorescence immunoassays (Fingerhut: 27 contaminated samples). Do not spot anticoagulated EDTA blood onto NBS cards unless the program explicitly accepts it. Confirmatory work-up: serum LC-MS/MS with cortisol, androstenedione, renin/electrolytes, broader steroid profile if borderline or atypical phenotype.",
+      "keyPoints": [
+        "Immunoassay DBS ≠ serum LC-MS/MS units.",
+        "EDTA DBS → false-positive 17-OHP.",
+        "Second-tier LC-MS/MS + 21-deoxycortisol more specific."
+      ]
+    },
+    {
+      "id": "cr-057-c1",
+      "type": "note",
+      "subtopic": "Case — Borderline early 17-OHP",
+      "title": "Case 1: Severe virilization with borderline early 17-OHP (Gudmundsson 1999)",
+      "content": "Newborn female with severe virilization yet newborn-screen and initial confirmatory 17-OHP only borderline. Authors emphasized timing, phenotype-biochemistry mismatch, and assay specificity.\n\nPitfall: borderline 17-OHP does not trump a convincing clinical phenotype. In a virilized 46,XX newborn, do not discharge the diagnosis because the first 17-OHP is borderline. Repeat serum LC-MS/MS, electrolytes, renin, and/or ACTH-stimulated steroid profile. Ref: J Pediatr Endocrinol Metab 1999;12(6):895-902.",
+      "keyPoints": [
+        "Virilization + borderline 17-OHP → pursue CAH.",
+        "Timing of sample critical.",
+        "Phenotype trumps borderline biochemistry."
+      ]
+    },
+    {
+      "id": "cr-057-c2",
+      "type": "note",
+      "subtopic": "Case — Steroid false negative",
+      "title": "Case 2: Prenatal/neonatal dexamethasone and negative screen with salt-wasting crisis (Rohrer 2003)",
+      "content": "Older sister had CAH → prenatal dexamethasone. Affected male fetus identified; dexamethasone stopped. Infant born preterm, received dexamethasone during mechanical ventilation, had unsuspicious neonatal screen, developed salt-wasting crisis at ~3 weeks.\n\nPitfall: steroid exposure can suppress 17-OHP enough for false-negative NBS. Family history or prenatal diagnosis should override screening — draw diagnostic labs and treat proactively. Ref: Biol Neonate 2003;83(1):65-68.",
+      "keyPoints": [
+        "Neonatal dexamethasone → false-negative screen.",
+        "Family history overrides NBS.",
+        "Salt wasting at 3 weeks despite normal screen."
+      ]
+    },
+    {
+      "id": "cr-057-c3",
+      "type": "note",
+      "subtopic": "Case — Maternal steroids",
+      "title": "Case 3: Maternal nasal triamcinolone and day-3 normal 17-OHP (Houang 2022)",
+      "content": "Newborn with family CAH risk: day-3 DBS 17-OHP below cutoff. LC-MS/MS on same DBS found elevated 21-deoxycortisol and maternal triamcinolone peak. By day 13, serum 17-OHP clearly high; CAH confirmed genetically.\n\nPitfall: 'no systemic steroid' may be false — chronic maternal nasal/inhaled steroids matter. Explicitly ask about antenatal, inhaled, nasal, topical, and postnatal steroid exposures. 21-deoxycortisol more specific for 21-OHD. Ref: Endocr Connect 2022;11(6):e220101.",
+      "keyPoints": [
+        "Maternal inhaled/nasal steroids suppress screen.",
+        "21-deoxycortisol on LC-MS/MS helps.",
+        "High-risk family → test despite normal day-3."
+      ]
+    },
+    {
+      "id": "cr-057-c4",
+      "type": "note",
+      "subtopic": "Case — Preterm false negatives",
+      "title": "Case 4: Four consecutive negative NBS in 35-week 1470-g infant (Rizzuto 2026)",
+      "content": "35-week male, 1470 g: four NBS samples days 2–38 all normal. Hyponatremia/hyperkalemia by day 26. Later LC-MS/MS serum 17-OHP >10,900 ng/dL; CYP21A2 deletion plus I172N.\n\nPitfall: serial negative NBS does not rule out CAH in preterm/LBW with persistent electrolyte abnormalities. Persistent hyponatremia/hyperkalemia in a newborn is an endocrine diagnosis until proven otherwise. Ref: PubMed 41797552.",
+      "keyPoints": [
+        "4 normal NBS + electrolyte crisis.",
+        "Preterm/LBW false-negative risk.",
+        "Believe electrolytes over NBS."
+      ]
+    },
+    {
+      "id": "cr-057-n5",
+      "type": "note",
+      "subtopic": "Rare CAH",
+      "title": "How elevated 17-OHP can mislabel 3β-HSD2, 11β-OHD, or PORD as 21-OHD",
+      "content": "Elevated 17-OHP is not synonymous with 21-OHD. Case examples: Levy-Shraga — 46,XX phenotypic female, high NBS 17-OHP, no virilization, HSD3B2 classic 3β-HSD deficiency; Jeandron — positive screen, salt wasting day 13, CYP21A2 negative, HSD3B2 Q334X; Singer-Granick — normal neonatal 17-OHP, later 11β-hydroxylase deficiency with elevated 11-deoxycortisol/DOC; Fukami/Wudy — P450 oxidoreductase deficiency mimicking 21-OHD/aromatase deficiency with variable 17-OHP.\n\nIf phenotype is atypical: send 21-deoxycortisol, 11-deoxycortisol, DOC, 17-OH-pregnenolone, DHEA, androstenedione; consider urine GC-MS and CYP21A2/HSD3B2/CYP11B1/POR genetics. Positive 17-OHP + negative CYP21 can still be CAH.",
+      "keyPoints": [
+        "High 17-OHP ≠ 21-OHD until proven.",
+        "3β-HSD2 can elevate 17-OHP via peripheral conversion.",
+        "11β-OHD and PORD may have normal NBS 17-OHP."
+      ]
+    },
+    {
+      "id": "cr-057-n6",
+      "type": "note",
+      "subtopic": "Transient elevation",
+      "title": "Why some infants have transient hyper-17-OHPemia without CAH",
+      "content": "Mizuno 2004: preterm infant with persistent serum 17-OHP until 2 months — no CYP21A2 mutation; normalized by 3 months without treatment. Cavarzere 2009: NBS-positive subgroup with hyper-17-OHPemia without clinical signs or CYP21A2 mutations, normalizing by 3 months.\n\nPitfall: persistent mild/moderate elevation in an asymptomatic infant is not automatically classic CAH. Use trend, electrolytes, renin, exam, ACTH stimulation, and genotype before long-term steroids. Do not overtreat if data do not support CAH.",
+      "keyPoints": [
+        "Transient 17-OHP elevation exists in preterm.",
+        "Trend + genotype prevent overtreatment.",
+        "Not all NBS positives need lifelong steroids."
+      ]
+    },
+    {
+      "id": "cr-057-n7",
+      "type": "note",
+      "subtopic": "Algorithm",
+      "title": "How to apply the newborn CAH diagnostic algorithm",
+      "content": "Abnormal 17-OHP screen or clinical suspicion:\n\nIf ill (vomiting, lethargy, dehydration, shock, hypoglycemia, hyponatremia, hyperkalemia, ambiguous genitalia) → draw critical samples if this does not delay care (glucose, Na/K, serum 17-OHP, cortisol, ACTH, renin/aldosterone, androstenedione ± testosterone, 11-deoxycortisol, DOC) → stress-dose hydrocortisone + saline/dextrose; call endocrinology.\n\nIf well: classify screen by sample age, GA/BW, NICU status, steroid exposure, assay. Very high 17-OHP + compatible phenotype → serum LC-MS/MS + electrolytes/renin. Borderline → repeat per program; LC-MS/MS second tier; ACTH stimulation if stable and unclear. High 17-OHP but atypical phenotype → broad steroid profile + genetics. Normal screen but clinical suspicion → normal NBS does NOT rule out CAH — diagnostic serum work-up.",
+      "keyPoints": [
+        "Sick baby → treat + sample concurrently.",
+        "Borderline → repeat + LC-MS/MS.",
+        "Normal NBS + suspicion → serum profile anyway."
+      ]
+    },
+    {
+      "id": "cr-057-n8",
+      "type": "note",
+      "subtopic": "Monitoring vs screening",
+      "title": "Why newborn screening rules differ from post-infancy 17-OHP monitoring",
+      "content": "Fasting is not required for newborn DBS CAH screening — do not delay heel-prick for fasting. In the first month, time since birth matters more than clock time (Sólyom: no reliable diurnal rhythm in untreated CAH neonates aged 2–26 days). By ~3 months, morning 17-OHP tends highest — collect consistently pre-dose before hydrocortisone for monitoring.\n\nBode 1999: home filter-paper monitoring captured undertreatment missed by random clinic timing. A single random clinic 17-OHP can falsely reassure. NBS cutoffs do not apply to known CAH monitoring — use assay-specific pre-dose profiles plus growth, BP, androstenedione/testosterone, renin.",
+      "keyPoints": [
+        "Newborn: no fasting; age since birth > clock time.",
+        "Monitoring: pre-dose morning sample.",
+        "Don't chase complete 17-OHP normalization — overtreatment harms growth."
+      ]
+    },
+    {
+      "id": "cr-057-why1",
+      "type": "why",
+      "subtopic": "False negatives",
+      "question": "Why must clinicians investigate CAH despite a normal newborn 17-OHP screen when the infant has hyponatremia and hyperkalemia?",
+      "answer": "Because screening sensitivity is not 100%, preterm/LBW physiology and glucocorticoid exposure can produce false-negative results, and salt-wasting classic 21-OHD can evolve before or despite NBS reporting. Electrolyte abnormalities in a newborn represent mineralocorticoid deficiency until proven otherwise — the Rizzuto case had four normal NBS samples before crisis. Clinical status and electrolytes trump a normal screen.",
+      "keyPoints": [
+        "NBS not 100% sensitive.",
+        "Preterm/steroids → false negative.",
+        "Hyponatremia/hyperkalemia → work up CAH."
+      ]
+    },
+    {
+      "id": "cr-057-how1",
+      "type": "how",
+      "subtopic": "Borderline screen",
+      "question": "How should a well term newborn with 17-OHP collected at 10 hours and normal genital exam be managed?",
+      "answer": "Do not diagnose classic CAH or dismiss permanently. Early collection (<24 h) is a major false-positive pitfall because physiologic birth-surge 17-OHP is high. Repeat screen/confirm per program at appropriate age (typically 24–48 h or program-defined window), document GA/BW and illness, and reassess if family history or later symptoms emerge. Obtain serum LC-MS/MS and electrolytes if repeat remains elevated or infant becomes unwell.",
+      "keyPoints": [
+        "10 h sample → repeat at program age.",
+        "False-positive risk high if well.",
+        "Do not start lifelong steroids on one early DBS."
+      ]
+    },
+    {
+      "id": "cr-057-why2",
+      "type": "why",
+      "subtopic": "Rare CAH",
+      "question": "Why does a positive 17-OHP screen in a 46,XX newborn without virilization require broadening the diagnostic work-up beyond CYP21A2 alone?",
+      "answer": "Because 3β-HSD2 deficiency and other enzyme defects can elevate 17-OHP through peripheral conversion while producing an atypical phenotype — Levy-Shraga and Jeandron cases had high 17-OHP without expected virilization and negative or inconsistent CYP21A2 results. Labeling automatically as 21-OHD risks wrong treatment and missed salt-wasting from another CAH subtype. Full steroid profiling and HSD3B2/CYP11B1/POR testing are indicated.",
+      "keyPoints": [
+        "High 17-OHP + no virilization → rethink 21-OHD.",
+        "3β-HSD2 elevates 17-OHP.",
+        "Broad steroid profile + genetics."
+      ]
+    },
+    {
+      "id": "cr-057-how2",
+      "type": "how",
+      "subtopic": "Crisis",
+      "question": "How should critical samples be obtained in a newborn with suspected adrenal crisis and a pending 17-OHP result?",
+      "answer": "Draw glucose, sodium, potassium, bicarbonate, serum 17-OHP, cortisol, ACTH, renin/aldosterone, and androstenedione if this does not delay care — but start stress-dose hydrocortisone and volume resuscitation immediately when crisis is suspected. A perfect pre-treatment panel must never delay life-saving steroids. Repeat confirmatory LC-MS/MS and genetics can follow stabilization.",
+      "keyPoints": [
+        "Treat crisis first.",
+        "Sample concurrently if safe.",
+        "Do not delay hydrocortisone for labs."
+      ]
+    },
+    {
+      "id": "cr-057-m1",
+      "type": "mcq",
+      "subtopic": "Screening timing",
+      "stem": "A 10-hour-old well term newborn has elevated DBS 17-OHP. Genital exam is normal, electrolytes are normal. Best next step?",
+      "options": [
+        "Diagnose classic CAH and start lifelong dexamethasone",
+        "Ignore the result permanently",
+        "Repeat screen/confirm per program at appropriate age and assess clinical risk",
+        "Require 8 hours fasting before any repeat sample"
+      ],
+      "correctOption": 2,
+      "explanation": "Early collection (<24 h) is a major false-positive pitfall; repeat at program-defined timing."
+    },
+    {
+      "id": "cr-057-m2",
+      "type": "mcq",
+      "subtopic": "Preterm false negative",
+      "stem": "A 35-week, 1.4-kg male has four normal NBS samples but persistent hyponatremia and hyperkalemia. Best interpretation?",
+      "options": [
+        "CAH is excluded",
+        "Obtain serum LC-MS/MS 17-OHP/steroid profile and treat if clinically indicated",
+        "Wait until puberty for diagnosis",
+        "Diagnose SIADH"
+      ],
+      "correctOption": 1,
+      "explanation": "Rizzuto case — serial negative NBS in preterm/LBW with electrolyte crisis; believe labs over screen."
+    },
+    {
+      "id": "cr-057-m3",
+      "type": "mcq",
+      "subtopic": "Rare CAH",
+      "stem": "A positive 17-OHP screen in a 46,XX newborn without virilization is repeated and remains high. CYP21A2 testing is inconsistent with 21-OHD. Next test?",
+      "options": [
+        "No further testing",
+        "HSD3B2/POR/CYP11B1 evaluation and full steroid profile",
+        "Ovarian ultrasound only",
+        "Testosterone injection"
+      ],
+      "correctOption": 1,
+      "explanation": "3β-HSD2, 11β-OHD, and PORD can elevate 17-OHP — broaden beyond CYP21A2."
+    },
+    {
+      "id": "cr-057-m4",
+      "type": "mcq",
+      "subtopic": "Fasting",
+      "stem": "Which statement about fasting and newborn CAH screening is correct?",
+      "options": [
+        "Newborns must fast 8 hours before CAH screening",
+        "Non-fasting status causes false-positive 17-OHP on DBS",
+        "Fasting is not required for newborn DBS CAH screening",
+        "Formula feeding suppresses 17-OHP and invalidates the screen"
+      ],
+      "correctOption": 2,
+      "explanation": "Do not delay NBS for fasting — feeding status is not a meaningful screening variable in newborns."
+    },
+    {
+      "id": "cr-057-m5",
+      "type": "mcq",
+      "subtopic": "Maternal steroids",
+      "stem": "A mother used chronic nasal triamcinolone in pregnancy. The baby has family CAH history and a normal day-3 17-OHP screen. Best action?",
+      "options": [
+        "Reassure — CAH impossible with normal screen",
+        "Diagnostic evaluation despite normal screen",
+        "Stop all testing",
+        "Diagnose PORD without further labs"
+      ],
+      "correctOption": 1,
+      "explanation": "Houang case — maternal inhaled/nasal steroids can produce false-negative screens in high-risk infants."
+    },
+    {
+      "id": "cr-057-m6",
+      "type": "mcq",
+      "subtopic": "Specificity",
+      "stem": "Which analyte is more specific for 21-OHD and less elevated in prematurity/other CAH forms?",
+      "options": [
+        "21-deoxycortisol",
+        "TSH",
+        "Total bilirubin",
+        "Insulin"
+      ],
+      "correctOption": 0,
+      "explanation": "21-deoxycortisol is more specific for 21-OHD on second-tier LC-MS/MS profiling (Miller 2019; Wisconsin algorithm)."
+    },
+    {
+      "id": "cr-057-m7",
+      "type": "mcq",
+      "subtopic": "Transient elevation",
+      "stem": "A preterm infant's mildly elevated 17-OHP normalizes by 3 months. Electrolytes and renin are normal; ACTH stimulation and genotype do not support CAH. Best diagnosis?",
+      "options": [
+        "Classic salt-wasting 21-OHD",
+        "Transient hyper-17-OHPemia",
+        "Addison disease",
+        "Cushing syndrome"
+      ],
+      "correctOption": 1,
+      "explanation": "Mizuno/Cavarzere — transient elevation without CAH; avoid unnecessary long-term steroids."
+    },
+    {
+      "id": "cr-057-m8",
+      "type": "mcq",
+      "subtopic": "Pre-analytical error",
+      "stem": "What sample error can falsely elevate 17-OHP in some DBS immunoassays?",
+      "options": [
+        "EDTA contamination of the dried blood spot",
+        "Heel warming before collection",
+        "Breastfeeding before collection",
+        "One hour ambient transport"
+      ],
+      "correctOption": 0,
+      "explanation": "Fingerhut — EDTA interferes with lanthanide fluorescence immunoassays; spot native heel-prick blood."
+    },
+    {
+      "id": "cr-057-m9",
+      "type": "mcq",
+      "subtopic": "Confirmatory testing",
+      "stem": "A stable infant has borderline 17-OHP and LC-MS/MS is unavailable. Diagnosis remains unclear. Most appropriate next step?",
+      "options": [
+        "ACTH stimulation with at least cortisol and 17-OHP, ideally full steroid profile",
+        "Apply adult reference ranges",
+        "No follow-up",
+        "Urine dipstick only"
+      ],
+      "correctOption": 0,
+      "explanation": "ACTH stimulation clarifies borderline cases when second-tier LC-MS/MS unavailable and baby stable."
+    },
+    {
+      "id": "cr-057-m10",
+      "type": "mcq",
+      "subtopic": "Monitoring",
+      "stem": "For treatment monitoring in known CAH after infancy, which sampling strategy is least misleading?",
+      "options": [
+        "Random afternoon sample without noting hydrocortisone dose time",
+        "Consistently timed early-morning pre-dose sample, or serial pre-dose profile",
+        "Any non-fasting sample is invalid",
+        "Use only ACTH level"
+      ],
+      "correctOption": 1,
+      "explanation": "Bode/Sólyom — pre-dose morning timing matters for monitoring; diurnal variation emerges after infancy."
+    },
+    {
+      "id": "cr-057-m11",
+      "type": "mcq",
+      "subtopic": "Five coordinates",
+      "stem": "Which factor is NOT one of the five coordinates required to interpret a newborn 17-OHP result?",
+      "options": [
+        "Age at sampling after birth",
+        "Gestational age and birth weight",
+        "Maternal blood type",
+        "Glucocorticoid exposure before sampling"
+      ],
+      "correctOption": 2,
+      "explanation": "Five coordinates: age at sampling, GA/BW, stress/illness, steroid exposure, assay/specimen type."
+    },
+    {
+      "id": "cr-057-m12",
+      "type": "mcq",
+      "subtopic": "Screening sensitivity",
+      "stem": "Schreiner et al. reported that among 214 children with classical CAH, how many were not detected by neonatal 17-OHP screening?",
+      "options": [
+        "None",
+        "Five",
+        "Fifty",
+        "All salt-wasting cases"
+      ],
+      "correctOption": 1,
+      "explanation": "Five missed cases (three simple-virilizing, two salt-wasting) — screening is not 100% sensitive."
+    },
+    {
+      "id": "cr-057-tf1",
+      "type": "true_false",
+      "subtopic": "Core principle",
+      "statement": "A normal newborn 17-OHP screen rules out CAH in an infant with ambiguous genitalia and hyponatremia.",
+      "correctAnswer": false,
+      "explanation": "False — most dangerous false-negative pattern; clinical findings override normal NBS."
+    },
+    {
+      "id": "cr-057-tf2",
+      "type": "true_false",
+      "subtopic": "Fasting",
+      "statement": "Newborns must fast before heel-prick CAH screening on dried blood spots.",
+      "correctAnswer": false,
+      "explanation": "False — do not delay NBS for fasting; feeding status does not drive neonatal interpretation."
+    },
+    {
+      "id": "cr-057-tf3",
+      "type": "true_false",
+      "subtopic": "Crisis",
+      "statement": "Emergency hydrocortisone for suspected neonatal adrenal crisis should be delayed until all confirmatory steroid labs are obtained.",
+      "correctAnswer": false,
+      "explanation": "False — treat crisis first; sample concurrently only if it does not delay care."
+    },
+    {
+      "id": "cr-057-tf4",
+      "type": "true_false",
+      "subtopic": "Rare CAH",
+      "statement": "Elevated newborn 17-OHP always indicates 21-hydroxylase deficiency.",
+      "correctAnswer": false,
+      "explanation": "False — 3β-HSD2, 11β-OHD, and PORD can alter 17-OHP; phenotype may be atypical."
+    },
+    {
+      "id": "cr-057-tf5",
+      "type": "true_false",
+      "subtopic": "Diurnal rhythm",
+      "statement": "In untreated CAH neonates under one month of age, time since birth matters more than time of day for 17-OHP interpretation.",
+      "correctAnswer": true,
+      "explanation": "True — Sólyom: no characteristic diurnal pattern in first weeks; clock time less important than sampling age."
+    },
+    {
+      "id": "cr-057-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Borderline screen",
+      "assertion": "A virilized 46,XX newborn with borderline initial 17-OHP requires repeat serum LC-MS/MS and further adrenal evaluation.",
+      "reason": "Borderline early 17-OHP does not exclude classic CAH when the clinical phenotype is convincing, as timing and assay specificity can mask true disease (Gudmundsson case).",
+      "correctOption": 0,
+      "explanation": "Both true — phenotype-biochemistry mismatch demands broader work-up."
+    },
+    {
+      "id": "cr-057-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Steroid exposure",
+      "assertion": "Neonatal dexamethasone exposure can produce a false-negative CAH newborn screen.",
+      "reason": "Glucocorticoids suppress ACTH and adrenal precursor accumulation, lowering 17-OHP below screening cutoffs despite true 21-hydroxylase deficiency.",
+      "correctOption": 0,
+      "explanation": "Both true — Rohrer case and Houang maternal steroid cases illustrate this mechanism."
+    }
+  ]
+}
