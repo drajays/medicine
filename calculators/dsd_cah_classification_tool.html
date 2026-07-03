@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DSD + CAH Diagnostic Navigator — Glassbox Classification Tool</title>
+<style>
+:root{
+ --bg:#070d1a;--card:#0f1a2e;--card2:#14213a;--ink:#eef6ff;--mut:#9fb0c9;--line:#2a3b57;
+ --blue:#62d6ff;--green:#31d68a;--amber:#ffb02e;--red:#ff5d78;--violet:#c084fc;--pink:#fb7185;--gray:#6b7a92;
+ --shadow:0 18px 48px #0009;--r:16px
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+ radial-gradient(1000px 480px at 6% -6%,#62d6ff1c,transparent 60%),
+ radial-gradient(900px 420px at 96% -8%,#c084fc1c,transparent 60%),
+ linear-gradient(160deg,#050912,#070d1a 45%,#0a1730);
+ color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.5}
+.wrap{width:min(1560px,95vw);margin:auto;padding:22px 0 60px}
+.hero,.card{background:linear-gradient(180deg,#ffffff12,#ffffff06);border:1px solid #ffffff1c;border-radius:var(--r);box-shadow:var(--shadow)}
+.hero{padding:24px 26px;margin-bottom:16px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-90px;bottom:-130px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,#62d6ff2b,transparent 65%)}
+h1{font-size:clamp(26px,3.4vw,44px);line-height:1.04;letter-spacing:-.03em;margin:0 0 10px}
+.sub{color:var(--mut);max-width:1080px;margin:0;font-size:14.5px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.pill{display:inline-flex;gap:8px;align-items:center;border:1px solid #ffffff1c;background:#ffffff10;border-radius:999px;padding:7px 11px;font-size:12.5px;color:#dbe6f5}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--blue);display:inline-block}
+.dot.sc{background:var(--violet)}.dot.xy{background:var(--blue)}.dot.xx{background:var(--pink)}
+.dot.normal{background:var(--green)}.dot.low{background:var(--amber)}.dot.high{background:var(--red)}.dot.unknown{background:var(--gray)}.dot.notMeasured{background:#4a586e}
+
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.btn{border:1px solid #ffffff24;background:#ffffff10;color:var(--ink);border-radius:11px;padding:9px 12px;cursor:pointer;text-decoration:none;font-size:12.5px;font-weight:700}
+.btn:hover,.btn.active{background:#62d6ff26;border-color:#62d6ff77}
+.btn.ghost{background:transparent}
+
+.layout{display:grid;grid-template-columns:1fr 400px;gap:16px;align-items:start}
+.section{padding:20px;margin-bottom:16px}
+.title{font-size:22px;margin:0 0 6px;letter-spacing:-.02em;display:flex;gap:9px;align-items:center}
+.title .n{width:26px;height:26px;border-radius:8px;background:#62d6ff22;color:var(--blue);display:grid;place-items:center;font-size:14px;font-weight:900}
+.hint{margin:0 0 14px;color:var(--mut);font-size:13px}
+.side{position:sticky;top:14px;padding:18px;display:flex;flex-direction:column;gap:14px}
+
+/* forms */
+.forms{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
+.forms.three{grid-template-columns:repeat(3,1fr)}
+.field{background:#0006;border:1px solid #ffffff16;border-radius:12px;padding:10px}
+.field label{display:block;color:#d9e6f8;font-weight:700;font-size:12px;margin-bottom:6px}
+.field small{display:block;color:var(--mut);font-size:11px;margin-top:5px;line-height:1.35}
+select,input{width:100%;background:#050b16;border:1px solid #ffffff24;border-radius:9px;color:var(--ink);padding:8px;outline:none;font-size:13px}
+select:focus,input:focus{border-color:#62d6ff88}
+.subhead{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin:16px 0 8px;font-weight:800}
+
+.controls{display:flex;flex-wrap:wrap;gap:9px;margin:12px 0}
+.seg{display:flex;flex-wrap:wrap;gap:7px;padding:7px;border-radius:13px;background:#0006;border:1px solid #ffffff16}
+.seg button{border:0;background:transparent;color:var(--mut);padding:7px 10px;border-radius:9px;font-weight:800;cursor:pointer;font-size:12.5px}
+.seg button.active{background:#62d6ff2b;color:var(--ink)}
+
+/* score meters */
+.meter{margin:12px 0}
+.meter .lab{display:flex;justify-content:space-between;font-size:12.5px;color:#d5e2f4;margin-bottom:5px}
+.meter .bar{height:11px;background:#ffffff12;border-radius:999px;overflow:hidden}
+.meter .bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--blue),var(--violet))}
+.scoreGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-top:10px}
+.scoreBox{background:#0006;border:1px solid #ffffff16;border-radius:12px;padding:13px}
+.scoreBox b{display:block;font-size:26px;line-height:1;margin-bottom:4px}
+.scoreBox span{color:var(--mut);font-size:12px}
+
+/* lab table */
+.tablewrap{overflow:auto;border:1px solid #ffffff16;border-radius:14px;max-height:620px}
+table{border-collapse:collapse;width:100%;min-width:940px;background:#0003}
+th,td{border-bottom:1px solid #ffffff10;padding:9px;text-align:left;vertical-align:middle;font-size:12.5px}
+th{position:sticky;top:0;background:#14213a;z-index:1;color:#e5f1ff;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em}
+.tag{display:inline-flex;gap:6px;align-items:center;border-radius:999px;padding:5px 8px;font-weight:800;font-size:11.5px;border:1px solid #ffffff20;background:#ffffff10}
+.tag.normal{background:#31d68a22;color:#b7ffdc;border-color:#31d68a55}
+.tag.low{background:#ffb02e22;color:#ffe0a3;border-color:#ffb02e55}
+.tag.high{background:#ff5d7822;color:#ffc3ce;border-color:#ff5d7855}
+.tag.unknown{background:#6b7a9222;color:#dde5ef;border-color:#6b7a9255}
+.tag.notMeasured{background:#4a586e30;color:#cfd8e6;border-color:#4a586e77}
+
+/* dx cards */
+.results{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.dx{padding:14px;border-radius:14px;background:#0006;border:1px solid #ffffff16}
+.dx.top{border-color:#62d6ff99;box-shadow:0 0 0 1px #62d6ff33}
+.dx h3{font-size:15px;margin:0 0 2px}
+.dx .gene{color:var(--blue);font-weight:800;font-size:12px}
+.dx .grp{color:var(--mut);font-size:11.5px;margin:2px 0 8px}
+.dx .bar{height:9px;background:#ffffff12;border-radius:999px;overflow:hidden;margin:8px 0}
+.dx .bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--blue),var(--red))}
+.dx .pctrow{display:flex;justify-content:space-between;font-size:12px;color:#d5e2f4;margin-bottom:2px}
+.dx summary{cursor:pointer;color:var(--blue);font-size:12px;font-weight:700;margin-top:8px;list-style:none}
+.dx summary::-webkit-details-marker{display:none}
+.terms{margin:8px 0 0;padding:0;list-style:none;font-size:12px}
+.terms li{display:flex;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px dashed #ffffff10}
+.terms li.pos{color:#c7f5dc}.terms li.neg{color:#ffc3ce}.terms li.off{color:#8494a9}
+.terms .w{font-variant-numeric:tabular-nums;font-weight:800}
+
+/* callouts */
+.call{padding:12px 13px;border-radius:12px;background:#62d6ff15;border:1px solid #62d6ff3a;color:#dfeeff;font-size:13px}
+.call.warn{background:#ffb02e18;border-color:#ffb02e50}
+.call.danger{background:#ff5d7818;border-color:#ff5d7855}
+.call.ok{background:#31d68a15;border-color:#31d68a44}
+.call b{color:#fff}
+
+/* checklist */
+.check{list-style:none;margin:0;padding:0}
+.check li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #ffffff0e;font-size:13px}
+.check .mk{width:20px;height:20px;border-radius:6px;flex:none;display:grid;place-items:center;font-weight:900;font-size:12px}
+.check .mk.done{background:#31d68a2b;color:#b7ffdc}
+.check .mk.miss{background:#ffb02e26;color:#ffe0a3}
+.check small{display:block;color:var(--mut);font-size:11.5px}
+
+/* next-test */
+.nextlist{display:grid;gap:10px}
+.nextItem{padding:12px;border-radius:12px;background:#0006;border:1px solid #ffffff16}
+.nextItem b{color:var(--blue)}
+.nextItem .imp{float:right;font-variant-numeric:tabular-nums;color:var(--amber);font-weight:800}
+.nextItem small{display:block;color:var(--mut);font-size:12px;margin-top:4px}
+
+/* atlas */
+.atlas{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.branch{padding:14px;border-radius:14px;border:1px solid #ffffff16;background:#0006}
+.branch h3{margin:0 0 8px;font-size:15px}
+.branch ul{margin:0;padding-left:16px;color:#d8e5f7;font-size:12.5px}
+.branch li{margin:6px 0;cursor:pointer}
+.branch .path{display:block;color:var(--mut);font-size:11px;margin-top:2px}
+.searchrow{display:grid;grid-template-columns:1fr 200px;gap:10px;margin:10px 0 14px}
+
+/* pathway */
+.pathshell{overflow:auto;border:1px solid #ffffff16;border-radius:14px;background:#050b1690}
+svg#svg{display:block;min-width:1160px;width:100%;height:auto}
+.lane{fill:#ffffff07;stroke:#ffffff12}
+.nt rect{stroke-width:2.2;filter:drop-shadow(0 8px 8px #0006)}
+.nt text{fill:#f7fbff;font-weight:800;font-size:11px;pointer-events:none}
+.nt .v{fill:#cfdaea;font-size:10px;font-weight:600}
+.nt.measured rect{fill:color-mix(in srgb,var(--c) 20%,transparent);stroke:var(--c)}
+.nt.notMeasured rect{fill:#ffffff07;stroke:#4a586e;stroke-dasharray:6 5}
+.nt.normal{--c:var(--green)}.nt.low{--c:var(--amber)}.nt.high{--c:var(--red)}.nt.unknown{--c:var(--gray)}
+.edge{stroke:#6b7a92;stroke-width:2;fill:none;marker-end:url(#arr)}
+.edge.backdoor{stroke:var(--violet)}.edge.oxy{stroke:var(--pink)}.edge.cah{stroke:var(--blue)}
+.enz{fill:#b9c7d9;font-size:10px;font-weight:700}
+
+/* references */
+.refgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.ref{padding:13px;border-radius:12px;background:#0006;border:1px solid #ffffff16;font-size:12.5px}
+.ref b{display:block;margin-bottom:4px}
+.ref .j{color:var(--mut);font-size:11.5px}
+.ref a{color:var(--blue);text-decoration:none;font-weight:700}
+
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.kv div{padding:10px;background:#0006;border:1px solid #ffffff14;border-radius:10px}
+.kv span{display:block;color:var(--mut);font-size:11.5px}.kv b{font-size:13.5px}
+.note{font-size:12.5px;color:#c7d4e8;padding:15px;border-radius:14px;background:#ff5d7810;border:1px solid #ff5d7830}
+
+@media(max-width:1180px){.layout{grid-template-columns:1fr}.side{position:relative;top:0}.results,.atlas,.refgrid{grid-template-columns:1fr 1fr}.forms.three{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.results,.atlas,.refgrid,.forms,.forms.three,.searchrow,.scoreGrid{grid-template-columns:1fr}}
+@media print{body{background:#fff;color:#111}.hero,.card{background:#fff;color:#111;box-shadow:none;border:1px solid #ddd}nav,.controls{display:none}.layout{grid-template-columns:1fr}.side{display:none}svg#svg{min-width:0}.tablewrap{max-height:none}}
+</style>
+</head>
+<body><div class="wrap">
+
+<section class="hero">
+ <h1>DSD + CAH Diagnostic Navigator</h1>
+ <p class="sub">A glassbox decision-support tool for the endocrine fellow evaluating a Difference/Disorder of Sex Development. Enter <b>history</b>, structured <b>examination</b> (External Masculinisation Score + Prader stage), karyotype/imaging and the <b>LC-MS/MS steroid panel</b>; the model ranks the differential with a fully transparent weighted score, tells you which single test would most change the ranking, and holds you to a completeness checklist so nothing is missed. Educational aid — not a diagnosis.</p>
+ <div class="pills">
+  <span class="pill"><span class="dot sc"></span>Sex-chromosome DSD</span>
+  <span class="pill"><span class="dot xy"></span>46,XY DSD</span>
+  <span class="pill"><span class="dot xx"></span>46,XX DSD</span>
+  <span class="pill"><span class="dot high"></span>CAH steroid blocks</span>
+  <span class="pill">Glassbox weighted model</span>
+ </div>
+</section>
+
+<nav>
+ <a class="btn" href="#triage">1· Safety & completeness</a>
+ <a class="btn" href="#history">2· History</a>
+ <a class="btn" href="#exam">3· Examination</a>
+ <a class="btn" href="#karyo">4· Karyotype & imaging</a>
+ <a class="btn" href="#panel">5· Steroid panel</a>
+ <a class="btn" href="#dx">6· Differential</a>
+ <a class="btn" href="#next">7· Next best test</a>
+ <a class="btn" href="#map">Pathway</a>
+ <a class="btn" href="#atlas">Atlas</a>
+ <a class="btn" href="#refs">References</a>
+ <button class="btn ghost" id="loadEx">Load worked example</button>
+ <button class="btn ghost" id="reset">Reset</button>
+ <button class="btn ghost" onclick="window.print()">Print / PDF</button>
+</nav>
+
+<main class="layout">
+<div>
+
+ <!-- 1. TRIAGE & COMPLETENESS -->
+ <section class="card section" id="triage">
+  <h2 class="title"><span class="n">1</span>Safety triage &amp; initial-evaluation completeness</h2>
+  <p class="hint">DSD is a neonatal emergency until CAH salt-wasting is excluded. These rules follow the Lee 2016 global consensus and the Society for Endocrinology UK 2021 initial-evaluation guidance.</p>
+  <div id="safetyBox"></div>
+  <div class="subhead">Golden rules</div>
+  <ul class="check" id="goldenRules"></ul>
+  <div class="subhead">Initial work-up completeness (first-line minimum data set)</div>
+  <ul class="check" id="completeness"></ul>
+ </section>
+
+ <!-- 2. HISTORY -->
+ <section class="card section" id="history">
+  <h2 class="title"><span class="n">2</span>History score</h2>
+  <p class="hint">Family, maternal and antenatal history reweight the differential before a single hormone is drawn — consanguinity and a prior affected sib point to recessive enzyme defects; maternal virilisation points to an aromatase/placental or maternal-source cause.</p>
+  <div class="forms three" id="historyForm"></div>
+ </section>
+
+ <!-- 3. EXAMINATION -->
+ <section class="card section" id="exam">
+  <h2 class="title"><span class="n">3</span>Examination score</h2>
+  <p class="hint">Build the <b>External Masculinisation Score</b> (Ahmed et al., range 0–12; lower = more undervirilised) and the <b>Prader stage</b> (1–5 for a virilised 46,XX). A <b>palpable gonad</b> is the single most decisive bedside sign — a gonad in the labioscrotal fold is a testis/ovotestis and effectively excludes 46,XX CAH.</p>
+  <div class="subhead">External Masculinisation Score (EMS) components</div>
+  <div class="forms three" id="emsForm"></div>
+  <div class="meter"><div class="lab"><span>External Masculinisation Score</span><span id="emsVal">—</span></div><div class="bar"><i id="emsBar" style="width:0%"></i></div></div>
+
+  <div class="subhead">External Genitalia Score (EGS) — granular 5-landmark scale</div>
+  <p class="hint" style="margin:0 0 10px">A finer-grained virilisation score (0–12). Typical females score 0; median for a full-term male is 12 (slightly lower in preterms). <b>EGS &lt; 9</b> in an infant expected to be phenotypically male (e.g. severe hypospadias) prioritises endocrine/genetic screening; <b>EGS ≤ 4</b> in highly atypical genitalia statistically correlates with a female sex-assignment pathway — a decision that always belongs to the MDT, never to a score alone.</p>
+  <div class="forms three" id="egsForm"></div>
+  <div class="meter"><div class="lab"><span>External Genitalia Score</span><span id="egsVal">—</span></div><div class="bar"><i id="egsBar" style="width:0%"></i></div></div>
+  <div id="egsInterp"></div>
+
+  <div class="subhead">Other examination</div>
+  <div class="forms three" id="examForm"></div>
+ </section>
+
+ <!-- 4. KARYOTYPE & IMAGING -->
+ <section class="card section" id="karyo">
+  <h2 class="title"><span class="n">4</span>Karyotype, imaging &amp; genetics</h2>
+  <p class="hint">Karyotype is the top-level classifier (sex-chromosome vs 46,XY vs 46,XX DSD). Uterus on pelvic ultrasound, gonadal position/type, and targeted genetics route the rest.</p>
+  <div class="forms three" id="karyoForm"></div>
+ </section>
+
+ <!-- 5. STEROID PANEL -->
+ <section class="card section" id="panel">
+  <h2 class="title"><span class="n">5</span>Steroid / CAH / gonadal panel</h2>
+  <p class="hint">Enter numeric value + reference interval for auto Low/Normal/High, or set a manual status when using age/sex/stage-specific cut-offs. LC-MS/MS profiling (17-OHP, 21-deoxycortisol, 11-deoxycortisol, DOC, the 11-oxygenated and backdoor markers) is the modern standard (Claahsen-van der Grinten 2022; Speiser 2018).</p>
+  <div class="controls"><button class="btn" id="clearAdv">Clear advanced markers</button><button class="btn" id="markKey">Mark key CAH markers measured</button></div>
+  <div class="tablewrap"><table id="labTable"><thead><tr><th>Meas?</th><th>Marker</th><th>Result</th><th>Unit</th><th>Low</th><th>High</th><th>Manual</th><th>Status</th></tr></thead><tbody></tbody></table></div>
+ </section>
+
+ <!-- 6. DIFFERENTIAL -->
+ <section class="card section" id="dx">
+  <h2 class="title"><span class="n">6</span>Differential — glassbox ranking</h2>
+  <p class="hint">Score = Σ (weight × fired feature). Positive terms support the diagnosis; <span style="color:#ffc3ce">negative terms</span> are contradictions that pull it down. <b>Match %</b> = max(0, score) ÷ total positive weight. <b>Data %</b> = fraction of that diagnosis's discriminators you have actually entered. Expand any card to audit every term.</p>
+  <div class="controls"><div class="seg" id="dxFilter"><button class="active" data-f="all">All groups</button><button data-f="Sex chromosome DSD">Sex chromosome</button><button data-f="46,XY DSD">46,XY</button><button data-f="46,XX DSD">46,XX</button></div></div>
+  <div class="results" id="results"></div>
+ </section>
+
+ <!-- 7. NEXT BEST TEST -->
+ <section class="card section" id="next">
+  <h2 class="title"><span class="n">7</span>Next best test — information gain</h2>
+  <p class="hint">For every input you have <b>not</b> yet entered, the model sums the weight it carries across the current leading diagnoses. The higher the number, the more that single result would move the ranking — this is how you converge without ordering everything blindly.</p>
+  <div class="nextlist" id="nextList"></div>
+ </section>
+
+ <!-- PATHWAY -->
+ <section class="card section" id="map">
+  <h2 class="title">Steroidogenesis map</h2>
+  <p class="hint">Solid coloured nodes are measured (green normal / amber low / red high). Dashed grey nodes are pathway context. A red precursor immediately upstream of a block with a low product below it localises the enzyme defect.</p>
+  <div class="controls"><div class="seg" id="mapFilter"><button class="active" data-f="all">All</button><button data-f="cah">Canonical / CAH</button><button data-f="androgen">Androgen</button><button data-f="backdoor">Backdoor DHT</button><button data-f="oxy">11-oxygenated</button><button data-f="measured">Measured only</button></div></div>
+  <div class="pathshell"><svg id="svg" viewBox="0 0 1160 610"><defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6b7a92"/></marker></defs>
+   <rect class="lane" x="20" y="70" width="1120" height="150" rx="18"/><rect class="lane" x="20" y="245" width="1120" height="125" rx="18"/><rect class="lane" x="20" y="395" width="1120" height="85" rx="18"/><rect class="lane" x="20" y="500" width="1120" height="85" rx="18"/>
+   <text x="36" y="98" fill="#eef6ff" font-weight="800">Canonical adrenal steroidogenesis / CAH blocks</text>
+   <text x="36" y="273" fill="#eef6ff" font-weight="800">Classic androgen pathway</text>
+   <text x="36" y="423" fill="#eef6ff" font-weight="800">Backdoor DHT pathway</text>
+   <text x="36" y="528" fill="#eef6ff" font-weight="800">11-oxygenated androgen pathway</text>
+   <g id="edges"></g><g id="nodes"></g></svg></div>
+ </section>
+
+ <!-- ATLAS -->
+ <section class="card section" id="atlas">
+  <h2 class="title">Full DSD classification atlas</h2>
+  <p class="hint">The complete classification tree (Lee 2016). Search or filter by top-level group; click an entry for its key clues.</p>
+  <div class="searchrow"><input id="search" placeholder="Search: CYP21A2, AIS, Turner, Müllerian, hypospadias…"><select id="atlasFilter"><option value="all">All groups</option><option value="Sex chromosome DSD">Sex chromosome DSD</option><option value="46,XY DSD">46,XY DSD</option><option value="46,XX DSD">46,XX DSD</option></select></div>
+  <div class="atlas" id="atlasGrid"></div>
+ </section>
+
+ <!-- REFERENCES -->
+ <section class="card section" id="refs">
+  <h2 class="title">Key references &amp; guidelines</h2>
+  <p class="hint">Free article / PDF links open in a new tab (internet required).</p>
+  <div class="refgrid" id="refGrid"></div>
+ </section>
+
+ <section class="note"><b>Medical disclaimer.</b> DSD/CAH evaluation can be urgent — a newborn with vomiting, dehydration, shock, hyponatraemia/hyperkalaemia or suspected adrenal insufficiency needs immediate senior review. This tool is educational pattern-recognition; it cannot diagnose, assign sex, or replace a multidisciplinary DSD team, karyotype/genetics, imaging, dynamic (ACTH-stimulation) testing, or laboratory-specific age/sex reference interpretation.</section>
+
+</div>
+
+<aside class="card side" id="live"></aside>
+</main>
+</div>
+
+<script>
+/* ============================ INPUT MODEL ============================ */
+const UNK='unknown';
+const historyDefs=[
+ ['ageGroup','Age at presentation','','newborn',[['newborn','Newborn (0–28 d)'],['infant','Infant / young child'],['childhood','Prepubertal child'],['adolescent','Adolescent'],['adult','Adult']]],
+ ['presentation','Reason for referral','','unknown',[[UNK,'—'],['ambiguous','Ambiguous genitalia'],['femaleInguinal','Apparent girl + inguinal/labial mass or hernia'],['maleNonpalp','Apparent boy + bilateral non-palpable gonads ± hypospadias'],['hypospadias','Proximal / severe hypospadias'],['saltCrisis','Salt-wasting crisis / adrenal crisis'],['delayedPub','Delayed / absent puberty'],['primaryAmen','Primary amenorrhoea'],['pubVirilization','Virilisation at puberty']]],
+ ['consang','Parental consanguinity','Raises prior for recessive enzyme defects',UNK,[[UNK,'—'],['yes','Yes'],['no','No']]],
+ ['familyDSD','Affected sibling / relative','Similar genitalia, infertility, amenorrhoea',UNK,[[UNK,'—'],['yes','Yes'],['no','No']]],
+ ['neonatalDeath','Unexplained neonatal/infant death in family','Suggests undiagnosed salt-wasting CAH',UNK,[[UNK,'—'],['yes','Yes'],['no','No']]],
+ ['maternalVirilization','Maternal virilisation during pregnancy','Acne, hirsutism, voice change → aromatase/placental',UNK,[[UNK,'—'],['yes','Yes'],['no','No']]],
+ ['maternalDrugs','Maternal androgen / progestin exposure','Danazol, anabolic steroids, some progestins',UNK,[[UNK,'—'],['yes','Yes'],['no','No']]],
+ ['prenatal','Prenatal karyotype ↔ phenotype discordance','e.g. 46,XY on NIPT/CVS but female/ambiguous at birth',UNK,[[UNK,'—'],['yes','Yes'],['no','No']]]
+];
+const emsDefs=[
+ ['emsScrotum','Scrotal / labial fusion','',0,[['0','None (labia major separate)'],['1.5','Partial fusion'],['3','Complete (rugose scrotum)']]],
+ ['emsPhallus','Phallus size','',0,[['0','Micropenis / clitoromegaly'],['3','Normal for age']]],
+ ['emsMeatus','Urethral meatus','',0,[['0','Perineal'],['1','Scrotal / posterior'],['2','Penile / distal shaft'],['3','Glandular (tip)']]],
+ ['emsGonadR','Right gonad','',0,[['0','Not palpable'],['0.5','Inguinal'],['1.5','Labioscrotal / scrotal']]],
+ ['emsGonadL','Left gonad','',0,[['0','Not palpable'],['0.5','Inguinal'],['1.5','Labioscrotal / scrotal']]]
+];
+const egsDefs=[
+ ['egsFusion','1 · Labioscrotal fusion','',0,[['0','Completely unfused (typical female)'],['0.5','Perineal / partial fusion'],['1.5','Scrotal / posterior fusion'],['3','Completely fused (typical male)']]],
+ ['egsTubercle','2 · Genital tubercle size','Stretched length',0,[['0','≤ 10 mm (typical female clitoris)'],['1','10–20 mm'],['1.5','21–25 mm'],['2.5','26–30 mm'],['3','≥ 31 mm (typical male penis)']]],
+ ['egsMeatus','3 · Urethral meatus position','',0,[['0','Typical female opening'],['1','Scrotal / perineal'],['1.5','Peno-scrotal'],['2','Penile shaft'],['2.5','Coronal / glandular'],['3','Typical male (at tip)']]],
+ ['egsGonadR','4 · Right gonad location','',0,[['0','Impalpable (typical female)'],['0.5','Inguinal'],['1','Inguino-scrotal'],['1.5','Fully descended (scrotum)']]],
+ ['egsGonadL','5 · Left gonad location','',0,[['0','Impalpable (typical female)'],['0.5','Inguinal'],['1','Inguino-scrotal'],['1.5','Fully descended (scrotum)']]]
+];
+const examDefs=[
+ ['prader','Prader stage (virilised 46,XX)','0 = female, 5 = male-appearing',UNK,[[UNK,'—'],['0','0 – typical female'],['1','I'],['2','II'],['3','III'],['4','IV'],['5','V – male-appearing']]],
+ ['gonadPalp','Palpable gonad(s)','Testis/ovotestis in fold ⇒ 46,XX CAH excluded',UNK,[[UNK,'—'],['bilateral','Bilateral palpable'],['unilateral','One palpable / asymmetric'],['none','None palpable']]],
+ ['pigment','Genital / areolar hyperpigmentation','ACTH excess → suggests CAH',UNK,[[UNK,'—'],['yes','Hyperpigmented'],['no','Normal']]],
+ ['bp','Blood pressure','Hypertension → DOC excess (CYP11B1/CYP17A1)',UNK,[[UNK,'—'],['hypertension','Hypertension'],['normal','Normal'],['hypotension','Hypotension / shock']]],
+ ['stature','Stature','Short → Turner; tall → Klinefelter',UNK,[[UNK,'—'],['short','Short'],['normal','Normal'],['tall','Tall']]],
+ ['dysmorphic','Syndromic / dysmorphic features','Skeletal, renal, cardiac, limb, craniofacial',UNK,[[UNK,'—'],['yes','Present'],['no','Absent']]]
+];
+const karyoDefs=[
+ ['karyotype','Karyotype','Top-level DSD classifier',UNK,[[UNK,'—'],['46XX','46,XX'],['46XY','46,XY'],['45X','45,X / Turner spectrum'],['47XXY','47,XXY / Klinefelter'],['45X46XY','45,X/46,XY mosaic'],['46XX46XY','46,XX/46,XY chimera'],['otherSC','Other sex-chromosome']]],
+ ['uterus','Uterus / Müllerian structures','Pelvic USG / MRI',UNK,[[UNK,'—'],['present','Present'],['absent','Absent'],['abnormal','Abnormal / hypoplastic']]],
+ ['gonads','Gonad type','Imaging / laparoscopy / histology',UNK,[[UNK,'—'],['ovaries','Ovaries'],['testesPalp','Palpable testes'],['testesNonpalp','Intra-abdominal testes'],['ovotestes','Ovotestes'],['streak','Streak / dysgenetic'],['absent','Absent / vanished']]],
+ ['sry','Testis-pathway genetics','SRY, SOX9, SF1/NR5A1, WT1, DHH, RSPO1',UNK,[[UNK,'—'],['positive','SRY positive / Y material'],['negative','SRY negative'],['sox9dup','SOX9 duplication'],['rspo1','RSPO1 / WNT4 finding'],['gonadalGene','SF1/WT1/DHH/SOX9 variant']]]
+];
+
+let C={};
+function initC(){ C={};
+ [...historyDefs,...examDefs,...karyoDefs].forEach(d=>C[d[0]]=d[3]);
+ [...emsDefs,...egsDefs].forEach(d=>C[d[0]]=d[3]);
+}
+initC();
+function ems(){return emsDefs.reduce((s,d)=>s+(+C[d[0]]||0),0);}      // 0..12
+function egs(){return egsDefs.reduce((s,d)=>s+(+C[d[0]]||0),0);}      // 0..12
+function egsTouched(){return egsDefs.some(d=>(+C[d[0]]||0)>0);}
+function known(k){ if(k in C) return C[k]!==UNK && C[k]!=='';
+ return meas(k); }
+
+/* ============================ LAB PANEL ============================ */
+const lab0=[
+ {id:'ohp17',n:'17-hydroxyprogesterone (17-OHP)',u:'nmol/L',m:true,v:'',lo:1,hi:6,man:'auto',role:'Primary 21-hydroxylase screen; markedly high in classic 21-OHD'},
+ {id:'deoxy21',n:'21-deoxycortisol',u:'nmol/L',m:false,v:'',lo:'',hi:2,man:'auto',role:'Specific CYP21A2 marker (high) — LC-MS/MS'},
+ {id:'progesterone',n:'Progesterone',u:'nmol/L',m:false,v:'',lo:'',hi:3,man:'auto',role:'High in CYP21A2 and CYP17A1 blocks'},
+ {id:'deoxy11',n:'11-deoxycortisol',u:'nmol/L',m:false,v:'',lo:'',hi:8,man:'auto',role:'Key CYP11B1 precursor (high)'},
+ {id:'doc',n:'11-deoxycorticosterone (DOC)',u:'nmol/L',m:false,v:'',lo:'',hi:0.7,man:'auto',role:'High in CYP11B1 and CYP17A1 (→ hypertension)'},
+ {id:'corticosterone',n:'Corticosterone',u:'nmol/L',m:false,v:'',lo:1,hi:60,man:'auto',role:'High in CYP17A1'},
+ {id:'cortisol',n:'Cortisol (baseline / stimulated)',u:'nmol/L',m:true,v:'',lo:140,hi:650,man:'auto',role:'Low = glucocorticoid deficiency (CAH)'},
+ {id:'aldosterone',n:'Aldosterone',u:'pmol/L',m:false,v:'',lo:100,hi:1000,man:'auto',role:'Low in salt-wasting CAH'},
+ {id:'renin',n:'Renin / PRA',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'High = mineralocorticoid deficiency (salt-wasting)'},
+ {id:'acth',n:'ACTH',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'High drives adrenal precursor accumulation in CAH'},
+ {id:'na',n:'Sodium',u:'mmol/L',m:true,v:'',lo:135,hi:145,man:'auto',role:'Low + high K = salt-wasting crisis'},
+ {id:'k',n:'Potassium',u:'mmol/L',m:true,v:'',lo:3.5,hi:5.5,man:'auto',role:'High = mineralocorticoid deficiency'},
+ {id:'testosterone',n:'Testosterone',u:'nmol/L',m:true,v:'',lo:0.3,hi:10,man:'auto',role:'Interpret by age/sex/stage ± hCG stimulation'},
+ {id:'dht',n:'Dihydrotestosterone (DHT)',u:'nmol/L',m:false,v:'',lo:0.3,hi:2.5,man:'auto',role:'Low with normal T ⇒ 5α-reductase 2 deficiency'},
+ {id:'tdht',n:'Testosterone : DHT ratio',u:'ratio',m:false,v:'',lo:'',hi:10,man:'auto',role:'High (>10, esp. post-hCG) supports SRD5A2 deficiency'},
+ {id:'androstenedione',n:'Androstenedione',u:'nmol/L',m:false,v:'',lo:0.5,hi:10,man:'auto',role:'High in 17β-HSD3; adrenal androgen excess'},
+ {id:'dhea',n:'DHEA',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'Δ5 androgen; high in 3β-HSD2'},
+ {id:'dheas',n:'DHEAS',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'Sulfated storage form'},
+ {id:'pregnenolone',n:'Pregnenolone',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'High in 3β-HSD2; low in StAR/CYP11A1'},
+ {id:'ohpreg17',n:'17-OH-pregnenolone',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'Very high in 3β-HSD2 deficiency'},
+ {id:'amh',n:'Anti-Müllerian hormone (AMH)',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'Sertoli marker; low/absent = dysgenesis or no functional testis'},
+ {id:'lh',n:'LH',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'High + low T = primary gonadal failure; low = hypogonadotropic'},
+ {id:'fsh',n:'FSH',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'High = gonadal dysgenesis / failure'},
+ {id:'androsterone',n:'Androsterone (backdoor)',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'Backdoor DHT pathway marker'},
+ {id:'kt11',n:'11-ketotestosterone (11-KT)',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'11-oxygenated adrenal androgen'},
+ {id:'ka11',n:'11-ketoandrostenedione (11-KA4)',u:'',m:false,v:'',lo:'',hi:'',man:'auto',role:'11-oxygenated adrenal androgen'}
+];
+let labs=JSON.parse(JSON.stringify(lab0));
+const L=()=>Object.fromEntries(labs.map(x=>[x.id,x]));
+function num(x){let m=String(x??'').replace(',','.').match(/-?\d+(\.\d+)?/);return m?+m[0]:NaN;}
+function st(x){if(!x||!x.m)return'notMeasured';if(x.man&&x.man!='auto')return x.man;let v=num(x.v),lo=num(x.lo),hi=num(x.hi);if(isNaN(v))return'unknown';if(!isNaN(lo)&&v<lo)return'low';if(!isNaN(hi)&&v>hi)return'high';if(isNaN(lo)&&isNaN(hi))return'unknown';return'normal';}
+const stat=id=>st(L()[id]);
+const high=id=>stat(id)=='high',low=id=>stat(id)=='low',normal=id=>stat(id)=='normal',meas=id=>!!(L()[id]&&L()[id].m);
+const anyHigh=(...a)=>a.some(high),anyLow=(...a)=>a.some(low);
+
+/* ============================ KNOWLEDGE BASE ============================
+ Each feature: {k:<input key it reads>, w:<weight, negative = contradiction>,
+ c:<()=>bool fired?>, t:<label>}.  Glassbox: every term is displayed.        */
+function F(k,w,c,t){return{k,w,c,t};}
+const dxDefs=[
+ /* ---- SEX CHROMOSOME ---- */
+ {id:'sc-45x',group:'Sex chromosome DSD',title:'Turner syndrome spectrum',gene:'45,X and variants',hint:'Short stature, streak gonads, primary ovarian insufficiency, cardiac/renal anomalies.',
+  work:'Karyotype (30+ cells / FISH for mosaicism), echo + renal USG, gonadotropins; oestrogen induction if indicated.',
+  feats:[F('karyotype',9,()=>C.karyotype=='45X','Karyotype 45,X / Turner spectrum'),F('stature',2,()=>C.stature=='short','Short stature'),F('gonads',1.5,()=>C.gonads=='streak','Streak gonads'),F('fsh',1.5,()=>high('fsh')||high('lh'),'High gonadotropins'),F('karyotype',-6,()=>['46XY','47XXY','46XX46XY'].includes(C.karyotype),'Karyotype not 45,X')]},
+ {id:'sc-47xxy',group:'Sex chromosome DSD',title:'Klinefelter syndrome spectrum',gene:'47,XXY and variants',hint:'Tall stature, small firm testes, hypergonadotropic hypogonadism, infertility.',
+  work:'Karyotype, morning testosterone + LH/FSH, semen analysis; testosterone replacement as needed.',
+  feats:[F('karyotype',9,()=>C.karyotype=='47XXY','Karyotype 47,XXY'),F('stature',1.5,()=>C.stature=='tall','Tall stature'),F('lh',1.5,()=>high('lh')||high('fsh'),'High gonadotropins'),F('testosterone',1.5,()=>low('testosterone'),'Low testosterone')]},
+ {id:'sc-mgd',group:'Sex chromosome DSD',title:'Mixed gonadal dysgenesis',gene:'45,X/46,XY',hint:'Asymmetric gonads (streak + testis), ambiguous genitalia, gonadal tumour risk.',
+  work:'Karyotype (blood ± gonad), gonadal imaging/biopsy, tumour-risk assessment (gonadoblastoma).',
+  feats:[F('karyotype',8,()=>C.karyotype=='45X46XY','Karyotype 45,X/46,XY mosaic'),F('presentation',1.5,()=>C.presentation=='ambiguous','Ambiguous genitalia'),F('gonads',2,()=>C.gonads=='streak','Streak/dysgenetic gonad')]},
+ {id:'sc-chimera',group:'Sex chromosome DSD',title:'46,XX/46,XY chimerism',gene:'46,XX/46,XY',hint:'May present as ovotesticular DSD with discordant cell lines.',
+  work:'Karyotype on multiple tissues, gonadal histology.',
+  feats:[F('karyotype',8,()=>C.karyotype=='46XX46XY','Karyotype 46,XX/46,XY'),F('gonads',2.5,()=>C.gonads=='ovotestes','Ovotestes')]},
+
+ /* ---- 46,XY DSD ---- */
+ {id:'xy-cgd',group:'46,XY DSD',title:'Gonadal (testicular) dysgenesis — Swyer/partial',gene:'SRY / SOX9 / NR5A1 / WT1 / DHH / MAP3K1',hint:'Streak or dysgenetic testes, Müllerian remnants may persist, low AMH/T, high gonadotropins; tumour risk.',
+  work:'AMH, testosterone (± hCG), LH/FSH, pelvic imaging, DSD gene panel; early gonadectomy discussion for tumour risk.',
+  feats:[F('karyotype',2,()=>C.karyotype=='46XY','46,XY karyotype'),F('sry',2.5,()=>C.sry=='gonadalGene'||C.sry=='negative','Testis-determination gene defect / SRY-'),F('uterus',2.5,()=>C.uterus=='present','Uterus present (insufficient AMH)'),F('gonads',2.5,()=>C.gonads=='streak','Streak/dysgenetic gonad'),F('amh',2,()=>low('amh'),'Low AMH'),F('fsh',1.5,()=>high('fsh')||high('lh'),'High gonadotropins'),F('testosterone',1,()=>low('testosterone'),'Low testosterone')]},
+ {id:'xy-lhcgr',group:'46,XY DSD',title:'Leydig-cell hypoplasia (LH-receptor)',gene:'LHCGR',hint:'Low testosterone despite testes; AMH preserved; LH high, hCG stimulation flat.',
+  work:'Testosterone pre/post hCG (flat), LH, AMH; LHCGR sequencing.',
+  feats:[F('karyotype',2,()=>C.karyotype=='46XY','46,XY karyotype'),F('testosterone',2.5,()=>low('testosterone'),'Low testosterone'),F('lh',2.5,()=>high('lh'),'High LH'),F('amh',1.5,()=>normal('amh')||high('amh'),'AMH preserved'),F('uterus',1,()=>C.uterus=='absent','Uterus absent')]},
+ {id:'xy-star',group:'46,XY DSD',title:'Lipoid CAH / StAR (or CYP11A1)',gene:'STAR / CYP11A1',hint:'Global steroidogenic failure — severe adrenal insufficiency + fully undervirilised 46,XY (female external genitalia).',
+  work:'ALL steroids low, ACTH high, salt-wasting; adrenal imaging (enlarged in StAR); urgent gluco-/mineralocorticoid replacement.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XY','46,XY karyotype'),F('cortisol',3,()=>low('cortisol'),'Cortisol low'),F('pregnenolone',2,()=>low('pregnenolone'),'Pregnenolone low (early block)'),F('testosterone',1.5,()=>low('testosterone'),'Androgens low'),F('presentation',2,()=>C.presentation=='saltCrisis','Salt-wasting crisis'),F('acth',1.5,()=>high('acth'),'ACTH high')]},
+ {id:'xy-hsd3b2',group:'46,XY DSD',title:'3β-HSD type 2 deficiency',gene:'HSD3B2',hint:'Δ5 precursor accumulation (17-OH-pregnenolone, DHEA); undervirilised 46,XY / mildly virilised 46,XX; salt-wasting possible.',
+  work:'17-OH-pregnenolone, pregnenolone, DHEA (all high) with high Δ5/Δ4 ratio; ACTH stimulation.',
+  feats:[F('ohpreg17',3.5,()=>high('ohpreg17'),'17-OH-pregnenolone high'),F('pregnenolone',2,()=>high('pregnenolone'),'Pregnenolone high'),F('dhea',2,()=>high('dhea'),'DHEA high'),F('cortisol',1.5,()=>low('cortisol')||low('aldosterone'),'Adrenal output low'),F('presentation',1,()=>C.presentation=='saltCrisis','Salt-wasting')]},
+ {id:'xy-cyp17',group:'46,XY DSD',title:'17α-hydroxylase / 17,20-lyase deficiency',gene:'CYP17A1',hint:'Low cortisol & sex steroids, high DOC/corticosterone/progesterone → hypertension, hypokalaemia; undervirilised 46,XY or pubertal failure 46,XX.',
+  work:'DOC, corticosterone, progesterone high; cortisol & androgens low; suppressed renin, hypokalaemia, hypertension.',
+  feats:[F('doc',2.5,()=>high('doc'),'DOC high'),F('corticosterone',2,()=>high('corticosterone'),'Corticosterone high'),F('progesterone',2,()=>high('progesterone'),'Progesterone high'),F('bp',2,()=>C.bp=='hypertension','Hypertension'),F('cortisol',1.5,()=>low('cortisol'),'Cortisol low'),F('testosterone',1.5,()=>anyLow('testosterone','dhea','androstenedione'),'Sex steroids low')]},
+ {id:'xy-hsd17b3',group:'46,XY DSD',title:'17β-HSD type 3 deficiency',gene:'HSD17B3',hint:'Androstenedione→testosterone block: high androstenedione, low T, high A/T ratio; often virilises at puberty.',
+  work:'Androstenedione:testosterone ratio (± hCG), gene test; distinguish from 5α-reductase clinically.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XY','46,XY karyotype'),F('androstenedione',3,()=>high('androstenedione'),'Androstenedione high'),F('testosterone',2.5,()=>low('testosterone'),'Testosterone low for context'),F('pubVir',1.5,()=>C.presentation=='pubVirilization'||C.ageGroup=='adolescent','Virilisation at puberty'),F('uterus',1,()=>C.uterus=='absent','Uterus absent')]},
+ {id:'xy-srd5a2',group:'46,XY DSD',title:'5α-reductase type 2 deficiency',gene:'SRD5A2',hint:'Undervirilised at birth, striking virilisation at puberty; low DHT with normal/high testosterone → high T:DHT ratio.',
+  work:'Testosterone:DHT ratio (>10, ideally post-hCG), SRD5A2 sequencing.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XY','46,XY karyotype'),F('tdht',4,()=>high('tdht'),'High testosterone:DHT ratio'),F('dht',2,()=>low('dht'),'DHT low'),F('testosterone',1.5,()=>normal('testosterone')||high('testosterone'),'Testosterone preserved'),F('pubVir',2,()=>C.presentation=='pubVirilization','Virilisation at puberty'),F('uterus',1,()=>C.uterus=='absent','Uterus absent')]},
+ {id:'xy-ais',group:'46,XY DSD',title:'Androgen insensitivity (CAIS / PAIS)',gene:'AR',hint:'46,XY, testes, NO uterus, normal/high testosterone & LH, normal AMH; female (CAIS) or ambiguous (PAIS) phenotype.',
+  work:'Testosterone (normal/high), LH (normal/high), AMH normal, uterus absent; AR sequencing.',
+  feats:[F('karyotype',2,()=>C.karyotype=='46XY','46,XY karyotype'),F('uterus',2.5,()=>C.uterus=='absent','Uterus absent'),F('gonads',1.5,()=>C.gonads=='testesPalp'||C.gonads=='testesNonpalp','Testes present'),F('testosterone',2.5,()=>normal('testosterone')||high('testosterone'),'Testosterone not low'),F('amh',1.5,()=>normal('amh')||high('amh'),'AMH normal'),F('lh',1,()=>high('lh')||normal('lh'),'LH normal/high'),F('presentation',1.5,()=>C.presentation=='femaleInguinal'||C.presentation=='primaryAmen'||C.presentation=='ambiguous','Girl with inguinal gonad / primary amenorrhoea'),F('uterus',-3,()=>C.uterus=='present','Uterus present — argues against AIS')]},
+ {id:'xy-pmds',group:'46,XY DSD',title:'Persistent Müllerian duct syndrome',gene:'AMH / AMHR2',hint:'Otherwise normally virilised 46,XY male with a uterus/fallopian tubes; often cryptorchidism / hernia uteri inguinale.',
+  work:'AMH (low if AMH gene) or normal (if receptor); imaging shows Müllerian structures; gene test.',
+  feats:[F('karyotype',2,()=>C.karyotype=='46XY','46,XY karyotype'),F('uterus',4,()=>C.uterus=='present','Uterus present in virilised male'),F('ems',2,()=>ems()>=8,'Well-virilised external genitalia'),F('presentation',1.5,()=>C.presentation=='hypospadias'||C.gonads=='testesNonpalp','Cryptorchidism / hernia')]},
+ {id:'xy-chh',group:'46,XY DSD',title:'Congenital hypogonadotropic hypogonadism',gene:'ANOS1/FGFR1/GNRHR…',hint:'Micropenis ± cryptorchidism, or delayed puberty; LOW LH & FSH with low testosterone (± anosmia = Kallmann).',
+  work:'LH, FSH, testosterone (all low), smell testing, pituitary MRI, minipuberty window sampling.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XY','46,XY karyotype'),F('lh',3,()=>low('lh')&&low('fsh'),'Low LH and FSH'),F('testosterone',2,()=>low('testosterone'),'Low testosterone'),F('presentation',1.5,()=>C.presentation=='delayedPub','Delayed / absent puberty')]},
+ {id:'xy-hypospadias',group:'46,XY DSD',title:'Isolated hypospadias / cryptorchidism',gene:'MAMLD1 / INSL3 / multifactorial',hint:'Often multifactorial; evaluate severity, proximal meatus and associated undescended testes.',
+  work:'Confirm 46,XY, normal androgen axis; assess for associated anomalies; usually no monogenic cause found.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XY','46,XY karyotype'),F('presentation',2.5,()=>C.presentation=='hypospadias','Hypospadias referral'),F('uterus',1,()=>C.uterus=='absent','No Müllerian structures'),F('testosterone',1,()=>normal('testosterone'),'Normal androgen axis')]},
+
+ /* ---- 46,XX DSD ---- */
+ {id:'xx-cyp21',group:'46,XX DSD',title:'21-hydroxylase deficiency CAH',gene:'CYP21A2',hint:'Commonest DSD/CAH: high 17-OHP (& 21-deoxycortisol), androgen excess virilising 46,XX, salt-wasting in the classic form.',
+  work:'17-OHP (basal ± ACTH-stimulated), 21-deoxycortisol, electrolytes, renin, androstenedione; hydrocortisone ± fludrocortisone + salt.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XX','46,XX karyotype'),F('presentation',1.5,()=>C.presentation=='ambiguous'||C.prader!=UNK&&+C.prader>0,'Virilised 46,XX / ambiguous'),F('ohp17',4,()=>high('ohp17'),'17-OHP high'),F('deoxy21',3,()=>high('deoxy21'),'21-deoxycortisol high'),F('cortisol',1.5,()=>low('cortisol'),'Cortisol low'),F('na',2,()=>(low('na')&&high('k'))||high('renin')||low('aldosterone')||C.presentation=='saltCrisis','Salt-wasting biochemistry'),F('androstenedione',1.5,()=>anyHigh('androstenedione','testosterone','kt11'),'Androgen / 11-oxy excess'),F('pigment',1,()=>C.pigment=='yes','Hyperpigmentation (ACTH)'),F('gonadPalp',-4,()=>C.gonadPalp=='bilateral','Bilateral palpable gonads — argues against 46,XX CAH')]},
+ {id:'xx-cyp11b1',group:'46,XX DSD',title:'11β-hydroxylase deficiency CAH',gene:'CYP11B1',hint:'High 11-deoxycortisol & DOC, virilisation of 46,XX, and hypertension with hypokalaemia (DOC excess).',
+  work:'11-deoxycortisol & DOC (high), cortisol low, BP/K monitoring; glucocorticoid replacement normalises BP.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XX','46,XX karyotype'),F('deoxy11',4,()=>high('deoxy11'),'11-deoxycortisol high'),F('doc',3,()=>high('doc'),'DOC high'),F('bp',2.5,()=>C.bp=='hypertension','Hypertension'),F('cortisol',1.5,()=>low('cortisol'),'Cortisol low'),F('androstenedione',1,()=>anyHigh('androstenedione','testosterone'),'Androgen excess'),F('gonadPalp',-3,()=>C.gonadPalp=='bilateral','Bilateral palpable gonads argue against 46,XX CAH')]},
+ {id:'xx-hsd3b2',group:'46,XX DSD',title:'3β-HSD type 2 deficiency CAH',gene:'HSD3B2',hint:'Δ5 accumulation; mildly virilises 46,XX (peripheral DHEA→T); adrenal insufficiency / salt-wasting.',
+  work:'17-OH-pregnenolone, DHEA (high), high Δ5:Δ4 ratio, cortisol/aldosterone low.',
+  feats:[F('ohpreg17',3.5,()=>high('ohpreg17'),'17-OH-pregnenolone high'),F('dhea',2,()=>high('dhea'),'DHEA high'),F('cortisol',2,()=>low('cortisol')||low('aldosterone'),'Adrenal output low'),F('presentation',1.5,()=>C.presentation=='saltCrisis','Salt-wasting'),F('karyotype',1,()=>C.karyotype=='46XX','46,XX karyotype')]},
+ {id:'xx-por',group:'46,XX DSD',title:'P450 oxidoreductase deficiency',gene:'POR',hint:'Combined CYP17A1/CYP21A2/CYP19A1 impairment; 46,XX virilisation ± maternal virilisation, Antley-Bixler skeletal features.',
+  work:'Mixed steroid pattern (high 17-OHP + high progesterone/pregnenolone), skeletal survey; POR sequencing.',
+  feats:[F('karyotype',1,()=>C.karyotype=='46XX','46,XX karyotype'),F('presentation',1.5,()=>C.presentation=='ambiguous','46,XX virilisation'),F('dysmorphic',3,()=>C.dysmorphic=='yes','Skeletal / craniosynostosis features'),F('progesterone',2,()=>high('progesterone')||high('ohp17'),'Precursor abnormality'),F('maternalVirilization',1.5,()=>C.maternalVirilization=='yes','Maternal virilisation')]},
+ {id:'xx-aromatase',group:'46,XX DSD',title:'Aromatase deficiency',gene:'CYP19A1',hint:'Fetal androgens not converted to oestrogen → virilises BOTH mother (during pregnancy) and 46,XX fetus; low oestrogen.',
+  work:'History of maternal virilisation resolving post-partum, high androgens, low oestradiol; CYP19A1 test.',
+  feats:[F('karyotype',1.5,()=>C.karyotype=='46XX','46,XX karyotype'),F('maternalVirilization',4,()=>C.maternalVirilization=='yes','Maternal virilisation in pregnancy'),F('presentation',2,()=>C.presentation=='ambiguous','46,XX virilisation'),F('androstenedione',1,()=>anyHigh('androstenedione','testosterone'),'Androgens high')]},
+ {id:'xx-maternal',group:'46,XX DSD',title:'Maternal androgen source / drugs',gene:'—',hint:'Maternal luteoma, adrenal/ovarian tumour, or androgenic drug exposure; fetal CAH precursors NOT elevated.',
+  work:'Maternal exam/imaging + drug history; normal fetal 17-OHP/11-deoxycortisol distinguishes from CAH.',
+  feats:[F('karyotype',1,()=>C.karyotype=='46XX','46,XX karyotype'),F('presentation',1.5,()=>C.presentation=='ambiguous','Virilised 46,XX'),F('maternalDrugs',3,()=>C.maternalDrugs=='yes','Maternal androgen/progestin exposure'),F('maternalVirilization',2,()=>C.maternalVirilization=='yes','Maternal virilisation / tumour'),F('ohp17',1.5,()=>meas('ohp17')&&!high('ohp17')&&meas('deoxy11')&&!high('deoxy11'),'No fetal CAH precursor elevation')]},
+ {id:'xx-testicular',group:'46,XX DSD',title:'46,XX testicular DSD',gene:'SRY+ / SOX9 dup / SOX3',hint:'46,XX with testes, absent uterus, male/ambiguous phenotype — usually SRY translocation or SOX9 upregulation.',
+  work:'FISH/PCR for SRY, array-CGH for SOX9 duplication; gonadal histology.',
+  feats:[F('karyotype',2,()=>C.karyotype=='46XX','46,XX karyotype'),F('gonads',3,()=>C.gonads=='testesPalp'||C.gonads=='testesNonpalp','Testes identified'),F('sry',3,()=>C.sry=='positive'||C.sry=='sox9dup','SRY positive / SOX9 duplication'),F('uterus',1.5,()=>C.uterus=='absent','Uterus absent')]},
+ {id:'xx-ot',group:'46,XX DSD',title:'Ovotesticular DSD',gene:'RSPO1 / SOX9 / SRY / mosaic',hint:'Both ovarian and testicular tissue; commonly 46,XX; ambiguous genitalia.',
+  work:'Gonadal biopsy/histology is definitive; karyotype on multiple tissues, genetics.',
+  feats:[F('gonads',5,()=>C.gonads=='ovotestes','Ovotestes identified'),F('presentation',1.5,()=>C.presentation=='ambiguous','Ambiguous genitalia'),F('karyotype',1,()=>['46XX','46XY','46XX46XY'].includes(C.karyotype),'Compatible karyotype')]},
+ {id:'xx-gd',group:'46,XX DSD',title:'46,XX gonadal dysgenesis / POI',gene:'FSHR / BMP15 / NR5A1 / FMR1',hint:'Streak/dysgenetic ovaries, delayed puberty or primary amenorrhoea, high gonadotropins; uterus present.',
+  work:'FSH/LH high, oestradiol low, pelvic USG (small uterus, streak gonads); genetics incl. fragile-X premutation.',
+  feats:[F('karyotype',2,()=>C.karyotype=='46XX','46,XX karyotype'),F('gonads',3,()=>C.gonads=='streak','Streak / dysgenetic gonads'),F('presentation',2,()=>C.presentation=='delayedPub'||C.presentation=='primaryAmen','Delayed puberty / primary amenorrhoea'),F('fsh',1.5,()=>high('fsh')||high('lh'),'High gonadotropins'),F('uterus',1,()=>C.uterus=='present','Uterus present')]},
+ {id:'xx-mrkh',group:'46,XX DSD',title:'Müllerian agenesis (MRKH / MURCS)',gene:'—',hint:'Normal 46,XX ovarian & endocrine function with absent/hypoplastic uterus & upper vagina; primary amenorrhoea, normal secondary sexual characteristics.',
+  work:'Pelvic MRI (absent uterus, normal ovaries), normal testosterone, renal USG (associated anomalies).',
+  feats:[F('karyotype',2,()=>C.karyotype=='46XX','46,XX karyotype'),F('uterus',3.5,()=>C.uterus=='absent'||C.uterus=='abnormal','Absent / hypoplastic uterus'),F('presentation',2,()=>C.presentation=='primaryAmen','Primary amenorrhoea, normal puberty'),F('testosterone',1.5,()=>normal('testosterone')||!meas('testosterone'),'No androgen excess'),F('gonads',1,()=>C.gonads=='ovaries','Normal ovaries')]}
+];
+
+/* ============================ SCORING (glassbox) ============================ */
+function score(d){
+ let pos=0,raw=0,terms=[],disc=new Set();
+ d.feats.forEach(f=>{
+  disc.add(f.k);
+  let fired=!!f.c();
+  if(f.w>0)pos+=f.w;
+  if(fired)raw+=f.w;
+  terms.push({...f,fired});
+ });
+ let pct=pos>0?Math.max(0,Math.min(100,Math.round(raw/pos*100))):0;
+ // data completeness: fraction of discriminator inputs the user has actually entered
+ let ks=[...disc], knownN=ks.filter(k=>known(k)).length;
+ let data=ks.length?Math.round(knownN/ks.length*100):0;
+ return {...d,raw:+raw.toFixed(1),pos:+pos.toFixed(1),pct,data,terms};
+}
+function calc(){return dxDefs.map(score).sort((a,b)=>b.pct-a.pct||b.raw-a.raw);}
+
+/* completeness of INITIAL evaluation (minimum data set — SFE UK 2021) */
+const minSet=[
+ ['Karyotype / rapid FISH for SRY','karyotype'],
+ ['17-OHP (± ACTH-stimulated)','ohp17'],
+ ['Serum electrolytes (Na, K)','na'],
+ ['Testosterone (± hCG stimulation)','testosterone'],
+ ['LH & FSH','lh'],
+ ['Pelvic / genital ultrasound (uterus)','uterus'],
+ ['Gonad localisation (exam / imaging)','gonadPalp']
+];
+function completenessPct(){let n=minSet.filter(m=>known(m[1])).length;return Math.round(n/minSet.length*100);}
+
+/* ============================ NEXT BEST TEST ============================ */
+const keyMeta={
+ karyotype:'Karyotype / FISH for SRY',uterus:'Pelvic ultrasound (uterus)',gonads:'Gonad type (imaging/biopsy)',gonadPalp:'Palpate the gonads',sry:'Testis-pathway genetics',
+ ohp17:'17-OHP',deoxy21:'21-deoxycortisol',progesterone:'Progesterone',deoxy11:'11-deoxycortisol',doc:'DOC',corticosterone:'Corticosterone',cortisol:'Cortisol',
+ aldosterone:'Aldosterone',renin:'Renin',acth:'ACTH',na:'Sodium',k:'Potassium',testosterone:'Testosterone (± hCG)',dht:'DHT',tdht:'Testosterone:DHT ratio',
+ androstenedione:'Androstenedione',dhea:'DHEA',ohpreg17:'17-OH-pregnenolone',pregnenolone:'Pregnenolone',amh:'AMH',lh:'LH',fsh:'FSH',
+ pigment:'Look for hyperpigmentation',bp:'Blood pressure',stature:'Stature',dysmorphic:'Dysmorphology exam',maternalVirilization:'Ask re maternal virilisation',
+ maternalDrugs:'Ask re maternal drugs',presentation:'Clarify presentation',ems:'Complete EMS exam',prader:'Prader staging',pubVir:'Puberty history'
+};
+function nextTests(){
+ let ranked=calc(),top=ranked.slice(0,6);
+ let bag={};
+ top.forEach((d,i)=>{
+  let weight=1/(i+1); // leaders count more
+  d.feats.forEach(f=>{
+   if(f.w<=0)return; if(known(f.k))return;
+   bag[f.k]=bag[f.k]||{k:f.k,imp:0,dx:new Set()};
+   bag[f.k].imp+=Math.abs(f.w)*weight;
+   bag[f.k].dx.add(d.title);
+  });
+ });
+ return Object.values(bag).sort((a,b)=>b.imp-a.imp).slice(0,7);
+}
+
+/* ============================ SAFETY ENGINE ============================ */
+function safetyFlags(){
+ let f=[];
+ if((low('na')&&high('k'))||C.presentation=='saltCrisis'||C.bp=='hypotension')
+  f.push(['danger','Possible salt-wasting adrenal crisis','Hyponatraemia + hyperkalaemia or shock — check glucose, give IV fluids + stress-dose hydrocortisone, involve senior/PICU NOW. Do not wait for genetics.']);
+ if((C.presentation=='ambiguous'||(C.prader!=UNK&&+C.prader>0)||ems()<8)&&!high('ohp17')&&!meas('ohp17'))
+  f.push(['warn','17-OHP not yet drawn','Any ambiguous/virilised newborn needs a 17-OHP (after 48–72 h of life) and electrolytes to exclude 21-hydroxylase CAH — the one cause that kills.']);
+ if(C.gonadPalp=='bilateral'&&(C.karyotype==UNK))
+  f.push(['ok','Bilateral palpable gonads','Palpable gonads are testes/ovotestes — a virilised 46,XX CAH is very unlikely. Prioritise 46,XY / ovotesticular work-up, but still send karyotype.']);
+ if(C.bp=='hypertension'&&(high('doc')||high('deoxy11')))
+  f.push(['warn','Hypertensive CAH pattern','Hypertension with high DOC / 11-deoxycortisol points to CYP11B1 or CYP17A1 — mineralocorticoid-precursor excess.']);
+ if(C.karyotype=='45X46XY'||(C.karyotype=='46XY'&&C.gonads=='streak'))
+  f.push(['warn','Dysgenetic Y-bearing gonad','Gonadoblastoma / germ-cell tumour risk — arrange tumour-risk assessment and discuss gonadectomy with the MDT.']);
+ return f;
+}
+const goldenRules=[
+ ['Do not assign or register a sex before MDT evaluation','A definitive gender should never be declared in the delivery room for a clearly atypical genitalia — a rushed decision is hard to reverse (Lee 2016).','presentation'],
+ ['Karyotype (with rapid FISH for SRY) first','It is the top-level branch point and is fast; send it on day 1.','karyotype'],
+ ['17-OHP + electrolytes in every virilised/ambiguous neonate','21-hydroxylase CAH is the only immediately life-threatening cause — exclude it early.','ohp17'],
+ ['Palpate for gonads','A gonad below the inguinal ring is a testis/ovotestis and effectively rules out 46,XX CAH.','gonadPalp'],
+ ['Pelvic ultrasound for a uterus','Presence/absence of Müllerian structures splits AIS/androgen-synthesis defects from dysgenesis/PMDS.','uterus']
+];
+
+/* ============================ RENDER ============================ */
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+let dxGroupFilter='all';
+
+function selOptions(def){return def.map(o=>`<option value="${o[0]}" ${C[cur]==o[0]?'selected':''}>${o[1]}</option>`).join('');}
+let cur;
+function renderForm(defs,mount){
+ $(mount).innerHTML=defs.map(d=>{cur=d[0];return `<div class="field"><label>${d[1]}</label><select data-c="${d[0]}">${d[4].map(o=>`<option value="${o[0]}" ${C[d[0]]==o[0]?'selected':''}>${o[1]}</option>`).join('')}</select>${d[2]?`<small>${d[2]}</small>`:''}</div>`;}).join('');
+ $$(`${mount} [data-c]`).forEach(el=>el.onchange=e=>{C[e.target.dataset.c]=e.target.value;renderAll(false);});
+}
+function renderEMS(){
+ const v=ems();$('#emsVal').textContent=`${v} / 12  ${v>=11?'· fully virilised':v>=8?'· mildly under-virilised':v>=4?'· moderately under-virilised':'· severely under-virilised'}`;
+ $('#emsBar').style.width=(v/12*100)+'%';
+ const g=egs();$('#egsVal').textContent=`${g} / 12`;$('#egsBar').style.width=(g/12*100)+'%';
+ let cls,msg;
+ if(!egsTouched()){cls='';msg='';}
+ else if(g<=4){cls='call danger';msg=`<b>EGS ${g} — highly atypical (≤4).</b> Validation data associate this range with a female sex-assignment/rearing pathway. This is decision-support only: sex assignment is an MDT decision after karyotype, hormones and imaging — never made on a score.`;}
+ else if(g<9){cls='call warn';msg=`<b>EGS ${g} — below the male-typical range (&lt;9).</b> In an infant expected to be phenotypically male (e.g. severe/proximal hypospadias) this threshold prioritises full endocrine and genetic screening.`;}
+ else if(g>=9){cls='call ok';msg=`<b>EGS ${g} — within/near the male-typical range (median 12; ~10 in extreme preterms).</b> Consistent with adequate prenatal virilisation.`;}
+ $('#egsInterp').innerHTML=cls?`<div class="${cls}" style="margin-top:6px">${msg}</div>`:'';
+}
+function renderLabs(){
+ $('#labTable tbody').innerHTML=labs.map((x,i)=>{let s=st(x);return `<tr>
+  <td><input type="checkbox" data-i="${i}" data-k="m" ${x.m?'checked':''}></td>
+  <td><b>${x.n}</b><br><span style="color:var(--mut);font-size:11px">${x.role}</span></td>
+  <td><input data-i="${i}" data-k="v" value="${x.v??''}" placeholder="value"></td>
+  <td><input data-i="${i}" data-k="u" value="${x.u??''}"></td>
+  <td><input data-i="${i}" data-k="lo" value="${x.lo??''}"></td>
+  <td><input data-i="${i}" data-k="hi" value="${x.hi??''}"></td>
+  <td><select data-i="${i}" data-k="man"><option value="auto" ${x.man=='auto'?'selected':''}>Auto</option><option value="low" ${x.man=='low'?'selected':''}>Low</option><option value="normal" ${x.man=='normal'?'selected':''}>Normal</option><option value="high" ${x.man=='high'?'selected':''}>High</option><option value="unknown" ${x.man=='unknown'?'selected':''}>Measured, no range</option></select></td>
+  <td><span class="tag ${s}"><span class="dot ${s}"></span>${s=='notMeasured'?'Not measured':s}</span></td></tr>`;}).join('');
+ $$('#labTable input,#labTable select').forEach(el=>el.onchange=e=>{let i=+e.target.dataset.i,k=e.target.dataset.k;labs[i][k]=k=='m'?e.target.checked:e.target.value;renderAll(false);});
+}
+function termRow(t){let cls=!t.fired?'off':(t.w<0?'neg':'pos');let sign=t.w>0?'+':'';return `<li class="${cls}"><span>${t.fired?'●':'○'} ${t.t}</span><span class="w">${sign}${t.w}</span></li>`;}
+function renderResults(){
+ let r=calc();if(dxGroupFilter!='all')r=r.filter(x=>x.group==dxGroupFilter);
+ $('#results').innerHTML=r.map((x,i)=>`
+  <article class="dx ${i==0&&dxGroupFilter=='all'?'top':''}">
+   <div class="pctrow"><span><b>${x.title}</b></span><span>${x.pct}%</span></div>
+   <div class="gene">${x.gene}</div><div class="grp">${x.group}</div>
+   <div class="bar"><i style="width:${x.pct}%"></i></div>
+   <div class="pctrow" style="color:var(--mut)"><span>Data entered: ${x.data}%</span><span>score ${x.raw}/${x.pos}</span></div>
+   <details><summary>Show weighted terms & work-up ▾</summary>
+    <ul class="terms">${x.terms.sort((a,b)=>(b.fired-a.fired)||Math.abs(b.w)-Math.abs(a.w)).map(termRow).join('')}</ul>
+    <p class="hint" style="margin:10px 0 0"><b>Clue:</b> ${x.hint}</p>
+    <p class="hint" style="margin:6px 0 0"><b>Confirm:</b> ${x.work}</p>
+   </details>
+  </article>`).join('');
+}
+function renderNext(){
+ let n=nextTests();
+ $('#nextList').innerHTML=n.length?n.map(t=>`<div class="nextItem"><span class="imp">${t.imp.toFixed(1)}</span><b>${keyMeta[t.k]||t.k}</b><small>Would inform: ${[...t.dx].slice(0,4).join('; ')}${t.dx.size>4?'…':''}</small></div>`).join(''):'<div class="nextItem">All high-value inputs for the current leaders are already entered — reassess with results or add advanced markers.</div>';
+}
+function renderSafety(){
+ let f=safetyFlags();
+ $('#safetyBox').innerHTML=f.length?f.map(x=>`<div class="call ${x[0]}" style="margin-bottom:8px"><b>${x[1]}.</b> ${x[2]}</div>`).join(''):'<div class="call ok"><b>No urgent flag from entered data.</b> Absence of a flag does not prove safety — interpret clinically and complete the minimum data set below.</div>';
+ $('#goldenRules').innerHTML=goldenRules.map(g=>{let done=known(g[2]);return `<li><span class="mk ${done?'done':'miss'}">${done?'✓':'!'}</span><div>${g[0]}<small>${g[1]}</small></div></li>`;}).join('');
+ $('#completeness').innerHTML=minSet.map(m=>{let done=known(m[1]);return `<li><span class="mk ${done?'done':'miss'}">${done?'✓':'○'}</span><div>${m[0]}</div></li>`;}).join('');
+}
+function renderLive(){
+ let r=calc(),top=r[0],second=r[1];
+ let margin=top.pct-(second?second.pct:0);
+ let conf=Math.round(Math.min(100,(margin*0.6)+(top.data*0.4)));
+ let compl=completenessPct();
+ let confLabel=conf>=60&&top.pct>=55?'High':conf>=35?'Moderate':'Low — keep testing';
+ let f=safetyFlags(),urgent=f.filter(x=>x[0]=='danger'||x[0]=='warn');
+ let nt=nextTests()[0];
+ $('#live').innerHTML=`
+  <div>
+   <div class="subhead" style="margin-top:0">Leading diagnosis</div>
+   <div style="font-size:19px;font-weight:800;letter-spacing:-.02em">${top.title}</div>
+   <div class="gene" style="color:var(--blue);font-weight:700;font-size:12.5px">${top.gene} · ${top.group}</div>
+   <div class="meter"><div class="lab"><span>Match</span><span>${top.pct}%</span></div><div class="bar"><i style="width:${top.pct}%"></i></div></div>
+   ${second?`<div class="hint" style="margin:2px 0 0">Next: ${second.title} (${second.pct}%) · lead margin ${margin}%</div>`:''}
+  </div>
+  <div class="scoreGrid">
+   <div class="scoreBox"><b style="color:var(--blue)">${conf}%</b><span>Confidence<br>${confLabel}</span></div>
+   <div class="scoreBox"><b style="color:${compl>=80?'var(--green)':'var(--amber)'}">${compl}%</b><span>Min. work-up complete</span></div>
+   <div class="scoreBox"><b style="color:${top.data>=70?'var(--green)':'var(--amber)'}">${top.data}%</b><span>Data on leader</span></div>
+  </div>
+  ${urgent.length?`<div class="call ${urgent[0][0]}"><b>${urgent[0][1]}.</b> ${urgent[0][2]}</div>`:`<div class="call ok"><b>No urgent flag.</b> Interpret clinically.</div>`}
+  ${nt?`<div><div class="subhead">Next best test</div><div class="nextItem"><span class="imp">${nt.imp.toFixed(1)}</span><b>${keyMeta[nt.k]||nt.k}</b><small>Most likely to separate the current leaders.</small></div></div>`:''}
+  <div class="hint" style="font-size:11.5px">Glassbox model — every % is a transparent sum of the weighted terms shown on each diagnosis card. Not a diagnosis.</div>`;
+}
+
+/* atlas + pathway (context) */
+const atlas=[
+ ['Sex chromosome DSD','47,XXY — Klinefelter & variants','Hypergonadotropic hypogonadism','Tall, small firm testes, infertility, gynaecomastia.'],
+ ['Sex chromosome DSD','45,X — Turner & variants','Ovarian dysgenesis','Short stature, streak gonads, cardiac/renal anomalies, POI.'],
+ ['Sex chromosome DSD','45,X/46,XY — Mixed gonadal dysgenesis','Asymmetric gonads','Streak + testis, ambiguous genitalia, tumour risk.'],
+ ['Sex chromosome DSD','46,XX/46,XY — Chimerism','Ovotesticular DSD','Discordant cell lines / ovotestes.'],
+ ['46,XY DSD','A. Gonadal dysgenesis (SRY/SOX9/NR5A1/WT1/DHH)','Disorder of testis development','Low AMH/T, Müllerian remnants possible, streak gonads.'],
+ ['46,XY DSD','A. Ovotesticular / testicular regression','Gonadal development','Vanishing testis; timing dictates internal ducts.'],
+ ['46,XY DSD','B. LHCGR (Leydig-cell hypoplasia)','Androgen synthesis','Low T, high LH, preserved AMH; flat hCG test.'],
+ ['46,XY DSD','B. StAR / CYP11A1','Early steroidogenic block','Global adrenal + gonadal failure, salt-wasting.'],
+ ['46,XY DSD','B. HSD3B2 / CYP17A1 / HSD17B3','Androgen synthesis','Enzyme-specific precursor patterns.'],
+ ['46,XY DSD','B. SRD5A2 (5α-reductase 2)','DHT synthesis','High T:DHT, pubertal virilisation.'],
+ ['46,XY DSD','C. Androgen insensitivity (AR)','Androgen action','Testes, no uterus, normal/high T; CAIS/PAIS.'],
+ ['46,XY DSD','C. PMDS (AMH/AMHR2)','AMH action','Uterus in a virilised male.'],
+ ['46,XY DSD','C. CHH / Smith-Lemli-Opitz / hypospadias / cryptorchidism','Other','Central hypogonadism, cholesterol defect, isolated defects.'],
+ ['46,XX DSD','A. Ovarian dysgenesis / testicular / ovotesticular','Gonadal development','SRY+, SOX9 dup, RSPO1/WNT4.'],
+ ['46,XX DSD','B. Fetal androgen excess — CYP21A2','21-hydroxylase CAH','High 17-OHP/21-deoxycortisol, salt-wasting.'],
+ ['46,XX DSD','B. CYP11B1 / HSD3B2 / POR','CAH variants','DOC/11-deoxycortisol (HTN); Δ5 excess; skeletal (POR).'],
+ ['46,XX DSD','B. Aromatase (CYP19A1)','Fetoplacental','Maternal + fetal virilisation.'],
+ ['46,XX DSD','B. Maternal source / drugs','Maternal androgen excess','No fetal CAH precursors.'],
+ ['46,XX DSD','C. MRKH / MURCS / uterine & vaginal anomalies','Müllerian','Absent uterus, normal ovaries/endocrine.']
+];
+function renderAtlas(){
+ let q=$('#search')?.value?.toLowerCase()||'',f=$('#atlasFilter')?.value||'all';
+ let rows=atlas.filter(a=>(f=='all'||a[0]==f)&&a.join(' ').toLowerCase().includes(q));
+ let groups=[...new Set(rows.map(a=>a[0]))];
+ $('#atlasGrid').innerHTML=groups.map(g=>`<div class="branch"><h3>${g}</h3><ul>${rows.filter(a=>a[0]==g).map(a=>`<li title="${a[3]}"><b>${a[1]}</b> — ${a[2]}<span class="path">${a[3]}</span></li>`).join('')}</ul></div>`).join('')||'<p class="hint">No matches.</p>';
+}
+const nd=[['chol','Cholesterol',60,35],['preg','Pregnenolone',225,35],['progesterone','Progesterone',420,35],['doc','DOC',610,95],['corticosterone','Corticosterone',790,95],['aldosterone','Aldosterone',980,95],['ohpreg17','17-OH-Preg',225,145],['ohp17','17-OHP',420,145],['deoxy11','11-Deoxycortisol',610,145],['cortisol','Cortisol',790,145],['dhea','DHEA',250,285],['dheas','DHEAS',250,335],['androstenedione','Androstenedione',430,285],['testosterone','Testosterone',640,285],['dht','DHT',840,285],['androsterone','Androsterone',550,425],['kt11','11-KT',880,530],['ka11','11-KA4',660,530]];
+const ed=[['chol','preg','CYP11A1','cah'],['preg','progesterone','3βHSD2','cah'],['progesterone','doc','CYP21A2','cah'],['doc','corticosterone','CYP11B1','cah'],['corticosterone','aldosterone','CYP11B2','cah'],['preg','ohpreg17','CYP17A1','cah'],['ohpreg17','ohp17','3βHSD2','cah'],['ohp17','deoxy11','CYP21A2','cah'],['deoxy11','cortisol','CYP11B1','cah'],['ohpreg17','dhea','17,20-lyase','androgen'],['dhea','dheas','SULT2A1','androgen'],['dhea','androstenedione','3βHSD2','androgen'],['androstenedione','testosterone','17βHSD3','androgen'],['testosterone','dht','SRD5A2','androgen'],['ohp17','androsterone','backdoor','backdoor'],['androsterone','dht','→ DHT','backdoor'],['androstenedione','ka11','CYP11B1','oxy'],['testosterone','kt11','CYP11B1','oxy'],['ka11','kt11','AKR1C3','oxy']];
+function nodeStatus(id){let x=L()[id];return x?st(x):'notMeasured';}
+function nodeVal(id){let x=L()[id];return x&&x.m?(x.v||'measured'):'—';}
+function renderMap(){
+ let f=$('#mapFilter button.active')?.dataset.f||'all',N=Object.fromEntries(nd.map(n=>[n[0],n]));
+ let E=$('#edges'),Nn=$('#nodes');E.innerHTML='';Nn.innerHTML='';
+ ed.forEach(e=>{let a=N[e[0]],b=N[e[1]],x1=a[2]+110,y1=a[3]+24,x2=b[2],y2=b[3]+24;if(Math.abs(y2-y1)>70){x1=a[2]+55;y1=a[3]+48;x2=b[2]+55;y2=b[3];}let dim=!(f=='all'||e[3]==f);E.insertAdjacentHTML('beforeend',`<path class="edge ${e[3]}" d="M${x1},${y1} C${(x1+x2)/2},${y1} ${(x1+x2)/2},${y2} ${x2},${y2}" style="opacity:${dim?.12:1}"/><text class="enz" x="${(x1+x2)/2}" y="${(y1+y2)/2-6}" text-anchor="middle" style="opacity:${dim?.18:1}">${e[2]}</text>`);});
+ nd.forEach(n=>{let s=nodeStatus(n[0]),m=s!='notMeasured',dimM=f=='measured'&&!m;let show=f=='all'||f=='measured'||ed.some(e=>(e[0]==n[0]||e[1]==n[0])&&e[3]==f)||(f=='cah'&&['progesterone','doc','corticosterone','aldosterone','ohpreg17','ohp17','deoxy11','cortisol','chol','preg'].includes(n[0]));Nn.insertAdjacentHTML('beforeend',`<g class="nt ${m?'measured':'notMeasured'} ${s}" style="opacity:${(dimM||!show)?.15:1}"><rect x="${n[2]}" y="${n[3]}" width="110" height="48" rx="11"/><text x="${n[2]+55}" y="${n[3]+19}" text-anchor="middle">${n[1]}</text><text class="v" x="${n[2]+55}" y="${n[3]+36}" text-anchor="middle">${nodeVal(n[0])}</text></g>`);});
+}
+const refs=[
+ ['Global DSD Update since 2006 — Perceptions, Approach and Care','Lee PA, Nordenström A, Houk CP, Ahmed SF, Auchus R, et al. Horm Res Paediatr 2016;85:158–180.','10.1159/000442975','https://doi.org/10.1159/000442975'],
+ ['Society for Endocrinology UK — initial evaluation of a suspected DSD (Revised 2021)','Ahmed SF, Achermann JC, Alderson J, et al. Clin Endocrinol 2021;95:818–840.','10.1111/cen.14528','https://doi.org/10.1111/cen.14528'],
+ ['A clinical algorithm to diagnose differences of sex development','León NY, Reyes AP, Harley VR. Lancet Diabetes Endocrinol 2019;7:560–574.','10.1016/S2213-8587(18)30339-5','https://doi.org/10.1016/S2213-8587(18)30339-5'],
+ ['21-Hydroxylase deficiency CAH — Endocrine Society Clinical Practice Guideline','Speiser PW, Arlt W, Auchus RJ, et al. J Clin Endocrinol Metab 2018;103:4043–4088.','10.1210/jc.2018-01865','https://doi.org/10.1210/jc.2018-01865'],
+ ['Congenital Adrenal Hyperplasia — pathophysiology, diagnostics & management','Claahsen-van der Grinten HL, Speiser PW, Ahmed SF, et al. Endocr Rev 2022;43:91–159.','10.1210/endrev/bnab016','https://doi.org/10.1210/endrev/bnab016'],
+ ['Molecular genetic diagnosis in DSD — DSDnet (EU COST BM1303) position paper','Audi L, Ahmed SF, Krone N, et al. Eur J Endocrinol 2018;179:R197–R206.','10.1530/EJE-18-0256','https://doi.org/10.1530/EJE-18-0256'],
+ ['Standardised follow-up & outcomes in DSD — COST Action DSDnet','Flück C, Nordenström A, Ahmed SF, et al. Eur J Endocrinol 2019;181:545–564.','10.1530/EJE-19-0363','https://doi.org/10.1530/EJE-19-0363'],
+ ['607 children/young people presenting with DSD — single-centre cohort','Man E, Mushtaq I, Barnicoat A, et al. J Endocr Soc 2023;7:bvac165.','10.1210/jendso/bvac165','https://doi.org/10.1210/jendso/bvac165'],
+ ['IAPS Guidelines on the Management of Differences in Sex Development (India)','Sarin YK, Singh D, Babu R, et al. J Indian Assoc Pediatr Surg 2022;27:376–380.','10.4103/jiaps.jiaps_65_22','https://doi.org/10.4103/0971-9261.352296'],
+ ['Turner syndrome — international clinical practice guidelines','International Turner Syndrome guideline group. Eur J Endocrinol 2024;190:G53–G151.','10.1093/ejendo/lvae050','https://doi.org/10.1093/ejendo/lvae050']
+];
+function renderRefs(){$('#refGrid').innerHTML=refs.map(r=>`<div class="ref"><b>${r[0]}</b><span class="j">${r[1]}</span><br><a href="${r[3]}" target="_blank" rel="noopener">DOI: ${r[2]} ↗</a></div>`).join('');}
+
+function renderAll(rebuild=true){
+ if(rebuild){renderForm(historyDefs,'#historyForm');renderForm(emsDefs,'#emsForm');renderForm(egsDefs,'#egsForm');renderForm(examDefs,'#examForm');renderForm(karyoDefs,'#karyoForm');renderLabs();renderAtlas();renderRefs();}
+ renderEMS();renderResults();renderNext();renderSafety();renderLive();renderMap();
+}
+
+/* ============================ EXAMPLE + CONTROLS ============================ */
+function loadExample(){
+ // Classic salt-wasting 21-OHD in a virilised 46,XX newborn
+ initC();
+ C.ageGroup='newborn';C.presentation='ambiguous';C.consang='yes';C.karyotype='46XX';C.uterus='present';C.gonads='ovaries';
+ C.prader='4';C.gonadPalp='none';C.pigment='yes';C.bp='normal';
+ C.emsScrotum='1.5';C.emsPhallus='0';C.emsMeatus='1';C.emsGonadR='0';C.emsGonadL='0';
+ C.egsFusion='1.5';C.egsTubercle='1';C.egsMeatus='1';C.egsGonadR='0';C.egsGonadL='0';
+ labs=JSON.parse(JSON.stringify(lab0));
+ const set=(id,o)=>{let x=L()[id];if(x)Object.assign(x,o);};
+ set('ohp17',{m:true,v:'250'});set('deoxy21',{m:true,v:'40'});set('cortisol',{m:true,v:'60'});
+ set('na',{m:true,v:'126'});set('k',{m:true,v:'6.8'});set('androstenedione',{m:true,v:'25'});
+ set('aldosterone',{m:true,v:'40'});set('renin',{m:true,v:'high',man:'high'});set('testosterone',{m:true,v:'6'});
+ renderAll(true);
+}
+$('#reset').onclick=()=>{initC();labs=JSON.parse(JSON.stringify(lab0));renderAll(true);};
+$('#loadEx').onclick=loadExample;
+$('#clearAdv').onclick=()=>{let keep=['ohp17','deoxy21','cortisol','na','k','testosterone','androstenedione'];labs.forEach(x=>{if(!keep.includes(x.id)){x.m=false;x.v='';x.man='auto';}});renderAll(false);};
+$('#markKey').onclick=()=>{['ohp17','deoxy21','deoxy11','doc','cortisol','aldosterone','na','k','testosterone','androstenedione','amh','lh','fsh','renin','acth'].forEach(id=>{let x=L()[id];if(x)x.m=true;});renderAll(false);};
+$('#search').oninput=renderAtlas;$('#atlasFilter').onchange=renderAtlas;
+$$('#mapFilter button').forEach(b=>b.onclick=()=>{$$('#mapFilter button').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderMap();});
+$$('#dxFilter button').forEach(b=>b.onclick=()=>{$$('#dxFilter button').forEach(x=>x.classList.remove('active'));b.classList.add('active');dxGroupFilter=b.dataset.f;renderResults();});
+
+renderAll(true);
+</script>
+</body></html>
