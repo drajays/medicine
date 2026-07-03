@@ -8,6 +8,7 @@ import { ReviseDashboard } from '@/components/ReviseDashboard'
 import { StudyProgressDashboard } from '@/components/StudyProgressDashboard'
 import { MockExamDashboard } from '@/components/MockExamDashboard'
 import { OfflineButton } from '@/components/OfflineButton'
+import { RefreshButton } from '@/components/RefreshButton'
 import type { HeaderKind } from '@/lib/types'
 
 export const REVISE_KEY = '__revise__'
@@ -176,6 +177,9 @@ export function LandingPage() {
           Pick a section to explore, then open any topic. Press{' '}
           <kbd className="rounded border px-1.5 py-0.5 text-xs">⌘K</kbd> to search across everything.
         </p>
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          <RefreshButton />
+        </div>
         <OfflineButton />
       </header>
 

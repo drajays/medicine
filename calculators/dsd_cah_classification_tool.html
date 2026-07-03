@@ -154,6 +154,41 @@ svg#svg{display:block;min-width:1160px;width:100%;height:auto}
 @media(max-width:1180px){.layout{grid-template-columns:1fr}.side{position:relative;top:0}.results,.atlas,.refgrid{grid-template-columns:1fr 1fr}.forms.three{grid-template-columns:1fr 1fr}}
 @media(max-width:720px){.results,.atlas,.refgrid,.forms,.forms.three,.searchrow,.scoreGrid{grid-template-columns:1fr}}
 @media print{body{background:#fff;color:#111}.hero,.card{background:#fff;color:#111;box-shadow:none;border:1px solid #ddd}nav,.controls{display:none}.layout{grid-template-columns:1fr}.side{display:none}svg#svg{min-width:0}.tablewrap{max-height:none}}
+
+/* suspect-mode */
+.suspectGrid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-bottom:14px}
+.orderList{display:grid;gap:8px}
+.orderItem{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;padding:10px 12px;border-radius:11px;background:#0006;border:1px solid #ffffff16;font-size:13px}
+.orderItem.done{border-color:#31d68a55;background:#31d68a12}
+.orderItem.contra{border-color:#ff5d7844;background:#ff5d780f}
+.orderItem .st{font-size:11.5px;color:var(--mut);display:block;margin-top:3px}
+.orderItem .w{font-variant-numeric:tabular-nums;font-weight:800;color:var(--blue);white-space:nowrap}
+.orderItem .w.neg{color:#ffc3ce}
+
+/* proforma */
+#proforma .pf{background:#0004;border:1px solid #ffffff14;border-radius:12px;padding:14px;margin-bottom:12px}
+#proforma h4{margin:0 0 10px;font-size:14px;color:var(--blue);text-transform:uppercase;letter-spacing:.05em}
+.pfrow{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 16px}
+.pfrow.one{grid-template-columns:1fr}
+.pfrow.three{grid-template-columns:repeat(3,1fr)}
+.pf label{display:block;font-size:12px;color:#d9e6f8;font-weight:600;margin-bottom:3px}
+.pf .fill{width:100%;min-height:26px;border:0;border-bottom:1.4px solid #ffffff33;background:transparent;color:var(--ink);padding:3px 2px;font-size:13px;outline:none}
+.pf .box{min-height:52px;border:1px solid #ffffff2a;border-radius:8px;background:transparent;color:var(--ink);padding:6px;font-size:13px;width:100%;outline:none;resize:vertical;font-family:inherit}
+.pf .chk{font-size:13px;color:#dce9fb;display:inline-flex;gap:6px;align-items:center;margin:0 12px 6px 0}
+.pftable{width:100%;border-collapse:collapse;font-size:12.5px}
+.pftable th,.pftable td{border:1px solid #ffffff22;padding:6px 8px;text-align:left}
+.pftable th{background:#ffffff10;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+.pftable .cellin{width:100%;border:0;background:transparent;color:var(--ink);outline:none;font-size:12.5px}
+.pf .hintline{color:var(--mut);font-size:11.5px;margin:0 0 10px}
+body.only-proforma .hero,body.only-proforma nav,body.only-proforma .side,body.only-proforma .note,body.only-proforma .section:not(#proforma){display:none!important}
+body.only-proforma .layout{grid-template-columns:1fr!important}
+@media print{
+ #proforma .pf{background:#fff;border:1px solid #bbb}
+ #proforma h4{color:#111}
+ .pf .fill{border-bottom:1px solid #999}.pf .box{border:1px solid #999}
+ .pftable th,.pftable td{border:1px solid #999}.pftable th{background:#eee}
+ .pf label{color:#111}.pf .chk{color:#111}.pf .hintline{color:#444}
+}
 </style>
 </head>
 <body><div class="wrap">
@@ -178,6 +213,8 @@ svg#svg{display:block;min-width:1160px;width:100%;height:auto}
  <a class="btn" href="#panel">5· Steroid panel</a>
  <a class="btn" href="#dx">6· Differential</a>
  <a class="btn" href="#next">7· Next best test</a>
+ <a class="btn" href="#suspect">8· Suspect → work-up</a>
+ <a class="btn" href="#proforma">Blank proforma</a>
  <a class="btn" href="#map">Pathway</a>
  <a class="btn" href="#atlas">Atlas</a>
  <a class="btn" href="#refs">References</a>
@@ -253,6 +290,25 @@ svg#svg{display:block;min-width:1160px;width:100%;height:auto}
   <h2 class="title"><span class="n">7</span>Next best test — information gain</h2>
   <p class="hint">For every input you have <b>not</b> yet entered, the model sums the weight it carries across the current leading diagnoses. The higher the number, the more that single result would move the ranking — this is how you converge without ordering everything blindly.</p>
   <div class="nextlist" id="nextList"></div>
+ </section>
+
+ <!-- 8. SUSPECT-DRIVEN WORK-UP -->
+ <section class="card section" id="suspect">
+  <h2 class="title"><span class="n">8</span>Suspect a diagnosis → targeted work-up</h2>
+  <p class="hint">Working the other way round: pick a diagnosis you already suspect (or a whole group) and the tool lists exactly which tests confirm or refute it — ranked by how much weight each carries in the model, flagged against what you have already entered. Choose a group alone to see the tests that best discriminate <i>within</i> that group.</p>
+  <div class="suspectGrid">
+   <div class="field"><label>Suspected group</label><select id="suspectGroup"></select></div>
+   <div class="field"><label>Suspected diagnosis</label><select id="suspectDx"></select></div>
+  </div>
+  <div id="suspectOut"></div>
+ </section>
+
+ <!-- BLANK PROFORMA -->
+ <section class="card section" id="proforma">
+  <h2 class="title">General DSD assessment proforma</h2>
+  <p class="hint">A comprehensive, subject-agnostic DSD clerking sheet — fillable on screen or, via the button below, printed blank to complete by hand offline. Covers history, general and genital examination (EMS &amp; EGS grids + Prader), first- and second-line biochemistry, imaging, cytogenetics/genetics and the MDT plan.</p>
+  <div class="controls"><button class="btn" id="printProforma">🖨 Print blank proforma</button></div>
+  <div id="proformaBody"></div>
  </section>
 
  <!-- PATHWAY -->
@@ -343,8 +399,23 @@ initC();
 function ems(){return emsDefs.reduce((s,d)=>s+(+C[d[0]]||0),0);}      // 0..12
 function egs(){return egsDefs.reduce((s,d)=>s+(+C[d[0]]||0),0);}      // 0..12
 function egsTouched(){return egsDefs.some(d=>(+C[d[0]]||0)>0);}
-function known(k){ if(k in C) return C[k]!==UNK && C[k]!=='';
- return meas(k); }
+function known(k){
+ if(k==='ems') return ems()>0;
+ if(k==='pubVir') return C.presentation!==UNK || ['adolescent','adult'].includes(C.ageGroup);
+ if(k in C) return C[k]!==UNK && C[k]!=='';
+ return meas(k);
+}
+/* human-readable current value of any input key (for suspect mode) */
+const allSelDefs=()=>[...historyDefs,...examDefs,...karyoDefs,...emsDefs,...egsDefs];
+function valueLabel(k){
+ if(k==='ems') return ems()>0?`EMS ${ems()}/12`:'not examined';
+ if(k==='pubVir') return C.presentation!==UNK?'puberty history taken':'not recorded';
+ let x=L()[k];
+ if(x){ if(!x.m) return 'not tested'; let s=st(x); return `${s}${x.v?` · ${x.v}${x.u?' '+x.u:''}`:''}`; }
+ let d=allSelDefs().find(d=>d[0]===k);
+ if(d){ if(C[k]===UNK||C[k]==='') return 'not recorded'; let o=d[4].find(o=>o[0]==C[k]); return o?o[1]:String(C[k]); }
+ return 'not recorded';
+}
 
 /* ============================ LAB PANEL ============================ */
 const lab0=[
@@ -684,9 +755,119 @@ const refs=[
 ];
 function renderRefs(){$('#refGrid').innerHTML=refs.map(r=>`<div class="ref"><b>${r[0]}</b><span class="j">${r[1]}</span><br><a href="${r[3]}" target="_blank" rel="noopener">DOI: ${r[2]} ↗</a></div>`).join('');}
 
+/* ============================ SUSPECT-DRIVEN WORK-UP ============================ */
+let suspectGroupSel='all',suspectDxSel='';
+function fillDxSelect(){
+ let list=dxDefs.filter(d=>suspectGroupSel=='all'||d.group==suspectGroupSel);
+ $('#suspectDx').innerHTML=`<option value="">— whole group: show best discriminators —</option>`+list.map(d=>`<option value="${d.id}">${d.title} · ${d.gene}</option>`).join('');
+ $('#suspectDx').value=suspectDxSel;
+}
+function initSuspectSelectors(){
+ let groups=['all','Sex chromosome DSD','46,XY DSD','46,XX DSD'];
+ $('#suspectGroup').innerHTML=groups.map(g=>`<option value="${g}">${g=='all'?'All groups':g}</option>`).join('');
+ $('#suspectGroup').value=suspectGroupSel;fillDxSelect();
+ $('#suspectGroup').onchange=e=>{suspectGroupSel=e.target.value;suspectDxSel='';fillDxSelect();renderSuspect();};
+ $('#suspectDx').onchange=e=>{suspectDxSel=e.target.value;renderSuspect();};
+}
+function renderSuspect(){
+ let out=$('#suspectOut');if(!out)return;
+ if(suspectDxSel){
+  let d=score(dxDefs.find(x=>x.id==suspectDxSel));
+  let sup=d.terms.filter(t=>t.w>0).sort((a,b)=>b.w-a.w),con=d.terms.filter(t=>t.w<0),toOrder=sup.filter(t=>!known(t.k));
+  const row=t=>`<div class="orderItem ${known(t.k)?'done':''}"><div><b>${keyMeta[t.k]||t.k}</b><span class="st">${known(t.k)?`entered: ${valueLabel(t.k)} — ${t.fired?'supports ✓':'does not support this Dx'}`:'not yet entered'} · looks for: ${t.t}</span></div><span class="w">+${t.w}</span></div>`;
+  const crow=t=>`<div class="orderItem contra"><div><b>${keyMeta[t.k]||t.k}</b><span class="st">${known(t.k)?`entered: ${valueLabel(t.k)} — ${t.fired?'CONTRADICTS ✗':'no contradiction'}`:'not yet entered'} · red flag: ${t.t}</span></div><span class="w neg">${t.w}</span></div>`;
+  out.innerHTML=`<div class="call"><b>${d.title}</b> — ${d.gene}. ${d.hint}</div>
+   <div class="kv"><div><span>Current model match</span><b>${d.pct}%</b></div><div><span>Discriminators entered</span><b>${d.data}%</b></div></div>
+   ${toOrder.length?`<div class="subhead">Order / check next to confirm</div><div class="orderList">${toOrder.map(row).join('')}</div>`:'<div class="call ok">Every supporting discriminator for this diagnosis is already entered — read the match % above.</div>'}
+   <div class="subhead">All supporting features (weighted)</div><div class="orderList">${sup.map(row).join('')}</div>
+   ${con.length?`<div class="subhead">Contradictions to actively exclude</div><div class="orderList">${con.map(crow).join('')}</div>`:''}
+   <p class="hint" style="margin-top:12px"><b>Confirmatory pathway:</b> ${d.work}</p>`;
+ }else{
+  let list=dxDefs.filter(d=>suspectGroupSel=='all'||d.group==suspectGroupSel),bag={};
+  list.forEach(d=>d.feats.filter(f=>f.w>0).forEach(f=>{bag[f.k]=bag[f.k]||{k:f.k,w:0,dx:new Set()};bag[f.k].w+=f.w;bag[f.k].dx.add(d.title);}));
+  let ranked=Object.values(bag).sort((a,b)=>b.w-a.w);
+  out.innerHTML=`<div class="call">Tests that best discriminate across the <b>${list.length}</b> diagnoses in ${suspectGroupSel=='all'?'all groups':suspectGroupSel}. Higher weight = more decisive across this set. Pick a specific diagnosis above for a confirm/refute checklist.</div>
+   <div class="subhead">Highest-yield discriminators for this group</div>
+   <div class="orderList">${ranked.slice(0,14).map(t=>`<div class="orderItem ${known(t.k)?'done':''}"><div><b>${keyMeta[t.k]||t.k}</b><span class="st">${known(t.k)?`entered: ${valueLabel(t.k)}`:'not yet entered'} · informs ${t.dx.size} diagnos${t.dx.size==1?'is':'es'}</span></div><span class="w">${t.w.toFixed(1)}</span></div>`).join('')}</div>`;
+ }
+}
+
+/* ============================ BLANK PROFORMA ============================ */
+function buildProforma(){
+ const fill='<input class="fill">',box='<textarea class="box"></textarea>';
+ const F=(l,c='')=>`<div class="${c}"><label>${l}</label>${fill}</div>`;
+ const chk=(...a)=>a.map(x=>`<span class="chk">☐ ${x}</span>`).join('');
+ const cin='<input class="cellin">';
+ const biochemRow=(n,ref)=>`<tr><td>${n}</td><td>${cin}</td><td>${cin}</td><td>${ref||cin}</td><td>${cin}</td></tr>`;
+ $('#proformaBody').innerHTML=`
+ <div class="pf"><h4>A · Identification</h4><div class="pfrow three">${F('Name')}${F('Hospital / UHID no.')}${F('Date of assessment')}${F('Date of birth / age')}${F('Gestation at birth (wks)')}${F('Provisional sex of rearing (if any)')}${F('Referred by')}${F('Informant & reliability')}${F('Consanguinity (degree)')}</div></div>
+
+ <div class="pf"><h4>B · Presenting complaint / reason for referral</h4><p class="hintline">Tick all that apply.</p><div>${chk('Ambiguous genitalia','Proximal/severe hypospadias','Bilateral non-palpable gonads','Apparent girl + inguinal/labial mass','Micropenis','Clitoromegaly','Delayed / absent puberty','Primary amenorrhoea','Virilisation at puberty','Salt-wasting / adrenal crisis','Antenatal karyotype–phenotype mismatch','Incidental / other')}</div><div class="pfrow one" style="margin-top:8px"><label>Narrative</label>${box}</div></div>
+
+ <div class="pf"><h4>C · History</h4>
+  <p class="hintline">Antenatal & birth</p><div class="pfrow">${F('Maternal virilisation in pregnancy (acne/hirsutism/voice)')}${F('Maternal drug exposure (danazol, progestins, anabolic)')}${F('Prenatal karyotype / NIPT result')}${F('Antenatal scans / oligohydramnios')}${F('Birth weight')}${F('Mode of delivery / complications')}</div>
+  <p class="hintline" style="margin-top:10px">Neonatal & systemic</p><div class="pfrow">${F('Vomiting / poor feeding / dehydration / shock')}${F('Age & day-of-life at symptom onset')}${F('Hyperpigmentation noted')}${F('Growth / feeding history')}</div>
+  <p class="hintline" style="margin-top:10px">Family</p><div class="pfrow">${F('Similarly affected sibling / relative')}${F('Unexplained neonatal / infant deaths')}${F('Infertility / primary amenorrhoea in family')}${F('Known DSD/CAH gene in family')}</div>
+  <p class="hintline" style="margin-top:10px">Developmental / pubertal (if older)</p><div class="pfrow">${F('Pubertal milestones / Tanner stage')}${F('Gender identity / role (age-appropriate, sensitively)')}</div>
+ </div>
+
+ <div class="pf"><h4>D · General examination</h4><div class="pfrow three">${F('Weight / centile')}${F('Length-height / centile')}${F('BP (percentile)')}${F('Heart rate')}${F('Hydration / perfusion')}${F('Skin / areolar / genital pigmentation')}${F('Dysmorphic / syndromic features')}${F('Midline / other anomalies')}${F('Blood glucose')}</div></div>
+
+ <div class="pf"><h4>E · Genital examination</h4>
+  <p class="hintline">Prader stage &nbsp; ${chk('0','I','II','III','IV','V')}</p>
+  <div class="pfrow three">${F('Stretched phallus / tubercle length (mm)')}${F('Urethral meatus position')}${F('Labioscrotal fusion (none/partial/complete)')}${F('Rugosity / pigmentation of folds')}${F('Right gonad — impalpable/inguinal/scrotal')}${F('Left gonad — impalpable/inguinal/scrotal')}${F('Vaginal opening / urogenital sinus / single opening')}${F('Anogenital ratio')}${F('Hernia / other')}</div>
+  <p class="hintline" style="margin-top:12px">External Masculinisation Score (EMS, /12)</p>
+  <table class="pftable"><thead><tr><th>Component</th><th>Finding</th><th>Score</th></tr></thead><tbody>
+   <tr><td>Scrotal fusion (0 / 1.5 / 3)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>Phallus / micropenis (0 or 3)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>Urethral meatus (0–3)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>Right gonad (0 / 0.5 / 1.5)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>Left gonad (0 / 0.5 / 1.5)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td><b>EMS total</b></td><td></td><td>${cin}</td></tr></tbody></table>
+  <p class="hintline" style="margin-top:12px">External Genitalia Score (EGS, /12) — female 0, full-term male ≈12; &lt;9 screen, ≤4 informs assignment (MDT decision)</p>
+  <table class="pftable"><thead><tr><th>Landmark</th><th>Finding</th><th>Score</th></tr></thead><tbody>
+   <tr><td>1 · Labioscrotal fusion (0 / 0.5 / 1–1.5 / 3)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>2 · Genital tubercle size (0 / 1 / 1.5 / 2.5 / 3)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>3 · Urethral meatus (0 / 1 / 1.5 / 2 / 2.5 / 3)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>4 · Right gonad (0 / 0.5 / 1 / 1.5)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>5 · Left gonad (0 / 0.5 / 1 / 1.5)</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td><b>EGS total</b></td><td></td><td>${cin}</td></tr></tbody></table>
+ </div>
+
+ <div class="pf"><h4>F · Systemic examination</h4><div class="pfrow">${F('Cardiovascular (murmur, femorals)')}${F('Abdomen / palpable masses')}${F('Neurological / other')}${F('Anthropometric red flags')}</div></div>
+
+ <div class="pf"><h4>G · Provisional impression / working differential</h4><div class="pfrow one">${box}</div></div>
+
+ <div class="pf"><h4>H · Biochemistry</h4>
+  <p class="hintline">First-line (send in every ambiguous/virilised infant)</p>
+  <table class="pftable"><thead><tr><th>Test</th><th>Result</th><th>Units</th><th>Reference</th><th>Date/day-of-life</th></tr></thead><tbody>
+   ${biochemRow('17-hydroxyprogesterone (17-OHP) — after 48–72 h')}${biochemRow('Sodium')}${biochemRow('Potassium')}${biochemRow('Blood glucose')}${biochemRow('Testosterone')}${biochemRow('LH')}${biochemRow('FSH')}${biochemRow('Cortisol (basal ± stimulated)')}${biochemRow('ACTH')}
+  </tbody></table>
+  <p class="hintline" style="margin-top:10px">Second-line / LC-MS/MS steroid profile & gonadal markers</p>
+  <table class="pftable"><thead><tr><th>Test</th><th>Result</th><th>Units</th><th>Reference</th><th>Date</th></tr></thead><tbody>
+   ${biochemRow('Androstenedione')}${biochemRow('DHEA / DHEAS')}${biochemRow('Anti-Müllerian hormone (AMH)')}${biochemRow('DHT and Testosterone:DHT ratio')}${biochemRow('11-deoxycortisol')}${biochemRow('11-deoxycorticosterone (DOC)')}${biochemRow('21-deoxycortisol')}${biochemRow('17-OH-pregnenolone / pregnenolone')}${biochemRow('Renin / PRA')}${biochemRow('Aldosterone')}${biochemRow('11-oxygenated androgens (11-KT / 11-KA4)')}
+  </tbody></table>
+  <p class="hintline" style="margin-top:10px">Dynamic tests</p>
+  <table class="pftable"><thead><tr><th>Test</th><th>Baseline</th><th>Stimulated</th><th>Interpretation</th></tr></thead><tbody>
+   <tr><td>ACTH (Synacthen) stimulation — cortisol / 17-OHP (0 & 60 min)</td><td>${cin}</td><td>${cin}</td><td>${cin}</td></tr>
+   <tr><td>hCG stimulation — testosterone (pre / post), ± A/T, T/DHT</td><td>${cin}</td><td>${cin}</td><td>${cin}</td></tr>
+  </tbody></table>
+ </div>
+
+ <div class="pf"><h4>I · Imaging</h4><div class="pfrow">${F('Pelvic/perineal ultrasound — uterus present?')}${F('Gonads — location & echotexture')}${F('Adrenal ultrasound (size)')}${F('Genitogram / MRI / endoscopy')}</div></div>
+
+ <div class="pf"><h4>J · Cytogenetics & molecular genetics</h4><div class="pfrow">${F('Karyotype (no. of cells / mosaicism)')}${F('Rapid FISH / PCR for SRY & Y material')}${F('Chromosomal microarray (CMA)')}${F('Targeted DSD gene panel / WES — result')}${F('CYP21A2 genotyping (if CAH)')}${F('Parental / segregation testing')}</div></div>
+
+ <div class="pf"><h4>K · Multidisciplinary plan</h4>
+  <p class="hintline">Sex assignment is an MDT decision after karyotype, hormones and imaging — never declared on examination alone.</p>
+  <div class="pfrow">${F('Acute management (fluids, hydrocortisone, salt) if crisis')}${F('MDT members involved')}${F('Sex-of-rearing discussion / decision & rationale')}${F('Endocrine treatment plan')}${F('Surgical plan / deferral')}${F('Gonadal tumour-risk assessment')}${F('Psychosocial support / family counselling')}${F('Genetic counselling')}${F('Follow-up interval & registry')}</div>
+  <div class="pfrow three" style="margin-top:10px">${F('Clinician name')}${F('Signature')}${F('Date')}</div>
+ </div>`;
+}
+
 function renderAll(rebuild=true){
- if(rebuild){renderForm(historyDefs,'#historyForm');renderForm(emsDefs,'#emsForm');renderForm(egsDefs,'#egsForm');renderForm(examDefs,'#examForm');renderForm(karyoDefs,'#karyoForm');renderLabs();renderAtlas();renderRefs();}
- renderEMS();renderResults();renderNext();renderSafety();renderLive();renderMap();
+ if(rebuild){renderForm(historyDefs,'#historyForm');renderForm(emsDefs,'#emsForm');renderForm(egsDefs,'#egsForm');renderForm(examDefs,'#examForm');renderForm(karyoDefs,'#karyoForm');renderLabs();renderAtlas();renderRefs();initSuspectSelectors();buildProforma();}
+ renderEMS();renderResults();renderNext();renderSuspect();renderSafety();renderLive();renderMap();
 }
 
 /* ============================ EXAMPLE + CONTROLS ============================ */
@@ -708,6 +889,8 @@ $('#reset').onclick=()=>{initC();labs=JSON.parse(JSON.stringify(lab0));renderAll
 $('#loadEx').onclick=loadExample;
 $('#clearAdv').onclick=()=>{let keep=['ohp17','deoxy21','cortisol','na','k','testosterone','androstenedione'];labs.forEach(x=>{if(!keep.includes(x.id)){x.m=false;x.v='';x.man='auto';}});renderAll(false);};
 $('#markKey').onclick=()=>{['ohp17','deoxy21','deoxy11','doc','cortisol','aldosterone','na','k','testosterone','androstenedione','amh','lh','fsh','renin','acth'].forEach(id=>{let x=L()[id];if(x)x.m=true;});renderAll(false);};
+$('#printProforma').onclick=()=>{document.body.classList.add('only-proforma');window.print();setTimeout(()=>document.body.classList.remove('only-proforma'),400);};
+window.addEventListener('afterprint',()=>document.body.classList.remove('only-proforma'));
 $('#search').oninput=renderAtlas;$('#atlasFilter').onchange=renderAtlas;
 $$('#mapFilter button').forEach(b=>b.onclick=()=>{$$('#mapFilter button').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderMap();});
 $$('#dxFilter button').forEach(b=>b.onclick=()=>{$$('#dxFilter button').forEach(x=>x.classList.remove('active'));b.classList.add('active');dxGroupFilter=b.dataset.f;renderResults();});

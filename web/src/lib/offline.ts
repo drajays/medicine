@@ -20,6 +20,34 @@ export function registerServiceWorker(): void {
   })
 }
 
+/**
+ * Force the app to pick up the latest deployed content. Because content JSON
+ * is served stale-while-revalidate (and hashed bundles are cache-first), a
+ * plain reload can show yesterday's data. This purges the content cache, asks
+ * the service worker to update to any newly deployed version, then hard-reloads
+ * so the freshest catalog + chapters are fetched from the network.
+ */
+export async function refreshContent(): Promise<void> {
+  try {
+    if (typeof caches !== 'undefined') {
+      const keys = await caches.keys()
+      // Drop the data cache (any version) so JSON is re-fetched from network.
+      await Promise.all(keys.filter((k) => k.includes('-data-')).map((k) => caches.delete(k)))
+    }
+  } catch {
+    /* cache API unavailable — reload still helps */
+  }
+  try {
+    if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
+      const reg = await navigator.serviceWorker.getRegistration()
+      await reg?.update()
+    }
+  } catch {
+    /* SW update failures are non-fatal */
+  }
+  window.location.reload()
+}
+
 export function getOfflineStatus(): OfflineStatus | null {
   try {
     const raw = localStorage.getItem(STATUS_KEY)
