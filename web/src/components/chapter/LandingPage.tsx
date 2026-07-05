@@ -7,12 +7,14 @@ import { useRevisionStore } from '@/stores/revisionStore'
 import { ReviseDashboard } from '@/components/ReviseDashboard'
 import { StudyProgressDashboard } from '@/components/StudyProgressDashboard'
 import { MockExamDashboard } from '@/components/MockExamDashboard'
+import { ContentLogDashboard } from '@/components/ContentLogDashboard'
 import { OfflineButton } from '@/components/OfflineButton'
 import { RefreshButton } from '@/components/RefreshButton'
 import type { HeaderKind } from '@/lib/types'
 
 export const REVISE_KEY = '__revise__'
 export const MOCK_EXAM_KEY = '__mock_exam__'
+export const CONTENT_LOG_KEY = '__content_log__'
 const PROGRESS_KEY = '__progress__'
 
 const BASE = import.meta.env.BASE_URL
@@ -152,6 +154,7 @@ export function LandingPage() {
   const isRevise = activeKey === REVISE_KEY
   const isProgress = activeKey === PROGRESS_KEY
   const isMockExam = activeKey === MOCK_EXAM_KEY
+  const isContentLog = activeKey === CONTENT_LOG_KEY
   const active = sections.find((s) => s.key === activeKey) ?? sections[0]
 
   if (!sections.length) {
@@ -257,9 +260,25 @@ export function LandingPage() {
             </span>
             <span className="text-sm font-semibold">Mock Exam</span>
           </button>
+          <button
+            type="button"
+            onClick={() => setActiveKey(CONTENT_LOG_KEY)}
+            className={cn(
+              'flex shrink-0 items-center gap-2 rounded-lg px-3.5 py-2 transition-colors duration-100',
+              isContentLog
+                ? 'bg-teal-600 text-white shadow-sm'
+                : 'bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700',
+            )}
+          >
+            <span aria-hidden className="text-base leading-none">
+              📜
+            </span>
+            <span className="text-sm font-semibold">Updates</span>
+          </button>
           {sections.map((section) => {
             const meta = META[section.kind]
-            const isActive = !isRevise && !isProgress && !isMockExam && section.key === active.key
+            const isActive =
+              !isRevise && !isProgress && !isMockExam && !isContentLog && section.key === active.key
             return (
               <button
                 key={section.key}
@@ -296,6 +315,8 @@ export function LandingPage() {
         <StudyProgressDashboard />
       ) : isMockExam ? (
         <MockExamDashboard />
+      ) : isContentLog ? (
+        <ContentLogDashboard />
       ) : (
         <>
           {active.subtitle && (

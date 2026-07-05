@@ -1,11 +1,18 @@
 import { cpSync, mkdirSync, readdirSync, rmSync, statSync } from 'fs'
 import { resolve, join } from 'path'
 import { fileURLToPath } from 'url'
+import { execSync } from 'child_process'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const webRoot = resolve(__dirname, '..')
 const repoRoot = resolve(webRoot, '..')
 const distDir = resolve(webRoot, 'dist')
+
+try {
+  execSync('node scripts/generate-content-log.mjs', { cwd: repoRoot, stdio: 'inherit' })
+} catch {
+  console.warn('content_log.json generation skipped (non-fatal)')
+}
 
 function copyDir(src, dest) {
   mkdirSync(dest, { recursive: true })

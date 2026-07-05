@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { Command } from 'cmdk'
-import { Search, BookOpen, FileQuestion, Download, Upload } from 'lucide-react'
+import { Search, BookOpen, FileQuestion, Download, Upload, ScrollText } from 'lucide-react'
 import { useAppStore } from '@/store/useAppStore'
+import { CONTENT_LOG_KEY } from '@/components/chapter/LandingPage'
 import type { SearchResult } from '@/lib/types'
 import { cn } from '@/lib/utils'
 import {
@@ -29,6 +30,7 @@ export function CommandPalette() {
   const selectItem = useAppStore((s) => s.selectItem)
   const exportStudyData = useAppStore((s) => s.exportStudyData)
   const importStudyData = useAppStore((s) => s.importStudyData)
+  const showLanding = useAppStore((s) => s.showLanding)
   const [query, setQuery] = useState('')
   const [actionMsg, setActionMsg] = useState<string | null>(null)
   const fileInput = useRef<HTMLInputElement>(null)
@@ -95,6 +97,17 @@ export function CommandPalette() {
   }
 
   const actions: PaletteAction[] = [
+    {
+      id: 'action-content-log',
+      label: 'View content update log',
+      subtitle: 'Chronological record of new and updated study modules',
+      keywords: ['updates', 'changelog', 'log', 'new', 'content', 'history'],
+      icon: ScrollText,
+      run: () => {
+        showLanding(CONTENT_LOG_KEY)
+        setOpen(false)
+      },
+    },
     {
       id: 'action-export',
       label: 'Export study backup (.json)',
