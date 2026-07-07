@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 8/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 9/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -122,8 +122,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-06 Pituitary physiology & diagnostics | ✅ authored | 77 | 54% |
 | w15-07 Pituitary adenomas & masses | ✅ authored | 77 | 58% |
 | w15-08 Posterior pituitary | ✅ authored | 77 | 65% |
+| w15-09 Thyroid pathophysiology & diagnostics | ✅ authored | 77 | 54% |
 
-**Phase 2 Williams 15e: 8/48 chapters complete** (~616 items)
+**Phase 2 Williams 15e: 9/48 chapters complete** (~693 items)
 
 ## Phase 3 — ESAP 2015
 
@@ -186,4 +187,5 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-08 | w15-05 | 77 | 54% | 1e24265 |
 | 2026-07-08 | w15-06 | 77 | 54% | 52f14f7 |
 | 2026-07-08 | w15-07 | 77 | 58% | e5c3521 |
-| 2026-07-08 | w15-08 | 77 | 65% | pending |
+| 2026-07-08 | w15-08 | 77 | 65% | aa965c3 |
+| 2026-07-08 | w15-09 | 77 | 54% | pending |
