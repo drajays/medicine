@@ -1,0 +1,846 @@
+{
+  "id": "w15-13",
+  "volume": 15,
+  "chapterNo": "13",
+  "title": "The Adrenal Cortex",
+  "section": "Williams Textbook of Endocrinology 15th Edition (2024)",
+  "authors": "Richard J. Auchus, Christa E. Flück Pandey",
+  "sourceFile": "williams_2024_chapters/williams2024_chapter_13_The_Adrenal_Cortex.md",
+  "items": [
+    {
+      "id": "w15-13-n1",
+      "type": "note",
+      "subtopic": "KEY POINTS",
+      "title": "Adrenal cortex chapter scope",
+      "text": "Williams 15e covers adrenal steroidogenesis, HPA-axis regulation, glucocorticoid receptor action, Cushing syndrome, adrenal insufficiency, CAH, replacement therapy, and adrenal tumors.",
+      "reference": "KEY POINTS: \"Glucocorticoid excess and Cushing syndrome, adrenal insufficiency and Addison disease, and inherited disorders of the adrenal gland are also discussed.\""
+    },
+    {
+      "id": "w15-13-n2",
+      "type": "note",
+      "subtopic": "Anatomy and Development",
+      "title": "Adrenal cortical zonation and development",
+      "text": "The adult cortex comprises zona glomerulosa (~15%), fasciculata (~75%), and reticularis; fetal zone involutes postnatally while definitive zone differentiates into adult zones with distinct steroidogenic enzyme expression.",
+      "reference": "Anatomy and Development: \"The ZF makes up 75% of the cortex; cells are large and lipid laden and form radial cords within the fibrovascular radial network.\""
+    },
+    {
+      "id": "w15-13-n3",
+      "type": "note",
+      "subtopic": "Adrenal Steroids and Steroidogenesis",
+      "title": "Why zona glomerulosa cannot synthesize cortisol",
+      "text": "Zona glomerulosa lacks 17α-hydroxylase (CYP17A1), so it cannot convert progesterone through 17OHP to cortisol; aldosterone synthesis is confined there via zone-restricted CYP11B2 expression.",
+      "reference": "Adrenal Steroids and Steroidogenesis: \"17α-Hydroxylation is an essential prerequisite for cortisol synthesis, and the ZG does not express 17α-hydroxylase.\""
+    },
+    {
+      "id": "w15-13-n4",
+      "type": "note",
+      "subtopic": "Adrenal Steroids and Steroidogenesis",
+      "title": "How StAR gates adrenal steroidogenesis",
+      "text": "ACTH raises intracellular cAMP, inducing StAR to shuttle cholesterol across the mitochondrial membrane—the rate-limiting step before CYP11A1 converts cholesterol to pregnenolone.",
+      "reference": "Adrenal Steroids and Steroidogenesis: \"StAR is induced by an increase in intracellular cyclic adenosine monophosphate (cAMP) after binding of ACTH to its cognate receptor, providing the first important rate-limiting step in adrenal steroidogenesis.\""
+    },
+    {
+      "id": "w15-13-n5",
+      "type": "note",
+      "subtopic": "Regulation of Adrenal Steroidogenesis",
+      "title": "Functional zonation of glucocorticoid and mineralocorticoid secretion",
+      "text": "Glucocorticoids (~10–20 mg/day cortisol) are secreted from zona fasciculata under ACTH; aldosterone (~100–150 µg/day) from zona glomerulosa under angiotensin II, with zone-specific enzyme expression enforcing separation.",
+      "reference": "Regulation of Adrenal Steroidogenesis: Functional Zonation of the Adrenal Cortex: \"Glucocorticoids are secreted in relatively high amounts (cortisol, 10–20 mg/day) from the ZF under the control of ACTH; mineralocorticoids are secreted in low amounts (aldosterone, 100–150 µg/day) from the ZG under the principal control of angiotensin II.\""
+    },
+    {
+      "id": "w15-13-n6",
+      "type": "note",
+      "subtopic": "Corticosteroid Hormone Action",
+      "title": "Why 11βHSD2 confers mineralocorticoid receptor specificity",
+      "text": "Because MR binds cortisol with affinity similar to aldosterone, renal 11βHSD2 inactivates cortisol to cortisone so aldosterone can occupy the receptor without cortisol acting as a mineralocorticoid.",
+      "reference": "Corticosteroid Hormone Action: \"Specificity on the MR is conferred through the \"prereceptor\" metabolism of cortisol via the enzyme 11βHSD2, which converts cortisol and corticosterone to inactive 11-keto metabolites, enabling aldosterone to bind to the MR.\""
+    },
+    {
+      "id": "w15-13-n7",
+      "type": "note",
+      "subtopic": "Negative Feedback",
+      "title": "HPA-axis glucocorticoid negative feedback",
+      "text": "Glucocorticoids inhibit POMC transcription in the pituitary and CRH/AVP synthesis in the hypothalamus; prolonged exogenous steroids can suppress the axis for months after withdrawal.",
+      "reference": "Negative Feedback: \"Suppression of the HPA axis by pharmacologic corticosteroids may persist for many months after cessation of therapy, and adrenocortical insufficiency should be anticipated.\""
+    },
+    {
+      "id": "w15-13-n8",
+      "type": "note",
+      "subtopic": "Glucocorticoid Secretion",
+      "title": "How CRH and AVP coordinate ACTH release",
+      "text": "Hypothalamic CRH is the principal ACTH secretagogue via type I CRH receptors and cAMP; AVP potentiates CRH through V1b receptors and protein kinase C.",
+      "reference": "Corticotropin-Releasing Hormone and Arginine Vasopressin: \"CRH is the principal stimulus for ACTH secretion, but AVP is able to potentiate CRH-mediated secretion.\""
+    },
+    {
+      "id": "w15-13-n9",
+      "type": "note",
+      "subtopic": "Circadian Rhythm",
+      "title": "Circadian and pulsatile cortisol secretion",
+      "text": "ACTH and cortisol peak on awakening and fall to a nadir by evening; circadian rhythm depends on sleep-wake and day-night cycles and is lost in Cushing disease.",
+      "reference": "Circadian Rhythm: \"ACTH, and hence cortisol, is secreted in a pulsatile fashion with a circadian rhythm; levels are highest on awakening and decline throughout the day, reaching nadir values in the evening (Fig. 13.8).\""
+    },
+    {
+      "id": "w15-13-n10",
+      "type": "note",
+      "subtopic": "Cushing Syndrome",
+      "title": "Why ectopic ACTH syndrome causes hypokalemic alkalosis",
+      "text": "Very high cortisol secretion saturates renal 11βHSD2, allowing cortisol to act as a mineralocorticoid; elevated DOC from ACTH drive also contributes—hypokalemia occurs in >95% of ectopic cases versus <10% in Cushing disease.",
+      "reference": "Question 2: What Is the Cause of Cushing Syndrome in This Patient?: \"Hypokalemic alkalosis is present in more than 95% of patients with the ectopic ACTH syndrome but in fewer than 10% of those with Cushing disease.\""
+    },
+    {
+      "id": "w15-13-n11",
+      "type": "note",
+      "subtopic": "Corticosteroid Hormone Action",
+      "title": "Glucocorticoid transrepression and anti-inflammatory action",
+      "text": "GR-ligand complexes antagonize AP-1 and NF-κB, repressing pro-inflammatory cytokines and explaining rapid anti-inflammatory effects beyond classic GRE-mediated transactivation.",
+      "reference": "Receptors and Gene Transcription: \"The GR-ligand complex can bind to c-Jun and prevent interaction with the AP1 site, thereby mediating the so-called transrepressive effects of glucocorticoids.\""
+    },
+    {
+      "id": "w15-13-n12",
+      "type": "note",
+      "subtopic": "Therapeutic Corticosteroids",
+      "title": "How oral glucocorticoid potencies compare",
+      "text": "Relative GR potency guides replacement and suppression risk: ~20 mg hydrocortisone, ~5 mg prednisolone, and ~0.75 mg dexamethasone are bioequivalent; dexamethasone has longer half-life and stronger HPA suppression.",
+      "reference": "ACTH Suppression by Exogenous Glucocorticoids: \"these suggest that oral doses of 20 mg of hydrocortisone, 5 mg of prednisolone, and 0.75 mg of dexamethasone are bioequivalent.\""
+    },
+    {
+      "id": "w15-13-n13",
+      "type": "note",
+      "subtopic": "Cushing Syndrome",
+      "title": "Cushing syndrome versus Cushing disease",
+      "text": "Cushing syndrome denotes any pathologic hypercortisolism (endogenous or exogenous); Cushing disease is pituitary ACTH-dependent Cushing syndrome, most often from a corticotrope adenoma.",
+      "reference": "Cushing Syndrome: \"The term Cushing syndrome is used to describe all causes, whereas Cushing disease is reserved for pituitary-dependent Cushing syndrome.\""
+    },
+    {
+      "id": "w15-13-n14",
+      "type": "note",
+      "subtopic": "Question 1: Does This Patient Have Cushing Syndrome?",
+      "title": "Why late-night salivary cortisol screens for Cushing",
+      "text": "Loss of circadian rhythm means elevated nocturnal free cortisol; salivary cortisol avoids hospitalization and, in validated assays, discriminates Cushing with high sensitivity and specificity.",
+      "reference": "Salivary Cortisol: \"In one study, a cortisol value of greater than 2.0 ng/mL (>5.5 nmol/L) had a 100% sensitivity and a 96% specificity for diagnosis of Cushing syndrome.\""
+    },
+    {
+      "id": "w15-13-n15",
+      "type": "note",
+      "subtopic": "Inferior Petrosal Sinus Sampling and Selective Venous Catheterization",
+      "title": "How IPSS distinguishes pituitary from ectopic ACTH",
+      "text": "Simultaneous petrosal and peripheral ACTH sampling after CRH stimulation: petrosal/peripheral ratio >3 after CRH has ~95% sensitivity and nearly 100% specificity for Cushing disease.",
+      "reference": "Inferior Petrosal Sinus Sampling and Selective Venous Catheterization: \"Using this approach, an ACTH petrosal sinus/peripheral ratio of >3 after CRH administration has a sensitivity of 95% and specificity of nearly 100% for diagnosing Cushing disease.\""
+    },
+    {
+      "id": "w15-13-n16",
+      "type": "note",
+      "subtopic": "Addison Disease",
+      "title": "Addison disease epidemiology and prognosis",
+      "text": "Primary adrenal failure is rare (~0.8/100,000 incidence) but carries twofold excess mortality if missed; autoimmune adrenalitis accounts for >70% of acquired cases in Western countries.",
+      "reference": "Addison Disease: \"Addison disease is a rare condition with an estimated incidence in the developed world of 0.8 cases per 100,000 and a prevalence of 4 to 11 cases per 100,000 population.\""
+    },
+    {
+      "id": "w15-13-n17",
+      "type": "note",
+      "subtopic": "Clinical Features of Adrenal Insufficiency",
+      "title": "Why hyperpigmentation signals primary adrenal failure",
+      "text": "ACTH (not α-MSH) overstimulates melanocortin-1 receptors in skin; pigmentation is nearly universal in primary insufficiency and absent in secondary ACTH deficiency.",
+      "reference": "Clinical Features of Adrenal Insufficiency: \"The most obvious feature that differentiates primary from secondary hypoadrenalism is skin pigmentation (Table 13.10), which is almost always present in cases of primary adrenal insufficiency (unless of short duration) and absent in secondary insufficiency.\""
+    },
+    {
+      "id": "w15-13-n18",
+      "type": "note",
+      "subtopic": "Assessing Adequacy of Function of the HPA Axis",
+      "title": "How the short synacthen test assesses adrenal reserve",
+      "text": "250 µg synthetic ACTH(1–24) is given IV/IM; peak cortisol >550 nmol/L (assay-dependent, often >430–450 with LC-MS/MS) indicates adequate zona fasciculata responsiveness.",
+      "reference": "Assessing Adequacy of Function of the HPA Axis: \"a normal response has previously been defined by a peak plasma cortisol level greater than 550 nmol/L (>20 µg/dL).\""
+    },
+    {
+      "id": "w15-13-n19",
+      "type": "note",
+      "subtopic": "Treatment of Acute Adrenal Insufficiency",
+      "title": "Acute adrenal crisis management",
+      "text": "Do not delay treatment: IV hydrocortisone 100 mg q6–8h, aggressive saline/dextrose resuscitation, and treat precipitating illness; draw ACTH/cortisol before steroids when possible.",
+      "reference": "Treatment of Acute Adrenal Insufficiency: \"In adults, intravenous hydrocortisone should be given in a dose of 100 mg every 6 to 8 hours.\""
+    },
+    {
+      "id": "w15-13-n20",
+      "type": "note",
+      "subtopic": "Long-Term Replacement Therapy",
+      "title": "Chronic glucocorticoid and mineralocorticoid replacement",
+      "text": "Hydrocortisone 15–20 mg on waking plus 5–10 mg afternoon mimics physiologic secretion (~8–15 mg/day production); primary failure also needs fludrocortisone 0.05–0.2 mg with renin and electrolyte monitoring.",
+      "reference": "Long-Term Replacement Therapy: \"Most patients are adequately treated with less than 30 mg/day (usually 15–25 mg/day in divided doses).\""
+    },
+    {
+      "id": "w15-13-n21",
+      "type": "note",
+      "subtopic": "Maintenance Therapy",
+      "title": "Why stress-dose glucocorticoids are mandatory",
+      "text": "Patients on replacement cannot mount a cortisol surge during illness or surgery; doubling oral dose for febrile illness or giving parenteral hydrocortisone for vomiting, trauma, or major surgery prevents adrenal crisis.",
+      "reference": "Treatment of Minor Febrile Illness or Stress: \"Increase glucocorticoid dose twofold to threefold for the few days of illness; do not change mineralocorticoid dose.\""
+    },
+    {
+      "id": "w15-13-n22",
+      "type": "note",
+      "subtopic": "Congenital Adrenal Hyperplasia",
+      "title": "How 21-hydroxylase deficiency causes virilization",
+      "text": "Blocked 21-hydroxylation impairs cortisol synthesis, removing negative feedback and driving ACTH-mediated accumulation of adrenal androgen precursors proximal to the enzymatic block.",
+      "reference": "21-Hydroxylase Deficiency: \"Reduced cortisol biosynthesis results in a reduced negative feedback drive and increased ACTH secretion; as a consequence, adrenal androgens are produced in excess (Fig. 13.35).\""
+    },
+    {
+      "id": "w15-13-n23",
+      "type": "note",
+      "subtopic": "Classic 21-Hydroxylase Deficiency",
+      "title": "Classic versus nonclassic 21-hydroxylase deficiency",
+      "text": "Classic disease causes cortisol deficiency with virilization of 46,XX infants and salt wasting in ~75%; nonclassic disease presents later with hyperandrogenism mimicking PCOS, with normal basal cortisol.",
+      "reference": "Classic 21-Hydroxylase Deficiency: \"About 75% of patients with classic 21-hydroxylase deficiency have concomitant, clinically manifested aldosterone deficiency and a strong propensity for salt wasting.\""
+    },
+    {
+      "id": "w15-13-n24",
+      "type": "note",
+      "subtopic": "Classic 21-Hydroxylase Deficiency",
+      "title": "Why males with classic CAH are often diagnosed late",
+      "text": "46,XY infants appear phenotypically normal at birth, so diagnosis may be delayed until precocious pubarche or growth acceleration—contributing to skewed female-to-male detection before newborn screening.",
+      "reference": "Classic 21-Hydroxylase Deficiency: \"Males are phenotypically normal at birth and are at risk of not being diagnosed; this explains the skewed female-to-male ratio of simple virilizing CAH diagnosed in the preneonatal screening era.\""
+    },
+    {
+      "id": "w15-13-n25",
+      "type": "note",
+      "subtopic": "Incidentalomas",
+      "title": "Adrenal incidentaloma biochemical screening",
+      "text": "All incidentally discovered adrenal masses need endocrine testing: plasma or urinary metanephrines, overnight 1-mg dexamethasone suppression, and renin/aldosterone if hypertensive; DHEAS when androgen excess is suspected.",
+      "reference": "Incidentalomas: \"This testing should comprise 24-hour urinary metanephrine collection or measurement of plasma metanephrines; an overnight dexamethasone suppression test; and for those with hypertension, measurement of plasma renin and aldosterone.\""
+    },
+    {
+      "id": "w15-13-n26",
+      "type": "note",
+      "subtopic": "Incidentalomas",
+      "title": "How incidentaloma size predicts malignancy",
+      "text": "In true incidentalomas, malignancy is rare <4 cm but ~25% when >6 cm; smooth homogeneous lesions <10 HU on CT or signal dropout on chemical-shift MRI are invariably benign.",
+      "reference": "Incidentalomas: \"Fewer than 2% of incidentalomas smaller than 4 cm but 25% of those larger than 6 cm in diameter are malignant (Fig. 13.41).\""
+    },
+    {
+      "id": "w15-13-q1",
+      "type": "mcq",
+      "subtopic": "Question 1: Does This Patient Have Cushing Syndrome?",
+      "question": "A 48-year-old woman with central obesity, purple striae, and proximal weakness has normal 9 AM serum cortisol. Best next screening test?",
+      "options": [
+        "Late-night salivary cortisol or 1-mg overnight dexamethasone suppression test",
+        "Random morning cortisol alone because it is already normal",
+        "Serum DHEAS to exclude adrenal source",
+        "Immediate bilateral adrenalectomy without biochemical confirmation"
+      ],
+      "correctOption": 0,
+      "explanation": "Random morning cortisol is unhelpful; Endocrine Society guidelines recommend UFC, late-night salivary cortisol, or low-dose dexamethasone suppression when Cushing is suspected.",
+      "reference": "Diagnostic Guidelines: \"Recommendations are to proceed initially with one of four highly sensitive screening tests: urinary free cortisol, late-night salivary cortisol, overnight dexamethasone, or the 2-mg/48-hour dexamethasone suppression test.\""
+    },
+    {
+      "id": "w15-13-q2",
+      "type": "mcq",
+      "subtopic": "Question 1: Does This Patient Have Cushing Syndrome?",
+      "question": "After 1 mg dexamethasone at 11 PM, 8 AM plasma cortisol is 62 nmol/L (2.2 µg/dL). Interpretation?",
+      "options": [
+        "Failure to suppress—supports Cushing syndrome; confirm with a second test",
+        "Normal suppression—Cushing excluded permanently",
+        "Result proves pituitary Cushing disease",
+        "Result indicates primary adrenal insufficiency"
+      ],
+      "correctOption": 0,
+      "explanation": "Post-dexamethasone cortisol <50 nmol/L is normal suppression; values above cutoff indicate lack of feedback suppression seen in Cushing syndrome.",
+      "reference": "Low-Dose Overnight Dexamethasone Suppression Tests: \"A normal response is a plasma cortisol level of less than 50 nmol/L (<1.8 μg/dL) between 8 and 9 AM the following morning.\""
+    },
+    {
+      "id": "w15-13-q3",
+      "type": "mcq",
+      "subtopic": "Question 2: What Is the Cause of Cushing Syndrome in This Patient?",
+      "question": "Confirmed Cushing syndrome: ACTH 35 pmol/L, hypokalemia, very high UFC. Most likely source?",
+      "options": [
+        "Ectopic ACTH secretion rather than pituitary Cushing disease",
+        "Nonfunctioning adrenal adenoma",
+        "Primary adrenal insufficiency",
+        "Iatrogenic glucocorticoid withdrawal"
+      ],
+      "correctOption": 0,
+      "explanation": "Markedly elevated ACTH with hypokalemic alkalosis strongly favors ectopic ACTH; pituitary disease rarely causes hypokalemia.",
+      "reference": "Question 2: What Is the Cause of Cushing Syndrome in This Patient?: \"ACTH levels in the ectopic ACTH syndrome are high (usually >20 pmol/L [>90 pg/mL]); nevertheless, overlap values are seen in Cushing disease in 30% of cases.\""
+    },
+    {
+      "id": "w15-13-q4",
+      "type": "mcq",
+      "subtopic": "Inferior Petrosal Sinus Sampling and Selective Venous Catheterization",
+      "question": "ACTH-dependent Cushing: MRI shows no pituitary adenoma; high-dose dexamethasone and CRH results are equivocal. Definitive next test?",
+      "options": [
+        "Inferior petrosal sinus sampling with CRH stimulation",
+        "Repeat random morning cortisol in 6 months",
+        "Serum aldosterone to lateralize the lesion",
+        "Thyroid scintigraphy"
+      ],
+      "correctOption": 0,
+      "explanation": "IPSS with CRH is the most robust test to distinguish pituitary Cushing disease from ectopic ACTH when imaging and dynamic tests are inconclusive.",
+      "reference": "Inferior Petrosal Sinus Sampling and Selective Venous Catheterization: \"The most robust test to distinguish Cushing disease from the ectopic ACTH syndrome is IPSS.\""
+    },
+    {
+      "id": "w15-13-q5",
+      "type": "mcq",
+      "subtopic": "Imaging",
+      "question": "Biochemically confirmed ACTH-independent Cushing with undetectable ACTH. Pitfall to avoid on adrenal CT?",
+      "options": [
+        "Mistaking asymmetric macronodular hyperplasia for a unilateral adenoma and operating on the wrong premise",
+        "Assuming bilateral adrenal enlargement always means metastases",
+        "Ordering IPSS before adrenal imaging",
+        "Treating with fludrocortisone before surgery"
+      ],
+      "correctOption": 0,
+      "explanation": "Asymmetric nodular hyperplasia can mimic a unilateral adenoma; ignoring low-normal ACTH risks inappropriate unilateral adrenalectomy.",
+      "reference": "Morning Plasma ACTH: \"The danger is that in some patients, the asymmetry of the nodular hyperplasia may lead to a diagnosis of adrenal adenoma, the plasma ACTH is ignored, and an inappropriate adrenalectomy is performed.\""
+    },
+    {
+      "id": "w15-13-q6",
+      "type": "mcq",
+      "subtopic": "Treatment of Cushing Syndrome",
+      "question": "A patient undergoes laparoscopic adrenalectomy for a cortisol-secreting adenoma. Postoperative 9 AM cortisol is 30 nmol/L. Management?",
+      "options": [
+        "Continue glucocorticoid replacement until contralateral adrenal recovery; carry steroid alert card",
+        "No replacement needed because tumor is removed",
+        "Start mitotane immediately",
+        "Begin high-dose dexamethasone suppression testing daily"
+      ],
+      "correctOption": 0,
+      "explanation": "After unilateral adrenalectomy the contralateral gland is suppressed; physiologic hydrocortisone is continued until morning cortisol recovers.",
+      "reference": "Adrenal Causes: \"After surgery, it may take many months or even years for the contralateral suppressed adrenal to recover.\""
+    },
+    {
+      "id": "w15-13-q7",
+      "type": "mcq",
+      "subtopic": "Clinical Features of Adrenal Insufficiency",
+      "question": "A 34-year-old has fatigue, weight loss, postural dizziness, and buccal pigmentation. Electrolytes: Na 128, K 5.8 mmol/L. Diagnosis?",
+      "options": [
+        "Primary adrenal insufficiency (Addison disease)",
+        "Secondary adrenal insufficiency from pituitary disease",
+        "Primary hyperaldosteronism",
+        "Subclinical hyperthyroidism"
+      ],
+      "correctOption": 0,
+      "explanation": "Hyperpigmentation with hyponatremia and hyperkalemia indicates primary adrenal failure with mineralocorticoid and glucocorticoid deficiency.",
+      "reference": "Routine Biochemical Profile: \"Among patients with established primary adrenal insufficiency, hyponatremia is present in about 90% and hyperkalemia in 65%.\""
+    },
+    {
+      "id": "w15-13-q8",
+      "type": "mcq",
+      "subtopic": "Treatment of Acute Adrenal Insufficiency",
+      "question": "A known Addison patient presents hypotensive after vomiting and cannot take oral steroids. Immediate management?",
+      "options": [
+        "IV hydrocortisone 100 mg plus saline resuscitation",
+        "Oral fludrocortisone alone",
+        "Wait for SST results before any treatment",
+        "IV dexamethasone 4 mg weekly only"
+      ],
+      "correctOption": 0,
+      "explanation": "Adrenal crisis is an emergency: parenteral hydrocortisone and volume resuscitation must not wait for confirmatory testing.",
+      "reference": "Emergency Measures: \"Inject intravenous hydrocortisone (100 mg immediately and every 6 hours).\""
+    },
+    {
+      "id": "w15-13-q9",
+      "type": "mcq",
+      "subtopic": "Assessing Adequacy of Function of the HPA Axis",
+      "question": "A patient on chronic prednisolone 7.5 mg daily for 2 years plans elective surgery. Best preoperative assessment?",
+      "options": [
+        "Evaluate HPA-axis recovery (morning cortisol ± SST after brief steroid omission) and provide perioperative stress coverage",
+        "Stop all steroids abruptly 1 week before surgery",
+        "Assume axis is intact because dose is low",
+        "Measure serum aldosterone before surgery"
+      ],
+      "correctOption": 0,
+      "explanation": "Long-term glucocorticoids suppress the HPA axis unpredictably; patients need assessment and supplemental steroid cover for surgery.",
+      "reference": "ACTH Suppression by Exogenous Glucocorticoids: \"All patients receiving long-term therapy with corticosteroids should be treated in a similar fashion to patients with chronic ACTH deficiency; they should carry steroid cards and be offered steroid alert bracelets or necklaces.\""
+    },
+    {
+      "id": "w15-13-q10",
+      "type": "mcq",
+      "subtopic": "ACTH Suppression by Exogenous Glucocorticoids",
+      "question": "An asthmatic on high-dose inhaled fluticasone develops fatigue and hypotension. Likely mechanism?",
+      "options": [
+        "Iatrogenic secondary adrenal insufficiency from inhaled glucocorticoid HPA suppression",
+        "Primary hyperaldosteronism from fluticasone",
+        "Pheochromocytoma crisis",
+        "Excess endogenous cortisol production"
+      ],
+      "correctOption": 0,
+      "explanation": "Inhaled fluticasone at >1000 µg/day for >1 year can suppress the HPA axis, especially with CYP3A4 inhibitors.",
+      "reference": "ACTH Suppression by Exogenous Glucocorticoids: \"adults using over 1000 μg of inhaled fluticasone for over a year were at risk of adrenal suppression.\""
+    },
+    {
+      "id": "w15-13-q11",
+      "type": "mcq",
+      "subtopic": "Congenital Adrenal Hyperplasia",
+      "question": "A newborn 46,XX infant has ambiguous genitalia and salt wasting at 3 weeks. Most likely enzymatic defect?",
+      "options": [
+        "21-Hydroxylase deficiency (CYP21A2)",
+        "17α-Hydroxylase deficiency",
+        "Aldosterone synthase deficiency only",
+        "11β-Hydroxylase deficiency with hypertension"
+      ],
+      "correctOption": 0,
+      "explanation": "21-Hydroxylase deficiency accounts for 90–95% of CAH and causes cortisol deficiency with androgen excess and salt wasting in most classic cases.",
+      "reference": "21-Hydroxylase Deficiency: \"Between 90% and 95% of cases of CAH are caused by 21-hydroxylase deficiency.\""
+    },
+    {
+      "id": "w15-13-q12",
+      "type": "mcq",
+      "subtopic": "Nonclassic 21-Hydroxylase Deficiency",
+      "question": "A 22-year-old woman has hirsutism and oligomenorrhea. Total testosterone modestly elevated; 17OHP after ACTH stimulation is 85 nmol/L. Next step?",
+      "options": [
+        "Treat as nonclassic 21-hydroxylase deficiency—glucocorticoid ± antiandrogen therapy",
+        "Diagnose polycystic ovary syndrome and ignore 17OHP",
+        "Emergency bilateral adrenalectomy",
+        "Start fludrocortisone for mineralocorticoid excess"
+      ],
+      "correctOption": 0,
+      "explanation": "Stimulated 17OHP >30 nmol/L supports nonclassic 21-hydroxylase deficiency, a recognized PCOS mimic.",
+      "reference": "Diagnostic Criteria: \"Stimulated values are invariably grossly elevated in patients with classic (>300 nmol/L [>1,000 ng/dL]) and less so in nonclassic (>30 nmol/L [>1,000 ng/dL]) forms of the disorder (see Table 13.12).\""
+    },
+    {
+      "id": "w15-13-q13",
+      "type": "mcq",
+      "subtopic": "Treatment",
+      "question": "A child with classic salt-wasting CAH is started on replacement. Which monitoring best guides glucocorticoid dose?",
+      "options": [
+        "Growth velocity and bone age, with 17OHP/androgens as adjuncts",
+        "Serum sodium alone",
+        "Urinary cortisol only in adults",
+        "TSH suppression to <0.1 mU/L"
+      ],
+      "correctOption": 0,
+      "explanation": "Pediatric CAH dosing balances preventing salt-wasting crises against suppressing androgen-driven growth acceleration and premature epiphyseal closure.",
+      "reference": "Treatment: \"Response is best monitored through growth velocity and bone age, with biochemical markers from blood (17OHP, androstenedione, testosterone), urine, and saliva (17OHP, androstenedione, testosterone) being useful adjuncts.\""
+    },
+    {
+      "id": "w15-13-q14",
+      "type": "mcq",
+      "subtopic": "11β-Hydroxylase Deficiency",
+      "question": "An infant with ambiguous genitalia has hypertension and elevated DOC. Likely CAH variant?",
+      "options": [
+        "11β-Hydroxylase deficiency",
+        "21-Hydroxylase salt-wasting form",
+        "17α-Hydroxylase deficiency",
+        "Cortisone reductase deficiency"
+      ],
+      "correctOption": 0,
+      "explanation": "11β-Hydroxylase deficiency blocks cortisol synthesis and causes DOC excess with hypertension, distinguishing it from classic 21-hydroxylase deficiency.",
+      "reference": "11β-Hydroxylase Deficiency: \"The principal difference from 21-hydroxylase deficiency is hypertension, which is thought to be secondary to the mineralocorticoid effect of DOC excess.\""
+    },
+    {
+      "id": "w15-13-q15",
+      "type": "mcq",
+      "subtopic": "Incidentalomas",
+      "question": "A 2.5-cm homogeneous adrenal mass (8 HU) is found on CT for renal colic. Patient is normotensive. Essential workup?",
+      "options": [
+        "Plasma metanephrines and overnight 1-mg dexamethasone suppression test",
+        "Immediate open adrenalectomy without biochemistry",
+        "Fine-needle biopsy of the adrenal mass first",
+        "No testing—all incidentalomas are malignant"
+      ],
+      "correctOption": 0,
+      "explanation": "ENSAT/ESE guidelines mandate biochemical screening for pheochromocytoma, cortisol autonomy, and hyperaldosteronism when hypertensive.",
+      "reference": "Incidentalomas: \"This testing should comprise 24-hour urinary metanephrine collection or measurement of plasma metanephrines; an overnight dexamethasone suppression test; and for those with hypertension, measurement of plasma renin and aldosterone.\""
+    },
+    {
+      "id": "w15-13-q16",
+      "type": "mcq",
+      "subtopic": "Incidentalomas",
+      "question": "A 5.5-cm heterogeneous adrenal incidentaloma with 35 HU and history of weight loss. Best management?",
+      "options": [
+        "Surgical resection after pheochromocytoma exclusion—high suspicion for carcinoma",
+        "Observation only because most incidentalomas are benign",
+        "131I adrenal scintigraphy as sole therapy",
+        "Empiric dexamethasone suppression for 6 months"
+      ],
+      "correctOption": 0,
+      "explanation": "Lesions >4–6 cm with malignant imaging features warrant surgery; carcinoma risk rises sharply above 6 cm.",
+      "reference": "Incidentalomas: \"adrenalectomy is considered for functional tumors and for tumors larger than 4 cm in diameter\""
+    },
+    {
+      "id": "w15-13-q17",
+      "type": "mcq",
+      "subtopic": "Carcinomas",
+      "question": "A 44-year-old woman has rapid onset Cushingoid features, abdominal pain, and a 9-cm adrenal mass with liver metastases. First-line systemic therapy?",
+      "options": [
+        "Mitotane with cytotoxic chemotherapy (e.g., etoposide/doxorubicin/cisplatin) after maximal surgical debulking when feasible",
+        "Levothyroxine suppression",
+        "Radioiodine ablation",
+        "Observation only"
+      ],
+      "correctOption": 0,
+      "explanation": "Adrenocortical carcinoma has poor prognosis; mitotane with combination chemotherapy is standard when metastatic disease is present.",
+      "reference": "Carcinomas: \"The combination of etoposide, doxorubicin, and cisplatin is the first-line cytotoxic chemotherapy with or without mitotane\""
+    },
+    {
+      "id": "w15-13-q18",
+      "type": "mcq",
+      "subtopic": "Adrenal Steroids and Steroidogenesis",
+      "question": "A patient with autoimmune Addison disease starts rifampicin for TB. Risk to monitor?",
+      "options": [
+        "Adrenal crisis from increased cortisol metabolism reducing effective replacement",
+        "Hyperkalemia from rifampicin mineralocorticoid effect",
+        "Cushing syndrome from rifampicin",
+        "No interaction—rifampicin does not affect steroids"
+      ],
+      "correctOption": 0,
+      "explanation": "Rifampicin induces CYP3A4 and accelerates cortisol clearance; hydrocortisone doses may need upward adjustment in replaced patients.",
+      "reference": "Corticosteroid-Binding Globulin and Corticosteroid Hormone Metabolism: \"Adrenal crisis has been reported in steroid-replaced addisonian patients given rifampicin\""
+    },
+    {
+      "id": "w15-13-q19",
+      "type": "mcq",
+      "subtopic": "Pro-Opiomelanocortin and ACTH",
+      "question": "Hyperpigmentation in untreated Addison disease is primarily driven by:",
+      "options": [
+        "Elevated ACTH binding melanocortin-1 receptors rather than α-MSH secretion",
+        "Excess α-MSH from pituitary secretion",
+        "High aldosterone stimulating melanocytes",
+        "Estrogen-induced melanogenesis"
+      ],
+      "correctOption": 0,
+      "explanation": "ACTH itself stimulates MC1R; α-MSH is not the principal pigmentary mediator in Addison disease.",
+      "reference": "Pro-Opiomelanocortin and ACTH: \"the increased pigmentation characteristic of Addison disease is thought to arise directly from increased ACTH concentrations binding to the melanocortin-1 receptor (MC1R) rather than from αMSH secretion.\""
+    },
+    {
+      "id": "w15-13-q20",
+      "type": "mcq",
+      "subtopic": "Primary and Central Hypoadrenalism",
+      "question": "Which feature reliably distinguishes primary from secondary adrenal insufficiency?",
+      "options": [
+        "Hyperpigmentation and hyperkalemia occur in primary but not secondary disease",
+        "Secondary disease always causes more severe hypotension",
+        "Primary disease has suppressed plasma renin",
+        "Secondary disease requires fludrocortisone in all patients"
+      ],
+      "correctOption": 0,
+      "explanation": "Mineralocorticoid deficiency accompanies primary adrenal failure; secondary ACTH deficiency leaves the renin-angiotensin-aldosterone axis intact.",
+      "reference": "Primary and Central Hypoadrenalism: \"A major distinction between these forms of hypoadrenalism is that mineralocorticoid deficiency invariably accompanies primary hypoadrenalism, but this does not occur in central hypoadrenalism\""
+    },
+    {
+      "id": "w15-13-q21",
+      "type": "mcq",
+      "subtopic": "Corticotropin-Releasing Hormone Test",
+      "question": "After IV CRH, ACTH rises >100% and cortisol >50% over baseline in ACTH-dependent Cushing. Interpretation?",
+      "options": [
+        "Response favors pituitary Cushing disease over ectopic ACTH",
+        "Proves adrenal adenoma",
+        "Excludes any form of Cushing syndrome",
+        "Indicates primary adrenal insufficiency"
+      ],
+      "correctOption": 0,
+      "explanation": "Marked ACTH and cortisol responses to CRH are typical of Cushing disease and help exclude most ectopic ACTH syndromes.",
+      "reference": "Corticotropin-Releasing Hormone Test: \"a positive response, defined as an ACTH increase of 100% or a cortisol rise of 50% over baseline values, effectively eliminates a diagnosis of ectopic ACTH syndrome, which is the real benefit of this test.\""
+    },
+    {
+      "id": "w15-13-q22",
+      "type": "mcq",
+      "subtopic": "Clinical Features of Cushing Syndrome",
+      "question": "Which finding best discriminates Cushing syndrome from simple obesity?",
+      "options": [
+        "Proximal myopathy and wide purple striae",
+        "Generalized obesity alone",
+        "Mild facial fullness only",
+        "Isolated weight gain without other features"
+      ],
+      "correctOption": 0,
+      "explanation": "Proximal myopathy, bruising, wide livid striae, and facial plethora are among the most discriminatory features in Table 13.6.",
+      "reference": "Clinical Features of Cushing Syndrome: \"Myopathy and bruising are two of the most discriminatory features of the syndrome.\""
+    },
+    {
+      "id": "w15-13-q23",
+      "type": "mcq",
+      "subtopic": "Pituitary-Dependent Cushing Syndrome",
+      "question": "After transsphenoidal surgery for Cushing disease, day 3 cortisol is 25 nmol/L off hydrocortisone. Meaning?",
+      "options": [
+        "Likely remission with suppressed corticotrophs—continue glucocorticoid replacement",
+        "Surgical failure requiring immediate bilateral adrenalectomy",
+        "Normal outcome—stop all steroids immediately",
+        "Indicates ectopic ACTH recurrence"
+      ],
+      "correctOption": 0,
+      "explanation": "Low postoperative cortisol after selective microadenoma removal reflects suppressed normal corticotrophs and expected remission requiring temporary replacement.",
+      "reference": "Pituitary-Dependent Cushing Syndrome: \"After selective removal of a microadenoma, the surrounding corticotrophs are usually suppressed (Fig. 13.29). As a result, plasma cortisol levels are less than 30 nmol/L (<1 µg/dL) postoperatively, and ongoing glucocorticoid replacement therapy is required.\""
+    },
+    {
+      "id": "w15-13-q24",
+      "type": "mcq",
+      "subtopic": "Autoimmune Adrenalitis",
+      "question": "A patient with new-onset Addison disease should also be screened for:",
+      "options": [
+        "Autoimmune thyroid disease and other polyglandular autoimmune conditions",
+        "Pheochromocytoma before any steroids",
+        "Medullary thyroid carcinoma with calcitonin",
+        "Growth hormone deficiency only"
+      ],
+      "correctOption": 0,
+      "explanation": "About half of autoimmune Addison patients have associated autoimmune endocrinopathies, especially thyroid disease.",
+      "reference": "Autoimmune Adrenalitis: \"Fifty percent of patients with this form of Addison disease have an associated autoimmune disease (Table 13.9), with thyroid disease being the most common.\""
+    },
+    {
+      "id": "w15-13-q25",
+      "type": "mcq",
+      "subtopic": "Incidentalomas",
+      "question": "Mild autonomous cortisol excess (MACE) on dexamethasone testing in an incidentaloma patient is associated with:",
+      "options": [
+        "Higher rates of hypertension, diabetes, osteoporosis, and cardiovascular events",
+        "No metabolic consequences whatsoever",
+        "Mandatory immediate mitotane therapy",
+        "Diagnostic certainty of pheochromocytoma"
+      ],
+      "correctOption": 0,
+      "explanation": "Low-grade biochemical hypercortisolism in incidentalomas correlates with cardiometabolic morbidity, though causality remains debated.",
+      "reference": "Incidentalomas: \"When there is evidence of low-grade excess biochemical hypercortisolism, there is an associated increase in the prevalence of diabetes, obesity, hypertension, new cardiovascular events, osteoporosis, and fatality.\""
+    },
+    {
+      "id": "w15-13-q26",
+      "type": "mcq",
+      "subtopic": "Long-Term Replacement Therapy",
+      "question": "A stable Addison patient on hydrocortisone 20 mg AM / 10 mg PM develops intercurrent gastroenteritis with vomiting. Advice?",
+      "options": [
+        "IM/IV hydrocortisone immediately and seek urgent care—do not rely on oral dosing",
+        "Skip steroids until vomiting resolves",
+        "Double fludrocortisone only",
+        "Switch to once-weekly dexamethasone"
+      ],
+      "correctOption": 0,
+      "explanation": "Vomiting prevents oral replacement; parenteral hydrocortisone is mandatory during intercurrent illness.",
+      "reference": "Treatment of Minor Febrile Illness or Stress: \"If the patient is vomiting and cannot take medication by mouth, parenteral hydrocortisone must be given urgently.\""
+    },
+    {
+      "id": "w15-13-t1",
+      "type": "true_false",
+      "subtopic": "Anatomy and Development",
+      "statement": "The adult adrenal cortex zona fasciculata constitutes approximately 75% of cortical volume.",
+      "correctAnswer": true,
+      "explanation": "Zona fasciculata is the largest cortical zone and produces glucocorticoids under ACTH.",
+      "reference": "Anatomy and Development: \"The ZF makes up 75% of the cortex; cells are large and lipid laden and form radial cords within the fibrovascular radial network.\""
+    },
+    {
+      "id": "w15-13-t2",
+      "type": "true_false",
+      "subtopic": "Adrenal Steroids and Steroidogenesis",
+      "statement": "Mutations in adrenal steroidogenic enzymes can cause human disease.",
+      "correctAnswer": true,
+      "explanation": "Enzyme defects underlie CAH and other inherited adrenal disorders.",
+      "reference": "Adrenal Steroids and Steroidogenesis: \"Mutations in the genes encoding these enzymes result in human disease, so some understanding of the underlying pathways and steroid precursors is required.\""
+    },
+    {
+      "id": "w15-13-t3",
+      "type": "true_false",
+      "subtopic": "Circadian Rhythm",
+      "statement": "Random morning plasma cortisol alone is sufficient to diagnose Cushing syndrome.",
+      "correctAnswer": false,
+      "explanation": "Morning cortisol may be normal in Cushing; circadian loss requires late-night or dynamic testing.",
+      "reference": "Circadian Rhythm of Plasma Cortisol: \"Random morning plasma cortisol levels are therefore of little value in making the diagnosis, whereas a midnight cortisol level of greater than 200 nmol/L (>7.5 µg/dL) indicates Cushing syndrome.\""
+    },
+    {
+      "id": "w15-13-t4",
+      "type": "true_false",
+      "subtopic": "Question 1: Does This Patient Have Cushing Syndrome?",
+      "statement": "Urinary free cortisol can be normal in up to 8–15% of patients with Cushing syndrome.",
+      "correctAnswer": true,
+      "explanation": "UFC is useful but not fully sensitive; abnormal screening should be confirmed with another test.",
+      "reference": "Urinary Free Cortisol Excretion: \"although it is accepted that the value can be normal in up to 8% to 15% of patients with Cushing syndrome.\""
+    },
+    {
+      "id": "w15-13-t5",
+      "type": "true_false",
+      "subtopic": "Imaging",
+      "statement": "Adrenal imaging should be performed even when ACTH is suppressed and biochemistry suggests an adrenal source only after confirming undetectable ACTH.",
+      "correctAnswer": true,
+      "explanation": "Incidental adrenal nodules are common; imaging must follow biochemical localization to avoid misclassification.",
+      "reference": "CT/MRI Scanning of Pituitary and Adrenal Glands: \"adrenal imaging should not be performed unless biochemical investigation has suggested a primary adrenal cause (i.e., undetectable ACTH concentrations).\""
+    },
+    {
+      "id": "w15-13-t6",
+      "type": "true_false",
+      "subtopic": "Addison Disease",
+      "statement": "Autoimmune adrenalitis accounts for more than 70% of acquired primary hypoadrenalism in Western countries.",
+      "correctAnswer": true,
+      "explanation": "Anti-21-hydroxylase antibodies are detectable in most autoimmune cases.",
+      "reference": "Autoimmune Adrenalitis: \"In the Western world, autoimmune adrenalis accounts for more than 70% of all cases of acquired primary hypoadrenalism.\""
+    },
+    {
+      "id": "w15-13-t7",
+      "type": "true_false",
+      "subtopic": "Clinical Features of Adrenal Insufficiency",
+      "statement": "Hyperkalemia is typical in secondary adrenal insufficiency.",
+      "correctAnswer": false,
+      "explanation": "Hyperkalemia reflects aldosterone deficiency in primary disease; the RAA axis is intact in secondary insufficiency.",
+      "reference": "Routine Biochemical Profile: \"Hyperkalemia occurs because of aldosterone deficiency, so it is usually absent in patients with secondary adrenal failure.\""
+    },
+    {
+      "id": "w15-13-t8",
+      "type": "true_false",
+      "subtopic": "Assessing Adequacy of Function of the HPA Axis",
+      "statement": "The short synacthen test should be used to diagnose central hypoadrenalism within 6 weeks of pituitary surgery.",
+      "correctAnswer": false,
+      "explanation": "Residual adrenal responsiveness after pituitary insult can yield false-normal SST for 6 weeks.",
+      "reference": "Assessing Adequacy of Function of the HPA Axis: \"the ACTH test should not be used to diagnose central hypoadrenalism in patients with a recent pituitary insult (e.g., surgery, apoplexy).\""
+    },
+    {
+      "id": "w15-13-t9",
+      "type": "true_false",
+      "subtopic": "21-Hydroxylase Deficiency",
+      "statement": "Nonclassic 21-hydroxylase deficiency is more common than classic disease in population incidence.",
+      "correctAnswer": true,
+      "explanation": "Nonclassic incidence is nearly 1 in 200 live births versus ~1 in 10,000–15,000 for classic disease.",
+      "reference": "21-Hydroxylase Deficiency: \"Nonclassic 21-hydroxylase deficiency is more common, with an incidence of nearly 1 in 200 live births.\""
+    },
+    {
+      "id": "w15-13-t10",
+      "type": "true_false",
+      "subtopic": "Classic 21-Hydroxylase Deficiency",
+      "statement": "About 75% of patients with classic 21-hydroxylase deficiency have clinically significant mineralocorticoid deficiency.",
+      "correctAnswer": true,
+      "explanation": "Salt-wasting crises commonly present after the second week of life if untreated.",
+      "reference": "Classic 21-Hydroxylase Deficiency: \"About 75% of patients with classic 21-hydroxylase deficiency have concomitant, clinically manifested aldosterone deficiency and a strong propensity for salt wasting.\""
+    },
+    {
+      "id": "w15-13-t11",
+      "type": "true_false",
+      "subtopic": "Incidentalomas",
+      "statement": "Up to 10% of patients undergoing abdominal imaging may harbor an adrenal incidentaloma.",
+      "correctAnswer": true,
+      "explanation": "Incidentalomas rise in frequency with age and are uncommon before age 30.",
+      "reference": "Incidentalomas: \"An adrenal mass is uncovered in up to 10% of patients imaged for nonadrenal disease.\""
+    },
+    {
+      "id": "w15-13-t12",
+      "type": "true_false",
+      "subtopic": "Carcinomas",
+      "statement": "Primary adrenocortical carcinoma has an annual incidence of about 1 per 1 million population.",
+      "correctAnswer": true,
+      "explanation": "Carcinoma is rare among incidentalomas but aggressive when present.",
+      "reference": "Carcinomas: \"Primary adrenal carcinoma is very rare, with an annual incidence of 1 per 1 million population.\""
+    },
+    {
+      "id": "w15-13-t13",
+      "type": "true_false",
+      "subtopic": "Cushing Syndrome",
+      "statement": "Iatrogenic Cushing syndrome from prescribed glucocorticoids is common.",
+      "correctAnswer": true,
+      "explanation": "Exogenous steroids are the most frequent cause of Cushing syndrome in clinical practice.",
+      "reference": "Cushing Syndrome: \"Iatrogenic Cushing syndrome is common, occurring to some degree in most patients taking long-term corticosteroid therapy.\""
+    },
+    {
+      "id": "w15-13-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Anatomy and Development",
+      "assertion": "Assertion: The zona glomerulosa cannot synthesize cortisol.",
+      "reason": "Reason: The zona glomerulosa does not express 17α-hydroxylase required for cortisol biosynthesis.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and causally linked—lack of CYP17A1 confines ZG to mineralocorticoid pathways.",
+      "reference": "Adrenal Steroids and Steroidogenesis: \"17α-Hydroxylation is an essential prerequisite for cortisol synthesis, and the ZG does not express 17α-hydroxylase.\""
+    },
+    {
+      "id": "w15-13-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Adrenal Steroids and Steroidogenesis",
+      "assertion": "Assertion: StAR mediates the rate-limiting step of adrenal steroidogenesis.",
+      "reason": "Reason: StAR transports cholesterol into mitochondria before CYP11A1 action.",
+      "correctOption": 0,
+      "explanation": "Both true—StAR is ACTH-inducible and essential for mitochondrial cholesterol delivery.",
+      "reference": "Adrenal Steroids and Steroidogenesis: \"Naturally occurring human mutations have confirmed the importance of a 30-kDa protein, steroidogenic acute regulatory protein (StAR), in mediating this effect.\""
+    },
+    {
+      "id": "w15-13-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Negative Feedback",
+      "assertion": "Assertion: Exogenous glucocorticoids can cause adrenal insufficiency after withdrawal.",
+      "reason": "Reason: Glucocorticoids stimulate CRH and ACTH secretion.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—glucocorticoids inhibit, not stimulate, CRH and ACTH.",
+      "reference": "Negative Feedback: \"Glucocorticoids inhibit POMC transcription in the anterior pituitary and CRH and AVP mRNA synthesis and secretion in the hypothalamus.\""
+    },
+    {
+      "id": "w15-13-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Question 1: Does This Patient Have Cushing Syndrome?",
+      "assertion": "Assertion: Late-night salivary cortisol is useful for screening Cushing syndrome.",
+      "reason": "Reason: CBG is absent from saliva, reflecting free cortisol.",
+      "correctOption": 0,
+      "explanation": "Both true—salivary cortisol measures biologically active free hormone without hospitalization.",
+      "reference": "Salivary Cortisol: \"CBG is absent from saliva, and the use of salivary cortisol measurements offers a sensible alternative in that the test does not require hospitalization.\""
+    },
+    {
+      "id": "w15-13-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Question 2: What Is the Cause of Cushing Syndrome in This Patient?",
+      "assertion": "Assertion: Ectopic ACTH syndrome often causes hypokalemic alkalosis.",
+      "reason": "Reason: Ectopic ACTH secretion is usually associated with very high cortisol production rates that overwhelm renal 11βHSD2.",
+      "correctOption": 0,
+      "explanation": "Both true—mineralocorticoid excess from cortisol and DOC explains hypokalemia in ectopic disease.",
+      "reference": "Metabolic and Endocrine Features: \"Hypokalemic alkalosis is found in 10% to 15% of patients with Cushing disease but in more than 95% of patients with ectopic ACTH syndrome.\""
+    },
+    {
+      "id": "w15-13-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Inferior Petrosal Sinus Sampling and Selective Venous Catheterization",
+      "assertion": "Assertion: IPSS can distinguish pituitary from ectopic ACTH sources.",
+      "reason": "Reason: In ectopic ACTH syndrome the petrosal-to-peripheral ACTH ratio is usually less than 1.4:1.",
+      "correctOption": 0,
+      "explanation": "Both true—central-to-peripheral gradient rises in Cushing disease especially after CRH.",
+      "reference": "Inferior Petrosal Sinus Sampling and Selective Venous Catheterization: \"In virtually all patients with the ectopic ACTH syndrome, the ratio of the ACTH concentration in the inferior petrosal sinus and that in simultaneously drawn peripheral venous blood is less than 1.4:1.\""
+    },
+    {
+      "id": "w15-13-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Primary and Central Hypoadrenalism",
+      "assertion": "Assertion: Mineralocorticoid replacement is required in primary but not secondary adrenal insufficiency.",
+      "reason": "Reason: Secondary hypoadrenalism spares aldosterone secretion because the renin-angiotensin system remains intact.",
+      "correctOption": 0,
+      "explanation": "Both true—only ACTH-driven glucocorticoid production is lost centrally.",
+      "reference": "Primary and Central Hypoadrenalism: \"A major distinction between these forms of hypoadrenalism is that mineralocorticoid deficiency invariably accompanies primary hypoadrenalism, but this does not occur in central hypoadrenalism: here, only ACTH is deficient, and the renin-angiotensin-aldosterone (RAA) axis is intact.\""
+    },
+    {
+      "id": "w15-13-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Clinical Features of Adrenal Insufficiency",
+      "assertion": "Assertion: Hyperpigmentation helps distinguish primary from secondary adrenal insufficiency.",
+      "reason": "Reason: Hyperpigmentation in Addison disease results from elevated ACTH stimulating MC1R.",
+      "correctOption": 0,
+      "explanation": "Both true—pigmentation is absent in secondary ACTH deficiency.",
+      "reference": "Clinical Features of Adrenal Insufficiency: \"The cause of the pigmentation has long been debated but is thought to reflect increased stimulation of the MC1R by ACTH itself.\""
+    },
+    {
+      "id": "w15-13-ar9",
+      "type": "assertion_reason",
+      "subtopic": "Congenital Adrenal Hyperplasia",
+      "assertion": "Assertion: Classic 21-hydroxylase deficiency causes virilization of female infants.",
+      "reason": "Reason: Androgen excess occurs because impaired cortisol synthesis removes negative feedback and increases ACTH-driven adrenal androgen production.",
+      "correctOption": 0,
+      "explanation": "Both true—enzyme block shunts precursors to androgens in utero.",
+      "reference": "21-Hydroxylase Deficiency: \"Reduced cortisol biosynthesis results in a reduced negative feedback drive and increased ACTH secretion; as a consequence, adrenal androgens are produced in excess (Fig. 13.35).\""
+    },
+    {
+      "id": "w15-13-ar10",
+      "type": "assertion_reason",
+      "subtopic": "Classic 21-Hydroxylase Deficiency",
+      "assertion": "Assertion: Male infants with classic 21-hydroxylase deficiency may escape early diagnosis.",
+      "reason": "Reason: Male external genitalia are phenotypically normal at birth in classic 21-hydroxylase deficiency.",
+      "correctOption": 0,
+      "explanation": "Both true—males present later with precocious pubarche unless newborn screening intervenes.",
+      "reference": "Classic 21-Hydroxylase Deficiency: \"Males are phenotypically normal at birth and are at risk of not being diagnosed\""
+    },
+    {
+      "id": "w15-13-ar11",
+      "type": "assertion_reason",
+      "subtopic": "Incidentalomas",
+      "assertion": "Assertion: Large adrenal incidentalomas have higher malignancy risk.",
+      "reason": "Reason: All adrenal masses smaller than 4 cm are malignant.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—malignancy is rare under 4 cm; risk rises above 6 cm.",
+      "reference": "Incidentalomas: \"Fewer than 2% of incidentalomas smaller than 4 cm but 25% of those larger than 6 cm in diameter are malignant (Fig. 13.41).\""
+    },
+    {
+      "id": "w15-13-ar12",
+      "type": "assertion_reason",
+      "subtopic": "Corticosteroid Hormone Action",
+      "assertion": "Assertion: Cortisol can exert mineralocorticoid effects when 11βHSD2 is overwhelmed.",
+      "reason": "Reason: 11βHSD2 converts cortisol to inactive cortisone in mineralocorticoid target tissues.",
+      "correctOption": 0,
+      "explanation": "Both true—ectopic ACTH and APPARENT mineralocorticoid excess illustrate this physiology.",
+      "reference": "Corticosteroid-Binding Globulin and Corticosteroid Hormone Metabolism: \"If this enzyme-protective mechanism is impaired, cortisol is able to act as a mineralocorticoid; this explains some forms of endocrine hypertension (apparent mineralocorticoid excess, licorice ingestion) and the mineralocorticoid excess state that characterizes the ectopic ACTH syndrome.\""
+    }
+  ]
+}
