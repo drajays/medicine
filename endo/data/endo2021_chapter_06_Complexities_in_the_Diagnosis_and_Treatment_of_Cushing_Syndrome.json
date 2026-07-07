@@ -8,46 +8,447 @@
   "sourceFile": "williams_2024_chapters/endo2021_chapter_06_Complexities_in_the_Diagnosis_and_Treatment_of_Cushing_Syndrome.md",
   "items": [
     {
+      "id": "e21-06-n1",
+      "type": "note",
+      "subtopic": "Diagnostic paradigm",
+      "title": "Why biochemical assessment is paramount in Cushing syndrome",
+      "text": "Imaging supports localization but cannot establish autonomous cortisol excess or distinguish ACTH-dependent from adrenal disease. The optimal approach uses staged biochemical tests (high sensitivity first, then specificity), determines ACTH dependence, and only then pursues anatomic localization.",
+      "reference": "Main Conclusions: \"The optimal approach is to (1) use a series of biochemical tests, ranging from those with high sensitivity to those with increasing specificity, (2) determine whether the disorder is ACTH-dependent, and (3) when appropriate, locate the source of ACTH. Imaging is part of this paradigm, but biochemical assessment is paramount.\""
+    },
+    {
+      "id": "e21-06-n2",
+      "type": "note",
+      "subtopic": "Screening strategy",
+      "title": "How to stage the initial workup for suspected Cushing syndrome",
+      "text": "Begin with a highly sensitive test—many clinicians use the overnight 1-mg dexamethasone-suppression test. Reserve urinary free cortisol for indeterminate cases or children. Late-night salivary cortisol is excellent when the assay and normative data are validated locally.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"It is therefore essential to investigate the diagnosis in stages, beginning with a test that is simple to use and has very high sensitivity. Then, if this test indicates possible Cushing syndrome, more specific tests can be used.\""
+    },
+    {
+      "id": "e21-06-n3",
+      "type": "note",
+      "subtopic": "Circadian rhythm",
+      "title": "Why loss of circadian cortisol rhythm is central to diagnosis",
+      "text": "Cushing syndrome reflects autonomous cortisol production with loss of normal feedback and loss of the nocturnal nadir. Midnight serum cortisol, late-night salivary cortisol, and failure of dexamethasone suppression all exploit this pathophysiology.",
+      "reference": "Significance of the Clinical Problem: \"The diagnosis is based on the demonstration of an autonomous source of excess cortisol production, most apparent and demonstrable by loss of the normal circadian rhythmicity and failure to show adequate feedback regulation.\""
+    },
+    {
+      "id": "e21-06-n4",
+      "type": "note",
+      "subtopic": "ACTH localization",
+      "title": "9-AM plasma ACTH thresholds for source localization",
+      "text": "After biochemical confirmation, collect 9-AM ACTH correctly: <10 pg/mL (<2.2 pmol/L) favors adrenal autonomy; >30 pg/mL (>6.6 pmol/L) indicates ACTH dependence. Grey-zone values (10–30 pg/mL) warrant CRH stimulation or repeat sampling.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"It is important to collect the sample correctly, and in such a situation, a concentration less than 10 pg/mL (<2.2 pmol/L) indicates an adrenal source, a concentration greater than 30 pg/mL (>6.6 pmol/L) indicates ACTH dependence.\""
+    },
+    {
+      "id": "e21-06-n5",
+      "type": "note",
+      "subtopic": "BIPSS",
+      "title": "How bilateral inferior petrosal sinus sampling localizes ACTH-dependent Cushing syndrome",
+      "text": "An experienced neuroradiologist samples petrosal and peripheral veins before and after IV CRH (or desmopressin). A central-to-peripheral ACTH gradient >3 after stimulation is ~95% sensitive and nearly 100% specific for Cushing disease; absent gradient shifts probability toward ectopic ACTH.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"A central-to-peripheral ACTH gradient greater than 3 after corticotropin-releasing hormone is 95% sensitive and almost 100% specific for the diagnosis of Cushing disease.\""
+    },
+    {
+      "id": "e21-06-n6",
+      "type": "note",
+      "subtopic": "Ectopic ACTH",
+      "title": "Modern spectrum of ectopic ACTH syndrome",
+      "text": "Classic small-cell lung cancer presentations are less common; small bronchial, thymic, pancreatic, and other neuroendocrine tumors occur across ages. Neck/chest CT and ⁶⁸Ga-DOTATATE PET help, but covert and occult sources still occur.",
+      "reference": "Significance of the Clinical Problem: \"The classic ectopic ACTH syndrome due to small cell lung carcinoma, presenting in an older patient with severe metabolic defects and an obvious malignancy, is now being increasingly replaced in practice by small bronchial, thymic, pancreatic, or other neuroendocrine tumors occurring at almost any age.\""
+    },
+    {
+      "id": "e21-06-n7",
+      "type": "note",
+      "subtopic": "Center of excellence",
+      "title": "Why Cushing syndrome should be managed at experienced centers",
+      "text": "Diagnosis and source identification remain probabilistic, not algorithmic. Severe metabolic complications, infection risk, and complex localization benefit from a dedicated multidisciplinary team.",
+      "reference": "Main Conclusions: \"It cannot be overemphasized that the management of these patients requires experience and expertise of a dedicated clinical team, and the investigation and management often benefit from the input of a center of excellence.\""
+    },
+    {
+      "id": "e21-06-n8",
+      "type": "note",
+      "subtopic": "Acute management",
+      "title": "How to manage overwhelming hypercortisolism before definitive therapy",
+      "text": "Address hypertension, hyperglycemia, hypokalemia, and infection risk urgently. Lower cortisol to safe concentrations with medical therapy; IV etomidate is effective when oral agents are insufficient. Many clinicians start prophylactic anticoagulation once the diagnosis is confirmed.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Patients with overwhelming metabolic complications of Cushing syndrome of any cause should be treated with intravenous etomidate, which rapidly and effectively lowers cortisol when administered with due care.\""
+    },
+    {
+      "id": "e21-06-n9",
+      "type": "note",
+      "subtopic": "Pseudo-Cushing states",
+      "title": "Pitfall: obesity and depression without true Cushing syndrome",
+      "text": "Mild biochemical abnormalities occur in depression, anorexia, and obstructive sleep apnea. Catabolic stigmata—easy bruising, myopathy, osteoporosis, pediatric growth failure—raise pretest probability more than isolated metabolic syndrome features.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Thus, the clinician will see many patients with a Cushing-like presentation, and some may have mildly abnormal biochemistry, so-called pseudo-Cushing states, including patients with anorexia, depression, and obstructive sleep apnea.\""
+    },
+    {
+      "id": "e21-06-n10",
+      "type": "note",
+      "subtopic": "Thrombosis risk",
+      "title": "Why anticoagulation is considered after confirming Cushing syndrome",
+      "text": "Hypercortisolism increases thrombotic risk alongside infection and metabolic derangements. Prophylactic heparin is commonly advised once the diagnosis is established while definitive therapy is planned.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Many clinicians advise anticoagulation with subcutaneous heparin as soon as the diagnosis is confirmed.\""
+    },
+    {
+      "id": "e21-06-n11",
+      "type": "note",
+      "subtopic": "Cushing disease therapy",
+      "title": "How to sequence therapy for confirmed Cushing disease",
+      "text": "First-line transsphenoidal surgery by an experienced surgeon (~90% cure). Failed surgery may be followed by repeat operation, radiation/radiosurgery, or medical blockade (metyrapone, ketoconazole, mifepristone) while awaiting remission.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"For confirmed Cushing disease, transsphenoidal surgery by an experienced surgeon should have a high cure rate, approaching 90%, while a repeat surgery when initially unsuccessful can still lead to cure in around 50% of patients.\""
+    },
+    {
+      "id": "e21-06-n12",
+      "type": "note",
+      "subtopic": "Bilateral macronodular hyperplasia",
+      "title": "ARMC5 and familial bilateral macronodular adrenal hyperplasia",
+      "text": "Bilateral macronodular hyperplasia may respond transiently to unilateral adrenalectomy of the dominant gland but often recurs. Bilateral adrenalectomy is definitive but mandates lifelong replacement. Germline ARMC5 variants explain some familial cases.",
+      "reference": "Case 2 (Continued): \"On further questioning, she reported that she thought her sister had a similar condition. This was confirmed, and genetic analysis identified a germline ARMC5 pathogenic variant in both the patient and her sister.\""
+    },
+    {
       "id": "e21-06-q1",
       "type": "mcq",
-      "subtopic": "Diagnosis of Cushing Syndrome",
-      "question": "A 26-year-old man with a history suggestive of Cushing syndrome has very high levels of both cortisol and ACTH. CT chest shows left lower collapse/consolidation. Which investigation should be performed next?",
+      "subtopic": "Case 1 — ectopic workup",
+      "question": "A 26-year-old man has 5 years of cushingoid features. Serum cortisol is repeatedly >63 μg/dL and ACTH 300–350 pg/mL. CT chest shows left lower-lobe collapse/consolidation. What is the best next step?",
       "options": [
-        "A. Low-dose dexamethasone-suppression test",
-        "B. Corticotropin-releasing hormone test",
-        "C. Bilateral inferior petrosal sinus sampling",
-        "D. Bronchoscopy",
-        "E. 68Ga-DOTATATE PET scanning"
+        "Corticotropin-releasing hormone stimulation test",
+        "Bilateral inferior petrosal sinus sampling",
+        "Bronchoscopy",
+        "⁶⁸Ga-DOTATATE PET scanning"
       ],
-      "correctOption": 3,
-      "explanation": "Given the high levels of cortisol and ACTH, along with evidence of a lung abnormality on CT scan, bronchoscopy is the most appropriate next step to investigate for a possible bronchial tumor.",
-      "reference": "Case 1: 'Bronchoscopy demonstrates a combined bacterial, fungal, and cytomegalovirus infection. ... Bronchoscopy (Answer D) to look for a bronchial tumor is the most useful and expeditious investigation at this stage.'"
+      "correctOption": 2,
+      "explanation": "Cushing syndrome is already biochemically obvious. With marked ACTH elevation and a focal chest abnormality, direct bronchoscopic evaluation for a bronchial neuroendocrine tumor is more expeditious than further dynamic pituitary testing or nonspecific PET uptake in inflamed lung.",
+      "reference": "Case 1: \"Bronchoscopy (Answer D) to look for a bronchial tumor is the most useful and expeditious investigation at this stage.\""
     },
     {
-      "id": "e21-06-why1",
-      "type": "why",
-      "subtopic": "Biochemical Assessment in Cushing Syndrome",
-      "question": "Why is biochemical assessment paramount over imaging in diagnosing Cushing syndrome?",
-      "answer": "Because biochemical tests help determine the presence of autonomous cortisol production and differentiate between ACTH-dependent and independent sources, which are crucial for accurate diagnosis.",
-      "keyPoints": [
-        "Biochemical tests range from high sensitivity to increasing specificity.",
-        "Determining whether the disorder is ACTH-dependent or not is essential.",
-        "Imaging supports but does not replace biochemical assessment."
+      "id": "e21-06-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 — after infection treated",
+      "question": "The same patient improves after treating bronchial infection; cytology is negative, pituitary MRI shows mild asymmetry, and ⁶⁸Ga-DOTATATE PET is negative. What should be done next?",
+      "options": [
+        "High-dose dexamethasone-suppression test",
+        "Thoracic surgery",
+        "Bilateral inferior petrosal sinus sampling",
+        "Combined dexamethasone–CRH test"
       ],
-      "reference": "MAIN CONCLUSIONS: '...biochemical assessment is paramount. ... The optimal approach is to (1) use a series of biochemical tests, ranging from those with high sensitivity to those with increasing specificity, (2) determine whether the disorder is ACTH-dependent, and (3) when appropriate, locate the source of ACTH.'"
+      "correctOption": 2,
+      "explanation": "With no clear ectopic source and equivocal pituitary imaging, BIPSS is the best test to distinguish Cushing disease from occult ectopic ACTH before pituitary exploration or chest surgery.",
+      "reference": "Case 1 (Continued): \"Answer: A) Bilateral inferior petrosal sinus sampling\""
     },
     {
-      "id": "e21-06-how2",
-      "type": "how",
-      "subtopic": "Management of Cushing Syndrome",
-      "question": "How should severe cases of Cushing syndrome be managed initially?",
-      "answer": "Severe cases require urgent management of metabolic abnormalities, including lowering serum cortisol levels to safe concentrations, often through medical therapy.",
-      "keyPoints": [
-        "Metabolic abnormalities must be addressed urgently in severe cases.",
-        "Serum cortisol levels should be reduced to normal safe concentrations.",
-        "Surgery is the most appropriate long-term management when feasible."
+      "id": "e21-06-q3",
+      "type": "mcq",
+      "subtopic": "Case 2 — low ACTH",
+      "question": "A woman has 9-AM cortisol 20 μg/dL and fails to suppress after overnight 1-mg dexamethasone (18.5 μg/dL). Predexamethasone ACTH is 4 pg/mL. What is the most useful next test?",
+      "options": [
+        "MRI of the pituitary gland",
+        "CRH stimulation test",
+        "CT of the adrenal glands",
+        "CT of the thorax"
       ],
-      "reference": "MAIN CONCLUSIONS: '...in severe cases, the metabolic abnormalities should be dealt with as a matter of urgency. If necessary, serum cortisol levels should be lowered to normal safe concentrations.'"
+      "correctOption": 2,
+      "explanation": "ACTH <10 pg/mL indicates primary adrenal pathology; adrenal CT is the fastest way to identify adenoma, carcinoma, or bilateral macronodular hyperplasia.",
+      "reference": "Case 2 (Continued): \"Answer: C) CT of the adrenal glands\""
+    },
+    {
+      "id": "e21-06-q4",
+      "type": "mcq",
+      "subtopic": "Case 2 — bilateral macronodular hyperplasia",
+      "question": "CT shows bilateral enlarged nodular adrenals (5 cm left, 3.5 cm right). CRH testing confirms persistently suppressed ACTH. After counseling, she prefers definitive therapy. What is most appropriate?",
+      "options": [
+        "Unilateral adrenalectomy of the larger adrenal",
+        "Bilateral adrenalectomy",
+        "Long-term ketoconazole monotherapy",
+        "Mifepristone as sole definitive therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Bilateral macronodular hyperplasia often requires bilateral adrenalectomy for durable cure; unilateral surgery may transiently normalize cortisol but recurrence is common. Medical therapy is adjunctive, not definitive.",
+      "reference": "Case 2 (Continued): \"Many would advise bilateral adrenalectomy (Answer B), with the caveat that this will require lifelong adrenocortical replacement therapy.\""
+    },
+    {
+      "id": "e21-06-q5",
+      "type": "mcq",
+      "subtopic": "First-line screening",
+      "question": "Which initial screening approach is favored by many experts for suspected mild Cushing syndrome when a validated late-night salivary assay is unavailable?",
+      "options": [
+        "24-hour urinary free cortisol ×3",
+        "Overnight 1-mg dexamethasone-suppression test",
+        "Low-dose 48-hour dexamethasone test",
+        "Bilateral inferior petrosal sinus sampling"
+      ],
+      "correctOption": 1,
+      "explanation": "The overnight 1-mg dex test is simple and highly sensitive for first-line screening; UFC is often reserved for indeterminate cases.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Many clinicians start with the overnight dexamethasone-suppression test, administering 1 mg of dexamethasone orally at midnight\""
+    },
+    {
+      "id": "e21-06-q6",
+      "type": "mcq",
+      "subtopic": "Late-night salivary cortisol",
+      "question": "A reliable late-night salivary cortisol assay is available. Which result pattern best supports Cushing syndrome?",
+      "options": [
+        "Midnight salivary cortisol within assay-specific elevated range with loss of circadian nadir",
+        "Single morning salivary cortisol at upper limit of normal",
+        "Suppressed salivary cortisol after 1-mg dexamethasone alone",
+        "Normal midnight salivary cortisol on two occasions"
+      ],
+      "correctOption": 0,
+      "explanation": "Late-night salivary cortisol exploits loss of circadian rhythm and, with validated normative data, achieves high sensitivity and specificity.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"There is now increasing evidence that a midnight salivary cortisol measurement can also readily differentiate Cushing syndrome from noncushingoid states, and the sample can be collected at home and then brought or mailed to the laboratory.\""
+    },
+    {
+      "id": "e21-06-q7",
+      "type": "mcq",
+      "subtopic": "ACTH interpretation",
+      "question": "After biochemical confirmation of Cushing syndrome, 9-AM ACTH is 8 pg/mL on two samples. What is the most likely source?",
+      "options": [
+        "Pituitary corticotroph adenoma",
+        "Ectopic ACTH secretion",
+        "Primary adrenal tumor or hyperplasia",
+        "Exogenous glucocorticoid use"
+      ],
+      "correctOption": 2,
+      "explanation": "ACTH persistently <10 pg/mL indicates adrenal autonomy; pituitary and ectopic sources are ACTH-dependent.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"a concentration less than 10 pg/mL (<2.2 pmol/L) indicates an adrenal source\""
+    },
+    {
+      "id": "e21-06-q8",
+      "type": "mcq",
+      "subtopic": "BIPSS interpretation",
+      "question": "During BIPSS after CRH, the central:peripheral ACTH ratio is 3.5. What does this indicate?",
+      "options": [
+        "Ectopic ACTH syndrome",
+        "Primary adrenal adenoma",
+        "Cushing disease (pituitary ACTH source)",
+        "Exogenous steroid suppression"
+      ],
+      "correctOption": 2,
+      "explanation": "A post-CRH central:peripheral gradient >3 is highly specific for pituitary ACTH secretion (Cushing disease).",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"A central-to-peripheral ACTH gradient greater than 3 after corticotropin-releasing hormone is 95% sensitive and almost 100% specific for the diagnosis of Cushing disease.\""
+    },
+    {
+      "id": "e21-06-q9",
+      "type": "mcq",
+      "subtopic": "Ectopic localization",
+      "question": "In ectopic ACTH syndrome, which anatomic source is most commonly identified on detailed imaging series?",
+      "options": [
+        "Bronchial carcinoid (lung neuroendocrine tumor)",
+        "Medullary thyroid carcinoma",
+        "Pheochromocytoma",
+        "Primary adrenal carcinoma"
+      ],
+      "correctOption": 0,
+      "explanation": "Bronchial carcinoids are the most frequent identifiable ectopic source in large series; thymic NETs and pancreatic islet tumors are also important.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"CT of the neck, chest, and abdomen often reveals a bronchial carcinoid (ie, lung neuroendocrine tumor, the most common source)\""
+    },
+    {
+      "id": "e21-06-q10",
+      "type": "mcq",
+      "subtopic": "Cyclic Cushing",
+      "question": "Biochemical hypercortisolism fluctuates >100% between visits in a patient with otherwise classic features. What is the best approach?",
+      "options": [
+        "Immediate bilateral adrenalectomy without repeat testing",
+        "Reassess during an active hypercortisol phase when clinically indicated",
+        "Exclude Cushing syndrome because of variability",
+        "Start lifelong mifepristone without further workup"
+      ],
+      "correctOption": 1,
+      "explanation": "Marked biochemical variability occurs in ~15% of patients; prolonged true 'off' phases are rare—pragmatic reassessment during active disease is reasonable.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"In such situations, in the face of uncertainty, it may be appropriate to wait and then reassess when the disease is in an active phase.\""
+    },
+    {
+      "id": "e21-06-q11",
+      "type": "mcq",
+      "subtopic": "Medical therapy bridge",
+      "question": "A patient has persistent Cushing disease after failed transsphenoidal surgery and is awaiting pituitary radiation. Which interim strategy is appropriate?",
+      "options": [
+        "Observation only despite symptomatic hypercortisolism",
+        "Metyrapone or ketoconazole to lower cortisol while awaiting radiation effect",
+        "High-dose dexamethasone chronically",
+        "Immediate thoracic exploration without localization"
+      ],
+      "correctOption": 1,
+      "explanation": "Medical adrenal blockade can control cortisol while radiation takes months to years for biochemical remission.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Medical therapy with metyrapone, ketoconazole, or mifepristone may be used while awaiting normalization.\""
+    },
+    {
+      "id": "e21-06-q12",
+      "type": "mcq",
+      "subtopic": "Etomidate",
+      "question": "A patient with severe Cushing syndrome develops refractory hyperglycemia and sepsis with cortisol >40 μg/dL despite oral blockade. What is the best acute cortisol-lowering option?",
+      "options": [
+        "Increase physiologic hydrocortisone replacement",
+        "Intravenous etomidate infusion with monitoring",
+        "Oral dexamethasone 8 mg daily",
+        "Observation until elective surgery"
+      ],
+      "correctOption": 1,
+      "explanation": "IV etomidate rapidly lowers cortisol in life-threatening hypercortisolism when administered with appropriate intensive care monitoring.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"should be treated with intravenous etomidate, which rapidly and effectively lowers cortisol when administered with due care.\""
+    },
+    {
+      "id": "e21-06-q13",
+      "type": "mcq",
+      "subtopic": "Pituitary incidentaloma trap",
+      "question": "ACTH-dependent Cushing syndrome is confirmed. Pituitary MRI shows a 4-mm incidental lesion in an older patient; chest CT is normal. What is the critical next step before transsphenoidal surgery?",
+      "options": [
+        "Proceed to surgery based on MRI alone",
+        "Bilateral inferior petrosal sinus sampling",
+        "Start pasireotide indefinitely",
+        "Unilateral adrenalectomy"
+      ],
+      "correctOption": 1,
+      "explanation": "Incidental pituitary microadenomas are common; BIPSS confirms pituitary ACTH secretion before pituitary surgery when ectopic disease remains possible.",
+      "reference": "Barriers to Optimal Practice: \"MRI may fail to detect a corticotroph tumor even with optimal imaging protocols; especially in older patients, incidental pituitary lesions may be mistaken for a corticotroph tumor.\""
+    },
+    {
+      "id": "e21-06-tf1",
+      "type": "true_false",
+      "subtopic": "Screening tests",
+      "statement": "Urinary free cortisol is the preferred first-line screening test for all adults with mild suspected Cushing syndrome.",
+      "correctAnswer": false,
+      "explanation": "Many clinicians start with overnight 1-mg dexamethasone suppression; UFC is often reserved for indeterminate cases because assay sensitivity varies.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"it is probably best to reserve urinary free cortisol measurement for those patients whose other test results are indeterminate\""
+    },
+    {
+      "id": "e21-06-tf2",
+      "type": "true_false",
+      "subtopic": "ACTH thresholds",
+      "statement": "A 9-AM plasma ACTH concentration persistently less than 10 pg/mL supports an adrenal source of hypercortisolism.",
+      "correctAnswer": true,
+      "explanation": "Values <10 pg/mL indicate adrenal autonomy when sampling is correct.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"a concentration less than 10 pg/mL (<2.2 pmol/L) indicates an adrenal source\""
+    },
+    {
+      "id": "e21-06-tf3",
+      "type": "true_false",
+      "subtopic": "Pituitary MRI",
+      "statement": "A normal pituitary MRI excludes Cushing disease.",
+      "correctAnswer": false,
+      "explanation": "MRI may miss microadenomas; incidentalomas are common and can be misleading.",
+      "reference": "Barriers to Optimal Practice: \"MRI may fail to detect a corticotroph tumor even with optimal imaging protocols\""
+    },
+    {
+      "id": "e21-06-tf4",
+      "type": "true_false",
+      "subtopic": "Ectopic imaging",
+      "statement": "⁶⁸Ga-DOTATATE PET can identify all ectopic ACTH-secreting tumors.",
+      "correctAnswer": false,
+      "explanation": "Overt, covert, and occult ectopic sources are recognized categories—advanced imaging still misses some tumors.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Radionuclide scanning with 68Ga-DOTATATE PET can be very useful, although tumors can still be missed\""
+    },
+    {
+      "id": "e21-06-tf5",
+      "type": "true_false",
+      "subtopic": "Surgery outcomes",
+      "statement": "Experienced transsphenoidal surgery for Cushing disease achieves cure in approximately 90% of patients.",
+      "correctAnswer": true,
+      "explanation": "First-line pituitary surgery by an experienced surgeon has a high remission rate.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"transsphenoidal surgery by an experienced surgeon should have a high cure rate, approaching 90%\""
+    },
+    {
+      "id": "e21-06-tf6",
+      "type": "true_false",
+      "subtopic": "Dexamethasone suppression",
+      "statement": "A normal overnight 1-mg dexamethasone-suppression test alone definitively excludes mild Cushing syndrome.",
+      "correctAnswer": false,
+      "explanation": "Every test has false positives and negatives; interpretation depends on pretest probability and staged testing.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Every type of investigation will have a significant false-positive and false-negative rate.\""
+    },
+    {
+      "id": "e21-06-tf7",
+      "type": "true_false",
+      "subtopic": "Cyclic Cushing",
+      "statement": "Biochemical variability exceeding 100% has been reported in approximately 15% of patients with Cushing syndrome.",
+      "correctAnswer": true,
+      "explanation": "Marked fluctuation is recognized and can complicate diagnosis.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"variability by more than 100% in 15% of patients with all causes of Cushing syndrome has been noted\""
+    },
+    {
+      "id": "e21-06-tf8",
+      "type": "true_false",
+      "subtopic": "Medical therapy monitoring",
+      "statement": "Ketoconazole for hypercortisolism requires monitoring of liver function tests.",
+      "correctAnswer": true,
+      "explanation": "Ketoconazole is effective but hepatotoxicity risk mandates LFT surveillance.",
+      "reference": "Case 2 (Continued): \"Ketoconazole (Answer D) is probably the most suitable, but it requires frequent monitoring of liver function.\""
+    },
+    {
+      "id": "e21-06-ar1",
+      "type": "assertion_reason",
+      "subtopic": "BIPSS",
+      "assertion": "Assertion: A central-to-peripheral ACTH gradient greater than 3 after CRH during BIPSS supports Cushing disease.",
+      "reason": "Reason: CRH stimulates pituitary corticotrophs to release ACTH into the petrosal sinuses disproportionately compared with peripheral blood.",
+      "correctOption": 0,
+      "explanation": "Both are true and the CRH-stimulated gradient mechanism explains the assertion.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"A central-to-peripheral ACTH gradient greater than 3 after corticotropin-releasing hormone is 95% sensitive and almost 100% specific for the diagnosis of Cushing disease.\""
+    },
+    {
+      "id": "e21-06-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Clinical probability",
+      "assertion": "Assertion: A young woman with a long history of mild Cushing features is more likely to have Cushing disease than ectopic ACTH.",
+      "reason": "Reason: Ectopic ACTH syndrome more often presents with severe biochemistry and hypokalemia in older patients.",
+      "correctOption": 1,
+      "explanation": "Both statements are true, but demographics only shift pretest probability—they are not pathognomonic.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"A young woman with a long history of symptoms and mild Cushing syndrome is much more likely to have Cushing disease, while an older man with severe biochemistry is more likely to have an ectopic source, but there is considerable overlap\""
+    },
+    {
+      "id": "e21-06-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Etomidate",
+      "assertion": "Assertion: Intravenous etomidate should be considered when Cushing syndrome causes overwhelming metabolic complications.",
+      "reason": "Reason: Etomidate rapidly inhibits 11β-hydroxylase and lowers serum cortisol when carefully administered.",
+      "correctOption": 0,
+      "explanation": "Both are true; etomidate is the acute rescue option described for severe hypercortisolism.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"should be treated with intravenous etomidate, which rapidly and effectively lowers cortisol when administered with due care.\""
+    },
+    {
+      "id": "e21-06-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Circadian testing",
+      "assertion": "Assertion: Late-night salivary cortisol is useful in diagnosing Cushing syndrome.",
+      "reason": "Reason: Cushing syndrome is characterized by loss of the normal nocturnal decline in cortisol secretion.",
+      "correctOption": 0,
+      "explanation": "Both are true and causally linked through loss of circadian rhythmicity.",
+      "reference": "Significance of the Clinical Problem: \"most apparent and demonstrable by loss of the normal circadian rhythmicity and failure to show adequate feedback regulation.\""
+    },
+    {
+      "id": "e21-06-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Ectopic biochemistry",
+      "assertion": "Assertion: Marked hypokalemia with very high ACTH and cortisol suggests ectopic ACTH secretion.",
+      "reason": "Reason: Ectopic ACTH secretion never occurs in Cushing disease.",
+      "correctOption": 2,
+      "explanation": "Assertion is true as a probabilistic clue, but the reason is false—severe Cushing disease can also cause hypokalemia.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Generally, the higher the levels of ACTH and cortisol, the more severe the metabolic upset and the presence of hypokalemia, and the more likely there is an ectopic source, but no biochemical or clinical feature is pathognomonic.\""
+    },
+    {
+      "id": "e21-06-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Bilateral macronodular hyperplasia",
+      "assertion": "Assertion: Unilateral adrenalectomy may normalize cortisol in bilateral macronodular hyperplasia.",
+      "reason": "Reason: The residual adrenal gland will never enlarge and hypersecrete cortisol again.",
+      "correctOption": 1,
+      "explanation": "Both are true statements about initial response, but the reason is false—recurrence on the contralateral side is common.",
+      "reference": "Case 2 (Continued): \"unilateral adrenalectomy (Answer A) of the larger lesion may normalize cortisol levels in many patients, but it is likely that the residual adrenal will continue to grow and Cushing syndrome will eventually recur.\""
+    },
+    {
+      "id": "e21-06-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Infection mimic",
+      "assertion": "Assertion: Patients with Cushing syndrome are at high risk for opportunistic and mixed pulmonary infections.",
+      "reason": "Reason: Profound hypercortisolism causes immunosuppression.",
+      "correctOption": 0,
+      "explanation": "Both are true; infection can complicate the evaluation of suspected ectopic sources in the chest.",
+      "reference": "Case 1 (Continued): \"Patients with Cushing syndrome are at considerable risk of infections with a variety of organisms, as in this case, due to profound immunosuppression.\""
+    },
+    {
+      "id": "e21-06-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Definitive therapy",
+      "assertion": "Assertion: Surgery is the most appropriate long-term management for most causes of Cushing syndrome when feasible.",
+      "reason": "Reason: Medical therapy permanently cures corticotroph adenomas in most patients.",
+      "correctOption": 2,
+      "explanation": "Assertion is true, but medical therapy is usually temporizing—not curative for pituitary adenoma.",
+      "reference": "Main Conclusions: \"The most appropriate long-term management is surgery.\""
     }
   ]
 }

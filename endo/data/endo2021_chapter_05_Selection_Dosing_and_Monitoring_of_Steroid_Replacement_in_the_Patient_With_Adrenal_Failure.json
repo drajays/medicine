@@ -2,49 +2,453 @@
   "id": "e21-05",
   "volume": 2021,
   "chapterNo": "5",
-  "title": "Selection Dosing and Monitoring of Steroid Replacement in the Patient With Adrenal Failure",
+  "title": "Selection, Dosing, and Monitoring of Steroid Replacement in the Patient With Adrenal Failure",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Irina Bancos, MD; Richard Auchus, MD, PhD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_05_Selection_Dosing_and_Monitoring_of_Steroid_Replacement_in_the_Patient_With_Adrenal_Failure.md",
   "items": [
     {
+      "id": "e21-05-n1",
+      "type": "note",
+      "subtopic": "Glucocorticoid choice",
+      "title": "Why dexamethasone should not be used for adrenal insufficiency replacement",
+      "text": "Its long half-life prevents physiologic circadian replacement, and the smallest available tablet potency commonly causes overtreatment and iatrogenic Cushing syndrome with limited dose-titration flexibility.",
+      "reference": "Glucocorticoid Replacement Therapy: \"Dexamethasone should not be used in the treatment of adrenal insufficiency for several reasons. It has a long half-life, which does not allow for diurnal replacement.\""
+    },
+    {
+      "id": "e21-05-n2",
+      "type": "note",
+      "subtopic": "Hydrocortisone dosing",
+      "title": "How to initiate hydrocortisone replacement in adrenal insufficiency",
+      "text": "Typical total daily dose is 15–25 mg in 2–3 divided doses mimicking the cortisol nadir and peaks. Prednisone/prednisolone 4–6 mg once each morning is an alternative when once-daily dosing is preferred.",
+      "reference": "Glucocorticoid Replacement Therapy: \"Hydrocortisone is the most commonly used glucocorticoid, with a starting dosage of 15 to 25 mg daily in divided (2 to 3) doses.\""
+    },
+    {
+      "id": "e21-05-n3",
+      "type": "note",
+      "subtopic": "Mineralocorticoid scope",
+      "title": "Why mineralocorticoid replacement is required in primary but not secondary adrenal insufficiency",
+      "text": "Primary adrenal failure destroys the zona glomerulosa; ~95% of patients need fludrocortisone. Secondary AI retains aldosterone secretion via the renin–angiotensin system.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Mineralocorticoid replacement therapy consists of fludrocortisone, 100 mcg daily (usually 50-300 mcg daily), and is required in 95% of patients with primary adrenal insufficiency.\""
+    },
+    {
+      "id": "e21-05-n4",
+      "type": "note",
+      "subtopic": "Monitoring glucocorticoids",
+      "title": "Clinical monitoring of glucocorticoid replacement",
+      "text": "Assess weight, energy, sleep, sick-day steroid use, and crisis history. Routine bloodwork is not mandatory, though post-dose cortisol can confirm exposure. Overtreatment causes weight gain and cushingoid features; undertreatment causes fatigue, nausea, and crisis risk.",
+      "reference": "Glucocorticoid Replacement Therapy: \"Monitoring of glucocorticoid replacement therapy includes history and physical examination (Table 2).\""
+    },
+    {
+      "id": "e21-05-n5",
+      "type": "note",
+      "subtopic": "DHEA in women",
+      "title": "How to approach DHEA replacement in women with adrenal insufficiency",
+      "text": "Consider a trial of DHEA 25 mg daily in symptomatic women (especially low libido/fatigue) after stabilizing glucocorticoid and mineralocorticoid therapy; target mid-normal DHEA-S and reassess at ≥6 months.",
+      "reference": "Glucocorticoid Replacement Therapy: \"Androgen replacement therapy has been described in women with either primary or secondary adrenal insufficiency with a starting dehydroepiandrosterone (DHEA) dosage of 25 mg daily.\""
+    },
+    {
+      "id": "e21-05-n6",
+      "type": "note",
+      "subtopic": "Mineralocorticoid monitoring",
+      "title": "Monitoring fludrocortisone therapy",
+      "text": "Track orthostatic blood pressure, edema, potassium, sodium, and renin (or renin plasma activity) at least yearly or 3 months after dose changes. Goal: no orthostasis and renin near normal.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Monitoring includes assessment of orthostatic vitals during each visit, electrolytes, and renin plasma activity at least yearly or 3 months after each dosage adjustment (Table 2).\""
+    },
+    {
+      "id": "e21-05-n7",
+      "type": "note",
+      "subtopic": "Adrenal crisis",
+      "title": "Why sick-day education prevents adrenal crisis",
+      "text": "Even educated patients have high crisis rates during intercurrent illness. Doubling oral glucocorticoid during febrile illness and switching to parenteral steroids when vomiting or severely ill are lifesaving interventions.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"As such, comprehensive education, instruction on injection, and provision of proper supplies are important interventions for adrenal crisis prevention (Table 4).\""
+    },
+    {
+      "id": "e21-05-n8",
+      "type": "note",
+      "subtopic": "Pregnancy",
+      "title": "How to adjust glucocorticoids during pregnancy in adrenal insufficiency",
+      "text": "Increase hydrocortisone ~20% in the second and third trimesters (example: 15 mg → 25 mg then 30 mg daily) and monitor whether progesterone's antimineralocorticoid effect requires fludrocortisone adjustment late in pregnancy.",
+      "reference": "Case 1: \"Answer: C) Increase the hydrocortisone to 25 mg daily in the second trimester and to 30 mg daily in the third trimester; monitor the need for fludrocortisone adjustment\""
+    },
+    {
+      "id": "e21-05-n9",
+      "type": "note",
+      "subtopic": "Shift work",
+      "title": "Glucocorticoid timing for shift workers",
+      "text": "Align the larger hydrocortisone dose with the patient's waking period and give the second dose 6–8 hours later, adjusting mineralocorticoid timing similarly.",
+      "reference": "Table 3. Special Circumstances in Steroid Replacement Therapy: \"Shift worker: Change glucocorticoid and mineralocorticoid replacement according to schedule (take the larger dose of hydrocortisone on waking, the second dose 6 to 8 hours after the first one)\""
+    },
+    {
+      "id": "e21-05-n10",
+      "type": "note",
+      "subtopic": "Secondary AI testing",
+      "title": "Why cosyntropin stimulation can miss secondary adrenal insufficiency",
+      "text": "The high-dose (250 mcg) ACTH test has suboptimal sensitivity for secondary AI, yielding false negatives when the adrenal cortex is atrophied but still responds to supraphysiologic ACTH.",
+      "reference": "Case 4: \"it is important to remember suboptimal sensitivity of cosyntropin-stimulation testing in diagnosing secondary adrenal insufficiency (high number of false-negative results).\""
+    },
+    {
+      "id": "e21-05-n11",
+      "type": "note",
+      "subtopic": "Crisis prevention kit",
+      "title": "How to structure adrenal crisis prevention for every patient",
+      "text": "Provide steroid emergency identification, teach sick-day rules (double oral dose during illness; inject and seek emergency care if unable to take oral steroids), and ensure injectable glucocorticoid supplies at home.",
+      "reference": "Table 4. Adrenal Crisis Prevention: \"Sick day rule 2: inject glucocorticoid in times of inability to take oral glucocorticoid or severe illness AND proceed to emergency care\""
+    },
+    {
+      "id": "e21-05-n12",
+      "type": "note",
+      "subtopic": "Dialysis",
+      "title": "Steroid replacement adjustments in end-stage renal disease",
+      "text": "Stop fludrocortisone on dialysis and anticipate loss of morning hydrocortisone during hemodialysis—plan dosing with the nephrology team.",
+      "reference": "Table 3. Special Circumstances in Steroid Replacement Therapy: \"Dialysis: Stop fludrocortisone (no longer needed) Plan glucocorticoid replacement (substantial amounts of the morning glucocorticoid dose might be lost through hemodialysis)\""
+    },
+    {
       "id": "e21-05-q1",
       "type": "mcq",
-      "subtopic": "Shift work and adrenal insufficiency",
-      "question": "A 31-year-old pregnant woman with primary autoimmune adrenal insufficiency is on hydrocortisone, 15 mg on waking and 5 mg at noon; fludrocortisone, 100 mcg daily. She has no concerns and no new symptoms. What adjustment would also be recommended during her pregnancy?",
+      "subtopic": "Case 1 — pregnancy",
+      "question": "A 31-year-old woman with autoimmune primary adrenal insufficiency is 8 weeks pregnant on hydrocortisone 15 mg AM + 5 mg noon and fludrocortisone 100 mcg daily. She is well with normal electrolytes and renin at goal. What additional adjustment is recommended?",
       "options": [
-        "No adjustments in either hydrocortisone or fludrocortisone are needed throughout the pregnancy",
-        "Double the hydrocortisone dosage during third trimester, continue the same fludrocortisone dosage",
-        "Increase the hydrocortisone dosage to 25 mg daily in the second trimester and to 30 mg daily in the third trimester; monitor the need for fludrocortisone adjustment",
-        "Increase the hydrocortisone and fludrocortisone dosages by 20% now"
+        "No changes throughout pregnancy",
+        "Double hydrocortisone in the third trimester only",
+        "Increase hydrocortisone to 25 mg daily in the second trimester and 30 mg daily in the third; monitor fludrocortisone",
+        "Increase both hydrocortisone and fludrocortisone by 20% immediately"
       ],
       "correctOption": 2,
-      "explanation": "During pregnancy, cortisol production increases due to increased placental production of corticotropin-releasing hormone. To mimic this physiological increase in cortisol, the hydrocortisone dosage should be increased by 20-40% in the second and third trimesters.",
-      "reference": "MAIN CONCLUSIONS: 'Glucocorticoid potency and circadian delivery need to be considered when deciding on the glucocorticoid type, dose, and frequency of administration. Both clinical and biochemical parameters are helpful in monitoring of optimal replacement therapy.'"
+      "explanation": "Physiologic cortisol demand rises in later pregnancy; typical practice increases hydrocortisone in the second and third trimesters and reassesses mineralocorticoid need as progesterone antagonizes aldosterone.",
+      "reference": "Case 1: \"Answer: C) Increase the hydrocortisone to 25 mg daily in the second trimester and to 30 mg daily in the third trimester; monitor the need for fludrocortisone adjustment\""
     },
     {
-      "id": "e21-05-why1",
-      "type": "why",
-      "subtopic": "Shift work and adrenal insufficiency",
-      "question": "Why should the hydrocortisone dosage be increased by 20-40% in the second and third trimesters?",
-      "answer": "Because cortisol production increases during pregnancy, possibly due to increased placental production of corticotropin-releasing hormone.",
-      "keyPoints": [
-        "Cortisol production increases during pregnancy",
-        "Increased progesterone concentration during pregnancy has an antimineralocorticoid effect"
+      "id": "e21-05-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — circadian dosing",
+      "question": "A 23-year-old woman with primary adrenal insufficiency has afternoon fatigue and insomnia on hydrocortisone 15 mg on waking and 5 mg at bedtime, with otherwise adequate replacement. What change is best?",
+      "options": [
+        "Refer to sleep medicine without medication changes",
+        "Add 5 mg hydrocortisone at noon only",
+        "Move bedtime hydrocortisone to early afternoon and consider DHEA 25 mg trial",
+        "Switch to dexamethasone 0.5 mg at bedtime"
       ],
-      "reference": "MAIN CONCLUSIONS: 'Glucocorticoid potency and circadian delivery need to be considered when deciding on the glucocorticoid type, dose, and frequency of administration. Both clinical and biochemical parameters are helpful in monitoring of optimal replacement therapy.'"
+      "correctOption": 2,
+      "explanation": "Bedtime hydrocortisone can disrupt sleep; moving dose earlier mimics circadian physiology. DHEA may help libido/fatigue in young women after glucocorticoid timing is optimized.",
+      "reference": "Case 2: \"Answer: E) Trial of DHEA supplementation AND move the bedtime hydrocortisone dose to the early afternoon\""
     },
     {
-      "id": "e21-05-how2",
-      "type": "how",
-      "subtopic": "Shift work and adrenal insufficiency",
-      "question": "How should glucocorticoid replacement be adjusted for shift workers?",
-      "answer": "Change glucocorticoid and mineralocorticoid replacement according to schedule (take the larger dose of hydrocortisone on waking, the second dose 6 to 8 hours after the first one).",
-      "keyPoints": [
-        "Shift workers should change their glucocorticoid and mineralocorticoid replacement according to schedule",
-        "Take the larger dose of hydrocortisone on waking"
+      "id": "e21-05-q3",
+      "type": "mcq",
+      "subtopic": "Case 3 — SC hydrocortisone pump",
+      "question": "A panhypopituitary man after bilateral adrenalectomy for Cushing disease asks about continuous subcutaneous hydrocortisone via insulin pump. What should you tell him?",
+      "options": [
+        "Subcutaneous hydrocortisone is clearly superior for quality of life",
+        "Hydrocortisone is not FDA approved for SC infusion and patient satisfaction data are mixed",
+        "SC and oral hydrocortisone exposure are milligram-for-milligram identical",
+        "Pumps eliminate all risk of adrenal crisis"
       ],
-      "reference": "MAIN CONCLUSIONS: 'Glucocorticoid potency and circadian delivery need to be considered when deciding on the glucocorticoid type, dose, and frequency of administration. Both clinical and biochemical parameters are helpful in monitoring of optimal replacement therapy.'"
+      "correctOption": 1,
+      "explanation": "Evidence is limited and heterogeneous; hydrocortisone is not FDA approved for SC infusion, and patient preference varies.",
+      "reference": "Case 3: \"Answer: E) Hydrocortisone sodium succinate is not FDA approved for subcutaneous infusion AND the data regarding patient satisfaction with subcutaneous hydrocortisone are mixed\""
+    },
+    {
+      "id": "e21-05-q4",
+      "type": "mcq",
+      "subtopic": "Case 4 — opioid-induced AI",
+      "question": "A 35-year-old man on tramadol 400 mg daily has morning cortisol 3 μg/dL, low DHEA-S, ACTH 9 pg/mL, but peak cortisol 18 μg/dL after 250 mcg cosyntropin. Pituitary MRI a year ago was normal. Best next step?",
+      "options": [
+        "Reassure him adrenal insufficiency is excluded",
+        "Perform 1-mcg cosyntropin test",
+        "Repeat pituitary MRI urgently",
+        "Evaluate for opioid-induced central hypogonadism and manage adrenal insufficiency"
+      ],
+      "correctOption": 3,
+      "explanation": "Long-term opioids cause secondary AI with false-negative high-dose cosyntropin tests; central hypogonadism is the most common associated endocrinopathy and should be evaluated.",
+      "reference": "Case 4: \"Answer: D) Test for central hypogonadism\""
+    },
+    {
+      "id": "e21-05-q5",
+      "type": "mcq",
+      "subtopic": "Case 5 — COVID-19 counseling",
+      "question": "A 40-year-old teacher with well-controlled primary adrenal insufficiency asks about COVID-19 risk and steroid adjustments. What advice is correct?",
+      "options": [
+        "She meets CDC immunosuppressed criteria on her hydrocortisone dose",
+        "Begin stress dosing now because of workplace exposure",
+        "Review sick-day rules and ensure ample hydrocortisone plus an alternative glucocorticoid prescription",
+        "Refuse dexamethasone if hospitalized for COVID-19 pneumonia"
+      ],
+      "correctOption": 2,
+      "explanation": "She is not immunosuppressed by CDC steroid thresholds, but infection remains a crisis trigger—reinforce sick-day rules and medication supply redundancy.",
+      "reference": "Case 5: \"Answer: C) She should review sick-day rules and ensure that she has access to an ample supply of hydrocortisone and an alternative glucocorticoid\""
+    },
+    {
+      "id": "e21-05-q6",
+      "type": "mcq",
+      "subtopic": "Glucocorticoid selection",
+      "question": "Which glucocorticoid is least appropriate for chronic replacement in primary adrenal insufficiency?",
+      "options": [
+        "Hydrocortisone 20 mg/day divided",
+        "Prednisone 5 mg each morning",
+        "Prednisolone 5 mg each morning",
+        "Dexamethasone 0.25 mg each morning"
+      ],
+      "correctOption": 3,
+      "explanation": "Dexamethasone's potency and long half-life make physiologic replacement and titration difficult.",
+      "reference": "Glucocorticoid Replacement Therapy: \"Dexamethasone should not be used in the treatment of adrenal insufficiency for several reasons.\""
+    },
+    {
+      "id": "e21-05-q7",
+      "type": "mcq",
+      "subtopic": "Fludrocortisone dosing",
+      "question": "A patient with new primary adrenal insufficiency has orthostatic dizziness and hyperkalemia on hydrocortisone alone. Typical starting fludrocortisone dose?",
+      "options": [
+        "25 mcg daily",
+        "100 mcg daily",
+        "1 mg daily",
+        "No mineralocorticoid is ever needed"
+      ],
+      "correctOption": 1,
+      "explanation": "Standard starting dose is 100 mcg daily, titrated by blood pressure, edema, electrolytes, and renin.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Mineralocorticoid replacement therapy consists of fludrocortisone, 100 mcg daily\""
+    },
+    {
+      "id": "e21-05-q8",
+      "type": "mcq",
+      "subtopic": "Sick-day rules",
+      "question": "A patient with adrenal insufficiency develops fever and gastroenteritis but can swallow fluids. What glucocorticoid adjustment is appropriate?",
+      "options": [
+        "Continue usual dose until recovered",
+        "Double the daily oral glucocorticoid dose until well for 24 hours",
+        "Stop hydrocortisone to avoid Cushing syndrome",
+        "Switch permanently to twice the maintenance dose"
+      ],
+      "correctOption": 1,
+      "explanation": "Sick-day rule 1: double daily oral glucocorticoid during intercurrent illness until recovered for one day.",
+      "reference": "Table 4. Adrenal Crisis Prevention: \"Sick day rule 1: double daily glucocorticoid dose in times of illness until well for 1 day\""
+    },
+    {
+      "id": "e21-05-q9",
+      "type": "mcq",
+      "subtopic": "Diabetes and glucocorticoid choice",
+      "question": "A patient with primary adrenal insufficiency and insulin-dependent diabetes has wide glucose excursions on divided hydrocortisone. What adjustment may help?",
+      "options": [
+        "Switch to once-daily prednisolone to smooth peaks",
+        "Stop all glucocorticoids",
+        "Replace fludrocortisone with dexamethasone",
+        "Use only mineralocorticoid"
+      ],
+      "correctOption": 0,
+      "explanation": "Longer-acting morning prednisolone may reduce cortisol-driven glucose peaks compared with short-acting divided hydrocortisone.",
+      "reference": "Table 3. Special Circumstances in Steroid Replacement Therapy: \"Insulin-dependent diabetes mellitus: Consider longer-acting glucocorticoids (eg, prednisolone) to avoid cortisol-driven peaks and troughs in blood glucose\""
+    },
+    {
+      "id": "e21-05-q10",
+      "type": "mcq",
+      "subtopic": "Dialysis",
+      "question": "A patient with primary adrenal insufficiency starts hemodialysis. What change to steroid therapy is indicated?",
+      "options": [
+        "Increase fludrocortisone to 200 mcg",
+        "Discontinue fludrocortisone and coordinate morning hydrocortisone with dialysis timing",
+        "Add dexamethasone nightly",
+        "No changes ever needed on dialysis"
+      ],
+      "correctOption": 1,
+      "explanation": "Fludrocortisone is not needed on dialysis; morning hydrocortisone may be lost in the dialysate and requires planning.",
+      "reference": "Table 3. Special Circumstances in Steroid Replacement Therapy: \"Dialysis: Stop fludrocortisone (no longer needed)\""
+    },
+    {
+      "id": "e21-05-q11",
+      "type": "mcq",
+      "subtopic": "Hot environment",
+      "question": "A patient with primary adrenal insufficiency plans prolonged work in a hot climate. What adjustment should be considered?",
+      "options": [
+        "Stop fludrocortisone to prevent hypertension",
+        "Additional salt intake and possible fludrocortisone increase for sweat losses",
+        "Switch to dexamethasone for heat stability",
+        "Halve hydrocortisone to reduce sweating"
+      ],
+      "correctOption": 1,
+      "explanation": "Heat increases salt/water losses; additional salt and sometimes higher fludrocortisone compensate.",
+      "reference": "Table 3. Special Circumstances in Steroid Replacement Therapy: \"Hot environment: Additional salt requirement to replace sweat losses Consider increasing fludrocortisone by 50 to 100 mg daily to compensate for salt and water loss\""
+    },
+    {
+      "id": "e21-05-q12",
+      "type": "mcq",
+      "subtopic": "Potency equivalents",
+      "question": "According to Table 1, which daily regimen approximates 20 mg hydrocortisone equivalent?",
+      "options": [
+        "Prednisone 5 mg once daily",
+        "Cortisone acetate 30–40 mg daily",
+        "Methylprednisolone 16 mg daily",
+        "Dexamethasone 1 mg daily"
+      ],
+      "correctOption": 0,
+      "explanation": "Prednisone 5 mg ≈ 20 mg hydrocortisone equivalent per the chapter potency table.",
+      "reference": "Table 1. Glucocorticoid Type and Potency: \"Prednisone 0.25 Hydrocortisone Equivalent ... Total Daily Dose 5 mg\""
+    },
+    {
+      "id": "e21-05-q13",
+      "type": "mcq",
+      "subtopic": "Adrenal crisis triggers",
+      "question": "Which scenario most commonly precipitates adrenal crisis in patients with chronic adrenal insufficiency?",
+      "options": [
+        "Mild seasonal allergies",
+        "Viral gastroenteritis or upper respiratory infection",
+        "Routine dental cleaning without stress dosing",
+        "Single missed noon hydrocortisone dose while well"
+      ],
+      "correctOption": 1,
+      "explanation": "Intercurrent infection—especially GI illness with vomiting—is the classic crisis trigger; education and injectable supplies are critical.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Adrenal crisis usually occurs during a viral illness, such as gastroenteritis or an upper respiratory infection.\""
+    },
+    {
+      "id": "e21-05-tf1",
+      "type": "true_false",
+      "subtopic": "Dexamethasone",
+      "statement": "Dexamethasone is preferred for adrenal insufficiency because its long half-life simplifies once-daily dosing.",
+      "correctAnswer": false,
+      "explanation": "Long half-life prevents physiologic circadian replacement and commonly causes overtreatment.",
+      "reference": "Glucocorticoid Replacement Therapy: \"Dexamethasone should not be used in the treatment of adrenal insufficiency for several reasons.\""
+    },
+    {
+      "id": "e21-05-tf2",
+      "type": "true_false",
+      "subtopic": "Mineralocorticoid indication",
+      "statement": "Fludrocortisone is required in approximately 95% of patients with primary adrenal insufficiency.",
+      "correctAnswer": true,
+      "explanation": "Primary adrenal cortex destruction impairs aldosterone production in most patients.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"is required in 95% of patients with primary adrenal insufficiency.\""
+    },
+    {
+      "id": "e21-05-tf3",
+      "type": "true_false",
+      "subtopic": "Glucocorticoid monitoring",
+      "statement": "Routine blood tests are mandatory to monitor stable glucocorticoid replacement in adrenal insufficiency.",
+      "correctAnswer": false,
+      "explanation": "Clinical assessment predominates; labs are optional though post-dose cortisol can confirm exposure.",
+      "reference": "Table 2. Monitoring Steroid Replacement Therapy: \"No bloodwork is needed for monitoring of therapy, but can measure post-dose cortisol to confirm exposure\""
+    },
+    {
+      "id": "e21-05-tf4",
+      "type": "true_false",
+      "subtopic": "DHEA evidence",
+      "statement": "DHEA replacement in women with adrenal insufficiency may improve fatigue, mood, and libido.",
+      "correctAnswer": true,
+      "explanation": "Meta-analyses show modest but statistically significant quality-of-life benefits, greater in younger women.",
+      "reference": "Glucocorticoid Replacement Therapy: \"small but statistically significant improvement in quality of life, fatigue, mood, and libido in women treated with DHEA\""
+    },
+    {
+      "id": "e21-05-tf5",
+      "type": "true_false",
+      "subtopic": "Cosyntropin test",
+      "statement": "A normal 250-mcg cosyntropin test reliably excludes secondary adrenal insufficiency.",
+      "correctAnswer": false,
+      "explanation": "High false-negative rate in secondary AI is a recognized pitfall, especially with opioid use.",
+      "reference": "Case 4: \"suboptimal sensitivity of cosyntropin-stimulation testing in diagnosing secondary adrenal insufficiency (high number of false-negative results).\""
+    },
+    {
+      "id": "e21-05-tf6",
+      "type": "true_false",
+      "subtopic": "Pregnancy renin",
+      "statement": "Plasma renin is a reliable marker of mineralocorticoid adequacy throughout pregnancy.",
+      "correctAnswer": false,
+      "explanation": "Renin is physiologically increased in pregnancy and is not useful for monitoring fludrocortisone.",
+      "reference": "Table 3. Special Circumstances in Steroid Replacement Therapy: \"Monitor with sodium and potassium (plasma renin is physiologically increased in pregnancy and thus not useful)\""
+    },
+    {
+      "id": "e21-05-tf7",
+      "type": "true_false",
+      "subtopic": "CDC immunosuppression",
+      "statement": "A patient on hydrocortisone 15 mg daily meets the CDC definition of immunosuppressed.",
+      "correctAnswer": false,
+      "explanation": "CDC threshold is ≥20 mg prednisone equivalent (~80–100 mg hydrocortisone).",
+      "reference": "Case 5: \"The Centers for Disease Control definition of immunosuppressed, however, is taking at least 20 mg daily of prednisone or equivalent (80-100 mg of hydrocortisone)\""
+    },
+    {
+      "id": "e21-05-tf8",
+      "type": "true_false",
+      "subtopic": "Hypertension management",
+      "statement": "In adrenal insufficiency with hypertension on adequate fludrocortisone, calcium-channel blockers are reasonable antihypertensives.",
+      "correctAnswer": true,
+      "explanation": "Calcium-channel blockers and alpha-blockers are preferred; ACE inhibitors/ARBs are less effective.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"effective antihypertensive agents include calcium-channel blockers and α-adrenergic blockers\""
+    },
+    {
+      "id": "e21-05-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Hydrocortisone dosing",
+      "assertion": "Assertion: Hydrocortisone should be given in divided daily doses for adrenal insufficiency.",
+      "reason": "Reason: Physiologic cortisol secretion follows a circadian rhythm with a morning peak.",
+      "correctOption": 0,
+      "explanation": "Both are true and the circadian physiology explains divided dosing.",
+      "reference": "Main Conclusions: \"Glucocorticoid potency and circadian delivery need to be considered when deciding on the glucocorticoid type, dose, and frequency of administration.\""
+    },
+    {
+      "id": "e21-05-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Mineralocorticoid",
+      "assertion": "Assertion: Fludrocortisone is not routinely required in secondary adrenal insufficiency.",
+      "reason": "Reason: Secondary adrenal insufficiency always abolishes aldosterone secretion.",
+      "correctOption": 2,
+      "explanation": "Assertion is true, but aldosterone is largely preserved in secondary AI—the reason is false.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Mineralocorticoid replacement therapy consists of fludrocortisone, 100 mcg daily (usually 50-300 mcg daily), and is required in 95% of patients with primary adrenal insufficiency.\""
+    },
+    {
+      "id": "e21-05-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Pregnancy",
+      "assertion": "Assertion: Hydrocortisone dose should increase during the second and third trimesters of pregnancy in adrenal insufficiency.",
+      "reason": "Reason: Placental CRH drives adrenal cortisol hyperplasia and higher cortisol requirements.",
+      "correctOption": 0,
+      "explanation": "Both are true; pregnancy increases physiologic cortisol demand.",
+      "reference": "Case 1: \"Cortisol production increases during pregnancy, possibly due to increased placental production of corticotropin-releasing hormone\""
+    },
+    {
+      "id": "e21-05-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Opioid-induced AI",
+      "assertion": "Assertion: Chronic opioid therapy can cause secondary adrenal insufficiency with a false-negative cosyntropin test.",
+      "reason": "Reason: Opioids stimulate adrenal cortisol production via CRH hypersecretion.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; opioids suppress the HPA axis—the stated stimulatory reason is false.",
+      "reference": "Case 4: \"Opioid-induced adrenal insufficiency should be considered in this patient due to long-term use of tramadol\""
+    },
+    {
+      "id": "e21-05-ar5",
+      "type": "assertion_reason",
+      "subtopic": "DHEA timing",
+      "assertion": "Assertion: DHEA should be initiated only after glucocorticoid and mineralocorticoid therapy are stabilized.",
+      "reason": "Reason: DHEA replaces mineralocorticoid deficiency.",
+      "correctOption": 2,
+      "explanation": "Assertion reflects best practice; DHEA is androgen replacement, not mineralocorticoid.",
+      "reference": "Glucocorticoid Replacement Therapy: \"Another approach is to discuss DHEA with every woman who has adrenal insufficiency after stabilization of glucocorticoid and mineralocorticoid therapy.\""
+    },
+    {
+      "id": "e21-05-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Sick-day rules",
+      "assertion": "Assertion: Patients unable to take oral glucocorticoids during severe illness should receive injectable steroids and emergency care.",
+      "reason": "Reason: Continued oral absorption is guaranteed during vomiting.",
+      "correctOption": 3,
+      "explanation": "Assertion is true; vomiting prevents reliable oral absorption—the reason is false.",
+      "reference": "Table 4. Adrenal Crisis Prevention: \"Sick day rule 2: inject glucocorticoid in times of inability to take oral glucocorticoid or severe illness AND proceed to emergency care\""
+    },
+    {
+      "id": "e21-05-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Subcutaneous hydrocortisone",
+      "assertion": "Assertion: Continuous subcutaneous hydrocortisone is not FDA approved.",
+      "reason": "Reason: No study has ever administered hydrocortisone subcutaneously.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; studies exist but FDA approval for SC infusion is lacking—the reason is false.",
+      "reference": "Case 3: \"Hydrocortisone is not FDA approved for subcutaneous infusion (Answer B)\""
+    },
+    {
+      "id": "e21-05-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Exercise stress dosing",
+      "assertion": "Assertion: Extra hydrocortisone doses may be needed during prolonged strenuous exercise.",
+      "reason": "Reason: Marathon-level exertion increases cortisol requirements and salt losses.",
+      "correctOption": 0,
+      "explanation": "Both are true; the chapter advises small supplemental doses and salt during extreme exercise.",
+      "reference": "Table 3. Special Circumstances in Steroid Replacement Therapy: \"consider 2.5 to 5 mg hydrocortisone every 3 hours during a marathon run or triathlon\""
     }
   ]
 }

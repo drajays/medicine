@@ -1,0 +1,94 @@
+# Endocrinology Master — Content Upload Plan
+
+Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production inside the Medicine portal (`/medicine/endo/` sub-app).
+
+## Current inventory
+
+| Tree | Entries | Source | On portal | Quality |
+|------|---------|--------|-----------|---------|
+| ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ❌ Stubs (~2.8 items/ch, 5-option MCQs) |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ❌ pending | ❌ Not authored |
+| ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
+| Hot Topics / Cases / Trials | 0 | — | — | Empty |
+
+**Authoring workspace:** `/Users/dr.ajayshukla/endo_masterapp`  
+**Published copy:** `/Users/dr.ajayshukla/harrison_app/endo/data/`  
+**Push:** content-only (no React rebuild)
+
+## Architecture
+
+```
+williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
+                                              ↓ sync_endo_to_medicine.sh
+                                    harrison_app/endo/data/*.json  →  git push
+```
+
+## Quality target (Harrison / mcq_skill)
+
+| Type | ESAP module | Williams chapter |
+|------|-------------|------------------|
+| notes | 10–18 | 26–30 |
+| mcq | 12–18 (4 options) | 26–30 |
+| true_false | 8–10 | 12–14 |
+| assertion_reason | 8–10 | 12 |
+
+- ≥50% of **notes** titled Why/How
+- Every item: verbatim `reference` with section heading
+- MCQ: `question` field, 4 options, `correctOption` 0–3
+- AI scripts: preserve `distillation_trace` when used
+
+## Phase 0 — Foundation
+
+- [x] `CONTENT_UPLOAD_PLAN.md` (this file)
+- [x] `.claude/skills/endo_mcq_skill/SKILL.md`
+- [x] `scripts/validate_endo_json.py`
+- [x] `scripts/sync_endo_to_medicine.sh`
+- [x] Catalog title fixes in `data/index.json`
+
+## Phase 1 — ESAP 2021 remediation (43 modules)
+
+**Order:**
+
+1. e21-05–08 (Adrenal)
+2. e21-09–15 (Bone)
+3. e21-17–20 (Diabetes)
+4. e21-21–27 (Pituitary/NET)
+5. e21-28–31 (Pediatric)
+6. e21-32–36 (Reproductive)
+7. e21-38–43 (Thyroid/interfaces)
+8. e21-01–04 (Obesity/lipids)
+
+**Per module:** read MD → write JSON → validate → sync → commit (one module per commit).
+
+| Module | Status | Items | Why/How |
+|--------|--------|-------|---------|
+| e21-06 Cushing | ✅ remediated | 41 | 67% |
+| e21-05 Adrenal replacement | ✅ remediated | 41 | 67% |
+| e21-07 Genetic screening | ✅ remediated | 41 | 83% |
+| e21-08 Critical illness AI | ✅ remediated | 41 | 92% |
+| e21-01–04, e21-09–43 | ⏳ pending | | |
+
+## Phase 2 — Williams 15e (49 chapters)
+
+Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
+
+## Phase 3 — ESAP 2015
+
+Re-split `noupload/endo2015/` → proper module TOC → author.
+
+## Phase 4 — Optional
+
+Hot topics, case reports, trials; React migration to main `data/` catalog.
+
+## Commit discipline
+
+Stage only changed JSON + `index.json`. Never `git add -A`. One module per commit.
+
+## Progress log
+
+| Date | Module | Items | Why/How % | Commit |
+|------|--------|-------|-----------|--------|
+| 2026-07-07 | e21-06 | 41 | 67% | pending |
+| 2026-07-07 | e21-05 | 41 | 67% | pending |
+| 2026-07-07 | e21-07 | 41 | 83% | pending |
+| 2026-07-07 | e21-08 | 41 | 92% | pending |
