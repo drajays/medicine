@@ -4,48 +4,451 @@
   "chapterNo": "18",
   "title": "Practical Approaches to the Genetic Diagnosis and Management of Patients With Diabetes Mellitus",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Rochelle N. Naylor, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_18_Practical_Approaches_to_the_Genetic_Diagnosis_and_Management_of_Patients_With_Diabetes_Mellitus.md",
   "items": [
     {
-      "subtopic": "Management of Monogenic Diabetes During Pregnancy",
-      "question": "For a woman with GCK-MODY planning to conceive this year, which recommendation should you provide regarding insulin therapy during pregnancy?",
+      "id": "e21-18-n1",
+      "type": "note",
+      "subtopic": "Diagnostic impact",
+      "title": "Why monogenic diabetes diagnosis changes management",
+      "text": "Accurate genetic diagnosis directs gene-specific therapy, identifies at-risk relatives, and prevents years of unnecessary insulin or inappropriate agents in misclassified type 1 or type 2 diabetes.",
+      "reference": "Main Conclusions: \"accurate diagnosis through genetic testing directs treatment and management and identifies affected and at-risk family members.\""
+    },
+    {
+      "id": "e21-18-n2",
+      "type": "note",
+      "subtopic": "Screening triggers",
+      "title": "How to identify patients who need monogenic diabetes testing",
+      "text": "Refer when pancreatic autoantibodies are negative and endogenous insulin persists >3 years after diagnosis; biomarkers and the MODY probability calculator refine pretest probability in young-onset diabetes.",
+      "reference": "Main Conclusions: \"These include negative pancreatic autoantibodies and continued endogenous insulin production more than 3 years after diabetes diagnosis.\""
+    },
+    {
+      "id": "e21-18-n3",
+      "type": "note",
+      "subtopic": "Misdiagnosis burden",
+      "title": "Burden of misdiagnosed MODY",
+      "text": "More than 80% of monogenic diabetes may be missed or mislabeled for years, driving unnecessary intensive insulin, adverse drug effects, and excess cost.",
+      "reference": "Significance of the Clinical Problem: \"more than 80% of cases go undiagnosed or are misdiagnosed for many years.\""
+    },
+    {
+      "id": "e21-18-n4",
+      "type": "note",
+      "subtopic": "K-ATP neonatal diabetes",
+      "title": "Sulfonylurea therapy for K-ATP channel neonatal diabetes",
+      "text": "Permanent neonatal diabetes from KCNJ11 or ABCC8 variants often responds to high-dose sulfonylureas with excellent glycemic control and improved neurologic outcomes versus insulin alone.",
+      "reference": "Barriers to Optimal Practice: \"Permanent neonatal diabetes owing to pathogenic variants in KCNJ11 or ABCC8, the genes encoding the ATP-sensitive potassium channel in the β cell, respond to high-dosage sulfonylureas\""
+    },
+    {
+      "id": "e21-18-n5",
+      "type": "note",
+      "subtopic": "GCK-MODY",
+      "title": "Why GCK-MODY usually needs no treatment outside pregnancy",
+      "text": "Glucokinase defects cause stable, regulated mild hyperglycemia from birth; discontinuing therapy does not alter A1c and long-term complication risk at this glycemic level is low.",
+      "reference": "Barriers to Optimal Practice: \"GCK-MODY is characterized by stable mildly elevated blood glucose due to a glucose-sensing defect.\""
+    },
+    {
+      "id": "e21-18-n6",
+      "type": "note",
+      "subtopic": "GCK-MODY pregnancy",
+      "title": "How to manage GCK-MODY during pregnancy without amniocentesis",
+      "text": "Fetal macrosomia risk depends on whether the fetus inherits the GCK variant; insulin is recommended only when fetal abdominal circumference rises disproportionately above the 75th percentile—amniocentesis solely for GCK genotyping is not advised.",
+      "reference": "Case 1: \"Answer: C) Initiation of insulin therapy should be based on second-trimester fetal growth\""
+    },
+    {
+      "id": "e21-18-n7",
+      "type": "note",
+      "subtopic": "HNF1A/HNF4A MODY",
+      "title": "Sulfonylurea sensitivity in HNF1A- and HNF4A-MODY",
+      "text": "These MODY subtypes show marked sulfonylurea sensitivity that bypasses the primary β-cell defect, often matching or beating insulin with lower treatment burden.",
+      "reference": "Barriers to Optimal Practice: \"HNF1A-MODY and HNF4A-MODY exhibit a marked sensitivity to sulfonylureas, which bypass the major β-cell defect.\""
+    },
+    {
+      "id": "e21-18-n8",
+      "type": "note",
+      "subtopic": "HNF1B-MODY",
+      "title": "Extra-pancreatic features of HNF1B-MODY",
+      "text": "HNF1B variants cause developmental renal disease, pancreatic hypoplasia, genital tract anomalies, hypomagnesemia, and hyperuricemia—accurate diagnosis enables surveillance beyond glycemia.",
+      "reference": "Barriers to Optimal Practice: \"Heterozygous HNF1B pathogenic variants are the most common cause of developmental renal disease\""
+    },
+    {
+      "id": "e21-18-n9",
+      "type": "note",
+      "subtopic": "Sulfonylurea transition",
+      "title": "How to transition insulin-treated MODY to low-dose sulfonylurea",
+      "text": "Confirm C-peptide/endogenous insulin; young normal-weight patients on subreplacement insulin can often stop insulin and start half the lowest glyburide tablet, titrating carefully—long duration or full replacement doses require gradual basal reduction.",
+      "reference": "Case 2: \"Answer: D) Stop all insulin and start glyburide 1/2 of the 1.25 mg tablet daily\""
+    },
+    {
+      "id": "e21-18-n10",
+      "type": "note",
+      "subtopic": "6q24 transient neonatal diabetes",
+      "title": "Relapsed transient neonatal diabetes and sulfonylureas",
+      "text": "Transient neonatal diabetes from 6q24 abnormalities often relapses in adolescence or early adulthood and can be treated with low-dose sulfonylureas.",
+      "reference": "Barriers to Optimal Practice: \"Relapse of transient neonatal diabetes due to 6q24 abnormalities can be treated with low doses of sulfonylureas.\""
+    },
+    {
+      "id": "e21-18-n11",
+      "type": "note",
+      "subtopic": "VUS pitfall",
+      "title": "Pitfall: variants of uncertain significance on genetic panels",
+      "text": "A VUS must not be treated as diagnostic MODY—expert consultation is advised when report interpretation is unclear.",
+      "reference": "Barriers to Optimal Practice: \"Interpretation of genetic testing reports can be confusing and lead to erroneous diagnosis of monogenic diabetes when a variant of uncertain significance is detected.\""
+    },
+    {
+      "id": "e21-18-n12",
+      "type": "note",
+      "subtopic": "Cost-effectiveness",
+      "title": "Why targeted genetic testing is cost-effective",
+      "text": "Cost-effectiveness analyses support testing in appropriate young-onset cohorts, especially with biomarker pre-screening and family cascade testing.",
+      "reference": "Significance of the Clinical Problem: \"Cost-effectiveness analyses suggest that genetic testing for monogenic diabetes in appropriate populations can be cost-saving.\""
+    },
+    {
+      "id": "e21-18-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — GCK-MODY pregnancy",
+      "question": "A 32-year-old woman with GCK-MODY plans pregnancy. Regarding insulin therapy, what should you advise?",
       "options": [
-        "Early initiation of insulin therapy will reduce fetal macrosomia and has not been associated with adverse effects",
-        "Initiation of insulin therapy should be based on second-trimester maternal glycemia",
-        "Initiation of insulin therapy should be based on second-trimester fetal growth",
-        "Fetal genotype should be assessed by amniocentesis or chorionic villus sampling to guide decisions on insulin therapy",
-        "Insulin therapy is not needed in pregnancies affected by GCK-MODY"
+        "Start insulin early to prevent all macrosomia",
+        "Base insulin on second-trimester maternal glycemia only",
+        "Base insulin on second-trimester fetal growth on ultrasound",
+        "Obtain amniocentesis solely to determine fetal GCK genotype"
       ],
       "correctOption": 2,
-      "explanation": "The correct answer is C. Initiation of insulin therapy should be based on second-trimester fetal growth. Current recommendations advise to consider insulin therapy if fetal abdominal circumference is rising disproportionately above the 75th percentile (option C). For most cases where fetal genotype is not known, it can be inferred based on second-trimester fetal growth on ultrasonography. While there is some debate in the literature, the largest consensus on management of GCK-MODY in pregnancy is to base therapy on known or suspected fetal genotype. Amniocentesis or chorionic villus sampling for the sole purpose of assessing fetal genotype for a heterozygous GCK pathogenic variant (option D) is not recommended due to the risk of pregnancy loss.",
-      "reference": "\"Fetal genotype should be assessed by amniocentesis or chorionic villus sampling to guide decisions on insulin therapy\"",
-      "id": "e21-18-q1",
-      "type": "mcq"
+      "explanation": "Insulin is guided by fetal growth pattern reflecting inherited GCK status; invasive testing solely for GCK genotype is not recommended.",
+      "reference": "Case 1: \"Answer: C) Initiation of insulin therapy should be based on second-trimester fetal growth\""
     },
     {
-      "type": "why",
-      "subtopic": "Monogenic Diabetes Diagnosis",
-      "question": "Why should clinicians consider monogenic diabetes at the initial diabetes classification?",
-      "answer": "Because accurate diagnosis through genetic testing directs treatment and management, identifies affected and at-risk family members, and may improve glycemic control and outcomes.",
-      "keyPoints": [
-        "Clinicians should consider monogenic diabetes at initial diabetes classification to ensure timely diagnosis",
-        "Genetic testing can direct appropriate treatment and identify affected and at-risk family members"
+      "id": "e21-18-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — HNF1A transition",
+      "question": "A 26-year-old man with genetically confirmed HNF1A-MODY has C-peptide, BMI 22.6, diabetes duration 6 years, and subreplacement insulin (glargine 8 U + 1–2 U aspart with meals). Best sulfonylurea transition plan?",
+      "options": [
+        "Continue all insulin and add glyburide 0.625 mg daily",
+        "Stop meal insulin only; start glyburide 0.625 mg daily",
+        "Stop basal only; start glyburide 0.625 mg daily",
+        "Stop all insulin; start glyburide 0.625 mg daily with close glucose monitoring"
       ],
-      "reference": "MAIN CONCLUSIONS: \"While monogenic diabetes represents an uncommon form of diabetes, accurate diagnosis through genetic testing directs treatment and management and identifies affected and at-risk family members. Several clinical and laboratory features can help identify a patient highly likely to have monogenic diabetes, who should be referred for genetic testing. These include negative pancreatic autoantibodies and continued endogenous insulin production more than 3 years after diabetes diagnosis. The most common forms of monogenic diabetes have gene-directed therapies that may improve glycemic control and outcomes. This includes sulfonylureas for K-ATP channel-related neonatal diabetes, relapsed 6q24 neonatal diabetes, HNF1A-MODY, and HNF4A-MODY. GCK-MODY does not need treatment outside of pregnancy. In pregnancies affected by GCK-MODY, treatment is based on fetal genotype. HNF1B-MODY most often requires insulin therapy, but accurate diagnosis can allow for surveillance and management of the renal and other extra-pancreatic features that are a common manifestation of heterozygous HNF1B pathogenic variants. Clinicians must consider monogenic diabetes at initial diabetes classification to ensure timely diagnosis and appropriate treatment to improve diabetes outcomes.\"",
-      "id": "e21-18-why1"
+      "correctOption": 3,
+      "explanation": "Young, lean, short-duration MODY with documented endogenous insulin on subreplacement doses is ideal for direct transition to low-dose sulfonylurea.",
+      "reference": "Case 2: \"Answer: D) Stop all insulin and start glyburide 1/2 of the 1.25 mg tablet daily\""
     },
     {
-      "type": "how",
-      "subtopic": "diagnostic step for monogenic diabetes",
-      "question": "How can clinicians identify a patient highly likely to have monogenic diabetes?",
-      "answer": "Clinicians can identify a patient highly likely to have monogenic diabetes by looking for specific clinical and laboratory features, such as negative pancreatic autoantibodies and continued endogenous insulin production more than 3 years after the onset of diabetes. These features help guide further diagnostic steps towards genetic testing.",
-      "keyPoints": [
-        "Negative pancreatic autoantibodies are a key feature in identifying monogenic diabetes.",
-        "Continued endogenous insulin production for more than 3 years post-diagnosis is another indicator."
+      "id": "e21-18-q3",
+      "type": "mcq",
+      "subtopic": "Testing indications",
+      "question": "Which feature most strongly supports monogenic diabetes genetic testing?",
+      "options": [
+        "Positive GAD autoantibody at diagnosis",
+        "Negative autoantibodies with measurable C-peptide 5 years after diagnosis",
+        "Obesity with A1c 10% at age 55",
+        "Ketosis at presentation only"
       ],
-      "reference": "MAIN CONCLUSIONS: \"While monogenic diabetes represents an uncommon form of diabetes, accurate diagnosis through genetic testing directs treatment and management and identifies affected and at-risk family members. Several clinical and laboratory features can help identify a patient highly likely to have monogenic diabetes, who should be referred for genetic testing. These include negative pancreatic autoantibodies and continued endogenous insulin production more than 3 years after diabetes diagnosis. The most common forms of monogenic diabetes have gene-directed therapies that may improve glycemic control and outcomes. This includes sulfonylureas for K-ATP channel-related neonatal diabetes, relapsed 6q24 neonatal diabetes, HNF1A-MODY, and HNF4A-MODY. GCK-MODY does not need treatment outside of pregnancy. In pregnancies affected by GCK-MODY, treatment is based on fetal genotype. HNF1B-MODY most often requires insulin therapy, but accurate diagnosis can allow for surveillance and management of the renal and other extra-pancreatic features that are a common manifestation of heterozygous HNF1B pathogenic variants. Clinicians must consider monogenic diabetes at initial diabetes classification to ensure timely diagnosis and appropriate treatment to improve diabetes outcomes.\"",
-      "id": "e21-18-how1"
+      "correctOption": 1,
+      "explanation": "Negative antibodies plus persistent endogenous insulin years after diagnosis are hallmark referral criteria.",
+      "reference": "Main Conclusions: \"negative pancreatic autoantibodies and continued endogenous insulin production more than 3 years after diabetes diagnosis.\""
+    },
+    {
+      "id": "e21-18-q4",
+      "type": "mcq",
+      "subtopic": "GCK-MODY treatment",
+      "question": "Outside pregnancy, what is appropriate management of GCK-MODY?",
+      "options": [
+        "Start basal insulin for A1c >6.5%",
+        "No glucose-lowering therapy; monitor complications",
+        "Metformin 2000 mg daily mandatory",
+        "SGLT2 inhibitor for renal protection"
+      ],
+      "correctOption": 1,
+      "explanation": "Stable mild hyperglycemia rarely warrants treatment outside pregnancy; complications are uncommon at this glycemic level.",
+      "reference": "Barriers to Optimal Practice: \"treatment is not needed outside of pregnancy.\""
+    },
+    {
+      "id": "e21-18-q5",
+      "type": "mcq",
+      "subtopic": "HNF1B management",
+      "question": "A patient with HNF1B-MODY is most likely to require which non-glycemic surveillance?",
+      "options": [
+        "Annual thyroid ultrasound only",
+        "Renal imaging and monitoring of renal function",
+        "Quarterly cosyntropin stimulation tests",
+        "Routine muscle biopsy"
+      ],
+      "correctOption": 1,
+      "explanation": "HNF1B causes developmental renal disease and extra-renal manifestations needing structured surveillance.",
+      "reference": "Barriers to Optimal Practice: \"Heterozygous HNF1B pathogenic variants cause a spectrum of abnormalities that can be assessed for and managed once an accurate diagnosis is made.\""
+    },
+    {
+      "id": "e21-18-q6",
+      "type": "mcq",
+      "subtopic": "Neonatal diabetes therapy",
+      "question": "Permanent neonatal diabetes due to KCNJ11 mutations is best treated with:",
+      "options": [
+        "High-dose sulfonylureas",
+        "Metformin monotherapy",
+        "GLP-1 receptor agonist",
+        "Immunosuppression"
+      ],
+      "correctOption": 0,
+      "explanation": "K-ATP channel mutations respond to high-dose sulfonylureas with improved glycemia and neurologic outcomes.",
+      "reference": "Barriers to Optimal Practice: \"respond to high-dosage sulfonylureas with excellent glycemic control and improvement in neurologic outcomes.\""
+    },
+    {
+      "id": "e21-18-q7",
+      "type": "mcq",
+      "subtopic": "MODY prevalence",
+      "question": "Approximately what fraction of young-onset diabetes is monogenic?",
+      "options": [
+        "0.2%",
+        "2%",
+        "20%",
+        "50%"
+      ],
+      "correctOption": 1,
+      "explanation": "Monogenic diabetes accounts for roughly 2% of young-onset diabetes but is frequently misclassified.",
+      "reference": "Significance of the Clinical Problem: \"accounts for approximately 2% of young-onset diabetes.\""
+    },
+    {
+      "id": "e21-18-q8",
+      "type": "mcq",
+      "subtopic": "Sulfonylurea dosing in MODY",
+      "question": "When starting sulfonylurea in HNF1A-MODY, what dosing approach is advised?",
+      "options": [
+        "Full standard type 2 diabetes dose immediately",
+        "Half of the lowest available tablet with gradual titration",
+        "Only long-acting glipizide once weekly",
+        "Combine with DPP-4 inhibitor first line"
+      ],
+      "correctOption": 1,
+      "explanation": "Marked sensitivity warrants starting at half the lowest dose (e.g., half of 1.25 mg glyburide) and titrating.",
+      "reference": "Case 2: \"starting with one-half tablet of the lowest dose and titrating up to achieve adequate glycemic control is advised.\""
+    },
+    {
+      "id": "e21-18-q9",
+      "type": "mcq",
+      "subtopic": "GCK pregnancy insulin risk",
+      "question": "Why is insulin during GCK-MODY pregnancy potentially harmful?",
+      "options": [
+        "It always causes DKA",
+        "Mothers may experience hypoglycemia including severe hypoglycemia",
+        "It permanently suppresses fetal insulin secretion",
+        "It is contraindicated in all pregnancies regardless of fetal genotype"
+      ],
+      "correctOption": 1,
+      "explanation": "Insulin when the fetus inherits GCK may cause maternal hypoglycemia and theoretical growth restriction in affected fetuses.",
+      "reference": "Case 1: \"Women with GCK-MODY may experience hypoglycemia, including severe hypoglycemia, when treated with insulin during pregnancy.\""
+    },
+    {
+      "id": "e21-18-q10",
+      "type": "mcq",
+      "subtopic": "6q24 relapse",
+      "question": "Transient neonatal diabetes due to 6q24 abnormalities that relapses in adolescence is often treated with:",
+      "options": [
+        "High-dose insulin only",
+        "Low-dose sulfonylureas",
+        "Thiazolidinediones",
+        "Immunotherapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Relapsed 6q24-related diabetes responds to low-dose sulfonylureas.",
+      "reference": "Barriers to Optimal Practice: \"Relapse of transient neonatal diabetes due to 6q24 abnormalities can be treated with low doses of sulfonylureas.\""
+    },
+    {
+      "id": "e21-18-q11",
+      "type": "mcq",
+      "subtopic": "Population screening",
+      "question": "Universal genetic screening of all diabetes patients for MODY is:",
+      "options": [
+        "Recommended by all guidelines",
+        "Not economically feasible; testing should be targeted",
+        "Required before starting metformin",
+        "Only useful in neonates"
+      ],
+      "correctOption": 1,
+      "explanation": "Testing must target high-risk phenotypes using biomarkers and clinical calculators.",
+      "reference": "Barriers to Optimal Practice: \"population for MODY is not economically feasible. Thus, it is important to target genetic testing to high-risk populations\""
+    },
+    {
+      "id": "e21-18-q12",
+      "type": "mcq",
+      "subtopic": "HNF1A misdiagnosis",
+      "question": "A lean young adult misdiagnosed with type 1 diabetes for 6 years but with persistent C-peptide most likely has:",
+      "options": [
+        "Latent autoimmune diabetes requiring more insulin",
+        "HNF1A-MODY or another monogenic form",
+        "Type 2 diabetes requiring metformin only",
+        "Steroid-induced diabetes"
+      ],
+      "correctOption": 1,
+      "explanation": "Persistent endogenous insulin years after supposed type 1 diagnosis should prompt monogenic testing.",
+      "reference": "Case 2: \"Monogenic diabetes was suspected due to his ability to miss basal insulin and continued C-peptide production.\""
+    },
+    {
+      "id": "e21-18-q13",
+      "type": "mcq",
+      "subtopic": "Family cascade",
+      "question": "Proband diagnosis of MODY primarily helps relatives by:",
+      "options": [
+        "Eliminating need for any glucose monitoring",
+        "Enabling earlier correct classification and gene-directed therapy",
+        "Mandating prophylactic pancreatectomy",
+        "Proving they cannot develop type 2 diabetes"
+      ],
+      "correctOption": 1,
+      "explanation": "Cascade testing allows timely correct treatment in affected relatives.",
+      "reference": "Significance of the Clinical Problem: \"Proband diagnosis also aids in earlier diagnosis and correct classification of diabetes in family members.\""
+    },
+    {
+      "id": "e21-18-tf1",
+      "type": "true_false",
+      "subtopic": "GCK-MODY pregnancy",
+      "statement": "In GCK-MODY pregnancy, insulin is always required regardless of fetal genotype.",
+      "correctAnswer": false,
+      "explanation": "Insulin is indicated only when the fetus is known or suspected not to carry the GCK variant based on growth.",
+      "reference": "Barriers to Optimal Practice: \"Insulin therapy is recommended only when the fetus is known or suspected to not carry a GCK pathogenic variant\""
+    },
+    {
+      "id": "e21-18-tf2",
+      "type": "true_false",
+      "subtopic": "HNF1A sulfonylureas",
+      "statement": "HNF1A-MODY often achieves equal or better control with sulfonylureas than with insulin.",
+      "correctAnswer": true,
+      "explanation": "Multiple studies show sulfonylurea sensitivity in HNF1A-MODY.",
+      "reference": "Barriers to Optimal Practice: \"A number of studies have demonstrated equal or improved control as compared with insulin therapy.\""
+    },
+    {
+      "id": "e21-18-tf3",
+      "type": "true_false",
+      "subtopic": "Misdiagnosis rate",
+      "statement": "More than 80% of monogenic diabetes cases may be undiagnosed or misdiagnosed.",
+      "correctAnswer": true,
+      "explanation": "Misclassification as type 1 or type 2 is common.",
+      "reference": "Significance of the Clinical Problem: \"more than 80% of cases go undiagnosed or are misdiagnosed for many years.\""
+    },
+    {
+      "id": "e21-18-tf4",
+      "type": "true_false",
+      "subtopic": "HNF1B therapy",
+      "statement": "Most patients with HNF1B-MODY require insulin therapy.",
+      "correctAnswer": true,
+      "explanation": "Unlike HNF1A/HNF4A, HNF1B usually needs insulin but benefits from extra-renal surveillance.",
+      "reference": "Barriers to Optimal Practice: \"The majority of people with HNF1B-MODY require insulin therapy.\""
+    },
+    {
+      "id": "e21-18-tf5",
+      "type": "true_false",
+      "subtopic": "Amniocentesis for GCK",
+      "statement": "Amniocentesis solely to determine fetal GCK genotype is routinely recommended.",
+      "correctAnswer": false,
+      "explanation": "Invasive testing only for GCK genotype is not recommended due to pregnancy loss risk.",
+      "reference": "Case 1: \"Amniocentesis or chorionic villus sampling for the sole purpose of assessing fetal genotype for a heterozygous GCK pathogenic variant (Answer D) is not recommended\""
+    },
+    {
+      "id": "e21-18-tf6",
+      "type": "true_false",
+      "subtopic": "GCK discontinuation",
+      "statement": "Discontinuing therapy in GCK-MODY does not alter hemoglobin A1c.",
+      "correctAnswer": true,
+      "explanation": "Stable regulated hyperglycemia persists without treatment effect on A1c.",
+      "reference": "Barriers to Optimal Practice: \"discontinuation of therapy in GCK-MODY does not alter hemoglobin A1c.\""
+    },
+    {
+      "id": "e21-18-tf7",
+      "type": "true_false",
+      "subtopic": "VUS diagnosis",
+      "statement": "A variant of uncertain significance on a MODY panel confirms monogenic diabetes.",
+      "correctAnswer": false,
+      "explanation": "VUS must not be overcalled; expert input is needed.",
+      "reference": "Barriers to Optimal Practice: \"lead to erroneous diagnosis of monogenic diabetes when a variant of uncertain significance is detected.\""
+    },
+    {
+      "id": "e21-18-tf8",
+      "type": "true_false",
+      "subtopic": "KCNJ11 therapy",
+      "statement": "High-dose sulfonylureas can improve neurologic outcomes in K-ATP neonatal diabetes.",
+      "correctAnswer": true,
+      "explanation": "Sulfonylureas treat both glycemia and neurologic features in KCNJ11/ABCC8 disease.",
+      "reference": "Barriers to Optimal Practice: \"respond to high-dosage sulfonylureas with excellent glycemic control and improvement in neurologic outcomes.\""
+    },
+    {
+      "id": "e21-18-ar1",
+      "type": "assertion_reason",
+      "subtopic": "GCK pregnancy",
+      "assertion": "Assertion: Insulin in GCK-MODY pregnancy should be guided by fetal abdominal growth pattern.",
+      "reason": "Reason: Fetal genotype determines whether maternal mild hyperglycemia is perceived as normal.",
+      "correctOption": 0,
+      "explanation": "Both are true and causally linked.",
+      "reference": "Case 1: \"the risk of fetal macrosomia is based on whether the fetus inherits the heterozygous GCK pathogenic variant from the mother.\""
+    },
+    {
+      "id": "e21-18-ar2",
+      "type": "assertion_reason",
+      "subtopic": "HNF1A insulin transition",
+      "assertion": "Assertion: A young lean HNF1A-MODY patient on subreplacement insulin can often stop insulin when starting low-dose sulfonylurea.",
+      "reason": "Reason: HNF1A-MODY patients never produce endogenous insulin.",
+      "correctOption": 2,
+      "explanation": "Assertion is true when C-peptide is present; the reason is false.",
+      "reference": "Case 2: \"positive C-peptide indicates that the patient continues to make insulin.\""
+    },
+    {
+      "id": "e21-18-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Genetic testing",
+      "assertion": "Assertion: Targeted genetic testing in high-risk young-onset diabetes can be cost-saving.",
+      "reason": "Reason: Universal screening of all people with diabetes is economically feasible.",
+      "correctOption": 2,
+      "explanation": "Assertion is supported; universal screening is not feasible—the reason is false.",
+      "reference": "Significance of the Clinical Problem: \"Cost-effectiveness analyses suggest that genetic testing for monogenic diabetes in appropriate populations can be cost-saving.\""
+    },
+    {
+      "id": "e21-18-ar4",
+      "type": "assertion_reason",
+      "subtopic": "HNF1B surveillance",
+      "assertion": "Assertion: HNF1B-MODY diagnosis enables renal and extra-pancreatic surveillance.",
+      "reason": "Reason: HNF1B variants affect only pancreatic beta cells.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; HNF1B has multisystem effects—the reason is false.",
+      "reference": "Barriers to Optimal Practice: \"Heterozygous HNF1B pathogenic variants cause a spectrum of abnormalities that can be assessed for and managed\""
+    },
+    {
+      "id": "e21-18-ar5",
+      "type": "assertion_reason",
+      "subtopic": "6q24 relapse",
+      "assertion": "Assertion: Relapsed transient neonatal diabetes from 6q24 abnormalities may respond to low-dose sulfonylureas.",
+      "reason": "Reason: All neonatal diabetes requires lifelong insulin regardless of genotype.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; genotype-directed therapy contradicts the reason.",
+      "reference": "Barriers to Optimal Practice: \"Relapse of transient neonatal diabetes due to 6q24 abnormalities can be treated with low doses of sulfonylureas.\""
+    },
+    {
+      "id": "e21-18-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Autoantibodies",
+      "assertion": "Assertion: Negative pancreatic autoantibodies support considering monogenic diabetes.",
+      "reason": "Reason: All MODY patients have positive GAD antibodies.",
+      "correctOption": 2,
+      "explanation": "Assertion is a referral criterion; MODY is typically antibody negative—the reason is false.",
+      "reference": "Main Conclusions: \"negative pancreatic autoantibodies and continued endogenous insulin production more than 3 years after diabetes diagnosis.\""
+    },
+    {
+      "id": "e21-18-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Sulfonylurea mechanism",
+      "assertion": "Assertion: Sulfonylureas are effective in HNF1A-MODY because they bypass the major β-cell defect.",
+      "reason": "Reason: Sulfonylureas work only by increasing insulin sensitivity in muscle.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; sulfonylureas stimulate insulin secretion—the reason is false.",
+      "reference": "Barriers to Optimal Practice: \"HNF1A-MODY and HNF4A-MODY exhibit a marked sensitivity to sulfonylureas, which bypass the major β-cell defect.\""
+    },
+    {
+      "id": "e21-18-ar8",
+      "type": "assertion_reason",
+      "subtopic": "GCK complications",
+      "assertion": "Assertion: Long-term complications are rare at the glycemic levels seen in GCK-MODY.",
+      "reason": "Reason: GCK-MODY causes rapidly progressive beta-cell failure requiring insulin within 2 years.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; GCK-MODY is stable—the reason is false.",
+      "reference": "Barriers to Optimal Practice: \"At this level of glycemic control, diabetes-related complications are rare.\""
     }
   ]
 }

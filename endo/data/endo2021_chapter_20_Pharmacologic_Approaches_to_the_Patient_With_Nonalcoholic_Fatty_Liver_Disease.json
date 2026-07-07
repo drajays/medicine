@@ -4,48 +4,451 @@
   "chapterNo": "20",
   "title": "Pharmacologic Approaches to the Patient With Nonalcoholic Fatty Liver Disease",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Diana Barb, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_20_Pharmacologic_Approaches_to_the_Patient_With_Nonalcoholic_Fatty_Liver_Disease.md",
   "items": [
     {
-      "subtopic": "Nonalcoholic Steatohepatitis (NASH) Management",
-      "question": "Which of the following statements regarding why Nonalcoholic Fatty Liver Disease (NAFLD) is associated with a 2- to 3-fold risk of developing hyperglycemia and Type 2 Diabetes Mellitus (T2DM) is correct?",
+      "id": "e21-20-n1",
+      "type": "note",
+      "subtopic": "Screening",
+      "title": "Why patients with T2DM should be screened for NAFLD even with normal transaminases",
+      "text": "Diabetes is a high-risk population for NAFLD/NASH; up to 50% with normal ALT may have NAFLD, and unrecognized disease progresses to fibrosis, cirrhosis, and excess cardiovascular mortality.",
+      "reference": "Main Conclusions: \"Patients with diabetes are considered a high-risk population for this condition and should be screened for the presence of NAFLD and NASH even if concentrations of plasma aminotransferases are normal.\""
+    },
+    {
+      "id": "e21-20-n2",
+      "type": "note",
+      "subtopic": "Diagnosis",
+      "title": "How to diagnose NAFLD in clinical practice",
+      "text": "NAFLD requires hepatic steatosis on imaging or ¹H-MRS (>5.56% liver fat), exclusion of significant alcohol use (>21 units/week men, >14 women), and exclusion of other liver diseases.",
+      "reference": "Diagnosis of NAFLD and NASH: \"The diagnosis of NAFLD is based on the following: (1) presence of hepatic steatosis in addition to (2) lack of significant alcohol consumption (defined as ongoing or recent alcohol consumption of >21 units/week for men and >14 units/week for women), and (3) exclusion of other liver diseases.\""
+    },
+    {
+      "id": "e21-20-n3",
+      "type": "note",
+      "subtopic": "NASH diagnosis",
+      "title": "Why liver biopsy remains the reference standard for NASH",
+      "text": "Current guidelines advise liver biopsy is the only way to diagnose NASH; noninvasive tools estimate fibrosis risk but are not fully validated for NASH diagnosis before treatment initiation.",
+      "reference": "Diagnosis of NAFLD and NASH: \"current guidelines advise that liver biopsy is the only way to diagnose NASH and that noninvasive techniques have not yet been fully validated for the diagnosis of this condition.\""
+    },
+    {
+      "id": "e21-20-n4",
+      "type": "note",
+      "subtopic": "First-line therapy",
+      "title": "First-line pharmacotherapy for biopsy-proven NASH in patients with diabetes",
+      "text": "No FDA-approved NASH-specific agents exist, but GLP-1 receptor agonists and pioglitazone should be considered first-line in biopsy-proven NASH and in patients with diabetes and NAFLD/NASH alongside lifestyle intervention.",
+      "reference": "Main Conclusions: \"GLP-1 receptor agonists and pioglitazone should be considered first-line therapy in patients with NASH confirmed on liver biopsy and in patients with diabetes and NAFLD/NASH.\""
+    },
+    {
+      "id": "e21-20-n5",
+      "type": "note",
+      "subtopic": "Foundation therapy",
+      "title": "Mainstay of NAFLD/NASH management beyond drugs",
+      "text": "Weight loss and aggressive cardiovascular risk factor control—dyslipidemia, hypertension, and glycemia—remain the foundation; NAFLD increases cardiovascular risk through lipotoxicity and glucotoxicity.",
+      "reference": "Main Conclusions: \"Mainstay of NAFLD treatment is weight loss and aggressive cardiovascular risk factor management (ie, dyslipidemia, hypertension, and glycemic control).\""
+    },
+    {
+      "id": "e21-20-n6",
+      "type": "note",
+      "subtopic": "Pioglitazone",
+      "title": "Pioglitazone histologic efficacy in NASH with prediabetes or T2DM",
+      "text": "Long-term pioglitazone achieved NASH resolution in 51% versus 19% placebo (32% treatment difference); 58% achieved ≥2-point NAS improvement without fibrosis worsening versus 17% placebo.",
+      "reference": "Pioglitazone: \"Resolution of NASH, a secondary outcome in this trial, occurred in 51% of patients in the pioglitazone arm vs 19% in the placebo group, with a placebo-subtracted treatment difference of 32% points\""
+    },
+    {
+      "id": "e21-20-n7",
+      "type": "note",
+      "subtopic": "Vitamin E",
+      "title": "How vitamin E efficacy differs between patients with and without T2DM",
+      "text": "Vitamin E 800 IU daily showed benefit in PIVENS (non-diabetic NASH) but provides only marginal benefit in NASH with T2DM; AASLD guidance does not recommend vitamin E for NASH in patients with diabetes.",
+      "reference": "Main Conclusions: \"Vitamin E demonstrated efficacy in patients without diabetes, and is only of marginal benefit in patients with NASH and T2DM.\""
+    },
+    {
+      "id": "e21-20-n8",
+      "type": "note",
+      "subtopic": "Metformin",
+      "title": "Why metformin is not effective for steatohepatitis despite first-line diabetes use",
+      "text": "Metformin may reduce liver fat but does not significantly impact NASH resolution or fibrosis and is considered neutral for steatohepatitis treatment per current guidelines.",
+      "reference": "Other Antidiabetes Drugs: \"Although metformin remains first-line therapy for the management of hyperglycemia in T2DM and may reduce liver fat, it is not effective for the treatment of steatohepatitis, as it does not significantly impact resolution of NASH or fibrosis.\""
+    },
+    {
+      "id": "e21-20-n9",
+      "type": "note",
+      "subtopic": "SGLT-2 inhibitors",
+      "title": "SGLT-2 inhibitors in NAFLD: steatosis without histology trials",
+      "text": "Empagliflozin, dapagliflozin, and other SGLT-2 inhibitors reduce hepatic steatosis on imaging, but no randomized trials have assessed effects on liver histology—making them attractive second- or third-line agents, often combined with pioglitazone.",
+      "reference": "Other Antidiabetes Drugs: \"Of note, there are no randomized controlled trials assessing the effect of SGLT-2 inhibitors on liver histology.\""
+    },
+    {
+      "id": "e21-20-n10",
+      "type": "note",
+      "subtopic": "Liraglutide LEAN",
+      "title": "Liraglutide LEAN trial outcomes in biopsy-proven NASH",
+      "text": "Liraglutide 1.8 mg daily for 48 weeks achieved NASH resolution in 39% versus 9% placebo with less fibrosis progression—placebo-subtracted treatment difference approximately 30%.",
+      "reference": "Strategies for Therapy and Management of NAFLD and NASH: \"Resolution of NASH occurred in 39% of patients with liraglutide compared with 9% of patients in the placebo group\""
+    },
+    {
+      "id": "e21-20-n11",
+      "type": "note",
+      "subtopic": "Statins",
+      "title": "Statins in NAFLD/NASH: safety without histologic efficacy",
+      "text": "Statins are safe with elevated liver enzymes and remain first-line for dyslipidemia given high cardiovascular risk; prospective histology studies have not shown significant inflammation or fibrosis improvement versus placebo.",
+      "reference": "Strategies for Therapy and Management of NAFLD and NASH: \"Statins are safe to use in patients with NAFLD/NASH even if liver enzymes are elevated, and should be used as first-line therapy for lipid lowering.\""
+    },
+    {
+      "id": "e21-20-n12",
+      "type": "note",
+      "subtopic": "Weight loss threshold",
+      "title": "How much weight loss improves steatohepatitis",
+      "text": "An 8% to 10% body weight reduction is expected to improve steatohepatitis; histologic improvement with orlistat was proportional to weight loss, with benefit when loss exceeded 9%.",
+      "reference": "Antiobesity Medications Other Than GLP-1 Receptor Agonists: \"A positive effect in improving steatohepatitis would be expected with any of these agents when inducing an 8% to 10% reduction in body weight\""
+    },
+    {
+      "id": "e21-20-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — evaluation",
+      "question": "A 69-year-old man with T2DM, hepatic steatosis on ultrasound, and elevated ALT needs further evaluation of transaminitis. Which assessments are indicated?",
       "options": [
-        "A. Individuals with NAFLD are more insulin-resistant at the level of muscle, liver, and adipose tissue than individuals without NAFLD, even if they are lean and without diabetes",
-        "B. In NAFLD, insulin resistance is present in the muscle and liver but not in adipose tissue",
-        "C. In NAFLD, insulin resistance is present in the liver and adipose tissue but not in muscle",
-        "D. Nonobese individuals are not insulin resistant and rarely develop NAFLD",
-        "E. Obese individuals with diabetes without NAFLD are usually insulin sensitive (about 30% of all patients with diabetes)"
+        "CAGE questionnaire only",
+        "Viral and autoimmune serologies only",
+        "Medication and supplement review only",
+        "All of the above (alcohol, serologies, medications, supplements)"
+      ],
+      "correctOption": 3,
+      "explanation": "NAFLD diagnosis requires excluding alcohol, viral hepatitis, autoimmune disease, and steatogenic medications or supplements.",
+      "reference": "Case 1: \"Answer: E) All of the above\""
+    },
+    {
+      "id": "e21-20-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 — FIB-4",
+      "question": "A patient with T2DM has FIB-4 of 2.87. What is the appropriate conclusion?",
+      "options": [
+        "FIB-4 cannot be calculated",
+        "Very low fibrosis risk—no further workup",
+        "Low to moderate risk—no further workup",
+        "Moderate to high fibrosis risk—additional workup and hepatology referral"
+      ],
+      "correctOption": 3,
+      "explanation": "FIB-4 >2.67 indicates moderate to high advanced fibrosis risk warranting further evaluation and hepatology referral.",
+      "reference": "Case 1 (Continued): \"Answer: D) He has a moderate to high risk of liver fibrosis, so additional workup and referral to hepatology are needed\""
+    },
+    {
+      "id": "e21-20-q3",
+      "type": "mcq",
+      "subtopic": "Case 1 — NASH resolution",
+      "question": "After metformin, which second-line diabetes agents have shown significant NASH resolution versus placebo on liver biopsy?",
+      "options": [
+        "Liraglutide and pioglitazone",
+        "Dulaglutide and empagliflozin",
+        "Empagliflozin and sitagliptin",
+        "Sitagliptin only"
       ],
       "correctOption": 0,
-      "explanation": "The correct answer is A. Individuals with NAFLD are more insulin-resistant at the level of muscle, liver, and adipose tissue than individuals without NAFLD, even if they are lean and without diabetes (Answer A). In patients with NAFLD, the insulin resistance is present at the level of muscle, liver, and adipose tissue, and as a direct consequence, hepatic glucose production and adipose tissue lipolysis are increased. This leads to higher fasting glucose and free fatty acid concentrations, resulting in a higher risk of T2DM in these patients.",
-      "reference": "\"As reviewed by Gastaldelli et al, ^{47} individuals with NAFLD are more insulin resistant than those without NAFLD, even if they are lean and without diabetes (Answer A). In patients with NAFLD, the insulin resistance is present at the level of muscle, liver, and adipose tissue, and as a direct consequence, hepatic glucose production and adipose tissue lipolysis are increased. This leads to higher fasting glucose and free fatty acid concentrations. This leads to increased risk of T2DM in these patients.\"",
-      "id": "e21-20-q1",
-      "type": "mcq"
+      "explanation": "LEAN (liraglutide) and pioglitazone RCTs demonstrate NASH resolution; SGLT-2 inhibitors reduce steatosis on imaging without histology trials.",
+      "reference": "Case 1 (Continued): \"Answer: A and E) Liraglutide and pioglitazone\""
     },
     {
-      "type": "why",
-      "subtopic": "NAFLD Treatment and Screening",
-      "question": "Why should patients with T2DM be screened for NAFLD even if plasma aminotransferase levels are normal?",
-      "answer": "Because screening is important to identify patients at risk for disease progression, especially in those who may not have typical symptoms of NAFLD.",
-      "keyPoints": [
-        "Patients with diabetes (T2DM) are considered high-risk and should be screened for NAFLD/NASH even if aminotransferase levels are normal",
-        "Screening helps identify patients at risk for disease progression, such as NASH"
+      "id": "e21-20-q4",
+      "type": "mcq",
+      "subtopic": "Case 1 — statins",
+      "question": "The patient asks about continuing atorvastatin with elevated liver enzymes. Best recommendation?",
+      "options": [
+        "Continue atorvastatin for cardiovascular risk from T2DM and NAFLD",
+        "Stop atorvastatin before starting pioglitazone due to interaction",
+        "Continue because statins improve NASH fibrosis in trials",
+        "Stop atorvastatin because enzymes are elevated and statins lack histologic benefit"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Patients with diabetes (T2DM) are considered a high-risk population for this condition and should be screened for the presence of NAFLD and NASH even if concentrations of plasma aminotransferases are normal. The presence of NASH in a patient with T2DM should prompt early treatment with lifestyle intervention and use of therapies proven to be effective in randomized controlled trials.\"",
-      "id": "e21-20-why1"
+      "correctOption": 0,
+      "explanation": "Statins are safe in NAFLD/NASH and indicated for cardiovascular risk despite limited histologic efficacy.",
+      "reference": "Case 1 (Continued): \"Answer: A) He should continue atorvastatin because of increased cardiovascular disease risk from T2DM and NAFLD\""
     },
     {
-      "type": "how",
-      "subtopic": "diagnostic step for NAFLD screening",
-      "question": "How should patients at high risk, such as those with T2DM, be screened for NAFLD?",
-      "answer": "Patients with diabetes are considered a high-risk population for non-alcoholic fatty liver disease (NAFLD) and non-alcoholic steatohepatitis (NASH). They should be screened for the presence of NAFLD and NASH even if plasma aminotransferase concentrations are normal. Screening methods typically include clinical assessment, imaging studies such as ultrasound or MRI with fat-signal analysis, and liver biopsy to confirm the diagnosis.",
-      "keyPoints": [
-        "Patients with diabetes should be screened for NAFLD/NASH due to their high risk.",
-        "Screening includes clinical assessment, imaging studies, and liver biopsy."
+      "id": "e21-20-q5",
+      "type": "mcq",
+      "subtopic": "Case 1 — vitamin E",
+      "question": "Which statement about vitamin E in T2DM with NASH is INCORRECT?",
+      "options": [
+        "Vitamin E 800 IU daily should be recommended based on PIVENS for this diabetic patient",
+        "Current guidelines do not recommend vitamin E for NASH in T2DM",
+        "Guidelines recommend vitamin E for NASH without T2DM",
+        "Vitamin E may increase mortality and prostate cancer risk in men"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Patients with diabetes are considered a high-risk population for this condition and should be screened for the presence of NAFLD and NASH even if concentrations of plasma aminotransferases are normal. The presence of NASH in a patient with T2DM should prompt early treatment with lifestyle intervention and use of therapies proven to be effective in randomized controlled trials.\"",
-      "id": "e21-20-how1"
+      "correctOption": 0,
+      "explanation": "PIVENS benefit was in non-diabetic NASH; vitamin E is not recommended for NASH in patients with T2DM.",
+      "reference": "Case 1 (Continued): \"Answer: A) Vitamin E at a dosage of 800 IU daily should be recommended given the known benefit of vitamin E in NASH reported in the PIVENS trial\""
+    },
+    {
+      "id": "e21-20-q6",
+      "type": "mcq",
+      "subtopic": "Case 2 — antiobesity therapy",
+      "question": "A postmenopausal woman with prediabetes and NAFLD needs 8%–11% weight loss to improve steatohepatitis. Which agents are most likely to achieve this?",
+      "options": [
+        "Orlistat alone",
+        "Phentermine/topiramate ER or liraglutide 3.0 mg",
+        "Naltrexone/bupropion only",
+        "Metformin dose escalation"
+      ],
+      "correctOption": 1,
+      "explanation": "Phentermine/topiramate induces 8%–11% weight loss in 30%–40%; liraglutide 3.0 mg achieves similar magnitude and has NASH histology data at 1.8 mg.",
+      "reference": "Case 2: \"Answer: B or D) Phentermine/topiramate ER or liraglutide\""
+    },
+    {
+      "id": "e21-20-q7",
+      "type": "mcq",
+      "subtopic": "Case 3 — fibrosis risk factors",
+      "question": "A man with longstanding uncontrolled T2DM has biopsy-proven NASH with stage 3 fibrosis despite normal ALT. Which is NOT a risk factor for advanced fibrosis?",
+      "options": [
+        "Poor glycemic control",
+        "High BMI",
+        "Normal liver enzymes",
+        "Modest red wine consumption"
+      ],
+      "correctOption": 3,
+      "explanation": "Poor glycemic control, obesity, high triglycerides, and even 'normal' ALT do not exclude advanced fibrosis; modest red wine is not established as a fibrosis risk factor in this vignette.",
+      "reference": "Case 3: \"Answer: E) Modest red wine consumption\""
+    },
+    {
+      "id": "e21-20-q8",
+      "type": "mcq",
+      "subtopic": "Case 3 — fibrosis improvement",
+      "question": "Which agent has NOT shown significant 1-point fibrosis improvement without worsening steatohepatitis versus placebo?",
+      "options": [
+        "Liraglutide",
+        "Semaglutide",
+        "Pioglitazone",
+        "Obeticholic acid"
+      ],
+      "correctOption": 1,
+      "explanation": "Semaglutide improved NASH resolution but did not significantly improve fibrosis versus placebo in the large 72-week trial (~43% vs ~33%).",
+      "reference": "Case 3 (Continued): \"Answer: B) Semaglutide\""
+    },
+    {
+      "id": "e21-20-q9",
+      "type": "mcq",
+      "subtopic": "Epidemiology",
+      "question": "What is the approximate global prevalence of NAFLD in the general population per recent meta-analysis?",
+      "options": [
+        "5%",
+        "15%",
+        "25%",
+        "50%"
+      ],
+      "correctOption": 2,
+      "explanation": "Global NAFLD prevalence is estimated at 25% in the general population, higher in T2DM.",
+      "reference": "Significance of the Clinical Problem: \"the global prevalence of NAFLD was estimated to be 25% in the general population\""
+    },
+    {
+      "id": "e21-20-q10",
+      "type": "mcq",
+      "subtopic": "NAFLD in T2DM",
+      "question": "Using sensitive imaging, NAFLD prevalence in overweight or obese adults with T2DM may reach approximately:",
+      "options": [
+        "25%",
+        "40%",
+        "56%",
+        "70%"
+      ],
+      "correctOption": 3,
+      "explanation": "¹H-MRS-based studies report up to 70% NAFLD prevalence in overweight/obese adults with T2DM.",
+      "reference": "Significance of the Clinical Problem: \"up to 70% in overweight or obese adults with T2DM.\""
+    },
+    {
+      "id": "e21-20-q11",
+      "type": "mcq",
+      "subtopic": "Pioglitazone barriers",
+      "question": "A common barrier to pioglitazone use in NASH is:",
+      "options": [
+        "Lack of histologic efficacy data",
+        "Unawareness that more than 50% achieve NASH resolution",
+        "Contraindication in all patients with T2DM",
+        "Mandatory liver biopsy before every dose titration"
+      ],
+      "correctOption": 1,
+      "explanation": "Providers often underuse pioglitazone despite >50% NASH resolution rates in trials due to unfamiliarity and concerns about weight gain.",
+      "reference": "Barriers to Optimal Practice: \"unawareness about its efficacy (>50% have NASH resolution with pioglitazone)\""
+    },
+    {
+      "id": "e21-20-q12",
+      "type": "mcq",
+      "subtopic": "Semaglutide NASH trial",
+      "question": "In the semaglutide NASH trial, approximate NASH resolution rates with 0.4 mg daily versus placebo were:",
+      "options": [
+        "17% vs 59%",
+        "36% vs 51%",
+        "59% vs 17%",
+        "51% vs 19%"
+      ],
+      "correctOption": 2,
+      "explanation": "Semaglutide 0.4 mg achieved ~59% NASH resolution without fibrosis worsening versus 17% placebo (dose-response trial).",
+      "reference": "Strategies for Therapy and Management of NAFLD and NASH: \"59% in the 0.4-mg group, and 17% in the placebo group (P < .001 for semaglutide 0.4 mg vs placebo).\""
+    },
+    {
+      "id": "e21-20-q13",
+      "type": "mcq",
+      "subtopic": "Obeticholic acid REGENERATE",
+      "question": "In the REGENERATE phase 3 trial, obeticholic acid 25 mg met which primary endpoint?",
+      "options": [
+        "NASH resolution at 18 months",
+        "Fibrosis improvement ≥1 stage with no worsening of NASH",
+        "30% reduction in liver fat by MRI-PDFF only",
+        "Normalization of ALT at 12 weeks"
+      ],
+      "correctOption": 1,
+      "explanation": "REGENERATE met fibrosis improvement without NASH worsening (23% vs 12% placebo) but not the NASH resolution primary endpoint at interim analysis.",
+      "reference": "Investigational Drugs: \"met the primary endpoint of fibrosis improvement (≥1 stage) with no worsening of NASH in 23% of patients compared with 12% of patients in the placebo group\""
+    },
+    {
+      "id": "e21-20-tf1",
+      "type": "true_false",
+      "subtopic": "FDA approval",
+      "statement": "There are currently FDA-approved pharmacologic therapies specifically indicated for NAFLD or NASH.",
+      "correctAnswer": false,
+      "explanation": "No agent has a specific FDA indication for NAFLD/NASH despite multiple agents showing histologic benefit in trials.",
+      "reference": "Significance of the Clinical Problem: \"currently there are no pharmacologic agents approved specifically for this condition.\""
+    },
+    {
+      "id": "e21-20-tf2",
+      "type": "true_false",
+      "subtopic": "Normal ALT",
+      "statement": "Up to 50% of patients with normal ALT (<40 U/L) may have NAFLD.",
+      "correctAnswer": true,
+      "explanation": "Relying on aminotransferases alone misses substantial NAFLD burden in diabetes.",
+      "reference": "Diagnosis of NAFLD and NASH: \"up to 50% of patients with normal ALT levels (<40 U/L [<0.67 μkat/L]) may have NAFLD.\""
+    },
+    {
+      "id": "e21-20-tf3",
+      "type": "true_false",
+      "subtopic": "Pioglitazone NASH resolution",
+      "statement": "Pioglitazone achieved NASH resolution in approximately 51% of patients versus 19% with placebo in a long-term RCT.",
+      "correctAnswer": true,
+      "explanation": "This 32-percentage-point treatment difference underpins first-line recommendation in biopsy-proven NASH.",
+      "reference": "Pioglitazone: \"51% of patients in the pioglitazone arm had NASH resolution (a secondary outcome) vs 19% in the placebo group\""
+    },
+    {
+      "id": "e21-20-tf4",
+      "type": "true_false",
+      "subtopic": "Metformin steatohepatitis",
+      "statement": "Metformin significantly improves NASH resolution and fibrosis on liver biopsy.",
+      "correctAnswer": false,
+      "explanation": "Metformin may lower liver fat but is neutral for steatohepatitis histologic endpoints.",
+      "reference": "Other Antidiabetes Drugs: \"it is not effective for the treatment of steatohepatitis, as it does not significantly impact resolution of NASH or fibrosis.\""
+    },
+    {
+      "id": "e21-20-tf5",
+      "type": "true_false",
+      "subtopic": "SGLT-2 histology",
+      "statement": "Randomized controlled trials have demonstrated SGLT-2 inhibitors improve liver histology in NASH.",
+      "correctAnswer": false,
+      "explanation": "SGLT-2 inhibitors reduce steatosis on imaging; no RCTs assess histologic endpoints.",
+      "reference": "Other Antidiabetes Drugs: \"there are no randomized controlled trials assessing the effect of SGLT-2 inhibitors on liver histology.\""
+    },
+    {
+      "id": "e21-20-tf6",
+      "type": "true_false",
+      "subtopic": "Statins safety",
+      "statement": "Statins should be avoided when liver enzymes are elevated in NAFLD/NASH.",
+      "correctAnswer": false,
+      "explanation": "Statins are safe and recommended for cardiovascular risk reduction despite elevated transaminases.",
+      "reference": "Strategies for Therapy and Management of NAFLD and NASH: \"Statins are safe to use in patients with NAFLD/NASH even if liver enzymes are elevated\""
+    },
+    {
+      "id": "e21-20-tf7",
+      "type": "true_false",
+      "subtopic": "Vitamin E in T2DM",
+      "statement": "Current AASLD guidance recommends vitamin E for treatment of NASH in patients with T2DM.",
+      "correctAnswer": false,
+      "explanation": "Vitamin E is recommended for non-diabetic NASH; benefit in T2DM is marginal and not guideline-endorsed.",
+      "reference": "Case 1 (Continued): \"Current guidelines do not recommend vitamin E for treatment of NASH in patients with T2DM\""
+    },
+    {
+      "id": "e21-20-tf8",
+      "type": "true_false",
+      "subtopic": "NAFLD NAS definition",
+      "statement": "Definite NASH on biopsy requires at least grade 1 in steatosis, lobular inflammation, and hepatocellular ballooning.",
+      "correctAnswer": true,
+      "explanation": "NASH is defined histologically by steatosis, inflammation, and ballooning each ≥grade 1.",
+      "reference": "Diagnosis of NAFLD and NASH: \"Definite NASH is determined on low- to medium-power microscopy based on the presence of at least grade 1 in each of the following 3 components\""
+    },
+    {
+      "id": "e21-20-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Pioglitazone first-line",
+      "assertion": "Assertion: Pioglitazone should be first-line pharmacotherapy in biopsy-proven NASH with T2DM.",
+      "reason": "Reason: Pioglitazone achieved NASH resolution in more than 50% of patients in randomized trials.",
+      "correctOption": 0,
+      "explanation": "Both are true; efficacy, cardiovascular benefit, and cost support first-line use.",
+      "reference": "Pioglitazone: \"pioglitazone leads to resolution of NASH (>50%) in patients with and without T2DM\""
+    },
+    {
+      "id": "e21-20-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Vitamin E",
+      "assertion": "Assertion: Vitamin E 800 IU daily is recommended for all patients with NASH including those with T2DM.",
+      "reason": "Reason: PIVENS demonstrated vitamin E benefit only in adults with NASH without diabetes.",
+      "correctOption": 2,
+      "explanation": "Assertion is false; PIVENS enrolled non-diabetic patients and guidelines limit vitamin E recommendation accordingly.",
+      "reference": "Vitamin E: \"adults with biopsy-proven NASH without diabetes received vitamin E at a dosage of 800 IU daily vs placebo for 96 weeks.\""
+    },
+    {
+      "id": "e21-20-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Liraglutide LEAN",
+      "assertion": "Assertion: Liraglutide 1.8 mg daily improves NASH histology in biopsy-proven disease.",
+      "reason": "Reason: NASH resolution occurred in 39% with liraglutide versus 9% with placebo in the LEAN trial.",
+      "correctOption": 0,
+      "explanation": "Both are true; LEAN supports GLP-1 RA use in NASH with diabetes.",
+      "reference": "Case 1 (Continued): \"Resolution of NASH occurred in 39% of patients with liraglutide compared with 9% of patients in the placebo group\""
+    },
+    {
+      "id": "e21-20-ar4",
+      "type": "assertion_reason",
+      "subtopic": "SGLT-2 inhibitors",
+      "assertion": "Assertion: SGLT-2 inhibitors are attractive second- or third-line agents for NAFLD/NASH.",
+      "reason": "Reason: SGLT-2 inhibitors have proven histologic NASH resolution in large randomized trials.",
+      "correctOption": 1,
+      "explanation": "Both statements about steatosis/weight are directionally true, but the reason is false—no histology RCTs exist.",
+      "reference": "Other Antidiabetes Drugs: \"there are no randomized controlled trials assessing the effect of SGLT-2 inhibitors on liver histology.\""
+    },
+    {
+      "id": "e21-20-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Insulin resistance",
+      "assertion": "Assertion: Individuals with NAFLD are more insulin resistant at muscle, liver, and adipose tissue than those without NAFLD.",
+      "reason": "Reason: In NAFLD, insulin resistance is present in liver and adipose tissue but not in muscle.",
+      "correctOption": 2,
+      "explanation": "Assertion is true per Gastaldelli review; insulin resistance involves all three tissues—the reason is false.",
+      "reference": "Case 1 (Continued): \"individuals with NAFLD are more insulin resistant than those without NAFLD, even if they are lean and without diabetes (Answer A).\""
+    },
+    {
+      "id": "e21-20-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Weight loss",
+      "assertion": "Assertion: An 8% to 10% body weight reduction is expected to improve steatohepatitis.",
+      "reason": "Reason: Orlistat improves NASH histology independent of weight loss magnitude.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; orlistat histology benefit was proportional to weight loss >9%, not drug-specific.",
+      "reference": "Antiobesity Medications Other Than GLP-1 Receptor Agonists: \"improvement in insulin sensitivity and liver histology is proportional to the magnitude of weight loss.\""
+    },
+    {
+      "id": "e21-20-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Semaglutide fibrosis",
+      "assertion": "Assertion: Semaglutide did not significantly improve liver fibrosis versus placebo in a large NASH trial.",
+      "reason": "Reason: Most participants had advanced fibrosis which may require longer follow-up to improve.",
+      "correctOption": 1,
+      "explanation": "Both are true; lack of significant fibrosis improvement may reflect advanced disease stage and trial limitations.",
+      "reference": "Case 3 (Continued): \"semaglutide (Answer B) failed to show significant difference in fibrosis improvement when compared with placebo\""
+    },
+    {
+      "id": "e21-20-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Endocrinology role",
+      "assertion": "Assertion: Endocrinologists should become more involved in NAFLD/NASH management.",
+      "reason": "Reason: NASH overlaps extensively with obesity and diabetes with major clinical implications.",
+      "correctOption": 0,
+      "explanation": "Both are true; the chapter emphasizes endocrine leadership in this epidemic.",
+      "reference": "Main Conclusions: \"endocrinologists should become more involved in the management of NAFLD/NASH given the significant overlap of NASH with obesity and diabetes\""
     }
   ]
 }

@@ -4,47 +4,451 @@
   "chapterNo": "17",
   "title": "How to Digest Data and Develop Treatment Recommendations During a Clinic Visit",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Steven D. Wittlin, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_17_How_to_Digest_Data_and_Develop_Treatment_Recommendations_During_a_Clinic_Visit.md",
   "items": [
     {
-      "subtopic": "Continuous Glucose Monitoring (CGM) and Closed-Loop Systems in Pregnancy",
-      "question": "For a pregnant patient with type 2 diabetes, which of the following is the best next step based on her sensor download data?",
+      "id": "e21-17-n1",
+      "type": "note",
+      "subtopic": "Hybrid closed-loop",
+      "title": "Why postmeal glucose remains difficult on hybrid closed-loop pumps",
+      "text": "Despite improved overall glycemic control, regulating postmeal glucose is still challenging because carbohydrate counting is imperfect for mixed meals and the patient—not the algorithm—still determines meal boluses.",
+      "reference": "Main Conclusions: \"With the use of hybrid closed-loop pumps, despite the improvement in glycemic control, regulating postmeal glucose concentrations is still a challenge.\""
+    },
+    {
+      "id": "e21-17-n2",
+      "type": "note",
+      "subtopic": "CGM metrics",
+      "title": "How to use time in range when interpreting pump downloads",
+      "text": "Target time in range >70%, time below range <4%, and time above range <25% for most adults; fourteen days of CGM data correlate well with hemoglobin A1c and respond faster to regimen changes than A1c alone.",
+      "reference": "Usual Target Recommendations: \"Time in range >70%\""
+    },
+    {
+      "id": "e21-17-n3",
+      "type": "note",
+      "subtopic": "GMI discordance",
+      "title": "Why glucose management indicator may differ from hemoglobin A1c",
+      "text": "When GMI is lower than A1c, consider avoiding hypoglycemia or raising the A1c target; when GMI is higher, address hyperglycemia. Discordance may reflect A1c interference, recent glycemic change, or calibration issues.",
+      "reference": "Using GMI: \"If GMI is lower than hemoglobin A1c considers Avoiding hypoglycemia\""
+    },
+    {
+      "id": "e21-17-n4",
+      "type": "note",
+      "subtopic": "Sensor selection",
+      "title": "How to choose a CGM when hypoglycemia unawareness is present",
+      "text": "Avoid the original Libre without alerts; DexCom, Guardian 3, and Eversense all work, with DexCom favored when calibration error is a concern. For pump/closed-loop goals, match sensor to pump partner (Guardian 3 for Medtronic, DexCom for Tandem).",
+      "reference": "Choosing a Sensor: \"Not Libre (no alerts), but consider Libre 2, which does have alarms\""
+    },
+    {
+      "id": "e21-17-n5",
+      "type": "note",
+      "subtopic": "DexCom G6",
+      "title": "DexCom G6: factory calibration and alert capabilities",
+      "text": "G6 is factory calibrated with MARD <10%, 10-day wear, high/low and predictive alerts, and no routine need for fingerstick confirmation—though compression artifact and site rotation remain practical limits.",
+      "reference": "DexCom: \"No need for fingerstick confirmation\""
+    },
+    {
+      "id": "e21-17-n6",
+      "type": "note",
+      "subtopic": "Closed-loop evolution",
+      "title": "How closed-loop systems have progressed over two decades",
+      "text": "Systems evolved from threshold suspend (pump off at low glucose), to predictive low-glucose suspend, to hybrid closed-loop where the algorithm corrects toward target while the patient still delivers meal boluses.",
+      "reference": "Sensor-Pump Interactions: Toward \"Closing the Loop\": \"Hybrid closed-loop systems: the algorithm corrects the glucose toward a target/target range; the patient still determines meal boluses\""
+    },
+    {
+      "id": "e21-17-n7",
+      "type": "note",
+      "subtopic": "Meal bolus timing",
+      "title": "How late meal boluses cause postprandial variability on downloads",
+      "text": "When glucose rises before the bolus is delivered, early postprandial insulin is inadequate and later periods have relative insulin excess—producing late hypoglycemia even on hybrid closed-loop systems.",
+      "reference": "Case 2: \"the blood glucose levels start to rise BEFORE the meal bolus delivery.\""
+    },
+    {
+      "id": "e21-17-n8",
+      "type": "note",
+      "subtopic": "Correction stacking",
+      "title": "Why manual correction boluses on closed-loop cause hypoglycemia",
+      "text": "When the closed-loop system is already lowering glucose, patient-initiated correction boluses stack insulin and provoke hypoglycemia at variable times—exercise-induced lows are less likely when lows follow glucose spikes.",
+      "reference": "Case 3: \"she is in effect inadvertently \"stacking\" insulin and overcorrecting (Answer A).\""
+    },
+    {
+      "id": "e21-17-n9",
+      "type": "note",
+      "subtopic": "Pregnancy targets",
+      "title": "Pregnancy CGM glucose targets on pump/sensor downloads",
+      "text": "Pregnancy targets for time in range are 63 to 140 mg/dL (3.5–7.8 mmol/L)—looser than nonpregnant targets in older patients but tighter overnight control may still require insulin timing adjustments.",
+      "reference": "Usual Target Recommendations: \"Pregnancy targets for time in range are 63 to 140 mg/dL (3.5-7.8 mmol/L).\""
+    },
+    {
+      "id": "e21-17-n10",
+      "type": "note",
+      "subtopic": "Compression lows",
+      "title": "Pitfall: nocturnal false lows from compression artifact",
+      "text": "DexCom and other sensors can report \"compression lows\" when the sensor is compressed during sleep; unconfirmed lows with discordant fingersticks should prompt site/position counseling—not forced recalibration of factory-calibrated systems.",
+      "reference": "DexCom: \"\"Compression lows\"\""
+    },
+    {
+      "id": "e21-17-n11",
+      "type": "note",
+      "subtopic": "Eversense indications",
+      "title": "When to consider implantable Eversense CGM",
+      "text": "Eversense suits body-image or athletic concerns, adherence problems, needle phobia, or running out of infusion/sensor sites—but it lacks a current US pump partner for threshold suspend or hybrid closed loop.",
+      "reference": "So When Eversense?: \"Body image issues/athletics\""
+    },
+    {
+      "id": "e21-17-n12",
+      "type": "note",
+      "subtopic": "Clinic workflow",
+      "title": "How to handle pump/CGM downloads during a busy visit",
+      "text": "Efficient interpretation requires pre-visit upload, focus on time in range, GMI, auto-mode utilization, bolus timing relative to meals, and correction-bolus patterns—technology choice must align with insurance, alerts, and pump integration needs.",
+      "reference": "Barriers to Optimal Practice: \"Logistics of office download and interpretation of data from pump/CGM and closed-loop systems.\""
+    },
+    {
+      "id": "e21-17-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — pregnancy",
+      "question": "A 35-year-old pregnant woman with type 2 diabetes on bedtime NPH has elevated postlunch glucose on Libre download; overnight values are low-normal. Time in range is 88%. What is the best next step?",
       "options": [
-        "Continue the regimen; her time in range is 88%",
-        "Reduce her dosage of NPH insulin; her time below range is 9%",
-        "Move her NPH insulin to the morning",
+        "Continue the regimen; time in range is 88%",
+        "Reduce NPH because time below range is 9%",
+        "Move NPH insulin to the morning",
         "Re-introduce metformin"
       ],
       "correctOption": 2,
-      "explanation": "The best next step for a pregnant patient with type 2 diabetes, based on her sensor download data showing elevated postlunch blood glucose levels and persistently low overnight glucose values, is to move her NPH insulin to the morning. This adjustment addresses the issue of inadequate insulin early after meals (Answer D) and still allows her time in range to remain within target range.",
-      "reference": "\"Move her NPH insulin to the morning\"",
-      "id": "e21-17-q1",
-      "type": "mcq"
+      "explanation": "Pregnancy target is 63–140 mg/dL; postlunch hyperglycemia with acceptable overnight values favors morning NPH to cover daytime meals rather than reducing bedtime NPH or adding metformin.",
+      "reference": "Case 1: \"Answer: C) Move her NPH insulin to the morning\""
     },
     {
-      "type": "why",
-      "subtopic": "Hybrid Closed-Loop Pumps",
-      "question": "Why is regulating postmeal glucose concentrations still a challenge with the use of hybrid closed-loop pumps?",
-      "answer": "Because although hybrid closed-loop pumps have improved glycemic control, they do not fully address the variability in postmeal glucose levels that can occur when patients consume mixed meals.",
-      "keyPoints": [
-        "Hybrid closed-loop pumps enhance overall diabetes management but struggle with precise regulation of postprandial glucose",
-        "Mixed meals often lead to unpredictable glucose responses despite pump technology"
+      "id": "e21-17-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — late boluses",
+      "question": "A 46-year-old man on a 670G hybrid closed-loop has A1c 8.1% with wide variability. Pump download shows glucose rising before meal bolus delivery. Most likely explanation?",
+      "options": [
+        "Inaccurate carbohydrate counting",
+        "High-fat meals",
+        "Inappropriate insulin-to-carbohydrate ratio",
+        "Late meal boluses"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Use of sensors, smart pumps, and hybrid closed-loop pumps has improved diabetes control. With the use of hybrid closed-loop pumps, despite the improvement in glycemic control, regulating postmeal glucose concentrations is still a challenge. Counting carbohydrates facilitates bolus calculation, but it is an imperfect and unsatisfactory tool when patients eat a mixed meal. Metrics have been developed to assess diabetes control that aid in making adjustments to regimens and interpreting pump downloads.\"",
-      "id": "e21-17-why1"
+      "correctOption": 3,
+      "explanation": "Rising glucose before bolus delivery causes early under-insulinization and later relative excess—classic late bolus pattern on CGM/pump overlay.",
+      "reference": "Case 2: \"Answer: D) Late meal boluses\""
     },
     {
-      "type": "how",
-      "subtopic": "Monitoring Approaches for Postmeal Glucose Control",
-      "question": "How do metrics help in adjusting insulin regimens based on postmeal glucose concentrations?",
-      "answer": "Metrics developed to assess diabetes control aid in making adjustments to insulin regimens by providing real-time data on blood glucose levels, particularly after meals. These metrics can include continuous glucose monitoring (CGM) data and other glycemic indices that track the effectiveness of insulin therapy over time. By analyzing these metrics, clinicians can identify patterns or deviations from target ranges, which help in determining whether adjustments to basal or bolus insulin doses are needed to better control postmeal glucose concentrations.",
-      "keyPoints": [
-        "Metrics provide real-time data on blood glucose levels after meals",
-        "Clinicians use this information to adjust insulin regimens as necessary"
+      "id": "e21-17-q3",
+      "type": "mcq",
+      "subtopic": "Case 3 — correction stacking",
+      "question": "A 51-year-old woman on 670G auto-mode has postprandial spikes followed by hypoglycemia at variable times. She takes manual correction boluses when high. Most likely cause of lows?",
+      "options": [
+        "Overcorrecting her blood glucose",
+        "Sensor error",
+        "Premeal exercise",
+        "Incorrect insulin-to-carbohydrate ratio"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Metrics have been developed to assess diabetes control that aid in making adjustments to regimens and interpreting pump downloads.\"\nThese metrics include continuous glucose monitoring (CGM) data and other glycemic indices that track the effectiveness of insulin therapy over time, helping clinicians identify patterns or deviations from target ranges.",
-      "id": "e21-17-how1"
+      "correctOption": 0,
+      "explanation": "Hypoglycemia follows spikes and coincides with manual corrections while auto-mode is already delivering insulin—stacking effect.",
+      "reference": "Case 3: \"Answer: A) Overcorrecting her blood glucose\""
+    },
+    {
+      "id": "e21-17-q4",
+      "type": "mcq",
+      "subtopic": "Case 4 — nocturnal false lows",
+      "question": "A 60-year-old man with LADA on DexCom G6 has recurrent ~3 AM sensor lows unconfirmed by fingerstick; recalibrating with fingersticks worsened accuracy. Best management?",
+      "options": [
+        "Increase overnight basal insulin",
+        "Counsel on compression artifact and avoid unnecessary G6 recalibration",
+        "Switch to Guardian 3 requiring daily calibration",
+        "Disable all low alerts permanently"
+      ],
+      "correctOption": 1,
+      "explanation": "Factory-calibrated G6 lows discordant with fingersticks during sleep suggest compression lows; forced recalibration can worsen accuracy.",
+      "reference": "Case 4: \"He used fingerstick blood glucose to recalibrate his sensor, with even worsening accuracy.\""
+    },
+    {
+      "id": "e21-17-q5",
+      "type": "mcq",
+      "subtopic": "Sensor choice — type 2 without hypo unawareness",
+      "question": "Which CGM is often favored for a patient with type 2 diabetes and no hypoglycemia unawareness when cost and ease matter?",
+      "options": [
+        "Freestyle Libre",
+        "Eversense implantable sensor",
+        "Guardian 3 only",
+        "No CGM is appropriate in type 2 diabetes"
+      ],
+      "correctOption": 0,
+      "explanation": "All four sensors can work; Libre may be easier, less costly, and at least as accurate as fingersticks with factory calibration.",
+      "reference": "Choosing a Sensor: \"Libre may be easier, less costly, and at least as accurate as fingerstick measurements and is factory calibrated\""
+    },
+    {
+      "id": "e21-17-q6",
+      "type": "mcq",
+      "subtopic": "Pump-sensor pairing",
+      "question": "A patient desires Tandem Control-IQ hybrid closed-loop. Which sensor partner is appropriate?",
+      "options": [
+        "Guardian 3",
+        "DexCom",
+        "Eversense",
+        "Original Freestyle Libre without alerts"
+      ],
+      "correctOption": 1,
+      "explanation": "Tandem pairs with DexCom; Medtronic systems use Guardian 3.",
+      "reference": "Choosing a Sensor: \"If desire Tandem System (vide infra) is desired, then DexCom\""
+    },
+    {
+      "id": "e21-17-q7",
+      "type": "mcq",
+      "subtopic": "Time in range duration",
+      "question": "How many days of CGM data generally suffice to correlate with hemoglobin A1c?",
+      "options": [
+        "3 days",
+        "7 days",
+        "14 days",
+        "90 days"
+      ],
+      "correctOption": 2,
+      "explanation": "Fourteen days of CGM correlate well with A1c for clinic interpretation.",
+      "reference": "Regarding Time in Range: \"Fourteen days suffice to correlate well with hemoglobin A1c.\""
+    },
+    {
+      "id": "e21-17-q8",
+      "type": "mcq",
+      "subtopic": "GMI calculation",
+      "question": "Per the chapter GMI formula, a 25 mg/dL increase in mean CGM glucose changes GMI by approximately:",
+      "options": [
+        "0.1%",
+        "0.3%",
+        "0.6%",
+        "1.5%"
+      ],
+      "correctOption": 2,
+      "explanation": "GMI (%) = 3.31 + 0.02392 × mean CGM glucose; each 25 mg/dL raises GMI ~0.6%.",
+      "reference": "Glucose Management Indicator: \"Each change of 25 mg/dL results in a GMI increase of ~0.6%.\""
+    },
+    {
+      "id": "e21-17-q9",
+      "type": "mcq",
+      "subtopic": "Threshold suspend",
+      "question": "What does a low-glucose threshold suspend system do?",
+      "options": [
+        "Automatically delivers meal boluses",
+        "Shuts off insulin delivery when glucose falls below a preset threshold",
+        "Replaces all basal insulin with glucagon",
+        "Eliminates need for patient meal boluses"
+      ],
+      "correctOption": 1,
+      "explanation": "Threshold suspend stops the pump at a low glucose value—earliest step toward closed loop.",
+      "reference": "Sensor-Pump Interactions: Toward \"Closing the Loop\": \"Low-glucose (threshold) suspend systems: the pump shuts off if a low glucose value is used\""
+    },
+    {
+      "id": "e21-17-q10",
+      "type": "mcq",
+      "subtopic": "Hypoglycemia unawareness sensor",
+      "question": "A patient with severe hypoglycemia unawareness needs alerts. Which option is inappropriate as sole CGM?",
+      "options": [
+        "DexCom G6",
+        "Guardian 3",
+        "Original US Freestyle Libre without alarms",
+        "Libre 2 with optional alarms"
+      ],
+      "correctOption": 2,
+      "explanation": "Original Libre lacks alerts; Libre 2 adds alarms. DexCom, Guardian, and Eversense provide alerts.",
+      "reference": "Choosing a Sensor: \"Not Libre (no alerts), but consider Libre 2, which does have alarms\""
+    },
+    {
+      "id": "e21-17-q11",
+      "type": "mcq",
+      "subtopic": "Eversense and pumps",
+      "question": "Why is Eversense generally avoided when threshold suspend or hybrid closed loop is desired?",
+      "options": [
+        "It requires calibration every 24 hours",
+        "It has no current US pump partner",
+        "MARD exceeds 20%",
+        "It cannot provide vibratory alerts"
+      ],
+      "correctOption": 1,
+      "explanation": "Eversense lacks a pump partner for automated insulin delivery systems in the US at the time of the chapter.",
+      "reference": "Choosing a Sensor: \"Eversense does not have a \"pump partner\" at present, so would not use if threshold suspend or hybrid closed loop are desired\""
+    },
+    {
+      "id": "e21-17-q12",
+      "type": "mcq",
+      "subtopic": "Successful meal bolus prerequisites",
+      "question": "Before optimizing bolus type or timing, what must first be verified on pump download review?",
+      "options": [
+        "Basal rate(s) are correct",
+        "Patient uses only rapid-acting analog at all meals",
+        "Sensor is changed daily",
+        "A1c is below 6.0%"
+      ],
+      "correctOption": 0,
+      "explanation": "Correct basal rates are foundational before adjusting bolus mode (regular, square-wave, combo).",
+      "reference": "Successful Meal Bolus: \"Ensure the basal rate(s) is/are correct\""
+    },
+    {
+      "id": "e21-17-q13",
+      "type": "mcq",
+      "subtopic": "DCCT legacy",
+      "question": "Intensive glycemic control in the DCCT reduced microvascular complications but also caused what important adverse effect?",
+      "options": [
+        "Tripling of severe hypoglycemia",
+        "Doubling of DKA admissions",
+        "Increased retinopathy incidence",
+        "Loss of counterregulatory hormone response only in type 2 diabetes"
+      ],
+      "correctOption": 0,
+      "explanation": "DCCT intensive therapy tripled severe hypoglycemia—motivating safer intensification with pumps and RT-CGM.",
+      "reference": "Significance of the Clinical Problem: \"intensive diabetes control resulted in a tripling of the occurrence of severe hypoglycemia.\""
+    },
+    {
+      "id": "e21-17-tf1",
+      "type": "true_false",
+      "subtopic": "Hybrid closed-loop",
+      "statement": "On hybrid closed-loop systems the algorithm fully automates all meal boluses without patient input.",
+      "correctAnswer": false,
+      "explanation": "Hybrid closed-loop corrects toward target but the patient still determines meal boluses.",
+      "reference": "Sensor-Pump Interactions: Toward \"Closing the Loop\": \"the patient still determines meal boluses\""
+    },
+    {
+      "id": "e21-17-tf2",
+      "type": "true_false",
+      "subtopic": "Time in range",
+      "statement": "A typical adult CGM target is time in range greater than 70%.",
+      "correctAnswer": true,
+      "explanation": "Usual recommendation is TIR >70% with TBR <4% and TAR <25%.",
+      "reference": "Usual Target Recommendations: \"Time in range >70%\""
+    },
+    {
+      "id": "e21-17-tf3",
+      "type": "true_false",
+      "subtopic": "DexCom G6 calibration",
+      "statement": "DexCom G6 generally requires routine fingerstick calibration every 12 hours.",
+      "correctAnswer": false,
+      "explanation": "G6 is factory calibrated and does not require routine fingerstick confirmation.",
+      "reference": "DexCom: \"No need for fingerstick confirmation\""
+    },
+    {
+      "id": "e21-17-tf4",
+      "type": "true_false",
+      "subtopic": "GMI",
+      "statement": "Glucose management indicator (GMI) estimates hemoglobin A1c from mean CGM glucose.",
+      "correctAnswer": true,
+      "explanation": "GMI replaces the older eA1c terminology to estimate A1c from CGM mean glucose.",
+      "reference": "Glucose Management Indicator: \"GMI is a new term for estimating hemoglobin A1c from CGM readings\""
+    },
+    {
+      "id": "e21-17-tf5",
+      "type": "true_false",
+      "subtopic": "Libre alerts",
+      "statement": "The older US Freestyle Libre version lacked alerts, unlike Libre 2.",
+      "correctAnswer": true,
+      "explanation": "Original Libre required active scanning and lacked alerts; Libre 2 adds optional alarms.",
+      "reference": "Freestyle Libre: Flash Technology: \"Older US version does not have alerts; Libre 2 has optional alarms\""
+    },
+    {
+      "id": "e21-17-tf6",
+      "type": "true_false",
+      "subtopic": "Eversense wear",
+      "statement": "Eversense sensor life is approximately 3 months in the United States.",
+      "correctAnswer": true,
+      "explanation": "Implanted sensor lasts 3 months in the US and 6 months in the EU per chapter.",
+      "reference": "Eversense (Senseonics): \"Sensor life = 3 months United States; 6 months European Union\""
+    },
+    {
+      "id": "e21-17-tf7",
+      "type": "true_false",
+      "subtopic": "TIR vs A1c",
+      "statement": "Time in range responds faster to therapeutic interventions than hemoglobin A1c.",
+      "correctAnswer": true,
+      "explanation": "TIR reflects recent glycemia and variability more rapidly than A1c.",
+      "reference": "Advantages of Time in Range: \"It responds faster to interventions than does hemoglobin A1c\""
+    },
+    {
+      "id": "e21-17-tf8",
+      "type": "true_false",
+      "subtopic": "Medicare coverage",
+      "statement": "At the time of writing, Medicare covered only Freestyle Libre and Dexcom among CGM systems.",
+      "correctAnswer": true,
+      "explanation": "Insurance coverage strongly influences sensor choice; Medicare coverage was limited to Libre and Dexcom.",
+      "reference": "Selecting a Pump: \"Medicare is only \"covering\" Freestyle Libre and Dexcom.\""
+    },
+    {
+      "id": "e21-17-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Late boluses",
+      "assertion": "Assertion: Late meal boluses can cause late postprandial hypoglycemia on hybrid closed-loop therapy.",
+      "reason": "Reason: Glucose begins rising before insulin is delivered, leaving early hyperglycemia and later relative insulin excess.",
+      "correctOption": 0,
+      "explanation": "Both are true and mechanistically linked on pump/CGM downloads.",
+      "reference": "Case 2: \"there is inadequate insulin early after meals and excess insulin in the later postprandial period, resulting in late hypoglycemia.\""
+    },
+    {
+      "id": "e21-17-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Correction stacking",
+      "assertion": "Assertion: Manual correction boluses during auto-mode can provoke hypoglycemia.",
+      "reason": "Reason: The closed-loop algorithm never delivers insulin when glucose is elevated.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; the algorithm does deliver insulin—stacking with patient corrections causes lows.",
+      "reference": "Case 3: \"she is taking \"correction boluses\" at a time that the closed-loop system is already correcting her blood glucose.\""
+    },
+    {
+      "id": "e21-17-ar3",
+      "type": "assertion_reason",
+      "subtopic": "TIR and A1c",
+      "assertion": "Assertion: Fourteen days of CGM data correlate well with hemoglobin A1c.",
+      "reason": "Reason: Time in range is unaffected by red-cell turnover that alters A1c.",
+      "correctOption": 0,
+      "explanation": "Both are true; TIR avoids some A1c confounders while correlating over ~14 days.",
+      "reference": "Regarding Time in Range: \"Fourteen days suffice to correlate well with hemoglobin A1c.\""
+    },
+    {
+      "id": "e21-17-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Sensor-pump matching",
+      "assertion": "Assertion: Sensor choice may dictate pump choice for closed-loop systems.",
+      "reason": "Reason: All sensors interoperate with all pumps without restriction.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; pump-sensor partnerships are proprietary—the reason is false.",
+      "reference": "Selecting a Pump: \"If a sensor-augmented system or closed-loop system will be used, the sensor may dictate choice of pump\""
+    },
+    {
+      "id": "e21-17-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Pregnancy insulin timing",
+      "assertion": "Assertion: Moving NPH from bedtime to morning may improve postlunch glucose in pregnancy.",
+      "reason": "Reason: Bedtime NPH peaks during overnight hours when fasting targets are already acceptable.",
+      "correctOption": 0,
+      "explanation": "Both are true for the case vignette physiology.",
+      "reference": "Case 1: \"Moving her NPH insulin to the morning (Answer C) is therefore the best next step.\""
+    },
+    {
+      "id": "e21-17-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Libre in hypo unawareness",
+      "assertion": "Assertion: Original Freestyle Libre without alerts is unsuitable for severe hypoglycemia unawareness.",
+      "reason": "Reason: Libre sensors are inherently inaccurate compared with fingersticks.",
+      "correctOption": 1,
+      "explanation": "Both statements have support, but the lack of alerts—not accuracy—is the primary contraindication cited.",
+      "reference": "Choosing a Sensor: \"Not Libre (no alerts), but consider Libre 2, which does have alarms\""
+    },
+    {
+      "id": "e21-17-ar7",
+      "type": "assertion_reason",
+      "subtopic": "GMI discordance",
+      "assertion": "Assertion: When GMI exceeds hemoglobin A1c, intensifying hyperglycemia treatment should be considered.",
+      "reason": "Reason: A higher GMI always proves laboratory A1c error.",
+      "correctOption": 2,
+      "explanation": "Assertion reflects chapter guidance; GMI above A1c suggests hyperglycemia but does not prove lab error alone.",
+      "reference": "Using GMI: \"If GMI is higher than hemoglobin A1c consider: Addressing hyperglycemia\""
+    },
+    {
+      "id": "e21-17-ar8",
+      "type": "assertion_reason",
+      "subtopic": "DCCT and technology",
+      "assertion": "Assertion: RT-CGM and pump advances aim to intensify control while reducing hypoglycemia.",
+      "reason": "Reason: Intensive control in the DCCT carried no hypoglycemia penalty.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; DCCT intensive therapy tripled severe hypoglycemia—the reason is false.",
+      "reference": "Significance of the Clinical Problem: \"intensive diabetes control resulted in a tripling of the occurrence of severe hypoglycemia.\""
     }
   ]
 }

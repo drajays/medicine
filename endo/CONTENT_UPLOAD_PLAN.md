@@ -73,7 +73,11 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 | e21-13 Personalize osteoporosis | ✅ remediated | 41 | 92% |
 | e21-14 Vitamin D level/dosage | ✅ remediated | 41 | 92% |
 | e21-15 Stopping bone meds | ✅ remediated | 41 | 100% |
-| e21-01–04, e21-16–43 | ⏳ pending | | |
+| e21-17 CGM/pump clinic visit | ✅ remediated | 41 | 67% |
+| e21-18 Genetic diabetes | ✅ remediated | 41 | 50% |
+| e21-19 GLP-1 RA / SGLT2i CV outcomes | ✅ remediated | 41 | 50% |
+| e21-20 NAFLD/NASH pharmacology | ✅ remediated | 41 | 50% |
+| e21-01–04, e21-16, e21-21–43 | ⏳ pending | | |
 
 ## Phase 2 — Williams 15e (49 chapters)
 
@@ -106,3 +110,7 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-07 | e21-13 | 41 | 92% | pending |
 | 2026-07-07 | e21-14 | 41 | 92% | pending |
 | 2026-07-07 | e21-15 | 41 | 100% | pending |
+| 2026-07-07 | e21-17 | 41 | 67% | pending |
+| 2026-07-07 | e21-18 | 41 | 50% | pending |
+| 2026-07-07 | e21-19 | 41 | 50% | pending |
+| 2026-07-07 | e21-20 | 41 | 50% | pending |

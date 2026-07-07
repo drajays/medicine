@@ -2,49 +2,453 @@
   "id": "e21-19",
   "volume": 2021,
   "chapterNo": "19",
-  "title": "Cardiovascular Outcomes in Patients With Type 2 Diabetes Mellitus Treated With GLP1 Receptor Agonists and SGLT2 Inhibitors",
+  "title": "Cardiovascular Outcomes in Patients With Type 2 Diabetes Mellitus Treated With GLP-1 Receptor Agonists and SGLT-2 Inhibitors",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Jennifer B. Green, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_19_Cardiovascular_Outcomes_in_Patients_With_Type_2_Diabetes_Mellitus_Treated_With_GLP1_Receptor_Agonists_and_SGLT2_Inhibitors.md",
   "items": [
     {
-      "subtopic": "Management of Type 2 Diabetes Mellitus in Patients with Established Cardiovascular Disease",
-      "question": "For a 76-year-old woman with T2DM complicated by hyperlipidemia, hypertension, and coronary artery disease requiring stent placement, which changes to her current medication regimen would be recommended at this time?",
+      "id": "e21-19-n1",
+      "type": "note",
+      "subtopic": "Main conclusions",
+      "title": "Why GLP-1 receptor agonists and SGLT-2 inhibitors are preferentially used in high-risk T2DM",
+      "text": "Numerous agents in both classes reduce important cardiovascular and renal complications when added to usual care in patients with established ASCVD or multiple risk factors; they should be used preferentially irrespective of whether additional glucose lowering is needed.",
+      "reference": "Main Conclusions: \"These newer agents should be preferentially used in patients at high risk for cardio-renal complications, including those with established major comorbidities, likely irrespective of the need for additional glucose lowering or preexisting antihyperglycemic therapy.\""
+    },
+    {
+      "id": "e21-19-n2",
+      "type": "note",
+      "subtopic": "Regimen integration",
+      "title": "How to incorporate SGLT-2 inhibitors into already complex diabetes regimens",
+      "text": "When glycemic control is already at goal, background antihyperglycemic therapy may need adjustment to limit hypoglycemia and cost. Before starting an SGLT-2 inhibitor, assess blood pressure and volume status and anticipate diuretic or antihypertensive changes.",
+      "reference": "Main Conclusions: \"anticipatory modification of diuretic or other antihypertensive therapy may be needed to avoid significant volume depletion or hypotension with the addition of an SGLT-2 inhibitor.\""
+    },
+    {
+      "id": "e21-19-n3",
+      "type": "note",
+      "subtopic": "Residual risk",
+      "title": "Excess cardiovascular risk persists in diabetes despite improved population outcomes",
+      "text": "Individuals with diabetes still have approximately 2-fold excess cardiovascular risk; only 14% meet combined targets for glycemia, blood pressure, lipids, and nonsmoking status—leaving substantial residual risk addressable by proven drug classes.",
+      "reference": "Significance of the Clinical Problem: \"only 14% meet targets for glycemic and blood pressure control and lipid management and do not smoke cigarettes.\""
+    },
+    {
+      "id": "e21-19-n4",
+      "type": "note",
+      "subtopic": "CVOT paradigm",
+      "title": "How FDA cardiovascular outcomes trials reshaped T2DM therapy selection",
+      "text": "Since 2008 FDA guidance, large placebo-added-to-usual-care trials in patients with established ASCVD or high MACE risk have defined which newer antihyperglycemic classes reduce MACE, heart failure hospitalization, or renal endpoints.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"In 2008, the US FDA issued a guidance recommending thorough evaluation of all new diabetes therapies for cardiovascular safety.\""
+    },
+    {
+      "id": "e21-19-n5",
+      "type": "note",
+      "subtopic": "DPP-4 inhibitors",
+      "title": "DPP-4 inhibitors: neutral MACE with a saxagliptin heart-failure signal",
+      "text": "DPP-4 inhibitor CVOTs are consistently neutral for MACE; saxagliptin in SAVOR-TIMI-53 unexpectedly increased heart failure hospitalization—a finding not reproduced elsewhere but relevant when treating patients with existing heart failure.",
+      "reference": "DPP-4 Inhibitors: \"the SAVOR TIMI-53 trial of saxagliptin therapy unexpectedly found an increase in hospitalization for heart failure in patients assigned to that medication when compared with placebo.\""
+    },
+    {
+      "id": "e21-19-n6",
+      "type": "note",
+      "subtopic": "GLP-1 receptor agonists",
+      "title": "GLP-1 receptor agonist cardiovascular outcomes: class heterogeneity",
+      "text": "Liraglutide, semaglutide, and dulaglutide reduce MACE in high-risk T2DM; lixisenatide and once-weekly exenatide were neutral. REWIND showed MACE benefit even when most patients lacked prior cardiovascular events. GLP-1 RAs have neutral effects on heart failure hospitalization.",
+      "reference": "GLP-1 Receptor Agonists: \"These trials have shown that liraglutide, semaglutide, and dulaglutide all reduce the risk of MACE when compared with placebo in patients with T2DM at high risk for such events.\""
+    },
+    {
+      "id": "e21-19-n7",
+      "type": "note",
+      "subtopic": "SGLT-2 inhibitors",
+      "title": "SGLT-2 inhibitors: consistent heart failure benefit across CVOTs",
+      "text": "Empagliflozin and canagliflozin reduce MACE; dapagliflozin did not reduce MACE in DECLARE but did reduce a co-primary heart failure endpoint. All completed SGLT-2 inhibitor CVOTs show significant heart failure outcome reduction; DAPA-HF extended benefit to HFrEF with or without diabetes.",
+      "reference": "SGLT-2 Inhibitors: \"All of the completed cardiovascular outcomes trials of SGLT-2 inhibitors have shown a significant reduction in heart failure outcomes with use of those agents.\""
+    },
+    {
+      "id": "e21-19-n8",
+      "type": "note",
+      "subtopic": "Renal outcomes",
+      "title": "Why renal benefits differ between GLP-1 RAs and SGLT-2 inhibitors",
+      "text": "Meta-analyses suggest GLP-1 RA renal benefit is driven mainly by reduced macroalbuminuria, whereas SGLT-2 inhibitors reduce worsening eGFR, end-stage kidney disease, and renal death; CREDENCE established canagliflozin benefit in albuminuric CKD.",
+      "reference": "Renal Effects of GLP-1 Receptor Agonists and SGLT-2 Inhibitors: \"the renal outcomes benefit noted in the trials of GLP-1 receptor agonists were primarily attributable to a reduction in macroalbuminuria, while SGLT-2 inhibitors were found to reduce the risks of worsening estimated glomerular filtration rate, end-stage kidney disease, or death due to renal causes.\""
+    },
+    {
+      "id": "e21-19-n9",
+      "type": "note",
+      "subtopic": "Mechanisms",
+      "title": "Why cardiovascular trial benefits are not explained by glucose lowering alone",
+      "text": "GLP-1 RA benefit may reflect antiatherogenic effects via weight and blood pressure improvement; SGLT-2 inhibitor benefit likely involves hemodynamic effects of glycosuria and natriuresis—these mechanisms operate independently of A1c reduction.",
+      "reference": "GLP-1 Receptor Agonists and SGLT-2 Inhibitors Outcomes Summary: \"The cardiovascular benefits identified in the cardiovascular outcomes trials do not appear attributable to or dependent on glucose lowering.\""
+    },
+    {
+      "id": "e21-19-n10",
+      "type": "note",
+      "subtopic": "Clinical application",
+      "title": "How to choose between proven GLP-1 RA and SGLT-2 inhibitor agents",
+      "text": "Guidelines favor drugs with proven outcomes benefit; some suggest GLP-1 RA first in ASCVD with SGLT-2 inhibitor as second choice, but without head-to-head data either proven class is reasonable based on comorbidities, eGFR, heart failure phenotype, and patient preference.",
+      "reference": "GLP-1 Receptor Agonists and SGLT-2 Inhibitors Outcomes Summary: \"there are no head-to-head trials comparing the effects of the 2 drug classes in this patient population; thus, choice of a proven agent from either class is reasonable, based on individual patient characteristics and preferences.\""
+    },
+    {
+      "id": "e21-19-n11",
+      "type": "note",
+      "subtopic": "US indications",
+      "title": "FDA-labeled cardiovascular indications for SGLT-2 inhibitors in T2DM",
+      "text": "Empagliflozin reduces cardiovascular death in T2DM with established ASCVD; canagliflozin reduces MACE in that population; dapagliflozin reduces heart failure hospitalization in T2DM with established ASCVD or multiple cardiovascular risk factors.",
+      "reference": "SGLT-2 Inhibitors: \"empagliflozin is indicated to reduce the risk of cardiovascular death in adult patients with T2DM and established ASCVD; canagliflozin is indicated to reduce the risk of MACE in the same population; and dapagliflozin is indicated to reduce the risk of hospitalization for heart failure in adults with T2DM and established ASCVD or multiple cardiovascular risk factors.\""
+    },
+    {
+      "id": "e21-19-n12",
+      "type": "note",
+      "subtopic": "Implementation barriers",
+      "title": "Barriers limiting uptake of cardioprotective diabetes therapies",
+      "text": "Despite guideline recommendations, implementation remains limited in the highest-benefit populations because of unfamiliarity with rapidly emerging CVOT data, concern about adverse effects, and difficulty fitting new agents into complex regimens.",
+      "reference": "Significance of the Clinical Problem: \"implementation of these therapies has thus far been quite limited, particularly in the populations of patients most likely to derive an outcome benefit.\""
+    },
+    {
+      "id": "e21-19-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — ASCVD without diabetes therapy",
+      "question": "A 76-year-old woman with T2DM, ASCVD (prior stent), BMI 33, BP 124/80 on lisinopril and hydrochlorothiazide, A1c 7.2%, eGFR 56, takes no glucose-lowering drugs. Best regimen change?",
       "options": [
         "No change",
         "Start metformin",
-        "Start empagliflozin",
-        "Discontinue hydrochlorothiazide"
+        "Start empagliflozin and discontinue hydrochlorothiazide",
+        "Start empagliflozin only without changing diuretic"
       ],
       "correctOption": 2,
-      "explanation": "The correct answer is C (Start empagliflozin). This patient has established ASCVD and indications for a medication to reduce her risk of future cardiovascular events. Although the cardiovascular outcomes trials of newer medications enrolled patients who were often using metformin as background therapy, there is no evidence to suggest that the beneficial effects of SGLT-2 inhibitors or GLP-1 receptor agonists are restricted to metformin users. The initiation of empagliflozin would be the preferred next step for this patient. As this older patient is essentially normotensive on a regimen that includes the diuretic hydrochlorothiazide, that medication should be discontinued when empagliflozin is started, and the patient's volume status and blood pressure should be reassessed at follow-up.",
-      "reference": "\"Start metformin\" is incorrect because there is no evidence to suggest that the beneficial effects of SGLT-2 inhibitors or GLP-1 receptor agonists are restricted to metformin users. \"Discontinue hydrochlorothiazide\" is correct as it aligns with the clinical guidelines for this patient, given her established ASCVD and indications for a medication to reduce her risk of future cardiovascular events. The ELIXA trial results support the use of lixisenatide (Answer C) over liraglutide (Answer D), but since both are GLP-1 receptor agonists, they can be considered as correct options in this context. However, given the multiple-choice format and the reference text, Answer C is not explicitly mentioned, making Answer D a plausible alternative if only one option could be selected.",
-      "id": "e21-19-q1",
-      "type": "mcq"
+      "explanation": "Established ASCVD warrants a proven cardioprotective agent; empagliflozin is appropriate and HCTZ should be stopped when starting SGLT-2 inhibitor in a normotensive older patient to avoid volume depletion.",
+      "reference": "Case 1: \"Answer: C and D) Start empagliflozin and discontinue hydrochlorothiazide\""
     },
     {
-      "type": "why",
-      "subtopic": "Cardio-Renal Complications Management",
-      "question": "Why should GLP-1 receptor agonists primarily reduce the risk of atherosclerotic type complications and progression of albuminuria in patients with T2DM?",
-      "answer": "Because GLP-1 receptor agonists have been shown to significantly reduce rates of important adverse outcomes, particularly for cardiovascular and renal complications in patients with T2DM and atherosclerotic cardiovascular disease (ASCVD) or multiple ASCVD risk factors.",
-      "keyPoints": [
-        "GLP-1 receptor agonists are effective in reducing the risk of atherosclerotic type complications",
-        "They also help to reduce progression of albuminuria in patients with T2DM"
+      "id": "e21-19-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 — metformin trap",
+      "question": "The same patient asks why metformin is not started first. What is the best explanation?",
+      "options": [
+        "Metformin is contraindicated when A1c is below 8%",
+        "CV benefits of SGLT-2 inhibitors require background metformin",
+        "Metformin has no demonstrated efficacy for cardiovascular risk reduction in established ASCVD",
+        "Empagliflozin cannot be used without metformin"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Patients with T2DM are at high risk for major cardio-renal complications. When used in addition to traditional modalities of cardiovascular risk reduction, numerous agents in the GLP-1 receptor agonist and SGLT-2 inhibitor classes have been shown to significantly reduce rates of important adverse outcomes in patients with T2DM and atherosclerotic cardiovascular disease (ASCVD) or multiple ASCVD risk factors. Findings from the outcomes trials conducted thus far suggest that several GLP-1 receptor agonists primarily reduce the risk of atherosclerotic type complications and progression of albuminuria, while SGLT-2 inhibitors consistently reduce the risks of heart failure and important renal outcomes. Trials of SGLT-2 inhibitor therapy in patients with diabetes and chronic kidney disease and in patients with heart failure with reduced ejection fraction with or without diabetes, have shown significant outcomes benefit in those patients as well. These newer agents should be preferentially used in patients at high risk for cardio-renal complications, including those with established major comorbidities, likely irrespective of the need for additional glucose lowering or preexisting antihyperglycemic therapy. In patients who have already achieved an individually appropriate degree of glycemic control, alteration of background antihyperglycemic therapy may be indicated to reduce the risk of hypoglycemia and/or mitigate regimen expense. In addition, anticipatory modification of diuretic or other antihypertensive therapy may be needed to avoid significant volume depletion or hypotension with the addition of an SGLT-2 inhibitor.\"",
-      "id": "e21-19-why1"
+      "correctOption": 2,
+      "explanation": "Outcomes trial benefits are not restricted to metformin users; metformin lacks proven CV risk reduction in patients with established ASCVD.",
+      "reference": "Case 1: \"metformin has no demonstrated efficacy in the reduction of cardiovascular risk in patients with established ASCVD.\""
     },
     {
-      "type": "how",
-      "subtopic": "diagnostic step",
-      "question": "How can GLP-1 receptor agonists and SGLT-2 inhibitors be effectively used to reduce cardiovascular and renal complications in patients with type 2 diabetes?",
-      "answer": "GLP-1 receptor agonists primarily reduce the risk of atherosclerotic type complications and progression of albuminuria, while SGLT-2 inhibitors consistently reduce the risks of heart failure and important renal outcomes. These agents should be preferentially used in patients at high risk for cardio-renal complications, including those with established major comorbidities.",
-      "keyPoints": [
-        "GLP-1 receptor agonists are effective in reducing atherosclerotic type complications and albuminuria",
-        "SGLT-2 inhibitors consistently reduce the risks of heart failure and renal outcomes"
+      "id": "e21-19-q3",
+      "type": "mcq",
+      "subtopic": "Case 2 — low eGFR",
+      "question": "A 57-year-old man with T2DM, peripheral and coronary artery disease, CKD (eGFR 28), A1c 8.4%, on sitagliptin and basal insulin without hypoglycemia. Best change?",
+      "options": [
+        "No change",
+        "Add empagliflozin",
+        "Add lixisenatide",
+        "Substitute liraglutide for sitagliptin"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Patients with T2DM are at high risk for major cardio-renal complications. When used in addition to traditional modalities of cardiovascular risk reduction, numerous agents in the GLP-1 receptor agonist and SGLT-2 inhibitor classes have been shown to significantly reduce rates of important adverse outcomes in patients with T2DM and atherosclerotic cardiovascular disease (ASCVD) or multiple ASCVD risk factors. Findings from the outcomes trials conducted thus far suggest that several GLP-1 receptor agonists primarily reduce the risk of atherosclerotic type complications and progression of albuminuria, while SGLT-2 inhibitors consistently reduce the risks of heart failure and important renal outcomes. Trials of SGLT-2 inhibitor therapy in patients with diabetes and chronic kidney disease and in patients with heart failure with reduced ejection fraction with or without diabetes, have shown significant outcomes benefit in those patients as well. These newer agents should be preferentially used in patients at high risk for cardio-renal complications, including those with established major comorbidities, likely irrespective of the need for additional glucose lowering or preexisting antihyperglycemic therapy. In patients who have already achieved an individually appropriate degree of glycemic control, alteration of background antihyperglycemic therapy may be indicated to reduce the risk of hypoglycemia and/or mitigate regimen expense. In addition, anticipatory modification of diuretic or other antihypertensive therapy may be needed to avoid significant volume depletion or hypotension with the addition of an SGLT-2 inhibitor.\"",
-      "id": "e21-19-how1"
+      "correctOption": 3,
+      "explanation": "eGFR is below empagliflozin and canagliflozin thresholds; liraglutide (MACE-beneficial GLP-1 RA) should replace sitagliptin—combined GLP-1 RA plus DPP-4 inhibitor is not recommended.",
+      "reference": "Case 2: \"Answer: E) Substitute liraglutide for sitagliptin\""
+    },
+    {
+      "id": "e21-19-q4",
+      "type": "mcq",
+      "subtopic": "Case 3 — CKD and HFpEF",
+      "question": "A 67-year-old woman with insulin-treated T2DM, CKD, HFpEF, A1c 8.2%, no recent hypoglycemia. Best next step?",
+      "options": [
+        "No change",
+        "Add linagliptin",
+        "Add low-dose metformin",
+        "Add canagliflozin 100 mg daily"
+      ],
+      "correctOption": 3,
+      "explanation": "CREDENCE supports canagliflozin 100 mg in T2DM with albuminuric diabetic nephropathy and eGFR ≥30; it reduces kidney failure, CV death, and heart failure hospitalization.",
+      "reference": "Case 3: \"Answer: D) Add canagliflozin, 100 mg daily\""
+    },
+    {
+      "id": "e21-19-q5",
+      "type": "mcq",
+      "subtopic": "Case 4 — HFrEF with prediabetes",
+      "question": "A 56-year-old man with obesity, multivessel CAD, HFrEF, prediabetes (A1c 5.9%), eGFR 46, elevated BNP. Preferred intervention?",
+      "options": [
+        "Intensive lifestyle modification alone",
+        "Begin dapagliflozin 10 mg daily",
+        "Begin liraglutide titrated to 3 mg daily for weight loss",
+        "Begin metformin 500 mg twice daily"
+      ],
+      "correctOption": 1,
+      "explanation": "DAPA-HF showed dapagliflozin reduced worsening heart failure or cardiovascular death in HFrEF with or without diabetes—preferred over lifestyle or metformin alone in this phenotype.",
+      "reference": "Case 4: \"Answer: B) Begin dapagliflozin, 10 mg daily\""
+    },
+    {
+      "id": "e21-19-q6",
+      "type": "mcq",
+      "subtopic": "GLP-1 RA trials",
+      "question": "Which GLP-1 receptor agonist cardiovascular outcomes trial demonstrated MACE reduction in patients mostly without prior cardiovascular events?",
+      "options": [
+        "ELIXA (lixisenatide)",
+        "EXSCEL (exenatide once weekly)",
+        "REWIND (dulaglutide)",
+        "SUSTAIN-6 (semaglutide injection)"
+      ],
+      "correctOption": 2,
+      "explanation": "REWIND enrolled high-risk patients but most lacked prior CV events yet still showed MACE benefit with dulaglutide.",
+      "reference": "GLP-1 Receptor Agonists: \"the REWIND trial of dulaglutide also enrolled patients at high risk, but in contrast to the other cardiovascular outcomes trials, most of the patients included had not had a prior cardiovascular event.\""
+    },
+    {
+      "id": "e21-19-q7",
+      "type": "mcq",
+      "subtopic": "SGLT-2 DECLARE",
+      "question": "In the DECLARE trial, dapagliflozin compared with placebo showed which outcome pattern?",
+      "options": [
+        "Reduced MACE but not heart failure",
+        "Neutral MACE with reduced heart failure endpoint",
+        "Increased heart failure hospitalization",
+        "Reduced MACE and renal death only"
+      ],
+      "correctOption": 1,
+      "explanation": "DECLARE did not show MACE reduction but did significantly reduce a co-primary heart failure outcome.",
+      "reference": "SGLT-2 Inhibitors: \"The DECLARE trial did not find a reduction in MACE risk with dapagliflozin; however, a second primary heart failure outcome in that trial was significantly reduced with active therapy compared with placebo.\""
+    },
+    {
+      "id": "e21-19-q8",
+      "type": "mcq",
+      "subtopic": "DPP-4 inhibitors",
+      "question": "Regarding DPP-4 inhibitors and cardiovascular risk in T2DM, which statement is correct?",
+      "options": [
+        "They reduce MACE and should replace GLP-1 RAs",
+        "They are neutral for MACE and should not be used solely to reduce cardiovascular risk",
+        "They consistently reduce heart failure hospitalization",
+        "Saxagliptin is preferred in patients with established heart failure"
+      ],
+      "correctOption": 1,
+      "explanation": "DPP-4 inhibitors are CV-safe but neutral; saxagliptin may increase HF hospitalization.",
+      "reference": "DPP-4 Inhibitors: \"DPP-4 inhibitors, although largely found to be safe from a cardiovascular perspective, should not be used to reduce cardiovascular risk in patients with T2DM.\""
+    },
+    {
+      "id": "e21-19-q9",
+      "type": "mcq",
+      "subtopic": "CREDENCE",
+      "question": "Canagliflozin 100 mg daily in CREDENCE reduced which composite in T2DM with albuminuric CKD?",
+      "options": [
+        "MACE only",
+        "Kidney failure and cardiovascular events",
+        "Retinopathy progression only",
+        "Hypoglycemia requiring assistance"
+      ],
+      "correctOption": 1,
+      "explanation": "CREDENCE showed significant reduction in kidney failure and cardiovascular events at 2.62 years.",
+      "reference": "Renal Effects of GLP-1 Receptor Agonists and SGLT-2 Inhibitors: \"canagliflozin, 100 mg daily, significantly reduced the risk of kidney failure and cardiovascular events at 2.62 years compared with placebo.\""
+    },
+    {
+      "id": "e21-19-q10",
+      "type": "mcq",
+      "subtopic": "Heart failure phenotypes",
+      "question": "Across GLP-1 RA cardiovascular outcomes trials, hospitalization for heart failure was generally:",
+      "options": [
+        "Significantly reduced",
+        "Neutral",
+        "Significantly increased",
+        "Reduced only with liraglutide"
+      ],
+      "correctOption": 1,
+      "explanation": "GLP-1 RA trials show neutral effects on heart failure hospitalization unlike SGLT-2 inhibitors.",
+      "reference": "GLP-1 Receptor Agonists: \"the trials of GLP-1 receptor agonists have found a neutral effect of these agents on rates of heart failure hospitalization.\""
+    },
+    {
+      "id": "e21-19-q11",
+      "type": "mcq",
+      "subtopic": "Glycemic thresholds",
+      "question": "A patient with ASCVD has A1c at individualized goal on basal insulin without hypoglycemia. Regarding addition of a cardioprotective agent:",
+      "options": [
+        "Wait until A1c exceeds 8% before adding GLP-1 RA or SGLT-2 inhibitor",
+        "Cardioprotective agents require metformin co-therapy",
+        "Proven agents should be considered even when glycemic control is adequate",
+        "SGLT-2 inhibitors are only indicated when A1c is above 9%"
+      ],
+      "correctOption": 2,
+      "explanation": "High-risk patients should receive proven cardio-renal agents irrespective of need for additional glucose lowering.",
+      "reference": "Main Conclusions: \"likely irrespective of the need for additional glucose lowering or preexisting antihyperglycemic therapy.\""
+    },
+    {
+      "id": "e21-19-q12",
+      "type": "mcq",
+      "subtopic": "Volume management",
+      "question": "Before starting empagliflozin in a patient on hydrochlorothiazide who appears euovolemic with BP 124/80, what adjustment is most appropriate?",
+      "options": [
+        "Double hydrochlorothiazide dose",
+        "Discontinue hydrochlorothiazide and reassess volume status at follow-up",
+        "Add spironolactone prophylactically",
+        "No antihypertensive changes are ever needed with SGLT-2 inhibitors"
+      ],
+      "correctOption": 1,
+      "explanation": "Anticipatory diuretic reduction prevents volume depletion and hypotension when initiating SGLT-2 inhibitor therapy.",
+      "reference": "Case 1: \"that medication should be discontinued (Answer D) when empagliflozin is started, and the patient's volume status and blood pressure should be reassessed at follow-up.\""
+    },
+    {
+      "id": "e21-19-q13",
+      "type": "mcq",
+      "subtopic": "Liraglutide indication",
+      "question": "In the United States, which GLP-1 receptor agonist is indicated to reduce MACE in adults with T2DM and established ASCVD?",
+      "options": [
+        "Lixisenatide",
+        "Exenatide once weekly",
+        "Liraglutide",
+        "Dulaglutide"
+      ],
+      "correctOption": 2,
+      "explanation": "Among GLP-1 RAs with trial benefit, liraglutide carries a US indication to reduce MACE in T2DM with established ASCVD.",
+      "reference": "GLP-1 Receptor Agonists: \"thus far in the United States liraglutide is indicated to reduce the risk of MACE in adults with T2DM and established ASCVD.\""
+    },
+    {
+      "id": "e21-19-tf1",
+      "type": "true_false",
+      "subtopic": "Diabetes cardiovascular risk",
+      "statement": "Individuals with diabetes have approximately 2-fold excess risk of cardiovascular outcomes compared with persons without diabetes.",
+      "correctAnswer": true,
+      "explanation": "Excess vascular risk remains substantial despite population improvements in diabetes care.",
+      "reference": "Significance of the Clinical Problem: \"individuals with diabetes still have an approximately 2-fold excess risk of cardiovascular outcomes (including coronary heart disease, stroke, and vascular death) compared with outcomes of persons without diabetes.\""
+    },
+    {
+      "id": "e21-19-tf2",
+      "type": "true_false",
+      "subtopic": "DPP-4 MACE",
+      "statement": "Completed DPP-4 inhibitor cardiovascular outcomes trials have consistently shown neutral effects on MACE.",
+      "correctAnswer": true,
+      "explanation": "All four listed DPP-4 inhibitor CVOTs were neutral for MACE.",
+      "reference": "DPP-4 Inhibitors: \"Trials of the DPP-4 inhibitor medications completed thus far have consistently demonstrated a neutral effect of these drugs on rates of MACE.\""
+    },
+    {
+      "id": "e21-19-tf3",
+      "type": "true_false",
+      "subtopic": "Saxagliptin heart failure",
+      "statement": "SAVOR-TIMI-53 found increased hospitalization for heart failure with saxagliptin versus placebo.",
+      "correctAnswer": true,
+      "explanation": "This signal has not been reproduced in other trials but warrants caution in patients with heart failure.",
+      "reference": "DPP-4 Inhibitors: \"the SAVOR TIMI-53 trial of saxagliptin therapy unexpectedly found an increase in hospitalization for heart failure in patients assigned to that medication when compared with placebo.\""
+    },
+    {
+      "id": "e21-19-tf4",
+      "type": "true_false",
+      "subtopic": "GLP-1 RA heart failure",
+      "statement": "GLP-1 receptor agonists consistently reduce hospitalization for heart failure in cardiovascular outcomes trials.",
+      "correctAnswer": false,
+      "explanation": "GLP-1 RA trials show neutral effects on heart failure hospitalization; SGLT-2 inhibitors reduce HF outcomes.",
+      "reference": "GLP-1 Receptor Agonists: \"the trials of GLP-1 receptor agonists have found a neutral effect of these agents on rates of heart failure hospitalization.\""
+    },
+    {
+      "id": "e21-19-tf5",
+      "type": "true_false",
+      "subtopic": "CV benefit and A1c",
+      "statement": "Cardiovascular benefits of GLP-1 RAs and SGLT-2 inhibitors in outcomes trials appear dependent on glucose lowering.",
+      "correctAnswer": false,
+      "explanation": "Trial benefits operate through weight, BP, hemodynamic, and other mechanisms not explained by A1c change alone.",
+      "reference": "GLP-1 Receptor Agonists and SGLT-2 Inhibitors Outcomes Summary: \"The cardiovascular benefits identified in the cardiovascular outcomes trials do not appear attributable to or dependent on glucose lowering.\""
+    },
+    {
+      "id": "e21-19-tf6",
+      "type": "true_false",
+      "subtopic": "Lixisenatide MACE",
+      "statement": "The ELIXA trial demonstrated MACE reduction with lixisenatide.",
+      "correctAnswer": false,
+      "explanation": "Lixisenatide was neutral for cardiovascular risk in ELIXA.",
+      "reference": "Case 2: \"Lixisenatide (Answer C) was not found to reduce cardiovascular risk in the ELIXA trial\""
+    },
+    {
+      "id": "e21-19-tf7",
+      "type": "true_false",
+      "subtopic": "Empagliflozin eGFR",
+      "statement": "Empagliflozin is indicated for use when eGFR is 45 mL/min/1.73 m² or higher.",
+      "correctAnswer": true,
+      "explanation": "At eGFR 28, empagliflozin is not the correct choice per labeling discussed in Case 2.",
+      "reference": "Case 2: \"Empagliflozin (Answer B) is not currently the correct choice for this patient given his low estimated glomerular filtration rate, as this medication is at present only indicated for use in patients with an estimated glomerular filtration rate of 45 mL/min per 1.73 m² or higher.\""
+    },
+    {
+      "id": "e21-19-tf8",
+      "type": "true_false",
+      "subtopic": "DAPA-HF",
+      "statement": "Dapagliflozin in DAPA-HF reduced worsening heart failure or cardiovascular death in patients with HFrEF with or without diabetes.",
+      "correctAnswer": true,
+      "explanation": "DAPA-HF extended SGLT-2 inhibitor heart failure benefit beyond the diabetes CVOT population.",
+      "reference": "SGLT-2 Inhibitors: \"dapagliflozin therapy significantly reduced the risk of worsening heart failure or death from cardiovascular causes compared with placebo.\""
+    },
+    {
+      "id": "e21-19-ar1",
+      "type": "assertion_reason",
+      "subtopic": "SGLT-2 inhibitors",
+      "assertion": "Assertion: SGLT-2 inhibitors reduce hospitalization for heart failure in high-risk patients with T2DM.",
+      "reason": "Reason: All completed SGLT-2 inhibitor cardiovascular outcomes trials have shown significant reduction in heart failure outcomes.",
+      "correctOption": 0,
+      "explanation": "Both are true and the trial consistency supports the assertion.",
+      "reference": "SGLT-2 Inhibitors: \"All of the completed cardiovascular outcomes trials of SGLT-2 inhibitors have shown a significant reduction in heart failure outcomes with use of those agents.\""
+    },
+    {
+      "id": "e21-19-ar2",
+      "type": "assertion_reason",
+      "subtopic": "GLP-1 RA renal effect",
+      "assertion": "Assertion: GLP-1 receptor agonists primarily reduce macroalbuminuria as their renal outcome benefit.",
+      "reason": "Reason: GLP-1 receptor agonists reduce end-stage kidney disease more than SGLT-2 inhibitors in meta-analyses.",
+      "correctOption": 2,
+      "explanation": "Assertion is true per meta-analyses; the reason reverses the predominant SGLT-2 inhibitor renal endpoint benefit.",
+      "reference": "Renal Effects of GLP-1 Receptor Agonists and SGLT-2 Inhibitors: \"the renal outcomes benefit noted in the trials of GLP-1 receptor agonists were primarily attributable to a reduction in macroalbuminuria, while SGLT-2 inhibitors were found to reduce the risks of worsening estimated glomerular filtration rate, end-stage kidney disease, or death due to renal causes.\""
+    },
+    {
+      "id": "e21-19-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Metformin in ASCVD",
+      "assertion": "Assertion: Metformin should not be the preferred initial step solely to reduce cardiovascular risk in a patient with established ASCVD.",
+      "reason": "Reason: Metformin has no demonstrated efficacy in reducing cardiovascular risk in patients with established ASCVD.",
+      "correctOption": 0,
+      "explanation": "Both are true; proven GLP-1 RA or SGLT-2 inhibitor therapy addresses residual risk.",
+      "reference": "Case 1: \"metformin has no demonstrated efficacy in the reduction of cardiovascular risk in patients with established ASCVD.\""
+    },
+    {
+      "id": "e21-19-ar4",
+      "type": "assertion_reason",
+      "subtopic": "DPP-4 plus GLP-1 RA",
+      "assertion": "Assertion: Sitagliptin should be discontinued when liraglutide is started.",
+      "reason": "Reason: Combined GLP-1 receptor agonist and DPP-4 inhibitor therapy is not recommended.",
+      "correctOption": 0,
+      "explanation": "Both are true; substitution avoids redundant cost and unsupported combination use.",
+      "reference": "Case 2: \"This patient's sitagliptin should be discontinued when liraglutide is started, as combined use of a GLP-1 receptor agonist and a DPP-4 inhibitor is not recommended\""
+    },
+    {
+      "id": "e21-19-ar5",
+      "type": "assertion_reason",
+      "subtopic": "REWIND",
+      "assertion": "Assertion: Dulaglutide reduced MACE in REWIND despite most patients lacking prior cardiovascular events.",
+      "reason": "Reason: REWIND only enrolled patients with prior myocardial infarction or stroke.",
+      "correctOption": 3,
+      "explanation": "Assertion is true; REWIND uniquely included mostly patients without prior CV events—the reason is false.",
+      "reference": "GLP-1 Receptor Agonists: \"the REWIND trial of dulaglutide also enrolled patients at high risk, but in contrast to the other cardiovascular outcomes trials, most of the patients included had not had a prior cardiovascular event.\""
+    },
+    {
+      "id": "e21-19-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Canagliflozin CKD",
+      "assertion": "Assertion: Canagliflozin 100 mg daily is appropriate in T2DM with albuminuric nephropathy and eGFR ≥30 mL/min/1.73 m².",
+      "reason": "Reason: CREDENCE demonstrated reduced kidney failure and cardiovascular events with canagliflozin versus placebo.",
+      "correctOption": 0,
+      "explanation": "Both are true; CREDENCE underpins the labeled renal-cardiovascular indication.",
+      "reference": "Renal Effects of GLP-1 Receptor Agonists and SGLT-2 Inhibitors: \"canagliflozin, 100 mg daily, significantly reduced the risk of kidney failure and cardiovascular events at 2.62 years compared with placebo.\""
+    },
+    {
+      "id": "e21-19-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Low eGFR metformin",
+      "assertion": "Assertion: Low-dose metformin should not be added in a patient with eGFR 30–44 mL/min/1.73 m² for cardio-renal protection.",
+      "reason": "Reason: Metformin reduces progression to end-stage kidney disease in albuminuric diabetic nephropathy.",
+      "correctOption": 2,
+      "explanation": "Assertion is true per Case 3; metformin is not recommended at this eGFR and lacks the renal outcomes shown for canagliflozin.",
+      "reference": "Case 3: \"the addition of even low-dosage metformin is not recommended in patients such as this with an estimated glomerular filtration rate between 30 and 44 mL/min per 1.73 m².\""
+    },
+    {
+      "id": "e21-19-ar8",
+      "type": "assertion_reason",
+      "subtopic": "HFrEF prediabetes",
+      "assertion": "Assertion: Dapagliflozin is the preferred next step in a patient with HFrEF and prediabetes.",
+      "reason": "Reason: DAPA-HF showed dapagliflozin reduced worsening heart failure or cardiovascular death with or without diabetes.",
+      "correctOption": 0,
+      "explanation": "Both are true; heart failure phenotype drives SGLT-2 inhibitor priority over lifestyle or metformin alone.",
+      "reference": "Case 4: \"the DAPA-HF trial found that in patients with heart failure with reduced ejection fraction with or without diabetes, dapagliflozin significantly reduced the risk of worsening heart failure or death of cardiovascular causes.\""
     }
   ]
 }
