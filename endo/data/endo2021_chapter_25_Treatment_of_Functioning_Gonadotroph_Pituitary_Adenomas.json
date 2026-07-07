@@ -4,48 +4,451 @@
   "chapterNo": "25",
   "title": "Treatment of Functioning Gonadotroph Pituitary Adenomas",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Philippe Chanson, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_25_Treatment_of_Functioning_Gonadotroph_Pituitary_Adenomas.md",
   "items": [
     {
-      "subtopic": "Pituitary Adenoma and Hormonal Imbalance",
-      "question": "What is the most likely diagnosis for this patient given her symptoms of severe abdominal and pelvic pain with multiple ovarian cysts?",
+      "id": "e21-25-n1",
+      "type": "note",
+      "subtopic": "Epidemiology",
+      "title": "Why functioning gonadotroph adenomas are easily missed",
+      "text": "More than 80% of clinically nonfunctioning adenomas are gonadotroph tumors, but only 3–13% function with gonadal hyperstimulation—lack of familiarity causes diagnostic delay.",
+      "reference": "Main Conclusions: \"More than 80% of clinically nonfunctioning pituitary adenomas are gonadotroph adenomas.\""
+    },
+    {
+      "id": "e21-25-n2",
+      "type": "note",
+      "subtopic": "OHSS pattern",
+      "title": "How FSH-secreting adenomas mimic PCOS—and how they differ",
+      "text": "Spontaneous OHSS shows increased or normal FSH with invariably low LH and very high estradiol—opposite of PCOS where LH is elevated with smaller follicles.",
+      "reference": "Biochemical Evaluation: \"LH levels are invariably low. This is the opposite gonadotropin pattern of that observed in polycystic ovary syndrome.\""
+    },
+    {
+      "id": "e21-25-n3",
+      "type": "note",
+      "subtopic": "Treatment",
+      "title": "Why surgery is first-line for functioning gonadotroph adenomas",
+      "text": "Transsphenoidal removal rapidly lowers FSH, estradiol, and ovarian cysts within days—cabergoline effects are transient and must not delay surgery.",
+      "reference": "Main Conclusions: \"Surgical removal of the pituitary adenoma is the treatment of choice, as it leads to a rapid fall in FSH levels and thus, in case of OHSS, reversal of ovarian hyperstimulation\""
+    },
+    {
+      "id": "e21-25-n4",
+      "type": "note",
+      "subtopic": "GnRH agonist danger",
+      "title": "Pitfall: GnRH agonists in undiagnosed gonadotroph adenomas",
+      "text": "GnRH agonists can trigger pituitary apoplexy and are not recommended—they may persistently stimulate FSH secretion from FSH-secreting tumors.",
+      "reference": "Main Conclusions: \"GnRH agonists are not recommended, as they may be responsible for pituitary apoplexy.\""
+    },
+    {
+      "id": "e21-25-n5",
+      "type": "note",
+      "subtopic": "Spontaneous OHSS",
+      "title": "Spontaneous ovarian hyperstimulation as presenting feature",
+      "text": "Premenopausal women present with amenorrhea, pelvic pain, and large multicystic ovaries on ultrasound—always consider pituitary MRI even without chiasmal compression.",
+      "reference": "Hyperstimulation Syndromes: \"Spontaneous OHSS is the most typical picture in premenopausal women.\""
+    },
+    {
+      "id": "e21-25-n6",
+      "type": "note",
+      "subtopic": "Stalk effect",
+      "title": "Mild hyperprolactinemia from pituitary stalk compression",
+      "text": "Stalk compression disinhibits dopamine tone—prolactin rises but stays below 150–200 ng/mL, distinguishing from macroprolactinomas where levels correlate with tumor size.",
+      "reference": "Mass Effects: \"prolactin serum levels are always below 150 to 200 ng/mL (<6.5-8.7 nmol/L). This distinguishes them from macroprolactinomas\""
+    },
+    {
+      "id": "e21-25-n7",
+      "type": "note",
+      "subtopic": "Pathology",
+      "title": "Gonadotroph adenoma immunocytochemistry patterns",
+      "text": "Cells are chromophobic with low gonadotropin-positive fraction (<20–30%); some express β-FSH, β-LH, or α-subunit; SF-1 marks null-cell gonadotroph lineage.",
+      "reference": "Pathology: \"The percentage of cells positive for gonadotropin antibodies ranges from 100% to a few islands, but it is usually low (<20%-30%).\""
+    },
+    {
+      "id": "e21-25-n8",
+      "type": "note",
+      "subtopic": "Apoplexy",
+      "title": "Pituitary apoplexy presentation in gonadotroph adenomas",
+      "text": "Sudden headache, meningismus, visual changes, and ophthalmoplegia may be spontaneous or triggered by stimulation tests or GnRH analogues.",
+      "reference": "Pituitary Apoplexy: \"Apoplexy may be triggered by stimulation tests or injection of GnRH analogues.\""
+    },
+    {
+      "id": "e21-25-n9",
+      "type": "note",
+      "subtopic": "Case 1 outcome",
+      "title": "How surgery reverses OHSS biochemically within days",
+      "text": "Case illustrates FSH fall from 11.6 to 1.4 mIU/mL and estradiol from 3242 to 98 pg/mL by day 3 postoperatively with cyst regression and subsequent spontaneous pregnancy.",
+      "reference": "Case 1: \"Correction of the FSH excess allows for rapid resolution of ovarian cysts and pituitary mass effect if present.\""
+    },
+    {
+      "id": "e21-25-n10",
+      "type": "note",
+      "subtopic": "Medical therapy",
+      "title": "Limited role of cabergoline in functioning gonadotroph adenomas",
+      "text": "Cabergoline may transiently lower FSH and estradiol and allow pregnancy in some reports, but surgery must not be delayed.",
+      "reference": "Medical Management: \"the effect is generally transient and surgery must not be delayed.\""
+    },
+    {
+      "id": "e21-25-n11",
+      "type": "note",
+      "subtopic": "Stimulation tests",
+      "title": "Why TRH/GnRH stimulation tests are no longer recommended",
+      "text": "Tests are neither sensitive nor specific for gonadotroph adenomas and can precipitate apoplexy.",
+      "reference": "Biochemical Evaluation: \"these tests are neither sensitive nor specific for indicating the gonadotroph nature of nonfunctioning pituitary adenomas.\""
+    },
+    {
+      "id": "e21-25-n12",
+      "type": "note",
+      "subtopic": "Differential",
+      "title": "How to distinguish FSH adenoma OHSS from McCune-Albright and granulosa-cell tumor",
+      "text": "McCune-Albright has low gonadotropins with autonomous ovarian estrogen; granulosa-cell tumors suppress gonadotropins; FSH adenoma shows low LH with high estradiol.",
+      "reference": "Case 1: \"their gonadotropins are low, suppressed by the very high levels of estrogens autonomously produced by the ovarian cysts\""
+    },
+    {
+      "id": "e21-25-q1",
+      "type": "mcq",
+      "subtopic": "Case 1",
+      "question": "A woman with macroadenoma, estradiol 3241 pg/mL, LH <0.1, FSH 11.6, and large ovarian cysts with torsion has:",
       "options": [
-        "Polycystic ovary syndrome (PCOS)",
-        "Ovarian Hyperstimulation Syndrome (OHSS) related to an FSH-secreting adenoma",
+        "Polycystic ovary syndrome",
+        "OHSS related to FSH-secreting adenoma",
         "McCune-Albright syndrome",
         "Ovarian granulosa-cell tumor"
       ],
       "correctOption": 1,
-      "explanation": "The patient presents with multiple ovarian cysts and very high estradiol levels along with low testosterone levels, which are characteristic of Ovarian Hyperstimulation Syndrome (OHSS). OHSS can occur spontaneously in patients undergoing assisted reproductive procedures or as a complication of hormonal therapy. The presence of an FSH-secreting adenoma is suggested by the elevated FSH levels and suppressed LH levels despite the high estradiol levels, which are typical for this condition. Polycystic ovary syndrome (PCOS) typically presents with smaller ovarian cysts and different hormone profiles. McCune-Albright syndrome usually involves precocious puberty and other systemic manifestations such as café-au-lait spots or fibrous dysplasia. Ovarian granulosa-cell tumors are often associated with menopause, not premenopausal patients like this one.",
-      "reference": "\"OHSS is a well-known complication of assisted reproductive procedures, particularly with gonadotropin stimulation, but spontaneous OHSS is a very unusual occurrence and its presence suggests the diagnosis of an FSH-secreting adenoma (Answer B), particularly when FSH levels are increased.\"",
-      "id": "e21-25-q1",
-      "type": "mcq"
+      "explanation": "Spontaneous OHSS with pituitary mass and low LH/high estradiol indicates FSH-secreting gonadotroph adenoma.",
+      "reference": "Case 1: \"Answer: B) OHSS related to FSH-secreting adenoma\""
     },
     {
-      "type": "why",
-      "subtopic": "Gonadotroph Adenomas Functioning in Women of Reproductive Age",
-      "question": "Why do gonadotroph adenomas in women of reproductive age cause spontaneous ovarian hyperstimulation syndrome (OHSS) with multiple large ovarian cysts?",
-      "answer": "Because these adenomas preferentially secrete follicle-stimulating hormone (FSH), leading to an overproduction of FSH, which can induce OHSS characterized by the development of multiple large ovarian cysts.",
-      "keyPoints": [
-        "Gonadotroph adenomas in women of reproductive age predominantly secrete FSH.",
-        "Overproduction of FSH leads to ovarian hyperstimulation syndrome (OHSS)."
+      "id": "e21-25-q2",
+      "type": "mcq",
+      "subtopic": "Case 2",
+      "question": "After GnRH agonist injection, a man develops headache, third-nerve palsy, and FSH 9.2 with low LH and testosterone. Correct statements include:",
+      "options": [
+        "No relationship between GnRH and pituitary events",
+        "GnRH agonist triggered pituitary apoplexy",
+        "Hormonal pattern typical of gonadotroph adenoma",
+        "Pattern is typical GnRH flare-up in normal pituitary only"
       ],
-      "reference": "MAIN CONCLUSIONS: \"More than 80% of clinically nonfunctioning pituitary adenomas are gonadotroph adenomas. Very rarely, gonadotroph adenomas may be clinically functioning. They preferentially secrete FSH and are thus associated with unusual clinical pictures. In women of reproductive age, such functioning adenomas may induce spontaneous ovarian hyperstimulation syndrome (OHSS) with multiple large ovarian cysts, generally discovered on pelvic ultrasonography performed for menstrual disturbances or abdominal or pelvic pain.\"",
-      "id": "e21-25-why1"
+      "correctOption": 1,
+      "explanation": "Answers B and C—apoplexy triggered by GnRH agonist with gonadotroph hormonal pattern.",
+      "reference": "Case 2: \"Answer: B and C) The injection of GnRH analogue triggered pituitary apoplexy and the hormonal pattern in this patient is typical of a gonadotroph adenoma.\""
     },
     {
-      "type": "how",
-      "subtopic": "diagnostic step",
-      "question": "How can serum FSH levels help in diagnosing clinically functioning gonadotroph adenomas associated with ovarian hyperstimulation syndrome (OHSS)?",
-      "answer": "Serum FSH levels are important for diagnosing clinically functioning gonadotroph adenomas associated with OHSS because they often show increased levels, even if within the normal range. This is in contrast to polycystic ovary syndrome where LH levels are typically low and estradiol levels are high or very high. The combination of elevated FSH levels and low LH levels can suggest a gonadotroph adenoma causing OHSS.",
-      "keyPoints": [
-        "Clinically functioning pituitary adenomas, especially gonadotroph adenomas, may cause OHSS in women by overproducing FSH.",
-        "In cases of OHSS due to clinically functioning pituitary adenomas, serum FSH levels are often increased but can be within the normal range.",
-        "LH levels are invariably low in such cases, distinguishing them from polycystic ovary syndrome (PCOS)."
+      "id": "e21-25-q3",
+      "type": "mcq",
+      "subtopic": "Biochemistry",
+      "question": "In functioning gonadotroph adenoma OHSS, typical gonadotropin pattern is:",
+      "options": [
+        "High LH, low FSH",
+        "High FSH or normal FSH with low LH",
+        "Low FSH and high LH",
+        "Suppressed FSH and LH"
       ],
-      "reference": "MAIN CONCLUSIONS: \"More than 80% of clinically nonfunctioning pituitary adenomas are gonadotroph adenomas. Very rarely, gonadotroph adenomas may be clinically functioning. They preferentially secrete FSH and are thus associated with unusual clinical pictures. In women of reproductive age, such functioning adenomas may induce spontaneous ovarian hyperstimulation syndrome (OHSS) with multiple large ovarian cysts, generally discovered on pelvic ultrasonography performed for menstrual disturbances or abdominal or pelvic pain. In affected men, macroorchidism has been described, while children may present with precocious puberty. Mass effects related to the pituitary adenoma may also occur.\"",
-      "id": "e21-25-how1"
+      "correctOption": 1,
+      "explanation": "FSH may be elevated or normal; LH is invariably low.",
+      "reference": "Biochemical Evaluation: \"FSH levels are increased in more than half of OHSS cases due to gonadotroph adenomas, but they can be also in the normal range (in the other half). However, LH levels are invariably low.\""
+    },
+    {
+      "id": "e21-25-q4",
+      "type": "mcq",
+      "subtopic": "Treatment",
+      "question": "First-line treatment for functioning FSH-secreting pituitary adenoma with OHSS is:",
+      "options": [
+        "GnRH agonist therapy",
+        "Transsphenoidal adenomectomy",
+        "Cabergoline monotherapy without surgery",
+        "Bilateral oophorectomy"
+      ],
+      "correctOption": 1,
+      "explanation": "Surgery is treatment of choice; GnRH agonists are contraindicated.",
+      "reference": "Surgical Treatment: \"Surgical removal of the culprit pituitary adenoma is the treatment of choice\""
+    },
+    {
+      "id": "e21-25-q5",
+      "type": "mcq",
+      "subtopic": "Prevalence",
+      "question": "Functioning gonadotroph adenomas represent what fraction of nonfunctioning/gonadotroph adenomas?",
+      "options": [
+        "50–60%",
+        "3–13%",
+        "80–90%",
+        "<1%"
+      ],
+      "correctOption": 1,
+      "explanation": "Majority of NFPA are gonadotroph; only minority function clinically.",
+      "reference": "Epidemiology: \"They represent a minority (3%-13%) of nonfunctioning pituitary adenomas/gonadotroph adenomas.\""
+    },
+    {
+      "id": "e21-25-q6",
+      "type": "mcq",
+      "subtopic": "PCOS distinction",
+      "question": "Compared with PCOS, FSH adenoma OHSS typically has:",
+      "options": [
+        "Smaller follicles <10 mm and elevated LH",
+        "Large cysts, very high estradiol, and low LH",
+        "High testosterone and normal estradiol",
+        "Low estradiol with high LH:FSH ratio"
+      ],
+      "correctOption": 1,
+      "explanation": "PCOS has small follicles and elevated LH; FSH adenoma causes massive cysts and estradiol.",
+      "reference": "Case 1: \"multiple follicles in women with polycystic ovary syndrome are much smaller (<10 mm) and the hormonal pattern is quite different in terms of LH and FSH levels\""
+    },
+    {
+      "id": "e21-25-q7",
+      "type": "mcq",
+      "subtopic": "Prolactin",
+      "question": "Stalk compression hyperprolactinemia in macroadenoma typically shows prolactin:",
+      "options": [
+        ">1000 ng/mL proportional to size",
+        "Below 150–200 ng/mL",
+        "Undetectable always",
+        "Only elevated postpartum"
+      ],
+      "correctOption": 1,
+      "explanation": "Stalk effect causes mild elevation, not macroprolactinoma levels.",
+      "reference": "Mass Effects: \"prolactin serum levels are always below 150 to 200 ng/mL\""
+    },
+    {
+      "id": "e21-25-q8",
+      "type": "mcq",
+      "subtopic": "Complications",
+      "question": "OHSS from FSH adenoma may be complicated by:",
+      "options": [
+        "Adnexal torsion requiring detorsion",
+        "Isolated hypokalemia only",
+        "Primary adrenal insufficiency",
+        "Diabetes insipidus only"
+      ],
+      "correctOption": 0,
+      "explanation": "Case 1 had ovarian torsion requiring laparoscopic detorsion.",
+      "reference": "Case 1: \"OHSS can be complicated by ovarian torsion, as seen in this case, justifying surgical detorsion.\""
+    },
+    {
+      "id": "e21-25-q9",
+      "type": "mcq",
+      "subtopic": "Men",
+      "question": "In men, functioning FSH-secreting adenomas may present with:",
+      "options": [
+        "Macroorchidism",
+        "Primary testicular failure with high LH",
+        "Isolated hyperprolactinemia only",
+        "Cushing syndrome"
+      ],
+      "correctOption": 0,
+      "explanation": "Macroorchidism is described in very few male cases.",
+      "reference": "Hyperstimulation Syndromes: \"In men, macroorchidism has been described in very few cases.\""
+    },
+    {
+      "id": "e21-25-q10",
+      "type": "mcq",
+      "subtopic": "Postmenopausal",
+      "question": "In postmenopausal women, increased FSH with low LH and low other pituitary hormones suggests:",
+      "options": [
+        "Primary ovarian failure",
+        "Gonadotroph adenoma preoperatively",
+        "Normal menopause only",
+        "Prolactinoma"
+      ],
+      "correctOption": 1,
+      "explanation": "Paradoxical FSH elevation with low LH aids preoperative diagnosis.",
+      "reference": "Biochemical Evaluation: \"The hormonal pattern of increased FSH contrasting with low LH levels and generally low levels of all pituitary hormones in postmenopausal women can help with the preoperative diagnosis of a gonadotroph adenoma.\""
+    },
+    {
+      "id": "e21-25-q11",
+      "type": "mcq",
+      "subtopic": "Cabergoline",
+      "question": "Cabergoline in functioning gonadotroph adenoma:",
+      "options": [
+        "Replaces surgery as definitive therapy",
+        "May transiently lower FSH but must not delay surgery",
+        "Is contraindicated in all cases",
+        "Causes permanent cure in all patients"
+      ],
+      "correctOption": 1,
+      "explanation": "Medical effect is generally transient.",
+      "reference": "Medical Management: \"However, the effect is generally transient and surgery must not be delayed.\""
+    },
+    {
+      "id": "e21-25-q12",
+      "type": "mcq",
+      "subtopic": "Children",
+      "question": "Functioning gonadotroph adenomas in children may rarely cause:",
+      "options": [
+        "Precocious puberty",
+        "Permanent hypothyroidism only",
+        "Neonatal DI only",
+        "Growth hormone deficiency only"
+      ],
+      "correctOption": 0,
+      "explanation": "Isosexual precocious puberty has been rarely described.",
+      "reference": "Hyperstimulation Syndromes: \"Isosexual precocious puberty has also very rarely been described in both sexes.\""
+    },
+    {
+      "id": "e21-25-q13",
+      "type": "mcq",
+      "subtopic": "Imaging",
+      "question": "In spontaneous OHSS, pituitary MRI should be performed because:",
+      "options": [
+        "All patients have optic chiasm compression",
+        "Adenoma size is variable and microadenomas may lack mass effects",
+        "MRI is only needed after oophorectomy",
+        "Ultrasound alone confirms FSH adenoma"
+      ],
+      "correctOption": 1,
+      "explanation": "MRI detects adenoma even when mass effects absent; size varies widely.",
+      "reference": "Case 1: \"With microadenomas, mass effects may not be present at time of diagnosis.\""
+    },
+    {
+      "id": "e21-25-tf1",
+      "type": "true_false",
+      "subtopic": "Surgery",
+      "statement": "Postoperative FSH decline can normalize estradiol and resolve ovarian cysts within days.",
+      "correctAnswer": true,
+      "explanation": "Case 1 table shows rapid biochemical and clinical improvement.",
+      "reference": "Surgical Treatment: \"this is achieved in a few days postoperatively.\""
+    },
+    {
+      "id": "e21-25-tf2",
+      "type": "true_false",
+      "subtopic": "GnRH agonist",
+      "statement": "GnRH agonists are recommended to lower FSH before surgery in OHSS.",
+      "correctAnswer": false,
+      "explanation": "GnRH agonists may cause apoplexy and are not recommended.",
+      "reference": "Medical Management: \"GnRH agonists are not recommended, as they may be responsible for pituitary apoplexy.\""
+    },
+    {
+      "id": "e21-25-tf3",
+      "type": "true_false",
+      "subtopic": "NFPA",
+      "statement": "Most clinically nonfunctioning pituitary adenomas are gonadotroph adenomas on immunocytochemistry.",
+      "correctAnswer": true,
+      "explanation": "Greater than 80% are gonadotroph lineage.",
+      "reference": "Background: \"greater than 80% of them are gonadotroph.\""
+    },
+    {
+      "id": "e21-25-tf4",
+      "type": "true_false",
+      "subtopic": "Stimulation tests",
+      "statement": "TRH and GnRH stimulation tests are sensitive and specific for gonadotroph adenomas.",
+      "correctAnswer": false,
+      "explanation": "Neither sensitive nor specific; can trigger apoplexy.",
+      "reference": "Biochemical Evaluation: \"these tests are neither sensitive nor specific\""
+    },
+    {
+      "id": "e21-25-tf5",
+      "type": "true_false",
+      "subtopic": "Pregnancy",
+      "statement": "Spontaneous pregnancy has been achieved after surgery for functioning gonadotroph adenoma.",
+      "correctAnswer": true,
+      "explanation": "Case 1 achieved pregnancy 5 months postoperatively.",
+      "reference": "Surgical Treatment: \"Pregnancy has been achieved shortly after the operation in a few cases\""
+    },
+    {
+      "id": "e21-25-tf6",
+      "type": "true_false",
+      "subtopic": "Estradiol",
+      "statement": "In most OHSS cases from FSH adenomas, estradiol levels are high or very high.",
+      "correctAnswer": true,
+      "explanation": "Biochemical evaluation section states this.",
+      "reference": "Biochemical Evaluation: \"In most cases of OHSS, estradiol levels are high or very high.\""
+    },
+    {
+      "id": "e21-25-tf7",
+      "type": "true_false",
+      "subtopic": "Demographics",
+      "statement": "Functioning gonadotroph adenomas are more often described in women of reproductive age.",
+      "correctAnswer": true,
+      "explanation": "Very rarely in men; reproductive-age women predominate.",
+      "reference": "Epidemiology: \"functioning gonadotroph adenomas are more often described in women of reproductive age (very rarely in men).\""
+    },
+    {
+      "id": "e21-25-tf8",
+      "type": "true_false",
+      "subtopic": "Basic FSH isoforms",
+      "statement": "Gonadotroph adenomas may produce more basic FSH isoforms considered more biologically active.",
+      "correctAnswer": true,
+      "explanation": "Chromatofocusing studies support this paradox.",
+      "reference": "Gonadal Hyperstimulation: \"gonadotroph adenomas produce more basic FSH isoforms, which, paradoxically, are considered to be more biologically active.\""
+    },
+    {
+      "id": "e21-25-ar1",
+      "type": "assertion_reason",
+      "subtopic": "OHSS",
+      "assertion": "Assertion: Spontaneous OHSS in a premenopausal woman should prompt pituitary MRI.",
+      "reason": "Reason: FSH-secreting adenomas may present without optic chiasm compression or visual field defects.",
+      "correctOption": 0,
+      "explanation": "Both true—case 1 emphasizes MRI even without mass effects.",
+      "reference": "Case 1: \"The finding of OHSS should lead to pituitary MRI, even in the absence of pituitary mass effects.\""
+    },
+    {
+      "id": "e21-25-ar2",
+      "type": "assertion_reason",
+      "subtopic": "GnRH danger",
+      "assertion": "Assertion: GnRH agonists can trigger pituitary apoplexy in gonadotroph adenomas.",
+      "reason": "Reason: GnRH agonists always suppress FSH permanently in gonadotroph adenomas like normal pituitary.",
+      "correctOption": 2,
+      "explanation": "Assertion true; they may have persistent stimulatory effect on FSH-secreting tumors.",
+      "reference": "Case 2: \"they may have a persistent stimulatory effect on tumor secretion in patients with FSH-secreting pituitary adenomas.\""
+    },
+    {
+      "id": "e21-25-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Surgery",
+      "assertion": "Assertion: Transsphenoidal surgery rapidly reverses ovarian hyperstimulation in FSH adenoma OHSS.",
+      "reason": "Reason: Surgery lowers FSH and estradiol within days with cyst regression.",
+      "correctOption": 0,
+      "explanation": "Both true—mechanism and timeline from case 1.",
+      "reference": "Surgical Treatment: \"rapidly produces a fall in FSH levels and thus, in the case of OHSS, decreases ovarian stimulation, which is associated with rapid diminution of estradiol levels and regression of ovarian cysts\""
+    },
+    {
+      "id": "e21-25-ar4",
+      "type": "assertion_reason",
+      "subtopic": "PCOS",
+      "assertion": "Assertion: PCOS can be distinguished from FSH adenoma OHSS by follicle size and LH level.",
+      "reason": "Reason: PCOS typically has large ovarian cysts and very high estradiol.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason describes FSH adenoma, not PCOS.",
+      "reference": "Case 1: \"multiple follicles in women with polycystic ovary syndrome are much smaller (<10 mm)\""
+    },
+    {
+      "id": "e21-25-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Cabergoline",
+      "assertion": "Assertion: Cabergoline may be used as sole definitive therapy for functioning gonadotroph adenoma.",
+      "reason": "Reason: Cabergoline effects are generally transient and surgery must not be delayed.",
+      "correctOption": 2,
+      "explanation": "Assertion false; reason correctly limits medical therapy.",
+      "reference": "Medical Management: \"the effect is generally transient and surgery must not be delayed.\""
+    },
+    {
+      "id": "e21-25-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Prolactin",
+      "assertion": "Assertion: Stalk compression can cause mild hyperprolactinemia below 150–200 ng/mL.",
+      "reason": "Reason: This prolactin level pattern is identical to macroprolactinoma proportional to tumor size.",
+      "correctOption": 2,
+      "explanation": "Assertion true; macroprolactinomas cause much higher levels.",
+      "reference": "Mass Effects: \"This distinguishes them from macroprolactinomas, which are associated with much higher prolactin levels, proportional to tumor size.\""
+    },
+    {
+      "id": "e21-25-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Apoplexy",
+      "assertion": "Assertion: Pituitary apoplexy may be the presenting feature of gonadotroph adenomas.",
+      "reason": "Reason: Apoplexy only occurs after radiation therapy.",
+      "correctOption": 2,
+      "explanation": "Assertion true; apoplexy may be spontaneous or triggered.",
+      "reference": "Pituitary Apoplexy: \"Pituitary apoplexy can be the presenting feature of gonadotroph adenomas\""
+    },
+    {
+      "id": "e21-25-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Hypogonadism paradox",
+      "assertion": "Assertion: Gonadotroph adenomas often cause hypogonadism despite producing gonadotropins.",
+      "reason": "Reason: Abnormal glycosylation may reduce biological activity of adenoma-secreted gonadotropins.",
+      "correctOption": 0,
+      "explanation": "Both true—explains nonfunctioning majority vs rare functioning cases.",
+      "reference": "Gonadal Hyperstimulation: \"hypogonadism may thus be related to decreased biological activity of gonadotropins related to abnormal glycosylation of the isoforms produced by the adenoma.\""
     }
   ]
 }

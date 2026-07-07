@@ -77,7 +77,15 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 | e21-18 Genetic diabetes | ✅ remediated | 41 | 50% |
 | e21-19 GLP-1 RA / SGLT2i CV outcomes | ✅ remediated | 41 | 50% |
 | e21-20 NAFLD/NASH pharmacology | ✅ remediated | 41 | 50% |
-| e21-01–04, e21-16, e21-21–43 | ⏳ pending | | |
+| e21-16 Paget disease of bone | ✅ remediated | 41 | 58% |
+| e21-21 Pseudoacromegaly syndromes | ✅ remediated | 41 | 58% |
+| e21-22 Carcinoid crisis | ✅ remediated | 41 | 67% |
+| e21-23 Acromegaly complications | ✅ remediated | 41 | 58% |
+| e21-24 Dopamine agonist risks | ✅ remediated | 41 | 58% |
+| e21-25 Functioning gonadotroph adenomas | ✅ remediated | 41 | 50% |
+| e21-26 Pituitary hormone transition | ✅ remediated | 41 | 67% |
+| e21-27 Pediatric bone fragility | ✅ remediated | 41 | 67% |
+| e21-01–04, e21-28–43 | ⏳ pending | | |
 
 ## Phase 2 — Williams 15e (49 chapters)
 
@@ -114,3 +122,11 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-07 | e21-18 | 41 | 50% | pending |
 | 2026-07-07 | e21-19 | 41 | 50% | pending |
 | 2026-07-07 | e21-20 | 41 | 50% | pending |
+| 2026-07-07 | e21-16 | 41 | 58% | pending |
+| 2026-07-07 | e21-21 | 41 | 58% | pending |
+| 2026-07-07 | e21-22 | 41 | 67% | pending |
+| 2026-07-07 | e21-23 | 41 | 58% | pending |
+| 2026-07-07 | e21-24 | 41 | 58% | pending |
+| 2026-07-07 | e21-25 | 41 | 50% | pending |
+| 2026-07-07 | e21-26 | 41 | 67% | pending |
+| 2026-07-07 | e21-27 | 41 | 67% | pending |

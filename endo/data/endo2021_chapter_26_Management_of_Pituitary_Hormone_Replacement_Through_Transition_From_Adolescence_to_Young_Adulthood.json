@@ -4,43 +4,451 @@
   "chapterNo": "26",
   "title": "Management of Pituitary Hormone Replacement Through Transition From Adolescence to Young Adulthood",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Mehul T. Dattani, MBBS, DCH, FRCPCH, FRCP, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_26_Management_of_Pituitary_Hormone_Replacement_Through_Transition_From_Adolescence_to_Young_Adulthood.md",
   "items": [
     {
-      "**Clinical Case Vignettes**": 1.100224,
+      "id": "e21-26-n1",
+      "type": "note",
+      "subtopic": "Variable course",
+      "title": "Why hypopituitarism requires lifelong vigilance",
+      "text": "Deficits may evolve from isolated GH deficiency to combined pituitary hormone deficiency—regular testing is needed across childhood, adolescence, and adulthood.",
+      "reference": "Main Conclusions: \"The condition may evolve throughout adolescence and childhood, and hence there is a need for vigilance and regular testing of pituitary function on a lifelong basis.\""
+    },
+    {
+      "id": "e21-26-n2",
+      "type": "note",
+      "subtopic": "Transition",
+      "title": "How to manage hypopituitarism at adolescent transition",
+      "text": "Transition clinics with pediatric and adult endocrinologists plus nurse specialists address adherence, puberty/fertility concerns, high-risk behaviors, and re-evaluation of hormone needs.",
+      "reference": "Management at Transition: \"Transition clinics with input from pediatric/adolescent endocrinologists, adult endocrinologists, and the endocrinology clinical nurse specialist are critical to the successful transition of patients.\""
+    },
+    {
+      "id": "e21-26-n3",
+      "type": "note",
+      "subtopic": "GH retesting",
+      "title": "When childhood-onset GH deficiency does not need retesting",
+      "text": "Retesting is not required with ≥2 pituitary hormone deficiencies, confirmed genetic cause, or structural defect (except isolated ectopic posterior pituitary)—25–88% may reverse isolated idiopathic GHD.",
+      "reference": "Treatment: \"retesting is not required for those with more than 2 pituitary hormone deficiencies, a confirmed genetic pathogenic variant accounting for the hypopituitarism, and/or a specific hypothalamic-pituitary structural defect on MRI with the exception of an ectopic posterior pituitary.\""
+    },
+    {
+      "id": "e21-26-n4",
+      "type": "note",
+      "subtopic": "Central hypothyroidism",
+      "title": "How to diagnose secondary hypothyroidism without TRH test",
+      "text": "Low free T4 with inappropriately normal or low TSH is sufficient—TRH stimulation does not change management.",
+      "reference": "Diagnosis: \"a low concentration of free T₄ in the presence of an inappropriately low or normal concentration of TSH is sufficient for the diagnosis of secondary or tertiary hypothyroidism\""
+    },
+    {
+      "id": "e21-26-n5",
+      "type": "note",
+      "subtopic": "ACTH masking DI",
+      "title": "Why central diabetes insipidus may appear only after starting glucocorticoids",
+      "text": "Cortisol sufficiency is required for renal free water clearance via inhibition of ADH—ACTH deficiency masks coexistent DI until hydrocortisone is started.",
+      "reference": "Diagnosis: \"ACTH deficiency may mask coexistent central diabetes insipidus until glucocorticoid replacement is initiated.\""
+    },
+    {
+      "id": "e21-26-n6",
+      "type": "note",
+      "subtopic": "Hydrocortisone transition",
+      "title": "How to counsel adolescents on hydrocortisone timing and sick-day rules",
+      "text": "Dose at least 3× daily; double/triple during illness; emergency IM hydrocortisone (25 mg <1 yr, 25–50 mg 1–5 yr, 100 mg >5 yr); discuss alcohol and late sleep schedules.",
+      "reference": "Treatment: \"Doses should be doubled or even tripled in the face of illness, with patient education on how and when to administer emergency intramuscular hydrocortisone\""
+    },
+    {
+      "id": "e21-26-n7",
+      "type": "note",
+      "subtopic": "Puberty timing",
+      "title": "Puberty in hypopituitarism: septo-optic dysplasia versus combined deficiency",
+      "text": "Septo-optic dysplasia may have normal or precocious puberty; isolated combined pituitary hormone deficiency more often has delayed or absent puberty.",
+      "reference": "Treatment: \"Puberty may be precocious or occur at the normal time in those with hypopituitarism associated with septo-optic dysplasia, but it may be delayed or absent in those with isolated combined pituitary hormone deficiency.\""
+    },
+    {
+      "id": "e21-26-n8",
+      "type": "note",
+      "subtopic": "MRI predictors",
+      "title": "MRI predictors of combined pituitary hormone deficiency in congenital hypopituitarism",
+      "text": "Ectopic posterior pituitary carries 27-fold higher hypopituitarism risk; stalk agenesis and corpus callosum abnormalities predict combined deficiency over isolated GHD.",
+      "reference": "Diagnosis: \"the risk of hypopituitarism was 27 times greater in patients with an ectopic posterior pituitary.\""
+    },
+    {
+      "id": "e21-26-n9",
+      "type": "note",
+      "subtopic": "PROP1",
+      "title": "Why PROP1 testing matters for suprasellar masses",
+      "text": "PROP1 pathogenic variants can cause suprasellar masses that spontaneously resolve—genetic diagnosis may avoid unnecessary surgery.",
+      "reference": "Diagnosis: \"PROP1 pathogenic variants are associated with suprasellar masses that undergo spontaneous resolution, and the presence of a PROP1 pathogenic variant may help to reassure families of the absence of a brain tumor and circumvent the need for surgery.\""
+    },
+    {
+      "id": "e21-26-n10",
+      "type": "note",
+      "subtopic": "DDAVP caution",
+      "title": "How to start desmopressin safely in central DI",
+      "text": "Titrate using paired plasma and urine osmolalities inpatient; err on underdosing—overdose causes hyponatremia and dangerous fluid shifts; warn about MDMA and overdrinking.",
+      "reference": "Treatment: \"Treatment should generally err on the side of underdosing, since overdosing DDAVP can result in water intoxication, hyponatremia, and rapid fluid shifts\""
+    },
+    {
+      "id": "e21-26-n11",
+      "type": "note",
+      "subtopic": "Case 1 genetics",
+      "title": "POU1F1 mutations cause GH, TSH, and prolactin deficiencies",
+      "text": "Dominant-negative POU1F1 (e.g., p.R271W) affects somatotroph, thyrotroph, and lactotroph development—not ACTH or gonadotropins; MRI shows small anterior pituitary with normal posterior pituitary.",
+      "reference": "Case 1: \"Pathogenic variants are associated with GH, TSH, and prolactin deficiencies, but not ACTH or gonadotropin deficiencies.\""
+    },
+    {
+      "id": "e21-26-n12",
+      "type": "note",
+      "subtopic": "Case 2 ectopic PP",
+      "title": "Why fatigue in a teen with ectopic posterior pituitary needs full axis reassessment",
+      "text": "Ectopic posterior pituitary strongly predicts evolving combined deficiency—reassess GH dose, cortisol, and thyroid when new symptoms appear at puberty.",
+      "reference": "Case 2: \"With an ectopic posterior pituitary, this patient would most likely have developed other hormone deficiencies.\""
+    },
+    {
       "id": "e21-26-q1",
       "type": "mcq",
+      "subtopic": "Case 1",
+      "question": "A patient with GH, TSH, and prolactin deficiencies and small anterior pituitary most likely has a variant in:",
       "options": [
-        "Option B",
-        "Option C",
-        "Option D"
+        "KAL1",
+        "LHX4",
+        "PROP1",
+        "POU1F1"
       ],
-      "correctOption": 0
+      "correctOption": 3,
+      "explanation": "POU1F1 (PIT1) affects GH, TSH, PRL—not ACTH or gonadotropins.",
+      "reference": "Case 1: \"Answer: D)POU1F1\""
     },
     {
-      "type": "why",
-      "subtopic": "Hypopituitarism Management",
-      "question": "Why is vigilance and regular testing of pituitary function necessary on a lifelong basis for children with hypopituitarism?",
-      "answer": "Because the condition may evolve throughout adolescence and childhood, necessitating ongoing monitoring to ensure timely detection and management of any changes in hormone levels.",
-      "keyPoints": [
-        "Children with hypopituitarism require regular testing due to its phenotypic variability and potential for evolving over time",
-        "Lifelong vigilance is necessary to catch any shifts or deficiencies that may occur as children grow"
+      "id": "e21-26-q2",
+      "type": "mcq",
+      "subtopic": "Case 2",
+      "question": "A 15-year-old girl with ectopic posterior pituitary and fatigue on GH therapy. Best next steps include:",
+      "options": [
+        "Restart ethinyl estradiol only",
+        "Assess GH dose, cortisol, and thyroid function and evaluate comorbidities",
+        "Stop all hormones permanently",
+        "Immediate brain biopsy"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Hypopituitarism is phenotypically a highly variable condition that may encompass a single hormone deficiency or multiple pituitary hormone deficiencies, including both anterior and posterior pituitary hormones. The condition may evolve throughout adolescence and childhood, and hence there is a need for vigilance and regular testing of pituitary function on a lifelong basis.\"",
-      "id": "e21-26-why1"
+      "correctOption": 1,
+      "explanation": "Answer E (B, C, D)—optimize GH, test axes, evaluate associated conditions.",
+      "reference": "Case 2: \"Answer: E) B, C, and D\""
     },
     {
-      "type": "how",
-      "subtopic": "Monitoring Approach for Hormone Replacement Therapy in Hypopituitarism",
-      "question": "How should hormone replacement therapy be monitored to ensure good outcomes in terms of height, weight, and clinical well-being?",
-      "answer": "To ensure good outcomes in terms of height, weight, and clinical well-being, hormone replacement therapy should be carefully managed with diligent monitoring. This includes regular assessment of auxology (growth and development), general well-being, and biochemical profiles to adjust the dosage and timing of hormone administration as needed.",
-      "keyPoints": [
-        "Regular monitoring is crucial for adjusting hormone replacement therapy",
-        "Assessment of growth and development should be a priority"
+      "id": "e21-26-q3",
+      "type": "mcq",
+      "subtopic": "GH retesting",
+      "question": "GH retesting at transition is NOT required if the patient has:",
+      "options": [
+        "Idiopathic isolated GHD only",
+        "Ectopic posterior pituitary only as structural defect",
+        "Confirmed PROP1 pathogenic variant",
+        "Single hormone deficiency and normal MRI"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Importantly, puberty is highly variable in children with hypopituitarism, and may be normal in timing, delayed, or absent. Paradoxically, in patients with septo-optic dysplasia, it may occur early. Reversibility of pituitary hormone deficits may occur, even in the presence of a structurally abnormal pituitary gland. Nevertheless, MRI remains an extremely useful tool in the management of hypopituitarism. Careful hormone replacement with diligent monitoring of auxology, general well-being, and biochemical profiles is critical to ensuring good outcomes in terms of height, weight, and clinical well-being. Finally, hypopituitarism may be associated with a range of other clinical phenotypes, including morbid obesity, autism, learning difficulties, and visual impairment, necessitating a careful multidisciplinary approach to the problem. A holistic approach involves a pediatric and adult (at transition and thereafter) endocrinologist, ophthalmologist, neurodevelopmental pediatrician, clinical nurse specialist, psychologist, dietitian, and social worker.\"",
-      "id": "e21-26-how1"
+      "correctOption": 2,
+      "explanation": "Genetic confirmation or ≥2 deficiencies or structural defect (except ectopic PP alone) exempts retesting.",
+      "reference": "Treatment: \"retesting is not required for those with more than 2 pituitary hormone deficiencies, a confirmed genetic pathogenic variant\""
+    },
+    {
+      "id": "e21-26-q4",
+      "type": "mcq",
+      "subtopic": "Hypothyroidism",
+      "question": "Levothyroxine dosing in central hypothyroidism should be guided by:",
+      "options": [
+        "TSH target in lower normal range",
+        "Free T4 maintained in upper half of normal range",
+        "Total T3 only",
+        "Thyrotropin-releasing hormone stimulation results"
+      ],
+      "correctOption": 1,
+      "explanation": "TSH is unreliable; free T4 guides therapy, especially with hypothalamic obesity risk.",
+      "reference": "Treatment: \"Free T₄ concentrations should be maintained in the upper half of the normal range\""
+    },
+    {
+      "id": "e21-26-q5",
+      "type": "mcq",
+      "subtopic": "Emergency steroid",
+      "question": "Emergency IM hydrocortisone dose for a child older than 5 years is:",
+      "options": [
+        "25 mg",
+        "50 mg",
+        "100 mg",
+        "250 mg"
+      ],
+      "correctOption": 2,
+      "explanation": "Age-stratified emergency dosing: 100 mg for >5 years.",
+      "reference": "Treatment: \"emergency intramuscular hydrocortisone (doses <1 year, 25 mg; 1-5 years, 25-50 mg; >5 years, 100 mg)\""
+    },
+    {
+      "id": "e21-26-q6",
+      "type": "mcq",
+      "subtopic": "Gonadotropin testing",
+      "question": "Testing for hypogonadotropic hypogonadism is most informative:",
+      "options": [
+        "At age 3 years routinely",
+        "During mini-puberty or pubertal ages (>8 girls, >9 boys)",
+        "Only after age 25",
+        "Never—always empiric steroids"
+      ],
+      "correctOption": 1,
+      "explanation": "HP-gonadal axis is quiescent outside mini-puberty and puberty.",
+      "reference": "Diagnosis: \"Testing for hypogonadotropic hypogonadism is not useful outside of the mini-puberty (up to age 6 months) and pubertal phases (boys aged >9 years, girls aged >8 years)\""
+    },
+    {
+      "id": "e21-26-q7",
+      "type": "mcq",
+      "subtopic": "CPHD evolution",
+      "question": "In idiopathic childhood isolated GHD followed ≥3.5 years, additional pituitary deficiencies developed in:",
+      "options": [
+        "0.5%",
+        "5.5%",
+        "25%",
+        "50%"
+      ],
+      "correctOption": 1,
+      "explanation": "GeNeSIS data: 5.5% developed additional deficiencies in long follow-up.",
+      "reference": "Evolution of Endocrinopathies: \"Combined pituitary hormone deficiency developed in 2.0% of the overall cohort and in 5.5% among children followed for a minimum of 3.5 years.\""
+    },
+    {
+      "id": "e21-26-q8",
+      "type": "mcq",
+      "subtopic": "Estrogen route",
+      "question": "In female hypogonadotropic hypogonadism, preferred estrogen replacement emphasizes:",
+      "options": [
+        "High-dose oral ethinyl estradiol first",
+        "17β-estradiol with transdermal route favored for bone accrual",
+        "No estrogen until age 21",
+        "Testosterone instead of estrogen"
+      ],
+      "correctOption": 1,
+      "explanation": "Transdermal 17β-estradiol may be superior for bone and uterine growth with lower genotoxic metabolites.",
+      "reference": "Treatment: \"It has been suggested that the transdermal route is superior to the oral route in terms of bone accrual and uterine growth.\""
+    },
+    {
+      "id": "e21-26-q9",
+      "type": "mcq",
+      "subtopic": "Transition risks",
+      "question": "Loss to follow-up after transition most risks:",
+      "options": [
+        "Isolated acne",
+        "Adrenal crisis and untreated hypothyroidism",
+        "Excess height gain",
+        "Precocious puberty only"
+      ],
+      "correctOption": 1,
+      "explanation": "Nonadherence risks adrenal crisis, hypothyroidism, low BMD, fatigue, low libido.",
+      "reference": "Management at Transition: \"Loss to follow-up by a physician may be associated with the risk of adrenal crisis, a hypothyroid state, reduced bone mineral density, and fatigue with reduced libido.\""
+    },
+    {
+      "id": "e21-26-q10",
+      "type": "mcq",
+      "subtopic": "Congenital incidence",
+      "question": "Reported incidence of congenital hypopituitarism is approximately:",
+      "options": [
+        "1 in 4000 to 1 in 10,000 live births",
+        "1 in 100 live births",
+        "1 in 100,000 only",
+        "Unknown—never reported"
+      ],
+      "correctOption": 0,
+      "explanation": "Congenital hypopituitarism is rare but not ultra-rare.",
+      "reference": "Significance of the Clinical Problem: \"Congenital hypopituitarism is a rare disorder and may be congenital (1 in 4000 to 1 in 10,000 live births)\""
+    },
+    {
+      "id": "e21-26-q11",
+      "type": "mcq",
+      "subtopic": "Craniopharyngioma",
+      "question": "In craniopharyngioma, early weight gain may:",
+      "options": [
+        "Be unrelated to hypothalamic injury",
+        "Precede diagnosis of suprasellar mass by months and predict hypothalamic obesity",
+        "Indicate excess GH secretion",
+        "Rule out pituitary disease"
+      ],
+      "correctOption": 1,
+      "explanation": "Weight/BMI changes may precede mass diagnosis and predict hypothalamic obesity.",
+      "reference": "Diagnosis: \"in patients with craniopharyngiomas, early changes in weight and BMI have been shown to precede the diagnosis of a suprasellar mass by several months and may be predictive of future hypothalamic obesity.\""
+    },
+    {
+      "id": "e21-26-q12",
+      "type": "mcq",
+      "subtopic": "GH and tumors",
+      "question": "GH replacement in childhood tumor survivors:",
+      "options": [
+        "Is absolutely contraindicated",
+        "At replacement doses is not associated with increased recurrence; second neoplasm risk unclear",
+        "Always causes tumor recurrence within 1 year",
+        "Requires doses higher than childhood growth doses lifelong"
+      ],
+      "correctOption": 1,
+      "explanation": "Replacement GH does not increase recurrence; second primary neoplasm signal is uncertain—use minimum effective dose.",
+      "reference": "Treatment: \"GH therapy in replacement dosages is not associated with an increased risk of recurrence or progression, although some evidence suggests that there may be a small increased risk of second primary neoplasms, but this is not completely clear.\""
+    },
+    {
+      "id": "e21-26-q13",
+      "type": "mcq",
+      "subtopic": "Multidisciplinary",
+      "question": "Holistic hypopituitarism care at transition should include:",
+      "options": [
+        "Endocrinologist only",
+        "Ophthalmology, psychology, dietitian, and nurse specialist among others",
+        "Surgery alone without nursing input",
+        "No psychology until adulthood"
+      ],
+      "correctOption": 1,
+      "explanation": "Main conclusions list multidisciplinary team including ophthalmology, neurodevelopment, nursing, psychology, dietitian, social work.",
+      "reference": "Main Conclusions: \"A holistic approach involves a pediatric and adult (at transition and thereafter) endocrinologist, ophthalmologist, neurodevelopmental pediatrician, clinical nurse specialist, psychologist, dietitian, and social worker.\""
+    },
+    {
+      "id": "e21-26-tf1",
+      "type": "true_false",
+      "subtopic": "Reversibility",
+      "statement": "Pituitary hormone deficits may reverse even with structurally abnormal pituitary glands.",
+      "correctAnswer": true,
+      "explanation": "Main conclusions emphasize reversibility.",
+      "reference": "Main Conclusions: \"Reversibility of pituitary hormone deficits may occur, even in the presence of a structurally abnormal pituitary gland.\""
+    },
+    {
+      "id": "e21-26-tf2",
+      "type": "true_false",
+      "subtopic": "Septo-optic",
+      "statement": "Septo-optic dysplasia may paradoxically have early or normally timed puberty.",
+      "correctAnswer": true,
+      "explanation": "Pubertal timing is highly variable in hypopituitarism.",
+      "reference": "Main Conclusions: \"Paradoxically, in patients with septo-optic dysplasia, it may occur early.\""
+    },
+    {
+      "id": "e21-26-tf3",
+      "type": "true_false",
+      "subtopic": "TRH test",
+      "statement": "TRH stimulation is required to distinguish secondary from tertiary hypothyroidism in children.",
+      "correctAnswer": false,
+      "explanation": "Low free T4 with low/normal TSH suffices; TRH does not change management.",
+      "reference": "Diagnosis: \"an additional thyrotropin-releasing hormone stimulation test neither distinguishes the 2 nor changes clinical management.\""
+    },
+    {
+      "id": "e21-26-tf4",
+      "type": "true_false",
+      "subtopic": "Organic GHD",
+      "statement": "Organic isolated childhood GHD has higher risk of evolving to CPHD than idiopathic GHD.",
+      "correctAnswer": true,
+      "explanation": "20.7% vs 5.5% in long follow-up subgroups.",
+      "reference": "Evolution of Endocrinopathies: \"there was a higher frequency of combined pituitary hormone deficiency (9.9% in the overall cohort, and 20.7% in the subgroup followed up for a minimum of 3.5 years).\""
+    },
+    {
+      "id": "e21-26-tf5",
+      "type": "true_false",
+      "subtopic": "Levothyroxine",
+      "statement": "Starting levothyroxine before ruling out ACTH deficiency can unmask central DI.",
+      "correctAnswer": true,
+      "explanation": "Glucocorticoid replacement unmasks ADH axis when cortisol was masking DI.",
+      "reference": "Treatment: \"Before commencing replacement, preexisting ACTH deficiency should be detected to avoid the risk of precipitating a hypocortisolemic crisis.\""
+    },
+    {
+      "id": "e21-26-tf6",
+      "type": "true_false",
+      "subtopic": "GH reversal",
+      "statement": "Between 25% and 88% of patients may reverse GH secretion at transition retesting.",
+      "correctAnswer": true,
+      "explanation": "Stated in treatment section on retesting.",
+      "reference": "Treatment: \"Between 25% and 88% of patients reverse their GH secretion at the time of transition.\""
+    },
+    {
+      "id": "e21-26-tf7",
+      "type": "true_false",
+      "subtopic": "MDMA risk",
+      "statement": "MDMA use can be extremely dangerous in patients on desmopressin due to overdrinking risk.",
+      "correctAnswer": true,
+      "explanation": "Recreational overdrinking risk highlighted.",
+      "reference": "Treatment: \"certain \"recreational\" drugs such as MDMA (\"Ecstasy\") may lead to overdrinking, which could be extremely dangerous in patients on desmopressin.\""
+    },
+    {
+      "id": "e21-26-tf8",
+      "type": "true_false",
+      "subtopic": "Adherence",
+      "statement": "Adolescent adherence challenges are a major barrier to optimal hypopituitarism care.",
+      "correctAnswer": true,
+      "explanation": "Listed under barriers to optimal practice.",
+      "reference": "Barriers to Optimal Practice: \"Lack of engagement from the young person.\""
+    },
+    {
+      "id": "e21-26-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Lifelong follow-up",
+      "assertion": "Assertion: Hypopituitarism requires lifelong pituitary function monitoring.",
+      "reason": "Reason: Deficits may evolve from single to multiple hormone deficiencies over time.",
+      "correctOption": 0,
+      "explanation": "Both true—evolution documented in GeNeSIS and congenital cohorts.",
+      "reference": "Evolution of Endocrinopathies: \"Children with isolated GH deficiency have a significant risk of developing additional pituitary deficiencies.\""
+    },
+    {
+      "id": "e21-26-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Ectopic PP",
+      "assertion": "Assertion: Ectopic posterior pituitary on MRI increases risk of hypopituitarism 27-fold.",
+      "reason": "Reason: Ectopic posterior pituitary is associated with isolated GHD only without other deficits.",
+      "correctOption": 2,
+      "explanation": "Assertion true; ectopic PP predicts broader hypopituitarism risk.",
+      "reference": "Diagnosis: \"the risk of hypopituitarism was 27 times greater in patients with an ectopic posterior pituitary.\""
+    },
+    {
+      "id": "e21-26-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Transition clinic",
+      "assertion": "Assertion: Transition clinics improve outcomes in adolescent hypopituitarism.",
+      "reason": "Reason: Transition clinics are critical for successful transfer to adult care.",
+      "correctOption": 0,
+      "explanation": "Both true per management at transition section.",
+      "reference": "Management at Transition: \"Transition clinics with input from pediatric/adolescent endocrinologists, adult endocrinologists, and the endocrinology clinical nurse specialist are critical to the successful transition of patients.\""
+    },
+    {
+      "id": "e21-26-ar4",
+      "type": "assertion_reason",
+      "subtopic": "POU1F1",
+      "assertion": "Assertion: POU1F1 mutations cause GH, TSH, and prolactin deficiencies.",
+      "reason": "Reason: POU1F1 mutations also cause ACTH and gonadotropin deficiencies.",
+      "correctOption": 2,
+      "explanation": "Assertion true; ACTH and gonadotropins spared.",
+      "reference": "Case 1: \"Pathogenic variants are associated with GH, TSH, and prolactin deficiencies, but not ACTH or gonadotropin deficiencies.\""
+    },
+    {
+      "id": "e21-26-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Central hypothyroidism",
+      "assertion": "Assertion: Low free T4 with low or normal TSH confirms central hypothyroidism.",
+      "reason": "Reason: TRH stimulation is required before starting levothyroxine.",
+      "correctOption": 2,
+      "explanation": "Assertion true; TRH not required.",
+      "reference": "Diagnosis: \"a low concentration of free T₄ in the presence of an inappropriately low or normal concentration of TSH is sufficient for the diagnosis\""
+    },
+    {
+      "id": "e21-26-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Puberty induction",
+      "assertion": "Assertion: Delaying sex steroid replacement far beyond usual pubertal age is not generally recommended.",
+      "reason": "Reason: Long-term bone mineral accrual benefits favor timely pubertal induction.",
+      "correctOption": 0,
+      "explanation": "Both true—individualized but not excessively delayed.",
+      "reference": "Treatment: \"Delaying commencement of the latter beyond the usual pubertal age (~12 years in girls and 14-15 years in boys) is not generally recommended, given the long-term benefits on bone mineral accretion.\""
+    },
+    {
+      "id": "e21-26-ar7",
+      "type": "assertion_reason",
+      "subtopic": "DDAVP",
+      "assertion": "Assertion: DDAVP dosing should err on the side of underdosing.",
+      "reason": "Reason: Overdosing causes water intoxication and dangerous rapid fluid shifts.",
+      "correctOption": 0,
+      "explanation": "Both true—inpatient titration recommended.",
+      "reference": "Treatment: \"overdosing DDAVP can result in water intoxication, hyponatremia, and rapid fluid shifts that are difficult to correct safely\""
+    },
+    {
+      "id": "e21-26-ar8",
+      "type": "assertion_reason",
+      "subtopic": "PROP1",
+      "assertion": "Assertion: PROP1 variants may produce resolving suprasellar masses mimicking tumors.",
+      "reason": "Reason: All PROP1 patients require immediate craniotomy regardless of genetics.",
+      "correctOption": 2,
+      "explanation": "Assertion true; genetics may avoid unnecessary surgery—reason false.",
+      "reference": "Diagnosis: \"the presence of a PROP1 pathogenic variant may help to reassure families of the absence of a brain tumor and circumvent the need for surgery.\""
     }
   ]
 }
