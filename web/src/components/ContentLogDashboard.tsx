@@ -44,6 +44,7 @@ const KIND_FILTERS: Array<{ value: ContentKind | 'all'; label: string }> = [
   { value: 'trial', label: 'Trials' },
   { value: 'calculator', label: 'Calculators' },
   { value: 'imaging', label: 'Imaging & Atlases' },
+  { value: 'sub_app', label: 'Sub-Apps' },
 ]
 
 function StatTile({ label, value, sub }: { label: string; value: string; sub?: string }) {
@@ -254,7 +255,7 @@ export function ContentLogDashboard() {
     : ''
 
   const openItem = (item: ContentLogItem) => {
-    if ((item.kind === 'calculator' || item.kind === 'imaging') && item.file) {
+    if ((item.kind === 'calculator' || item.kind === 'imaging' || item.kind === 'sub_app') && item.file) {
       window.open(`${BASE}${item.file}`, '_blank', 'noopener,noreferrer')
       return
     }

@@ -41,6 +41,12 @@ const META: Record<
     chip: 'bg-green-100 text-green-800 dark:bg-green-950/50 dark:text-green-200',
     bar: 'border-l-green-600',
   },
+  sub_apps: {
+    icon: '⚕️',
+    active: 'bg-emerald-600 text-white shadow-sm',
+    chip: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/50 dark:text-emerald-200',
+    bar: 'border-l-emerald-600',
+  },
   stories: {
     icon: '💬',
     active: 'bg-rose-600 text-white shadow-sm',
@@ -130,7 +136,11 @@ function SectionGrid({ section }: { section: LandingSection }) {
                   <ExternalLink
                     className={cn(
                       'h-4 w-4 shrink-0',
-                      section.kind === 'imaging_resources' ? 'text-cyan-500' : 'text-violet-500',
+                      section.kind === 'imaging_resources'
+                        ? 'text-cyan-500'
+                        : section.kind === 'sub_apps'
+                          ? 'text-emerald-500'
+                          : 'text-violet-500',
                     )}
                   />
                 ) : (

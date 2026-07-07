@@ -170,6 +170,7 @@ const TOP_LEVEL: HeaderKind[] = [
   'hot_topics',
   'case_reports',
   'pediatric_endo',
+  'sub_apps',
   'stories',
   'calculators',
   'imaging_resources',

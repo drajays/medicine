@@ -20,6 +20,7 @@ const ICON: Partial<Record<HeaderKind, string>> = {
   hot_topics: '🔥',
   case_reports: '📋',
   pediatric_endo: '🧒',
+  sub_apps: '⚕️',
   stories: '💬',
   calculators: '🧮',
   imaging_resources: '🩻',

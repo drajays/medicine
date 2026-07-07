@@ -49,7 +49,7 @@ export function MobileCatalog({ open, onClose }: MobileCatalogProps) {
               key={
                 row.type === 'header'
                   ? row.id
-                  : row.type === 'calculator' || row.type === 'imaging'
+                  : row.type === 'calculator' || row.type === 'imaging' || row.type === 'sub_app'
                     ? row.id
                     : row.entry.id
               }
@@ -113,6 +113,22 @@ function MobileNavRow({
         target="_blank"
         rel="noopener noreferrer"
         className={cn('mx-1 flex items-center rounded-lg px-3 py-3', entryKindAccent('imaging'))}
+      >
+        <div className="min-w-0">
+          <p className="text-sm font-medium">{row.title}</p>
+          <p className="text-xs clinical-muted">{row.subtitle} · Opens in new tab</p>
+        </div>
+      </a>
+    )
+  }
+
+  if (row.type === 'sub_app') {
+    return (
+      <a
+        href={`${BASE}${row.href}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={cn('mx-1 flex items-center rounded-lg px-3 py-3', entryKindAccent('sub_app'))}
       >
         <div className="min-w-0">
           <p className="text-sm font-medium">{row.title}</p>

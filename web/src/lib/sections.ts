@@ -24,6 +24,7 @@ const TOP_LEVEL: HeaderKind[] = [
   'hot_topics',
   'case_reports',
   'pediatric_endo',
+  'sub_apps',
   'stories',
   'calculators',
   'imaging_resources',
@@ -67,7 +68,7 @@ export function buildSections(rows: NavRow[]): LandingSection[] {
         subtitle: row.entry.subtitle,
         group: currentGroup,
       })
-    } else if (row.type === 'calculator' || row.type === 'imaging') {
+    } else if (row.type === 'calculator' || row.type === 'imaging' || row.type === 'sub_app') {
       current.items.push({
         id: row.id,
         title: row.title,

@@ -101,6 +101,23 @@ export function buildNavRows(catalog: RawCatalog): NavRow[] {
     }
   }
 
+  const subApps = (catalog.subApps?.entries ?? []).filter(readyFile)
+  if (subApps.length) {
+    pushHeader(rows, 'hdr-sub-apps', catalog.subApps?.title ?? 'Sub-Apps', 'sub_apps', {
+      subtitle: catalog.subApps?.description,
+      count: subApps.length,
+    })
+    for (const subApp of subApps) {
+      rows.push({
+        type: 'sub_app',
+        id: subApp.id,
+        title: subApp.title,
+        subtitle: subApp.subtitle ?? subApp.category ?? 'Sub-App',
+        href: `endo/${subApp.file}`,
+      })
+    }
+  }
+
   const stories = (catalog.stories?.entries ?? []).filter(readyFile)
   if (stories.length) {
     pushHeader(rows, 'hdr-stories', catalog.stories?.title ?? 'Stories', 'stories', {
@@ -242,5 +259,6 @@ export function navRowHeight(row: NavRow): number {
   }
   if (row.type === 'calculator') return 58
   if (row.type === 'imaging') return 58
+  if (row.type === 'sub_app') return 58
   return 66
 }

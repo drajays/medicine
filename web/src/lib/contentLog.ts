@@ -9,6 +9,7 @@ export type ContentKind =
   | 'trial'
   | 'calculator'
   | 'imaging'
+  | 'sub_app'
   | 'catalog'
   | 'other'
 
@@ -64,6 +65,7 @@ export const KIND_META: Record<
   trial: { label: 'Trials', icon: '📊', kind: 'trials' },
   calculator: { label: 'Calculators', icon: '🧮', kind: 'calculators' },
   imaging: { label: 'Imaging & Atlases', icon: '🩻', kind: 'imaging_resources' },
+  sub_app: { label: 'Sub-Apps', icon: '⚕️', kind: 'sub_apps' },
   catalog: { label: 'Catalog', icon: '🗂️', kind: null },
   other: { label: 'Other', icon: '📄', kind: null },
 }

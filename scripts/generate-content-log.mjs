@@ -22,6 +22,7 @@ const ID_FROM_FILE = [
   [/^(tr-\d{3})/i, 'trial'],
   [/^(calc-\d{3})/i, 'calculator'],
   [/^(img-\d{3})/i, 'imaging'],
+  [/^(sub-\d{3})/i, 'sub_app'],
 ]
 
 function parseIdAndKind(filename) {
@@ -44,6 +45,7 @@ function buildCatalogMap(index) {
     ['story', index.stories?.entries ?? []],
     ['calculator', index.calculators?.entries ?? []],
     ['imaging', index.imagingResources?.entries ?? []],
+    ['sub_app', index.subApps?.entries ?? []],
     ['trial', index.trials?.entries ?? []],
   ]
   for (const [kind, entries] of trees) {

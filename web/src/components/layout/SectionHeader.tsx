@@ -23,6 +23,12 @@ const HEADER_THEME: Record<
     title: 'text-green-950 dark:text-green-50',
     meta: 'text-green-800/80 dark:text-green-200/70',
   },
+  sub_apps: {
+    icon: '⚕️',
+    wrap: 'bg-gradient-to-r from-emerald-100/90 to-teal-50 border-l-[3px] border-l-emerald-600 dark:from-emerald-950/50 dark:to-teal-950/25 dark:border-l-emerald-400',
+    title: 'text-emerald-950 dark:text-emerald-50',
+    meta: 'text-emerald-800/80 dark:text-emerald-200/70',
+  },
   stories: {
     icon: '💬',
     wrap: 'bg-gradient-to-r from-rose-100/90 to-pink-50 border-l-[3px] border-l-rose-500 dark:from-rose-950/50 dark:to-pink-950/25 dark:border-l-rose-400',
@@ -119,7 +125,7 @@ export function SectionHeader({ kind, title, subtitle, count }: SectionHeaderPro
   )
 }
 
-export function entryKindAccent(kind: NavEntry['kind'] | 'calculator' | 'imaging') {
+export function entryKindAccent(kind: NavEntry['kind'] | 'calculator' | 'imaging' | 'sub_app') {
   switch (kind) {
     case 'hot_topic':
       return 'border-l-2 border-l-amber-400/60'
@@ -135,6 +141,8 @@ export function entryKindAccent(kind: NavEntry['kind'] | 'calculator' | 'imaging
       return 'border-l-2 border-l-violet-500/60'
     case 'imaging':
       return 'border-l-2 border-l-cyan-500/60'
+    case 'sub_app':
+      return 'border-l-2 border-l-emerald-500/60'
     default:
       return ''
   }

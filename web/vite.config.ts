@@ -8,7 +8,7 @@ import path from 'path'
 function serveRepoData(): Plugin {
   const dataDir = resolve(__dirname, '..', 'data')
   const repoRoot = resolve(__dirname, '..', '..')
-  const staticDirs = ['calculators', 'imaging'] as const
+  const staticDirs = ['calculators', 'imaging', 'endo'] as const
 
   return {
     name: 'serve-repo-data',
