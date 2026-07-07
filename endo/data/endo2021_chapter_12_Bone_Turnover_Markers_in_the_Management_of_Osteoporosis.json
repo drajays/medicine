@@ -4,47 +4,451 @@
   "chapterNo": "12",
   "title": "Bone Turnover Markers in the Management of Osteoporosis",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "Richard Eastell, MD. Department of Oncology and Metabolism, University of Sheffield, Sheffield, South Yorkshire, England; E-mail: r.eastell@sheffield.ac.uk",
+  "authors": "Richard Eastell, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_12_Bone_Turnover_Markers_in_the_Management_of_Osteoporosis.md",
   "items": [
     {
+      "id": "e21-12-n1",
+      "type": "note",
+      "subtopic": "BTM adherence",
+      "title": "Why bone turnover markers help identify poor bisphosphonate adherence",
+      "text": "Up to half of patients stop oral bisphosphonates within a year; measuring BTMs at baseline and 3 months can identify poor response likely from nonadherence.",
+      "reference": "Significance of the Clinical Problem: \"the measurement of BTMs before and then 3 months after starting treatment could be a successful strategy to identify poor drug response, most likely caused by poor adherence.\""
+    },
+    {
+      "id": "e21-12-n2",
+      "type": "note",
+      "subtopic": "Reference markers",
+      "title": "How CTX and PINP became the reference bone turnover markers",
+      "text": "IOF and IFCC recommend serum CTX and PINP as reference markers for research and clinical practice; automated immunoassays are preferred worldwide.",
+      "reference": "Bone Turnover Markers: \"The International Osteoporosis Foundation and the International Federation of Clinical Chemistry have proposed using CTX and PINP as the reference markers.\""
+    },
+    {
+      "id": "e21-12-n3",
+      "type": "note",
+      "subtopic": "Pre-analytical variability",
+      "title": "Why fasting morning samples are required for CTX",
+      "text": "CTX is twice as high in the morning as afternoon; draw fasting blood first thing in the morning to minimize diurnal variability.",
+      "reference": "Sources of Variability in BTMs: \"CTX is twice as high in the morning as in the afternoon, so it is recommended to draw the patient's blood in the fasting state, first thing in the morning.\""
+    },
+    {
+      "id": "e21-12-n4",
+      "type": "note",
+      "subtopic": "TRIO targets",
+      "title": "How TRIO defined treatment response targets for BTMs",
+      "text": "Two targets: least significant change (~10 μg/L PINP, 120 ng/L CTX) and premenopausal median (35 μg/L PINP, 280 ng/L CTX); ~90% respond at 12 weeks in research settings.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Response: \"The least significant change. This is the least change that can be considered to be significant (at P<.05) based on 2 measurements in an individual patient. This was estimated to be around 10 μg/L for PINP and 120 ng/L for CTX.\""
+    },
+    {
+      "id": "e21-12-n5",
+      "type": "note",
+      "subtopic": "Drug holiday",
+      "title": "When to consider a bisphosphonate drug holiday using BTMs",
+      "text": "After 5 years of oral bisphosphonate, consider stopping if hip T-score > -2.5 and no spine fracture; BTMs rising above LSC or premenopausal median signal offset and need to restart.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Offset of Effect: \"Patients taking oral bisphosphonates are recommended to stop treatment after 5 years if they are at relatively low fracture risk (BMD T-score above -2.5 at the hip and no recent fracture) to reduce the risk of atypical femur fractures.\""
+    },
+    {
+      "id": "e21-12-n6",
+      "type": "note",
+      "subtopic": "Denosumab BTMs",
+      "title": "How BTMs behave with denosumab start and stop",
+      "text": "Denosumab produces very high response rates—monitoring efficacy may be unnecessary—but rebound BTM increases after stopping may guide bisphosphonate bridging timing.",
+      "reference": "Clinical Uses of BTMs—Monitoring Drugs Other Than Bisphosphonates: \"after stopping denosumab, there is a rebound increase in BTMs and the timing of the rebound might help dictate the optimal time to give a bisphosphonate to prevent accelerated bone loss.\""
+    },
+    {
+      "id": "e21-12-n7",
+      "type": "note",
+      "subtopic": "Anabolic BTMs",
+      "title": "How PINP monitors anabolic osteoporosis therapy",
+      "text": "Teriparatide, abaloparatide, and romosozumab cause early large PINP increases; rise >10 μg/L above LSC to >65 μg/L indicates good response—no offset monitoring needed.",
+      "reference": "Clinical Uses of BTMs—Monitoring Drugs Other Than Bisphosphonates: \"An increase above the least significant change (>10 μg/L) to above the upper limit of the reference range (>65 μg/L) indicates good response. There is no role for monitoring offset of effect\""
+    },
+    {
+      "id": "e21-12-n8",
+      "type": "note",
+      "subtopic": "Glucocorticoid effect",
+      "title": "Why glucocorticoids confound BTM interpretation",
+      "text": "Recent glucocorticoid dose increases suppress BTMs especially formation markers—BTMs are only helpful in glucocorticoid-induced osteoporosis if steroid dose is unchanged.",
+      "reference": "Sources of Variability in BTMs: \"if the dose has been increased in the last few days BTMs would be reduced. Thus, BTMs are only helpful in patients with glucocorticoid-induced osteoporosis if the glucocorticoid dosage remains unchanged.\""
+    },
+    {
+      "id": "e21-12-n9",
+      "type": "note",
+      "subtopic": "Recent fracture",
+      "title": "How recent fracture elevates BTMs for months",
+      "text": "A recent fracture causes large BTM increases peaking at 3 months and not returning to normal for a year—particularly formation markers.",
+      "reference": "Sources of Variability in BTMs: \"A recent fracture results in a large increase in BTMs with a peak after 3 months and levels not returning to normal for a year.\""
+    },
+    {
+      "id": "e21-12-n10",
+      "type": "note",
+      "subtopic": "Treatment failure",
+      "title": "How IOF defines pharmacologic treatment failure on denosumab",
+      "text": "One new vertebral fracture over 8 years with suppressed PINP is not treatment failure; IOF defines failure as two fractures while on treatment.",
+      "reference": "Case 3: \"According to the International Osteoporosis Foundation, treatment failure is defined as having 2 fractures while on treatment.\""
+    },
+    {
+      "id": "e21-12-n11",
+      "type": "note",
+      "subtopic": "BMD vs BTM",
+      "title": "Why BTMs outperform BMD for detecting treatment offset",
+      "text": "After stopping bisphosphonates, bone loss is very slow because drug persists in bone—BTMs reflect mechanism of action and detect offset earlier than BMD.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Offset of Effect: \"BTMs are more useful than BMD, as they reflect the way in which these drugs work.\""
+    },
+    {
+      "id": "e21-12-n12",
+      "type": "note",
+      "subtopic": "US PINP",
+      "title": "FDA status of automated PINP assays in the United States",
+      "text": "Automated immunoassays are recommended worldwide except in the US where FDA has not approved automated PINP assays.",
+      "reference": "Bone Turnover Markers: \"The only exception is that in the United States the automated assays for PINP have not been approved by the FDA.\""
+    },
+    {
       "id": "e21-12-q1",
       "type": "mcq",
-      "subtopic": "Bone Turnover Markers in Osteoporosis Management",
-      "question": "A 70-year-old woman has osteopenia noted in spinal radiographs. She is treated with alendronate, calcium, and vitamin D. After 6 months of treatment, her CTX level decreased to 120 ng/L and PINP to 20 μg/L. At 60 months, these levels remained the same, but at 72 months they increased to 400 ng/L for CTX and 40 μg/L for PINP. Did the patient respond to treatment? Has the treatment effect worn off?",
+      "subtopic": "Case 1 — response and offset",
+      "question": "A woman on alendronate 5 years has CTX 500→120 ng/L at 6 months, then 120 at 60 months, then 400 ng/L at 72 months off drug. Interpretation?",
       "options": [
-        "A. She responded to treatment and the effect has worn off",
-        "B. She did not respond to treatment and the effect has not worn off",
-        "C. She responded to treatment and the effect has not worn off",
-        "D. The results cannot be interpreted as there is too much variability"
+        "Responded to treatment and effect has worn off",
+        "Did not respond and effect has not worn off",
+        "Responded and effect has not worn off",
+        "Cannot interpret due to variability"
       ],
       "correctOption": 0,
-      "explanation": "The patient initially showed a significant decrease in both CTX and PINP levels, indicating a response to alendronate treatment. After stopping the medication for 12 months (from month 60 to 72), there was an increase in these markers above premenopausal median values, suggesting that the effect of the treatment had worn off.",
-      "reference": "MAIN CONCLUSIONS: \"The greater the response, the greater the reduction in fracture risk. The goal in the individual patient is for the change in BTMs to exceed the least significant change into the lower half (or below) of the reference interval for healthy young women.\""
+      "explanation": "She met LSC and premenopausal median targets on treatment; offset is shown by reciprocal rise after stopping.",
+      "reference": "Case 1: \"Answer: A) She responded to treatment and the effect has worn off\""
     },
     {
-      "id": "e21-12-why1",
-      "type": "why",
-      "subtopic": "Bone Turnover Markers and Treatment Monitoring",
-      "question": "Why are bone turnover markers (BTMs) considered useful in monitoring the offset of treatment effect in osteoporosis?",
-      "answer": "Because BTMs respond rapidly to changes in therapy, allowing clinicians to detect when antiresorptive effects diminish after stopping treatments like bisphosphonates.",
-      "keyPoints": [
-        "BTMs provide rapid feedback on bone metabolism changes.",
-        "They help identify the need to restart therapy if levels rise above premenopausal median values."
+      "id": "e21-12-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 — PINP",
+      "question": "In Case 1, PINP fell from 60 to 20 μg/L at 6 months. Does this indicate treatment response?",
+      "options": [
+        "No — change is within assay noise",
+        "Yes — exceeds LSC (>10 μg/L decrease) and falls below premenopausal median (35 μg/L)",
+        "Only if BMD also increased",
+        "Cannot assess until 12 months"
       ],
-      "reference": "MAIN CONCLUSIONS: \"An increase beyond the least significant change or to a level in the upper half (or above) of the reference range for healthy young women indicates the need to restart therapy.\""
+      "correctOption": 1,
+      "explanation": "PINP decrease >10 μg/L to 20 μg/L meets both TRIO response criteria.",
+      "reference": "Case 1: \"For PINP, she responded, as she exceeded the least significant change (decrease by more than 10) and the value fell below the median for premenopausal women (35 μg/L).\""
     },
     {
-      "id": "e21-12-how2",
-      "type": "how",
-      "subtopic": "Application of Bone Turnover Markers",
-      "question": "How should clinicians use bone turnover markers (BTMs) to assess treatment response in osteoporosis?",
-      "answer": "Clinicians measure BTMs before and after starting treatment, comparing changes against least significant change thresholds and premenopausal median values to determine if the patient has responded.",
-      "keyPoints": [
-        "Measure BTMs at baseline and 3 months post-treatment initiation.",
-        "Evaluate response by checking if BTM levels fall below premenopausal median values."
+      "id": "e21-12-q3",
+      "type": "mcq",
+      "subtopic": "Case 2 — high turnover",
+      "question": "An 87-year-old woman stopped alendronate 2 years ago after 10 years and now has a new L2 fracture; PINP is 140 μg/L. Best treatment?",
+      "options": [
+        "Watch and wait",
+        "Teriparatide",
+        "Restart alendronate at half dose",
+        "Zoledronate or denosumab"
       ],
-      "reference": "MAIN CONCLUSIONS: \"The goal in the individual patient is for the change in BTMs to exceed the least significant change into the lower half (or below) of the reference interval for healthy young women.\""
+      "correctOption": 3,
+      "explanation": "High turnover after bisphosphonate offset warrants potent antiresorptive therapy—zoledronate or denosumab.",
+      "reference": "Case 2: \"Answer: D) Initiate zoledronate or denosumab\""
+    },
+    {
+      "id": "e21-12-q4",
+      "type": "mcq",
+      "subtopic": "Case 2 — half-dose alendronate",
+      "question": "Why is half-dose alendronate unlikely to suffice in Case 2?",
+      "options": [
+        "Alendronate is contraindicated after age 80",
+        "Low-dose treatment is unlikely to reach BTM target with such high turnover",
+        "PINP cannot be measured after alendronate",
+        "Teriparatide is mandatory after any vertebral fracture"
+      ],
+      "correctOption": 1,
+      "explanation": "With PINP 140 μg/L, low-dose alendronate is unlikely to achieve adequate turnover suppression.",
+      "reference": "Case 2: \"low-dosage treatment (Answer C) for such high bone turnover is unlikely to help this patient reach the BTM target.\""
+    },
+    {
+      "id": "e21-12-q5",
+      "type": "mcq",
+      "subtopic": "Case 3 — denosumab continuation",
+      "question": "A 78-year-old on denosumab 8 years has new L3 fracture; PINP 10 μg/L; BMD T-scores -0.7 spine, -1.5 hip. Best action?",
+      "options": [
+        "Continue denosumab",
+        "Change to teriparatide",
+        "Change to zoledronate",
+        "Stop treatment"
+      ],
+      "correctOption": 0,
+      "explanation": "PINP <35 μg/L shows effective suppression; one fracture in 8 years is not IOF-defined treatment failure.",
+      "reference": "Case 3: \"Answer: A) Continue treatment with denosumab\""
+    },
+    {
+      "id": "e21-12-q6",
+      "type": "mcq",
+      "subtopic": "Case 3 — zoledronate switch",
+      "question": "Why is switching to zoledronate not preferred in Case 3?",
+      "options": [
+        "Zoledronate is contraindicated after age 75",
+        "Zoledronate is rarely effective if denosumab is not effective",
+        "PINP must be >200 μg/L before switching",
+        "Denosumab cannot be stopped once started"
+      ],
+      "correctOption": 1,
+      "explanation": "Denosumab is working; zoledronate is rarely effective when denosumab has failed—and denosumab has not failed here.",
+      "reference": "Case 3: \"Zoledronate (Answer C) is rarely effective if denosumab is not effective.\""
+    },
+    {
+      "id": "e21-12-q7",
+      "type": "mcq",
+      "subtopic": "Case 4 — zoledronate restart",
+      "question": "A 73-year-old had 6 annual zoledronate doses, stopped 3 years ago, lost 5% hip BMD, PINP 50 μg/L. Best treatment?",
+      "options": [
+        "Watch and wait",
+        "Anabolic therapy",
+        "Single zoledronate dose",
+        "Denosumab"
+      ],
+      "correctOption": 2,
+      "explanation": "Accelerated bone loss and elevated PINP after 3-year gap warrant zoledronate restart; 3-year gap reduces AFF concern.",
+      "reference": "Case 4: \"Answer: C) Restart zoledronate with a single dose\""
+    },
+    {
+      "id": "e21-12-q8",
+      "type": "mcq",
+      "subtopic": "TRIO LSC",
+      "question": "Per TRIO, what is the least significant change for serum CTX in an individual patient?",
+      "options": [
+        "10 ng/L",
+        "35 ng/L",
+        "120 ng/L",
+        "280 ng/L"
+      ],
+      "correctOption": 2,
+      "explanation": "TRIO estimated LSC around 120 ng/L for CTX and 10 μg/L for PINP.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Response: \"This was estimated to be around 10 μg/L for PINP and 120 ng/L for CTX.\""
+    },
+    {
+      "id": "e21-12-q9",
+      "type": "mcq",
+      "subtopic": "Sampling time",
+      "question": "A patient's CTX is drawn at 4 PM without fasting. Best advice?",
+      "options": [
+        "Result is valid regardless of time",
+        "Repeat fasting morning sample — CTX has marked diurnal variation",
+        "Switch to calcitonin measurement",
+        "Only urinary NTX is valid in afternoon"
+      ],
+      "correctOption": 1,
+      "explanation": "CTX is twice as high in morning; fasting morning sampling is recommended.",
+      "reference": "Sources of Variability in BTMs: \"CTX is twice as high in the morning as in the afternoon, so it is recommended to draw the patient's blood in the fasting state, first thing in the morning.\""
+    },
+    {
+      "id": "e21-12-q10",
+      "type": "mcq",
+      "subtopic": "Drug holiday indication",
+      "question": "After 5 years of alendronate, a drug holiday may be considered if:",
+      "options": [
+        "Hip T-score is above -2.5 and no recent spine fracture",
+        "Any osteopenia on spine radiograph",
+        "CTX is below premenopausal median",
+        "Patient requests holiday regardless of risk"
+      ],
+      "correctOption": 0,
+      "explanation": "Low fracture risk (hip T > -2.5, no spine fracture) after 5 years prompts holiday consideration to reduce AFF risk.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Offset of Effect: \"stop treatment after 5 years if they are at relatively low fracture risk (BMD T-score above -2.5 at the hip and no recent fracture)\""
+    },
+    {
+      "id": "e21-12-q11",
+      "type": "mcq",
+      "subtopic": "Denosumab monitoring",
+      "question": "Regarding denosumab treatment response monitoring with BTMs:",
+      "options": [
+        "Everyone responds so monitoring is never useful",
+        "Rebound BTM increase after stopping may guide bisphosphonate bridging",
+        "CTX must be measured weekly",
+        "BTMs cannot change on denosumab"
+      ],
+      "correctOption": 1,
+      "explanation": "Near-universal denosumab response limits efficacy monitoring, but offset/rebound BTMs guide transition timing.",
+      "reference": "Clinical Uses of BTMs—Monitoring Drugs Other Than Bisphosphonates: \"after stopping denosumab, there is a rebound increase in BTMs and the timing of the rebound might help dictate the optimal time to give a bisphosphonate\""
+    },
+    {
+      "id": "e21-12-q12",
+      "type": "mcq",
+      "subtopic": "Anabolic PINP",
+      "question": "One month after starting teriparatide, PINP rises from 40 to 75 μg/L. Interpretation?",
+      "options": [
+        "Treatment failure",
+        "Good anabolic response",
+        "Need to stop teriparatide immediately",
+        "Indicates osteomalacia"
+      ],
+      "correctOption": 1,
+      "explanation": "Anabolic agents should increase PINP above LSC to above upper reference (~65 μg/L) within weeks.",
+      "reference": "Clinical Uses of BTMs—Monitoring Drugs Other Than Bisphosphonates: \"An increase above the least significant change (>10 μg/L) to above the upper limit of the reference range (>65 μg/L) indicates good response.\""
+    },
+    {
+      "id": "e21-12-q13",
+      "type": "mcq",
+      "subtopic": "Recent fracture",
+      "question": "A patient had a wrist fracture 2 months ago. How does this affect BTM interpretation?",
+      "options": [
+        "No effect on BTMs",
+        "BTMs may be falsely elevated for months",
+        "BTMs are permanently suppressed",
+        "Only urinary calcium is affected"
+      ],
+      "correctOption": 1,
+      "explanation": "Recent fractures elevate BTMs with peak at 3 months and normalization taking up to a year.",
+      "reference": "Sources of Variability in BTMs: \"A recent fracture results in a large increase in BTMs with a peak after 3 months and levels not returning to normal for a year.\""
+    },
+    {
+      "id": "e21-12-tf1",
+      "type": "true_false",
+      "subtopic": "Adherence",
+      "statement": "BTMs measured at baseline and 3 months can help identify poor bisphosphonate adherence.",
+      "correctAnswer": true,
+      "explanation": "IOF/ECTS working group proposed this strategy for oral bisphosphonates.",
+      "reference": "Significance of the Clinical Problem: \"the measurement of BTMs before and then 3 months after starting treatment could be a successful strategy to identify poor drug response, most likely caused by poor adherence.\""
+    },
+    {
+      "id": "e21-12-tf2",
+      "type": "true_false",
+      "subtopic": "TRIO response",
+      "statement": "In TRIO, approximately 90% of patients met CTX response criteria at 12 weeks on oral bisphosphonates.",
+      "correctAnswer": true,
+      "explanation": "Research-setting response rates were ~90% for CTX and ~85% for PINP using LSC.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Response: \"the percentage of responders using least significant change in this research study at 12 weeks of treatment was around 90% for CTX and 85% for PINP.\""
+    },
+    {
+      "id": "e21-12-tf3",
+      "type": "true_false",
+      "subtopic": "Offset detection",
+      "statement": "BMD changes are faster and more useful than BTMs for detecting bisphosphonate offset.",
+      "correctAnswer": false,
+      "explanation": "BTMs are more useful than BMD for detecting offset because they reflect drug mechanism.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Offset of Effect: \"BTMs are more useful than BMD, as they reflect the way in which these drugs work.\""
+    },
+    {
+      "id": "e21-12-tf4",
+      "type": "true_false",
+      "subtopic": "Denosumab failure",
+      "statement": "One vertebral fracture on denosumab over 8 years constitutes treatment failure.",
+      "correctAnswer": false,
+      "explanation": "IOF defines failure as two fractures while on treatment.",
+      "reference": "Case 3: \"treatment failure is defined as having 2 fractures while on treatment.\""
+    },
+    {
+      "id": "e21-12-tf5",
+      "type": "true_false",
+      "subtopic": "Anabolic offset",
+      "statement": "BTMs should be monitored for offset effect after stopping teriparatide.",
+      "correctAnswer": false,
+      "explanation": "There is no role for monitoring offset after anabolic agents—all require follow-on antiresorptive therapy.",
+      "reference": "Clinical Uses of BTMs—Monitoring Drugs Other Than Bisphosphonates: \"There is no role for monitoring offset of effect, as all these agents should be followed by treatment with antiresorptive drugs.\""
+    },
+    {
+      "id": "e21-12-tf6",
+      "type": "true_false",
+      "subtopic": "Glucocorticoids",
+      "statement": "Recent glucocorticoid dose increases can falsely lower bone formation markers.",
+      "correctAnswer": true,
+      "explanation": "Glucocorticoids suppress BTMs especially formation markers within days of dose increase.",
+      "reference": "Sources of Variability in BTMs: \"if the dose has been increased in the last few days BTMs would be reduced.\""
+    },
+    {
+      "id": "e21-12-tf7",
+      "type": "true_false",
+      "subtopic": "Case 4 watchful waiting",
+      "statement": "Watchful waiting is appropriate when hip BMD has fallen 5% and PINP is 50 μg/L after stopping zoledronate.",
+      "correctAnswer": false,
+      "explanation": "Accelerated bone loss with high turnover requires restarting therapy—not observation.",
+      "reference": "Case 4: \"Watching and waiting (Answer A) would be inappropriate, as she has both accelerated bone loss and an unacceptably high bone turnover.\""
+    },
+    {
+      "id": "e21-12-tf8",
+      "type": "true_false",
+      "subtopic": "US PINP",
+      "statement": "Automated PINP assays are FDA-approved and widely used in the United States.",
+      "correctAnswer": false,
+      "explanation": "Automated PINP assays have not been FDA-approved in the US.",
+      "reference": "Bone Turnover Markers: \"in the United States the automated assays for PINP have not been approved by the FDA.\""
+    },
+    {
+      "id": "e21-12-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Treatment response",
+      "assertion": "Assertion: A >120 ng/L decrease in CTX after starting alendronate indicates treatment response.",
+      "reason": "Reason: TRIO defined least significant change for CTX at approximately 120 ng/L.",
+      "correctOption": 0,
+      "explanation": "Both true—exceeding LSC signifies biologically meaningful antiresorptive effect.",
+      "reference": "Case 1: \"she exceeded the least significant change (decrease by more than 120)\""
+    },
+    {
+      "id": "e21-12-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Offset",
+      "assertion": "Assertion: Rising CTX above premenopausal median after stopping alendronate signals need to restart therapy.",
+      "reason": "Reason: Bisphosphonates continue preventing bone loss for years after stopping.",
+      "correctOption": 2,
+      "explanation": "A is true when offset occurs; R is true about residual effect but does not negate BTM-guided restart when turnover rebounds.",
+      "reference": "Clinical Uses of BTMs—Identification of Treatment Offset of Effect: \"An increase in BTM above the least significant change or a BTM level (off treatment) above the premenopausal median signify offset of response and therefore treatment would be recommended to restart.\""
+    },
+    {
+      "id": "e21-12-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Denosumab",
+      "assertion": "Assertion: PINP 10 μg/L on denosumab indicates effective treatment.",
+      "reason": "Reason: Premenopausal median PINP is 35 μg/L.",
+      "correctOption": 0,
+      "explanation": "Both true—PINP well below median confirms strong antiresorptive effect.",
+      "reference": "Case 3: \"The PINP concentration is well below the geometric mean for young women (<35 μg/L).\""
+    },
+    {
+      "id": "e21-12-ar4",
+      "type": "assertion_reason",
+      "subtopic": "High turnover restart",
+      "assertion": "Assertion: Zoledronate is preferred over watchful waiting when PINP is elevated after bisphosphonate discontinuation.",
+      "reason": "Reason: Elevated BTMs predict greater BMD response to antiresorptives.",
+      "correctOption": 0,
+      "explanation": "Both true—high turnover indicates active bone loss warranting restart.",
+      "reference": "Case 2: \"She is no longer having suppression of bone turnover from the prior alendronate therapy. She has high bone turnover\""
+    },
+    {
+      "id": "e21-12-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Diurnal variation",
+      "assertion": "Assertion: Afternoon CTX values are unreliable without fasting morning sampling.",
+      "reason": "Reason: CTX is twice as high in the morning as in the afternoon.",
+      "correctOption": 0,
+      "explanation": "Both true—diurnal variation mandates standardized morning fasting draws.",
+      "reference": "Sources of Variability in BTMs: \"CTX is twice as high in the morning as in the afternoon\""
+    },
+    {
+      "id": "e21-12-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Teriparatide after denosumab",
+      "assertion": "Assertion: Teriparatide is the best switch for one new fracture on effective denosumab.",
+      "reason": "Reason: Teriparatide is more expensive than zoledronate.",
+      "correctOption": 4,
+      "explanation": "Both false—denosumab has not failed; cost alone does not make teriparatide the best switch.",
+      "reference": "Case 3: \"Teriparatide (Answer B) could be effective, but she has not failed to respond to denosumab.\""
+    },
+    {
+      "id": "e21-12-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Anabolic monitoring",
+      "assertion": "Assertion: PINP should rise within a month of starting teriparatide.",
+      "reason": "Reason: Anabolic agents cause early large increases in formation markers.",
+      "correctOption": 0,
+      "explanation": "Both true—early PINP rise confirms anabolic activity.",
+      "reference": "Clinical Uses of BTMs—Monitoring Drugs Other Than Bisphosphonates: \"This marker can be measured as early as a month after treatment initiation to identify response and it should increase.\""
+    },
+    {
+      "id": "e21-12-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Fracture confounder",
+      "assertion": "Assertion: Recent fracture invalidates BTM monitoring for treatment response for up to a year.",
+      "reason": "Reason: Fractures increase BTMs peaking at 3 months.",
+      "correctOption": 0,
+      "explanation": "Both true—recent fracture elevates BTMs and confounds treatment-response interpretation for months.",
+      "reference": "Sources of Variability in BTMs: \"levels not returning to normal for a year.\""
     }
   ]
 }

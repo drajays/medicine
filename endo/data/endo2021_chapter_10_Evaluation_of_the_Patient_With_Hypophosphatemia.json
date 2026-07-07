@@ -4,47 +4,451 @@
   "chapterNo": "10",
   "title": "Evaluation of the Patient With Hypophosphatemia",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Peter J. Tebben, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_10_Evaluation_of_the_Patient_With_Hypophosphatemia.md",
   "items": [
     {
-      "subtopic": "Hyperparathyroidism and Hypercalcemia",
-      "question": "A 21-year-old woman with X-linked hypohylcalcaemia (XLH) presents for evaluation of recent-onset hypercalcemia. Which of the following is the best initial management?",
+      "id": "e21-10-n1",
+      "type": "note",
+      "subtopic": "Screening",
+      "title": "Why serum phosphate is often overlooked in musculoskeletal complaints",
+      "text": "Chronic hypophosphatemia causes rickets or osteomalacia; serum phosphorus is frequently omitted from the evaluation of musculoskeletal symptoms, delaying diagnosis for years.",
+      "reference": "Significance of the Clinical Problem: \"Serum phosphorus is an important mineral that is frequently overlooked in the evaluation of patients with musculoskeletal complaints, which can lead to significant delays in diagnosis and treatment.\""
+    },
+    {
+      "id": "e21-10-n2",
+      "type": "note",
+      "subtopic": "Pediatric ranges",
+      "title": "How age-appropriate phosphate reference ranges prevent missed diagnosis",
+      "text": "Infants and children have significantly higher serum phosphate than adults; applying adult reference intervals to children can mask hypophosphatemia.",
+      "reference": "Barriers to Optimal Practice: \"Serum phosphate concentrations are significantly higher in infants and younger children than in adults. As a result, hypophosphatemia may be overlooked if the adult reference range is applied to the pediatric population.\""
+    },
+    {
+      "id": "e21-10-n3",
+      "type": "note",
+      "subtopic": "Classification",
+      "title": "How to categorize hypophosphatemia for evaluation",
+      "text": "Three categories guide workup: decreased intake/malabsorption, redistribution, and renal phosphate wasting (FGF-23-mediated vs non-FGF-23-mediated).",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Hypophosphatemia can be divided into 3 main categories (Table): 1. Decreased intake and/or malabsorption 2. Redistribution within the body 3. Renal phosphate wasting\""
+    },
+    {
+      "id": "e21-10-n4",
+      "type": "note",
+      "subtopic": "Malabsorption labs",
+      "title": "How low fractional excretion of phosphate identifies intake/malabsorption",
+      "text": "Low urine phosphate with fractional excretion of phosphate <5% is characteristic of inadequate intake or malabsorption; elevated 1,25-dihydroxyvitamin D is also expected.",
+      "reference": "Laboratory Assessment: \"Low urine phosphate with a low fractional excretion of phosphate (less than 5%) is a hallmark of hypophosphatemia caused by inadequate intake or malabsorption.\""
+    },
+    {
+      "id": "e21-10-n5",
+      "type": "note",
+      "subtopic": "Redistribution",
+      "title": "Why acute respiratory alkalosis causes transient hypophosphatemia",
+      "text": "Acute alkalosis shifts phosphate intracellularly; it is self-limited and does not require phosphate replacement once the underlying cause resolves.",
+      "reference": "Redistribution: \"Acute respiratory alkalosis can cause transient hypophosphatemia due to transcellular shifts, is self-limited, and does not require phosphate replacement therapy.\""
+    },
+    {
+      "id": "e21-10-n6",
+      "type": "note",
+      "subtopic": "FGF-23 pattern",
+      "title": "How FGF-23-mediated renal wasting differs biochemically",
+      "text": "FGF-23-mediated disease shows normal calcium, normal or low urinary calcium, and low or inappropriately normal 1,25-dihydroxyvitamin D.",
+      "reference": "Laboratory Assessment: \"FGF-23 mediated: Normal serum calcium Normal or low urinary calcium Low or inappropriately normal 1α,25(OH)2D3\""
+    },
+    {
+      "id": "e21-10-n7",
+      "type": "note",
+      "subtopic": "XLH therapy",
+      "title": "How burosumab changes XLH management",
+      "text": "Anti-FGF-23 antibody (burosumab) reduces renal phosphate wasting, raises 1,25-dihydroxyvitamin D, and is given every 2 weeks in children and every 4 weeks in adults.",
+      "reference": "FGF-23-Mediated Disease: \"Burosumab treatment results in reduced renal phosphate wasting and increased 1α,25(OH)2D3 concentrations.\""
+    },
+    {
+      "id": "e21-10-n8",
+      "type": "note",
+      "subtopic": "Conventional XLH",
+      "title": "Why calcitriol plus phosphate requires vigilant monitoring",
+      "text": "Conventional XLH therapy risks secondary/tertiary hyperparathyroidism, hypercalciuria, nephrocalcinosis, and nephrolithiasis—tertiary hyperparathyroidism may require parathyroid surgery.",
+      "reference": "FGF-23-Mediated Disease: \"Treatment with calcitriol and phosphate supplementation requires vigilant monitoring to avoid complications such as secondary/tertiary hyperparathyroidism, hypercalciuria, nephrocalcinosis, and nephrolithiasis.\""
+    },
+    {
+      "id": "e21-10-n9",
+      "type": "note",
+      "subtopic": "TIO management",
+      "title": "How to manage tumor-induced osteomalacia",
+      "text": "Optimal treatment is tumor localization and surgical removal; when elusive or unresectable, calcitriol and phosphate are required—burosumab is not approved for TIO.",
+      "reference": "FGF-23-Mediated Disease: \"Optimal treatment for patients with tumor-induced osteomalacia includes identification of the offending tumor and surgical removal.\""
+    },
+    {
+      "id": "e21-10-n10",
+      "type": "note",
+      "subtopic": "TIO follow-up",
+      "title": "Why periodic phosphate monitoring is mandatory after TIO surgery",
+      "text": "Recurrent hypophosphatemia can occur years after apparent cure; phosphate often falls before symptoms or osteomalacia recur.",
+      "reference": "Case 2 (Continued): \"Patients with tumor-induced osteomalacia should be monitored proactively after apparent surgical cure. The best recommendation is periodic serum phosphate measurement (Answer B).\""
+    },
+    {
+      "id": "e21-10-n11",
+      "type": "note",
+      "subtopic": "Hungry bone",
+      "title": "How hungry bone syndrome differs from TIO postoperative course",
+      "text": "Hungry bone follows parathyroidectomy; serum phosphate typically normalizes within days after TIO tumor resection, though pain and fractures may take months to heal.",
+      "reference": "Case 4 (Continued): \"Hungry bone syndrome may occur after parathyroidectomy for hyperparathyroidism; however, serum phosphate typically returns to normal within days after surgical cure of tumor-induced osteomalacia\""
+    },
+    {
+      "id": "e21-10-n12",
+      "type": "note",
+      "subtopic": "DKA phosphate",
+      "title": "Why phosphate replacement does not improve outcomes in DKA",
+      "text": "Despite sometimes severe hypophosphatemia during DKA treatment, phosphate replacement has not been shown to improve outcomes.",
+      "reference": "Treatment: \"Although hypophosphatemia occurring treatment of DKA can be severe, it is not replacement improves outcomes.\""
+    },
+    {
+      "id": "e21-10-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — XLH tertiary HPT",
+      "question": "A 21-year-old woman with XLH on calcitriol and phosphorus presents with calcium 13.2 mg/dL and PTH 244 pg/mL one month after stopping supplements. Best initial management?",
       "options": [
-        "Restart phosphorus supplementation to correct the hypophosphatemia and reduce serum calcium",
-        "Continue furosemide to prevent worsening hypercalcemia",
-        "Order genetic testing for multiple endocrin neoplasia given her hyperparathyroidism at a young age",
+        "Restart phosphorus to lower calcium",
+        "Continue furosemide long-term",
+        "Order MEN1 genetic testing",
         "Consult a parathyroid surgeon"
       ],
       "correctOption": 3,
-      "explanation": "The patient has developed tertiary hyperparathyroidism as a result of overzealous phosphate supplementation. Hyperparathyroidism from any cause will worsen the renal phosphate wasting and contribute to hypophosphatemia. Surgery is therefore indicated (Answer D). Restarting phosphorus supplementation before addressing her hyperparathyroidism (Answer A) would only exacerbate the hyperparathyroidism. Furosemide (Answer B) should only be used transiently in treating severe hypercalcemia and would be inappropriate for long-term treatment. In addition, a loop diuretic would worsen her hypercalcuria and nephrocalcinosis.",
-      "reference": "\"The patient has developed tertiary hyperparathyroidism as a result of overzealous phosphate supplementation. Hyperparathyroidism from any cause will worsen the renal phosphate wasting and contribute to hypophosphatemia. Surgery is therefore indicated (Answer D). Restarting phosphorus supplementation before addressing her hyperparathyroidism (Answer A) would only exacerbate the hyperparathyroidism. Furosemide (Answer B) should only be used transiently in treating severe hypercalcemia and would be inappropriate for long-term treatment. In addition, a loop diuretic would worsen her hypercalcuria and nephrocalcinosis.\"",
-      "id": "e21-10-q1",
-      "type": "mcq"
+      "explanation": "Tertiary hyperparathyroidism from overzealous phosphate therapy requires parathyroid surgery before resuming XLH treatment.",
+      "reference": "Case 1: \"Answer: D) Consult a parathyroid surgeon\""
     },
     {
-      "type": "why",
-      "subtopic": "Evaluation of Hypophosphatemia",
-      "question": "Why should serum phosphate levels be measured when evaluating patients with unexplained musculoskeletal complaints?",
-      "answer": "Because measuring serum phosphate levels and applying the appropriate age-appropriate reference range can help establish the underlying etiology of hypophosphatemia, which is crucial for effective patient management.",
-      "keyPoints": [
-        "Serum phosphate measurement helps in identifying hypophosphatemia as a cause of unexplained musculoskeletal complaints",
-        "Applying the correct reference range ensures accurate diagnosis and treatment planning"
+      "id": "e21-10-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 — burosumab expectations",
+      "question": "The same XLH patient restarts burosumab after pseudofractures and dental abscesses. What is a reasonable treatment expectation?",
+      "options": [
+        "Healing of pseudofractures and reduced osteomalacia-related bone pain",
+        "Improvement in osteoarthritis pain",
+        "Improvement in enthesopathy pain",
+        "Reduced frequency of dental abscess"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Measure serum phosphate and apply the age-appropriate reference range when evaluating patients with unexplained musculoskeletal complaints.\"\n\nTreatment for hypophosphatemia due to poor intake or malabsorption includes phosphate supplementation, dietary changes, and/or treatment of underlying malabsorption disorders.\n\nTreatment options for hypophosphatemia due to renal phosphate wasting include active vitamin D and phosphorus replacement or anti-fibroblast growth factor 23 antibody therapy for those with X-linked hypophosphatemic rickets.\"\n",
-      "id": "e21-10-why1"
+      "correctOption": 0,
+      "explanation": "Burosumab heals pseudofractures and reduces osteomalacia bone pain; it does not treat osteoarthritis, enthesopathy, or dental abscess frequency.",
+      "reference": "Case 1 (Continued): \"Answer: A) Reduced bone pain and healing of her pseudofractures\""
     },
     {
-      "type": "how",
-      "subtopic": "Monitoring Hypophosphatemia Treatment",
-      "question": "How should patients treated with active vitamin D and phosphorus replacement be monitored to avoid complications?",
-      "answer": "Patients treated with active vitamin D and phosphorus replacement require close monitoring to prevent complications such as secondary/tertiary hyperparathyroidism and nephrocalcinosis/nephrolithiasis.",
-      "keyPoints": [
-        "Active vitamin D and phosphorus therapy can lead to hyperparathyroidism",
-        "Long-term use of active vitamin D may increase the risk of kidney stones"
+      "id": "e21-10-q3",
+      "type": "mcq",
+      "subtopic": "Case 2 — TIO workup",
+      "question": "A 40-year-old man has fractures, low phosphate (1.8 mg/dL), elevated ALP, and a firm neck lesion. Best next step?",
+      "options": [
+        "Start alendronate for low BMD",
+        "Refer to medical genetics for heritable hypophosphatemia",
+        "Obtain urine studies to assess tubular reabsorption of phosphorus",
+        "Schedule tetracycline-labeled bone biopsy"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Treatment options for hypophosphatemia due to renal phosphate wasting includes active vitamin D and phosphorus replacement or anti-fibroblast growth factor 23 antibody therapy for those with X-linked hypophosphatemic rickets. Patients treated with active vitamin D and phosphorus require close monitoring to avoid complications of therapy including secondary/tertiary hyperparathyroidism and nephrocalcinosis/nephrolithiasis.\"",
-      "id": "e21-10-how1"
+      "correctOption": 2,
+      "explanation": "Osteomalacia with hypophosphatemia requires urinary phosphate assessment to identify renal wasting etiology.",
+      "reference": "Case 2: \"Answer: C) Obtain urine studies to assess tubular reabsorption of phosphorus\""
+    },
+    {
+      "id": "e21-10-q4",
+      "type": "mcq",
+      "subtopic": "Case 2 — FGF-23 biochemistry",
+      "question": "Fractional excretion of phosphorus is elevated. Which lab pattern is most consistent with elevated FGF-23?",
+      "options": [
+        "Elevated 1,25-dihydroxyvitamin D",
+        "High urinary calcium",
+        "Low 1,25-dihydroxyvitamin D",
+        "Elevated serum creatinine with hyperphosphatemia"
+      ],
+      "correctOption": 2,
+      "explanation": "FGF-23 inhibits 1α-hydroxylase, producing low or inappropriately normal 1,25-dihydroxyvitamin D.",
+      "reference": "Case 2 (Continued): \"Answer: C) Low 1,25-dihydroxyvitamin D\""
+    },
+    {
+      "id": "e21-10-q5",
+      "type": "mcq",
+      "subtopic": "Case 2 — TIO localization",
+      "question": "TIO is suspected and a 2.5×3-cm firm lesion is at the neck base. Best next step?",
+      "options": [
+        "Start calcitriol and phosphorus only",
+        "Start burosumab",
+        "Whole-body FDG-PET or 68Ga DOTATATE PET",
+        "Biopsy the neck skin lesion"
+      ],
+      "correctOption": 3,
+      "explanation": "Cutaneous phosphaturic mesenchymal tumors occur; biopsy of the accessible neck lesion is diagnostic and therapeutic.",
+      "reference": "Case 2 (Continued): \"Answer: D) Perform biopsy of skin lesion at the base of his neck\""
+    },
+    {
+      "id": "e21-10-q6",
+      "type": "mcq",
+      "subtopic": "Case 2 — TIO surveillance",
+      "question": "After curative TIO resection, best long-term follow-up?",
+      "options": [
+        "Return only if symptoms recur",
+        "Periodic serum phosphate measurement",
+        "Annual whole-body PET regardless of symptoms",
+        "No follow-up needed after surgical cure"
+      ],
+      "correctOption": 1,
+      "explanation": "Proactive phosphate monitoring detects recurrence before symptomatic osteomalacia returns.",
+      "reference": "Case 2 (Continued): \"Answer: B) Periodic serum phosphate measurement\""
+    },
+    {
+      "id": "e21-10-q7",
+      "type": "mcq",
+      "subtopic": "Case 3 — acute hypophosphatemia",
+      "question": "A 27-year-old woman has acute dyspnea, tachypnea, phosphate 1.4 mg/dL, and anxiety. Best next evaluation step?",
+      "options": [
+        "68Ga DOTATATE PET scan",
+        "Measure 1,25-dihydroxyvitamin D",
+        "Obtain arterial or venous blood gas",
+        "Urine fractional excretion of phosphate"
+      ],
+      "correctOption": 2,
+      "explanation": "Acute anxiety with tachypnea suggests respiratory alkalosis causing transcellular hypophosphatemia—confirm with blood gas.",
+      "reference": "Case 3: \"Answer: C) Obtain arterial or venous gas\""
+    },
+    {
+      "id": "e21-10-q8",
+      "type": "mcq",
+      "subtopic": "Case 3 — management",
+      "question": "Venous blood gas confirms respiratory alkalosis from acute anxiety. Best management?",
+      "options": [
+        "Administer a benzodiazepine",
+        "Vitamin D 50,000 IU weekly for 6 weeks",
+        "Switch fluoxetine to another SSRI",
+        "Intravenous phosphate"
+      ],
+      "correctOption": 0,
+      "explanation": "Treating anxiety reverses alkalosis and restores phosphate rapidly; IV phosphate is unnecessary for transcellular shift.",
+      "reference": "Case 3 (Continued): \"Answer: A) Administer a benzodiazepine\""
+    },
+    {
+      "id": "e21-10-q9",
+      "type": "mcq",
+      "subtopic": "Case 3 — chronicity clues",
+      "question": "After treatment, phosphate normalizes. Which features were inconsistent with chronic hypophosphatemia?",
+      "options": [
+        "Acute-onset symptoms only",
+        "Normal childhood growth only",
+        "Normal alkaline phosphatase only",
+        "All of the above"
+      ],
+      "correctOption": 3,
+      "explanation": "Acute onset, normal ALP, lack of bone pain/fractures, and normal childhood growth all favor acute rather than chronic hypophosphatemia.",
+      "reference": "Case 3 (Continued): \"Answer: E) All of the above\""
+    },
+    {
+      "id": "e21-10-q10",
+      "type": "mcq",
+      "subtopic": "Case 4 — unresectable TIO",
+      "question": "A 70-year-old man has 7 years of TIO symptoms, elevated FGF-23, FEPhos 38%, and unresectable tumor. Best treatment?",
+      "options": [
+        "Physical therapy and pain clinic only",
+        "Calcitriol and phosphate or anti-FGF-23 antibody therapy",
+        "Bisphosphonate",
+        "Teriparatide"
+      ],
+      "correctOption": 1,
+      "explanation": "Unresectable TIO requires medical therapy with calcitriol/phosphate; osteomalacia is not osteoporosis and antiresorptives/anabolics are inappropriate.",
+      "reference": "Case 4: \"Answer: B) Initiate medical therapy with calcitriol and phosphate or anti-FGF-23 antibody therapy\""
+    },
+    {
+      "id": "e21-10-q11",
+      "type": "mcq",
+      "subtopic": "Case 4 — tumor localization",
+      "question": "Six months of medical therapy leaves unhealed fractures. Best next step?",
+      "options": [
+        "Genetic testing for inherited hypophosphatemia",
+        "Additional functional whole-body imaging (e.g., 68Ga DOTATATE PET)",
+        "Arterial blood gas for respiratory alkalosis",
+        "Bone-specific alkaline phosphatase only"
+      ],
+      "correctOption": 1,
+      "explanation": "After TIO diagnosis, whole-body functional imaging should be pursued even if prior scans were negative.",
+      "reference": "Case 4 (Continued): \"Answer: B) Obtain functional whole-body imaging (eg, 68Ga DOTATATE PET)\""
+    },
+    {
+      "id": "e21-10-q12",
+      "type": "mcq",
+      "subtopic": "Case 4 — postoperative expectations",
+      "question": "After complete TIO tumor resection, which outcome is expected?",
+      "options": [
+        "Fractures and bone pain may take several months to resolve",
+        "Serum phosphate stays low for weeks due to hungry bone syndrome",
+        "Medical therapy required for weeks because of long FGF-23 half-life",
+        "Muscle weakness is irreversible"
+      ],
+      "correctOption": 0,
+      "explanation": "Surgical cure is achieved but prolonged osteomalacia means pain and fractures may resolve over weeks to months.",
+      "reference": "Case 4 (Continued): \"Answer: A) Fractures and bone pain may take several months to resolve after surgical cure\""
+    },
+    {
+      "id": "e21-10-q13",
+      "type": "mcq",
+      "subtopic": "Fanconi syndrome",
+      "question": "A patient with renal Fanconi syndrome and hypophosphatemia requires phosphate supplementation. Is calcitriol indicated?",
+      "options": [
+        "Yes — always combine calcitriol with phosphate",
+        "No — calcitriol would worsen hypercalciuria",
+        "Only if FGF-23 is elevated",
+        "Only in children under age 10"
+      ],
+      "correctOption": 1,
+      "explanation": "Non-FGF-23 renal wasting without calcitriol deficiency should not receive calcitriol—it worsens hypercalciuria and stone risk.",
+      "reference": "Other: \"Because these are not FGF-23-mediated conditions, calcitriol is not indicated as it would worsen the hypercalciuria and lead to nephrocalcinosis and nephrolithiasis.\""
+    },
+    {
+      "id": "e21-10-tf1",
+      "type": "true_false",
+      "subtopic": "Acute hypophosphatemia",
+      "statement": "Severe acute hypophosphatemia can cause rhabdomyolysis and hemolysis.",
+      "correctAnswer": true,
+      "explanation": "Cardiac, respiratory, rhabdomyolysis, and hemolysis may occur with severe acute hypophosphatemia.",
+      "reference": "Significance of the Clinical Problem: \"Cardiac and respiratory dysfunction, as well as rhabdomyolysis and hemolysis, may occur with severe, acute hypophosphatemia.\""
+    },
+    {
+      "id": "e21-10-tf2",
+      "type": "true_false",
+      "subtopic": "XLH adults",
+      "statement": "All adults with XLH require ongoing pharmacologic therapy after linear growth is complete.",
+      "correctAnswer": false,
+      "explanation": "Not all adults with XLH are symptomatic; therapy is individualized after growth completion.",
+      "reference": "Case 1 (Continued): \"Not all adults with XLH are symptomatic and therefore not all require pharmacologic intervention.\""
+    },
+    {
+      "id": "e21-10-tf3",
+      "type": "true_false",
+      "subtopic": "Respiratory alkalosis",
+      "statement": "Acute respiratory alkalosis requires phosphate replacement to prevent complications.",
+      "correctAnswer": false,
+      "explanation": "Transcellular hypophosphatemia from acute alkalosis is self-limited and does not require replacement.",
+      "reference": "Redistribution: \"Acute respiratory alkalosis can cause transient hypophosphatemia due to transcellular shifts, is self-limited, and does not require phosphate replacement therapy.\""
+    },
+    {
+      "id": "e21-10-tf4",
+      "type": "true_false",
+      "subtopic": "Burosumab TIO",
+      "statement": "Burosumab is approved for treatment of tumor-induced osteomalacia.",
+      "correctAnswer": false,
+      "explanation": "Anti-FGF-23 antibody is approved for XLH but not other FGF-23-mediated conditions such as TIO.",
+      "reference": "FGF-23-Mediated Disease: \"Burosumab has not been approved for treatment of other FGF-23-mediated conditions.\""
+    },
+    {
+      "id": "e21-10-tf5",
+      "type": "true_false",
+      "subtopic": "Phosphate binders",
+      "statement": "Calcium-based phosphate binders can cause hypophosphatemia.",
+      "correctAnswer": true,
+      "explanation": "Phosphate binders reduce intestinal phosphate availability and can cause hypophosphatemia.",
+      "reference": "Decreased Intake and/or Malabsorption: \"patients receiving phosphate binders such as calcium, sevelamer, or lanthanum carbonate can develop hypophosphatemia due to reduced intestinal phosphate availability.\""
+    },
+    {
+      "id": "e21-10-tf6",
+      "type": "true_false",
+      "subtopic": "TIO recurrence",
+      "statement": "After surgical cure of TIO, no further monitoring is needed.",
+      "correctAnswer": false,
+      "explanation": "Recurrent hypophosphatemia can occur years later, including with malignant transformation.",
+      "reference": "Case 2 (Continued): \"Several years after his initial surgery, this patient developed recurrence of hypophosphatemia with sarcomatous transformation and metastases.\""
+    },
+    {
+      "id": "e21-10-tf7",
+      "type": "true_false",
+      "subtopic": "Hungry bone",
+      "statement": "Larger parathyroid adenoma volume and higher alkaline phosphatase increase hungry bone risk after parathyroidectomy.",
+      "correctAnswer": true,
+      "explanation": "Adenoma volume, elevated ALP, and older age are risk factors for hungry bone syndrome.",
+      "reference": "Redistribution: \"larger parathyroid adenoma volume, higher alkaline phosphatase, and older age are risk factors for this condition.\""
+    },
+    {
+      "id": "e21-10-tf8",
+      "type": "true_false",
+      "subtopic": "Osteomalacia vs osteoporosis",
+      "statement": "Low BMD in osteomalacia should be treated with bisphosphonates like osteoporosis.",
+      "correctAnswer": false,
+      "explanation": "Osteomalacia requires correcting phosphate/vitamin D deficiency; bisphosphonates may worsen disease.",
+      "reference": "Case 4: \"He has osteomalacia and therefore a bisphosphonate (Answer C) is not appropriate and may worsen his disease.\""
+    },
+    {
+      "id": "e21-10-ar1",
+      "type": "assertion_reason",
+      "subtopic": "XLH hyperparathyroidism",
+      "assertion": "Assertion: Restarting phosphorus before treating hyperparathyroidism in XLH will lower serum calcium.",
+      "reason": "Reason: Hyperparathyroidism worsens renal phosphate wasting.",
+      "correctOption": 4,
+      "explanation": "Both false—phosphorus restarts worsen hyperparathyroidism; hyperparathyroidism does worsen phosphaturia but does not make A true.",
+      "reference": "Case 1: \"Restarting phosphorus supplementation before addressing her hyperparathyroidism (Answer A) would only exacerbate the hyperparathyroidism.\""
+    },
+    {
+      "id": "e21-10-ar2",
+      "type": "assertion_reason",
+      "subtopic": "TIO biochemistry",
+      "assertion": "Assertion: FGF-23-mediated hypophosphatemia is associated with low 1,25-dihydroxyvitamin D.",
+      "reason": "Reason: FGF-23 inhibits 1α-hydroxylase activity.",
+      "correctOption": 0,
+      "explanation": "Both true and causally linked—FGF-23 suppresses active vitamin D synthesis.",
+      "reference": "Case 2 (Continued): \"FGF-23 not only reduces renal phosphate reabsorption but also inhibits 1α-hydroxylase activity.\""
+    },
+    {
+      "id": "e21-10-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Acute alkalosis",
+      "assertion": "Assertion: A benzodiazepine can correct hypophosphatemia in acute respiratory alkalosis.",
+      "reason": "Reason: Treating anxiety reverses alkalosis and transcellular phosphate shift.",
+      "correctOption": 0,
+      "explanation": "Both true—resolving alkalosis restores serum phosphate without phosphate supplementation.",
+      "reference": "Case 3 (Continued): \"Treatment of this patient's anxiety (Answer A) will reverse her acute respiratory alkalosis and quickly restore serum phosphate to a normal range.\""
+    },
+    {
+      "id": "e21-10-ar4",
+      "type": "assertion_reason",
+      "subtopic": "TIO surgery",
+      "assertion": "Assertion: Serum phosphate normalizes within days after complete TIO tumor resection.",
+      "reason": "Reason: FGF-23 has a short half-life.",
+      "correctOption": 0,
+      "explanation": "Both true—rapid FGF-23 clearance restores phosphate quickly, unlike hungry bone after parathyroidectomy.",
+      "reference": "Case 4 (Continued): \"FGF-23 has a short, not long, half-life, and medical therapy after complete resection is not required\""
+    },
+    {
+      "id": "e21-10-ar5",
+      "type": "assertion_reason",
+      "subtopic": "DKA",
+      "assertion": "Assertion: Phosphate should be routinely replaced during DKA treatment to improve outcomes.",
+      "reason": "Reason: DKA treatment commonly causes severe hypophosphatemia.",
+      "correctOption": 2,
+      "explanation": "R is true but A is false—severe hypophosphatemia occurs yet replacement does not improve outcomes.",
+      "reference": "Treatment: \"Although hypophosphatemia occurring treatment of DKA can be severe, it is not replacement improves outcomes.\""
+    },
+    {
+      "id": "e21-10-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Burosumab dental",
+      "assertion": "Assertion: Burosumab reduces the frequency of dental abscess in XLH.",
+      "reason": "Reason: Burosumab improves healing of pseudofractures.",
+      "correctOption": 4,
+      "explanation": "Both false—burosumab may increase dental abscess vs conventional therapy; pseudofracture healing is a separate outcome.",
+      "reference": "Case 1 (Continued): \"there is no evidence that anti-FGF-23 antibody therapy improves pain associated with osteoarthritis (Answer B) or enthesopathy (Answer C) or reduces the frequency of dental abscess (Answer D).\""
+    },
+    {
+      "id": "e21-10-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Malabsorption FEPhos",
+      "assertion": "Assertion: Fractional excretion of phosphate <5% suggests inadequate intake or malabsorption.",
+      "reason": "Reason: Renal phosphate wasting elevates fractional excretion.",
+      "correctOption": 0,
+      "explanation": "Both true—low FEPhos indicates non-renal cause; the reason correctly contrasts with renal wasting.",
+      "reference": "Laboratory Assessment: \"Low urine phosphate with a low fractional excretion of phosphate (less than 5%) is a hallmark of hypophosphatemia caused by inadequate intake or malabsorption.\""
+    },
+    {
+      "id": "e21-10-ar8",
+      "type": "assertion_reason",
+      "subtopic": "TIO bisphosphonate",
+      "assertion": "Assertion: Alendronate is appropriate first-line therapy for TIO with fractures.",
+      "reason": "Reason: The patient has low bone density on DXA.",
+      "correctOption": 4,
+      "explanation": "Both false—osteomalacia not osteoporosis; low BMD reflects defective mineralization, not an indication for bisphosphonates.",
+      "reference": "Case 2: \"His low bone density is related to osteomalacia and not osteoporosis.\""
     }
   ]
 }

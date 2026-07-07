@@ -2,46 +2,453 @@
   "id": "e21-14",
   "volume": 2021,
   "chapterNo": "14",
-  "title": "Is There an Ideal Vitamin D Level and Dosage for All Circumstances",
+  "title": "Is There an Ideal Vitamin D Level and Dosage for All Circumstances?",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Ghada El-Hajj Fuleihan, MD, MPH",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_14_Is_There_an_Ideal_Vitamin_D_Level_and_Dosage_for_All_Circumstances.md",
   "items": [
     {
-      "question": "Does vitamin D decrease the risk of COVID-19-related adverse outcomes?",
-      "answer": "D) No evidence available",
+      "id": "e21-14-n1",
+      "type": "note",
+      "subtopic": "Rickets prevention",
+      "title": "Why 400 IU daily vitamin D prevents infantile rickets",
+      "text": "Vitamin D at 400 IU daily prevents rickets in infants—universal supplementation largely eliminated nutritional rickets in Europe and North America.",
+      "reference": "Main Conclusions: \"Vitamin D, at dosages of 400 IU daily, prevents rickets in infants.\""
+    },
+    {
+      "id": "e21-14-n2",
+      "type": "note",
+      "subtopic": "Desirable level debate",
+      "title": "How IOM and Endocrine Society differ on desirable 25-OHD",
+      "text": "IOM sets desirable 25-OHD at 20 ng/mL (50 nmol/L) for the general public; Endocrine Society targets 30 ng/mL (75 nmol/L) for at-risk individuals with higher supplementation doses.",
+      "reference": "Management Strategies/Vitamin D Guidelines: \"reach differing conclusions in terms of the desirable 25-OHD level, set at 30 ng/mL (75 nmol/L) by the Endocrine Society and 20 ng/mL (50 nmol/L) by the Institute of Medicine.\""
+    },
+    {
+      "id": "e21-14-n3",
+      "type": "note",
+      "subtopic": "Assay variability",
+      "title": "Why 25-OHD assay variation exceeds guideline threshold differences",
+      "text": "Parallel assays can differ by -38 to +19 ng/mL independent of true level—bias exceeding the IOM vs Endocrine Society target gap mandates laboratory standardization.",
+      "reference": "Impact of Assay Variation on Management Strategies: \"serum values measured in parallel with 2 assays could vary between -38 to +19 ng/mL, a bias that was independent of the serum 25-OHD level.\""
+    },
+    {
+      "id": "e21-14-n4",
+      "type": "note",
+      "subtopic": "Screening",
+      "title": "Why population 25-OHD screening is not recommended",
+      "text": "All major guidelines concur screening is not for the general population—reserved for high-risk individuals; it does not meet WHO screening test criteria.",
+      "reference": "Should We Screen by Measuring Serum 25-OHD Levels?: \"All guidelines concur that screening for vitamin D deficiency is not recommended for the general population and should be reserved for high-risk individuals.\""
+    },
+    {
+      "id": "e21-14-n5",
+      "type": "note",
+      "subtopic": "Osteomalacia treatment",
+      "title": "How to treat nutritional osteomalacia with vitamin D",
+      "text": "A widely used regimen is 50,000 IU weekly for 6–8 weeks followed by 800 IU daily maintenance; PTH and ALP may take months to normalize.",
+      "reference": "Treatment of Osteomalacia: \"A widely used regimen consists of giving 50,000 IU weekly for 6 to 8 weeks followed by 800 IU daily maintenance therapy.\""
+    },
+    {
+      "id": "e21-14-n6",
+      "type": "note",
+      "subtopic": "Osteomalacia vs osteoporosis",
+      "title": "Why osteomalacia is not osteoporosis on DXA",
+      "text": "DXA cannot distinguish osteomalacia from osteoporosis; healing osteomalacia produces substantial BMD gains reflecting mineralization recovery, not antiresorptive treatment of osteoporosis.",
+      "reference": "Case 1: \"DXA does not distinguish osteomalacia from osteoporosis. She experienced substantial increments in bone mineral density within 4 months\""
+    },
+    {
+      "id": "e21-14-n7",
+      "type": "note",
+      "subtopic": "Pregnancy vitamin D",
+      "title": "How vitamin D in pregnancy affects maternal-fetal outcomes",
+      "text": "Vitamin D probably reduces preeclampsia (±calcium), gestational diabetes, low birth weight <2500 g, and severe postpartum bleeding—though high-quality data in high-risk groups are still needed.",
+      "reference": "Main Conclusions: \"Vitamin D given in pregnancy probably reduces the risk of preeclampsia (± calcium), gestational diabetes, low neonatal birth weight (<2500 g), and severe postpartum bleeding.\""
+    },
+    {
+      "id": "e21-14-n8",
+      "type": "note",
+      "subtopic": "Fracture prevention young adults",
+      "title": "Why vitamin D alone does not prevent fractures in adults <65",
+      "text": "No benefit of vitamin D supplementation alone on fractures or falls in ambulatory adults younger than 65 years; calcium co-administration is needed for hip/any fracture reduction in elderly.",
+      "reference": "Main Conclusions: \"There is no benefit of vitamin D supplementation alone on fractures or falls in ambulatory adults younger than 65 years.\""
+    },
+    {
+      "id": "e21-14-n9",
+      "type": "note",
+      "subtopic": "Safety ceiling",
+      "title": "What daily vitamin D doses are considered safe",
+      "text": "Hypercalcemia/hypercalciuria are unlikely up to 2000 IU daily; upper tolerable intake is 4000 IU—VITAL trial showed increased kidney stones at that dose.",
+      "reference": "Main Conclusions: \"Hypercalcemia and hypercalciuria are unlikely to occur at dosages of up to 2000 IU daily. The upper tolerable level is 4000 IU daily, and the VITAL trial demonstrated an increased risk of kidney stones at such dosages.\""
+    },
+    {
+      "id": "e21-14-n10",
+      "type": "note",
+      "subtopic": "D2 vs D3",
+      "title": "How vitamin D3 compares to D2 for efficacy",
+      "text": "Vitamin D3-based supplements are superior to D2 in terms of efficacy for raising and maintaining 25-OHD.",
+      "reference": "Case 2: \"Answer: A) Yes\""
+    },
+    {
+      "id": "e21-14-n11",
+      "type": "note",
+      "subtopic": "COVID-19",
+      "title": "Why high-dose vitamin D for COVID-19 is not evidence-based",
+      "text": "Systematic review shows no association between vitamin D deficiency and COVID-19 outcomes—high doses are unwarranted pending trial results; stay below 4000 IU daily.",
+      "reference": "Case 4: \"The overwhelming evidence to date, based on these studies, mostly of low quality, reveals no association between vitamin D deficiency and COVID-19-related health outcomes.\""
+    },
+    {
+      "id": "e21-14-n12",
+      "type": "note",
+      "subtopic": "Obesity dosing",
+      "title": "Why obese patients need higher vitamin D doses",
+      "text": "Obesity lowers CYP2R1 expression and serum 25-OHD; patients with obesity require higher supplementation doses to achieve target levels.",
+      "reference": "Management Strategies/Vitamin D Guidelines: \"Patients with obesity require higher dosages.\""
+    },
+    {
       "id": "e21-14-q1",
       "type": "mcq",
+      "subtopic": "Case 1 — diagnosis",
+      "question": "A 51-year-old woman has calcium 6.9 mg/dL, phosphate 2.2, ALP 820, 25-OHD <2 ng/mL, PTH 250, and pelvic Looser zones. Most likely diagnosis?",
       "options": [
-        "Option B",
-        "Option C",
-        "Option D"
+        "Obesity",
+        "Malabsorption",
+        "Nutritional osteomalacia",
+        "X-linked hypophosphatemic rickets"
       ],
-      "correctOption": 0
+      "correctOption": 2,
+      "explanation": "Severe vitamin D deficiency with hypocalcemia, elevated ALP/PTH, and Looser zones is classic nutritional osteomalacia.",
+      "reference": "Case 1: \"Answer: C) Nutritional osteomalacia\""
     },
     {
-      "type": "why",
-      "subtopic": "vitamin d supplementation in pregnancy",
-      "question": "Why does vitamin D given in pregnancy reduce the risk of certain complications?",
-      "answer": "Because vitamin D given in pregnancy may reduce the risk of preeclampsia (± calcium), gestational diabetes, low neonatal birth weight (<2500 g), and severe postpartum bleeding.",
-      "keyPoints": [
-        "Vitamin D supplementation during pregnancy can reduce the risk of certain complications such as preeclampsia, gestational diabetes, low birth weight, and postpartum bleeding.",
-        "The exact mechanism by which vitamin D reduces these risks is not fully understood but may involve its role in maintaining calcium homeostasis and reducing inflammation."
+      "id": "e21-14-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 — osteoporosis",
+      "question": "She has spine T-score -2.6 and hip -2.4. Does she have osteoporosis?",
+      "options": [
+        "Yes — T-score below -2.5",
+        "No — this is osteomalacia not osteoporosis",
+        "Yes — Looser zones confirm osteoporosis",
+        "Cannot determine without bone biopsy"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Vitamin D given in pregnancy probably reduces the risk of preeclampsia (± calcium), gestational diabetes, low neonatal birth weight (<2500 g), and severe postpartum bleeding.\"",
-      "id": "e21-14-why1"
+      "correctOption": 1,
+      "explanation": "DXA cannot distinguish osteomalacia from osteoporosis; low T-scores reflect defective mineralization.",
+      "reference": "Case 1: \"Answer: B) No\""
     },
     {
-      "type": "how",
-      "subtopic": "vitamin d supplementation in pregnancy",
-      "question": "How does vitamin D supplementation during pregnancy reduce the risk of certain complications?",
-      "answer": "Vitamin D supplementation during pregnancy is associated with a reduced risk of preeclampsia, gestational diabetes, low neonatal birth weight (<2500 g), and severe postpartum bleeding. This effect may be mediated by vitamin D's role in maintaining normal calcium homeostasis and reducing inflammation, which are crucial for the health of both mother and fetus during pregnancy.",
-      "keyPoints": [
-        "Vitamin D supplementation reduces the risk of preeclampsia, gestational diabetes, low neonatal birth weight, and severe postpartum bleeding in pregnant women.",
-        "The mechanism involves maintaining normal calcium homeostasis and reducing inflammation."
+      "id": "e21-14-q3",
+      "type": "mcq",
+      "subtopic": "Case 1 — treatment",
+      "question": "Best vitamin D regimen with daily calcium for this osteomalacia patient?",
+      "options": [
+        "1000 IU daily only",
+        "50,000 IU daily",
+        "50,000 IU weekly for several weeks then 600–1000 IU daily",
+        "600,000 IU stoss dose every 6–12 months"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Vitamin D given in pregnancy probably reduces the risk of preeclampsia (± calcium), gestational diabetes, low neonatal birth weight (<2500 g), and severe postpartum bleeding.\"\n",
-      "id": "e21-14-how1"
+      "correctOption": 2,
+      "explanation": "High-dose repletion then maintenance is standard—50,000 IU weekly for weeks then daily maintenance.",
+      "reference": "Case 1: \"Answer: C) Vitamin D at 50,000 IU weekly for several weeks followed by 600 to 1000 IU daily\""
+    },
+    {
+      "id": "e21-14-q4",
+      "type": "mcq",
+      "subtopic": "Case 1 — biomarker recovery",
+      "question": "When should PTH and alkaline phosphatase normalize after repletion?",
+      "options": [
+        "Days",
+        "Weeks",
+        "Months",
+        "Never"
+      ],
+      "correctOption": 2,
+      "explanation": "Calcium/phosphate normalize in days but PTH and ALP may take more than a year—months is the expected timeframe.",
+      "reference": "Case 1: \"Answer: C) Months\""
+    },
+    {
+      "id": "e21-14-q5",
+      "type": "mcq",
+      "subtopic": "Case 2 — dosing frequency",
+      "question": "Are daily (1500 IU), weekly (10,500 IU), and monthly (45,000 IU) vitamin D regimens equivalent in adults?",
+      "options": [
+        "Yes — no clinically important difference",
+        "No — only daily dosing is effective",
+        "No — monthly dosing is always superior",
+        "Yes — but only D2 formulations are equivalent"
+      ],
+      "correctOption": 0,
+      "explanation": "Equivalent total doses given at different intervals produce similar outcomes.",
+      "reference": "Case 2: \"Answer: B) No\""
+    },
+    {
+      "id": "e21-14-q6",
+      "type": "mcq",
+      "subtopic": "Case 2 — pregnancy dose",
+      "question": "Recommended total daily vitamin D intake during pregnancy per IOM?",
+      "options": [
+        "100 IU daily",
+        "600 IU daily",
+        "5000 IU daily",
+        "10,000 IU daily"
+      ],
+      "correctOption": 1,
+      "explanation": "IOM RDA is 600 IU daily in pregnancy; Endocrine Society recommends 1500–2000 IU for at-risk patients.",
+      "reference": "Case 2: \"Answer: B) 600 IU daily\""
+    },
+    {
+      "id": "e21-14-q7",
+      "type": "mcq",
+      "subtopic": "Case 2 — pregnancy outcomes",
+      "question": "Does vitamin D supplementation in pregnancy reduce complications like preeclampsia?",
+      "options": [
+        "Yes — definitively proven",
+        "Possibly",
+        "No",
+        "Only with calcium co-administration in all pregnancies"
+      ],
+      "correctOption": 1,
+      "explanation": "Cochrane review suggests probable benefit for preeclampsia, gestational diabetes, and low birth weight—evidence still evolving.",
+      "reference": "Case 2: \"Answer: B) Possibly\""
+    },
+    {
+      "id": "e21-14-q8",
+      "type": "mcq",
+      "subtopic": "Case 2 — infant rickets",
+      "question": "Universal recommended vitamin D dose for breastfed infants to prevent rickets?",
+      "options": [
+        "200 IU daily",
+        "400 IU daily",
+        "600 IU daily",
+        "1000 IU daily"
+      ],
+      "correctOption": 1,
+      "explanation": "400 IU daily from infancy prevents rickets; increase to 600 IU after age 1 year.",
+      "reference": "Case 2: \"Answer: B) 400 IU daily\""
+    },
+    {
+      "id": "e21-14-q9",
+      "type": "mcq",
+      "subtopic": "Case 2 — children",
+      "question": "Recommended daily vitamin D for 5- and 10-year-old children?",
+      "options": [
+        "400–600 IU daily",
+        "2500 IU daily",
+        "4000 IU daily",
+        "No supplementation needed if diet is adequate"
+      ],
+      "correctOption": 0,
+      "explanation": "IOM RDA 600 IU; Endocrine Society 600–1000 IU for at-risk children—400–600 IU daily is the recommended range cited.",
+      "reference": "Case 2: \"Answer: A) 400-600 IU daily\""
+    },
+    {
+      "id": "e21-14-q10",
+      "type": "mcq",
+      "subtopic": "Case 3 — hip fracture community",
+      "question": "In community-dwelling individuals, does vitamin D with calcium decrease hip fracture risk?",
+      "options": [
+        "Yes — clearly in community dwellers alone",
+        "No — not demonstrated in community-dwelling individuals alone",
+        "No evidence exists",
+        "Yes — but only with 10,000 IU daily vitamin D"
+      ],
+      "correctOption": 1,
+      "explanation": "Fracture benefit when combining trials is driven largely by institutionalized elderly; community benefit remains unclear.",
+      "reference": "Case 3: \"Answer: B) No\""
+    },
+    {
+      "id": "e21-14-q11",
+      "type": "mcq",
+      "subtopic": "Case 3 — cardiovascular",
+      "question": "Does vitamin D with calcium increase cardiovascular event risk?",
+      "options": [
+        "Yes",
+        "No",
+        "Possibly",
+        "Only in patients with baseline hypercalcemia"
+      ],
+      "correctOption": 1,
+      "explanation": "Meta-analyses including VITAL do not show increased cardiovascular events with vitamin D plus calcium.",
+      "reference": "Case 3: \"Answer: B) No\""
+    },
+    {
+      "id": "e21-14-q12",
+      "type": "mcq",
+      "subtopic": "Case 3 — cancer",
+      "question": "Does vitamin D supplementation decrease cancer risk?",
+      "options": [
+        "Yes",
+        "No",
+        "Possibly",
+        "Only for skin cancer"
+      ],
+      "correctOption": 1,
+      "explanation": "VITAL and meta-analyses show no clear cancer reduction with vitamin D supplementation alone.",
+      "reference": "Case 3: \"Answer: B) No\""
+    },
+    {
+      "id": "e21-14-q13",
+      "type": "mcq",
+      "subtopic": "Case 4 — COVID-19",
+      "question": "A COVID-19 patient is started on 50,000 IU weekly vitamin D to prevent complications. Best evidence statement?",
+      "options": [
+        "Yes — proven benefit",
+        "No — proven no benefit",
+        "Weak low-quality evidence only",
+        "No evidence available"
+      ],
+      "correctOption": 3,
+      "explanation": "Systematic review found no association between vitamin D deficiency and COVID-19 outcomes—high doses unwarranted.",
+      "reference": "Case 4: \"Answer: D) No evidence available\""
+    },
+    {
+      "id": "e21-14-tf1",
+      "type": "true_false",
+      "subtopic": "Rickets",
+      "statement": "400 IU daily vitamin D prevents rickets in infants.",
+      "correctAnswer": true,
+      "explanation": "Universal infant supplementation largely eliminated nutritional rickets in developed countries.",
+      "reference": "Main Conclusions: \"Vitamin D, at dosages of 400 IU daily, prevents rickets in infants.\""
+    },
+    {
+      "id": "e21-14-tf2",
+      "type": "true_false",
+      "subtopic": "Young adults",
+      "statement": "Vitamin D alone prevents fractures in ambulatory adults younger than 65.",
+      "correctAnswer": false,
+      "explanation": "No demonstrated fracture or fall benefit in this age group.",
+      "reference": "Main Conclusions: \"There is no benefit of vitamin D supplementation alone on fractures or falls in ambulatory adults younger than 65 years.\""
+    },
+    {
+      "id": "e21-14-tf3",
+      "type": "true_false",
+      "subtopic": "Calcium combination",
+      "statement": "Vitamin D co-administered with calcium reduces hip and any fracture risk in elderly.",
+      "correctAnswer": true,
+      "explanation": "Cochrane meta-analysis shows RR reductions for hip and any fractures with combined therapy.",
+      "reference": "Main Conclusions: \"Vitamin D co-administered with calcium reduces the risk of hip fractures and any fractures.\""
+    },
+    {
+      "id": "e21-14-tf4",
+      "type": "true_false",
+      "subtopic": "Screening",
+      "statement": "Routine 25-OHD screening is recommended for the general population.",
+      "correctAnswer": false,
+      "explanation": "Screening reserved for high-risk individuals; does not meet WHO screening criteria.",
+      "reference": "Should We Screen by Measuring Serum 25-OHD Levels?: \"screening for vitamin D deficiency is not recommended for the general population\""
+    },
+    {
+      "id": "e21-14-tf5",
+      "type": "true_false",
+      "subtopic": "Non-skeletal benefits",
+      "statement": "Vitamin D supplementation has proven beneficial effects on nonclassic outcomes.",
+      "correctAnswer": false,
+      "explanation": "No beneficial effect on nonclassic outcomes demonstrated.",
+      "reference": "Main Conclusions: \"Vitamin D supplementation has no beneficial effect on nonclassic outcomes.\""
+    },
+    {
+      "id": "e21-14-tf6",
+      "type": "true_false",
+      "subtopic": "D3 superiority",
+      "statement": "Vitamin D3 supplements are superior to D2 for efficacy.",
+      "correctAnswer": true,
+      "explanation": "D3 is superior for raising and maintaining 25-OHD levels.",
+      "reference": "Case 2: \"Answer: A) Yes\""
+    },
+    {
+      "id": "e21-14-tf7",
+      "type": "true_false",
+      "subtopic": "Safety 2000 IU",
+      "statement": "Hypercalcemia is unlikely at vitamin D doses up to 2000 IU daily.",
+      "correctAnswer": true,
+      "explanation": "Up to 2000 IU daily is unlikely to cause hypercalcemia or hypercalciuria.",
+      "reference": "Main Conclusions: \"Hypercalcemia and hypercalciuria are unlikely to occur at dosages of up to 2000 IU daily.\""
+    },
+    {
+      "id": "e21-14-tf8",
+      "type": "true_false",
+      "subtopic": "COVID-19",
+      "statement": "High-dose vitamin D is proven to prevent COVID-19 complications.",
+      "correctAnswer": false,
+      "explanation": "No good evidence of benefit; high doses unwarranted pending trial data.",
+      "reference": "Main Conclusions: \"To date there is no good evidence of a beneficial effect of vitamin D on COVID-19-related complications.\""
+    },
+    {
+      "id": "e21-14-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Osteomalacia",
+      "assertion": "Assertion: Severe vitamin D deficiency with Looser zones represents nutritional osteomalacia not osteoporosis.",
+      "reason": "Reason: DXA cannot distinguish osteomalacia from osteoporosis.",
+      "correctOption": 0,
+      "explanation": "Both true—biochemical and radiographic features define osteomalacia despite low T-scores on DXA.",
+      "reference": "Case 1: \"DXA does not distinguish osteomalacia from osteoporosis.\""
+    },
+    {
+      "id": "e21-14-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Repletion regimen",
+      "assertion": "Assertion: 50,000 IU vitamin D weekly followed by daily maintenance treats osteomalacia effectively.",
+      "reason": "Reason: Several regimens can heal osteomalacia.",
+      "correctOption": 0,
+      "explanation": "Both true—high-dose repletion then maintenance is a standard effective approach.",
+      "reference": "Treatment of Osteomalacia: \"Several regimens are used and all can heal osteomalacia effectively.\""
+    },
+    {
+      "id": "e21-14-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Assay bias",
+      "assertion": "Assertion: Laboratory assay variation can exceed differences between guideline 25-OHD targets.",
+      "reason": "Reason: IOM and Endocrine Society differ by 10 ng/mL in desirable levels.",
+      "correctOption": 0,
+      "explanation": "Both true—parallel assay bias of up to 38 ng/mL dwarfs the 10 ng/mL guideline gap.",
+      "reference": "Impact of Assay Variation on Management Strategies: \"serum values measured in parallel with 2 assays could vary between -38 to +19 ng/mL\""
+    },
+    {
+      "id": "e21-14-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Community fractures",
+      "assertion": "Assertion: Vitamin D plus calcium clearly prevents hip fractures in community-dwelling adults alone.",
+      "reason": "Reason: Combined therapy reduces hip fractures when institutionalized and community trials are pooled.",
+      "correctOption": 2,
+      "explanation": "A is false for community dwellers alone; R is true for pooled elderly data but doesn't prove community benefit.",
+      "reference": "Case 3: \"The impact of routine supplementation on musculoskeletal outcomes in community-dwelling individuals remains unclear.\""
+    },
+    {
+      "id": "e21-14-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Pregnancy",
+      "assertion": "Assertion: Vitamin D supplementation in pregnancy probably reduces preeclampsia risk.",
+      "reason": "Reason: WHO recommends routine vitamin D supplementation in all pregnancies.",
+      "correctOption": 2,
+      "explanation": "A is supported by Cochrane data; R is false—WHO 2012 guidelines recommend against routine supplementation.",
+      "reference": "Case 2: \"the World Health Organization 2012 vitamin D guidelines in pregnancy recommend against routine vitamin D supplementation.\""
+    },
+    {
+      "id": "e21-14-ar6",
+      "type": "assertion_reason",
+      "subtopic": "COVID dosing",
+      "assertion": "Assertion: 50,000 IU weekly vitamin D is warranted to prevent COVID-19 complications.",
+      "reason": "Reason: Vitamin D modulates innate and adaptive immunity.",
+      "correctOption": 2,
+      "explanation": "A is unsupported; R is true mechanistically but does not justify high-dose empiric use without outcome evidence.",
+      "reference": "Case 4: \"the use of high dosages of vitamin D is unwarranted and awaits evidence from ongoing trials.\""
+    },
+    {
+      "id": "e21-14-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Infant dosing",
+      "assertion": "Assertion: 400 IU daily prevents rickets in breastfed infants.",
+      "reason": "Reason: Nutritional rickets persists in high-risk global populations.",
+      "correctOption": 1,
+      "explanation": "Both true but unrelated—ongoing rickets in some regions doesn't negate 400 IU efficacy when given.",
+      "reference": "Main Conclusions: \"Vitamin D, at dosages of 400 IU daily, prevents rickets in infants.\""
+    },
+    {
+      "id": "e21-14-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Obesity",
+      "assertion": "Assertion: Obese patients need higher vitamin D supplementation doses.",
+      "reason": "Reason: Obesity is associated with lower serum 25-OHD through reduced CYP2R1 expression.",
+      "correctOption": 0,
+      "explanation": "Both true—obesity lowers 25-OHD and requires higher replacement doses.",
+      "reference": "Genetic Polymorphisms and Environmental Predictors of Serum 25-OHD Levels: \"obesity, type 1 and type 2 diabetes mellitus, fasting, and glucocorticoid therapy are associated with lower serum 25-OHD levels.\""
     }
   ]
 }

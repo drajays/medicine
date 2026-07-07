@@ -66,7 +66,14 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 | e21-05 Adrenal replacement | ✅ remediated | 41 | 67% |
 | e21-07 Genetic screening | ✅ remediated | 41 | 83% |
 | e21-08 Critical illness AI | ✅ remediated | 41 | 92% |
-| e21-01–04, e21-09–43 | ⏳ pending | | |
+| e21-09 Bone & mineral metabolism | ✅ remediated | 41 | 75% |
+| e21-10 Hypophosphatemia | ✅ remediated | 41 | 100% |
+| e21-11 Challenging mineral disease | ✅ remediated | 41 | 92% |
+| e21-12 Bone turnover markers | ✅ remediated | 41 | 83% |
+| e21-13 Personalize osteoporosis | ✅ remediated | 41 | 92% |
+| e21-14 Vitamin D level/dosage | ✅ remediated | 41 | 92% |
+| e21-15 Stopping bone meds | ✅ remediated | 41 | 100% |
+| e21-01–04, e21-16–43 | ⏳ pending | | |
 
 ## Phase 2 — Williams 15e (49 chapters)
 
@@ -92,3 +99,10 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-07 | e21-05 | 41 | 67% | pending |
 | 2026-07-07 | e21-07 | 41 | 83% | pending |
 | 2026-07-07 | e21-08 | 41 | 92% | pending |
+| 2026-07-07 | e21-09 | 41 | 75% | pending |
+| 2026-07-07 | e21-10 | 41 | 100% | pending |
+| 2026-07-07 | e21-11 | 41 | 92% | pending |
+| 2026-07-07 | e21-12 | 41 | 83% | pending |
+| 2026-07-07 | e21-13 | 41 | 92% | pending |
+| 2026-07-07 | e21-14 | 41 | 92% | pending |
+| 2026-07-07 | e21-15 | 41 | 100% | pending |

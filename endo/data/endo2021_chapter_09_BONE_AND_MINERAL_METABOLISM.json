@@ -4,48 +4,451 @@
   "chapterNo": "9",
   "title": "Bone and Mineral Metabolism",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "",
+  "authors": "Neil J. L. Gittoes, BSc, PhD, FRCP",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_09_BONE_AND_MINERAL_METABOLISM.md",
   "items": [
     {
+      "id": "e21-09-n1",
+      "type": "note",
+      "subtopic": "Clinical approach",
+      "title": "Why bone and mineral disorders need both protocol and individualization",
+      "text": "Common pathologies such as osteoporosis may follow formulaic fracture-risk assessment, but rarer diseases and rare events in common conditions demand individualized evaluation—relying on a limited investigation set with correct interpretation.",
+      "reference": "Main Conclusions: \"Pathologies in bone and mineral metabolism are common and may require a formulaic approach, such as protocolized assessment of fracture risk in osteoporosis.\""
+    },
+    {
+      "id": "e21-09-n2",
+      "type": "note",
+      "subtopic": "Mineral workup",
+      "title": "How to begin evaluation of mineral metabolism disorders",
+      "text": "Serum calcium (albumin-adjusted), phosphate, alkaline phosphatase, PTH, and 25-hydroxyvitamin D usually identify the underlying disorder; plasma magnesium and urinary calcium excretion add useful discrimination.",
+      "reference": "Mineral Disease: \"Serum calcium adjusted for albumin phosphate, alkaline phosphatase, PTH, and 25-hydroxyvitamin D usually provide pointers to underlying disorders of mineral homeostasis.\""
+    },
+    {
+      "id": "e21-09-n3",
+      "type": "note",
+      "subtopic": "FHH vs PHPT",
+      "title": "Why genetic testing now complements the calcium/creatinine clearance ratio",
+      "text": "Fasting renal calcium-to-creatinine clearance ratio traditionally distinguished FHH from primary hyperparathyroidism, but readily available genetic panel testing for FHH can now aid the differential.",
+      "reference": "Mineral Disease: \"Traditionally, estimating the ratio of renal clearance of calcium to that of creatinine in the fasting state has been central to distinguishing familial hypocalciuric hypercalcemia (FHH) from primary hyperparathyroidism.\""
+    },
+    {
+      "id": "e21-09-n4",
+      "type": "note",
+      "subtopic": "Active vitamin D",
+      "title": "When measurement of 1,25-dihydroxyvitamin D is occasionally justified",
+      "text": "Routine active vitamin D measurement is rarely indicated but can help in extrarenal 1,25-dihydroxyvitamin D synthesis disorders such as sarcoidosis.",
+      "reference": "Mineral Disease: \"Measurement of the active form of vitamin D, is very rarely indicated but it occasionally can be useful in rare conditions of extrarenal synthesis of 1,25-dihydroxyvitamin D, such as sarcoidosis.\""
+    },
+    {
+      "id": "e21-09-n5",
+      "type": "note",
+      "subtopic": "Calcitonin",
+      "title": "Why calcitonin has no role in routine calcium metabolism workup",
+      "text": "Calcitonin measurement is confined to medullary thyroid carcinoma diagnosis and monitoring—there is no role in routine investigation of calcium and bone metabolism.",
+      "reference": "Mineral Disease: \"The utility of calcitonin measurement is confined to the diagnosis and monitoring of medullary carcinoma of the thyroid.\""
+    },
+    {
+      "id": "e21-09-n6",
+      "type": "note",
+      "subtopic": "Bone turnover markers",
+      "title": "How biochemical markers of bone turnover support osteoporosis care",
+      "text": "Resorption markers (CTX, NTX) and formation markers (P1NP, osteocalcin) may assess fracture risk, accelerated bone loss, treatment response, and poor adherence—though routine clinical utility remains unsettled.",
+      "reference": "Bone Disease: \"Biochemical markers of bone turnover (resorption markers such as CTX and NTX and formation markers such as P1NP and osteocalcin) may be useful in assessing overall risk of osteoporotic fracture and accelerated bone loss and in judging response to treatments for osteoporosis and hence poor adherence to therapy.\""
+    },
+    {
+      "id": "e21-09-n7",
+      "type": "note",
+      "subtopic": "DXA interpretation",
+      "title": "Why T-scores must never be used as isolated treatment thresholds",
+      "text": "DXA reliably predicts fracture risk, but T-scores should always be contextualized within the patient's full fracture-risk profile—not used as standalone treatment triggers.",
+      "reference": "Bone Disease: \"It is important not to consider T-score values in isolation and use them as isolated thresholds for treatment; DXA-determined data should always be contextualized to the full fracture risk profile of the patient.\""
+    },
+    {
+      "id": "e21-09-n8",
+      "type": "note",
+      "subtopic": "Skeletal imaging",
+      "title": "How plain radiographs and isotope scans complement biochemistry",
+      "text": "Plain films detect fractures, Paget disease, and dysplasias but not bone density; isotope scans survey the skeleton for localized disease but require clinical and biochemical triangulation for specific diagnosis.",
+      "reference": "Bone Disease: \"Basic x-rays are not useful for assessing bone density, but the appearance of \"osteopenia\" on a plain film is an indication for a DXA scan.\""
+    },
+    {
+      "id": "e21-09-n9",
+      "type": "note",
+      "subtopic": "Bone biopsy",
+      "title": "When transiliac bone biopsy is appropriate",
+      "text": "Bone biopsy is not routine but helps in complex metabolic bone disease—especially unexplained osteomalacia or detailed renal osteodystrophy assessment—and must be done only in specialized centers.",
+      "reference": "Bone Disease: \"Bone biopsy is not a routine test, but it can be helpful in patients with complex metabolic bone diseases, particularly when there is unexplained osteomalacia or a need for detailed assessment of renal osteodystrophy.\""
+    },
+    {
+      "id": "e21-09-n10",
+      "type": "note",
+      "subtopic": "Diagnostic odyssey",
+      "title": "Why genomic techniques may arrive late in challenging cases",
+      "text": "Lack of robust discriminatory investigations can hinder diagnosis—as in FHH versus PHPT or tumor-induced osteomalacia localization—delaying genomic engagement beyond the ideal point.",
+      "reference": "Main Conclusions: \"Lack of robust discriminatory investigations may hinder diagnosis or management such as in the case of familial hypocalciuric hypercalcemia and tumor-induced osteomalacia (localization), respectively.\""
+    },
+    {
+      "id": "e21-09-n11",
+      "type": "note",
+      "subtopic": "Drug harms",
+      "title": "Bisphosphonate atypical femoral fractures and denosumab rebound",
+      "text": "Awareness of intervention thresholds and rare adverse effects of common drugs is easily overlooked—bisphosphonate-associated atypical femoral fractures and rebound vertebral fractures after denosumab cessation can cause preventable harm.",
+      "reference": "Main Conclusions: \"Awareness of thresholds of intervention for treatment and rare adverse effects of commonly used drugs may be overlooked, potentially causing patient harm, such as bisphosphonate-associated atypical femoral fractures and rebound vertebral fractures with denosumab.\""
+    },
+    {
+      "id": "e21-09-n12",
+      "type": "note",
+      "subtopic": "CKD-MBD",
+      "title": "Why bisphosphonates may be inappropriate in CKD-MBD with low turnover",
+      "text": "Unawareness of comorbidity complexity can promote inappropriate prescribing—bisphosphonates in chronic kidney disease-mineral and bone disorder with low bone turnover is a key example.",
+      "reference": "Main Conclusions: \"Lack of awareness of complexities in cases with multiple comorbidities may promote less appropriate prescribing such as inappropriate use of bisphosphonates in the setting of chronic kidney disease-mineral and bone disorder due to low bone turnover.\""
+    },
+    {
       "id": "e21-09-q1",
       "type": "mcq",
-      "subtopic": "Bone and Mineral Metabolism",
-      "question": "A 55-year-old postmenopausal woman presents with a history of fractures. Which hormone is most likely to be deficient in this patient?",
+      "subtopic": "Initial assessment",
+      "question": "A 55-year-old woman has recurrent low-trauma wrist fractures. Before ordering DXA, which initial laboratory panel best screens mineral and bone metabolism disorders?",
       "options": [
-        "A) Parathyroid Hormone (PTH)",
-        "B) Calcitonin",
-        "C) Estrogen",
-        "D) Vitamin D"
+        "Serum calcium, phosphate, ALP, PTH, and 25-hydroxyvitamin D",
+        "Serum calcitonin and PTHrP",
+        "Urinary NTX alone",
+        "1,25-dihydroxyvitamin D and FGF-23 only"
       ],
+      "correctOption": 0,
+      "explanation": "The standard mineral panel (calcium, phosphate, ALP, PTH, 25-OHD) provides the first-line biochemical pointers; calcitonin and PTHrP are rarely indicated.",
+      "reference": "Mineral Disease: \"Serum calcium adjusted for albumin phosphate, alkaline phosphatase, PTH, and 25-hydroxyvitamin D usually provide pointers to underlying disorders of mineral homeostasis.\""
+    },
+    {
+      "id": "e21-09-q2",
+      "type": "mcq",
+      "subtopic": "FHH workup",
+      "question": "A mildly hypercalcemic patient has low urinary calcium excretion. Fasting calcium/creatinine clearance ratio is borderline. Best next step to distinguish FHH from primary hyperparathyroidism?",
+      "options": [
+        "Repeat PTH in 6 months",
+        "Genetic panel testing for FHH",
+        "Emergent parathyroidectomy",
+        "Empiric cinacalcet"
+      ],
+      "correctOption": 1,
+      "explanation": "Genetic panel testing for FHH is now readily accessible and complements the traditional clearance-ratio approach.",
+      "reference": "Mineral Disease: \"with genetic panel testing for FHH being more readily accessible, this approach can also be used to help distinguish the condition from primary hyperparathyroidism.\""
+    },
+    {
+      "id": "e21-09-q3",
+      "type": "mcq",
+      "subtopic": "Sarcoidosis",
+      "question": "A patient with hypercalcemia and granulomatous lung disease has normal 25-hydroxyvitamin D and suppressed PTH. Which test is occasionally useful here?",
+      "options": [
+        "Serum calcitonin",
+        "1,25-dihydroxyvitamin D",
+        "Urinary CTX",
+        "Serum PTHrP as first-line in all hypercalcemia"
+      ],
+      "correctOption": 1,
+      "explanation": "Extrarenal 1α-hydroxylation in sarcoidosis makes active vitamin D measurement occasionally useful—unlike routine calcitonin or PTHrP screening.",
+      "reference": "Mineral Disease: \"Measurement of the active form of vitamin D, is very rarely indicated but it occasionally can be useful in rare conditions of extrarenal synthesis of 1,25-dihydroxyvitamin D, such as sarcoidosis.\""
+    },
+    {
+      "id": "e21-09-q4",
+      "type": "mcq",
+      "subtopic": "Plain film",
+      "question": "A lumbar spine radiograph report notes 'osteopenia' without fracture. What is the appropriate next imaging step?",
+      "options": [
+        "No further imaging — osteopenia on x-ray is diagnostic",
+        "DXA scan",
+        "Isotope bone scan only",
+        "Bone biopsy"
+      ],
+      "correctOption": 1,
+      "explanation": "Plain-film osteopenia is an indication for DXA; x-rays cannot quantify bone density.",
+      "reference": "Bone Disease: \"Basic x-rays are not useful for assessing bone density, but the appearance of \"osteopenia\" on a plain film is an indication for a DXA scan.\""
+    },
+    {
+      "id": "e21-09-q5",
+      "type": "mcq",
+      "subtopic": "DXA decision",
+      "question": "A 68-year-old woman's hip T-score is -2.3. She has no prior fracture and FRAX is below intervention threshold. Best management principle?",
+      "options": [
+        "Start bisphosphonate solely because T-score < -2.5",
+        "Contextualize DXA within full fracture-risk profile before treating",
+        "Order bone biopsy to confirm osteoporosis",
+        "Measure calcitonin before any decision"
+      ],
+      "correctOption": 1,
+      "explanation": "T-scores must not be isolated treatment thresholds; full fracture-risk context is required.",
+      "reference": "Bone Disease: \"It is important not to consider T-score values in isolation and use them as isolated thresholds for treatment; DXA-determined data should always be contextualized to the full fracture risk profile of the patient.\""
+    },
+    {
+      "id": "e21-09-q6",
+      "type": "mcq",
+      "subtopic": "BTM utility",
+      "question": "A patient on alendronate has unchanged BMD at 1 year. Which use of bone turnover markers is most supported?",
+      "options": [
+        "Screen all adults for osteoporosis",
+        "Assess treatment response and possible nonadherence",
+        "Replace DXA for diagnosis",
+        "Routine annual monitoring in every patient regardless of therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "BTMs may judge treatment response and adherence; routine population screening is not established.",
+      "reference": "Bone Disease: \"Biochemical markers of bone turnover (resorption markers such as CTX and NTX and formation markers such as P1NP and osteocalcin) may be useful in assessing overall risk of osteoporotic fracture and accelerated bone loss and in judging response to treatments for osteoporosis and hence poor adherence to therapy.\""
+    },
+    {
+      "id": "e21-09-q7",
+      "type": "mcq",
+      "subtopic": "Bone scan",
+      "question": "An isotope bone scan shows focal uptake in the pelvis. Next step?",
+      "options": [
+        "Diagnose Paget disease and start bisphosphonate immediately",
+        "Triangulate with clinical, biochemical, and anatomic imaging data",
+        "No further workup — scan is diagnostic",
+        "Start teriparatide for focal uptake"
+      ],
+      "correctOption": 1,
+      "explanation": "Isotope uptake is nonspecific; diagnosis requires additional clinical, biochemical, and imaging correlation.",
+      "reference": "Bone Disease: \"Uptake on such imaging is not selective, however, and is not diagnostic of specific bone diseases. Therefore, further triangulation with additional clinical, biochemical, and imaging information is required to reach a diagnosis.\""
+    },
+    {
+      "id": "e21-09-q8",
+      "type": "mcq",
+      "subtopic": "Bone biopsy",
+      "question": "A patient has persistent hypophosphatemia, elevated ALP, and fractures despite vitamin D repletion; osteomalacia is suspected but the cause is unclear. Best indication for bone biopsy?",
+      "options": [
+        "Routine screening in all postmenopausal women",
+        "Unexplained osteomalacia at a specialized center",
+        "Every patient before starting bisphosphonates",
+        "Isolated low BMD T-score"
+      ],
+      "correctOption": 1,
+      "explanation": "Bone biopsy is reserved for complex metabolic bone disease such as unexplained osteomalacia, performed only in expert centers.",
+      "reference": "Bone Disease: \"Bone biopsy is not a routine test, but it can be helpful in patients with complex metabolic bone diseases, particularly when there is unexplained osteomalacia or a need for detailed assessment of renal osteodystrophy.\""
+    },
+    {
+      "id": "e21-09-q9",
+      "type": "mcq",
+      "subtopic": "History taking",
+      "question": "When evaluating a possible metabolic bone disorder, which history element is especially important?",
+      "options": [
+        "Only current medications",
+        "Early-life milestones, skeletal/dental features, and family history",
+        "Travel history exclusively",
+        "Dietary sodium intake only"
+      ],
+      "correctOption": 1,
+      "explanation": "Initial assessment should include developmental milestones, skeletal/dental/systemic features, and family history.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Initial assessment of patients with potential bone and mineral disorders should include a detailed history that incorporates early-life developmental milestones and clinical events.\""
+    },
+    {
+      "id": "e21-09-q10",
+      "type": "mcq",
+      "subtopic": "TIO localization",
+      "question": "A patient has FGF-23-mediated hypophosphatemia but no tumor is found on initial imaging. Key barrier to optimal care?",
+      "options": [
+        "Overuse of DXA",
+        "Lack of robust localization investigations delaying definitive therapy",
+        "Excess calcitonin testing",
+        "Routine bone biopsy in all cases"
+      ],
+      "correctOption": 1,
+      "explanation": "Tumor-induced osteomalacia localization is a paradigmatic example where limited discriminatory investigations hinder management.",
+      "reference": "Main Conclusions: \"Lack of robust discriminatory investigations may hinder diagnosis or management such as in the case of familial hypocalciuric hypercalcemia and tumor-induced osteomalacia (localization), respectively.\""
+    },
+    {
+      "id": "e21-09-q11",
+      "type": "mcq",
+      "subtopic": "Atypical femur fracture",
+      "question": "A woman on long-term bisphosphonate reports prodromal thigh pain. Plain films show incomplete subtrochanteric fracture. Most important prescribing principle?",
+      "options": [
+        "Continue bisphosphonate to complete fracture healing",
+        "Recognize rare adverse effects and reassess risks/benefits individually",
+        "Switch to another antiresorptive without stopping",
+        "Ignore thigh pain if DXA improved"
+      ],
+      "correctOption": 1,
+      "explanation": "Awareness of rare drug adverse effects such as atypical femoral fractures is essential to prevent harm.",
+      "reference": "Main Conclusions: \"Awareness of thresholds of intervention for treatment and rare adverse effects of commonly used drugs may be overlooked, potentially causing patient harm, such as bisphosphonate-associated atypical femoral fractures and rebound vertebral fractures with denosumab.\""
+    },
+    {
+      "id": "e21-09-q12",
+      "type": "mcq",
+      "subtopic": "Denosumab cessation",
+      "question": "A patient stops denosumab without follow-on therapy and develops multiple new vertebral fractures. What principle was violated?",
+      "options": [
+        "DXA should be repeated weekly",
+        "Anticipating drug offset and planning transition therapy",
+        "Calcitonin should have been measured",
+        "Bone biopsy was mandatory before denosumab"
+      ],
+      "correctOption": 1,
+      "explanation": "Rebound vertebral fractures after denosumab cessation exemplify harm from overlooking drug offset.",
+      "reference": "Main Conclusions: \"rebound vertebral fractures with denosumab.\""
+    },
+    {
+      "id": "e21-09-q13",
+      "type": "mcq",
+      "subtopic": "CKD-MBD",
+      "question": "A dialysis patient with adynamic bone disease and low turnover is referred for 'osteoporosis treatment.' Best response?",
+      "options": [
+        "Start high-dose bisphosphonate immediately",
+        "Avoid inappropriate bisphosphonate use in low-turnover CKD-MBD",
+        "Give teriparatide without monitoring",
+        "Measure calcitonin to guide therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Bisphosphonates may be inappropriate when CKD-MBD features low bone turnover.",
+      "reference": "Main Conclusions: \"inappropriate use of bisphosphonates in the setting of chronic kidney disease-mineral and bone disorder due to low bone turnover.\""
+    },
+    {
+      "id": "e21-09-tf1",
+      "type": "true_false",
+      "subtopic": "DXA",
+      "statement": "DXA T-scores should be used as isolated thresholds to initiate osteoporosis treatment.",
+      "correctAnswer": false,
+      "explanation": "T-scores must be contextualized within the full fracture-risk profile, not used alone.",
+      "reference": "Bone Disease: \"It is important not to consider T-score values in isolation and use them as isolated thresholds for treatment\""
+    },
+    {
+      "id": "e21-09-tf2",
+      "type": "true_false",
+      "subtopic": "Calcitonin",
+      "statement": "Calcitonin measurement is part of the routine investigation of disorders of calcium and bone metabolism.",
+      "correctAnswer": false,
+      "explanation": "Calcitonin is confined to medullary thyroid carcinoma diagnosis and monitoring.",
+      "reference": "Mineral Disease: \"There is no role for calcitonin measurement in the routine investigation of calcium and bone metabolism.\""
+    },
+    {
+      "id": "e21-09-tf3",
+      "type": "true_false",
+      "subtopic": "Plain radiographs",
+      "statement": "Plain skeletal radiographs are reliable for quantifying bone mineral density.",
+      "correctAnswer": false,
+      "explanation": "Basic x-rays are not useful for assessing bone density.",
+      "reference": "Bone Disease: \"Basic x-rays are not useful for assessing bone density\""
+    },
+    {
+      "id": "e21-09-tf4",
+      "type": "true_false",
+      "subtopic": "BTMs",
+      "statement": "Bone turnover markers may help identify poor adherence to osteoporosis therapy.",
+      "correctAnswer": true,
+      "explanation": "BTMs can reflect treatment response and poor adherence, though routine clinical utility is not fully established.",
+      "reference": "Bone Disease: \"in judging response to treatments for osteoporosis and hence poor adherence to therapy.\""
+    },
+    {
+      "id": "e21-09-tf5",
+      "type": "true_false",
+      "subtopic": "Active vitamin D",
+      "statement": "Measurement of 1,25-dihydroxyvitamin D is routinely indicated in all patients with hypercalcemia.",
+      "correctAnswer": false,
+      "explanation": "Active vitamin D measurement is very rarely indicated except in select conditions such as sarcoidosis.",
+      "reference": "Mineral Disease: \"Measurement of the active form of vitamin D, is very rarely indicated\""
+    },
+    {
+      "id": "e21-09-tf6",
+      "type": "true_false",
+      "subtopic": "Isotope scans",
+      "statement": "Increased uptake on an isotope bone scan is diagnostic of a specific bone disease without further workup.",
+      "correctAnswer": false,
+      "explanation": "Uptake is not selective; triangulation with other data is required.",
+      "reference": "Bone Disease: \"Uptake on such imaging is not selective, however, and is not diagnostic of specific bone diseases.\""
+    },
+    {
+      "id": "e21-09-tf7",
+      "type": "true_false",
+      "subtopic": "Genomics",
+      "statement": "Genetic techniques may be engaged later than ideal in some diagnostic odysseys.",
+      "correctAnswer": true,
+      "explanation": "Limited discriminatory tools can delay genomic diagnosis in challenging cases.",
+      "reference": "Main Conclusions: \"Use of genomic techniques may be engaged later than ideal in the diagnostic odyssey.\""
+    },
+    {
+      "id": "e21-09-tf8",
+      "type": "true_false",
+      "subtopic": "Individualized care",
+      "statement": "Individualized care in rare bone and mineral diseases can be highly variable and opinion based.",
+      "correctAnswer": true,
+      "explanation": "Rare diseases require individualized approaches beyond formulaic protocols.",
+      "reference": "Main Conclusions: \"Individualized care can be highly variable and opinion based.\""
+    },
+    {
+      "id": "e21-09-ar1",
+      "type": "assertion_reason",
+      "subtopic": "DXA",
+      "assertion": "Assertion: A hip T-score of -2.6 alone mandates pharmacologic osteoporosis therapy.",
+      "reason": "Reason: DXA is a reliable measure of bone strength that predicts fracture risk.",
+      "correctOption": 1,
+      "explanation": "Both may be true in isolation, but R does not justify treating on T-score alone—full risk context is required.",
+      "reference": "Bone Disease: \"DXA-determined data should always be contextualized to the full fracture risk profile of the patient.\""
+    },
+    {
+      "id": "e21-09-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Calcitonin",
+      "assertion": "Assertion: Calcitonin should be measured in every patient with hypercalcemia.",
+      "reason": "Reason: Calcitonin is useful for monitoring medullary thyroid carcinoma.",
       "correctOption": 2,
-      "explanation": "In postmenopausal women, estrogen deficiency is a common cause of decreased bone density and increased fracture risk. Estrogen plays a crucial role in maintaining bone mass by inhibiting osteoclast activity.",
-      "reference": "MAIN CONCLUSIONS: \"Estrogen deficiency leads to increased bone resorption and decreased bone formation.\""
+      "explanation": "R is true in its limited context, but A is false—calcitonin has no routine role in calcium metabolism workup.",
+      "reference": "Mineral Disease: \"There is no role for calcitonin measurement in the routine investigation of calcium and bone metabolism.\""
     },
     {
-      "id": "e21-09-why1",
-      "type": "why",
-      "subtopic": "Bone and Mineral Metabolism",
-      "question": "Why is estrogen important in maintaining bone health?",
-      "answer": "Because estrogen inhibits osteoclast activity, reducing bone resorption.",
-      "keyPoints": [
-        "Estrogen deficiency leads to increased bone resorption.",
-        "Estrogen helps maintain bone density by balancing bone formation and resorption."
-      ],
-      "reference": "MAIN CONCLUSIONS: \"Estrogen plays a crucial role in maintaining bone mass by inhibiting osteoclast activity.\""
+      "id": "e21-09-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Osteopenia on x-ray",
+      "assertion": "Assertion: Osteopenia reported on plain radiographs warrants DXA scanning.",
+      "reason": "Reason: Plain radiographs cannot reliably assess bone density.",
+      "correctOption": 0,
+      "explanation": "Both true and causally linked—radiographic osteopenia prompts DXA because x-rays do not quantify density.",
+      "reference": "Bone Disease: \"the appearance of \"osteopenia\" on a plain film is an indication for a DXA scan.\""
     },
     {
-      "id": "e21-09-how2",
-      "type": "how",
-      "subtopic": "Bone and Mineral Metabolism",
-      "question": "How does parathyroid hormone (PTH) regulate calcium levels in the blood?",
-      "answer": "PTH increases blood calcium levels by stimulating osteoclast activity, increasing renal reabsorption of calcium, and promoting activation of vitamin D.",
-      "keyPoints": [
-        "PTH stimulates osteoclasts to release calcium from bones.",
-        "PTH enhances renal reabsorption of calcium.",
-        "PTH promotes conversion of inactive vitamin D to its active form."
-      ],
-      "reference": "MAIN CONCLUSIONS: \"Parathyroid hormone (PTH) increases blood calcium levels by stimulating bone resorption, increasing renal calcium reabsorption, and enhancing intestinal absorption via activated vitamin D.\""
+      "id": "e21-09-ar4",
+      "type": "assertion_reason",
+      "subtopic": "FHH",
+      "assertion": "Assertion: Genetic testing can help distinguish FHH from primary hyperparathyroidism.",
+      "reason": "Reason: Fasting urinary calcium/creatinine clearance ratio has traditionally been used for this distinction.",
+      "correctOption": 1,
+      "explanation": "Both true, but the clearance ratio is not the correct explanation for why genetic testing helps—each is an independent tool.",
+      "reference": "Mineral Disease: \"with genetic panel testing for FHH being more readily accessible, this approach can also be used to help distinguish the condition from primary hyperparathyroidism.\""
+    },
+    {
+      "id": "e21-09-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Bone biopsy",
+      "assertion": "Assertion: Bone biopsy should be performed in any patient with low BMD.",
+      "reason": "Reason: Biopsy can clarify unexplained osteomalacia in expert centers.",
+      "correctOption": 2,
+      "explanation": "A is false—biopsy is not routine; R correctly states a valid indication.",
+      "reference": "Bone Disease: \"Bone biopsy is not a routine test, but it can be helpful in patients with complex metabolic bone diseases\""
+    },
+    {
+      "id": "e21-09-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Denosumab",
+      "assertion": "Assertion: Stopping denosumab without transition therapy can cause rebound vertebral fractures.",
+      "reason": "Reason: Denosumab suppresses bone resorption while it remains on board.",
+      "correctOption": 0,
+      "explanation": "Both true—rapid offset after antibody clearance drives rebound bone loss and vertebral fracture risk.",
+      "reference": "Main Conclusions: \"rebound vertebral fractures with denosumab.\""
+    },
+    {
+      "id": "e21-09-ar7",
+      "type": "assertion_reason",
+      "subtopic": "BTMs",
+      "assertion": "Assertion: Bone turnover markers have established routine clinical utility in every osteoporosis patient.",
+      "reason": "Reason: BTMs may reflect treatment response and adherence.",
+      "correctOption": 2,
+      "explanation": "A overstates evidence—routine utility is not established; R is true but does not make A universally correct.",
+      "reference": "Bone Disease: \"However, the clinical utility of routine measurements of bone turnover markers is yet to be established.\""
+    },
+    {
+      "id": "e21-09-ar8",
+      "type": "assertion_reason",
+      "subtopic": "CKD-MBD",
+      "assertion": "Assertion: Bisphosphonates are always appropriate in patients with CKD and low bone density.",
+      "reason": "Reason: Bisphosphonates reduce fracture risk in postmenopausal osteoporosis.",
+      "correctOption": 2,
+      "explanation": "A is false in low-turnover CKD-MBD; R is true in primary osteoporosis but does not justify A in CKD-MBD.",
+      "reference": "Main Conclusions: \"inappropriate use of bisphosphonates in the setting of chronic kidney disease-mineral and bone disorder due to low bone turnover.\""
     }
   ]
 }
