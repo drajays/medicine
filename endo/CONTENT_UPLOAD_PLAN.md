@@ -55,7 +55,7 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 4. e21-21–27 (Pituitary/NET)
 5. e21-28–31 (Pediatric)
 6. e21-32–36 (Reproductive) ✅
-7. e21-38–43 (Thyroid/interfaces)
+7. e21-38–43 (Thyroid/interfaces) ✅
 8. e21-01–04 (Obesity/lipids)
 
 **Per module:** read MD → write JSON → validate → sync → commit (one module per commit).
@@ -94,7 +94,13 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 | e21-34 HRT in post-reproductive women | ✅ remediated | 41 | 91% |
 | e21-35 Androgenic PED abuse | ✅ remediated | 41 | 91% |
 | e21-36 Male infertility | ✅ remediated | 41 | 91% |
-| e21-01–04, e21-37–43 | ⏳ pending | | |
+| e21-38 Discordant TFTs | ✅ remediated | 41 | 83% |
+| e21-39 Hemithyroidectomy surveillance | ✅ remediated | 41 | 75% |
+| e21-40 Thyroid in pregnancy | ✅ remediated | 41 | 83% |
+| e21-41 Endo–oncology interface | ✅ remediated | 41 | 100% |
+| e21-42 ICI endocrine effects | ✅ remediated | 41 | 67% |
+| e21-43 Endo–psychiatry interface | ✅ remediated | 41 | 92% |
+| e21-01–04, e21-37 | ⏳ pending | | |
 
 ## Phase 2 — Williams 15e (49 chapters)
 
@@ -143,3 +149,9 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-07 | e21-29 | 41 | 58% | pending |
 | 2026-07-07 | e21-30 | 41 | 75% | pending |
 | 2026-07-07 | e21-31 | 41 | 58% | pending |
+| 2026-07-07 | e21-38 | 41 | 83% | pending |
+| 2026-07-07 | e21-39 | 41 | 75% | pending |
+| 2026-07-07 | e21-40 | 41 | 83% | pending |
+| 2026-07-07 | e21-41 | 41 | 100% | pending |
+| 2026-07-07 | e21-42 | 41 | 67% | pending |
+| 2026-07-07 | e21-43 | 41 | 92% | pending |

@@ -4,24 +4,451 @@
   "chapterNo": "42",
   "title": "How to Screen and Treat",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Simon H. S. Pearce, MD, FRCP",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_42_How_to_Screen_and_Treat.md",
   "items": [
     {
+      "id": "e21-42-n1",
+      "type": "note",
+      "subtopic": "ICI overview",
+      "title": "Why immune checkpoint inhibitors cause endocrine adverse effects",
+      "text": "Checkpoint inhibitors block CTLA4, PD-1, or PD-L1 immune brakes, augmenting antitumor immunity but causing immune-mediated endocrinopathies in ~15% with single agents and 20%–30% with combination therapy.",
+      "reference": "Significance of the Clinical Problem: \"immune-mediated endocrine dysfunction is observed in approximately 15% of patients treated with a single agent and in 20% to 30% of those treated with a combination of 2 checkpoint inhibitors.\""
+    },
+    {
+      "id": "e21-42-n2",
+      "type": "note",
+      "subtopic": "Thyroiditis prevalence",
+      "title": "How thyroid dysfunction prevalence varies by agent",
+      "text": "Destructive thyroiditis is most common with PD-1/PD-L1 blockers (hypothyroidism up to ~8%–8.5%); hypophysitis is most frequent with CTLA4 blockade (~5% with ipilimumab).",
+      "reference": "Table. Prevalence of Endocrinopathies During Immune Checkpoint Inhibitor Therapy: \"Ipilimumab ... Hypothyroidism 3.8% ... Pituitary Dysfunction 5.6% ... Nivolumab ... Hypothyroidism 8% ... Pituitary Dysfunction 0.5%\""
+    },
+    {
+      "id": "e21-42-n3",
+      "type": "note",
+      "subtopic": "Hypophysitis urgency",
+      "title": "Why hypophysitis with adrenal crisis requires immediate hydrocortisone",
+      "text": "Sick hypotensive patient on combination ipilimumab/nivolumab needs serum cortisol and IV hydrocortisone 100 mg stat before MRI or cosyntropin testing.",
+      "reference": "Case 1: \"Answer: B) Measure serum cortisol and give intravenous hydrocortisone, 100 mg stat\""
+    },
+    {
+      "id": "e21-42-n4",
+      "type": "note",
+      "subtopic": "Thyroiditis monitoring",
+      "title": "How to manage asymptomatic checkpoint inhibitor thyrotoxicosis",
+      "text": "Mild asymptomatic thyrotoxicosis: repeat TFT in 2 weeks with TRAb; do not cancel immunotherapy or start thionamides; ~50% develop permanent hypothyroidism.",
+      "reference": "Case 2: \"Answer: E) Order repeated thyroid function tests in 2 weeks with TSH-receptor antibodies\""
+    },
+    {
+      "id": "e21-42-n5",
+      "type": "note",
+      "subtopic": "Thionamide pitfall",
+      "title": "Why thionamides should not be used in ICI thyroiditis",
+      "text": "Methimazole does not improve immune-mediated thyrotoxicosis and may prolong or worsen rebound hypothyroidism.",
+      "reference": "Case 2: \"Starting methimazole (Answer C) is incorrect, as it will not improve thyrotoxicosis in thyroiditis; it will just make any rebound hypothyroidism more prolonged or severe.\""
+    },
+    {
+      "id": "e21-42-n6",
+      "type": "note",
+      "subtopic": "Central hypothyroidism",
+      "title": "How to recognize checkpoint inhibitor central hypothyroidism",
+      "text": "Declining free T4 with normal or low TSH during CTLA4 therapy suggests hypophysitis—mandatory screening for adrenal insufficiency before levothyroxine.",
+      "reference": "Hypothyroidism: \"It is mandatory to screen for and treat hypoadrenalism before starting levothyroxine replacement.\""
+    },
+    {
+      "id": "e21-42-n7",
+      "type": "note",
+      "subtopic": "Hypophysitis demographics",
+      "title": "Who is at highest risk for ipilimumab hypophysitis",
+      "text": "Hypophysitis is more common in older men (3:1) after 3–5 cycles, especially at 10 mg/kg ipilimumab doses.",
+      "reference": "Pituitary Dysfunction: \"It is more common in older men (male:female, 3:1) and with higher dosages of ipilimumab (10 mg/kg).\""
+    },
+    {
+      "id": "e21-42-n8",
+      "type": "note",
+      "subtopic": "Do not stop ICI",
+      "title": "Why treatable endocrinopathy should not end checkpoint therapy",
+      "text": "Transformative cancer benefit means endocrine adverse effects should not routinely lead to discontinuation—temporary pause if significantly unwell.",
+      "reference": "Barriers to Optimal Practice: \"development of a treatable endocrine adverse effect should not routinely lead to discontinuation of the checkpoint inhibitor therapy.\""
+    },
+    {
+      "id": "e21-42-n9",
+      "type": "note",
+      "subtopic": "Type 1 diabetes",
+      "title": "How fulminant type 1 diabetes presents on checkpoint inhibitors",
+      "text": "Fulminant type 1 diabetes with ketoacidosis can occur, more often with combination CTLA4/PD-1 blockade (~2% type 1 diabetes).",
+      "reference": "Main Conclusions: \"Fulminant type 1 diabetes, often with ketoacidosis, and primary adrenal insufficiency can also be observed but are more rare.\""
+    },
+    {
+      "id": "e21-42-n10",
+      "type": "note",
+      "subtopic": "Misattribution trap",
+      "title": "Pitfall: attributing ICI endocrinopathy symptoms to progressive cancer",
+      "text": "Nonspecific weight loss, lethargy, and hypotension from adrenal insufficiency may be misread as tumor progression.",
+      "reference": "Barriers to Optimal Practice: \"nonspecific deterioration, including weight loss, poor appetite, lethargy, and hypotension may be misattributed to advancing cancer rather than to a readily treatable endocrinopathy\""
+    },
+    {
+      "id": "e21-42-n11",
+      "type": "note",
+      "subtopic": "Hypothyroid treatment threshold",
+      "title": "When to treat checkpoint inhibitor hypothyroidism",
+      "text": "Asymptomatic subclinical hypothyroidism with TSH 4–10 may be observed; treat when TSH ≥10 or symptomatic; assume primary hypothyroidism is permanent.",
+      "reference": "Hypothyroidism: \"it is not necessary to treat patients with asymptomatic mild/subclinical primary hypothyroidism with serum TSH concentrations in the range of 4 to 10 mIU/L and normal serum free T₄ levels, but treatment is indicated once the TSH concentration rises to 10 mIU/L or higher.\""
+    },
+    {
+      "id": "e21-42-n12",
+      "type": "note",
+      "subtopic": "Recovery expectations",
+      "title": "What endocrine recovery to expect after checkpoint inhibitors",
+      "text": "Recovery is not expected in most instances; secondary adrenal insufficiency is usually permanent though hypothyroidism/hypogonadism may recover in ~50%.",
+      "reference": "Main Conclusions: \"Recovery from endocrine dysfunction is not expected in most instances.\""
+    },
+    {
+      "id": "e21-42-q1",
       "type": "mcq",
-      "subtopic": "Screening and Treatment of Endocrine Dysfunction in Immune Checkpoint Inhibitor Therapy",
-      "question": "For a patient with advanced melanoma on immune checkpoint inhibitor therapy who presents with hypotension, confusion, and hyponatremia, what is the immediate priority for management?",
+      "subtopic": "Case 1",
+      "question": "Melanoma patient on ipilimumab/nivolumab cycle 3 with hypotension, hyponatremia, confusion. Immediate priority?",
       "options": [
-        "Measure serum cortisol, aldosterone, and ACTH",
-        "Measure serum cortisol and give intravenous hydrocortisone, 100 mg stat",
-        "Measure urine sodium and urine osmolality",
-        "Order pituitary MRI and measure pituitary antibodies",
-        "Perform a short 250-mcg cosyntropin-stimulation test"
+        "Measure cortisol, aldosterone, and ACTH only",
+        "Measure cortisol and give IV hydrocortisone 100 mg stat",
+        "Urine sodium and osmolality first",
+        "Pituitary MRI before steroids"
       ],
       "correctOption": 1,
-      "explanation": "The patient is likely experiencing hypophysitis, which can lead to secondary adrenal insufficiency. Immediate management should include measuring serum cortisol and administering intravenous hydrocortisone (hydrocortisone) as it addresses the immediate need for hormone replacement therapy.",
-      "reference": "\"Immune checkpoint inhibitors are associated with a range of endocrine adverse effects, including hypophysitis, which can present with hyponatremia and hypotension. Hypophysitis is often secondary to adrenal insufficiency, necessitating prompt treatment with parenteral hydrocortisone.\"",
-      "id": "e21-42-q1"
+      "explanation": "Acutely ill patient needs empiric IV hydrocortisone while drawing cortisol; detailed testing waits until stable.",
+      "reference": "Case 1: \"Answer: B) Measure serum cortisol and give intravenous hydrocortisone, 100 mg stat\""
+    },
+    {
+      "id": "e21-42-q2",
+      "type": "mcq",
+      "subtopic": "Case 2",
+      "question": "Asymptomatic mild thyrotoxicosis before pembrolizumab cycle 4. Best action?",
+      "options": [
+        "Cancel pembrolizumab cycle",
+        "Start methimazole 15 mg daily",
+        "Start propranolol 80 mg daily",
+        "Repeat TFT in 2 weeks with TRAb"
+      ],
+      "correctOption": 3,
+      "explanation": "Mild asymptomatic thyroiditis: monitor; TRAb helps exclude Graves; thionamides and cycle cancellation inappropriate.",
+      "reference": "Case 2: \"Answer: E) Order repeated thyroid function tests in 2 weeks with TSH-receptor antibodies\""
+    },
+    {
+      "id": "e21-42-q3",
+      "type": "mcq",
+      "subtopic": "ICI prevalence",
+      "question": "Which agent has the highest pituitary dysfunction rate in the ICI table?",
+      "options": [
+        "Nivolumab (~0.5%)",
+        "Pembrolizumab (~1.1%)",
+        "Ipilimumab (~5.6%)",
+        "Atezolizumab (not listed)"
+      ],
+      "correctOption": 2,
+      "explanation": "CTLA4 blockade with ipilimumab carries highest hypophysitis rate in the summary table.",
+      "reference": "Table. Prevalence of Endocrinopathies During Immune Checkpoint Inhibitor Therapy: \"Ipilimumab ... Pituitary Dysfunction ... 5.6%\""
+    },
+    {
+      "id": "e21-42-q4",
+      "type": "mcq",
+      "subtopic": "PD-1 thyroid",
+      "question": "Destructive thyroiditis causing hypothyroidism is most common with:",
+      "options": [
+        "PD-1/PD-L1 blockers",
+        "CTLA4 blockade only",
+        "Chemotherapy alone",
+        "Radiation only"
+      ],
+      "correctOption": 0,
+      "explanation": "Chapter states destructive thyroiditis is typically seen after PD-1/PD-L1 blockers.",
+      "reference": "Main Conclusions: \"Destructive thyroiditis, manifest as either transient hyperthyroidism or permanent hypothyroidism, is the most common endocrine adverse effect, typically seen after use of PD1/PD-L1 blockers.\""
+    },
+    {
+      "id": "e21-42-q5",
+      "type": "mcq",
+      "subtopic": "Hypophysitis imaging",
+      "question": "Pituitary MRI in checkpoint inhibitor hypophysitis is indicated to:",
+      "options": [
+        "Avoid glucocorticoid replacement",
+        "Exclude metastasis and assess hypophysitis",
+        "Replace hormonal testing",
+        "Prove diabetes insipidus always present"
+      ],
+      "correctOption": 1,
+      "explanation": "MRI excludes metastatic pituitary disease; moderately enlarged bright pituitary may be seen.",
+      "reference": "Pituitary Dysfunction: \"Affected patients need pituitary MRI whether they present with mass effects or hormonal dysfunction, as other causes of pituitary failure (particularly metastasis) must be excluded.\""
+    },
+    {
+      "id": "e21-42-q6",
+      "type": "mcq",
+      "subtopic": "Sick euthyroid vs central",
+      "question": "In high tumor burden, central hypothyroidism from hypophysitis differs from sick euthyroid syndrome because:",
+      "options": [
+        "Free T4 is usually lower in central hypothyroidism",
+        "TSH is always high in central hypothyroidism",
+        "Sick euthyroid always needs levothyroxine urgently",
+        "No difference exists"
+      ],
+      "correctOption": 0,
+      "explanation": "Sick euthyroid tends to preserve free T4 relative to central hypothyroidism with low free T4.",
+      "reference": "Hypothyroidism: \"serum free T₄ tends to be relatively preserved in sick euthyroid syndrome and is likely to be lower in central hypothyroidism.\""
+    },
+    {
+      "id": "e21-42-q7",
+      "type": "mcq",
+      "subtopic": "High-dose steroids",
+      "question": "High-dose methylprednisolone in hypophysitis is appropriate for:",
+      "options": [
+        "Isolated ACTH deficiency without mass effect",
+        "Optic nerve compression with visual loss",
+        "Mild subclinical hypothyroidism",
+        "Asymptomatic thyrotoxicosis"
+      ],
+      "correctOption": 1,
+      "explanation": "High-dose glucocorticoids for vision-threatening mass effect until vision restored.",
+      "reference": "Pituitary Dysfunction: \"Rarely, patients present with optic nerve compression causing visual disturbance, and they should be treated with high-dosage glucocorticoids such as methylprednisolone or dexamethasone until vision is restored.\""
+    },
+    {
+      "id": "e21-42-q8",
+      "type": "mcq",
+      "subtopic": "Methimazole harm",
+      "question": "Starting methimazole for pembrolizumab-related thyrotoxicosis may:",
+      "options": [
+        "Improve long-term euthyroidism",
+        "Prolong or worsen subsequent hypothyroidism",
+        "Prevent all thyroid disease",
+        "Replace need for levothyroxine"
+      ],
+      "correctOption": 1,
+      "explanation": "Thionamides are ineffective in thyroiditis and may worsen hypothyroid phase.",
+      "reference": "Case 2: \"it will just make any rebound hypothyroidism more prolonged or severe.\""
+    },
+    {
+      "id": "e21-42-q9",
+      "type": "mcq",
+      "subtopic": "Combination therapy",
+      "question": "Combination CTLA4 + PD-1 checkpoint inhibition endocrine toxicity rate is approximately:",
+      "options": [
+        "1%–2%",
+        "5%",
+        "15%–30%",
+        "60%–80%"
+      ],
+      "correctOption": 2,
+      "explanation": "Combination therapy doubles or more the endocrine AE rate vs single agent.",
+      "reference": "Significance of the Clinical Problem: \"in 20% to 30% of those treated with a combination of 2 checkpoint inhibitors.\""
+    },
+    {
+      "id": "e21-42-q10",
+      "type": "mcq",
+      "subtopic": "Hypoadrenalism before T4",
+      "question": "Before levothyroxine for checkpoint inhibitor hypothyroidism, you must:",
+      "options": [
+        "Start levothyroxine first always",
+        "Screen for and treat adrenal insufficiency",
+        "Give methimazole",
+        "Stop all immunotherapy permanently"
+      ],
+      "correctOption": 1,
+      "explanation": "Treating hypothyroidism before cortisol replacement risks adrenal crisis.",
+      "reference": "Hypothyroidism: \"It is mandatory to screen for and treat hypoadrenalism before starting levothyroxine replacement.\""
+    },
+    {
+      "id": "e21-42-q11",
+      "type": "mcq",
+      "subtopic": "Case 2 natural history",
+      "question": "In Case 2, repeated labs showed progression to TSH 39 with low free T4 requiring:",
+      "options": [
+        "Methimazole increase",
+        "Levothyroxine 75 mcg daily",
+        "Radioactive iodine",
+        "Thyroidectomy"
+      ],
+      "correctOption": 1,
+      "explanation": "Destructive thyroiditis progressed to permanent hypothyroidism treated with levothyroxine.",
+      "reference": "Case 2: \"Levothyroxine, 75 mcg daily, was started.\""
+    },
+    {
+      "id": "e21-42-q12",
+      "type": "mcq",
+      "subtopic": "Hypophysitis timing",
+      "question": "Hypophysitis from ipilimumab typically presents after:",
+      "options": [
+        "1 day",
+        "3–5 cycles (9–16 weeks)",
+        "5 years",
+        "Only post-treatment"
+      ],
+      "correctOption": 1,
+      "explanation": "Headache and fatigue emerge after several cycles.",
+      "reference": "Pituitary Dysfunction: \"Headache and fatigue are the earliest symptoms and are typically found after 3 to 5 cycles (9-16 weeks).\""
+    },
+    {
+      "id": "e21-42-q13",
+      "type": "mcq",
+      "subtopic": "Primary adrenal ICI",
+      "question": "Primary adrenal insufficiency with checkpoint inhibitors is:",
+      "options": [
+        "Most common with single PD-1 agents",
+        "Rare with single agents; higher with combination CTLA4/PD-1",
+        "Never seen",
+        "Always self-limited"
+      ],
+      "correctOption": 1,
+      "explanation": "Primary adrenal insufficiency is rare on monotherapy but more frequent with combination blockade.",
+      "reference": "Primary Adrenal Insufficiency: \"Primary adrenal insufficiency seems to be rare with single-agent checkpoint inhibition, but combination CTLA4/PD-1 blockade therapy\""
+    },
+    {
+      "id": "e21-42-tf1",
+      "type": "true_false",
+      "subtopic": "Thyroid most common",
+      "statement": "Thyroid dysfunction is the most common endocrine adverse effect of checkpoint inhibitors.",
+      "correctAnswer": true,
+      "explanation": "Destructive thyroiditis predominates, especially with PD-1/PD-L1 agents.",
+      "reference": "Main Conclusions: \"Destructive thyroiditis ... is the most common endocrine adverse effect\""
+    },
+    {
+      "id": "e21-42-tf2",
+      "type": "true_false",
+      "subtopic": "Stop ICI routine",
+      "statement": "Endocrine adverse effects should routinely lead to permanent checkpoint inhibitor discontinuation.",
+      "correctAnswer": false,
+      "explanation": "Treat endocrinopathy and continue therapy when possible; pause if very unwell.",
+      "reference": "Barriers to Optimal Practice: \"should not routinely lead to discontinuation of the checkpoint inhibitor therapy.\""
+    },
+    {
+      "id": "e21-42-tf3",
+      "type": "true_false",
+      "subtopic": "IV hydrocortisone sick",
+      "statement": "Acutely ill suspected hypophysitis patient should receive IV hydrocortisone 100 mg immediately.",
+      "correctAnswer": true,
+      "explanation": "Empiric steroids while measuring cortisol in sick patient per Case 1.",
+      "reference": "Case 1: \"give intravenous hydrocortisone, 100 mg stat (Answer B) is correct because he is sick\""
+    },
+    {
+      "id": "e21-42-tf4",
+      "type": "true_false",
+      "subtopic": "Thionamides thyroiditis",
+      "statement": "Methimazole improves immune checkpoint inhibitor-mediated thyrotoxicosis.",
+      "correctAnswer": false,
+      "explanation": "Thyroiditis thyrotoxicosis is self-limited; thionamides are ineffective.",
+      "reference": "Case 2: \"Starting methimazole (Answer C) is incorrect\""
+    },
+    {
+      "id": "e21-42-tf5",
+      "type": "true_false",
+      "subtopic": "Ipilimumab hypophysitis",
+      "statement": "Ipilimumab causes hypophysitis in approximately 5% of patients.",
+      "correctAnswer": true,
+      "explanation": "Table lists pituitary dysfunction 5.6% for ipilimumab.",
+      "reference": "Table. Prevalence of Endocrinopathies During Immune Checkpoint Inhibitor Therapy: \"Ipilimumab ... Pituitary Dysfunction ... 5.6%\""
+    },
+    {
+      "id": "e21-42-tf6",
+      "type": "true_false",
+      "subtopic": "Permanent hypothyroid",
+      "statement": "Primary hypothyroidism after checkpoint inhibitor thyroiditis should be assumed permanent.",
+      "correctAnswer": true,
+      "explanation": "Long-term levothyroxine usually required.",
+      "reference": "Hypothyroidism: \"Primary hypothyroidism should be assumed to be permanent.\""
+    },
+    {
+      "id": "e21-42-tf7",
+      "type": "true_false",
+      "subtopic": "Cancel cycle mild",
+      "statement": "Mild asymptomatic thyrotoxicosis warrants cancelling the next checkpoint inhibitor cycle.",
+      "correctAnswer": false,
+      "explanation": "Case 2: not ill enough to interrupt life-prolonging therapy.",
+      "reference": "Case 2: \"Cancelling this cycle of pembrolizumab (Answer A) is wrong because she is not ill enough\""
+    },
+    {
+      "id": "e21-42-tf8",
+      "type": "true_false",
+      "subtopic": "Recovery common",
+      "statement": "Most checkpoint inhibitor endocrinopathies fully recover without replacement therapy.",
+      "correctAnswer": false,
+      "explanation": "Recovery not expected in most instances.",
+      "reference": "Main Conclusions: \"Recovery from endocrine dysfunction is not expected in most instances.\""
+    },
+    {
+      "id": "e21-42-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Case 1 steroids",
+      "assertion": "Assertion: IV hydrocortisone 100 mg is priority in sick suspected ICI adrenal crisis patient.",
+      "reason": "Reason: Because cosyntropin testing must always precede any glucocorticoid.",
+      "correctOption": 2,
+      "explanation": "Assertion true when ill; reason false—treat first, test when stable.",
+      "reference": "Case 1: \"he is sick and should be treated immediately with parenteral hydrocortisone\""
+    },
+    {
+      "id": "e21-42-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Case 2 monitor",
+      "assertion": "Assertion: Asymptomatic mild ICI thyrotoxicosis can be monitored with repeat TFT in 2 weeks.",
+      "reason": "Reason: Because thionamides are first-line for immune-mediated thyroiditis.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—thionamides contraindicated.",
+      "reference": "Case 2: \"Answer: E) Order repeated thyroid function tests in 2 weeks with TSH-receptor antibodies\""
+    },
+    {
+      "id": "e21-42-ar3",
+      "type": "assertion_reason",
+      "subtopic": "CTLA4 hypophysitis",
+      "assertion": "Assertion: CTLA4 blockade carries higher hypophysitis risk than PD-1 monotherapy.",
+      "reason": "Reason: Because ipilimumab pituitary dysfunction rate exceeds nivolumab in prevalence table.",
+      "correctOption": 0,
+      "explanation": "Both true—5.6% vs 0.5% in table.",
+      "reference": "Table. Prevalence of Endocrinopathies During Immune Checkpoint Inhibitor Therapy: \"Ipilimumab ... Pituitary Dysfunction ... 5.6% ... Nivolumab ... 0.5%\""
+    },
+    {
+      "id": "e21-42-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Cortisol before T4",
+      "assertion": "Assertion: Adrenal insufficiency must be treated before levothyroxine in ICI hypophysitis.",
+      "reason": "Reason: Because levothyroxine can precipitate adrenal crisis if cortisol is deficient.",
+      "correctOption": 0,
+      "explanation": "Both true—standard hypophysitis management.",
+      "reference": "Hypothyroidism: \"It is mandatory to screen for and treat hypoadrenalism before starting levothyroxine replacement.\""
+    },
+    {
+      "id": "e21-42-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Combination toxicity",
+      "assertion": "Assertion: Combination checkpoint inhibition increases endocrine adverse events.",
+      "reason": "Reason: Because combination therapy reduces immune activation.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—combination increases immune toxicity.",
+      "reference": "Significance of the Clinical Problem: \"in 20% to 30% of those treated with a combination of 2 checkpoint inhibitors.\""
+    },
+    {
+      "id": "e21-42-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Misattribution",
+      "assertion": "Assertion: ICI adrenal insufficiency may mimic progressive malignancy.",
+      "reason": "Reason: Because lethargy and weight loss never occur in cancer patients.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason absurd—symptoms overlap with cancer progression.",
+      "reference": "Barriers to Optimal Practice: \"may be misattributed to advancing cancer rather than to a readily treatable endocrinopathy\""
+    },
+    {
+      "id": "e21-42-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Permanent adrenal",
+      "assertion": "Assertion: Secondary adrenal insufficiency from ICI hypophysitis is usually permanent.",
+      "reason": "Reason: Because all pituitary axes always recover within 2 weeks.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—recovery rare for ACTH deficiency.",
+      "reference": "Pituitary Dysfunction: \"Secondary adrenal insufficiency should be assumed to be permanent, although rare cases of recovery have been documented.\""
+    },
+    {
+      "id": "e21-42-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Thyrotoxicosis half",
+      "assertion": "Assertion: Approximately 50% of ICI thyrotoxicosis patients develop permanent hypothyroidism.",
+      "reason": "Reason: Because thionamides prevent hypothyroid progression.",
+      "correctOption": 2,
+      "explanation": "Assertion true per Case 2; reason false—thionamides worsen hypothyroid phase.",
+      "reference": "Case 2: \"permanent hypothyroidism occurs in approximately 50% of cases.\""
     }
   ]
 }

@@ -4,24 +4,451 @@
   "chapterNo": "38",
   "title": "When Thyroid Function Test Results Dont Make Sense",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Mark Gurnell, MD, PhD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_38_When_Thyroid_Function_Test_Results_Dont_Make_Sense.md",
   "items": [
     {
+      "id": "e21-38-n1",
+      "type": "note",
+      "subtopic": "Discordant TFTs",
+      "title": "Why discordant thyroid function tests demand a systematic approach",
+      "text": "Discordant results may reflect intercurrent illness, medications, assay interference, poor levothyroxine adherence, or rare HPT-axis disorders; successful resolution requires understanding physiology, assay methodology, and TFT patterns before advanced testing.",
+      "reference": "Main Conclusions: \"Discordant or anomalous TFT results may arise in the context of: Confounding intercurrent illness and/or medication use. Erratic or poor adherence to levothyroxine therapy. Interference in commonly used laboratory assays for thyroid hormone or TSH measurement. Rare genetic or acquired disorders of the hypothalamic-pituitary-thyroid (HPT) axis.\""
+    },
+    {
+      "id": "e21-38-n2",
+      "type": "note",
+      "subtopic": "Clinical significance",
+      "title": "Raised thyroid hormones with nonsuppressed TSH",
+      "text": "Elevated T4/T3 with nonsuppressed TSH is a common discordant pattern; many cases reflect illness, drugs, or analytic interference, but resistance to thyroid hormone and TSH-secreting pituitary tumors must be distinguished to avoid wasteful investigation and incorrect treatment.",
+      "reference": "Significance of the Clinical Problem: \"Raised thyroid hormones (T4, T3) with nonsuppressed TSH levels are an important, and relatively commonly encountered, pattern of discordant TFTs; many cases can be explained by confounding intercurrent illness, concomitant medication use, or analytic interference in thyroid hormone or TSH assays, but differentiating between these and other rarer causes (eg, resistance to thyroid hormone, TSH-secreting pituitary tumor) can be difficult.\""
+    },
+    {
+      "id": "e21-38-n3",
+      "type": "note",
+      "subtopic": "TSH assays",
+      "title": "How TSH sandwich assays are susceptible to interference",
+      "text": "Sandwich TSH assays use capture and detection antibodies; human anti-animal or heterophile antibodies can cause falsely low or high TSH via blocking or cross-linking. Confirm with alternate assays, dilution nonlinearity, or immunosuptraction.",
+      "reference": "TSH Measurement: \"Thus, a human anti-animal antibody that blocks TSH binding to either capture or detection antibodies will result in \"negative interference,\" causing a falsely low TSH value. Conversely, a human anti-animal antibody that is capable of cross-linking the capture and detection antibodies may cause \"positive interference,\" leading to a falsely high TSH value.\""
+    },
+    {
+      "id": "e21-38-n4",
+      "type": "note",
+      "subtopic": "Free hormone assays",
+      "title": "How heparin causes artifactual free T4 elevation",
+      "text": "Heparin activates endothelial lipoprotein lipase, raising free fatty acids that displace T4 from binding proteins—raising measured free but not total T4 in vitro, especially with delayed sample processing.",
+      "reference": "Case 2: \"Heparin (both conventional and low-molecular-weight in prophylactic and treatment dosages) is able to activate endothelial lipoprotein lipase. In some patients, the accompanying rise in serum free fatty acid levels is sufficient to cause displacement of T4 from its binding sites (eg, on thyroxine-binding globulin), thereby raising free, but not total, thyroid hormone levels.\""
+    },
+    {
+      "id": "e21-38-n5",
+      "type": "note",
+      "subtopic": "Biotin",
+      "title": "Why biotin supplements confound immunoassays",
+      "text": "Biotin as medication or supplement interferes with streptavidin-biotin assay platforms and can affect many laboratory tests—not only thyroid hormone and TSH measurements.",
+      "reference": "Biotin (Vitamin B₇): \"Biotin used either as a medication or dietary supplement presents a specific challenge for laboratory platforms that use biotin as part of the core assay configuration (eg, streptavidin-biotin complex). This issue can affect a multitude of assays, not simply thyroid hormone or TSH measurements.\""
+    },
+    {
+      "id": "e21-38-n6",
+      "type": "note",
+      "subtopic": "FDH",
+      "title": "How familial dysalbuminemic hyperthyroxinemia confounds free T4",
+      "text": "Dominantly inherited albumin or transthyretin variants alter iodothyronine binding and can overestimate free T4 on one-step analogue assays; two-step assays, equilibrium dialysis, or mass spectrometry help confirm.",
+      "reference": "Free T4 and Free T3 Measurement: \"Variant thyroid hormone-binding proteins: dominantly-inherited genetic variants of albumin (familial dysalbuminemic hyperthyroxinemia [FDH] or transthyretin [transthyretin-associated hyperthyroxinemia (TTR-AH)]), may alter affinity for iodothyronines, and can cause free T4 (and less frequently free T3) to be overestimated, particularly in \"1-step\" analogue hormone assays.\""
+    },
+    {
+      "id": "e21-38-n7",
+      "type": "note",
+      "subtopic": "RTH vs thyrotropinoma",
+      "title": "Why distinguishing resistance to thyroid hormone from thyrotropinoma is difficult",
+      "text": "Both occur in similar age ranges and either gender; central/pituitary resistance may show thyrotoxic symptoms, so clinical features are not discriminatory—pitfalls include α-subunit in nonfunctioning tumors, falsely low SHBG in mixed GH/TSH tumors, and thyrotroph hyperplasia on imaging after thyroid ablation in RTH.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"Resistance to thyroid hormone (estimated incidence 1 in 40,000 to 50,000 live births) and TSH-secreting pituitary tumors (estimated prevalence 1 to 3 per million) occur in patients of a similar age range and either gender.\""
+    },
+    {
+      "id": "e21-38-n8",
+      "type": "note",
+      "subtopic": "Case 1 pitfall",
+      "title": "Why assay interference must be excluded before thyrotropinoma workup",
+      "text": "In elevated T4/T3 with nonsuppressed TSH, the TSH may be artifactually high while true primary thyrotoxicosis exists with suppressed TSH—most endocrine laboratories can screen for TSH assay interference before MRI or dynamic testing.",
+      "reference": "Case 1: \"Before embarking on further investigations to distinguish a TSH-secreting pituitary adenoma (thyrotropinoma) from resistance to thyroid hormone, it is first necessary to exclude laboratory assay interference as a cause for the unusual TFT pattern.\""
+    },
+    {
+      "id": "e21-38-n9",
+      "type": "note",
+      "subtopic": "Levothyroxine adherence",
+      "title": "How erratic levothyroxine adherence produces discordant TFTs",
+      "text": "Intermittent ingestion can yield normal or elevated thyroid hormone levels on the day of testing while failing to normalize a chronically elevated TSH—especially if a larger dose is taken immediately before the blood draw.",
+      "reference": "Case 3: \"Erratic adherence to levothyroxine therapy (Answer A) could produce this pattern of results, especially if the patient takes a larger dosage of levothyroxine on the day(s) immediately before the blood test, which can be sufficient to produce serum T4 levels within the laboratory reference range, but is inadequate to normalize a chronically raised TSH.\""
+    },
+    {
+      "id": "e21-38-n10",
+      "type": "note",
+      "subtopic": "Confounding factors",
+      "title": "How clinical context alters TFT interpretation",
+      "text": "Age, pregnancy trimester-specific ranges, levothyroxine dosing, medications (amiodarone, heparin, biotin), and nonthyroidal illness all influence TFT patterns and must be reviewed before labeling results as inexplicable.",
+      "reference": "Consider Potential Confounding Factors: \"It is important to pay attention to the clinical context, as several factors may have particular relevance for the interpretation of TFTs, including: Age: Many laboratories do not report age-specific reference ranges, with potential implications for interpreting TFT results at the extremes of age.\""
+    },
+    {
+      "id": "e21-38-n11",
+      "type": "note",
+      "subtopic": "Barriers",
+      "title": "Pitfall: reflex advanced imaging without excluding interference",
+      "text": "Limited awareness of assay susceptibility and rare HPT disorders leads to misdirected investigation, resource wastage, and inappropriate therapeutic intervention.",
+      "reference": "Significance of the Clinical Problem: \"Misdirected investigation of these entities results in wastage of resources and/or incorrect therapeutic intervention.\""
+    },
+    {
+      "id": "e21-38-n12",
+      "type": "note",
+      "subtopic": "Case 2 synthesis",
+      "title": "How normal total T4 excludes genuine thyrotoxicosis in heparin artifact",
+      "text": "Raised free T4 with normal TSH and normal total T4 argues against true thyrotoxicosis and against FDH; postoperative thromboprophylaxis with low-molecular-weight heparin is the likely explanation.",
+      "reference": "Case 2: \"Although the patient has an apparently raised free T₄ level, the TSH is not suppressed and subsequent investigations on the same serum sample show an entirely normal total T₄ level. Taken together, the normal TSH and total T₄ levels argue against genuine thyrotoxicosis and also exclude familial dysalbuminemic hyperthyroxinemia\""
+    },
+    {
+      "id": "e21-38-q1",
       "type": "mcq",
-      "subtopic": "Interpretation of Thyroid Function Tests (TFT) results in presence of intercurrent illness and/or medication use",
-      "question": "In a patient with palpitations, weight loss, and heat intolerance who has an elevated free T₄ but normal TSH level despite the presence of goiter, which is the most appropriate next step to determine if the TFT results are due to laboratory assay interference or genuine thyrotoxicosis?",
+      "subtopic": "Case 1",
+      "question": "A 43-year-old woman has palpitations, weight loss, heat intolerance, fine tremor, small goiter, free T4 3.5 ng/dL, free T3 11.7 pg/mL, and TSH 4.8 mIU/L. Most appropriate next step?",
       "options": [
-        "Perform contrast-enhanced MRI of the pituitary",
-        "Perform thyrotropin-releasing hormone test",
+        "Contrast-enhanced pituitary MRI",
         "Measure serum α-subunit",
         "Measure serum SHBG",
         "Seek advice on further laboratory analyses"
       ],
-      "correctOption": 4,
-      "explanation": "The patient's symptoms and physical examination findings suggest a possible diagnosis of hyperthyroidism. However, the normal TSH level in the presence of an elevated free T₄ indicates that the thyroid gland is likely functioning normally. The most appropriate next step would be to seek advice on further laboratory analyses to rule out potential interference with the TFT results due to intercurrent illness or medication use.",
-      "reference": "MAIN CONCLUSIONS: 'Discordant or anomalous TFT results may arise in the context of: Confounding intercurrent illness and/or medication use. Erratic or poor adherence to levothyroxine therapy. Interference in commonly used laboratory assays for thyroid hormone or TSH measurement. Rare genetic or acquired disorders of the hypothalamic-pituitary-thyroid (HPT) axis. Successful resolution of discordant or normalous TFT results is dependent on a sound understanding of: HPT axis physiology and the mechanisms governing thyroid hormone action at a cellular level. Key principles and methodologies underpinning commonly used thyroid hormone and TSH assays. Patterns of abnormal TFT results. Roles of dynamic tests, radiologic investigation, and genetic testing in the diagnosis of rare genetic and acquired disorders of the HPT axis.'",
-      "id": "e21-38-q1"
+      "correctOption": 3,
+      "explanation": "Exclude TSH assay interference before pursuing thyrotropinoma vs resistance to thyroid hormone; the clinical picture suggests true thyrotoxicosis with a potentially erroneous TSH.",
+      "reference": "Case 1: \"Answer: E) Seek advice on further laboratory analyses\""
+    },
+    {
+      "id": "e21-38-q2",
+      "type": "mcq",
+      "subtopic": "Case 2",
+      "question": "A 73-year-old post hip-replacement patient on thromboprophylaxis has fast AF, small goiter, free T4 2.2 ng/dL, TSH 1.8 mIU/L, and total T4 9.2 μg/dL. Most likely explanation?",
+      "options": [
+        "Familial dysalbuminemic hyperthyroxinemia",
+        "Iodinated contrast-induced thyrotoxicosis",
+        "Medication-induced artifactual elevation of free T4",
+        "Resistance to thyroid hormone due to THRB pathogenic variant"
+      ],
+      "correctOption": 2,
+      "explanation": "Normal TSH and total T4 with elevated free T4 point to in vitro heparin displacement of T4 from binding proteins, not genuine thyrotoxicosis.",
+      "reference": "Case 2: \"Answer: C) Medication-induced artifactual elevation of free T_{4}\""
+    },
+    {
+      "id": "e21-38-q3",
+      "type": "mcq",
+      "subtopic": "Case 3",
+      "question": "A 33-year-old post-total thyroidectomy woman on up to 300 mcg levothyroxine daily has persistently elevated TSH with free T4 in the upper reference range and is clinically euthyroid. Most likely explanation?",
+      "options": [
+        "Erratic adherence to levothyroxine therapy",
+        "Malabsorption syndrome (e.g., celiac disease)",
+        "Nonthyroidal illness",
+        "Resistance to thyroid hormone"
+      ],
+      "correctOption": 0,
+      "explanation": "Taking a larger dose immediately before testing can normalize T4 transiently while TSH remains chronically elevated; malabsorption is less likely with upper-range free T4.",
+      "reference": "Case 3: \"Answer: A) Erratic adherence to levothyroxine therapy\""
+    },
+    {
+      "id": "e21-38-q4",
+      "type": "mcq",
+      "subtopic": "Assay interference",
+      "question": "Which finding most strongly supports TSH assay interference?",
+      "options": [
+        "Uniformly concordant TSH across all platforms",
+        "Linear TSH results on serial dilution",
+        "Discordant TSH between assays using different antibody pairs",
+        "Suppressed TSH with elevated free T4"
+      ],
+      "correctOption": 2,
+      "explanation": "Discordant results between methodologies using different antibody pairs is a standard laboratory strategy to confirm interference.",
+      "reference": "TSH Measurement: \"Discordant TSH results in different assays that use different antibody pairs/methodology.\""
+    },
+    {
+      "id": "e21-38-q5",
+      "type": "mcq",
+      "subtopic": "Biotin",
+      "question": "A patient taking high-dose biotin has discordant TFTs across platforms. Best initial step?",
+      "options": [
+        "Immediate thyroidectomy",
+        "Stop biotin and repeat testing after appropriate washout; alert the laboratory",
+        "Start methimazole",
+        "Pituitary MRI"
+      ],
+      "correctOption": 1,
+      "explanation": "Biotin interferes with streptavidin-biotin assay configurations; hold biotin and involve the laboratory before invasive workup.",
+      "reference": "Biotin (Vitamin B₇): \"Biotin used either as a medication or dietary supplement presents a specific challenge for laboratory platforms that use biotin as part of the core assay configuration\""
+    },
+    {
+      "id": "e21-38-q6",
+      "type": "mcq",
+      "subtopic": "FDH workup",
+      "question": "Suspected familial dysalbuminemic hyperthyroxinemia with elevated free T4 on one-step assay. Best confirmatory approach?",
+      "options": [
+        "Two-step back-titration assay, equilibrium dialysis, or mass spectrometry",
+        "Immediate radioiodine uptake scan",
+        "TRH stimulation test only",
+        "Empiric antithyroid drugs"
+      ],
+      "correctOption": 0,
+      "explanation": "Two-step methods and equilibrium dialysis or mass spectrometry are less susceptible to binding-protein interference than one-step analogue assays.",
+      "reference": "Free T4 and Free T3 Measurement: \"The use of a 2-step (\"back titration\") assay method (which is less susceptible to such interference), equilibrium dialysis, or mass spectrometry can be useful in confirming or excluding this possibility.\""
+    },
+    {
+      "id": "e21-38-q7",
+      "type": "mcq",
+      "subtopic": "RTH pitfalls",
+      "question": "In resistance to thyroid hormone, which pitfall can mislead thyrotropinoma evaluation?",
+      "options": [
+        "Normal α-subunit always excludes pituitary tumor",
+        "Pituitary enlargement never occurs in RTH",
+        "Persistently elevated TSH after thyroid ablation can cause thyrotroph hyperplasia and pituitary enlargement",
+        "SHBG is always elevated in RTH"
+      ],
+      "correctOption": 2,
+      "explanation": "Thyrotroph hyperplasia from chronic TSH elevation in RTH can mimic adenoma on imaging; ~15% of RTH lacks THRB variants.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"persistently elevated TSH levels following thyroid ablation in resistance to thyroid hormone results in thyrotroph hyperplasia and pituitary enlargement.\""
+    },
+    {
+      "id": "e21-38-q8",
+      "type": "mcq",
+      "subtopic": "Levothyroxine physiology",
+      "question": "Physiological levothyroxine replacement may be associated with which laboratory pattern?",
+      "options": [
+        "Suppressed TSH and low free T4",
+        "Mildly elevated free T4 with normal free T3",
+        "High TSH and low total T4",
+        "Isolated low free T3 only"
+      ],
+      "correctOption": 1,
+      "explanation": "Differing hormone half-lives mean optimized TSH replacement can show mildly elevated free T4 while free T3 remains normal.",
+      "reference": "Consider Potential Confounding Factors: \"Levothyroxine replacement in a physiological dosage to optimize TSH may be associated with mildly elevated free T4 (but normal free T3) levels in some patients.\""
+    },
+    {
+      "id": "e21-38-q9",
+      "type": "mcq",
+      "subtopic": "NTI",
+      "question": "During nonthyroidal illness, TFT interpretation requires:",
+      "options": [
+        "Ignoring illness stage entirely",
+        "Recognition that multiple TFT patterns may occur depending on illness stage and assay",
+        "Mandatory thyroidectomy",
+        "Always starting levothyroxine"
+      ],
+      "correctOption": 1,
+      "explanation": "NTI produces stage-dependent TFT patterns that must be distinguished from primary thyroid disease and assay artifacts.",
+      "reference": "Consider Potential Confounding Factors: \"Nonthyroidal illness: Several different TFT patterns may be seen during nonthyroidal illness depending on the stage of the illness and laboratory assays used\""
+    },
+    {
+      "id": "e21-38-q10",
+      "type": "mcq",
+      "subtopic": "Pregnancy",
+      "question": "In pregnancy, TFT interpretation should ideally use:",
+      "options": [
+        "Nonpregnant adult reference ranges only",
+        "Trimester-specific reference ranges wherever possible",
+        "Only total T3 measurements",
+        "TSH alone without free T4"
+      ],
+      "correctOption": 1,
+      "explanation": "Thyroid hormone and TSH vary during normal pregnancy; trimester-specific ranges improve accuracy.",
+      "reference": "Consider Potential Confounding Factors: \"Pregnancy: Thyroid hormone and TSH levels vary during normal pregnancy, and trimester-specific reference ranges should be used wherever possible.\""
+    },
+    {
+      "id": "e21-38-q11",
+      "type": "mcq",
+      "subtopic": "Anti-animal antibodies",
+      "question": "Human anti-animal antibodies in TSH sandwich assays can cause:",
+      "options": [
+        "Only falsely low TSH",
+        "Only falsely high TSH",
+        "Falsely low or falsely high TSH depending on mechanism",
+        "No interference whatsoever"
+      ],
+      "correctOption": 2,
+      "explanation": "Blocking antibodies cause negative interference (low TSH); cross-linking antibodies cause positive interference (high TSH).",
+      "reference": "TSH Measurement: \"a human anti-animal antibody that blocks TSH binding to either capture or detection antibodies will result in \"negative interference,\" causing a falsely low TSH value. Conversely, a human anti-animal antibody that is capable of cross-linking the capture and detection antibodies may cause \"positive interference,\" leading to a falsely high TSH value.\""
+    },
+    {
+      "id": "e21-38-q12",
+      "type": "mcq",
+      "subtopic": "TRH test",
+      "question": "Regarding the TRH test in thyrotropinoma evaluation:",
+      "options": [
+        "All thyrotropinomas show absent TSH response",
+        "10% to 20% of TSH-secreting pituitary tumors may show apparent preserved TSH response",
+        "TRH always distinguishes RTH from thyrotropinoma definitively",
+        "TRH is first-line before excluding interference"
+      ],
+      "correctOption": 1,
+      "explanation": "A subset of TSH-secreting tumors show preserved TRH response—another reason to integrate multiple tests after excluding interference.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"Thyrotropin-releasing hormone test: 10% to 20% of patients with TSH-secreting pituitary tumors show an apparent preserved TSH response.\""
+    },
+    {
+      "id": "e21-38-q13",
+      "type": "mcq",
+      "subtopic": "Competition assays",
+      "question": "Free T4 immunoassays commonly use competition format because:",
+      "options": [
+        "T4 is too large for sandwich assays",
+        "T4 is too small for sandwich assays",
+        "TSH blocks sandwich formation",
+        "Only total T4 can be measured"
+      ],
+      "correctOption": 1,
+      "explanation": "The relatively small size of T4 and T3 precludes sandwich assay format; competition assays with conserved free hormone equilibrium are used instead.",
+      "reference": "Free T4 and Free T3 Measurement: \"The relatively small size of T4 (and T3) precludes use of a \"sandwich\" assay format, so competition assays are commonly used.\""
+    },
+    {
+      "id": "e21-38-tf1",
+      "type": "true_false",
+      "subtopic": "Heparin artifact",
+      "statement": "Postoperative low-molecular-weight heparin thromboprophylaxis can raise measured free T4 without raising total T4.",
+      "correctAnswer": true,
+      "explanation": "Heparin displaces T4 from binding proteins in vitro, elevating free but not total hormone levels.",
+      "reference": "Case 2: \"thereby raising free, but not total, thyroid hormone levels.\""
+    },
+    {
+      "id": "e21-38-tf2",
+      "type": "true_false",
+      "subtopic": "Biotin scope",
+      "statement": "Biotin interference is limited to thyroid hormone and TSH assays.",
+      "correctAnswer": false,
+      "explanation": "Streptavidin-biotin platforms are used broadly; biotin can affect many assays beyond thyroid tests.",
+      "reference": "Biotin (Vitamin B₇): \"This issue can affect a multitude of assays, not simply thyroid hormone or TSH measurements.\""
+    },
+    {
+      "id": "e21-38-tf3",
+      "type": "true_false",
+      "subtopic": "RTH incidence",
+      "statement": "Resistance to thyroid hormone has an estimated incidence of approximately 1 in 40,000 to 50,000 live births.",
+      "correctAnswer": true,
+      "explanation": "RTH is rare but must be considered after excluding more common causes of discordant TFTs.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"Resistance to thyroid hormone (estimated incidence 1 in 40,000 to 50,000 live births)\""
+    },
+    {
+      "id": "e21-38-tf4",
+      "type": "true_false",
+      "subtopic": "Adherence pattern",
+      "statement": "Erratic levothyroxine adherence can produce elevated T4 on the day of testing with persistently elevated TSH.",
+      "correctAnswer": true,
+      "explanation": "A pre-test bolus dose can transiently normalize T4 while failing to correct chronic TSH elevation.",
+      "reference": "Case 3: \"especially if the patient takes a larger dosage of levothyroxine on the day(s) immediately before the blood test\""
+    },
+    {
+      "id": "e21-38-tf5",
+      "type": "true_false",
+      "subtopic": "Thyrotropinoma prevalence",
+      "statement": "TSH-secreting pituitary tumors have an estimated prevalence of 1 to 3 per million.",
+      "correctAnswer": true,
+      "explanation": "Thyrotropinomas are far rarer than assay interference or adherence issues.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"TSH-secreting pituitary tumors (estimated prevalence 1 to 3 per million)\""
+    },
+    {
+      "id": "e21-38-tf6",
+      "type": "true_false",
+      "subtopic": "Dilution testing",
+      "statement": "Nonlinear TSH measurement following sample dilution suggests assay interference.",
+      "correctAnswer": true,
+      "explanation": "Nonlinear dilution behavior is a standard laboratory clue to antibody interference.",
+      "reference": "TSH Measurement: \"Nonlinear TSH measurement following sample dilution.\""
+    },
+    {
+      "id": "e21-38-tf7",
+      "type": "true_false",
+      "subtopic": "SHBG in mixed tumors",
+      "statement": "Serum SHBG may be falsely low in mixed GH/TSH-secreting pituitary tumors.",
+      "correctAnswer": true,
+      "explanation": "GH inhibits SHBG synthesis, complicating use of SHBG to distinguish RTH from thyrotropinoma.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"SHBG: falsely low levels can occur in mixed GH/TSH-secreting tumors due to inhibition of SHBG synthesis by GH\""
+    },
+    {
+      "id": "e21-38-tf8",
+      "type": "true_false",
+      "subtopic": "THRB testing",
+      "statement": "Approximately 15% of resistance to thyroid hormone cases lack pathogenic THRB variants.",
+      "correctAnswer": true,
+      "explanation": "Negative THRB testing does not fully exclude RTH.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"THRB gene analysis: Approximately 15% of cases of resistance to thyroid hormone are not associated with THRB pathogenic variants.\""
+    },
+    {
+      "id": "e21-38-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Case 1 priority",
+      "assertion": "Assertion: In suspected thyrotoxicosis with nonsuppressed TSH, laboratory advice should precede pituitary MRI.",
+      "reason": "Reason: Because TSH may be artifactually elevated while true primary thyrotoxicosis exists with suppressed TSH.",
+      "correctOption": 0,
+      "explanation": "Both true and causally linked—interference must be excluded before costly pituitary investigation.",
+      "reference": "Case 1: \"Thus, seeking advice on further laboratory analyses (Answer E) is correct.\""
+    },
+    {
+      "id": "e21-38-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Heparin artifact",
+      "assertion": "Assertion: Normal total T4 with elevated free T4 and normal TSH argues against genuine thyrotoxicosis.",
+      "reason": "Reason: Because heparin raises total T4 more than free T4 via lipoprotein lipase activation.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—heparin raises free but not total T4.",
+      "reference": "Case 2: \"subsequent investigations on the same serum sample show an entirely normal total T₄ level.\""
+    },
+    {
+      "id": "e21-38-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Sandwich interference",
+      "assertion": "Assertion: Human anti-animal antibodies can cause falsely high TSH in sandwich assays.",
+      "reason": "Reason: Because such antibodies may cross-link capture and detection antibodies.",
+      "correctOption": 0,
+      "explanation": "Both true—cross-linking produces positive interference.",
+      "reference": "TSH Measurement: \"a human anti-animal antibody that is capable of cross-linking the capture and detection antibodies may cause \"positive interference,\" leading to a falsely high TSH value.\""
+    },
+    {
+      "id": "e21-38-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Levothyroxine adherence",
+      "assertion": "Assertion: Poor levothyroxine adherence can yield upper-range free T4 with elevated TSH.",
+      "reason": "Reason: Because intermittent large doses before blood draw can transiently elevate serum T4 without normalizing TSH.",
+      "correctOption": 0,
+      "explanation": "Both true and causally linked per Case 3 explanation.",
+      "reference": "Case 3: \"could produce this pattern of results, especially if the patient takes a larger dosage of levothyroxine on the day(s) immediately before the blood test\""
+    },
+    {
+      "id": "e21-38-ar5",
+      "type": "assertion_reason",
+      "subtopic": "FDH assays",
+      "assertion": "Assertion: FDH can cause overestimated free T4 on one-step analogue assays.",
+      "reason": "Reason: Because variant albumin has increased affinity for iodothyronines, elevating measured free hormone.",
+      "correctOption": 0,
+      "explanation": "Both true—altered binding protein affinity confounds one-step free hormone assays.",
+      "reference": "Free T4 and Free T3 Measurement: \"may alter affinity for iodothyronines, and can cause free T4 (and less frequently free T3) to be overestimated, particularly in \"1-step\" analogue hormone assays.\""
+    },
+    {
+      "id": "e21-38-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Misdirected workup",
+      "assertion": "Assertion: Failure to recognize assay interference leads to wasteful investigation.",
+      "reason": "Reason: Because all discordant TFTs ultimately require thyroidectomy.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—interference causes misdirected testing, not universal surgery.",
+      "reference": "Significance of the Clinical Problem: \"Misdirected investigation of these entities results in wastage of resources and/or incorrect therapeutic intervention.\""
+    },
+    {
+      "id": "e21-38-ar7",
+      "type": "assertion_reason",
+      "subtopic": "RTH imaging",
+      "assertion": "Assertion: Pituitary imaging abnormalities may occur in resistance to thyroid hormone.",
+      "reason": "Reason: Because chronic TSH elevation after thyroid ablation can cause thyrotroph hyperplasia.",
+      "correctOption": 0,
+      "explanation": "Both true—RTH can mimic tumor on imaging.",
+      "reference": "Resistance to Thyroid Hormone vs TSH-Secreting Pituitary Tumor: \"persistently elevated TSH levels following thyroid ablation in resistance to thyroid hormone results in thyrotroph hyperplasia and pituitary enlargement.\""
+    },
+    {
+      "id": "e21-38-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Amiodarone",
+      "assertion": "Assertion: Medications such as amiodarone can alter thyroid physiology or cause artifactual results.",
+      "reason": "Reason: Because amiodarone only affects TSH sandwich assays via biotin.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—amiodarone alters physiology (iodine) and is listed among confounding medications.",
+      "reference": "Consider Potential Confounding Factors: \"Medications and supplements have the potential to alter thyroid physiology (eg, amiodarone) or cause artifactual laboratory results (eg, heparin or biotin—see below).\""
     }
   ]
 }

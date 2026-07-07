@@ -1,27 +1,454 @@
 {
-  "answer": "Repeat thyroid function tests after 4 weeks",
   "id": "e21-40",
   "volume": 2021,
   "chapterNo": "40",
   "title": "Management of Thyroid Dysfunction Before and During Pregnancy",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Kristien Boelaert, MD, PhD, FRCP",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_40_Management_of_Thyroid_Dysfunction_Before_and_During_Pregnancy.md",
   "items": [
     {
+      "id": "e21-40-n1",
+      "type": "note",
+      "subtopic": "Pregnancy TSH cutoff",
+      "title": "Why the pregnancy TSH upper limit was revised to 4 mIU/L",
+      "text": "Accumulating evidence shows levothyroxine for TSH below 4 mIU/L does not necessarily improve obstetric or neurocognitive outcomes and may cause harm; when trimester-specific ranges are unavailable, 4 mIU/L is the suggested cutoff.",
+      "reference": "Definition of Thyroid Dysfunction Before and During Pregnancy: \"If no suitable generalizable ranges can be found, then current guidance suggests the use of 4 mIU/L as the cutoff for TSH concentrations during pregnancy. The previous pragmatic upper limit of normal of 2.5 mIU/L is now deemed too low.\""
+    },
+    {
+      "id": "e21-40-n2",
+      "type": "note",
+      "subtopic": "TABLET trial",
+      "title": "Why levothyroxine does not help euthyroid TPO-positive women",
+      "text": "The TABLET trial found no benefit of 50 mcg levothyroxine vs placebo on live birth or other pregnancy outcomes in euthyroid women with raised TPO antibodies—TPO effects may reflect generalized autoimmunity rather than thyroid dysfunction.",
+      "reference": "Levothyroxine Replacement in Euthyroid TPO-Positive Women Before and During Pregnancy: \"The live birth rate at 34 weeks' gestation was 37.4% in the levothyroxine group and 37.9% in the placebo group (relative risk, 0.97 [95% CI, 0.83-1.14]; P = .74).\""
+    },
+    {
+      "id": "e21-40-n3",
+      "type": "note",
+      "subtopic": "Subclinical hypothyroidism",
+      "title": "How to treat subclinical hypothyroidism in pregnancy",
+      "text": "Insufficient evidence to treat all women with TSH 2.5–4 mIU/L; consider levothyroxine when TPO positive with TSH >4, TPO negative with TSH >10, infertility/recurrent loss, or other risk factors.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"there is insufficient evidence to universally treat pregnant women with serum TSH values between 2.5 and 4 mIU/L regardless of TPO antibody status. Levothyroxine should be considered in women who are TPO positive and have serum TSH values greater than 4.0 mIU/L\""
+    },
+    {
+      "id": "e21-40-n4",
+      "type": "note",
+      "subtopic": "Overtreatment risk",
+      "title": "Pitfall: overzealous levothyroxine in mild subclinical hypothyroidism",
+      "text": "Observational data show levothyroxine benefit mainly when TSH >4 mIU/L, but treatment of lower values may increase premature delivery, gestational diabetes, and preeclampsia risks.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"Importantly, the beneficial effects of levothyroxine replacement were predominantly present in the subgroup of women with TSH values greater than 4.0 mIU/L.\""
+    },
+    {
+      "id": "e21-40-n5",
+      "type": "note",
+      "subtopic": "CATS trial",
+      "title": "Why antenatal screening trials showed no IQ benefit",
+      "text": "CATS and the US multicenter trial initiated levothyroxine at median 13–18 weeks and found no child IQ differences at 3–9 years; late initiation and possible overtreatment may explain negative results.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"At 3 years, IQ scores were not different in offspring from treated vs nontreated women.\""
+    },
+    {
+      "id": "e21-40-n6",
+      "type": "note",
+      "subtopic": "Hyperthyroidism pregnancy",
+      "title": "How to manage Graves disease before pregnancy",
+      "text": "Counsel on fetal harm from uncontrolled hyperthyroidism; achieve euthyroid state before conception; switch methimazole to PTU in early pregnancy due to teratogenicity window weeks 6–10.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"since this is associated with a higher risk of teratogenicity than propylthiouracil, the latter is usually preferred before and during the first 16 weeks of pregnancy.\""
+    },
+    {
+      "id": "e21-40-n7",
+      "type": "note",
+      "subtopic": "Gestational thyrotoxicosis",
+      "title": "How to distinguish Graves disease from gestational thyrotoxicosis",
+      "text": "New early-pregnancy thyrotoxicosis requires TRAb and free T3—elevated in Graves but not in hCG-mediated gestational thyrotoxicosis, which is usually supportive care.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"Measurement of TSH-receptor antibodies (TRAb) and free T3 concentrations are informative, as they will be raised in the former but not in the latter.\""
+    },
+    {
+      "id": "e21-40-n8",
+      "type": "note",
+      "subtopic": "Case 1",
+      "title": "How to manage TPO-positive subclinical hypothyroidism with recurrent miscarriage",
+      "text": "TSH 4.2 mIU/L with TPO 350 IU/mL after recurrent loss: repeat TFT in 4 weeks or start low-dose levothyroxine 25–50 mcg daily is reasonable.",
+      "reference": "Case 1: \"Answer: B or E) Repeat thyroid function tests after 4 weeks or start levothyroxine, 25 to 50 mcg daily\""
+    },
+    {
+      "id": "e21-40-n9",
+      "type": "note",
+      "subtopic": "Isolated hypothyroxinemia",
+      "title": "Why isolated hypothyroxinemia treatment is controversial",
+      "text": "RCTs show no obstetric or neurocognitive benefit; ATA does not recommend treatment whereas European guidance may consider first-trimester therapy—repeating TFTs is reasonable.",
+      "reference": "Case 2: \"Current American Thyroid Association guidelines do not recommend treatment of this condition, whereas European guidance suggests that treatment may be considered in the first trimester of pregnancy.\""
+    },
+    {
+      "id": "e21-40-n10",
+      "type": "note",
+      "subtopic": "Preconception Graves",
+      "title": "What to advise women with Graves wishing to conceive on methimazole",
+      "text": "Switch to PTU, or consider definitive radioiodine or thyroidectomy; continuing methimazole or stopping antithyroid drugs abruptly is inappropriate.",
+      "reference": "Case 3: \"Answer: B, C, or D) Change to propylthiouracil, 300 mg twice daily or advise radioiodine therapy or advise total thyroidectomy\""
+    },
+    {
+      "id": "e21-40-n11",
+      "type": "note",
+      "subtopic": "Alemtuzumab Graves",
+      "title": "How to manage refractory Graves in second-trimester pregnancy",
+      "text": "After failed high-dose PTU, switch to methimazole in second trimester or pursue urgent thyroidectomy around 18–20 weeks; do not terminate pregnancy or rely on glucocorticoids alone.",
+      "reference": "Case 4: \"Answer: B or C) Change propylthiouracil to methimazole, 80 mg daily, OR recommend urgent thyroidectomy at 18 to 20 weeks' gestation\""
+    },
+    {
+      "id": "e21-40-n12",
+      "type": "note",
+      "subtopic": "Case 5 prepregnancy",
+      "title": "How to counsel TPO-positive euthyroid woman before conception",
+      "text": "TPO 320 IU/mL with TSH 2.4 mIU/L and recurrent miscarriage: repeat TSH monitoring before/during early pregnancy or consider low-dose levothyroxine given autoimmunity and loss history.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"Levothyroxine should be considered in women who are TPO positive and have serum TSH values greater than 4.0 mIU/L\""
+    },
+    {
+      "id": "e21-40-q1",
       "type": "mcq",
-      "subtopic": "General",
-      "question": "Which of the following should be advised for a 38-year-old woman with a history of 2 first-trimester miscarriages, no notable medical history, and clinically euthyroid but with elevated TSH and TPO antibodies?",
+      "subtopic": "Case 1",
+      "question": "8 weeks pregnant with 3 prior miscarriages, TSH 4.2 mIU/L, normal free T4, TPO 350 IU/mL. Best advice?",
       "options": [
-        "Continue current medication regimen",
-        "Start levothyroxine at 1.6 mcg/kg daily",
-        "Repeat thyroid function tests after 4 weeks",
-        "Advise total thyroidectomy"
+        "Reassure and routine antenatal care only",
+        "Repeat TFT at 20 weeks only",
+        "Start levothyroxine 1.6 mcg/kg daily",
+        "Start levothyroxine 25–50 mcg daily"
       ],
+      "correctOption": 3,
+      "explanation": "TPO positive with TSH >4 and recurrent loss supports low-dose levothyroxine; repeating TFT in 4 weeks (Answer B) is also appropriate.",
+      "reference": "Case 1: \"Answer: B or E) Repeat thyroid function tests after 4 weeks or start levothyroxine, 25 to 50 mcg daily\""
+    },
+    {
+      "id": "e21-40-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 alternative",
+      "question": "Same patient prefers to defer medication initially. Also acceptable:",
+      "options": [
+        "Discharge without any thyroid follow-up",
+        "Repeat thyroid function tests after 4 weeks",
+        "Start methimazole",
+        "Radioiodine ablation"
+      ],
+      "correctOption": 1,
+      "explanation": "Repeat TFT in 4 weeks is appropriate regardless of whether levothyroxine is started.",
+      "reference": "Case 1: \"Repeating thyroid function testing after 4 weeks (Answer B) is appropriate regardless of whether levothyroxine is started.\""
+    },
+    {
+      "id": "e21-40-q3",
+      "type": "mcq",
+      "subtopic": "Case 2",
+      "question": "13 weeks pregnant, TSH 1.4, free T4 0.6 ng/dL, TPO negative—isolated hypothyroxinemia. Reasonable approach?",
+      "options": [
+        "Urgent 9-AM cortisol",
+        "Repeat TFT after 4 weeks or start levothyroxine 25–50 mcg",
+        "Start 1.6 mcg/kg levothyroxine immediately",
+        "Measure free T3 and treat only if low"
+      ],
+      "correctOption": 1,
+      "explanation": "Isolated hypothyroxinemia: repeat testing or optional low-dose levothyroxine per regional guidance; cortisol not indicated.",
+      "reference": "Case 2: \"Answer: C or E) Repeat thyroid function tests after 4 weeks or start levothyroxine, 25 to 50 mcg daily\""
+    },
+    {
+      "id": "e21-40-q4",
+      "type": "mcq",
+      "subtopic": "Case 3",
+      "question": "Woman with controlled Graves on methimazole wishes to conceive. Appropriate options include:",
+      "options": [
+        "Continue methimazole unchanged",
+        "Switch to propylthiouracil",
+        "Radioiodine therapy with 6-month pregnancy deferral",
+        "Total thyroidectomy"
+      ],
+      "correctOption": 1,
+      "explanation": "PTU preferred before/early pregnancy; definitive therapy also appropriate; stopping ATDs or continuing methimazole alone is less preferred.",
+      "reference": "Case 3: \"Answer: B, C, or D)\""
+    },
+    {
+      "id": "e21-40-q5",
+      "type": "mcq",
+      "subtopic": "Case 4",
+      "question": "14 weeks pregnant, alemtuzumab-associated refractory Graves on high-dose PTU with persistent thyrotoxicosis. Best advice?",
+      "options": [
+        "Increase PTU to 400 mg three times daily",
+        "Switch to methimazole or urgent thyroidectomy at 18–20 weeks",
+        "Terminate pregnancy",
+        "Glucocorticoids alone"
+      ],
+      "correctOption": 1,
+      "explanation": "Second-trimester teratogenicity risk for methimazole is lower; thyroidectomy around 18–20 weeks if drugs fail.",
+      "reference": "Case 4: \"Answer: B or C)\""
+    },
+    {
+      "id": "e21-40-q6",
+      "type": "mcq",
+      "subtopic": "Case 5",
+      "question": "Prepregnancy counseling: TSH 2.4 mIU/L, TPO 320 IU/mL, 2 prior first-trimester losses. Best approach?",
+      "options": [
+        "No thyroid follow-up needed",
+        "Repeat TSH before/during early pregnancy or consider levothyroxine",
+        "Immediate radioiodine",
+        "Methimazole 30 mg daily"
+      ],
+      "correctOption": 1,
+      "explanation": "Below 4 mIU/L but TPO positive with miscarriage history warrants monitoring or individualized levothyroxine consideration.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"those with infertility or recurrent pregnancy loss.\""
+    },
+    {
+      "id": "e21-40-q7",
+      "type": "mcq",
+      "subtopic": "TSH cutoff",
+      "question": "When pregnancy-specific TSH ranges are unavailable, upper limit for TSH is:",
+      "options": [
+        "2.5 mIU/L",
+        "3.0 mIU/L",
+        "4.0 mIU/L",
+        "10.0 mIU/L only"
+      ],
+      "correctOption": 2,
+      "explanation": "Current guidance uses 4 mIU/L; prior 2.5 mIU/L cutoff is now deemed too low.",
+      "reference": "Definition of Thyroid Dysfunction Before and During Pregnancy: \"current guidance suggests the use of 4 mIU/L as the cutoff for TSH concentrations during pregnancy.\""
+    },
+    {
+      "id": "e21-40-q8",
+      "type": "mcq",
+      "subtopic": "TABLET",
+      "question": "TABLET trial primary outcome in euthyroid TPO-positive women showed:",
+      "options": [
+        "Large increase in live births with levothyroxine",
+        "No significant difference in live births vs placebo",
+        "Reduced preterm birth only",
+        "Improved child IQ at 3 years"
+      ],
+      "correctOption": 1,
+      "explanation": "Live birth rates were nearly identical between levothyroxine and placebo groups.",
+      "reference": "Levothyroxine Replacement in Euthyroid TPO-Positive Women Before and During Pregnancy: \"The live birth rate at 34 weeks' gestation was 37.4% in the levothyroxine group and 37.9% in the placebo group\""
+    },
+    {
+      "id": "e21-40-q9",
+      "type": "mcq",
+      "subtopic": "Overt hypothyroidism",
+      "question": "Overt hypothyroidism in pregnancy (high TSH, low free T4) requires:",
+      "options": [
+        "No treatment until postpartum",
+        "Timely levothyroxine with preconception/first-trimester TSH target up to 2.5 mIU/L",
+        "Propylthiouracil",
+        "Observation only if TPO negative"
+      ],
+      "correctOption": 1,
+      "explanation": "Overt disease associates with miscarriage, preeclampsia, and neurodevelopmental harm—treat promptly with trimester monitoring.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"The preconception and first trimester of pregnancy TSH target is between the lower reference limit and 2.5 mIU/L.\""
+    },
+    {
+      "id": "e21-40-q10",
+      "type": "mcq",
+      "subtopic": "Levothyroxine dose",
+      "question": "On positive pregnancy test, levothyroxine-treated women are often advised to:",
+      "options": [
+        "Halve their dose immediately",
+        "Empirically increase dose (e.g., double dose 2 days per week)",
+        "Stop levothyroxine until 20 weeks",
+        "Switch to liothyronine only"
+      ],
+      "correctOption": 1,
+      "explanation": "Pregnancy increases thyroid hormone requirements; empirical dose increase and TFT every 4 weeks in first half are recommended.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"An empirical increase in the dosage of levothyroxine upon finding of a positive pregnancy test is appropriate, and often women are advised to double the dose on 2 days of the week.\""
+    },
+    {
+      "id": "e21-40-q11",
+      "type": "mcq",
+      "subtopic": "Hypothyroxinemia RCTs",
+      "question": "RCTs of levothyroxine for gestational isolated hypothyroxinemia showed:",
+      "options": [
+        "Clear IQ benefit at 9 years",
+        "No demonstrated child neurocognitive benefit",
+        "Mandatory treatment per all guidelines",
+        "Increased live birth only"
+      ],
+      "correctOption": 1,
+      "explanation": "CATS and US trial found no IQ benefit; treatment generally not recommended.",
+      "reference": "Isolated Hypothyroxinemia During Pregnancy: \"The randomized controlled trials investigating potential benefits of levothyroxine in women with hypothyroxinemia have not shown beneficial effects on child neurocognition.\""
+    },
+    {
+      "id": "e21-40-q12",
+      "type": "mcq",
+      "subtopic": "PTU vs MMI",
+      "question": "In early pregnancy, antithyroid drug preference is:",
+      "options": [
+        "Methimazole due to once-daily dosing",
+        "Propylthiouracil due to lower teratogenicity risk weeks 6–10",
+        "No antithyroid drugs ever",
+        "Block-and-replace regimen"
+      ],
+      "correctOption": 1,
+      "explanation": "PTU preferred in first 16 weeks; highest teratogenicity risk for methimazole is gestational weeks 6–10.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"The highest risk window for birth defects is from gestation weeks 6 to 10\""
+    },
+    {
+      "id": "e21-40-q13",
+      "type": "mcq",
+      "subtopic": "TRAb monitoring",
+      "question": "Pregnant women with preexisting Graves after ablation/surgery should have:",
+      "options": [
+        "No TRAb testing ever",
+        "TRAb measured in early pregnancy and often around 20 weeks",
+        "Weekly TRAb only",
+        "TRAb replaces all fetal ultrasound"
+      ],
+      "correctOption": 1,
+      "explanation": "Persisting TRAbs cross placenta and risk fetal thyroid dysfunction—monitor TRAb and fetal growth/heart rate.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"Measurement of TRAbs in early pregnancy is indicated in those with preexisting Graves disease and is often repeated around 20 weeks' gestation.\""
+    },
+    {
+      "id": "e21-40-tf1",
+      "type": "true_false",
+      "subtopic": "TSH 2.5 cutoff",
+      "statement": "A universal pregnancy TSH upper limit of 2.5 mIU/L remains current standard.",
+      "correctAnswer": false,
+      "explanation": "2.5 mIU/L is now deemed too low; 4 mIU/L used when trimester-specific ranges unavailable.",
+      "reference": "Definition of Thyroid Dysfunction Before and During Pregnancy: \"The previous pragmatic upper limit of normal of 2.5 mIU/L is now deemed too low.\""
+    },
+    {
+      "id": "e21-40-tf2",
+      "type": "true_false",
+      "subtopic": "TABLET negative",
+      "statement": "TABLET showed levothyroxine did not improve live birth rates in euthyroid TPO-positive women.",
+      "correctAnswer": true,
+      "explanation": "Live birth rates were 37.4% vs 37.9% (levothyroxine vs placebo).",
+      "reference": "Levothyroxine Replacement in Euthyroid TPO-Positive Women Before and During Pregnancy: \"relative risk, 0.97 [95% CI, 0.83-1.14]; P = .74\""
+    },
+    {
+      "id": "e21-40-tf3",
+      "type": "true_false",
+      "subtopic": "TPO treatment threshold",
+      "statement": "TPO-positive pregnant women with TSH >4 mIU/L should be considered for levothyroxine.",
+      "correctAnswer": true,
+      "explanation": "Explicit recommendation in synthesis paragraph.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"Levothyroxine should be considered in women who are TPO positive and have serum TSH values greater than 4.0 mIU/L\""
+    },
+    {
+      "id": "e21-40-tf4",
+      "type": "true_false",
+      "subtopic": "Block and replace",
+      "statement": "Block-and-replace antithyroid regimens are advisable in pregnancy.",
+      "correctAnswer": false,
+      "explanation": "ATDs cross placenta preferentially—block-and-replace increases fetal hypothyroidism risk.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"Block-and-replace regimens are not advisable during pregnancy since antithyroid drugs preferentially cross the placenta\""
+    },
+    {
+      "id": "e21-40-tf5",
+      "type": "true_false",
+      "subtopic": "hCG effect",
+      "statement": "High hCG in early pregnancy can lower maternal TSH via TSH receptor stimulation.",
+      "correctAnswer": true,
+      "explanation": "Physiologic gestational TSH nadir occurs around 10–12 weeks.",
+      "reference": "Definition of Thyroid Dysfunction Before and During Pregnancy: \"High concentrations of hCG stimulate the pituitary TSH receptor resulting in increased thyroid hormone production, which is usually associated with reduced serum TSH concentrations reaching a trough at 10 to 12 weeks of pregnancy.\""
+    },
+    {
+      "id": "e21-40-tf6",
+      "type": "true_false",
+      "subtopic": "CATS IQ",
+      "statement": "CATS trial showed improved child IQ with antenatal levothyroxine treatment.",
+      "correctAnswer": false,
+      "explanation": "No IQ difference at 3 years; 9-year follow-up also negative.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"At 3 years, IQ scores were not different in offspring from treated vs nontreated women.\""
+    },
+    {
+      "id": "e21-40-tf7",
+      "type": "true_false",
+      "subtopic": "Uncontrolled hyperthyroidism",
+      "statement": "Uncontrolled overt hyperthyroidism in pregnancy increases miscarriage and stillbirth risk.",
+      "correctAnswer": true,
+      "explanation": "Active management required to avoid maternal and fetal complications.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"Uncontrolled overt hyperthyroidism before and during pregnancy is associated with increased risks of miscarriage, stillbirth, intrauterine growth retardation, maternal hypertension, and heart failure\""
+    },
+    {
+      "id": "e21-40-tf8",
+      "type": "true_false",
+      "subtopic": "Hypothyroxinemia harm",
+      "statement": "Treating gestational hypothyroxinemia is generally not recommended given lack of benefit and potential harm signals.",
+      "correctAnswer": true,
+      "explanation": "Overtreatment in CATS linked to higher ADHD rates in offspring.",
+      "reference": "Isolated Hypothyroxinemia During Pregnancy: \"this approach is generally not recommended\""
+    },
+    {
+      "id": "e21-40-ar1",
+      "type": "assertion_reason",
+      "subtopic": "4 mIU/L cutoff",
+      "assertion": "Assertion: 4 mIU/L is the suggested pregnancy TSH cutoff when trimester-specific ranges are unavailable.",
+      "reason": "Reason: Because levothyroxine for TSH below 4 mIU/L always improves obstetric outcomes.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason overstates benefit—evidence does not support universal treatment below 4.",
+      "reference": "Definition of Thyroid Dysfunction Before and During Pregnancy: \"current guidance suggests the use of 4 mIU/L as the cutoff for TSH concentrations during pregnancy.\""
+    },
+    {
+      "id": "e21-40-ar2",
+      "type": "assertion_reason",
+      "subtopic": "TABLET",
+      "assertion": "Assertion: TABLET found no live-birth benefit from levothyroxine in euthyroid TPO-positive women.",
+      "reason": "Reason: Because TPO antibodies may reflect generalized autoimmunity rather than thyroid-mediated harm.",
       "correctOption": 0,
-      "explanation": "",
-      "reference": "",
-      "id": "e21-40-q1"
+      "explanation": "Both true—trial negative and autoimmune hypothesis consistent.",
+      "reference": "Levothyroxine Replacement in Euthyroid TPO-Positive Women Before and During Pregnancy: \"indicating that the effects of TPO antibodies may not be related through thyroid dysfunction but rather reflect a generalized adverse autoimmune state.\""
+    },
+    {
+      "id": "e21-40-ar3",
+      "type": "assertion_reason",
+      "subtopic": "PTU early pregnancy",
+      "assertion": "Assertion: PTU is preferred over methimazole in early pregnancy.",
+      "reason": "Reason: Because methimazole has higher teratogenicity risk especially weeks 6–10.",
+      "correctOption": 0,
+      "explanation": "Both true and causally linked.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"since this is associated with a higher risk of teratogenicity than propylthiouracil\""
+    },
+    {
+      "id": "e21-40-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Case 1",
+      "assertion": "Assertion: TSH 4.2 mIU/L with TPO positivity after recurrent miscarriage supports low-dose levothyroxine.",
+      "reason": "Reason: Because TABLET proved levothyroxine doubles live births in all TPO-positive women.",
+      "correctOption": 2,
+      "explanation": "Assertion reasonable per case; reason false—TABLET was negative.",
+      "reference": "Case 1: \"represents a reasonable indication to start low-dosage levothyroxine (Answer E)\""
+    },
+    {
+      "id": "e21-40-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Overt hypothyroidism",
+      "assertion": "Assertion: Untreated overt maternal hypothyroidism harms pregnancy and child neurodevelopment.",
+      "reason": "Reason: Because maternal hypothyroidism has no obstetric consequences.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"When uncorrected during pregnancy, it is associated with adverse outcomes, including miscarriage, preeclampsia, low birth weight, and preterm birth.\""
+    },
+    {
+      "id": "e21-40-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Gestational thyrotoxicosis",
+      "assertion": "Assertion: Gestational thyrotoxicosis from hCG is usually managed conservatively.",
+      "reason": "Reason: Because TRAb and free T3 are elevated identically to Graves disease.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—TRAb/T3 distinguish Graves.",
+      "reference": "Management of Hyperthyroidism Before and During Pregnancy: \"Transient rises in circulating thyroid hormones are usually treated in a supportive manner\""
+    },
+    {
+      "id": "e21-40-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Levothyroxine dose pregnancy",
+      "assertion": "Assertion: Empirical levothyroxine dose increase is appropriate on positive pregnancy test.",
+      "reason": "Reason: Because pregnancy decreases thyroid hormone requirements.",
+      "correctOption": 2,
+      "explanation": "Assertion true; reason false—requirements increase in pregnancy.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"An empirical increase in the dosage of levothyroxine upon finding of a positive pregnancy test is appropriate\""
+    },
+    {
+      "id": "e21-40-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Case 5",
+      "assertion": "Assertion: Prepregnancy TPO-positive woman with TSH 2.4 mIU/L warrants individualized monitoring or levothyroxine consideration.",
+      "reason": "Reason: Because all women with TSH <4 mIU/L must receive levothyroxine per TABLET.",
+      "correctOption": 2,
+      "explanation": "Assertion aligns with nuanced care; reason false—universal treatment not supported.",
+      "reference": "Management of Hypothyroidism Before and During Pregnancy: \"there is insufficient evidence to universally treat pregnant women with serum TSH values between 2.5 and 4 mIU/L regardless of TPO antibody status.\""
     }
   ]
 }
