@@ -555,7 +555,7 @@ function renderNote(nte){
     <div class="sub">${esc(nte.subtopic||'')}</div>
     ${skepticBlock}
     <h3>${esc(nte.title||'')}</h3>
-    <div class="body">${esc(nte.content||'')}</div>
+    <div class="body">${esc(nte.content||nte.text||'')}</div>
     ${kp}
     ${refBlock(nte.reference)}
   </div>`;
