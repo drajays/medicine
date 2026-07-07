@@ -4,47 +4,451 @@
   "chapterNo": "32",
   "title": "Diagnosis and Management of Functional Hypogonadism in the Male Patient",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Mathis Grossmann, MD, PhD, FRACP",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_32_Diagnosis_and_Management_of_Functional_Hypogonadism_in_the_Male_Patient.md",
   "items": [
     {
-      "subtopic": "Androgen Deficiency in Middle-Aged Men",
-      "question": "For a middle-aged man presenting with low energy, low libido, and erectile dysfunction despite healthy lifestyle measures, which of the following is the best next step in management?",
+      "id": "e21-32-n1",
+      "type": "note",
+      "subtopic": "Diagnostic paradigm",
+      "title": "Why functional hypogonadism is a diagnosis of exclusion",
+      "text": "Functional suppression of the HPT axis from acute or chronic illness is common, but organic agonadism from structural pituitary or testicular disease must be excluded before attributing symptoms to reversible functional hypogonadism.",
+      "reference": "Main Conclusions: \"Functional hypogonadism is diagnosis of exclusion and requires careful, individualized assessment to exclude organic agonadism due to anatomic pathology of the axis.\""
+    },
+    {
+      "id": "e21-32-n2",
+      "type": "note",
+      "subtopic": "Organic vs functional",
+      "title": "How to distinguish organic from functional hypogonadism clinically",
+      "text": "Organic disease shows more specific signs (small testes, gynecomastia, loss of body hair) with unequivocally low testosterone and abnormal gonadotropins; functional hypogonadism has nonspecific symptoms, borderline testosterone, and usually normal gonadotropins from nondestructive hypothalamic-pituitary inhibition.",
+      "reference": "Significance of the Clinical Problem: \"Most such men do not have organic hypogonadism due to classic pituitary or testicular disease, but instead have functional hypogonadism.\""
+    },
+    {
+      "id": "e21-32-n3",
+      "type": "note",
+      "subtopic": "Treatment approach",
+      "title": "Why treatment differs between organic and functional hypogonadism",
+      "text": "Organic hypogonadism generally requires testosterone replacement; in functional hypogonadism, lifestyle measures—achieving healthy body weight, optimizing comorbidities, and stopping offending medications—may improve symptoms and raise serum testosterone.",
+      "reference": "Significance of the Clinical Problem: \"While organic hypogonadism is generally treated with testosterone replacement, in men with functional hypogonadism, lifestyle measures—especially achieving a healthy body weight, optimizing comorbidities, and stopping offending medications—may improve symptoms and increase serum testosterone.\""
+    },
+    {
+      "id": "e21-32-n4",
+      "type": "note",
+      "subtopic": "Workup staging",
+      "title": "How to work up older men with androgen deficiency features",
+      "text": "Confirm clinically significant androgen deficiency, document at least two morning fasted low total testosterone values (avoid intercurrent illness), measure SHBG/free testosterone when borderline, and individualize pituitary evaluation—prolactin and iron studies in men <65; consider imaging when testosterone <150 ng/dL with low-normal gonadotropins.",
+      "reference": "Workup of Older Men Presenting With Features Suggestive of Androgen Deficiency: \"The clinical impression of androgen deficiency should be confirmed by documenting at least 2 low serum total testosterone concentrations by an accurate and reliable assay, with the sample drawn in the morning in the fasted state.\""
+    },
+    {
+      "id": "e21-32-n5",
+      "type": "note",
+      "subtopic": "Pituitary imaging",
+      "title": "Pituitary imaging threshold in secondary hypogonadism",
+      "text": "In men with low to normal gonadotropins, consider pituitary imaging when total testosterone is persistently <150 ng/dL (<5.2 nmol/L), even without clinical suspicion of pituitary disease.",
+      "reference": "Workup of Older Men Presenting With Features Suggestive of Androgen Deficiency: \"imaging should be considered in men with a total testosterone concentration less than 150 ng/dL (<5.2 nmol/L) and low to normal gonadotropins, even in the absence of clinical suspicion of hypothalamic pituitary disease.\""
+    },
+    {
+      "id": "e21-32-n6",
+      "type": "note",
+      "subtopic": "Missed organic disease",
+      "title": "Why reevaluate for organic HPT pathology when optimization fails",
+      "text": "Features consistent with androgen deficiency may persist despite weight loss and comorbidity optimization; organic pathology can be missed on initial assessment.",
+      "reference": "Barriers to Optimal Practice: \"In some men, clinical and biochemical features consistent with androgen deficiency may persist despite optimization of body weight and comorbidities. In such men, reevaluation for organic HPT axis pathology should be considered, as this can be missed.\""
+    },
+    {
+      "id": "e21-32-n7",
+      "type": "note",
+      "subtopic": "T-Trials",
+      "title": "How testosterone treatment performed in the T-Trials",
+      "text": "The T-Trials enrolled men ≥65 years with baseline testosterone <275 ng/dL and hypogonadal symptoms, excluding organic hypogonadism; transdermal testosterone for 12 months modestly improved sexual function, mood, bone density, and anemia but not cognition.",
+      "reference": "The Benefits of Testosterone Therapy: \"Eligible participants had a baseline testosterone concentration less than 275 ng/dL (<9.54 nmol/L) (averaged from 2 measures) and at least 1 symptom or sign consistent with hypogonadism\""
+    },
+    {
+      "id": "e21-32-n8",
+      "type": "note",
+      "subtopic": "Targeted therapy",
+      "title": "How to address specific deficits without testosterone",
+      "text": "Men with functional hypogonadism can respond to targeted treatments—phosphodiesterase-5 inhibitors for erectile dysfunction or antiresorptive therapy for osteoporosis—rather than reflex testosterone prescription.",
+      "reference": "Main Conclusions: \"However, such men can respond to targeted treatments addressing relevant symptoms (eg, phosphodiesterase-5 inhibitors for sexual dysfunction) or end-organ deficits (eg, antiresorptive therapy for osteoporosis).\""
+    },
+    {
+      "id": "e21-32-n9",
+      "type": "note",
+      "subtopic": "RED-S",
+      "title": "Why relative energy deficit in sport causes hypogonadotropic hypogonadism",
+      "text": "Excessive exercise with dietary restriction creates relative energy deficit suppressing GnRH pulsatility; elevated SHBG, sick euthyroid pattern, and mild anemia support RED-S over pituitary adenoma in the athletic young man.",
+      "reference": "Case 3: \"The International Olympic Committee has introduced the gender-neutral term relative energy deficiency in sport (RED-S) (Answer A), replacing the term \"female athlete triad\" to recognize that functional hypogonadotropic hypogonadism due to overtraining leading to a relative energy deficit may also occur in men.\""
+    },
+    {
+      "id": "e21-32-n10",
+      "type": "note",
+      "subtopic": "RED-S management",
+      "title": "How to treat relative energy deficit in sport",
+      "text": "Correct the energy deficit by increasing caloric intake and reducing training intensity; gonadal axis recovery usually follows within weeks to months if successful.",
+      "reference": "Case 3: \"Treatment of RED-S consists of correcting the underlying energy deficit by increasing caloric intake and reducing training intensity (Answer B).\""
+    },
+    {
+      "id": "e21-32-n11",
+      "type": "note",
+      "subtopic": "Cirrhosis trap",
+      "title": "Why severe illness masks primary hypogonadism before liver transplant",
+      "text": "Decompensated cirrhosis commonly causes functional hypogonadotropic hypogonadism with low testosterone and low-normal gonadotropins; after transplant recovery, underlying primary testicular failure (e.g., prior orchitis) may unmask with elevated gonadotropins.",
+      "reference": "Case 4: \"The best explanation for these findings is poor health before transplant (Answer B). This most likely led to hypothalamic-pituitary suppression causing functional central hypogonadism superimposed on, and hence masking, his underlying genuine primary hypogonadism due to previous alcohol and orchitis.\""
+    },
+    {
+      "id": "e21-32-n12",
+      "type": "note",
+      "subtopic": "Off-label pitfall",
+      "title": "Pitfall: aromatase inhibitors and SERMs for functional hypogonadism",
+      "text": "Aromatase inhibitors and selective estrogen-receptor modulators are sometimes prescribed off-label to raise testosterone but lack convincing evidence of benefit; aromatase inhibitors may reduce bone density in men.",
+      "reference": "Case 2: \"These agents are not approved for male hypogonadism, and there is no convincing evidence for clinical benefit. Moreover, by decreasing estradiol production, aromatase inhibitors have been reported to reduce bone density in men.\""
+    },
+    {
+      "id": "e21-32-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — organic pathology",
+      "question": "A 51-year-old man has repeated total testosterone 133–144 ng/dL, mild gynecomastia, 15-mL testes, mild anemia, and failed lifestyle measures. What is the best next step?",
       "options": [
-        "Evaluate for sleep obstructive sleep apnea",
-        "Refer to a dietician to achieve a healthy body weight",
+        "Evaluate for obstructive sleep apnea",
+        "Refer to a dietician for weight loss",
         "Evaluate for organic HPT axis pathology",
         "Refer to a psychologist for counseling"
       ],
       "correctOption": 2,
-      "explanation": "The correct option is C) Evaluate for organic HPT axis pathology. The patient has clinical findings suggestive of organic pathology (gynecomastia, borderline testicular size), and his serum testosterone levels are frankly low. His visual fields are normal to confrontation, and he does not have any intercurrent illness suggesting temporary HPT axis suppression. Further evaluation of his HPT axis is indicated as the foremost consideration in this case. The patient’s BMI is 29.0 kg/m², which aligns with obesity being a major contributor to his lowered testosterone levels. Obesity can lead to decreased production of sex hormones such as testosterone and increased conversion of testosterone to estrogen via aromatase enzymes in adipose tissue. Therefore, successful weight loss may improve his energy levels and increase circulating testosterone.",
-      "reference": "\"This middle-aged man presents with clinical findings suggestive of organic pathology (gynecomastia, borderline testicular size). His serum testosterone is frankly and repeatedly low. There is no intercurrent illness suggesting temporary HPT axis suppression. He has mild unexplained anemia, which is compatible with androgen deficiency. His clinical presentation should not be attributed to functional hypogonadism, a diagnosis of exclusion. Further evaluation of his HPT axis is indicated (Answer C). Upon further investigation, his LH concentration was 2.4 mIU/L in the face of his repeatedly and frankly low serum testosterone. His prolactin concentration was mildly elevated at 31 ng/mL, suggestive of pituitary stalk effect rather than a prolactin-secreting pituitary. Pituitary imaging demonstrated a 2-cm macroadenoma well away from the optic chiasm, consistent with a nonfunctioning adenoma on further workup.\"",
-      "id": "e21-32-q1",
-      "type": "mcq"
+      "explanation": "Frankly low testosterone with gynecomastia and borderline testicular size suggests organic pathology; functional hypogonadism is a diagnosis of exclusion. He was later found to have a 2-cm nonfunctioning pituitary macroadenoma.",
+      "reference": "Case 1: \"Answer: C) Evaluate for organic HPT axis pathology\""
     },
     {
-      "type": "why",
-      "subtopic": "Functional Hypogonadism in Young Men",
-      "question": "Why is functional hypogonadism observed in young men?",
-      "answer": "Because functional suppression of the male hypothalamic-pituitary-testicular (HPT) axis can occur due to acute or chronic health conditions, which affects both older and younger men.",
-      "keyPoints": [
-        "Functional hypogonadism is a common clinical problem in young men with underlying health conditions",
-        "It can be caused by acute or chronic health issues affecting the HPT axis"
+      "id": "e21-32-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — obese older man",
+      "question": "A 67-year-old obese man has total testosterone ~200 ng/dL, calculated free testosterone 5.0 ng/dL, and normal LH/FSH/prolactin without gynecomastia. Best next step?",
+      "options": [
+        "Pituitary-directed MRI",
+        "Lifestyle measures for weight loss plus phosphodiesterase-5 inhibitor",
+        "Aromatase inhibitor",
+        "Selective estrogen-receptor modulator"
       ],
-      "reference": "MAIN CONCLUSIONS: \"functional suppression of the male hypothalamic-pituitary-testicular (HPT) axis due to acute or chronic health conditions is a common clinical problem in older men, but it can also occur young men.\"\nFunctional hypogonadism is diagnosis of exclusion and requires careful, individualized assessment to exclude organic agonadism due to anatomic pathology of the axis.\"\nWhile definitive randomized controlled trials are lacking, available evidence suggests that optimizing health (e.g., achieving a healthy body weight, optimizing comorbidities, managing offending medications) can improve gen deficiency-like symptoms and lead to st increase in circulating testosterone.\nNot uncommonly, measures to reverse suppression of the functional HPT axis are difficult to implement successfully and, even if successful, may not be sufficient. In this situation, the question arises as to whether testosterone treatment is appropriate.\"\nWhile recent randomized controlled trials in carefully selected middle-aged and older men have reported short-term effects of testosterone treatment, effects on important long-term health outcomes remain unknown.\nIf testosterone treatment is considered, it should be directed towards men with significant clinical features and persistently low circulating testosterone after exclusion of contraindications and appropriate counseling, with guideline-conforming monitoring for efficacy and adverse effects.\"\n",
-      "id": "e21-32-why1"
+      "correctOption": 1,
+      "explanation": "Low clinical suspicion for organic hypogonadotropic hypogonadism; obesity is the likely driver. Weight loss may raise testosterone; PDE-5 inhibitor addresses erectile dysfunction without unnecessary pituitary imaging or unproven off-label agents.",
+      "reference": "Case 2: \"Answer: B) Initiate lifestyle measures to achieve weight loss and prescribe a phosphodiesterase 5 inhibitor\""
     },
     {
-      "type": "how",
-      "subtopic": "diagnostic step",
-      "question": "How can functional hypogonadism be diagnosed in older men?",
-      "answer": "Functional hypogonadism in older men can be diagnosed through a careful, individualized assessment that includes exclusion of organic agnogenic due to anatomic pathology of the axis. This involves detailed clinical evaluation, laboratory tests for testosterone levels, and possibly imaging studies if necessary.",
-      "keyPoints": [
-        "Careful, individualized assessment is required to diagnose functional hypogonadism in older men",
-        "Exclusion of organic agnogenic due to anatomic pathology should be performed"
+      "id": "e21-32-q3",
+      "type": "mcq",
+      "subtopic": "Case 3 — cyclist",
+      "question": "A 24-year-old cyclist with 4–6 hours daily training, intentional weight loss, testosterone 75–86 ng/dL, LH 0.2, elevated SHBG, and sick euthyroid pattern. Most likely diagnosis?",
+      "options": [
+        "Relative energy deficit in sport",
+        "Pituitary adenoma",
+        "Hemochromatosis",
+        "Covert anabolic steroid use"
       ],
-      "reference": "MAIN CONCLUSIONS: \"functional suppression of the male hypothalamic-pituitary-testicular (HPT) axis due to acute or chronic health conditions is a common clinical problem in older men, but it can also occur young men. Functional hypogonadism is diagnosis of exclusion and requires careful, individualized assessment to exclude organic agnogenic due to anatomic pathology of the axis.\"",
-      "id": "e21-32-how1"
+      "correctOption": 0,
+      "explanation": "Excessive exercise with dietary restriction typifies RED-S; elevated SHBG is a sensitive marker of energy deficit. Steroid abuse would show muscular physique, small testes, low SHBG, and polycythemia.",
+      "reference": "Case 3: \"Answer: A) Relative energy deficit in sport\""
+    },
+    {
+      "id": "e21-32-q4",
+      "type": "mcq",
+      "subtopic": "Case 3 — RED-S treatment",
+      "question": "The same cyclist with RED-S asks about management. Best next step?",
+      "options": [
+        "Initiate testosterone replacement",
+        "Reduce training intensity and restore energy deficit",
+        "Initiate clomiphene",
+        "Initiate an aromatase inhibitor"
+      ],
+      "correctOption": 1,
+      "explanation": "RED-S treatment targets the energy deficit; gonadal recovery usually follows within weeks to months. Testosterone would not address the underlying problem.",
+      "reference": "Case 3: \"Answer: B) Reduce training intensity and restore energy deficit\""
+    },
+    {
+      "id": "e21-32-q5",
+      "type": "mcq",
+      "subtopic": "Case 4 — post-transplant",
+      "question": "A liver transplant recipient now has very low testosterone with elevated gonadotropins, gynecomastia, and small soft testes after pretransplant functional hypogonadism. Best explanation?",
+      "options": [
+        "Covert anabolic steroid use before transplant",
+        "Primary hypogonadism masked by ill health before transplant",
+        "Testicular suppression due to immunosuppressive therapy",
+        "Laboratory error"
+      ],
+      "correctOption": 1,
+      "explanation": "Severe illness suppresses the HPT axis functionally; recovery after transplant unmasked underlying primary testicular failure from prior alcohol and mumps orchitis.",
+      "reference": "Case 4: \"Answer: B) Primary hypogonadism masked by ill health before liver transplant\""
+    },
+    {
+      "id": "e21-32-q6",
+      "type": "mcq",
+      "subtopic": "Biochemical confirmation",
+      "question": "When should morning fasting testosterone be measured in suspected hypogonadism?",
+      "options": [
+        "During acute intercurrent illness to capture nadir",
+        "At least twice in the morning fasted state, avoiding intercurrent illness",
+        "Only in the afternoon when SHBG is highest",
+        "Once at any time if symptoms are present"
+      ],
+      "correctOption": 1,
+      "explanation": "Intercurrent illness causes temporary HPT suppression; diagnosis requires at least two reliable morning fasted low values.",
+      "reference": "Workup of Older Men Presenting With Features Suggestive of Androgen Deficiency: \"Testosterone should not be measured during an intercurrent illness, as this can lead to temporary HPT axis suppression.\""
+    },
+    {
+      "id": "e21-32-q7",
+      "type": "mcq",
+      "subtopic": "Gonadotropin pattern",
+      "question": "In functional hypogonadism from obesity or chronic disease, gonadotropins are typically:",
+      "options": [
+        "Markedly elevated",
+        "Low-normal from nondestructive hypothalamic-pituitary inhibition",
+        "Undetectable with high testosterone",
+        "Elevated with high inhibin B"
+      ],
+      "correctOption": 1,
+      "explanation": "Functional hypogonadism reflects reversible central inhibition; gonadotropins are usually low-normal rather than frankly elevated as in primary testicular failure.",
+      "reference": "Workup of Older Men Presenting With Features Suggestive of Androgen Deficiency: \"Most men with functional hypogonadism have low-normal gonadotropin concentrations due to nondestructive hypothalamic-pituitary inhibition from chronic disease, including being obese or underweight.\""
+    },
+    {
+      "id": "e21-32-q8",
+      "type": "mcq",
+      "subtopic": "T-Trials eligibility",
+      "question": "The T-Trials excluded which population?",
+      "options": [
+        "Men with organic hypogonadism",
+        "Men with diabetes mellitus",
+        "Men older than 65 years",
+        "Men with low libido"
+      ],
+      "correctOption": 0,
+      "explanation": "T-Trials studied carefully selected older men with functional/late-onset hypogonadism, excluding organic pituitary or testicular disease.",
+      "reference": "Table 2. Effects of Testosterone Treatment in Randomized Controlled Trials of Middle-Aged and Older Men: Evidence to Date: \"In these randomized controlled trials, men with organic hypogonadism were excluded.\""
+    },
+    {
+      "id": "e21-32-q9",
+      "type": "mcq",
+      "subtopic": "T-Trials cognition",
+      "question": "In the T-Trials, testosterone treatment for 12 months:",
+      "options": [
+        "Markedly improved cognitive function",
+        "Did not improve cognitive function",
+        "Worsened mood uniformly",
+        "Eliminated need for PDE-5 inhibitors"
+      ],
+      "correctOption": 1,
+      "explanation": "Testosterone modestly improved sexual function and mood but did not improve cognition or memory.",
+      "reference": "The Benefits of Testosterone Therapy: \"Testosterone treatment resulted in modest benefits in sexual function and slightly improved mood and depressive symptoms, but it did not improve cognitive function.\""
+    },
+    {
+      "id": "e21-32-q10",
+      "type": "mcq",
+      "subtopic": "Long-term risks",
+      "question": "Regarding long-term testosterone therapy in functional hypogonadism:",
+      "options": [
+        "Definitive RCTs prove mortality benefit",
+        "Effects on fractures, disability, and mortality remain unknown",
+        "Prostate cancer risk is definitively increased",
+        "Cardiovascular benefit is established"
+      ],
+      "correctOption": 1,
+      "explanation": "Existing trials are relatively small and short; long-term effects on major clinical endpoints are not established.",
+      "reference": "The Benefits of Testosterone Therapy: \"Whether testosterone treatment reduces important clinical endpoints such as fractures, disability, or mortality in older men is not known.\""
+    },
+    {
+      "id": "e21-32-q11",
+      "type": "mcq",
+      "subtopic": "Young men",
+      "question": "Functional hypogonadism in young men may occur in the context of:",
+      "options": [
+        "Only pituitary macroadenoma",
+        "Energy deficit from overtraining, eating disorders, or anabolic steroid recovery",
+        "Only primary testicular failure",
+        "Exclusively after age 40"
+      ],
+      "correctOption": 1,
+      "explanation": "Ill health including energy deficit syndromes and recovery from anabolic steroid use can suppress the HPT axis in young men.",
+      "reference": "Significance of the Clinical Problem: \"Notably, ill health can also cause functional hypogonadism in young men in the context of energy deficit (eg, the reversible energy deficit of sport syndrome, eating disorders, and body dysmorphic disorders) or during recovery from anabolic steroid use.\""
+    },
+    {
+      "id": "e21-32-q12",
+      "type": "mcq",
+      "subtopic": "Prevalence",
+      "question": "Estimated community prevalence of functional hypogonadism (late-onset hypogonadism) in older men is approximately:",
+      "options": [
+        "20%–30%",
+        "2%–5%",
+        "50%",
+        "<0.1%"
+      ],
+      "correctOption": 1,
+      "explanation": "Functional hypogonadism with symptoms and lowered testosterone without organic pathology affects roughly 2%–5% of community-dwelling men.",
+      "reference": "The estimated prevalence of functional hypogonadism (in older men also referred late-onset hypogonadism), defined as existence of androgen deficiency-like symptoms and lowered circulating testosterone in absence of organic HPT axis pathology, is estimated to be 2% to 5% in community-dwelling men.: \"is estimated to be 2% to 5% in community-dwelling men.\""
+    },
+    {
+      "id": "e21-32-q13",
+      "type": "mcq",
+      "subtopic": "Counseling before testosterone",
+      "question": "Before considering testosterone in functional hypogonadism, men should be counseled that:",
+      "options": [
+        "Long-term benefits and risks are fully established",
+        "High-level evidence on long-term outcomes is absent and clear goals should be set",
+        "Testosterone always restores fertility",
+        "No monitoring is required"
+      ],
+      "correctOption": 1,
+      "explanation": "Men should understand the evidence gap, identify patient-specific goals, and stop treatment if goals are not met with guideline-conforming monitoring.",
+      "reference": "Possible Risks of Testosterone Therapy: \"If treatment is considered, men with functional hypogonadism should be informed about the absence of high-level evidence regarding long-term benefits and risks.\""
+    },
+    {
+      "id": "e21-32-tf1",
+      "type": "true_false",
+      "subtopic": "Diagnosis",
+      "statement": "Functional hypogonadism can be diagnosed without excluding organic HPT axis pathology.",
+      "correctAnswer": false,
+      "explanation": "It is explicitly a diagnosis of exclusion requiring assessment for structural pituitary or testicular disease.",
+      "reference": "Main Conclusions: \"Functional hypogonadism is diagnosis of exclusion and requires careful, individualized assessment to exclude organic agonadism due to anatomic pathology of the axis.\""
+    },
+    {
+      "id": "e21-32-tf2",
+      "type": "true_false",
+      "subtopic": "Lifestyle",
+      "statement": "Achieving healthy body weight and optimizing comorbidities can increase circulating testosterone in functional hypogonadism.",
+      "correctAnswer": true,
+      "explanation": "Available evidence supports health optimization improving symptoms and modestly raising testosterone.",
+      "reference": "Main Conclusions: \"the available evidence suggests that measures to optimize ill health (eg, achieving a healthy body weight, optimizing comorbidities, managing offending medications) can improve androgen deficiency-like symptoms and lead to modest increase in circulating testosterone.\""
+    },
+    {
+      "id": "e21-32-tf3",
+      "type": "true_false",
+      "subtopic": "Intercurrent illness",
+      "statement": "Testosterone should be measured during acute intercurrent illness to confirm hypogonadism.",
+      "correctAnswer": false,
+      "explanation": "Intercurrent illness causes temporary HPT axis suppression and confounds interpretation.",
+      "reference": "Workup of Older Men Presenting With Features Suggestive of Androgen Deficiency: \"Testosterone should not be measured during an intercurrent illness, as this can lead to temporary HPT axis suppression.\""
+    },
+    {
+      "id": "e21-32-tf4",
+      "type": "true_false",
+      "subtopic": "Imaging yield",
+      "statement": "Pituitary imaging is always mandatory in every obese older man with borderline low testosterone.",
+      "correctAnswer": false,
+      "explanation": "Evaluation for organic pathology should be individualized; probability is inversely related to BMI, age, comorbidities, and testosterone level.",
+      "reference": "Workup of Older Men Presenting With Features Suggestive of Androgen Deficiency: \"Especially in older men, evaluation for underlying organic HPT axis pathology is commonly of low yield and should be individualized.\""
+    },
+    {
+      "id": "e21-32-tf5",
+      "type": "true_false",
+      "subtopic": "T-Trials bone",
+      "statement": "T-Trials substudies demonstrated improvements in volumetric bone mineral density with testosterone.",
+      "correctAnswer": true,
+      "explanation": "Concomitant substudies showed BMD gains though fracture endpoints were not assessed.",
+      "reference": "The Benefits of Testosterone Therapy: \"Concomitant substudies demonstrated improvements in volumetric bone mineral density and anemia.\""
+    },
+    {
+      "id": "e21-32-tf6",
+      "type": "true_false",
+      "subtopic": "Prostate cancer",
+      "statement": "Clinical studies to date have demonstrated that testosterone treatment increases the risk of developing prostate cancer.",
+      "correctAnswer": false,
+      "explanation": "Despite ADT efficacy in established prostate cancer, studies have not shown testosterone therapy increases incident prostate cancer risk.",
+      "reference": "Possible Risks of Testosterone Therapy: \"clinical studies to date have not demonstrated that testosterone treatment increases the risk of developing prostate cancer.\""
+    },
+    {
+      "id": "e21-32-tf7",
+      "type": "true_false",
+      "subtopic": "RED-S",
+      "statement": "Relative energy deficit in sport can cause functional hypogonadotropic hypogonadism in men.",
+      "correctAnswer": true,
+      "explanation": "RED-S replaces the female athlete triad concept and applies to male athletes with energy deficit.",
+      "reference": "Case 3: \"functional hypogonadotropic hypogonadism due to overtraining leading to a relative energy deficit may also occur in men.\""
+    },
+    {
+      "id": "e21-32-tf8",
+      "type": "true_false",
+      "subtopic": "Aromatase inhibitors",
+      "statement": "Aromatase inhibitors are approved and evidence-based first-line therapy for male functional hypogonadism.",
+      "correctAnswer": false,
+      "explanation": "They are off-label without convincing benefit and may harm bone density.",
+      "reference": "Case 2: \"These agents are not approved for male hypogonadism, and there is no convincing evidence for clinical benefit.\""
+    },
+    {
+      "id": "e21-32-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Diagnosis of exclusion",
+      "assertion": "Assertion: Functional hypogonadism requires exclusion of organic HPT axis pathology.",
+      "reason": "Reason: Organic hypogonadism is always reversible with weight loss alone.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; organic disease is generally irreversible—reason is false.",
+      "reference": "Main Conclusions: \"Functional hypogonadism is diagnosis of exclusion and requires careful, individualized assessment to exclude organic agonadism due to anatomic pathology of the axis.\""
+    },
+    {
+      "id": "e21-32-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Low testosterone as marker",
+      "assertion": "Assertion: In most older men, low testosterone is a marker of poor health.",
+      "reason": "Reason: Lowered testosterone is primarily a consequence of functional hypothalamic-pituitary suppression due to ill health.",
+      "correctOption": 0,
+      "explanation": "Both are true and causally linked in the functional hypogonadism paradigm.",
+      "reference": "Conclusions: \"In most older men, low testosterone is a marker of poor health and should prompt a holistic approach with focus on lifestyle measures and optimization of comorbidities.\""
+    },
+    {
+      "id": "e21-32-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Case 1 pituitary",
+      "assertion": "Assertion: A man with frankly low testosterone, gynecomastia, and borderline testicular size should not be labeled functional hypogonadism without further HPT evaluation.",
+      "reason": "Reason: Visual fields normal to confrontation exclude all pituitary pathology.",
+      "correctOption": 2,
+      "explanation": "Assertion reflects Case 1 teaching; normal confrontation visual fields do not exclude macroadenoma away from the chiasm.",
+      "reference": "Case 1: \"His clinical presentation should not be attributed to functional hypogonadism, a diagnosis of exclusion. Further evaluation of his HPT axis is indicated (Answer C).\""
+    },
+    {
+      "id": "e21-32-ar4",
+      "type": "assertion_reason",
+      "subtopic": "T-Trials sexual function",
+      "assertion": "Assertion: Testosterone treatment in the T-Trials improved sexual function modestly.",
+      "reason": "Reason: Effects on libido were generally more marked than effects on erectile function.",
+      "correctOption": 0,
+      "explanation": "Both are true per trial outcomes and Table 2.",
+      "reference": "Table 2. Effects of Testosterone Treatment in Randomized Controlled Trials of Middle-Aged and Older Men: Evidence to Date: \"In most randomized controlled trials, effect on libido more marked than on erectile function\""
+    },
+    {
+      "id": "e21-32-ar5",
+      "type": "assertion_reason",
+      "subtopic": "RED-S SHBG",
+      "assertion": "Assertion: Elevated SHBG supports relative energy deficit in sport.",
+      "reason": "Reason: Energy deficit always lowers SHBG concentrations.",
+      "correctOption": 2,
+      "explanation": "Assertion is true in Case 3; energy deficit raises SHBG—the reason is false.",
+      "reference": "Case 3: \"In the context of hypogonadotropic hypogonadism, biochemical findings pointing to the diagnosis of RED-S in this man are the elevated serum SHBG concentration (a sensitive marker of energy deficit)\""
+    },
+    {
+      "id": "e21-32-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Cirrhosis masking",
+      "assertion": "Assertion: Severe cirrhosis can mask underlying primary hypogonadism.",
+      "reason": "Reason: Cirrhosis always causes primary testicular failure with elevated gonadotropins.",
+      "correctOption": 2,
+      "explanation": "Assertion is true (Case 4); cirrhosis typically causes functional central suppression—reason false.",
+      "reference": "Case 4: \"In men with decompensated cirrhosis, low testosterone is common (occurring in 60%-90% of men), and gonadotropins are typically low or low-normal\""
+    },
+    {
+      "id": "e21-32-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Testosterone counseling",
+      "assertion": "Assertion: Men considered for testosterone should be informed about absent high-level long-term outcome evidence.",
+      "reason": "Reason: Definitive RCTs have proven testosterone reduces mortality in functional hypogonadism.",
+      "correctOption": 3,
+      "explanation": "Assertion is true; mortality benefit is not established—the reason is false.",
+      "reference": "Possible Risks of Testosterone Therapy: \"men with functional hypogonadism should be informed about the absence of high-level evidence regarding long-term benefits and risks.\""
+    },
+    {
+      "id": "e21-32-ar8",
+      "type": "assertion_reason",
+      "subtopic": "PDE-5 inhibitors",
+      "assertion": "Assertion: Phosphodiesterase-5 inhibitors are a targeted option for erectile dysfunction in functional hypogonadism.",
+      "reason": "Reason: Erectile dysfunction in obese older men never responds to PDE-5 inhibitors.",
+      "correctOption": 2,
+      "explanation": "Assertion is true (Case 2); PDE-5 inhibitors can improve erectile function—the blanket reason is false.",
+      "reference": "Case 2: \"His erectile function should improve with the use of a phosphodiesterase 5 inhibitor.\""
     }
   ]
 }

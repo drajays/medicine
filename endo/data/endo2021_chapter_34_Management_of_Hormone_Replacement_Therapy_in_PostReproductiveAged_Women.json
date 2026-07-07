@@ -2,49 +2,453 @@
   "id": "e21-34",
   "volume": 2021,
   "chapterNo": "34",
-  "title": "Management of Hormone Replacement Therapy in PostReproductiveAged Women",
+  "title": "Management of Hormone Replacement Therapy in Post-Reproductive-Aged Women",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Genevieve Neal-Perry, MD, PhD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_34_Management_of_Hormone_Replacement_Therapy_in_PostReproductiveAged_Women.md",
   "items": [
     {
-      "subtopic": "Menstrual Disorders and Hormonal Imbalance",
-      "question": "Which of the following is a modifier affecting the duration of hot flashes in this patient?",
+      "id": "e21-34-n1",
+      "type": "note",
+      "subtopic": "Menopause definition",
+      "title": "Why menopause is defined retrospectively after 12 months of amenorrhea",
+      "text": "Menopause reflects permanent cessation of menses from follicular depletion; the diagnosis requires 12 consecutive months without menstruation by convention.",
+      "reference": "Main Conclusions: \"Menopause is defined as the permanent cessation of menses; by convention, the diagnosis of menopause is not made until the individual has had 12 months of amenorrhea.\""
+    },
+    {
+      "id": "e21-34-n2",
+      "type": "note",
+      "subtopic": "Menopausal transition",
+      "title": "How the menopausal transition presents hormonally",
+      "text": "The transition is heralded by ovarian reserve depletion, cycle-length changes, reduced luteal progesterone, variable estradiol, and elevated FSH—often causing vasomotor symptoms before the final menstrual period.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"The menopausal transition is heralded by ovarian follicular pool depletion (ovarian reserve), menstrual cycle length changes, reduced luteal phase progesterone synthesis, variable estradiol levels, and elevated FSH.\""
+    },
+    {
+      "id": "e21-34-n3",
+      "type": "note",
+      "subtopic": "Vasomotor symptoms",
+      "title": "Why vasomotor symptoms occur in menopause",
+      "text": "Hormonal fluctuations lower the hypothalamic threshold for heat dissipation (flushing) and raise the threshold for warming; KNDy neurons adjacent to the thermoregulatory center are hypothesized drivers.",
+      "reference": "Menopausal Symptoms: \"Thermoregulatory dysfunction begins in hypothalamus in response to hormonal fluctuations. The threshold in core temperature for cooling (flushes, sweats) is lowered\""
+    },
+    {
+      "id": "e21-34-n4",
+      "type": "note",
+      "subtopic": "VMS duration",
+      "title": "How long vasomotor symptoms typically persist",
+      "text": "Median duration is 7.4 years with mean post-FMP persistence of 4.5 years; duration varies by race, BMI, socioeconomic status, and depression.",
+      "reference": "Menopausal Symptoms: \"Vasomotor symptoms have a median duration of 7.4 years, with a mean post-final menstrual period persistence of 4.5 years.\""
+    },
+    {
+      "id": "e21-34-n5",
+      "type": "note",
+      "subtopic": "GSM",
+      "title": "Why genitourinary syndrome of menopause needs long-term therapy",
+      "text": "Unlike vasomotor symptoms, genitourinary syndrome symptoms do not spontaneously resolve and may require ongoing treatment to preserve quality of life.",
+      "reference": "Menopausal Symptoms: \"Unlike vasomotor symptoms, symptoms of genitourinary syndrome of menopause do not spontaneously resolve over time. Therefore, long-term treatment may be required to preserve quality of life.\""
+    },
+    {
+      "id": "e21-34-n6",
+      "type": "note",
+      "subtopic": "HT efficacy",
+      "title": "How effective hormone therapy is for menopausal symptoms",
+      "text": "When used in the appropriate population, HT is highly effective for vasomotor symptoms, sleep disruption, mood, and genitourinary syndrome.",
+      "reference": "Main Conclusions: \"When used in the appropriate patient population, hormone replacement therapy (HT) is highly effective and safe.\""
+    },
+    {
+      "id": "e21-34-n7",
+      "type": "note",
+      "subtopic": "Progestin indication",
+      "title": "Why progestin is required with estrogen in women with a uterus",
+      "text": "Chronic unopposed estrogen increases endometrial hyperplasia and cancer risk; progestin prevents estradiol-induced endometrial neoplasia.",
+      "reference": "Uterine Neoplasia: \"The incidence of uterine neoplasia is increased under conditions of chronic unopposed estrogen exposure in a woman with an intact uterus.\""
+    },
+    {
+      "id": "e21-34-n8",
+      "type": "note",
+      "subtopic": "Transdermal route",
+      "title": "How route of administration affects thrombotic risk",
+      "text": "Transdermal preparations may carry lower venous thromboembolism risk than oral estrogen while providing equivalent symptomatic efficacy.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Transdermal preparations may carry lower risk of thromboembolic events while providing the same efficacy for treatment management.\""
+    },
+    {
+      "id": "e21-34-n9",
+      "type": "note",
+      "subtopic": "Timing hypothesis",
+      "title": "Why timing of HT initiation affects cognitive outcomes",
+      "text": "HT in younger early-menopausal women does not impair cognition, whereas WHI Memory Study data suggest increased dementia when initiating HT after age 65.",
+      "reference": "Cognitive Function: \"the Women's Health Initiative Memory Study found an increased incidence of dementia in women older than 65 years initiating HT.\""
+    },
+    {
+      "id": "e21-34-n10",
+      "type": "note",
+      "subtopic": "Discontinuing HT",
+      "title": "How to assess need when stopping menopausal HT",
+      "text": "Stop HT 1 week before annual visit to assess symptom severity; most women taper slowly though 3%–15% have persistent severe symptoms requiring continued therapy or alternatives.",
+      "reference": "Discontinuing Menopausal HT: \"they should stop taking HT 1 week before an annual visit to allow assessment of symptom severity.\""
+    },
+    {
+      "id": "e21-34-n11",
+      "type": "note",
+      "subtopic": "Laboratory testing",
+      "title": "When laboratory tests help diagnose menopause",
+      "text": "FSH, estradiol, or AMH may be indicated after hysterectomy without oophorectomy, age <40, estrogen-containing contraceptive use, or continued menses after age 55.",
+      "reference": "diagnosis of Menopause: \"Measurement of FSH and estradiol or antimullerian hormone may be indicated for women who: have had a hysterectomy without oophorectomy\""
+    },
+    {
+      "id": "e21-34-n12",
+      "type": "note",
+      "subtopic": "WHI context",
+      "title": "Why fear of hormones leads to undertreatment",
+      "text": "WHI findings affected appropriate HT use; clinicians should offer evidence-based therapy and reevaluate periodically rather than defaulting to unproven compounded preparations.",
+      "reference": "Summary: \"fear of hormones has led to widespread undertreatment of symptoms and a proliferation of nonrigorously tested but popular treatments such as custom compounded hormones\""
+    },
+    {
+      "id": "e21-34-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — hot flash duration",
+      "question": "A 48-year-old African American woman has disruptive hot flashes. Which factor likely affects duration most among these?",
       "options": [
-        "A. Race",
-        "B. Age",
-        "C. Depression",
-        "D. Socioeconomic status"
+        "Race",
+        "Age alone",
+        "Depression alone",
+        "Socioeconomic status alone"
       ],
       "correctOption": 0,
-      "explanation": "In the given case vignette, it is stated that 'Black race is a modifier' when compared to other races and ethnic groups. African American women are more likely to have a longer duration and persistence of hot flashes. Therefore, option A (Race) is correct. The other options do not directly affect the duration of hot flashes in this context.",
-      "reference": "\"There are racial and ethnic differences in the duration and persistence of hot flashes. For this patient, black race is a modifier. When compared with other races and ethnic groups, African American women are more likely to have a longer duration and persistence of hot flashes.\"",
-      "id": "e21-34-q1",
-      "type": "mcq"
+      "explanation": "African American women have longer duration and persistence of hot flashes compared with other racial/ethnic groups.",
+      "reference": "Case 1: \"Answer: A) Race\""
     },
     {
-      "type": "why",
-      "subtopic": "Menopause Mechanism",
-      "question": "Why does menopause occur as a result of the loss of oocytes?",
-      "answer": "Because female reproductive senescence occurs due to the gradual depletion of finite numbers of oocytes produced during fetal development, leading to the cessation of menstruation and subsequent hormonal changes that cause bothersome symptoms.",
-      "keyPoints": [
-        "Menopause is caused by the depletion of oocytes produced during fetal development.",
-        "The loss of oocytes leads to the permanent cessation of menstruation."
+      "id": "e21-34-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — heavy bleeding",
+      "question": "A 48-year-old obese woman with PCOS has heavy bleeding after 6 months amenorrhea and wants contraception. Best treatment for bleeding?",
+      "options": [
+        "Combined oral contraception",
+        "Copper intrauterine device",
+        "Progestin intrauterine device",
+        "Barrier contraception only"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Female reproductive senescence reflects the gradual loss of oocytes as the reproductive axis matures in a continuous, natural process from menarche to menopause. It reflects the loss of the finite numbers of oocytes produced during fetal development.\"",
-      "id": "e21-34-why1"
+      "correctOption": 2,
+      "explanation": "Progestin IUD provides contraception and reduces endometrial neoplasia risk from ovulatory dysfunction; combined estrogen methods carry higher VTE/MI/breast cancer risk after age 45.",
+      "reference": "Case 2: \"Answer: C) Progestin intrauterine device\""
     },
     {
-      "type": "how",
-      "subtopic": "Monitoring Approach for Hormone Replacement Therapy (HT)",
-      "question": "How should clinicians monitor patients receiving hormone replacement therapy (HT)?",
-      "answer": "Clinicians should regularly monitor patients receiving HT to assess their response and adjust dosages as necessary. This includes monitoring blood levels of hormones such as estrogen, progesterone, and testosterone, as well as evaluating symptoms and side effects. Monitoring can help ensure that the patient is benefiting from the therapy while minimizing adverse effects.",
-      "keyPoints": [
-        "Regularly monitor hormone levels to assess effectiveness",
-        "Evaluate symptoms and side effects for optimal patient care"
+      "id": "e21-34-q3",
+      "type": "mcq",
+      "subtopic": "Menopause definition",
+      "question": "Menopause is diagnosed after:",
+      "options": [
+        "6 months of amenorrhea",
+        "12 months of amenorrhea",
+        "First hot flash",
+        "FSH >40 mIU/mL on one sample"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Menopause is defined as the permanent cessation of menses; by convention, the diagnosis of menopause is not made until the individual has had 12 months of amenorrhea. Menopause is thus characterized by the loss of menses. However, hormonal changes, rather than the cessation of menstruation itself, often give rise to bothersome vasomotor symptoms that disrupt the quality of life of affected women. When used in the appropriate patient population, hormone replacement therapy (HT) is highly effective and safe.\"",
-      "id": "e21-34-how1"
+      "correctOption": 1,
+      "explanation": "By convention menopause requires 12 consecutive months without menses.",
+      "reference": "Main Conclusions: \"the diagnosis of menopause is not made until the individual has had 12 months of amenorrhea.\""
+    },
+    {
+      "id": "e21-34-q4",
+      "type": "mcq",
+      "subtopic": "Median menopause age",
+      "question": "Median age at natural menopause in the chapter is approximately:",
+      "options": [
+        "45 years",
+        "52.5 years",
+        "60 years",
+        "38 years"
+      ],
+      "correctOption": 1,
+      "explanation": "Median age is 52.5 years though transition length varies widely.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Menopause typically occurs in the fifth to sixth decades of life, with a median age of 52.5 years.\""
+    },
+    {
+      "id": "e21-34-q5",
+      "type": "mcq",
+      "subtopic": "VMS prevalence",
+      "question": "Vasomotor symptoms affect up to what proportion of women?",
+      "options": [
+        "10%",
+        "40%",
+        "80%",
+        "100%"
+      ],
+      "correctOption": 2,
+      "explanation": "Up to 80% experience vasomotor symptoms during the transition.",
+      "reference": "Menopausal Symptoms: \"Vasomotor symptoms affect up to 80% of women.\""
+    },
+    {
+      "id": "e21-34-q6",
+      "type": "mcq",
+      "subtopic": "GSM persistence",
+      "question": "Genitourinary syndrome of menopause differs from vasomotor symptoms because:",
+      "options": [
+        "It always resolves within 1 year",
+        "It does not spontaneously resolve over time",
+        "It never causes dyspareunia",
+        "It requires only systemic estrogen"
+      ],
+      "correctOption": 1,
+      "explanation": "GSM often needs long-term local or systemic therapy.",
+      "reference": "Menopausal Symptoms: \"symptoms of genitourinary syndrome of menopause do not spontaneously resolve over time.\""
+    },
+    {
+      "id": "e21-34-q7",
+      "type": "mcq",
+      "subtopic": "Depression risk",
+      "question": "During the menopausal transition, risk of new-onset major depression is increased:",
+      "options": [
+        "2- to 4-fold compared with premenopause",
+        "Not at all",
+        "Only when estradiol is high",
+        "Only after age 70"
+      ],
+      "correctOption": 0,
+      "explanation": "Late transition is a vulnerability period for depression, linked to sleep disruption and night sweats.",
+      "reference": "Menopausal Symptoms: \"Women are 2- to 4-fold more likely to experience new-onset major depression during the menopausal transition than premenopausal women\""
+    },
+    {
+      "id": "e21-34-q8",
+      "type": "mcq",
+      "subtopic": "Unopposed estrogen",
+      "question": "In a woman with an intact uterus, chronic unopposed estrogen increases risk of:",
+      "options": [
+        "Ovarian cancer only",
+        "Endometrial hyperplasia and cancer",
+        "Breast atrophy",
+        "Vasomotor symptom cure"
+      ],
+      "correctOption": 1,
+      "explanation": "Progestin is indicated to oppose endometrial proliferation.",
+      "reference": "Uterine Neoplasia: \"The incidence of uterine neoplasia is increased under conditions of chronic unopposed estrogen exposure in a woman with an intact uterus.\""
+    },
+    {
+      "id": "e21-34-q9",
+      "type": "mcq",
+      "subtopic": "VTE risk",
+      "question": "Venous thromboembolism risk with HT is most related to:",
+      "options": [
+        "Micronized progesterone only",
+        "Oral administration and estradiol dosage",
+        "Vaginal estrogen only",
+        "Patient age under 40 exclusively"
+      ],
+      "correctOption": 1,
+      "explanation": "Oral route and dose drive VTE risk; transdermal may be safer.",
+      "reference": "Enous Thromboembolism: \"The risk is related to oral administration and estradiol dosage.\""
+    },
+    {
+      "id": "e21-34-q10",
+      "type": "mcq",
+      "subtopic": "Cognitive timing",
+      "question": "WHI Memory Study suggested increased dementia when HT was initiated:",
+      "options": [
+        "In women older than 65 years",
+        "Within 1 year of final menstrual period only",
+        "With transdermal estradiol only",
+        "Never"
+      ],
+      "correctOption": 0,
+      "explanation": "Timing and age interact with cognitive outcomes of HT.",
+      "reference": "Cognitive Function: \"found an increased incidence of dementia in women older than 65 years initiating HT.\""
+    },
+    {
+      "id": "e21-34-q11",
+      "type": "mcq",
+      "subtopic": "Stopping HT",
+      "question": "When planning to discontinue HT, symptom assessment is best done:",
+      "options": [
+        "While continuing full dose",
+        "After stopping HT 1 week before the visit",
+        "Only after 12 months off hormones",
+        "Without ever stopping"
+      ],
+      "correctOption": 1,
+      "explanation": "Brief washout before annual visit clarifies ongoing symptom need.",
+      "reference": "Discontinuing Menopausal HT: \"they should stop taking HT 1 week before an annual visit to allow assessment of symptom severity.\""
+    },
+    {
+      "id": "e21-34-q12",
+      "type": "mcq",
+      "subtopic": "Labs for menopause",
+      "question": "FSH/estradiol testing for menopause diagnosis is indicated in:",
+      "options": [
+        "Every perimenopausal woman routinely",
+        "A woman on estrogen-containing contraceptives with unclear status",
+        "Women with regular cycles under age 45 only",
+        "Never"
+      ],
+      "correctOption": 1,
+      "explanation": "Labs help when history is unreliable—hysterectomy without oophorectomy, young age, OCP use, or bleeding after 55.",
+      "reference": "diagnosis of Menopause: \"are using estrogen-containing contraceptives (suppress FSH and elevate estradiol)\""
+    },
+    {
+      "id": "e21-34-q13",
+      "type": "mcq",
+      "subtopic": "Evidence-based care",
+      "question": "Clinicians should prioritize:",
+      "options": [
+        "Custom compounded hormones as first-line",
+        "Evidence-based HT with periodic reevaluation",
+        "Avoiding all hormonal options permanently",
+        "Laser vaginal therapy as standard of care"
+      ],
+      "correctOption": 1,
+      "explanation": "Assess symptoms and offer evidence-based treatment with periodic reevaluation.",
+      "reference": "Summary: \"Clinicians should assess a patient's symptoms and offer evidence-based treatment, with periodic reevaluation of the necessity of treatment.\""
+    },
+    {
+      "id": "e21-34-tf1",
+      "type": "true_false",
+      "subtopic": "Definition",
+      "statement": "Menopause reflects the loss of the finite oocyte pool produced during fetal development.",
+      "correctAnswer": true,
+      "explanation": "Reproductive senescence is a continuous process from menarche to depletion of follicles.",
+      "reference": "Main Conclusions: \"It reflects the loss of the finite numbers of oocytes produced during fetal development.\""
+    },
+    {
+      "id": "e21-34-tf2",
+      "type": "true_false",
+      "subtopic": "HT efficacy",
+      "statement": "Hormone therapy is the most effective treatment for life-disrupting menopausal vasomotor symptoms.",
+      "correctAnswer": true,
+      "explanation": "HT remains the most effective option despite WHI concerns.",
+      "reference": "Significance of the Clinical Problem: \"HT is currently the most effective treatment for these life-disrupting symptoms.\""
+    },
+    {
+      "id": "e21-34-tf3",
+      "type": "true_false",
+      "subtopic": "Transition duration",
+      "statement": "The average woman takes about 4 years to transition through menopause.",
+      "correctAnswer": true,
+      "explanation": "Wide individual variation exists around this median.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"The average woman takes about 4 years to make the transition into menopause.\""
+    },
+    {
+      "id": "e21-34-tf4",
+      "type": "true_false",
+      "subtopic": "KNDy neurons",
+      "statement": "KNDy neurons are hypothesized to drive vasomotor symptoms.",
+      "correctAnswer": true,
+      "explanation": "Kisspeptin/neurokinin B/dynorphin neurons sit adjacent to the thermoregulatory center.",
+      "reference": "Menopausal Symptoms: \"KNDy neurons (kisspeptin/neurokinin B/dynorphin), located adjacent to the thermoregulatory center, are hypothesized to be the primary driver of vasomotor symptoms.\""
+    },
+    {
+      "id": "e21-34-tf5",
+      "type": "true_false",
+      "subtopic": "Routine labs",
+      "statement": "Laboratory tests are always required to diagnose menopause in all women.",
+      "correctAnswer": false,
+      "explanation": "History and exam suffice when other causes of amenorrhea are excluded.",
+      "reference": "diagnosis of Menopause: \"Laboratory tests are typically not indicated if history and physical examination rule out other potential causes of amenorrhea and bothersome symptoms.\""
+    },
+    {
+      "id": "e21-34-tf6",
+      "type": "true_false",
+      "subtopic": "Transdermal VTE",
+      "statement": "Transdermal estrogen may carry lower thromboembolic risk than oral estrogen.",
+      "correctAnswer": true,
+      "explanation": "Route modulates VTE risk while maintaining efficacy.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Transdermal preparations may carry lower risk of thromboembolic events while providing the same efficacy for treatment management.\""
+    },
+    {
+      "id": "e21-34-tf7",
+      "type": "true_false",
+      "subtopic": "Persistent symptoms",
+      "statement": "3% to 15% of women have persistent severe vasomotor symptoms when attempting to stop HT.",
+      "correctAnswer": true,
+      "explanation": "A minority require continued hormones or nonhormonal alternatives.",
+      "reference": "Discontinuing Menopausal HT: \"a small proportion of women (3% to 15%) have persistence of severe symptoms and will require continued hormones or nonhormonal alternatives.\""
+    },
+    {
+      "id": "e21-34-tf8",
+      "type": "true_false",
+      "subtopic": "Compounded hormones",
+      "statement": "Custom compounded hormones are rigorously tested replacements for FDA-approved HT.",
+      "correctAnswer": false,
+      "explanation": "Fear of hormones has driven proliferation of nonrigorously tested alternatives.",
+      "reference": "Summary: \"a proliferation of nonrigorously tested but popular treatments such as custom compounded hormones\""
+    },
+    {
+      "id": "e21-34-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Menopause definition",
+      "assertion": "Assertion: Menopause requires 12 months of amenorrhea by convention.",
+      "reason": "Reason: Hormonal changes never cause symptoms before cessation of menses.",
+      "correctOption": 2,
+      "explanation": "Assertion true; symptoms often precede final menstrual period—reason false.",
+      "reference": "Main Conclusions: \"Menopause is defined as the permanent cessation of menses; by convention, the diagnosis of menopause is not made until the individual has had 12 months of amenorrhea.\""
+    },
+    {
+      "id": "e21-34-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Progestin",
+      "assertion": "Assertion: Women with a uterus need progestogen with systemic estrogen therapy.",
+      "reason": "Reason: Progestogen is only for cosmetic skin benefits.",
+      "correctOption": 2,
+      "explanation": "Assertion true for endometrial protection—reason false.",
+      "reference": "Uterine Neoplasia: \"the primary indication of progestin therapy during menopause is to prevent estradiol-induced endometrial hyperplasia and cancer.\""
+    },
+    {
+      "id": "e21-34-ar3",
+      "type": "assertion_reason",
+      "subtopic": "VMS duration",
+      "assertion": "Assertion: Vasomotor symptoms have a median duration of 7.4 years.",
+      "reason": "Reason: All women resolve hot flashes within 1 year of the final menstrual period.",
+      "correctOption": 2,
+      "explanation": "Assertion true; mean post-FMP persistence is 4.5 years—reason false.",
+      "reference": "Menopausal Symptoms: \"Vasomotor symptoms have a median duration of 7.4 years, with a mean post-final menstrual period persistence of 4.5 years.\""
+    },
+    {
+      "id": "e21-34-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Race and VMS",
+      "assertion": "Assertion: African American women tend to have longer hot flash duration.",
+      "reason": "Reason: Race is the only modifier of vasomotor symptom duration.",
+      "correctOption": 1,
+      "explanation": "Both race and other factors (BMI, SES, depression) modify duration—reason overstates.",
+      "reference": "Case 1: \"African American women are more likely to have a longer duration and persistence of hot flashes.\""
+    },
+    {
+      "id": "e21-34-ar5",
+      "type": "assertion_reason",
+      "subtopic": "GSM",
+      "assertion": "Assertion: Genitourinary syndrome of menopause may require long-term treatment.",
+      "reason": "Reason: GSM symptoms always resolve spontaneously like vasomotor symptoms.",
+      "correctOption": 2,
+      "explanation": "Assertion true; GSM does not spontaneously resolve—reason false.",
+      "reference": "Menopausal Symptoms: \"symptoms of genitourinary syndrome of menopause do not spontaneously resolve over time.\""
+    },
+    {
+      "id": "e21-34-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Cognitive timing",
+      "assertion": "Assertion: Initiating HT after age 65 may increase dementia risk.",
+      "reason": "Reason: HT always improves cognition regardless of age.",
+      "correctOption": 2,
+      "explanation": "Assertion supported by WHI Memory Study—reason false.",
+      "reference": "Cognitive Function: \"found an increased incidence of dementia in women older than 65 years initiating HT.\""
+    },
+    {
+      "id": "e21-34-ar7",
+      "type": "assertion_reason",
+      "subtopic": "VTE timing",
+      "assertion": "Assertion: VTE events are more likely in the first year of HT.",
+      "reason": "Reason: VTE risk is unrelated to obesity or thrombophilia.",
+      "correctOption": 2,
+      "explanation": "Assertion true; risk is magnified by cofactors—reason false.",
+      "reference": "Enous Thromboembolism: \"Venous thromboembolism events are more likely to occur within the first year of HT, and the risk is magnified with coexisting risk factors such as obesity or thrombophilia.\""
+    },
+    {
+      "id": "e21-34-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Early HT window",
+      "assertion": "Assertion: HT within the first 5 years after final menstrual period may attenuate some hypogonadism-related morbidity.",
+      "reason": "Reason: HT benefits and risks are identical for all organ systems regardless of timing.",
+      "correctOption": 2,
+      "explanation": "Assertion from summary; risks/benefits vary by organ system and timing—reason false.",
+      "reference": "Summary: \"HT, when administered within the first 5 years of the final menopause attenuates some but not all adverse effects of menopause that are related to hypogonadism.\""
     }
   ]
 }

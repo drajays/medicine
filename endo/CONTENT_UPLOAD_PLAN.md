@@ -54,7 +54,7 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 3. e21-17–20 (Diabetes)
 4. e21-21–27 (Pituitary/NET)
 5. e21-28–31 (Pediatric)
-6. e21-32–36 (Reproductive)
+6. e21-32–36 (Reproductive) ✅
 7. e21-38–43 (Thyroid/interfaces)
 8. e21-01–04 (Obesity/lipids)
 
@@ -89,7 +89,12 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 | e21-29 ALD newborn screening | ✅ remediated | 41 | 58% |
 | e21-30 Youth-onset T2DM | ✅ remediated | 41 | 75% |
 | e21-31 Pediatric dyslipidemia | ✅ remediated | 41 | 58% |
-| e21-01–04, e21-32–43 | ⏳ pending | | |
+| e21-32 Functional hypogonadism (male) | ✅ remediated | 41 | 83% |
+| e21-33 AMH & ovarian reserve | ✅ remediated | 41 | 75% |
+| e21-34 HRT in post-reproductive women | ✅ remediated | 41 | 91% |
+| e21-35 Androgenic PED abuse | ✅ remediated | 41 | 91% |
+| e21-36 Male infertility | ✅ remediated | 41 | 91% |
+| e21-01–04, e21-37–43 | ⏳ pending | | |
 
 ## Phase 2 — Williams 15e (49 chapters)
 

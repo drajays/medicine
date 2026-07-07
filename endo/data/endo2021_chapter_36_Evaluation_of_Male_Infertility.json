@@ -4,47 +4,451 @@
   "chapterNo": "36",
   "title": "Evaluation of Male Infertility",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Channa Jayasena, MD, PhD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_36_Evaluation_of_Male_Infertility.md",
   "items": [
     {
-      "subtopic": "Testosterone Therapy and Its Effects",
-      "question": "For a man on long-term testosterone replacement therapy who wishes to start a family, which of the following statements is correct regarding his chances of successful sperm induction?",
+      "id": "e21-36-n1",
+      "type": "note",
+      "subtopic": "Classification",
+      "title": "Why male infertility is classified into three buckets",
+      "text": "Secondary hypogonadism, testicular failure, and obstruction have distinct hormonal patterns and treatments—endocrinologists must recognize each for appropriate multidisciplinary referral.",
+      "reference": "Main Conclusions: \"Male infertility may be classified into secondary hypogonadism, testicular failure, and obstruction.\""
+    },
+    {
+      "id": "e21-36-n2",
+      "type": "note",
+      "subtopic": "Secondary hypogonadism",
+      "title": "How gonadotropin therapy induces spermatogenesis in hypogonadotropic hypogonadism",
+      "text": "Start hCG to mimic LH and produce intratesticular testosterone; add FSH-containing preparations after 6 months if still azoospermic; pulsatile GnRH is physiological but rarely available.",
+      "reference": "Induction of Spermatogenesis With Gonadotropin Injections: \"A typical gonadotropin therapy protocol includes the initiation of hCG to mimic the biological activity of LH and induce the testes to produce testosterone.\""
+    },
+    {
+      "id": "e21-36-n3",
+      "type": "note",
+      "subtopic": "NOA and mTESE",
+      "title": "How microdissection TESE changed management of nonobstructive azoospermia",
+      "text": "mTESE retrieves sperm in 20%–40% of men with NOA—including Klinefelter syndrome—by identifying engorged seminiferous tubules under microscopy.",
+      "reference": "Main Conclusions: \"Microsurgical testicular sperm extraction (mTESE) is used to successfully retrieve sperm in 20% to 40% of men with NOA, including men with Klinefelter syndrome.\""
+    },
+    {
+      "id": "e21-36-n4",
+      "type": "note",
+      "subtopic": "Obstructive azoospermia",
+      "title": "Why obstructive azoospermia is often underrecognized",
+      "text": "OA shows normal testicular volume, normal FSH, and normal testosterone—genitourinary infections (e.g., chlamydia) are the most common worldwide cause; CFTR variants cause congenital bilateral absence of vas deferens.",
+      "reference": "Obstructive Azoospermia: \"OA can be caused by genitourinary tract infections such as chlamydia, ureaplasma, and mycoplasma, which lead to scarring and blockage of the epididymis.\""
+    },
+    {
+      "id": "e21-36-n5",
+      "type": "note",
+      "subtopic": "OA management",
+      "title": "How obstructive azoospermia is treated surgically",
+      "text": "Percutaneous or microsurgical epididymal sperm aspiration collects sperm when spermatogenesis is intact; there is no role for endocrine therapy in OA.",
+      "reference": "Surgical Management of Male Infertility: \"Percutaneous epididymal sperm aspiration or microsurgical epididymal sperm aspiration are highly effective techniques for collecting sperm in men with OA\""
+    },
+    {
+      "id": "e21-36-n6",
+      "type": "note",
+      "subtopic": "Y chromosome",
+      "title": "Why AZF microdeletion subtype matters before mTESE",
+      "text": "AZFa and AZFb deletions are largely incompatible with spermatogenesis; AZFc deletions may still yield sperm with mTESE and ICSI.",
+      "reference": "Y-Chromosome Microdeletions: \"Deletions of the AZFa and AZFb regions are largely incompatible with spermatogenesis, and mTESE is not advised.\""
+    },
+    {
+      "id": "e21-36-n7",
+      "type": "note",
+      "subtopic": "SERMs and aromatase inhibitors",
+      "title": "How clomiphene and aromatase inhibitors differ from testosterone in infertile hypogonadal men",
+      "text": "They reduce estrogenic pituitary feedback, raising endogenous testosterone while preserving spermatogenesis—unlike exogenous testosterone, which suppresses the axis.",
+      "reference": "Selective Estrogen Receptor Modulators and Aromatase Inhibitors: \"elevate levels of serum testosterone in men with hypogonadism while preserving spermatogenesis.\""
+    },
+    {
+      "id": "e21-36-n8",
+      "type": "note",
+      "subtopic": "Semen analysis",
+      "title": "How to obtain a valid semen analysis",
+      "text": "Perform after 2–7 days abstinence; assess volume, concentration (≥15×10⁶/mL), motility, and morphology per WHO thresholds.",
+      "reference": "Assessment: \"Semen analysis should be performed in all patients following abstinence of a minimum of 2 days and maximum of 7 days\""
+    },
+    {
+      "id": "e21-36-n9",
+      "type": "note",
+      "subtopic": "Prior testosterone",
+      "title": "Why prior testosterone therapy does not preclude sperm induction",
+      "text": "Meta-analyses suggest prior testosterone does not significantly reduce gonadotropin-induced spermatogenesis success in hypogonadotropic hypogonadism.",
+      "reference": "Case 1: \"Recent meta-analyses suggest that testosterone therapy does not significantly reduce the effectiveness of sperm induction for hypogonadotropic hypogonadism\""
+    },
+    {
+      "id": "e21-36-n10",
+      "type": "note",
+      "subtopic": "Klinefelter mTESE",
+      "title": "How to counsel men with Klinefelter syndrome before mTESE",
+      "text": "Sperm retrieval is reported in nonmosaic Klinefelter; counsel about thromboembolic risk; avoid starting testosterone before retrieval if pursuing fertility.",
+      "reference": "Case 2: \"Sperm retrieval following mTESE is reported widely in men with nonmosaic Klinefelter syndrome\""
+    },
+    {
+      "id": "e21-36-n11",
+      "type": "note",
+      "subtopic": "Multifactorial oligoasthenoteratospermia",
+      "title": "Why male subfertility is often multifactorial",
+      "text": "Cryptorchidism, genitourinary infection, obesity, and female-factor infertility may coexist—pituitary incidentalomas may be unrelated.",
+      "reference": "Case 4: \"The principle learning point is that multiple factors may contribute to the etiology.\""
+    },
+    {
+      "id": "e21-36-n12",
+      "type": "note",
+      "subtopic": "Hormonal stimulation before mTESE",
+      "title": "Pitfall: empiric gonadotropins/SERMs before mTESE in NOA",
+      "text": "Urologists sometimes use hormonal stimulation before mTESE, but insufficient evidence supports widespread safety or efficacy in nonobstructive azoospermia.",
+      "reference": "Main Conclusions: \"Hormonal stimulation with gonadotropins or selective estrogen receptor modulators are used routinely before mTESE in men with NOA, but there are insufficient data to support their widespread use.\""
+    },
+    {
+      "id": "e21-36-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — hCG counseling",
+      "question": "A man with hypogonadotropic hypogonadism after childhood delayed puberty seeks fertility after stopping testosterone. Correct statement?",
       "options": [
-        "Prior testosterone therapy impairs chance of successful sperm induction in men with hypogonadism",
-        "The goal should be a sperm count in the World Health Organization reference range (15 million/mL) to achieve spontaneous pregnancy",
-        "Pretreatment with 6 months of FSH will increase sperm count more when compared with starting treatment with hCG or GnRH",
-        "He should be counseled about the risk of gynecomastia when starting hCG therapy"
+        "Prior testosterone always prevents sperm induction",
+        "WHO reference sperm count is required for spontaneous pregnancy",
+        "FSH pretreatment is proven superior to starting hCG",
+        "Counsel about gynecomastia risk when starting hCG"
       ],
       "correctOption": 3,
-      "explanation": "The correct answer is D. He should be counseled about the risk of gynecomastia when starting hCG therapy. Recent meta-analyses suggest that testosterone therapy does not significantly reduce the effectiveness of sperm induction for hypogonadotropic hypogonadism (Answer A is incorrect). The goal for successful pregnancy in men with azoospermia due to hypogonadism is often set at a lower threshold than the World Health Organization reference range, as spontaneous pregnancy can occur with sperm counts much lower than this (Answer B is incorrect). There is no evidence that pretreatment with FSH improves sperm count more than starting treatment with hCG or GnRH (Answer C is incorrect), and while gynecomastia may occur in some cases of hCG therapy, it is not a significant risk compared to the benefits of increasing sperm production (Answer D is correct).",
-      "reference": "\"Recent meta-analyses suggest that testosterone therapy does not significantly reduce the effectiveness of sperm induction for hypogonadotropic hypogonadism\"",
-      "id": "e21-36-q1",
-      "type": "mcq"
+      "explanation": "hCG may cause gynecomastia; prior testosterone does not block induction; pregnancy can occur with counts below WHO reference.",
+      "reference": "Case 1: \"Answer: D) He should be counseled about the risk of gynecomastia when starting hCG therapy\""
     },
     {
-      "type": "why",
-      "subtopic": "Male Infertility Classification and Management",
-      "question": "Why is microsurgical testicular sperm extraction (mTESE) used in the management of nonobstructive azoospermia (NOA)?",
-      "answer": "Because mTESE is a successful method for retrieving sperm in up to 20% to 40% of men with NOA, including those with Klinefelter syndrome, and it provides an option for assisted reproductive technologies.",
-      "keyPoints": [
-        "mTESE is effective in retrieving sperm from approximately 20-40% of men with nonobstructive azoospermia (NOA)",
-        "It can be particularly beneficial for men with Klinefelter syndrome"
+      "id": "e21-36-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — Klinefelter",
+      "question": "A 32-year-old with 47,XXY azoospermia asks about mTESE. Correct statement?",
+      "options": [
+        "Start testosterone immediately before surgery",
+        "mTESE never succeeds in nonmosaic Klinefelter",
+        "Counsel about increased thromboembolic surgical risk",
+        "New hypogonadism after mTESE occurs in exactly 5% of NOA men"
       ],
-      "reference": "MAIN CONCLUSIONS: 'Microsurgical testicular perm extraction (mTESE) is used to successfully etrieve sperm in 20% to 40% of men with NOA, including men with Klinefelter syndrome.'",
-      "id": "e21-36-why1"
+      "correctOption": 2,
+      "explanation": "Klinefelter men have thrombophilia risk; testosterone before retrieval suppresses sperm; mTESE can succeed; post-mTESE hypogonadism in NOA is ~20%.",
+      "reference": "Case 2: \"Answer: C) Men with Klinefelter syndrome have increased surgical risk due to thrombophilia\""
     },
     {
-      "type": "how",
-      "subtopic": "Diagnosis and Management of Male Infertility",
-      "question": "How is microsurgical testicular sperm extraction (mTESE) used in the management of nonobstructive azoospermia (NOA)?",
-      "answer": "Microsurgical testicular sperm extraction (mTESE) is a procedure used to retrieve sperm from men with nonobstructive azoospermia (NOA). It involves making small incisions in the scrotum and using microscopic techniques to remove tissue containing viable sperm. The success rate of mTESE varies, but it can be successful in 20% to 40% of cases, including for men with Klinefelter syndrome.",
-      "keyPoints": [
-        "mTESE is used to retrieve sperm from men with nonobstructive azoospermia (NOA)",
-        "The success rate of mTESE can be as high as 20-40%"
+      "id": "e21-36-q3",
+      "type": "mcq",
+      "subtopic": "Case 3 — obstructive pattern",
+      "question": "36-year-old with azoospermia, normal testes (22 mL), normal FSH and testosterone. Most likely diagnosis?",
+      "options": [
+        "Genitourinary infection",
+        "AZFb microdeletion",
+        "Mumps orchitis",
+        "Klinefelter syndrome"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Microsurgical testicular sperm extraction (mTESE) is used to successfully etrieve sperm in 20% to 40% of men with NOA, including men with Klinefelter syndrome.\"\n",
-      "id": "e21-36-how1"
+      "correctOption": 0,
+      "explanation": "Normal volume and FSH with azoospermia indicates obstruction; GU infections are the most common worldwide cause.",
+      "reference": "Case 3: \"Answer: A) Genitourinary infection\""
+    },
+    {
+      "id": "e21-36-q4",
+      "type": "mcq",
+      "subtopic": "Case 4 — multifactorial",
+      "question": "Man with oligoasthenoteratospermia, 8-mL left testis after orchidopexy, elevated round cells, obesity, partner age 39. Contributing factors include:",
+      "options": [
+        "Pituitary microadenoma alone",
+        "Cryptorchidism, infection, obesity, and female-factor infertility",
+        "Only CFTR-related obstruction",
+        "Only prolactinoma"
+      ],
+      "correctOption": 1,
+      "explanation": "Multiple concurrent male and female factors explain subfertility; incidental pituitary lesion is likely unrelated.",
+      "reference": "Case 4: \"Answer: B, C, D, and E) Testicular failure secondary to cryptorchidism, genitourinary infection, obesity, and female-factor infertility\""
+    },
+    {
+      "id": "e21-36-q5",
+      "type": "mcq",
+      "subtopic": "Secondary hypogonadism hormones",
+      "question": "Hypogonadotropic hypogonadism typically shows:",
+      "options": [
+        "High FSH, high LH, low testosterone",
+        "Low FSH, low LH, low testosterone",
+        "Normal FSH, azoospermia, normal testosterone",
+        "High testosterone, low LH only"
+      ],
+      "correctOption": 1,
+      "explanation": "Central failure lowers both gonadotropins and testosterone with azoospermia.",
+      "reference": "Table 1. Causes of Male Infertility: \"FSH: low LH: low Testosterone: low\""
+    },
+    {
+      "id": "e21-36-q6",
+      "type": "mcq",
+      "subtopic": "Testicular failure hormones",
+      "question": "Primary testicular failure typically shows:",
+      "options": [
+        "Low FSH and low LH",
+        "High or normal FSH/LH with low or normal testosterone",
+        "Normal FSH with normal testosterone and azoospermia",
+        "Undetectable testosterone with normal gonadotropins"
+      ],
+      "correctOption": 1,
+      "explanation": "Loss of inhibin feedback raises FSH; Leydig failure may lower testosterone.",
+      "reference": "Table 1. Causes of Male Infertility: \"FSH: high LH: high or normal Testosterone: low or normal\""
+    },
+    {
+      "id": "e21-36-q7",
+      "type": "mcq",
+      "subtopic": "OA hormones",
+      "question": "Obstructive azoospermia typically shows:",
+      "options": [
+        "High FSH, small testes",
+        "Normal FSH and normal testosterone with normal testicular volume",
+        "Low LH and low testosterone",
+        "High prolactin"
+      ],
+      "correctOption": 1,
+      "explanation": "Spermatogenesis is often intact; obstruction blocks delivery.",
+      "reference": "Table 1. Causes of Male Infertility: \"FSH: normal Testosterone: normal Testicular volume: normal\""
+    },
+    {
+      "id": "e21-36-q8",
+      "type": "mcq",
+      "subtopic": "hCG protocol",
+      "question": "In gonadotropin induction, FSH is added when:",
+      "options": [
+        "Immediately with first hCG dose always",
+        "Patient remains azoospermic after 6 months of hCG",
+        "Only if prolactin is elevated",
+        "Never—hCG alone is always sufficient"
+      ],
+      "correctOption": 1,
+      "explanation": "Semen analysis at 6 months guides addition of FSH-containing injections.",
+      "reference": "Induction of Spermatogenesis With Gonadotropin Injections: \"FSH-containing injections (such as menotropin) should be added to hCG therapy in patients who remaining azoospermic following 6 months of hCG treatment.\""
+    },
+    {
+      "id": "e21-36-q9",
+      "type": "mcq",
+      "subtopic": "AZFc deletion",
+      "question": "AZFc Y-chromosome microdeletion:",
+      "options": [
+        "Always precludes any spermatogenesis",
+        "May still allow mTESE with possible sperm retrieval",
+        "Causes obstructive azoospermia only",
+        "Requires testosterone before mTESE"
+      ],
+      "correctOption": 1,
+      "explanation": "AZFc may retain some spermatogenic potential unlike AZFa/AZFb.",
+      "reference": "Y-Chromosome Microdeletions: \"deletions of the AZFc region may be compatible with a degree of spermatogenesis in some patients, so mTESE may be considered\""
+    },
+    {
+      "id": "e21-36-q10",
+      "type": "mcq",
+      "subtopic": "CFTR and OA",
+      "question": "CFTR pathogenic variants are associated with:",
+      "options": [
+        "Congenital bilateral absence of vas deferens",
+        "Klinefelter syndrome",
+        "Isolated high FSH",
+        "Retrograde ejaculation only"
+      ],
+      "correctOption": 0,
+      "explanation": "CFTR carrier status links to CBAVD as a form of OA.",
+      "reference": "Obstructive Azoospermia: \"OA may also be associated with CFTR gene carrier status.\""
+    },
+    {
+      "id": "e21-36-q11",
+      "type": "mcq",
+      "subtopic": "Testosterone in infertility",
+      "question": "Exogenous testosterone in a man desiring fertility:",
+      "options": [
+        "Improves sperm count",
+        "Suppresses spermatogenesis and should be avoided",
+        "Is first-line for NOA",
+        "Replaces hCG therapy"
+      ],
+      "correctOption": 1,
+      "explanation": "Exogenous androgens suppress the HPG axis and sperm production.",
+      "reference": "Case 2: \"Testosterone therapy should not be started, otherwise any residual spermatogenesis is likely to be suppressed\""
+    },
+    {
+      "id": "e21-36-q12",
+      "type": "mcq",
+      "subtopic": "WHO sperm concentration",
+      "question": "WHO lower reference limit for sperm concentration is:",
+      "options": [
+        "1 × 10⁶ per mL",
+        "15 × 10⁶ per mL",
+        "50 × 10⁶ per mL",
+        "100 × 10⁶ per mL"
+      ],
+      "correctOption": 1,
+      "explanation": "WHO 5th edition reference threshold is 15 million/mL.",
+      "reference": "Table 2. World Health Organization Minimum Thresholds of Semen Parameters in Men Fathering Children Without Fertility Problems: \"Sperm concentration 15 × 10⁶ per mL\""
+    },
+    {
+      "id": "e21-36-q13",
+      "type": "mcq",
+      "subtopic": "Male factor burden",
+      "question": "Approximately what fraction of infertility cases involve a male factor?",
+      "options": [
+        "None",
+        "Up to about half",
+        "90%",
+        "Only when female workup is normal"
+      ],
+      "correctOption": 1,
+      "explanation": "Up to half of infertility is attributed to male-partner problems.",
+      "reference": "Significance of the Clinical Problem: \"Up to half of cases of infertility are attributed to a problem in the male partner\""
+    },
+    {
+      "id": "e21-36-tf1",
+      "type": "true_false",
+      "subtopic": "Classification",
+      "statement": "Gonadotropin injections are highly effective for inducing spermatogenesis in secondary hypogonadism.",
+      "correctAnswer": true,
+      "explanation": "hCG ± FSH is standard fertility induction for hypogonadotropic hypogonadism.",
+      "reference": "Main Conclusions: \"Gonadotropin injections are highly effective at inducing spermatogenesis in men with secondary hypogonadism.\""
+    },
+    {
+      "id": "e21-36-tf2",
+      "type": "true_false",
+      "subtopic": "GnRH pulsatile",
+      "statement": "Pulsatile GnRH for male infertility is widely available outside research settings.",
+      "correctAnswer": false,
+      "explanation": "Pulsatile GnRH is usually restricted to research when unavailable commercially.",
+      "reference": "Main Conclusions: \"GnRH pulsatile therapy is usually restricted to research settings when inducing spermatogenesis in men with secondary hypogonadism.\""
+    },
+    {
+      "id": "e21-36-tf3",
+      "type": "true_false",
+      "subtopic": "NOA prevalence",
+      "statement": "Most cases of male infertility are due to testicular failure.",
+      "correctAnswer": true,
+      "explanation": "Testicular failure/NOA is the most common category.",
+      "reference": "Main Conclusions: \"Most cases of male infertility are due to testicular failure (ie, hypergonadotropic hypogonadism).\""
+    },
+    {
+      "id": "e21-36-tf4",
+      "type": "true_false",
+      "subtopic": "OA endocrine therapy",
+      "statement": "There is a major role for endocrine therapy in obstructive azoospermia.",
+      "correctAnswer": false,
+      "explanation": "Surgical sperm retrieval is appropriate; endocrine therapy does not treat obstruction.",
+      "reference": "Main Conclusions: \"There is no role for endocrine therapy in the management of OA\""
+    },
+    {
+      "id": "e21-36-tf5",
+      "type": "true_false",
+      "subtopic": "mTESE yield",
+      "statement": "mTESE retrieves sperm in 20%–40% of men with NOA.",
+      "correctAnswer": true,
+      "explanation": "Including some men with Klinefelter syndrome.",
+      "reference": "Main Conclusions: \"mTESE is used to successfully retrieve sperm in 20% to 40% of men with NOA\""
+    },
+    {
+      "id": "e21-36-tf6",
+      "type": "true_false",
+      "subtopic": "SERMs licensed",
+      "statement": "Clomiphene is FDA-licensed for male hypogonadism and infertility.",
+      "correctAnswer": false,
+      "explanation": "Neither SERMs nor aromatase inhibitors are licensed for male hypogonadism/infertility.",
+      "reference": "Selective Estrogen Receptor Modulators and Aromatase Inhibitors: \"neither drug class is licensed for the treatment of male hypogonadism or male infertility.\""
+    },
+    {
+      "id": "e21-36-tf7",
+      "type": "true_false",
+      "subtopic": "Genetic testing",
+      "statement": "Men with azoospermia should have karyotype, Y-microdeletion, and CFTR testing.",
+      "correctAnswer": true,
+      "explanation": "Genetic evaluation is part of standard azoospermia workup.",
+      "reference": "Assessment: \"Genetic testing should be performed for all patients with azoospermia; these tests should include karyotype analysis and assessment for Y-chromosome microdeletions and CFTR pathogenic variants.\""
+    },
+    {
+      "id": "e21-36-tf8",
+      "type": "true_false",
+      "subtopic": "Sperm count for pregnancy",
+      "statement": "Spontaneous pregnancy requires sperm concentration at or above the WHO reference range.",
+      "correctAnswer": false,
+      "explanation": "Couples can conceive with sperm counts much lower than 15 million/mL.",
+      "reference": "Case 1: \"Couples can become pregnant with sperm counts much lower than the World Health Organization reference range\""
+    },
+    {
+      "id": "e21-36-ar1",
+      "type": "assertion_reason",
+      "subtopic": "hCG mechanism",
+      "assertion": "Assertion: hCG therapy mimics LH to stimulate testicular testosterone production.",
+      "reason": "Reason: hCG directly stimulates FSH receptors on Sertoli cells.",
+      "correctOption": 2,
+      "explanation": "Assertion true; hCG acts on Leydig cells—reason false.",
+      "reference": "Induction of Spermatogenesis With Gonadotropin Injections: \"initiation of hCG to mimic the biological activity of LH and induce the testes to produce testosterone.\""
+    },
+    {
+      "id": "e21-36-ar2",
+      "type": "assertion_reason",
+      "subtopic": "OA pattern",
+      "assertion": "Assertion: Obstructive azoospermia may have normal FSH and normal testicular volume.",
+      "reason": "Reason: Obstructive azoospermia always presents with high FSH.",
+      "correctOption": 2,
+      "explanation": "Assertion true; FSH is normal when spermatogenesis is intact—reason false.",
+      "reference": "Assessment: \"OA should be suspected if men have azoospermia despite having normal testicular volume and no features of hypogonadism.\""
+    },
+    {
+      "id": "e21-36-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Testosterone fertility",
+      "assertion": "Assertion: Exogenous testosterone suppresses spermatogenesis in men seeking fertility.",
+      "reason": "Reason: Testosterone stimulates intratesticular sperm production at replacement doses.",
+      "correctOption": 2,
+      "explanation": "Assertion true; exogenous testosterone inhibits the axis—reason false.",
+      "reference": "Case 2: \"Testosterone therapy should not be started, otherwise any residual spermatogenesis is likely to be suppressed\""
+    },
+    {
+      "id": "e21-36-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Klinefelter mTESE",
+      "assertion": "Assertion: mTESE can retrieve sperm in some men with nonmosaic Klinefelter syndrome.",
+      "reason": "Reason: Klinefelter syndrome always has absent spermatogenesis making mTESE futile.",
+      "correctOption": 2,
+      "explanation": "Assertion true—reason false per contemporary surgical series.",
+      "reference": "Case 2: \"Sperm retrieval following mTESE is reported widely in men with nonmosaic Klinefelter syndrome\""
+    },
+    {
+      "id": "e21-36-ar5",
+      "type": "assertion_reason",
+      "subtopic": "AZFa/AZFb",
+      "assertion": "Assertion: AZFa and AZFb microdeletions generally preclude successful mTESE.",
+      "reason": "Reason: All Y-chromosome microdeletions have identical prognosis for sperm retrieval.",
+      "correctOption": 2,
+      "explanation": "Assertion true; AZFc may differ—reason false.",
+      "reference": "Y-Chromosome Microdeletions: \"Deletions of the AZFa and AZFb regions are largely incompatible with spermatogenesis, and mTESE is not advised.\""
+    },
+    {
+      "id": "e21-36-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Prior testosterone",
+      "assertion": "Assertion: Prior testosterone therapy does not significantly reduce sperm induction success in hypogonadotropic hypogonadism.",
+      "reason": "Reason: Any prior testosterone permanently destroys seminiferous tubules.",
+      "correctOption": 2,
+      "explanation": "Assertion supported by meta-analyses—reason false.",
+      "reference": "Case 1: \"testosterone therapy does not significantly reduce the effectiveness of sperm induction for hypogonadotropic hypogonadism\""
+    },
+    {
+      "id": "e21-36-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Round cells",
+      "assertion": "Assertion: Elevated semen round cells may indicate genitourinary infection.",
+      "reason": "Reason: Round cells in semen always represent immature sperm only.",
+      "correctOption": 2,
+      "explanation": "Assertion true (Case 4)—many round cells are leukocytes suggesting infection.",
+      "reference": "Case 4: \"Most round cells in the seminal plasma are leukocytes, so an elevated count may indicate genitourinary infection\""
+    },
+    {
+      "id": "e21-36-ar8",
+      "type": "assertion_reason",
+      "subtopic": "NOA hormonal pretreatment",
+      "assertion": "Assertion: Routine hormonal stimulation before mTESE in NOA lacks sufficient supporting evidence.",
+      "reason": "Reason: Large RCTs prove gonadotropin pretreatment doubles mTESE success in all NOA men.",
+      "correctOption": 2,
+      "explanation": "Assertion true per chapter—widespread use is not evidence-supported.",
+      "reference": "Main Conclusions: \"there are insufficient data to support their widespread use.\""
     }
   ]
 }
