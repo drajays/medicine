@@ -53,6 +53,12 @@ const META: Record<
     chip: 'bg-violet-100 text-violet-800 dark:bg-violet-950/50 dark:text-violet-200',
     bar: 'border-l-violet-600',
   },
+  imaging_resources: {
+    icon: '🩻',
+    active: 'bg-cyan-600 text-white shadow-sm',
+    chip: 'bg-cyan-100 text-cyan-800 dark:bg-cyan-950/50 dark:text-cyan-200',
+    bar: 'border-l-cyan-600',
+  },
   trials: {
     icon: '📊',
     active: 'bg-blue-600 text-white shadow-sm',
@@ -121,7 +127,12 @@ function SectionGrid({ section }: { section: LandingSection }) {
                   <p className="truncate text-xs clinical-muted">{item.subtitle}</p>
                 </div>
                 {item.href ? (
-                  <ExternalLink className="h-4 w-4 shrink-0 text-violet-500" />
+                  <ExternalLink
+                    className={cn(
+                      'h-4 w-4 shrink-0',
+                      section.kind === 'imaging_resources' ? 'text-cyan-500' : 'text-violet-500',
+                    )}
+                  />
                 ) : (
                   <ChevronRight className="h-4 w-4 shrink-0 clinical-muted transition-transform group-hover:translate-x-0.5" />
                 )}

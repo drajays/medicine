@@ -127,6 +127,7 @@ export type HeaderKind =
   | 'pediatric_endo'
   | 'stories'
   | 'calculators'
+  | 'imaging_resources'
   | 'trials'
   | 'trial_sub'
   | 'harrison_banner'
@@ -143,6 +144,7 @@ export type NavRow =
     }
   | { type: 'entry'; entry: NavEntry }
   | { type: 'calculator'; id: string; title: string; subtitle: string; href: string }
+  | { type: 'imaging'; id: string; title: string; subtitle: string; href: string }
 
 export interface RawCatalog {
   title: string
@@ -205,6 +207,18 @@ export interface RawCatalog {
     }>
   }
   calculators?: {
+    title?: string
+    description?: string
+    entries: Array<{
+      id: string
+      title: string
+      subtitle?: string
+      category?: string
+      file: string
+      status: string
+    }>
+  }
+  imagingResources?: {
     title?: string
     description?: string
     entries: Array<{

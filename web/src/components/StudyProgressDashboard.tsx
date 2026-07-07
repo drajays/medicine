@@ -23,6 +23,7 @@ const SECTION_ICON: Partial<Record<HeaderKind, string>> = {
   pediatric_endo: '🧒',
   stories: '💬',
   calculators: '🧮',
+  imaging_resources: '🩻',
   trials: '📊',
   harrison_banner: '📖',
 }

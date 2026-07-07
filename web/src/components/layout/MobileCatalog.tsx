@@ -46,7 +46,13 @@ export function MobileCatalog({ open, onClose }: MobileCatalogProps) {
         <div className="min-h-0 flex-1 overflow-y-auto px-1 py-2 pb-24">
           {navRows.map((row) => (
             <MobileNavRow
-              key={row.type === 'header' ? row.id : row.type === 'calculator' ? row.id : row.entry.id}
+              key={
+                row.type === 'header'
+                  ? row.id
+                  : row.type === 'calculator' || row.type === 'imaging'
+                    ? row.id
+                    : row.entry.id
+              }
               row={row}
               activeId={currentChapterId}
               progress={progress}
@@ -91,6 +97,22 @@ function MobileNavRow({
           'mx-1 flex items-center rounded-lg px-3 py-3',
           entryKindAccent('calculator'),
         )}
+      >
+        <div className="min-w-0">
+          <p className="text-sm font-medium">{row.title}</p>
+          <p className="text-xs clinical-muted">{row.subtitle} · Opens in new tab</p>
+        </div>
+      </a>
+    )
+  }
+
+  if (row.type === 'imaging') {
+    return (
+      <a
+        href={`${BASE}${row.href}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={cn('mx-1 flex items-center rounded-lg px-3 py-3', entryKindAccent('imaging'))}
       >
         <div className="min-w-0">
           <p className="text-sm font-medium">{row.title}</p>

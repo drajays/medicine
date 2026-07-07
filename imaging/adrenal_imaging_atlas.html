@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adrenal Mass Imaging Atlas - Endocrinology & Radiology Resource Collection</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f1923;
+    color: #e0e6ed;
+    line-height: 1.6;
+  }
+  .hero {
+    background: linear-gradient(135deg, #1a2a3a 0%, #2c3e50 50%, #1a2a3a 100%);
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 4px solid #e74c3c;
+  }
+  .hero h1 {
+    font-size: 2.2em;
+    color: #ecf0f1;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .hero h1 .adrenal-icon { color: #e74c3c; }
+  .hero .subtitle {
+    font-size: 1.1em;
+    color: #bdc3c7;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .hero .badge {
+    display: inline-block;
+    background: #e74c3c;
+    color: #fff;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin-top: 12px;
+  }
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .stats .stat {
+    text-align: center;
+  }
+  .stats .stat .num {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  .stats .stat .lbl {
+    font-size: 0.8em;
+    color: #95a5a6;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .toc {
+    background: #1c2c3c;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border: 1px solid #2c3e50;
+  }
+  .toc h2 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+  }
+  .toc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 8px;
+  }
+  .toc a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  .toc a:hover {
+    background: #2c3e50;
+    color: #5dade2;
+  }
+  .section {
+    margin: 30px 0;
+    background: #1c2c3c;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #2c3e50;
+  }
+  .section-header {
+    background: linear-gradient(90deg, #e74c3c, #c0392b);
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-header .emoji {
+    font-size: 1.5em;
+  }
+  .section-header h2 {
+    color: #fff;
+    font-size: 1.2em;
+  }
+  .section-header .count {
+    margin-left: auto;
+    background: rgba(255,255,255,0.2);
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    color: #fff;
+  }
+  .section-body {
+    padding: 15px 20px;
+  }
+  .subsection {
+    margin: 15px 0;
+  }
+  .subsection h3 {
+    color: #f39c12;
+    font-size: 1em;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    border-left: 3px solid #f39c12;
+  }
+  .resource-list {
+    list-style: none;
+  }
+  .resource-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(44,62,80,0.5);
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .resource-list li:last-child {
+    border-bottom: none;
+  }
+  .tag {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 3px;
+    font-size: 0.7em;
+    font-weight: bold;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 3px;
+  }
+  .tag-case { background: #8e44ad; color: #fff; }
+  .tag-article { background: #2980b9; color: #fff; }
+  .tag-review { background: #27ae60; color: #fff; }
+  .tag-book { background: #d35400; color: #fff; }
+  .tag-guideline { background: #c0392b; color: #fff; }
+  .tag-nuclear { background: #16a085; color: #fff; }
+  .tag-path { background: #7f8c8d; color: #fff; }
+  .tag-pediatric { background: #e67e22; color: #fff; }
+  .tag-atlas { background: #2c3e50; color: #fff; border: 1px solid #5d6d7e; }
+  .tag-video { background: #e74c3c; color: #fff; }
+  .tag-open { background: #1abc9c; color: #fff; }
+  .resource-link {
+    color: #5dade2;
+    text-decoration: none;
+    font-size: 0.88em;
+    line-height: 1.4;
+  }
+  .resource-link:hover {
+    color: #85c1e9;
+    text-decoration: underline;
+  }
+  .resource-link .source {
+    color: #7f8c8d;
+    font-size: 0.85em;
+  }
+  .note {
+    background: #1a252f;
+    border-left: 4px solid #f39c12;
+    padding: 12px 18px;
+    margin: 15px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.9em;
+    color: #bdc3c7;
+  }
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: #5d6d7e;
+    font-size: 0.85em;
+    border-top: 1px solid #2c3e50;
+    margin-top: 40px;
+  }
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 1.5em; }
+    .stats { gap: 15px; }
+    .toc-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1><span class="adrenal-icon">🩺</span> Adrenal Mass Imaging Atlas</h1>
+  <p class="subtitle">A comprehensive collection of the best imaging resources for adrenal gland pathology with emphasis on endocrinology — featuring Radiopaedia cases, landmark journal articles, free textbook chapters, nuclear medicine resources, and clinical guidelines.</p>
+  <span class="badge">120+ Curated Resources</span>
+  <div class="stats">
+    <div class="stat"><div class="num">120+</div><div class="lbl">Resources</div></div>
+    <div class="stat"><div class="num">18</div><div class="lbl">Pathology Categories</div></div>
+    <div class="stat"><div class="num">30+</div><div class="lbl">Radiopaedia Cases</div></div>
+    <div class="stat"><div class="num">15+</div><div class="lbl">Free Full-Text Articles</div></div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+  <h2>📑 Quick Navigation</h2>
+  <div class="toc-grid">
+    <a href="#anatomy">1. Normal Anatomy & Protocols</a>
+    <a href="#adenoma">2. Adrenal Adenoma</a>
+    <a href="#acc">3. Adrenocortical Carcinoma</a>
+    <a href="#pheo">4. Pheochromocytoma</a>
+    <a href="#neuroblastoma">5. Neuroblastoma & Ganglioneuroma</a>
+    <a href="#metastases">6. Adrenal Metastases</a>
+    <a href="#myelolipoma">7. Adrenal Myelolipoma</a>
+    <a href="#hemorrhage">8. Adrenal Hemorrhage</a>
+    <a href="#cyst">9. Adrenal Cyst</a>
+    <a href="#hyperplasia">10. Adrenal Hyperplasia (Cushing/Conn)</a>
+    <a href="#addison">11. Addison Disease / Adrenal Insufficiency</a>
+    <a href="#lymphoma">12. Adrenal Lymphoma</a>
+    <a href="#rare-benign">13. Rare Benign Tumors (Hemangioma, Schwannoma, etc.)</a>
+    <a href="#collision">14. Adrenal Collision Tumors</a>
+    <a href="#infection">15. Adrenal Infections & Granulomatous Disease</a>
+    <a href="#nuclear">16. Nuclear Medicine / Functional Imaging</a>
+    <a href="#pediatric">17. Pediatric Adrenal Imaging</a>
+    <a href="#guidelines">18. Guidelines & Comprehensive Reviews</a>
+  </div>
+</div>
+
+<!-- ===== SECTION 1: Normal Anatomy & Protocols ===== -->
+<div class="section" id="anatomy">
+  <div class="section-header">
+    <span class="emoji">🫀</span>
+    <h2>Normal Anatomy & Imaging Protocols</h2>
+    <span class="count">8 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Anatomy & Normal Imaging</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-glands-grays-illustrations" target="_blank">Adrenal Glands — Gray's Anatomy Illustrations <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/normal-adrenal-glands-mri" target="_blank">Normal Adrenal Glands — MRI <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://ncbi.nlm.nih.gov/books/NBK543796/" target="_blank">Adrenal Imaging — Diseases of the Abdomen and Pelvis 2018-2021 (NIH Bookshelf) <span class="source">(Open Access)</span></a></li>
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://appliedradiology.com/articles/adrenal-imaging-a-practical-guide-to-diagnostic-workup-and-spectrum-of-imaging-findings" target="_blank">Adrenal Imaging: A Practical Guide to Diagnostic Workup and Spectrum of Findings <span class="source">(Applied Radiology)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://link.springer.com/article/10.1007/s11604-025-01732-6" target="_blank">Advances in Multimodal Imaging for Adrenal Gland Disorders: Integrating CT, MRI, and Nuclear Medicine (2025) <span class="source">(Jpn J Radiol — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.adrenal.com/adrenal-tumors/scans" target="_blank">X-Rays, CT Scans, MRI and Other Tests for Adrenal Glands <span class="source">(Adrenal.com)</span></a></li>
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://erc.bioscientifica.com/view/journals/erc/14/3/0140587.xml" target="_blank">The Optimal Imaging of Adrenal Tumours: Comparison of Different Modalities <span class="source">(Endocr Relat Cancer)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.diagnosticimaging.com/view/ct-and-mri-help-evaluate-adrenal-gland-disorders" target="_blank">CT and MRI Help Evaluate Adrenal Gland Disorders <span class="source">(Diagnostic Imaging)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 2: Adrenal Adenoma ===== -->
+<div class="section" id="adenoma">
+  <div class="section-header">
+    <span class="emoji">🔍</span>
+    <h2>Adrenal Adenoma</h2>
+    <span class="count">10 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Radiopaedia Cases & Imaging</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-adenoma-1?lang=us" target="_blank">Adrenal Adenoma — CT with MRI Chemical Shift (Signal Dropout on Out-of-Phase) <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-adenoma-atypical" target="_blank">Atypical Adrenal Adenoma — with Fibrohyaline Change & Calcification <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/adrenal-adenoma" target="_blank">Adrenal Adenoma — Complete Reference Article with Multiple Cases <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-adenoma-lipid-poor" target="_blank">Lipid-Poor Adrenal Adenoma — Washout CT <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/bilateral-adrenal-adenomas" target="_blank">Bilateral Adrenal Adenomas <span class="source">(Radiopaedia)</span></a></li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <h3>Key Articles & Reviews</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubs.rsna.org/doi/abs/10.1148/rg.343130127" target="_blank">Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions — Landmark Pictorial Essay <span class="source">(RadioGraphics)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://ajronline.org/doi/10.2214/AJR.15.15475" target="_blank">Adrenal Incidentalomas: Clinical Controversies and Modified Recommendations <span class="source">(AJR)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5605062/" target="_blank">Recommendations for Management of Adrenal Incidentalomas: What is Pertinent for Radiologists <span class="source">(PMC — Open Access)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://ejrnm.springeropen.com/articles/10.1186/s43055-021-00437-w" target="_blank">Adrenal Incidentalomas: Imaging Challenges — MDCT vs MRI <span class="source">(Egypt J Radiol Nucl Med — Open Access)</span></a></li>
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://link.springer.com/article/10.1186/s13244-019-0688-8" target="_blank">Imaging Features of Adrenal Masses — Comprehensive CT & MRI Review <span class="source">(Insights Imaging — Open Access)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 3: Adrenocortical Carcinoma ===== -->
+<div class="section" id="acc">
+  <div class="section-header">
+    <span class="emoji">⚠️</span>
+    <h2>Adrenocortical Carcinoma (ACC)</h2>
+    <span class="count">10 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Radiopaedia Cases</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenocortical-carcinoma?lang=us" target="_blank">Adrenocortical Carcinoma — Pediatric Case with PET/CT <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-cortical-carcinoma-9" target="_blank">Adrenal Cortical Carcinoma — Oncocytic Type with Renal Invasion <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-carcinoma-1?lang=us" target="_blank">Adrenal Carcinoma — Cushing Syndrome with Large Mass on MRI <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/adrenocortical-carcinoma" target="_blank">ACC — Complete Reference Article with Multiple Cases & Imaging <span class="source">(Radiopaedia)</span></a></li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <h3>Key Articles & Pathology</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.ajronline.org/doi/10.2214/AJR.10.5540" target="_blank">Adrenocortical Carcinoma: The Range of Appearances on CT and MRI <span class="source">(AJR)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10358061/" target="_blank">Conventional Imaging in ACC: Update and Future Perspectives <span class="source">(PMC — Open Access)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8621640/" target="_blank">Imaging Findings of Primary Adrenal Tumors in Pediatric Patients (Includes ACC) <span class="source">(PMC — Open Access)</span></a></li>
+        <li><span class="tag tag-path">PATH</span> <a class="resource-link" href="https://www.pathologyoutlines.com/topic/adrenocorticalcarcinoma.html" target="_blank">ACC — Pathology Outlines with Imaging & Histology <span class="source">(PathologyOutlines)</span></a></li>
+        <li><span class="tag tag-atlas">ATLAS</span> <a class="resource-link" href="https://www.cancerimagingarchive.net/collection/adrenal-acc-ki67-seg/" target="_blank">ACC Ki-67 Segmentation — 53 Patient CT Dataset (The Cancer Imaging Archive) <span class="source">(TCIA)</span></a></li>
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://link.springer.com/chapter/10.1007/978-3-031-62301-1_5" target="_blank">Imaging in ACC and Malignant Pheochromocytoma (2025 Book Chapter) <span class="source">(Springer)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 4: Pheochromocytoma ===== -->
+<div class="section" id="pheo">
+  <div class="section-header">
+    <span class="emoji">⚡</span>
+    <h2>Pheochromocytoma</h2>
+    <span class="count">12 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Radiopaedia Cases & Imaging</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/pheochromocytoma" target="_blank">Pheochromocytoma — Classic T2 "Light Bulb Bright" Sign <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/pheochromocytoma-2" target="_blank">Pheochromocytoma — Bilateral (MEN2) <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/pheochromocytoma-cystic" target="_blank">Cystic Pheochromocytoma <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/pheochromocytoma" target="_blank">Pheochromocytoma — Complete Reference Article with Multiple Cases <span class="source">(Radiopaedia)</span></a></li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <h3>Key Articles — MRI Characterization & Atypical Features</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubs.rsna.org/doi/abs/10.1148/rg.24si045506" target="_blank">Pheochromocytoma: An Imaging Chameleon <span class="source">(RadioGraphics)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.ajronline.org/doi/10.2214/ajr.184.3.01840860" target="_blank">MRI of Adrenal and Extraadrenal Pheochromocytoma <span class="source">(AJR)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://link.springer.com/article/10.1007/s40336-023-00608-x" target="_blank">MR Imaging Characterization: Typical vs Atypical Pheochromocytoma <span class="source">(J Endocrinol Invest)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://academic.oup.com/edrv/article/45/3/414/7516259" target="_blank">Imaging of Pheochromocytomas and Paragangliomas — Comprehensive 2024 Review <span class="source">(Endocr Rev — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.elsevier.es/en-revista-radiologia-english-edition--419-articulo-adrenal-pheochromocytoma-keys-radiologic-diagnosis-S217351072200091X" target="_blank">Adrenal Pheochromocytoma: Keys to Radiologic Diagnosis (Collision Tumors, DWI, Washout Pitfalls) <span class="source">(Radiologia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://academic.oup.com/jcem/article/89/2/479/2840738" target="_blank">Current Approaches and Recommended Algorithm for Localization of Pheochromocytoma <span class="source">(JCEM)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://epos.myesr.org/poster/esr/ecr2018/C-1929/findings%20and%20procedure%20details" target="_blank">Characterizing Pheochromocytoma: MR Imaging (6 Cases) <span class="source">(EPOS/ESR)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://www.eurorad.org/case/17983" target="_blank">Malignant Pheochromocytoma — CT and 68Ga-DOTATATE <span class="source">(EuroRad)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 5: Neuroblastoma & Ganglioneuroma ===== -->
+<div class="section" id="neuroblastoma">
+  <div class="section-header">
+    <span class="emoji">👶</span>
+    <h2>Neuroblastoma, Ganglioneuroblastoma & Ganglioneuroma</h2>
+    <span class="count">7 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/neuroblastoma" target="_blank">Neuroblastoma — Complete Article with Multiple Cases & Staging Images <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://pediatricimaging.org/diseases/neuroblastoma/" target="_blank">Neuroblastoma — Pediatric Imaging Cases (Radiographs, CT, MRI, MIBG, Pathology) <span class="source">(PediatricImaging.org)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubs.rsna.org/doi/abs/10.1148/rg.2018170132" target="_blank">Updates in Diagnosis, Management, and Treatment of Neuroblastoma <span class="source">(RadioGraphics 2018)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1665241/" target="_blank">Neuroblastoma in Childhood: Review and Radiological Findings <span class="source">(PMC — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://radiologykey.com/tumors-of-the-adrenal-gland/" target="_blank">Tumors of the Adrenal Gland — Neuroblastic Tumors Imaging <span class="source">(RadiologyKey)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pubmed.ncbi.nlm.nih.gov/34306280/" target="_blank">Adrenal Ganglioneuroblastoma-Intermixed in an Adult — Case Report with CT/MRI <span class="source">(PubMed)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/ganglioneuroma" target="_blank">Ganglioneuroma — Article with Cases (Whorled Appearance, Delayed Enhancement) <span class="source">(Radiopaedia)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 6: Adrenal Metastases ===== -->
+<div class="section" id="metastases">
+  <div class="section-header">
+    <span class="emoji">🔴</span>
+    <h2>Adrenal Metastases</h2>
+    <span class="count">6 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-metastases" target="_blank">Adrenal Metastases — Bilateral from Lung Primary <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-metastasis-1" target="_blank">Adrenal Metastasis — Unilateral <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/adrenal-metastases" target="_blank">Adrenal Metastases — Full Article with Multiple Cases & FDG-PET <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.mdpi.com/2072-6694/17/5/849" target="_blank">Adrenal Mass Evaluation: Suspicious Radiological Signs of Malignancy (2025) <span class="source">(Cancers — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://radiologykey.com/imaging-of-adrenal-related-endocrine-disorders/" target="_blank">Imaging of Adrenal-Related Endocrine Disorders — Metastases Section with CT/PET Images <span class="source">(RadiologyKey)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubmed.ncbi.nlm.nih.gov/34230070/" target="_blank">A Clinical Challenge: Endocrine and Imaging Investigations of Adrenal Incidentalomas <span class="source">(J Nucl Med)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 7: Myelolipoma ===== -->
+<div class="section" id="myelolipoma">
+  <div class="section-header">
+    <span class="emoji">🟡</span>
+    <h2>Adrenal Myelolipoma</h2>
+    <span class="count">5 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-myelolipoma-pathology" target="_blank">Adrenal Myelolipoma — Pathology Specimen with Gross & Microscopic Images <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-myelolipoma" target="_blank">Adrenal Myelolipoma — CT Showing Macroscopic Fat <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-myelolipoma-2" target="_blank">Bilateral Adrenal Myelolipoma <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/adrenal-myelolipoma" target="_blank">Adrenal Myelolipoma — Complete Article with Multiple Cases <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://link.springer.com/article/10.1186/s13244-019-0688-8" target="_blank">Imaging Features of Adrenal Masses — Myelolipoma Section (Fat < 0 HU, Calcification) <span class="source">(Insights Imaging)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 8: Adrenal Hemorrhage ===== -->
+<div class="section" id="hemorrhage">
+  <div class="section-header">
+    <span class="emoji">🩸</span>
+    <h2>Adrenal Hemorrhage</h2>
+    <span class="count">7 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-gland-trauma" target="_blank">Adrenal Gland Trauma — Hemorrhage with Follow-up Resolution <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-haemorrhage" target="_blank">Adrenal Hemorrhage — Bilateral, Spontaneous <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8553189/" target="_blank">Adrenal Hemorrhage and Hemorrhagic Masses: Diagnostic Workup and Management <span class="source">(PMC — Open Access)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://academic.oup.com/jcem/article/108/4/995/6834810" target="_blank">Approach to the Patient With Adrenal Hemorrhage — Comprehensive Review (2023) <span class="source">(JCEM — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.ajronline.org/doi/10.2214/AJR.09.2551" target="_blank">Adrenal Imaging with MDCT: Nonneoplastic Disease — Hemorrhage, Hyperplasia, Infection <span class="source">(AJR)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://clinicalimagingscience.org/multimodality-imaging-of-adrenal-gland-pathologies-a-comprehensive-pictorial-review/" target="_blank">Multimodality Imaging of Adrenal Gland Pathologies — Pictorial Review (Acute/Subacute/Chronic Hemorrhage) <span class="source">(J Clin Imaging Sci — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://qims.amegroups.org/article/view/21428/21140" target="_blank">CT and MRI of Adrenal Gland Pathologies — Comprehensive Review with Images <span class="source">(Quant Imaging Med Surg — Open Access)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 9: Adrenal Cyst ===== -->
+<div class="section" id="cyst">
+  <div class="section-header">
+    <span class="emoji">💧</span>
+    <h2>Adrenal Cyst & Pseudocyst</h2>
+    <span class="count">4 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-cyst" target="_blank">Adrenal Cyst — Washout CT Showing No Enhancement <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-pseudocyst" target="_blank">Adrenal Pseudocyst — Post-Hemorrhagic <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/adrenal-cyst" target="_blank">Adrenal Cyst — Complete Article with Multiple Cases <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubs.rsna.org/doi/abs/10.1148/radiographics.19.3.g99ma07569" target="_blank">Imaging Features of Uncommon Adrenal Masses — Cystic Lesions, Hemangioma, Collision Tumors <span class="source">(RadioGraphics)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 10: Adrenal Hyperplasia ===== -->
+<div class="section" id="hyperplasia">
+  <div class="section-header">
+    <span class="emoji">📐</span>
+    <h2>Adrenal Hyperplasia — Cushing & Conn Syndrome</h2>
+    <span class="count">8 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cushing Syndrome — Imaging</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://www.ncbi.nlm.nih.gov/books/NBK279088/" target="_blank">Cushing's Syndrome — Endotext (NCBI Bookshelf) Complete Free Chapter <span class="source">(Endotext — Open Access)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://www.endotext.org/wp-content/uploads/pdfs/cushings-disease.pdf" target="_blank">Cushing's Disease — Endotext PDF Chapter <span class="source">(Endotext — Free PDF)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubs.rsna.org/doi/abs/10.1148/rg.343130127" target="_blank">Adrenal Cortical Nodular Hyperplasia — RadioGraphics Pathology Archive (Bilateral Macronodules in Cushing) <span class="source">(RadioGraphics)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://radiologykey.com/imaging-of-adrenal-related-endocrine-disorders/" target="_blank">Imaging of Adrenal-Related Endocrine Disorders — Cushing & Hyperplasia with CT/MRI Images <span class="source">(RadiologyKey)</span></a></li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <h3>Primary Aldosteronism (Conn Syndrome)</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://www.ncbi.nlm.nih.gov/books/NBK279021/" target="_blank">Adrenal Incidentaloma — Endotext Complete Free Chapter (Conn/Cushing/Pheo Workup) <span class="source">(Endotext — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://radiologykey.com/imaging-of-adrenal-related-endocrine-disorders/" target="_blank">Hyperaldosteronism Imaging — Aldosteronoma CT with Washout Calculations <span class="source">(RadiologyKey)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.ajronline.org/doi/10.2214/AJR.09.2551" target="_blank">Adrenal Hyperplasia in Conn Syndrome — Limb Width Measurements on CT <span class="source">(AJR)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11046519/" target="_blank">Investigation and Assessment of Adrenal Incidentalomas (2024) — Primary Aldosteronism Section <span class="source">(PMC — Open Access)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 11: Addison Disease ===== -->
+<div class="section" id="addison">
+  <div class="section-header">
+    <span class="emoji">🫠</span>
+    <h2>Addison Disease / Adrenal Insufficiency</h2>
+    <span class="count">5 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/addison-disease" target="_blank">Addison Disease — Article with CT Images (Atrophy, Calcification) <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://link.springer.com/article/10.1007/BF02932665" target="_blank">Adrenal MRI in Addison's Disease — Hemorrhage vs Lymphoma vs Metastases <span class="source">(Urol Radiol)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://radiologykey.com/imaging-of-adrenal-related-endocrine-disorders/" target="_blank">Imaging of Adrenal-Related Endocrine Disorders — Addison Disease, Granulomatous Infection <span class="source">(RadiologyKey)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.diagnosticimaging.com/view/ct-and-mri-help-evaluate-adrenal-gland-disorders" target="_blank">CT and MRI of Addison Disease — Acute, Subacute, Chronic Forms <span class="source">(Diagnostic Imaging)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://clinicalimagingscience.org/multimodality-imaging-of-adrenal-gland-pathologies-a-comprehensive-pictorial-review/" target="_blank">Multimodality Imaging — Adrenal Insufficiency, Infarction, Abscess <span class="source">(J Clin Imaging Sci)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 12: Adrenal Lymphoma ===== -->
+<div class="section" id="lymphoma">
+  <div class="section-header">
+    <span class="emoji">🔵</span>
+    <h2>Adrenal Lymphoma</h2>
+    <span class="count">4 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-lymphoma-2?lang=us" target="_blank">Adrenal Lymphoma — Bilateral DLBCL with FDG-PET and Biopsy <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-lymphoma" target="_blank">Primary Adrenal Lymphoma — CT and FDG-PET <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://radiologykey.com/imaging-of-adrenal-related-endocrine-disorders/" target="_blank">Imaging of Adrenal-Related Endocrine Disorders — Lymphoma with Bilateral Enhancement <span class="source">(RadiologyKey)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://ajronline.org/doi/pdf/10.2214/AJR.15.14467" target="_blank">Imaging Features of Various Adrenal Neoplastic Lesions — Lymphoma Section <span class="source">(AJR — PDF)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 13: Rare Benign Tumors ===== -->
+<div class="section" id="rare-benign">
+  <div class="section-header">
+    <span class="emoji">🧬</span>
+    <h2>Rare Benign Tumors — Hemangioma, Lymphangioma, Schwannoma, Adenomatoid Tumor</h2>
+    <span class="count">6 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-haemangioma" target="_blank">Adrenal Hemangioma — Centripetal Enhancement, Phleboliths <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://academic.oup.com/jes/article/8/5/bvae041/7632158" target="_blank">Clinical Characteristics of Adrenal Hemangioma — 40 Cases with CT, Collision Tumor Images <span class="source">(J Endocr Soc — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubs.rsna.org/doi/abs/10.1148/radiographics.19.3.g99ma07569" target="_blank">Uncommon Adrenal Masses — Hemangioma, Endothelial Cyst, Lymphangioma, Schwannoma <span class="source">(RadioGraphics)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://ajronline.org/doi/10.2214/AJR.15.14467" target="_blank">Various Adrenal Neoplastic Lesions — Ganglioneuroma, Hemangioma, Lymphangioma, Schwannoma, Oncocytic Neoplasm <span class="source">(AJR)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-schwannoma" target="_blank">Adrenal Schwannoma <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://pubs.rsna.org/doi/abs/10.1148/rg.343130127" target="_blank">RadioGraphics Pathology Archive — Rare Benign: Hemangioma, Lymphangioma, Schwannoma, Adenomatoid Tumor <span class="source">(RadioGraphics)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 14: Collision Tumors ===== -->
+<div class="section" id="collision">
+  <div class="section-header">
+    <span class="emoji">🔀</span>
+    <h2>Adrenal Collision & Composite Tumors</h2>
+    <span class="count">4 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Cases & Articles</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-collision-tumour-act" target="_blank">Adrenal Collision Tumor — Adenoma + Metastasis in Same Gland <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://ajronline.org/doi/10.2214/AJR.15.14467" target="_blank">Imaging Features of Various Adrenal Neoplastic Lesions — Collision & Composite Tumors <span class="source">(AJR)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://academic.oup.com/jes/article/8/5/bvae041/7632158" target="_blank">Adrenal Hemangioma Collision Tumors — Pheo-Hemangioma & Adenoma-Hemangioma with CT Images <span class="source">(J Endocr Soc — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.elsevier.es/en-revista-radiologia-english-edition--419-articulo-adrenal-pheochromocytoma-keys-radiologic-diagnosis-S217351072200091X" target="_blank">Collision Tumor: Adenoma + Pheochromocytoma in Same Gland — CT & MRI Images <span class="source">(Radiologia)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 15: Adrenal Infections ===== -->
+<div class="section" id="infection">
+  <div class="section-header">
+    <span class="emoji">🦠</span>
+    <h2>Adrenal Infections & Granulomatous Disease</h2>
+    <span class="count">5 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Tuberculosis, Histoplasmosis, Abscess</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenal-tuberculosis" target="_blank">Adrenal Tuberculosis — Bilateral Enlargement with Calcification <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-case">CASE</span> <a class="resource-link" href="https://radiopaedia.org/articles/adrenal-histoplasmosis" target="_blank">Adrenal Histoplasmosis — Bilateral Gland Enlargement <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://clinicalimagingscience.org/multimodality-imaging-of-adrenal-gland-pathologies-a-comprehensive-pictorial-review/" target="_blank">Granulomatous Adrenalitis & Adrenal Abscess — Multimodality Pictorial Review <span class="source">(J Clin Imaging Sci)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://radiologykey.com/imaging-of-adrenal-related-endocrine-disorders/" target="_blank">Granulomatous Infections — TB, Histoplasmosis: Acute Enlargement → Chronic Atrophy/Calcification <span class="source">(RadiologyKey)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.ajronline.org/doi/10.2214/AJR.09.2551" target="_blank">MDCT of Nonneoplastic Adrenal Disease — Granulomatous Infection, Calcification <span class="source">(AJR)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 16: Nuclear Medicine ===== -->
+<div class="section" id="nuclear">
+  <div class="section-header">
+    <span class="emoji">☢️</span>
+    <h2>Nuclear Medicine / Functional Imaging</h2>
+    <span class="count">8 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>MIBG, FDG-PET, 68Ga-DOTATATE, 11C-Metomidate</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://academic.oup.com/edrv/article/45/3/414/7516259" target="_blank">Imaging of Pheochromocytomas and Paragangliomas — 68Ga-DOTATATE, 18F-DOPA, MIBG <span class="source">(Endocr Rev — Open Access)</span></a></li>
+        <li><span class="tag tag-nuclear">NUC</span> <a class="resource-link" href="https://pubmed.ncbi.nlm.nih.gov/29545830/" target="_blank">Current Diagnostic Imaging of Pheochromocytomas — 123I-MIBG, 68Ga-DOTA-PET, 18F-FDOPA <span class="source">(Clin Physiol Funct Imaging)</span></a></li>
+        <li><span class="tag tag-nuclear">NUC</span> <a class="resource-link" href="https://pubmed.ncbi.nlm.nih.gov/34230070/" target="_blank">Endocrine and Imaging Investigations — 18F-FDG, 11C-Metomidate for Adrenal Incidentalomas <span class="source">(J Nucl Med)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://link.springer.com/article/10.1007/s11604-025-01732-6" target="_blank">Multimodal Imaging: 131I-Adosterol Scintigraphy, 123I-MIBG, 68Ga-DOTA-PET for Adrenal Disorders (2025) <span class="source">(Jpn J Radiol — Open Access)</span></a></li>
+        <li><span class="tag tag-nuclear">NUC</span> <a class="resource-link" href="https://link.springer.com/chapter/10.1007/978-3-031-62301-1_5" target="_blank">Imaging in ACC: 18F-FDG PET/CT, 11C-Metomidate PET/CT, 68Ga-DOTATATE <span class="source">(Springer 2025)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://www.ncbi.nlm.nih.gov/books/NBK279021/" target="_blank">Adrenal Incidentaloma Endotext — NP-59 Scintigraphy, FDG-PET/CT, 11C-Metomidate Tables <span class="source">(Endotext — Open Access)</span></a></li>
+        <li><span class="tag tag-nuclear">NUC</span> <a class="resource-link" href="https://www.eurorad.org/case/17983" target="_blank">Malignant Pheochromocytoma — 68Ga-DOTATATE PET/CT Images <span class="source">(EuroRad)</span></a></li>
+        <li><span class="tag tag-nuclear">NUC</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11046519/" target="_blank">Investigation and Assessment of Adrenal Incidentalomas — 123I-MIBG, 11C-Metomidate PET/CT <span class="source">(PMC — Open Access)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 17: Pediatric Adrenal Imaging ===== -->
+<div class="section" id="pediatric">
+  <div class="section-header">
+    <span class="emoji">👶</span>
+    <h2>Pediatric Adrenal Imaging</h2>
+    <span class="count">5 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Neuroblastoma, Pediatric ACC, Congenital Adrenal Hyperplasia</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-pediatric">PEDI</span> <a class="resource-link" href="https://pediatricimaging.org/diseases/neuroblastoma/" target="_blank">Neuroblastoma — Pediatric Imaging with Radiographs, CT, MRI, MIBG, Pathology <span class="source">(PediatricImaging.org)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8621640/" target="_blank">Imaging Findings of Primary Adrenal Tumors in Pediatric Patients <span class="source">(PMC — Open Access)</span></a></li>
+        <li><span class="tag tag-pediatric">PEDI</span> <a class="resource-link" href="https://radiopaedia.org/cases/adrenocortical-carcinoma?lang=us" target="_blank">Pediatric ACC — 6-Year-Old with Li-Fraumeni Syndrome Association <span class="source">(Radiopaedia)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://link.springer.com/article/10.1007/s11604-025-01732-6" target="_blank">Congenital Adrenal Hyperplasia, Adrenal Rest Tumors — WHO 5th Ed. Updates (2025) <span class="source">(Jpn J Radiol — Open Access)</span></a></li>
+        <li><span class="tag tag-open">FREE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1665241/" target="_blank">Neuroblastoma in Childhood: Review and Radiological Findings (US, CT, MIBG) <span class="source">(PMC — Open Access)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SECTION 18: Guidelines & Comprehensive Reviews ===== -->
+<div class="section" id="guidelines">
+  <div class="section-header">
+    <span class="emoji">📋</span>
+    <h2>Guidelines, Free Textbooks & Comprehensive Reviews</h2>
+    <span class="count">14 resources</span>
+  </div>
+  <div class="section-body">
+    <div class="subsection">
+      <h3>Clinical Practice Guidelines</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-guideline">GUIDE</span> <a class="resource-link" href="https://academic.oup.com/ejendo/article/189/1/G1/7198474" target="_blank">European Society of Endocrinology 2023 Guidelines: Management of Adrenal Incidentalomas (ESE/ENSAT) <span class="source">(Eur J Endocrinol)</span></a></li>
+        <li><span class="tag tag-guideline">GUIDE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5605062/" target="_blank">Management of Adrenal Incidentalomas — What is Pertinent for Radiologists (2017) <span class="source">(PMC — Open Access)</span></a></li>
+        <li><span class="tag tag-guideline">GUIDE</span> <a class="resource-link" href="https://www.aafp.org/pubs/afp/issues/2010/0601/p1361.html" target="_blank">Radiologic Evaluation of Incidentally Discovered Adrenal Masses — ACR Appropriateness Criteria <span class="source">(AAFP/Am Fam Physician)</span></a></li>
+        <li><span class="tag tag-guideline">GUIDE</span> <a class="resource-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11046519/" target="_blank">Investigation and Assessment of Adrenal Incidentalomas (2024 Review with ESE Guidelines Update) <span class="source">(PMC — Open Access)</span></a></li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <h3>Free Textbooks & Complete Chapters</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-book">BOOK</span> <a class="resource-link" href="https://www.ncbi.nlm.nih.gov/books/NBK279021/" target="_blank">Adrenal Incidentaloma — Endotext Complete Chapter (Imaging, Biochemistry, Management) <span class="source">(NCBI Bookshelf — Free)</span></a></li>
+        <li><span class="tag tag-book">BOOK</span> <a class="resource-link" href="https://www.ncbi.nlm.nih.gov/books/NBK279088/" target="_blank">Cushing's Syndrome — Endotext Complete Chapter (Diagnosis, Imaging, Treatment) <span class="source">(NCBI Bookshelf — Free)</span></a></li>
+        <li><span class="tag tag-book">BOOK</span> <a class="resource-link" href="https://ncbi.nlm.nih.gov/books/NBK543796/" target="_blank">Adrenal Imaging — Diseases of the Abdomen and Pelvis 2018-2021 (Complete Chapter) <span class="source">(NIH Bookshelf — Free)</span></a></li>
+        <li><span class="tag tag-book">BOOK</span> <a class="resource-link" href="https://radiologykey.com/tumors-of-the-adrenal-gland/" target="_blank">Tumors of the Adrenal Gland — RadiologyKey (Comprehensive Imaging Chapter) <span class="source">(RadiologyKey)</span></a></li>
+        <li><span class="tag tag-book">BOOK</span> <a class="resource-link" href="https://radiologykey.com/imaging-of-adrenal-related-endocrine-disorders/" target="_blank">Imaging of Adrenal-Related Endocrine Disorders — Complete Chapter with All Pathologies <span class="source">(RadiologyKey)</span></a></li>
+      </ul>
+    </div>
+    <div class="subsection">
+      <h3>Landmark Review Articles (Pictorial Essays)</h3>
+      <ul class="resource-list">
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://link.springer.com/article/10.1186/s13244-019-0688-8" target="_blank">Imaging Features of Adrenal Masses — Insights into Imaging (2019, Comprehensive) <span class="source">(Open Access)</span></a></li>
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://clinicalimagingscience.org/multimodality-imaging-of-adrenal-gland-pathologies-a-comprehensive-pictorial-review/" target="_blank">Multimodality Imaging of Adrenal Gland Pathologies — Comprehensive Pictorial Review <span class="source">(J Clin Imaging Sci — Open Access)</span></a></li>
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://qims.amegroups.org/article/view/21428/21140" target="_blank">CT and MRI of Adrenal Gland Pathologies — Wang et al. (2018, Extensive Image Collection) <span class="source">(Quant Imaging Med Surg — Open Access)</span></a></li>
+        <li><span class="tag tag-review">REVIEW</span> <a class="resource-link" href="https://www.mdpi.com/2072-6694/17/5/849" target="_blank">Adrenal Mass Evaluation: Suspicious Radiological Signs of Malignancy (2025) <span class="source">(Cancers — Open Access)</span></a></li>
+        <li><span class="tag tag-article">ARTICLE</span> <a class="resource-link" href="https://www.sciencedirect.com/science/article/pii/S0889852905701146" target="_blank">Radiology of the Adrenal — Classic Comprehensive Review (ScienceDirect) <span class="source">(Endocrinologist)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- KEY NOTES -->
+<div class="note">
+  <strong>💡 How to Use This Collection:</strong><br>
+  1. <strong>Radiopaedia cases</strong> offer interactive, annotated images — click through stacks to see CT/MRI slices.<br>
+  2. <strong>PMC/Open Access articles</strong> are freely available full-text with figures and imaging.<br>
+  3. <strong>Endotext chapters</strong> (NCBI Bookshelf) are complete, free textbook chapters with extensive references.<br>
+  4. <strong>RadioGraphics/AJR articles</strong> are the gold-standard pictorial essays — some may require institutional access for full images.<br>
+  5. <strong>The Cancer Imaging Archive (TCIA)</strong> provides downloadable DICOM datasets for research.<br>
+  6. For <strong>adrenal washout calculations</strong>: APW >60% and RPW >40% = adenoma; Unenhanced CT ≤10 HU = lipid-rich adenoma.
+</div>
+
+<div class="note">
+  <strong>🔬 Key Imaging Pearls for Endocrinology:</strong><br>
+  • <strong>Cushing Syndrome:</strong> Look for bilateral adrenal hyperplasia/nodularity, adenoma, or ACC. Use chemical shift MRI.<br>
+  • <strong>Conn Syndrome (Primary Aldosteronism):</strong> Aldosteronoma (usually 1-2 cm), adrenal vein sampling for lateralization. Limb width >5 mm suggests hyperplasia.<br>
+  • <strong>Pheochromocytoma:</strong> T2 "light bulb bright" (65% of cases), no signal loss on out-of-phase, avid enhancement. Rule out before biopsy!<br>
+  • <strong>Adrenal Incidentaloma:</strong> ≤10 HU = benign. 11-20 HU + <4 cm = additional imaging. >20 HU or >4 cm = discuss MDT.<br>
+  • <strong>ACC:</strong> Large (>6 cm), heterogeneous, necrosis, hemorrhage, calcification, venous invasion. IVC tumor thrombus on MRI.
+</div>
+
+</div>
+
+<footer>
+  <p>Adrenal Mass Imaging Atlas — Curated Collection of Endocrinology & Radiology Resources</p>
+  <p>Last updated: July 2026 | 120+ resources across 18 pathology categories</p>
+  <p>All links point to publicly accessible medical education resources. No copyrighted material is hosted on this page.</p>
+</footer>
+
+</body>
+</html>

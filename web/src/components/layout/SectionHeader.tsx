@@ -35,6 +35,12 @@ const HEADER_THEME: Record<
     title: 'text-violet-950 dark:text-violet-50',
     meta: 'text-violet-800/80 dark:text-violet-200/70',
   },
+  imaging_resources: {
+    icon: '🩻',
+    wrap: 'bg-gradient-to-r from-cyan-100/90 to-sky-50 border-l-[3px] border-l-cyan-600 dark:from-cyan-950/50 dark:to-sky-950/25 dark:border-l-cyan-400',
+    title: 'text-cyan-950 dark:text-cyan-50',
+    meta: 'text-cyan-800/80 dark:text-cyan-200/70',
+  },
   trials: {
     icon: '📊',
     wrap: 'bg-gradient-to-r from-blue-100/90 to-sky-50 border-l-[3px] border-l-blue-600 dark:from-blue-950/50 dark:to-sky-950/25 dark:border-l-blue-400',
@@ -113,7 +119,7 @@ export function SectionHeader({ kind, title, subtitle, count }: SectionHeaderPro
   )
 }
 
-export function entryKindAccent(kind: NavEntry['kind'] | 'calculator') {
+export function entryKindAccent(kind: NavEntry['kind'] | 'calculator' | 'imaging') {
   switch (kind) {
     case 'hot_topic':
       return 'border-l-2 border-l-amber-400/60'
@@ -127,6 +133,8 @@ export function entryKindAccent(kind: NavEntry['kind'] | 'calculator') {
       return 'border-l-2 border-l-indigo-500/50'
     case 'calculator':
       return 'border-l-2 border-l-violet-500/60'
+    case 'imaging':
+      return 'border-l-2 border-l-cyan-500/60'
     default:
       return ''
   }

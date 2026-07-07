@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diabetes & Insulin Education — Structured Resource Library for Endocrinology Fellows</title>
+<style>
+  :root {
+    --primary: #1a237e;
+    --primary-light: #3949ab;
+    --accent: #00bfa5;
+    --accent2: #ff6f00;
+    --bg: #f5f7fa;
+    --card-bg: #ffffff;
+    --text: #212121;
+    --text-light: #616161;
+    --border: #e0e0e0;
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-hover: 0 6px 20px rgba(0,0,0,0.15);
+    --radius: 12px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #1a237e 0%, #283593 40%, #00695c 100%);
+    color: #fff;
+    padding: 48px 24px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; top:0; left:0; right:0; bottom:0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 8px; position:relative; z-index:1; }
+  .hero .subtitle { font-size: 1.15rem; opacity: 0.92; max-width: 800px; margin: 0 auto; position:relative; z-index:1; }
+  .hero .badge-row { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:18px; position:relative; z-index:1; }
+  .hero .badge { background: rgba(255,255,255,0.18); border:1px solid rgba(255,255,255,0.3); padding:5px 14px; border-radius:20px; font-size:0.82rem; }
+  .stats-row { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; margin-top:22px; position:relative; z-index:1; }
+  .stat-card { background:rgba(255,255,255,0.12); border-radius:10px; padding:14px 22px; text-align:center; min-width:120px; }
+  .stat-card .num { font-size:1.8rem; font-weight:800; color:var(--accent); }
+  .stat-card .label { font-size:0.75rem; opacity:0.85; text-transform:uppercase; letter-spacing:1px; }
+
+  /* NAV */
+  .nav-bar {
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    position: sticky; top:0; z-index:100;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .nav-inner {
+    max-width: 1300px; margin:0 auto;
+    display:flex; gap:4px; padding:8px 16px; overflow-x:auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-btn {
+    background: transparent; border:none; padding:8px 16px;
+    font-size:0.82rem; font-weight:600; color:var(--text-light);
+    cursor:pointer; border-radius:8px; white-space:nowrap;
+    transition: all 0.2s;
+  }
+  .nav-btn:hover { background: #e8eaf6; color:var(--primary); }
+  .nav-btn.active { background:var(--primary); color:#fff; }
+
+  /* SEARCH */
+  .search-wrap {
+    max-width:1300px; margin:20px auto 0; padding:0 20px;
+  }
+  .search-box {
+    width:100%; padding:12px 20px; border:2px solid var(--border);
+    border-radius:10px; font-size:1rem; outline:none;
+    transition: border 0.2s;
+  }
+  .search-box:focus { border-color:var(--primary-light); }
+
+  /* MAIN */
+  .container { max-width:1300px; margin:0 auto; padding:24px 20px 60px; }
+
+  /* SECTION */
+  .section { margin-bottom:36px; }
+  .section-header {
+    display:flex; align-items:center; gap:12px;
+    margin-bottom:16px; padding-bottom:10px;
+    border-bottom:3px solid var(--primary);
+  }
+  .section-icon {
+    width:44px; height:44px; border-radius:10px;
+    display:flex; align-items:center; justify-content:center;
+    font-size:1.4rem; color:#fff; flex-shrink:0;
+  }
+  .section-header h2 { font-size:1.25rem; font-weight:700; color:var(--primary); }
+  .section-header .count { font-size:0.8rem; color:var(--text-light); font-weight:400; }
+
+  /* CARDS GRID */
+  .cards { display:grid; grid-template-columns: repeat(auto-fill, minmax(380px,1fr)); gap:16px; }
+  @media(max-width:480px){ .cards { grid-template-columns:1fr; } }
+
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: all 0.25s;
+    display:flex; flex-direction:column;
+  }
+  .card:hover { box-shadow:var(--shadow-hover); transform:translateY(-2px); }
+  .card-top { display:flex; gap:12px; margin-bottom:10px; }
+  .card-num {
+    width:36px; height:36px; border-radius:8px; flex-shrink:0;
+    display:flex; align-items:center; justify-content:center;
+    font-size:0.85rem; font-weight:800; color:#fff;
+    background: var(--primary-light);
+  }
+  .card-title { font-size:0.95rem; font-weight:700; color:var(--primary); line-height:1.35; }
+  .card-source { font-size:0.78rem; color:var(--accent2); font-weight:600; margin-bottom:6px; }
+  .card-desc { font-size:0.82rem; color:var(--text-light); flex:1; margin-bottom:12px; line-height:1.5; }
+  .card-tags { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px; }
+  .tag { font-size:0.7rem; padding:2px 8px; border-radius:4px; background:#e8eaf6; color:var(--primary); font-weight:600; }
+  .tag.pdf { background:#fce4ec; color:#c62828; }
+  .tag.free { background:#e8f5e9; color:#2e7d32; }
+  .tag.video { background:#fff3e0; color:#e65100; }
+  .tag.guideline { background:#f3e5f5; color:#6a1b9a; }
+  .tag.book { background:#e0f7fa; color:#00695c; }
+  .card-links { display:flex; gap:8px; flex-wrap:wrap; }
+  .card-links a {
+    display:inline-flex; align-items:center; gap:4px;
+    padding:6px 14px; border-radius:6px;
+    font-size:0.78rem; font-weight:600; text-decoration:none;
+    transition: all 0.2s;
+  }
+  .link-primary { background:var(--primary); color:#fff; }
+  .link-primary:hover { background:var(--primary-light); }
+  .link-pdf { background:#c62828; color:#fff; }
+  .link-pdf:hover { background:#e53935; }
+  .link-secondary { background:#e0e0e0; color:#424242; }
+  .link-secondary:hover { background:#bdbdbd; }
+
+  /* FILTER */
+  .filter-row { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
+  .filter-btn {
+    padding:6px 14px; border:1px solid var(--border); border-radius:20px;
+    font-size:0.78rem; font-weight:600; background:#fff; cursor:pointer;
+    transition: all 0.2s;
+  }
+  .filter-btn:hover { border-color:var(--primary-light); color:var(--primary); }
+  .filter-btn.active { background:var(--primary); color:#fff; border-color:var(--primary); }
+
+  /* CURRICULUM TRACK */
+  .track {
+    background: linear-gradient(135deg, #e8eaf6, #f3e5f5);
+    border-radius:var(--radius); padding:24px; margin-bottom:24px;
+    border-left:5px solid var(--primary);
+  }
+  .track h3 { font-size:1.1rem; color:var(--primary); margin-bottom:8px; }
+  .track p { font-size:0.85rem; color:var(--text-light); }
+
+  /* FOOTER */
+  footer {
+    background:var(--primary); color:rgba(255,255,255,0.7);
+    text-align:center; padding:30px 20px; font-size:0.82rem;
+  }
+  footer strong { color:#fff; }
+
+  /* ANIMATIONS */
+  @keyframes fadeIn { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+  .card { animation: fadeIn 0.4s ease both; }
+
+  /* Print */
+  @media print {
+    .nav-bar, .search-wrap, .filter-row, footer { display:none; }
+    .card:hover { transform:none; box-shadow:var(--shadow); }
+    .hero { padding:24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>🔬 Diabetes & Insulin Education</h1>
+  <p class="subtitle">A curated, structured resource library of 50+ top-tier free guidelines, PDFs, books & courses for Endocrinology Fellows — from Joslin, SGPGI, CMC Vellore, ADA, AACE, IDF, RSSDI, EASD, WHO & more</p>
+  <div class="badge-row">
+    <span class="badge">📘 Free PDFs</span>
+    <span class="badge">📋 Clinical Guidelines</span>
+    <span class="badge">🏥 Indian Institutions</span>
+    <span class="badge">💉 Insulin Education</span>
+    <span class="badge">🎓 Fellow-Focused</span>
+  </div>
+  <div class="stats-row">
+    <div class="stat-card"><div class="num">50+</div><div class="label">Resources</div></div>
+    <div class="stat-card"><div class="num">15+</div><div class="label">Institutions</div></div>
+    <div class="stat-card"><div class="num">10</div><div class="label">Sections</div></div>
+    <div class="stat-card"><div class="num">100%</div><div class="label">Free Access</div></div>
+  </div>
+</div>
+
+<!-- NAV -->
+<div class="nav-bar">
+  <div class="nav-inner">
+    <button class="nav-btn active" onclick="scrollToSection('all')">All</button>
+    <button class="nav-btn" onclick="scrollToSection('sec1')">ADA / Standards</button>
+    <button class="nav-btn" onclick="scrollToSection('sec2')">AACE</button>
+    <button class="nav-btn" onclick="scrollToSection('sec3')">IDF / WHO</button>
+    <button class="nav-btn" onclick="scrollToSection('sec4')">EASD / ESC</button>
+    <button class="nav-btn" onclick="scrollToSection('sec5')">Indian (RSSDI/ICMR)</button>
+    <button class="nav-btn" onclick="scrollToSection('sec6')">Joslin</button>
+    <button class="nav-btn" onclick="scrollToSection('sec7')">SGPGI / CMC Vellore</button>
+    <button class="nav-btn" onclick="scrollToSection('sec8')">Insulin Education</button>
+    <button class="nav-btn" onclick="scrollToSection('sec9')">Endocrine Society</button>
+    <button class="nav-btn" onclick="scrollToSection('sec10')">Landmark Trials & Books</button>
+  </div>
+</div>
+
+<!-- SEARCH -->
+<div class="search-wrap">
+  <input type="text" class="search-box" id="searchInput" placeholder="🔍 Search by title, source, topic (e.g. insulin, DKA, pregnancy, RSSDI, Joslin...)" oninput="filterCards()">
+</div>
+
+<!-- FILTER -->
+<div class="container">
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="setFilter('all',this)">All Types</button>
+    <button class="filter-btn" onclick="setFilter('guideline',this)">📋 Guidelines</button>
+    <button class="filter-btn" onclick="setFilter('pdf',this)">📕 PDFs</button>
+    <button class="filter-btn" onclick="setFilter('book',this)">📘 Books</button>
+    <button class="filter-btn" onclick="setFilter('video',this)">🎥 Courses/Video</button>
+    <button class="filter-btn" onclick="setFilter('free',this)">✅ Free/Open</button>
+  </div>
+
+  <!-- CURRICULUM TRACK -->
+  <div class="track">
+    <h3>📖 Suggested Fellow Training Sequence</h3>
+    <p><strong>Phase 1 (Months 1–3):</strong> ADA Standards of Care (Sec 1) → AACE Comprehensive Care (Sec 2) → IDF Standards for Education (Sec 3) → ICMR Guidelines (Sec 5)<br>
+    <strong>Phase 2 (Months 4–6):</strong> Joslin Clinical Guidelines (Sec 6) → RSSDI Insulin Recommendations (Sec 8) → Endocrine Society Hypoglycemia Guideline (Sec 9)<br>
+    <strong>Phase 3 (Months 7–12):</strong> CMC Vellore / SGPGI Indian protocols (Sec 7) → EASD/ESC Cardiovascular-Diabetes (Sec 4) → Landmark Trials review (Sec 10) → DKA/HHS Consensus</p>
+  </div>
+
+  <!-- ===================== SECTION 1: ADA ===================== -->
+  <div class="section" id="sec1">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#1a237e,#3949ab)">📋</div>
+      <div><h2>1. ADA — Standards of Care in Diabetes <span class="count">(7 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="guideline pdf free" data-search="ADA Standards of Care 2025 American Diabetes Association complete clinical practice recommendations">
+        <div class="card-top"><div class="card-num">1</div><div><div class="card-title">ADA Standards of Care in Diabetes — 2025 (Full)</div><div class="card-source">American Diabetes Association</div></div></div>
+        <div class="card-desc">The definitive annual clinical practice guideline covering all aspects of diabetes care — diagnosis, pharmacotherapy, complications, technology, pregnancy, hospital management. The gold standard reference for fellows.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://diabetesjournals.org/care/issue/48/Supplement_1" class="link-primary" target="_blank">Read Online</a>
+          <a href="https://professional.diabetes.org/standards-of-care" class="link-secondary" target="_blank">ADA Portal</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ADA Standards of Care 2025 abridged primary care">
+        <div class="card-top"><div class="card-num">2</div><div><div class="card-title">ADA Standards of Care — 2025 Abridged for Primary Care</div><div class="card-source">American Diabetes Association</div></div></div>
+        <div class="card-desc">Concise bullet-point version of the full Standards, designed for rapid clinical reference. Succinct graphics and evidence-based recommendations in a user-friendly format.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://diabetesjournals.org/collection/2720/2025-Abridged-Standards-of-Care" class="link-primary" target="_blank">Read Online</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ADA abridged standards 2025 PDF Novo Nordisk medical">
+        <div class="card-top"><div class="card-num">3</div><div><div class="card-title">ADA Standards — 2025 Abridged PDF (Printable)</div><div class="card-source">Novo Nordisk Medical / ADA</div></div></div>
+        <div class="card-desc">Downloadable PDF of the abridged ADA Standards 2025 with treatment algorithms, DKA management flowcharts, pharmacotherapy pathways and glycemic targets — ideal for clinical rotations.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.novonordiskmedical.com/content/dam/medical/novonordiskmedical/ta/diabetes/disease-education/resource-documents/abridged-ada-2025-standards-of-medical-care-in-diabetes.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ADA 2025 standards updates summary all sections PDF">
+        <div class="card-top"><div class="card-num">4</div><div><div class="card-title">ADA 2025 Updates — All Sections Summary PDF</div><div class="card-source">WAFP / ADA</div></div></div>
+        <div class="card-desc">95-page comprehensive summary highlighting all 2025 changes including new CKM terminology, GLP-1 RA preference over insulin, PAD screening, Ramadan fasting guidance, and DSMES updates.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.wafp.org/assets/files/2025_ADA_Updates_All_Sections_95.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ADA EASD consensus type 1 diabetes adults management 2021">
+        <div class="card-top"><div class="card-num">5</div><div><div class="card-title">ADA/EASD Consensus: Management of Type 1 Diabetes in Adults</div><div class="card-source">ADA + EASD</div></div></div>
+        <div class="card-desc">Comprehensive consensus report on T1D management including carbohydrate counting, insulin delivery methods, CGM, pump therapy, hypoglycemia prevention, DKA management, and psychosocial care.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://diabetesjournals.org/care/article/44/11/2589/138492/The-Management-of-Type-1-Diabetes-in-Adults-A" class="link-primary" target="_blank">Read Full Text</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ADA EASD consensus hyperglycemia type 2 diabetes management 2022">
+        <div class="card-top"><div class="card-num">6</div><div><div class="card-title">ADA/EASD Consensus: Management of Hyperglycemia in T2D (2022)</div><div class="card-source">ADA + EASD</div></div></div>
+        <div class="card-desc">Updated consensus report on T2D pharmacotherapy including GLP-1 RAs, SGLT2i, dual GIP/GLP-1 agonists, weight-centric approach, DSMES, and cardiorenal risk reduction algorithms.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://diabetesjournals.org/care/article/45/11/2753/147671/Management-of-Hyperglycemia-in-Type-2-Diabetes" class="link-primary" target="_blank">Read Full Text</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="pdf free" data-search="hyperglycemic crises DKA HHS consensus report 2024 diabetes care">
+        <div class="card-top"><div class="card-num">7</div><div><div class="card-title">Hyperglycemic Crises in Adults: DKA & HHS Consensus (2024)</div><div class="card-source">ADA Consensus Report</div></div></div>
+        <div class="card-desc">Landmark consensus on DKA and HHS — pathophysiology, diagnostic criteria, IV insulin protocols, electrolyte management, transition to subcutaneous insulin, and special populations. Essential for on-call fellows.</div>
+        <div class="card-tags"><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://profketandhatariya.com/wp-content/uploads/2024/08/Diabetes-Care-2024.pdf" class="link-pdf" target="_blank">Download PDF</a>
+          <a href="https://diabetesjournals.org/care/article/47/8/1257/157065/Hyperglycemic-Crises-in-Adults-With-Diabetes-A" class="link-secondary" target="_blank">Journal</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 2: AACE ===================== -->
+  <div class="section" id="sec2">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#b71c1c,#e53935)">🏥</div>
+      <div><h2>2. AACE — Comprehensive Diabetes Care Guidelines <span class="count">(4 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="guideline pdf free" data-search="AACE 2022 clinical practice guideline diabetes mellitus comprehensive care plan">
+        <div class="card-top"><div class="card-num">8</div><div><div class="card-title">AACE Clinical Practice Guideline: Diabetes Comprehensive Care Plan (2022)</div><div class="card-source">American Association of Clinical Endocrinology</div></div></div>
+        <div class="card-desc">170 graded recommendations covering screening, diagnosis, glycemic targets, comorbidities, obesity, T1D insulin therapy, hypoglycemia, hospital management, pregnancy, SDOH, telehealth, and new topics on infertility & supplements.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://pro.aace.com/clinical-guidance/2022-clinical-practice-guideline-development-diabetes-mellitus-comprehensive" class="link-primary" target="_blank">Read Guideline</a>
+          <a href="https://endocrinologia-chuc.org/wp-content/uploads/2023/02/DM-AACE-Guidelines-2022.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="AACE consensus type 2 diabetes management algorithm 2023 update">
+        <div class="card-top"><div class="card-num">9</div><div><div class="card-title">AACE Consensus: T2D Management Algorithm — 2023 Update</div><div class="card-source">AACE</div></div></div>
+        <div class="card-desc">Visual algorithm covering principles of T2D management, complications-centric model for obesity, prediabetes algorithm, ASCVD risk reduction, and stepwise pharmacotherapy prioritization with cardiorenal benefit.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.portailvasculaire.fr/sites/default/files/docs/2023_aace_consensus_statement_diabete_type_2_0.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="AACE ACE T2D management algorithm 2018 guidelines PDF">
+        <div class="card-top"><div class="card-num">10</div><div><div class="card-title">AACE/ACE T2D Management Algorithm (2018)</div><div class="card-source">AACE / American College of Endocrinology</div></div></div>
+        <div class="card-desc">Classic algorithm with 87 graded recommendations for lifestyle therapy, obesity management, prediabetes, and T2D pharmacotherapy. Key reference for understanding treatment prioritization by A1C level and comorbidities.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://pa-foundation.org/wp-content/uploads/AACE-2018-Guidelines.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="AACE advanced technology diabetes management CGM insulin pump 2021">
+        <div class="card-top"><div class="card-num">11</div><div><div class="card-title">AACE Guideline: Advanced Technology in Diabetes Management (2021)</div><div class="card-source">AACE</div></div></div>
+        <div class="card-desc">Evidence-based guidance on CGM systems (rtCGM, isCGM), insulin pump therapy, automated insulin delivery, and integration of diabetes technology into clinical practice.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://provider.dexcom.com/education-research/clinical-evidence/professional-society-guidelines/2021-advanced-diabetes-technology-guideline" class="link-primary" target="_blank">Access Guideline</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 3: IDF / WHO ===================== -->
+  <div class="section" id="sec3">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#004d40,#00897b)">🌍</div>
+      <div><h2>3. IDF & WHO — Global Diabetes Standards <span class="count">(6 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="book pdf free" data-search="IDF Diabetes Atlas 10th edition 2021 global prevalence epidemiology">
+        <div class="card-top"><div class="card-num">12</div><div><div class="card-title">IDF Diabetes Atlas — 10th Edition (2021)</div><div class="card-source">International Diabetes Federation</div></div></div>
+        <div class="card-desc">The most comprehensive global reference on diabetes epidemiology — 537 million adults living with diabetes, country-level data, projections to 2045, health expenditure, and COVID-19 impact chapter. Essential for epidemiology understanding.</div>
+        <div class="card-tags"><span class="tag book">Atlas</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://fmdiabetes.org/wp-content/uploads/2022/01/IDF_Atlas_10th_Edition_2021-comprimido.pdf" class="link-pdf" target="_blank">Download PDF</a>
+          <a href="https://diabetesatlas.org/" class="link-secondary" target="_blank">Interactive Atlas</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="IDF International Standards Diabetes Education health professionals 2014">
+        <div class="card-top"><div class="card-num">13</div><div><div class="card-title">IDF International Standards for Diabetes Education Programs</div><div class="card-source">International Diabetes Federation</div></div></div>
+        <div class="card-desc">Standards for designing, implementing, and evaluating diabetes education programs for health professionals. Covers curriculum, faculty, learning environment, and outcome indicators. Critical for understanding structured diabetes education.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://idf.org/media/uploads/2023/05/attachments-34.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="IDF clinical practice recommendations managing type 2 diabetes primary care">
+        <div class="card-top"><div class="card-num">14</div><div><div class="card-title">IDF Clinical Practice Recommendations for Managing T2D in Primary Care</div><div class="card-source">International Diabetes Federation</div></div></div>
+        <div class="card-desc">Practical algorithm-based guide for T2D management including insulin initiation (basal insulin 10 units or 0.2 units/kg), titration, GLP-1 RA, SGLT2i, and cardiorenal risk stratification. Excellent for clinical practice.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://idf.org/media/uploads/2023/05/attachments-63.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="IDF SACA clinical practice guideline diabetes education">
+        <div class="card-top"><div class="card-num">15</div><div><div class="card-title">IDF SACA Clinical Practice Guideline on Diabetes Education</div><div class="card-source">IDF South & Central America</div></div></div>
+        <div class="card-desc">Standardized evidence-based educational practices to improve health and well-being of people with diabetes. Developed for the SACA region but universally applicable principles for structured diabetes education delivery.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://idf.org/about-diabetes/resources/" class="link-primary" target="_blank">IDF Resources</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="WHO diabetes global monitoring prevention control framework indicators 2024">
+        <div class="card-top"><div class="card-num">16</div><div><div class="card-title">WHO Guidance on Global Monitoring for Diabetes Prevention & Control</div><div class="card-source">World Health Organization</div></div></div>
+        <div class="card-desc">Framework for diabetes monitoring including insulin availability, blood glucose self-monitoring, and health system indicators. Covers the WHO Global Diabetes Compact targets and national implementation strategies.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://cdn.who.int/media/docs/default-source/ncds/ncd-surveillance/guidance-on-global-monitoring-for-diabetes.pdf?sfvrsn=ccb261b8_4" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="video free" data-search="IDF understanding diabetes insulin safely free course online">
+        <div class="card-top"><div class="card-num">17</div><div><div class="card-title">IDF Understanding Diabetes — Insulin Safely (Free Course)</div><div class="card-source">International Diabetes Federation</div></div></div>
+        <div class="card-desc">Free 25-30 minute online course on what insulin is, why people with T1D and some with T2D/gestational diabetes need it, proper injection technique, storage, and safety. Part of the IDF Understanding Diabetes platform.</div>
+        <div class="card-tags"><span class="tag video">Course</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://understandingdiabetes.org/insulin-safely/en" class="link-primary" target="_blank">Start Course</a>
+          <a href="https://idf.org/about-diabetes/resources/?idf-category=education" class="link-secondary" target="_blank">All IDF Courses</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 4: EASD / ESC ===================== -->
+  <div class="section" id="sec4">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#1b5e20,#43a047)"> cardiovascular</div>
+      <div><h2>4. EASD & ESC — Diabetes-Cardiovascular Guidelines <span class="count">(4 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="guideline pdf free" data-search="ESC EASD guidelines diabetes pre-diabetes cardiovascular diseases 2019 2024">
+        <div class="card-top"><div class="card-num">18</div><div><div class="card-title">ESC/EASD Guidelines: Diabetes, Pre-Diabetes & CVD (2019/2024)</div><div class="card-source">European Society of Cardiology + EASD</div></div></div>
+        <div class="card-desc">Comprehensive guideline on diabetes and cardiovascular disease — risk stratification, diagnostic criteria, glucose-lowering therapies with CV outcome data, heart failure, CKD, and arrhythmias in diabetes.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.sfcardio.fr/wp-content/uploads/2024/10/recommandations-diabetes.pdf" class="link-pdf" target="_blank">Download PDF</a>
+          <a href="https://academic.oup.com/eurheartj/article/41/2/255/5556890" class="link-secondary" target="_blank">Journal</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ESC EASD pocket guidelines diabetes cardiovascular disease quick reference">
+        <div class="card-top"><div class="card-num">19</div><div><div class="card-title">ESC/EASD Pocket Guidelines — Diabetes & CVD</div><div class="card-source">ESC + EASD</div></div></div>
+        <div class="card-desc">Concise pocket reference for clinical use — risk scores (FINDRISC), screening strategies, diagnostic algorithms, and treatment pathways for diabetes and cardiovascular disease. Ideal for ward rounds.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.escardio.org/static-file/Escardio/education/eLearning/webinars/general-cardiology/guidelines_impmeetingdiabetes_1Ryden.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="EASD diabetes distress guideline 2025 psychosocial">
+        <div class="card-top"><div class="card-num">20</div><div><div class="card-title">EASD Guideline: Diabetes Distress (2025)</div><div class="card-source">European Association for the Study of Diabetes</div></div></div>
+        <div class="card-desc">First dedicated guideline on diabetes distress — screening, diagnosis, and management of psychological burden in T1D and T2D. Covers diabetes burnout, fear of hypoglycemia, and integrated psychosocial care models.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.easd.org/uploads/Final-Draft_EASD-Diabetes-Distress-Guideline.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="video free" data-search="EASD e-learning free courses diabetes education platform">
+        <div class="card-top"><div class="card-num">21</div><div><div class="card-title">EASD e-Learning Platform (Free Courses)</div><div class="card-source">EASD</div></div></div>
+        <div class="card-desc">Award-winning free e-learning platform with courses developed by world-class experts in diabetes research and care. Covers pathophysiology, therapeutics, technology, and clinical management. CME-accredited.</div>
+        <div class="card-tags"><span class="tag video">Course</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.easd.org/e-learning.html" class="link-primary" target="_blank">Access Platform</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 5: INDIAN (RSSDI/ICMR) ===================== -->
+  <div class="section" id="sec5">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#e65100,#ff8f00)">🇮🇳</div>
+      <div><h2>5. Indian Guidelines — RSSDI, ICMR & Endocrine Society of India <span class="count">(7 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="guideline pdf free" data-search="RSSDI clinical practice recommendations type 2 diabetes mellitus 2022">
+        <div class="card-top"><div class="card-num">22</div><div><div class="card-title">RSSDI Clinical Practice Recommendations: T2D Management (2022)</div><div class="card-source">Research Society for the Study of Diabetes in India</div></div></div>
+        <div class="card-desc">Comprehensive India-specific T2D guidelines with 143 pages covering screening, diagnosis, lifestyle, pharmacotherapy (including SGLT2i, GLP-1 RA), insulin initiation algorithms, and complications — tailored for Indian practice.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9534592/" class="link-primary" target="_blank">Read on PMC</a>
+          <a href="https://rssdi.in/newwebsite/pdfdata/Chawla2020_Article_RSSDI-ESIClinicalPracticeRecom.pdf" class="link-pdf" target="_blank">Download PDF (2020)</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="RSSDI ESI clinical practice recommendations type 2 diabetes 2020 supplement">
+        <div class="card-top"><div class="card-num">23</div><div><div class="card-title">RSSDI-ESI Clinical Practice Recommendations: T2D (2020)</div><div class="card-source">RSSDI + Endocrine Society of India</div></div></div>
+        <div class="card-desc">122-page supplement with India-specific recommendations on universal GDM screening, prediabetes management, paramedical team inclusion, CV risk factor modification, and the DM-TB dual burden. Key Indian reference.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://rssdi.in/newwebsite/pdfdata/Chawla2020_Article_RSSDI-ESIClinicalPracticeRecom.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="RSSDI consensus insulin therapy diabetes management 2019 algorithms">
+        <div class="card-top"><div class="card-num">24</div><div><div class="card-title">RSSDI Consensus: Insulin Therapy in Diabetes Management</div><div class="card-source">RSSDI</div></div></div>
+        <div class="card-desc">First dedicated RSSDI guideline on insulin — basal-bolus, split-mixed, premix, and prandial regimens with simple algorithms for initiation and titration. Includes Ramadan fasting adjustments. Critical for Indian clinical practice.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.researchgate.net/publication/337039316_RSSDI_consensus_recommendations_on_insulin_therapy_in_the_management_of_diabetes" class="link-primary" target="_blank">Access Paper</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="RSSDI expert consensus glucose monitoring diabetes India 2024 CGM SMBG">
+        <div class="card-top"><div class="card-num">25</div><div><div class="card-title">RSSDI Expert Consensus: Optimal Glucose Monitoring in India (2024)</div><div class="card-source">RSSDI</div></div></div>
+        <div class="card-desc">India-specific recommendations on SMBG frequency, CGM indications, flash glucose monitoring, and time-in-range targets for T1D, T2D, and GDM. Addresses resource-variable settings across India.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.rssdi.in/newwebsite/pdfdata/rssdiGuidelines/2024/2024-RSSDI-Expert-Consensus-for-Optimal-Glucose-Monitoring-in-Diabetes-Mellitus-in-India.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="RSSDI guidelines hyperglycemia hospitalized patients 2025 inpatient insulin">
+        <div class="card-top"><div class="card-num">26</div><div><div class="card-title">RSSDI Guidelines: Hyperglycemia in Hospitalized Patients (2025)</div><div class="card-source">RSSDI</div></div></div>
+        <div class="card-desc">India-specific inpatient glycemic management — IV insulin protocols for ICU, basal-bolus for non-critical care, transition from IV to SC insulin, perioperative management, glucocorticoid-induced hyperglycemia. Essential for ward duties.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.researchgate.net/publication/401360665_RSSDI_clinical_practice_guidelines_for_the_management_of_hyperglycemia_in_hospitalized_patients_2025" class="link-primary" target="_blank">Access Paper</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ICMR guidelines management type 2 diabetes India 2018 PDF">
+        <div class="card-top"><div class="card-num">27</div><div><div class="card-title">ICMR Guidelines: Management of Type 2 Diabetes in India (2018)</div><div class="card-source">Indian Council of Medical Research</div></div></div>
+        <div class="card-desc">National guidelines for Indian physicians covering definitions, epidemiology, screening, non-pharmacological and pharmacological treatment, complications, comorbidities, and pregnancy — the ICMR-INDIAB study-informed reference.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://main.icmr.nic.in/sites/default/files/guidelines/Diabetes_management_guidelines.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="ICMR guidelines management type 1 diabetes India PDF">
+        <div class="card-top"><div class="card-num">28</div><div><div class="card-title">ICMR Guidelines: Management of Type 1 Diabetes in India</div><div class="card-source">Indian Council of Medical Research</div></div></div>
+        <div class="card-desc">National guidelines for T1D management including insulin regimens, monitoring, sick-day rules, DKA management, psychological care, and school management plans tailored for the Indian healthcare context.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.icmr.gov.in/guidelines" class="link-primary" target="_blank">ICMR Guidelines Page</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 6: JOSLIN ===================== -->
+  <div class="section" id="sec6">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#0d47a1,#1976d2)">🎯</div>
+      <div><h2>6. Joslin Diabetes Center — Harvard Clinical Guidelines <span class="count">(5 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="guideline pdf free" data-search="Joslin clinical guidelines adults diabetes Harvard complete PDF AJMC">
+        <div class="card-top"><div class="card-num">29</div><div><div class="card-title">Joslin Clinical Guidelines for Adults With Diabetes (Complete)</div><div class="card-source">Joslin Diabetes Center, Harvard Medical School</div></div></div>
+        <div class="card-desc">Complete Joslin clinical guidelines covering cardiovascular health, lipids, blood pressure, nephropathy, retinopathy, neuropathy, foot care, and SMBG — published via AJMC. The standard Joslin reference for fellows.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://ajmc.s3.amazonaws.com/_media/_pdf/EBDM_Joslin_Frontmatter%20final.pdf" class="link-pdf" target="_blank">Download PDF</a>
+          <a href="https://docslib.org/doc/10384328/bringing-the-joslin-clinical-guidelines-to-the-diabetes-care-community" class="link-secondary" target="_blank">Full Chapters</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="Joslin guideline care older adult diabetes geriatric 2017 2018 Harvard">
+        <div class="card-top"><div class="card-num">30</div><div><div class="card-title">Joslin Guideline: Care of the Older Adult With Diabetes</div><div class="card-source">Joslin Diabetes Center, Harvard</div></div></div>
+        <div class="card-desc">Dedicated geriatric diabetes guideline — treatment goals by functional status, simplified medication regimens, hypoglycemia avoidance, geriatric syndrome screening, and education adaptation for aging. Revised 2017, updated 2018.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://joslin.org/-/media/files/joslin/joslin-guideline-for-the-care-of-the-older.pdf" class="link-pdf" target="_blank">Download PDF</a>
+          <a href="https://www.ajmc.com/view/chapter-4-guideline-for-the-care-of-the-older-adult-with-diabetes" class="link-secondary" target="_blank">AJMC Chapter</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="Joslin guideline pharmacological management type 2 diabetes adults">
+        <div class="card-top"><div class="card-num">31</div><div><div class="card-title">Joslin Guideline: Pharmacological Management of T2D in Adults</div><div class="card-source">Joslin Diabetes Center, Harvard</div></div></div>
+        <div class="card-desc">Comprehensive pharmacotherapy guideline — metformin, SGLT2i, GLP-1 RA, DPP-4i, TZDs, insulin regimens, combination therapy, and fixed-dose combinations. Evidence-graded recommendations.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://docslib.org/doc/10384328/bringing-the-joslin-clinical-guidelines-to-the-diabetes-care-community" class="link-primary" target="_blank">Access via AJMC</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="Joslin guideline detection management diabetes pregnancy gestational">
+        <div class="card-top"><div class="card-num">32</div><div><div class="card-title">Joslin Guideline: Detection & Management of Diabetes in Pregnancy</div><div class="card-source">Joslin Diabetes Center, Harvard</div></div></div>
+        <div class="card-desc">Guideline for GDM screening, preconception care in T1D/T2D, insulin management in pregnancy, glycemic targets, fetal monitoring, and postpartum follow-up.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://docslib.org/doc/10384328/bringing-the-joslin-clinical-guidelines-to-the-diabetes-care-community" class="link-primary" target="_blank">Access via AJMC</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="Joslin guideline clinical nutrition overweight obese type 2 diabetes prediabetes">
+        <div class="card-top"><div class="card-num">33</div><div><div class="card-title">Joslin Guideline: Clinical Nutrition for Overweight/Obese With T2D</div><div class="card-source">Joslin Diabetes Center, Harvard</div></div></div>
+        <div class="card-desc">Evidence-based nutrition guideline — macronutrient composition, carbohydrate counting, medical nutrition therapy, weight management strategies, and behavioral interventions for T2D and prediabetes.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://docslib.org/doc/10384328/bringing-the-joslin-clinical-guidelines-to-the-diabetes-care-community" class="link-primary" target="_blank">Access via AJMC</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 7: SGPGI / CMC VELLORE ===================== -->
+  <div class="section" id="sec7">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#4a148c,#7b1fa2)">🏫</div>
+      <div><h2>7. SGPGI & CMC Vellore — Indian Institutional Resources <span class="count">(5 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="book free" data-search="Practical Guide Diabetes Mellitus Nihal Thomas CMC Vellore seventh edition book">
+        <div class="card-top"><div class="card-num">34</div><div><div class="card-title">A Practical Guide to Diabetes Mellitus (7th Edition)</div><div class="card-source">CMC Vellore — Prof. Nihal Thomas et al.</div></div></div>
+        <div class="card-desc">The definitive Indian diabetes textbook from CMC Vellore, edited by Prof. Nihal Thomas. Combines rigorous pathophysiology with practical clinical approaches. Used as course material for the World Diabetes Foundation training program across 100+ hospitals in India. Forewords by Prof. Allan Vaag (Copenhagen) and Prof. Meredith Hawkins (Einstein, New York).</div>
+        <div class="card-tags"><span class="tag book">Book</span></div>
+        <div class="card-links">
+          <a href="https://pdfcoffee.com/a-practical-guide-to-diabetes-mellitus-7e-pdf-free.html" class="link-primary" target="_blank">Access Online</a>
+          <a href="https://www.cmcendovellore.org/publications-php/" class="link-secondary" target="_blank">CMC Vellore Publications</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="free" data-search="CMC Vellore endocrinology department publications books diabetes training program">
+        <div class="card-top"><div class="card-num">35</div><div><div class="card-title">CMC Vellore Endocrinology — Publications & Training Portal</div><div class="card-source">CMC Vellore Department of Endocrinology</div></div></div>
+        <div class="card-desc">Official portal for CMC Vellore's diabetes & endocrinology education books, DM training programs, and publications. Home to India's most influential diabetes education program with international reach (30+ countries).</div>
+        <div class="card-tags"><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.cmcendovellore.org/publications-php/" class="link-primary" target="_blank">Visit Portal</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="SGPGI Lucknow endocrinology department clinical protocols diabetes management">
+        <div class="card-top"><div class="card-num">36</div><div><div class="card-title">SGPGI Endocrinology — Clinical Protocols & Training Resources</div><div class="card-source">SGPGI, Lucknow — Dept. of Endocrinology</div></div></div>
+        <div class="card-desc">Sanjay Gandhi Postgraduate Institute of Medical Sciences (SGPGI) endocrinology department protocols for diabetes, thyroid, adrenal, and pituitary disorders. India's premier endocrinology training institution. Access via department academic resources.</div>
+        <div class="card-tags"><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://sgpgi.ac.in/" class="link-primary" target="_blank">SGPGI Website</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="book pdf free" data-search="Diabetes Education Goals book free archive.org diabetes education">
+        <div class="card-top"><div class="card-num">37</div><div><div class="card-title">Diabetes Education Goals — Free Book (Archive.org)</div><div class="card-source">Internet Archive</div></div></div>
+        <div class="card-desc">Free digital lending copy of a classic diabetes education reference text covering structured education goals, curriculum design, and competency frameworks for diabetes educators and clinicians.</div>
+        <div class="card-tags"><span class="tag book">Book</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://archive.org/details/diabeteseducatio0000unse" class="link-primary" target="_blank">Access on Archive.org</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="UPSTATE Joslin Diabetes Center Affiliate SUNY fellowship curriculum endocrinology">
+        <div class="card-top"><div class="card-num">38</div><div><div class="card-title">Endocrinology Fellowship Curriculum — Joslin/Upstate (PDF)</div><div class="card-source">SUNY Upstate / Joslin Affiliate</div></div></div>
+        <div class="card-desc">Complete endocrinology fellowship curriculum document with reading lists, conference schedules, DKA/HHS management protocols, insulin management guidelines, and evaluation frameworks. Excellent template for fellows.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.upstate.edu/endo/pdf/curriculum.pdf" class="link-pdf" target="_blank">Download PDF</a>
+          <a href="https://www.upstate.edu/endo/healthcare/joslin/resources/index.php" class="link-secondary" target="_blank">Joslin Resources</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 8: INSULIN EDUCATION ===================== -->
+  <div class="section" id="sec8">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#880e4f,#c2185b)">💉</div>
+      <div><h2>8. Insulin Education — Dedicated Resources <span class="count">(6 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="pdf free" data-search="insulin injection technique FITTER forum recommendations injection sites rotation">
+        <div class="card-top"><div class="card-num">39</div><div><div class="card-title">FITTER — Forum for Injection Technique & Therapy Expert Recommendations</div><div class="card-source">FITTER International</div></div></div>
+        <div class="card-desc">International consensus on insulin injection technique — needle length selection, site rotation, lipohypertrophy detection, proper injection procedure, and timing of insulin relative to meals. Essential clinical skill for fellows.</div>
+        <div class="card-tags"><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://fitter.in/" class="link-primary" target="_blank">FITTER Website</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="video free" data-search="Joslin Diabetes Center insulin education resources videos demonstrations patient education">
+        <div class="card-top"><div class="card-num">40</div><div><div class="card-title">Joslin Diabetes Education — Insulin & Monitoring Resources</div><div class="card-source">Joslin Diabetes Center / SUNY Upstate</div></div></div>
+        <div class="card-desc">Free PowerPoint presentations, demonstration videos, and handouts on blood glucose monitoring, insulin injection technique, sharps disposal, and hypoglycemia management from the Joslin Affiliate at SUNY Upstate.</div>
+        <div class="card-tags"><span class="tag video">Videos</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.upstate.edu/endo/healthcare/joslin/resources/index.php" class="link-primary" target="_blank">Access Resources</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="pdf free" data-search="insulin types action profiles onset peak duration rapid-acting long-acting reference chart">
+        <div class="card-top"><div class="card-num">41</div><div><div class="card-title">Insulin Types, Action Profiles & Dosing Reference</div><div class="card-source">Multiple Sources (ADA / AACE)</div></div></div>
+        <div class="card-desc">Comprehensive reference on all insulin types — rapid-acting (lispro, aspart, glulisine), short-acting (regular), intermediate (NPH), long-acting (glargine, detemir, degludec), and premix. Onset, peak, duration tables for fellow exam preparation.</div>
+        <div class="card-tags"><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.novonordiskmedical.com/content/dam/medical/novonordiskmedical/ta/diabetes/disease-education/resource-documents/abridged-ada-2025-standards-of-medical-care-in-diabetes.pdf" class="link-pdf" target="_blank">ADA Insulin Charts</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="insulin dose calculation total daily dose basal bolus correction factor insulin-to-carb ratio">
+        <div class="card-top"><div class="card-num">42</div><div><div class="card-title">Insulin Dosing Calculations — TDD, Basal-Bolus, Correction Factor</div><div class="card-source">Clinical Pharmacology Reference</div></div></div>
+        <div class="card-desc">Practical guide to insulin dose calculations — Total Daily Dose (TDD) estimation, basal:bolus split (50:50), insulin-to-carbohydrate ratios, correction/sensitivity factors, and titration algorithms from ADA/AACE/RSSDI guidelines.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://idf.org/media/uploads/2023/05/attachments-63.pdf" class="link-pdf" target="_blank">IDF Insulin Algorithm</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="insulin pump CSII continuous subcutaneous insulin infusion therapy guidelines">
+        <div class="card-top"><div class="card-num">43</div><div><div class="card-title">Insulin Pump Therapy (CSII) — Clinical Guidance</div><div class="card-source">Endocrine Society / AACE</div></div></div>
+        <div class="card-desc">Guidelines on patient selection for insulin pump therapy, basal rate programming, bolus calculator use, pump failure management, sick-day rules, and transition from MDI to CSII. Covered in Endocrine Society CSII guideline.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://academic.oup.com/jcem/article/108/3/529/6880627" class="link-primary" target="_blank">Endocrine Society</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="free video" data-search="insulin safely IDF free online course injection technique storage handling">
+        <div class="card-top"><div class="card-num">44</div><div><div class="card-title">IDF: Using Insulin Safely — Free Online Course</div><div class="card-source">IDF Understanding Diabetes</div></div></div>
+        <div class="card-desc">Free structured course on insulin safety — what insulin is, proper injection technique, storage and handling, timing, hypoglycemia recognition and management. Suitable for fellows teaching patients and nurses.</div>
+        <div class="card-tags"><span class="tag video">Course</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://understandingdiabetes.org/insulin-safely/en" class="link-primary" target="_blank">Start Course</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 9: ENDOCRINE SOCIETY ===================== -->
+  <div class="section" id="sec9">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#263238,#546e7a)">🔬</div>
+      <div><h2>9. Endocrine Society & Diabetes Canada — Specialized Guidelines <span class="count">(5 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="guideline free" data-search="Endocrine Society clinical practice guideline hypoglycemia diabetes high risk management 2022">
+        <div class="card-top"><div class="card-num">45</div><div><div class="card-title">Endocrine Society: Management of Diabetes at High Risk for Hypoglycemia</div><div class="card-source">Endocrine Society</div></div></div>
+        <div class="card-desc">Clinical practice guideline on hypoglycemia prevention and management — risk factor identification (CKD, older age, cognitive impairment, long-duration insulin use), CGM use, medication adjustment, and structured education programs.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://academic.oup.com/jcem/article/108/3/529/6880627" class="link-primary" target="_blank">Read Full Text</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="Endocrine Society inpatient hyperglycemia management guideline resources CGM insulin hospital">
+        <div class="card-top"><div class="card-num">46</div><div><div class="card-title">Endocrine Society: Inpatient Hyperglycemia Guideline Resources</div><div class="card-source">Endocrine Society</div></div></div>
+        <div class="card-desc">Resources for managing inpatient hyperglycemia — CGM use in hospitals, glucocorticoid-associated hyperglycemia, enteral nutrition insulin protocols, patient self-management with insulin pumps, and free CME clinician education.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.endocrine.org/clinical-practice-guidelines/inpatient-hyperglycemia-guideline-resources" class="link-primary" target="_blank">Access Resources</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="Diabetes Canada clinical practice guidelines 2024 quick reference guide PDF">
+        <div class="card-top"><div class="card-num">47</div><div><div class="card-title">Diabetes Canada CPG 2024 — Quick Reference Guide (PDF)</div><div class="card-source">Diabetes Canada</div></div></div>
+        <div class="card-desc">Comprehensive quick reference guide — screening/diagnosis, glycemic targets, pharmacotherapy algorithm (GLP-1 RA, SGLT2i prioritization), insulin initiation, hypoglycemia management, CKD, retinopathy, and pregnancy. 43 chapters of full guidelines available online.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://guidelines.diabetes.ca/getmedia/6c07d660-33a6-4cfa-abb0-e521eb4bb67d/2024-CPG-Quick-Reference-Guide_1.pdf" class="link-pdf" target="_blank">Download PDF</a>
+          <a href="https://guidelines.diabetes.ca/cpg" class="link-secondary" target="_blank">Full Guidelines</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline pdf free" data-search="NICE UK guidelines type 1 diabetes type 2 diabetes adults NG17 NG28">
+        <div class="card-top"><div class="card-num">48</div><div><div class="card-title">NICE Guidelines: T1D (NG17) & T2D (NG28) in Adults</div><div class="card-source">National Institute for Health and Care Excellence (UK)</div></div></div>
+        <div class="card-desc">UK NICE guidelines — T1D (CGM recommendations, insulin regimens, structured education) and T2D (stepwise pharmacotherapy, insulin initiation, self-monitoring). Evidence-based with health economics perspective.</div>
+        <div class="card-tags"><span class="tag guideline">Guideline</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.nice.org.uk/guidance/ng17" class="link-primary" target="_blank">T1D — NG17</a>
+          <a href="https://www.nice.org.uk/guidance/ng28" class="link-secondary" target="_blank">T2D — NG28</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="pdf free" data-search="Endocrine Society implementation guide diabetes hypoglycemia clinical practice PDF">
+        <div class="card-top"><div class="card-num">49</div><div><div class="card-title">Endocrine Society: Implementation Guide — Diabetes & Hypoglycemia</div><div class="card-source">Endocrine Society</div></div></div>
+        <div class="card-desc">Practical implementation guide comparing ADA, AACE, and VA/DoD guidelines on hypoglycemia management and diabetes self-management education (DSME). Cross-references multiple guideline recommendations for clinical integration.</div>
+        <div class="card-tags"><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.endocrine.org/-/media/endocrine/files/hpi/implementationguide.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== SECTION 10: LANDMARK TRIALS & BOOKS ===================== -->
+  <div class="section" id="sec10">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#f57f17,#ffb300)">📚</div>
+      <div><h2>10. Landmark Trials, Open Books & Supplementary Resources <span class="count">(6 resources)</span></h2></div>
+    </div>
+    <div class="cards">
+
+      <div class="card" data-tags="book free" data-search="Endotext free online endocrinology textbook diabetes mellitus sections South Dartmouth MDText">
+        <div class="card-top"><div class="card-num">50</div><div><div class="card-title">Endotext — Free Online Endocrinology Textbook (Diabetes Sections)</div><div class="card-source">MDText.com, Inc. (Endotext.org)</div></div></div>
+        <div class="card-desc">The definitive free online endocrinology textbook — comprehensive sections on diabetes pathophysiology, insulin secretion, T1D, T2D, DKA, hypoglycemia, and diabetes complications. Written by leading experts, continuously updated.</div>
+        <div class="card-tags"><span class="tag book">Book</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.endotext.org/" class="link-primary" target="_blank">Access Endotext</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="book free" data-search="Essentials Endocrinology Metabolism Practical Guide Fellows Wondisford Springer PDF">
+        <div class="card-top"><div class="card-num">51</div><div><div class="card-title">Essentials of Endocrinology & Metabolism: A Practical Guide</div><div class="card-source">Springer (Fredric E. Wondisford)</div></div></div>
+        <div class="card-desc">Structured fellow-focused textbook with chapters on diabetes types, diagnosis, complications, pharmacology, and case-based learning. Published by Springer with free chapter previews. Excellent board preparation resource.</div>
+        <div class="card-tags"><span class="tag book">Book</span><span class="tag free">Free Preview</span></div>
+        <div class="card-links">
+          <a href="https://link.springer.com/book/10.1007/978-3-030-39572-8" class="link-primary" target="_blank">Springer Link</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="free guideline" data-search="WHO Global Diabetes Compact insulin access 2021 centenary">
+        <div class="card-top"><div class="card-num">52</div><div><div class="card-title">WHO Global Diabetes Compact & Insulin Access Initiative</div><div class="card-source">World Health Organization</div></div></div>
+        <div class="card-desc">WHO's framework for improving diabetes care globally — insulin affordability, essential medicines list, health system strengthening, and national diabetes program implementation. Important for understanding policy context.</div>
+        <div class="card-tags"><span class="tag guideline">Policy</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://www.who.int/initiatives/global-diabetes-compact" class="link-primary" target="_blank">WHO GDC</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="guideline free" data-search="ESAP Endocrine Self-Assessment Program AACE board review endocrinology">
+        <div class="card-top"><div class="card-num">53</div><div><div class="card-title">ESAP — Endocrine Self-Assessment Program</div><div class="card-source">American Association of Clinical Endocrinology</div></div></div>
+        <div class="card-desc">The gold standard board review resource for endocrinology fellows — 120+ clinical cases with detailed explanations covering diabetes, thyroid, pituitary, adrenal, bone, and reproductive endocrinology. Essential for exam preparation.</div>
+        <div class="card-tags"><span class="tag guideline">Exam Prep</span></div>
+        <div class="card-links">
+          <a href="https://pro.aace.com/esap" class="link-primary" target="_blank">AACE ESAP</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="pdf free" data-search="ADA 2026 Standards of Care slide deck PPTX free download">
+        <div class="card-top"><div class="card-num">54</div><div><div class="card-title">ADA Standards of Care — Official Slide Deck (2025/2026)</div><div class="card-source">American Diabetes Association</div></div></div>
+        <div class="card-desc">Free downloadable PPTX slide deck of ADA's Standards of Care — created, reviewed, and approved by the ADA. Free to use in presentations with attribution. Excellent for teaching sessions and journal clubs.</div>
+        <div class="card-tags"><span class="tag pdf">Slides</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://professional.diabetes.org/standards-of-care" class="link-primary" target="_blank">Download Slides</a>
+        </div>
+      </div>
+
+      <div class="card" data-tags="book free" data-search="RSSDI ESI clinical practice recommendations type 2 diabetes India full PDF 2020">
+        <div class="card-top"><div class="card-num">55</div><div><div class="card-title">RSSDI-ESI Full Text PDF — T2D India (Supplement)</div><div class="card-source">RSSDI + Endocrine Society of India</div></div></div>
+        <div class="card-desc">Alternate direct PDF link to the full RSSDI-ESI clinical practice recommendations supplement — comprehensive Indian T2D management guide with 122 pages covering all aspects from screening to advanced insulin therapy.</div>
+        <div class="card-tags"><span class="tag book">Book</span><span class="tag pdf">PDF</span><span class="tag free">Free</span></div>
+        <div class="card-links">
+          <a href="https://scispace.com/pdf/rssdi-esi-clinical-practice-recommendations-for-the-uh2z15cg3a.pdf" class="link-pdf" target="_blank">Download PDF</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BONUS QUICK-REF TABLE -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-icon" style="background:linear-gradient(135deg,#311b92,#5c6bc0)">⚡</div>
+      <div><h2>Quick-Reference: Key Links at a Glance</h2></div>
+    </div>
+    <div style="overflow-x:auto; border-radius:var(--radius); box-shadow:var(--shadow);">
+      <table style="width:100%; border-collapse:collapse; background:#fff; font-size:0.85rem;">
+        <thead>
+          <tr style="background:var(--primary); color:#fff;">
+            <th style="padding:12px 16px; text-align:left;">Resource</th>
+            <th style="padding:12px 16px; text-align:left;">Organization</th>
+            <th style="padding:12px 16px; text-align:left;">Year</th>
+            <th style="padding:12px 16px; text-align:left;">Type</th>
+            <th style="padding:12px 16px; text-align:left;">Direct Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 16px;">Standards of Care</td><td>ADA</td><td>2025</td><td>Guideline</td><td><a href="https://professional.diabetes.org/standards-of-care" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee; background:#f5f5f5;"><td style="padding:10px 16px;">Comprehensive Care Plan</td><td>AACE</td><td>2022</td><td>Guideline</td><td><a href="https://pro.aace.com/clinical-guidance/2022-clinical-practice-guideline-development-diabetes-mellitus-comprehensive" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 16px;">Diabetes Atlas 10th Ed.</td><td>IDF</td><td>2021</td><td>Atlas</td><td><a href="https://diabetesatlas.org/" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee; background:#f5f5f5;"><td style="padding:10px 16px;">Diabetes & CVD</td><td>ESC/EASD</td><td>2019</td><td>Guideline</td><td><a href="https://academic.oup.com/eurheartj/article/41/2/255/5556890" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 16px;">T2D Management 2022</td><td>RSSDI</td><td>2022</td><td>Guideline</td><td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9534592/" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee; background:#f5f5f5;"><td style="padding:10px 16px;">T2D India</td><td>ICMR</td><td>2018</td><td>Guideline</td><td><a href="https://main.icmr.nic.in/sites/default/files/guidelines/Diabetes_management_guidelines.pdf" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 16px;">Clinical Guidelines (Full)</td><td>Joslin/Harvard</td><td>2017</td><td>Guideline</td><td><a href="https://ajmc.s3.amazonaws.com/_media/_pdf/EBDM_Joslin_Frontmatter%20final.pdf" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee; background:#f5f5f5;"><td style="padding:10px 16px;">Practical Guide to DM (7th Ed.)</td><td>CMC Vellore</td><td>Latest</td><td>Book</td><td><a href="https://pdfcoffee.com/a-practical-guide-to-diabetes-mellitus-7e-pdf-free.html" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 16px;">Insulin Therapy Consensus</td><td>RSSDI</td><td>2019</td><td>Guideline</td><td><a href="https://www.researchgate.net/publication/337039316" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee; background:#f5f5f5;"><td style="padding:10px 16px;">Hypoglycemia Risk</td><td>Endocrine Soc.</td><td>2022</td><td>Guideline</td><td><a href="https://academic.oup.com/jcem/article/108/3/529/6880627" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 16px;">DKA & HHS Consensus</td><td>ADA</td><td>2024</td><td>Consensus</td><td><a href="https://profketandhatariya.com/wp-content/uploads/2024/08/Diabetes-Care-2024.pdf" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+          <tr><td style="padding:10px 16px;">CPG Quick Reference</td><td>Diabetes Canada</td><td>2024</td><td>Guideline</td><td><a href="https://guidelines.diabetes.ca/cpg" target="_blank" style="color:var(--primary-light)">Link →</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <strong>🔬 Diabetes & Insulin Education for Endocrinology Fellows</strong><br>
+  Curated from the world's leading institutions — ADA, AACE, IDF, WHO, EASD, ESC, Joslin/Harvard, RSSDI, ICMR, CMC Vellore, SGPGI, Endocrine Society, Diabetes Canada, NICE<br>
+  All links are to free/open-access resources as of July 2026. For educational use only.<br>
+  <em>"Education is the most powerful weapon which you can use to change the world." — Nelson Mandela (quoted in IDF Standards)</em>
+</footer>
+
+<script>
+  // Nav scroll
+  function scrollToSection(id) {
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    if (id === 'all') {
+      window.scrollTo({ top: document.querySelector('.container').offsetTop - 60, behavior: 'smooth' });
+    } else {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  // Filter by tag
+  let activeFilter = 'all';
+  function setFilter(filter, btn) {
+    activeFilter = filter;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+  }
+
+  // Search
+  function filterCards() { applyFilters(); }
+
+  function applyFilters() {
+    const query = document.getElementById('searchInput').value.toLowerCase();
+    document.querySelectorAll('.card').forEach(card => {
+      const tags = card.dataset.tags || '';
+      const searchText = (card.dataset.search || '').toLowerCase();
+      const titleText = card.querySelector('.card-title')?.textContent.toLowerCase() || '';
+      const sourceText = card.querySelector('.card-source')?.textContent.toLowerCase() || '';
+
+      const matchesFilter = activeFilter === 'all' || tags.includes(activeFilter);
+      const matchesSearch = !query ||
+        searchText.includes(query) ||
+        titleText.includes(query) ||
+        sourceText.includes(query);
+
+      card.style.display = (matchesFilter && matchesSearch) ? '' : 'none';
+    });
+
+    // Hide empty sections
+    document.querySelectorAll('.section').forEach(sec => {
+      const visibleCards = sec.querySelectorAll('.card[style=""], .card:not([style])');
+      // Actually check display
+      let hasVisible = false;
+      sec.querySelectorAll('.card').forEach(c => {
+        if (c.style.display !== 'none') hasVisible = true;
+      });
+      sec.style.display = hasVisible ? '' : 'none';
+    });
+  }
+
+  // Animate cards on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationDelay = `${i * 0.05}s`;
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.card').forEach(card => observer.observe(card));
+</script>
+
+</body>
+</html>

@@ -172,6 +172,7 @@ const TOP_LEVEL: HeaderKind[] = [
   'pediatric_endo',
   'stories',
   'calculators',
+  'imaging_resources',
   'trials',
   'harrison_banner',
 ]

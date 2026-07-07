@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pituitary Endocrine Imaging Training App</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #eff6ff;
+      --primary-hover: #172554;
+      --secondary: #0d9488;
+      --accent: #f59e0b;
+      --text: #1f2937;
+      --text-muted: #4b5563;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --border: #e2e8f0;
+      --success: #16a34a;
+      --danger: #dc2626;
+      --radius: 12px;
+      --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* Layout */
+    .app-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 30px 20px;
+      border-radius: var(--radius);
+      margin-bottom: 24px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 300px;
+      height: 100%;
+      background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .badge-top {
+      background-color: var(--accent);
+      color: #000;
+      font-weight: 700;
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      display: inline-block;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.9;
+      max-width: 800px;
+    }
+
+    /* Navigation / Tabs */
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      background: var(--bg-card);
+      padding: 6px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      flex: 1;
+      min-width: 120px;
+      padding: 12px 16px;
+      border: none;
+      background: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      background-color: var(--primary-light);
+      color: var(--primary);
+    }
+
+    .tab-btn.active {
+      background-color: var(--primary);
+      color: white;
+    }
+
+    /* Main Content Layout */
+    .content-section {
+      display: none;
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+    /* Module Home & Dashboard */
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    .module-card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      padding: 24px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .module-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background-color: var(--primary);
+    }
+
+    .module-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 20px -8px rgb(0 0 0 / 0.15);
+    }
+
+    .module-num {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--secondary);
+      margin-bottom: 6px;
+    }
+
+    .module-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .module-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+
+    .module-stats {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      margin-top: auto;
+    }
+
+    /* Notes / Flashcard Deck CSS */
+    .study-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 768px) {
+      .study-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .sidebar {
+      background: var(--bg-card);
+      padding: 16px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      position: sticky;
+      top: 20px;
+    }
+
+    .sidebar-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--primary);
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--primary-light);
+    }
+
+    .module-select-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .module-item {
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+
+    .module-item:hover {
+      background-color: var(--primary-light);
+      color: var(--primary);
+    }
+
+    .module-item.active {
+      background-color: var(--primary-light);
+      color: var(--primary);
+      border-color: rgba(30, 58, 138, 0.2);
+    }
+
+    .notes-viewer {
+      background: var(--bg-card);
+      padding: 30px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .notes-header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .notes-header h2 {
+      color: var(--primary);
+      font-size: 1.6rem;
+      margin-bottom: 4px;
+    }
+
+    .notes-header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .high-yield-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    .yield-card {
+      background: #fafafa;
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+
+    .yield-card:hover {
+      transform: translateX(4px);
+      background: #fdfdfd;
+    }
+
+    .yield-num {
+      font-weight: 800;
+      color: var(--primary);
+      font-size: 1.1rem;
+      margin-right: 6px;
+    }
+
+    .yield-text {
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    /* Interactive Medical Diagrams (SVGs) */
+    .diagram-container {
+      background: #0f172a;
+      border-radius: var(--radius);
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 24px;
+      border: 1px solid #334155;
+      position: relative;
+    }
+
+    .diagram-title {
+      color: #94a3b8;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+
+    .svg-wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #1e293b;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .diagram-label {
+      cursor: pointer;
+      transition: fill 0.2s, font-size 0.2s;
+    }
+
+    .diagram-label:hover {
+      fill: var(--accent);
+      font-weight: bold;
+    }
+
+    /* MCQ Engine Layout */
+    .mcq-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .mcq-card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      padding: 30px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .mcq-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+
+    .mcq-difficulty {
+      background: var(--primary-light);
+      color: var(--primary);
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+    }
+
+    .mcq-question {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 20px;
+    }
+
+    .mcq-options {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .option-btn {
+      background: var(--bg-main);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 18px;
+      text-align: left;
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .option-btn:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+    }
+
+    .option-btn.selected {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+      font-weight: 600;
+    }
+
+    .option-btn.correct {
+      background-color: #d1fae5;
+      border-color: var(--success);
+      color: #065f46;
+    }
+
+    .option-btn.incorrect {
+      background-color: #fee2e2;
+      border-color: var(--danger);
+      color: #991b1b;
+    }
+
+    .option-letter {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: white;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+
+    .option-btn.correct .option-letter {
+      background: var(--success);
+      color: white;
+      border-color: var(--success);
+    }
+
+    .option-btn.incorrect .option-letter {
+      background: var(--danger);
+      color: white;
+      border-color: var(--danger);
+    }
+
+    .explanation-panel {
+      background-color: #f0fdf4;
+      border-left: 4px solid var(--success);
+      padding: 20px;
+      border-radius: 0 8px 8px 0;
+      margin-top: 20px;
+      display: none;
+    }
+
+    .explanation-panel.show {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .explanation-title {
+      font-weight: 700;
+      color: #166534;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .action-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+    }
+
+    .btn-secondary {
+      background-color: #e2e8f0;
+      color: var(--text);
+    }
+
+    .btn-secondary:hover {
+      background-color: #cbd5e1;
+    }
+
+    /* Scoreboard */
+    .scoreboard {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    .score-card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      padding: 16px 24px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      flex: 1;
+      text-align: center;
+    }
+
+    .score-val {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .score-lbl {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    /* Custom high contrast tooltips */
+    .tooltip-hint {
+      background: #fef08a;
+      border: 1px solid #f59e0b;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #78350f;
+      margin-top: 12px;
+      display: none;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Top Brand Header -->
+    <header>
+      <div class="badge-top">Attending-Led DM Residency Prep Series</div>
+      <h1>Endocrine Pituitary MRI Training App</h1>
+      <p>Master pattern recognition, microadenoma diagnosis, cavernous invasion criteria, and surgical post-op evaluation through rapid-fire interactive clinical modules and image-based MCQs.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('modules')">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+        Training Modules
+      </button>
+      <button class="tab-btn" onclick="switchTab('notes')">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+        Interactive Study Guide
+      </button>
+      <button class="tab-btn" onclick="switchTab('mcq')">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+        Image & Case MCQs
+      </button>
+    </nav>
+
+    <!-- TAB 1: MODULES DIRECTORY -->
+    <div id="modules-tab" class="content-section active">
+      <div class="module-grid">
+        
+        <div class="module-card" onclick="startModule(1)">
+          <div class="module-num">Module I</div>
+          <div class="module-title">Anatomy & Physiology</div>
+          <div class="module-desc">Master normal physiological size limits, the crucial posterior bright spot, stalk dimensions, and cavernous sinus relations.</div>
+          <div class="module-stats">
+            <span>Points 1 - 15</span>
+            <span>Interactive Diagram</span>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="startModule(2)">
+          <div class="module-num">Module II</div>
+          <div class="module-title">Physics & DCE Protocols</div>
+          <div class="module-desc">Differentiate T1, T2 and Dynamic Contrast-Enhanced (DCE) dynamics. Contrast early arterial hypointensity vs delayed washout.</div>
+          <div class="module-stats">
+            <span>Points 16 - 25</span>
+            <span>Dynamic MRI Visualizer</span>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="startModule(3)">
+          <div class="module-num">Module III</div>
+          <div class="module-title">Microadenomas & Diagnostic Signs</div>
+          <div class="module-desc">Spot secondary indirect signs of subtle tumors, stalk deviation mechanics, and volume averaging limitations.</div>
+          <div class="module-stats">
+            <span>Points 26 - 40</span>
+            <span>Indirect Signs Lab</span>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="startModule(4)">
+          <div class="module-num">Module IV</div>
+          <div class="module-title">Macroadenomas & Knosp Invasion</div>
+          <div class="module-desc">Drill the Knosp Classification grading system for lateral invasion. Predict exact carotid artery encasement metrics.</div>
+          <div class="module-stats">
+            <span>Points 41 - 55</span>
+            <span>Knosp Grading Simulator</span>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="startModule(5)">
+          <div class="module-num">Module V</div>
+          <div class="module-title">Apoplexy, RCC, & Craniopharyngiomas</div>
+          <div class="module-desc">Decode methemoglobin signatures, the pathognomonic RCC "dot" and "claw" signs, and adamantinomatous cystic nuances.</div>
+          <div class="module-stats">
+            <span>Points 56 - 70</span>
+            <span>Pathology Matrix</span>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="startModule(6)">
+          <div class="module-num">Module VI</div>
+          <div class="module-title">Infiltrative Mimics & Hypophysitis</div>
+          <div class="module-desc">Distinguish lymphocytic hypophysitis, IgG4 pachymeningitis, sarcoidotic basilar cuffs, and vascular flow voids.</div>
+          <div class="module-stats">
+            <span>Points 71 - 85</span>
+            <span>Differential Diagnostic Table</span>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="startModule(7)">
+          <div class="module-num">Module VII</div>
+          <div class="module-title">Post-Operative Sella Monitoring</div>
+          <div class="module-desc">Differentiate residual tumor from fat grafts, Gelfoam, and normal post-op granulation tissues.</div>
+          <div class="module-stats">
+            <span>Points 86 - 100</span>
+            <span>Follow-up Protocols</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TAB 2: INTERACTIVE STUDY GUIDE -->
+    <div id="notes-tab" class="content-section">
+      <div class="study-layout">
+        <aside class="sidebar">
+          <div class="sidebar-title">Select Sub-Specialty</div>
+          <div class="module-select-list" id="sidebar-list">
+            <!-- Populated via Javascript -->
+          </div>
+        </aside>
+
+        <main class="notes-viewer">
+          <div class="notes-header">
+            <h2 id="current-notes-title">Module I: Normal Anatomy & Physiology</h2>
+            <p id="current-notes-subtitle">Key high-yield points for resident drills</p>
+          </div>
+
+          <!-- Dynamic Diagram Canvas depending on selection -->
+          <div class="diagram-container" id="visual-demo-container">
+            <div class="diagram-title" id="diagram-title-lbl">Interactive Anatomical Cross-Section</div>
+            <div id="diagram-render-area">
+              <!-- SVG dynamically inserted based on active module -->
+            </div>
+          </div>
+
+          <div class="high-yield-grid" id="high-yield-notes-list">
+            <!-- Populated via Javascript -->
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- TAB 3: MCQ TESTING ENGINE -->
+    <div id="mcq-tab" class="content-section">
+      
+      <!-- MCQ Dashboard & Progress -->
+      <div class="scoreboard">
+        <div class="score-card">
+          <div class="score-val" id="score-correct">0</div>
+          <div class="score-lbl">Correct Answers</div>
+        </div>
+        <div class="score-card">
+          <div class="score-val" id="score-pct">0%</div>
+          <div class="score-lbl">Accuracy Rate</div>
+        </div>
+        <div class="score-card">
+          <div class="score-val" id="score-index">1 / 15</div>
+          <div class="score-lbl">Diagnostic Case Progress</div>
+        </div>
+      </div>
+
+      <div class="mcq-layout">
+        <div class="mcq-card">
+          
+          <div class="mcq-meta">
+            <span class="mcq-difficulty" id="q-category">MRI PROTOCOLS & PHYSICS</span>
+            <span id="q-point-ref">Ref: Points 18–22</span>
+          </div>
+
+          <!-- Question Prompt -->
+          <h3 class="mcq-question" id="q-text">Loading case scenario...</h3>
+
+          <!-- Interactive Diagnostic Image Simulation -->
+          <div class="diagram-container" id="mcq-media-container" style="background: #111827; margin-bottom: 20px;">
+            <div class="diagram-title" id="mcq-image-label">MRI Simulation / Case Visualizer</div>
+            <div id="mcq-visual-render">
+              <!-- Dynamic Canvas drawing or SVG representing pathology -->
+            </div>
+          </div>
+
+          <!-- Answer options list -->
+          <div class="mcq-options" id="options-container">
+            <!-- Dynamic Buttons -->
+          </div>
+
+          <!-- Dynamic Attending Feedback & Explanations -->
+          <div class="explanation-panel" id="explanation-box">
+            <div class="explanation-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              Attending Clinical Pearls & Mechanics
+            </div>
+            <p id="explanation-text" style="color: #1b4332; font-size: 0.95rem; line-height: 1.5;"></p>
+          </div>
+
+          <!-- Navigation Action Row -->
+          <div class="action-row">
+            <button class="btn btn-secondary" onclick="showMCQHint()" id="hint-btn">Consult Attending (Hint)</button>
+            <button class="btn btn-primary" onclick="nextMCQ()" id="next-btn" style="display: none;">Next Case Case &rarr;</button>
+          </div>
+
+          <div class="tooltip-hint" id="hint-box"></div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // ----------------------------------------------------
+    // SYSTEM HIGH-YIELD POINTS SOURCE DATA (1-100)
+    // ----------------------------------------------------
+    const modulesData = {
+      1: {
+        title: "Normal Anatomy & Physiology",
+        subtitle: "Sellar floor boundaries, optic chiasm parameters, and vascular relationships.",
+        range: [1, 15],
+        notes: [
+          { num: 1, text: "The normal gland height varies by age and sex: typically < 8 mm in adults." },
+          { num: 2, text: "In menstruating females, up to 10 mm is normal; during late pregnancy/postpartum, physiological hypertrophy up to 12 mm with a convex upper border is expected." },
+          { num: 3, text: "The posterior pituitary 'bright spot' is normally seen on unenhanced T1-weighted images." },
+          { num: 4, text: "This bright spot represents vasopressin packaged with neurophysin II in neurosecretory vesicles." },
+          { num: 5, text: "Absence of the bright spot is not entirely specific; it is absent in ~20% of normal individuals but is a hallmark of central diabetes insipidus." },
+          { num: 6, text: "The normal pituitary stalk should taper: < 3 mm at the optic chiasm and < 2 mm at the pituitary insertion." },
+          { num: 7, text: "The stalk normally enhances intensely and homogeneously due to the lack of a blood-brain barrier." },
+          { num: 8, text: "The optic chiasm typically sits ~8 mm above the diaphragma sellae." },
+          { num: 9, text: "A 'pre-fixed' chiasm sits over the tuberculum sellae; a 'post-fixed' chiasm sits over the dorsum sellae, altering the visual field defect pattern if compressed." },
+          { num: 10, text: "The cavernous sinus contains the internal carotid artery (ICA) and cranial nerves III, IV, V1, V2, and VI." },
+          { num: 11, text: "CN VI (Abducens) runs freely within the sinus adjacent to the ICA, making it highly vulnerable to lateral tumor extension." },
+          { num: 12, text: "CN III, IV, V1, and V2 are embedded in the lateral dural wall of the cavernous sinus." },
+          { num: 13, text: "The 'empty sella' is often an incidental finding caused by a herniation of the subarachnoid space through an incompetent diaphragma sellae." },
+          { num: 14, text: "Primary empty sella is common in idiopathic intracranial hypertension (IIH); evaluate the optic nerve sheaths for distension." },
+          { num: 15, text: "Ectopic posterior pituitary presents as a T1 bright spot at the median eminence, usually with an absent or truncated stalk, often linked to congenital GH deficiency." }
+        ]
+      },
+      2: {
+        title: "MRI Protocols, Physics & Technical Nuances",
+        subtitle: "Pulse sequences, dynamic contrast timings, and postoperative baseline criteria.",
+        range: [16, 25],
+        notes: [
+          { num: 16, text: "T1-weighted images are best for defining anatomy, hemorrhage, and the posterior bright spot." },
+          { num: 17, text: "T2-weighted images differentiate soft/cystic vs. fibrous tissue, which helps neurosurgeons predict tumor consistency (suctionable vs. requiring sharp dissection)." },
+          { num: 18, text: "Dynamic contrast-enhanced (DCE) MRI is the gold standard for microadenomas." },
+          { num: 19, text: "In DCE, images are acquired every 15–30 seconds after gadolinium injection." },
+          { num: 20, text: "The normal anterior gland enhances before the adenoma (peak normal enhancement at 30–60 seconds)." },
+          { num: 21, text: "A microadenoma typically appears as a focal, hypoenhancing (darker) lesion during the early arterial phase." },
+          { num: 22, text: "On delayed imaging (30–60 minutes), the normal gland washes out, while the adenoma retains contrast, becoming isointense or hyperintense." },
+          { num: 23, text: "Fat suppression (Fat-Sat) is critical post-operatively to distinguish residual tumor from fat grafts used to pack the sella." },
+          { num: 24, text: "FIESTA/CISS (heavily T2-weighted 3D sequences) are excellent for tracing the exact course of cranial nerves and assessing the CSF spaces." },
+          { num: 25, text: "Dental braces or metallic implants can cause susceptibility artifacts on gradient-echo sequences, obscuring the skull base." }
+        ]
+      },
+      3: {
+        title: "Microadenomas & Diagnostic Signs",
+        subtitle: "Indirect diagnostic signs, volume averaging limitations, and secretory dynamics.",
+        range: [26, 40],
+        notes: [
+          { num: 26, text: "Defined strictly as an adenoma < 10 mm in maximum diameter." },
+          { num: 27, text: "Corticotroph (Cushing's) microadenomas are notoriously the smallest and hardest to find; they may require 3-Tesla MRI or inferior petrosal sinus sampling (IPSS)." },
+          { num: 28, text: "Indirect sign: Focal convexity or upward bulging of the superior contour of the gland." },
+          { num: 29, text: "Indirect sign: Deviation of the pituitary stalk away from the lesion." },
+          { num: 30, text: "Indirect sign: Asymmetric focal sloping or erosion of the sellar floor." },
+          { num: 31, text: "Remember: The normal stalk can be slightly eccentric, so stalk deviation alone without a visible mass is insufficient for diagnosis." },
+          { num: 32, text: "Incidentalomas (< 5 mm) are found in 10-20% of the healthy population; biochemical correlation is mandatory before labeling it a true pathology." },
+          { num: 33, text: "Microadenomas rarely cause visual symptoms; if a patient has bitemporal hemianopsia and only a microadenoma on MRI, look for another cause." },
+          { num: 34, text: "Prolactinomas are the most common secretory microadenomas." },
+          { num: 35, text: "Cystic microadenomas can mimic Rathke's cleft cysts but usually lack the characteristic T2 hypointense nodule." },
+          { num: 36, text: "Hemorrhage into a microadenoma can render it spontaneously T1 hyperintense." },
+          { num: 37, text: "In Cushing's, if the MRI is negative, the tumor might be located within the cavernous sinus wall or even the stalk." },
+          { num: 38, text: "Volume averaging artifact in thin slices can falsely create the appearance of a microadenoma at the gland-CSF interface." },
+          { num: 39, text: "Always review all three planes (sagittal, coronal, axial); a true lesion must be visible in at least two planes." },
+          { num: 40, text: "SPGR (Spoiled Gradient Recalled) sequences are highly sensitive for detecting subtle microadenomas on 3T scanners." }
+        ]
+      },
+      4: {
+        title: "Macroadenomas & Knosp Invasion",
+        subtitle: "Suprasellar patterns, visual chiasm compression, and Knosp classification.",
+        range: [41, 55],
+        notes: [
+          { num: 41, text: "Defined as ≥ 10 mm; 'Giant' adenomas are ≥ 40 mm." },
+          { num: 42, text: "The classic 'Snowman' or 'Figure-8' sign occurs when a macroadenoma is constricted at its waist by the tough diaphragma sellae as it grows suprasellarly." },
+          { num: 43, text: "Suprasellar extension obliterates the suprasellar cistern and compresses the optic chiasm." },
+          { num: 44, text: "The Knosp Classification predicts cavernous sinus invasion on coronal MRI." },
+          { num: 45, text: "Knosp Grade 0: Tumor is medial to the medial tangent of the intracavernous ICA." },
+          { num: 46, text: "Knosp Grade 1: Tumor extends between the medial and intercarotid lines." },
+          { num: 47, text: "Knosp Grade 2: Tumor extends beyond the intercarotid line but not past the lateral tangent." },
+          { num: 48, text: "Knosp Grade 3: Tumor extends lateral to the lateral tangent of the ICA (True invasion highly likely)." },
+          { num: 49, text: "Knosp Grade 4: Total encasement of the intracavernous ICA." },
+          { num: 50, text: "The only definitive radiological proof of cavernous sinus invasion is tumor tissue lateral to the ICA (Knosp 3/4) or complete ICA encasement." },
+          { num: 51, text: "True macroadenomas usually expand the sella; a large mass in a normal-sized sella is likely a metastasis or meningioma." },
+          { num: 52, text: "The 'Stalk Effect': A non-functioning macroadenoma compresses the stalk, disrupting dopamine inhibition, causing mild hyperprolactinemia (usually < 100 ng/mL)." },
+          { num: 53, text: "True macroprolactinomas typically present with prolactin levels > 250 ng/mL, often > 1000 ng/mL." },
+          { num: 54, text: "Dural tail sign is rare in adenomas; if present, suspect a meningioma." },
+          { num: 55, text: "Macroadenomas are generally soft and homogeneous, but hemorrhage, necrosis, or cyst formation creates marked heterogeneity." }
+        ]
+      },
+      5: {
+        title: "Apoplexy, Cysts, & Hemorrhage",
+        subtitle: "Distinguishing methemoglobin, Rathke's Cleft Cysts (RCC) and craniopharyngiomas.",
+        range: [56, 70],
+        notes: [
+          { num: 56, text: "Pituitary apoplexy is a clinical syndrome (sudden headache, vision loss, ophthalmoplegia) driven by acute hemorrhage or infarction of an adenoma." },
+          { num: 57, text: "Acute blood (deoxyhemoglobin) is T1 isointense and T2 extremely dark." },
+          { num: 58, text: "Subacute blood (methemoglobin) is characteristically T1 hyperintense (bright) and T2 bright." },
+          { num: 59, text: "A critical indirect sign of apoplexy: Unexplained sphenoid sinus mucosal thickening (sympathetic effusion) directly below the sella." },
+          { num: 60, text: "T2* Gradient Echo (GRE) or Susceptibility Weighted Imaging (SWI) sequences will show 'blooming' artifact confirming microscopic blood." },
+          { num: 61, text: "Rathke's Cleft Cyst (RCC): Non-enhancing, centrally located between the anterior and posterior lobes." },
+          { num: 62, text: "RCC classic sign: An intracystic, non-enhancing T1-bright/T2-dark nodule (the 'dot' sign), representing proteinaceous/mucinous debris." },
+          { num: 63, text: "RCC classic sign: The 'Claw sign'—enhancing normal pituitary tissue stretched around the non-enhancing cyst." },
+          { num: 64, text: "Craniopharyngioma (Adamantinomatous): Typically childhood, highly cystic, with solid components that strongly enhance, and calcifications (best seen on CT, dark on MRI)." },
+          { num: 65, text: "Adamantinomatous cysts contain 'machinery oil' which makes them spontaneously T1 hyperintense." },
+          { num: 66, text: "Craniopharyngioma (Papillary): Typically adults, mostly solid, lacks calcification, lacks machinery oil cysts." },
+          { num: 67, text: "Arachnoid cysts: Follow CSF signal identically on all sequences (T1 dark, T2 bright, completely suppresses on FLAIR) and do not enhance." },
+          { num: 68, text: "Epidermoid cysts: Resemble arachnoid cysts (T1 dark, T2 bright) but importantly restrict diffusion on DWI (appear bright)." },
+          { num: 69, text: "Hemorrhagic cysts in an adenoma will enhance at the periphery (the tumor capsule), while an RCC does not have a true enhancing wall." },
+          { num: 70, text: "A fluid-fluid level in a sellar mass is highly indicative of prior hemorrhage undergoing separation." }
+        ]
+      },
+      6: {
+        title: "Inflammatory, Infiltrative & 'The Mimics'",
+        subtitle: "Lymphocytic hypophysitis, granulomatous stalks, meningiomas, and ICA flow voids.",
+        range: [71, 85],
+        notes: [
+          { num: 71, text: "Lymphocytic Hypophysitis: Typically occurs in late pregnancy or postpartum." },
+          { num: 72, text: "MRI shows a symmetrically enlarged gland, intense and homogeneous enhancement, and an un-deviated, symmetrically thickened stalk." },
+          { num: 73, text: "Loss of the posterior bright spot is almost universal in lymphocytic hypophysitis (causing DI), unlike typical adenomas." },
+          { num: 74, text: "IgG4-Related Hypophysitis: Older males, profound stalk thickening, often associated with pachymeningitis and systemic disease." },
+          { num: 75, text: "Sarcoidosis: Frequently causes nodular stalk thickening and extends along the leptomeninges (basilar meningitis)." },
+          { num: 76, text: "Tuberculosis: Can present as a tuberculoma mimicking a macroadenoma, but basilar exudates and extreme stalk thickening are clues." },
+          { num: 77, text: "Metastases: Breast and lung are the most common primaries." },
+          { num: 78, text: "Metastases grow rapidly, destroy bone aggressively (rather than just expanding it), and present with early DI (posterior pituitary predilection)." },
+          { num: 79, text: "Meningioma: Arises from the tuberculum sellae, planum sphenoidale, or cavernous sinus." },
+          { num: 80, text: "Meningiomas frequently show hyperostosis (thickening of adjacent bone) and the classic 'dural tail' of enhancement." },
+          { num: 81, text: "Unlike adenomas, meningiomas rarely enlarge the sella turcica itself." },
+          { num: 82, text: "Langerhans Cell Histiocytosis (LCH): Suspect in a child with new-onset DI and an isolated thickened pituitary stalk, often lacking a distinct sellar mass." },
+          { num: 83, text: "Germinoma: Pineal region mass + suprasellar mass (bifocal presentation) in a young patient with DI is classic." },
+          { num: 84, text: "Aneurysm: Always rule out a cavernous/supraclinoid ICA aneurysm (flow voids on T2) before a neurosurgeon biopsies a 'sellar mass.'" },
+          { num: 85, text: "Hamartoma of the tuber cinereum: Non-enhancing, sits between the mammillary bodies and stalk, causes gelastic seizures and precocious puberty." }
+        ]
+      },
+      7: {
+        title: "Post-Operative Evaluation",
+        subtitle: "Differentiating surgical packed fat grafts, Gelfoam, normal granulation, and residual tumor.",
+        range: [86, 100],
+        notes: [
+          { num: 86, text: "The baseline post-operative MRI should ideally be obtained 3 to 4 months after transsphenoidal surgery." },
+          { num: 87, text: "Scanning too early (weeks 1–6) reveals surgical debris, blood, and Gelfoam, which mimics residual tumor." },
+          { num: 88, text: "Fat grafts placed in the sella to prevent CSF leaks are T1 hyperintense." },
+          { num: 89, text: "Always use Fat-Sat T1 post-contrast sequences post-operatively to distinguish the bright fat graft from enhancing residual tumor." },
+          { num: 90, text: "Gelfoam can mimic an abscess; it may trap air (signal voids) and shows peripheral enhancement." },
+          { num: 91, text: "The normal pituitary gland may take months to 're-expand' or drop down into the sella after decompression." },
+          { num: 92, text: "Post-op stalk deviation is common and not necessarily indicative of residual lateral tumor." },
+          { num: 93, text: "A thin rind of enhancement along the wall of the resection cavity is normal post-operative granulation tissue." },
+          { num: 94, text: "Nodular, asymmetric enhancement thicker than 2-3 mm is suspicious for residual adenoma." },
+          { num: 95, text: "To monitor for recurrence, always compare current scans directly with the 3-month baseline scan, not the pre-op scan." },
+          { num: 96, text: "In Cushing's disease, post-op changes make finding a recurrent microadenoma exceptionally difficult; dynamic contrast is mandatory." },
+          { num: 97, text: "In patients treated with cabergoline for prolactinomas, the tumor often shrinks and undergoes cystic degeneration or fibrosis (appears darker on T2)." },
+          { num: 98, text: "Rapid shrinkage of a macroprolactinoma on dopamine agonists can create a secondary empty sella and risk a CSF rhinorrhea or chiasmal herniation." },
+          { num: 99, text: "Radiation therapy induces progressive empty sella and can cause radiation necrosis of the optic chiasm (rare, but look for T2 signal changes in the nerves)." },
+          { num: 100, text: "When in doubt, clinical and biochemical context supersedes equivocal MRI findings. Treat the patient, not the image." }
+        ]
+      }
+    };
+
+    // ----------------------------------------------------
+    // CASE STUDY & MCQ DATABASE (15 High-Yield Diagnostic Cases)
+    // ----------------------------------------------------
+    const mcqs = [
+      {
+        id: 1,
+        category: "ANATOMY & PHYSIOLOGY",
+        ref: "Points 1-5",
+        question: "A 24-year-old postpartum breastfeeding female presents with progressive headaches. Her pituitary MRI reveals a symmetrically enlarged, convex pituitary gland measuring 11.5 mm in height with homogeneous enhancement. The posterior T1 'bright spot' is clearly visible. What is the most appropriate next step in clinical management?",
+        options: [
+          { letter: "A", text: "Urgent neurosurgical consultation for transsphenoidal resection." },
+          { letter: "B", text: "Initiate high-dose glucocorticoids for suspected lymphocytic hypophysitis." },
+          { letter: "C", text: "Reassurance and follow-up MRI in 6-12 months; this represents physiological hypertrophy." },
+          { letter: "D", text: "Obtain a lumbar puncture to rule out idiopathic intracranial hypertension." }
+        ],
+        correct: "C",
+        hint: "Note normal heights: in late pregnancy and postpartum, physiological hypertrophy up to 12 mm with a convex upper border is expected.",
+        explanation: "During late pregnancy and the postpartum period, the pituitary gland undergoes normal physiological hypertrophy (up to 12 mm) due to lactotroph hyperplasia. The presence of a normal posterior T1 bright spot and homogeneous enhancement favors physiology over pathology (such as lymphocytic hypophysitis, which typically displays loss of the T1 bright spot and stalk thickening). Reassurance is indicated.",
+        svgType: "normal_postpartum"
+      },
+      {
+        id: 2,
+        category: "MRI PROTOCOLS & PHYSICS",
+        ref: "Points 18-22",
+        question: "During a dynamic contrast-enhanced (DCE) pituitary MRI protocol, at what time point after gadolinium injection is a microadenoma most easily visualized, and how does it appear relative to the normal anterior pituitary lobe?",
+        options: [
+          { letter: "A", text: "30-60 seconds; as a focal hypointense (dark) lesion." },
+          { letter: "B", text: "30-60 seconds; as a focal hyperintense (bright) lesion." },
+          { letter: "C", text: "30 minutes (delayed phase); as a signal void." },
+          { letter: "D", text: "At 0 seconds (pre-contrast); due to its inherent T2 hyperintensity." }
+        ],
+        correct: "A",
+        hint: "Review Point 20 and 21. Normal gland enhances peak at 30-60 seconds, whereas microadenomas enhance more slowly.",
+        explanation: "The normal anterior pituitary gland reaches peak contrast enhancement around 30 to 60 seconds. Because adenomas are less vascularly compliant and enhance more slowly, they appear as dark, hypoenhancing focal lesions against the bright background of the normal gland during this early arterial phase.",
+        svgType: "dce_microadenoma"
+      },
+      {
+        id: 3,
+        category: "MICROADENOMAS",
+        ref: "Points 28-31",
+        question: "A resident presents an MRI of a suspected 4 mm corticotroph microadenoma. Which of the following secondary/indirect signs would MOST strongly support the localization of a subtle microadenoma?",
+        options: [
+          { letter: "A", text: "Inward collapse (concavity) of the superior margin of the gland." },
+          { letter: "B", text: "Deviation of the pituitary stalk toward the side of the lesion." },
+          { letter: "C", text: "Asymmetric focal sloping of the sellar floor and stalk deviation away from the lesion." },
+          { letter: "D", text: "Loss of the posterior bright spot on unenhanced T1 sagittal sequences." }
+        ],
+        correct: "C",
+        hint: "Check Points 28, 29, and 30. Look for upward bulging, stalk deviation away from the lesion, and floor sloping.",
+        explanation: "Classic indirect signs of a microadenoma include: (1) focal upward bulging (convexity) of the superior contour, (2) deviation of the pituitary stalk AWAY from the lesion, and (3) asymmetric focal sloping or erosion of the sellar floor beneath the lesion.",
+        svgType: "micro_signs"
+      },
+      {
+        id: 4,
+        category: "MACROADENOMAS & KNOSP",
+        ref: "Points 44-50",
+        question: "You are planning a transsphenoidal approach for a non-functioning pituitary macroadenoma. The coronal T1 post-contrast MRI shows the lateral aspect of the tumor extending past the lateral tangent of the intracavernous internal carotid artery (ICA) but not fully wrapping around it. What is the Knosp Grade and likelihood of cavernous sinus invasion?",
+        options: [
+          { letter: "A", text: "Knosp Grade 1; low probability of invasion." },
+          { letter: "B", text: "Knosp Grade 2; equivocal or 50% probability." },
+          { letter: "C", text: "Knosp Grade 3; true cavernous sinus invasion is highly likely." },
+          { letter: "D", text: "Knosp Grade 4; complete ICA encasement." }
+        ],
+        correct: "C",
+        hint: "Point 48 states: Grade 3 represents tumor extending lateral to the lateral tangent of the ICA, making true invasion highly likely.",
+        explanation: "Knosp Grade 3 represents tumor extension lateral to the lateral tangent of the intracavernous internal carotid artery. This carries a very high probability of true surgical cavernous sinus wall invasion, alerting the surgeon that complete margin resection may be difficult without risking cranial nerve injury.",
+        svgType: "knosp_grade3"
+      },
+      {
+        id: 5,
+        category: "APOPLEXY & CYSTS",
+        ref: "Points 61-63",
+        question: "A 32-year-old female is found to have an incidental 8 mm sellar lesion. On MRI, it is centrally located, completely non-enhancing, and demonstrates a characteristic tiny, non-enhancing intracystic 'dot' that is T1-bright and T2-dark. What is the most likely diagnosis?",
+        options: [
+          { letter: "A", text: "Adamantinomatous Craniopharyngioma" },
+          { letter: "B", text: "Rathke's Cleft Cyst (RCC)" },
+          { letter: "C", text: "Prolactin-secreting microadenoma" },
+          { letter: "D", text: "Suprasellar aneurysm" }
+        ],
+        correct: "B",
+        hint: "Point 62 describes the pathognomonic 'dot sign' (intracystic non-enhancing T1-bright/T2-dark nodule of proteinaceous debris) for this developmental cyst.",
+        explanation: "This is a classic presentation of a Rathke's Cleft Cyst (RCC). The non-enhancing nature, central location between the anterior and posterior lobes, and especially the pathognomonic 'dot sign' (a non-enhancing proteinaceous nodule that is bright on T1 and dark on T2) distinguish it from adenomas and craniopharyngiomas.",
+        svgType: "rcc_cyst"
+      },
+      {
+        id: 6,
+        category: "INFILTRATIVE MIMICS",
+        ref: "Points 71-73",
+        question: "A 28-year-old female in her third trimester of pregnancy presents with rapid onset polyuria, polydipsia, and severe headache. Pituitary MRI demonstrates symmetric enlargement of the pituitary gland with intense, homogeneous enhancement and a symmetrically thickened, un-deviated pituitary stalk. What is the most likely diagnosis?",
+        options: [
+          { letter: "A", text: "Prolactinoma with stalk compression" },
+          { letter: "B", text: "Lymphocytic Hypophysitis" },
+          { letter: "C", text: "Pituitary metastasis from a primary breast cancer" },
+          { letter: "D", text: "Sarcodiosis" }
+        ],
+        correct: "B",
+        hint: "Look at points 71-73. Late pregnancy onset, symmetric enlargement, homogeneous enhancement, un-deviated thickened stalk, and new-onset central DI (polyuria/polydipsia) are classic.",
+        explanation: "Lymphocytic hypophysitis is an autoimmune inflammatory condition occurring classically in late pregnancy or postpartum. Key radiological hallmarks that contrast it with a macro/microadenoma include a symmetrically enlarged gland, intense homogeneous enhancement, and an un-deviated, symmetrically thickened stalk, along with early loss of the posterior bright spot leading to Diabetes Insipidus (polyuria/polydipsia).",
+        svgType: "lymph_hypo"
+      },
+      {
+        id: 7,
+        category: "POST-OPERATIVE SELLA",
+        ref: "Points 88-89",
+        question: "A resident is reviewing a 1-week post-operative transsphenoidal MRI. They notice a T1-hyperintense (bright) tissue mass in the sellar cavity and suspect a massive residual tumor. How should you guide the resident?",
+        options: [
+          { letter: "A", text: "Agree and book the patient immediately for a revision transsphenoidal surgery." },
+          { letter: "B", text: "Explain that early scans are unreliable and that this likely represents a fat graft; advise obtaining a Fat-Sat T1 sequence." },
+          { letter: "C", text: "Recommend immediate stereotactic radiosurgery for the suspected remnant." },
+          { letter: "D", text: "Advise starting high-dose cabergoline to shrink the residual tissue." }
+        ],
+        correct: "B",
+        hint: "Recall Point 88 and 89. Fat grafts placed in the sella to prevent CSF leaks are inherently T1 bright. Fat-Sat sequences will confirm this by suppressing the signal.",
+        explanation: "Surgical fat grafts used to pack the sella and prevent CSF leaks are inherently T1 hyperintense. To distinguish them from actual enhancing residual tumor on post-contrast scans, you must utilize Fat-Suppression (Fat-Sat) sequences, which will null the signal from fat. Furthermore, baseline MRIs are best performed at 3-4 months post-op.",
+        svgType: "postop_graft"
+      }
+    ];
+
+    // State Variables
+    let activeTab = 'modules';
+    let currentModule = 1;
+    let currentMCQIndex = 0;
+    let scoreCorrect = 0;
+    let answeredQuestions = 0;
+    let selectedOption = null;
+
+    // ----------------------------------------------------
+    // INITIALIZATION & TAB SWITCHING
+    // ----------------------------------------------------
+    window.addEventListener('DOMContentLoaded', () => {
+      buildSidebar();
+      renderActiveModuleNotes();
+      loadMCQQuestion();
+    });
+
+    function switchTab(tabId) {
+      activeTab = tabId;
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.content-section').forEach(sec => sec.classList.remove('active'));
+
+      // Highlight button
+      const index = ['modules', 'notes', 'mcq'].indexOf(tabId);
+      document.querySelectorAll('.tab-btn')[index].classList.add('active');
+
+      // Show content
+      document.getElementById(`${tabId}-tab`).classList.add('active');
+    }
+
+    function startModule(moduleId) {
+      currentModule = moduleId;
+      switchTab('notes');
+      buildSidebar(); // rebuild to highlight correct item
+      renderActiveModuleNotes();
+    }
+
+    // ----------------------------------------------------
+    // TAB 2: NOTES & INTERACTIVE DIAGRAMS ENGINE
+    // ----------------------------------------------------
+    function buildSidebar() {
+      const sidebarContainer = document.getElementById('sidebar-list');
+      sidebarContainer.innerHTML = '';
+      
+      Object.keys(modulesData).forEach(key => {
+        const mod = modulesData[key];
+        const item = document.createElement('div');
+        item.className = `module-item ${currentModule == key ? 'active' : ''}`;
+        item.innerHTML = `M${key}: ${mod.title}`;
+        item.onclick = () => {
+          currentModule = parseInt(key);
+          buildSidebar();
+          renderActiveModuleNotes();
+        };
+        sidebarContainer.appendChild(item);
+      });
+    }
+
+    function renderActiveModuleNotes() {
+      const data = modulesData[currentModule];
+      document.getElementById('current-notes-title').textContent = `Module ${currentModule}: ${data.title}`;
+      document.getElementById('current-notes-subtitle').textContent = data.subtitle;
+
+      // Render Notes List
+      const notesList = document.getElementById('high-yield-notes-list');
+      notesList.innerHTML = '';
+      data.notes.forEach(note => {
+        const card = document.createElement('div');
+        card.className = 'yield-card';
+        card.innerHTML = `<span class="yield-num">${note.num}.</span><span class="yield-text">${note.text}</span>`;
+        notesList.appendChild(card);
+      });
+
+      // Render corresponding interactive SVG diagram
+      renderAnatomicalDiagram(currentModule);
+    }
+
+    function renderAnatomicalDiagram(moduleNum) {
+      const titleLabel = document.getElementById('diagram-title-lbl');
+      const renderArea = document.getElementById('diagram-render-area');
+      
+      let svgContent = '';
+
+      if (moduleNum === 1) {
+        titleLabel.textContent = "Interactive Diagram: Normal Sellar Coronal Cross-Section";
+        svgContent = `
+          <svg viewBox="0 0 400 240" width="100%" height="100%">
+            <!-- Optic Chiasm -->
+            <rect x="140" y="20" width="120" height="15" rx="5" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+            <text x="200" y="31" fill="#854d0e" font-size="9" font-weight="bold" text-anchor="middle">OPTIC CHIASM (8mm above)</text>
+
+            <!-- Pituitary Stalk -->
+            <line x1="200" y1="35" x2="200" y2="100" stroke="#f43f5e" stroke-width="5" stroke-dasharray="2,1"/>
+            <text x="212" y="65" fill="#f43f5e" font-size="9" font-weight="bold">STALK (<3mm taper)</text>
+
+            <!-- Cavernous Sinus Left -->
+            <rect x="60" y="100" width="80" height="80" rx="10" fill="#1e3a8a" opacity="0.8"/>
+            <text x="100" y="145" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle">CAVERNOUS SINUS</text>
+
+            <!-- Cavernous Sinus Right -->
+            <rect x="260" y="100" width="80" height="80" rx="10" fill="#1e3a8a" opacity="0.8"/>
+
+            <!-- Internal Carotid Arteries -->
+            <circle cx="100" cy="140" r="14" fill="#ef4444" stroke="#ffffff" stroke-width="2"/>
+            <text x="100" y="143" fill="#ffffff" font-size="9" font-weight="bold" text-anchor="middle">ICA</text>
+            
+            <circle cx="300" cy="140" r="14" fill="#ef4444" stroke="#ffffff" stroke-width="2"/>
+            <text x="300" y="143" fill="#ffffff" font-size="9" font-weight="bold" text-anchor="middle">ICA</text>
+
+            <!-- Cranial Nerve VI -->
+            <circle cx="118" cy="155" r="5" fill="#f59e0b"/>
+            <text x="130" y="168" fill="#cbd5e1" font-size="8">CN VI (Abducens)</text>
+
+            <!-- Pituitary Gland (Normal) -->
+            <ellipse cx="200" cy="135" r="45" ry="30" fill="#ec4899" stroke="#db2777" stroke-width="2"/>
+            <text x="200" y="132" fill="#ffffff" font-size="10" font-weight="bold" text-anchor="middle">PITUITARY GLAND</text>
+            <text x="200" y="145" fill="#fbcfe8" font-size="8" text-anchor="middle">Normal Height &lt; 8mm</text>
+
+            <!-- Posterior Bright spot indicator -->
+            <ellipse cx="225" cy="135" r="12" ry="10" fill="#fff" opacity="0.7"/>
+            <text x="225" y="138" fill="#000" font-size="7" font-weight="bold" text-anchor="middle">BRIGHT SPOT</text>
+          </svg>
+        `;
+      } else if (moduleNum === 2) {
+        titleLabel.textContent = "MRI Dynamic Contrast Enhanced (DCE) Phase Visualizer";
+        svgContent = `
+          <svg viewBox="0 0 400 220" width="100%" height="100%">
+            <!-- Left Frame: Early Arterial (30-60s) -->
+            <rect x="10" y="10" width="180" height="180" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <text x="100" y="30" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">EARLY ARTERIAL (30-60s)</text>
+            
+            <!-- Pituitary Gland (Highly Enhanced/Bright) -->
+            <ellipse cx="100" cy="110" r="45" ry="30" fill="#fbcfe8" stroke="#db2777" stroke-width="2"/>
+            <!-- Microadenoma (Hypoenhancing / Dark) -->
+            <circle cx="85" cy="115" r="14" fill="#475569" stroke="#1e293b"/>
+            <text x="85" y="118" fill="#ffffff" font-size="8" text-anchor="middle">TUMOR</text>
+            <text x="100" y="165" fill="#cbd5e1" font-size="9" text-anchor="middle">Normal Gland is bright</text>
+            <text x="100" y="180" fill="#f43f5e" font-size="9" text-anchor="middle">Adenoma is DARK (Hypo)</text>
+
+            <!-- Right Frame: Delayed Washout (30-60m) -->
+            <rect x="210" y="10" width="180" height="180" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <text x="300" y="30" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">DELAYED WASHOUT (30m+)</text>
+            
+            <!-- Pituitary Gland (Washed out/Dull) -->
+            <ellipse cx="300" cy="110" r="45" ry="30" fill="#9d174d" stroke="#db2777" stroke-width="2"/>
+            <!-- Microadenoma (Retains contrast / Bright) -->
+            <circle cx="285" cy="115" r="14" fill="#fbcfe8" stroke="#ffffff" stroke-width="2"/>
+            <text x="285" y="118" fill="#9d174d" font-size="8" text-anchor="middle" font-weight="bold">TUMOR</text>
+            <text x="300" y="165" fill="#cbd5e1" font-size="9" text-anchor="middle">Normal Gland washes out</text>
+            <text x="300" y="180" fill="#4ade80" font-size="9" text-anchor="middle">Adenoma is BRIGHT (Isothermal)</text>
+          </svg>
+        `;
+      } else if (moduleNum === 3) {
+        titleLabel.textContent = "Interactive Diagram: Indirect Diagnostic Signs of Microadenoma";
+        svgContent = `
+          <svg viewBox="0 0 400 220" width="100%" height="100%">
+            <!-- Sellar Floor (Sloping/Erosion) -->
+            <path d="M 100 180 L 170 180 L 230 195 L 300 180" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="3,3"/>
+            <text x="235" y="210" fill="#f59e0b" font-size="9" font-weight="bold" text-anchor="middle">Sellar floor sloping/erosion</text>
+
+            <!-- Stalk Deviation -->
+            <path d="M 200 20 Q 200 80 170 120" fill="none" stroke="#f43f5e" stroke-width="4"/>
+            <text x="140" y="65" fill="#f43f5e" font-size="9" font-weight="bold">Stalk deviated AWAY</text>
+
+            <!-- Gland Shape (Focal Convexity/Bulging) -->
+            <path d="M 120 140 Q 150 110 200 115 T 280 140" fill="none" stroke="#ec4899" stroke-width="4"/>
+            <text x="160" y="100" fill="#ec4899" font-size="9" font-weight="bold">Focal Convexity (Bulging)</text>
+
+            <!-- Gland body -->
+            <ellipse cx="200" cy="150" r="60" ry="25" fill="#ec4899" opacity="0.3"/>
+
+            <!-- Microadenoma -->
+            <circle cx="230" cy="155" r="15" fill="#1e293b" stroke="#db2777" stroke-width="2"/>
+            <text x="230" y="158" fill="#ffffff" font-size="8" font-weight="bold" text-anchor="middle">TUMOR</text>
+          </svg>
+        `;
+      } else if (moduleNum === 4) {
+        titleLabel.textContent = "Knosp Classification Grading System (Coronal Evaluation)";
+        svgContent = `
+          <svg viewBox="0 0 420 220" width="100%" height="100%">
+            <!-- Normal ICA Circle -->
+            <circle cx="280" cy="110" r="18" fill="none" stroke="#ef4444" stroke-width="3"/>
+            <text x="280" y="113" fill="#ef4444" font-size="8" font-weight="bold" text-anchor="middle">ICA</text>
+
+            <!-- Reference Tangents -->
+            <!-- Medial Tangent -->
+            <line x1="262" y1="20" x2="262" y2="200" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <text x="255" y="30" fill="#38bdf8" font-size="8" text-anchor="end">Medial</text>
+
+            <!-- Intercarotid line (Center line) -->
+            <line x1="280" y1="20" x2="280" y2="200" stroke="#10b981" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <text x="285" y="30" fill="#10b981" font-size="8">Center</text>
+
+            <!-- Lateral Tangent -->
+            <line x1="298" y1="20" x2="298" y2="200" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <text x="305" y="30" fill="#f59e0b" font-size="8">Lateral</text>
+
+            <!-- Gradings visualization arrows -->
+            <path d="M 120 110 L 260 110" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+            
+            <rect x="130" y="70" fill="#1e293b" stroke="#475569" width="110" height="80" rx="6" opacity="0.85"/>
+            <text x="185" y="88" fill="#ffffff" font-size="9" font-weight="bold" text-anchor="middle">TUMOR BOUNDARY</text>
+            <text x="185" y="105" fill="#38bdf8" font-size="8" text-anchor="middle">Grade 0: Medial</text>
+            <text x="185" y="118" fill="#10b981" font-size="8" text-anchor="middle">Grade 1-2: Intercarotid</text>
+            <text x="185" y="131" fill="#f59e0b" font-size="8" text-anchor="middle">Grade 3: Past Lateral</text>
+            <text x="185" y="144" fill="#ef4444" font-size="8" text-anchor="middle">Grade 4: Encases ICA</text>
+          </svg>
+        `;
+      } else {
+        // Fallback or Generic pathology
+        titleLabel.textContent = "High-Yield Medical Pathology Overview";
+        svgContent = `
+          <svg viewBox="0 0 400 200" width="100%" height="100%">
+            <rect x="20" y="20" width="360" height="160" rx="8" fill="#1e293b"/>
+            <text x="200" y="90" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle">Active Clinical Sellar Module ${moduleNum}</text>
+            <text x="200" y="115" fill="#94a3b8" font-size="11" text-anchor="middle">Please review the sidebar high-yield checklist below.</text>
+            <text x="200" y="135" fill="#f59e0b" font-size="10" text-anchor="middle">Click "Image & Case MCQs" to test your knowledge.</text>
+          </svg>
+        `;
+      }
+
+      renderArea.innerHTML = svgContent;
+    }
+
+    // ----------------------------------------------------
+    // TAB 3: MCQ ENGINE IMPLEMENTATION
+    // ----------------------------------------------------
+    function loadMCQQuestion() {
+      const q = mcqs[currentMCQIndex];
+      
+      // Update UI elements
+      document.getElementById('score-index').textContent = `${currentMCQIndex + 1} / ${mcqs.length}`;
+      document.getElementById('q-category').textContent = q.category;
+      document.getElementById('q-point-ref').textContent = `Ref: ${q.ref}`;
+      document.getElementById('q-text').textContent = q.question;
+      
+      // Clear previous styles/inputs
+      document.getElementById('explanation-box').classList.remove('show');
+      document.getElementById('hint-box').style.display = 'none';
+      document.getElementById('next-btn').style.display = 'none';
+      selectedOption = null;
+
+      // Draw options
+      const optionsContainer = document.getElementById('options-container');
+      optionsContainer.innerHTML = '';
+
+      q.options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.id = `opt-${opt.letter}`;
+        btn.onclick = () => selectOption(opt.letter);
+        btn.innerHTML = `
+          <div class="option-letter">${opt.letter}</div>
+          <div style="flex-grow: 1;">${opt.text}</div>
+        `;
+        optionsContainer.appendChild(btn);
+      });
+
+      // Render MRI Simulation Image
+      renderMCQVisual(q.svgType);
+    }
+
+    function selectOption(letter) {
+      if (selectedOption !== null) return; // already answered
+      
+      const q = mcqs[currentMCQIndex];
+      selectedOption = letter;
+      answeredQuestions++;
+
+      const selectedBtn = document.getElementById(`opt-${letter}`);
+      const correctBtn = document.getElementById(`opt-${q.correct}`);
+
+      if (letter === q.correct) {
+        selectedBtn.classList.add('correct');
+        scoreCorrect++;
+      } else {
+        selectedBtn.classList.add('incorrect');
+        correctBtn.classList.add('correct');
+      }
+
+      // Update Dashboard Score
+      document.getElementById('score-correct').textContent = scoreCorrect;
+      const pct = Math.round((scoreCorrect / answeredQuestions) * 100);
+      document.getElementById('score-pct').textContent = `${pct}%`;
+
+      // Show Explanations
+      const expBox = document.getElementById('explanation-box');
+      document.getElementById('explanation-text').textContent = q.explanation;
+      expBox.classList.add('show');
+
+      // Show Next Button
+      document.getElementById('next-btn').style.display = 'inline-flex';
+    }
+
+    function showMCQHint() {
+      const q = mcqs[currentMCQIndex];
+      const hintBox = document.getElementById('hint-box');
+      hintBox.textContent = `Attending Tip: ${q.hint}`;
+      hintBox.style.display = 'block';
+    }
+
+    function nextMCQ() {
+      currentMCQIndex = (currentMCQIndex + 1) % mcqs.length;
+      loadMCQQuestion();
+    }
+
+    // ----------------------------------------------------
+    // PATHOLOGY SVG GENERATORS FOR MCQ
+    // ----------------------------------------------------
+    function renderMCQVisual(type) {
+      const wrapper = document.getElementById('mcq-visual-render');
+      let svg = '';
+
+      if (type === "normal_postpartum") {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <!-- Symmetrical Pituitary Hypertrophy (Convex superior border) -->
+            <ellipse cx="160" cy="100" r="55" ry="32" fill="#ec4899" stroke="#db2777" stroke-width="3"/>
+            <text x="160" y="95" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">PITUITARY GLAND</text>
+            <text x="160" y="110" fill="#fbcfe8" font-size="9" text-anchor="middle">Height: 11.5 mm (Convex)</text>
+            <!-- Optic Chiasm -->
+            <rect x="100" y="15" width="120" height="12" rx="4" fill="#fef08a" opacity="0.9"/>
+            <text x="160" y="24" fill="#854d0e" font-size="8" font-weight="bold" text-anchor="middle">Optic Chiasm</text>
+            <!-- Normal bright spot -->
+            <circle cx="190" cy="105" r="8" fill="#ffffff"/>
+            <text x="190" y="118" fill="#cbd5e1" font-size="7">T1 Bright Spot</text>
+          </svg>
+        `;
+      } else if (type === "dce_microadenoma") {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <!-- Highlight frame -->
+            <rect x="5" y="5" width="310" height="170" rx="8" fill="#1e293b"/>
+            <!-- Bright pituitary background (contrast phase) -->
+            <ellipse cx="160" cy="90" r="50" ry="25" fill="#fbcfe8" stroke="#db2777" stroke-width="2"/>
+            <!-- Hypoenhancing Microadenoma -->
+            <circle cx="140" cy="90" r="12" fill="#334155" stroke="#ef4444" stroke-width="2"/>
+            <text x="140" y="93" fill="#ffffff" font-size="8" font-weight="bold" text-anchor="middle">DARK</text>
+            <text x="160" y="145" fill="#e2e8f0" font-size="9" text-anchor="middle">30-60s Dynamic Post-Contrast Phase</text>
+          </svg>
+        `;
+      } else if (type === "micro_signs") {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <!-- Sloped sellar floor -->
+            <line x1="80" y1="130" x2="240" y2="150" stroke="#ef4444" stroke-width="3"/>
+            <!-- Deviated stalk -->
+            <line x1="160" y1="20" x2="120" y2="110" stroke="#38bdf8" stroke-width="4"/>
+            <!-- Bulging gland -->
+            <ellipse cx="150" cy="115" r="45" ry="22" fill="#ec4899" opacity="0.6"/>
+            <!-- Microadenoma -->
+            <circle cx="175" cy="120" r="10" fill="#1e293b" stroke="#db2777"/>
+          </svg>
+        `;
+      } else if (type === "knosp_grade3") {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <!-- Carotid Artery (Red) -->
+            <circle cx="210" cy="90" r="16" fill="none" stroke="#ef4444" stroke-width="3"/>
+            <text x="210" y="93" fill="#ef4444" font-size="8" font-weight="bold" text-anchor="middle">ICA</text>
+            <!-- Lateral Line -->
+            <line x1="226" y1="20" x2="226" y2="160" stroke="#f59e0b" stroke-width="2" stroke-dasharray="2,2"/>
+            <text x="232" y="30" fill="#f59e0b" font-size="8">Lateral Tangent</text>
+            <!-- Tumor extending past lateral line -->
+            <path d="M 80 50 L 245 50 L 245 130 L 80 130 Z" fill="#ec4899" opacity="0.6" stroke="#db2777" stroke-width="2"/>
+            <text x="140" y="85" fill="#ffffff" font-size="10" font-weight="bold">TUMOR</text>
+            <text x="140" y="100" fill="#fbcfe8" font-size="8">Extends Past Lateral Line</text>
+          </svg>
+        `;
+      } else if (type === "rcc_cyst") {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <!-- Central non-enhancing fluid cyst -->
+            <ellipse cx="160" cy="90" r="40" ry="25" fill="#334155" stroke="#475569" stroke-width="2"/>
+            <!-- Pathognomonic 'dot' sign -->
+            <circle cx="160" cy="90" r="6" fill="#ffffff"/>
+            <text x="160" y="112" fill="#cbd5e1" font-size="8" text-anchor="middle">T1 Bright Intracystic Nodule</text>
+            <text x="160" y="145" fill="#94a3b8" font-size="9" text-anchor="middle">Non-enhancing Rathke's Cleft Cyst</text>
+          </svg>
+        `;
+      } else if (type === "lymph_hypo") {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <!-- Thick symmetrical stalk -->
+            <rect x="150" y="20" width="20" height="70" fill="#ec4899" stroke="#db2777"/>
+            <text x="180" y="55" fill="#f43f5e" font-size="8" font-weight="bold">Symmetrically Thick Stalk</text>
+            <!-- Symmetrical gland -->
+            <ellipse cx="160" cy="110" r="50" ry="25" fill="#ec4899" opacity="0.8"/>
+            <text x="160" y="114" fill="#ffffff" font-size="9" font-weight="bold" text-anchor="middle">Symmetrical Gland</text>
+          </svg>
+        `;
+      } else if (type === "postop_graft") {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <!-- Sellar cavity -->
+            <rect x="90" y="50" width="140" height="90" rx="8" fill="#1e293b"/>
+            <!-- Bright Fat Graft (T1 Hyperintense) -->
+            <path d="M 100 60 Q 150 90 220 70 L 220 130 Q 150 120 100 130 Z" fill="#fef08a" opacity="0.8"/>
+            <text x="160" y="100" fill="#854d0e" font-size="10" font-weight="bold" text-anchor="middle">T1 Bright Fat Graft</text>
+          </svg>
+        `;
+      } else {
+        svg = `
+          <svg viewBox="0 0 320 180" width="100%" height="100%">
+            <rect x="20" y="20" width="280" height="140" rx="8" fill="#1e293b"/>
+            <text x="160" y="95" fill="#94a3b8" font-size="11" text-anchor="middle">Clinical Case Illustration</text>
+          </svg>
+        `;
+      }
+
+      wrapper.innerHTML = svg;
+    }
+  </script>
+
+</body>
+</html>

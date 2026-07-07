@@ -139,6 +139,29 @@ export function buildNavRows(catalog: RawCatalog): NavRow[] {
     }
   }
 
+  const imaging = (catalog.imagingResources?.entries ?? []).filter(readyFile)
+  if (imaging.length) {
+    pushHeader(
+      rows,
+      'hdr-imaging',
+      catalog.imagingResources?.title ?? 'Imaging & Atlases',
+      'imaging_resources',
+      {
+        subtitle: catalog.imagingResources?.description,
+        count: imaging.length,
+      },
+    )
+    for (const atlas of imaging) {
+      rows.push({
+        type: 'imaging',
+        id: atlas.id,
+        title: atlas.title,
+        subtitle: atlas.subtitle ?? atlas.category ?? 'Imaging Atlas',
+        href: `imaging/${atlas.file}`,
+      })
+    }
+  }
+
   const trials = (catalog.trials?.entries ?? []).filter(readyFile)
   if (trials.length) {
     pushHeader(rows, 'hdr-trials', catalog.trials?.title ?? 'Clinical Trials', 'trials', {
@@ -218,5 +241,6 @@ export function navRowHeight(row: NavRow): number {
     return 54
   }
   if (row.type === 'calculator') return 58
+  if (row.type === 'imaging') return 58
   return 66
 }

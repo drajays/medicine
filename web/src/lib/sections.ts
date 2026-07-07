@@ -6,7 +6,7 @@ export interface LandingItem {
   subtitle: string
   /** Sub-section label (Harrison section name / trial subsection), if any. */
   group?: string
-  /** External href — present only for calculator entries. */
+  /** External href — present for calculator and imaging atlas entries. */
   href?: string
 }
 
@@ -26,6 +26,7 @@ const TOP_LEVEL: HeaderKind[] = [
   'pediatric_endo',
   'stories',
   'calculators',
+  'imaging_resources',
   'trials',
   'harrison_banner',
 ]
@@ -66,7 +67,7 @@ export function buildSections(rows: NavRow[]): LandingSection[] {
         subtitle: row.entry.subtitle,
         group: currentGroup,
       })
-    } else if (row.type === 'calculator') {
+    } else if (row.type === 'calculator' || row.type === 'imaging') {
       current.items.push({
         id: row.id,
         title: row.title,

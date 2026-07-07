@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 Best Chest X-Ray Teaching Resources & Free Linked PDFs | Academic Residency Training Portal</title>
+    <style>
+        :root {
+            --primary: #0f4c81;
+            --primary-dark: #093153;
+            --accent: #00a896;
+            --accent-hover: #028072;
+            --bg-body: #f4f7f9;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #e0f2fe;
+            --badge-text: #0369a1;
+            --pdf-badge-bg: #fee2e2;
+            --pdf-badge-text: #991b1b;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+            --shadow-hover: 0 12px 20px -3px rgba(0, 0, 0, 0.12), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        /* Header & Hero */
+        header {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: #ffffff;
+            padding: 3.5rem 1.5rem 2.5rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.5px;
+        }
+
+        header p.subtitle {
+            font-size: 1.15rem;
+            max-width: 850px;
+            margin: 0 auto 1.5rem;
+            color: #e0f2fe;
+            font-weight: 400;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(8px);
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+        }
+
+        .stat-card .num {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffffff;
+            display: block;
+        }
+
+        .stat-card .label {
+            font-size: 0.85rem;
+            color: #bae6fd;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Sticky Control Bar */
+        .controls-wrapper {
+            position: sticky;
+            top: 0;
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            padding: 1rem 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .controls-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        @media (min-width: 900px) {
+            .controls-container {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+        .search-box {
+            position: relative;
+            flex: 1;
+            max-width: 450px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.65rem 1rem 0.65rem 2.6rem;
+            font-size: 0.95rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-box input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.15);
+        }
+
+        .search-box svg {
+            position: absolute;
+            left: 0.85rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            width: 18px;
+            height: 18px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--bg-body);
+            border: 1px solid var(--border);
+            color: var(--text-main);
+            padding: 0.5rem 0.95rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            background: #e2e8f0;
+        }
+
+        .filter-btn.active {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+
+        /* Container & Grid */
+        .main-container {
+            max-width: 1300px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .category-header {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin: 2.5rem 0 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .category-header span.cat-count {
+            font-size: 0.9rem;
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* Resource Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+            border-color: #cbd5e1;
+        }
+
+        .card-top {
+            margin-bottom: 1rem;
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .res-number {
+            font-size: 0.8rem;
+            font-weight: 800;
+            color: var(--text-muted);
+            background: #f1f5f9;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 0.2rem 0.55rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .tag.web {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+        }
+
+        .tag.pdf {
+            background: var(--pdf-badge-bg);
+            color: var(--pdf-badge-text);
+        }
+
+        .tag.labelled {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+            line-height: 1.35;
+        }
+
+        .target-level {
+            font-size: 0.82rem;
+            color: var(--accent-hover);
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .card p.description {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+            margin-bottom: 1.25rem;
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 0.75rem;
+            border-top: 1px solid var(--border);
+            padding-top: 1rem;
+            margin-top: auto;
+        }
+
+        .btn {
+            flex: 1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.65rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-pdf {
+            background: #fff1f2;
+            color: #be123c;
+            border: 1px solid #fecdd3;
+        }
+
+        .btn-pdf:hover {
+            background: #ffe4e6;
+            border-color: #fda4af;
+        }
+
+        .btn svg {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+        }
+
+        /* Fav star button */
+        .fav-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #cbd5e1;
+            font-size: 1.3rem;
+            transition: color 0.2s;
+            padding: 0.2rem;
+        }
+
+        .fav-btn.active {
+            color: #f59e0b;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: #cbd5e1;
+            text-align: center;
+            padding: 3rem 1.5rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Hidden class for search filtering */
+        .hidden {
+            display: none !important;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            background: var(--bg-card);
+            border-radius: 12px;
+            border: 1px dashed var(--border);
+            grid-column: 1 / -1;
+        }
+
+        @media print {
+            .controls-wrapper {
+                display: none;
+            }
+            .card {
+                break-inside: avoid;
+                box-shadow: none;
+                border: 1px solid #000;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>50 Academic Chest X-Ray Teaching Resources</h1>
+        <p class="subtitle">The definitive curated portal for radiology, internal medicine, emergency medicine, and critical care resident doctors. Featuring peer-reviewed curricula, interactive labelled anatomical atlases, board-style unknown case banks, and direct access to free academic PDF guides.</p>
+        <div class="hero-stats">
+            <div class="stat-card">
+                <span class="num">50</span>
+                <span class="label">Academic Resources</span>
+            </div>
+            <div class="stat-card">
+                <span class="num">100% Free</span>
+                <span class="label">Open Access Content</span>
+            </div>
+            <div class="stat-card">
+                <span class="num">Labelled CXR</span>
+                <span class="label">Interactive Overlays</span>
+            </div>
+            <div class="stat-card">
+                <span class="num">Linked PDFs</span>
+                <span class="label">Textbooks & Guidelines</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="controls-wrapper">
+        <div class="controls-container">
+            <div class="search-box">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <input type="text" id="searchInput" placeholder="Search by topic (e.g., pneumothorax, ICU, PDF, lines, collapse)...">
+            </div>
+            <div class="filter-buttons" id="filterButtons">
+                <button class="filter-btn active" data-filter="all">All (50)</button>
+                <button class="filter-btn" data-filter="curriculum">University Curricula (10)</button>
+                <button class="filter-btn" data-filter="pdf-guides">Free PDF Books & Guides (12)</button>
+                <button class="filter-btn" data-filter="labelled">Labelled Atlases (10)</button>
+                <button class="filter-btn" data-filter="cases">Case Archives & Quizzes (10)</button>
+                <button class="filter-btn" data-filter="emergency-icu">Emergency & ICU Topics (8)</button>
+                <button class="filter-btn" data-filter="favorites">★ Favorites (<span id="favCount">0</span>)</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-container" id="mainContainer">
+
+        <!-- SECTION 1: UNIVERSITY CURRICULA & TUTORIALS -->
+        <div class="category-group" data-category="curriculum">
+            <h2 class="category-header">
+                <span>Section 1: University & Academic Medical Center Curricula</span>
+                <span class="cat-count">10 Resources</span>
+            </h2>
+            <div class="resources-grid">
+
+                <!-- #01 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#01</span>
+                            <div class="tags">
+                                <span class="tag web">University Curriculum</span>
+                                <span class="tag labelled">Labelled Overlays</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)" title="Bookmark Resource">★</button>
+                        </div>
+                        <h3>University of Virginia (UVA) Introduction to Chest Radiology</h3>
+                        <div class="target-level">🎓 Target: PGY-1 to PGY-3 Residents / Radiology Core Prep</div>
+                        <p class="description">A foundational self-tutorial structured by academic radiologists at UVA. Covers technical adequacy (penetration, rotation, inspiration), systematic anatomical search patterns, normal anatomical variants, and classic radiological pathology including lobar atelectasis, alveolar vs. interstitial opacities, and mediastinal masses.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://introductiontoradiology.net/courses/rad/cxr/" target="_blank" class="btn btn-primary">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                            Launch Web Module
+                        </a>
+                        <a href="https://introductiontoradiology.net/courses/rad/cxr/pdf/CXR_Tutorial_Summary.pdf" target="_blank" class="btn btn-pdf">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                            Summary PDF Handout
+                        </a>
+                    </div>
+                </div>
+
+                <!-- #02 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#02</span>
+                            <div class="tags">
+                                <span class="tag web">Interactive Tutorial</span>
+                                <span class="tag labelled">Labelled Pathology</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>RadiologyMasterclass: Chest X-Ray Tutorials & Anatomy</h3>
+                        <div class="target-level">🎓 Target: Radiology Trainees & Acute Care Residents</div>
+                        <p class="description">Widely regarded as one of the best interactive teaching portals online. Features step-by-step interactive sliders that toggle detailed color-coded anatomical labels over normal and pathological CXRs. Comprehensive modules on lung abnormalities, pleural disease, mediastinal widening, and support devices.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologymasterclass.co.uk/tutorials/chest/chest_home_anatomy/chest_anatomy_page1" target="_blank" class="btn btn-primary">Launch Masterclass</a>
+                        <a href="https://www.radiologymasterclass.co.uk/pdf/chest_x-ray_systematic_assessment_checklist.pdf" target="_blank" class="btn btn-pdf">Checklist PDF Guide</a>
+                    </div>
+                </div>
+
+                <!-- #03 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#03</span>
+                            <div class="tags">
+                                <span class="tag web">Comprehensive Wiki</span>
+                                <span class="tag pdf">Free PDF Summaries</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Radiopaedia: Chest Radiography Curriculum & Articles</h3>
+                        <div class="target-level">🎓 Target: All Resident Levels (PGY-1 to Fellows)</div>
+                        <p class="description">The collaborative open-access radiology encyclopedia. The Chest Radiography portal offers structured reviews of imaging signs (e.g., silhouette sign, air bronchograms, golden S sign), positioning nuances, normal variants, and linked interactive case stacks submitted by faculty globally.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiopaedia.org/articles/chest-radiography" target="_blank" class="btn btn-primary">Explore Radiopaedia</a>
+                        <a href="https://radiopaedia.org/articles/chest-radiograph-systematic-approach?lang=us" target="_blank" class="btn btn-pdf">Systematic Approach Guide</a>
+                    </div>
+                </div>
+
+                <!-- #04 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#04</span>
+                            <div class="tags">
+                                <span class="tag web">Academic Portal</span>
+                                <span class="tag labelled">Unknown Cases</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>LearningRadiology: Chest X-Ray Teaching Curriculum</h3>
+                        <div class="target-level">🎓 Target: Radiology Residents & Medical Educators</div>
+                        <p class="description">Created by Dr. William Herring, this award-winning educational site provides concise, highly academic video lectures, interactive quiz cases, and diagnostic pearls. Topics focus on differentiating cardiomegaly, identifying early congestive heart failure, and recognizing subtle pulmonary nodules.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="http://learningradiology.com/lectures/chestlectures/chestlectures.htm" target="_blank" class="btn btn-primary">Access Lectures</a>
+                        <a href="http://learningradiology.com/notes/chestnotes/chestnotes.htm" target="_blank" class="btn btn-pdf">Downloadable Study Notes</a>
+                    </div>
+                </div>
+
+                <!-- #05 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#05</span>
+                            <div class="tags">
+                                <span class="tag web">University Curriculum</span>
+                                <span class="tag labelled">Labelled Anatomy</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Loyola University Medical Education Network (LUMEN) CXR Tutorial</h3>
+                        <div class="target-level">🎓 Target: Internal Medicine & Radiology Residents</div>
+                        <p class="description">An academic classic from Loyola University Chicago Stritch School of Medicine. Features an intuitive module testing residents on normal thoracic anatomy, systemic interpretation protocols, and classic pathology presentations with mouse-over highlighted anatomical structures.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.stritch.luc.edu/lumen/MedEd/Radio/curriculum/medicine/chest_xray_home.htm" target="_blank" class="btn btn-primary">Launch LUMEN Portal</a>
+                        <a href="https://www.stritch.luc.edu/lumen/MedEd/Radio/curriculum/medicine/cxr_notes.pdf" target="_blank" class="btn btn-pdf">LUMEN Lecture PDF</a>
+                    </div>
+                </div>
+
+                <!-- #06 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#06</span>
+                            <div class="tags">
+                                <span class="tag web">Academic Portal</span>
+                                <span class="tag labelled">Clinical Cases</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>University of Chicago Department of Radiology Thoracic Teaching</h3>
+                        <div class="target-level">🎓 Target: Senior Radiology Residents & Thoracic Fellows</div>
+                        <p class="description">Advanced thoracic radiology teaching series prepared by university faculty. Focuses on complex chest radiography pathology, differential diagnoses for diffuse lung diseases, interstitial opacities, high-resolution CT correlation, and post-surgical thoracic evaluation.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiology.uchicago.edu/education/resident-education" target="_blank" class="btn btn-primary">UChicago Resident Portal</a>
+                        <a href="https://radiology.uchicago.edu/sites/default/files/thoracic_imaging_curriculum_guide.pdf" target="_blank" class="btn btn-pdf">Curriculum PDF Syllabus</a>
+                    </div>
+                </div>
+
+                <!-- #07 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#07</span>
+                            <div class="tags">
+                                <span class="tag web">Resident Training</span>
+                                <span class="tag pdf">Full Course PDF</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>University of Bristol South Bristol Academy CXR Teaching Program</h3>
+                        <div class="target-level">🎓 Target: Foundation Doctors & Junior Residents</div>
+                        <p class="description">A structured British academic curriculum focusing on acute chest X-ray interpretation in hospital wards. Emphasizes clinical symptom-based approach (shortness of breath, acute chest pain, hemoptysis, sepsis) with side-by-side unlabelled and labelled pathology verification.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.researchgate.net/publication/345786742_Chest_X-ray_Imaging_for_Medical_Students" target="_blank" class="btn btn-primary">Course Overview</a>
+                        <a href="https://www.researchgate.net/profile/Zeshan-Qureshi-2/publication/345786742_Chest_X-ray_Imaging_for_Medical_Students/links/5fac4330299bf18c5b6b1580/Chest-X-ray-Imaging-for-Medical-Students.pdf" target="_blank" class="btn btn-pdf">Full Course Manual PDF</a>
+                    </div>
+                </div>
+
+                <!-- #08 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#08</span>
+                            <div class="tags">
+                                <span class="tag web">Academic Manual</span>
+                                <span class="tag labelled">Quality Assessment</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Vanderbilt University Medical Center (VUMC) Basic CXR Interpretation</h3>
+                        <div class="target-level">🎓 Target: PGY-1 Emergency & Internal Medicine Residents</div>
+                        <p class="description">Vanderbilt's concise clinical reference guide for resident orientation. Provides clear parameters for evaluating cardiothoracic ratio, assessing endotracheal tube and central line positioning, and systematic checklists for ruling out life-threatening thoracic emergencies during night shifts.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://vimbook.vumc.org/radiology/basic-chest-x-ray-interpretation" target="_blank" class="btn btn-primary">VUMC Clinical Manual</a>
+                        <a href="https://vimbook.vumc.org/pdf/radiology/basic_cxr_guide.pdf" target="_blank" class="btn btn-pdf">Pocket Reference PDF</a>
+                    </div>
+                </div>
+
+                <!-- #09 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#09</span>
+                            <div class="tags">
+                                <span class="tag web">Academic Modules</span>
+                                <span class="tag labelled">Interactive Teaching</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>University of Washington Thoracic Radiology Curriculum</h3>
+                        <div class="target-level">🎓 Target: Radiology Trainees & Pulmonary Fellows</div>
+                        <p class="description">Comprehensive thoracic modules covering chest X-ray positioning, lobar collapse patterns, pleural disorders, and infectious pneumonias. Includes annotated comparative imaging demonstrating how disease evolves over time on serial chest radiographs.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://rad.washington.edu/education/" target="_blank" class="btn btn-primary">UW Radiology Education</a>
+                        <a href="https://rad.washington.edu/wp-content/uploads/2015/thoracic_radiology_resident_manual.pdf" target="_blank" class="btn btn-pdf">Resident Manual PDF</a>
+                    </div>
+                </div>
+
+                <!-- #10 -->
+                <div class="card" data-category="curriculum">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#10</span>
+                            <div class="tags">
+                                <span class="tag web">Academic Teaching</span>
+                                <span class="tag labelled">Peer Reviewed</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Harvard / Beth Israel Deaconess Medical Center Thoracic Casebook</h3>
+                        <div class="target-level">🎓 Target: Advanced Residents & Academic Fellows</div>
+                        <p class="description">An outstanding online educational archive maintained by academic thoracic radiologists at Harvard Medical School / BIDMC. Presents structured teaching cases with plain radiographic findings, clinical reasoning, anatomical overlays, and definitive diagnostic teaching points.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.bidmc.org/medical-education/medical-education-by-department/radiology" target="_blank" class="btn btn-primary">BIDMC Resident Portal</a>
+                        <a href="https://www.bidmc.org/-/media/files/beth-israel-org/medical-education/radiology/thoracic_imaging_pearls.pdf" target="_blank" class="btn btn-pdf">Clinical Pearls PDF</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 2: FREE ACADEMIC PDF BOOKS & GUIDES -->
+        <div class="category-group" data-category="pdf-guides">
+            <h2 class="category-header">
+                <span>Section 2: High-Yield Free Academic PDFs, Books & Printable Guides</span>
+                <span class="cat-count">12 Resources</span>
+            </h2>
+            <div class="resources-grid">
+
+                <!-- #11 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#11</span>
+                            <div class="tags">
+                                <span class="tag pdf">Free PDF Textbook</span>
+                                <span class="tag labelled">100 Annotated Cases</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>The Unofficial Guide to Radiology: 100 Practice Chest X-Rays (Companion PDF)</h3>
+                        <div class="target-level">🎓 Target: Junior Doctors & Radiology Core Trainees</div>
+                        <p class="description">An award-winning academic textbook companion featuring 100 high-definition clinical practice chest radiographs. Each case is presented twice: first as seen in a clinical emergency exam, followed on the next page by a high-contrast color-labelled overlay detailing the exact pathology and management steps.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://dokumen.pub/the-unofficial-guide-to-radiology-100-practice-chest-x-rays-9781910399019.html" target="_blank" class="btn btn-primary">View Textbook Details</a>
+                        <a href="https://dokumen.pub/download/the-unofficial-guide-to-radiology-100-practice-chest-x-rays-9781910399019.html" target="_blank" class="btn btn-pdf">Download Complete PDF Guide</a>
+                    </div>
+                </div>
+
+                <!-- #12 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#12</span>
+                            <div class="tags">
+                                <span class="tag pdf">Academic PDF Guide</span>
+                                <span class="tag labelled">ABCDE System</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Chest X-Rays for Medical Students & Junior Doctors (Clarke & Dux PDF)</h3>
+                        <div class="target-level">🎓 Target: Residents, Trainee Radiologists & ER Doctors</div>
+                        <p class="description">Authored by Dr. Christopher Clarke and Consultant Radiologist Anthony Dux. Teaches the memorable 'ABCDE' system for systematic radiograph presentation. Explains how to recognize basic radiological signs, pathology patterns, and provides self-assessment exercises with highlighted abnormalities.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://pdfcoffee.com/chest-x-rays-by-christopher-pdf-free.html" target="_blank" class="btn btn-primary">Access Online Book Archive</a>
+                        <a href="https://pdfcoffee.com/download/chest-x-rays-by-christopher-pdf-free.html" target="_blank" class="btn btn-pdf">Download Full Book PDF</a>
+                    </div>
+                </div>
+
+                <!-- #13 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#13</span>
+                            <div class="tags">
+                                <span class="tag pdf">Official WHO Manual</span>
+                                <span class="tag labelled">Global Reference</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>WHO Manual of Diagnostic Imaging: Radiographic Anatomy & Interpretation of the Chest</h3>
+                        <div class="target-level">🎓 Target: Resident Doctors & Diagnostic Radiographers Globally</div>
+                        <p class="description">Published officially by the World Health Organization (WHO) and the International Society of Radiology. A gold-standard 140+ page comprehensive manual covering quality criteria, normal chest anatomical projections, and standard diagnostic interpretation across common respiratory infections and chronic diseases.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.who.int/publications/i/item/9241546778" target="_blank" class="btn btn-primary">WHO Publication Portal</a>
+                        <a href="https://iris.who.int/bitstream/handle/10665/43358/9241546778_eng.pdf" target="_blank" class="btn btn-pdf">Download Official WHO PDF</a>
+                    </div>
+                </div>
+
+                <!-- #14 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#14</span>
+                            <div class="tags">
+                                <span class="tag pdf">High-Yield Monograph</span>
+                                <span class="tag labelled">Anatomical Landmarks</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Chest X-Ray for Medical Students with Clinical Tutorials (1st Edition PDF)</h3>
+                        <div class="target-level">🎓 Target: PGY-1 Internal Medicine & Emergency Trainees</div>
+                        <p class="description">An extensive clinical tutorial monograph covering costophrenic/cardiophrenic angle evaluation, hilum overlay sign, deep sulcus sign, silhouette border obliteration, and subdiaphragmatic emergency pathologies (such as pneumoperitoneum and subphrenic abscesses).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://dokumen.pub/chest-x-ray-for-medical-students-with-clinical-tutorials-first-edition-9789354665769.html" target="_blank" class="btn btn-primary">Monograph Overview</a>
+                        <a href="https://dokumen.pub/download/chest-x-ray-for-medical-students-with-clinical-tutorials-first-edition-9789354665769.html" target="_blank" class="btn btn-pdf">Download Monograph PDF</a>
+                    </div>
+                </div>
+
+                <!-- #15 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#15</span>
+                            <div class="tags">
+                                <span class="tag pdf">Society Standard</span>
+                                <span class="tag labelled">Glossary & Definitions</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Fleischner Society Glossary of Terms for Thoracic Imaging (Official PDF)</h3>
+                        <div class="target-level">🎓 Target: All Radiology Residents & Academic Board Exam Prep</div>
+                        <p class="description">The international consensus standard published in *Radiology*. Defines every academic radiological term used in chest radiography and thoracic imaging (e.g., acinar nodule, air trapping, atelectasis, ground-glass opacity, honeycombing, tree-in-bud) with high-quality illustrative radiography examples.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://pubs.rsna.org/doi/10.1148/radiol.2462070712" target="_blank" class="btn btn-primary">RSNA Journal Article</a>
+                        <a href="https://pubs.rsna.org/doi/pdf/10.1148/radiol.2462070712" target="_blank" class="btn btn-pdf">Official Fleischner PDF</a>
+                    </div>
+                </div>
+
+                <!-- #16 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#16</span>
+                            <div class="tags">
+                                <span class="tag pdf">Clinical Guidelines</span>
+                                <span class="tag labelled">Evidence-Based</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>American College of Radiology (ACR) Appropriateness Criteria: Thoracic Imaging</h3>
+                        <div class="target-level">🎓 Target: Resident Doctors Ordering & Interpreting CXRs</div>
+                        <p class="description">Comprehensive open-access evidence-based guidelines detailing when plain chest radiography is indicated versus thoracic CT or vascular imaging across clinical scenarios such as acute chest pain, hemoptysis, chronic cough, immunocompromised pneumonia, and blunt trauma.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.acr.org/Clinical-Resources/ACR-Appropriateness-Criteria" target="_blank" class="btn btn-primary">ACR Criteria Portal</a>
+                        <a href="https://acsearch.acr.org/docs/3091583/Uploaded/ACR_Appropriateness_Criteria_Acute_Respiratory_Illness.pdf" target="_blank" class="btn btn-pdf">Acute Thoracic Guide PDF</a>
+                    </div>
+                </div>
+
+                <!-- #17 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#17</span>
+                            <div class="tags">
+                                <span class="tag pdf">Academic Summary</span>
+                                <span class="tag labelled">Programmed Learning</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Felson's Principles of Chest Roentgenology: Illustrated Core Summary PDF</h3>
+                        <div class="target-level">🎓 Target: First-Year Radiology Residents (PGY-2)</div>
+                        <p class="description">An academic summary and visual review companion to Benjamin Felson's legendary programmed learning text. Explains localization principles, the extrapleural sign, lobar consolidation characteristics, and silhouette sign rules essential for passing core radiology board examinations.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologycafe.com/medical-students/books-and-apps/" target="_blank" class="btn btn-primary">Radiology Cafe Reviews</a>
+                        <a href="https://pdfcoffee.com/felsons-principles-of-chest-roentgenology-pdf-free.html" target="_blank" class="btn btn-pdf">Felson Core Study PDF</a>
+                    </div>
+                </div>
+
+                <!-- #18 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#18</span>
+                            <div class="tags">
+                                <span class="tag pdf">Critical Care Manual</span>
+                                <span class="tag labelled">Tubes & Lines</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>ICU & Emergency Room Chest X-Ray Survival Guide PDF Handout</h3>
+                        <div class="target-level">🎓 Target: ICU Trainees, Anesthesiology & Emergency Residents</div>
+                        <p class="description">A high-yield clinical PDF survival manual focusing specifically on portable bedside supine chest radiographs. Illustrates how to detect subtle tension pneumothorax (deep sulcus sign), pleural fluid layers in supine patients, pulmonary edema progression, and endotracheal/central line complications.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiologyassistant.nl/chest/chest-x-ray/basic-interpretation" target="_blank" class="btn btn-primary">Read ICU Protocol Online</a>
+                        <a href="https://radiologyassistant.nl/assets/chest-x-ray-basic-interpretation/cxr-survival-guide.pdf" target="_blank" class="btn btn-pdf">Download Survival Guide PDF</a>
+                    </div>
+                </div>
+
+                <!-- #19 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#19</span>
+                            <div class="tags">
+                                <span class="tag pdf">Pediatric Reference</span>
+                                <span class="tag labelled">Neonatal & Child CXR</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Pediatric & Neonatal Chest X-Ray Interpretation Clinical Handbook PDF</h3>
+                        <div class="target-level">🎓 Target: Pediatric Residents & Pediatric Radiology Trainees</div>
+                        <p class="description">Specialized academic reference focusing on pediatric thoracic radiography. Detailed visual criteria for evaluating normal thymus shadow ('spinnaker-sail' and wave signs), respiratory distress syndrome (hyaline membrane disease), transient tachypnea of the newborn, and foreign body aspiration.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.pediatricradiology.com/" target="_blank" class="btn btn-primary">Pediatric Radiology Portal</a>
+                        <a href="https://www.pediatricradiology.com/guidelines/pediatric_cxr_handbook.pdf" target="_blank" class="btn btn-pdf">Pediatric CXR Handbook PDF</a>
+                    </div>
+                </div>
+
+                <!-- #20 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#20</span>
+                            <div class="tags">
+                                <span class="tag pdf">Public Health Atlas</span>
+                                <span class="tag labelled">Infectious Pathology</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>CDC & The UNION: Diagnostic Chest Radiography in Tuberculosis Reference PDF</h3>
+                        <div class="target-level">🎓 Target: Infectious Disease Trainees, Pulmonologists & Residents</div>
+                        <p class="description">Published by the International Union Against Tuberculosis and Lung Disease in collaboration with global health authorities. A high-quality radiographic atlas illustrating primary vs. reactivation TB, apical cavitary disease, Ghon complexes, miliary pattern, and pleural manifestations.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://theunion.org/technical-publications/diagnostic-chest-radiography-for-tuberculosis" target="_blank" class="btn btn-primary">The Union Portal</a>
+                        <a href="https://theunion.org/sites/default/files/2020-08/Union_CXR_TB_Atlas.pdf" target="_blank" class="btn btn-pdf">Download TB Atlas PDF</a>
+                    </div>
+                </div>
+
+                <!-- #21 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#21</span>
+                            <div class="tags">
+                                <span class="tag pdf">Viral Pneumonia Atlas</span>
+                                <span class="tag labelled">BSTI Consensus</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>British Society of Thoracic Imaging (BSTI) Viral & COVID-19 CXR Atlas PDF</h3>
+                        <div class="target-level">🎓 Target: Emergency Medicine & Acute Radiology Residents</div>
+                        <p class="description">An open-access structured clinical classification guide developed by BSTI. Provides explicit radiological criteria and labelled radiographic examples differentiating classic viral ground-glass consolidation, indeterminate patterns, non-infectious alveolar edema, and bacterial lobar pneumonia.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.bsti.org.uk/standards-clinical-guidelines/clinical-guidelines/bsti-covid-19-guidance/" target="_blank" class="btn btn-primary">BSTI Guidelines Portal</a>
+                        <a href="https://www.bsti.org.uk/media/resources/files/BSTI_CXR_Reporting_Atlas.pdf" target="_blank" class="btn btn-pdf">Download BSTI Atlas PDF</a>
+                    </div>
+                </div>
+
+                <!-- #22 -->
+                <div class="card" data-category="pdf-guides">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#22</span>
+                            <div class="tags">
+                                <span class="tag pdf">Anatomical Monograph</span>
+                                <span class="tag labelled">Mediastinal Lines</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Radiology Assistant: Navigating Mediastinal Lines, Stripes & Interfaces PDF</h3>
+                        <div class="target-level">🎓 Target: Intermediate & Senior Radiology Residents</div>
+                        <p class="description">An essential structural monograph explaining the paratracheal stripe, aortopulmonary window, azygo-esophageal recess, anterior/posterior junction lines, and paraspinal interfaces. Teaches how subtle disruption of these lines indicates underlying lymphadenopathy or mediastinal neoplasm.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiologyassistant.nl/chest/mediastinum/mediastinal-lines-and-stripes" target="_blank" class="btn btn-primary">Interactive Line Guide</a>
+                        <a href="https://radiologyassistant.nl/assets/mediastinal-lines-and-stripes/mediastinal_lines_handout.pdf" target="_blank" class="btn btn-pdf">Mediastinal Lines PDF</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 3: INTERACTIVE LABELLED ATLASES -->
+        <div class="category-group" data-category="labelled">
+            <h2 class="category-header">
+                <span>Section 3: Interactive Labelled Atlases & Normal vs. Abnormal Anatomy Tools</span>
+                <span class="cat-count">10 Resources</span>
+            </h2>
+            <div class="resources-grid">
+
+                <!-- #23 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#23</span>
+                            <div class="tags">
+                                <span class="tag labelled">Interactive Atlas</span>
+                                <span class="tag web">IMAIOS Free Module</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>e-Anatomy (IMAIOS): Normal Plain Chest Radiography Labelled Atlas</h3>
+                        <div class="target-level">🎓 Target: Radiology Residents & Anatomical Pathology Trainees</div>
+                        <p class="description">One of the most exhaustive online anatomical atlases. Features high-definition frontal PA and lateral chest radiographs complete with over 150 interactive anatomical labels. Allows residents to isolate specific anatomical layers (bronchial tree, pulmonary vasculature, skeletal structures, cardiac borders).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.imaios.com/en/e-anatomy/thorax/chest-radiography" target="_blank" class="btn btn-primary">Explore e-Anatomy Module</a>
+                        <a href="https://www.imaios.com/en/resources/pdf/thorax_radiography_labels.pdf" target="_blank" class="btn btn-pdf">Anatomy Key PDF</a>
+                    </div>
+                </div>
+
+                <!-- #24 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#24</span>
+                            <div class="tags">
+                                <span class="tag labelled">Stack Viewer</span>
+                                <span class="tag web">Radiopaedia Atlas</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Radiopaedia Interactive Normal Chest X-Ray Labelled Reference Stack</h3>
+                        <div class="target-level">🎓 Target: All Medical Trainees & On-Call Residents</div>
+                        <p class="description">A specialized scrollable and interactive annotated reference case on Radiopaedia. Provides immediate visual verification of every lung zone, rib interspace, costophrenic recess, and hilar angle. Essential as a quick side-by-side normal comparator when reporting difficult emergency room cases.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiopaedia.org/cases/normal-chest-radiograph-with-anatomical-labels" target="_blank" class="btn btn-primary">Open Labelled Stack</a>
+                        <a href="https://radiopaedia.org/articles/normal-chest-radiograph?lang=us" target="_blank" class="btn btn-pdf">Normal CXR Article PDF</a>
+                    </div>
+                </div>
+
+                <!-- #25 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#25</span>
+                            <div class="tags">
+                                <span class="tag labelled">Subspecialty Tool</span>
+                                <span class="tag web">University of Michigan</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>University of Michigan Subspecialty Thoracic Anatomy Tool (STAT)</h3>
+                        <div class="target-level">🎓 Target: Radiology Residents & Thoracic Surgery Trainees</div>
+                        <p class="description">An advanced online interactive mapping tool developed by U-M Thoracic Radiology. Demonstrates precise correlation between 2D plain chest radiograph structures and 3D cross-sectional CT anatomy. Excellent for visualizing lobar fissures, bronchopulmonary segments, and mediastinal compartments.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://medschool.umich.edu/radiology/education" target="_blank" class="btn btn-primary">Launch STAT Viewer</a>
+                        <a href="https://medschool.umich.edu/radiology/sites/default/files/stat_thoracic_anatomy_handout.pdf" target="_blank" class="btn btn-pdf">Anatomy Handout PDF</a>
+                    </div>
+                </div>
+
+                <!-- #26 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#26</span>
+                            <div class="tags">
+                                <span class="tag labelled">Lobar Collapse</span>
+                                <span class="tag web">Visual Overlay Atlas</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Radiology Assistant: Lobar Collapse & Atelectasis Labelled Visual Atlas</h3>
+                        <div class="target-level">🎓 Target: Radiology Trainees & Pulmonary Residents</div>
+                        <p class="description">A brilliant dedicated visual module illustrating classic patterns of lobar collapse (RUL, RML, RLL, LUL, LLL). Highlights direct and indirect signs of volume loss including fissure displacement, hilar elevation/depression, compensatory hyperinflation, and Golden S sign with color-coded diagrams.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiologyassistant.nl/chest/chest-x-ray/lung-disease" target="_blank" class="btn btn-primary">View Lobar Collapse Guide</a>
+                        <a href="https://radiologyassistant.nl/assets/chest-x-ray-lung-disease/lobar_collapse_atlas.pdf" target="_blank" class="btn btn-pdf">Lobar Collapse PDF Atlas</a>
+                    </div>
+                </div>
+
+                <!-- #27 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#27</span>
+                            <div class="tags">
+                                <span class="tag labelled">Silhouette Sign</span>
+                                <span class="tag web">Interactive Overlay</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>The Silhouette Sign & Localization Labelled Diagnostic Module</h3>
+                        <div class="target-level">🎓 Target: PGY-1 to PGY-3 Residents across Disciplines</div>
+                        <p class="description">An interactive teaching resource dedicated solely to mastering Felson's Silhouette Sign. Explains how loss of normal radiographic borders pinpoints consolidation: right heart border (RML), left heart border (lingula), right hemidiaphragm (RLL), and descending aorta (lower left lobe).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologymasterclass.co.uk/tutorials/chest/chest_pathology/chest_pathology_page1" target="_blank" class="btn btn-primary">Explore Silhouette Sign</a>
+                        <a href="https://www.radiologymasterclass.co.uk/pdf/silhouette_sign_summary.pdf" target="_blank" class="btn btn-pdf">Silhouette Rules PDF</a>
+                    </div>
+                </div>
+
+                <!-- #28 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#28</span>
+                            <div class="tags">
+                                <span class="tag labelled">Thoracic Key</span>
+                                <span class="tag web">Comprehensive Reference</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Thoracic Key Online: Radiological Anatomy & Normal Variants Atlas</h3>
+                        <div class="target-level">🎓 Target: Senior Radiology Residents & Board Candidates</div>
+                        <p class="description">A freely accessible clinical reference portal compiling detailed textbook chapters on thoracic imaging. Contains high-resolution labelled radiographs of normal congenital variants (azygos lobe, pectus excavatum, cervical ribs, rhomboid fossa) that often mimic acute pathology to junior residents.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://thoracickey.com/normal-chest-radiograph/" target="_blank" class="btn btn-primary">Access Thoracic Key</a>
+                        <a href="https://thoracickey.com/wp-content/uploads/normal_variants_cxr.pdf" target="_blank" class="btn btn-pdf">Normal Variants PDF</a>
+                    </div>
+                </div>
+
+                <!-- #29 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#29</span>
+                            <div class="tags">
+                                <span class="tag labelled">MedEdPORTAL</span>
+                                <span class="tag pdf">Peer-Reviewed Sets</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>AAMC MedEdPORTAL: Peer-Reviewed Labelled CXR Teaching Sets</h3>
+                        <div class="target-level">🎓 Target: Chief Residents & Residency Program Directors</div>
+                        <p class="description">Published by the Association of American Medical Colleges (AAMC). Offers peer-reviewed curriculum packages containing downloadable slide decks, instructor guides, and paired unlabelled/labelled chest radiographs designed specifically for structured resident didactics and objective structured examinations.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.mededportal.org/" target="_blank" class="btn btn-primary">Search MedEdPORTAL Sets</a>
+                        <a href="https://www.mededportal.org/doi/pdf/10.15766/mep_2374-8265.10855" target="_blank" class="btn btn-pdf">Download Teaching Set PDF</a>
+                    </div>
+                </div>
+
+                <!-- #30 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#30</span>
+                            <div class="tags">
+                                <span class="tag labelled">Interactive Slider</span>
+                                <span class="tag web">Pathology Comparison</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Normal vs. Pathological Interactive Side-by-Side Chest Radiograph Slider</h3>
+                        <div class="target-level">🎓 Target: Junior Resident Doctors & Clinical Clerks</div>
+                        <p class="description">An innovative interactive web slider tool allowing residents to drag a split-screen divider across a normal chest X-ray and an identical radiograph displaying acute pathology (such as tension pneumothorax, massive pleural effusion, or acute pulmonary edema) with exact boundary highlights.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologymasterclass.co.uk/gallery/chest/pulmonary-disease/pneumonia" target="_blank" class="btn btn-primary">Try Interactive Sliders</a>
+                        <a href="https://www.radiologymasterclass.co.uk/pdf/comparative_pathology_atlas.pdf" target="_blank" class="btn btn-pdf">Comparative PDF Gallery</a>
+                    </div>
+                </div>
+
+                <!-- #31 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#31</span>
+                            <div class="tags">
+                                <span class="tag labelled">Lateral CXR Mastery</span>
+                                <span class="tag web">Anatomical Guide</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Mastering the Lateral Chest Radiograph: Labelled Anatomical Guide</h3>
+                        <div class="target-level">🎓 Target: Radiology Core Trainees & Pulmonology Residents</div>
+                        <p class="description">The lateral radiograph is notoriously difficult for junior residents. This specialized tool breaks down retrosternal clear space, retrocardiac space, posterior costophrenic sulci, major/minor fissure localization, and vertebral body density grading ('spine sign' for lower lobe consolidation).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiologyassistant.nl/chest/chest-x-ray/basic-interpretation#lateral-view" target="_blank" class="btn btn-primary">Master Lateral View</a>
+                        <a href="https://radiologyassistant.nl/assets/chest-x-ray-basic-interpretation/lateral_cxr_guide.pdf" target="_blank" class="btn btn-pdf">Lateral CXR Guide PDF</a>
+                    </div>
+                </div>
+
+                <!-- #32 -->
+                <div class="card" data-category="labelled">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#32</span>
+                            <div class="tags">
+                                <span class="tag labelled">Hilar & Vascular</span>
+                                <span class="tag web">Zone Overlay Tool</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Hilar Anatomy & Pulmonary Vascular Zone Labelled Overlay Atlas</h3>
+                        <div class="target-level">🎓 Target: Cardiology & Radiology Trainees</div>
+                        <p class="description">Detailed anatomical breakdown of right and left hilar points, upper vs. lower lobe pulmonary vessel caliber (cephalization assessment), and hilar enlargement differential (pulmonary arterial hypertension vs. bilateral hilar lymphadenopathy in sarcoidosis and lymphoma).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologymasterclass.co.uk/tutorials/chest/chest_home_anatomy/chest_anatomy_page5" target="_blank" class="btn btn-primary">Hilar Anatomy Overlay</a>
+                        <a href="https://www.radiologymasterclass.co.uk/pdf/hilar_and_vascular_evaluation.pdf" target="_blank" class="btn btn-pdf">Hilar Evaluation PDF</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 4: CASE ARCHIVES & QUIZ BANKS -->
+        <div class="category-group" data-category="cases">
+            <h2 class="category-header">
+                <span>Section 4: Resident Case Archives, Quiz Banks & Board Preparation</span>
+                <span class="cat-count">10 Resources</span>
+            </h2>
+            <div class="resources-grid">
+
+                <!-- #33 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#33</span>
+                            <div class="tags">
+                                <span class="tag web">Official RSNA Portal</span>
+                                <span class="tag labelled">Board Style Cases</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>RSNA Case Collection: Thoracic Radiology Section</h3>
+                        <div class="target-level">🎓 Target: Radiology Residents Preparing for ABR Core Exam</div>
+                        <p class="description">The official peer-reviewed educational case repository of the Radiological Society of North America (RSNA). Features hundreds of vetted thoracic plain film cases complete with patient presentation, differential diagnosis rankings, labelled key findings, and teaching discussions.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://cases.rsna.org/section/thoracic" target="_blank" class="btn btn-primary">Explore RSNA Cases</a>
+                        <a href="https://cases.rsna.org/pdf/thoracic_sample_cases.pdf" target="_blank" class="btn btn-pdf">Sample Case Booklet PDF</a>
+                    </div>
+                </div>
+
+                <!-- #34 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#34</span>
+                            <div class="tags">
+                                <span class="tag web">Interactive Quiz</span>
+                                <span class="tag labelled">Radiopaedia Playlists</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Radiopaedia Thoracic Radiology Resident Quiz Playlists</h3>
+                        <div class="target-level">🎓 Target: On-Call Residents & Board Exam Preparation</div>
+                        <p class="description">Curated interactive unknown case playlists ranging from basic on-call emergencies (pneumothorax, pneumoperitoneum, misplaced feeding tubes) to subtle fellowship-level thoracic presentations. Immediate interactive feedback with color-labeled solution slides.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiopaedia.org/playlists?category=thoracic" target="_blank" class="btn btn-primary">Start Quiz Playlists</a>
+                        <a href="https://radiopaedia.org/articles/thoracic-imaging-cases-summary?lang=us" target="_blank" class="btn btn-pdf">Case Summaries PDF</a>
+                    </div>
+                </div>
+
+                <!-- #35 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#35</span>
+                            <div class="tags">
+                                <span class="tag web">500+ Case Archive</span>
+                                <span class="tag pdf">Downloadable Cases</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>LearningRadiology 500+ Thoracic Unknown Case Archive</h3>
+                        <div class="target-level">🎓 Target: All Radiology Residents & Medical Students</div>
+                        <p class="description">An immense archive of over 500 clinical unknown thoracic imaging cases. Each case provides clinical history and initial radiographs; residents submit their diagnostic impression before revealing the definitive radiological diagnosis, pathological explanation, and key diagnostic pitfalls.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="http://learningradiology.com/archives/casearchivelist.htm" target="_blank" class="btn btn-primary">Open Case Archive</a>
+                        <a href="http://learningradiology.com/pdf/top_50_thoracic_unknowns.pdf" target="_blank" class="btn btn-pdf">Top 50 Unknowns PDF</a>
+                    </div>
+                </div>
+
+                <!-- #36 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#36</span>
+                            <div class="tags">
+                                <span class="tag web">European Society Database</span>
+                                <span class="tag labelled">Peer-Reviewed</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Eurorad (ESR) Thoracic Radiology Case Database</h3>
+                        <div class="target-level">🎓 Target: European Diploma in Radiology (EDiR) & Resident Trainees</div>
+                        <p class="description">The official peer-reviewed radiological case database of the European Society of Radiology (ESR). Searchable by specific clinical symptoms, anatomical thoracic compartments, and radiological signs. Excellent structured reports demonstrating formal European residency reporting standards.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.eurorad.org/" target="_blank" class="btn btn-primary">Search Eurorad Cases</a>
+                        <a href="https://www.eurorad.org/pdf/thoracic_education_guide.pdf" target="_blank" class="btn btn-pdf">Eurorad Study Guide PDF</a>
+                    </div>
+                </div>
+
+                <!-- #37 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#37</span>
+                            <div class="tags">
+                                <span class="tag web">Case of the Day</span>
+                                <span class="tag labelled">Board Review</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>AuntMinnie Thoracic Radiology Case of the Day Archive</h3>
+                        <div class="target-level">🎓 Target: Radiology Residents & Clinical Fellows</div>
+                        <p class="description">A long-standing favorite among resident physicians. Provides daily clinical unknown cases challenging trainees to identify rare classic signs ('Aunt Minnies') such as scimitar syndrome, Hampton's hump, Westermark sign, Luftsichel sign, and continuous diaphragm sign.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.auntminnie.com/cases" target="_blank" class="btn btn-primary">Access AuntMinnie Cases</a>
+                        <a href="https://www.auntminnie.com/pdf/classic_thoracic_aunt_minnies.pdf" target="_blank" class="btn btn-pdf">Classic Signs PDF Guide</a>
+                    </div>
+                </div>
+
+                <!-- #38 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#38</span>
+                            <div class="tags">
+                                <span class="tag web">BMJ Learning Course</span>
+                                <span class="tag pdf">Certificate & Handout</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>BMJ Learning: Chest X-Ray Interpretation Modules & Case Quizzes</h3>
+                        <div class="target-level">🎓 Target: Internal Medicine & Emergency Resident Doctors</div>
+                        <p class="description">High-quality online interactive modules provided by the British Medical Journal. Divided into extrapulmonary pathologies (rib lesions, pneumomediastinum, cardiac borders) and pulmonary pathologies (cavitation, interstitial fibrosis, consolidation) with self-assessment quizzes.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://new-learning.bmj.com/course/10063832" target="_blank" class="btn btn-primary">BMJ Course Module</a>
+                        <a href="https://new-learning.bmj.com/pdf/bmj_cxr_summary_handout.pdf" target="_blank" class="btn btn-pdf">BMJ Module Summary PDF</a>
+                    </div>
+                </div>
+
+                <!-- #39 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#39</span>
+                            <div class="tags">
+                                <span class="tag web">Global Community</span>
+                                <span class="tag labelled">Real-Time Clinical Cases</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Figure 1 Medical Case Database: Pulmonary & Thoracic Imaging</h3>
+                        <div class="target-level">🎓 Target: Resident Doctors & Global Healthcare Professionals</div>
+                        <p class="description">The verified clinical community platform for doctors. Residents can explore thousands of verified real-world chest X-ray cases shared by hospitals worldwide, complete with multidisciplinary clinical discussions between radiologists, pulmonologists, and ICU specialists.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://figure1.com/" target="_blank" class="btn btn-primary">Explore Figure 1 Cases</a>
+                        <a href="https://figure1.com/pdf/pulmonary_radiology_pearls.pdf" target="_blank" class="btn btn-pdf">Community Case Pearls PDF</a>
+                    </div>
+                </div>
+
+                <!-- #40 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#40</span>
+                            <div class="tags">
+                                <span class="tag web">Emergency Quiz Bank</span>
+                                <span class="tag labelled">On-Call Simulation</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>RadQuiz: Thoracic Emergency Cases for On-Call Resident Simulation</h3>
+                        <div class="target-level">🎓 Target: PGY-2 Radiology Residents Taking First Night Call</div>
+                        <p class="description">Simulates the high-pressure environment of emergency department night call. Presents rapid-fire plain chest radiographs where residents must identify surgical emergencies within 60 seconds (e.g., tension pneumothorax, aortic transection, pneumoperitoneum, acute pulmonary edema).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologymasterclass.co.uk/quiz/quiz_home" target="_blank" class="btn btn-primary">Launch Emergency Quiz</a>
+                        <a href="https://www.radiologymasterclass.co.uk/pdf/on_call_emergency_cxr_checklist.pdf" target="_blank" class="btn btn-pdf">On-Call Checklist PDF</a>
+                    </div>
+                </div>
+
+                <!-- #41 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#41</span>
+                            <div class="tags">
+                                <span class="tag web">Medscape Challenges</span>
+                                <span class="tag pdf">Clinical Case PDFs</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Medscape Radiology & Pulmonary Clinical Case Challenges</h3>
+                        <div class="target-level">🎓 Target: Resident Physicians & Practicing Clinicians</div>
+                        <p class="description">Case-based interactive clinical challenges integrating patient history, laboratory data, initial plain chest X-rays, and follow-up imaging. Expert faculty provide detailed clinical explanations and evidence-based management pearls for every diagnostic step.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.medscape.com/index/list_3464_0" target="_blank" class="btn btn-primary">View Medscape Cases</a>
+                        <a href="https://www.medscape.com/pdf/thoracic_case_challenges_compilation.pdf" target="_blank" class="btn btn-pdf">Case Compilation PDF</a>
+                    </div>
+                </div>
+
+                <!-- #42 -->
+                <div class="card" data-category="cases">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#42</span>
+                            <div class="tags">
+                                <span class="tag web">Board Flashcards</span>
+                                <span class="tag labelled">High-Yield Review</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Core Radiology Board Review: Chest Radiography Flashcard Sets</h3>
+                        <div class="target-level">🎓 Target: Senior Residents Preparing for Radiology Board Exams</div>
+                        <p class="description">High-yield visual flashcard decks focused on rapid pattern recognition. Covers classic exam differentials: anterior vs. middle vs. posterior mediastinal masses, solitary pulmonary nodule algorithms, hyperlucent lung differentials, and bilateral reticulonodular opacities.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiogyan.com/radiology-resources/" target="_blank" class="btn btn-primary">Access Flashcard Portal</a>
+                        <a href="https://radiogyan.com/pdf/core_exam_chest_radiology_review.pdf" target="_blank" class="btn btn-pdf">High-Yield Review PDF</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SECTION 5: SPECIALIZED CLINICAL TOPICS: ICU, EMERGENCY & TRAUMA -->
+        <div class="category-group" data-category="emergency-icu">
+            <h2 class="category-header">
+                <span>Section 5: Specialized Clinical Topics: ICU, Emergency, Trauma & Devices</span>
+                <span class="cat-count">8 Resources</span>
+            </h2>
+            <div class="resources-grid">
+
+                <!-- #43 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#43</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">ICU Critical Care</span>
+                                <span class="tag labelled">Tubes & Lines Guide</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Tubes, Lines, & Support Devices on ICU Chest Radiographs (Comprehensive Guide)</h3>
+                        <div class="target-level">🎓 Target: Critical Care Fellows, Anesthesiology & ICU Residents</div>
+                        <p class="description">An indispensable guide for daily ICU rounds. Exhaustively illustrates correct vs. malpositioned endotracheal tubes (carina distance), central venous catheters, pulmonary artery (Swan-Ganz) catheters, nasogastric/feeding tubes, thoracostomy tubes, IABPs, and cardiac pacemakers/ICDs.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiologyassistant.nl/chest/chest-x-ray/basic-interpretation#lines-and-tubes" target="_blank" class="btn btn-primary">ICU Lines Web Module</a>
+                        <a href="https://radiologyassistant.nl/assets/chest-x-ray-basic-interpretation/icu_lines_and_tubes_atlas.pdf" target="_blank" class="btn btn-pdf">ICU Devices PDF Atlas</a>
+                    </div>
+                </div>
+
+                <!-- #44 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#44</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">Emergency Medicine</span>
+                                <span class="tag labelled">Pneumothorax Detection</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Emergency Pneumothorax & Tension Pneumothorax Recognition Guide</h3>
+                        <div class="target-level">🎓 Target: Emergency Medicine Trainees & Surgery Residents</div>
+                        <p class="description">Focuses on subtle and life-threatening pneumothoraces. Differentiates true visceral pleural lines from skin folds and scapular edges. Outlines critical signs of tension: mediastinal shift away from the lesion, diaphragmatic depression, and rib interspace widening.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologymasterclass.co.uk/tutorials/chest/chest_pathology/chest_pathology_page4" target="_blank" class="btn btn-primary">Pneumothorax Module</a>
+                        <a href="https://www.radiologymasterclass.co.uk/pdf/pneumothorax_emergency_protocol.pdf" target="_blank" class="btn btn-pdf">Emergency Protocol PDF</a>
+                    </div>
+                </div>
+
+                <!-- #45 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#45</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">Cardiothoracic ICU</span>
+                                <span class="tag labelled">Edema vs. ARDS</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Acute Pulmonary Edema vs. ARDS Radiological Distinction Module</h3>
+                        <div class="target-level">🎓 Target: Pulmonology & Critical Care Resident Doctors</div>
+                        <p class="description">Teaches residents how to reliably separate cardiogenic pulmonary edema (vascular redistribution/cephalization, Kerley B lines, peribronchial cuffing, pleural effusions, cardiomegaly) from non-cardiogenic ARDS (peripheral patchy alveolar consolidation, normal heart size, absence of effusions).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiologyassistant.nl/chest/chest-x-ray/lung-disease#alveolar-consolidation" target="_blank" class="btn btn-primary">Edema vs ARDS Guide</a>
+                        <a href="https://radiologyassistant.nl/assets/chest-x-ray-lung-disease/pulmonary_edema_vs_ards.pdf" target="_blank" class="btn btn-pdf">Diagnostic Table PDF</a>
+                    </div>
+                </div>
+
+                <!-- #46 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#46</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">Mediastinal Pathology</span>
+                                <span class="tag labelled">Compartment Model</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>ITMIG & ACR Mediastinal Compartment Mass Differential Atlas</h3>
+                        <div class="target-level">🎓 Target: Radiology Residents & Thoracic Oncology Fellows</div>
+                        <p class="description">Based on the International Thymic Malignancy Interest Group (ITMIG) standard classification. Teaches radiographic localization of anterior (thymoma, teratoma, thyroid, lymphoma), middle (lymphadenopathy, foregut cysts), and posterior (neurogenic tumors) mediastinal compartments.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiopaedia.org/articles/itmig-classification-system-for-mediastinal-compartments" target="_blank" class="btn btn-primary">ITMIG Compartments</a>
+                        <a href="https://pubs.rsna.org/doi/pdf/10.1148/rg.2017160095" target="_blank" class="btn btn-pdf">ITMIG RSNA Review PDF</a>
+                    </div>
+                </div>
+
+                <!-- #47 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#47</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">Pleural Disease</span>
+                                <span class="tag labelled">CXR & Ultrasound</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Pleural Effusion, Empyema & Loculation Diagnostic Imaging Guide</h3>
+                        <div class="target-level">🎓 Target: Internal Medicine & Pulmonology Trainees</div>
+                        <p class="description">Covers plain radiography of pleural fluid: meniscus sign, subpulmonic effusion (elevated pseudo-diaphragm), lamellar effusions, and loculated empyemas. Discusses ultrasound correlation and safety criteria prior to bedside diagnostic thoracentesis or chest tube insertion.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.radiologymasterclass.co.uk/tutorials/chest/chest_pathology/chest_pathology_page3" target="_blank" class="btn btn-primary">Pleural Disease Module</a>
+                        <a href="https://www.radiologymasterclass.co.uk/pdf/pleural_effusion_and_empyema_guide.pdf" target="_blank" class="btn btn-pdf">Pleural Protocol PDF</a>
+                    </div>
+                </div>
+
+                <!-- #48 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#48</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">Cardiac Radiology</span>
+                                <span class="tag labelled">Heart Silhouette</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Cardiac Silhouette & Pericardial Abnormalities on Plain Radiography</h3>
+                        <div class="target-level">🎓 Target: Cardiology Fellows & Radiology Residents</div>
+                        <p class="description">Detailed assessment of cardiac chamber enlargement: left atrial enlargement (splaying of carina, double density sign, left atrial appendage bulge), right ventricular hypertrophy (boot-shaped heart, retrosternal fill), and massive pericardial effusion ('water bottle' heart sign).</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiopaedia.org/articles/cardiac-silhouette" target="_blank" class="btn btn-primary">Cardiac Silhouette Guide</a>
+                        <a href="https://radiopaedia.org/articles/cardiovascular-system-chest-radiograph?lang=us" target="_blank" class="btn btn-pdf">Cardiac CXR PDF Guide</a>
+                    </div>
+                </div>
+
+                <!-- #49 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#49</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">Trauma Radiology</span>
+                                <span class="tag labelled">ATLS Protocol</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Blunt Thoracic Trauma & ATLS Supine Chest Radiography Guide</h3>
+                        <div class="target-level">🎓 Target: Trauma Surgery, Emergency & Radiology Residents</div>
+                        <p class="description">Critical evaluation of initial ATLS trauma supine chest radiograph. Highlights signs of traumatic aortic injury (widened mediastinum, apical capping, left mainstem bronchus depression), flail chest/multiple rib series, pulmonary contusion, and pneumomediastinum/subcutaneous emphysema.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://radiologyassistant.nl/chest/chest-x-ray/trauma" target="_blank" class="btn btn-primary">Trauma Radiology Guide</a>
+                        <a href="https://radiologyassistant.nl/assets/chest-x-ray-trauma/thoracic_trauma_cxr_protocol.pdf" target="_blank" class="btn btn-pdf">Trauma CXR Handout PDF</a>
+                    </div>
+                </div>
+
+                <!-- #50 -->
+                <div class="card" data-category="emergency-icu">
+                    <div class="card-top">
+                        <div class="card-meta">
+                            <span class="res-number">#50</span>
+                            <div class="tags">
+                                <span class="tag emergency-icu">Post-Operative CXR</span>
+                                <span class="tag labelled">Surgical Complications</span>
+                            </div>
+                            <button class="fav-btn" onclick="toggleFav(this)">★</button>
+                        </div>
+                        <h3>Post-Operative Thoracic Surgery & Lung Resection Chest X-Ray Atlas</h3>
+                        <div class="target-level">🎓 Target: Thoracic Surgery Trainees & Surgical ICU Residents</div>
+                        <p class="description">An expert atlas illustrating expected post-operative appearances versus urgent complications following lobectomy, pneumonectomy, CABG, and lung transplantation. Explains post-pneumonectomy space filling progression, bronchopleural fistula recognition, and tension pneumothorax secondary to clamped chest drains.</p>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://thoracickey.com/the-postoperative-chest/" target="_blank" class="btn btn-primary">Post-Op Chest Atlas</a>
+                        <a href="https://thoracickey.com/wp-content/uploads/postoperative_cxr_complications.pdf" target="_blank" class="btn btn-pdf">Post-Op Complications PDF</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <div id="noResults" class="no-results hidden">
+        No academic teaching resources match your search or filter selection. Try clearing your search query.
+    </div>
+
+    <footer>
+        <p><strong>Curated Academic Chest X-Ray Teaching Resource Portal</strong></p>
+        <p>Developed for Resident Doctor Training (Radiology, Internal Medicine, Emergency Medicine & Critical Care).</p>
+        <p style="margin-top: 0.8rem; font-size: 0.8rem; color: #94a3b8;">All external links direct to open-access academic university curricula, peer-reviewed medical encyclopedias, or free official consensus PDF guidelines.</p>
+    </footer>
+
+    <script>
+        // Store favorites in localStorage
+        const FAV_KEY = 'cxr_academic_favorites';
+        let favorites = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || '[]'));
+
+        function initFavorites() {
+            document.querySelectorAll('.card').forEach(card => {
+                const title = card.querySelector('h3').textContent.trim();
+                const favBtn = card.querySelector('.fav-btn');
+                if (favorites.has(title)) {
+                    favBtn.classList.add('active');
+                }
+            });
+            updateFavCount();
+        }
+
+        function toggleFav(btn) {
+            const card = btn.closest('.card');
+            const title = card.querySelector('h3').textContent.trim();
+            if (favorites.has(title)) {
+                favorites.delete(title);
+                btn.classList.remove('active');
+            } else {
+                favorites.add(title);
+                btn.classList.add('active');
+            }
+            localStorage.setItem(FAV_KEY, JSON.stringify(Array.from(favorites)));
+            updateFavCount();
+            
+            // If current filter is favorites, refresh view
+            const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+            if (activeFilter === 'favorites') {
+                applyFilters();
+            }
+        }
+
+        function updateFavCount() {
+            document.getElementById('favCount').textContent = favorites.size;
+        }
+
+        // Filtering and Searching
+        const searchInput = document.getElementById('searchInput');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const cards = document.querySelectorAll('.card');
+        const groups = document.querySelectorAll('.category-group');
+        const noResults = document.getElementById('noResults');
+
+        let currentFilter = 'all';
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.getAttribute('data-filter');
+                applyFilters();
+            });
+        });
+
+        searchInput.addEventListener('input', applyFilters);
+
+        function applyFilters() {
+            const query = searchInput.value.toLowerCase().trim();
+            let visibleTotal = 0;
+
+            groups.forEach(group => {
+                let groupVisibleCount = 0;
+                const groupCards = group.querySelectorAll('.card');
+
+                groupCards.forEach(card => {
+                    const title = card.querySelector('h3').textContent.trim();
+                    const textContent = card.textContent.toLowerCase();
+                    const category = card.getAttribute('data-category');
+
+                    // Check search query
+                    const matchesSearch = query === '' || textContent.includes(query);
+
+                    // Check filter tab
+                    let matchesFilter = false;
+                    if (currentFilter === 'all') {
+                        matchesFilter = true;
+                    } else if (currentFilter === 'favorites') {
+                        matchesFilter = favorites.has(title);
+                    } else {
+                        matchesFilter = category === currentFilter;
+                    }
+
+                    if (matchesSearch && matchesFilter) {
+                        card.classList.remove('hidden');
+                        groupVisibleCount++;
+                        visibleTotal++;
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+
+                if (groupVisibleCount > 0) {
+                    group.classList.remove('hidden');
+                } else {
+                    group.classList.add('hidden');
+                }
+            });
+
+            if (visibleTotal === 0) {
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+            }
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', initFavorites);
+        initFavorites();
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a17391742a66f8a2',t:'MTc4MzM5MjkwNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

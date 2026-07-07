@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DSD Papers & Guidelines — Free Links and PDFs</title>
+  <style>
+    :root{
+      --bg:#f6f8fb; --card:#ffffff; --ink:#1f2937; --muted:#667085; --line:#e6eaf0;
+      --blue:#2457d6; --blue2:#e9efff; --green:#0f7a4d; --green2:#e8f7ef;
+      --amber:#9a6700; --amber2:#fff7df; --red:#b42318; --red2:#fff0ed; --shadow:0 10px 30px rgba(16,24,40,.08);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;background:linear-gradient(180deg,#eef3ff 0%,var(--bg) 260px);color:var(--ink)}
+    .wrap{max-width:1180px;margin:0 auto;padding:28px 18px 60px}
+    header{padding:22px 0 18px}
+    .kicker{display:inline-flex;gap:8px;align-items:center;border:1px solid #c7d7fe;background:#fff;border-radius:999px;padding:7px 12px;color:#2457d6;font-weight:700;font-size:13px}
+    h1{font-size:clamp(28px,4vw,46px);line-height:1.05;margin:18px 0 10px;letter-spacing:-.03em}
+    .sub{font-size:17px;line-height:1.55;color:var(--muted);max-width:900px;margin:0}
+    .notice{margin:18px 0 0;padding:13px 15px;border:1px solid #fedf89;background:#fffbeb;border-radius:14px;color:#7a4d00;font-size:14px;line-height:1.45}
+    .toolbar{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin:22px 0 18px}
+    .search{position:relative}
+    .search input{width:100%;border:1px solid var(--line);border-radius:16px;background:#fff;padding:15px 16px 15px 44px;font-size:15px;box-shadow:var(--shadow);outline:none}
+    .search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:#98a2b3}
+    .btns{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    button,.miniBtn{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:10px 13px;font-weight:700;cursor:pointer;text-decoration:none;font-size:13px}
+    button.active{border-color:#84adff;background:#eaf1ff;color:#1849b8}
+    .stats{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 18px}
+    .stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 13px;color:var(--muted);font-size:13px}.stat b{color:var(--ink)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:18px;display:flex;flex-direction:column;gap:12px;min-height:260px}
+    .topline{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+    .rank{min-width:38px;height:38px;border-radius:13px;background:#eef4ff;color:#2457d6;font-weight:900;display:grid;place-items:center}
+    .badges{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+    .badge{border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800;white-space:nowrap}
+    .b-guideline{background:var(--blue2);color:var(--blue)}.b-review{background:#f4f3ff;color:#5925dc}.b-genetics{background:#ecfdf3;color:#027a48}.b-psych{background:#fdf2fa;color:#c11574}.b-outcomes{background:#fef3f2;color:#b42318}.b-india{background:#fff4e6;color:#b54708}.b-open{background:var(--green2);color:var(--green)}.b-limited{background:var(--amber2);color:var(--amber)}
+    h2{font-size:18px;line-height:1.28;margin:0}.meta{color:var(--muted);font-size:13px;line-height:1.45}.why{font-size:14px;line-height:1.55;color:#344054;margin:0}.tags{font-size:12px;color:#667085;background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:8px 10px}
+    .actions{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}.primary{background:#2457d6;color:#fff;border-color:#2457d6}.pdf{background:#0f7a4d;color:#fff;border-color:#0f7a4d}.disabled{background:#f2f4f7;color:#98a2b3;border-color:#eaecf0;cursor:not-allowed}.copy{background:#fff}
+    details{border:1px solid var(--line);border-radius:16px;background:#fbfcff;padding:12px 14px;margin-top:18px}summary{font-weight:900;cursor:pointer}.small{font-size:13px;color:var(--muted);line-height:1.55}.footer{margin-top:28px;color:var(--muted);font-size:13px;line-height:1.6}
+    .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#101828;color:#fff;padding:10px 14px;border-radius:12px;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1}
+    @media(max-width:820px){.toolbar{grid-template-columns:1fr}.btns{justify-content:flex-start}.grid{grid-template-columns:1fr}.card{min-height:auto}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">📚 DSD / Pediatric Endocrinology Library</div>
+      <h1>Important DSD papers & guidelines<br/>with free article/PDF links</h1>
+      <p class="sub">A quick-access HTML app for diagnosis and treatment of disorders/differences of sex development. Filter by topic, search titles/authors, open article pages, and download legal free PDFs when available.</p>
+      <div class="notice"><b>Note:</b> I included direct PDF buttons only for openly available/legal PDFs I could identify. For a few high-impact papers where no free PDF was found, the app links to the article/DOI page and labels it “article only”.</div>
+    </header>
+
+    <section class="toolbar">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+        <input id="q" placeholder="Search by title, author, journal, topic…" />
+      </div>
+      <div class="btns" id="filters"></div>
+    </section>
+
+    <section class="stats" id="stats"></section>
+    <main class="grid" id="cards"></main>
+
+    <details>
+      <summary>Suggested reading order for clinicians</summary>
+      <ol class="small">
+        <li><b>Initial approach:</b> UK Society for Endocrinology 2021 guidance → Lancet diagnostic algorithm.</li>
+        <li><b>Emergency/46,XX DSD:</b> Endocrine Society CAH guideline → CAH review.</li>
+        <li><b>Genetics:</b> DSDnet molecular diagnosis paper.</li>
+        <li><b>Long-term care:</b> DSDnet standardized follow-up → psychosocial DSD-TRN paper → dsd-LIFE outcomes design.</li>
+        <li><b>India context:</b> Indian Association of Pediatric Surgeons DSD guideline.</li>
+      </ol>
+    </details>
+
+    <div class="footer">
+      Built as a static HTML file. External article/PDF links require internet access in a normal browser. Last updated: 1 July 2026.
+    </div>
+  </div>
+  <div class="toast" id="toast">Citation copied</div>
+
+<script>
+const papers = [
+  {
+    title:"Global Disorders of Sex Development Update since 2006: Perceptions, Approach and Care",
+    authors:"Lee PA, Nordenström A, Houk CP, Ahmed SF, Auchus R, et al.",
+    journal:"Hormone Research in Paediatrics. 2016;85(3):158–180.",
+    doi:"10.1159/000442975",
+    year:2016,
+    type:"Guideline / consensus",
+    topics:["guideline","overview","diagnosis","treatment","psychosocial"],
+    note:"Key modern update to the 2006 DSD consensus: MDT care, biochemical/genetic assessment, sex assignment, surgery controversies, gonadal tumor risk and QoL.",
+    article:"https://doi.org/10.1159/000442975",
+    pdf:"",
+    access:"article only"
+  },
+  {
+    title:"Society for Endocrinology UK Guidance on the initial evaluation of a suspected Difference or Disorder of Sex Development (DSD), Revised 2021",
+    authors:"Ahmed SF, Achermann JC, Alderson J, Crouch NS, Elford S, Hughes IA, Krone NP, et al.",
+    journal:"Clinical Endocrinology. 2021;95(6):818–840.",
+    doi:"10.1111/cen.14528",
+    year:2021,
+    type:"Guideline",
+    topics:["guideline","diagnosis","initial evaluation","newborn","adolescent"],
+    note:"Most practical initial evaluation guideline: who to investigate, MDT setup, endocrine labs, imaging, genetics, and neonatal/adolescent pathways.",
+    article:"https://discovery.ucl.ac.uk/id/eprint/10128793/",
+    pdf:"https://discovery.ucl.ac.uk/id/eprint/10128793/9/Achermann_Clinical%20Endocrinology%20-%202021%20-%20Ahmed%20-%20Society%20for%20Endocrinology%20UK%20Guidance%20on%20the%20initial%20evaluation%20of%20a%20suspected.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Congenital Adrenal Hyperplasia Due to Steroid 21-Hydroxylase Deficiency: An Endocrine Society Clinical Practice Guideline",
+    authors:"Speiser PW, Arlt W, Auchus RJ, Baskin LS, Conway GS, Merke DP, et al.",
+    journal:"Journal of Clinical Endocrinology & Metabolism. 2018;103(11):4043–4088.",
+    doi:"10.1210/jc.2018-01865",
+    year:2018,
+    type:"Guideline",
+    topics:["guideline","CAH","treatment","diagnosis","endocrine emergency"],
+    note:"Essential for 21-hydroxylase deficiency CAH: newborn screening, LC-MS/MS steroid testing, cosyntropin testing, hydrocortisone/fludrocortisone/salt, stress dosing and transition.",
+    article:"https://academic.oup.com/jcem/article/103/11/4043/5107759",
+    pdf:"https://academic.oup.com/DocumentLibrary/ENDO/JCEM/jc.2018-01865.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"A clinical algorithm to diagnose differences of sex development",
+    authors:"León NY, Reyes AP, Harley VR.",
+    journal:"The Lancet Diabetes & Endocrinology. 2019;7(7):560–574.",
+    doi:"10.1016/S2213-8587(18)30339-5",
+    year:2019,
+    type:"Diagnostic review",
+    topics:["diagnosis","algorithm","genetics","initial evaluation"],
+    note:"High-yield step-by-step diagnostic algorithm integrating clinical exam, endocrine tests, imaging and molecular diagnosis.",
+    article:"https://doi.org/10.1016/S2213-8587(18)30339-5",
+    pdf:"",
+    access:"article only"
+  },
+  {
+    title:"Genetics in endocrinology: approaches to molecular genetic diagnosis in the management of DSD — EU COST Action BM1303 DSDnet position paper",
+    authors:"Audi L, Ahmed SF, Krone N, Cools M, McElreavey K, Holterhus PM, Greenfield A, et al.",
+    journal:"European Journal of Endocrinology. 2018;179(4):R197–R206.",
+    doi:"10.1530/EJE-18-0256",
+    year:2018,
+    type:"Genetics position paper",
+    topics:["genetics","diagnosis","molecular testing","DSDnet"],
+    note:"When to use karyotype, microarray, targeted panels, WES/WGS; explains how genetic results alter counseling, sex assignment, tumor risk and endocrine care.",
+    article:"https://pmc.ncbi.nlm.nih.gov/articles/PMC6182188/",
+    pdf:"https://pmc.ncbi.nlm.nih.gov/articles/PMC6182188/pdf/eje-179-R197.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Standardised data collection for clinical follow-up and assessment of outcomes in DSD: recommendations from COST Action DSDnet",
+    authors:"Flück C, Nordenström A, Ahmed SF, Ali SR, Berra M, Hall J, Köhler B, et al.",
+    journal:"European Journal of Endocrinology. 2019;181(5):545–564.",
+    doi:"10.1530/EJE-19-0363",
+    year:2019,
+    type:"Follow-up recommendations",
+    topics:["outcomes","follow-up","registry","psychosocial","DSDnet"],
+    note:"Structured longitudinal follow-up template for growth, puberty, surgery, hormones, tumor outcomes, psychosocial support, gender development and fertility.",
+    article:"https://eje.bioscientifica.com/view/journals/eje/181/5/EJE-19-0363.xml",
+    pdf:"https://eje.bioscientifica.com/downloadpdf/journals/eje/181/5/EJE-19-0363.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Interdisciplinary care in DSD: the psychosocial component of the DSD–Translational Research Network",
+    authors:"Sandberg DE, Gardner M, Callens N, Mazur T; DSD-TRN Psychosocial Workgroup.",
+    journal:"American Journal of Medical Genetics Part C. 2017;175(2):279–292.",
+    doi:"10.1002/ajmg.c.31561",
+    year:2017,
+    type:"Psychosocial care",
+    topics:["psychosocial","MDT","follow-up","screening"],
+    note:"Core paper on systematic psychosocial screening, family-centered care, communication, mental-health triage and integration with DSD team care.",
+    article:"https://pmc.ncbi.nlm.nih.gov/articles/PMC5509362/",
+    pdf:"https://pmc.ncbi.nlm.nih.gov/articles/PMC5509362/pdf/nihms873210.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Participation of adults with DSD in the clinical study dsd-LIFE: design, methodology, recruitment, data quality and study population",
+    authors:"Röhle R, Gehrmann K, Szarras-Czapnik M, Claahsen-van der Grinten H, et al.",
+    journal:"BMC Endocrine Disorders. 2017;17:52.",
+    doi:"10.1186/s12902-017-0198-y",
+    year:2017,
+    type:"Outcomes study design",
+    topics:["outcomes","quality of life","hormone therapy","surgery","psychosocial"],
+    note:"European multicenter outcomes project evaluating long-term effects of hormonal therapy, surgery, psychological support, sexuality, fertility and QoL.",
+    article:"https://pmc.ncbi.nlm.nih.gov/articles/PMC5562972/",
+    pdf:"https://pmc.ncbi.nlm.nih.gov/articles/PMC5562972/pdf/12902_2017_Article_198.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"A Single-Center, Observational Study of 607 Children and Young People Presenting With Differences of Sex Development",
+    authors:"Man E, Mushtaq I, Barnicoat A, Carmichael P, Hughes CR, Davies K, et al.",
+    journal:"Journal of the Endocrine Society. 2023;7(1):bvac165.",
+    doi:"10.1210/jendso/bvac165",
+    year:2023,
+    type:"Pediatric cohort",
+    topics:["epidemiology","diagnosis","pediatric","cohort"],
+    note:"Large pediatric DSD cohort showing presentation patterns, diagnostic distribution, prevalence estimates, associated features and the value of expert pathways.",
+    article:"https://academic.oup.com/jes/article/7/1/bvac165/6779562",
+    pdf:"https://academic.oup.com/jes/article-pdf/7/1/bvac165/48306378/bvac165.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Indian Association of Pediatric Surgeons Guidelines on the Management of Differences in Sex Development",
+    authors:"Sarin YK, Singh D, Babu R, Das K, Rao S; DSD Guidelines Committee of IAPS.",
+    journal:"Journal of Indian Association of Pediatric Surgeons. 2022;27(4):376–380.",
+    doi:"10.4103/0971-9261.352296",
+    year:2022,
+    type:"India guideline",
+    topics:["India","guideline","MDT","surgery","legal"],
+    note:"India-relevant MDT/legal/ethical framework; useful alongside endocrine guidelines for local committee pathways and decision-making.",
+    article:"https://pmc.ncbi.nlm.nih.gov/articles/PMC9552656/",
+    pdf:"https://pmc.ncbi.nlm.nih.gov/articles/PMC9552656/pdf/JIAPS-27-376.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Pubertal induction and transition to adult sex hormone replacement in patients with congenital pituitary or gonadal reproductive hormone deficiency: Endo-ERN clinical practice guideline",
+    authors:"Endo-ERN guideline group.",
+    journal:"European Journal of Endocrinology. 2022;186(6):G9–G49.",
+    doi:"10.1530/EJE-22-0073",
+    year:2022,
+    type:"Hormone treatment guideline",
+    topics:["treatment","puberty","hypogonadism","transition","hormone replacement"],
+    note:"Not DSD-only but very relevant for DSD-related hypogonadism/gonadectomy: practical estrogen/testosterone induction and transition regimens.",
+    article:"https://academic.oup.com/ejendo/article/186/6/G9/6853683",
+    pdf:"https://academic.oup.com/ejendo/article-pdf/186/6/G9/45543717/ejendo186g9.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Clinical practice guidelines for the care of girls and women with Turner syndrome",
+    authors:"International Turner Syndrome guideline group.",
+    journal:"European Journal of Endocrinology. 2024;190(6):G53–G151.",
+    doi:"10.1093/ejendo/lvae050",
+    year:2024,
+    type:"Guideline",
+    topics:["Turner syndrome","sex chromosome DSD","treatment","puberty","fertility"],
+    note:"Important for sex chromosome DSD overlap: growth, puberty induction, estrogen replacement, fertility, cardiovascular surveillance and transition.",
+    article:"https://academic.oup.com/ejendo/article/190/6/G53/7674241",
+    pdf:"https://academic.oup.com/ejendo/article-pdf/190/6/G53/57989645/lvae050.pdf",
+    access:"free pdf"
+  },
+  {
+    title:"Congenital Adrenal Hyperplasia—Current Insights in Pathophysiology, Diagnostics, and Management",
+    authors:"Claahsen-van der Grinten HL, Speiser PW, Ahmed SF, Arlt W, Auchus RJ, Falhammar H, et al.",
+    journal:"Endocrine Reviews. 2022;43(1):91–159.",
+    doi:"10.1210/endrev/bnab016",
+    year:2022,
+    type:"CAH review",
+    topics:["CAH","diagnosis","treatment","review","steroid profiling"],
+    note:"Comprehensive modern CAH review: steroidogenesis, LC-MS/MS profiling, genotyping, long-term outcomes, registries and emerging therapies.",
+    article:"https://academic.oup.com/edrv/article/43/1/91/6271518",
+    pdf:"https://academic.oup.com/edrv/article-pdf/43/1/91/42427638/bnab016.pdf",
+    access:"free pdf"
+  }
+];
+
+const filterDefs = [
+  ["all","All"],["guideline","Guidelines"],["diagnosis","Diagnosis"],["treatment","Treatment"],["genetics","Genetics"],["CAH","CAH"],["psychosocial","Psychosocial"],["outcomes","Outcomes"],["India","India"]
+];
+let active = "all";
+const $ = s => document.querySelector(s);
+const cards = $("#cards"), q = $("#q"), filters = $("#filters"), stats = $("#stats"), toast=$("#toast");
+
+function badgeClass(p){
+  const t=(p.type+" "+p.topics.join(" ")).toLowerCase();
+  if(t.includes("india")) return "b-india";
+  if(t.includes("psych")) return "b-psych";
+  if(t.includes("genetic")) return "b-genetics";
+  if(t.includes("outcome") || t.includes("cohort")) return "b-outcomes";
+  if(t.includes("review")) return "b-review";
+  return "b-guideline";
+}
+function cite(p){return `${p.authors} ${p.title}. ${p.journal} DOI: ${p.doi}`;}
+function renderFilters(){
+  filters.innerHTML = filterDefs.map(([id,label])=>`<button class="${active===id?'active':''}" data-filter="${id}">${label}</button>`).join("");
+  filters.querySelectorAll('button').forEach(b=>b.onclick=()=>{active=b.dataset.filter;render();});
+}
+function matches(p){
+  const text = (p.title+' '+p.authors+' '+p.journal+' '+p.type+' '+p.topics.join(' ')+' '+p.note).toLowerCase();
+  const term = q.value.trim().toLowerCase();
+  const f = active==='all' || p.topics.map(x=>x.toLowerCase()).includes(active.toLowerCase()) || p.type.toLowerCase().includes(active.toLowerCase());
+  return f && (!term || text.includes(term));
+}
+function render(){
+  renderFilters();
+  const list = papers.filter(matches);
+  const pdfCount = list.filter(p=>p.pdf).length;
+  stats.innerHTML = `<div class="stat"><b>${list.length}</b> shown</div><div class="stat"><b>${pdfCount}</b> with free PDF buttons</div><div class="stat"><b>${papers.length}</b> total resources</div>`;
+  cards.innerHTML = list.map((p,i)=>`
+    <article class="card">
+      <div class="topline"><div class="rank">${i+1}</div><div class="badges"><span class="badge ${badgeClass(p)}">${p.type}</span><span class="badge ${p.pdf?'b-open':'b-limited'}">${p.pdf?'Free PDF':'Article only'}</span></div></div>
+      <h2>${p.title}</h2>
+      <div class="meta"><b>${p.authors}</b><br>${p.journal}<br>DOI: <a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">${p.doi}</a></div>
+      <p class="why">${p.note}</p>
+      <div class="tags">${p.topics.map(t=>'#'+t).join(' ')}</div>
+      <div class="actions">
+        <a class="miniBtn primary" href="${p.article}" target="_blank" rel="noopener">Open article</a>
+        ${p.pdf ? `<a class="miniBtn pdf" href="${p.pdf}" target="_blank" rel="noopener">Download PDF</a>` : `<span class="miniBtn disabled">No free PDF found</span>`}
+        <button class="miniBtn copy" data-idx="${papers.indexOf(p)}">Copy citation</button>
+      </div>
+    </article>`).join("") || `<div class="card"><h2>No matches</h2><p class="why">Try another search term or filter.</p></div>`;
+  document.querySelectorAll('.copy').forEach(btn=>btn.onclick=async()=>{try{await navigator.clipboard.writeText(cite(papers[btn.dataset.idx]));showToast();}catch(e){alert(cite(papers[btn.dataset.idx]));}});
+}
+function showToast(){toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),1400)}
+q.addEventListener('input', render);
+render();
+</script>
+</body>
+</html>
