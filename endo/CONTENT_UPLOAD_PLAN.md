@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 16/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 17/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -130,8 +130,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-14 Endocrine hypertension | ✅ authored | 77 | 73% |
 | w15-15 Female reproductive axis | ✅ authored | 77 | 62% |
 | w15-16 Hormonal contraception | ✅ authored | 77 | 58% |
+| w15-17 Testicular disorders | ✅ authored | 77 | 62% |
 
-**Phase 2 Williams 15e: 16/48 chapters complete** (~1,232 items)
+**Phase 2 Williams 15e: 17/48 chapters complete** (~1,309 items)
 
 ## Phase 3 — ESAP 2015
 
@@ -202,4 +203,5 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-08 | w15-13 | 77 | 54% | 367a60d |
 | 2026-07-08 | w15-14 | 77 | 73% | 40efcae |
 | 2026-07-08 | w15-15 | 77 | 62% | 55782d1 |
-| 2026-07-08 | w15-16 | 77 | 58% | pending |
+| 2026-07-08 | w15-16 | 77 | 58% | 2cb50d9 |
+| 2026-07-08 | w15-17 | 77 | 62% | pending |
