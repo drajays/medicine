@@ -4,102 +4,451 @@
   "chapterNo": "31",
   "title": "What Pediatric Endocrinologists Need to Know About Dyslipidemia",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Don P. Wilson, MD, FNLA",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_31_What_Pediatric_Endocrinologists_Need_to_Know_About_Dyslipidemia.md",
   "items": [
     {
-      "patientAge": 17,
-      "patientSex": "Female",
-      "patientHeight": 160,
-      "patientWeight": 55,
-      "patientBMI": 24.8,
-      "patientMedicalHistory": [
-        {
-          "condition": "Hypothyroidism",
-          "status": "Normal"
-        },
-        {
-          "condition": "Liver disease",
-          "status": "Normal"
-        },
-        {
-          "condition": "Kidney disease",
-          "status": "Normal"
-        },
-        {
-          "condition": "Diabetes mellitus",
-          "status": "Normal"
-        }
-      ],
-      "patientMedications": [
-        {
-          "name": "Atorvastatin 20mg daily",
-          "category": "Statin"
-        },
-        {
-          "name": "Oral contraceptive pill daily",
-          "category": "Hormonal contraception"
-        }
-      ],
-      "patientPregnancyStatus": {
-        "status": "Positive",
-        "hCGLevel": 10,
-        "gestationalAge": 8
-      },
-      "patientLipidProfile": [
-        {
-          "analyte": "Total cholesterol",
-          "value": 214,
-          "unit": "mg/dL"
-        },
-        {
-          "analyte": "Triglycerides",
-          "value": 80,
-          "unit": "mg/dL"
-        },
-        {
-          "analyte": "LDL cholesterol",
-          "value": 52,
-          "unit": "mg/dL"
-        },
-        {
-          "analyte": "VLDL cholesterol",
-          "value": 148,
-          "unit": "mg/dL"
-        }
-      ],
+      "id": "e21-31-n1",
+      "type": "note",
+      "subtopic": "Atherosclerosis origins",
+      "title": "Why dyslipidemia screening in childhood matters",
+      "text": "CVD is the leading U.S. cause of death; atherosclerosis begins in youth. Universal screening and early treatment—especially for familial hypercholesterolemia—can reduce future events.",
+      "reference": "Main Conclusions: \"Universal screening and early treatment have the potential to significantly reduce future CVD-related events in youth with familial hypercholesterolemia.\""
+    },
+    {
+      "id": "e21-31-n2",
+      "type": "note",
+      "subtopic": "Universal screening age",
+      "title": "How U.S. guidelines define who to screen for dyslipidemia",
+      "text": "Selective screening from age ≥2 with family risk; universal lipid screening for all children ages 9–11, repeated between 17–21 if initial result normal.",
+      "reference": "Who to screen: \"Universal screening of all children 9 to 11 years of age regardless of general health or the presence/absence of CVD risk factors.\""
+    },
+    {
+      "id": "e21-31-n3",
+      "type": "note",
+      "subtopic": "Screening method",
+      "title": "Preferred cholesterol screening method in pediatrics",
+      "text": "Fasting or nonfasting lipid panels are acceptable; nonfasting is often more practical. Direct LDL assay needed when triglycerides >400 mg/dL preclude Friedewald calculation.",
+      "reference": "Question 2: What is the preferred method of cholesterol screening?: \"Screening can be performed using a fasting or nonfasting lipid profile. A nonfasting blood sample is often more practical and efficient.\""
+    },
+    {
+      "id": "e21-31-n4",
+      "type": "note",
+      "subtopic": "FH diagnosis",
+      "title": "Familial hypercholesterolemia clinical pattern",
+      "text": "In absence of secondary causes, marked LDL elevation (~1:200–1:500 prevalence) with premature family CVD; youth are often asymptomatic yet highest CVD risk.",
+      "reference": "Question 2: Based on this patient's findings, which of the following is the most likely cause of her lipid abnormality?: \"In the absence of secondary causes of hypercholesterolemia, the most likely diagnosis is familial hypercholesterolemia (~1:200-1:500).\""
+    },
+    {
+      "id": "e21-31-n5",
+      "type": "note",
+      "subtopic": "Statin indications",
+      "title": "Why LDL thresholds trigger statin therapy in pediatric FH",
+      "text": "FDA-approved for age ≥10 when LDL >190 mg/dL or >160 mg/dL with ≥1 additional risk factor; goal LDL ≤100 mg/dL or ≥50% reduction from baseline.",
+      "reference": "Main Conclusions: \"All statins have been approved by the US FDA for use in children with familial hypercholesterolemia and should be recommended to patients aged 10 years and older when the LDL-cholesterol concentration is greater than 190 mg/dL (>4.92 mmol/L) or greater than 160 mg/dL (>4.14 mmol/L) in patients with 1 or more additional risk factors.\""
+    },
+    {
+      "id": "e21-31-n6",
+      "type": "note",
+      "subtopic": "Statin safety",
+      "title": "How long-term pravastatin data support childhood FH treatment",
+      "text": "Clinical trials show statins are safe and improve carotid intima-media thickness; 20-year pravastatin follow-up showed remarkable absence of MACE vs affected parent.",
+      "reference": "Question 3: Is there evidence that lipid-lowering medications, such as statins, are safe when prescribed at a young age? If so, are they effective?: \"demonstrated a remarkable absence of major adverse cardiovascular events at age 40 years and older in contrast to the affected parent.\""
+    },
+    {
+      "id": "e21-31-n7",
+      "type": "note",
+      "subtopic": "Genetic testing",
+      "title": "How to approach genetic testing in suspected FH",
+      "text": "Test LDLR, APOB, PCSK9 with appropriate sequencing/deletion analysis; cascade testing of relatives when pathogenic variant found. Negative testing does not exclude FH or need for therapy.",
+      "reference": "Question 4: Is there a role for genetic testing?: \"Genetic testing is recommended for all individuals clinically suspected to have familial hypercholesterolemia.\""
+    },
+    {
+      "id": "e21-31-n8",
+      "type": "note",
+      "subtopic": "Cascade screening",
+      "title": "Why cascade screening of relatives is recommended",
+      "text": "Systematic first-degree relative cholesterol or genotype testing enhances detection; adults in the family often have greater short-term risk than affected children.",
+      "reference": "Question 5: Now that you have initiated treatment, is there a role for cascade screening?: \"Screening the family of a patient with familial hypercholesterolemia by systematically identifying first-degree relatives (ie, cascade screening), is recommended\""
+    },
+    {
+      "id": "e21-31-n9",
+      "type": "note",
+      "subtopic": "Pregnancy and statins",
+      "title": "How pregnancy affects statin therapy in FH",
+      "text": "Statins, ezetimibe, and niacin are category X—stop at least 4 weeks before conception; discontinue immediately if unintended pregnancy; withhold lipid drugs during breastfeeding.",
+      "reference": "Case 1 (Continued): \"These treatments SHOULD NOT BE USED during pregnancy. In the case of an unintended pregnancy, a woman with familial hypercholesterolemia should discontinue statins, ezetimibe, and niacin immediately.\""
+    },
+    {
+      "id": "e21-31-n10",
+      "type": "note",
+      "subtopic": "Lipoprotein(a)",
+      "title": "Role of lipoprotein(a) in selected pediatric cases",
+      "text": "Adult Lp(a) levels are set by age 2–5 years; >50 mg/dL (>100 nmol/L) affects ~1 in 5 individuals and is an independent causative CVD risk factor counted within LDL fraction.",
+      "reference": "Advanced Lipid Testing: \"Elevated lipoprotein (a), defined as greater than 50 mg/dL (>100 nmol/L), is the most common genetic dyslipidemia, affecting nearly 1 in 5 individuals in the United States.\""
+    },
+    {
+      "id": "e21-31-n11",
+      "type": "note",
+      "subtopic": "Hypertriglyceridemia goals",
+      "title": "Treatment goals differ by triglyceride severity",
+      "text": "TG <150 mg/dL for health maintenance/CVD prevention; TG ≥500–999 mg/dL focus on pancreatitis prevention with fibrates/omega-3; extreme elevations need strict fat restriction.",
+      "reference": "Table 4. Treatment of Hypertriglyceridemia: \"Goal ... CVD Risk Prevention ... Avoid Pancreatitis\""
+    },
+    {
+      "id": "e21-31-n12",
+      "type": "note",
+      "subtopic": "Secondary causes",
+      "title": "Secondary causes to exclude before diagnosing FH",
+      "text": "Screen hypothyroidism, liver/kidney disease, diabetes/obesity, and medications (steroids, isotretinoin, OCPs) when evaluating pediatric dyslipidemia.",
+      "reference": "Table 3. Secondary Causes of Dyslipidemia: \"Hypothyroidism ... Liver diseases ... Kidney diseases ... Diabetes mellitus ... Obesity, insulin resistance ... Medications\""
+    },
+    {
       "id": "e21-31-q1",
       "type": "mcq",
+      "subtopic": "Case 1 — screening at age 10",
+      "question": "A healthy 10-year-old girl had cholesterol screening at a well-child visit showing elevated LDL. Was this appropriate?",
       "options": [
-        "Option B",
-        "Option C",
-        "Option D"
+        "No—only screen if symptomatic",
+        "Yes—universal screening includes ages 9–11",
+        "No—wait until age 18 only",
+        "Only if BMI >95th percentile"
       ],
-      "correctOption": 0
+      "correctOption": 1,
+      "explanation": "AAP/AHA recommend universal lipid screening at 9–11 years regardless of risk factors.",
+      "reference": "Who to screen: \"Universal screening of all children 9 to 11 years of age regardless of general health or the presence/absence of CVD risk factors.\""
     },
     {
-      "type": "why",
-      "subtopic": "Screening and Treatment for Familial Hypercholesterolemia in Children",
-      "question": "Why should pediatric health care providers be encouraged to improve cholesterol screening rates?",
-      "answer": "Because improving screening rates can lead to earlier detection of familial hypercholesterolemia, which is crucial for preventing future cardiovascular disease-related events in youth.",
-      "keyPoints": [
-        "Universal screening and early treatment have the potential to significantly reduce future CVD-related events in youth with familial hypercholesterolemia",
-        "Pediatric health care providers must be aware of current cholesterol screening recommendations"
+      "id": "e21-31-q2",
+      "type": "mcq",
+      "subtopic": "Case 1 — diagnosis at 16",
+      "question": "A 16-year-old girl with LDL 172 mg/dL, BMI >95th percentile, acanthosis, HbA1c 6.2%, maternal statin use, and grandfather MI at 44. Most likely lipid diagnosis?",
+      "options": [
+        "Isolated dietary hypercholesterolemia",
+        "Familial hypercholesterolemia",
+        "Type III dysbetalipoproteinemia",
+        "Cholesteryl ester storage disease"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Universal screening and early treatment have the potential to significantly reduce future CVD-related events in youth with familial hypercholesterolemia. Pediatric health care providers must be aware of current cholesterol screening recommendations and be encouraged to improve screening rates. Cascade screening should be offered to all first-degree relatives of probands and, when appropriate, to second-degree relatives.\"",
-      "id": "e21-31-why1"
+      "correctOption": 1,
+      "explanation": "After excluding secondary causes, FH is most likely (~1:200–1:500) despite obesity-related metabolic findings.",
+      "reference": "Question 2: Based on this patient's findings, which of the following is the most likely cause of her lipid abnormality?: \"the most likely diagnosis is familial hypercholesterolemia (~1:200-1:500).\""
     },
     {
-      "type": "how",
-      "subtopic": "Monitoring Approach for Triglycerides in Familial Hypercholesterolemia Patients",
-      "question": "How should triglyceride levels be monitored in patients with familial hypercholesterolemia?",
-      "answer": "In patients with familial hypercholesterolemia, triglyceride levels should be regularly monitored to assess the effectiveness of treatment and to identify any secondary causes. Monitoring can include periodic lipid panels that measure LDL-cholesterol, HDL-cholesterol, triglycerides, and other relevant markers such as apolipoprotein B (apoB) or lipoprotein(a). For patients with extreme triglyceride elevation, monitoring should focus on preventing pancreatitis, while for those with less severe elevation, the goal is to reduce CVD risk. Regular follow-up visits with healthcare providers are recommended to adjust treatment plans based on these results.",
-      "keyPoints": [
-        "Triglyceride levels should be monitored regularly in patients with familial hypercholesterolemia",
-        "Monitoring can include lipid panels and other relevant markers"
+      "id": "e21-31-q3",
+      "type": "mcq",
+      "subtopic": "Statin initiation",
+      "question": "A 16-year-old with FH has LDL 172 mg/dL and multiple risk factors (obesity, prediabetes, family history). Appropriate therapy?",
+      "options": [
+        "Observation only until age 21",
+        "Start statin after LDL >190 mg/dL only",
+        "Start statin (e.g., atorvastatin) with LDL goal ≤100 mg/dL",
+        "Niacin as first-line in adolescents"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Clinical trial data have shown that pharmacologic treatment to lower atherogenic cholesterol is safe and effective and improves noninvasive measures of atherosclerosis. All statins have been approved by the US FDA for use in children with familial hypercholesterolemia and should be recommended to patients aged 10 years and older when the LDL-cholesterol concentration is greater than 190 mg/dL (>4.92 mmol/L) or greater than 160 mg/dL (>4.14 mmol/L) in patients with 1 or more additional risk factors. Statins should be withheld or discontinued in women who are pregnant or planning to become pregnant and should not be resumed until breastfeeding is completed.\"",
-      "id": "e21-31-how1"
+      "correctOption": 2,
+      "explanation": "LDL >160 with risk factors meets FDA-approved pediatric statin indication; goal ≤100 or 50% reduction.",
+      "reference": "Question 3: What treatment would you recommend? What are your treatment goals?: \"greater than 160 mg/dL (>4.14 mmol/L) with 1 or more additional risk factor.\""
+    },
+    {
+      "id": "e21-31-q4",
+      "type": "mcq",
+      "subtopic": "Sexually active adolescent",
+      "question": "When starting atorvastatin in a sexually active 16-year-old girl with FH, what else is essential?",
+      "options": [
+        "Discontinue statin permanently",
+        "Recommend effective contraception and counsel on pregnancy statin risks",
+        "Switch to fenofibrate monotherapy",
+        "Defer statin until menopause"
+      ],
+      "correctOption": 1,
+      "explanation": "Statins are contraindicated in pregnancy; contraception counseling is mandatory in sexually active females.",
+      "reference": "Case 1 (Continued): \"Because she is sexually active, an oral contraceptive pill is also recommended.\""
+    },
+    {
+      "id": "e21-31-q5",
+      "type": "mcq",
+      "subtopic": "Pregnancy discovery",
+      "question": "A 17-year-old on atorvastatin for FH is found 8 weeks pregnant. Best management?",
+      "options": [
+        "Continue atorvastatin for fetal LDL benefit",
+        "Stop statin, ezetimibe, and niacin immediately; counsel on pregnancy FH risks",
+        "Double statin dose for placental transfer blockade",
+        "Add ezetimibe for enhanced LDL lowering"
+      ],
+      "correctOption": 1,
+      "explanation": "Category X lipid drugs must stop immediately in pregnancy; prepregnancy counseling advised for all women on therapy.",
+      "reference": "Case 1 (Continued): \"a woman with familial hypercholesterolemia should discontinue statins, ezetimibe, and niacin immediately.\""
+    },
+    {
+      "id": "e21-31-q6",
+      "type": "mcq",
+      "subtopic": "Triglycerides in FH",
+      "question": "A patient with FH has triglycerides 165 mg/dL and BMI >95th percentile with HbA1c 6.2%. This suggests:",
+      "options": [
+        "FH cannot coexist with elevated triglycerides",
+        "Possible insulin resistance/prediabetes as secondary contributor",
+        "Mandatory fibrate therapy for pancreatitis prevention",
+        "Exclusion of cascade screening"
+      ],
+      "correctOption": 1,
+      "explanation": "Elevated TG does not exclude FH; insulin resistance may contribute additional CVD risk.",
+      "reference": "Question 2: Is this patient's elevated triglycerides of concern?: \"the presence of an elevated value does not exclude familial hypercholesterolemia.\""
+    },
+    {
+      "id": "e21-31-q7",
+      "type": "mcq",
+      "subtopic": "Nonfasting screening",
+      "question": "Preferred practical approach to pediatric lipid screening in clinic is often:",
+      "options": [
+        "Mandatory 12-hour fast only",
+        "Nonfasting lipid panel",
+        "Random glucose instead of lipids",
+        "POC total cholesterol alone without HDL"
+      ],
+      "correctOption": 1,
+      "explanation": "Nonfasting samples are practical and acceptable per guidelines.",
+      "reference": "Question 2: What is the preferred method of cholesterol screening?: \"A nonfasting blood sample is often more practical and efficient.\""
+    },
+    {
+      "id": "e21-31-q8",
+      "type": "mcq",
+      "subtopic": "Direct LDL",
+      "question": "When triglycerides exceed 400 mg/dL, LDL cholesterol should be:",
+      "options": [
+        "Calculated with Friedewald formula only",
+        "Measured with direct assay",
+        "Assumed zero",
+        "Replaced by hemoglobin A1c"
+      ],
+      "correctOption": 1,
+      "explanation": "High TG precludes reliable Friedewald LDL calculation.",
+      "reference": "Question 2: What is the preferred method of cholesterol screening?: \"Significant triglyceride elevation (eg, >400 mg/dL [>4.52 mmol/L]) precludes calculation of LDL cholesterol using the Friedewald formula, in which case LDL cholesterol can be measured with a direct assay.\""
+    },
+    {
+      "id": "e21-31-q9",
+      "type": "mcq",
+      "subtopic": "Genetic panel",
+      "question": "Genetic testing for suspected FH should include:",
+      "options": [
+        "LDLR, APOB, and PCSK9 analysis",
+        "ABCD1 sequencing only",
+        "KCNJ11 alone",
+        "HLA typing"
+      ],
+      "correctOption": 0,
+      "explanation": "Standard FH gene panel includes LDLR, APOB, PCSK9 with appropriate structural variant analysis.",
+      "reference": "Question 4: Is there a role for genetic testing?: \"genetic testing for suspected familial hypercholesterolemia should include analysis of LDLR, APOB, and PCSK9\""
+    },
+    {
+      "id": "e21-31-q10",
+      "type": "mcq",
+      "subtopic": "Cascade screening",
+      "question": "After identifying FH in an index child, recommended family approach is:",
+      "options": [
+        "No family testing needed",
+        "Cascade screening of first-degree relatives",
+        "MRI coronary angiography for all siblings under 5",
+        "Statin for all relatives regardless of LDL"
+      ],
+      "correctOption": 1,
+      "explanation": "Cascade cholesterol or genotype testing of relatives is recommended.",
+      "reference": "Question 5: Now that you have initiated treatment, is there a role for cascade screening?: \"cascade screening), is recommended to enhance detection of individuals at-risk for familial hypercholesterolemia.\""
+    },
+    {
+      "id": "e21-31-q11",
+      "type": "mcq",
+      "subtopic": "Female undertreatment",
+      "question": "Data suggest women and children with FH are often:",
+      "options": [
+        "Overtreated with combination lipid therapy",
+        "Undertreated compared with men",
+        "Diagnosed earlier than men on average",
+        "Never candidates for statins"
+      ],
+      "correctOption": 1,
+      "explanation": "European registry data show women less likely on lipid-lowering therapy and goal LDL.",
+      "reference": "Question 1: Should treatment be delayed because the patient is female?: \"Recent data from the European Atherosclerosis Society 2020 Virtual Congress suggest that female patients and children are generally undertreated.\""
+    },
+    {
+      "id": "e21-31-q12",
+      "type": "mcq",
+      "subtopic": "Pediatric LDL thresholds",
+      "question": "Per Table 1, LDL ≥130 mg/dL in children is classified as:",
+      "options": [
+        "Acceptable",
+        "Borderline",
+        "High",
+        "Low"
+      ],
+      "correctOption": 2,
+      "explanation": "Pediatric norms use population percentiles; ≥130 mg/dL is high.",
+      "reference": "Table 1. Acceptable, Borderline, and High Plasma Lipid and Lipoprotein Concentrations for Children and Adolescents: \"LDL cholesterol ... ≥130 mg/dL (SI): ≥3.37 mmol/L)\""
+    },
+    {
+      "id": "e21-31-q13",
+      "type": "mcq",
+      "subtopic": "Negative genetic test",
+      "question": "A child with clinical FH has negative LDLR/APOB/PCSK9 testing. Next step?",
+      "options": [
+        "Stop all lipid-lowering therapy permanently",
+        "Consider other genetic causes and continue therapy based on clinical risk",
+        "Assume normal lipids lifelong",
+        "Defer cascade screening"
+      ],
+      "correctOption": 1,
+      "explanation": "Negative testing does not exclude FH or obviate treatment; other genes and polygenic inheritance exist.",
+      "reference": "Question 4: Is there a role for genetic testing?: \"For individuals with negative genetic test results, other pathogenic variants ... and as-yet unidentified genes or polygenic inheritance should be considered.\""
+    },
+    {
+      "id": "e21-31-tf1",
+      "type": "true_false",
+      "subtopic": "Universal screening",
+      "statement": "All U.S. children ages 9–11 should undergo universal cholesterol screening.",
+      "correctAnswer": true,
+      "explanation": "Current AAP/AHA recommendation.",
+      "reference": "Who to screen: \"Universal screening of all children 9 to 11 years of age regardless of general health or the presence/absence of CVD risk factors.\""
+    },
+    {
+      "id": "e21-31-tf2",
+      "type": "true_false",
+      "subtopic": "Repeat screening",
+      "statement": "If initial childhood cholesterol screening is normal, repeat testing is recommended between ages 17 and 21.",
+      "correctAnswer": true,
+      "explanation": "Stated in screening guidelines.",
+      "reference": "Who to screen: \"If the initial cholesterol value is normal, screening should be repeated between 17 and 21 years of age.\""
+    },
+    {
+      "id": "e21-31-tf3",
+      "type": "true_false",
+      "subtopic": "Statin pregnancy",
+      "statement": "Statins may be continued throughout pregnancy in women with familial hypercholesterolemia.",
+      "correctAnswer": false,
+      "explanation": "Category X—must discontinue in pregnancy and breastfeeding.",
+      "reference": "Case 1 (Continued): \"These treatments SHOULD NOT BE USED during pregnancy.\""
+    },
+    {
+      "id": "e21-31-tf4",
+      "type": "true_false",
+      "subtopic": "FH prevalence",
+      "statement": "Familial hypercholesterolemia affects approximately 1 in 200–500 individuals.",
+      "correctAnswer": true,
+      "explanation": "Cited prevalence range.",
+      "reference": "Question 2: Based on this patient's findings, which of the following is the most likely cause of her lipid abnormality?: \"familial hypercholesterolemia (~1:200-1:500).\""
+    },
+    {
+      "id": "e21-31-tf5",
+      "type": "true_false",
+      "subtopic": "Advanced lipid testing",
+      "statement": "Routine advanced lipoprotein subclass analysis is recommended for all children.",
+      "correctAnswer": false,
+      "explanation": "Not routinely recommended; may help selected cases.",
+      "reference": "Advanced Lipid Testing: \"routine measurement of lipoprotein (a), apolipoprotein B, apolipoprotein A1, and lipoprotein subclasses and their sizes by advanced lipoprotein analysis is not currently recommended\""
+    },
+    {
+      "id": "e21-31-tf6",
+      "type": "true_false",
+      "subtopic": "Statin pediatric approval",
+      "statement": "All statins are FDA-approved for use in children with familial hypercholesterolemia meeting LDL thresholds.",
+      "correctAnswer": true,
+      "explanation": "Main conclusions statement.",
+      "reference": "Main Conclusions: \"All statins have been approved by the US FDA for use in children with familial hypercholesterolemia\""
+    },
+    {
+      "id": "e21-31-tf7",
+      "type": "true_false",
+      "subtopic": "Lifestyle alone in FH",
+      "statement": "A heart-healthy lifestyle alone is unlikely to prevent atherosclerosis in familial hypercholesterolemia.",
+      "correctAnswer": true,
+      "explanation": "Listed as barrier—lifestyle alone insufficient for FH.",
+      "reference": "Significance of the Clinical Problem: \"A heart-healthy lifestyle alone is unlikely to prevent atherosclerosis in individuals with familial hypercholesterolemia.\""
+    },
+    {
+      "id": "e21-31-tf8",
+      "type": "true_false",
+      "subtopic": "Lp(a) stability",
+      "statement": "Lipoprotein(a) levels are generally stable throughout an individual's lifespan after early childhood.",
+      "correctAnswer": true,
+      "explanation": "Adult levels achieved by 2–5 years and remain constant.",
+      "reference": "Advanced Lipid Testing: \"in general the level is stable and remains constant throughout the lifespan of an individual.\""
+    },
+    {
+      "id": "e21-31-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Universal screening",
+      "assertion": "Assertion: Universal lipid screening at ages 9–11 can identify asymptomatic familial hypercholesterolemia.",
+      "reason": "Reason: Cascade screening alone is more effective than universal testing.",
+      "correctOption": 2,
+      "explanation": "Assertion true; cascade depends on index case—reason misstates comparative strategy.",
+      "reference": "Significance of the Clinical Problem: \"Universal testing has the advantage of identifying familial hypercholesterolemia in asymptomatic youth and young adults\""
+    },
+    {
+      "id": "e21-31-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Statin efficacy",
+      "assertion": "Assertion: Pediatric statin therapy improves noninvasive measures of atherosclerosis.",
+      "reason": "Reason: No pediatric statin trial has ever measured carotid intima-media thickness.",
+      "correctOption": 2,
+      "explanation": "Assertion true per trials; reason false.",
+      "reference": "Question 3: Is there evidence that lipid-lowering medications, such as statins, are safe when prescribed at a young age? If so, are they effective?: \"pharmacologic treatment is safe and effective and improves noninvasive measures of atherosclerosis, such as carotid intima-media thickness.\""
+    },
+    {
+      "id": "e21-31-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Nonfasting lipids",
+      "assertion": "Assertion: Nonfasting lipid screening is acceptable in children.",
+      "reason": "Reason: Food intake always invalidates LDL measurement in pediatrics.",
+      "correctOption": 2,
+      "explanation": "Assertion true; direct LDL and Lp(a) minimally affected—reason false.",
+      "reference": "Question 2: What is the preferred method of cholesterol screening?: \"Screening can be performed using a fasting or nonfasting lipid profile.\""
+    },
+    {
+      "id": "e21-31-ar4",
+      "type": "assertion_reason",
+      "subtopic": "FH and obesity",
+      "assertion": "Assertion: Elevated triglycerides do not exclude familial hypercholesterolemia.",
+      "reason": "Reason: FH always presents with normal triglycerides.",
+      "correctOption": 2,
+      "explanation": "Assertion true; most FH have normal TG but obesity can coexist—reason false.",
+      "reference": "Question 2: Is this patient's elevated triglycerides of concern?: \"the presence of an elevated value does not exclude familial hypercholesterolemia.\""
+    },
+    {
+      "id": "e21-31-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Genetic testing",
+      "assertion": "Assertion: Genetic testing is recommended for clinically suspected FH.",
+      "reason": "Reason: A negative genetic test always means statins are unnecessary.",
+      "correctOption": 2,
+      "explanation": "Assertion true; negative test does not exclude need for therapy—reason false.",
+      "reference": "Question 4: Is there a role for genetic testing?: \"some parents might assume that a lipid-lowering medication is unnecessary for children in whom no common genetic pathogenic variant is found.\""
+    },
+    {
+      "id": "e21-31-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Pregnancy statins",
+      "assertion": "Assertion: Statins should be stopped immediately if FH patient has unintended pregnancy.",
+      "reason": "Reason: Statins are safe category A drugs in pregnancy.",
+      "correctOption": 2,
+      "explanation": "Assertion true; category X—reason false.",
+      "reference": "Case 1 (Continued): \"instructions to stop statins, ezetimibe, and niacin at least 4 weeks before discontinuing contraception. These treatments SHOULD NOT BE USED during pregnancy.\""
+    },
+    {
+      "id": "e21-31-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Treatment goal",
+      "assertion": "Assertion: LDL goal in pediatric FH is ≤100 mg/dL or ≥50% reduction from baseline.",
+      "reason": "Reason: Pediatric LDL goals are always <70 mg/dL regardless of age.",
+      "correctOption": 2,
+      "explanation": "Assertion states guideline goal; <70 not specified here—reason false.",
+      "reference": "Question 3: What treatment would you recommend? What are your treatment goals?: \"The treatment goal is an LDL-cholesterol concentration of 100 mg/dL or less (≤2.59 mmol/L), or a minimum of 50% reduction from baseline.\""
+    },
+    {
+      "id": "e21-31-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Cascade screening",
+      "assertion": "Assertion: Cascade screening of first-degree relatives is recommended after FH diagnosis.",
+      "reason": "Reason: Only children, never adults, need family screening.",
+      "correctOption": 2,
+      "explanation": "Assertion true; adults often at greater short-term risk—reason false.",
+      "reference": "Question 5: Now that you have initiated treatment, is there a role for cascade screening?: \"adults in the family, many of whom may be unaware of their hypercholesterolemia, are at greater short-term risk than affected children.\""
     }
   ]
 }

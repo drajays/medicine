@@ -2,130 +2,453 @@
   "id": "e21-30",
   "volume": 2021,
   "chapterNo": "30",
-  "title": "YouthOnset Type 2 Diabetes Mellitus",
+  "title": "Youth-Onset Type 2 Diabetes Mellitus",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Philip Zeitler, MD, PhD; Petter Bjornstad, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_30_YouthOnset_Type_2_Diabetes_Mellitus.md",
   "items": [
     {
-      "diagnosis": {
-        "type_of_diabetes": "Type 2 Diabetes",
-        "age_group": "Adolescents and young adults",
-        "ethnicity": "African-American adolescents"
-      },
-      "clinical_features": {
-        "acute_complications": [
-          "Diabetic ketoacidosis"
-        ],
-        "chronic_complications": [
-          "Acute and chronic complications of type 2 diabetes mellitus in children and adolescents",
-          "High burden of kidney disease in youth-onset type 2 diabetes"
-        ]
-      },
-      "management_guidelines": [
-        {
-          "therapy_type": "Oral antidiabetic therapy",
-          "specific_drugs": [
-            "Metformin"
-          ],
-          "rationale": "Metformin monotherapy in youth with recent onset type 2 diabetes: experience from the prerandomization run-in phase of the TODAY study"
-        },
-        {
-          "therapy_type": "Insulin therapy",
-          "specific_drugs": [
-            "Liraglutide",
-            "Canagliflozin"
-          ],
-          "rationale": [
-            "Liraglutide in children and adolescents with type 2 diabetes (Ellipse Trial)",
-            "Empagliflozin and progression of kidney disease in type 2 diabetes",
-            "Canagliflozin and renal outcomes in type 2 diabetes"
-          ]
-        },
-        {
-          "therapy_type": "SGLT-2 inhibitors",
-          "specific_drugs": [
-            "Empagliflozin",
-            "Canagliflozin"
-          ],
-          "rationale": [
-            "Empagliflozin and progression of kidney disease in type 2 diabetes",
-            "Canagliflozin and renal outcomes in type 2 diabetes"
-          ]
-        },
-        {
-          "therapy_type": "Mineralocorticoid receptor antagonists",
-          "specific_drugs": [
-            "Finerenone"
-          ],
-          "rationale": [
-            "Effect of finerenone on chronic kidney disease outcomes in type 2 diabetes (FIDELIO-DKD)"
-          ]
-        }
-      ],
-      "management_guidelines_summary": {
-        "Oral antidiabetic therapy": "Metformin monotherapy",
-        "Insulin therapy": "Liraglutide, Canagliflozin",
-        "SGLT-2 inhibitors": "Empagliflozin, Canagliflozin",
-        "Mineralocorticoid receptor antagonists": "Finerenone"
-      },
-      "management_guidelines_priority": [
-        {
-          "therapy_type": "Insulin therapy",
-          "specific_drugs": [
-            "Liraglutide",
-            "Canagliflozin"
-          ],
-          "priority_level": 1
-        },
-        {
-          "therapy_type": "SGLT-2 inhibitors",
-          "specific_drugs": [
-            "Empagliflozin",
-            "Canagliflozin"
-          ],
-          "priority_level": 2
-        },
-        {
-          "therapy_type": "Mineralocorticoid receptor antagonists",
-          "specific_drugs": [
-            "Finerenone"
-          ],
-          "priority_level": 3
-        }
-      ],
+      "id": "e21-30-n1",
+      "type": "note",
+      "subtopic": "Epidemiology",
+      "title": "Why youth-onset T2DM demands distinct management",
+      "text": "Incidence has risen dramatically though prevalence remains <50,000 in the U.S.; youth-onset disease shows faster β-cell failure, earlier complications, and disproportionate impact on minorities with complex psychosocial barriers to lifestyle change.",
+      "reference": "Significance of the Clinical Problem: \"β-cell failure appears to be more rapid in youth than in adults, leading to loss of glycemic control on oral therapy that is more rapid.\""
+    },
+    {
+      "id": "e21-30-n2",
+      "type": "note",
+      "subtopic": "Puberty link",
+      "title": "How puberty contributes to youth T2DM onset",
+      "text": "Median diagnosis ~14 years aligns with pubertal insulin resistance; transient pubertal insulin resistance may allow reversibility in some youth, but limited β-cell reserve leads to hyperglycemia.",
+      "reference": "Significance of the Clinical Problem: \"there is an important association of T2DM with pubertal development—the median age of onset of T2DM in youth is approximately 14 years.\""
+    },
+    {
+      "id": "e21-30-n3",
+      "type": "note",
+      "subtopic": "Diagnosis",
+      "title": "How to diagnose diabetes mellitus in youth",
+      "text": "Confirm diabetes by ADA/ISPAD criteria; asymptomatic hyperglycemia during stress requires repeat testing on a different day. HbA1c must be DCCT-aligned lab assay—not point-of-care—and is less validated in youth.",
+      "reference": "Diagnosis: \"in the absence of symptoms, hyperglycemia detected incidentally or under conditions of acute physiologic stress may be transitory and should not be regarded as diagnostic of diabetes. Accordingly, a second test on a different day is required.\""
+    },
+    {
+      "id": "e21-30-n4",
+      "type": "note",
+      "subtopic": "Autoantibody testing",
+      "title": "Why pancreatic autoantibodies are mandatory in presumed T2DM",
+      "text": "10–15% of obese adolescents have T1DM; autoantibody positivity predicts rapid insulin requirement and other autoimmune disorders—test all youth with clinical T2DM and consider in obese pubertal T1DM phenotypes who may wean from insulin.",
+      "reference": "Diagnosis: \"diabetes autoantibody testing (glutamic acid decarboxylase antibodies [GAD], microinsulin autoantibodies [mIAA], zinc transporter 8 antibodies [ZnT8], tyrosine phosphatase-based islet antigen 2 antibody [IA2]) should be done in all youth with the clinical diagnosis of T2DM\""
+    },
+    {
+      "id": "e21-30-n5",
+      "type": "note",
+      "subtopic": "Initial therapy",
+      "title": "How to start treatment when diabetes type is uncertain",
+      "text": "Acidosis requires IV insulin; once resolved, T2DM-leaning patients get basal insulin 0.2–0.4 units/kg daily plus metformin titrated to 2000 mg, with insulin stopped after antibody negativity. HbA1c >9–10% may need basal insulin even if asymptomatic.",
+      "reference": "Management: \"When the clinical impression is T2DM, basal insulin at a dosage of 0.2 to 0.4 units/kg once daily is started and titrated based on fingerstick glucose measurements. At the same time, metformin is initiated at 500 mg once daily and titrated weekly to a maximally tolerated dosage, with a target of 2000 mg daily.\""
+    },
+    {
+      "id": "e21-30-n6",
+      "type": "note",
+      "subtopic": "Glycemic target",
+      "title": "Glycemic target and monitoring frequency in youth T2DM",
+      "text": "Target HbA1c below 6.5% (<48 mmol/mol); non-insulin patients check fingersticks twice daily a few days per week—enough safety without excessive burden on poorly adherent adolescents.",
+      "reference": "Management: \"The target of therapy is to attain and maintain hemoglobin A1c below 6.5% (<48 mmol/mol).\""
+    },
+    {
+      "id": "e21-30-n7",
+      "type": "note",
+      "subtopic": "TODAY study",
+      "title": "Why suboptimal early metformin response predicts failure",
+      "text": "TODAY showed HbA1c >6.3% after short metformin monotherapy carries 4- to 10-fold increased loss-of-control risk with median ~11 months to failure—discuss intensification early.",
+      "reference": "Case 2: \"a hemoglobin A1c level greater than 6.3% (>45 mmol/mol) after a few months of metformin monotherapy is associated with a 4- to 10-fold increased risk for loss of glycemic control\""
+    },
+    {
+      "id": "e21-30-n8",
+      "type": "note",
+      "subtopic": "FDA-approved agents",
+      "title": "Approved pharmacotherapy for youth T2DM as of 2019",
+      "text": "Only metformin and insulin were FDA-approved through mid-2019; liraglutide was subsequently approved for youth based on the ELLIPSE trial—RISE data show youth may respond differently than adults.",
+      "reference": "Management: \"the only FDA-approved medications as of June 2019 for youth with T2DM were metformin and insulin, although liraglutide, a GLP-1 receptor agonist, has recently been approved for youth based on data from the ELLIPSE trial.\""
+    },
+    {
+      "id": "e21-30-n9",
+      "type": "note",
+      "subtopic": "Comorbidity screening",
+      "title": "How to screen complications at T2DM diagnosis",
+      "text": "Evaluate lipids, blood pressure (sex/height/age norms), urine albumin, liver enzymes, PCOS, depression, eating disorders, and sleep disturbance once metabolically stable.",
+      "reference": "Case 3: \"evaluation should occur either at the time of initial diagnosis or upon reestablishment of metabolic stability.\""
+    },
+    {
+      "id": "e21-30-n10",
+      "type": "note",
+      "subtopic": "Triglycerides and pancreatitis",
+      "title": "When to treat hypertriglyceridemia in youth T2DM",
+      "text": "Fasting triglycerides >500 mg/dL warrant fibrate therapy to prevent pancreatitis—not for CVD prevention alone. LDL goals <100 mg/dL; statins after 6 months of lifestyle if LDL >130 mg/dL.",
+      "reference": "Case 3: \"if fasting triglycerides are greater than 500 mg/dL (>5.65 mmol/L), a fabric acid is started (Answer B) due to significantly increased risk for acute pancreatitis\""
+    },
+    {
+      "id": "e21-30-n11",
+      "type": "note",
+      "subtopic": "Diabetic kidney disease",
+      "title": "Why youth T2DM kidney screening differs from T1DM",
+      "text": "Albuminuria is often present at T2DM diagnosis and progresses faster than T1DM (4-fold higher CKD risk); screen T2DM at diagnosis and annually vs T1DM after 2–5 years.",
+      "reference": "Case 4: \"Youth-onset T2DM is also associated with a 4-fold higher risk of progression to chronic kidney disease compared with that in T1DM (hazard ratio, 4.03; 95% CI, 1.64-9.95).\""
+    },
+    {
+      "id": "e21-30-n12",
+      "type": "note",
+      "subtopic": "Nephroprotection",
+      "title": "How to intensify nephroprotection in youth with macroalbuminuria",
+      "text": "SGLT-2 inhibitors have RCT evidence for preventing macroalbuminuria and ESKD progression (CREDENCE); an 18-year-old may use adult agents despite lack of pediatric approval.",
+      "reference": "Case 5: \"SGLT-2 inhibitors (Answer E) have demonstrated beneficial effects in preventing the development of macroalbuminuria and progression to end-stage kidney disease.\""
+    },
+    {
       "id": "e21-30-q1",
       "type": "mcq",
+      "subtopic": "Case 1 — re-evaluation after 3 years",
+      "question": "A 16-year-old obese Latina girl had 'T2DM' diagnosed 3 years ago, took metformin briefly, then none. After suicide attempt admission: glucose 550 mg/dL, HbA1c 12.5%, small ketonuria, normal pH. Most important next investigation?",
       "options": [
-        "Option B",
-        "Option C",
-        "Option D"
+        "Fasting lipid panel",
+        "Fasting and stimulated C-peptide",
+        "Home glucose monitoring",
+        "Pancreatic autoantibody measurements"
       ],
-      "correctOption": 0
+      "correctOption": 3,
+      "explanation": "No clinical feature excludes T1DM with 100% sensitivity; rigorous type determination with autoantibodies is paramount even after years off therapy.",
+      "reference": "Case 1: \"Answer: E) Pancreatic autoantibody measurements\""
     },
     {
-      "type": "why",
-      "subtopic": "Management of Youth-Onset Type 2 Diabetes Mellitus (T2DM)",
-      "question": "Why are currently approved medications for youth-onset T2DM limited?",
-      "answer": "Because the management options for youth-onset T2DM are limited due to the complexity and severity of the disease, as well as its rapid progression.",
-      "keyPoints": [
-        "Youth-onset T2DM is characterized by progressive β-cell injury and insulin resistance",
-        "The condition carries higher risk and earlier onset of severe complications such as heart disease, diabetic kidney disease, and fatty liver disease"
+      "id": "e21-30-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — metformin response",
+      "question": "A 15-year-old Latino boy with antibody-negative T2DM reaches HbA1c 7.1% on metformin 2000 mg after 3 months. Best next step?",
+      "options": [
+        "Fasting C-peptide",
+        "Stimulated C-peptide",
+        "Start liraglutide 1.8 mg daily",
+        "Start basal insulin once daily"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Youth-onset T2DM is a complex metabolic disorder characterized by progressive β-cell injury and insulin resistance. With the rapidly rising number of obese adolescents with T2DM, it is critical to check pancreatic autoantibodies in the workup of youth-onset T2DM. Compared with T1DM, youth-onset T2DM also carries higher risk and earlier onset of severe complications, such as heart disease, diabetic kidney disease, and fatty liver disease. Options for management are limited and have been largely understudied in youth-onset T2DM. Currently FDA-approved medications include insulin, metformin, and liraglutide.\"",
-      "id": "e21-30-why1"
+      "correctOption": 3,
+      "explanation": "HbA1c remains above nondiabetes range; TODAY data support discussing early basal insulin as standard add-on when metformin response is insufficient.",
+      "reference": "Case 2: \"Answer: D) Start basal insulin once daily\""
     },
     {
-      "type": "how",
-      "subtopic": "diagnostic step",
-      "question": "How should pancreatic autoantibodies be checked in the workup of youth-onset T2DM?",
-      "answer": "Pancreatic autoantibodies, such as insulin antibodies and glutamic acid decarboxylase (GAD) antibodies, can be checked to help diagnose youth-onset type 2 diabetes mellitus (T2DM). These autoantibodies are more commonly found in youth-onset T2DM compared to type 1 diabetes mellitus (T1DM), which aids in the differential diagnosis between these two conditions.",
-      "keyPoints": [
-        "Pancreatic autoantibodies can be used as a diagnostic tool for youth-onset T2DM.",
-        "Their presence is more indicative of youth-onset T2DM compared to T1DM."
+      "id": "e21-30-q3",
+      "type": "mcq",
+      "subtopic": "Case 3 — comorbidity priority",
+      "question": "Newly diagnosed obese adolescent with T2DM (HbA1c 7.8%): LDL 160, triglycerides 745, BP 145/82, urine ACR 48, ALT 87. Most important immediate prescription?",
+      "options": [
+        "Atorvastatin 10 mg for LDL 160",
+        "Fenofibrate 67 mg for triglycerides 745",
+        "Lisinopril 10 mg for BP 145/82",
+        "Lisinopril 20 mg for ACR 48"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Youth-onset T2DM is a complex metabolic disorder characterized by progressive β-cell injury and insulin resistance. With the rapidly rising number of obese adolescents with T2DM, it is critical to check pancreatic autoantibodies in the workup of youth-onset T2DM.\"",
-      "id": "e21-30-how1"
+      "correctOption": 1,
+      "explanation": "Triglycerides >500 mg/dL warrant fibrate to prevent pancreatitis; BP and microalbuminuria need confirmatory steps before ACE inhibitor.",
+      "reference": "Case 3: \"Answer: B) Fenofibrate, 67 mg daily, for a triglyceride level of 745 mg/dL (8.42 mmol/L)\""
+    },
+    {
+      "id": "e21-30-q4",
+      "type": "mcq",
+      "subtopic": "Case 4 — DKD comparison",
+      "question": "Compared with youth-onset T1DM, youth-onset T2DM diabetic kidney disease:",
+      "options": [
+        "Is more prevalent at onset and progresses more slowly",
+        "Is more prevalent at onset and progresses more rapidly",
+        "Has similar CKD risk after 10 years",
+        "Is rare at diagnosis in both types"
+      ],
+      "correctOption": 1,
+      "explanation": "SEARCH data show higher prevalent albuminuria and ~4-fold faster CKD progression in T2DM youth.",
+      "reference": "Case 4: \"Answer: B) Diabetic kidney disease is more prevalent at onset in T2DM and progresses more rapidly\""
+    },
+    {
+      "id": "e21-30-q5",
+      "type": "mcq",
+      "subtopic": "Case 5 — macroalbuminuria",
+      "question": "An 18-year-old man with T2DM, ACR 312–418 mg/g on lisinopril 20 mg, HbA1c 7.6%, BP 125/78. Best next nephroprotective step?",
+      "options": [
+        "Add angiotensin-receptor blocker",
+        "Add GLP-1 receptor agonist",
+        "Add long-acting insulin",
+        "Add SGLT-2 inhibitor"
+      ],
+      "correctOption": 3,
+      "explanation": "SGLT-2 inhibitors have RCT evidence for reducing ESKD progression; patient is adult-aged though pediatric approval lacking.",
+      "reference": "Case 5: \"Answer: E) SGLT-2 inhibitor\""
+    },
+    {
+      "id": "e21-30-q6",
+      "type": "mcq",
+      "subtopic": "Sex prevalence",
+      "question": "In U.S. adolescents, type 2 diabetes prevalence is:",
+      "options": [
+        "Equal in boys and girls",
+        "~60% higher in girls than boys",
+        "Higher only in prepubertal children",
+        "Confined to non-obese youth"
+      ],
+      "correctOption": 1,
+      "explanation": "Adolescent girls have 60% higher prevalence than boys.",
+      "reference": "Significance of the Clinical Problem: \"adolescent girls have a 60% higher prevalence rate than that of adolescent boys.\""
+    },
+    {
+      "id": "e21-30-q7",
+      "type": "mcq",
+      "subtopic": "Ketoacidosis in T2DM",
+      "question": "Obese adolescents with clinical T2DM:",
+      "options": [
+        "Never present with ketoacidosis",
+        "May present with clinically significant ketoacidosis",
+        "Always have positive autoantibodies if ketotic",
+        "Should never receive insulin initially"
+      ],
+      "correctOption": 1,
+      "explanation": "Substantial fraction present with ketoacidosis; initial therapy follows clinical presentation.",
+      "reference": "Management: \"a substantial percentage of adolescents with T2DM present with clinically significant ketoacidosis.\""
+    },
+    {
+      "id": "e21-30-q8",
+      "type": "mcq",
+      "subtopic": "Liraglutide dosing",
+      "question": "When starting liraglutide in an adolescent with T2DM, appropriate dosing is:",
+      "options": [
+        "1.8 mg daily immediately",
+        "0.6 mg daily for 1 week, then uptitrate",
+        "Once-weekly 2 mg without titration",
+        "Only with concurrent basal-bolus insulin"
+      ],
+      "correctOption": 1,
+      "explanation": "Starting at maximum 1.8 mg increases GI adverse effects; titrate from 0.6 mg.",
+      "reference": "Case 2: \"the starting dosage of liraglutide is 0.6 mg daily for 1 week, increasing to 1.2 mg injections thereafter.\""
+    },
+    {
+      "id": "e21-30-q9",
+      "type": "mcq",
+      "subtopic": "Microalbuminuria confirmation",
+      "question": "Persistent microalbuminuria in an adolescent requires:",
+      "options": [
+        "Single elevated spot urine ACR",
+        "Two of three consecutive abnormal values on different days",
+        "Exercise immediately before collection",
+        "Renal biopsy before any ACE inhibitor"
+      ],
+      "correctOption": 1,
+      "explanation": "Orthostatic and other benign causes require confirmatory testing.",
+      "reference": "Case 3: \"the diagnosis of persistent abnormal microalbuminuria requires documentation of 2 of 3 consecutive abnormal values obtained on different days\""
+    },
+    {
+      "id": "e21-30-q10",
+      "type": "mcq",
+      "subtopic": "Blood pressure treatment",
+      "question": "Initial treatment of elevated blood pressure in youth T2DM consists of:",
+      "options": [
+        "Immediate ACE inhibitor monotherapy",
+        "Weight loss, dietary salt restriction, and increased physical activity",
+        "Calcium-channel blocker before lifestyle",
+        "Combination ACE inhibitor and ARB"
+      ],
+      "correctOption": 1,
+      "explanation": "Lifestyle first for BP above 95th percentile; ACE inhibitor after 6 months if still elevated.",
+      "reference": "Case 3: \"Initial treatment of blood pressure above the 95th percentile consists of weight loss, limitation of dietary salt, and increased physical activity.\""
+    },
+    {
+      "id": "e21-30-q11",
+      "type": "mcq",
+      "subtopic": "Fatty liver",
+      "question": "Regarding hepatic steatosis in youth T2DM, which is correct?",
+      "options": [
+        "Vitamin E is first-line for adolescents",
+        "25–50% have steatosis; monitor enzymes and refer if persistently elevated",
+        "Fatty liver is rare in obese youth",
+        "Statin therapy worsens steatosis mandating discontinuation"
+      ],
+      "correctOption": 1,
+      "explanation": "Vitamin E is not recommended in adolescents; ongoing ALT monitoring with biopsy referral when markedly elevated.",
+      "reference": "Case 3: \"Hepatic steatosis is present in 25% to 50% of adolescents with T2DM\""
+    },
+    {
+      "id": "e21-30-q12",
+      "type": "mcq",
+      "subtopic": "C-peptide during decompensation",
+      "question": "Fasting C-peptide measurement during acute metabolic decompensation:",
+      "options": [
+        "Definitively distinguishes T1DM from T2DM",
+        "May be transiently low and misleading",
+        "Is superior to autoantibody testing",
+        "Should replace HbA1c for diagnosis"
+      ],
+      "correctOption": 1,
+      "explanation": "Insulin and C-peptide secretion fall transiently during decompensation.",
+      "reference": "Case 1: \"During acute decompensation, insulin and C-peptide secretion are transiently decreased.\""
+    },
+    {
+      "id": "e21-30-q13",
+      "type": "mcq",
+      "subtopic": "MODY consideration",
+      "question": "Monogenic diabetes (MODY) should be considered when:",
+      "options": [
+        "Every obese adolescent has ketosis",
+        "Presentation and course are not characteristic of T1DM or T2DM",
+        "Autoantibodies are positive",
+        "HbA1c is below 5.7%"
+      ],
+      "correctOption": 1,
+      "explanation": "Atypical course prompts MODY evaluation.",
+      "reference": "Diagnosis: \"single-gene forms of diabetes, such as maturity-onset diabetes of the young should be considered in individuals who have a presentation and course that is not characteristic of either T1DM or T2DM.\""
+    },
+    {
+      "id": "e21-30-tf1",
+      "type": "true_false",
+      "subtopic": "Autoantibodies",
+      "statement": "Pancreatic autoantibody testing should be performed in all youth with a clinical diagnosis of T2DM.",
+      "correctAnswer": true,
+      "explanation": "Explicit recommendation due to overlap with T1DM.",
+      "reference": "Diagnosis: \"should be done in all youth with the clinical diagnosis of T2DM\""
+    },
+    {
+      "id": "e21-30-tf2",
+      "type": "true_false",
+      "subtopic": "Prepubertal T2DM",
+      "statement": "Youth with T2DM are almost always pubertal at diagnosis.",
+      "correctAnswer": true,
+      "explanation": "T2DM youth are rarely prepubertal; mean age 13–14 years.",
+      "reference": "Diagnosis: \"youth with T2DM are almost always in puberty, with a mean age of diagnosis of 13 to 14 years and Tanner stage 4 to 5 and are rarely prepubertal.\""
+    },
+    {
+      "id": "e21-30-tf3",
+      "type": "true_false",
+      "subtopic": "HbA1c diagnosis",
+      "statement": "Point-of-care HbA1c is adequate for diagnosing diabetes in youth.",
+      "correctAnswer": false,
+      "explanation": "ADA HbA1c criterion assumes DCCT-aligned laboratory assay, not POC.",
+      "reference": "Diagnosis: \"this assumes measurement in a laboratory with a DCCT-aligned assay, not point-of-care testing, and it has not been specifically validated in youth.\""
+    },
+    {
+      "id": "e21-30-tf4",
+      "type": "true_false",
+      "subtopic": "TODAY failure risk",
+      "statement": "HbA1c >6.3% after short metformin monotherapy predicts higher loss-of-control risk in TODAY.",
+      "correctAnswer": true,
+      "explanation": "4- to 10-fold increased risk cited in Case 2.",
+      "reference": "Case 2: \"a hemoglobin A1c level greater than 6.3% (>45 mmol/mol) after a few months of metformin monotherapy is associated with a 4- to 10-fold increased risk for loss of glycemic control\""
+    },
+    {
+      "id": "e21-30-tf5",
+      "type": "true_false",
+      "subtopic": "Lisinopril for BP",
+      "statement": "Lisinopril should be started immediately for blood pressure at the 95th percentile without lifestyle trial.",
+      "correctAnswer": false,
+      "explanation": "Initial BP management is lifestyle; ACE inhibitor after 6 months if still elevated.",
+      "reference": "Case 3: \"Thus, prescribing lisinopril now (Answer C) is incorrect.\""
+    },
+    {
+      "id": "e21-30-tf6",
+      "type": "true_false",
+      "subtopic": "Statin threshold",
+      "statement": "Statin therapy is started when LDL remains >130 mg/dL after 6 months of lifestyle in youth T2DM.",
+      "correctAnswer": true,
+      "explanation": "Described lipid management pathway.",
+      "reference": "Case 3: \"If LDL cholesterol remains greater than 130 mg/dL (>1.04 mmol/L) after 6 months, statin therapy should be started\""
+    },
+    {
+      "id": "e21-30-tf7",
+      "type": "true_false",
+      "subtopic": "DKD screening T2DM",
+      "statement": "Youth with T2DM should be screened for diabetic kidney disease at diagnosis and annually.",
+      "correctAnswer": true,
+      "explanation": "Contrasts with T1DM delayed screening.",
+      "reference": "Case 4: \"young persons with T2DM should be screened at diagnosis and annually thereafter.\""
+    },
+    {
+      "id": "e21-30-tf8",
+      "type": "true_false",
+      "subtopic": "Lifestyle challenges",
+      "statement": "Lifestyle modification is often harder to sustain in adolescents with T2DM than in adults.",
+      "correctAnswer": true,
+      "explanation": "Family norms and adherence barriers cited.",
+      "reference": "Management: \"the challenges in implementing lifestyle modifications in adolescents are greater than in adult patients\""
+    },
+    {
+      "id": "e21-30-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Autoantibody mandate",
+      "assertion": "Assertion: Autoantibody testing is essential even in obese adolescents with typical T2DM phenotype.",
+      "reason": "Reason: Obesity protects against islet autoimmunity.",
+      "correctOption": 2,
+      "explanation": "Assertion true; obesity does not protect—reason false.",
+      "reference": "Case 1: \"obesity does not protect from autoimmunity.\""
+    },
+    {
+      "id": "e21-30-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Metformin plus insulin",
+      "assertion": "Assertion: Basal insulin plus metformin is a standard intensification strategy when metformin alone fails in youth T2DM.",
+      "reason": "Reason: Multiple daily injections should always be first add-on in adolescents.",
+      "correctOption": 2,
+      "explanation": "Assertion true; simplest effective regimen preferred—reason false.",
+      "reference": "Case 2: \"Initiation of basal insulin (Answer D) is the standard approach to add-on therapy\""
+    },
+    {
+      "id": "e21-30-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Triglyceride treatment",
+      "assertion": "Assertion: Fibrate therapy is indicated for fasting triglycerides >500 mg/dL in youth T2DM.",
+      "reason": "Reason: Elevated triglycerides are treated solely for cardiovascular prevention at this level.",
+      "correctOption": 2,
+      "explanation": "Assertion true for pancreatitis prevention—reason false about sole indication.",
+      "reference": "Case 3: \"if fasting triglycerides are greater than 500 mg/dL (>5.65 mmol/L), a fabric acid is started (Answer B) due to significantly increased risk for acute pancreatitis\""
+    },
+    {
+      "id": "e21-30-ar4",
+      "type": "assertion_reason",
+      "subtopic": "DKD prevalence",
+      "assertion": "Assertion: Diabetic kidney disease is more prevalent at diagnosis in youth T2DM than T1DM.",
+      "reason": "Reason: Albuminuria never appears until 10 years of diabetes in T2DM youth.",
+      "correctOption": 2,
+      "explanation": "Assertion true; often present at T2DM diagnosis—reason false.",
+      "reference": "Case 4: \"Diabetic kidney disease (ie, elevated albumin excretion (≥30 mg/g) is often present at diagnosis in patients with youth-onset T2DM\""
+    },
+    {
+      "id": "e21-30-ar5",
+      "type": "assertion_reason",
+      "subtopic": "SGLT2 inhibitors",
+      "assertion": "Assertion: SGLT-2 inhibitors reduce progression to end-stage kidney disease in diabetic nephropathy.",
+      "reason": "Reason: CREDENCE showed 32% lower ESKD risk with canagliflozin vs placebo.",
+      "correctOption": 0,
+      "explanation": "Both true with trial evidence cited in Case 5.",
+      "reference": "Case 5: \"the risk of progression to end-stage kidney disease was 32% lower in those treated with canagliflozin vs placebo.\""
+    },
+    {
+      "id": "e21-30-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Puberty and insulin resistance",
+      "assertion": "Assertion: Pubertal development is associated with increased T2DM risk in youth.",
+      "reason": "Reason: Puberty causes transient reduction in insulin sensitivity requiring compensatory insulin secretion.",
+      "correctOption": 0,
+      "explanation": "Both true and mechanistically linked.",
+      "reference": "Significance of the Clinical Problem: \"This observation is most likely related to the transient reduction in insulin sensitivity that occurs in children as they enter puberty\""
+    },
+    {
+      "id": "e21-30-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Vitamin E",
+      "assertion": "Assertion: Vitamin E may improve fatty liver in adolescents with T2DM.",
+      "reason": "Reason: Vitamin E is currently recommended to treat hepatic steatosis in adolescents.",
+      "correctOption": 2,
+      "explanation": "Some evidence for improvement but not recommended in adolescents—reason false.",
+      "reference": "Case 3: \"Vitamin E is currently not recommended to treat hepatic steatosis in adolescents.\""
+    },
+    {
+      "id": "e21-30-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Complications at diagnosis",
+      "assertion": "Assertion: Microvascular complications and macrovascular risk markers may be present at T2DM diagnosis in youth.",
+      "reason": "Reason: Youth T2DM never has complications at diagnosis.",
+      "correctOption": 2,
+      "explanation": "Assertion true per significance section; reason false.",
+      "reference": "Significance of the Clinical Problem: \"there is evidence of microvascular complications and risk markers for macrovascular complications at the time of diagnosis\""
     }
   ]
 }

@@ -4,48 +4,451 @@
   "chapterNo": "29",
   "title": "Screening of the Newborn for Adrenoleukodystrophy",
   "section": "Endocrine Self-Assessment Program 2021 (Endo 2021)",
-  "authors": "ESAP Committee",
+  "authors": "Molly O. Regelmann, MD",
   "sourceFile": "williams_2024_chapters/endo2021_chapter_29_Screening_of_the_Newborn_for_Adrenoleukodystrophy.md",
   "items": [
     {
-      "subtopic": "Adrenal Insufficiency in ALD",
-      "question": "At what age would you have started daily doses of hydrocortisone for this patient?",
+      "id": "e21-29-n1",
+      "type": "note",
+      "subtopic": "Newborn screening",
+      "title": "Why ALD was added to newborn screening panels",
+      "text": "ALD has a presymptomatic phase and life-saving interventions exist for adrenal insufficiency and cerebral ALD; initial screening data suggest higher prevalence than previously estimated, with some boys developing adrenal insufficiency in early infancy.",
+      "reference": "Main Conclusions: \"Recently, ALD was added to state newborn screening panels. Initial newborn screening data suggest that ALD may be more prevalent than previously described and adrenal insufficiency may develop in some affected boys during early infancy.\""
+    },
+    {
+      "id": "e21-29-n2",
+      "type": "note",
+      "subtopic": "Pathophysiology",
+      "title": "How ABCD1 variants cause adrenal and neurologic disease",
+      "text": "ABCD1 encodes a peroxisomal VLCFA transporter; pathogenic variants raise VLCFA that accumulate in adrenal cortex, nervous system, and Leydig cells. There is no genotype-phenotype or VLCFA-degree correlation with adrenal or neurologic onset.",
+      "reference": "Pathophysiology and Epidemiology: \"There is no genotype-phenotype correlation, and the degree of VLCFA elevation is not predictive of onset of adrenal insufficiency or neurologic symptoms.\""
+    },
+    {
+      "id": "e21-29-n3",
+      "type": "note",
+      "subtopic": "Surveillance schedule",
+      "title": "How to monitor adrenal function in screen-positive boys",
+      "text": "Start screening shortly after ALD diagnosis: every 3–4 months under age 2 years and every 4–6 months thereafter, recognizing unpredictable infant cortisol/ACTH rhythms and ambiguous baseline results.",
+      "reference": "Surveillance for Adrenal Insufficiency: \"Follow-up surveillance for adrenal insufficiency was recommended every 3 to 4 months for children younger than 2 years and every 4 to 6 months for children older than age 2 years\""
+    },
+    {
+      "id": "e21-29-n4",
+      "type": "note",
+      "subtopic": "Infant testing pitfall",
+      "title": "Why 8-AM cortisol alone is inadequate in young infants with ALD",
+      "text": "Infants lack predictable diurnal ACTH/cortisol patterns; borderline ACTH requires paired cortisol, and ACTH may rise before cortisol falls—draw both when travel burden is not prohibitive.",
+      "reference": "Case 1: \"The baby is unlikely to have predictable diurnal secretion of ACTH and cortisol, as he is not sleeping through the night and is younger than 6 months.\""
+    },
+    {
+      "id": "e21-29-n5",
+      "type": "note",
+      "subtopic": "Stress-dose hydrocortisone",
+      "title": "When to start stress-dose hydrocortisone per the PES algorithm",
+      "text": "Stress doses begin when stimulated peak cortisol is below threshold (e.g., 17.1 μg/dL at 6 weeks in Case 2); cutoff of 18 μg/dL derives from older polyclonal assays and may differ with monoclonal assays.",
+      "reference": "Case 2: \"stress doses of hydrocortisone should have been started at 6 weeks of age (Answer A), when the peak cortisol concentration was 17.1 μg/dL (471.8 nmol/L).\""
+    },
+    {
+      "id": "e21-29-n6",
+      "type": "note",
+      "subtopic": "Daily hydrocortisone",
+      "title": "How to time daily hydrocortisone replacement in ALD",
+      "text": "Daily therapy is initiated when ACTH reaches ≥300 pg/mL (≥66 pmol/L) per algorithm, but clinical judgment matters—weight loss and hyperpigmentation may warrant earlier treatment despite lower ACTH.",
+      "reference": "Case 2: \"Based on the algorithm, daily hydrocortisone doses should have been started at age 13 months (Answer D). The ACTH cutoff of 300 pg/mL or higher (≥66 pmol/L) was chosen\""
+    },
+    {
+      "id": "e21-29-n7",
+      "type": "note",
+      "subtopic": "Replacement therapy",
+      "title": "Hydrocortisone dosing and sick-day rules in ALD adrenal insufficiency",
+      "text": "Preferred glucocorticoid is hydrocortisone 8–12 mg/m² daily in three divided doses with stress-dose escalation and injectable hydrocortisone when oral intake fails; medical identification is mandatory.",
+      "reference": "Management of Adrenal Insufficiency: \"Hydrocortisone is the preferred glucocorticoid and, for ALD, the starting dosage is 8 to 12 mg/m² daily divided into 3 doses.\""
+    },
+    {
+      "id": "e21-29-n8",
+      "type": "note",
+      "subtopic": "Cerebral ALD MRI",
+      "title": "Neurologic surveillance MRI schedule after positive newborn screen",
+      "text": "Brain MRI begins around 12 months, annually to age 3, then every 6 months until age 10, then annually; more frequent imaging when concerning lesions appear. Early cerebral ALD may be treated with hematopoietic stem-cell therapy.",
+      "reference": "Neurologic Disease: Cerebral ALD and Adrenomyeloneuropathy: \"MRI of the brain is initiated around 12 months of age and performed annually until age 3 years, when the risk for cerebral ALD increases. Surveillance MRI of the brain is then repeated every 6 months until age 10 years.\""
+    },
+    {
+      "id": "e21-29-n9",
+      "type": "note",
+      "subtopic": "Female newborn screen",
+      "title": "How to evaluate a girl with positive ALD newborn screen",
+      "text": "Obtain ABCD1 sequencing; test both parents when feasible. Symptomatic male relatives (e.g., brother with poor weight gain and hyperpigmentation) need urgent VLCFA and endocrine evaluation before molecular results return.",
+      "reference": "Case 3: \"it would be most practical to have metabolic center order VLCFA measurement of the patient's brother. Thus, the patient's father, father, and brother (Answer D) should all be evaluated by the metabolic center.\""
+    },
+    {
+      "id": "e21-29-n10",
+      "type": "note",
+      "subtopic": "Lifetime adrenal risk",
+      "title": "Burden of adrenal insufficiency in males with ALD",
+      "text": "Before newborn screening, ~80% lifetime prevalence of adrenal insufficiency with median diagnosis age 14 years and average 3.5-year delay after symptoms; most had endocrine symptoms at ALD diagnosis.",
+      "reference": "Pathophysiology and Epidemiology: \"there was an estimated 80% lifetime prevalence of adrenal insufficiency, with most developing adrenal insufficiency during childhood and adolescence (median age of diagnosis, 14 years).\""
+    },
+    {
+      "id": "e21-29-n11",
+      "type": "note",
+      "subtopic": "Screening test performance",
+      "title": "VLCFA newborn screening sensitivity and female carriers",
+      "text": "Filter-paper VLCFA testing is excellent for hemizygous males; 20% of heterozygous females lack VLCFA elevation and are not detected. Elevated VLCFA may also reflect rarer peroxisomal disorders.",
+      "reference": "Newborn Screening: \"The sensitivity and specificity of the filter paper VLCFA measurements are reported to be excellent for males hemizygous for pathogenic ABCD1 variants. As 20% of females heterozygous for ABCD1 pathogenic variants do not have VLCFA elevations, they are not expected to be identified by newborn screening.\""
+    },
+    {
+      "id": "e21-29-n12",
+      "type": "note",
+      "subtopic": "Behavioral changes",
+      "title": "Why subtle behavioral changes warrant reassessment in screen-positive boys",
+      "text": "Inattention or irritability may herald evolving adrenal insufficiency or cerebral ALD; normal labs 3 months ago do not preclude urgent repeat ACTH/cortisol and clinical reassessment.",
+      "reference": "Case 4: \"Answer B) Make arrangements now for a repeated 8-AM measurement of ACTH and cortisol and reassess for clinical adrenal insufficiency\""
+    },
+    {
+      "id": "e21-29-q1",
+      "type": "mcq",
+      "subtopic": "Case 1 — 3-month-old screen-positive boy",
+      "question": "A 3-month-old breastfed boy with ALD on newborn screen (VUS in ABCD1) presents at 1 PM with possible scrotal hyperpigmentation and normal growth. Initial screen cortisol/ACTH were 'normal.' Best next step?",
       "options": [
-        "A. 6 weeks",
-        "B. 4 months",
-        "C. 7 months",
-        "D. 13 months",
-        "E. 16 months"
+        "ACTH measurement only today",
+        "Cortisol measurement only today",
+        "Both ACTH and cortisol today",
+        "Return for 8-AM ACTH and cortisol only"
+      ],
+      "correctOption": 2,
+      "explanation": "Infants lack predictable diurnal rhythms; paired ACTH and cortisol can be drawn in clinic. ACTH alone may be borderline without cortisol context.",
+      "reference": "Case 1: \"Answer: C) Draw sample for both ACTH and cortisol measurement today\""
+    },
+    {
+      "id": "e21-29-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — stress dosing",
+      "question": "A screen-positive boy had peak stimulated cortisol 17.1 μg/dL at 6 weeks. At what age should stress-dose hydrocortisone have started?",
+      "options": [
+        "6 weeks",
+        "4 months",
+        "7 months",
+        "13 months"
+      ],
+      "correctOption": 0,
+      "explanation": "Per algorithm, stress doses begin at 6 weeks when stimulated peak cortisol is below threshold.",
+      "reference": "Case 2: \"Answer: A) 6 weeks\""
+    },
+    {
+      "id": "e21-29-q3",
+      "type": "mcq",
+      "subtopic": "Case 2 — daily hydrocortisone",
+      "question": "Same patient: ACTH rose to 314 pg/mL at 13 months with cortisol 12.1 μg/dL while on stress doses. When should daily hydrocortisone have started?",
+      "options": [
+        "6 weeks",
+        "4 months",
+        "7 months",
+        "13 months"
       ],
       "correctOption": 3,
-      "explanation": "Based on the algorithm provided in the text, daily doses of hydrocortisone should have been started at age 13 months (Answer D). The ACTH cutoff of 300 pg/mL or higher was chosen as it is reported that the adrenal cortex is maximally stimulated with an ACTH concentration of 300 pg/mL. However, in this case, the baby had evidence of hyperpigmentation and was not gaining weight well at age 7 months, which may have warranted starting daily doses earlier than the algorithm suggests. The decision to start hydrocortisone therapy should be based on a combination of clinical signs and symptoms, as well as laboratory testing.",
-      "reference": "\"On the basis of the algorithm (Figure), stress doses of hydrocortisone should have been started at 6 weeks of age (Answer A), when the peak cortisol concentration was 17.1 μg/dL (471.8 nmol/L). It is notable that the cutoff of 18 μg/dL (496.6 nmol/L) is based on older polyclonal assays and it is possible that newer monoclonal assays may have lower normal cutoffs.\"",
-      "id": "e21-29-q1",
-      "type": "mcq"
+      "explanation": "ACTH ≥300 pg/mL triggers daily replacement per PES algorithm, though clinical context may modify timing.",
+      "reference": "Case 2: \"Answer: D) 13 months\""
     },
     {
-      "type": "why",
-      "subtopic": "Newborn Screening for ALD",
-      "question": "Why is early detection of adrenal insufficiency through newborn screening important for boys with ALD?",
-      "answer": "Because early monitoring, diagnosis, and treatment of adrenal insufficiency can prevent life-threatening adrenal crisis.",
-      "keyPoints": [
-        "Early detection allows for timely initiation of treatment",
-        "Prevents severe complications such as adrenal crisis"
+      "id": "e21-29-q4",
+      "type": "mcq",
+      "subtopic": "Case 3 — family evaluation",
+      "question": "A 2-week-old girl has positive ALD screen; brother has poor weight gain and tanned skin. Which family member needs urgent pediatric endocrinology evaluation before confirmatory testing returns?",
+      "options": [
+        "Mother",
+        "Father",
+        "Brother",
+        "All three equally"
       ],
-      "reference": "MAIN CONCLUSIONS: \"ALD is the most common peroxisomal disorder and presents variably with adrenal insufficiency, neurologic disease, and testicular dysfunction. Recently, ALD was added to state newborn screening panels. Initial newborn screening data suggest that ALD may be more prevalent than previously described and adrenal insufficiency may develop in some affected boys during early infancy. Early monitoring, diagnosis, and treatment of adrenal insufficiency can prevent life-threatening adrenal crisis. The Pediatric Endocrine Society developed an algorithm to guide clinicians caring for boys with ALD identified by newborn screening. The publication suggests a monitoring schedule for adrenal insufficiency, addresses the ambiguities in cortisol and ACTH test results, and guides therapeutic decisions for boys with ALD.\"",
-      "id": "e21-29-why1"
+      "correctOption": 2,
+      "explanation": "Symptomatic brother may have life-threatening unrecognized adrenal insufficiency and needs urgent evaluation.",
+      "reference": "Case 3: \"Answer: C) Patient's brother\""
     },
     {
-      "type": "how",
-      "subtopic": "monitoring_approach",
-      "question": "How should clinicians monitor boys identified by newborn screening for adrenal insufficiency due to Adrenoleukodystrophy (ALD)?",
-      "answer": "The Pediatric Endocrine Society developed an algorithm that guides clinicians in monitoring boys with ALD identified by newborn screening. This algorithm suggests a specific schedule for monitoring adrenal insufficiency, addresses ambiguities in cortisol and ACTH test results, and provides therapeutic decisions for these patients.",
-      "keyPoints": [
-        "An algorithm from the Pediatric Endocrine Society is used to guide monitoring of boys with ALD identified by newborn screening.",
-        "The algorithm includes a specific schedule for monitoring adrenal insufficiency."
+      "id": "e21-29-q5",
+      "type": "mcq",
+      "subtopic": "Case 4 — school behavior",
+      "question": "A 4-year-old screen-positive boy has new inattention and irritability; ACTH 34 pg/mL and cortisol 10.2 μg/dL were normal 3 months ago. Best next step?",
+      "options": [
+        "Reassure; routine screening in 2 months",
+        "Repeat 8-AM ACTH and cortisol now and reassess clinically",
+        "Emergency department brain MRI immediately",
+        "Refer to psychologist only"
       ],
-      "reference": "MAIN CONCLUSIONS: \"The Pediatric Endocrine Society developed an algorithm to guide clinicians caring for boys with ALD identified by newborn screening. The publication suggests a monitoring schedule for adrenal insufficiency, addresses the ambiguities in cortisol and ACTH test results, and guides therapeutic decisions for boys with ALD.\"",
-      "id": "e21-29-how1"
+      "correctOption": 1,
+      "explanation": "Subtle behavioral change warrants prompt biochemical reassessment for evolving adrenal insufficiency.",
+      "reference": "Case 4: \"Answer B) Make arrangements now for a repeated 8-AM measurement of ACTH and cortisol and reassess for clinical adrenal insufficiency\""
+    },
+    {
+      "id": "e21-29-q6",
+      "type": "mcq",
+      "subtopic": "Hydrocortisone dosing",
+      "question": "Preferred starting daily hydrocortisone dose for adrenal insufficiency in a boy with ALD is:",
+      "options": [
+        "2–4 mg/m² once daily",
+        "8–12 mg/m² divided into 3 doses",
+        "20–25 mg flat dose regardless of size",
+        "Fludrocortisone 100 mcg without glucocorticoid"
+      ],
+      "correctOption": 1,
+      "explanation": "ALD adrenal replacement follows primary AI principles with weight-based hydrocortisone.",
+      "reference": "Management of Adrenal Insufficiency: \"the starting dosage is 8 to 12 mg/m² daily divided into 3 doses.\""
+    },
+    {
+      "id": "e21-29-q7",
+      "type": "mcq",
+      "subtopic": "Newborn screening rationale",
+      "question": "Which feature makes ALD well suited for newborn screening?",
+      "options": [
+        "Presymptomatic phase with available life-saving interventions",
+        "All females are detected by VLCFA testing",
+        "Genotype reliably predicts cerebral ALD onset",
+        "Mineralocorticoid deficiency is universal at birth"
+      ],
+      "correctOption": 0,
+      "explanation": "Presymptomatic detection with treatable adrenal and neurologic disease underpins screening.",
+      "reference": "Newborn Screening: \"ALD is considered an ideal condition for screening, as there is a presymptomatic phase and life-saving interventions are available to treat both the primary adrenal insufficiency and cerebral ALD.\""
+    },
+    {
+      "id": "e21-29-q8",
+      "type": "mcq",
+      "subtopic": "VLCFA in women",
+      "question": "Regarding VLCFA testing in ALD, which statement is correct?",
+      "options": [
+        "All heterozygous females have elevated VLCFA",
+        "20% of heterozygous females lack VLCFA elevation",
+        "VLCFA elevation predicts neurologic onset age",
+        "VLCFA are normal in all hemizygous males"
+      ],
+      "correctOption": 1,
+      "explanation": "Most but not all carrier females have elevated VLCFA; all hemizygous males do.",
+      "reference": "Newborn Screening: \"As 20% of females heterozygous for ABCD1 pathogenic variants do not have VLCFA elevations, they are not expected to be identified by newborn screening.\""
+    },
+    {
+      "id": "e21-29-q9",
+      "type": "mcq",
+      "subtopic": "Cerebral ALD treatment",
+      "question": "Early cerebral ALD detected on surveillance MRI may be treated with:",
+      "options": [
+        "Hematopoietic stem-cell therapy",
+        "High-dose dexamethasone alone",
+        "Testosterone replacement",
+        "Observation without intervention until symptoms"
+      ],
+      "correctOption": 0,
+      "explanation": "Hematopoietic stem-cell therapy can halt early cerebral ALD; gene therapy remains investigational.",
+      "reference": "Neurologic Disease: Cerebral ALD and Adrenomyeloneuropathy: \"Cerebral ALD, when detected in its earliest stages, can be treated with hematopoietic stem-cell therapy.\""
+    },
+    {
+      "id": "e21-29-q10",
+      "type": "mcq",
+      "subtopic": "Infant ACTH interpretation",
+      "question": "In a screen-positive infant, ACTH may rise before cortisol becomes frankly low. Therefore:",
+      "options": [
+        "Cortisol alone is sufficient for surveillance",
+        "Measuring cortisol without ACTH may miss evolving primary adrenal insufficiency",
+        "Cosyntropin testing is never useful in infancy",
+        "8-AM sampling is mandatory under 6 months"
+      ],
+      "correctOption": 1,
+      "explanation": "Paired testing captures early adrenal axis dysfunction.",
+      "reference": "Case 1: \"You may miss evolving primary adrenal insufficiency by measuring cortisol without ACTH (Answer B), as ACTH will rise before the cortisol is frankly low.\""
+    },
+    {
+      "id": "e21-29-q11",
+      "type": "mcq",
+      "subtopic": "AMN presentation",
+      "question": "Adrenomyeloneuropathy (AMN) most commonly presents in which age range?",
+      "options": [
+        "First decade",
+        "Second decade",
+        "Third to fourth decade",
+        "Neonatal period"
+      ],
+      "correctOption": 2,
+      "explanation": "AMN is the most common adult phenotype with spastic paraparesis and high adrenal insufficiency prevalence.",
+      "reference": "Table. Clinical Presentations of Adrenoleukodystrophy: \"Adrenomyeloneuropathy (AMN) ~40%-46% of affected males)\""
+    },
+    {
+      "id": "e21-29-q12",
+      "type": "mcq",
+      "subtopic": "Screening expansion",
+      "question": "As of late 2019, approximately how many U.S. states screened newborns for ALD?",
+      "options": [
+        "1 state only",
+        "13 states and the District of Columbia",
+        "All 50 states",
+        "No states; only research protocols"
+      ],
+      "correctOption": 1,
+      "explanation": "New York was first (2013); expansion continued through 2019.",
+      "reference": "Significance of the Clinical Problem: \"As of October 2019, newborn screening for ALD has been expanded to 13 states and the District of Columbia\""
+    },
+    {
+      "id": "e21-29-q13",
+      "type": "mcq",
+      "subtopic": "Cosyntropin in infancy",
+      "question": "When travel to clinic is a major burden for an ALD screen-positive family, what test may be discussed?",
+      "options": [
+        "Overnight dexamethasone suppression test",
+        "High-dose cosyntropin-stimulation test",
+        "Water-deprivation test",
+        "Oral glucose tolerance test"
+      ],
+      "correctOption": 1,
+      "explanation": "Cosyntropin stimulation can be discussed when baseline labs are ambiguous and access is limited.",
+      "reference": "Case 1: \"If travel to the clinic is a significant burden for a family, a cosyntropin-stimulation test (Answer E) can be discussed.\""
+    },
+    {
+      "id": "e21-29-tf1",
+      "type": "true_false",
+      "subtopic": "Infant diurnal rhythm",
+      "statement": "Infants with ALD have established predictable diurnal variation in ACTH and cortisol secretion.",
+      "correctAnswer": false,
+      "explanation": "Listed as a barrier to optimal practice.",
+      "reference": "Barriers to Optimal Practice: \"Infants do not have established predictable diurnal variation in ACTH and cortisol secretion.\""
+    },
+    {
+      "id": "e21-29-tf2",
+      "type": "true_false",
+      "subtopic": "Genotype prediction",
+      "statement": "The ABCD1 genotype reliably predicts age of adrenal insufficiency onset.",
+      "correctAnswer": false,
+      "explanation": "No genotype-phenotype correlation exists.",
+      "reference": "Pathophysiology and Epidemiology: \"There is no genotype-phenotype correlation\""
+    },
+    {
+      "id": "e21-29-tf3",
+      "type": "true_false",
+      "subtopic": "Adrenal prevalence",
+      "statement": "Approximately 80% of males with ALD develop adrenal insufficiency over their lifetime.",
+      "correctAnswer": true,
+      "explanation": "Supported by large clinic series.",
+      "reference": "Pathophysiology and Epidemiology: \"there was an estimated 80% lifetime prevalence of adrenal insufficiency\""
+    },
+    {
+      "id": "e21-29-tf4",
+      "type": "true_false",
+      "subtopic": "Female adrenal insufficiency",
+      "statement": "Routine adrenal testing without symptoms is recommended for all female heterozygotes.",
+      "correctAnswer": false,
+      "explanation": "Adrenal insufficiency is rare in female heterozygotes; symptomatic brother needed urgent evaluation in Case 3.",
+      "reference": "Case 3: \"As adrenal insufficiency is reported to be rare in female heterozygotes, routine testing, without symptoms of adrenal insufficiency, is not recommended.\""
+    },
+    {
+      "id": "e21-29-tf5",
+      "type": "true_false",
+      "subtopic": "Mineralocorticoid deficiency",
+      "statement": "Mineralocorticoid deficiency is common at ALD diagnosis in young males.",
+      "correctAnswer": false,
+      "explanation": "None of 18 tested patients in one prospective series had mineralocorticoid deficiency.",
+      "reference": "Pathophysiology and Epidemiology: \"None of the 18 patients tested had mineralocorticoid deficiency.\""
+    },
+    {
+      "id": "e21-29-tf6",
+      "type": "true_false",
+      "subtopic": "Stress dosing",
+      "statement": "The PES ALD algorithm recommends stress-dose hydrocortisone when stimulated cortisol is below threshold even before daily replacement.",
+      "correctAnswer": true,
+      "explanation": "Case 2 illustrates stress dosing at 6 weeks.",
+      "reference": "Case 2: \"stress doses of hydrocortisone should have been started at 6 weeks of age\""
+    },
+    {
+      "id": "e21-29-tf7",
+      "type": "true_false",
+      "subtopic": "RUSP inclusion",
+      "statement": "ALD was added to the Recommended Uniform Screening Panel in 2016.",
+      "correctAnswer": true,
+      "explanation": "Stated in significance section.",
+      "reference": "Significance of the Clinical Problem: \"ALD was added to the Recommended Uniform Screening Panel in 2016.\""
+    },
+    {
+      "id": "e21-29-tf8",
+      "type": "true_false",
+      "subtopic": "Other peroxisomal disorders",
+      "statement": "Elevated VLCFA on newborn screening may reflect disorders other than ALD.",
+      "correctAnswer": true,
+      "explanation": "Zellweger syndrome and other peroxisomal disorders can elevate VLCFA.",
+      "reference": "Newborn Screening: \"VLCFA are also elevated in other, rarer peroxisomal disorders, including but not limited to Zellweger syndrome\""
+    },
+    {
+      "id": "e21-29-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Early adrenal insufficiency",
+      "assertion": "Assertion: Adrenal insufficiency may develop in some ALD boys during early infancy after a positive newborn screen.",
+      "reason": "Reason: Newborn screening prevents all adrenal crises in ALD.",
+      "correctOption": 2,
+      "explanation": "Assertion true per main conclusions; screening reduces but does not eliminate risk—reason overstates benefit.",
+      "reference": "Main Conclusions: \"adrenal insufficiency may develop in some affected boys during early infancy.\""
+    },
+    {
+      "id": "e21-29-ar2",
+      "type": "assertion_reason",
+      "subtopic": "ACTH before cortisol",
+      "assertion": "Assertion: Measuring cortisol without ACTH may miss evolving adrenal insufficiency in ALD infants.",
+      "reason": "Reason: ACTH always falls before cortisol rises in primary adrenal insufficiency.",
+      "correctOption": 2,
+      "explanation": "Assertion true; ACTH rises before cortisol falls—the reason reverses physiology.",
+      "reference": "Case 1: \"ACTH will rise before the cortisol is frankly low.\""
+    },
+    {
+      "id": "e21-29-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Hydrocortisone choice",
+      "assertion": "Assertion: Hydrocortisone is the preferred glucocorticoid for ALD-associated adrenal insufficiency.",
+      "reason": "Reason: Treatment is the same as for most other causes of primary adrenal insufficiency.",
+      "correctOption": 0,
+      "explanation": "Both true and aligned.",
+      "reference": "Management of Adrenal Insufficiency: \"Treatment of adrenal insufficiency associated with ALD is the same as treatment for most other causes of primary adrenal insufficiency.\""
+    },
+    {
+      "id": "e21-29-ar4",
+      "type": "assertion_reason",
+      "subtopic": "VLCFA cytotoxicity",
+      "assertion": "Assertion: VLCFA accumulation damages adrenocortical cells in ALD.",
+      "reason": "Reason: VLCFA only affect the nervous system, not the adrenal cortex.",
+      "correctOption": 2,
+      "explanation": "Assertion true; VLCFA affect adrenal cortex, brain, and testes—reason false.",
+      "reference": "Pathophysiology and Epidemiology: \"In males, the excess VLCFA accumulate in the adrenal cortex, nervous system, and testicular Leydig cells.\""
+    },
+    {
+      "id": "e21-29-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Cerebral ALD MRI",
+      "assertion": "Assertion: Brain MRI surveillance intensifies after age 3 because cerebral ALD risk increases.",
+      "reason": "Reason: Cerebral ALD never occurs after the first decade.",
+      "correctOption": 2,
+      "explanation": "Assertion reflects surveillance protocol; childhood cerebral ALD peaks in first decade—reason false.",
+      "reference": "Neurologic Disease: Cerebral ALD and Adrenomyeloneuropathy: \"performed annually until age 3 years, when the risk for cerebral ALD increases.\""
+    },
+    {
+      "id": "e21-29-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Brother evaluation",
+      "assertion": "Assertion: A symptomatic older brother of a screen-positive infant should be evaluated urgently for adrenal insufficiency.",
+      "reason": "Reason: Adrenal insufficiency is never life-threatening in children.",
+      "correctOption": 2,
+      "explanation": "Assertion true; unrecognized AI carries mortality risk—reason false.",
+      "reference": "Case 3: \"The patient's brother should be evaluated by a pediatric endocrinologist (Answer C) as soon as possible for primary adrenal insufficiency, as he is described to be symptomatic and adrenal insufficiency is a potentially life-threatening condition.\""
+    },
+    {
+      "id": "e21-29-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Algorithm limits",
+      "assertion": "Assertion: The PES adrenal surveillance algorithm is a guide and does not replace clinical judgment.",
+      "reason": "Reason: ACTH and cortisol never fluctuate in ALD.",
+      "correctOption": 2,
+      "explanation": "Assertion true per Case 2 discussion; levels fluctuate—reason false.",
+      "reference": "Case 2: \"the algorithm is intended to be a guide and is not meant to replace good clinical judgment.\""
+    },
+    {
+      "id": "e21-29-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Newborn screening females",
+      "assertion": "Assertion: Most females with pathogenic ABCD1 variants are not detected by VLCFA newborn screening.",
+      "reason": "Reason: 20% of heterozygous females lack VLCFA elevation.",
+      "correctOption": 0,
+      "explanation": "Both true; explains female false negatives.",
+      "reference": "Newborn Screening: \"As 20% of females heterozygous for ABCD1 pathogenic variants do not have VLCFA elevations, they are not expected to be identified by newborn screening.\""
     }
   ]
 }
