@@ -1,0 +1,1219 @@
+{
+  "id": "h1-227",
+  "volume": 1,
+  "chapterNo": "250",
+  "title": "Principles of Clinical Cardiac Electrophysiology",
+  "section": "Disorders of Rhythm",
+  "authors": "William H. Sauer, Bruce A. Koplan, Paul C. Zei",
+  "sourceFile": "noupload/harrison/Harrison1_studypacks/227_Principles_of_Clinical_Cardiac_Electrophysiology/h22-227_principles_of_clinical_cardiac_electrophysiology.json",
+  "items": [
+    {
+      "id": "h1-227-n1",
+      "type": "note",
+      "subtopic": "HISTORICAL PERSPECTIVE",
+      "title": "Evolution of Clinical Cardiac Electrophysiology: From ECG to Interventional Techniques",
+      "content": "Clinical cardiac electrophysiology has evolved significantly since the development of the modern surface electrocardiogram (ECG) by Willem Einthoven over 100 years ago. This advancement enabled a deeper understanding of cardiac electrical potentials and arrhythmias, leading to the creation of antiarrhythmic drugs. The field further advanced with the first recordings of human intracardiac electrograms in the 1960s, transitioning from purely diagnostic tools to interventional techniques like radiofrequency catheter ablation in the 1980s.",
+      "keyPoints": [
+        "Development of modern surface ECG by Willem Einthoven over 100 years ago",
+        "Understanding of cellular electrophysiology led to antiarrhythmic drugs",
+        "First recordings of human intracardiac electrograms in the 1960s",
+        "Radiofrequency catheter ablation developed in the 1980s"
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · HISTORICAL PERSPECTIVE"
+    },
+    {
+      "id": "h1-227-n2",
+      "type": "note",
+      "subtopic": "HISTORICAL PERSPECTIVE",
+      "title": "Advancements in Cardiac Rhythm Management Devices and Their Impact on Electrophysiology",
+      "content": "The development of implanted cardiac rhythm management devices, such as pacemakers and defibrillators, marked the emergence of clinical cardiac electrophysiology as a distinct medical subspecialty. Over the past 30 years, innovations like catheter ablation techniques, cardiac resynchronization, conduction system pacing, subcutaneous defibrillator implantation, leadless pacemaker implantation, left atrial appendage closure, and laser-assisted lead extraction have expanded procedural capabilities while maintaining core principles of arrhythmia management.",
+      "keyPoints": [
+        "Implanted devices like pacemakers and defibrillators defined electrophysiology as a subspecialty",
+        "Catheter ablation techniques developed in the 1980s",
+        "Recent advancements include cardiac resynchronization, subcutaneous defibrillator implantation, leadless pacemaker implantation, left atrial appendage closure, and laser-assisted lead extraction"
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · HISTORICAL PERSPECTIVE"
+    },
+    {
+      "id": "h1-227-n3",
+      "type": "note",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "title": "Understanding Cardiac Action Potential Phases and Their ECG Correlates",
+      "content": "The cardiac action potential (AP) is divided into five phases, each corresponding to specific components of the surface ECG. Phase 0 corresponds to the QRS deflection due to rapid depolarization, phases 1-2 correspond to the ST segment, phase 3 to the T wave, and phase 4 to the segment between the end of the T wave and the subsequent QRS deflection.",
+      "keyPoints": [
+        "Cardiac AP has five distinct phases (0-4).",
+        "Phase 0: Rapid upstroke, corresponds to QRS deflection.",
+        "Phases 1-2: ST segment.",
+        "Phase 3: T wave.",
+        "Phase 4: Segment between end of T wave and subsequent QRS."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-n4",
+      "type": "note",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "title": "Role of Ion Channels in Cardiac Action Potential Phases",
+      "content": "Ion channels are crucial for the different phases of the cardiac action potential. Na and Ca channels drive phase 0 depolarization, while K channels are responsible for repolarizing currents during phases 1-3.",
+      "keyPoints": [
+        "Na and Ca channels cause inward (depolarizing) currents in phase 0.",
+        "K channels account for most repolarizing currents in phases 1-3.",
+        "Mutations in K channel subtypes can lead to inherited long QT syndrome."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-n5",
+      "type": "note",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "title": "Mechanisms of Ion Channel Gating and Their Impact on Cardiac Electrophysiology",
+      "content": "Ion channels open or close in response to changes in membrane potential, ligand binding, or mechanical deformation. Voltage-gated channels use the S4 segment as a voltage sensor, while ligand-activated channels respond to specific molecules.",
+      "keyPoints": [
+        "Ion channels have gating mechanisms responsive to membrane potential, ligands, or mechanical deformation.",
+        "Voltage-gated channels utilize the S4 segment for sensing changes in membrane potential.",
+        "Ligand-activated channels open or close upon binding specific molecules."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-n6",
+      "type": "note",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "title": "Understanding Ion Channel Variations in Cardiac Tissue for Targeted Drug Therapy",
+      "content": "The efficacy of antiarrhythmic drugs is influenced by the specific ion channels predominant in different cardiac tissues. In atrial and ventricular myocytes, Na+ currents dominate phase 1 of the action potential (AP), making Na channel blockers effective against tachyarrhythmias originating from these regions. Conversely, nodal tissues rely on Ca2+ currents during phase 1, rendering Ca channel blockers more suitable for nodal arrhythmias.",
+      "keyPoints": [
+        "Na+ currents dominate phase 1 in atrial and ventricular myocytes.",
+        "Ca2+ currents dominate phase 1 in nodal tissues.",
+        "Na channel blockers are effective for tachyarrhythmias in atria and ventricles.",
+        "Ca channel blockers are effective at nodal tissues."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-n7",
+      "type": "note",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "title": "Role of the 'Funny Current' in Sinus Nodal Automaticity and Drug Targeting",
+      "content": "The sinus nodal tissues exhibit automaticity due to a gradual depolarization during phase 4, driven by the 'funny current' (I_f), a semiselective Na+/Ca2+ channel. This property makes I_f a target for drugs like ivabradine, which modulate heart rate by affecting this intrinsic rhythmic activity.",
+      "keyPoints": [
+        "Sinus nodal tissues show automaticity due to phase 4 depolarization.",
+        "'Funny current' (I_f) is responsible for the gradual depolarization in sinus nodes.",
+        "I_f is a semiselective Na+/Ca2+ channel.",
+        "Ivabradine targets I_f to modulate heart rate."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-n8",
+      "type": "note",
+      "subtopic": "NORMAL CARDIAC IMPULSE PROPAGATION",
+      "title": "Mechanisms of Normal Cardiac Impulse Propagation and ECG Correlations",
+      "content": "The cardiac impulse originates in the SA node and travels through specialized conduction pathways, including the AV node, bundle branches, and Purkinje fibers. The AV nodal delay is reflected as the PR interval on an ECG, ensuring atrioventricular synchrony. High conduction velocity in Purkinje fibers (2–3 m/s) facilitates rapid ventricular depolarization, optimizing cardiac contraction.",
+      "keyPoints": [
+        "SA node initiates the cardiac impulse.",
+        "AV nodal delay is reflected as the PR interval on ECG.",
+        "Purkinje fibers have high conduction velocity (2-3 m/s).",
+        "Rapid and coordinated ventricular depolarization optimizes contraction."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-n9",
+      "type": "note",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "title": "Understanding Enhanced Automaticity and Its Role in Tachyarrhythmias",
+      "content": "Enhanced automaticity is a mechanism of tachyarrhythmia characterized by abnormal spontaneous depolarization during phase 4 of the action potential. This can occur in various cardiac tissues including the SA node, AV node, His-Purkinje system, and other myocardial regions such as pulmonary veins or ventricular outflow tracts.",
+      "keyPoints": [
+        "Automaticity is a normal property of several myocardial tissues like the SA node and AV node.",
+        "Phase 4 depolarization in nodal tissues is regulated by autonomic input: parasympathetic slows it via IKACh channels, sympathetic enhances it through beta-1 adrenergic stimulation.",
+        "Normal SA node automaticity rates range from 30 to 220 beats/min.",
+        "Abnormal enhanced automaticity can lead to pathologic tachycardia and is observed in areas like the pulmonary veins or border zones of infarcted myocardium."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-n10",
+      "type": "note",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "title": "Regulation of Automaticity by Autonomic Nervous System",
+      "content": "The autonomic nervous system plays a crucial role in regulating the automaticity rate of nodal tissues. Parasympathetic input slows down phase 4 depolarization through acetylcholine-induced K efflux, while sympathetic input enhances it via catecholamine-stimulated Ca influx.",
+      "keyPoints": [
+        "Parasympathetic input via ACh activates IKACh channels causing hyperpolarization and slowing of automaticity.",
+        "Sympathetic stimulation through beta-1 adrenergic receptors increases phase 4 depolarization rates by activating L-type Ca channels.",
+        "The balance between sympathetic and parasympathetic inputs determines the sinus rate, with parasympathetic dominance in rest."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-n11",
+      "type": "note",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "title": "Clinical Implications of Abnormal Enhanced Automaticity",
+      "content": "Abnormally enhanced automaticity can lead to various pathologic tachyarrhythmias. It may occur in the SA node, AV node, His-Purkinje system, or other myocardial regions affected by injury such as ischemia.",
+      "keyPoints": [
+        "Enhanced automaticity can result from changes in cellular membrane properties due to myocardial injury.",
+        "Common arrhythmias associated with abnormal automaticity include PVCs and AIVR in infarcted ventricular myocardium.",
+        "Automaticity in pulmonary veins is a key trigger for paroxysmal atrial fibrillation."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-n12",
+      "type": "note",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "title": "Mechanisms and Risks of Torsades de Pointes (TdP)",
+      "content": "Torsades de Pointes is a ventricular arrhythmia triggered by early afterdepolarizations (EADs) during phases 2-3 of the action potential, often facilitated by intracellular calcium loading. Prolongation of the QT interval, especially in a heterogeneous manner across the ventricles, predisposes to TdP. Factors such as medications that prolong the QT interval and conditions like hypokalemia, hypomagnesemia, and bradycardia increase this risk.",
+      "keyPoints": [
+        "EADs occur during phases 2-3 of the action potential.",
+        "QT interval prolongation predisposes to EADs and TdP.",
+        "Risk factors include medications that prolong QT, hypokalemia, hypomagnesemia, and bradycardia."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-n13",
+      "type": "note",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "title": "Understanding Delayed Afterdepolarizations (DADs)",
+      "content": "Delayed afterdepolarizations occur in phase 4 of the action potential due to increased intracellular calcium, leading to repetitive depolarizations. This can result in arrhythmias such as bidirectional ventricular tachycardia. Common causes include digitalis glycoside toxicity, ischemia, and catecholamines.",
+      "keyPoints": [
+        "DADs occur during phase 4 of the action potential.",
+        "Increased intracellular calcium is the underlying mechanism.",
+        "Common causes: digitalis glycoside toxicity, ischemia, catecholamines."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-n14",
+      "type": "note",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "title": "Reentry Mechanisms in Cardiac Arrhythmias",
+      "content": "Reentry involves a wavefront of electrical activation moving around an anatomic or functional barrier. Anatomic reentry requires a defined circuit with unidirectional block and slow conduction, allowing the wavefront to perpetuate. Functional reentry occurs without a fixed barrier, often leading to arrhythmias like atrial fibrillation (AF) and ventricular fibrillation (VF).",
+      "keyPoints": [
+        "Reentry involves circus movement of electrical activation.",
+        "Anatomic reentry requires unidirectional block and slow conduction.",
+        "Functional reentry lacks a fixed barrier, contributing to AF and VF."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-n15",
+      "type": "note",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "title": "Pharmacologic Treatment Based on Arrhythmia Mechanism",
+      "content": "The choice of pharmacologic therapy for arrhythmias should be directed toward the specific underlying mechanism, whether it is enhanced automaticity, triggered activity, or reentry.",
+      "keyPoints": [
+        "Enhanced automaticity-based arrhythmias can be treated with Ca channel blockers, beta-adrenergic blockers (indirect action), or ivabradine targeting phase 4 depolarization.",
+        "Triggered activity-based arrhythmias are best managed by correcting the precipitating factor, such as removing digitalis glycosides, discontinuing QT-prolonging medications, or increasing heart rate to shorten the QT interval.",
+        "Reentrant arrhythmias may be treated with K channel blockers to increase refractory period and disrupt reentry circuits. Caution is advised with Na channel blockers due to their potential proarrhythmic effects by paradoxically promoting reentry through increased excitable gap."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-n16",
+      "type": "note",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "title": "Catheter-Based Myocardial Ablation for Arrhythmias",
+      "content": "Catheter-based myocardial ablation is a key technique in disrupting arrhythmic substrates, with varying effectiveness depending on the type of arrhythmia.",
+      "keyPoints": [
+        "Automaticity-based arrhythmias can be effectively treated by precisely localizing and ablating or isolating the site of focal automaticity.",
+        "Anatomically bound reentrant arrhythmias are managed by interrupting the circuit with a series of ablation lesions.",
+        "Mechanical disruption through catheter-based ablation is often ineffective for functional reentry due to multiple, migratory circuits."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-n17",
+      "type": "note",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "title": "Importance of Directed History and Physical Examination in Arrhythmia Evaluation",
+      "content": "A thorough history and physical examination, including an ECG, are crucial for evaluating patients with suspected arrhythmias. This approach helps identify symptoms related to the arrhythmia and potential underlying conditions that may predispose to specific types of arrhythmias.",
+      "keyPoints": [
+        "Directed history should focus on symptoms like fatigue, chest pain, dyspnea, lightheadedness, rapid, slow, or irregular heart rate.",
+        "Family history can indicate inherited arrhythmia syndromes.",
+        "Symptoms may vary based on the cadence and duration of arrhythmia episodes."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-n18",
+      "type": "note",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "title": "Role of ECG in Arrhythmia Diagnosis",
+      "content": "The ECG is essential for diagnosing arrhythmias, capturing active arrhythmia episodes, and identifying underlying cardiac conditions that may predispose to arrhythmias.",
+      "keyPoints": [
+        "A 12-lead resting ECG can provide definitive diagnosis if active arrhythmia is captured.",
+        "ECG findings may suggest prior myocardial infarction, left ventricular hypertrophy, atrial disease, or baseline conduction system disease.",
+        "ECG can indicate conditions predisposing to arrhythmias like ventricular preexcitation, prolonged/shortened QT interval, Brugada syndrome, or right ventricular cardiomyopathy."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-n19",
+      "type": "note",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "title": "Assessing Prognosis and Severity of Arrhythmias",
+      "content": "Determining the prognosis of arrhythmias is critical for guiding treatment. More significant hemodynamic compromise correlates with more malignant disease, necessitating a more aggressive evaluation.",
+      "keyPoints": [
+        "Arrhythmias causing profound symptoms often indicate more malignant conditions.",
+        "Loss of consciousness requires careful evaluation to differentiate between cardiac and non-cardiac causes.",
+        "Underlying structural abnormalities in ventricular myocardium increase the risk of lethal arrhythmias."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-n20",
+      "type": "note",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "title": "When to Use Ambulatory Monitoring for Arrhythmias",
+      "content": "Ambulatory monitoring is crucial for diagnosing intermittent and transient arrhythmias not captured on a resting ECG. The choice of monitoring device depends on the frequency of symptoms.",
+      "keyPoints": [
+        "ECG records only 6 seconds, missing many transient arrhythmias.",
+        "24- or 48-hour Holter monitor is suitable for daily symptoms.",
+        "Patient-activated event recorder is not ideal for syncope due to potential missed events."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-n21",
+      "type": "note",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "title": "Role of Tilt Table Testing in Syncope Evaluation",
+      "content": "Tilt table testing can provoke autonomic dysfunction-mediated syncope but has limited sensitivity and specificity, making it less useful after a thorough history.",
+      "keyPoints": [
+        "TTT may elicit paradoxical vagal response causing bradycardia, sinus pauses, hypotension, or syncope.",
+        "Lack of sensitivity and specificity limits its current role in syncope evaluation."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-n22",
+      "type": "note",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "title": "Invasive Electrophysiologic Testing for Arrhythmia Diagnosis",
+      "content": "EP testing is the most definitive diagnostic tool for many arrhythmias, involving catheter-based recordings and provocative maneuvers to elicit and analyze arrhythmias.",
+      "keyPoints": [
+        "EP study involves femoral venous access and baseline conduction measurements.",
+        "Provocative maneuvers include electrical pacing, programmed stimulation, and pharmacologic provocation.",
+        "Used alongside planned catheter ablation for diagnosis confirmation and target localization."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-n23",
+      "type": "note",
+      "subtopic": "ANTIARRHYTHMIC DRUG THERAPY",
+      "title": "Understanding the Vaughan-Williams Classification of Antiarrhythmic Drugs",
+      "content": "The Vaughan-Williams classification categorizes antiarrhythmic drugs into four main classes based on their primary mechanism of action. Class I targets Na channels, subdivided into IA (intermediate kinetics), IB (rapid kinetics), and IC (slow kinetics). Class II agents are beta-blockers, Class III target potassium channels with a risk of QT prolongation, and Class IV are Ca channel blockers.",
+      "keyPoints": [
+        "Class I AADs target Na channels: IA (procainamide, quinidine), IB (lidocaine, mexiletine), IC (flecainide, propafenone).",
+        "Class II agents are beta-adrenergic blocking agents.",
+        "Class III agents target Kv11.1 potassium channel and risk QT prolongation (sotalol, dofetilide, ibutilide).",
+        "Class IV agents are cardioselective Ca channel blockers (verapamil, diltiazem).",
+        "Amiodarone exhibits properties of all AAD classes.",
+        "Adenosine and digitalis glycosides do not fit neatly into this classification."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · ANTIARRHYTHMIC DRUG THERAPY"
+    },
+    {
+      "id": "h1-227-n24",
+      "type": "note",
+      "subtopic": "ANTIARRHYTHMIC DRUG THERAPY",
+      "title": "Risks and Considerations in Antiarrhythmic Drug Therapy",
+      "content": "Antiarrhythmic drugs have a narrow therapeutic index, leading to significant risks of adverse effects. Their complex pharmacodynamics and interpatient variations necessitate judicious use by experienced clinicians. Many AADs interact with multiple ion channels, complicating their classification and increasing the risk of side effects.",
+      "keyPoints": [
+        "Antiarrhythmic agents have a narrow therapeutic index and can cause significant side effects.",
+        "Complex pharmacodynamics and interpatient variations affect drug efficacy and safety.",
+        "Amiodarone interacts with multiple ion channels, exhibiting properties of all AAD classes.",
+        "Adenosine acts as an acute AV nodal blocker; digitalis glycosides inhibit the Na+/K+ pump affecting the Na+/Ca++ exchanger."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · ANTIARRHYTHMIC DRUG THERAPY"
+    },
+    {
+      "id": "h1-227-n25",
+      "type": "note",
+      "subtopic": "CATHETER ABLATION",
+      "title": "Mechanism and Safety in Catheter Ablation for Cardiac Arrhythmias",
+      "content": "Catheter ablation targets specific anatomic substrates responsible for arrhythmias by identifying and disrupting or isolating these areas. For automaticity-driven arrhythmias, focal sources are ablated, while critical zones of slow conduction in reentrant arrhythmias are targeted. Safety is enhanced through electroanatomic mapping and intracardiac echocardiography, which help avoid damage to vital structures.",
+      "keyPoints": [
+        "Catheter ablation disrupts or isolates anatomic substrates causing arrhythmia.",
+        "Electroanatomic mapping and intracardiac echocardiography enhance safety by avoiding critical structures.",
+        "Radiofrequency (RF) energy, delivering 300–550 kHz alternating current, is the mainstay for tissue heating and ablation."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    },
+    {
+      "id": "h1-227-n26",
+      "type": "note",
+      "subtopic": "CATHETER ABLATION",
+      "title": "Evolution and Indications of Catheter Ablation Techniques",
+      "content": "The evolution from open surgical disruption to catheter-based techniques marked a significant advancement in treating arrhythmias. Initially using direct current (DC) energy, which had high complication rates, the adoption of radiofrequency (RF) energy in the 1980s improved safety and efficacy. RF ablation is now widely used for various clinical arrhythmias including SVT, accessory pathways, atrial flutter, AF, PVCs, and VT.",
+      "keyPoints": [
+        "Catheter ablation evolved from open surgery to using catheter-based techniques with DC energy in the 1950s-1960s.",
+        "Radiofrequency (RF) energy, delivering 300–550 kHz alternating current, became the mainstay due to improved safety and efficacy since the 1980s.",
+        "Indications for RF catheter ablation include SVT, accessory pathways, atrial flutter, AF, PVCs, and VT."
+      ],
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    },
+    {
+      "id": "h1-227-mcq1",
+      "type": "mcq",
+      "subtopic": "HISTORICAL PERSPECTIVE",
+      "question": "Who developed the modern surface electrocardiogram (ECG) over 100 years ago?",
+      "options": [
+        "Willem Einthoven",
+        "William H. Sauer",
+        "Bruce A. Koplan",
+        "Paul C. Zei"
+      ],
+      "correctOption": 0,
+      "explanation": "Willem Einthoven developed the modern surface ECG.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · HISTORICAL PERSPECTIVE"
+    },
+    {
+      "id": "h1-227-mcq2",
+      "type": "mcq",
+      "subtopic": "HISTORICAL PERSPECTIVE",
+      "question": "What was the primary use of invasive electrophysiology studies in their initial stages?",
+      "options": [
+        "Therapeutic interventions",
+        "Diagnostic tools",
+        "Research purposes only",
+        "Routine patient monitoring"
+      ],
+      "correctOption": 1,
+      "explanation": "Initially, invasive electrophysiology studies were limited to diagnostic tools.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · HISTORICAL PERSPECTIVE"
+    },
+    {
+      "id": "h1-227-mcq3",
+      "type": "mcq",
+      "subtopic": "HISTORICAL PERSPECTIVE",
+      "question": "Which development in the 1980s marked the beginning of interventional cardiac electrophysiology?",
+      "options": [
+        "Implanted cardiac rhythm management devices",
+        "Serial electrophysiologic testing",
+        "Programmed stimulation of the ventricle",
+        "Radiofrequency catheter ablation"
+      ],
+      "correctOption": 3,
+      "explanation": "The development of radiofrequency catheter ablation in the 1980s ushered in interventional cardiac electrophysiology.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · HISTORICAL PERSPECTIVE"
+    },
+    {
+      "id": "h1-227-mcq4",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "question": "Which phase of the cardiac action potential corresponds to the QRS deflection on the surface ECG?",
+      "options": [
+        "Phase 0",
+        "Phase 1",
+        "Phase 2",
+        "Phase 3"
+      ],
+      "correctOption": 0,
+      "explanation": "Phase 0, the rapid upstroke, corresponds to the QRS deflection.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-mcq5",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "question": "What primarily drives phase 0 depolarization of the cardiac action potential?",
+      "options": [
+        "Potassium currents",
+        "Sodium and calcium currents",
+        "Chloride currents",
+        "Hydrogen currents"
+      ],
+      "correctOption": 1,
+      "explanation": "Na and Ca channels account for most inward, or depolarizing, currents in cardiac myocytes during phase 0.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-mcq6",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "question": "Which ion channel mutations are associated with inherited long QT syndrome?",
+      "options": [
+        "Sodium channel mutations",
+        "Calcium channel mutations",
+        "Potassium channel mutations",
+        "Chloride channel mutations"
+      ],
+      "correctOption": 2,
+      "explanation": "Mutations in K channel subtypes can cause prolongation of the QT interval, leading to inherited long QT syndrome.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-mcq7",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "question": "What is the role of the S4 segment in voltage-gated ion channels?",
+      "options": [
+        "Forms the central pore",
+        "Acts as a ligand binding site",
+        "Functions as a voltage sensor",
+        "Facilitates mechanical gating"
+      ],
+      "correctOption": 2,
+      "explanation": "The S4 segment contains charged amino acid residues that function as a voltage sensor, facilitating channel opening or closing.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-mcq8",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "question": "Which ion channel current dominates phase 1 of the action potential in nodal tissues?",
+      "options": [
+        "Na currents",
+        "Ca currents",
+        "K currents",
+        "Funny current"
+      ],
+      "correctOption": 1,
+      "explanation": "In nodal tissues, Ca currents dominate phase 1 of the action potential.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-mcq9",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "question": "Which medication targets the 'funny current' in sinus nodal tissues?",
+      "options": [
+        "Lidocaine",
+        "Verapamil",
+        "Amiodarone",
+        "Ivabradine"
+      ],
+      "correctOption": 3,
+      "explanation": "Ivabradine targets the 'funny current' in sinus nodal tissues.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-mcq10",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "question": "What is the primary role of the AV node in cardiac impulse propagation?",
+      "options": [
+        "Initiates the cardiac impulse",
+        "Provides rapid conduction to ventricles",
+        "Serves as the only electrical connection between atria and ventricles",
+        "Generates automaticity for heart rhythm"
+      ],
+      "correctOption": 2,
+      "explanation": "The AV node serves as the only electrical connection between atria and ventricles.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-mcq11",
+      "type": "mcq",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "question": "What is reflected on the surface ECG as the PR interval?",
+      "options": [
+        "Time between atrial and ventricular depolarization",
+        "Duration of ventricular repolarization",
+        "Conduction time through Purkinje fibers",
+        "Interval between QRS complex and T wave"
+      ],
+      "correctOption": 0,
+      "explanation": "The PR interval reflects the conduction time from atrial to ventricular depolarization.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-mcq12",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "question": "Which ion channel complex is activated by parasympathetic input to slow the automaticity rate in nodal tissues?",
+      "options": [
+        "L-type Ca channels",
+        "Na/Ca exchangers",
+        "IKACh potassium channel complex",
+        "Beta-1 adrenergic receptors"
+      ],
+      "correctOption": 2,
+      "explanation": "Parasympathetic input results in ACh release, which binds the IKACh potassium channel complex, leading to K efflux and slowing of phase 4 depolarization.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-mcq13",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "question": "What is the primary current driving phase 4 depolarization in the SA node?",
+      "options": [
+        "K currents",
+        "Ca currents",
+        "Na/Ca I $ _{r} $ current",
+        "ATP-driven Na/K exchangers"
+      ],
+      "correctOption": 2,
+      "explanation": "In the SA node, the nonselective Na/Ca I $ _{r} $ current drives phase 4 depolarization.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-mcq14",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "question": "Which of the following is a result of sympathetic input via catecholamines in nodal tissues?",
+      "options": [
+        "Activation of IKACh channels",
+        "Hyperpolarization of cells",
+        "Enhanced depolarization rates during phase 4",
+        "Slowing of automaticity rate"
+      ],
+      "correctOption": 2,
+      "explanation": "Sympathetic input activates beta-1 adrenergic receptors, leading to L-type Ca channel activation and enhanced depolarization rates.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-mcq15",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "question": "Where can abnormally enhanced automaticity occur resulting in pathologic tachycardia?",
+      "options": [
+        "Only in the SA node",
+        "In any site with inherent automaticity, including the AV node and His-Purkinje system",
+        "Exclusively in atrial tissues",
+        "Only during sinus rhythm"
+      ],
+      "correctOption": 1,
+      "explanation": "Abnormally enhanced automaticity may occur at any site that exhibits automaticity, such as the SA node, AV node, or His-Purkinje system.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-mcq16",
+      "type": "mcq",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "question": "Which phase of the action potential are early afterdepolarizations (EADs) most likely to occur?",
+      "options": [
+        "Phase 0",
+        "Phases 2–3",
+        "Phase 4",
+        "Repolarization"
+      ],
+      "correctOption": 1,
+      "explanation": "Early afterdepolarizations typically occur during phases 2–3 of the action potential.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-mcq17",
+      "type": "mcq",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "question": "Which condition is a common result of early afterdepolarizations (EADs) when the QT interval prolongs?",
+      "options": [
+        "Ventricular fibrillation",
+        "Atrial flutter",
+        "Torsades des pointes",
+        "Sinus bradycardia"
+      ],
+      "correctOption": 2,
+      "explanation": "Prolongation of the QT interval can lead to torsades des pointes, a ventricular arrhythmia resulting from EADs.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-mcq18",
+      "type": "mcq",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "question": "What is the primary mechanism underlying delayed afterdepolarizations (DADs)?",
+      "options": [
+        "Increased intracellular Na",
+        "Decreased intracellular Ca",
+        "Increased intracellular Ca",
+        "Enhanced potassium efflux"
+      ],
+      "correctOption": 2,
+      "explanation": "Delayed afterdepolarizations are caused by increased intracellular calcium, leading to repetitive depolarizations.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-mcq19",
+      "type": "mcq",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "question": "Which of the following is NOT a cause for delayed afterdepolarizations (DADs)?",
+      "options": [
+        "Digitalis glycoside toxicity",
+        "Ischemia",
+        "Bradycardia",
+        "Catecholamines"
+      ],
+      "correctOption": 2,
+      "explanation": "Bradycardia is not a cause of delayed afterdepolarizations; it is associated with early afterdepolarizations and QT prolongation.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-mcq20",
+      "type": "mcq",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "question": "Which medication is specifically used for treating enhanced automaticity-based arrhythmias by targeting phase 4 depolarization?",
+      "options": [
+        "Ca channel blockers",
+        "K channel blocking agents",
+        "Na channel blockers",
+        "QT-prolonging medications"
+      ],
+      "correctOption": 0,
+      "explanation": "Ca channel blockers target phase 4 depolarization in enhanced automaticity-based arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-mcq21",
+      "type": "mcq",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "question": "What is the paradoxical effect of medications that slow conduction velocity on reentrant arrhythmias?",
+      "options": [
+        "They shorten the refractory period",
+        "They increase the wavelength of conduction",
+        "They promote reentrant arrhythmias by creating a larger excitable gap",
+        "They eliminate meaningful arrhythmia circuit conduction"
+      ],
+      "correctOption": 2,
+      "explanation": "Medications that slow conduction velocity can paradoxically promote reentrant arrhythmias due to the creation of a larger excitable gap.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-mcq22",
+      "type": "mcq",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "question": "Which approach is typically ineffective in eliminating functional reentry arrhythmias?",
+      "options": [
+        "Mechanical disruption through catheter-based ablation",
+        "Precise localization and elimination of focal automaticity",
+        "Interruption of the reentrant circuit with ablation lesions",
+        "Increasing heart rate to shorten QT interval"
+      ],
+      "correctOption": 0,
+      "explanation": "Mechanical disruption through catheter-based ablation is typically ineffective in eliminating functional reentry arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-mcq23",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "question": "Which symptom is most likely to be associated with premature contractions?",
+      "options": [
+        "A sensation of rapid heart rate",
+        "A feeling of a missed beat",
+        "Severe chest pain",
+        "Persistent cough"
+      ],
+      "correctOption": 1,
+      "explanation": "Premature contractions may result in the sensation of an extra or missed beat due to diminished stroke volume.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-mcq24",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "question": "What is a common feature of inappropriate sinus tachycardia?",
+      "options": [
+        "It predominantly affects older patients",
+        "It is seen in young women",
+        "It occurs frequently in children",
+        "It is associated with structural heart disease"
+      ],
+      "correctOption": 1,
+      "explanation": "Inappropriate sinus tachycardia nearly exclusively affects young women.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-mcq25",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "question": "Which demographic factor is associated with a higher prevalence of Brugada syndrome?",
+      "options": [
+        "Females",
+        "Children",
+        "Southeast Asians",
+        "Patients with structural heart disease"
+      ],
+      "correctOption": 2,
+      "explanation": "Brugada syndrome has a higher prevalence in certain ethnic populations such as Southeast Asians.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-mcq26",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "question": "What is the primary diagnostic test for suspected arrhythmia?",
+      "options": [
+        "MRI",
+        "CT scan",
+        "ECG",
+        "Blood tests"
+      ],
+      "correctOption": 2,
+      "explanation": "The ECG is the cornerstone and most important diagnostic test for suspected arrhythmia.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-mcq27",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "question": "Which monitoring option is inappropriate for a patient with syncope?",
+      "options": [
+        "24- or 48-h continuous Holter monitor",
+        "Patient-activated event recorder",
+        "ECG-monitored treadmill test",
+        "Pharmacologic provocation"
+      ],
+      "correctOption": 1,
+      "explanation": "A patient-activated event recorder is inappropriate for syncope as the arrhythmic event likely passes once the patient reawakens.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-mcq28",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "question": "What is a limitation of tilt table testing (TTT) in diagnosing syncope?",
+      "options": [
+        "It has high sensitivity and specificity.",
+        "It can only be performed with echocardiography.",
+        "It lacks both sensitivity and specificity.",
+        "It requires invasive electrophysiologic testing."
+      ],
+      "correctOption": 2,
+      "explanation": "Tilt table testing is limited by its significant lack of both sensitivity and specificity for diagnosing syncope.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-mcq29",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "question": "What is the primary purpose of invasive electrophysiologic (EP) testing?",
+      "options": [
+        "To assess left ventricular function",
+        "To diagnose structural heart disease",
+        "To elicit and define mechanisms of arrhythmias",
+        "To evaluate coronary artery disease"
+      ],
+      "correctOption": 2,
+      "explanation": "Invasive electrophysiologic testing is primarily used to elicit clinical arrhythmias and help define their mechanism.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-mcq30",
+      "type": "mcq",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "question": "Which test provides significant resolution of soft-tissue characteristics in cardiac evaluation?",
+      "options": [
+        "Cardiac computed tomography",
+        "ECG-monitored treadmill test",
+        "Tilt table testing",
+        "Cardiac magnetic resonance imaging"
+      ],
+      "correctOption": 3,
+      "explanation": "Cardiac magnetic resonance imaging provides significant resolution of soft-tissue characteristics.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-mcq31",
+      "type": "mcq",
+      "subtopic": "ANTIARRHYTHMIC DRUG THERAPY",
+      "question": "Which class of antiarrhythmic drugs primarily targets the Na channel?",
+      "options": [
+        "Class I",
+        "Class II",
+        "Class III",
+        "Class IV"
+      ],
+      "correctOption": 0,
+      "explanation": "Class I AADs target the Na channel.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · ANTIARRHYTHMIC DRUG THERAPY"
+    },
+    {
+      "id": "h1-227-mcq32",
+      "type": "mcq",
+      "subtopic": "ANTIARRHYTHMIC DRUG THERAPY",
+      "question": "Which antiarrhythmic drug is known for its properties across all Vaughan-Williams classes?",
+      "options": [
+        "Procainamide",
+        "Lidocaine",
+        "Amiodarone",
+        "Verapamil"
+      ],
+      "correctOption": 2,
+      "explanation": "Amiodarone exhibits properties of all AAD classes.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · ANTIARRHYTHMIC DRUG THERAPY"
+    },
+    {
+      "id": "h1-227-mcq33",
+      "type": "mcq",
+      "subtopic": "ANTIARRHYTHMIC DRUG THERAPY",
+      "question": "Which class of antiarrhythmic drugs specifically targets the Kv11.1 potassium channel?",
+      "options": [
+        "Class I",
+        "Class II",
+        "Class III",
+        "Class IV"
+      ],
+      "correctOption": 2,
+      "explanation": "Class III agents target the Kv11.1 potassium channel.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · ANTIARRHYTHMIC DRUG THERAPY"
+    },
+    {
+      "id": "h1-227-mcq34",
+      "type": "mcq",
+      "subtopic": "CATHETER ABLATION",
+      "question": "What is the primary rationale behind catheter ablation for cardiac arrhythmias?",
+      "options": [
+        "Identifying and disrupting or isolating an anatomical substrate to eliminate the arrhythmia.",
+        "Using high-voltage pulse electrical energy to disrupt all cardiac tissue indiscriminately.",
+        "Applying direct current (DC) energy to permanently damage the heart's conduction system.",
+        "Utilizing magnetic fields to alter the heart's natural rhythm without targeting specific tissues."
+      ],
+      "correctOption": 0,
+      "explanation": "Catheter ablation aims to identify and disrupt or isolate an anatomical substrate responsible for arrhythmias, thereby eliminating them.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    },
+    {
+      "id": "h1-227-mcq35",
+      "type": "mcq",
+      "subtopic": "CATHETER ABLATION",
+      "question": "Which technology has allowed real-time reconstruction of cardiac chambers during catheter ablation?",
+      "options": [
+        "Intracardiac echocardiography.",
+        "Electroanatomic mapping.",
+        "Direct current (DC) energy delivery.",
+        "Radiofrequency (RF) energy."
+      ],
+      "correctOption": 1,
+      "explanation": "Advances in electroanatomic mapping have enabled real-time reconstruction of cardiac chambers during catheter ablation.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    },
+    {
+      "id": "h1-227-mcq36",
+      "type": "mcq",
+      "subtopic": "CATHETER ABLATION",
+      "question": "What type of electrical current is primarily used in modern catheter ablation procedures?",
+      "options": [
+        "Direct current (DC) electrical energy.",
+        "Alternating current at 50–60 Hz.",
+        "Radiofrequency alternating electrical current (300–550 kHz).",
+        "Pulsed electromagnetic fields."
+      ],
+      "correctOption": 2,
+      "explanation": "Radiofrequency (RF) alternating electrical current is primarily used in modern catheter ablation procedures to create local tissue heating and injury.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    },
+    {
+      "id": "h1-227-tf1",
+      "type": "true_false",
+      "subtopic": "HISTORICAL PERSPECTIVE",
+      "statement": "In the mid-twentieth century, understanding cellular membrane currents clarified that the surface ECG represents individual cellular electrical activity.",
+      "correctAnswer": false,
+      "explanation": "The surface ECG represents the sum of cellular cardiac electrical activity.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · HISTORICAL PERSPECTIVE"
+    },
+    {
+      "id": "h1-227-tf2",
+      "type": "true_false",
+      "subtopic": "HISTORICAL PERSPECTIVE",
+      "statement": "Cardiac surgery was a primary invasive treatment for arrhythmias in the 1960s and 1970s.",
+      "correctAnswer": true,
+      "explanation": "In the 1960s and 1970s, cardiac surgery was indeed the only available invasive treatment for cardiac arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · HISTORICAL PERSPECTIVE"
+    },
+    {
+      "id": "h1-227-tf3",
+      "type": "true_false",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "statement": "Phase 3 of the cardiac action potential corresponds to the T wave on the surface ECG.",
+      "correctAnswer": true,
+      "explanation": "Phase 3, the repolarizing phase, accounts for the T wave.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-tf4",
+      "type": "true_false",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "statement": "The PR interval on the surface ECG corresponds to ventricular depolarization.",
+      "correctAnswer": false,
+      "explanation": "The PR interval represents the time from atrial depolarization initiation to ventricular depolarization initiation, primarily involving AV node conduction.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-tf5",
+      "type": "true_false",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "statement": "The SA node is located at the junction of the superior vena cava and right atrium.",
+      "correctAnswer": true,
+      "explanation": "The SA node is indeed located at the lateral junction between the SVC and RA.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-tf6",
+      "type": "true_false",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "statement": "Purkinje fibers have a slower conduction velocity than myocardial cells.",
+      "correctAnswer": false,
+      "explanation": "Purkinje fibers conduct impulses much faster than myocardial cells.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-tf7",
+      "type": "true_false",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "statement": "The intrinsic heart rate is defined as the automaticity rate of the SA node with autonomic input.",
+      "correctAnswer": false,
+      "explanation": "The intrinsic heart rate (IHR) is the native automaticity rate of the SA node, absent any autonomic input.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-tf8",
+      "type": "true_false",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "statement": "Injury to myocardium can lead to automatic arrhythmias in tissues such as border zones of infarcted ventricular myocardium.",
+      "correctAnswer": true,
+      "explanation": "Myocardial injury, like ischemia, can alter cellular membrane properties, resulting in automaticity and arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-tf9",
+      "type": "true_false",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "statement": "Functional reentry requires a fixed anatomic barrier to sustain the arrhythmia.",
+      "correctAnswer": false,
+      "explanation": "Functional reentry occurs in the absence of a fixed anatomic barrier, relying instead on partially refractory tissue.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-tf10",
+      "type": "true_false",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "statement": "Anatomic reentry is more stable than functional reentry.",
+      "correctAnswer": true,
+      "explanation": "Anatomic reentry tends to be more stable compared to the less stable nature of functional reentry.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-tf11",
+      "type": "true_false",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "statement": "K channel blocking agents are used to increase the refractory period and treat reentrant arrhythmias.",
+      "correctAnswer": true,
+      "explanation": "K channel blockers increase the refractory period, which can help in treating reentrant arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-tf12",
+      "type": "true_false",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "statement": "Mechanical disruption through catheter-based ablation is effective for anatomically bound reentrant arrhythmias.",
+      "correctAnswer": true,
+      "explanation": "Catheter-based ablation can effectively interrupt the reentrant circuit in anatomically bound reentrant arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-tf13",
+      "type": "true_false",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "statement": "AF rarely occurs in children and young adults unless associated with familial forms or structural heart disease.",
+      "correctAnswer": true,
+      "explanation": "Atrial fibrillation is uncommon in children and young adults except for rare familial forms or when associated with structural heart disease.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-tf14",
+      "type": "true_false",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "statement": "Medication use has no impact on the diagnosis of arrhythmias.",
+      "correctAnswer": false,
+      "explanation": "Medications like Ca channel blockers or beta blockers can suggest bradycardia, and those prolonging QT interval may indicate malignant ventricular arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-tf15",
+      "type": "true_false",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "statement": "Tilt table testing is often indicated after a careful history elucidates a neurally mediated cause for syncope.",
+      "correctAnswer": false,
+      "explanation": "The current role of tilt table testing is unclear due to its lack of sensitivity and specificity.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-tf16",
+      "type": "true_false",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "statement": "Pharmacologic provocation may be used in diagnosing Brugada syndrome.",
+      "correctAnswer": true,
+      "explanation": "Pharmacologic provocation is indicated for certain suspected diagnoses, including Brugada syndrome.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-tf17",
+      "type": "true_false",
+      "subtopic": "ANTIARRHYTHMIC DRUG THERAPY",
+      "statement": "Adenosine fits neatly into the Vaughan-Williams classification schema.",
+      "correctAnswer": false,
+      "explanation": "Adenosine does not fit neatly into this classification schema.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · ANTIARRHYTHMIC DRUG THERAPY"
+    },
+    {
+      "id": "h1-227-tf18",
+      "type": "true_false",
+      "subtopic": "ANTIARRHYTHMIC DRUG THERAPY",
+      "statement": "Class II antiarrhythmic drugs are beta-adrenergic blocking agents.",
+      "correctAnswer": true,
+      "explanation": "Class II agents consist entirely of beta-adrenergic blocking agents.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · ANTIARRHYTHMIC DRUG THERAPY"
+    },
+    {
+      "id": "h1-227-tf19",
+      "type": "true_false",
+      "subtopic": "CATHETER ABLATION",
+      "statement": "Intracardiac echocardiography enhances the safety of electrophysiologic procedures by providing real-time visualization of cardiac structures.",
+      "correctAnswer": true,
+      "explanation": "Intracardiac echocardiography is used to enhance the safety and efficacy of invasive electrophysiologic procedures through real-time visualization.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    },
+    {
+      "id": "h1-227-tf20",
+      "type": "true_false",
+      "subtopic": "CATHETER ABLATION",
+      "statement": "The first attempts at clinical catheter ablation utilized radiofrequency (RF) energy.",
+      "correctAnswer": false,
+      "explanation": "The initial clinical catheter ablations used direct current (DC) electrical energy, not RF energy.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    },
+    {
+      "id": "h1-227-ar1",
+      "type": "assertion_reason",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "assertion": "The central pore of most ion channels is formed by the P domain.",
+      "reason": "The P domain consists of hydrophilic amino acid residues that determine ionic selectivity.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, with the reason correctly explaining the assertion.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-ar2",
+      "type": "assertion_reason",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 1)",
+      "assertion": "Gap junction complexes facilitate impulse propagation across myocardial tissues.",
+      "reason": "They form nonselective pores that allow free flux of ions between adjacent myocytes.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, with the reason correctly explaining the assertion.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 1)"
+    },
+    {
+      "id": "h1-227-ar3",
+      "type": "assertion_reason",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "assertion": "The PR interval shortens with increased adrenergic tone.",
+      "reason": "Increased adrenergic tone enhances conduction through the AV node.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-ar4",
+      "type": "assertion_reason",
+      "subtopic": "CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION",
+      "assertion": "The T wave inscription is concordant with the QRS complex.",
+      "reason": "Repolarization of ventricular myocardium occurs rapidly from epicardial to endocardial surfaces.",
+      "correctOption": 2,
+      "explanation": "The assertion is true, but the reason is false; repolarization progresses slowly from epicardial to endocardial.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CELLULAR ELECTROPHYSIOLOGY (part 2) | NORMAL CARDIAC IMPULSE PROPAGATION"
+    },
+    {
+      "id": "h1-227-ar5",
+      "type": "assertion_reason",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "assertion": "Enhanced automaticity can result from abnormal spontaneous depolarization in the atria or ventricles.",
+      "reason": "Automaticity refers to spontaneous depolarizations occurring during phase 4 of the action potential.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the mechanism behind enhanced automaticity.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-ar6",
+      "type": "assertion_reason",
+      "subtopic": "MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY",
+      "assertion": "The rate of phase 4 depolarization is unaffected by autonomic input.",
+      "reason": "Autonomic input regulates the automaticity rate in nodal tissues through parasympathetic and sympathetic pathways.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because autonomic input does affect the rate of phase 4 depolarization.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · MECHANISMS OF CARDIAC ARRHYTHMIAS | ENHANCED AUTOMATICITY"
+    },
+    {
+      "id": "h1-227-ar7",
+      "type": "assertion_reason",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "assertion": "Ischemia can contribute to arrhythmogenesis.",
+      "reason": "Ischemia creates regions of heterogeneous fibrosis, which provide the anatomic substrate for sustaining reentrant arrhythmias.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-ar8",
+      "type": "assertion_reason",
+      "subtopic": "AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY",
+      "assertion": "QT prolongation is solely due to delayed inactivation of Na channels.",
+      "reason": "The closing or inactivation of potassium channels that should hyperpolarize cells can also be delayed, contributing to QT prolongation.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because QT prolongation can result from both delayed closure of potassium channels and impaired Na channel function.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · AFTERDEPOLARIZATIONS AND TRIGGERED ARRHYTHMIAS | REENTRY"
+    },
+    {
+      "id": "h1-227-ar9",
+      "type": "assertion_reason",
+      "subtopic": "UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS",
+      "assertion": "For enhanced automaticity-based arrhythmia, medications that target phase 4 depolarization are used.",
+      "reason": "These medications include Ca channel blockers and beta-adrenergic blockers.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · UNDERPINNINGS OF THE TREATMENT OF ARRHYTHMIAS"
+    },
+    {
+      "id": "h1-227-ar10",
+      "type": "assertion_reason",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "assertion": "The presence of underlying structural abnormality of the ventricular myocardium favors more malignant arrhythmias.",
+      "reason": "It increases the risk of lethal ventricular arrhythmias and potential inability to hemodynamically tolerate any particular arrhythmia.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why structural abnormalities favor more malignant arrhythmias.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-ar11",
+      "type": "assertion_reason",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 1)",
+      "assertion": "A careful history of circumstances during a syncopal episode is unhelpful in formulating a differential diagnosis.",
+      "reason": "The presence of underlying structural abnormality increases the risk of lethal ventricular arrhythmias.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because a detailed history can be very helpful, while the reason is true but unrelated to the assertion.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 1)"
+    },
+    {
+      "id": "h1-227-ar12",
+      "type": "assertion_reason",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "assertion": "Cardiac computed tomography can evaluate left atrial anatomy.",
+      "reason": "It provides broad diagnostic utility, including evaluation for anatomic evidence of coronary artery disease and congenital anomalies.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-ar13",
+      "type": "assertion_reason",
+      "subtopic": "EVALUATION AND DIAGNOSIS (part 2)",
+      "assertion": "Invasive electrophysiologic testing is always successful in eliciting arrhythmias.",
+      "reason": "It involves catheter-based recordings and provocative maneuvers to elicit clinical arrhythmias.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because EP study may fail to elicit certain arrhythmia mechanisms.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · EVALUATION AND DIAGNOSIS (part 2)"
+    },
+    {
+      "id": "h1-227-ar14",
+      "type": "assertion_reason",
+      "subtopic": "CATHETER ABLATION",
+      "assertion": "Radiofrequency (RF) energy is the most common and mainstay energy source for catheter ablation.",
+      "reason": "For over 35 years, RF delivery via catheters has been iteratively optimized to become the primary energy source used in these procedures.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, with the reason correctly explaining why RF energy is the mainstay for catheter ablation.",
+      "reference": "Principles of Clinical Cardiac Electrophysiology · CATHETER ABLATION"
+    }
+  ]
+}

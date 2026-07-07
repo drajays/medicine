@@ -1,0 +1,994 @@
+{
+  "id": "h1-224",
+  "volume": 1,
+  "chapterNo": "247",
+  "title": "Electrocardiography",
+  "section": "Diagnosis of Cardiovascular Disorders",
+  "authors": "Ary L. Goldberger",
+  "sourceFile": "noupload/harrison/Harrison1_studypacks/224_Electrocardiography/h22-224_electrocardiography.json",
+  "items": [
+    {
+      "id": "h1-224-n1",
+      "type": "note",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "title": "Understanding ECG Vector Representation in Cardiac Depolarization",
+      "content": "The electrocardiogram (ECG) captures the electrical activity of cardiac depolarization and repolarization, which can be represented as vectors due to their direction and magnitude. This vector representation is crucial for interpreting the ECG's graphical output.",
+      "keyPoints": [
+        "Depolarization initiates cardiac contraction.",
+        "The ECG records depolarization (stimulation) and repolarization (recovery).",
+        "Vectors represent the direction and magnitude of electrical wavefronts."
+      ],
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-n2",
+      "type": "note",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "title": "Role of Cardiac Pacemaker Cells in ECG Generation",
+      "content": "The normal heartbeat is initiated by the sinoatrial (SA) node, which has spontaneous automaticity. This pacemaking activity generates electrical impulses that spread through the heart's conduction system, leading to atrial and ventricular depolarization captured on an ECG.",
+      "keyPoints": [
+        "SA node initiates normal heartbeat with spontaneous automaticity.",
+        "Depolarization wave spreads from SA node through atria and AV junction.",
+        "ECG captures this electrical activity as it travels through the heart."
+      ],
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-n3",
+      "type": "note",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "title": "Understanding QRS Complex Duration Changes",
+      "content": "The duration of the QRS complex is influenced by factors that affect phase 0 of the ventricular action potential. Impairment in Na⁺ influx, such as from hyperkalemia or drugs like flecainide, increases QRS duration.",
+      "keyPoints": [
+        "QRS complex represents ventricular depolarization.",
+        "Phase 0 corresponds to the onset of QRS.",
+        "Factors impairing Na⁺ influx (e.g., hyperkalemia, flecainide) increase QRS duration."
+      ],
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-n4",
+      "type": "note",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "title": "QT Interval and Its Rate Correction",
+      "content": "The QT interval reflects both ventricular depolarization and repolarization. It varies inversely with heart rate, necessitating correction for accurate assessment. The Framingham formula is a reliable method for calculating the corrected QT interval.",
+      "keyPoints": [
+        "QT interval includes depolarization and repolarization times.",
+        "Corrected QT (QTc) accounts for heart rate variability.",
+        "Framingham formula: $ QT_c = QT + 0.154 (1000 - RR) $",
+        "Upper normal limits: 460 ms in women, 450 ms in men."
+      ],
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-n5",
+      "type": "note",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "title": "ECG Recording and Interpretation Basics",
+      "content": "The ECG is recorded on graph paper with specific time and voltage calibrations. Understanding these measurements is crucial for interpreting intervals like PR, QRS, and QT/QTc.",
+      "keyPoints": [
+        "ECG graph paper: 1 mm = 40 ms at 25 mm/s speed.",
+        "Amplitude: 1 mV = 10 mm with standard calibration.",
+        "Major ECG intervals: RR, PR (120–200 ms), QRS (<110 ms), QT/QTc.",
+        "Heart rate calculation: 300/large time units or 1500/small segments."
+      ],
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-n6",
+      "type": "note",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "title": "Understanding the Normal P Wave Orientation",
+      "content": "The normal atrial depolarization vector is oriented downward and toward the subject's left, resulting in a positive deflection in lead II and a negative one in aVR. This orientation reflects the spread of depolarization from the sinus node through both atria.",
+      "keyPoints": [
+        "Normal P wave is positive in lead II and negative in aVR due to the vector orientation.",
+        "Ectopic pacemakers can produce retrograde P waves, which are negative in II and positive in aVR.",
+        "Lead V1 may show a biphasic P wave with a small (<1 mm^2) negative component for left atrial depolarization."
+      ],
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-n7",
+      "type": "note",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "title": "QRS Complex Biphasic Nature in Right and Left Precordial Leads",
+      "content": "The biphasic nature of the QRS complex is due to sequential depolarization phases: first, the interventricular septum (vector 1), followed by simultaneous right and left ventricle depolarization (vector 2). This results in distinct deflections across different precordial leads.",
+      "keyPoints": [
+        "Lead V1 records a small positive deflection (septal r wave) followed by a larger negative deflection (S wave).",
+        "Lead V6 shows a small negative deflection (septal q wave) followed by a tall positive deflection (R wave).",
+        "Transition zone where R and S waves are of equal amplitude is usually at lead V3 or V4."
+      ],
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-n8",
+      "type": "note",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "title": "Interpreting the Normal QRS Axis Range and Deviations",
+      "content": "The normal QRS axis ranges from -30° to +100°. Deviations beyond these values indicate potential underlying cardiac conditions, with left axis deviation (<-30°) often associated with left ventricular hypertrophy or blockages, and right axis deviation (>+90°) linked to right ventricular overload or other anatomical variations.",
+      "keyPoints": [
+        "Normal QRS axis ranges from -30° to +100°.",
+        "Left axis deviation (<-30°) can indicate left ventricular hypertrophy or anterior fascicular block.",
+        "Right axis deviation (>+90° to +100°) may be normal in children but also suggests right ventricular overload or dextrocardia."
+      ],
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-n9",
+      "type": "note",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "title": "Understanding T-Wave Vector Concordance and Abnormal U Waves",
+      "content": "The normal orientation of the mean T-wave vector is concordant with the QRS vector, indicating repolarization proceeds from epicardium to endocardium. An abnormal increase in U-wave amplitude can signal hypokalemia or drug effects, while prominent U waves may indicate susceptibility to torsades de pointes.",
+      "keyPoints": [
+        "Normal T-wave vector concordance with QRS vector within 45 degrees",
+        "Abnormal U wave amplitude >1 mm indicates potential issues like hypokalemia or drug effects",
+        "Prominent U waves can be a marker for increased risk of torsades de pointes"
+      ],
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-n10",
+      "type": "note",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "title": "Identifying Patterns of Atrial and Ventricular Overload on ECG",
+      "content": "Right atrial overload increases P-wave amplitude (≥2.5 mm), while left atrial overload produces a biphasic P wave in V1 with specific characteristics. Right ventricular hypertrophy due to pressure load shows distinct patterns, including tall R waves in V1 and possible right axis deviation.",
+      "keyPoints": [
+        "Right atrial overload: P-wave amplitude ≥2.5 mm",
+        "Left atrial overload: Biphasic P wave in V1 with broad negative component or notched P wave (≥120 ms) in limb leads",
+        "Right ventricular hypertrophy from pressure load: Tall R wave in V1, right axis deviation, ST depression and T-wave inversion in precordial leads"
+      ],
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-n11",
+      "type": "note",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "title": "ECG Criteria for Left Ventricular Hypertrophy (LVH) and Its Implications",
+      "content": "Left ventricular hypertrophy is identified by specific voltage criteria, such as SV1 + RV5 or RV6 >35 mm. LVH may lead to repolarization abnormalities and increased risk of cardiovascular morbidity and mortality, though ECG has limited diagnostic utility for enlargement.",
+      "keyPoints": [
+        "Voltage criteria for LVH: SV1 + RV5 or RV6 >35 mm",
+        "Repolarization abnormalities in LVH include ST depression with T-wave inversions",
+        "ECG evidence of LVH is a marker of increased cardiovascular risk, but has limited diagnostic utility"
+      ],
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-n12",
+      "type": "note",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "title": "QRS Duration Criteria for Bundle Branch Blocks",
+      "content": "Bundle branch blocks are characterized by specific QRS duration criteria. Complete bundle branch block results in a QRS interval of ≥120 ms, while incomplete blocks have a QRS interval between 110 and 120 ms.",
+      "keyPoints": [
+        "Complete bundle branch block: QRS ≥120 ms",
+        "Incomplete bundle branch block: QRS between 110-120 ms"
+      ],
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-n13",
+      "type": "note",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "title": "Clinical Significance of Left Bundle Branch Block (LBBB)",
+      "content": "Left bundle branch block is often a marker for underlying conditions with increased cardiovascular risk, such as coronary heart disease, hypertensive heart disease, aortic valve disease, and cardiomyopathy.",
+      "keyPoints": [
+        "LBBB indicates high-risk cardiovascular conditions",
+        "Associated conditions: coronary heart disease, hypertensive heart disease, aortic valve disease, cardiomyopathy"
+      ],
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-n14",
+      "type": "note",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "title": "QRS-T Wave Discordance in Bundle Branch Blocks",
+      "content": "In bundle branch blocks, the T wave is typically opposite in polarity to the last deflection of the QRS complex. This discordance results from altered repolarization sequences due to changes in depolarization.",
+      "keyPoints": [
+        "T wave polarity opposite to QRS last deflection",
+        "Caused by altered repolarization sequence"
+      ],
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-n15",
+      "type": "note",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "title": "ST-Segment Elevation and Its Clinical Implications",
+      "content": "Acute transmural ischemia typically results in ST-segment elevation due to a voltage gradient between normal and ischemic myocardial zones. This is crucial for identifying candidates for emergency reperfusion therapy, which is effective primarily in cases of ST-segment elevation myocardial infarction (STEMI).",
+      "keyPoints": [
+        "ST elevations indicate acute transmural ischemia.",
+        "Profound ST elevation or depression across multiple leads suggests severe ischemia.",
+        "Emergency reperfusion therapy is most beneficial for STEMI, not non-ST-segment elevation myocardial infarction (NSTEMI).",
+        "ST elevations in leads V1-V6 and I/aVL suggest anterior wall ischemia; in II, III, aVF indicate inferior wall involvement."
+      ],
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-n16",
+      "type": "note",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "title": "Diagnosing Acute Myocardial Infarction via ECG Changes",
+      "content": "ECG changes such as ST-segment elevation, T-wave inversions, and Q waves are key in diagnosing acute myocardial infarction. These changes help differentiate between transmural and subendocardial infarctions, guiding treatment decisions.",
+      "keyPoints": [
+        "ST elevations followed by T-wave inversions and Q waves indicate evolving infarction.",
+        "Transient ST-segment elevation without Q waves may occur in reversible ischemia like Prinzmetal's angina.",
+        "Deep T-wave inversions with cardiac enzyme elevations suggest severe left anterior descending artery obstruction.",
+        "Q waves are not exclusive to transmural infarctions; subendocardial infarcts can also present with Q waves."
+      ],
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-n17",
+      "type": "note",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "title": "Long-term ECG Changes Post-Infarction",
+      "content": "Post-infarction, ECG changes such as persistent ST-segment elevations or Q waves can indicate underlying wall motion disorders. These findings are important for assessing the severity and prognosis of myocardial infarction.",
+      "keyPoints": [
+        "Persistent ST-segment elevation post-Q-wave infarct often correlates with severe wall motion disorder.",
+        "Complete ECG normalization after a Q-wave infarct is uncommon but possible, especially in smaller infarcts.",
+        "Loss of depolarization forces from posterior or lateral infarction may increase R-wave amplitude without diagnostic Q waves."
+      ],
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-n18",
+      "type": "note",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "title": "Recognizing Limitations of ECG in Diagnosing Ischemia",
+      "content": "The ECG is limited in sensitivity and specificity for diagnosing acute and chronic ischemic heart disease. A normal ECG does not exclude ischemia or infarction, especially during an acute event. Clinicians should be cautious when interpreting ST-segment elevations, T-wave inversions, tall positive T waves, or Q waves as they can be caused by non-ischemic conditions.",
+      "keyPoints": [
+        "A single normal ECG does not exclude ischemia or infarction.",
+        "Normal ECG throughout an acute infarct is uncommon.",
+        "ST-segment elevations and tall positive T waves may occur in left bundle branch block, left ventricular hypertrophy, pericarditis, myocarditis (including COVID-19), and normal variants.",
+        "Tall T waves can be caused by hyperkalemia or cerebrovascular injury, not just ischemia.",
+        "Q waves may result from non-coronary causes like ventricular hypertrophy or cardiomyopathies."
+      ],
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-n19",
+      "type": "note",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "title": "Avoiding Overdiagnosis of Ischemia Based on ECG Changes",
+      "content": "Clinicians must be cautious not to overdiagnose ischemia or infarction based solely on ECG changes. ST-segment elevations, T-wave inversions, and Q waves can mimic ischemic patterns but may also arise from non-ischemic conditions such as left bundle branch block, ventricular hypertrophy, pericarditis, myocarditis, and normal variants.",
+      "keyPoints": [
+        "ST-segment elevations may simulate ischemia in conditions like acute pericarditis or myocarditis.",
+        "T-wave inversions can occur with ventricular hypertrophy, cardiomyopathies, and takotsubo syndrome.",
+        "Q waves are not specific to ischemic heart disease and can be seen in physiological variants or non-coronary myocardial injury."
+      ],
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-n20",
+      "type": "note",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "title": "Recognizing Hyperkalemia and Hypokalemia on ECG",
+      "content": "Hyperkalemia and hypokalemia cause distinct changes in the ECG that can be used for diagnosis and monitoring. Hyperkalemia starts with T-wave tenting, progresses to AV conduction disturbances, diminished P-wave amplitude, widened QRS interval, and may lead to a sine-wave pattern and asystole. Hypokalemia is characterized by prolonged ventricular repolarization and prominent U waves.",
+      "keyPoints": [
+        "Hyperkalemia: T-wave tenting, AV block, reduced P-wave amplitude, widened QRS, sine-wave pattern, asystole",
+        "Hypokalemia: Prolonged ventricular repolarization, prominent U waves"
+      ],
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    },
+    {
+      "id": "h1-224-n21",
+      "type": "note",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "title": "Identifying Low QRS Voltage and Its Causes",
+      "content": "Low QRS voltage on an ECG is defined as peak-to-trough amplitudes of ≤5 mm in limb leads or ≤10 mm in chest leads. It can be caused by pericardial or pleural effusions, chronic obstructive pulmonary disease, cardiac amyloidosis, and anasarca.",
+      "keyPoints": [
+        "Low QRS voltage: ≤5 mm in limb leads, ≤10 mm in chest leads",
+        "Causes: Pericardial/pleural effusion, COPD, cardiac amyloid, anasarca"
+      ],
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    },
+    {
+      "id": "h1-224-mcq1",
+      "type": "mcq",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "question": "Which component of the heart is responsible for initiating the normal heartbeat?",
+      "options": [
+        "Atrioventricular (AV) node",
+        "Purkinje fibers",
+        "Sinoatrial (SA) node",
+        "Bundle of His"
+      ],
+      "correctOption": 2,
+      "explanation": "The sinoatrial (SA) node possesses spontaneous automaticity and initiates the normal heartbeat.",
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-mcq2",
+      "type": "mcq",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "question": "What does an electrocardiogram (ECG) record?",
+      "options": [
+        "Only the depolarization of cardiac pacemaker cells",
+        "The electrical activity generated by specialized conduction tissue only",
+        "Depolarization and repolarization of atrial and ventricular myocardium",
+        "Repolarization of the heart muscle itself"
+      ],
+      "correctOption": 2,
+      "explanation": "An ECG records the depolarization (stimulation) and repolarization (recovery) electrical activity generated by the working atrial and ventricular myocardium.",
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-mcq3",
+      "type": "mcq",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "question": "How do depolarization wavefronts spread through the ventricles?",
+      "options": [
+        "From epicardium to endocardium",
+        "Randomly throughout the myocardium",
+        "Simultaneously across all cardiac tissues",
+        "From endocardium to epicardium"
+      ],
+      "correctOption": 3,
+      "explanation": "Depolarization wavefronts spread through the ventricular wall from endocardium to epicardium, triggering coordinated ventricular contraction.",
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-mcq4",
+      "type": "mcq",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "question": "Which phase of the ventricular action potential corresponds to the onset of the QRS complex?",
+      "options": [
+        "Phase 0",
+        "Phase 1",
+        "Phase 2",
+        "Phase 3"
+      ],
+      "correctOption": 0,
+      "explanation": "The rapid upstroke (phase 0) of the action potential corresponds to the onset of QRS.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-mcq5",
+      "type": "mcq",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "question": "What interval measures the time between atrial and ventricular depolarization?",
+      "options": [
+        "RR interval",
+        "PR interval",
+        "QRS interval",
+        "QT interval"
+      ],
+      "correctOption": 1,
+      "explanation": "The PR interval measures the time (normally 120–200 ms) between atrial and ventricular depolarization.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-mcq6",
+      "type": "mcq",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "question": "Which factor is associated with shortening of the QT interval?",
+      "options": [
+        "Hyperkalemia",
+        "Hypocalcemia",
+        "Amiodarone",
+        "Hypercalcemia"
+      ],
+      "correctOption": 3,
+      "explanation": "Factors such as hypercalcemia are associated with shortening of ventricular repolarization duration, abbreviating the QT interval.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-mcq7",
+      "type": "mcq",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "question": "Which formula is an alternative to the classic 'square root' formula for computing a rate-corrected QT interval?",
+      "options": [
+        "$QT_c = QT/\text{RR}$",
+        "$QT_c = QT + 0.154 (1000 - RR)$",
+        "$QT_c = QT \times \text{RR}^{1/2}$",
+        "$QT_c = QT / (1000 - RR)$"
+      ],
+      "correctOption": 1,
+      "explanation": "The Framingham formula is an alternative for computing a rate-corrected QT interval: $QT_c = QT + 0.154 (1000 - RR)$.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-mcq8",
+      "type": "mcq",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "question": "Which lead typically records the transition zone of the QRS complex in a normal ECG?",
+      "options": [
+        "V1",
+        "V3 or V4",
+        "V5",
+        "V6"
+      ],
+      "correctOption": 1,
+      "explanation": "The transition zone, where R and S waves are about equal, is usually at lead V3 or V4.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-mcq9",
+      "type": "mcq",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "question": "What does a negative deflection in lead II indicate during atrial depolarization?",
+      "options": [
+        "Sinus node activation",
+        "Ectopic pacemaker in the lower part of either atrium or AV junction",
+        "Normal P wave orientation",
+        "Right ventricular depolarization"
+      ],
+      "correctOption": 1,
+      "explanation": "A negative deflection in lead II during atrial depolarization indicates retrograde P waves from an ectopic pacemaker.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-mcq10",
+      "type": "mcq",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "question": "In a normal ECG, what is the typical orientation of vector 2 during ventricular depolarization?",
+      "options": [
+        "Rightward and anteriorly",
+        "Leftward and posteriorly",
+        "Downward and toward the subject's left",
+        "Upward and toward the subject's right"
+      ],
+      "correctOption": 1,
+      "explanation": "Vector 2, representing simultaneous depolarization of both ventricles, points leftward and posteriorly.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-mcq11",
+      "type": "mcq",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "question": "What does right axis deviation in the QRS complex typically indicate?",
+      "options": [
+        "Left ventricular hypertrophy",
+        "Normal variant, especially in children and young adults",
+        "Inferior myocardial infarction",
+        "Left anterior fascicular block"
+      ],
+      "correctOption": 1,
+      "explanation": "Right axis deviation can be a normal variant, particularly in children and young adults.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-mcq12",
+      "type": "mcq",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "question": "Which condition is most commonly associated with an abnormal increase in U-wave amplitude?",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Bradycardia",
+        "Atrial fibrillation"
+      ],
+      "correctOption": 1,
+      "explanation": "An abnormal increase in U-wave amplitude is most commonly due to hypokalemia.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-mcq13",
+      "type": "mcq",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "question": "What does the normal QRS–T-wave vector concordance indicate about repolarization?",
+      "options": [
+        "Repolarization proceeds in the same direction as depolarization.",
+        "Repolarization is independent of depolarization.",
+        "Repolarization proceeds in the reverse direction from depolarization.",
+        "There is no relationship between QRS and T-wave vectors."
+      ],
+      "correctOption": 2,
+      "explanation": "Normal QRS–T-wave vector concordance indicates that repolarization normally must proceed in the reverse direction from depolarization.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-mcq14",
+      "type": "mcq",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "question": "Which pattern is historically referred to as 'P-mitrale'?",
+      "options": [
+        "A biphasic P wave in V1 with a broad negative component.",
+        "An increase in P-wave amplitude ≥2.5 mm.",
+        "A qR pattern in V3R.",
+        "ST depression and T-wave inversion in right to mid-precordial leads."
+      ],
+      "correctOption": 0,
+      "explanation": "'P-mitrale' refers to a biphasic P wave in V1 with a broad negative component, often due to left atrial overload.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-mcq15",
+      "type": "mcq",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "question": "What ECG pattern may be associated with acute cor pulmonale?",
+      "options": [
+        "$ S_1Q_3T_3 $ pattern.",
+        "Left bundle branch block.",
+        "Inverted T waves in leads V5 and V6.",
+        "Complete right bundle branch block."
+      ],
+      "correctOption": 0,
+      "explanation": "Acute cor pulmonale may be associated with the $ S_1Q_3T_3 $ pattern, characterized by prominence of the S wave in lead I and the Q wave in lead III, with T-wave inversion in lead III.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-mcq16",
+      "type": "mcq",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "question": "Which of the following QRS interval durations is characteristic of a complete bundle branch block?",
+      "options": [
+        "≤ 100 ms",
+        "101-110 ms",
+        "111-119 ms",
+        "≥ 120 ms"
+      ],
+      "correctOption": 3,
+      "explanation": "Complete bundle branch blocks are characterized by a QRS interval duration of ≥ 120 ms.",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-mcq17",
+      "type": "mcq",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "question": "In right bundle branch block, how is the terminal QRS vector typically oriented in lead V1?",
+      "options": [
+        "Left and posteriorly",
+        "Right and anteriorly",
+        "Downward",
+        "Upward"
+      ],
+      "correctOption": 1,
+      "explanation": "With right bundle branch block, the terminal QRS vector is oriented to the right and anteriorly (rSR' in V1).",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-mcq18",
+      "type": "mcq",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "question": "Which underlying condition is NOT commonly associated with left bundle branch block?",
+      "options": [
+        "Coronary heart disease",
+        "Hypertensive heart disease",
+        "Atrial septal defect",
+        "Cardiomyopathy"
+      ],
+      "correctOption": 2,
+      "explanation": "Left bundle branch block is often a marker of conditions like coronary heart disease, hypertensive heart disease, aortic valve disease, and cardiomyopathy, not atrial septal defect.",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-mcq19",
+      "type": "mcq",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "question": "What type of repolarization abnormality is typically associated with bundle branch blocks?",
+      "options": [
+        "ST-segment elevation",
+        "T-wave inversion",
+        "Opposite polarity to QRS last deflection",
+        "No ST-T changes"
+      ],
+      "correctOption": 2,
+      "explanation": "With bundle branch blocks, the T wave is typically opposite in polarity to the last deflection of the QRS.",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-mcq20",
+      "type": "mcq",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "question": "Which ECG changes are typically seen in acute transmural anterior wall ischemia?",
+      "options": [
+        "ST elevations or increased T-wave positivity in leads V1-V6, I, and aVL",
+        "ST-segment depression in leads II, III, and aVF",
+        "Reciprocal ST depressions in leads V1 to V3",
+        "ST elevations in right-sided chest leads"
+      ],
+      "correctOption": 0,
+      "explanation": "Acute transmural anterior wall ischemia is reflected by ST elevations or increased T-wave positivity in precordial leads (V1-V6) and leads I and aVL.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-mcq21",
+      "type": "mcq",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "question": "What does the presence of deep T-wave inversions in multiple precordial leads typically indicate?",
+      "options": [
+        "Severe obstruction in the left anterior descending coronary artery",
+        "Ischemia confined primarily to the subendocardium",
+        "Posterior wall ischemia",
+        "Right ventricular ischemia"
+      ],
+      "correctOption": 0,
+      "explanation": "Deep T-wave inversions in multiple precordial leads often indicate severe obstruction in the left anterior descending coronary artery.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-mcq22",
+      "type": "mcq",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "question": "Which type of myocardial infarction is most likely to benefit from emergency reperfusion therapy?",
+      "options": [
+        "Non-ST elevation myocardial infarction",
+        "ST-segment elevation myocardial infarction",
+        "Subendocardial infarction without Q waves",
+        "Takotsubo syndrome"
+      ],
+      "correctOption": 1,
+      "explanation": "Emergency reperfusion therapy is most consistently effective in ST-segment elevation myocardial infarction.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-mcq23",
+      "type": "mcq",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "question": "What does the presence of Q waves on an ECG indicate?",
+      "options": [
+        "They are always markers of transmural myocardial infarction",
+        "Subendocardial infarcts do not produce Q waves",
+        "Transmural infarcts may occur without Q waves, and subendocardial infarcts can be associated with Q waves",
+        "Q waves only appear after complete normalization of the ECG"
+      ],
+      "correctOption": 2,
+      "explanation": "Q waves are not exclusive to transmural infarctions; they may also occur in subendocardial infarcts.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-mcq24",
+      "type": "mcq",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "question": "Which condition can cause ST-segment elevations that may simulate acute ischemia or infarction?",
+      "options": [
+        "Acute pericarditis",
+        "Left bundle branch block",
+        "Hypokalemia",
+        "Ventricular hypertrophy"
+      ],
+      "correctOption": 0,
+      "explanation": "ST-segment elevations can occur with acute pericarditis, mimicking ischemia or infarction.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-mcq25",
+      "type": "mcq",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "question": "What is a common cause of tall, positive T waves in leads V1 and V2 without ischemia?",
+      "options": [
+        "Hyperkalemia",
+        "Acute myocardial infarction",
+        "Left bundle branch block",
+        "Hypokalemia"
+      ],
+      "correctOption": 2,
+      "explanation": "Tall, positive T waves in leads V1 and V2 can be common in left bundle branch block without ischemia.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-mcq26",
+      "type": "mcq",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "question": "Which of the following is NOT a cause of ST-segment depression mimicking subendocardial ischemia?",
+      "options": [
+        "Ventricular hypertrophy",
+        "Hypokalemia",
+        "Digoxin use",
+        "Acute pericarditis"
+      ],
+      "correctOption": 3,
+      "explanation": "Acute pericarditis is not typically associated with ST-segment depression mimicking subendocardial ischemia.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-mcq27",
+      "type": "mcq",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "question": "Which electrolyte abnormality is associated with a sine-wave pattern on the ECG, potentially leading to cardiac arrest?",
+      "options": [
+        "Hyperkalemia",
+        "Hypokalemia",
+        "Hypocalcemia",
+        "Hypercalcemia"
+      ],
+      "correctOption": 0,
+      "explanation": "Severe hyperkalemia can lead to a sine-wave pattern on the ECG, which may result in cardiac arrest.",
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    },
+    {
+      "id": "h1-224-mcq28",
+      "type": "mcq",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "question": "Which class of antiarrhythmic agents is known to prolong the QT interval by increasing the duration of the ventricular action potential?",
+      "options": [
+        "Class 1A antiarrhythmics",
+        "Class II antiarrhythmics",
+        "Class IV antiarrhythmics",
+        "Class V antiarrhythmics"
+      ],
+      "correctOption": 0,
+      "explanation": "Class 1A antiarrhythmic agents, such as quinidine and procainamide, prolong the QT interval by increasing the duration of the ventricular action potential.",
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    },
+    {
+      "id": "h1-224-mcq29",
+      "type": "mcq",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "question": "What ECG change is typically associated with systemic hypothermia?",
+      "options": [
+        "Osborn wave and bradycardia",
+        "Peaked T waves and sinus tachycardia",
+        "Deep, wide T-wave inversions",
+        "Shortened QT interval"
+      ],
+      "correctOption": 0,
+      "explanation": "Systemic hypothermia is associated with a distinctive convex elevation of the J point (Osborn wave) and bradycardia.",
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    },
+    {
+      "id": "h1-224-tf1",
+      "type": "true_false",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "statement": "The ECG records electrical activity generated by cardiac pacemaker cells.",
+      "correctAnswer": false,
+      "explanation": "An ECG records only the depolarization and repolarization of atrial and ventricular myocardium, not specifically the pacemaker cells.",
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-tf2",
+      "type": "true_false",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "statement": "The impulse from the SA node travels through the AV junction before reaching the ventricles.",
+      "correctAnswer": true,
+      "explanation": "After originating in the SA node, the impulse stimulates specialized conduction tissues in the atrioventricular (AV) nodal and His-bundle areas, constituting the AV junction.",
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-tf3",
+      "type": "true_false",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "statement": "Atrial repolarization waveforms are usually detectable on a standard ECG.",
+      "correctAnswer": false,
+      "explanation": "Atrial repolarization waveforms (ST-T_{a}) are usually too low in amplitude to be detected.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-tf4",
+      "type": "true_false",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "statement": "The PR interval includes the physiologic delay imposed by stimulation of cells in the AV junction area.",
+      "correctAnswer": true,
+      "explanation": "The PR interval measures the time between atrial and ventricular depolarization, including the delay at the AV junction.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-tf5",
+      "type": "true_false",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "statement": "The mean orientation of the depolarization vector at right angles to a lead axis results in a biphasic deflection.",
+      "correctAnswer": true,
+      "explanation": "A biphasic deflection occurs when the depolarization vector is perpendicular to the lead axis.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-tf6",
+      "type": "true_false",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "statement": "The normal P wave in lead V1 is typically tall and positive.",
+      "correctAnswer": false,
+      "explanation": "The normal P wave in lead V1 may be biphasic, with a small positive component followed by a negative one.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-tf7",
+      "type": "true_false",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "statement": "Right ventricular hypertrophy due to pulmonic valve stenosis is characterized by a qR pattern in V1 or V3R.",
+      "correctAnswer": true,
+      "explanation": "Right ventricular hypertrophy from sustained pressure load, like pulmonic valve stenosis, can show a qR pattern in V1 or V3R.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-tf8",
+      "type": "true_false",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "statement": "Left ventricular hypertrophy is always associated with increased precordial voltage.",
+      "correctAnswer": false,
+      "explanation": "Left ventricular hypertrophy may increase limb lead voltage without necessarily increasing precordial voltage.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-tf9",
+      "type": "true_false",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "statement": "Left anterior fascicular block is a common cause of marked left axis deviation in adults.",
+      "correctAnswer": true,
+      "explanation": "Left anterior fascicular block (QRS axis more negative than -45°) is the most common cause of marked left axis deviation in adults.",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-tf10",
+      "type": "true_false",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "statement": "Prolongation of QRS duration always indicates a conduction delay.",
+      "correctAnswer": false,
+      "explanation": "Prolongation of QRS duration may be due to preexcitation via a bypass tract, not just conduction delays.",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-tf11",
+      "type": "true_false",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "statement": "ST-segment elevations that persist for several weeks after a Q-wave infarct usually correlate with a severe underlying wall motion disorder.",
+      "correctAnswer": true,
+      "explanation": "Persistent ST-segment elevations post-Q-wave infarction often indicate a significant wall motion issue.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-tf12",
+      "type": "true_false",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "statement": "Complete normalization of the ECG after Q-wave infarction is common.",
+      "correctAnswer": false,
+      "explanation": "Complete normalization of the ECG post-Q-wave infarction is uncommon, especially with larger infarcts.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-tf13",
+      "type": "true_false",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "statement": "A single normal ECG can exclude the diagnosis of acute myocardial infarction.",
+      "correctAnswer": false,
+      "explanation": "A single normal ECG does not exclude ischemia or even acute infarction.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-tf14",
+      "type": "true_false",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "statement": "ST-segment elevations can be caused by conditions other than myocardial ischemia.",
+      "correctAnswer": true,
+      "explanation": "ST-segment elevations may occur with acute pericarditis, myocarditis, or as a normal variant.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-tf15",
+      "type": "true_false",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "statement": "Hypocalcemia typically shortens the QT interval.",
+      "correctAnswer": false,
+      "explanation": "Hypocalcemia typically prolongs the QT interval, not shortens it.",
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    },
+    {
+      "id": "h1-224-tf16",
+      "type": "true_false",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "statement": "Total electrical alternans with sinus tachycardia is a specific sign of pericardial effusion.",
+      "correctAnswer": true,
+      "explanation": "Total electrical alternans (P-QRS-T) with sinus tachycardia is indeed a relatively specific sign of pericardial effusion.",
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    },
+    {
+      "id": "h1-224-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND",
+      "assertion": "The ECG is a noninvasive test.",
+      "reason": "It involves attaching metallic electrodes to the extremities and chest wall.",
+      "correctOption": 0,
+      "explanation": "Both the assertion that the ECG is noninvasive and the reason involving electrode attachment are true, with the latter correctly explaining why.",
+      "reference": "Electrocardiography · Electrocardiography | ELECTROPHYSIOLOGIC BACKGROUND"
+    },
+    {
+      "id": "h1-224-ar2",
+      "type": "assertion_reason",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "assertion": "Factors that decrease the slope of phase 0 tend to increase QRS duration.",
+      "reason": "Decreased influx of Na⁺ impairs the rapid upstroke (phase 0) of the action potential, leading to a prolonged QRS complex.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-ar3",
+      "type": "assertion_reason",
+      "subtopic": "BASIC ECG WAVEFORMS AND INTERVALS",
+      "assertion": "The QT interval varies directly with heart rate.",
+      "reason": "The QT interval subtends both ventricular depolarization and repolarization times, which are influenced by the heart rate.",
+      "correctOption": 2,
+      "explanation": "The assertion is false; the QT interval varies inversely with the heart rate.",
+      "reference": "Electrocardiography · BASIC ECG WAVEFORMS AND INTERVALS"
+    },
+    {
+      "id": "h1-224-ar4",
+      "type": "assertion_reason",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "assertion": "The normal P wave in lead II is positive.",
+      "reason": "The sinus-generated depolarization vector points toward the positive pole of lead II.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-ar5",
+      "type": "assertion_reason",
+      "subtopic": "ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX",
+      "assertion": "Right axis deviation is always pathological.",
+      "reason": "It can occur as a normal variant in children and young adults.",
+      "correctOption": 3,
+      "explanation": "The assertion is false because right axis deviation can be a normal variant; the reason is true.",
+      "reference": "Electrocardiography · ECG LEADS | GENESIS OF THE NORMAL ECG | QRS COMPLEX"
+    },
+    {
+      "id": "h1-224-ar6",
+      "type": "assertion_reason",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "assertion": "The presence of left atrial abnormality increases the likelihood of underlying left ventricular hypertrophy.",
+      "reason": "Left atrial abnormalities are often associated with conditions that also cause left ventricular hypertrophy.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the presence of left atrial abnormality does increase the likelihood of underlying left ventricular hypertrophy.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-ar7",
+      "type": "assertion_reason",
+      "subtopic": "T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY",
+      "assertion": "ECG evidence for left ventricular hypertrophy is definitive in diagnosing atrial or ventricular enlargement.",
+      "reason": "ECG provides limited utility due to false-positive and false-negative diagnoses.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because ECG has limited utility in definitively diagnosing atrial or ventricular enlargement, as stated in the reason.",
+      "reference": "Electrocardiography · T WAVE AND U WAVE | CARDIAC ENLARGEMENT AND HYPERTROPHY"
+    },
+    {
+      "id": "h1-224-ar8",
+      "type": "assertion_reason",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "assertion": "Bundle branch blocks are associated with secondary repolarization abnormalities.",
+      "reason": "The altered sequence of depolarization in bundle branch blocks causes discordance between QRS and T-wave vectors.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-ar9",
+      "type": "assertion_reason",
+      "subtopic": "BUNDLE BRANCH BLOCKS AND RELATED PATTERNS",
+      "assertion": "Primary repolarization abnormalities depend on changes in the sequence of depolarization.",
+      "reason": "Primary ST-T-wave changes are related to alterations in the electrical properties of myocardial fibers themselves.",
+      "correctOption": 3,
+      "explanation": "The assertion is false; primary repolarization abnormalities are independent of QRS changes and depend on actual alterations in myocardial fiber properties.",
+      "reference": "Electrocardiography · BUNDLE BRANCH BLOCKS AND RELATED PATTERNS"
+    },
+    {
+      "id": "h1-224-ar10",
+      "type": "assertion_reason",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "assertion": "ST-segment elevations are more helpful in localizing regions of ischemia than non-ST elevation changes.",
+      "reason": "ECG leads provide clearer localization for ST elevation compared to non-ST elevation ischemia.",
+      "correctOption": 0,
+      "explanation": "The statement and reason both hold true, with the reason correctly explaining why ST elevations are more helpful in localization.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-ar11",
+      "type": "assertion_reason",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)",
+      "assertion": "Reversible transmural ischemia due to coronary vasospasm may cause Q waves.",
+      "reason": "Transient ST-segment elevations without Q wave development are characteristic of reversible transmural ischemia.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because reversible transmural ischemia does not typically produce Q waves.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 1)"
+    },
+    {
+      "id": "h1-224-ar12",
+      "type": "assertion_reason",
+      "subtopic": "MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)",
+      "assertion": "Prolonged chest pain without diagnostic ECG changes should prompt a search for non-coronary causes.",
+      "reason": "A normal ECG throughout the course of an acute infarct is uncommon, indicating other potential causes.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why prolonged chest pain without ECG changes should prompt further investigation.",
+      "reference": "Electrocardiography · MYOCARDIAL ISCHEMIA AND INFARCTION (part 2)"
+    },
+    {
+      "id": "h1-224-ar13",
+      "type": "assertion_reason",
+      "subtopic": "METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES",
+      "assertion": "Hyperkalemia can lead to a sine-wave pattern on the ECG.",
+      "reason": "Severe hyperkalemia causes AV conduction disturbances and widening of the QRS interval, eventually leading to cardiac arrest with a sine-wave pattern.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Electrocardiography · METABOLIC FACTORS AND DRUG EFFECTS | NONSPECIFIC ST-T CHANGES AND LOW QRS VOLTAGE | ELECTRICAL ALTERNANS SYNDROMES"
+    }
+  ]
+}

@@ -1,0 +1,2987 @@
+{
+  "id": "h1-107",
+  "volume": 1,
+  "chapterNo": "126",
+  "title": "Microbial Genomics and Infectious Disease",
+  "section": "Basic Considerations in Infectious Diseases",
+  "authors": "Roby P. Bhattacharyya, Yonatan H. Grad, Deborah T. Hung",
+  "sourceFile": "noupload/harrison/Harrison1_studypacks/107_Microbial_Genomics_and_Infectious_Disease/h22-107_microbial_genomics_and_infectious_disease.json",
+  "items": [
+    {
+      "id": "h1-107-n1",
+      "type": "note",
+      "subtopic": "Microbial Genomics and Infectious Disease",
+      "title": "How Genomic Innovations Transform Clinical Practice",
+      "content": "Technological advances in microbial genomics provide tools to characterize the genetic map of microbes with unprecedented resolution. These innovations are reshaping clinical practice by offering new diagnostic methods, enhancing disease surveillance, and informing public health responses.",
+      "keyPoints": [
+        "Genomics allows for the characterization of entire genomes, not just single genes.",
+        "New diagnostics offer increased sensitivity, specificity, and speed.",
+        "Genomic tools aid in tracking infections and developing interventions.",
+        "Applications include insights into pathogen evolution and vaccine development."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · Microbial Genomics and Infectious Disease"
+    },
+    {
+      "id": "h1-107-n2",
+      "type": "note",
+      "subtopic": "Microbial Genomics and Infectious Disease",
+      "title": "Application of Genomics to Pathogen Surveillance and Control",
+      "content": "Genomic methods applied to microbial pathogens enhance our ability to develop diagnostics, discover new pathogens, and inform public health strategies. These innovations are crucial for controlling infectious diseases and responding effectively to outbreaks.",
+      "keyPoints": [
+        "Genomic approaches drive the development of novel diagnostic tools.",
+        "Discovery of new pathogens is facilitated by genomic research.",
+        "Infectious disease epidemiology benefits from pathogen genomics.",
+        "Examples include applications in SARS-CoV-2 and COVID-19 pandemic response."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · Microbial Genomics and Infectious Disease"
+    },
+    {
+      "id": "h1-107-n3",
+      "type": "note",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "title": "Limitations of Serologic Testing in Infectious Disease Diagnosis",
+      "content": "Serologic testing, which measures the host's immune response to pathogen exposure, has significant limitations. It is retrospective and requires both acute- and convalescent-phase serum samples, making it less useful for real-time patient management. Additionally, distinguishing active from latent infections or identifying repeat exposures can be challenging, especially in chronic infections.",
+      "keyPoints": [
+        "Serologic methods have suboptimal sensitivity and specificity.",
+        "Tuberculosis serology (e.g., PPD) is insensitive in active disease and may cross-react with vaccines or other mycobacteria.",
+        "Interferon-gamma release assays (IGRAs) for tuberculosis are limited in immunodeficient hosts and cannot distinguish latent from active infection.",
+        "Lyme disease serology shows 50% sensitivity and 80% specificity for IgM in early disease, leading to potential misdiagnosis.",
+        "Syphilis diagnosis requires multiple tests due to the complexity of serologic staging."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-n4",
+      "type": "note",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "title": "Advantages of Nucleic Acid-Based Diagnostics",
+      "content": "Nucleic acid-based diagnostics, leveraging genomic information, offer improved speed, sensitivity, specificity, and breadth of data compared to traditional growth-based methods. These advancements are particularly beneficial for identifying microbes that are difficult or impossible to culture.",
+      "keyPoints": [
+        "Traditional methods rely on phenotypic characteristics like microscopic appearance and biochemical reactions.",
+        "Nucleic acid-based diagnostics provide faster and more accurate pathogen identification.",
+        "These methods are especially useful for pathogens refractory to traditional culture techniques."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-n5",
+      "type": "note",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "title": "Challenges and Limitations of Antigen Detection",
+      "content": "While antigen detection can improve diagnostic sensitivity and specificity in certain infections, its application is limited to a specific set of pathogens. It typically involves detecting structural elements like viral envelope components or cell surface markers.",
+      "keyPoints": [
+        "Antigen detection has been validated for only a limited range of infections.",
+        "Examples include hepatitis B surface antigen, HIV p24 antigen, and SARS-CoV-2 spike protein.",
+        "Fungal infections may be detected using less specific components like galactomannan and β-glucan."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-n6",
+      "type": "note",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "title": "PCR's Role in HIV Management and Treatment",
+      "content": "The transition from antigen detection to PCR has revolutionized the management of HIV infection by enabling precise measurement of viremia, which is crucial for early treatment initiation and monitoring therapy efficacy.",
+      "keyPoints": [
+        "PCR can detect as few as 20 copies of virus per milliliter of blood.",
+        "Viremia is a near-universal feature of HIV infection recognized through PCR.",
+        "Genotypic antiviral resistance testing, now standard before therapy initiation in developed countries, has been transformative for early disease management."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-n7",
+      "type": "note",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "title": "NAATs in Viral Diagnostics and Public Health",
+      "content": "Nucleic acid amplification tests, especially RT-PCR, are critical for diagnosing viral infections like SARS-CoV-2, aiding both clinical management and public health responses.",
+      "keyPoints": [
+        "RT-PCR is the core method for detecting SARS-CoV-2 in acute phases.",
+        "NAATs have been pivotal in managing COVID-19 through improved diagnostics and containment strategies."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-n8",
+      "type": "note",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "title": "Challenges of Nucleic Acid-Based Diagnostics for Bacteria",
+      "content": "While NAATs are preferred for fastidious bacteria, challenges such as 'diagnostic escape' highlight the need for ongoing development and monitoring.",
+      "keyPoints": [
+        "NAATs are diagnostic tests of choice for pathogens like Neisseria gonorrhoeae, Chlamydia trachomatis, Ehrlichia chaffeensis, Anaplasma phagocytophilum, and Clostridioides difficile.",
+        "A C. trachomatis variant in Sweden evaded detection due to a gene deletion targeted by commercial NAATs."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-n9",
+      "type": "note",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "title": "Impact of Real-Time Molecular Diagnostics on Infectious Disease Management",
+      "content": "Real-time molecular diagnostics, including pathogen identification and antibiotic susceptibility testing, have the potential to significantly transform infectious disease management. These technologies can improve antibiotic stewardship, reduce mortality risk in critically ill patients by enabling early administration of effective antibiotics, decrease hospital admissions, and shorten hospital stays.",
+      "keyPoints": [
+        "Rapid or real-time pathogen identification with antibiotic susceptibility information",
+        "Impact on antibiotic stewardship, mortality risk reduction, hospital admission rates, and length of stay",
+        "Economic forces will influence the deployment breadth"
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-n10",
+      "type": "note",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "title": "Advancements in Genomic Technologies for Infectious Disease Surveillance and Management",
+      "content": "Technological advancements are overcoming barriers to the widespread adoption of genomics and molecular methods, such as NAAT. Innovations include isothermal amplification protocols, lyophilized reagents that do not require refrigeration, automation, miniaturization, and direct sequencing technologies. These improvements facilitate real-time diagnostics, enabling clinicians to make informed decisions about antibiotic use.",
+      "keyPoints": [
+        "Isothermal amplification protocols and lyophilized reagents reduce dependency on cold-chain storage",
+        "Cost and speed of clinical sequencing are decreasing",
+        "Automation and miniaturization reduce costs and expertise requirements",
+        "Direct sequencing technologies improve accuracy and robustness"
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-n11",
+      "type": "note",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "title": "16S rRNA PCR for Bacterial Identification",
+      "content": "The use of 16S ribosomal RNA subunit sequencing is a widely adopted method for identifying bacterial species due to its high conservation within species and divergence between them. This technique has been instrumental in confirming Mycobacterium chimaera infections post-cardiothoracic surgery, highlighting its utility in outbreak recognition.",
+      "keyPoints": [
+        "16S rRNA PCR targets the most conserved element of a bacterial genome for species identification.",
+        "Used to confirm Mycobacterium chimaera infections after cardiothoracic surgeries.",
+        "Currently performed by specialty laboratories with limited sensitivity due to pathogen nucleic acid scarcity and fragility."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-n12",
+      "type": "note",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "title": "Syndromic Panels for Pathogen Detection",
+      "content": "Syndromic panels utilize multiplexed PCR assays to identify common pathogens associated with specific clinical syndromes, such as respiratory infections. These panels streamline diagnostics by providing a standardized test that can quickly identify multiple potential etiologic agents.",
+      "keyPoints": [
+        "Multiplexed PCR assays target common causes of infection syndromes like upper respiratory and gastroenteritis.",
+        "Respiratory viral panels include pathogens such as influenza, parainfluenza, RSV, adenovirus, rhinovirus, enterovirus, metapneumovirus, coronaviruses, Mycoplasma, Chlamydophila, and Bordetella.",
+        "SARS-CoV-2 was rapidly incorporated into these panels during the COVID-19 pandemic."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-n13",
+      "type": "note",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "title": "CRISPR-Based Nucleic Acid Detection",
+      "content": "Recent advancements in molecular biology have led to the development of CRISPR-based nucleic acid detection methods, which enhance deployability and sensitivity for pathogen identification. These methods use Cas12a and Cas13a enzymes for signal amplification and can be lyophilized for field use.",
+      "keyPoints": [
+        "CRISPR effectors Cas12a and Cas13a are used for nucleic acid detection with high specificity.",
+        "These methods enable catalytic signal amplification using fluorescent reporter constructs.",
+        "Isothermal enzymatic preamplification steps increase sensitivity, allowing for field use after lyophilization."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-n14",
+      "type": "note",
+      "subtopic": "ORGANISM IDENTIFICATION (part 2)",
+      "title": "PCR vs. Hybridization: Sensitivity and Mismatch Tolerance",
+      "content": "Amplification tests like PCR require high sequence identity between primers and target sequences, with even a single base-pair mismatch potentially interfering with detection. In contrast, hybridization-based tests are more tolerant of mismatches, allowing for the detection of less conserved regions within species.",
+      "keyPoints": [
+        "PCR requires high degree of sequence identity; single base-pair mismatch can interfere with detection.",
+        "Hybridization-based tests tolerate mismatches and detect less conserved regions.",
+        "Hybridization does not require enzymology, allowing assays on primary clinical specimens."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 2)"
+    },
+    {
+      "id": "h1-107-n15",
+      "type": "note",
+      "subtopic": "ORGANISM IDENTIFICATION (part 2)",
+      "title": "Metagenomic Sequencing for Unbiased Pathogen Detection",
+      "content": "As sequencing costs decline, metagenomic sequencing from patient samples is increasingly feasible. This unbiased approach can detect any microbial sequence, including unexpected ones, and has been used to identify pathogens in cases where traditional methods fail.",
+      "keyPoints": [
+        "Metagenomic sequencing detects any microbial sequence, regardless of divergence.",
+        "Example: Leptospira DNA detected in cerebrospinal fluid via metagenomic sequencing confirmed neuroleptospirosis.",
+        "Shotgun metagenomic sequencing applied to cell-free DNA can identify pathogens in blood and other sites."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 2)"
+    },
+    {
+      "id": "h1-107-n16",
+      "type": "note",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "title": "Advancements in Pathogen Discovery through Genomic Technologies",
+      "content": "Novel genomic technologies, such as whole genome sequencing and metagenomic assembly, have revolutionized pathogen discovery by allowing the identification of new pathogens with high sensitivity and without prior knowledge. These methods surpass traditional techniques like culturing or microarrays by being unbiased and capable of detecting unknown organisms.",
+      "keyPoints": [
+        "Whole genome sequencing and metagenomic assembly enable unbiased detection of novel pathogens.",
+        "Metagenomic assembly involves shotgun sequencing, computational alignment to host sequences, and comparison with known genomes.",
+        "These technologies have significantly reduced the time required for pathogen discovery, as seen in the rapid identification of SARS-CoV-2."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-n17",
+      "type": "note",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "title": "Modernizing Koch's Postulates with Genomic Technologies",
+      "content": "Current genomic technologies have modernized Koch's postulates by allowing the identification of candidate causal pathogens through direct sequencing, even if they cannot be cultured. This approach maintains the rigorous framework for attributing diseases to microorganisms while leveraging advanced sequencing capabilities.",
+      "keyPoints": [
+        "Modern genomic methods can identify pathogens with unprecedented sensitivity and without culturability constraints.",
+        "Critical thinking remains essential in establishing causality despite technological advancements."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-n18",
+      "type": "note",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "title": "Impact of Rapid Pathogen Discovery on Public Health",
+      "content": "The rapid identification and sequencing of pathogens, exemplified by the swift discovery of SARS-CoV-2 within a month of the first case, highlight the critical impact of advanced genomic technologies on public health. These advancements have drastically shortened the timeline for developing diagnostic tests, which is crucial in managing outbreaks.",
+      "keyPoints": [
+        "SARS-CoV-2 was identified and sequenced within about 1 month of the first known case.",
+        "Sequencing and assembly were completed within 5 days, with a NAAT released just 1 day later.",
+        "The rapid development of diagnostics underscores the importance of continued technological progress to mitigate outbreak impacts."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-n19",
+      "type": "note",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 2)",
+      "title": "Role of Metagenomic Sequencing in Identifying Pathogens",
+      "content": "Metagenomic sequencing is increasingly used to identify microorganisms linked to clinical conditions with unknown etiology. This technology has already connected various diseases, such as cervical cancer and multiple sclerosis, to specific pathogens like HPV and Epstein-Barr virus.",
+      "keyPoints": [
+        "Metagenomic sequencing can link previously unexplained conditions to specific pathogens (e.g., HPV with cervical cancer).",
+        "Zika virus was linked to microcephaly through RT-qPCR and whole genome sequencing in fetal brain tissue.",
+        "Sequencing offers high sensitivity and specificity for identifying foreign nucleic acids associated with various diseases.",
+        "Caution is needed: sequence-based identification alone does not establish pathogenicity without fulfilling Koch's postulates."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 2)"
+    },
+    {
+      "id": "h1-107-n20",
+      "type": "note",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 2)",
+      "title": "Establishing Causality in Pathogen Discovery",
+      "content": "While metagenomic sequencing can identify potential pathogens, establishing causality requires more than just detecting microbial sequences. Epidemiologic evidence and direct viral detection are crucial for building a case for causality.",
+      "keyPoints": [
+        "Direct viral detection (e.g., RT-qPCR) in affected tissues strengthens the argument for pathogen-related diseases.",
+        "Correlation between Zika virus and microcephaly was supported by temporal, geographic, and nucleic acid evidence.",
+        "Sequencing alone is insufficient to prove causality; Koch's postulates must be considered.",
+        "Further investigation with targeted methods like PCR is needed to confirm pathogenicity."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 2)"
+    },
+    {
+      "id": "h1-107-n21",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 1)",
+      "title": "Why Rapid Identification of Pathogen Susceptibility is Crucial",
+      "content": "The delay inherent in conventional culture-based susceptibility testing can lead to the empirical use of broad-spectrum antibiotics, which may be inappropriate or ineffective. This delay underscores the need for rapid identification methods that can guide initial therapy and improve patient outcomes.",
+      "keyPoints": [
+        "Conventional assays require 1–2 days for pathogen identification and 2–3 days for susceptibility determination.",
+        "Slow-growing organisms like M. tuberculosis may take weeks to identify drug resistance by growth phenotype.",
+        "Broad-spectrum antibiotics are often used empirically due to delays, potentially leading to inappropriate treatment."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 1)"
+    },
+    {
+      "id": "h1-107-n22",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 1)",
+      "title": "How Molecular Diagnostics Accelerate Pathogen Susceptibility Detection",
+      "content": "Molecular diagnostics and sequencing can rapidly detect a pathogen's antibiotic susceptibility profile by identifying resistance-conferring genotypes. This approach is exemplified in HIV treatment, where specific mutations predict drug resistance, allowing for targeted therapy adjustments.",
+      "keyPoints": [
+        "Genotypic detection of resistance (e.g., K103N mutation in HIV reverse transcriptase) informs therapeutic choices.",
+        "Public databases curate the effects of common mutations on drug susceptibility and viral fitness.",
+        "Sequencing-based methods have informed FDA decisions on COVID-19 therapies by predicting susceptibility to monoclonal antibodies."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 1)"
+    },
+    {
+      "id": "h1-107-n23",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "title": "Molecular Detection of MRSA",
+      "content": "The mecA gene is the primary determinant for methicillin resistance in Staphylococcus aureus, making MRSA amenable to molecular detection. PCR testing for mecA can rapidly identify MRSA, complementing traditional culture-based methods.",
+      "keyPoints": [
+        "Methicillin resistance in S. aureus is due to the expression of PBP2A encoded by mecA gene.",
+        "PCR test for mecA gene approved by FDA to augment culture-based susceptibility testing.",
+        "Rapid detection saves hours to days compared with standard methods."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-n24",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "title": "Detection of VRE Resistance",
+      "content": "Vancomycin-resistant enterococci (VRE) resistance is linked to specific van genes that alter cell wall cross-linking. PCR detection of these genes indicates resistance, aiding in the management of infections.",
+      "keyPoints": [
+        "Resistance in VRE occurs through alteration of cell wall cross-linking mechanism.",
+        "PCR can detect van genes responsible for vancomycin resistance."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-n25",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "title": "Rifampin Resistance and TB Management",
+      "content": "A PCR assay targeting the RNA polymerase gene detects M. tuberculosis and rifampin resistance, as resistance determinants map to a specific region of this gene. This aids in identifying strains at high risk for multidrug resistance.",
+      "keyPoints": [
+        "Rifampin resistance is linked to mutations in a short region of the RNA polymerase gene.",
+        "PCR assay identifies M. tuberculosis and predicts rifampin resistance, indicating potential multidrug resistance."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-n26",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "title": "Complexity of Antibiotic Resistance Mechanisms",
+      "content": "Bacterial resistance to antibiotics often involves multiple mechanisms, making prediction and detection challenging. For example, fluoroquinolone resistance can arise from reduced import, increased efflux, target site mutation, drug modification, or shielding by another protein.",
+      "keyPoints": [
+        "Fluoroquinolone resistance involves at least five distinct modes: reduced import, increased efflux, target site mutation, drug modification, and shielding of the target sites.",
+        "Resistance mechanisms are typically present in combination in clinically resistant isolates."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-n27",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "title": "Challenges in Detecting Carbapenem Resistance",
+      "content": "Carbapenem resistance in Enterobacteriaceae is not solely due to carbapenemases; it can also result from less broad-spectrum β-lactamases combined with porin mutations or upregulated efflux pumps, complicating PCR-based detection.",
+      "keyPoints": [
+        "Carbapenem resistance may involve less broad-spectrum β-lactamases and porin mutations or upregulated efflux pumps.",
+        "PCR-based assays often fail to detect these complex mechanisms."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-n28",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "title": "Advancements in Predicting Antibiotic Resistance",
+      "content": "Despite challenges, advances in microbial sequencing and machine learning are improving the prediction of antibiotic resistance from genetic data. Whole genome sequencing is particularly effective for M. tuberculosis due to its limited horizontal gene transfer.",
+      "keyPoints": [
+        "Microbial genome-wide association studies and machine learning algorithms enhance predictive power.",
+        "Whole genome sequencing effectively predicts susceptibility in M. tuberculosis, leading to routine use in the UK."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-n29",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "title": "Genotypic vs. Phenotypic Resistance Testing",
+      "content": "While genotypic methods identify correlates of resistance, they may not always accurately predict phenotypic resistance due to lineage-specific relationships and the presence of nonfunctional genes.",
+      "keyPoints": [
+        "Genotype-based methods are correlative, not definitive for resistance prediction.",
+        "Up to 5% of MSSA strains carry a nonfunctional mecA gene.",
+        "Contradictions can occur between genotypic and phenotypic evidence.",
+        "Erroneous identification by genotype could lead to inappropriate treatment with vancomycin instead of preferred β-lactam therapy."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-n30",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "title": "Importance of Phenotypic Validation in Genomic Approaches",
+      "content": "Phenotypic validation is crucial for genomic approaches to resistance prediction, aiding in identifying outliers and understanding emerging resistance mechanisms.",
+      "keyPoints": [
+        "Genomic approaches require phenotypic validation to be effective.",
+        "Outliers with unexplained resistance can inform new drug development.",
+        "Understanding resistance mechanisms aids infection control efforts."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-n31",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "title": "Emerging Rapid Phenotypic Assays",
+      "content": "New rapid phenotypic assays, such as transcriptional profiling, offer quicker determination of antibiotic susceptibility compared to traditional growth-based methods.",
+      "keyPoints": [
+        "Transcriptional profiles can rapidly indicate antibiotic response.",
+        "Susceptible and resistant bacteria exhibit distinct transcriptional changes post-exposure.",
+        "These approaches provide faster results than waiting for bacterial growth."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-n32",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 5)",
+      "title": "Role of Sequencing in Detecting Pathogen Heterogeneity",
+      "content": "Sequencing is crucial for identifying diverse pathogen subpopulations within a host, which may exhibit different drug resistance profiles or pathogenesis determinants. This capability is particularly important in chronic infections like Pseudomonas in cystic fibrosis patients and M. tuberculosis in disseminated infections.",
+      "keyPoints": [
+        "Sequencing detects rare nucleic acid fragments with high sensitivity.",
+        "Identifies heterogeneous pathogen subpopulations within a single host.",
+        "Reveals differences in drug resistance profiles or pathogenesis determinants.",
+        "Examples include Pseudomonas in cystic fibrosis and M. tuberculosis in disseminated infections."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 5)"
+    },
+    {
+      "id": "h1-107-n33",
+      "type": "note",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 5)",
+      "title": "Clinical Implications of Pathogen Diversification",
+      "content": "The diversification of pathogens, as seen in chronic bacterial and viral infections, may allow for niche specialization within the host. Understanding these variable subpopulations through deep sequencing could have significant clinical implications, although further studies are needed to fully elucidate their impact.",
+      "keyPoints": [
+        "Pathogen diversification allows for niche specialization within the host.",
+        "Examples include chronic bacterial infections like Pseudomonas and M. tuberculosis, and viral populations such as HIV.",
+        "Deep sequencing provides detailed insights into majority and minority pathogen subpopulations.",
+        "Further studies are required to determine the clinical significance of these findings."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 5)"
+    },
+    {
+      "id": "h1-107-n34",
+      "type": "note",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "title": "Transcriptional Signatures for Tuberculosis Diagnosis",
+      "content": "Host-based diagnostics using transcriptional profiling of circulating white blood cells can distinguish active from latent tuberculosis by identifying nearly 400 differentially expressed transcripts. This approach is driven by changes in interferon-inducible genes and has shown promise in distinguishing tuberculosis from other pulmonary conditions.",
+      "keyPoints": [
+        "Nearly 400 transcripts differentiate active from latent TB",
+        "Interferon-inducible gene changes are significant",
+        "Validation cohort results distinguish active vs. latent TB",
+        "Tracks treatment response within 2 weeks, normalizes over 6 months"
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-n35",
+      "type": "note",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "title": "Host Transcriptional Signatures for Respiratory Infections",
+      "content": "Transcriptomic analysis of host responses can differentiate viral from bacterial causes of upper respiratory infections, outperforming current clinical parameters and protein biomarkers. These signatures also help identify specific conditions like Lyme disease and influenza.",
+      "keyPoints": [
+        "Distinguishes viral vs. bacterial upper respiratory infections",
+        "Outperforms existing clinical parameters and biomarkers",
+        "Identifies specific diseases such as Lyme disease and influenza"
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-n36",
+      "type": "note",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "title": "Genomic Approaches to Infection Susceptibility",
+      "content": "Genomic studies identify host genetic loci associated with susceptibility or resistance to infections, offering insights into disease pathogenesis and potential therapeutic targets. These approaches can lead to personalized medicine by identifying individuals at risk for severe diseases like COVID-19.",
+      "keyPoints": [
+        "Identifies genetic loci linked to infection susceptibility",
+        "Provides mechanistic insight into infection pathogenesis",
+        "Polymorphisms associated with severe COVID-19 identified"
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-n37",
+      "type": "note",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "title": "Impact of Genomic Diagnostics on Antibiotic Strategy",
+      "content": "Genomic diagnostics can transform therapeutic decision-making by providing rapid antibiotic susceptibility information, enabling a shift from broad-spectrum to narrow-spectrum antibiotics. This change could reduce selective pressure and mitigate antibiotic resistance.",
+      "keyPoints": [
+        "Rapid diagnostics provide real-time antibiotic susceptibility information.",
+        "Facilitates a paradigm shift towards narrow-spectrum antibiotics.",
+        "Reduces selective pressure on pathogens, potentially limiting antibiotic resistance."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-n38",
+      "type": "note",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "title": "Personalized Medicine in Tuberculous Meningitis via Genomic Diagnostics",
+      "content": "Genomic diagnostics can identify host genetic polymorphisms, such as those in the LTA4H locus, to tailor glucocorticoid treatment in tuberculous meningitis. This approach may optimize therapeutic outcomes by identifying patients who benefit from adjunctive steroids.",
+      "keyPoints": [
+        "Polymorphisms in LTA4H modulate inflammatory response to tuberculosis.",
+        "Patients with the proinflammatory allele benefit from glucocorticoids, while those with the anti-inflammatory allele do not.",
+        "Genomic diagnostics can guide personalized treatment decisions."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-n39",
+      "type": "note",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "title": "Genomic Technologies in Antimicrobial Discovery",
+      "content": "Genome-scale molecular methods facilitate the identification of essential genes and critical vulnerabilities in pathogens, aiding therapeutic discovery. These technologies also enable rapid determination of drug mechanisms through mutation detection and transcriptional profiling.",
+      "keyPoints": [
+        "Comprehensive identification of all essential genes encoded by a pathogen helps identify therapeutic targets.",
+        "Whole genome sequencing detects mutations in resistant mutants during selection.",
+        "Transcriptional profiling distinguishes between different classes of antimicrobials (e.g., cell wall disruptors vs. DNA-damaging agents)."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-n40",
+      "type": "note",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "title": "Reverse Vaccinology and mRNA Vaccine Development",
+      "content": "Genomic sequencing identifies conserved regions in pathogens, aiding vaccine development. Reverse vaccinology uses this data to develop vaccines for difficult-to-culture or poorly immunogenic pathogens. The rapid development of SARS-CoV-2 mRNA vaccines exemplifies the power of genomic insights.",
+      "keyPoints": [
+        "Identification of conserved genome regions informs antigen selection in vaccine development.",
+        "Reverse vaccinology is useful for pathogens that are hard to culture or have low immunogenicity.",
+        "mRNA vaccines targeting SARS-CoV-2 were developed rapidly using genomic data, with annual updates guided by sequencing."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-n41",
+      "type": "note",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "title": "Genomics in Vaccine Impact and Epidemiology",
+      "content": "Genomic studies post-vaccine introduction help understand vaccine impact on pathogen epidemiology. For instance, sequencing has shown reduced efficacy of the malaria vaccine against mutated parasites and documented serotype replacement following pneumococcal vaccination.",
+      "keyPoints": [
+        "Sequencing reveals reduced efficacy of RTS,S/AS01 malaria vaccine against certain parasite mutations.",
+        "Pneumococcal vaccines have led to serotype replacement, decreasing prevalence of targeted strains.",
+        "HPV vaccines target specific serotypes associated with higher carcinogenic risk."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-n42",
+      "type": "note",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "title": "Genomic Insights into Pathogen Virulence and Drug Resistance",
+      "content": "Large-scale gene content analysis through sequencing or expression profiling provides new insights into pathogen-host interactions, revealing genomic correlates for pathogenicity. For example, Escherichia coli shows up to a 25% difference in gene content between nonpathogenic strains like K-12 and Shiga toxin-producing strains such as O157:H7. Similarly, Enterococcus isolates can have up to 25% of their genome comprised of recently acquired genetic material on mobile elements, highlighting the role of horizontal gene transfer in antibiotic resistance.",
+      "keyPoints": [
+        "Escherichia coli shows up to a 25% difference in gene content between nonpathogenic and pathogenic strains.",
+        "Enterococcus isolates can have up to 25% of their genome comprised of recently acquired genetic material on mobile elements, indicating horizontal gene transfer's role in antibiotic resistance."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-n43",
+      "type": "note",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "title": "Potential for Antivirulence Therapies",
+      "content": "Genomic studies are transforming our understanding of infection by identifying virulence factors and drug resistance mechanisms. There is growing interest in antivirulence drugs, which target virulence factors rather than killing pathogens outright, as a means to intervene in infections. With the increasing accessibility and efficiency of sequencing, large-scale studies can associate clinical outcomes with pathogen and host genotypes, revealing vulnerabilities that can be targeted for therapeutic disruption.",
+      "keyPoints": [
+        "Antivirulence drugs target virulence factors rather than killing pathogens outright.",
+        "Large-scale genomic studies can associate clinical outcomes with pathogen and host genotypes."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-n44",
+      "type": "note",
+      "subtopic": "EPIDEMIOLOGY OF INFECTIOUS DISEASES",
+      "title": "The Role of Genomic Epidemiology in Tracking Pathogen Spread",
+      "content": "Genomic epidemiology utilizes high-throughput sequencing to describe microbial population diversity with unprecedented resolution. This approach allows for the discrimination between isolates at a single-nucleotide level, advancing beyond traditional methods that relied on phenotypes or genetic markers.",
+      "keyPoints": [
+        "High-throughput sequencing enables detailed description of microbial populations.",
+        "Genomic tools can discriminate isolates based on single-nucleotide differences across entire genomes.",
+        "Statistical methods in molecular genetics and evolutionary theory help translate microbial diversity into pathogen spread origins and history."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · EPIDEMIOLOGY OF INFECTIOUS DISEASES"
+    },
+    {
+      "id": "h1-107-n45",
+      "type": "note",
+      "subtopic": "EPIDEMIOLOGY OF INFECTIOUS DISEASES",
+      "title": "Linking Phylogenetic Reconstruction with Epidemiologic Data",
+      "content": "By integrating phylogenetic reconstruction with epidemiologic and demographic data, genomic epidemiology can track pathogen transmission across person-to-person interactions and geographic boundaries. This integration helps infer transmission patterns and estimate outbreak dynamics.",
+      "keyPoints": [
+        "Phylogenetic reconstruction is linked with epidemiologic and demographic data to track pathogen spread.",
+        "Genomic epidemiology estimates transmission dynamics of outbreaks.",
+        "Transmission patterns of pathogens and sequence elements conferring phenotypes can be inferred."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · EPIDEMIOLOGY OF INFECTIOUS DISEASES"
+    },
+    {
+      "id": "h1-107-n46",
+      "type": "note",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "title": "Whole Genome Sequencing for MRSA Outbreak Investigation",
+      "content": "Whole genome sequencing can reconstruct transmission pathways of pathogens like MRSA by analyzing mutation accumulation over time and correlating it with patient data.",
+      "keyPoints": [
+        "Used in a Thai hospital study to trace MRSA transmission from patient to patient.",
+        "Identified an unrecognized MRSA strain outbreak in a UK special-care baby unit, highlighting the role of healthcare provider carriage."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-n47",
+      "type": "note",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "title": "Genome Sequencing for Nosocomial Infections",
+      "content": "Genome sequencing helps differentiate between multiple introductions or a single introduction with transmission in nosocomial infections, such as carbapenemase-producing Klebsiella pneumoniae.",
+      "keyPoints": [
+        "Used to determine if 18 cases of infection were independent introductions or a single strain spread at the NIH Clinical Research Center.",
+        "Facilitates understanding of within-hospital transmission versus independent pathogen acquisition."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-n48",
+      "type": "note",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "title": "Genomic Epidemiology in Viral Outbreaks",
+      "content": "Whole genome sequencing of viruses aids in tracking spread and understanding the implications of genetic variants, crucial for managing outbreaks like SARS-CoV-2.",
+      "keyPoints": [
+        "Applied to outbreaks such as yellow fever, mumps, MERS-CoV, SARS-CoV, and SARS-CoV-2.",
+        "Enables investigation into variant symptom profiles and disease severity."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-n49",
+      "type": "note",
+      "subtopic": "TRANSMISSION NETWORKS (part 2)",
+      "title": "Importance of Microbial Diversity in Transmission Networks",
+      "content": "Whole genome sequencing reveals the diversity within microbial populations, which is crucial for accurately reconstructing transmission networks. Traditional methods using single colonies may not represent this diversity, leading to potential errors.",
+      "keyPoints": [
+        "Traditional microbiologic methods often use a single colony as representative of the population.",
+        "Diverse pathogen populations make individual isolates less representative.",
+        "Whole genome sequencing can introduce error if microbial diversity is not accounted for."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 2)"
+    },
+    {
+      "id": "h1-107-n50",
+      "type": "note",
+      "subtopic": "TRANSMISSION NETWORKS (part 2)",
+      "title": "Clinical Implications of Microbial Population Diversity",
+      "content": "Understanding the clinical significance of microbial population diversity involves exploring how it affects transmission dynamics and treatment responses. The amount of diversity transmitted varies by organism, infection type, host, and treatment.",
+      "keyPoints": [
+        "Sequencing studies show a 'cloud' of diversity in S. aureus strains colonizing an individual.",
+        "Clinical significance includes understanding processes that generate and limit diversity.",
+        "Future investigations will focus on population dynamics, transmission bottlenecks, and forces shaping microbial growth."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 2)"
+    },
+    {
+      "id": "h1-107-n51",
+      "type": "note",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "title": "Genomic Epidemiology in Pathogen Tracking",
+      "content": "Genome sequencing has been pivotal in tracing the origins and spread of pathogens, providing insights into transmission chains and geographic dissemination. This approach was instrumental in understanding outbreaks like cholera in Haiti, HIV-1 group M, Ebola in West Africa, and COVID-19.",
+      "keyPoints": [
+        "Cholera's seventh pandemic originated from the Indian subcontinent with three overlapping waves identified through genomic analysis.",
+        "HIV-1 group M traced back to Kinshasa in the 1920s, highlighting urban infrastructure as a factor in viral spread.",
+        "Genome sequencing of SARS-CoV-2 pinpointed its emergence in Wuhan, China, late November to early December 2019, with real-time tracking of variants like D614G, Alpha, Delta, and Omicron."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-n52",
+      "type": "note",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "title": "Wastewater-Based Surveillance in Epidemiology",
+      "content": "The development of wastewater-based surveillance has emerged as a novel method for monitoring pathogens, including SARS-CoV-2. This technique provides early signals and quantitative estimates of epidemic trends at the population level.",
+      "keyPoints": [
+        "Used to monitor poliovirus and now widely applied for SARS-CoV-2 in 'nowcasting' epidemic trends.",
+        "CDC aims to establish a national system based on this method, leveraging its potential for early detection and public health guidance."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-n53",
+      "type": "note",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "title": "Real-Time Genomic Epidemiology",
+      "content": "Combining in-field sequencing with rapid data sharing platforms like nextstrain.org enables real-time genomic epidemiology. This approach aids in predicting epidemic patterns and guiding public health interventions.",
+      "keyPoints": [
+        "Portable sequencing platforms facilitate on-site pathogen analysis.",
+        "Real-time tracking of viral evolution, such as SARS-CoV-2 variants, informs public health strategies."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-n54",
+      "type": "note",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "title": "Role of Genome Sequencing in Pathogen Spread Analysis",
+      "content": "Genome sequencing is increasingly used by healthcare and public health institutions to map routes, patterns, and tempos of microbial diversification and dissemination. This approach enhances understanding of pathogen spread within and across niches.",
+      "keyPoints": [
+        "Routine genome sequencing replaces pulsed-field gel electrophoresis in monitoring food-borne pathogens.",
+        "The COVID-19 pandemic highlighted the need for a global public health infrastructure centered on sequencing.",
+        "Sequencing aids early disease discovery, tracking spread, and developing diagnostics."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-n55",
+      "type": "note",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "title": "Estimating Pathogen Transmissibility",
+      "content": "Pathogen transmissibility is crucial for public health surveillance and intervention strategies. It can be estimated using the growth rate of an epidemic, generation time, and genome sequencing.",
+      "keyPoints": [
+        "Basic reproduction number (R0) >1 indicates epidemic potential; <1 suggests extinction.",
+        "For 2009 H1N1 influenza, R0 was estimated at 1.2 via population genomic analysis.",
+        "Sequencing helps estimate fundamental epidemiologic parameters and outbreak origins."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-n56",
+      "type": "note",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "title": "Integrating Genomic Data for Public Health Interventions",
+      "content": "Combining viral genomics with other data types enhances the assessment of public health interventions' impact on disease spread.",
+      "keyPoints": [
+        "Sequencing informs return-to-work protocols by identifying within-institution infection sources.",
+        "Genomic methods provide insights into pathogen origins and epidemic potential, guiding response magnitude.",
+        "Tools integrating sequencing with mobility data can evaluate intervention effectiveness."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-n57",
+      "type": "note",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "title": "Impact of Pathogen Genomics on Vaccine Development",
+      "content": "Pathogen genomics provides insights into the evolution of pathogens, influencing clinical decision-making and vaccine development. The continuous antigenic evolution of seasonal influenza necessitates frequent updates to vaccines based on global surveillance data.",
+      "keyPoints": [
+        "Genomic studies inform annual influenza vaccine updates by predicting dominant strains.",
+        "Sequencing-based studies identified Southeast Asia as the origin for H3N2 virus diversity (2002–2007).",
+        "Similar genomic studies with SARS-CoV-2 help identify new variants and guide vaccine composition."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-n58",
+      "type": "note",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "title": "Consequences of Vaccination on Pathogen Evolution",
+      "content": "Genomic epidemiology tracks pathogen evolution under vaccination pressure, aiding in surveillance and predicting future escape from vaccine protection. The introduction of PCV-7 reduced pneumococcal disease but led to the emergence of non-vaccine serotypes.",
+      "keyPoints": [
+        "PCV-7 targeted seven S. pneumoniae serotypes, reducing disease incidence post-2000.",
+        "Sequencing >600 isolates (2001–2007) showed nonvaccine serotypes replacing vaccine ones.",
+        "Some vaccine strains persisted by recombining with non-vaccine capsule genes."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-n59",
+      "type": "note",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "title": "Genomic Insights into Pathogen Virulence and Risk",
+      "content": "Large pathogen genome collections facilitate the identification of genetic determinants for antibiotic resistance, virulence, and infection risk. Genomics helps link pathogen strains to clinical outcomes, as seen with Listeria's varying virulence.",
+      "keyPoints": [
+        "Genomic studies identify virulence factors and novel gene clusters in pathogens like Listeria.",
+        "Some Listeria clonal complexes are more virulent, linked to genomic background.",
+        "Linking genomics with epidemiology aids in risk assessment and resource allocation."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-n60",
+      "type": "note",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 1)",
+      "title": "Rapid Detection of Rifampin-Resistant Tuberculosis",
+      "content": "The implementation of a rapid, automated PCR assay in parts of Africa and Asia allows for the quick detection of rifampin-resistant M. tuberculosis directly from clinical samples.",
+      "keyPoints": [
+        "Molecular diagnostic tests detect rifampin resistance by identifying characteristic mutations in RNA polymerase.",
+        "Rifampin resistance often indicates multidrug resistance, allowing for quicker management decisions.",
+        "PCR assays can provide results within hours instead of weeks, bypassing the need for culture infrastructure."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 1)"
+    },
+    {
+      "id": "h1-107-n61",
+      "type": "note",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 1)",
+      "title": "Genomic Tracking in Epidemic Control",
+      "content": "High-resolution genomic tracking has provided insights into controlling epidemics by identifying effective public health measures and enabling real-time outbreak recognition.",
+      "keyPoints": [
+        "Investment in sequencing infrastructure, particularly in sub-Saharan Africa, facilitates on-location epidemic tracking.",
+        "Rapid genome sequence reporting for pathogens like SARS-CoV-2 aids in early variant identification (e.g., Omicron first identified in South Africa).",
+        "Sequencing efforts are becoming cheaper and more accessible, moving closer to point-of-care applications."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 1)"
+    },
+    {
+      "id": "h1-107-n62",
+      "type": "note",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "title": "The Role of Genomic Tools in Pandemic Response",
+      "content": "Genomic tools are crucial in managing infectious outbreaks, as demonstrated by the COVID-19 pandemic. They enable rapid diagnostics and vaccine development, track pathogen evolution, and monitor disease spread.",
+      "keyPoints": [
+        "Rapid sequencing of SARS-CoV-2 genome within weeks after clinical syndrome recognition.",
+        "Public sharing of genome sequence led to RT-qPCR diagnostic assays and vaccine design.",
+        "Homology with SARS and MERS coronaviruses informed Spike protein-based vaccine development.",
+        "Whole genome sequencing aids in outbreak tracking, distinguishing reinfections from prolonged shedding, and monitoring pathogen evolution.",
+        "Genomic methods like single-cell transcriptional profiling help understand variability in infection outcomes."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    },
+    {
+      "id": "h1-107-n63",
+      "type": "note",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "title": "Importance of Genomics in Tracking Pathogen Evolution",
+      "content": "Whole genome sequencing is essential for tracking the evolution of pathogens, identifying new variants with altered transmissibility and immune evasion, and informing public health responses.",
+      "keyPoints": [
+        "Genomic tools track emergence of new SARS-CoV-2 variants with changes in transmissibility, severity, and immune response evasion.",
+        "Single-cell transcriptional profiling and genome-wide association studies elucidate variability in infection outcomes.",
+        "The COVID-19 pandemic highlights the need for advanced genomic methods in disease surveillance and response."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    },
+    {
+      "id": "h1-107-n64",
+      "type": "note",
+      "subtopic": "SUMMARY",
+      "title": "Transformative Impact of Genomic Technologies in Infectious Diseases",
+      "content": "Genomic technologies, such as next-generation sequencing, are revolutionizing our understanding and management of infectious diseases by providing detailed insights into microbial genetics and interactions.",
+      "keyPoints": [
+        "Next-generation sequencing offers unprecedented depth about individual microbes and microbial communities.",
+        "These methodologies transform research in infectious disease and begin to impact clinical settings.",
+        "Innovations needed: data storage, bioinformatics tools, method standardization, and training for end-users."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · SUMMARY"
+    },
+    {
+      "id": "h1-107-n65",
+      "type": "note",
+      "subtopic": "SUMMARY",
+      "title": "Future Directions and Challenges of Genomic Technologies in Clinical Settings",
+      "content": "While genomic technologies are advancing infectious disease management, challenges such as cost-effectiveness and the impact on patient outcomes need further study to optimize their clinical application.",
+      "keyPoints": [
+        "Cost-effectiveness and applicability of whole genome sequencing in clinics remain under study.",
+        "Impact studies needed to determine contexts where these methodologies improve patient well-being.",
+        "Collaboration, teaching, and financial reduction efforts are crucial for overcoming current limitations."
+      ],
+      "reference": "Microbial Genomics and Infectious Disease · SUMMARY"
+    },
+    {
+      "id": "h1-107-mcq1",
+      "type": "mcq",
+      "subtopic": "Microbial Genomics and Infectious Disease",
+      "question": "Which technological advancement is compared to microscopy in its impact on microbiology?",
+      "options": [
+        "Technological advances in genomics",
+        "Development of antibiotics",
+        "Advances in electron microscopy",
+        "Introduction of PCR techniques"
+      ],
+      "correctOption": 0,
+      "explanation": "Genomic technologies are compared to microscopy for their transformative impact on microbiology.",
+      "reference": "Microbial Genomics and Infectious Disease · Microbial Genomics and Infectious Disease"
+    },
+    {
+      "id": "h1-107-mcq2",
+      "type": "mcq",
+      "subtopic": "Microbial Genomics and Infectious Disease",
+      "question": "What is one major benefit of extending research beyond single genes in infectious disease genomics?",
+      "options": [
+        "It allows for the study of entire genomes, providing new research possibilities.",
+        "It simplifies the process of identifying pathogens.",
+        "It reduces the need for clinical practice changes.",
+        "It eliminates the necessity for public health surveillance."
+      ],
+      "correctOption": 0,
+      "explanation": "Studying entire genomes opens up new research opportunities and potential clinical applications.",
+      "reference": "Microbial Genomics and Infectious Disease · Microbial Genomics and Infectious Disease"
+    },
+    {
+      "id": "h1-107-mcq3",
+      "type": "mcq",
+      "subtopic": "Microbial Genomics and Infectious Disease",
+      "question": "What is one application of genomics methods discussed in the passage?",
+      "options": [
+        "Development of diagnostics with improved sensitivity, specificity, and speed.",
+        "Creation of new antibiotics for bacterial infections.",
+        "Elimination of all infectious diseases.",
+        "Replacement of traditional epidemiology."
+      ],
+      "correctOption": 0,
+      "explanation": "Genomics methods have led to the development of more sensitive, specific, and faster diagnostics.",
+      "reference": "Microbial Genomics and Infectious Disease · Microbial Genomics and Infectious Disease"
+    },
+    {
+      "id": "h1-107-mcq4",
+      "type": "mcq",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "question": "Which method is traditionally used to determine antibiotic susceptibility in clinical microbiology laboratories?",
+      "options": [
+        "Assessing bacterial growth in the presence of antibiotics",
+        "Sequencing pathogen genomes",
+        "Nucleic acid-based diagnostics",
+        "Serologic diagnosis"
+      ],
+      "correctOption": 0,
+      "explanation": "Antibiotic susceptibility is traditionally determined by assessing bacterial growth in the presence of antibiotic.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-mcq5",
+      "type": "mcq",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "question": "What is a limitation of serologic diagnosis for tuberculosis?",
+      "options": [
+        "It can distinguish latent from active infection.",
+        "It has high sensitivity in immunodeficient hosts.",
+        "Tuberculin skin testing is especially insensitive in active disease.",
+        "It provides real-time patient management information."
+      ],
+      "correctOption": 2,
+      "explanation": "Tuberculin skin testing using PPD is especially insensitive in active tuberculosis and possibly cross-reactive with vaccines or other mycobacteria.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-mcq6",
+      "type": "mcq",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "question": "What is a challenge associated with serologic Lyme disease diagnostics?",
+      "options": [
+        "IgG antibodies always indicate active disease.",
+        "IgM antibodies are highly sensitive and specific in early disease.",
+        "Presence of IgG antibodies may reflect prior exposure rather than active disease.",
+        "Serologic tests provide immediate results for treatment decisions."
+      ],
+      "correctOption": 2,
+      "explanation": "In endemic regions, the presence of IgG antibodies to Borrelia burgdorferi may reflect past exposure rather than active Lyme disease.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-mcq7",
+      "type": "mcq",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "question": "Which pathogen detection method has improved speed, sensitivity, specificity, and breadth of information compared to traditional methods?",
+      "options": [
+        "Growth-based assays",
+        "Biochemical testing",
+        "Serologic diagnosis",
+        "Nucleic acid-based diagnostics"
+      ],
+      "correctOption": 3,
+      "explanation": "Nucleic acid-based diagnostics build on genomic information and offer improved speed, sensitivity, specificity, and breadth of information.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-mcq8",
+      "type": "mcq",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "question": "Which nucleic acid-based test is the core method for detecting SARS-CoV-2 virus in the acute phase?",
+      "options": [
+        "Polymerase chain reaction (PCR)",
+        "Serologic testing",
+        "Antigen detection",
+        "Culture methods"
+      ],
+      "correctOption": 0,
+      "explanation": "Reverse transcriptase PCR (RT-PCR) assays are the core method for detecting SARS-CoV-2 virus in the acute phase.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-mcq9",
+      "type": "mcq",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "question": "What was a significant limitation of p24 antigenemia testing during early HIV infection?",
+      "options": [
+        "It could not detect the virus at all.",
+        "It detected the virus only in advanced stages of AIDS.",
+        "The antigen disappeared for years before re-emerging with progression to AIDS.",
+        "It provided immediate and continuous detection throughout the infection."
+      ],
+      "correctOption": 2,
+      "explanation": "P24 antigenemia was detected in acute HIV infection but then disappeared for years before emerging again with progression to AIDS.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-mcq10",
+      "type": "mcq",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "question": "What has been a transformative development in guiding therapy for early-stage HIV infection?",
+      "options": [
+        "The use of phenotypic assays",
+        "The introduction of less toxic therapies",
+        "Genotypic antiviral resistance testing",
+        "All of the above"
+      ],
+      "correctOption": 2,
+      "explanation": "Genotypic antiviral resistance testing was adopted early for HIV and is now standard before initiating therapy.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-mcq11",
+      "type": "mcq",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "question": "What challenge did the emergence of PCR address in HIV infection?",
+      "options": [
+        "The need for less toxic therapies",
+        "The difficulty in detecting viremia with antigen tests",
+        "The identification of cytotoxins A and B",
+        "The development of culture methods"
+      ],
+      "correctOption": 1,
+      "explanation": "PCR, as a more sensitive test, recognized viremia as a near-universal feature of HIV infection.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-mcq12",
+      "type": "mcq",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "question": "Which of the following is a potential impact of real-time pathogen identification tests on infectious disease management?",
+      "options": [
+        "Improvement in antibiotic stewardship",
+        "Increase in hospital admission rates",
+        "Decrease in the need for genome sequencing",
+        "Reduction in the use of molecular diagnostics"
+      ],
+      "correctOption": 0,
+      "explanation": "Real-time pathogen identification tests can improve antibiotic stewardship by providing timely information on pathogen resistance.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-mcq13",
+      "type": "mcq",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "question": "What is one of the technological innovations aimed at overcoming barriers in resource-limited settings for NAAT?",
+      "options": [
+        "Development of rapid thermal cycling",
+        "Creation of lyophilized reagents that do not require refrigeration",
+        "Increased need for sophisticated instrumentation",
+        "Enhanced cold-chain storage requirements"
+      ],
+      "correctOption": 1,
+      "explanation": "Isothermal amplification protocols and lyophilized reagents are innovations to overcome the need for refrigeration in resource-limited settings.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-mcq14",
+      "type": "mcq",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "question": "Which of the following is NOT a barrier to the widespread adoption of clinical sequencing?",
+      "options": [
+        "Need for careful processing of clinical samples",
+        "Standardized pipelines for data interpretation",
+        "Complex molecular biology required for sample preparation",
+        "Rapid and accurate diagnostic tests"
+      ],
+      "correctOption": 3,
+      "explanation": "Rapid and accurate diagnostic tests are the goal, not a barrier, to the adoption of clinical sequencing.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-mcq15",
+      "type": "mcq",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "question": "Which element of the bacterial genome is most highly conserved within a species for pathogen identification?",
+      "options": [
+        "16S ribosomal RNA (rRNA) subunit",
+        "23S ribosomal RNA (rRNA) subunit",
+        "Mitochondrial DNA",
+        "Plasmid DNA"
+      ],
+      "correctOption": 0,
+      "explanation": "The 16S rRNA subunit is most highly conserved within a species for pathogen identification.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-mcq16",
+      "type": "mcq",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "question": "What challenge limits the sensitivity and clinical utility of 16S PCR amplification from tissue specimens?",
+      "options": [
+        "High cost of reagents",
+        "Scarcity and fragility of pathogen nucleic acid in sampled tissue",
+        "Lack of trained personnel",
+        "Incompatibility with current laboratory equipment"
+      ],
+      "correctOption": 1,
+      "explanation": "The scarcity and relative fragility of pathogen nucleic acid in the sampled tissue limit sensitivity.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-mcq17",
+      "type": "mcq",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "question": "What is a common use for PCR-based syndromic panels?",
+      "options": [
+        "To identify genetic mutations",
+        "To diagnose autoimmune diseases",
+        "To identify common causes of clinical infection syndromes",
+        "To screen for cancer"
+      ],
+      "correctOption": 2,
+      "explanation": "Syndromic panels are used to identify common causes of clinical infection syndromes.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-mcq18",
+      "type": "mcq",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "question": "What technology has been coupled with nucleic acid detection for use in resource-limited settings?",
+      "options": [
+        "CRISPR Cas9",
+        "PCR amplification",
+        "CRISPR Cas12a and Cas13a",
+        "Next-generation sequencing"
+      ],
+      "correctOption": 2,
+      "explanation": "CRISPR Cas12a and Cas13a have been coupled with nucleic acid detection for use in resource-limited settings.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-mcq19",
+      "type": "mcq",
+      "subtopic": "ORGANISM IDENTIFICATION (part 2)",
+      "question": "Which nucleic acid detection technique requires a high degree of sequence identity between primer pairs and their target sequences?",
+      "options": [
+        "PCR",
+        "Hybridization-based tests",
+        "Metagenomic sequencing",
+        "Shotgun sequencing"
+      ],
+      "correctOption": 0,
+      "explanation": "PCR methods require a high degree of sequence identity for effective amplification.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 2)"
+    },
+    {
+      "id": "h1-107-mcq20",
+      "type": "mcq",
+      "subtopic": "ORGANISM IDENTIFICATION (part 2)",
+      "question": "Which method is more tolerant to mismatches in nucleic acid sequences?",
+      "options": [
+        "PCR",
+        "Hybridization-based tests",
+        "Metagenomic sequencing",
+        "Shotgun sequencing"
+      ],
+      "correctOption": 1,
+      "explanation": "Hybridization-based tests can tolerate mismatches, allowing detection of diverse clinical isolates.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 2)"
+    },
+    {
+      "id": "h1-107-mcq21",
+      "type": "mcq",
+      "subtopic": "ORGANISM IDENTIFICATION (part 2)",
+      "question": "What is a potential advantage of metagenomic sequencing in diagnosing infections?",
+      "options": [
+        "It requires specific primers for known organisms.",
+        "It can detect any microbial sequence, regardless of divergence.",
+        "It relies on enzymology for detection.",
+        "It only targets DNA sequences."
+      ],
+      "correctOption": 1,
+      "explanation": "Metagenomic sequencing is unbiased and can detect any microbial sequence, including unexpected ones.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 2)"
+    },
+    {
+      "id": "h1-107-mcq22",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "question": "What is one advantage of using whole genome sequencing in pathogen discovery?",
+      "options": [
+        "It requires prior knowledge of the pathogen.",
+        "It can identify pathogens without being biased by culturability.",
+        "It only works for viruses with known homology to existing sequences.",
+        "It is slower than traditional methods."
+      ],
+      "correctOption": 1,
+      "explanation": "Whole genome sequencing identifies pathogens in an unbiased manner, not limited by the need to culture them.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-mcq23",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "question": "Which technology contributed to the identification of the coronavirus causing SARS?",
+      "options": [
+        "Metagenomic assembly",
+        "Next-generation sequencing",
+        "High-density microarrays",
+        "Whole genome sequencing"
+      ],
+      "correctOption": 2,
+      "explanation": "High-density microarrays were used to identify novel viruses by hybridizing to sequences from a diverse collection of viruses.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-mcq24",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "question": "What process involves generating random nucleotide fragments for pathogen discovery?",
+      "options": [
+        "Culturing",
+        "Hybridization",
+        "Shotgun sequencing",
+        "Phylogenetic analysis"
+      ],
+      "correctOption": 2,
+      "explanation": "Shotgun sequencing generates random nucleotide fragments from clinical specimens without prior knowledge of pathogen identity.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-mcq25",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "question": "What was a significant advancement in the discovery of SARS-CoV-2 compared to SARS-CoV?",
+      "options": [
+        "It took longer to sequence and assemble the genome.",
+        "The virus was identified through traditional culturing methods.",
+        "Metagenomic sequencing allowed for rapid identification within weeks.",
+        "High-density microarrays were used exclusively."
+      ],
+      "correctOption": 2,
+      "explanation": "SARS-CoV-2 was rapidly identified using metagenomic sequencing, highlighting the advancements in speed and technology since SARS-CoV.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-mcq26",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 2)",
+      "question": "Which of the following methods was used to detect Zika virus in postmortem fetal brain tissue from microcephalic infants?",
+      "options": [
+        "Quantitative reverse transcription PCR (RT-qPCR) and whole genome sequencing",
+        "Koch's postulates",
+        "Metagenomic assembly alone",
+        "Conventional culture techniques"
+      ],
+      "correctOption": 0,
+      "explanation": "Zika virus was detected using quantitative reverse transcription PCR (RT-qPCR) and whole genome sequencing in fetal brain tissue.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 2)"
+    },
+    {
+      "id": "h1-107-mcq27",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 2)",
+      "question": "What is a necessary caution when identifying microbes through sequence-based methods?",
+      "options": [
+        "Sequencing alone can confirm pathogenicity.",
+        "Koch's postulates must be fulfilled to ascribe pathogenicity.",
+        "All detected sequences are considered pathogens.",
+        "Noise in sequencing data does not need consideration."
+      ],
+      "correctOption": 1,
+      "explanation": "Sequence-based identification of a microbe is insufficient alone to ascribe pathogenicity without fulfilling Koch's postulates.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 2)"
+    },
+    {
+      "id": "h1-107-mcq28",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 2)",
+      "question": "What can improved methods for pathogen detection uncover?",
+      "options": [
+        "Only infectious diseases",
+        "Correlations between microbes and disease states.",
+        "The exact cause of all clinical syndromes.",
+        "That no microbe is associated with any condition."
+      ],
+      "correctOption": 1,
+      "explanation": "Improved methods for pathogen detection can uncover unexpected correlations between microbes and various disease states.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 2)"
+    },
+    {
+      "id": "h1-107-mcq29",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 1)",
+      "question": "What is a significant consequence of the requirement for multiple growth steps in conventional assays to determine antibiotic resistance?",
+      "options": [
+        "It allows for real-time identification of pathogens.",
+        "Only culturable pathogens can be readily processed.",
+        "It reduces the need for broad-spectrum antibiotics.",
+        "It accelerates the detection of drug-resistant organisms."
+      ],
+      "correctOption": 1,
+      "explanation": "The requirement limits processing to only those pathogens that are culturable.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 1)"
+    },
+    {
+      "id": "h1-107-mcq30",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 1)",
+      "question": "Why is there an inherent delay in susceptibility determination using conventional assays?",
+      "options": [
+        "Because molecular diagnostics have replaced these methods.",
+        "Due to the need for several days of growth and identification.",
+        "Because rapid testing kits are not available.",
+        "It is due to the lack of infrastructure."
+      ],
+      "correctOption": 1,
+      "explanation": "Even fast-growing organisms require multiple days for identification and susceptibility determination.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 1)"
+    },
+    {
+      "id": "h1-107-mcq31",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 1)",
+      "question": "What is one advantage of using molecular diagnostics over conventional assays in determining antibiotic resistance?",
+      "options": [
+        "It requires a sterile environment.",
+        "It can identify drug-resistant genotypes more quickly.",
+        "It involves multiple growth steps.",
+        "It is less accurate than phenotypic assays."
+      ],
+      "correctOption": 2,
+      "explanation": "Molecular diagnostics allow for faster detection of resistance by targeting specific genotypes.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 1)"
+    },
+    {
+      "id": "h1-107-mcq32",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "question": "Which gene is primarily responsible for methicillin resistance in Staphylococcus aureus?",
+      "options": [
+        "vanA",
+        "mecA",
+        "blaNDM-1",
+        "kpc"
+      ],
+      "correctOption": 1,
+      "explanation": "The mecA gene encodes an alternative penicillin-binding protein (PBP2A) responsible for methicillin resistance in MRSA.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-mcq33",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "question": "What is the primary method used to detect MRSA rapidly compared to traditional culture-based methods?",
+      "options": [
+        "Culture-based susceptibility testing",
+        "Vancomycin sensitivity test",
+        "PCR for mecA gene",
+        "Antibiotic gradient diffusion"
+      ],
+      "correctOption": 2,
+      "explanation": "The PCR test for the mecA gene is used to detect MRSA rapidly, saving time compared to standard culture methods.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-mcq34",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "question": "Which antibiotic resistance mechanism in enterococci involves alteration of cell wall cross-linking?",
+      "options": [
+        "Methicillin resistance",
+        "Vancomycin resistance",
+        "Carbapenem resistance",
+        "Rifampin resistance"
+      ],
+      "correctOption": 1,
+      "explanation": "Vancomycin-resistant enterococci (VRE) exhibit resistance through alteration of the mechanism for cell wall cross-linking.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-mcq35",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "question": "What does a PCR assay targeting the RNA polymerase gene in M. tuberculosis detect?",
+      "options": [
+        "Methicillin resistance",
+        "Carbapenem resistance",
+        "Rifampin resistance",
+        "Vancomycin resistance"
+      ],
+      "correctOption": 2,
+      "explanation": "The PCR assay detects rifampin resistance by targeting a short region of the RNA polymerase gene associated with this resistance.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-mcq36",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "question": "Which of the following is NOT a known mode of resistance to fluoroquinolones?",
+      "options": [
+        "Reduced import",
+        "Increased efflux",
+        "Target site mutation",
+        "Drug modification"
+      ],
+      "correctOption": 2,
+      "explanation": "Shielding of target sites by expression of another protein is a known mode, not listed here.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-mcq37",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "question": "What complicates the detection of genetic resistance in Enterobacteriaceae?",
+      "options": [
+        "Presence of carbapenemases alone",
+        "Combination of less broad-spectrum β-lactamases with porin mutations or upregulated efflux pumps",
+        "Absence of plasmids and transposable elements",
+        "Lack of long-read sequencing technologies"
+      ],
+      "correctOption": 1,
+      "explanation": "Resistance may develop through mechanisms other than carbapenemases, including porin mutations or upregulated efflux pumps.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-mcq38",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "question": "What is a challenge in sequencing plasmids and transposable elements?",
+      "options": [
+        "They are not enriched for antibiotic resistance determinants",
+        "They lack technical and analytical challenges",
+        "Newer long-read sequencing technologies have fully addressed these challenges",
+        "They may be more technically and analytically challenging to sequence"
+      ],
+      "correctOption": 3,
+      "explanation": "Plasmids and transposable elements are enriched for antibiotic resistance determinants, making them difficult to sequence.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-mcq39",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "question": "What is a factor that complicates genetic prediction of bacterial antibiotic resistance?",
+      "options": [
+        "Lack of microbial sequencing capacity",
+        "Absence of gene expression changes",
+        "Emergence of new mechanisms with antibiotic deployment",
+        "Uniformity in non-viral genomes"
+      ],
+      "correctOption": 2,
+      "explanation": "New mechanisms may emerge with the use of antibiotics, complicating prediction.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-mcq40",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "question": "Which statement best describes a limitation of genotype-based approaches to diagnosing antibiotic resistance?",
+      "options": [
+        "Genotype-based methods are always more accurate than phenotypic methods.",
+        "A clinical isolate of S. aureus in Belgium was not detected by initial genotypic assays due to a mec cassette variant.",
+        "Genotypic assays can detect all possible variants of resistance genes without modification.",
+        "Phenotypic evidence is never contradictory with genotypic evidence."
+      ],
+      "correctOption": 1,
+      "explanation": "A clinical isolate in Belgium had a mec cassette variant not detected by initial PCR primers, illustrating limitations of genotype-based assays.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-mcq41",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "question": "What is an important benefit of genomic approaches to resistance prediction?",
+      "options": [
+        "They eliminate the need for phenotypic validation.",
+        "They can systematically identify outliers with unexplained resistance.",
+        "They ensure that all resistance mechanisms are fully understood.",
+        "They replace traditional methods entirely."
+      ],
+      "correctOption": 1,
+      "explanation": "Genomic approaches help in identifying strains with unexplained resistance, aiding the understanding of new resistance mechanisms.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-mcq42",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "question": "Why is ongoing monitoring necessary for genotypic resistance assays?",
+      "options": [
+        "Because they are always accurate and need no updates.",
+        "To ensure that new variants of resistance genes are detected.",
+        "They do not require any form of validation.",
+        "Phenotypic methods are more reliable than genotypic ones."
+      ],
+      "correctOption": 1,
+      "explanation": "Ongoing monitoring is needed to detect and update assays for new variants, as shown by the mec cassette variant in Belgium.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-mcq43",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "question": "What challenge does a contradiction between genotypic and phenotypic evidence present?",
+      "options": [
+        "It confirms that genotype is always an accurate proxy for phenotype.",
+        "Up to 5% of MSSA strains may be misidentified as MRSA, leading to inappropriate treatment.",
+        "Phenotypic methods are unreliable in detecting resistance.",
+        "Genotype-based assays do not require any further validation."
+      ],
+      "correctOption": 2,
+      "explanation": "Contradictions can lead to misidentification of MSSA strains as MRSA, resulting in the use of less effective antibiotics like vancomycin instead of preferred $\\beta$-lactam therapy.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-mcq44",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 5)",
+      "question": "Which pathogen's diversification in chronic infections has been highlighted by recent studies?",
+      "options": [
+        "HIV",
+        "Pseudomonas in cystic fibrosis patients",
+        "M. tuberculosis in disseminated infection",
+        "Both Pseudomonas and M. tuberculosis"
+      ],
+      "correctOption": 3,
+      "explanation": "Recent studies have highlighted the diversification of both Pseudomonas in cystic fibrosis and M. tuberculosis in disseminated infections.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 5)"
+    },
+    {
+      "id": "h1-107-mcq45",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 5)",
+      "question": "What does sequencing provide an unprecedented depth of study into?",
+      "options": [
+        "Only rare pathogens",
+        "Complex populations of cells and tissues",
+        "Majority members of pathogen populations only",
+        "Drug resistance profiles exclusively"
+      ],
+      "correctOption": 1,
+      "explanation": "Sequencing provides an unprecedented depth of study into complex populations of cells and tissues.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 5)"
+    },
+    {
+      "id": "h1-107-mcq46",
+      "type": "mcq",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 5)",
+      "question": "What is the clinical significance of variable pathogen subpopulations still under investigation?",
+      "options": [
+        "It has been fully elucidated",
+        "It remains unclear and requires future studies",
+        "It only applies to viral populations",
+        "It is irrelevant for chronic infections"
+      ],
+      "correctOption": 1,
+      "explanation": "The clinical significance of variable pathogen subpopulations remains unclear and requires future studies.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 5)"
+    },
+    {
+      "id": "h1-107-mcq47",
+      "type": "mcq",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "question": "Which host biomarker has shown promise in distinguishing active from latent tuberculosis infection?",
+      "options": [
+        "Procalcitonin",
+        "C-reactive protein level",
+        "Transcriptional profile of circulating white blood cells",
+        "Total white blood cell count"
+      ],
+      "correctOption": 2,
+      "explanation": "The transcriptional profile of circulating white blood cells has been used to distinguish active from latent tuberculosis infection.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-mcq48",
+      "type": "mcq",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "question": "What is the primary limitation of serologic testing in diagnosing infections?",
+      "options": [
+        "Lack of sensitivity",
+        "High cost",
+        "Lack of specificity",
+        "Long processing time"
+      ],
+      "correctOption": 2,
+      "explanation": "Serologic testing lacks specificity, which limits its diagnostic utility.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-mcq49",
+      "type": "mcq",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "question": "What has been the role of transcriptomic analysis in host-based diagnostics?",
+      "options": [
+        "Identifying pathogen-specific antibodies",
+        "Measuring erythrocyte sedimentation rate",
+        "Profiling host transcriptional dynamics",
+        "Quantifying neutrophil counts"
+      ],
+      "correctOption": 2,
+      "explanation": "Transcriptomic analysis is used for profiling host transcriptional dynamics to enhance diagnosis and monitor disease progression.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-mcq50",
+      "type": "mcq",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "question": "What potential does genomic application offer in understanding host responses to infection?",
+      "options": [
+        "Identifying pathogen genomes",
+        "Developing new antibiotics",
+        "Identifying biomarkers or underlying disease biology",
+        "Enhancing vaccine efficacy"
+      ],
+      "correctOption": 2,
+      "explanation": "Genomic applications can identify biomarkers or underlying disease biology in host responses to infection.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-mcq51",
+      "type": "mcq",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "question": "What is one potential impact of genomics on infectious disease therapeutics?",
+      "options": [
+        "It can provide new insights into pathogenesis and facilitate the development of new therapeutic agents.",
+        "It eliminates the need for traditional antibiotics.",
+        "It reduces the cost of developing new drugs significantly.",
+        "It ensures that all patients respond equally to a given therapy."
+      ],
+      "correctOption": 0,
+      "explanation": "Genomics can provide insights into pathogenesis and lead to new therapeutic agents.",
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-mcq52",
+      "type": "mcq",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "question": "Why has the development of narrow-spectrum antibiotics been historically challenging?",
+      "options": [
+        "Due to a lack of early diagnostic information guiding their selection.",
+        "Because they are more expensive to produce than broad-spectrum drugs.",
+        "Owing to their inability to target multiple bacterial species effectively.",
+        "As they have higher rates of resistance development."
+      ],
+      "correctOption": 0,
+      "explanation": "The lack of early diagnostic information has hindered the selection and use of narrow-spectrum antibiotics.",
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-mcq53",
+      "type": "mcq",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "question": "How might rapid genomic diagnostics influence antibiotic strategies?",
+      "options": [
+        "By promoting a shift from broad-spectrum to narrow-spectrum antibiotics.",
+        "By eliminating the need for any form of antibiotic therapy.",
+        "By increasing the use of combination therapies with multiple drugs.",
+        "By reducing the overall effectiveness of current antibiotics."
+      ],
+      "correctOption": 0,
+      "explanation": "Rapid diagnostics can guide a shift from broad-spectrum to narrow-spectrum antibiotics, impacting resistance and therapeutic strategies.",
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-mcq54",
+      "type": "mcq",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "question": "Which genomic approach is used to identify genes required for antimicrobial efficacy?",
+      "options": [
+        "Whole genome sequencing",
+        "Transcriptional profiling",
+        "Genome-wide RNA interference or CRISPR screens",
+        "Comparative genomics"
+      ],
+      "correctOption": 2,
+      "explanation": "Genome-wide RNA interference or CRISPR screens are used to identify genes required for antimicrobial efficacy.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-mcq55",
+      "type": "mcq",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "question": "What is the process called that involves expressing surface proteins recombinantly to test their ability to elicit a serologic response and protective immunity?",
+      "options": [
+        "Comparative genomics",
+        "Reverse vaccinology",
+        "Antigenic cartography",
+        "Transcriptional profiling"
+      ],
+      "correctOption": 1,
+      "explanation": "The process is termed reverse vaccinology.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-mcq56",
+      "type": "mcq",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "question": "What was a significant outcome of the RTS,S/AS01 malaria vaccine phase 3 trial in Africa?",
+      "options": [
+        "Increased efficacy against all strains",
+        "Reduced efficacy against parasites with specific mutations",
+        "No impact on parasite prevalence",
+        "Complete eradication of malaria"
+      ],
+      "correctOption": 1,
+      "explanation": "The analyses revealed reduced vaccine efficacy against parasites with amino acid mutations in the circumsporozoite protein.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-mcq57",
+      "type": "mcq",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "question": "What strategy do HPV vaccines use to prevent infection with more dangerous serotypes?",
+      "options": [
+        "Targeting all serotypes equally",
+        "Focusing on the most prevalent serotypes",
+        "Targeting vaccine strains associated with carcinogenesis",
+        "Using broad-spectrum antiviral agents"
+      ],
+      "correctOption": 2,
+      "explanation": "HPV vaccines target specific serotypes, particularly those strongly associated with carcinogenesis.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-mcq58",
+      "type": "mcq",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "question": "Which pathogen's gene content variation is used as an example of genomic correlates for pathogenicity in the passage?",
+      "options": [
+        "Staphylococcus aureus",
+        "Escherichia coli",
+        "Pseudomonas aeruginosa",
+        "Mycobacterium tuberculosis"
+      ],
+      "correctOption": 1,
+      "explanation": "The passage mentions Escherichia coli as an example of a pathogen with significant gene content variation.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-mcq59",
+      "type": "mcq",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "question": "What is one role of horizontal gene transfer in Enterococcus, according to the passage?",
+      "options": [
+        "It decreases antibiotic resistance.",
+        "It facilitates genome expansion related to drug resistance.",
+        "It increases CRISPR elements.",
+        "It reduces pathogenicity."
+      ],
+      "correctOption": 1,
+      "explanation": "The passage states that horizontal gene transfer in Enterococcus is associated with genome expansion and the acquisition of antibiotic resistance.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-mcq60",
+      "type": "mcq",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "question": "What potential advantage do antivirulence drugs have over traditional antibiotics, as suggested by the passage?",
+      "options": [
+        "They kill pathogens outright.",
+        "They inhibit virulence factors without killing the pathogen.",
+        "They increase CRISPR elements in bacteria.",
+        "They are less expensive to produce."
+      ],
+      "correctOption": 1,
+      "explanation": "The passage discusses antivirulence drugs as a means to inhibit virulence factors rather than killing pathogens outright.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-mcq61",
+      "type": "mcq",
+      "subtopic": "EPIDEMIOLOGY OF INFECTIOUS DISEASES",
+      "question": "What was a key method used by John Snow in identifying the source of the 1854 London cholera outbreak?",
+      "options": [
+        "Use of high-throughput sequencing to analyze water samples.",
+        "Careful geographic mapping of cases.",
+        "Analysis of antibiotic susceptibility profiles.",
+        "Genetic markers such as multilocus sequence typing."
+      ],
+      "correctOption": 1,
+      "explanation": "John Snow used careful geographic mapping of cholera cases to identify the Broad Street pump as the source.",
+      "reference": "Microbial Genomics and Infectious Disease · EPIDEMIOLOGY OF INFECTIOUS DISEASES"
+    },
+    {
+      "id": "h1-107-mcq62",
+      "type": "mcq",
+      "subtopic": "EPIDEMIOLOGY OF INFECTIOUS DISEASES",
+      "question": "What is one advantage of using genomic tools in epidemiology?",
+      "options": [
+        "They provide phenotypic profiles such as antibiotic susceptibility.",
+        "They allow discrimination between isolates with single-nucleotide differences across the genome.",
+        "They rely on traditional methods like multilocus sequence typing.",
+        "They are used to determine the geographic origin of pathogens without additional data."
+      ],
+      "correctOption": 1,
+      "explanation": "Genomic tools enable discrimination between isolates with single-nucleotide differences across the entire genome.",
+      "reference": "Microbial Genomics and Infectious Disease · EPIDEMIOLOGY OF INFECTIOUS DISEASES"
+    },
+    {
+      "id": "h1-107-mcq63",
+      "type": "mcq",
+      "subtopic": "EPIDEMIOLOGY OF INFECTIOUS DISEASES",
+      "question": "What is a goal of epidemiologic studies in infectious diseases?",
+      "options": [
+        "To identify interventions that can limit or reduce disease burden.",
+        "To determine the antibiotic susceptibility profiles of pathogens.",
+        "To analyze genetic markers without considering pathogen diversity.",
+        "To focus solely on phenotypic characteristics of pathogens."
+      ],
+      "correctOption": 0,
+      "explanation": "A goal is to identify interventions that can limit or reduce the burden of disease.",
+      "reference": "Microbial Genomics and Infectious Disease · EPIDEMIOLOGY OF INFECTIOUS DISEASES"
+    },
+    {
+      "id": "h1-107-mcq64",
+      "type": "mcq",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "question": "Which pathogen was identified as causing an outbreak in a special-care baby unit in Cambridge, United Kingdom through whole genome sequencing?",
+      "options": [
+        "C. difficile",
+        "VRE",
+        "MRSA",
+        "Klebsiella pneumoniae"
+      ],
+      "correctOption": 2,
+      "explanation": "Whole genome sequencing identified an outbreak of MRSA strain in a special-care baby unit.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-mcq65",
+      "type": "mcq",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "question": "What was the main contribution of whole genome sequencing during the outbreak of carbapenemase-producing Klebsiella pneumoniae at the National Institutes of Health Clinical Research Center?",
+      "options": [
+        "Identifying multiple independent introductions",
+        "Determining antibiotic susceptibilities",
+        "Reconstructing transmission relationships among isolates",
+        "Developing new antibiotics"
+      ],
+      "correctOption": 2,
+      "explanation": "Genome sequencing helped reconstruct the likely relationships among isolates, demonstrating nosocomial spread.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-mcq66",
+      "type": "mcq",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "question": "What type of genomic tool has been used to understand the patterns of spread and implications of genetic variants in viruses?",
+      "options": [
+        "Protein sequencing",
+        "Metagenomic analysis",
+        "Whole genome sequencing",
+        "Microarray analysis"
+      ],
+      "correctOption": 2,
+      "explanation": "Whole genome sequencing is used for understanding viral spread and implications of genetic variants.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-mcq67",
+      "type": "mcq",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "question": "Which pathogen was identified as a dangerous contaminant in injectable corticosteroids through genomic epidemiology?",
+      "options": [
+        "Burkholderia pseudomallei",
+        "Pseudomonas",
+        "Exserohilum",
+        "Fusarium"
+      ],
+      "correctOption": 2,
+      "explanation": "Whole genome sequencing identified Exserohilum as a contaminant in injectable corticosteroids.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-mcq68",
+      "type": "mcq",
+      "subtopic": "TRANSMISSION NETWORKS (part 2)",
+      "question": "What is a potential limitation of using traditional microbiologic methods to study the diversity of microbial populations?",
+      "options": [
+        "They may not accurately represent the population's diversity.",
+        "They always provide a complete picture of genetic variation.",
+        "Whole genome sequencing cannot be applied to them.",
+        "Traditional methods are more accurate than whole genome sequencing."
+      ],
+      "correctOption": 0,
+      "explanation": "Traditional microbiologic methods using single colonies may not represent the population's diversity, introducing error in genomic studies.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 2)"
+    },
+    {
+      "id": "h1-107-mcq69",
+      "type": "mcq",
+      "subtopic": "TRANSMISSION NETWORKS (part 2)",
+      "question": "What does sequencing multiple colonies of an S. aureus strain reveal about its diversity?",
+      "options": [
+        "A uniform genetic makeup.",
+        "A 'cloud' of diversity within the population.",
+        "No significant variation among colonies.",
+        "Only a single dominant genotype."
+      ],
+      "correctOption": 1,
+      "explanation": "Sequencing multiple colonies reveals a 'cloud' of diversity, indicating varied genotypes within the population.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 2)"
+    },
+    {
+      "id": "h1-107-mcq70",
+      "type": "mcq",
+      "subtopic": "TRANSMISSION NETWORKS (part 2)",
+      "question": "Why is understanding microbial population dynamics important for future investigations?",
+      "options": [
+        "It helps in identifying single-genotype pathogens.",
+        "It aids in comprehensively describing diversity and transmission.",
+        "It eliminates the need for whole genome sequencing.",
+        "It focuses solely on host response to treatment."
+      ],
+      "correctOption": 1,
+      "explanation": "Understanding population dynamics is crucial for comprehensive descriptions of diversity, transmission bottlenecks, and forces influencing microbial growth and spread.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 2)"
+    },
+    {
+      "id": "h1-107-mcq71",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "question": "Which pathogen's origin was traced back to the city of Kinshasa in the 1920s?",
+      "options": [
+        "SARS-CoV-2",
+        "Ebola virus",
+        "HIV-1 group M",
+        "Zika virus"
+      ],
+      "correctOption": 2,
+      "explanation": "The origin of HIV-1 group M was traced back to the city of Kinshasa in the 1920s.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-mcq72",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "question": "What method has been used for 'nowcasting' quantitative estimates of epidemic trends, particularly highlighted during the SARS-CoV-2 pandemic?",
+      "options": [
+        "Serological testing",
+        "Wastewater-based surveillance",
+        "Contact tracing",
+        "Phylogenetic inference"
+      ],
+      "correctOption": 1,
+      "explanation": "Wastewater-based surveillance has been used for 'nowcasting' quantitative estimates of epidemic trends.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-mcq73",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "question": "What was the likely source of the cholera outbreak in Haiti according to genomic analysis?",
+      "options": [
+        "Environmental sources within Latin America",
+        "Human travel from Nepal",
+        "Local water contamination",
+        "African strains"
+      ],
+      "correctOption": 1,
+      "explanation": "The cholera outbreak in Haiti was likely introduced by human travel from Nepal.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-mcq74",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "question": "Which single-nucleotide polymorphism in SARS-CoV-2 displaced the original strain early in 2020?",
+      "options": [
+        "A234V",
+        "D614G",
+        "N501Y",
+        "P681H"
+      ],
+      "correctOption": 1,
+      "explanation": "The D614G single-nucleotide polymorphism in the viral spike protein displaced the original SARS-CoV-2 strain early in 2020.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-mcq75",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "question": "What is the significance of a basic reproduction number greater than 1 in terms of epidemic potential?",
+      "options": [
+        "The outbreak will become extinct.",
+        "An outbreak has epidemic potential.",
+        "The pathogen's genome sequence cannot be determined.",
+        "It indicates low transmissibility."
+      ],
+      "correctOption": 1,
+      "explanation": "A basic reproduction number greater than 1 signifies that an outbreak has the potential to spread widely, indicating epidemic potential.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-mcq76",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "question": "Which method is NOT mentioned as a way to estimate pathogen transmissibility?",
+      "options": [
+        "Inference from the growth rate of an epidemic.",
+        "Analysis of generation time of infection.",
+        "Routine genome sequencing by health care institutions.",
+        "Population genomic analysis."
+      ],
+      "correctOption": 2,
+      "explanation": "Routine genome sequencing is used for tracking and understanding pathogen spread, but not directly mentioned as a method to estimate transmissibility.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-mcq77",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "question": "What was the estimated basic reproduction number for the 2009 H1N1 influenza pandemic based on early viral sequences?",
+      "options": [
+        "0.8",
+        "1.0",
+        "1.2",
+        "1.6"
+      ],
+      "correctOption": 2,
+      "explanation": "The basic reproduction number for the 2009 H1N1 influenza pandemic was estimated at 1.2 based on early viral sequences.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-mcq78",
+      "type": "mcq",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "question": "What role does genome sequencing play in public health infrastructure according to the passage?",
+      "options": [
+        "It is used solely for tracking food-borne pathogens.",
+        "It helps in early disease discovery and rapid tracking of spread.",
+        "It replaces traditional epidemiologic data completely.",
+        "It only aids in developing diagnostics."
+      ],
+      "correctOption": 1,
+      "explanation": "Genome sequencing plays a central role in facilitating early disease discovery, rapid tracking of spread, and development of targeted interventions.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-mcq79",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "question": "Which of the following mechanisms is NOT involved in microbial genome evolution?",
+      "options": [
+        "Mutation",
+        "Duplication",
+        "Insertion",
+        "Photosynthesis"
+      ],
+      "correctOption": 3,
+      "explanation": "Microbial genomes evolve through mutation, duplication, insertion, deletion, recombination, and horizontal gene transfer, but not photosynthesis.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-mcq80",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "question": "What was the origin of the pandemic 2009 H1N1 influenza A virus?",
+      "options": [
+        "Reassortment of several avian strains",
+        "Mutation in human influenza strain",
+        "Duplication within swine strains",
+        "Horizontal gene transfer from bacteria"
+      ],
+      "correctOption": 0,
+      "explanation": "The pandemic 2009 H1N1 influenza A virus was generated through reassortment of several avian, swine, and human influenza strains.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-mcq81",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "question": "What is the primary reason for frequent updates to the annual influenza vaccine?",
+      "options": [
+        "To reduce production costs",
+        "To ensure protection against dominant strains",
+        "To increase vaccine efficacy in non-targeted populations",
+        "To eliminate all circulating virus strains"
+      ],
+      "correctOption": 1,
+      "explanation": "Frequent updates are needed to ensure protection against the dominant strains of influenza.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-mcq82",
+      "type": "mcq",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "question": "What has been observed in the pneumococcal population following the introduction of PCV-7?",
+      "options": [
+        "Complete eradication of all S. pneumoniae serotypes",
+        "Increase in vaccine-targeted serotype prevalence",
+        "Replacement of vaccine serotypes by nonvaccine serotypes",
+        "No change in serotype distribution"
+      ],
+      "correctOption": 2,
+      "explanation": "Previously rare nonvaccine serotypes are replacing vaccine serotypes, and some vaccine strains have persisted despite vaccination.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-mcq83",
+      "type": "mcq",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 1)",
+      "question": "Which molecular diagnostic test has been developed for detecting rifampin-resistant tuberculosis?",
+      "options": [
+        "A rapid, automated PCR assay",
+        "Culture-based sensitivity testing",
+        "Serological antibody detection",
+        "Whole-genome sequencing"
+      ],
+      "correctOption": 0,
+      "explanation": "A rapid, automated PCR assay detects both M. tuberculosis and a rifampin-resistant allele of RNA polymerase directly in clinical samples.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 1)"
+    },
+    {
+      "id": "h1-107-mcq84",
+      "type": "mcq",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 1)",
+      "question": "What has high-resolution genomic tracking provided insights into during epidemics?",
+      "options": [
+        "The genetic basis for drug resistance",
+        "Effective public health measures to control local epidemics",
+        "New treatment protocols for infectious diseases",
+        "Methods for rapid vaccine development"
+      ],
+      "correctOption": 1,
+      "explanation": "High-resolution genomic tracking has yielded insights into which public health measures may prove most effective in controlling local epidemics.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 1)"
+    },
+    {
+      "id": "h1-107-mcq85",
+      "type": "mcq",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 1)",
+      "question": "What is a significant benefit of sequencing efforts in sub-Saharan Africa?",
+      "options": [
+        "Development of new antibiotics",
+        "Real-time outbreak recognition and tracking",
+        "Creation of vaccines for endemic diseases",
+        "Reduction in the cost of medical treatments"
+      ],
+      "correctOption": 1,
+      "explanation": "Investment in sequencing infrastructure enables real-time outbreak recognition and tracking.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 1)"
+    },
+    {
+      "id": "h1-107-mcq86",
+      "type": "mcq",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "question": "Which genomic tool was crucial in enabling rapid diagnostic assay development during the COVID-19 pandemic?",
+      "options": [
+        "Whole genome sequencing",
+        "Single-cell transcriptional profiling",
+        "RT-qPCR",
+        "Genome-wide association studies"
+      ],
+      "correctOption": 2,
+      "explanation": "The rapid public sharing of SARS-CoV-2's genome sequence led directly to diagnostic assay development via RT-qPCR.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    },
+    {
+      "id": "h1-107-mcq87",
+      "type": "mcq",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "question": "What was the role of homology in the design of the first SARS-CoV-2 vaccines?",
+      "options": [
+        "It helped identify new variants.",
+        "It facilitated vaccine design by comparison to known coronaviruses.",
+        "It enabled tracking of viral spread through societies.",
+        "It distinguished reinfections from prolonged viral shedding."
+      ],
+      "correctOption": 1,
+      "explanation": "Vaccine development was informed by the homology of SARS-CoV-2 to SARS and MERS coronaviruses, particularly the well-characterized Spike protein.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    },
+    {
+      "id": "h1-107-mcq88",
+      "type": "mcq",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "question": "What role does whole genome sequencing play in managing infectious disease outbreaks?",
+      "options": [
+        "It is used to develop new vaccines.",
+        "It helps track pathogen evolution and outbreak confirmation.",
+        "It identifies asymptomatic carriers of the virus.",
+        "It determines the severity of symptoms in infected individuals."
+      ],
+      "correctOption": 1,
+      "explanation": "Whole genome sequencing aids in tracking outbreak clusters, distinguishing reinfections from prolonged shedding, monitoring spread, and tracking pathogen evolution.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    },
+    {
+      "id": "h1-107-mcq89",
+      "type": "mcq",
+      "subtopic": "SUMMARY",
+      "question": "Which genomic technology provides information about microbial communities?",
+      "options": [
+        "Next-generation sequencing",
+        "Microscopy",
+        "Culture-based methods",
+        "Serological assays"
+      ],
+      "correctOption": 0,
+      "explanation": "Next-generation sequencing offers information of unprecedented depth about individual microbes as well as microbial communities.",
+      "reference": "Microbial Genomics and Infectious Disease · SUMMARY"
+    },
+    {
+      "id": "h1-107-mcq90",
+      "type": "mcq",
+      "subtopic": "SUMMARY",
+      "question": "What is a barrier to the widespread adoption of large-scale pathogen sequencing in clinical settings?",
+      "options": [
+        "Lack of interest from researchers",
+        "Technological and financial barriers",
+        "Excessive data storage capacity",
+        "Overabundance of bioinformatics tools"
+      ],
+      "correctOption": 1,
+      "explanation": "Technological and financial barriers slow the widespread adoption of large-scale pathogen sequencing in clinical settings.",
+      "reference": "Microbial Genomics and Infectious Disease · SUMMARY"
+    },
+    {
+      "id": "h1-107-mcq91",
+      "type": "mcq",
+      "subtopic": "SUMMARY",
+      "question": "What is required to manage the vast amounts of data generated by genomic technologies?",
+      "options": [
+        "Reduction of genetic diversity",
+        "Increased manual analysis",
+        "Innovations in data storage and bioinformatics tools",
+        "Decreased collaboration efforts"
+      ],
+      "correctOption": 2,
+      "explanation": "Innovations in data storage, development of bioinformatics tools to manipulate the data, standardization of methods, and training are required.",
+      "reference": "Microbial Genomics and Infectious Disease · SUMMARY"
+    },
+    {
+      "id": "h1-107-tf1",
+      "type": "true_false",
+      "subtopic": "Microbial Genomics and Infectious Disease",
+      "statement": "The field of infectious disease genomics is transforming public health and clinical practice.",
+      "correctAnswer": true,
+      "explanation": "Genomic advances are reshaping public health approaches and clinical practices in infectious diseases.",
+      "reference": "Microbial Genomics and Infectious Disease · Microbial Genomics and Infectious Disease"
+    },
+    {
+      "id": "h1-107-tf2",
+      "type": "true_false",
+      "subtopic": "Microbial Genomics and Infectious Disease",
+      "statement": "The study of genomics eliminates the need for traditional methods in diagnosing infections.",
+      "correctAnswer": false,
+      "explanation": "Genomics complements, rather than replaces, traditional diagnostic methods.",
+      "reference": "Microbial Genomics and Infectious Disease · Microbial Genomics and Infectious Disease"
+    },
+    {
+      "id": "h1-107-tf3",
+      "type": "true_false",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "statement": "Serologic diagnosis can typically be made in real-time for patient management.",
+      "correctAnswer": false,
+      "explanation": "Serologic diagnosis requires both acute- and convalescent-phase serum samples, limiting its utility for real-time patient management.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-tf4",
+      "type": "true_false",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "statement": "Antigen detection has been validated only for a limited set of infections.",
+      "correctAnswer": true,
+      "explanation": "Antigen detection improves sensitivity and specificity in select cases but is validated only for certain infections.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-tf5",
+      "type": "true_false",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "statement": "Nucleic acid-based tests have become the diagnostic tests of choice for fastidious bacteria.",
+      "correctAnswer": true,
+      "explanation": "NAATs are preferred for diagnosing fastidious bacteria like Neisseria gonorrhoeae and Chlamydia trachomatis.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-tf6",
+      "type": "true_false",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "statement": "Mass spectrometry-based assays are less accurate than growth-based tests for organism identification.",
+      "correctAnswer": false,
+      "explanation": "Mass spectrometry offers highly accurate organism identification within a few hours.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-tf7",
+      "type": "true_false",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "statement": "Genome sequencing is used by public health agencies in the US and UK to track food-borne pathogens.",
+      "correctAnswer": true,
+      "explanation": "Public health agencies use genome sequencing for tracking food-borne pathogens.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-tf8",
+      "type": "true_false",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "statement": "The need for rapid thermal cycling has facilitated the implementation of NAAT in resource-limited settings.",
+      "correctAnswer": false,
+      "explanation": "Rapid thermal cycling is a barrier, not a facilitator, to implementing NAAT in resource-limited settings.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-tf9",
+      "type": "true_false",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "statement": "PCR-based syndromic panels are used to identify genetic mutations.",
+      "correctAnswer": false,
+      "explanation": "Syndromic panels target common infectious causes, not genetic mutations.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-tf10",
+      "type": "true_false",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "statement": "CRISPR-based assays can be lyophilized for long-term storage.",
+      "correctAnswer": true,
+      "explanation": "These assays are robust enough to withstand lyophilization for long-term storage.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-tf11",
+      "type": "true_false",
+      "subtopic": "ORGANISM IDENTIFICATION (part 2)",
+      "statement": "Hybridization-based methods require enzymology for detection.",
+      "correctAnswer": false,
+      "explanation": "Hybridization-based assays do not require enzymology, broadening their applicability.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 2)"
+    },
+    {
+      "id": "h1-107-tf12",
+      "type": "true_false",
+      "subtopic": "ORGANISM IDENTIFICATION (part 2)",
+      "statement": "Metagenomic sequencing can be used to identify pathogens in blood and other body sites.",
+      "correctAnswer": true,
+      "explanation": "Shotgun metagenomic sequencing applied to cell-free DNA is used for identifying pathogens.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 2)"
+    },
+    {
+      "id": "h1-107-tf13",
+      "type": "true_false",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "statement": "Whole genome sequencing is biased by culturability of pathogens.",
+      "correctAnswer": false,
+      "explanation": "Whole genome sequencing can identify pathogens without being limited by their ability to be cultured.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-tf14",
+      "type": "true_false",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "statement": "Next-generation sequencing has replaced other methods for unbiased pathogen discovery.",
+      "correctAnswer": true,
+      "explanation": "Metagenomic assembly through next-generation sequencing largely supplants previous methods for discovering pathogens.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-tf15",
+      "type": "true_false",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 2)",
+      "statement": "The mere presence of a microbe establishes causality.",
+      "correctAnswer": false,
+      "explanation": "The presence of a microbe does not establish causality; further investigation is required.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 2)"
+    },
+    {
+      "id": "h1-107-tf16",
+      "type": "true_false",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 2)",
+      "statement": "Metagenomic sequencing and assembly techniques are becoming more robust.",
+      "correctAnswer": true,
+      "explanation": "The passage states that these technologies hold great promise as they become more robust.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 2)"
+    },
+    {
+      "id": "h1-107-tf17",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 1)",
+      "statement": "Real-time identification of the infecting organism and its susceptibility profile can improve patient outcomes.",
+      "correctAnswer": true,
+      "explanation": "This approach supports judicious antibiotic use, improving outcomes.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 1)"
+    },
+    {
+      "id": "h1-107-tf18",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 1)",
+      "statement": "The single amino acid substitution K103N in the HIV reverse transcriptase gene predicts susceptibility to efavirenz.",
+      "correctAnswer": false,
+      "explanation": "K103N predicts resistance, not susceptibility, to efavirenz.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 1)"
+    },
+    {
+      "id": "h1-107-tf19",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "statement": "Methicillin-resistant Staphylococcus aureus (MRSA) can be detected using a PCR test for the mecA gene.",
+      "correctAnswer": true,
+      "explanation": "The PCR test for the mecA gene is used to detect MRSA rapidly.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-tf20",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "statement": "Vancomycin-resistant enterococci (VRE) resistance mechanisms are due to a single, well-defined mutation.",
+      "correctAnswer": false,
+      "explanation": "VRE resistance involves one of several van genes responsible for altering cell wall cross-linking.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-tf21",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "statement": "Whole genome sequencing is routinely used in parallel with phenotypic antibiotic susceptibility testing for M. tuberculosis in the United Kingdom.",
+      "correctAnswer": true,
+      "explanation": "The UK uses whole genome sequencing alongside traditional methods for M. tuberculosis.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-tf22",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "statement": "Horizontal gene transfer is a significant factor in the genetic variability of M. tuberculosis.",
+      "correctAnswer": false,
+      "explanation": "M. tuberculosis has minimal horizontal gene transfer, restricting its host range to humans.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-tf23",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "statement": "The mcr-1 gene's identification on a plasmid has no implications for multidrug resistance.",
+      "correctAnswer": false,
+      "explanation": "The mcr-1 gene implies transferrable multidrug resistance, heightening concern about colistin-resistant Enterobacterales.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-tf24",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "statement": "Transcriptional profiles can be used to rapidly determine antibiotic susceptibility.",
+      "correctAnswer": true,
+      "explanation": "Susceptible and resistant bacteria have distinct transcriptional profiles after antibiotic exposure, allowing rapid determination of resistance.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-tf25",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 5)",
+      "statement": "Sequencing can detect rare nucleic acid fragments in complex populations.",
+      "correctAnswer": true,
+      "explanation": "Sequencing is sensitive enough to detect even very rare nucleic acid fragments.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 5)"
+    },
+    {
+      "id": "h1-107-tf26",
+      "type": "true_false",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 5)",
+      "statement": "Diversification of pathogens has only been recognized in chronic viral populations.",
+      "correctAnswer": false,
+      "explanation": "Diversification of pathogens is also recognized in chronic bacterial infections.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 5)"
+    },
+    {
+      "id": "h1-107-tf27",
+      "type": "true_false",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "statement": "Host transcriptional signatures have been used to distinguish between viral and bacterial causes of upper respiratory infections.",
+      "correctAnswer": true,
+      "explanation": "Transcriptional signatures in blood cells can differentiate viral from bacterial infections.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-tf28",
+      "type": "true_false",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "statement": "Procalcitonin is a versatile biomarker for generalized clinical use.",
+      "correctAnswer": false,
+      "explanation": "Procalcitonin has limited versatility and predictive values suitable only for narrow applications.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-tf29",
+      "type": "true_false",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "statement": "Genomic diagnostics can help identify individualized host responses to infection and therapy.",
+      "correctAnswer": true,
+      "explanation": "Genomics can reveal how different individuals respond to infections and treatments, aiding personalized medicine.",
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-tf30",
+      "type": "true_false",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "statement": "The development of new antibiotics with novel mechanisms is increasing due to strong economic incentives.",
+      "correctAnswer": false,
+      "explanation": "There are few new antibiotics in the pipeline, partly due to a lack of economic incentives.",
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-tf31",
+      "type": "true_false",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "statement": "Whole genome sequencing can detect mutations in resistant mutants during selection.",
+      "correctAnswer": true,
+      "explanation": "Whole genome sequencing offers a rapid, unbiased way to detect such mutations.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-tf32",
+      "type": "true_false",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "statement": "The RTS,S/AS01 malaria vaccine was equally effective against all strains of the parasite.",
+      "correctAnswer": false,
+      "explanation": "The trial revealed reduced efficacy against parasites with specific amino acid mutations.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-tf33",
+      "type": "true_false",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "statement": "Genome sequencing can reveal novel biological features of pathogens that may be targeted by new therapies.",
+      "correctAnswer": true,
+      "explanation": "The passage states that transcriptomic and proteomic profiling, along with genome sequencing, reveals novel biological features for targeting.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-tf34",
+      "type": "true_false",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "statement": "Loss of CRISPR elements in Enterococcus is beneficial for the bacteria in antibiotic-free environments.",
+      "correctAnswer": false,
+      "explanation": "The passage indicates that loss of CRISPR elements facilitates acquisition of resistance but imposes a disadvantage in antibiotic-free environments.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-tf35",
+      "type": "true_false",
+      "subtopic": "EPIDEMIOLOGY OF INFECTIOUS DISEASES",
+      "statement": "John Snow's investigation into the cholera outbreak was conducted with knowledge of the causative agent.",
+      "correctAnswer": false,
+      "explanation": "The effort was undertaken without knowledge of the causative agent of cholera.",
+      "reference": "Microbial Genomics and Infectious Disease · EPIDEMIOLOGY OF INFECTIOUS DISEASES"
+    },
+    {
+      "id": "h1-107-tf36",
+      "type": "true_false",
+      "subtopic": "EPIDEMIOLOGY OF INFECTIOUS DISEASES",
+      "statement": "Genomic epidemiology can track transmission across demographic and geographic boundaries.",
+      "correctAnswer": true,
+      "explanation": "Genomic epidemiology links phylogenetic reconstruction with data to track transmission.",
+      "reference": "Microbial Genomics and Infectious Disease · EPIDEMIOLOGY OF INFECTIOUS DISEASES"
+    },
+    {
+      "id": "h1-107-tf37",
+      "type": "true_false",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "statement": "Genome sequencing has been used to identify multiple independent introductions of pathogens into healthcare systems.",
+      "correctAnswer": true,
+      "explanation": "Genome sequencing can discriminate between multiple independent introductions and a single introduction with subsequent transmission.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-tf38",
+      "type": "true_false",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "statement": "Whole genome sequencing has not been applied to the study of outbreaks of RNA viruses.",
+      "correctAnswer": false,
+      "explanation": "Genome sequencing is used for studying RNA virus outbreaks, such as yellow fever and mumps.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-tf39",
+      "type": "true_false",
+      "subtopic": "TRANSMISSION NETWORKS (part 2)",
+      "statement": "Whole genome sequencing can accurately reconstruct transmission without any errors.",
+      "correctAnswer": false,
+      "explanation": "The more diverse the pathogen population, the greater the possibility for introducing error in whole genome sequencing-based methods.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 2)"
+    },
+    {
+      "id": "h1-107-tf40",
+      "type": "true_false",
+      "subtopic": "TRANSMISSION NETWORKS (part 2)",
+      "statement": "Future investigations will focus on the forces that shape and influence microbial populations.",
+      "correctAnswer": true,
+      "explanation": "More comprehensive descriptions of diversity, population dynamics, and transmission bottlenecks are a critically important focus for future studies.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 2)"
+    },
+    {
+      "id": "h1-107-tf41",
+      "type": "true_false",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "statement": "The seventh cholera pandemic began in the 1960s and has involved multiple overlapping waves.",
+      "correctAnswer": true,
+      "explanation": "The passage states that the seventh cholera pandemic, ongoing since the 1960s, comprised at least three overlapping waves.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-tf42",
+      "type": "true_false",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "statement": "Genome sequencing has not been useful in understanding the spread of Ebola during the 2013–2016 outbreak.",
+      "correctAnswer": false,
+      "explanation": "Genome sequencing was invaluable in understanding factors that drove and sustained the 2013–2016 Ebola outbreak.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-tf43",
+      "type": "true_false",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "statement": "The basic reproduction number less than 1 indicates that an outbreak has epidemic potential.",
+      "correctAnswer": false,
+      "explanation": "A basic reproduction number less than 1 suggests the outbreak will become extinct, not have epidemic potential.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-tf44",
+      "type": "true_false",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "statement": "Genome sequencing can be used to estimate the date and location of a pandemic's origin.",
+      "correctAnswer": true,
+      "explanation": "Sequences, along with temporal and spatial data, help estimate when and where a pandemic originated.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-tf45",
+      "type": "true_false",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "statement": "The continuous antigenic evolution of seasonal influenza does not impact surveillance and vaccine development.",
+      "correctAnswer": false,
+      "explanation": "Continuous antigenic evolution impacts surveillance and necessitates frequent updates to the annual influenza vaccine.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-tf46",
+      "type": "true_false",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "statement": "Genomic epidemiology studies can help predict future evolution of escape from vaccine protection.",
+      "correctAnswer": true,
+      "explanation": "Such studies describe pathogen evolution under selective pressure and may help predict the future evolution of escape from vaccine protection.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-tf47",
+      "type": "true_false",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 1)",
+      "statement": "Rifampin resistance frequently accompanies resistance to other antibiotics.",
+      "correctAnswer": true,
+      "explanation": "The molecular diagnostic test for rifampin-resistant tuberculosis suggests the presence of multidrug-resistant M. tuberculosis.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 1)"
+    },
+    {
+      "id": "h1-107-tf48",
+      "type": "true_false",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 1)",
+      "statement": "Sequencing efforts have become more expensive and less accessible over time.",
+      "correctAnswer": false,
+      "explanation": "Sequencing efforts have become cheaper and moved closer to point-of-care with each passing year.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 1)"
+    },
+    {
+      "id": "h1-107-tf49",
+      "type": "true_false",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "statement": "The rapid discovery of SARS-CoV-2's genome sequence was completed within months after the recognition of the clinical syndrome.",
+      "correctAnswer": false,
+      "explanation": "The sequencing and sharing of SARS-CoV-2's genome were completed within weeks, not months.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    },
+    {
+      "id": "h1-107-tf50",
+      "type": "true_false",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "statement": "Genomic methods have contributed to understanding the variability in outcomes of SARS-CoV-2 infection.",
+      "correctAnswer": true,
+      "explanation": "Cutting-edge genomic methods like single-cell transcriptional profiling and genome-wide association studies help explain the wide range of SARS-CoV-2 infection outcomes.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    },
+    {
+      "id": "h1-107-tf51",
+      "type": "true_false",
+      "subtopic": "SUMMARY",
+      "statement": "Genomic methodologies have transformed research in infectious disease but not clinical settings.",
+      "correctAnswer": false,
+      "explanation": "Genomic methodologies have transformed both the research landscape and are beginning to make meaningful inroads into clinical settings.",
+      "reference": "Microbial Genomics and Infectious Disease · SUMMARY"
+    },
+    {
+      "id": "h1-107-tf52",
+      "type": "true_false",
+      "subtopic": "SUMMARY",
+      "statement": "Whole genome sequencing is currently cost-effective and applicable in all clinical contexts.",
+      "correctAnswer": false,
+      "explanation": "The cost-effectiveness and applicability of whole genome sequencing, particularly in the clinic, remain to be studied.",
+      "reference": "Microbial Genomics and Infectious Disease · SUMMARY"
+    },
+    {
+      "id": "h1-107-ar1",
+      "type": "assertion_reason",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "assertion": "Serologic diagnosis of syphilis requires multiple different tests.",
+      "reason": "Syphilis is staged by serology alone without clinical suspicion.",
+      "correctOption": 2,
+      "explanation": "Staging syphilis requires both nontreponemal and treponemal tests in conjunction with clinical suspicion.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-ar2",
+      "type": "assertion_reason",
+      "subtopic": "MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)",
+      "assertion": "The sequencing revolution has improved the ability to define the genetic basis for observable phenotypes.",
+      "reason": "Genomic information allows systematic definition of pathogen characteristics.",
+      "correctOption": 0,
+      "explanation": "Sequencing provides access to complete pathogen genomes, enabling a better understanding of their genetic basis.",
+      "reference": "Microbial Genomics and Infectious Disease · MICROBIAL DIAGNOSTICS | HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 1)"
+    },
+    {
+      "id": "h1-107-ar3",
+      "type": "assertion_reason",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "assertion": "The emergence of PCR transformed the understanding of HIV infection.",
+      "reason": "PCR can detect as few as 20 copies of virus per milliliter, recognizing viremia in nearly all cases.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-ar4",
+      "type": "assertion_reason",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)",
+      "assertion": "Culture methods remain dominant for typical bacterial pathogens.",
+      "reason": "Nucleic acid-based tests are more sensitive and faster than culture methods.",
+      "correctOption": 1,
+      "explanation": "Both the assertion and reason are true, but the reason does not explain why culture methods dominate.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 2)"
+    },
+    {
+      "id": "h1-107-ar5",
+      "type": "assertion_reason",
+      "subtopic": "HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)",
+      "assertion": "Real-time diagnostics can improve both societal and patient-specific outcomes.",
+      "reason": "They allow more efficient deployment of antibiotics, similar to how rapid troponin assays have transformed chest pain management.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · HISTORICAL LIMITATIONS AND PROGRESS THROUGH GENETIC APPROACHES (part 3)"
+    },
+    {
+      "id": "h1-107-ar6",
+      "type": "assertion_reason",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "assertion": "The detection of toxin genes can aid in distinguishing pathogens from commensals.",
+      "reason": "Toxin gene presence or expression provides additional clinical information relevant to patient management.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-ar7",
+      "type": "assertion_reason",
+      "subtopic": "ORGANISM IDENTIFICATION (part 1)",
+      "assertion": "PCR-based assays do not require advanced technology for implementation.",
+      "reason": "These assays involve complex molecular biology requiring instruments and reagents.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because PCR-based assays do require advanced technology.",
+      "reference": "Microbial Genomics and Infectious Disease · ORGANISM IDENTIFICATION (part 1)"
+    },
+    {
+      "id": "h1-107-ar8",
+      "type": "assertion_reason",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "assertion": "The discovery of SARS-CoV-2 was facilitated by advances in metagenomic sequencing.",
+      "reason": "Metagenomic sequencing allowed for rapid identification and assembly within weeks of the outbreak.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, with the reason correctly explaining how metagenomic sequencing facilitated rapid discovery.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-ar9",
+      "type": "assertion_reason",
+      "subtopic": "■ PATHOGEN DISCOVERY (part 1)",
+      "assertion": "High-density microarrays can identify any novel virus without bias.",
+      "reason": "These arrays contain sequences from a diverse collection of viruses, facilitating hybridization.",
+      "correctOption": 3,
+      "explanation": "The assertion is false because high-density microarrays are biased toward viruses with homology to known sequences.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN DISCOVERY (part 1)"
+    },
+    {
+      "id": "h1-107-ar10",
+      "type": "assertion_reason",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "assertion": "Methicillin resistance in S. aureus is due to the mecA gene.",
+      "reason": "The mecA gene encodes an alternative penicillin-binding protein that confers methicillin resistance.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-ar11",
+      "type": "assertion_reason",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 2)",
+      "assertion": "PCR assays for carbapenemase genes can confirm susceptibility to carbapenems.",
+      "reason": "These assays target high-value resistance genes like KPC, NDM, and others.",
+      "correctOption": 3,
+      "explanation": "The assertion is false because these assays cannot confirm susceptibility if the targeted genes are absent; however, the reason is true.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 2)"
+    },
+    {
+      "id": "h1-107-ar12",
+      "type": "assertion_reason",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "assertion": "Predicting bacterial antibiotic resistance is becoming feasible.",
+      "reason": "The expansion of microbial sequencing capacity and advanced analytical methods have improved predictive power.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, with the reason correctly explaining the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-ar13",
+      "type": "assertion_reason",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 3)",
+      "assertion": "Non-viral genomes have less genetic diversity than viral ones.",
+      "reason": "Thousands of genetic differences often exist between clinical isolates of the same species.",
+      "correctOption": 2,
+      "explanation": "The assertion is false; non-viral genomes are more diverse, as indicated by the reason.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 3)"
+    },
+    {
+      "id": "h1-107-ar14",
+      "type": "assertion_reason",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "assertion": "Genotype-based approaches to diagnosing antibiotic resistance are likely to remain challenging.",
+      "reason": "Multiple mechanisms of resistance and ongoing evolutionary pressure complicate genotypic diagnosis.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, with the reason correctly explaining why genotype-based approaches are challenging.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-ar15",
+      "type": "assertion_reason",
+      "subtopic": "ANTIBIOTIC RESISTANCE (part 4)",
+      "assertion": "Phenotypic assays have been entirely replaced by genotypic methods.",
+      "reason": "Genomic methods provide rapid phenotypic signatures for antibiotic response.",
+      "correctOption": 3,
+      "explanation": "The assertion is false; while genomic methods are advancing, phenotypic assays still play a crucial role.",
+      "reference": "Microbial Genomics and Infectious Disease · ANTIBIOTIC RESISTANCE (part 4)"
+    },
+    {
+      "id": "h1-107-ar16",
+      "type": "assertion_reason",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "assertion": "Host genetic loci can be used to identify individuals susceptible to infections.",
+      "reason": "Genomic approaches have identified beneficial alleles that confer resistance or susceptibility to diseases.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-ar17",
+      "type": "assertion_reason",
+      "subtopic": "HOST-BASED DIAGNOSTICS",
+      "assertion": "Transcriptional profiling can only be applied to adult populations.",
+      "reason": "Studies have extended results to different host populations including children.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because transcriptional profiling has been extended beyond adults.",
+      "reference": "Microbial Genomics and Infectious Disease · HOST-BASED DIAGNOSTICS"
+    },
+    {
+      "id": "h1-107-ar18",
+      "type": "assertion_reason",
+      "subtopic": "THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS",
+      "assertion": "Genomic diagnostics can inform personalized medicine by identifying host responses.",
+      "reason": "Polymorphisms in the LTA4H gene modulate inflammatory response to tuberculosis, affecting treatment outcomes with glucocorticoids.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason explains how genomic diagnostics can inform personalized medicine.",
+      "reference": "Microbial Genomics and Infectious Disease · THERAPEUTICS | GENOMIC DIAGNOSTICS INFORMING THERAPEUTICS"
+    },
+    {
+      "id": "h1-107-ar19",
+      "type": "assertion_reason",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "assertion": "Reverse vaccinology is particularly useful for pathogens that are difficult to culture or poorly immunogenic.",
+      "reason": "This approach involves expressing surface proteins recombinantly and testing their ability to elicit a serologic response.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-ar20",
+      "type": "assertion_reason",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)",
+      "assertion": "Comparative genomics was not used in the rapid development of mRNA vaccines targeting SARS-CoV-2.",
+      "reason": "Prior coronavirus sequences informed the first mRNA vaccine design within days of the first SARS-CoV-2 sequence being made publicly available.",
+      "correctOption": 3,
+      "explanation": "The assertion is false, but the reason is true.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 1)"
+    },
+    {
+      "id": "h1-107-ar21",
+      "type": "assertion_reason",
+      "subtopic": "GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)",
+      "assertion": "Genomic studies can identify therapeutic agents that disrupt the pathogenic process.",
+      "reason": "Such studies provide evidence of virulence factors and insights into drug resistance evolution.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason explains how genomic studies help in identifying therapeutic targets.",
+      "reference": "Microbial Genomics and Infectious Disease · GENOMICS IN DRUG AND VACCINE DEVELOPMENT (part 2)"
+    },
+    {
+      "id": "h1-107-ar22",
+      "type": "assertion_reason",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "assertion": "Whole genome sequencing can identify point-source outbreaks.",
+      "reason": "It integrates mutation accumulation analysis with epidemiologic data.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason explains how whole genome sequencing identifies point-source outbreaks.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-ar23",
+      "type": "assertion_reason",
+      "subtopic": "TRANSMISSION NETWORKS (part 1)",
+      "assertion": "Genome sequencing has not contributed to hospital infection-control efforts.",
+      "reason": "It provides insights into transmission networks and pathogen ecology.",
+      "correctOption": 2,
+      "explanation": "The assertion is false; genome sequencing contributes significantly to hospital infection control.",
+      "reference": "Microbial Genomics and Infectious Disease · TRANSMISSION NETWORKS (part 1)"
+    },
+    {
+      "id": "h1-107-ar24",
+      "type": "assertion_reason",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "assertion": "Genomic tracking of pathogen variants has become a key tool in public health.",
+      "reason": "The rapid availability and analysis of SARS-CoV-2 genome sequences allowed real-time monitoring of viral evolution.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why genomic tracking is a key tool.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-ar25",
+      "type": "assertion_reason",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)",
+      "assertion": "The origin of Zika virus was traced back to Kinshasa in the 1920s.",
+      "reason": "Genomic methods can date the origins of viruses and identify their geographic beginnings.",
+      "correctOption": 2,
+      "explanation": "The assertion is false; it was HIV-1 group M, not Zika virus, that was traced back to Kinshasa.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 1)"
+    },
+    {
+      "id": "h1-107-ar26",
+      "type": "assertion_reason",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "assertion": "Genome sequencing is crucial for understanding the dynamics of microbial diversity.",
+      "reason": "It provides higher-resolution descriptions of microbial diversity over time and across different boundaries.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why genome sequencing is important.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-ar27",
+      "type": "assertion_reason",
+      "subtopic": "ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL",
+      "assertion": "Traditional epidemiologic data alone can provide all necessary insights into pathogen spread.",
+      "reason": "Genome sequencing offers additional methods to derive fundamental epidemiologic parameters.",
+      "correctOption": 3,
+      "explanation": "The assertion is false because genome sequencing complements traditional epidemiologic data, providing additional insights.",
+      "reference": "Microbial Genomics and Infectious Disease · ORIGINS AND DYNAMICS OF PATHOGEN SPREAD (part 2) | EPIDEMIC POTENTIAL"
+    },
+    {
+      "id": "h1-107-ar28",
+      "type": "assertion_reason",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "assertion": "The study of pathogen genomics can provide insight into the evolution of pathogens.",
+      "reason": "It helps in understanding interactions between selective pressures, hosts, and pathogen populations.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-ar29",
+      "type": "assertion_reason",
+      "subtopic": "■ PATHOGEN EVOLUTION",
+      "assertion": "The introduction of PCV-7 has led to a complete eradication of all S. pneumoniae serotypes.",
+      "reason": "PCV-7 targeted the seven serotypes responsible for the majority of invasive disease at its introduction in 2000.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because nonvaccine serotypes have replaced vaccine serotypes, not eradicated all serotypes.",
+      "reference": "Microbial Genomics and Infectious Disease · ■ PATHOGEN EVOLUTION"
+    },
+    {
+      "id": "h1-107-ar30",
+      "type": "assertion_reason",
+      "subtopic": "GLOBAL CONSIDERATIONS (part 2)",
+      "assertion": "The rapid development of COVID-19 vaccines was accelerated by genomic technology.",
+      "reason": "Whole genome sequencing enabled the tracking and confirmation of case clusters in institutional settings.",
+      "correctOption": 1,
+      "explanation": "While both statements are true, the reason given does not explain the acceleration of vaccine development; it is due to rapid genome sequencing and sharing.",
+      "reference": "Microbial Genomics and Infectious Disease · GLOBAL CONSIDERATIONS (part 2)"
+    }
+  ]
+}
