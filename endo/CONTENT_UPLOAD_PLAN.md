@@ -6,7 +6,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
-| ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ❌ Stubs (~2.8 items/ch, 5-option MCQs) |
+| ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
 | Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ❌ pending | ❌ Not authored |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
@@ -56,7 +56,7 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 5. e21-28–31 (Pediatric)
 6. e21-32–36 (Reproductive) ✅
 7. e21-38–43 (Thyroid/interfaces) ✅
-8. e21-01–04 (Obesity/lipids)
+8. e21-01–04 (Obesity/lipids) ✅
 
 **Per module:** read MD → write JSON → validate → sync → commit (one module per commit).
 
@@ -100,7 +100,13 @@ williams_2024_chapters/*.md  →  validate  →  endo_masterapp/data/*.json
 | e21-41 Endo–oncology interface | ✅ remediated | 41 | 100% |
 | e21-42 ICI endocrine effects | ✅ remediated | 41 | 67% |
 | e21-43 Endo–psychiatry interface | ✅ remediated | 41 | 92% |
-| e21-01–04, e21-37 | ⏳ pending | | |
+| e21-01 Advanced lipoprotein testing | ✅ remediated | 41 | 67% |
+| e21-02 Nutritional/medical obesity | ✅ remediated | 41 | 75% |
+| e21-03 Medication weight effects | ✅ remediated | 41 | 67% |
+| e21-04 Bariatric surgery | ✅ remediated | 41 | 67% |
+| e21-37 Thyroid cancer (MTC) | ✅ remediated | 41 | 83% |
+
+**Phase 1 ESAP 2021: 43/43 modules complete** (~1,763 items)
 
 ## Phase 2 — Williams 15e (49 chapters)
 
@@ -155,3 +161,8 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-07 | e21-41 | 41 | 100% | pending |
 | 2026-07-07 | e21-42 | 41 | 67% | pending |
 | 2026-07-07 | e21-43 | 41 | 92% | pending |
+| 2026-07-07 | e21-01 | 41 | 67% | pending |
+| 2026-07-07 | e21-02 | 41 | 75% | pending |
+| 2026-07-07 | e21-03 | 41 | 67% | pending |
+| 2026-07-07 | e21-04 | 41 | 67% | pending |
+| 2026-07-07 | e21-37 | 41 | 83% | pending |

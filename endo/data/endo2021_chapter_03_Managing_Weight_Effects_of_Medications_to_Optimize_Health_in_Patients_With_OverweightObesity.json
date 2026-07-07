@@ -8,43 +8,447 @@
   "sourceFile": "williams_2024_chapters/endo2021_chapter_03_Managing_Weight_Effects_of_Medications_to_Optimize_Health_in_Patients_With_OverweightObesity.md",
   "items": [
     {
+      "id": "e21-03-n1",
+      "type": "note",
+      "subtopic": "Polypharmacy",
+      "title": "Why medication review is foundational in obesity care",
+      "text": "Many common drug classes promote weight gain; polypharmacy can produce clinically meaningful adiposity when individually modest effects accumulate. Scan lists and substitute weight-neutral or weight-loss-promoting agents when feasible.",
+      "reference": "Main Conclusions: \"A prudent approach is to scan medication lists for weight-promoting drugs and substitute weight-neutral or weight loss-promoting medications when feasible.\""
+    },
+    {
+      "id": "e21-03-n2",
+      "type": "note",
+      "subtopic": "Epidemiology",
+      "title": "Obesity prevalence and comorbidity burden",
+      "text": "Obesity (BMI ≥30) affects ~40% of Americans; another third are overweight. Obesity fuels prediabetes, type 2 diabetes, NAFLD, cardiovascular disease, reproductive disorders, and several cancers.",
+      "reference": "Significance of the Clinical Problem: \"Obesity (BMI ≥30 kg/m²) now affects 40% of Americans and another third are overweight (BMI 25-29.9 kg/m²).\""
+    },
+    {
+      "id": "e21-03-n3",
+      "type": "note",
+      "subtopic": "Guideline approach",
+      "title": "How Endocrine Society obesity pharmacology guidance sequences care",
+      "text": "Lifestyle modification is foundational; assess weight effects of current medications and switch to weight-neutral or weight-loss agents before adding antiobesity pharmacotherapy for appropriately selected patients.",
+      "reference": "Significance of the Clinical Problem: \"This includes assessment of weight effects of a patient's current medications with modification of the regimen to change weight gain-promoting medications to medications that promote weight loss or are weight neutral.\""
+    },
+    {
+      "id": "e21-03-n4",
+      "type": "note",
+      "subtopic": "Glucocorticoids",
+      "title": "Why chronic glucocorticoids worsen obesity-related disease",
+      "text": "Repeated or chronic steroids cause weight gain and central adiposity; obesity can then worsen the underlying condition (e.g., asthma). Use the least steroid necessary; prefer episodic treatment when possible.",
+      "reference": "Glucocorticoids (Oral, Topical, Inhaled, Intra-articular Injections): \"Steroid use can help control asthma, but weight gain and obesity can then make asthma worse.\""
+    },
+    {
+      "id": "e21-03-n5",
+      "type": "note",
+      "subtopic": "Diabetes agents",
+      "title": "How to choose diabetes medications for weight-conscious patients",
+      "text": "Insulin and secretagogues promote weight gain; metformin is mildly weight-reducing; GLP-1 receptor agonists and SGLT-2 inhibitors promote weight loss and are preferred after metformin in many guidelines.",
+      "reference": "Diabetes Medications: \"most professional societies now recommend metformin as first-line treatment for type 2 diabetes followed by a GLP-1 receptor agonist or SGLT-2 inhibitor given their weight-loss effects.\""
+    },
+    {
+      "id": "e21-03-n6",
+      "type": "note",
+      "subtopic": "Psychotropics",
+      "title": "Weight effects of antidepressants and antipsychotics",
+      "text": "Not all psychotropics cause weight gain. Olanzapine causes the most (~2.4 kg in 3 months in trials, far more in practice). Metformin and topiramate may mitigate antipsychotic metabolic effects.",
+      "reference": "Antidepressants and Antipsychotic Medications: \"Olanzapine is associated with the most weight gain overall: 2.4 kg (5 lb) in 3 months in clinical trials, but frequently much more in clinical practice\""
+    },
+    {
+      "id": "e21-03-n7",
+      "type": "note",
+      "subtopic": "Beta blockers",
+      "title": "Why beta-adrenergic blockers can promote weight gain",
+      "text": "Beta-blockers used for cardiovascular disease are among less-recognized weight-promoting classes. Propranolol for migraine prophylaxis may contribute to weight gain; topiramate is weight-losing and FDA approved for migraine.",
+      "reference": "Significance of the Clinical Problem: \"other classes of medication are less well recognized such as β-adrenergic blockers used to treat heart disease, heart rhythm disorders, and hypertension\""
+    },
+    {
+      "id": "e21-03-n8",
+      "type": "note",
+      "subtopic": "Antihistamines",
+      "title": "Antihistamines and appetite",
+      "text": "Long-term antihistamine use is associated with weight gain in observational studies, likely via H1-receptor affinity increasing appetite. Adequate controlled quantitative data are limited.",
+      "reference": "Antihistamines: \"The weight gain-promoting effects of some antihistamines are thought to be mediated through their affinity for the H1-histamine receptor.\""
+    },
+    {
+      "id": "e21-03-n9",
+      "type": "note",
+      "subtopic": "Case 1 — semaglutide",
+      "title": "How semaglutide breaks the asthma–steroid–obesity cycle",
+      "text": "In class III obesity with T2DM, hypertension, hyperlipidemia, and steroid-exacerbated asthma, semaglutide improves glycemia and produces greater weight loss than SGLT-2 inhibitors or DPP-4 inhibitors.",
+      "reference": "Case 1: \"Answer: C) Semaglutide\""
+    },
+    {
+      "id": "e21-03-n10",
+      "type": "note",
+      "subtopic": "Case 2 — cariprazine",
+      "title": "Why cariprazine may drive post-bariatric weight regain",
+      "text": "After RYGB, weight regain with worsening diabetes on high-dose insulin may reflect atypical antipsychotic effects. Cariprazine causes weight gain; lisdexamfetamine and buspirone are not major contributors.",
+      "reference": "Case 2: \"Answer: A) Cariprazine\""
+    },
+    {
+      "id": "e21-03-n11",
+      "type": "note",
+      "subtopic": "Case 3 — propranolol",
+      "title": "How to switch migraine prophylaxis to promote weight loss",
+      "text": "Rapid weight gain after starting/increasing propranolol in a euthyroid woman suggests beta-blocker effect. Topiramate is FDA approved for migraine prophylaxis, promotes weight loss, and requires reliable contraception due to teratogenicity.",
+      "reference": "Case 3: \"Answer: B) Switch propranolol to topiramate\""
+    },
+    {
+      "id": "e21-03-n12",
+      "type": "note",
+      "subtopic": "Reproductive hormones",
+      "title": "Weight effects of hormonal contraception and androgen therapy",
+      "text": "Progesterone-only agents (depot MPA, levonorgestrel IUD) can promote adiposity in women. Testosterone therapy in hypogonadal men improves body composition; androgen deprivation for prostate cancer increases fat mass and metabolic risk.",
+      "reference": "Reproductive Hormones (Hormonal contraceptives, Hormone Replacement Therapy with Sex Steroids): \"agents can be particularly problematic for women and include progesterone-only formulations such as medroxyprogesterone acetate injections and levonorgestrel containing intrauterine devices.\""
+    },
+    {
       "id": "e21-03-q1",
       "type": "mcq",
-      "subtopic": "Diabetes Medications and Weight Management",
-      "question": "Which of the following medications should be started as the best next step to promote weight loss?",
+      "subtopic": "Case 1 — diabetes intensification",
+      "question": "A woman with class III obesity, T2DM (HbA1c 7.4%), hypertension, hyperlipidemia, and steroid-treated asthma needs a second diabetes agent. Best choice to lower glucose and promote weight loss?",
       "options": [
-        "A. Sitagliptin",
-        "B. Pioglitazone",
-        "C. Semaglutide",
-        "D. Empagliflozin"
+        "Sitagliptin",
+        "Pioglitazone",
+        "Semaglutide",
+        "Empagliflozin"
       ],
       "correctOption": 2,
-      "explanation": "Semaglutide is a GLP-1 receptor agonist associated with significant weight loss and improved glycemic control, making it the best choice for promoting weight loss in patients with type 2 diabetes.",
-      "reference": "MAIN CONCLUSIONS: \"Newer classes of medications for type 2 diabetes have been developed that are not only weight neutral but also promote weight loss such as GLP-1 receptor agonists and SGLT-2 inhibitors.\""
+      "explanation": "GLP-1 RAs produce more weight loss (5–10%) than SGLT-2 inhibitors; DPP-4 inhibitors are weight neutral; pioglitazone promotes weight gain.",
+      "reference": "Case 1: \"Answer: C) Semaglutide\""
     },
     {
-      "id": "e21-03-why1",
-      "type": "why",
-      "subtopic": "Impact of Medications on Weight Gain",
-      "question": "Why is it important to review a patient's medication list for weight-promoting drugs?",
-      "answer": "Because many commonly used medications promote weight gain, and long-term use can lead to overweight or obesity, which are associated with numerous chronic diseases.",
-      "keyPoints": [
-        "Many medications promote weight gain over long periods.",
-        "Weight gain is linked to conditions like type 2 diabetes, cardiovascular disease, and nonalcoholic fatty liver disease."
+      "id": "e21-03-q2",
+      "type": "mcq",
+      "subtopic": "Case 2 — weight regain",
+      "question": "Two years after RYGB, a woman regained 44 lb with HbA1c 10.6% on insulin glargine/lispro, liraglutide, metformin, lisdexamfetamine, buspirone, cariprazine, and fexofenadine. Which drug most likely contributes to regain?",
+      "options": [
+        "Cariprazine",
+        "Lisdexamfetamine",
+        "Buspirone",
+        "Fexofenadine"
       ],
-      "reference": "MAIN CONCLUSIONS: \"Many commonly used medications promote weight gain and their use over long periods is associated with overweight and obesity...\""
+      "correctOption": 0,
+      "explanation": "Cariprazine is an atypical antipsychotic associated with weight gain; others listed are weight neutral or weight losing.",
+      "reference": "Case 2: \"Answer: A) Cariprazine\""
     },
     {
-      "id": "e21-03-how2",
-      "type": "how",
-      "subtopic": "Mitigating Medication-Induced Weight Gain",
-      "question": "How can clinicians mitigate the weight-promoting effects of medications?",
-      "answer": "By scanning medication lists for weight-promoting drugs and substituting them with weight-neutral or weight-loss-promoting alternatives when feasible.",
-      "keyPoints": [
-        "Identify weight-promoting medications in a patient's regimen.",
-        "Substitute these medications with alternatives that are weight neutral or promote weight loss."
+      "id": "e21-03-q3",
+      "type": "mcq",
+      "subtopic": "Case 3 — migraine and weight",
+      "question": "A euthyroid woman gained >10% body weight after sertraline and escalating propranolol for migraines. Best next step?",
+      "options": [
+        "Switch sertraline to escitalopram",
+        "Switch propranolol to topiramate",
+        "Increase levothyroxine",
+        "Add liothyronine"
       ],
-      "reference": "MAIN CONCLUSIONS: \"A prudent approach is to scan medication lists for weight-promoting drugs and substitute weight-neutral or weight loss-promoting medications when feasible.\""
+      "correctOption": 1,
+      "explanation": "Propranolol (beta-blocker) promotes weight gain; topiramate treats migraine and promotes weight loss—contraception required.",
+      "reference": "Case 3: \"Answer: B) Switch propranolol to topiramate\""
+    },
+    {
+      "id": "e21-03-q4",
+      "type": "mcq",
+      "subtopic": "Metformin with antipsychotics",
+      "question": "Which agent may mitigate weight gain and insulin resistance from atypical antipsychotics?",
+      "options": [
+        "Metformin",
+        "Pioglitazone",
+        "Glibenclamide",
+        "Prednisone"
+      ],
+      "correctOption": 0,
+      "explanation": "Metformin ameliorates metabolic derangements from atypical antipsychotics and promotes mild weight loss.",
+      "reference": "Diabetes Medications: \"Metformin does ameliorate the metabolic derangements associated with newer psychotropic agents, particularly atypical antipsychotics.\""
+    },
+    {
+      "id": "e21-03-q5",
+      "type": "mcq",
+      "subtopic": "T2DM first-line",
+      "question": "Per the chapter, preferred sequencing after metformin for type 2 diabetes emphasizes:",
+      "options": [
+        "Sulfonylureas first",
+        "GLP-1 receptor agonist or SGLT-2 inhibitor",
+        "Thiazolidinedione monotherapy",
+        "Insulin before any oral agent"
+      ],
+      "correctOption": 1,
+      "explanation": "Professional societies favor GLP-1 RAs or SGLT-2 inhibitors after metformin for weight-beneficial glycemic control.",
+      "reference": "Diabetes Medications: \"recommend metformin as first-line treatment for type 2 diabetes followed by a GLP-1 receptor agonist or SGLT-2 inhibitor\""
+    },
+    {
+      "id": "e21-03-q6",
+      "type": "mcq",
+      "subtopic": "Olanzapine weight gain",
+      "question": "Typical short-term trial weight gain with olanzapine cited in the chapter is approximately:",
+      "options": [
+        "0.2 kg in 3 months",
+        "2.4 kg in 3 months",
+        "10 kg in 1 week",
+        "No weight gain ever"
+      ],
+      "correctOption": 1,
+      "explanation": "Trials show ~2.4 kg in 3 months; clinical practice weight gain can be far greater with prolonged use.",
+      "reference": "Antidepressants and Antipsychotic Medications: \"Olanzapine is associated with the most weight gain overall: 2.4 kg (5 lb) in 3 months in clinical trials\""
+    },
+    {
+      "id": "e21-03-q7",
+      "type": "mcq",
+      "subtopic": "SGLT-2 weight loss",
+      "question": "Average weight loss with SGLT-2 inhibitors in type 2 diabetes is approximately:",
+      "options": [
+        "0.5 lb",
+        "5 to 10 lb (2.3 to 4.5 kg)",
+        "30 to 40 lb",
+        "No change"
+      ],
+      "correctOption": 1,
+      "explanation": "SGLT-2 inhibitors typically produce 5–10 lb weight loss—less than injectable GLP-1 RAs.",
+      "reference": "Diabetes Medications: \"SGLT-2 inhibitors have also been associated with weight loss when used to lower glucose levels in type 2 diabetes, with typical weight loss of 5 to 10 lb (2.3 to 4.5 kg).\""
+    },
+    {
+      "id": "e21-03-q8",
+      "type": "mcq",
+      "subtopic": "Pioglitazone",
+      "question": "Why is pioglitazone a poor choice when weight loss is a goal?",
+      "options": [
+        "It causes hypoglycemia exclusively",
+        "It stimulates adipocytes and promotes increased fat mass",
+        "It is contraindicated in diabetes",
+        "It abolishes insulin secretion"
+      ],
+      "correctOption": 1,
+      "explanation": "TZDs including pioglitazone increase fat mass despite improving glycemia.",
+      "reference": "Case 1: \"Pioglitazone (Answer B) has been shown to improve fatty liver disease as well as glycemic control, but it promotes weight gain, not weight loss.\""
+    },
+    {
+      "id": "e21-03-q9",
+      "type": "mcq",
+      "subtopic": "Low-dose steroids in RA",
+      "question": "Long-term low-dose glucocorticoids for rheumatoid arthritis were associated with what weight change in a cited RCT?",
+      "options": [
+        "4% to 8% weight gain",
+        "10% weight loss",
+        "No change",
+        "20% weight loss"
+      ],
+      "correctOption": 0,
+      "explanation": "Even low-dose chronic oral/IV steroids can produce 4–8% weight gain.",
+      "reference": "Glucocorticoids (Oral, Topical, Inhaled, Intra-articular Injections): \"long-term use of even low-dose glucocorticoids for rheumatoid arthritis in a randomized controlled trial was associated with a 4% to 8% weight gain.\""
+    },
+    {
+      "id": "e21-03-q10",
+      "type": "mcq",
+      "subtopic": "DPP-4 vs GLP-1",
+      "question": "How do DPP-4 inhibitors compare with GLP-1 receptor agonists for weight and glycemia?",
+      "options": [
+        "Equal weight loss and glycemic effect",
+        "Less weight loss and less glycemic effect than GLP-1 RAs",
+        "Greater weight loss than GLP-1 RAs",
+        "Contraindicated with metformin"
+      ],
+      "correctOption": 1,
+      "explanation": "DPP-4 inhibitors share the incretin pathway but lack significant weight loss and have less glycemic potency.",
+      "reference": "Case 1: \"The oral DPP-4 inhibitors such as sitagliptin (Answer A) work on the same pathway as GLP-1 receptor agonists, but they are not associated with significant weight loss and have less effect on glycemic control.\""
+    },
+    {
+      "id": "e21-03-q11",
+      "type": "mcq",
+      "subtopic": "Topiramate counseling",
+      "question": "Before starting topiramate for migraine in a reproductive-age woman, what is essential?",
+      "options": [
+        "Discontinue all antidepressants permanently",
+        "Reliable contraception due to teratogenicity",
+        "High-dose levothyroxine",
+        "Avoid all physical activity"
+      ],
+      "correctOption": 1,
+      "explanation": "Topiramate is teratogenic; reliable contraception is mandatory in reproductive-age women.",
+      "reference": "Case 3: \"As a reproductive-aged woman, it is important that she use reliable contraception if she were to start topiramate, as this drug can have teratogenic effects on a developing fetus.\""
+    },
+    {
+      "id": "e21-03-q12",
+      "type": "mcq",
+      "subtopic": "Weight-neutral SSRIs",
+      "question": "Sertraline and escitalopram are categorized in the chapter as:",
+      "options": [
+        "Weight gain promoting",
+        "Weight neutral",
+        "Mandatory for weight loss",
+        "Contraindicated in obesity"
+      ],
+      "correctOption": 1,
+      "explanation": "Both sertraline and escitalopram are considered weight neutral—switching between them will not aid weight loss.",
+      "reference": "Case 3: \"Both sertraline and escitalopram are considered to be weight neutral\""
+    },
+    {
+      "id": "e21-03-q13",
+      "type": "mcq",
+      "subtopic": "Chronic weight-promoting drugs",
+      "question": "Which scenario poses the greatest long-term weight risk?",
+      "options": [
+        "5-day prednisone burst for asthma yearly",
+        "Years of atypical antipsychotic plus insulin for T2DM",
+        "Single dose antihistamine",
+        "One week metformin trial"
+      ],
+      "correctOption": 1,
+      "explanation": "Chronic medications for chronic diseases produce sustained adiposity exposure; brief steroids are less cumulative.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"The most problematic weight-promoting medications are those that are used to treat chronic diseases, which means the patient is exposed to weight-promoting medications over long periods.\""
+    },
+    {
+      "id": "e21-03-tf1",
+      "type": "true_false",
+      "subtopic": "Polypharmacy",
+      "statement": "Multiple weight-neutral medications can never combine to cause clinically significant weight gain.",
+      "correctAnswer": false,
+      "explanation": "Polypharmacy with small individual effects can sum to greater weight gain.",
+      "reference": "Main Conclusions: \"Polypharmacy can also be a problem when a patient is prescribed multiple medications, each of which may have a relatively small individual effect, but which may result in greater weight gain when used concomitantly.\""
+    },
+    {
+      "id": "e21-03-tf2",
+      "type": "true_false",
+      "subtopic": "Metformin",
+      "statement": "Metformin is commonly associated with mild weight loss (~3%–4%) in most patients.",
+      "correctAnswer": true,
+      "explanation": "Metformin is not FDA approved for weight loss but commonly produces mild weight reduction.",
+      "reference": "Diabetes Medications: \"Although metformin is not FDA approved for weight loss, it is commonly associated with mild weight loss (3%-4%) in most patients\""
+    },
+    {
+      "id": "e21-03-tf3",
+      "type": "true_false",
+      "subtopic": "Inhaled steroids",
+      "statement": "Chronic inhaled glucocorticoids cannot contribute to weight gain because they lack systemic absorption.",
+      "correctAnswer": false,
+      "explanation": "Inhaled/enteral steroids can suppress the HPA axis, implying sufficient systemic absorption to affect weight and metabolism.",
+      "reference": "Glucocorticoids (Oral, Topical, Inhaled, Intra-articular Injections): \"all have been implicated in secondary adrenal insufficiency. This suggests sufficient systemic absorption to suppress the hypothalamic-pituitary-adrenal axis and therefore sufficient absorption to contribute to weight gain\""
+    },
+    {
+      "id": "e21-03-tf4",
+      "type": "true_false",
+      "subtopic": "Aripiprazole",
+      "statement": "Aripiprazole is always strictly weight neutral with no weight gain in any patient.",
+      "correctAnswer": false,
+      "explanation": "Aripiprazole is classified weight neutral but can cause ~9–10 lb gain and more in sensitive individuals.",
+      "reference": "Case 2: \"Some agents are classified as weight neutral, such as aripiprazole, but these agents are associated with mild weight gain of approximately 9 to 10 lb (4-4.5 kg) in general\""
+    },
+    {
+      "id": "e21-03-tf5",
+      "type": "true_false",
+      "subtopic": "GLP-1 weight loss",
+      "statement": "Injectable GLP-1 receptor agonists are associated with more weight loss than oral SGLT-2 inhibitors.",
+      "correctAnswer": true,
+      "explanation": "GLP-1 RAs produce 5–10% body mass loss versus ~5–10 lb with SGLT-2 inhibitors.",
+      "reference": "Case 1: \"Injectable GLP-1 receptor agonists are associated with more weight loss (5%-10% of body mass) than the oral SGLT-2 inhibitors such as empagliflozin (Answer D)\""
+    },
+    {
+      "id": "e21-03-tf6",
+      "type": "true_false",
+      "subtopic": "Beta blockers",
+      "statement": "Beta-adrenergic blockers are among medication classes associated with weight gain.",
+      "correctAnswer": true,
+      "explanation": "Beta-blockers for cardiovascular indications are less recognized but important weight-promoting agents.",
+      "reference": "Significance of the Clinical Problem: \"β-adrenergic blockers used to treat heart disease, heart rhythm disorders, and hypertension\""
+    },
+    {
+      "id": "e21-03-tf7",
+      "type": "true_false",
+      "subtopic": "Weight loss and comorbidities",
+      "statement": "Weight loss can improve asthma, type 2 diabetes, hypertension, NAFLD, and sleep apnea.",
+      "correctAnswer": true,
+      "explanation": "Multiple obesity-related conditions improve with weight reduction.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"Many other chronic conditions have been shown to improve with weight loss including type 2 diabetes, hypertension, dyslipidemia, metabolic syndrome, cardiovascular disease, osteoarthritis, nonalcoholic fatty liver disease, and sleep apnea.\""
+    },
+    {
+      "id": "e21-03-tf8",
+      "type": "true_false",
+      "subtopic": "Topiramate adjunct",
+      "statement": "Topiramate may promote weight loss and improve glucose metabolism when used with antipsychotics.",
+      "correctAnswer": true,
+      "explanation": "Topiramate is an option beyond metformin for antipsychotic-associated weight/metabolic effects.",
+      "reference": "Antidepressants and Antipsychotic Medications: \"Topiramate, FDA approved for use in seizure disorders and migraine prophylaxis, has also been shown to promote weight loss and improve glucose metabolism when used in conjunction with antipsychotic medications.\""
+    },
+    {
+      "id": "e21-03-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Medication scan",
+      "assertion": "Assertion: Reviewing medication lists for weight-promoting drugs is a first step in obesity treatment planning.",
+      "reason": "Reason: All medications have identical effects on body weight.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; identical weight effects are false.",
+      "reference": "Strategies for Diagnosis, Therapy, and/or Management: \"One of the first steps in approaching a treatment plan for patients with overweight or obesity is to review their medication list\""
+    },
+    {
+      "id": "e21-03-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Steroid–asthma cycle",
+      "assertion": "Assertion: Obesity can worsen asthma after glucocorticoid-induced weight gain.",
+      "reason": "Reason: Weight gain never affects pulmonary disease.",
+      "correctOption": 2,
+      "explanation": "Assertion describes a vicious cycle; weight affecting asthma is false as stated.",
+      "reference": "Glucocorticoids (Oral, Topical, Inhaled, Intra-articular Injections): \"Steroid use can help control asthma, but weight gain and obesity can then make asthma worse.\""
+    },
+    {
+      "id": "e21-03-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Semaglutide",
+      "assertion": "Assertion: Semaglutide is preferred over sitagliptin when weight loss and glycemic improvement are both needed.",
+      "reason": "Reason: DPP-4 inhibitors produce greater weight loss than GLP-1 receptor agonists.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; the reason reverses the weight effects of the drug classes.",
+      "reference": "Case 1: \"The oral DPP-4 inhibitors such as sitagliptin (Answer A) work on the same pathway as GLP-1 receptor agonists, but they are not associated with significant weight loss\""
+    },
+    {
+      "id": "e21-03-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Cariprazine",
+      "assertion": "Assertion: Cariprazine may contribute to post-bariatric weight regain in Case 2.",
+      "reason": "Reason: All atypical antipsychotics are strictly weight neutral.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; universal weight neutrality of antipsychotics is false.",
+      "reference": "Case 2: \"Cariprazine (Answer A) is known to cause weight gain\""
+    },
+    {
+      "id": "e21-03-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Propranolol",
+      "assertion": "Assertion: Propranolol may contribute to weight gain in Case 3.",
+      "reason": "Reason: Beta-adrenergic blockers are associated with weight gain.",
+      "correctOption": 0,
+      "explanation": "Both are true and consistent with the case timeline.",
+      "reference": "Case 3: \"Propranolol, a β-adrenergic blocker, is commonly used to reduce the frequency of migraines, but this medication class is associated with weight gain.\""
+    },
+    {
+      "id": "e21-03-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Insulin in T2DM",
+      "assertion": "Assertion: High-dose insulin in type 2 diabetes can worsen insulin resistance via weight gain.",
+      "reason": "Reason: Insulin is a catabolic hormone that promotes weight loss.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; insulin is anabolic and promotes weight gain—the reason is false.",
+      "reference": "Diabetes Medications: \"Insulin use in type 2 diabetes, which is strongly associated with overweight/obesity and insulin resistance, can be particularly detrimental.\""
+    },
+    {
+      "id": "e21-03-ar7",
+      "type": "assertion_reason",
+      "subtopic": "Antihistamines",
+      "assertion": "Assertion: Long-term antihistamine use has been associated with weight gain in observational studies.",
+      "reason": "Reason: Antihistamines decrease appetite via H1 receptor agonism.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; H1 antagonism increases appetite—the reason is false.",
+      "reference": "Antihistamines: \"Long-term use of antihistamines, including over-the-counter antihistamines, has been associated with weight gain in observational studies\""
+    },
+    {
+      "id": "e21-03-ar8",
+      "type": "assertion_reason",
+      "subtopic": "Testosterone",
+      "assertion": "Assertion: Testosterone therapy in hypogonadal men can improve body composition.",
+      "reason": "Reason: Testosterone increases adipose tissue and decreases lean mass.",
+      "correctOption": 2,
+      "explanation": "Assertion is true; the reason describes the opposite of testosterone's effect on composition.",
+      "reference": "Reproductive Hormones (Hormonal contraceptives, Hormone Replacement Therapy with Sex Steroids): \"treatment with testosterone can improve body composition with loss of adipose tissue and gain of lean muscle mass.\""
     }
   ]
 }
