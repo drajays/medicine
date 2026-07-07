@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 1/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 2/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -115,8 +115,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | Module | Status | Items | Why/How |
 |--------|--------|-------|---------|
 | w15-01 Principles of Endocrinology | ✅ authored | 77 | 54% |
+| w15-02 Principles of Hormone Action | ✅ authored | 77 | 54% |
 
-**Phase 2 Williams 15e: 1/48 chapters complete** (~77 items)
+**Phase 2 Williams 15e: 2/48 chapters complete** (~154 items)
 
 ## Phase 3 — ESAP 2015
 
@@ -172,4 +173,5 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-07 | e21-03 | 41 | 67% | pending |
 | 2026-07-07 | e21-04 | 41 | 67% | pending |
 | 2026-07-07 | e21-37 | 41 | 83% | 8ba74f9 |
-| 2026-07-07 | w15-01 | 77 | 54% | pending |
+| 2026-07-07 | w15-01 | 77 | 54% | db0e87d |
+| 2026-07-08 | w15-02 | 77 | 54% | pending |
