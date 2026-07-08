@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 26/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 27/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -140,8 +140,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-24 Transgender endocrinology | ✅ authored | 77 | 77% |
 | w15-25 Hormones & athletic performance | ✅ authored | 77 | 73% |
 | w15-26 Endocrine function & aging | ✅ authored | 77 | 88% |
+| w15-27 Hormones & disorders of mineral metabolism | ✅ authored | 77 | 100% |
 
-**Phase 2 Williams 15e: 26/48 chapters complete** (~2,002 items)
+**Phase 2 Williams 15e: 27/48 chapters complete** (~2,079 items)
 
 ## Phase 3 — ESAP 2015
 
