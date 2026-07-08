@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 34/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 35/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -148,8 +148,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-32 Physiology of insulin secretion | ✅ authored | 77 | 100% |
 | w15-33 Pathophysiology of T2DM | ✅ authored | 77 | 100% |
 | w15-34 Therapeutics of T2DM | ✅ authored | 77 | 100% |
+| w15-35 Type 1 diabetes mellitus | ✅ authored | 77 | 100% |
 
-**Phase 2 Williams 15e: 34/48 chapters complete** (~2,618 items)
+**Phase 2 Williams 15e: 35/48 chapters complete** (~2,695 items)
 
 ## Phase 3 — ESAP 2015
 
