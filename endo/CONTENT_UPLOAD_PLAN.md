@@ -205,7 +205,7 @@ Split `endo2024/` OCR → 13 modules (FM, lab ranges, abbreviations, 10 topic se
 | e24-12 Thyroid Section 1 | ✅ uploaded | 45 | 16 | 100% |
 | e24-13 Thyroid Section 2 | ✅ uploaded | 51 | 18 | 100% |
 
-**Phase 4 EBR 2024: 13/13 modules live** (~686 items, 218 MCQs with answer keys remediated).
+**Phase 4 EBR 2024: 13/13 modules live** (~742 items, 218 verified MCQs). **29 stems** lack OCR answer keys — each stamped with an `INCOMPLETE` note + `authoringStatus: incomplete` on any linked MCQ (`stamp_endo2024_incomplete.py`).
 
 ## Phase 5 — Optional
 
