@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 30/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 31/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -144,8 +144,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-28 Endocrine functions of bone | ✅ authored | 77 | 85% |
 | w15-29 Osteoporosis: basic & clinical aspects | ✅ authored | 77 | 62% |
 | w15-30 Rickets & osteomalacia | ✅ authored | 77 | 62% |
+| w15-31 Kidney stones | ✅ authored | 77 | 100% |
 
-**Phase 2 Williams 15e: 30/48 chapters complete** (~2,310 items)
+**Phase 2 Williams 15e: 31/48 chapters complete** (~2,387 items)
 
 ## Phase 3 — ESAP 2015
 
