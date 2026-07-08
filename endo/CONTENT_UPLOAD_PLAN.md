@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 24/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 25/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -138,8 +138,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-22 Normal & aberrant growth in children | ✅ authored | 77 | 85% |
 | w15-23 Physiology & disorders of puberty | ✅ authored | 77 | 73% |
 | w15-24 Transgender endocrinology | ✅ authored | 77 | 77% |
+| w15-25 Hormones & athletic performance | ✅ authored | 77 | 73% |
 
-**Phase 2 Williams 15e: 24/48 chapters complete** (~1,848 items)
+**Phase 2 Williams 15e: 25/48 chapters complete** (~1,925 items)
 
 ## Phase 3 — ESAP 2015
 
@@ -218,4 +219,5 @@ Stage only changed JSON + `index.json`. Never `git add -A`. One module per commi
 | 2026-07-08 | w15-21 | 77 | 62% | b0666db |
 | 2026-07-08 | w15-22 | 77 | 85% | a6e4f7f |
 | 2026-07-08 | w15-23 | 77 | 73% | 5c7a757 |
-| 2026-07-08 | w15-24 | 77 | 77% | pending |
+| 2026-07-08 | w15-24 | 77 | 77% | 073a9c4 |
+| 2026-07-08 | w15-25 | 77 | 73% | pending |
