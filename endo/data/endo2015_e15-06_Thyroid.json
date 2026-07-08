@@ -566,6 +566,158 @@
       "title": "How to apply this case clinically",
       "text": "## 113 ANSWER: A) Perform FNAB of the palpable thyroid nodule\n\n113 AN Patients presenting with nodular goiter should have a complete history, physical examination, and serum TSH measurement. Although neck palpation is inexpensive, widely available, and simple to perform, it is notoriously imprecise and insensitive in the detection and estimation of size and number of thyroid nodules. All patients with a nodular thyroid should be evaluated with ultrasonography to confirm the presence of a mass, to assess whether the lesion is single or multiple, to determine whether it is of thyroidal origin, and to guide FNAB—the procedure of choice in the evaluation of thyroid nodules. Patients with multiple thyroid nodules have the same risk of malignancy as those with solitary thyroid nodules. Additional nodules are detected in up to 50% of patients presenting with a single palpable nodule when ultrasonography is performed. Selection of those nodules that require biopsy in patients with a multinodular goiter requires careful consideration. Certain ultrasonographic features are associated with increased risk of malignancy, including hypoechogenicity, the presence of microcalcifications, taller than wide shape, increased vascular flow, irregular borders, and absence of a halo. Nodules with any of these features should be aspirated preferentially. The combination of several of these sonographic features increases specificity.\n\nThe patient in this vignette has multiple benign-appearing nodules that are well defined, isoechoic, and have no suspicious ultrasonographic features. In this situation, the best recommendation is to aspirate the largest or dominant nodule(s) and to observe the rest with periodic ultrasonography (Answer A). Nodules that have been reported to have benign cytologic characteristics have a false-negative rate of up to 5%; thus, follow-up is recommended within 6 to 18 months of the initial investigation. Although there is no consensus on the definition of clinically significant growth of a thyroid nodule, guidelines from the American Thyroid Association recommend another biopsy when there has been at least a 50% increase in nodule volume within 6 to 18 months from the initial FNAB. If the nodule size is stable, another FNAB is not required and the interval before the next clinical evaluation may be extended to 3 to 5 years.\n\nThe American Thyroid Association guidelines provide nodule threshold sizes for FNAB. For mixed cystic-solid nodules such as the ones",
       "reference": "ESAP 2015 Discussion 113: \"Manage nontoxic nodular goiter and select nodules that require fine-needle aspiration biopsy.\""
+    },
+    {
+      "id": "e15-06-tf1",
+      "type": "true_false",
+      "subtopic": "Pregnancy TSH",
+      "statement": "TSH >2.5 mIU/L in the first trimester may warrant levothyroxine in pregnancy.",
+      "correctAnswer": true,
+      "explanation": "ATA/Endocrine Society pregnancy TSH targets are lower than nonpregnant ranges.",
+      "reference": "ESAP 2015: \"subclinical hypothyroidism in the first trimester\""
+    },
+    {
+      "id": "e15-06-tf2",
+      "type": "true_false",
+      "subtopic": "TSH suppression",
+      "statement": "Long-term TSH suppression after thyroid cancer always remains necessary.",
+      "correctAnswer": false,
+      "explanation": "Low-risk survivors may relax suppression after sustained remission.",
+      "reference": "ESAP 2015 Case 13: \"continued TSH suppression is no longer merited\""
+    },
+    {
+      "id": "e15-06-tf3",
+      "type": "true_false",
+      "subtopic": "Amiodarone",
+      "statement": "Amiodarone can cause both thyrotoxicosis and hypothyroidism.",
+      "correctAnswer": true,
+      "explanation": "Iodine load and direct toxicity affect thyroid function.",
+      "reference": "ESAP 2015 Case 28: \"amiodarone\""
+    },
+    {
+      "id": "e15-06-tf4",
+      "type": "true_false",
+      "subtopic": "Thyroid storm",
+      "statement": "Elevated T3 in critical illness always indicates thyroid storm.",
+      "correctAnswer": false,
+      "explanation": "Rarely elevated T3 in ICU should prompt hyperthyroidism evaluation, not automatic storm label without context.",
+      "reference": "ESAP 2015: \"elevated T3 concentrations are highly unusual in critical illness\""
+    },
+    {
+      "id": "e15-06-tf5",
+      "type": "true_false",
+      "subtopic": "FNAB",
+      "statement": "Benign FNAB cytology eliminates need for follow-up ultrasound.",
+      "correctAnswer": false,
+      "explanation": "Benign nodules still require serial imaging.",
+      "reference": "ESAP 2015: \"Thyroid nodules\""
+    },
+    {
+      "id": "e15-06-tf6",
+      "type": "true_false",
+      "subtopic": "RAI Graves",
+      "statement": "Radioiodine is contraindicated in Graves ophthalmopathy without caution.",
+      "correctAnswer": true,
+      "explanation": "May worsen eye disease; steroids or alternative therapy considered.",
+      "reference": "ESAP 2015 Case 43: \"Graves ophthalmopathy\""
+    },
+    {
+      "id": "e15-06-tf7",
+      "type": "true_false",
+      "subtopic": "Subclinical hypo",
+      "statement": "Subclinical hypothyroidism in pregnancy should never be treated.",
+      "correctAnswer": false,
+      "explanation": "Treatment considered when TSH above trimester-specific range.",
+      "reference": "ESAP 2015: \"levothyroxine replacement\""
+    },
+    {
+      "id": "e15-06-tf8",
+      "type": "true_false",
+      "subtopic": "Thyroglobulin",
+      "statement": "Undetectable thyroglobulin on suppression supports remission in differentiated thyroid cancer.",
+      "correctAnswer": true,
+      "explanation": "Negative Tg and scan support low recurrence risk.",
+      "reference": "ESAP 2015 Case 13: \"undetectable serum thyroglobulin\""
+    },
+    {
+      "id": "e15-06-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Pregnancy",
+      "assertion": "Positive TPO antibodies in pregnancy always require immediate high-dose levothyroxine.",
+      "reason": "TPO positivity alone without elevated TSH may be monitored; treatment depends on TSH.",
+      "correctOption": 2,
+      "explanation": "A false.",
+      "reference": "ESAP 2015: \"TPO antibodies\""
+    },
+    {
+      "id": "e15-06-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Cancer",
+      "assertion": "Lowering levothyroxine in low-risk thyroid cancer survivors increases fracture and AF risk if still suppressed.",
+      "reason": "Relaxing suppression reduces subclinical hyperthyroid complications.",
+      "correctOption": 0,
+      "explanation": "Both true; suppression carries bone and AF risk.",
+      "reference": "ESAP 2015 Case 13: \"detrimental effects of hyperthyroidism on bone density\""
+    },
+    {
+      "id": "e15-06-ar3",
+      "type": "assertion_reason",
+      "subtopic": "Amiodarone",
+      "assertion": "Type 1 amiodarone thyrotoxicosis is best treated with antithyroid drugs alone in all cases.",
+      "reason": "Type 2 may need steroids; mixed types exist.",
+      "correctOption": 2,
+      "explanation": "A oversimplified.",
+      "reference": "ESAP 2015 Case 28: \"amiodarone-induced thyrotoxicosis\""
+    },
+    {
+      "id": "e15-06-ar4",
+      "type": "assertion_reason",
+      "subtopic": "Nodules",
+      "assertion": "All thyroid nodules >1 cm require surgery.",
+      "reason": "FNAB and risk stratification guide management.",
+      "correctOption": 2,
+      "explanation": "A false.",
+      "reference": "ESAP 2015: \"FNAB\""
+    },
+    {
+      "id": "e15-06-ar5",
+      "type": "assertion_reason",
+      "subtopic": "Euthyroid sick",
+      "assertion": "Low T3 in ICU always requires levothyroxine.",
+      "reason": "Sick euthyroid syndrome is adaptive; treatment not beneficial.",
+      "correctOption": 2,
+      "explanation": "A false.",
+      "reference": "Williams 15e ch48: \"interventional studies have not shown benefit\""
+    },
+    {
+      "id": "e15-06-ar6",
+      "type": "assertion_reason",
+      "subtopic": "Graves",
+      "assertion": "Methimazole is never used in pregnancy.",
+      "reason": "Methimazole used in 2nd-3rd trimester; PTU preferred 1st trimester historically.",
+      "correctOption": 2,
+      "explanation": "A false.",
+      "reference": "ESAP 2015: \"antithyroid drugs\""
+    },
+    {
+      "id": "e15-06-ar7",
+      "type": "assertion_reason",
+      "subtopic": "TgAb",
+      "assertion": "Thyroglobulin antibodies invalidate all Tg monitoring.",
+      "reason": "Tg may still be tracked with caution; antibodies interfere but do not always preclude use.",
+      "correctOption": 2,
+      "explanation": "A overstated.",
+      "reference": "ESAP 2015: \"thyroglobulin\""
+    },
+    {
+      "id": "e15-06-ar8",
+      "type": "assertion_reason",
+      "subtopic": "RAI",
+      "assertion": "Pregnancy is an absolute contraindication to diagnostic radioiodine scanning.",
+      "reason": "RAI scanning contraindicated in pregnancy due to fetal thyroid destruction risk.",
+      "correctOption": 0,
+      "explanation": "Both true.",
+      "reference": "ESAP 2015: \"pregnancy\""
     }
   ]
 }

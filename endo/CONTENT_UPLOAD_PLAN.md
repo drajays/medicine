@@ -8,7 +8,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
 | Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 48/48 authored · ⏳ w15-00 skip |
-| ESAP 2015 | 10 (`e15-01`–`e15-10`) | ✅ split + OCR | ✅ `endo/data/` | ✅ 10/10 · 111/120 MCQs parsed |
+| ESAP 2015 | 10 (`e15-01`–`e15-10`) | ✅ split + OCR | ✅ `endo/data/` | ✅ 10/10 · 120/120 MCQs · 8 TF + 8 AR/topic |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
 **Authoring workspace:** `/Users/dr.ajayshukla/endo_masterapp`  
@@ -173,16 +173,16 @@ Split `noupload/endo2015/` → 10 modules (FM, lab ranges, 8 ABIM umbrella topic
 |--------|--------|-------|------|---------|
 | e15-01 Front Matter | ✅ uploaded | 2 | 0 | 50% |
 | e15-02 Laboratory Reference Ranges | ✅ uploaded | 4 | 0 | 100% |
-| e15-03 Diabetes | ✅ uploaded | 78 | 28 | 100% |
-| e15-04 Lipid and Obesity | ✅ uploaded | 32 | 12 | 100% |
-| e15-05 Bone and Mineral | ✅ uploaded | 42 | 15 | 100% |
-| e15-06 Thyroid | ✅ uploaded | 51 | 19 | 100% |
-| e15-07 Adrenal | ✅ uploaded | 24 | 9 | 100% |
-| e15-08 Pituitary | ✅ uploaded | 32 | 11 | 100% |
-| e15-09 Reproduction Female | ✅ uploaded | 19 | 7 | 100% |
-| e15-10 Reproduction Male | ✅ uploaded | 26 | 10 | 100% |
+| e15-03 Diabetes | ✅ uploaded | 100 | 30 | 100% |
+| e15-04 Lipid and Obesity | ✅ uploaded | 54 | 14 | 100% |
+| e15-05 Bone and Mineral | ✅ uploaded | 64 | 17 | 100% |
+| e15-06 Thyroid | ✅ uploaded | 67 | 19 | 100% |
+| e15-07 Adrenal | ✅ uploaded | 43 | 10 | 100% |
+| e15-08 Pituitary | ✅ uploaded | 48 | 11 | 100% |
+| e15-09 Reproduction Female | ✅ uploaded | 38 | 8 | 100% |
+| e15-10 Reproduction Male | ✅ uploaded | 45 | 11 | 100% |
 
-**Phase 3 ESAP 2015: 10/10 modules live** (~330 items, 111/120 ESAP MCQs). Remaining 9 cases need manual OCR fix.
+**Phase 3 ESAP 2015: 10/10 modules live** (~465 items, 120/120 ESAP MCQs, 8 T/F + 8 A/R per topic module). Script: `remediate_endo2015_depth.py`.
 
 ## Phase 4 — Optional
 
