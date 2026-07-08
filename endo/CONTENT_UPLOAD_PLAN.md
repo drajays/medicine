@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 41/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 42/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -155,8 +155,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-39 Hypoglycemia | ✅ authored | 77 | 100% |
 | w15-40 Obesity & neuroendocrine energy control | ✅ authored | 77 | 100% |
 | w15-41 Disorders of lipoprotein metabolism | ✅ authored | 77 | 100% |
+| w15-42 Endocrine neoplasia syndromes | ✅ authored | 77 | 100% |
 
-**Phase 2 Williams 15e: 41/48 chapters complete** (~3,157 items)
+**Phase 2 Williams 15e: 42/48 chapters complete** (~3,234 items)
 
 ## Phase 3 — ESAP 2015
 
