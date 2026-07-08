@@ -44,6 +44,11 @@ async function loadJSON(path){
   return r.json();
 }
 
+/** Published catalog entries: Williams uses "complete", ESAP uses "ready". */
+function isPublished(entry){
+  return !!entry?.file && (entry.status === 'ready' || entry.status === 'complete');
+}
+
 /* ---------- boot ---------- */
 (async function boot(){
   try {
@@ -58,7 +63,7 @@ async function loadJSON(path){
 /* ---------- catalog view ---------- */
 async function loadContentCounts(entries){
   const counts = {};
-  const ready = entries.filter(ch => ch.status === 'ready' && ch.file);
+  const ready = entries.filter(isPublished);
   await Promise.all(ready.map(async ch => {
     try {
       const data = await loadJSON('data/' + ch.file);
@@ -79,7 +84,7 @@ async function loadContentCounts(entries){
 
 async function loadTrialCounts(entries){
   const counts = {};
-  const ready = entries.filter(ch => ch.status === 'ready' && ch.file);
+  const ready = entries.filter(isPublished);
   await Promise.all(ready.map(async ch => {
     try {
       const data = await loadJSON('data/' + ch.file);
@@ -114,7 +119,7 @@ async function showCatalog(){
     app.innerHTML = '<div class="loading">Loading catalog…</div>';
     CATALOG._counts = {};
     const allChapters = CATALOG.sections.flatMap(s => s.chapters);
-    const ready = allChapters.filter(ch => ch.status === 'ready' && ch.file);
+    const ready = allChapters.filter(isPublished);
     await Promise.all(ready.map(async ch => {
       try {
         const data = await loadJSON('data/' + ch.file);
@@ -136,8 +141,8 @@ async function showCatalog(){
   }
 
   const allChapters = CATALOG.sections.flatMap(s => s.chapters);
-  const readyChapters = allChapters.filter(ch => ch.status === 'ready' && ch.file);
-  const pendingChapters = allChapters.filter(ch => !(ch.status === 'ready' && ch.file));
+  const readyChapters = allChapters.filter(isPublished);
+  const pendingChapters = allChapters.filter(ch => !isPublished(ch));
   const total = allChapters.length;
   const pct = total ? Math.round(100 * readyChapters.length / total) : 0;
   const nextUp = pendingChapters[0];
@@ -153,7 +158,7 @@ async function showCatalog(){
   /* Hot Topics section */
   if (CATALOG.hotTopics){
     const ht = CATALOG.hotTopics;
-    const htReady = hotTopics.filter(t => t.status === 'ready' && t.file);
+    const htReady = hotTopics.filter(isPublished);
     const htTotals = htReady.reduce((acc, t) => {
       const c = CATALOG._hotCounts?.[t.id];
       if (c){ acc.notes+=c.notes; acc.mcq+=c.mcq; acc.tf+=c.tf; acc.ar+=c.ar; acc.items+=c.total; }
@@ -173,7 +178,7 @@ async function showCatalog(){
     </div>`;
     html += `<div class="section-body">`;
     for (const t of hotTopics){
-      const ready = t.status === 'ready' && t.file;
+      const ready = isPublished(t);
       const pill = ready ? '<span class="pill ready">ready</span>' : '<span class="pill pending">pending</span>';
       const c = ready ? CATALOG._hotCounts?.[t.id] : null;
       const sub = ready
@@ -193,7 +198,7 @@ async function showCatalog(){
   /* Case Reports section */
   if (CATALOG.caseReports){
     const cr = CATALOG.caseReports;
-    const crReady = caseReports.filter(r => r.status === 'ready' && r.file);
+    const crReady = caseReports.filter(isPublished);
     const crTotals = crReady.reduce((acc, r) => {
       const c = CATALOG._caseCounts?.[r.id];
       if (c){ acc.notes+=c.notes; acc.mcq+=c.mcq; acc.tf+=c.tf; acc.ar+=c.ar; acc.why+=c.why; acc.how+=c.how; acc.items+=c.total; }
@@ -213,7 +218,7 @@ async function showCatalog(){
     </div>`;
     html += `<div class="section-body">`;
     for (const r of caseReports){
-      const ready = r.status === 'ready' && r.file;
+      const ready = isPublished(r);
       const pill = ready ? '<span class="pill ready">ready</span>' : '<span class="pill pending">pending</span>';
       const c = ready ? CATALOG._caseCounts?.[r.id] : null;
       const sub = ready
@@ -233,7 +238,7 @@ async function showCatalog(){
   /* Trials section */
   if (CATALOG.trials){
     const tr = CATALOG.trials;
-    const trReady = trials.filter(t => t.status === 'ready' && t.file);
+    const trReady = trials.filter(isPublished);
     const trTotals = trReady.reduce((acc, t) => {
       const c = CATALOG._trialCounts?.[t.id];
       if (c){
@@ -256,7 +261,7 @@ async function showCatalog(){
     </div>`;
     html += `<div class="section-body">`;
     for (const t of trials){
-      const ready = t.status === 'ready' && t.file;
+      const ready = isPublished(t);
       const pill = ready ? '<span class="pill ready">ready</span>' : '<span class="pill pending">pending</span>';
       const c = ready ? CATALOG._trialCounts?.[t.id] : null;
       const sub = ready
@@ -287,7 +292,7 @@ async function showCatalog(){
   </div>`;
 
   for (const sec of CATALOG.sections){
-    const readyCount = sec.chapters.filter(ch => ch.status === 'ready' && ch.file).length;
+    const readyCount = sec.chapters.filter(isPublished).length;
     const hasNext = nextUp && sec.chapters.some(ch => ch.id === nextUp.id);
     const expanded = readyCount > 0 || hasNext;
     html += `<div class="section-head${expanded?'':' collapsed'}" data-toggle>
@@ -297,7 +302,7 @@ async function showCatalog(){
     </div>`;
     html += `<div class="section-body"${expanded?'':' hidden'}>`;
     for (const ch of sec.chapters){
-      const ready = ch.status === 'ready' && ch.file;
+      const ready = isPublished(ch);
       const isNext = nextUp && ch.id === nextUp.id;
       const pill = ready ? '<span class="pill ready">ready</span>' : (isNext ? '<span class="pill next">next up</span>' : '<span class="pill pending">pending</span>');
       const c = ready ? CATALOG._counts[ch.id] : null;
