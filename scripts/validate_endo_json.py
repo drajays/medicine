@@ -49,7 +49,12 @@ def validate_file(path: Path) -> list[str]:
         elif t == "mcq":
             opts = it.get("options", [])
             mod_id = str(data.get("id", ""))
-            allow_five = mod_id.startswith("e15-") or path.name.startswith("endo2015_")
+            allow_five = (
+                mod_id.startswith("e15-")
+                or mod_id.startswith("e24-")
+                or path.name.startswith("endo2015_")
+                or path.name.startswith("endo2024_")
+            )
             if allow_five:
                 if len(opts) not in (4, 5):
                     errors.append(f"{iid}: mcq needs 4 or 5 options, has {len(opts)}")

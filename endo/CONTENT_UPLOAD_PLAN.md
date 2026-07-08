@@ -9,6 +9,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
 | Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 48/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 10 (`e15-01`–`e15-10`) | ✅ split + OCR | ✅ `endo/data/` | ✅ 10/10 · 120/120 MCQs · 8 TF + 8 AR/topic |
+| EBR 2024 | 13 (`e24-01`–`e24-13`) | ✅ split + OCR | ✅ `endo/data/` | ✅ 13/13 · 218 MCQs remediated |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
 **Authoring workspace:** `/Users/dr.ajayshukla/endo_masterapp`  
@@ -184,7 +185,29 @@ Split `noupload/endo2015/` → 10 modules (FM, lab ranges, 8 ABIM umbrella topic
 
 **Phase 3 ESAP 2015: 10/10 modules live** (~465 items, 120/120 ESAP MCQs, 8 T/F + 8 A/R per topic module). Script: `remediate_endo2015_depth.py`.
 
-## Phase 4 — Optional
+## Phase 4 — Endocrine Board Review 2024
+
+Split `endo2024/` OCR → 13 modules (FM, lab ranges, abbreviations, 10 topic sections). Scripts: `split_endo2024.py`, `build_endo2024_modules.py`, `remediate_endo2024_depth.py`.
+
+| Module | Status | Items | MCQs | Why/How |
+|--------|--------|-------|------|---------|
+| e24-01 Front Matter | ✅ uploaded | 2 | 0 | 50% |
+| e24-02 Laboratory Reference Ranges | ✅ uploaded | 7 | 0 | 100% |
+| e24-03 Common Abbreviations | ✅ uploaded | 1 | 0 | 100% |
+| e24-04 Adrenal | ✅ uploaded | 61 | 21 | 100% |
+| e24-05 Bone | ✅ uploaded | 88 | 31 | 100% |
+| e24-06 Diabetes Section 1 | ✅ uploaded | 73 | 25 | 100% |
+| e24-07 Diabetes Section 2 | ✅ uploaded | 78 | 27 | 100% |
+| e24-08 Female Reproduction | ✅ uploaded | 45 | 16 | 100% |
+| e24-09 Male Reproduction | ✅ uploaded | 47 | 16 | 100% |
+| e24-10 Lipids and Obesity | ✅ uploaded | 78 | 27 | 100% |
+| e24-11 Pituitary | ✅ uploaded | 60 | 21 | 100% |
+| e24-12 Thyroid Section 1 | ✅ uploaded | 45 | 16 | 100% |
+| e24-13 Thyroid Section 2 | ✅ uploaded | 51 | 18 | 100% |
+
+**Phase 4 EBR 2024: 13/13 modules live** (~686 items, 218 MCQs with answer keys remediated).
+
+## Phase 5 — Optional
 
 Hot topics, case reports, trials; React migration to main `data/` catalog.
 

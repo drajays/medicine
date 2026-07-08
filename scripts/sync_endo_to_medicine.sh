@@ -8,7 +8,7 @@ DEST="$(cd "$(dirname "$0")/.." && pwd)/endo/data"
 echo "Validating source JSON..."
 python3 "$(dirname "$0")/validate_endo_json.py" "$SRC"/*.json 2>/dev/null || {
   # validate only non-index files in src
-  for f in "$SRC"/endo2021_*.json "$SRC"/w15-*.json "$SRC"/endo2015_*.json; do
+  for f in "$SRC"/endo2021_*.json "$SRC"/w15-*.json "$SRC"/endo2015_*.json "$SRC"/endo2024_*.json; do
     [ -f "$f" ] || continue
     python3 "$(dirname "$0")/validate_endo_json.py" "$f" || exit 1
   done
