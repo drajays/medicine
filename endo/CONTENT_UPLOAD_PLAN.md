@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 46/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 47/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -160,8 +160,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-44 Immunoendocrinopathy syndromes | ✅ authored | 77 | 100% |
 | w15-45 Cancer management & survivorship | ✅ authored | 77 | 100% |
 | w15-46 Endocrinology of HIV/AIDS | ✅ authored | 77 | 100% |
+| w15-47 COVID-19 & endocrine system | ✅ authored | 77 | 100% |
 
-**Phase 2 Williams 15e: 46/48 chapters complete** (~3,542 items)
+**Phase 2 Williams 15e: 47/48 chapters complete** (~3,619 items)
 
 ## Phase 3 — ESAP 2015
 
