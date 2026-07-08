@@ -48,11 +48,20 @@ def validate_file(path: Path) -> list[str]:
             errors.append(f"{iid}: legacy type 'how' — convert to note with How title")
         elif t == "mcq":
             opts = it.get("options", [])
-            if len(opts) != 4:
-                errors.append(f"{iid}: mcq needs 4 options, has {len(opts)}")
-            co = it.get("correctOption")
-            if co not in (0, 1, 2, 3):
-                errors.append(f"{iid}: mcq correctOption must be 0-3")
+            mod_id = str(data.get("id", ""))
+            allow_five = mod_id.startswith("e15-") or path.name.startswith("endo2015_")
+            if allow_five:
+                if len(opts) not in (4, 5):
+                    errors.append(f"{iid}: mcq needs 4 or 5 options, has {len(opts)}")
+                co = it.get("correctOption")
+                if co not in (0, 1, 2, 3, 4):
+                    errors.append(f"{iid}: mcq correctOption must be 0-4")
+            else:
+                if len(opts) != 4:
+                    errors.append(f"{iid}: mcq needs 4 options, has {len(opts)}")
+                co = it.get("correctOption")
+                if co not in (0, 1, 2, 3):
+                    errors.append(f"{iid}: mcq correctOption must be 0-3")
             if not (it.get("question") or it.get("stem")):
                 errors.append(f"{iid}: mcq missing question/stem")
         elif t == "true_false":

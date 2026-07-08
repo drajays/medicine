@@ -8,7 +8,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
 | Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 48/48 authored · ⏳ w15-00 skip |
-| ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
+| ESAP 2015 | 10 (`e15-01`–`e15-10`) | ✅ split + OCR | ✅ `endo/data/` | ✅ 10/10 uploaded (60/120 cases parsed from OCR) |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
 **Authoring workspace:** `/Users/dr.ajayshukla/endo_masterapp`  
@@ -167,7 +167,22 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 
 ## Phase 3 — ESAP 2015
 
-Re-split `noupload/endo2015/` → proper module TOC → author.
+Split `noupload/endo2015/` → 10 modules (FM, lab ranges, 8 ABIM umbrella topics). Scripts: `split_endo2015.py`, `build_endo2015_modules.py`.
+
+| Module | Status | Items | MCQs | Why/How |
+|--------|--------|-------|------|---------|
+| e15-01 Front Matter | ✅ uploaded | 2 | 0 | 50% |
+| e15-02 Laboratory Reference Ranges | ✅ uploaded | 4 | 0 | 100% |
+| e15-03 Diabetes | ✅ uploaded | 39 | 14 | 100% |
+| e15-04 Lipid and Obesity | ✅ uploaded | 8 | 3 | 100% |
+| e15-05 Bone and Mineral | ✅ uploaded | 29 | 10 | 100% |
+| e15-06 Thyroid | ✅ uploaded | 27 | 10 | 100% |
+| e15-07 Adrenal | ✅ uploaded | 20 | 7 | 100% |
+| e15-08 Pituitary | ✅ uploaded | 24 | 8 | 100% |
+| e15-09 Reproduction Female | ✅ uploaded | 12 | 4 | 100% |
+| e15-10 Reproduction Male | ✅ uploaded | 11 | 4 | 100% |
+
+**Phase 3 ESAP 2015: 10/10 modules live** (~196 items, 60 ESAP MCQs from OCR). Remediation pass needed for OCR-missed cases (~60).
 
 ## Phase 4 — Optional
 
