@@ -92,45 +92,125 @@ def classify_unassigned(qnum: int, qtext: str, atext: str) -> str:
     return best if scores[best] > 0 else "BONE"
 
 
+TOPIC_PRIORITY = [
+    "DIABETES",
+    "LIPID-OBESITY",
+    "BONE",
+    "THYROID",
+    "ADRENAL",
+    "PITUITARY",
+    "REPRODUCTION, FEMALE",
+    "REPRODUCTION, MALE",
+]
+
+
 def build_topic_map(md: str, questions: dict[int, str], answers: dict[int, str]) -> dict[str, set[int]]:
     index = parse_index_assignments(md)
-    topic_map = {
-        "DIABETES": set(index.get("DIABETES", set())),
-        "LIPID-OBESITY": set(index.get("LIPID-OBESITY", set())),
-        "PITUITARY": set(index.get("PITUITARY", set())),
-        "REPRODUCTION, FEMALE": set(index.get("REPRODUCTION, FEMALE", set())),
-        "REPRODUCTION, MALE": set(index.get("REPRODUCTION, MALE", set())),
-        "BONE": set(),
-        "THYROID": set(),
-        "ADRENAL": set(),
-    }
-    assigned = set().union(*topic_map.values())
+    topic_map = {slug: set() for slug in TOPIC_PRIORITY}
+
+    # Each question → single topic (priority list resolves index overlaps)
     for q in range(1, 121):
-        if q in assigned:
-            continue
-        key = classify_unassigned(q, questions.get(q, ""), answers.get(q, ""))
-        topic_map[key].add(q)
+        candidates = [slug for slug in TOPIC_PRIORITY if q in index.get(slug, set())]
+        if candidates:
+            topic_map[candidates[0]].add(q)
+        else:
+            key = classify_unassigned(q, questions.get(q, ""), answers.get(q, ""))
+            topic_map[key].add(q)
     return topic_map
+
+
+VIGNETTE_START = re.compile(
+    r"(?:^|\n)(?:"
+    r"A [0-9]{1,2}-year-old|"
+    r"A [0-9]{1,2} year-old|"
+    r"You are asked|You are consulted|You are requested|You are seeing|"
+    r"A cardiologist|A nephrologist|A urologist|A radiologist|"
+    r"The patient with|The daughter of|In addition to smoking|"
+    r"During an appointment|On the basis of this"
+    r")",
+    re.MULTILINE,
+)
+
+NUMBERED_START = re.compile(
+    r"(?:^|\n)(\d{1,3}) (?:A \d|A [a-z]|The |You |During |In addition|On the|A cardiologist|A nephrologist|A urologist)",
+    re.MULTILINE,
+)
+
+
+def split_unnumbered_block(text: str, expected_count: int) -> list[str]:
+    """Split a gap block into expected_count question vignettes."""
+    if expected_count <= 0:
+        return []
+    if expected_count == 1:
+        return [text.strip()] if text.strip() else []
+    starts = [m.start() for m in VIGNETTE_START.finditer(text)]
+    if len(starts) >= expected_count:
+        parts = []
+        for i in range(expected_count):
+            s = starts[i]
+            e = starts[i + 1] if i + 1 < len(starts) else len(text)
+            parts.append(text[s:e].strip())
+        return parts
+    # fallback: split on option E. followed by capital letter vignette
+    fallback = [m.start() for m in re.finditer(r"\nE\.[^\n]+\n\n(?=[A-Z])", text)]
+    if len(fallback) + 1 >= expected_count:
+        bounds = [0] + [m + 2 for m in fallback]
+        parts = []
+        for i in range(expected_count):
+            s = bounds[i] if i < len(bounds) else 0
+            e = bounds[i + 1] if i + 1 < len(bounds) else len(text)
+            if i < len(parts) or s < len(text):
+                chunk = text[s:e].strip()
+                if chunk:
+                    parts.append(chunk)
+        if len(parts) == expected_count:
+            return parts
+    return [text.strip()] if expected_count == 1 and text.strip() else []
 
 
 def parse_questions(part_i: str) -> dict[int, str]:
     m = re.search(r"Part I\s*", part_i)
     body = part_i[m.end():] if m else part_i
-    # Find question starts: line begins with optional number + age vignette
+
     markers: list[tuple[int, int]] = []
-    for m in re.finditer(r"(?:^|\n)(\d{1,3}) ([A-Z][^\n]{10,80}?(?:year|yr|yo|old))", body):
-        markers.append((m.start(1), int(m.group(1))))
-    if not markers:
-        return {}
+    seen_nums: set[int] = set()
+    for m in NUMBERED_START.finditer(body):
+        n = int(m.group(1))
+        if 1 <= n <= 120 and n not in seen_nums:
+            seen_nums.add(n)
+            markers.append((m.start(1), n))
+    markers.sort(key=lambda x: x[0])
+
     chunks: dict[int, str] = {}
-    # Q1 is text before first numbered marker (if marker isn't 1)
-    if markers[0][1] != 1:
-        chunks[1] = body[: markers[0][0]].strip()
+
+    # Q1 before first numbered marker (usually unnumbered)
+    if not markers or markers[0][1] != 1:
+        end = markers[0][0] if markers else len(body)
+        chunks[1] = body[:end].strip()
+
     for i, (pos, num) in enumerate(markers):
         end = markers[i + 1][0] if i + 1 < len(markers) else len(body)
-        chunk = body[pos:end].strip()
-        chunk = re.sub(r"^\d{1,3}\s+", "", chunk)
-        chunks[num] = chunk
+        raw = body[pos:end].strip()
+        raw = re.sub(r"^\d{1,3}\s+", "", raw)
+        next_num = markers[i + 1][1] if i + 1 < len(markers) else 121
+        gap = next_num - num
+        if gap == 1:
+            chunks[num] = raw
+        else:
+            # This span covers questions num..next_num-1
+            sub = split_unnumbered_block(raw, gap)
+            if len(sub) == gap:
+                for off, piece in enumerate(sub):
+                    chunks[num + off] = re.sub(r"^\d{1,3}\s+", "", piece).strip()
+            else:
+                chunks[num] = raw
+                # try to recover middle unnumbered from remainder
+                for missing in range(num + 1, next_num):
+                    if missing not in chunks and sub:
+                        idx = missing - num
+                        if idx < len(sub):
+                            chunks[missing] = sub[idx]
+
     return chunks
 
 
@@ -139,25 +219,31 @@ def parse_answers(part_ii: str) -> dict[int, tuple[str, str, str]]:
     body = part_ii
     m = re.search(r"Part II\s*", body)
     body = body[m.end():] if m else body
-    pat = re.compile(
+
+    numbered = re.compile(
         r"(?:^|\n)(?:#{1,5}\s*)?(\d{1,3})\s+ANSWER:\s*([A-E])\)\s*([^\n]+)",
         re.MULTILINE,
     )
-    matches = list(pat.finditer(body))
-  # Q1 without number prefix
-    m1 = re.search(r"(?:^|\n)#{1,5}\s*ANSWER:\s*([A-E])\)\s*([^\n]+)", body)
-    out: dict[int, tuple[str, str, str]] = {}
-    if m1 and (not matches or matches[0].start() > 0):
-        pre = body[: m1.start()]
-        if "spironolactone" in pre.lower() or matches and matches[0].group(1) != "1":
-            end = matches[0].start() if matches else len(body)
-            out[1] = (m1.group(1), m1.group(2), body[m1.start():end].strip())
-    for i, match in enumerate(matches):
+    unnumbered_q1 = re.compile(
+        r"(?:^|\n)#{1,5}\s*ANSWER:\s*([A-E])\)\s*([^\n]+)",
+        re.MULTILINE,
+    )
+
+    hits: list[tuple[int, int, str, str]] = []  # start, qnum, letter, line
+    for match in numbered.finditer(body):
         qnum = int(match.group(1))
-        letter = match.group(2)
-        line = match.group(3)
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(body)
-        out[qnum] = (letter, line, body[match.start():end].strip())
+        if 1 <= qnum <= 120:
+            hits.append((match.start(), qnum, match.group(2), match.group(3)))
+    m1 = unnumbered_q1.search(body)
+    if m1 and not any(h[1] == 1 for h in hits):
+        hits.append((m1.start(), 1, m1.group(1), m1.group(2)))
+
+    hits.sort(key=lambda x: x[0])
+    out: dict[int, tuple[str, str, str]] = {}
+    for i, (start, qnum, letter, line) in enumerate(hits):
+        end = hits[i + 1][0] if i + 1 < len(hits) else len(body)
+        if qnum not in out:
+            out[qnum] = (letter, line, body[start:end].strip())
     return out
 
 

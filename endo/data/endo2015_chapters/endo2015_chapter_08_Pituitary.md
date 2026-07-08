@@ -29,48 +29,6 @@ D. Tachyphylaxis to therapy
 
 E. Improvement in diabetes mellitus
 
-You are asked to help care for a 39-year-old woman with type 1 diabetes mellitus who presented to the emergency department by ambulance for increasing lethargy and altered mental status. She is unable to provide any. Her daughters report that she has had abdominal pain for the past 2 days and that she began vomiting 2 before she became less responsive at home. She has had diabetes for 24 years, which has been complicated heranuropathy and retinopathy. She uses an insulin pump. Her hemoglobin  $ A_{1c} $ level was 8.4% (0.084) before today's presentation. In the past 6 months, she has been admitted to the hospital twice.
-
-On physical examination, her temperature is  $ 97^{\circ} $F ( $ 36.1^{\circ} $C), supine blood pressure is 92/61 mm Hg, and pulse rate is 124 beats/min. She has deep respirations at a rate of 28 breaths/min. Her breath has a fruity odor. She is oriented only to person, speaks in broken sentences, and is confused. There are dry oral mucus membranes and no pharyngeal injection or exudates. Her lungs are clear. There are no murmurs on cardiac examination. Her abdomen is soft, moderately tender throughout, and nondistended. She has decreased skin turgor. Her insulin pump infusion set is located on her left lower abdomen, with no erythema or discharge. The insulin pump's battery is not functioning.
-
-Laboratory test results:
-
- $$ \mathrm{Venous~pH}=6.96 $$ 
-
- $$  Glucose=999\ mg/dL(55.44\ mmol/L) $$ 
-
- $$ \mathrm{Lactic~acid}=57.8\mathrm{mg/dL}(6.3\mathrm{mmol/L}) $$ 
-
- $$ \mathrm{Sodium}=129\mathrm{m E q/L}(129\mathrm{mmol/L}) $$ 
-
- $$ \mathrm{P o t a s s i u m}=5.6\mathrm{m E q/L}(5.6\mathrm{m o m o l/L}) $$ 
-
- $$ \mathrm{White~blood~cell~count}=33,140/\mu\mathrm{L}(33.14\times10^{9}/\mathrm{L}) $$ 
-
- $$ \mathrm{CO}_{2}=8\mathrm{mEq}/\mathrm{L}(8\mathrm{mmol}/\mathrm{L}) $$ 
-
- $$ \mathrm{Anion~gap}=36\mathrm{mEq/L} $$ 
-
- $$ \mathrm{Platelet\ count}=165\times10^{3}/\mu\mathrm{L}(165\times10^{9}/\mathrm{L}) $$ 
-
-Creatinine = 2.1 mg/dL (185.6 μmol/L)
-
-Urine toxicology screen, negative
-
-Plasma osmolality = 359 mOsm/kg (359 mmol/kg) (5 hours after presentation)
-
-#### In addition to administration of intravenous isotonic saline, which of the following actions will ensure the best outcome in this patient?
-
-A. Modify insulin treatment on the basis of serial arterial pH
-
-B. Administer sodium bicarbonate together with insulin
-
-C. Once blood glucose falls below 200 mg/dL (11.10 mmol/L), add 5% dextrose to the intravenous fluids and continue intravenous insulin until the acidosis has resolved
-
-D. Use intravenous insulin analogues rather than human regular insulin
-
-E. Administer a subcutaneous rapid-acting insulin analogue every 2 hours
-
 ### Answer 15: E) Improvement in diabetes mellitus
 
 ## 15 ANSWER: E) Improvement in diabetes mellitus
@@ -111,8 +69,33 @@ Higham CE, Rowles S, Russell-Jones D, Umpleby AM, Trainer PJ. Pegvisomant improv
 
 ## Question 24
 
-*[question text missing in OCR]*
+A 28-year-old man presents to the emergency department with a severe headache and vision problems, both of which have progressively worsened over the last 6 months. Head CT reveals a large sellar mass that extends suprasellarly and distorts the optic chiasm. The mass extends into the clivus and cavernous sinuses bilaterally. The patient has no relevant medical history and takes no medications. On further questioning, he describes noticing reduced libido and sexual dysfunction for about 1 year.
 
+On physical examination, he appears healthy. Heart rate is 76 beats/min, and blood pressure is 125/80 mm Hg. Weight is 187 lb (85 kg), and height is 71 in (180.3 cm) (BMI = 26.1 kg/m²). Findings on neurologic examination are normal, except for bitemporal hemianopsia documented on visual field examination.
+
+Laboratory test results (blood drawn at 8 AM):
+
+TSH = 1.0 mIU/L
+
+Prolactin = 1280 ng/mL (55.7 nmol/L)
+
+Free  $ T_4 = 0.9 $ ng/dL (11.6 pmol/L) GH = 0.5 ng/mL (0.5  $ \mu $g/L)
+
+Cortisol = 18.0  $ \mu $g/dL (497 nmol/L)
+
+Transsphenoidal surgical removal of the lesion is scheduled for tomorrow morning. Because of the hormonal abnormalities, the neurosurgeon contacts you for an opinion regarding the patient's management.
+
+Which of the following should you recommend next?
+
+A. Proceed with surgery
+
+B. Proceed with surgery and add dexamethasone, 4 mg every 6 hours
+
+C. Proceed with surgery and plan for gamma-knife radiotherapy postoperatively
+
+D. Postpone surgery and begin octreotide, 50 mcg twice daily
+
+E. Postpone surgery and begin bromocriptine, 2.5 mg daily
 
 ### Answer 24: E) Postpone surgery and begin bromocriptine, 2.5 mg daily
 
@@ -266,70 +249,103 @@ D. The ACTH-secreting tumor is located in the cavernous sinus
 
 E. The petrosal sinus sampling study yielded false-positive results
 
-48 A 65-year-old man with a history of dyslipidemia, coronary artery disease, and uncontrolled type 2 diabetes mellitus has been referred to you for glycemic management. Despite continued up-titration of his insulin dosing, his hemoglobin  $ A_{1c} $ level has consistently remained markedly elevated. For the past 6 months, his medication regimen has included maximally dosed metformin; insulin glargine, 75 units injected subcutaneously twice daily; and regular insulin, 100 units injected subcutaneously 3 times daily before meals. The patient reports good adherence to his prescribed medication regimen, with no problems understanding or accurately administering his insulin doses. He does share that he has trouble with dietary indiscretion and minimal regular exercise despite having seen a nutritionist and diabetes nurse educator for lifestyle counseling on several previous occasions. He checks his blood glucose levels several times daily. His blood glucose log reveals blood glucose concentrations that generally range between 200 and 250 mg/dL (11.10-13.88 mmol/L) before meals and often close to 300 mg/dL (16.65 mmol/L) at bedtime. He has never had problems with hypoglycemia.
+### Answer 47: E) Lumbar spine bone mineral density
 
-Blood pressure is 140/81 mm Hg, and pulse rate is 85 beats/min. Height is 66 in (167.6 cm), and weight is 223 lb (101.4 kg) (BMI = 36 kg/m²). He has no palpable lipohypertrophy or other abnormalities identified at his insulin injection sites. Skin changes consistent with acanthosis nigricans are present.
+## 47 ANSWER: E) Lumbar spine bone mineral density
 
-Recent laboratory test results:
+Primary hyperparathyroidism is a common disorder. The incidence is reported to be as high as 1 in 1000 in some studies, although it may be becoming less frequent because of a decline in ionizing radiation exposure. Women are 2 to 3 times more likely than men to be affected, and the condition generally presents after age 45 years. There are additional risk factors for developing the condition including exposure to head and neck irradiation; a family history of hyperparathyroidism (there are multiple genetic syndromes in which the risk of hyperparathyroidism is increased); and the use of certain medications, most commonly lithium. Lithium has been associated with both glandular hyperplasia of parathyroid tissue, as well as a possible shift in the set point of the calcium-sensing receptor in parathyroid cells, leading to an excessive release of PTH. In patients with bipolar psychiatric disease, lithium use is relatively common. Even if the patient is not currently treated with lithium, one must query for historical use because the hyperparathyroidism can persist despite discontinuation of the medication. The therapeutic goal is to identify symptomatic patients with known complications or currently asymptomatic patients with a high likelihood of developing complications and to refer them for surgical intervention.
 
-Hemoglobin  $ A_{lc}=9.1\% $ (0.091)
+Current (2009) recommendations for surgery for asymptomatic primary hyperparathyroidism are outlined as follows:
 
-Glomerular filtration rate = 71.4 mL/min per 1.73 m²
+1. Serum calcium concentration greater than 1.0 mg/dL (0.25 mmol/L) above the upper normal limit;
 
-Creatinine = 1.1 mg/dL (97.2 μmol/L)
+2. Creatinine clearance (calculated) reduced to less than 60 mL/min;
 
-TSH = 2.40 mIU/L
+3. Bone mineral density T score less than -2.5 at any site and/or previous fragility fracture
 
-Which of the following is the best next step in this patient's care?
+4. Age younger than 50 years
 
-A. Change to U500 regular insulin, 0.20 mL (100 units) 3 times daily before meals
+The most clinically significant complications of untreated symptomatic primary hyperparathyroidism are renal up to 20% of this patient population experiences kidney stones, which are usually composed of calcium oxal. Other renal complications include chronic renal insufficiency and renal tubular dysfunction. Although this par has hypercalciuria, she has no history of kidney stones. Interestingly, urinary calcium excretion does not predict the development of stones. In the absence of stones, elevated urinary calcium is not considered an indication of parathyroid surgery. A 24-hour urinary calcium collection is still nonetheless an important part of the biochem evaluation to further evaluate for disorders of the calcium-sensing receptor. Glomerular filtration rate and ren function must be closely monitored in patients with untreated primary hyperparathyroidism. A decline in ren function and glomerular filtration rate, not otherwise accounted for by other medical issues, is an indication of surgical intervention. In this patient, the creatinine excretion and estimated glomerular filtration rate are normal a change following surgical cure is unlikely (thus, Answer B is incorrect).
 
-B. Change to U500 regular insulin, 0.45 mL (225 units) twice daily before meals
+Cardiovascular complications of primary hyperparathyroidism include left ventricular hypertrophy and hypertension. A survival benefit has been shown after parathyroid surgery in multiple European studies; how these patient populations had more severe disease than their US counterparts. Observational studies do not have a reversibility or improvement in hypertension after successful surgery for primary hyperparathyroidism, in particular if the hypertension antedates the development of hypercalcemia and hyperparathyroidism as was there (thus, Answer A is incorrect).
 
-C. Change to U500 regular insulin, 0.30 mL (150 units) 3 times daily before meals
+Only a small number of patients have neurocognitive symptoms related to hypercalcemia, although some patients report depression and a decline in neurocognition and quality-of-life parameters if the hypercalcemia is left untreated. Most studies that have examined these symptoms and shown improvement after surgery are observational and limited by selection bias. In a few small trials, there was little change in psychosocial function after parathyroid surgery compared with a significant progressive decline in the observational group. In this vignette, given that the patient's bipolar disorder preceded the development of her hyperparathyroidism, it is unlikely that her psychiatric disorder will improve after surgery (thus, Answer C is incorrect).
 
-D. Change to U500 regular insulin,0.40 mL (200 units)3 times daily before meals
+Bone mineral density in patients with hyperparathyroidism often shows a characteristic pattern of bone primarily in cortical bone, more so than in trabecular bone. The DXA result in this patient is consistent with trend. After parathyroidectomy, bone density at the spine increases rapidly and significantly (thus, Answer E correct), and, on average, it may remain higher for at least a decade. Responses at the femoral neck are small bone density does increase at that site as well. Despite the relatively greater loss at the distal radius, bone density is less than the total density.
 
-E. Refer for insulin pump training in preparation for initiating U500 regular insulin via continuous subcutaneous insulin infusion
-
-### Answer 47: E) The petrosal sinus sampling study
-
-47 ANSWER: E) The petrosal sinus sampling study
-
-This patient has clear clinical and biochemical evidence of Cushing syndrome and a high ACTH level, supporting a diagnosis of ACTH-dependent Cushing syndrome. The next step in the evaluation is to distinguish between ACTH-dependent Cushing syndrome (Cushing disease) due to an ACTH-secreting pituitary tumor vs an ectopic source of ACTH hypersecretion. This patient underwent dexamethasone suppression testing to help differentiate among the causes. This patient failed to suppress serum cortisol (50%). Suppression of either cortisol levels is a common condition that is not well-classified by the patient. The patient is also a patient who has been农家-skilled with other health-related conditions, such as the use of anticoagulants, and other medical methods.
-
-Petrosal sinus sampling is susceptible to a number of pitfalls. Importantly, for accurate results, hypercortisolemia must be present when inferior petrosal sinus sampling is done. Hypercortisolism in ectopic ACTH syndrome suppresses normal pituitary corticotrophs; thus, administration of corticotropin-releasing hormone does not stimulate ACTH secretion during the sampling procedure. In the presence of eucortisolemia, however, endogenous ACTH production from normal pituitary corticotrophs may no longer be suppressed and stimulation can occur. In this patient, ketoconazole therapy had normalized his cortisol excess, which therefore led to a false-positive result after corticotropin-releasing hormone stimulation (Answer E). The lack of central-peripheral gradient at baseline sampling might be suspicious in this patient, but the stimulation after corticotropin-releasing hormone would be the criterion used to determine whether a positive central-to-peripheral stimulation exists. Guidelines for interpretation of the ACTH gradient obtained from inferior petrosal sinus sampling state that a central-to-peripheral gradient greater than 2.0 at baseline or greater than 3.0 after corticotropin-releasing hormone stimulation is consistent with a pituitary source of Cushing disease. Were the inferior petrosal sinus sampling to have been done properly without pretreatment with ketoconazole, the results would have yielded the little or no central-to-peripheral ACTH gradient, consistent with ectopic ACTH syndrome.
-
-Failure to fully cannulate petrosal sinus vessels (Answer B) can also be a pitfall in test interpretation. Result may fail to show a central-to-peripheral ACTH gradient despite the presence of an ACTH-producing pituitary
-
-tumor if a catheter was not fully advanced into the petrosal sinus. If blood was sampled from a different vein where ACTH hypersecretion was diluted, false-negative results could be obtained. In this patient, a central-to-peripheral gradient was seen after stimulation with corticotropin-releasing hormone, proving the catheters were in place, although the lack of a gradient at time “0” relates to the ectopic source of the ACTH.
-
-Because the patient has a high ACTH level, he clearly does not have ACTH-independent Cushing syndrome from an adrenal source (Answer A). Although patients with pseudo-Cushing syndrome (Answer C) have a central-to-peripheral ACTH gradient on petrosal sinus sampling, as do healthy persons, this patient has clear clinical evidence of Cushing syndrome. Therefore, pseudo-Cushing syndrome is unlikely. A false-positive central-to-peripheral gradient is more likely in this case than a tumor in the cavernous sinus (Answer D). An ectopic corticotropin-releasing hormone-producing pituitary tumor can be associated with false-positive stimulation of ACTH after corticotropin-releasing hormone administration. However, such tumors are extremely rare. Another cause of false-positive central-to-peripheral gradient is intermittent hormonogenesis from an ectopic ACTH source.
+little changed after successful parathyroid surgery, even in patients who experience an increase at the spine (thus, Answer D is incorrect).
 
 ##### Educational Objective:
 
-Identify pitfalls of inferior petrosal sinus sampling for the differential diagnosis of Cushing syndrome.
+Anticipate clinical improvements after surgical intervention for primary hyperparathyroidism.
 
 UpToDate Topic Review(s):
 
-Establishing the cause of Cushing's syndrome
+Management of primary hyperparathyroidism
 
 ##### Reference(s):
 
-Nieman LK, Biller BM, Findling JW, et al. The diagnosis of Cushing's syndrome: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2008;93(5):1526-1540.
+Bollerslev J, Rosen T, Mollerup CL, et al; SIPH Study Group. Effect of surgery on cardiovascular risk factors in mild primary hyperparathyroidism. J Endocrinol Metab. 2009;94(7):2255-2261.
 
-Young J, Deneux C, Grino M, Oliver C, Chanson P, Schaison G. Pitfall of petrosal sinus sampling in a Cushing's syndrome secondary to ectopic adrenocorticotropin-corticotropin releasing hormone (ACTH-CRH) secretion. J Clin Endocrinol Metab. 1998;83(2):305-308.
+Chiang CY, Andrewes DG, Anderson D, Devere M, Schweitzer I, Zajac JD. A controlled, prospective study of neuropsychological outcomes post parathyroidectomy in primary hyperparathyroid patients. Clin Endocrinol (Oxf). 2005;62(1):99-104.
 
-Swearingen B, Katznelson L, Miller K, et al. Diagnostic errors after inferior petrosal sinus sampling. J Clin Endocrinol Metab. 2004;89(8):3752-3763.
+Ambrogini E, Cetani F, Cianferotti L, et al. Surgery or surveillance for mild asymptomatic primary hyperparathyroidism: a prospective, randomized J Clin Endocrinol Metab. 2007;92(8):3114-3121.
 
-Yamamoto Y, Davis DH, Nippoldt TB, Young WF Jr, Huston J 3rd, Parisi JE. False-positive inferior petrosal sinus sampling in the diagnosis of Cushing's disease. Report of two cases. J Neurosurg. 1995;83(6):1087-1091.
+Kuoin MR, Bilezikian JP, McMahon DJ, et al. The natural history of primary hyperparathyroidism with or without parathyroid surgery after 15 years. Endocrinol Metab. 2008;93(9):3462-3470.
 
-Oldfield EH, Doppman JL, Nieman LK, et al. Petrosal sinus sampling with and without corticotropin-releasing hormone for the differential diagnosis of Cushing's syndrome [published correction appears in N Engl J Med. 1992;326(17):1172]. N Engl J Med. 1991;325(13):897-905.
+##### ANSWER: A) hCG injections
+
+Unlike patients with primary hypogonadism in whom sperm production is permanently affected due to damage to the seminiferous tubules, men with secondary hypogonadism (due to hypothalamic or pituitary disease) are fortunate because spermatogenesis can often be induced via treatment with GnRH or gonadotropins. When secondary hypogonadism is caused by diseases of the hypothalamus (genetic or acquired), treatment with GnRH can option. GnRH is administered in a pulsatile fashion via an infusion pump that delivers a bolus every 90 to 20 minutes via a subcutaneous needle residing in the abdomen. This in turn stimulates secretion of gonadotropins from the pituitary gonadotropes (LH stimulates the Leydig cells of the testes resulting in synthesis and secretion of testosterone, while FSH stimulates seminiferous tubules to promote spermatogenesis). Hence, intactness of the pituitary gland is a prerequisite for GnRH therapy. This patient's gonadotropes have been damaged as a consequence of hypophysectomy (thus, Answer C is incorrect).
+
+An essential component of the negative feedback loop of the hypothalamic-pituitary-gonadal axis is aromatization of testosterone to estradiol (estradiol is a more potent inhibitor of GnRH and gonadotropins than testosterone itself). Blocking either the production or action of estradiol stimulates the hypothalamic-pituitary-gonadal axis. Clomiphene citrate (Answer D) is a weak estrogen receptor antagonist that stimulates GnRH, and turn, gonadotropin secretion by blocking estrogen receptors on the hypothalamus. Similarly, letrozole (Answer E) is an aromatase inhibitor that stimulates the hypothalamic-pituitary-gonadal axis by inhibiting aromatization of testosterone into estradiol. However, intactness of both the hypothalamus and the pituitary are a prerequisite for these therapies to be effective.
+
+Gonadotropins are an effective treatment in patients with secondary hypogonadism irrespective of the site of the disease (hypothalamus or pituitary) because they bypass these organs and act directly on the testes. hCG possesses the biologic activity of LH (they have an identical α-subunit) and stimulates the Leydig cells to synthesize and secrete testosterone. As a result, the concentration of intratesticular testosterone increases (80- to 100-fold higher than in serum), which is crucial for the stimulation of spermatogenesis. FSH, however, stimulates spermatogenesis by acting on the Sertoli cells of the seminiferous tubules. Studies have shown that in postpubertal men who develop secondary hypogonadism (such as the man in this vignette), hCG alone is sufficient to stimulate spermatogenesis, even if the testes have undergone some atrophy. Interestingly, even prepubertal men with secondary hypogonadism who have larger testicular size at baseline (>8 mL) and do not have history of cryptorchidism also respond successfully to hCG alone. In this patient, the development of secondary hypogonadism was postpubertal and his testes are scrotal and larger than 8 mL, which suggests that monotherapy with hCG (Answer A) will be sufficient. Because preparations of hCG are less expensive than FSH, the sole use of hCG is also cost-effective. FSH in combination with hCG (Answer B) is generally necessary in those men who develop prepubertal hypogonadism (eg, Kallmann syndrome and its variants), have small testicular size (<8 mL), or have a history of cryptorchidism (although the response to dual therapy remains poor in the latter group).
+
+##### Educational Objective:
+
+Recommend the most appropriate therapy for fertility induction in a man with postpubertal secondary hypogonadism.
+
+UpToDate Topic Review(s):
+
+Induction of fertility in men with secondary hypogonadism
+
+##### Reference(s):
+
+Finkel DM, Phillips JL, Snyder PJ. Stimulation of spermatogenesis by gonadotropins in men with hypogonadotropic hypogonadism. N Engl J Med. 1985;313(11):651-655.
+
+Burris AS, Rodbard HW, Winters SJ, Sherins RJ. Gonadotropin therapy in men with isolated hypogonadotropic hypogonadism: the response to human chorionic gonadotropin is predicted by initial testicular size. J Clin Endocrinol Metab. 1988;66(6):1144-1151.
+
+Büchter D, Behre HM, Kliesch S, Nieschlag E. Pulsatile GnRH or human chorionic gonadotropin/human menopausal gonadotropin as effective treatment for men with hypogonadotropic hypogonadism: a review of 42 cases. Eur J Endocrinol. 1998;139(3):298-303.
 
 ## Question 61
 
-*[question text missing in OCR]*
+A 52-year-old man presents with fatigue, loss of libido, and erectile dysfunction, which began 6 months ago for which he was initially prescribed daily acetaminophen (300 mg) and ibuprofen. However, over the past year, his joint and back pain has worsened and he now takes morphine sulphate tablets, 50 mg twice daily, and pregabalin, 75 mg daily. In addition, he has hypertension treated with ramipril, 10 mg daily, and amlodipine, 10 mg daily.
 
+Twice daily. In addition, he has hypertension treated with h倍剂. On physical examination, height is 72.4 in (184 cm) and weight is 202.5 lb (92 kg) (BMI = 27.2 kg/m²). He has normal 20-mL testes and normal axillary and pubic hair. No gynecomastia is noted. Blood pressure is 135/8 mm Hg (supine).
+
+Laboratory test results:
+
+FSH = 0.5 mIU/mL (0.5 IU/L)
+
+ $$ \text{Testosterone(total)}=65\text{ng/dL}(2.3\text{nmol/L}) $$ 
+
+LH = 0.9 mIU/mL (0.9 IU/L)
+
+ $$ \mathrm{Prolactin}=35\mathrm{ng/mL}(1.5\mathrm{nmol/L}) $$ 
+
+No abnormalities are observed on pituitary MRI.
+
+Which of the following is the most appropriate next step in this patient's care?
+
+A. Switch to a non-opiate-containing analgesic
+
+B. Prescribe sildenafil
+
+C. Prescribe cabergoline
+
+D. Switch amlodipine to bisoprolol
+
+E. Switch ramipril to a thiazide diuretic
 
 ### Answer 61: A) Switch to a non-opiate-containing analgesic
 
@@ -469,32 +485,6 @@ E. Increase the dosage of intranasal desmopressin to 20 mcg twice daily
 
 77 ANSWER: B) Start intravenous insulin infusion
 
-This patient has clinical evidence of dehydration, polyuria, and hypernatremia. These are all features that could be consistent with inadequately treated diabetes insipidus. However, she also has hyperglycemia that may reflect transient steroid-induced diabetes or unmasking of underlying diabetes mellitus by high-dosage corticosteroid treatment. In this setting, the urine osmolality is typically similar.
-
-In this unusual situation, hyperglycemia and subsequent marked glucosuria can lead to an osmotic diuresis that is resistant to antidiuretic hormone or desmopressin. In this setting, the urine osmolality is typically similar to the plasma osmolality and polyuria is driven by the solute load. The administration of insulin (Answer B) to correct the hyperglycemia will restore responsiveness to antidiuretic hormone.
-
-Given that there is resistance to antidiuretic hormone driven by glycosuria, the patient will not benefit from adjusting the desmopressin dosage or the method of administration (Answers D and E).
-
-Patients with diabetes insipidus who are unwell may require treatment with intravenous dextrose and water (because intravenous sterile water without dextrose causes hemolysis). In adults, the intravenous administration of dextrose and water at a rate of more than 1000 mL/h (Answer A) results in a glucose delivery rate that exceeds endogenous metabolic capacity for glucose even in patients without diabetes mellitus. This can cause severe and symptomatic hyperglycemia and would exacerbate the hyperglycemia already seen in this case. In patients with diabetes insipidus, intravenous rates of fluid replacement with dextrose in water should be limited to a maximum of 500 to 750 mL/h.
-
-500 to 750 mL/h.
-
-Chlorpropamide (Answer C) may, at first, seem to be a reasonable treatment option because it is used in diabetes insipidus and it is also a glucose-lowering agent in the setting of diabetes mellitus. However, it is used in the management of nephrogenic diabetes insipidus where it increases sensitivity of the nephron to vasopressin, and it is not routinely used in the management of central diabetes insipidus. In addition, although in this vignette chlorpropamide may lower blood glucose and enhance responsiveness to exogenous vasopressin, its long duration of action and inherent risk of hypoglycemia means that it would not be safe. This patient's blood glucose would be more effectively and safely lowered by intravenous insulin.
-
-##### Educational Objective:
-
-Administer insulin in the setting of hyperglycemia that is reducing the effectiveness of antidiuretic hormone treatment of diabetes insipidus.
-
-UpToDate Topic Review(s):
-
-Treatment of central diabetes insipidus
-
-##### Reference(s):
-
-Kavelaars J, Tamsma JT, Meinders AE. Hyperatremia in a non insulin dependent (type 2) diabetic patient with central diabetes insipidus. Neth J Med. 2001;58(3):150-154.
-
-Di Iorgi N, Napoli F, Allegri AE, et al. Diabetes insipidus--diagnosis and management. Horm Res Paediatr. 2012;77(2):69-84.
-
 ## Question 88
 
 A 53-year-old man is referred to you for treatment of hyperthyroidism. The patient was previously healthy, but presented with a 1-year history of anxiety, tremor, heat intolerance, and weight loss of 8 lb (3.6 kg), which led to the diagnosis.
@@ -538,73 +528,6 @@ C. Gamma-knife radiotherapy of the residual pituitary tumor
 D. Octreotide
 
 E. Saturated solution of potassium iodide
-
-You are consulted regarding a 74-year-old man in the orthopedic unit 4 days after a left total hip replacement. The patient reported severe left flank discomfort for 24 hours and abdominal CT was performed (see image). Bilateral adrenal enlargement was noted (arrows). His medical team now seeks your consultation. He has been ambulatory since surgery, but his appetite has been poor and he has had trouble adhering to the physical therapy program. He has a history of well-controlled hypertension for many years. His postoperative medications include acetaminophen, postoperative medications include acetaminophen, codeine, amlodipine, and low-molecular-weight heparin.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_0_754_490_1153.jpg" alt="Image" width="50%" /></div>
-
-
-On physical examination, he is alert and uncomfortable. Blood pressure is 126/70 mm Hg, pulse rate is 110 beats/min, and temperature is 99.8°F (37.7°C). Height is 69 in (175.3 cm), and weight is 197 lb (89.5 kg) (BMI = 29.1 kg/m²). He has truncal obesity, but does not appear cushingoid. He has no hyperpigmentation. His thyroid gland is normal. Findings on chest and cardiac examination are remarkable only for a rapid regular beat. His abdomen is soft, but there is some guarding to palpation in the left flank. He has no edema, and findings on neurologic examination are normal.
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Sodium</td><td style='text-align: center; word-wrap: break-word;'>Potassium</td><td style='text-align: center; word-wrap: break-word;'>Cortisol</td><td style='text-align: center; word-wrap: break-word;'>ACTH</td><td style='text-align: center; word-wrap: break-word;'>Aldosterone</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>136 mEq/L
-(136 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>3.2 mEq/L
-(3.2 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>33.0  $ \mu $g/dL
-(910.4 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>128 pg/mL
-(28.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.6 ng/dL
-(72.1 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>126 mEq/L
-(126 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>5.2 mEq/L
-(5.2 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>0.9  $ \mu $g/dL
-(24.8 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>456 pg/mL
-(100.3 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.6 ng/dL
-(72.1 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>146 mEq/L
-146 mmol/L</td><td style='text-align: center; word-wrap: break-word;'>4.6 mEq/L
-(4.6 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.8  $ \mu $g/dL
-(77.2 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>14 pg/mL
-(3.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>12.0 ng/dL
-(332.9 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>139 mEq/L
-(139 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>3.8 mEq/L
-(3.8 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>46.0  $ \mu $g/dL
-1269.0 nmol/L</td><td style='text-align: center; word-wrap: break-word;'>19 pg/mL
-(4.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.8 ng/dL
-(77.7 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>126 mEq/L
-(126 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.1 mEq/L
-(4.1 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>0.9  $ \mu $g/dL
-24.8 nmol/L</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL
-(1.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>12.0 ng/dL
-(332.9 pmol/L)</td></tr></table>
-
-<div style="text-align: center;"><div style="text-align: center;">Which of the following laboratory profiles would you expect?</div> </div>
-
-
-A 39-year-old woman with Hashimoto hypothyroidism returns for follow-up after adjustment of the levothyroxine dosage. Hypothyroidism was diagnosed at age 31 years in the postpartum period. She had a high titer of TPO antibodies and did not recover normal thyroid function. She ultimately developed a serum TSH concentration of 70 mIU/L before levothyroxine was prescribed at a dosage of 112 mcg daily. Her levothyroxine dosage was gradually increased to 150 mcg daily. She had been clinically and biochemically euthyroid while taking this dosage for several years, with her serum TSH concentration being between 1.0 and 3.0 mIU/L.
-
-Over the past 6 months, she has unintentionally lost 8.8 lb (4 kg). She describes being more irritable, having modest heat intolerance, and having a diminished exercise capacity. You have had her return 3 times in the last 6 months for thyroid hormone testing and on each occasion her TSH was suppressed. Thus, her levothyroxine dosage was reduced to 50 mcg daily (her current dosage).
-
-On physical examination, height is 65.5 in (166.4 cm) and weight is 153 lb (69.5 kg) (BMI = 25.1 kg/m $ ^{2} $). Blood pressure is 124/74 mm Hg, and heart rate is 88 beats/min. Her thyroid gland is slightly enlarged and has an irregular texture. She has brisk patellar reflexes.
-
-Thyroid function test results:
-
-Serum TSH = 0.01 mIU/L
-
-Free  $ T_{4} $ = 2.1 ng/dL (27.0 pmol/L)
-
-She confirms that levothyroxine is her only prescription medication. She never takes extra tablets. You inspect the tablets in her levothyroxine pill container and find no error in the prescription. She takes no over-the-counter supplements. Your review of her history does not uncover any reason accounting for her decreased levothyroxine requirement.
-
-Over several subsequent visits, and after further levothyroxine dosage adjustments, you discontinue her levothyroxine. Thyroid function testing 6 weeks later shows a TSH concentration of 2.1 mIU/L and a free T₄ concentration of 1.4 ng/dL (18.0 pmol/L). With this last blood test, you also measure a serum total T₃ level, a serum thyroglobulin concentration, and a spot urinary iodine concentration. Her total T₃ level is 120 ng/dL (1.8 nmol/L), her thyroglobulin concentration is 43 ng/mL (43 μg/L), and her random urinary iodine excretion is 177 μg/L (reference range, 28-544 μg/L).
-
-#### Which of the following best explains euthyroidism after the discontinuation of levothyroxine in this patient?
-
-A. Surreptitious ingestion of liothyronine
-
-B. Ingestion of an over-the-counter supplement containing tiratricol
-
-C. Ingestion of large amounts of nutritional supplements containing iodine
-
-D. Autoimmune thyroid disease with current predominance of thyrotropin receptor-stimulating antibodies
-
-E. Surreptitious ingestion of desiccated porcine thyroid extract
 
 ### Answer 88: D) Octreotide TSH-secreting tumors are
 
@@ -700,24 +623,6 @@ D. Perform visual field testing
 
 E. Reassure the patient; no further evaluation is necessary
 
-106 A 20-year-old woman presents for evaluation of polyuria and polydipsia. Her medical history includes cystic fibrosis that was diagnosed at age 10 months. Recently, she has begun to lose weight despite adhering to treatment of her exocrine pancreatic insufficiency. Her pulmonary status appears to be stable at this visit and she reports no acute pulmonary symptoms.
-
-On physical examination, she is a thin, well-appearing young woman in no distress. Height is 59 in (149.9 cm), and weight is 93 lb (37.7 kg) (BMI = 18.8 kg/m²). She is afebrile, blood pressure is 100/68 mm Hg, and puls rate is 100 beats/min. You detect a few scattered crackles bilaterally on lung examination and sinus tachycardia cardiac examination. Conjunctivae are pale. Her thyroid gland is normal, as are her neurologic reflexes. She has digital clubbing.
-
-A random blood glucose measurement is 147 mg/dL (8.2 mmol/L).
-
-Which of the following is the best diagnostic test?
-
-A. Hemoglobin  $ A_{1c} $ measurement
-
-B. 75-g oral glucose tolerance test
-
-C. Fructosamine measurement
-
-D. Continuous glucose monitoring
-
-E. Measurement of glutamic acid decarboxylase antibodies
-
 ### Answer 105: E) Reassure the patient; no further evaluation is necessary
 
 ## 105 ANSWER: E) Reassure the patient; no further evaluation is necessary
@@ -746,8 +651,28 @@ Naing S, Frohman LA. The empty sella. Pediatr Endocrinol Rev. 2007;4(4):335-342.
 
 ## Question 120
 
-*[question text missing in OCR]*
+A 58-year-old woman sees her oncologist to address a 6-month history of daily headache. Her medicine history includes treatment of estrogen-receptor positive breast cancer 4 years ago. She had clear surgical margins and negative nodes at the time of surgery. She was treated with both radiation and chemotherapy. Anastrozole, 1 mg daily, was prescribed, and she still takes this medication. There has been no evidence of recurrence and mammography of the cancer. Recurrence, and mammography of the contralateral breast has been normal.
 
+<div style="text-align: center;"><img src="imgs/img_in_image_box_129_489_620_1031.jpg" alt="Image" width="45%" /></div>
+
+
+In the past several months, she has begun to experience vague, general headaches that occur at random times. She has no history of headaches, and because they have become more frequent, she has sought advice from her oncologist. She has no evidence of polyuria, polydipsia, or nocturia. She has no history of changes in her ring or shoe size. Physical examination findings are unremarkable. There is no evidence of altered visual fields, hyperpigmentation, skin tags, striae, ecchymosis, galactorrhea.
+
+Laboratory evaluation reveals a normal chemistry panel, including a normal blood glucose concentration (fasting) and complete blood cell count. The oncologist orders brain MRI (see image) Because of the observed abnormality (arrow), she sent to you for further evaluation.
+
+You confirm the patient's history, review of systems, and physical examination findings.
+
+Dysfunction of which of the following pituitary hormones would be most likely to develop in the near term?
+
+A. TSH
+
+B. Antidiuretic hormone
+
+C. ACTH
+
+D. GH
+
+E. Prolactin
 
 ### Answer 120: B) Antidiuretic hormone This patient's pituitary MRI demonstrates
 

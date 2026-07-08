@@ -1,5 +1,5 @@
 # ESAP 2015 — Adrenal
-Questions: 14, 37, 40, 49, 62, 73, 104, 118
+Questions: 14, 20, 40, 49, 62, 73, 89, 104, 108, 118
 
 ## Question 14
 
@@ -69,89 +69,86 @@ clinical practice guideline [published correction appears in J Clin Endocrinol M
 
 Martin KA, Chang RJ, Ehrmann DA, et al. Evaluation and treatment of hirsutism in premenopausal women: an endocrine society clinical practice guideline. J Clin Endocrinol Metab. 2008;93(4):1105-1120.
 
-## Question 37
+## Question 20
 
-A 66-year-old woman is referred to you after her primary care physician documented an elevated TSH level at a routine visit. She has no specific concerns. Since retiring from her job a year ago, she has noticed an
+A urologist asks you to see a 58-year-old man because of hypokalemia, edema, and hypertension that developed 6 weeks after the initiation of abiraterone (CYP17A1 inhibitor) for prostate cancer. Prostate cancer (Gleason score 9) was diagnosed 7 years earlier and was treated with a prostatectomy, radiotherapy, and a brief course of a GnRH agonist. He eventually developed bone and liver metastases. Severe bone pain required narcotics, and castration was performed with a subsequent decrease in the prostate-specific antigen concentration (5.0 ng/mL [5.0 μg/L]) and a marked improvement in bone pain. One year later, there was further disease progression (prostate-specific antigen concentration of 110.0 ng/mL [110.0 μg/L]). He had no history of hypertension or diabetes.
 
-improved quality of life with a regular exercise routine. She has managed to lose a little weight. She smokes 1 pack of cigarettes daily and has done so for 40 years. For personal reasons, she maintains a low-sodium diet, which is also low in iodine content.
+Medications now include abiraterone, 1000 mg daily; hydrocodone/acetaminophen 10 mg/325 mg, every 6 hours as needed; and amlodipine, 5 mg daily.
 
-On physical examination, weight is 182 lb (82.7 kg) and height is 64 in (162.6 cm) (BMI = 31.2 kg/m²). Blood pressure is 128/78 mm Hg. Her 20-g thyroid gland has no discrete nodules. Her physical examination findings are normal.
+On physical examination, he is a non-cushingoid-appearing man who is alert and seems comfortable. Blood pressure is 164/100 mm Hg, and pulse rate is 82 beats/min. Height is 69 in (175.3 cm), and weight is 170 lb (77.3 kg) (BMI = 25.1 kg/m²). He appears chronically ill. Except for some tenderness over his lumbar spine and 2+ pretibial and pedal edema, his examination findings are normal.
 
-Laboratory test results:
+Laboratory test results (sample drawn in the morning):
 
-Serum TSH = 6.5 mIU/L
+ $$ \mathrm{Sodium}=140\mathrm{m E q/L}(140\mathrm{~m m o l/L}) $$ 
 
-TPO antibodies = 200 IU/mL (200 KIU/L)
+ $$  Potassium=2.9mEq/L(2.9mmol/L) $$ 
 
-Measurements 1 month later:
+ACTH = 127 pg/mL (27.9 pmol/L)
 
-TSH = 7.0 mIU/L
+ $$ \mathrm{Chloride}=100\mathrm{m E q/L}(100\mathrm{~m m o l/L}) $$ 
 
-Serum free  $ T_{4}=1.1 $ ng/dL (14.2 pmol/L)
+Aldosterone = 5 ng/dL (138.7 pmol/L)
 
-She has no records of being screened for thyroid dysfunction in the past.
+Glucose = 101 mg/dL (5.60 mmol/L)
 
-Which of the following factors confers the greatest future risk of her becoming overtly hypothyroid?
+Testosterone = <2 ng/dL (<0.07 nmol/L)
 
-A. Cigarette smoking
+Calcium = 9.0 mg/dL (2.25 mmol/L)
 
-B. Age older than 65 years
+Deoxycorticosterone = 100 ng/dL (3.03 nmol/L)
 
-C. Presence of TPO antibodies
+Albumin = 3.4 g/dL (34 g/L)
 
-D. Adherence to a low-iodine diet
+Abdominal CT performed 4 months earlier showed liver and bone metastases (lumbar spine) and normal adrenal glands.
 
-E. Obesity
+Which medication would you recommend to treat this man?
 
-38 A 19-year-old man is transitioning from the pediatric endocrinology clinic. In infancy, he was admitted to the hospital for new-onset hyperglycemia. He had presented with acute hyperglycemia (blood glucose concentration of 578 mg/dL [32.1 mmol/L]) associated with weight loss, polyuria, and polydipsia. He was initially treated with insulin and his regimen was subsequently transitioned to oral sulfonylurea treatment. He had done well with this treatment, reports good glycemic control, and has no diabetes-related complications. The patient's father has a history of diabetes mellitus that is well controlled with oral hypoglycemic therapy.
+A. DHEA, 25 mg daily
 
-Physical examination findings are normal. His hemoglobin  $ A_{1c} $ measurement is 6.3% (0.063).
+B. Dexamethasone, 0.5 mg daily
 
-Which of the following tests should you order to establish the etiology of his hyperglycemia?
+C. Mifepristone, 300 mg daily
 
-A. Islet-cell antibody assessment
+D. Fludrocortisone, 50 mcg daily
 
-B. Glutamic acid decarboxylase antibody assessment
+E. Metyrapone, 500 mg 3 times daily
 
-C. Genetic testing for a GCK mutation (glucokinase gene)
+### Answer 20: B) Dexamethasone, 0.5 mg daily
 
-D. Genetic testing for a FOXP3 mutation (forkhead box P3 gene)
+## 20 ANSWER: B) Dexamethasone, 0.5 mg daily
 
-E. Genetic testing for a KCNJ11 mutation (ATP-sensitive potassium channel gene)
+20 Androgen deprivation therapy is the standard of care for patients with advanced prostate cancer. How many patients eventually develop castration-resistant prostate cancer and less than 20% of these men survive beyond 3 years. The evidence now suggests that many of these men with castration-resistant prostate cancer have up-regulation of androgen biosynthesis enzymes resulting in an increase in intratumoral androgen concentration. Abiraterone is a selective inhibitor of CYP17A1, a key enzyme in cortisol synthesis, by inhibiting  $ 17\alpha $-hydroxyactivity. It also inhibits androgen biosynthesis by inhibiting 17,20-lyase activity, which catalyzes the conversion of 17-hydroxyprognenolone to the main androgen precursor DHEA. In men with castration-resistant prostate cancer, abiraterone prolongs overall survival.
 
-39 A 14-year-old boy presents for evaluation of low serum calcium levels. His mother accompanies him to the appointment. His medical history includes an abnormal palate noted at birth, low-set and posteriorly rotated. He has had a recent bouts of otitis media. After the treatment, he has had a�pons and a bulbous nasal tip, and a narrowed nasal passages. His mother discloses that he has had developed a related condition, such as a long-term�rarely disease, in a long-term且长期且持续的疾病.
+Most patients treated with abiraterone develop ACTH-driven mineralocorticoid excess. There is an expect significant increase in serum deoxycorticosterone, corticosterone, and 11-deoxycortisol levels after treatment with abiraterone. ACTH levels increase by 200% to 1400% with abiraterone therapy. Despite subnormal cortisol levels, the risk of other diseases is higher than the risk of other conditions.
 
-On physical examination, height is 124/87 mm. Pressure is 124/87 mm Hg.
+secretion, these patients have no signs or symptoms of glucocorticoid deficiency. The most likely explanation for this is the glucocorticoid activity of corticosterone whose levels are markedly elevated in patients treated with abiraterone. Most importantly, abiraterone effectively lowers adrenal, testicular, and intratumoral androgen production resulting in some attenuation of disease progression.
 
-Laboratory test results:
+<div style="text-align: center;"><img src="imgs/img_in_image_box_163_242_934_821.jpg" alt="Image" width="64%" /></div>
 
-Serum calcium = 7.9 mg/dL (1.97 mmol/L)
 
-PTH = <3 pg/mL (<3 ng/L)
+Because aldosterone secretion is regulated by the renin-angiotensin system, abiraterone has no effect on aldosterone secretion per se. Although aldosterone increases acutely with an ACTH infusion, chronic ACTH elevations have no direct effect on aldosterone. In fact, the mineralocorticoid excess state that ensues (due to elevations of deoxycorticosterone) suppresses the plasma renin activity and keeps aldosterone levels in the low-normal range. The aldosterone-to-plasma renin activity ratio is meaningless in this patient (because the aldosterone is low). Therefore, he does not have primary hyperaldosteronism and the state of hypermineralocorticoidism would preclude the use of fludrocortisone (Answer D). However, the addition of exogenous nonmineralocorticoid steroids such as dexamethasone (Answer B) to abiraterone therapy promptly decreases ACTH and resolves the hypermineralocorticoid state. Either dexamethasone (0.25 to 0.50 mg daily) or prednisone (5 to 10 mg daily) is now recommended when abiraterone therapy is initiated.
 
-Albumin = 4.0 g/dL (40 g/L)
+Concomitant inhibition of 17,20-lyase by abiraterone also diverts 17-hydroxyprogesterone metabolites toward androgen synthesis via a backdoor pathway. Dexamethasone therapy further suppresses any rise in androgens from this unique mechanism.  $ 3\alpha,5\alpha $-17-Hydroxyprogesterone is a metabolite of 17-hydroxyprogesterone, which increases with abiraterone therapy. This metabolite can then be converted to dihydrotestosterone, probably in the adrenal gland or the prostate cancer itself.
 
-25-Hydroxyvitamin D = 38 ng/mL (94.8 nmol/L)
+Mifepristone (Answer C) is a potent progesterone and glucocorticoid receptor antagonist that is effective in patients with all forms of endogenous hypercortisolism. Although it is a weak androgen receptor antagonist, it has no role in the management of patients with prostate cancer. The administration of mifepristone causes further increases in ACTH and cortisol, which would only serve to further aggravate the hypermineralocorticoid state in this man. Adrenal androgen (DHEA) therapy (Answer A) is certainly not indicated in a patient with metastatic prostate cancer. Metyrapone (CYP11A—11β-hydroxylase inhibitor) (Answer E) would only serve to further increase the mineralocorticoid deoxycorticosterone and exacerbate his hypokalemia and hypertension.
 
-Serum phosphorus = 4.0 mg/dL (1.29 mmol/L)
+##### Educational Objective:
 
-1,25-Dihydroxyvitamin D = 29 pg/mL (75.4 pmol/L)
+Educational Objective: Describe the physiology of ACTH-driven hypermineralocorticoidism in patients with abiraterone-induced inhibition of CYP17A1 and recommend therapy to resolve the hypermineralocorticoid state.
 
-TSH = 1.11 mIU/L
+UpToDate Topic Review(s):
 
-#### Which of the following is the most likely diagnosis?
+Castrate resistant prostate cancer: treatments targeting the androgen pathway
 
-A. 22q11.2 deletion syndrome (formerly known as DiGeorge syndrome)
+##### Reference(s):
 
-B. Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy
+Attard G, Reid AH, Auchus RJ, et al. Clinical and biochemical consequences of CYP17A1 inhibition with abiraterone given with and without exogenous need prostate cancer. J Clin Endocrinol Metab. 2012;97(2):507-516.
 
-C. Pseudohypoparathyroidism
+glucocorticoids in castrate men with advanceo de Bono JS, Logothetis CJ, Molina A, et al; COU-AA-301 Investigators. Abiraterone and increased survival in metastatic prostate cancer. N Engl J Med. 2011;364(21):1995-2005.
 
-D. Wilson disease
+## Question 40
 
-E. Vitamin D resistance
-
-40 A 73-year-old man is referred by an endocrine surgeon before a scheduled adrenalectomy. He has a 10-year history of hypertension that had initially been well controlled with hydrochlorothiazide. However, in the past 2 to 3 years, his blood pressure has increased and he has experienced nocturnal flushing and sweating. He reports having occasional headaches, but no palpitations. His history includes peripheral neuropathy of unknown cause and gastroesophageal reflux disease. A right carotid endarterectomy was performed 10 years ago. His family history is negative for endocrine disorders. He does not smoke cigarettes or drink alcohol. Current medications included prazosin, 2 mg daily; labetalol, 300 mg twice daily; lisinopril, 40 mg daily; hydrochlorothiazide, 25 mg daily; omeprazole, 40 mg daily; and amitriptyline, 25 mg at bedtime.
+A 73-year-old man is referred by an endocrine surgeon before a scheduled adrenalectomy. He has a 10-year history of hypertension that had initially been well controlled with hydrochlorothiazide. However, in the past 2 to 3 years, his blood pressure has increased and he has experienced nocturnal flushing and sweating. He reports having occasional headaches, but no palpitations. His history includes peripheral neuropathy of unknown cause and gastroesophageal reflux disease. A right carotid endarterectomy was performed 10 years ago. His family history is negative for endocrine disorders. He does not smoke cigarettes or drink alcohol. Current medications included prazosin, 2 mg daily; labetalol, 300 mg twice daily; lisinopril, 40 mg daily; hydrochlorothiazide, 25 mg daily; omeprazole, 40 mg daily; and amitriptyline, 25 mg at bedtime.
 
 On physical examination, he is a healthy-appearing man. Blood pressure is 144/82 mm Hg, and pulse rate is 60 beats/min. Height is 70 in (177.8 cm), and weight is 185 lb (84.1 kg) (BMI = 26.5 kg/m²). He appears noncushingoid, and he has no café-au-lait spots or neurofibromas. His fundi are normal and there is no thyroid enlargement. He has bilateral gynecomastia (2 cm), and each testis is approximately 12 mL. He has absent ankle jerks and poor proprioception.
 
@@ -206,70 +203,43 @@ D. Solitary adrenal metastasis from unknown primary malignancy
 
 E. Myelolipoma
 
-### Answer 37: C) Presence of TPO antibodies
+### Answer 40: E) Myelolipoma This man has a history of subor
 
-## 37 ANSWER: C) Presence of TPO antibodies
+## 40 ANSWER: E) Myelolipoma This man has a history of subor
 
-37 Subclinical hypothyroidism is diagnosed when a patient has an elevated serum TSH value accompanied by normal thyroid hormone levels. The natural history of subclinical hypothyroidism is particularly affected by 2 factors: the magnitude of the serum TSH elevation and the presence or absence of TPO antibodies.
+This man has a history of suboptimal hypertension control, biochemical abnormalities suggesting catecholamine excess, and an adrenal imaging abnormality. The diagnosis of pheochromocytoma seemed to appear to the surgical team and α-adrenergic blockade was given in preparation for an adrenalectomy. However, careful assessment of his medication profile and the adrenal imaging abnormalities suggest that this might be something
 
-Regarding TSH elevation, the study showed that 52% of patients documented to have baseline serum TSH values that were mildly elevated (5.0-9.9 mIU/L) had normal TSH values at the end of a 3-year period. The percentage of baseline TSH values in the ranges of 10.0 to 14.9 mIU/L and 15.0 to 19.9 mIU/L that normalized after 3 years in the same study were 13% and 5%, respectively. These observations have been confirmed in other studies. For example, in a study of patients older than 65 years, resolution of subclinical hypothyroidism occurred at the 2-year follow-up in 46% of those with TSH values between 4.5 and 6.9 mIU/L, in 10% of those with values between 7.0 and 9.9 mIU/L, and in 7% of those with values of 10.0 mIU/L or greater.
+Tricyclic antidepressants are the number one cause of false-positive biochemical testing for pheochromocytoma. A tricyclic antidepressants (including cyclobenzaprine) increase endogenous production of catecholamines and may cause impressive elevations (eg, more than 4-fold above the upper normal limit for norepinephrine and normetanephrine) and false-positive biochemical testing for pheochromocytoma. Fortunately, the most popular class of psychoactive drugs is in the United States, selective serotonin reuptake inhibitors, do not cause false-positive testing for pheochromocytoma. Other drugs that may increase endogenous catecholamines include levodopa, amphetamines and other stimulants, buspirone and antipsychotics, prochlorperazine, reserpine, and withdrawal from clonidine and other drugs (eg, alcohol, narcotics). With older fluorometric assays for total metanephries, some drugs (eg, labetalol) directly interfered with the assay and caused false-positive results. However, the use of liquid chromatography with tandem mass spectrometry has eliminated any drug interference. α-Adrenergic antagonists (eg, prazosin), phenoxybenzamine, and most antihypertensive agents do not chronically affect endogenous catecholamine production or metabolism. In addition, chromogranin A, a ubiquitous, biologically inert peptide secreted in concert with many other neuroendocrine peptides, is often elevated in patients with pheochromocytoma. However, the specificity is very poor. Most importantly, proton pump inhibitors cause marked elevations in chromogranin A (via gastrin release) and are probably the most common cause of high chromogranin A concentrations, given the widespread use of these agents. Therefore, the biochemical abnormalities in this patient that suggest a pheochromocytoma (Answer B) could be easily explained by his use of amitriptyline and omeprazole.
 
-Nevertheless, there is an increased risk of developing overt hypothyroidism even with successively increasing baseline TSH values that fall within the normal range. This risk is affected by TPO antibody status. A study examined the risk of developing overt hypothyroidism during a longer follow-up period of 13 years according to initial TSH groupings of less than 2.5 mIU/L, 2.5 to 4.0 mIU/L, and greater than 4.0 mIU/L in patients with positive thyroid antibodies. Compared with an odds ratio of 1.4 in the group with TSH values less than 2.5 mIU/L, the odds ratio for hypothyroidism was 10 in the group with TSH values between 2.5 and 4.0 mIU/L and 108 for the group with TSH values greater than 4.0 mIU/L. The odds ratios were lower (1, 1.8, and 50, respectively) for the same TSH groups in patients without thyroid antibodies. Thus, some patients with mild TSH elevation, such as this patient, progress to overt hypothyroidism over prolonged periods and monitoring of thyroid function is indicated. A prospective study showed that the calculated risk ratios of overt hypothyroidism in the 3 TSH categories of less than 6.0 mIU/L, 6.0 to 12.0 mIU/L, and greater than 12.0 mIU/L were 1.2, 6.4, and 11.5, respectively, over 10 years of follow-up. These risk ratios increased to 5.3, 10.5, and 15.6 in patients with markedly elevated TPO antibody titers. Similarly, in one of the aforementioned studies, progression to overt hypothyroidism occurred with greater frequency in those with positive thyroid autoantibodies. Conversely, another study demonstrated that resolution of subclinical hypothyroidism is less likely in patients older than 65 years who have positive TPO antibodies than in those with negative antibodies (15% vs 48% of patients) (thus, Answer C is correct). The results of such studies have led to the recommendation to consider measurement of TPO antibodies as part of the evaluation of patients who have subclinical hypothyroidism.
+Adrenal imaging abnormalities are common. At least 3% to 4% of adults have an adrenal nodule, and most are benign and nonsecretory. The adrenal nodule in this patient has a very low attenuation value (−59 Hounsfield units). This means that the lesion is composed of mostly fat and is diagnostic of an adrenal myelolipoma (Answer E). These lesions are easy to identify by Hounsfield units that are always very low (less than −10). Myelolipomas are benign neoplasms composed of both mature adipose and hematopoietic tissue. Very large myelolipomas have been reported in persons with congenital adrenal hyperplasia due to 21-hydroxylase, 17-hydroxylase, or 11-hydroxylase deficiencies. Most such patients have either untreated or poorly treated congenital adrenal hyperplasia. However, these lesions are typically small, innocuous, and have no biologic significance. After they are identified, they rarely grow and can usually be managed conservatively.
 
-However, in all these studies, patient age did not appear to predict progression to overt hypothyroidism (thus, Answer B is incorrect). Patient sex does not affect the likelihood of progression in some studies, although other studies do find a greater risk of progression in women. The reason for these discrepant findings with respect to sex may relate to the association between female sex and TPO antibodies, such that they are not independent factors. In the studies that have examined BMI, this factor did not affect the risk of developing overt hypothyroidism (thus, Answer E is incorrect). In some studies, the presence of a goiter increases the risk of future hypothyroidism. In one study of populations with different iodine intakes, a high-iodine intake is a further risk factor for development of overt hypothyroidism in patients with TPO antibodies (thus, Answer D is incorrect). Smoking has either been found to have no influence on progression to overt hypothyroidism or has been associated with less likelihood of having TPO antibodies (thus, Answer A is incorrect).
+In contrast to myel�pomias, pneocromocytomas contain very little fat and always have a high attenuation value (Hounsfield units >15). The use of  $ ^{123} $I-meta-iodobenzylguanidine (MIBG) scintigraphy in this patient caused great confusion. MIBG uptake is routinely seen in normal adrenal glands and it is usually asymmetric, with the left adrenal gland uptake appearing more prominently. Unfortunately, the nuclear medicine physician did not correlate this uptake with the CT imaging abnormality.
 
-##### Educational Objective:
+Adrenal cysts (Ansoer A) are uncommon and most are endothelial cysts or pseudocysts. They can be very large. Of course, some adrenal neoplasms (such as ganglioneuroma, pheochromocytoma, adrenocortical carcinoma, and, rarely, adrenal adenoma) may undergo cystic change. Pure adrenal cysts have water density (0-20 Hounsfield units) with thin, smooth walls that lack enhancement. Peripheral calcifications may be seen in 15%. Pseudocysts are usually low density, but they may have thick walls, internal septations, and calcifications. There may be higher density within the cyst because of hemorrhage. Cystic change in an adrenal myelopoma has not been reported
 
-Explain the natural history of subclinical hypothyroidism and determine the factors most likely to affect its progression to overt hypothyroidism.
+A solitary metastatic lesion to the adrenal gland (Answer D) as the initial presentation of an unknown malignancy is very rare. Of 1639 patients with cancer at MD Anderson, the adrenal gland was identified as a site of involvement at presentation in 95 (5.8%); however, involvement was limited to only the adrenal gland in 4 patients (0.2%). All 4 of these patients had large adrenal tumors ( $ \geq $6 cm), 3 of the 4 had bilateral involvement, and all had symptoms that otherwise mandated evaluation for an occult malignancy. None had a true adrenal incidentaloma. Moreover, metastatic lesions in the adrenal gland have little fat and are accompanied by an attenuation value greater than 20 Hounsfield units.
 
-UpToDate Topic Review(s): Subclinical hypothyroidism
+Adrenal ganglioneuroma (Answer C) is a benign neoplasm arising from neural crest tissue that is usually discovered incidentally in young adults. Composed of mature ganglion cells and Schwann cells in a fibrous stroma, these lesions do not secrete catecholamines or steroid hormones. Adrenal ganglioneuomas may be quite large, but there is no vessel involvement. In addition, these lesions are often mistaken for something more sinister such as cancer or pheochromocytoma since they usually have a slightly high and heterogenous T2-weighted signal on MRI. The nonenhanced attenuation value is usually 20 to 40 Hounsfield units and calcifications are common. As a result of the neural crest origin of these lesions, it is not surprising that they may occasionally demonstrate positive MIBG imaging and be confused with pheochromocytoma.
 
-##### Reference(s):
-
-Diez JJ, Iglesias P. Spontaneous subclinical hypotyroidism in patients older than 55 years: an analysis of natural course and risk factors for the development over the thyroid failure. J Clin Endocrinol Metab. 2004; 89(10):4890-4897.
-
-Somwaru LL, Rariy CM, Arnold AM, Cappola AR. The natural history of subclinical hypothyroidism in the elderly: the cardiovascular health study. J Clin Endocrinol Metab. 2012;97(6):1962-1969.
-
-Walsh JP, Bremner AP, Feddema PJ, Brown SJ, O'Leary P. Thyrotropin and thyroid antibodies as predictors of hypothyroidism: a 13-year, longitudinal study of a community-based cohort using current immunoassay techniques. J Clin Endocrinol Metab. 2010;95(3):1095-1104.
-
-Huber G, Staub JJ, Meier C, Mitrache C, Guglielmetti M, et al. J Clin Endocrinol Metab. 2002;87(7):3221-3226. hypothyroidism: prognostic value of thyrotropin, thyroid reserve, and thyroid antibodies. J Clin Endocrinol Metab. 2002;87(7):3221-3226.
-
-## Question 40
-
-*[question text missing in OCR]*
-
-
-### Answer 40: D) Increase dexamethasone to 0.5 mg at bedtime
-
-## 40 ANSWER: D) Increase dexamethasone to 0.5 mg at bedtime
-
-In nonclassic congenital adrenal hyperplasia, the adrenal zona fasciculata's production of cortisol is partially reduced such that the hypothalamic-pituitary drive to the adrenal gland is increased to restore normal cortisol levels.
-
-a result, the intermediate steroid metabolites between cholesterol as it is converted to cortisol accumulate. In particular, with disturbances in 21-hydroxylase activity, ACTH secretion rises above normal and 17-hydroxyprogesterone and DHEA-S are increased because they are proximate to the enzymatic defect. DHEA-S is a weak androgen, so elevated DHEA-S levels can inhibit hypothalamic GnRH, pituitary LH, and testicular testosterone secretion.
-
-Nonclassic congenital adrenal hyperplasia is not life-threatening because of compensated production of glucocorticoids. It presents in childhood or early adulthood. In females, elevated adrenal androgen production can manifest with acne, hirsutism, and irregular menses. In males, adrenal androgen production can increase before the time of normal puberty and lead to a premature growth spurt and virilization. Hypertension occurs, albeit infrequently, if intermediate molecules with mineralocorticoid activity are increased.
-
-The central question related to this vignette focuses on glucocorticoid replacement when symptoms from the partial enzymatic defect arise. For this patient, adrenal androgen production initially resulted in premature puberty and later in reduced gonadal function and erectile dysfunction. To address his concerns, longer-acting glucocorticoid medications should be administered at bedtime with a goal of reducing early-morning ACTH secretion and subsequent adrenal hormone synthesis. Generally, 1 mg of dexamethasone taken at bedtime will suppress most, if not all, ACTH secretion in normal individuals. Hence, dexamethasone dosages below 1 mg daily are often sufficient to prevent adrenal androgen hypersecretion in patients with nonclassic congenital adrenal hyperplasia. However, metabolism of dexamethasone varies among individuals, and some patients require more, or less, dexamethasone to experience a satisfactory response without signs and symptoms of glucocorticoid excess.
-
-This patient was clearly undertreated at a dexamethasone dosage of 0.25 mg at bedtime. Thus, an increase to 0.5 mg at bedtime would be a reasonable next step (thus, Answer D is correct). Because of dexamethasone's long duration of action, splitting it into 2 doses is not needed and taking the dexamethasone in the morning would exert a suppressive action on ACTH at a time when it would not be elevated (ie, the afternoon and evening) (thus, Answer E is incorrect).
-
-Generally, the ratio of glucocorticoid action for dexamethasone to hydrocortisone is ~25:1. A dose of 12.5 mg of hydrocortisone is roughly equivalent to 0.5 mg of dexamethasone. However, one would not use hydrocortisone at bedtime to suppress ACTH secretion because of its shorter duration of action (thus, Answer A is incorrect). Similar to splitting the dexamethasone dose, using twice-daily hydrocortisone is also unlikely to be helpful (thus, Answer B is incorrect).
-
-Adding testosterone (Answer C) would increase circulating testosterone levels and might improve the erectile dysfunction. However, adding an additional medication should not be needed if the dexamethasone dosage is properly adjusted.
+This patient had an adrenalectomy. Histopathology documented an adrenal myelolipoma. There was no evidence of a pheochromocytoma. Additional hormonal testing in this man showed the following: total testosterone, 229 ng/dL (7.9 nmol/L); LH, 24 mIU/mL (24 IU/L); and FSH, 67 mIU/mL (67 IU/L). His nocturnal sweating improved with transdermal testosterone administration.
 
 ##### Educational Objective:
 
-Treat nonclassic congenital adrenal hyperplasia and differentiate among glucocorticoid preparations.
+Anticipate imaging and biochemical pitfalls in the evaluation of patients with suspected pheochromocytoma.
 
 UpToDate Topic Review(s):
 
-Diagnosis and treatment of nonclassic (late-onset) congenital adrenal hyperplasia due to 21-hydroxylase deficiency.
+Clinical presentation and diagnosis of pheochromocytoma
 
-Reference(s):
+##### Reference(s):
 
-Witchel SF. Non-classic congenital adrenal hyperplasia. Steroids. 2013;78(8):747-50.
+Guo YK, Yang ZH, Li Y, et al. Uncommon adrenal masses: CT and MRI features with histopathologic correlation. Eur J Radiol. 2007;62(3):359-370.
 
-usebye ES, Allolio B, Arlt W, et al. Consensus statement on the diagnosis, treatment and follow-up of patients with primary adrenal insufficiency. J Intern Med. 2014;275(2):104-115.
+Kudva YC, Sawka AM, Young WF Jr. Clinical review 164: The laboratory diagnosis of adrenal pheochromocytoma: the Mayo Clinic experience. J Clin Endocrinol Metab. 2003;88(10):4533-4539.
+
+Perry CG, Sawka AM, Singh R, Thabane L, Bajnarek J, Young WF Jr. The diagnostic efficacy of urinary fractionated metanephrines measured by tandem mass spectrometry in detection of pheochromocytoma. Clin Endocrinol (Oxf). 2007;66(5):703-708.
+
+Giusti M, Sidoti M, Augeri C, Rabitti C, Minuto F. Effect of short-term treatment with low dosages of the proton pump inhibitor omeprazole in serum chromogranin A levels in man. Eur J Endocrinol. 2004;150(3):299-303.
 
 ## Question 49
 
@@ -347,101 +317,9 @@ Initiate ketoconazole, 200 mg twice daily
 
 .
 
-63 A 78-year-old man is seen by his primary care physician for his annual check-up. Generally, he feels well and has no specific concerns, except for a gradual decrement in his energy level and strength. He continues to work part-time. He enjoys single-handed sailing and has noticed it is now harder to complete the tasks necessary to sail the boat by himself. His only chronic medical problems are hypertension, for which he takes hydrochlorothiazide, and osteoarthritis.
+### Answer 62: B) Discontinue the oral contraceptive
 
-On physical examination, weight is 167 lb (75.9 kg) and height is 70 in (177.8 cm) (BMI = 24 kg/m²), both of which are stable since he was last seen 1 year ago. Blood pressure is 134/80 mm Hg. Palpation of the neck reveals a normal-sized, slightly firm thyroid gland. Other findings on physical examination are unremarkable other than some thinning of his skin and osteoarthritic changes in his hands.
-
-Laboratory test results at today's appointment:
-
- $$ \mathrm{S e r u m~s o d i u m}=134\mathrm{m E q/L}(134\mathrm{m m o l/L}) $$ 
-
- $$ \mathrm{Other~serum~electrolytes,normal} $$ 
-
-Laboratory test results 2 months later:
-
-TSH = 5.9 mIU/L
-
- $$ \mathrm{Total~cholesterol}=180\mathrm{mg/dL}(4.66\mathrm{mmol/L}) $$ 
-
- $$ \mathrm{Free~T}_{4}=1.0\mathrm{~ng/dL} $$ 
-
- $$ \mathrm{LDL~cholesterol}=129\mathrm{mg/dL}(3.34\mathrm{mmol/L}) $$ 
-
-TPO antibodies = <2.0 IU/mL
-
- $$  TSH=5.7mIU/L $$ 
-
-In addition to explaining that his thyroid function should be monitored going forward, which of the following would you recommend now?
-
-A. Levothyroxine, 1.6 mcg/kg per day
-
-B. Levothyroxine, 25 mcg daily
-
-C. Levothyroxine initiation if his serum LDL-cholesterol concentration rises above 130 mg/dL (3.37 mmol/L)
-
-D. Levothyroxine initiation if his serum sodium remains below the normal range during routine follow-up testing
-
-E. No thyroid hormone replacement
-
-A 29-year-old woman with polycystic ovary syndrome returns to your clinic for a routine follow-up appointment. She has a history of obesity, hirsutism, irregular menses, and infertility, but has no current plans for pregnancy. A previous evaluation for Cushing syndrome revealed no evidence of hypercortisolism. Prediabetes was diagnosed approximately 2 years ago on the basis of an elevated fasting glucose concentration and a hemoglobin  $ A_{1c} $ value of 5.7% (0.057). At that time, the patient received comprehensive lifestyle education with an emphasis on weight loss through caloric restriction and regular physical activity. She reports that she exercises regularly and that she has been able to lose approximately 5% of her initial body weight, primarily by reducing her fat intake. The patient has taken metformin at a dosage of 1000 mg twice daily for the past year; she has tolerated the medication well and has had no difficulty with adherence.
-
-On physical examination, blood pressure is 135/78 mm Hg, and pulse rate is 88 beats/min. Height is 63 in (160 cm), and weight is 317 lb (144.1 kg) (BMI = 56.1 kg/m $ ^{2} $). Her weight is unchanged from that documented at her last appointment 4 months ago.
-
-Laboratory test results:
-
-Hemoglobin  $ A_{1c}=6.1\% $ (0.061)
-
-Creatinine = 0.7 mg/dL (61.9 μmol/L)
-
-Sodium = 141 mEq/L (141 mmol/L)
-
-Glomerular filtration rate = 104 mL/min per 1.73 m²
-
-Potassium = 3.8 mEq/L (3.8 mmol/L)
-
-Fasting glucose = 115 mg/dL (6.38 mmol/L)
-
-Which of the following is the best management plan?
-
-A. Substitute an  $ \alpha $-glucosidase inhibitor for metformin
-
-B. Substitute a thiazolidinedione for metformin
-
-C. Begin an ACE inhibitor
-
-D. Recommend changing to a very low-carbohydrate diet
-
-E. Refer to a bariatric surgeon for consultation
-
-### Answer 62: B) Discontinue the oral contraceptive. The assessment of elevated steroid concentrations must always account for the presence of factors (including medications) that may increase the levels of steroid-binding proteins, conditions that alter metabolic clearance of steroids, or medications that may directly affect steroid-receptor binding. This young woman is taking an oral contraceptive containing drospirenone and ethinyl estradiol. Estrogen-containing oral contraceptives are well known to cause marked increases in the major binding protein for cortisol (corticosteroid-binding globulin). Women taking oral contraceptives usually have basal total cortisol levels that exceed 20 μg/dL (552 nmol/L) and more than 50% have an abnormal result from an overnight 1-mg dexamethasone suppression test. Although it is commonly thought that oral contraceptives do not affect urinary free cortisol excretion, a recent study showed that nearly one-third of women taking oral contraceptives had a mild elevation of urinary free cortisol. In contrast, late-night salivary cortisol (a reflection of biologically active free cortisol) is usually normal in these women. Consequently, this woman has no biochemical or clinical evidence of hypercortisolism, and the use of a glucocorticoid receptor antagonist such as mifepristone (Answer D) or a drug to inhibit adrenal steroidogenesis such as ketoconazole (Answer E) is not indicated. In contrast to cortisol, aldosterone has weak binding to corticosteroid-binding globulin, and estrogens do not significantly alter its concentration.
-
-62 ANSWER: B) Discontinue the oral contraceptive. The assessment of elevated steroid concentrations must always account for the presence of factors (including medications) that may increase the levels of steroid-binding proteins, conditions that alter metabolic clearance of steroids, or medications that may directly affect steroid-receptor binding. This young woman is taking an oral contraceptive containing drospirenone and ethinyl estradiol. Estrogen-containing oral contraceptives are well known to cause marked increases in the major binding protein for cortisol (corticosteroid-binding globulin). Women taking oral contraceptives usually have basal total cortisol levels that exceed 20 μg/dL (552 nmol/L) and more than 50% have an abnormal result from an overnight 1-mg dexamethasone suppression test. Although it is commonly thought that oral contraceptives do not affect urinary free cortisol excretion, a recent study showed that nearly one-third of women taking oral contraceptives had a mild elevation of urinary free cortisol. In contrast, late-night salivary cortisol (a reflection of biologically active free cortisol) is usually normal in these women. Consequently, this woman has no biochemical or clinical evidence of hypercortisolism, and the use of a glucocorticoid receptor antagonist such as mifepristone (Answer D) or a drug to inhibit adrenal steroidogenesis such as ketoconazole (Answer E) is not indicated. In contrast to cortisol, aldosterone has weak binding to corticosteroid-binding globulin, and estrogens do not significantly alter its concentration.
-
-Drospirenone is a unique progestin that is actually an analogue of the antimineralocorticoid receptor antagonist spironolactone. The antimineralocorticoid activity of drospirenone made it popular because it tends to be associated with less fluid retention in young women; however, drospirenone has also been associated with an increased risk for thromboembolic disease, which has limited its use. Similar to spironolactone, drospirenone causes marked increases in plasma and urinary aldosterone because of the mineralocorticoid receptor blockade. Accordingly, plasma renin activity also increases. Therefore, the hyperaldosteronism in this patient is related to the antimineralocorticoid activity of drospirenone. Discontinuation of the oral contraceptive (Answer B) normalized her blood pressure. In a prospective cohort study in the United States of nearly 70,000 normotensive, female
-
-nurses aged 25 to 42 years, the age-adjusted relative risk of hypertension when using oral contraceptives was 1.5 (95% confidence interval, 1.2-1.8) for current use and 1.1 (95% confidence interval, 0.9-1.2) for past use. After adjustment for age, body mass index, cigarette smoking, family history of hypertension, physical activity, alcohol intake, and ethnicity, current users of oral contraceptives had an increased risk for development of hypertension (relative risk, 1.8; 95% confidence interval, 1.5-2.3) compared with the risk for women who had never used oral contraceptives. The mechanism of how oral contraceptives increase blood pressure is unknown.
-
-The vignette contains 2 other clues that this woman does not have true primary aldosteronism: (1) the nonsuppressed plasma renin activity and (2) the absence of hypokalemia with prodigious elevations of aldosterone. In patients with primary aldosteronism, the plasma renin activity is almost always less than 1 ng/mL per hour if the patient is not receiving any medications that alter the renin-angiotensin-aldosterone system. Even patients with primary aldosteronism who are taking an ACE inhibitor or an angiotensin-receptor antagonist rarely have a plasma renin activity greater than 1 ng/mL per hour. Hypokalemia would be inevitable in a patient with aldosterone concentrations of this magnitude in the absence of a mineralocorticoid receptor antagonist. Although this woman has a markedly elevated aldosterone-to-plasma renin activity ratio (simply because the numerator is falsely elevated), the nonsuppressed plasma renin activity excludes primary aldosteronism as a reasonable diagnosis. Therefore, a mineralocorticoid receptor antagonist such as spironolactone (Answer A) is not warranted.
-
-Licorice-induced hypermineralocorticoidism is a well-appreciated cause of hypertension and hypokalemic metabolic alkalosis. Licorice contains glycyrrhizic acid that is hydrolyzed to glycyrrhetinic acid after ingestion. Glycyrrhetinic acid inhibits 11β-hydroxysteroid dehydrogenase type II and enzymes that reversibly catalyze the conversion of cortisol to cortisone in the distal renal tubule. This intrarenal metabolism of cortisol protects the mineralocorticoid receptor from cortisol. The inhibition of this enzyme by glycyrrhetinic acid raises intrarenal cortisol levels, providing free access to the mineralocorticoid receptor. Accordingly, cortisol is the offending mineralocorticoid in these patients and a low plasma renin activity and low aldosterone concentration is expected. Therefore, her intermittent licorice use (Answer C) is not the cause of her hypertension.
-
-##### Educational Objective:
-
-Identify the increases in aldosterone and cortisol due to steroid receptor blockade and changes in the steroid-binding protein concentration.
-
-UpToDate Topic Review(s):
-
-Risks and side effects associated with estrogen-progestin contraceptives
-
-##### Reference(s):
-
-Oelkers W, Foidart JM, Dombrovicz N, Welter A, Heithecker R. Effects of a new oral contraceptive containing an antimineralocorticoid progestogen, drospirenone, on the renin-aldosterone system, body weight, blood pressure, glucose tolerance and lipid metabolism. J Clin Endocrinol Metab. 1995;80(6):1816-1821.
-
-Chasan-Taber L, Willett WC, Manson JE, et al. Prospective study of oral contraceptives and hypertension among women in the United States. Circulation. 1996;94(3):483-489.
-
-Paschali M, Willenberg HS, Fritzen R, Schott M, Scherbaum WA, Schinner S. False positives on both dexamethasone testing and urinary free cortisol in women on oral contraception: dose-response effects. Clin Endocrinol (Oxf). 2013;79(3):443-445.
-
-Liening SH, Stanton SJ, Saini EK, Schultheiss OC. Salivary testosterone, cortisol, and progesterone: two-week stability interhormone correlations, and effects of time of day, menstrual cycle, and oral contraceptive use on steroid hormone levels. Physiol Behav. 2010;99(1):8-16.
+## 62 ANSWER: B) Discontinue the oral contraceptive
 
 ## Question 73
 
@@ -502,6 +380,46 @@ Chiodini I. Clinical review: diagnosis and treatment of subclinical hypercortiso
 Chiodini I, Mascia ML, Muscarella S, et al. Subclinical hypercortisolism among outpatients referred for osteoporosis. Ann Intern Med. 2007;147(8):541-56. Reincke M. Subclinical Cushing's syndrome. Endocrinol Metab Clin North Am. 2000;29(1):43-56.
 
 Tsagarakis S, Vassiliadi D, Thalassinos N. Endogenous subclinical hypercortisolism: diagnostic uncertainties and clinical implications. J Endocrinol Invest. 2006;29(5):471-482.
+
+## Question 89
+
+You are consulted regarding a 74-year-old man in the orthopedic unit 4 days after a left total hip replacement. The patient reported severe left flank discomfort for 24 hours and abdominal CT was performed (see image). Bilateral adrenal enlargement was noted (arrows). His medical team now seeks your consultation. He has been ambulatory since surgery, but his appetite has been poor and he has had trouble adhering to the physical therapy program. He has a history of well-controlled hypertension for many years. His postoperative medications include acetaminophen, postoperative medications include acetaminophen, codeine, amlodipine, and low-molecular-weight heparin.
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_0_754_490_1153.jpg" alt="Image" width="50%" /></div>
+
+
+On physical examination, he is alert and uncomfortable. Blood pressure is 126/70 mm Hg, pulse rate is 110 beats/min, and temperature is 99.8°F (37.7°C). Height is 69 in (175.3 cm), and weight is 197 lb (89.5 kg) (BMI = 29.1 kg/m²). He has truncal obesity, but does not appear cushingoid. He has no hyperpigmentation. His thyroid gland is normal. Findings on chest and cardiac examination are remarkable only for a rapid regular beat. His abdomen is soft, but there is some guarding to palpation in the left flank. He has no edema, and findings on neurologic examination are normal.
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Sodium</td><td style='text-align: center; word-wrap: break-word;'>Potassium</td><td style='text-align: center; word-wrap: break-word;'>Cortisol</td><td style='text-align: center; word-wrap: break-word;'>ACTH</td><td style='text-align: center; word-wrap: break-word;'>Aldosterone</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>136 mEq/L
+(136 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>3.2 mEq/L
+(3.2 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>33.0  $ \mu $g/dL
+(910.4 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>128 pg/mL
+(28.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.6 ng/dL
+(72.1 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>126 mEq/L
+(126 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>5.2 mEq/L
+(5.2 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>0.9  $ \mu $g/dL
+(24.8 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>456 pg/mL
+(100.3 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.6 ng/dL
+(72.1 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>146 mEq/L
+146 mmol/L</td><td style='text-align: center; word-wrap: break-word;'>4.6 mEq/L
+(4.6 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.8  $ \mu $g/dL
+(77.2 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>14 pg/mL
+(3.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>12.0 ng/dL
+(332.9 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>139 mEq/L
+(139 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>3.8 mEq/L
+(3.8 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>46.0  $ \mu $g/dL
+1269.0 nmol/L</td><td style='text-align: center; word-wrap: break-word;'>19 pg/mL
+(4.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>2.8 ng/dL
+(77.7 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>126 mEq/L
+(126 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.1 mEq/L
+(4.1 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>0.9  $ \mu $g/dL
+24.8 nmol/L</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL
+(1.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>12.0 ng/dL
+(332.9 pmol/L)</td></tr></table>
+
+<div style="text-align: center;"><div style="text-align: center;">Which of the following laboratory profiles would you expect?</div> </div>
 
 ## Question 104
 
@@ -584,6 +502,60 @@ UpToDate Topic Review(s): Establishing's the diagnosis of Cushing's syndrome
 Javorsky BR, Carroll TB, Findling JW. Differential diagnosis of Cushing's syndrome. In: Swearingen B, Biller BMK, eds. Cushing's Disease. Springer, New York: 2011:85-1066.
 
 Ilias I, Torpy DJ, Pacak K, Mullen N, Wesley RA, Nieman LK. Cushing's syndrome due to ectopic corticotropin secretion: twenty years' experience at the National Institutes of Health. J Clin Endocrinol Metab. 2005;90(8):4955-4962.
+
+## Question 108
+
+. Screening for insulinoma-2-associated autoantibodies and zinc transporter 8 autoantibodies
+
+From: Endo doctor [endodocctor@healthcare.com]
+
+Sent: Wednesday, November 06, 2014 4:05 PM
+
+To: compoundF@zonafasciculata.com
+
+Subject: interesting patient question
+
+Hi, Dr. Compound F,
+
+I would like your help with an interesting patient I saw recently at the request of her family physician. This is an unusual case, and I am feeling stuck on the workup. The patient is a 71-year-old woman with hypertension diagnosed at age 37 years. Earlier this year, bilateral renal artery stenosis was diagnosed and she underwent bilateral stenting. I did not meet her until after that procedure. I don't have access to hormonal testing done before the procedure, and she hasn't had imaging studies showing the adrenal glands. Before the stenting, she had a normal serum creatinine level and her chemistry panel was normal except for some intermittent low sodium measurements (as low 126 mEq/L [126 mmol/L] on one occasion, but usually between 130 and 136 mEq/L [130-136 mmol/L]). After the stenting, her uncontrolled hypertension persisted. Her potassium level is just mildly low: 3.3 mEq/L (3.3 mmol/L). Renal ultrasonography showed good patent flow.
+
+Her family doctor tested her for secondary causes of hypertension before sending her to me:
+
+Urinary catecholamines and metanephrines, normal Plasma renin activity = 22 ng/mL per h
+
+Aldosterone = 4.6 ng/dL (127.6 pmol/L)
+
+Urinary cortisol = <2.2  $ \mu $g/24 h (6.07 nmol/d)
+
+She was sent to me to exclude an adrenal disorder. She had no history or features consistent with low cortisol, blood pressure was 190/70 mm Hg, and heart rate was 120 beats/min (she was nervous; her heart rate did slow down after a while). She appeared very cushingoid with facial rounding, skin thinning with many bruises on her arms, and increased dorsocervical and supraclavicular fat. Her medications included amlodipine, valsartan, atenolol, and hydrochlorothiazide. She recalled taking hydrocodone/acetaminophen 3 months ago for back pain, but had not taken any narcotics for 2 months.
+
+I checked a morning serum cortisol level, expecting a normal result.
+
+Serum cortisol (9 AM) = 1.6 µg/dL (44.1 nmol/L)
+
+ACTH = <5 pg/mL (<1.1 pmol/L)
+
+After cosyntropin serum cortisol = 8.1  $ \mu $g/dL (223.5 nmol/L)
+
+I also measured a morning salivary cortisol level, which was only  $ 0.08\ \mu g/dL $ ( $ 2.1\ nmol/L $)—this must be low sin it is in the normal range for midnight.
+
+No pituitary abnormalities were noted on brain MRI done last year. Free  $ T_{4} $ and TSH levels were normal.
+
+I don't know what to do next and I would appreciate any help you can provide. Thanks.
+
+Endo Doc
+
+Which of the following studies should you recommend to establish the cause of the low cortisol level in this patient?
+
+A. Corticosteroid-binding globulin measurement
+
+B. CT of the adrenal glands
+
+C. Pituitary-directed MRI
+
+D. Screening for synthetic glucocorticoids
+
+E. 11-Deoxycortisol measurement
 
 ## Question 118
 

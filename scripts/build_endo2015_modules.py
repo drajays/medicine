@@ -108,11 +108,24 @@ def parse_topic_md(text: str) -> list[dict]:
 def extract_options(block: str) -> tuple[str, list[str]]:
     opts: list[str] = []
     for letter in "ABCDE":
-        m = re.search(rf"(?:^|\n){letter}\.\s*(.+?)(?=\n[A-E]\.|\nWhich of|\nYou are|\nOn physical|\nLaboratory|\Z)", block, re.DOTALL)
+        m = re.search(
+            rf"(?:^|\n){letter}\.\s*(.+?)(?=\n[A-E]\.\s|\nWhich of|\nYou are|\nOn physical|\nLaboratory|\n## |\Z)",
+            block,
+            re.DOTALL,
+        )
         if m:
             opts.append(re.sub(r"\s+", " ", m.group(1).strip()))
+    if len(opts) < 4:
+        for letter in "ABCDE":
+            m = re.search(
+                rf"(?:^|\n){letter}\)\s*(.+?)(?=\n[A-E]\)\s|\nWhich of|\Z)",
+                block,
+                re.DOTALL,
+            )
+            if m:
+                opts.append(re.sub(r"\s+", " ", m.group(1).strip()))
     stem = block
-    m0 = re.search(r"(?:^|\n)A\.\s", block)
+    m0 = re.search(r"(?:^|\n)[A-E][\.)]\s", block)
     if m0:
         stem = block[: m0.start()].strip()
     stem = re.sub(r"^\d{1,3}\s+", "", stem).strip()

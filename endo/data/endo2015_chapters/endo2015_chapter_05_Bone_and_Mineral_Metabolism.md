@@ -1,88 +1,5 @@
 # ESAP 2015 — Bone and Mineral Metabolism
-Questions: 10, 17, 23, 29, 36, 39, 45, 54, 56, 57, 69, 71, 74, 82, 89, 92, 93, 95, 100, 108, 111, 117
-
-## Question 10
-
-During an appointment with her primary care physician, a 28-year-old woman reports that she is pregnant. Your assistance in interpreting her thyroid hormone levels is requested. She has regular menstrual cycles every 28 to 30 days, and her last menstrual period was 6 weeks ago. A home urine test kit for pregnancy has confirmed a positive result. She delivered a healthy baby boy 30 months ago following an uncomplicated pregnancy. Thirteen months ago, she had a miscarriage at 7 weeks' gestation. The patient reports tiredness that has been present for 3 months, but has worsened over the past 2 weeks. She has also developed mild nausea, mainly in the morning over the last week. She has not been able to take any�a to the medical records, it becomes apparent that the biochemical tests performed 7 weeks ago documented a serum TSH level of 3.8 mIU/L with a serum free T₄ level of 1.1 ng/dL (14.2 pmol/L). She reports a family history of rheumatoid arthritis and pernicious anemia in her maternal grandmother and Hashimoto thyroiditis in her mother.
-
-On physical examination, weight is 128 lb (58.2 kg) (which has been stable) and height is 63 in (160 cm) (BMI = 22.7 kg/m²). Her pulse rate is 78 beats/min, and blood pressure is 126/72 mm Hg. She has a small palpa goiter, the outline of which is smooth. Physical examination findings are otherwise unremarkable. A pregnancy to done in the clinic is positive.
-
-Thyroid function test results:
-
-Serum TSH = 4.1 mIU/L
-
-Serum free  $ T_{4}=1.0 $ ng/dL (12.9 pmol/L)
-
-TPO antibodies = 32 IU/mL (32 kIU/L)
-
-Which of the following should you recommend?
-
-A. Levothyroxine replacement
-
-B. Liothyronine replacement
-
-C. No therapy now; assessment of thyroid function again in 4 weeks
-
-D. Desiccated thyroid extract containing both T_{4} and T_{3}
-
-E. Prednisone
-
-11 A 60-year-old woman seeks an evaluation for low bone density. She has a history of rheumatoid arthritis and has been treated with prednisone, 10 mg daily, for the last 6 months. She has no personal history of fractures, has no family history of fractures or osteoporosis, and has not experienced height loss. She takes calcium supplements, 1200 mg daily (in divided doses), and vitamin D, 2000 IU daily. She walks 30 minutes a day, engages in resistance training 3 times per week, and remains active.
-
-On physical examination, weight is 131 lb (59.5 kg) and height is 65 in (165.1 cm) (BMI = 21.8 kg/m $ ^2 $). Blood pressure is 110/72 mm Hg, and heart rate is 72 beats/min. Her examination findings are normal.
-
-Results from a complete blood cell count and comprehensive metabolic panel are within the reference range. Her vitamin D concentration is 32 ng/mL (79.9 nmol/L).
-
-DXA scan reveals osteopenia with a femoral neck T score of -2.2 and a lumbar spine T score of -2.3.
-
-Which of the following is the best next treatment step?
-
-A. Increase daily calcium supplementation to 2400 mg
-
-B. Increase daily vitamin D supplementation to 4000 IU
-
-C. Start raloxifene
-
-D. Start denosumab
-
-E. Start risedronate
-
-12 A 72-year-old man with no history of diabetes mellitus is confused after being involved in a car crash and is brought to the emergency department. A fingerstick glucose measurement is 45 mg/dL (2.50 mmol/L).
-
-Venous blood is drawn, which confirms the presence of a low venous glucose concentration (39 mg/dL [2.16 mmol/L]). The hypoglycemia is treated with intravenous glucose and the patient's confusion resolves. Abdominal CT is subsequently performed and is remarkable for the presence of multiple vascular hepatic metastases, the largest of which is 2.3 cm in diameter. His pancreas is well visualized and normal in appearance. The right kidney is remarkable for the presence of a 4-cm, complex cystic mass whose appearance is strongly suggestive of renal cell carcinoma, occupying the upper pole. As far as can be ascertained, the patient was asymptomatic before this presentation, and his weight has been stable.
-
-<div style="text-align: center;"><div style="text-align: center;">Which of the following sets of laboratory values obtained at the time of hypoglycemia will you most likely find?</div> </div>
-
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Insulin</td><td style='text-align: center; word-wrap: break-word;'>C-Peptide</td><td style='text-align: center; word-wrap: break-word;'>Proinsulin</td><td style='text-align: center; word-wrap: break-word;'>Insulin Antibodies</td><td style='text-align: center; word-wrap: break-word;'>Sulfonylurea Screen</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>112  $ \mu $IU/mL\n(777.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>14.3 ng/mL\n(4.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>180 pg/mL\n(20.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Positive</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>15  $ \mu $IU/mL\n(104.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.5 ng/mL\n(1.5 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>32 pg/mL\n(3.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Positive</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>112  $ \mu $IU/mL\n(777.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL\n(&lt;0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL\n(&lt;0.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>15  $ \mu $IU/mL\n(104.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.5 ng/mL\n(1.5 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>32 pg/mL\n(3.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>&lt;3  $ \mu $IU/mL\n(&lt;20.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL\n(&lt;0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL\n(&lt;0.3 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr></table>
-
-### Answer 10: C) BMI, normal; cardiovascular risk, increased
-
-## 10 ANSWER: C) BMI, normal; cardiovascular risk, increased
-
-BMI determination (weight [kg]/height [m²]) has been the accepted criterion for the diagnosis of obesity. BMI values can identify persons at risk for weight-related medical complications and increased mortality. However,
-
-BMI has limitations in that it does not provide information regarding body adiposity, which is well recognized contribute to pathophysiologic processes affecting health and mortality. This is particularly true for persons in normal-weight category (18.5-24.9 kg/m²) or overweight category (25.0-29.9 kg/m²). This patient's BMI of 23 kg/m² is considered normal (thus, Answers A, B, and E are incorrect). For patients with a BMI in this range, both composition can provide additional information regarding health risks. In individuals with an elevated BMI, those who have a healthy body composition (defined as a body fat percentage of less than 23.1% in men and less than 33.3% in women) may not have an increased risk for metabolic complications. This patient has a high body percentage (37%). Recent studies suggest that despite a normal BMI, increased adiposity confers an increased risk for metabolic complications and increased mortality, particularly for women. The state of having a normal BMI increased body fat has been termed normal-weight obesity. Romero-Corral et al reported that women with normal weight obesity have a 2.2-fold increased risk for cardiovascular mortality when compared with the risk of women with normal body adiposity (thus, Answers C is correct and Answers D is incorrect).
-
-weight obesity have a 2.2-fold increase with normal body adiposity (thus, Answer C is correct and). There are several methods for measuring body composition. The most accurate tend to be cumbersome (underwater weighing) and not applicable to routine clinical practice. Anthropometric measurements (height, weight, waist circumference, skin-fold thickness) are easily assessed and provide valuable information regarding a patient's health risks, but they have limitations. Waist circumference measurement requires a consistent measure of the level of the iliac crest. Waist circumference for accuracy: flexible measuring tape in the horizontal view at the level of the iliac crest. Waist circumference identifies individuals with abdominal adiposity, which confers the highest risk for metabolic complications. Measurement of skin-fold thickness is less accurate and is most often used as a research tool. DXA provides a 3-compartment model for body composition, but it can have substantial intraindividual variability and it is a Body plethysmography uses air displacement instead of water displacement to measure body fat. Measurement correlates well with underwater weighing and are accurate. Impedance measurements are widely available (weeks), but have limitations. Impedance determines body water content, and formulas have been developed to convert that measurement to body fat. Several studies suggest that these methods underestimate body fat (2% variability) when compared with fat measurement determined by DXA. Documenting how this patient had the percentage of body fat determined is important. If it was determined by body plethysmography, the measurement most likely accurate.
-
-##### Educational Objective:
-
-Describe health risks associated with increased body adiposity regardless of body mass index.
-
-UpToDate Topic Review(s):
-
-Determining body composition in adults
-
-##### Reference(s):
-
-Romero-Corral A, Somer VK, Sierra-Johnson J, et al. Normal weight obesity: a risk factor for cardiometabolic dysregulation and cardiovascular mortality. Heart J. 2010;31(6):737-746.
-
-Lee SY, Gallagher D. Assessment methods in human body composition. Curr Opin Clin Nutr Metab Care. 2008;11(5):566-572.
-
-Ginde SR, Geliebter A, Rubiano F, et al. Air displacement plethysmography: validation in overweight and obese subjects. Obes Res. 2005;13(7):1232-1234
+Questions: 17, 23, 29, 36, 39, 45, 54, 57, 66, 71, 74, 82, 93, 94, 100, 111, 117
 
 ## Question 17
 
@@ -123,32 +40,6 @@ D. Distal radius bone mineral density
 
 E. Lumbar spine bone mineral density
 
-18 A 33-year-old man comes to the endocrine clinic for evaluation of infertility. Three years ago, a 2.8-cm nonsecreting pituitary macroadenoma was diagnosed after he presented with symptoms of mass effects. He underwent hypophysectomy without complications. Postoperative endocrine evaluation confirmed central hypogonadism. He was prescribed transdermal testosterone patches for the maintenance of secondary sexual characteristics and on this therapy he has had normal sexual function and quality of life.
-
-The patient and his wife started trying for a second child 10 months ago without any success. Two semen analyses had shown severe oligospermia (<5 million/mL). He has been referred for further evaluation. The patient does not have any other notable medical history. He underwent normal puberty. He has noticed a slight decrease in testicular size since the hypophysectomy.
-
-On physical examination, his pulse rate is 88 beats/min and blood pressure is 138/78 mm Hg. Weight is 202 kg (91.8 kg), and height is 71 in (180.3 cm) (BMI = 28.2 kg/m $ ^{2} $). There is no gynecomastia. Testicular volume is 13 mL bilaterally. The rest of his examination findings are normal.
-
-Laboratory test results:
-
-Testosterone = 542 ng/dL (18.8 nmol/L)
-
-LH = 0.8 mIU/mL (0.8 IU/L)
-
-FSH = 1.1 mIU/mL (1.1 IU/L)
-
-Which of the following is the most appropriate treatment option to induce fertility in this patient?
-
-A. hCG injections
-
-B. hCG and FSH injections
-
-C. Subcutaneous GnRH pump
-
-D. Oral clomiphene citrate
-
-E. Oral letrozole
-
 ## Question 23
 
 *[question text missing in OCR]*
@@ -186,8 +77,37 @@ Hadji P, Aapro M $ _5 $, Booy JJ, et al. Management of aromatase inhibitor-assoc
 
 ## Question 29
 
-*[question text missing in OCR]*
+A 50-year-old woman with a history of type 2 diabetes mellitus, hypertension, lactose intolerance, andột mối obesity is referred to you for evaluation of hyperparathyroidism and bone loss. Roux-en-Y bariatric surgery was performed 2 years ago. She has successfully lost nearly 100 lb (45.5 kg), and her diabetes is now well controlled off medication. She currently weighs 225 lb (102.4 kg), and height is 65 in (165.1 cm) (BMI = 37.4 kg/m²). Since her surgery, she has taken 4000 IU of vitamin D₃ daily and metoprolol for hypertension.
 
+She is seen every 6 months for routine follow-up. DXA was performed last year, as well as at her most recent visit, to evaluate bone mineral density. Results from her current DXA scan reveal a lumbar spine T score of -2.2 (representing a 5.7% decline from the previous study) and a femoral neck T score of -2.7 (representing a 2.5% decline from the previous study). As a result, her primary care physician initiated an evaluation for the cause of bone loss.
+
+Laboratory test results:
+
+ $$  Serum~calcium=8.4mg/dL(2.10mmol/L) $$ 
+
+ $$ \mathrm{Albumin}=4.0\mathrm{~g/dL}\left(40\mathrm{~g/L}\right) $$ 
+
+ $$ \mathrm{PTH}=141\mathrm{pg}/\mathrm{mL}(141\mathrm{ng}/\mathrm{L}) $$ 
+
+ $$ 25-Hydroxyvitamin~D=66ng/mL(164.7nmol/L) $$ 
+
+ $$ \mathrm{U r i n a r y c a l c i u m}=19\mathrm{m g}/24\mathrm{h}(0.48\mathrm{m m o l/d}) $$ 
+
+ $$ (s i m u l t a n e o u s c r e a t i n i n e o f0.99g/24h[8.75m m o l/d]) $$ 
+
+ $$ \mathrm{Serum~phosphorus}=2.0\mathrm{mg/dL}(0.65\mathrm{mmol/L}) $$ 
+
+In addition to continuing her current medications and nutritional supplements, which of the following is the best therapeutic intervention?
+
+A. Elemental calcium, 2000 mg daily
+
+B. Elemental calcium, 2000 mg daily, and ergocalciferol, 50,000 IU weekly
+
+C. Elemental calcium, 2000 mg daily, and alendronate, 70 mg weekly
+
+D. Elemental calcium, 2000 mg daily, and cinacalcet, 30 mg daily
+
+E. Referral for parathyroidectomy
 
 ### Answer 29: A) Elemental calcium, 2000 mg daily
 
@@ -287,8 +207,37 @@ Guggenbuhl P, Deugnier Y, Boisdet JF, et al. Bone mineral density in men with ge
 
 ## Question 39
 
-*[question text missing in OCR]*
+A 14-year-old boy presents for evaluation of low serum calcium levels. His mother accompanies him to the appointment. His medical history includes an abnormal palate noted at birth, low-set and posteriorly rotated. He has had a recent bouts of otitis media. After the treatment, he has had a�pons and a bulbous nasal tip, and a narrowed nasal passages. His mother discloses that he has had developed a related condition, such as a long-term�rarely disease, in a long-term且长期且持续的疾病.
 
+On physical examination, height is 124/87 mm. Pressure is 124/87 mm Hg.
+
+Laboratory test results:
+
+Serum calcium = 7.9 mg/dL (1.97 mmol/L)
+
+PTH = <3 pg/mL (<3 ng/L)
+
+Albumin = 4.0 g/dL (40 g/L)
+
+25-Hydroxyvitamin D = 38 ng/mL (94.8 nmol/L)
+
+Serum phosphorus = 4.0 mg/dL (1.29 mmol/L)
+
+1,25-Dihydroxyvitamin D = 29 pg/mL (75.4 pmol/L)
+
+TSH = 1.11 mIU/L
+
+#### Which of the following is the most likely diagnosis?
+
+A. 22q11.2 deletion syndrome (formerly known as DiGeorge syndrome)
+
+B. Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy
+
+C. Pseudohypoparathyroidism
+
+D. Wilson disease
+
+E. Vitamin D resistance
 
 ## Question 45
 
@@ -324,61 +273,9 @@ D.Order bone densitometry
 
 E. Measure 24-hour urinary calcium and creatinine excretion
 
-46 A 47-year-old man comes to the endocrine clinic for evaluation of androgen deficiency. For the past 2 years, he has been increasingly fatigued and often experiences daytime somnolence, which is affecting his work performance. He also describes fragmented sleep and morning headache. He recently saw an advertisement on television indicating that men with “low-T” have these symptoms. He saw his primary care physician and requested a testosterone measurement. A morning total testosterone level was 269 ng/dL (9.33 nmol/L). His serum cortisol was normal. He has been referred for further evaluation.
+### Answer 45: E) Measure 24-hour urinary calcium and creatinine excretion PTH-depr
 
-The patient is married and has 3 biologic children. He has normal libido, but he does not report intermittent erectile dysfunction, which is successfully managed with a phosphodiesterase-5 inhibitor. He has hyperlipidemia treated with simvastatin and hypertension treated with amlodipine and hydrochlorothiazide. Family history is positive for obesity and type 2 diabetes mellitus.
-
-On physical examination, the patient looks tired. Cushingoid features are not present. His pulse rate is 88 beats/min, and blood pressure is 146/84 mm Hg. Weight is 250 lb (113.6 kg), and height is 70 in (177.8 cm) (BMI = 35.9 kg/m²). His visual fields are normal to confrontation. Acanthosis nigricans is present on the nape of the neck. He has pseudogynecomastia. Cardiac auscultation reveals an S₄. His abdomen is obese without striae. His testes are 20 mL bilaterally. Muscle strength is normal.
-
-Laboratory test results:
-
-Total testosterone (8 AM) = 285 ng/dL (9.89 nmol/L)
-
-Albumin = 3.5 g/dL (35 g/L)
-
-(measured with mass spectrometry)
-
-Hematocrit = 43.3% (0.43)
-
-Fasting glucose = 107 mg/dL (5.94 mmol/L)
-
-Which of the following should be the next diagnostic step in this patient's evaluation?
-
-A. Pituitary-directed MRI
-
-B. Iron studies
-
-C. Prolactin measurement
-
-D. Gonadotropin measurement
-
-E. Free testosterone measurement
-
-### Answer 45: E) Meas.
-
-45 ANSWER: E) Meas.
-
-PTH-dependent hypercalcemia was correctly diagnosed in this patient. The problem is that the evaluation was incomplete. Although most patients with this pattern of laboratory results have primary hyperparathyroidism, other diagnoses can present with similar biochemistry. Of note, the PTH level in this patient was in the “normal” range. While inappropriately normal PTH levels are not atypical in patients with primary hyperparathyroidism, most have frankly elevated PTH levels. In addition, this patient had no previously documented calcium values for comparison, so it was not possible to distinguish an acquired problem from one that is congenital. Evaluation of such patients should include measurement of 24-hour urinary calcium excretion (Answer E), not so much to determine whether a patient is an appropriate surgical candidate, but rather to exclude familial hypocalciuria, hypercalcemia (FHH). Indeed, this patient’s 24-hour urinary calcium excretion was very low and the fractional excretion of calcium (calcium-to-creatinine ratio) was less than 0.01.
-
-Calculating a calcium-to-creatinine clearance ratio is helpful to distinguish FHH from primary hyperparathyroidism, as 80% of patients with FHH have a ratio less than 0.01 and most patients with primary hyperparathyroidism have a ratio greater than 0.02. The calcium-to-creatinine clearance is calculated with the following equation:  $ [24\ h\ urinary\ calcium \times serum\ creatinine]/[serum\ calcium \times 24\ h\ urinary\ creatinine] $.
-
-FHH is an autosomal dominant disorder with high penetrance and is caused by inactivating mutations in the CASR gene. More than 200 CASR mutations have been described. In this disorder, the parathyroid glands have reduced sensitivity to calcium and higher serum calcium levels are needed to reduce parathyroid release. The calcium-PTH curve is shifted to the left, resetting the serum calcium to a higher level. In the kidney, this produces an increase in tubular calcium and magnesium reabsorption. Typical biochemical abnormalities include hypercalcemia, hypocalciuria, normal or slightly elevated PTH, and elevated magnesium. Genetic testing in the patient revealed that he was heterozygous for a novel mutation in the CASR gene. Persons who are heterozygous for an inactivating CASR mutation typically have mild hypercalcemia due to only partial loss of calcium-sensing receptor function. Although genetic testing might be considered, additional genetic causes unrelated to the CASR gene (eg, the AP2S1 gene) can be responsible for the clinical picture of FHH. Thus, CASR genetic testing is reserved for situations when the patient makes this request or when the urinary fractional excretion of calcium borderline (eg, ~0.01).
-
-Although further imaging of the neck with ultrasonography (Answer A) or 4D CT (Answer B) would be indicated if the patient had persistent primary hyperparathyroidism despite attempted surgical resection, visualization of the parathyroid glands is not indicated in the setting of FHH. Indeed, resection of all 4 glands would result in severe hypocalcemia and thereby cause harm. Most patients with FHH are asymptomatic; do not develop nephrolithiasis due to the low urinary calcium excretion; and do not experience complications such as bone loss, hypertension, or peptic ulcer disease. Neither bone densitometry (Answer D) nor surgery (Answer C) is indicated.
-
-##### Educational Objective:
-
-Include familial hypocalciuric hypercalcemia in the differential diagnosis for persistent hyperparathyroidism a parathyroid surgery.
-
-##### UpToDate Topic Review(s):
-
-Disorders of the calcium-sensing receptor: familial hypocalciuric hypercalcemia and autosomal dominant hypocalca
-
-##### Reference(s):
-
-Hendy GN, D'Souza-Li L, Yang B, Canaff L, Cole DE. Mutations of the calcium-sensing receptor (CASR) in familial hypocalciuric hypercalcemia, news severe hyperparathyroidism, and autosomal dominant hypocalcemia. Hum Mutat. 2000;16(4):281-296.
-
-Brown EM. The calcium-sensing receptor: physiology, pathophysiology and CaR-based therapeutics. Subcell Biochem. 2007;45:139-167.
+## 45 ANSWER: E) Measure 24-hour urinary calcium and creatinine excretion PTH-depr
 
 ## Question 54
 
@@ -412,36 +309,6 @@ D. Perform iliac crest bone biopsy
 
 E. Perform another DXA scan
 
-55 A 62-year-old man with a history of type 2 diabetes mellitus complicated by nonproliferative retinopathy and microalbuminuria returns to see you for a follow-up appointment and management of his blood glucose levels. His diabetes was initially treated with oral antihyperglycemic medications; however, he required the addition of insulin to his regimen approximately 5 years ago. In addition to metformin, he takes 2 daily injections
-
-of 75% insulin lispro protamine suspension/25% insulin lispro injection (75/25 insulin) with his morning and evening meals. Because of persistently elevated hemoglobin  $ A_{1c} $ levels, his insulin daily doses have been repeated increased up to his current regimen of 50 units before breakfast and 30 units before his evening meal.
-
-The patient reports consistently eating 3 meals per day, generally at 7:00 AM, 11:30 AM, and 7:00 PM. He had no difficulty remembering to take his insulin doses as prescribed, and he reports good adherence to his medical therapy. He has expressed frustration over his hemoglobin  $ A_{1c} $ values, as his fingerstick glucose levels checked twice daily before administration of his insulin doses are almost always 150 mg/dL (8.32 mmol/L) or lower. He had no problems with hypoglycemia or hypoglycemia unawareness.
-
-On physical examination, blood pressure is 138/75 mm Hg, and pulse rate is 80 beats/min. Height is 71 in (180.3 cm), and weight is 196 lb (89.1 kg) (BMI = 27.3 kg/m $ ^{2} $).
-
-His point-of-care hemoglobin  $ A_{tc} $ level at today's visit is unchanged at 9.1% (0.091).
-
-The patient has worn a continuous glucose monitor for 5 days before today's office visit. He reports no notal alteration in his medication use, dietary habits, or physical activity during this period. The data obtained from the continuous glucose monitor are displayed below.
-
-<div style="text-align: center;"><div style="text-align: center;">Continuous Glucose Sensor Data, mg/dL</div> </div>
-
-
-<div style="text-align: center;"><img src="imgs/img_in_chart_box_131_520_1032_1188.jpg" alt="Image" width="87%" /></div>
-
-
-Which of the following is the best next step in this patient's care?
-
-A. Give the patient a new blood glucose testing meter
-
-B. Change timing of blood glucose testing to 2 hours after the start of each meal
-
-C. Change to 45 units of once-daily basal, long-acting insulin and 15 units of rapid-acting insulin before meals
-
-D. Modify 75/25 insulin dosing to 60 units before breakfast and 30 units before the evening meal
-
-E. Modify 75/25 insulin dosing to 50 units before breakfast and 40 units before the evening meal
-
 ### Answer 54: E) Perform another DXA scan
 
 ## 54 ANSWER: E) Perform another DXA scan
@@ -469,47 +336,9 @@ Screening for osteoporosis
 
 Conference on bone densitometry. J Clin Densitom. 2013;16(4):455-466.
 
-## Question 56
+## Question 57
 
-You are asked to evaluate a 43-year-old woman after thyroidectomy to determine the best next step in her care. She has a 10-year history of bilateral thyroid nodules that were initially identified when she felt fullness in her neck. Ultrasonography at that time showed multiple nodules, all smaller than 2.1 cm. FNAB was performed on the 2 largest nodules, and findings from cytologic analysis were benign. Her TSH level at the time was normal. She was followed up with annual examinations and had no further intervention.
-
-In the past 6 months, she has been concerned that the sensation of neck fullness is increasing and that the nodules are enlarging. Repeated ultrasonography verifies that nodules on both lobes are larger. She undergoes elective total thyroidectomy. The pathologic findings for the larger nodules are benign, documenting nodular hyperplasia. There are no abnormal lymph nodes noted on inspection, and findings on histologic examination of 2 nodes included in the surgical specimen are negative. However, 6 abnormal foci of cells are also identified. The largest of the lesions is 4.5 mm in diameter. Two of these are shown in the image on the left (black arrows). A higher-power view documents nuclear ballooning (black arrows) and nuclear grooves (green arrow) in these lesions.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_90_363_491_696.jpg" alt="Image" width="36%" /></div>
-
-
-Hematoxylin and eosin stain.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_496_363_907_696.jpg" alt="Image" width="37%" /></div>
-
-
-Hematoxylin and eosin stain.
-
-After surgery, she is prescribed levothyroxine, 100 mcg daily. She has no complications from surgery and her postoperative calcium level has remained normal. You see her 1 month later.
-
-On physical examination, weight is 204 lb (92.7 kg) and height is 69 in (175.3 cm) (BMI = 30.1 kg/m²). Pulse rate is 84 beats/min, and blood pressure is 112/80 mm Hg. On head and neck examination, her scar is healing well. She has a negative Chvostek sign.
-
-Laboratory test results:
-
-TSH = 3.5 mIU/mL
-
-Calcium = 9.2 mg/dL (2.30 mmol/L)
-
-Thyroglobulin = 0.7 ng/mL (0.7  $ \mu $g/L) (negative thyroglobulin antibodies)
-
-Which of the following should you recommend as the best next management step?
-
-A. Recombinant hTSH followed by 30 mCi  $ ^{131} $iodine for remnant ablation
-
-B. Recombinant hTSH followed by 4 mCi  $ ^{131} $iodine for whole-body scan
-
-C. Recombinant hTSH followed by 150 mCi  $ ^{131} $iodine for adjuvant therapy
-
-D. Return to surgery for more extensive sampling and resection of regional lymph nodes
-
-E. Increase in levothyroxine dosage to reduce TSH into the lower part of the reference range
-
-57 A 23-year-old woman presents to establish endocrine care for longstanding hypoparathyroidism caused by autosomal dominant hypocalcemia. Her medications consist of oral calcium supplements (calcium carbonate), 2500 mg daily in divided doses, and calcitriol, 0.5 mcg twice daily. She is adherent with her medication regimen, yet she occasionally develops symptomatic hypocalcemia with paresthesias and muscle cramps.
+A 23-year-old woman presents to establish endocrine care for longstanding hypoparathyroidism caused by autosomal dominant hypocalcemia. Her medications consist of oral calcium supplements (calcium carbonate), 2500 mg daily in divided doses, and calcitriol, 0.5 mcg twice daily. She is adherent with her medication regimen, yet she occasionally develops symptomatic hypocalcemia with paresthesias and muscle cramps.
 
 On physical examination, weight is 131 lb (59.5 kg) and height is 65 in (165.1 cm) (BMI = 21.8 kg/m²). Blood pressure is 108/74 mm Hg, and heart rate is 70 beats/min. Her reflexes are normal, and she does not have evidence of the Chvostek or Trousseau sign. The rest of the physical examination findings are normal.
 
@@ -538,152 +367,6 @@ C. Increase the calcitriol dose to 1 mcg twice daily
 D. Add hydrochlorothiazide, 50 mg daily
 
 E. Add teriparatide, 60 mcg daily
-
-58 A 54-year-old woman is seen for follow-up after undergoing Roux-en-Y gastric bypass 6 months ago to experience remission of her impaired fasting hyperglycemia, hypertension, hyperlipidemia, and obstructive sleep apnea. Her preoperative weight was 306.5 lb (139.3 kg), and her weight today was 224 lb (101.8 kg).
-
-Two weeks ago, she developed severe back and groin pain for which she went to her local emergency department. After testing and x-rays, she was told she had kidney stones. You review the emergency department records that document a urinalysis with hematuria (no other abnormalities) and a kidneys-ureter-bladder radiograph showing a radiopaque stone. She has no personal or family history of nephrolithiasis.
-
-Her current medications are calcium carbonate, 750-mg chewable tablet, 2 tablets by mouth twice daily; vitamin B $ _{12} $, 1000 mcg subcutaneously once monthly; a children's chewable multivitamin, twice daily; and vitamin D $ _{3} $, 2000 IU once daily.
-
-On physical examination, BMI is $37 \, \text{kg/m}^2$. Her blood pressure is $104/84 \, \text{mm Hg}$, and pulse rate is $84 \, \text{beats/min}$. The rest of her examination findings are unremarkable.
-
-You order the laboratory testing recommended by her bariatric surgery program:
-
-Complete blood cell count, normal Lipid profile, normal
-
-Ferritin, normal Serum calcium = 9.7 mg/dL (2.4 mmol/L)
-
-Blood glucose (fasting), normal 25-Hydroxyvitamin D = 28 ng/mL (69.9 nmol/L)
-
-You next order a 24-hour urine supersaturation profile. An increase in which of the following is the most likely finding?
-
-A. Calcium excretion
-
-B. Citrate excretion
-
-C. Uric acid crystals
-
-D. Calcium oxalate crystals
-
-E. Urine volume
-
-59 A 74-year-old woman is referred for management of hypoglycemia after hyperinsulinemic hypoglycemia is documented. She has been experiencing symptoms for the past 14 months, and episodes are precipitated by skipping meals and by exercise. She finds it necessary to have a bedtime snack to avoid nocturnal or early-morning symptoms. The following laboratory test results were obtained from blood samples drawn when she presented with confusion:
-
-Glucose = 44 mg/dL (2.44 mmol/L)
-
-C-peptide = 3.3 ng/mL (1.09 nmol/L)
-
- $$ \mathrm{I n s u l i n}=10\upmu\mathrm{I U/m L}(69.4\mathrm{p m o l/L}) $$ 
-
-Sulfonylurea screen (including repaglinide and glimepiride), negative
-
-She has a medical history that is remarkable for hypertension and dyslipidemia. She has not had any abdominal operations. Family history reveals no instances of endocrine disease or malignancy. Physical examination findings are normal. Weight is 114.5 lb (52 kg), and height is 57.5 in (146.1 cm) (BMI = 24.3 kg/m $ ^{2} $).
-
-She has a normal chemistry panel (including serum calcium) and normal complete blood cell count. Findings from triphasic CT of the abdomen and transabdominal ultrasonography are normal (other than the detection of extensive vascular calcification by CT scan). You then order a selective arterial calcium stimulation test. The following results are obtained:
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td colspan="3">Insulin</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Time</td><td style='text-align: center; word-wrap: break-word;'>Gastroduodenal Artery $ ^{a} $</td><td style='text-align: center; word-wrap: break-word;'>Superior Mesenteric Artery $ ^{a} $</td><td style='text-align: center; word-wrap: break-word;'>Spenlic Artery $ ^{a} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Baseline</td><td style='text-align: center; word-wrap: break-word;'>28.6  $ \mu $IU/mL(198.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>252  $ \mu $IU/mL(1750.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>12.5  $ \mu $IU/mL(86.8 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>20 sec</td><td style='text-align: center; word-wrap: break-word;'>65.4  $ \mu $IU/mL(464.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>229  $ \mu $IU/mL(1590.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>24.9  $ \mu $IU/mL(172.9 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>40 sec</td><td style='text-align: center; word-wrap: break-word;'>161  $ \mu $IU/mL(1118.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>447  $ \mu $IU/mL(3104.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>450  $ \mu $IU/mL(3125.2 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>60 sec</td><td style='text-align: center; word-wrap: break-word;'>603  $ \mu $IU/mL(4187.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>829  $ \mu $IU/mL(5757.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>347  $ \mu $IU/mL(2409.9 pmol/L)</td></tr></table>
-
- $ ^{a} $Insulin values are measured in blood sampled from the hepatic vein after intra-arterial injection of calcium into the respective arteries supplying the pancreas.
-
-Which of the following should be your next step?
-
-A. Order genetic testing for multiple endocrine neoplasia type 1
-
-B. Ask a surgeon to explore the pancreas, and, if normal, perform an extended distal pancreatectomy
-
-C. Perform MRI
-
-D. Review the angiogram with the radiologist
-
-E. Perform positron emission tomography using  $ ^{18} $F-DOPA
-
-A 20-year-old woman with polycystic ovary syndrome seeks advice regarding treatment of acne, hirsutism, and irregular menses. Her menstrual cycles have been irregular (3 to 4 cycles per year) since menarche at age 12 years. Acne has been a problem since puberty. She also notes hair growth on her upper lip, chin, abdomen, and upper thighs. She has a history of migraine headaches with a visual aura, which begins with a flashing light or a black area in the visual fields that spreads. She has not been treated for polycystic ovary syndrome in the past, but her acne and hirsutism have worsened and she would like definitive treatment. She is sexually active, but does not desire pregnancy.
-
-On physical examination, blood pressure is 110/60 mm Hg. Weight is 114 lb (51.8 kg), and height is 62.5 in (158.8 cm) (BMI = 20.5 kg/m $ ^{2} $). On skin examination, she has cystic acne on her chin, a Ferriman-Gallwey score of 12, and no acanthosis nigricans.
-
-Laboratory test results:
-
-Testosterone = 63 ng/dL (2.19 nmol/L)
-
-DHEA-S = 257  $ \mu $g/dL (6.9  $ \mu $mol/L)
-
-17-Hydroxyprogesterone (8 AM) = 40 ng/dL (1.21 nmol/L)
-
-Which of the following treatments should you recommend for this woman with polycystic ovary syndrome?
-
-A. Monthly micronized progesterone for 12 days
-
-B. Metformin
-
-C. Levonorgestrel-coated intrauterine device
-
-D.Combination hormonal contraception
-
-E. Spironolactone and norethindrone-only hormonal contraception
-
-61 A 52-year-old man presents with fatigue, loss of libido, and erectile dysfunction, which began 6 months ago for which he was initially prescribed daily acetaminophen (300 mg) and ibuprofen. However, over the past year, his joint and back pain has worsened and he now takes morphine sulphate tablets, 50 mg twice daily, and pregabalin, 75 mg daily. In addition, he has hypertension treated with ramipril, 10 mg daily, and amlodipine, 10 mg daily.
-
-Twice daily. In addition, he has hypertension treated with h倍剂. On physical examination, height is 72.4 in (184 cm) and weight is 202.5 lb (92 kg) (BMI = 27.2 kg/m²). He has normal 20-mL testes and normal axillary and pubic hair. No gynecomastia is noted. Blood pressure is 135/8 mm Hg (supine).
-
-Laboratory test results:
-
-FSH = 0.5 mIU/mL (0.5 IU/L)
-
- $$ \text{Testosterone(total)}=65\text{ng/dL}(2.3\text{nmol/L}) $$ 
-
-LH = 0.9 mIU/mL (0.9 IU/L)
-
- $$ \mathrm{Prolactin}=35\mathrm{ng/mL}(1.5\mathrm{nmol/L}) $$ 
-
-No abnormalities are observed on pituitary MRI.
-
-Which of the following is the most appropriate next step in this patient's care?
-
-A. Switch to a non-opiate-containing analgesic
-
-B. Prescribe sildenafil
-
-C. Prescribe cabergoline
-
-D. Switch amlodipine to bisoprolol
-
-E. Switch ramipril to a thiazide diuretic
-
-### Answer 56: E) Increase in levothyroxine dosage to range
-
-## 56 ANSWER: E) Increase in levothyroxine dosage to range
-
-This patient has incidentally identified papillary thyroid care not contain PTC, but rather multiple microscopic foci were operative specimen.
-
-Two foci of PTC are shown in the first image at a magnistructural findings of PTC include the presence of papillae
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_19_542_557_1437.jpg" alt="Image" width="96%" /></div>
-
-
-patients undergoing total thyroidectomy have some small ablated before treating distant disease. Malignant/metasthen the radioactive iodine than normal thyroid tissue and her adjuvant therapy is not indicated, neither is remnant able
-
-Because of the extremely low risk of extrathyroidal spread of microscopic PTC, further neck exploration (Answer D) is not needed for this patient. The proper approach is to increase the levothyroxine dosage (Answer to reduce the TSH level. Whether the TSH level should be maintained in the low-normal range, or slightly below normal, remains under discussion. In this case, the patient's TSH level was maintained between 0.3 and 0.5 m
-
-Protocols for monitoring patients with microscopic multifocal PTC vary. One common practice is to follow up patients with thyroglobulin measurement and annual neck ultrasonography for the first few years, and possibly longer if there is a change in the thyroglobulin level. Patients who do not undergo remnant ablation generally have measureable but low thyroglobulin levels, whereas patients who have had any residual thyroid tissue removed by
-
-##### Educational Objective:
-
-Interpret the histologic and prognostic factors of papillary thyroid cancer and identity patients who will not benefit from radioactive iodine treatment.
-
-UpToDate Topic Review(s):
-
-Overview of papillary thyroid cancer
-
-Reference(s):
-
-Patel SS, Goldfarb M. Well-differentiated thyroid carcinoma: the role of post-operative radioactive iodine administration. J Surg Oncol. 2013;107(6):665-671
-
-## Question 57
-
-*[question text missing in OCR]*
-
 
 ### Answer 57: D) Add hydrochlorothiazide, 50 mg daily
 
@@ -715,10 +398,36 @@ Porter RH, Cox BG, Heaney D, Hostetter TH, Stinebaugh BJ, Suki WN. Treatment of 
 
 Winer KK, Yanovski JA, Cutler GB Jr. Synthetic human parathyroid hormone 1-34 vs calcitriol and calcium in the treatment of hypoparathyroidism. JAMA. 1996;276(8):631-636.
 
-## Question 69
+## Question 66
 
-*[question text missing in OCR]*
+You are asked to consult on a 56-year-old woman who has a 3-month history of unintentional weight loss (20 lb [9.1 kg]), cognitive decline, fatigue, weakness, and hypercalcemia. Her medical history is remarkable for hypertension treated with amlodipine. In the past 2 weeks, her clinical picture has deteriorated, and when her husband brought her to the emergency department, she was experiencing profound weakness, confusion, and hallucinations.
 
+On physical examination, she is a thin woman with bilateral temporal wasting. Height is 65 in (165.1 cm), and weight is 143 lb (65 kg) (BMI = 23.8 kg/m $ ^{2} $). Blood pressure is 164/87 mm Hg. Her breathing is shallow, and finding on abdominal examination are remarkable for an enlarged and palpable spleen. She is oriented only to person.
+
+Laboratory test results:
+
+Serum calcium = 14.7 mg/dL (3.7 mmol/L)
+
+Serum creatinine = 1.9 mg/dL (1299.5 μmol/L)
+
+Serum phosphorus = 4.5 mg/dL (1.5 mmol/L)
+
+Serum albumin = 2.9 g/dL (29 g/L)
+
+Serum alkaline phosphatase = 49 U/L (0.82  $ \mu $kat/L)
+
+Serum lactate dehydrogenase = 625 U/L (10.4  $ \mu $kat/L)
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_2_1004_596_1439.jpg" alt="Image" width="56%" /></div>
+
+
+CT of the abdomen and pelvis reveals an enlarged spleen with numerous low-density masses (see image). The largest splenic mass measures  $ 7.2 \times 6.6 $ cm. The spleen is larger than 18 cm in greatest craniocaudal dimension and is nearly replaced by mass lesions. The pancreas and adrenal glands are normal. There are nonobstructing calculi within the interpolar portion of the left kidney and within the lower pole. A long-bone survey does not reveal any lesions or fractures.
+
+Which of the following patterns of laboratory results is most characteristic of this patient's disease?
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Urinary Calcium Excretion</td><td style='text-align: center; word-wrap: break-word;'>PTH</td><td style='text-align: center; word-wrap: break-word;'>PTHrP</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>Low</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>High</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>High</td></tr></table>
 
 ## Question 71
 
@@ -753,44 +462,6 @@ C. Infusion of 2 g magnesium sulfate
 D. Oral ergocalciferol, 50,000 IU daily
 
 E. Subcutaneous injection of recombinant human PTH
-
-72 A 15-year-old girl presents with primary amenorrhea. She underwent adrenarche at age 9 years with axillary and pubic hair development and thelarche at age 10 years. However, she has not undergone menarche, with the exception of scant vaginal bleeding on one occasion at age 13 years. She has developed acne and hirsutism along with cramping and mood changes suggestive of hormone production. She has also been overweight since age 9 years, and her BMI is at the 92nd percentile.
-
-On physical examination, blood pressure is 110/80 mm Hg. Weight is 220 lb (100 kg), and height is 68.5 in (174 cm) (BMI = 33 kg/m²). On skin examination, she has mild acne, as well as acanthosis nigricans on the neck and in the axillae. Her breasts and pubic hair are Tanner stage 5.
-
-Laboratory test results:
-
-TSH = 3.72 mIU/L
-
-Prolactin = 8.6 ng/mL (373.9 pmol/L)
-
-Sex hormone-binding globulin = 1.91  $ \mu $g/mL (17.0 nmol/L)
-
-FSH = 6.7 mIU/mL (6.7 IU/L)
-
-DHEA-S = 285 μg/dL (7.7 μmol/L)
-
-LH = 14.3 mIU/mL (14.3 IU/L)
-
-17-Hydroxyprogesterone 126 ng/dL (3.82 nmol/L)
-
-Testosterone = 63 ng/dL (2.19 nmol/L)
-
-β-hCG = <6 mIU/mL (<6 IU/L)
-
-Pelvic ultrasonography reveals ovarian volumes of 17 mL (right ovary) and 14 mL (left ovary) and a normal uterus with an endometrial thickness of 5.8 mm.
-
-Which of the following is the most likely diagnosis?
-
-A. Constitutional delay of puberty
-
-B. Polycystic ovary syndrome
-
-C. Primary ovarian insufficiency
-
-D. Complete androgen insensitivity
-
-E. 5α-Reductase deficiency
 
 ### Answer 71: C) Infusion of 2 g magnesium from prolonged diarrheal losses and resultant malnutrition. Chronic diarrhea, diuretics, and proton-pump inhibitor therapy are all risk factors for hypomagnesemia. The major site of magnesium reabsorption in the kidney is at the loop of Henle, and loop diuretics result in magnesium wasting. Parenteral nutrition can also exacerbate renal magnesium wasting. Clinical manifestations of hypomagnesemia include neuromuscular excitability, electrocardiographic abnormalities, hypocalcemia. Chronic magnesium deficiency often results in PTH levels that are low or inappropriately small for the given degree of hypocalcemia, as in this patient. Severe magnesium depletion can produce PTH stance, as well as decrease PTH secretion. The mechanism of this effect is thought to be due to disinhibition of G-protein receptor, thus mimicking activation of the calcium-sensing receptor and causing inhibition of PTH. Therefore, exogenous PTH injections (Answer E) may have a blunted response.
 
@@ -903,32 +574,6 @@ D. Fibroblast growth factor 23
 
 E. Cortisol
 
-75 A 54-year-old man makes an appointment to discuss hyperlipidemia (self-referral). He has a history of focal segmental glomerulosclerosis causing progressive renal failure and he recently started hemodialysis. His nephrologist has been counseling him regarding his elevated risk for cardiovascular disease and advising him about risk reduction. He is being assessed for possible renal transplant. He does not smoke cigarettes. He has longstanding hypertension (controlled on 3 medications) and a family history of cardiovascular disease in his father and paternal uncle who had myocardial infarctions at age 52 years and 48 years, respectively.
-
-On physical examination, height is 73 in (185.4 cm) and weight is 195 lb (88.6 kg) (BMI = 25.7 kg/m $ ^{2} $). Blood pressure is 128/64 mm Hg, and pulse rate is 74 beats/min. Examination findings are abnormal only for a vascular thrill in his left arm where he has an arteriovenous fistula.
-
-Laboratory test results (fasting):
-
-Total cholesterol = 200 mg/dL (5.18 mmol/L)
-
-LDL cholesterol = 158 mg/dL (4.09 mmol/L)
-
-HDL cholesterol = 32 mg/dL (0.83 mmol/L)
-
-Triglycerides = 176 mg/dL (1.99 mmol/L)
-
-He wants to know whether he should start a statin to reduce his cardiovascular risk. Which of the following should you recommend?
-
-A. Start a statin; he will have the same relative risk reduction as that of a patient with normal renal function
-
-B. Start a statin; however, his relative risk reduction is less than that of a patient without chronic kidney disease
-
-C. Start a statin; specifically, simvastatin—no other statin has been shown to reduce cardiovascular risk in patients with chronic kidney disease
-
-D. Do not start a statin; it is contraindicated in this patient
-
-E. Do not start a statin; it has no cardiovascular benefit in this patient
-
 ### Answer 74: C) PTHrP
 
 ## 74 ANSWER: C) PTHrP
@@ -961,8 +606,75 @@ G, Guise TA. Hypercalcemia of malignancy and basic research on mechanisms of res
 
 ## Question 82
 
-*[question text missing in OCR]*
+A 51-year-old man presents for evaluation of hypercalcemia. He has had progressive onset of increasing fatigue, irritability, and episodes of atypical chest pain, and initial assessment documented markedly elevated calcium levels. The patient has no family history of hypercalcemia or kidney stones. He has no personal history of kidney stones, bone pain, or joint pain.
 
+On physical examination, he is alert, oriented, and in no acute distress. Pulse rate is 60 beats/min, and blood pressure is 133/80 mm Hg. Weight is 173.5 lb (78.9 kg), and height is 72 in (182.9 cm) (BMI = 23.5 kg/m $ ^{2} $). His neck is supple with no palpable cervical or supraclavicular lymphadenopathy. He has a large, left-sided neck mass that is freely mobile with deglutition. Neck ultrasonography is performed (see images).
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_85_787_567_1161.jpg" alt="Image" width="42%" /></div>
+
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_571_764_1092_1146.jpg" alt="Image" width="46%" /></div>
+
+
+LEFT NODULE TRANS
+
+The left ultrasound image measures the left nodule at 27.9 mm; the right ultrasound image measures the left nodule at 32.6 × 21.5 mm.
+
+Laboratory test results:
+
+ $$ Serum~calcium=14.2mg/dL(3.6mmol/L) $$ 
+
+Serum phosphorus = 2.1 mg/dL (0.68 mmol/L)
+
+ $$  PTH=609\ pg/mL(609\ ng/L) $$ 
+
+Serum creatinine = 2.7 mg/dL (238.7 μmol/L)
+
+ $$ 25-Hydroxyvitamin D=13ng/mL(32.5nmol/L) $$ 
+
+Which of the following is the best management plan?
+
+A. Perform FNAB of the neck mass
+
+B. Measure calcitonin
+
+C. Perform sestambi scintigraphy (technetium Tc 99 sestambi scanning)
+
+D. Refer for nodule resection and neck dissection
+
+E. Refer to medical oncology for adjuvant chemotherapy
+
+83 An 18-year-old woman with 21-hydroxylase deficiency (classic congenital adrenal hyperplasia) presents to your clinic in a transition to adult care. Congenital adrenal hyperplasia was diagnosed at birth because of ambiguous genitalia and has since been treated with hydrocortisone taken at 7:30 AM and 3:30 PM, along with fludrocortisone daily. Her menstrual cycles are irregular, and she typically has 3 menses per year. She is concerned about hirsutism on her face and abdomen. She has had vaginal reconstructive surgery and is not currently interested in pregnancy.
+
+On physical examination, blood pressure is 100/60 mm Hg, and pulse rate is 84 beats/min with no orthostatic signs. Height is 64 in (162.6 cm), and weight is 125 lb (56.8 kg) (BMI = 21.5 kg/m²). Her midparental height is 64.2 in (163 cm). Skin examination reveals mild acne and a Ferriman-Gallwey score of 12. Face shape is not rounded, and no bruising or violaceous striae are visible. She has no supraclavicular or dorsal cervical fat. Genital examination reveals mild clitoromegaly and a posteriorly displaced and small introitus.
+
+Laboratory test results:
+
+ $$  Sodium=141\ mEq/L\ (141\ mmol/L) $$ 
+
+ $$  Potassium=3.6mEq/L(3.6mmol/L) $$ 
+
+Sex hormone-binding globulin = 2.8  $ \mu $g/mL (24.9 nmol/L)
+
+ $$  Renin~activity=1.0\ ng/mL\ per\ h $$ 
+
+ $$ \mathrm{DHEA-S}=25.7\ \mu\mathrm{g}/\mathrm{dL}\ (0.70\ \mu\mathrm{mol}/\mathrm{L}) $$ 
+
+Testosterone = 64 ng/dL (2.22 nmol/L)
+
+17-Hydroxyprogesterone=1060 ng/dL (32.1 nmol/L)
+
+Which of the following treatment changes should you make to address the patient's main concerns?
+
+A. Increase the mineralocorticoid (fludrocortisone)
+
+B. Add a hormonal contraceptive
+
+C. Increase the glucocorticoid (hydrocortisone)
+
+D. Switch to a long-acting glucocorticoid (prednisolone)
+
+E. Add spironolactone
 
 ### Answer 82: D) Refer to medical oncology for adjuvant chemotherapy
 
@@ -988,16 +700,6 @@ Wei CH, Harari A. Clinical and molecular genetics of parathyroid neoplasms. Best
 
 Guernieri V, Battista C, Muscarella LA, et al. CDC73 mutations and parafibromin immunohistochemistry in parathyroid tumors: clinical correlations in a single-centre patient cohort. Cell Oncol (Dordbr). 2012;35(6):411-422.
 
-## Question 89
-
-*[question text missing in OCR]*
-
-
-## Question 92
-
-*[question text missing in OCR]*
-
-
 ## Question 93
 
 A 71-year-old man is referred to your clinic for evaluation of low testosterone levels and osteoporosis. During his recent visit with his primary care physician, DXA scan was performed that showed osteoporosis of both the lumbar spine and femoral neck with T scores of -3.4 and -2.6, respectively. Workup for secondary osteoporosis was notable only for a morning total testosterone concentration of 279 ng/dL (9.68 nmol/L) (measured with mass spectrometry). His gonadotropin, prolactin, vitamin D, calcium, and TSH levels were also normal. He has been referred for the management of his bone health in light of low testosterone.
@@ -1017,72 +719,6 @@ C. Testosterone plus an aromatase inhibitor
 D. Transdermal testosterone gel
 
 E. Intramuscular testosterone
-
-94 A 64-year-old man who underwent recent chest radiograph to evaluate cough was found to have a verteb lasted for about 2 months when he was in his late 50s. compression fracture at T10. He has had no other fractures, but does recall an episode of back pain that
-
-A 64-year-old man is being very old. He has had a compression fracture at T10. He has had 94 lasted for about 2 months when he was in his late 50s. His medical history is notable for gastroesophageal reflux disease with a recent duodenal ulcer found on esophagogastroduodenoscopy. His medications include omeprazole and a daily multivitamin that contains 500 mg of calcium. He has an 8-oz glass of milk and a cup of yogurt every day for breakfast. He has never smoked cigarettes. He drinks 1 glass of wine with dinner. He has never had kidney stones. He has lost about 1.5 in (3.8 cm) from his peak adult height. He does not appear cushingoid, and his examination height is 70 in (177.8 cm) and weight is 180 lb (81.8 kg) (BMI = 25.8 kg/m²).
-
-On physical examination, height is 70 in (177.8 cm) and weight is 180 lb (81.8 kg) (BMI = 25.8 kg/m $ ^{2} $). Ble pressure is 135/78 mm Hg, and pulse rate is 72 beats/min. He does not appear cushingoid, and his examination findings are normal.
-
-Laboratory test results:
-
-Calcium = 9.5 mg/dL (2.4 mmol/L)
-
-Intact PTH = 42 pg/mL (42 ng/L)
-
-25-Hydroxyvitamin D = 33 ng/mL (82.4 nmol/L)
-
-Creatinine = 1.0 mg/dL (88.4 μmol/L)
-
-Alkaline phosphatase = 88 U/L (1.5 μkat/L)
-
-Complete blood count, testosterone, TSH, serum and urine protein
-
-electrophoresis, and 24-hour urine free cortisol are normal
-
-24-hour urinary calcium = 150 mg/24 h (3.8 mmol/d)
-
-Bone mineral density DXA scan reveals an L1 through L4 T score of -1.9 and a femoral neck T score of -1.6. FRAX 10-year probabilities of a major osteoporotic fracture and a hip fracture are 12% and 2.3%, respectively.
-
-Which of the following treatments is the best recommendation?
-
-A. Oral alendronate
-
-B. Intravenous zoledronic acid
-
-C. Referral for kyphoplasty
-
-D. Calcitonin nasal spray
-
-E. Calcium supplements
-
-95 A 52-year-old man attends an urgently scheduled appointment with a cardiologist. He reports increasing symptoms of exertional angina over the past 4 weeks. He has no medical history of cardiovascular disease. He has bipolar disorder for which he takes lithium regularly. He smokes 40 cigarettes daily and has done so for more than 30 years. He reports a family history of hypothyroidism in both his mother and a maternal aunt.
-
-On physical examination, weight is 202 lb (91.8 kg) and height is 69 in (175.3 cm) (BMI = 29.8 kg/m²). His pulse rate is 94 beats/min and regular, and blood pressure is 152/85 mm Hg. He has a moderately sized multinodular goiter. Other examination findings are unremarkable. His electrocardiogram indicates ischemic changes in the anterior leads, but does not show evidence of an acute coronary event.
-
-Laboratory test results:
-
-Tropinin I = <0.6 ng/mL (<0.6  $ \mu $g/L)
-
-Serum TSH = 0.07 mIU/L
-
-Creatinine kinase = 163 U/L (2.7  $ \mu $kat/L)
-
-Serum free  $ T_{4} $ = 1.6 ng/dL (20.6 pmol/L)
-
-The cardiologist wishes to perform a coronary angiogram and asks for your advice regarding the risk and potential management of thyroid dysfunction caused by iodinated contrast medium in this patient.
-
-How should you advise the cardiologist?
-
-A. Administer metoprolol after coronary angiography
-
-B. Administer prednisone after coronary angiography
-
-C. Administer methimazole after coronary angiography
-
-D. Administer methimazole before coronary angiography
-
-E. Proceed with the angiogram; no additional treatment required
 
 ### Answer 93: B) A bisphosphonate Oster
 
@@ -1154,15 +790,169 @@ S, et al. Alendronate for the treatment of osteoporosis in men. N Engl J Med. 20
 
 Boonen S, Reginster JY, Kaufman JM, et al. Fracture risk and zoledronic acid therapy in men with osteoporosis. N Engl J Med. 2012;367(18):1714-1723.
 
-## Question 95
+## Question 94
 
-*[question text missing in OCR]*
+A 64-year-old man who underwent recent chest radiograph to evaluate cough was found to have a verteb lasted for about 2 months when he was in his late 50s. compression fracture at T10. He has had no other fractures, but does recall an episode of back pain that
 
+A 64-year-old man is being very old. He has had a compression fracture at T10. He has had 94 lasted for about 2 months when he was in his late 50s. His medical history is notable for gastroesophageal reflux disease with a recent duodenal ulcer found on esophagogastroduodenoscopy. His medications include omeprazole and a daily multivitamin that contains 500 mg of calcium. He has an 8-oz glass of milk and a cup of yogurt every day for breakfast. He has never smoked cigarettes. He drinks 1 glass of wine with dinner. He has never had kidney stones. He has lost about 1.5 in (3.8 cm) from his peak adult height. He does not appear cushingoid, and his examination height is 70 in (177.8 cm) and weight is 180 lb (81.8 kg) (BMI = 25.8 kg/m²).
+
+On physical examination, height is 70 in (177.8 cm) and weight is 180 lb (81.8 kg) (BMI = 25.8 kg/m $ ^{2} $). Ble pressure is 135/78 mm Hg, and pulse rate is 72 beats/min. He does not appear cushingoid, and his examination findings are normal.
+
+Laboratory test results:
+
+Calcium = 9.5 mg/dL (2.4 mmol/L)
+
+Intact PTH = 42 pg/mL (42 ng/L)
+
+25-Hydroxyvitamin D = 33 ng/mL (82.4 nmol/L)
+
+Creatinine = 1.0 mg/dL (88.4 μmol/L)
+
+Alkaline phosphatase = 88 U/L (1.5 μkat/L)
+
+Complete blood count, testosterone, TSH, serum and urine protein
+
+electrophoresis, and 24-hour urine free cortisol are normal
+
+24-hour urinary calcium = 150 mg/24 h (3.8 mmol/d)
+
+Bone mineral density DXA scan reveals an L1 through L4 T score of -1.9 and a femoral neck T score of -1.6. FRAX 10-year probabilities of a major osteoporotic fracture and a hip fracture are 12% and 2.3%, respectively.
+
+Which of the following treatments is the best recommendation?
+
+A. Oral alendronate
+
+B. Intravenous zoledronic acid
+
+C. Referral for kyphoplasty
+
+D. Calcitonin nasal spray
+
+E. Calcium supplements
+
+### Answer 94: B) Intravenous zoledronic acid
+
+## 94 ANSWER: B) Intravenous zoledronic acid
+
+Vertebral compression fractures are a risk factor for subsequent vertebral fractures, as well as other osteoporotic fractures. They are also associated with significant morbidity, including chronic back pain, restricted lung function, reduced mobility, and decreased quality of life. Unfortunately, most patients with fragility fractures are not treated for osteoporosis, despite evidence that treatment is beneficial.
+
+Patients who present with vertebral fractures should be worked up for secondary causes of osteoporosis. This patient had a full secondary osteoporosis evaluation, which was unrevealing. Of interest, there is a potential connection between proton-pump inhibitors and bone loss, such as is seen in this patient. Although the exact mechanism remains unproven, the increase in gastric pH reduces the absorption of calcium and thereby results in one loss when these medications are used long term.
+
+This vignette presents a common scenario in which an asymptomatic vertebral compression fracture is noted on imaging obtained for other reasons. It is the clinician's role to recognize these events as skeletal failure that requires prompt evaluation and treatment. This patient's atraumatic spinal compression fracture confirms the diagnosis of osteoporosis, despite the fact that his bone mineral density does not meet the T-score definition of osteoporosis (-2.5 or less). The National Osteoporosis Foundation recommends the following: (1) initiating pharmacologic treatment in patients with hip or vertebral fractures (clinical or asymptomatic) regardless of T-score; (2) initiating therapy in patients with T scores of -2.5 or less at the femoral neck, total hip, or lumbar spine by OXA after appropriate evaluation; and (3) initiating therapy in postmenopausal women and men 50 years or older who have low bone mineral density (T score between -1.0 and -2.5 [osteopenia]) at the femoral neck, total hip, or lumbar spine by DXA and 10-year probabilities of hip fracture or major osteoporotic fracture of ≥3% and ≥20%, respectively (based on the US-adapted WHO absolute fracture risk model [FRAX; www.NOF.org and www.shefac.uk/FRAX]). Although the FRAX score in this patient is under the threshold for treatment, as it only accounts for femoral neck T score, on the basis of his recent vertebral fracture, treatment is warranted.
+
+Oral bisphosphonates (such as alendronate and risedronate) and zoledronic acid are good options for first-line therapy because they reduce the risk of hip and spine fracture. Although oral alendronate (Answer A) would be a treatment option in this patient, given his recent duodenal ulcer and esophageal reflux disease, it may not be the best choice. Gastroesophageal disease is not an absolute contraindication to use of oral bisphosphonates, but caution should be used in patient with active upper gastrointestinal problems such as Barrett esophagus, dysphagia, other esophageal diseases, gastritis, duodenitis, or ulcers. Intravenous zoledronic acid (Answer B) confers no gastrointestinal risk for this patient and therefore would be the preferred choice.
+
+Calcitonin (Answer D) reduces risk of spine fracture and may offer analgesic effects in some patients with back pain related to acute fracture; however, it is less potent than other available options and this patient is asymptomatic. Although results from randomized, placebo-controlled trials have suggested little or no benefit in patients with acute vertebral compression fracture, kyphoplasty (Answer C) (the installation of bone cement after inflation of the vertebral body) has been used in patients with severe, incapacitating pain related to the fracture expansion of the vertebral body. These procedures also have been shown to provide clinical pain relief in when pain management has failed. However, kyphoplasty is not the best choice because this patient is patients with fractures due to metastatic disease. However, kyphoplasty is not the best choice because this patient is asymptomatic and the age of the compression fracture appears to be on the order of months.
+
+Adding calcium (Answer E) would not be appropriate as the sole intervention, as calcium alone does not reduce hip fracture risk. In addition, he is already consuming at least 600 mg of calcium daily in his diet, as well as 500 mg daily in his multivitamin.
+
+#### Educational Objective:
+
+Diagnose osteoporosis on the basis of a fragility fracture, even without a T score of -2.5 or less, and recommend appropriate osteoporosis treatment.
+
+UpToDate Topic Review(s):
+
+Clinical manifestations, diagnosis, and evaluation of osteoporosis in men
+
+#### Reference(s):
+
+National Osteoporosis Foundation. Clinician's Guide to Prevention and Treatment of Osteoporosis. Washington, DC: National Osteoporosis Foundation; 2014.
+
+Compression Fractures. London, United Kingdom: National Institute for Health and Care Excellence; 2013.
+
+Lyles KW, Colón-Emeric CS, Magaziner JS, et al; HORIZON Recurrent Fracture Trial. Zoledronic acid and clinical fracture and mortality after hip fracture. N Engl J Med. 2007;357(18):1799-1809.
+
+Chestnut CH 3rd, Silverman S, Andriano K, et al. A randomized trial of nasal spray salmon calcitonin in postmenopausal women with established osteoporosis: the prevent recurrence of osteoporotic fractures study. PROOF Study Group. Am J Med. 2000;109(4):267-276.
+
+#### ANSWER: E) Proceed with the angiogram; no additional treatment required
+
+95 A substantial increase in the use of radiocontrast-enhanced imaging studies has occurred over the past 2 decades (particularly CT and coronary angiography). Thyroid dysfunction may result as a consequence of sudden exposure to high iodide levels, and both hyperthyroidism and hypothyroidism may occur as a consequence of using iodinated contrast medium (ICM). Radiocontrast agents vary with respect to their iodine content. The usual iodine load in coronary angiography is 100 mL of ICM, conveying 13,500 mcg of free iodide and 30 to 35 g of bound iodine. If coronary angiography is associated with percutaneous coronary intervention, up to 250 mL may be used, resulting in an iodine load of 75 to 87.5 g. The recommended daily intake of iodine for nonpregnant adults is only 150 mcg. However, supraphysiologic doses are well tolerated and the approximate levels above which significant adverse effects are likely to occur in the healthy population are actually much higher. The US Institute of Medicine reports the tolerable upper limit of iodine as 1100 mcg daily.
+
+In individuals with preexisting autoimmunity, supraphysiologic levels of iodine may lead to iodine-induced hyperthyroidism (Jod-Basedow phenomenon). Iodine overload is accompanied by the Wolff-Chaikoff effect, which inhibits iodine organization and thereby reduces formation and release of thyroid hormones. After 8 to 10 days, there usually is an escape phenomenon secondary to low inorganic iodine concentration as a consequence of downregulation of the sodium-iodide symporter on the basolateral membrane of follicular thyroid cells. The presence of autonomous thyroid function permits the synthesis and release of excess quantities of thyroid hormones, resulting in iodine-induced thyrotoxicosis. Risk factors for this condition include Graves disease, nontoxic diffuse or multinodular goiter with thyroid autonomy, age older than 65 years, and residing in an iodine-deficient area. The link between exposure to ICM and new thyroid dysfunction is more common than was previously thought. Iodine-induced thyrotoxicosis cannot easily be differentiated from other forms of thyrotoxicosis.
+
+Failure to escape from the Wolff-Chaikoff effect results in iodine-induced hypothyroidism. This may occur in apparently healthy individuals, especially in neonates and infants; in patients older than 65 years; or in patients
+
+with chronic nonthyroidal illness such as cystic fibrosis, chronic dialysis, thalassemia major, or anorexia nervosa. It may also occur in patients with underlying thyroid disease including euthyroid Graves disease previously treated with surgery, in patients treated with antithyroid drugs or radioiodine, in patients with Hashimoto thyroiditis, and in euthyroid patients with a history of thyroiditis. Furthermore, patients treated with other goitrogens including lithium, phenytoin, carbamazepine, and rifampicin are at risk of ICM-induced hypothyroidism.
+
+The patient described in this vignette has a number of risk factors for ICM-induced thyrotoxicosis including a family history of thyroid dysfunction and the presence of a multinodular goiter. Prophylactic measures have been proposed for patients at high risk, especially if the serum TSH is undetectable. The patient has a low but detectable serum TSH and taking the information provided together, he is not at high risk of ICM-induced hyperthyroidism (thus. Answer E is correct).
+
+(thus, Answer E is correct).
+
+Various regimens have been proposed to prevent hyperthyroidism after administration of ICM. The use of combined therapy with antithyroid drugs and perchlorate has been proposed as effective preventative therapy, although since perchlorate is not widely available, the use of antithyroid drug therapy starting the day before the examination and for 7 to 14 days afterwards (Answers C and D) is a viable alternative. There is insufficient evidence that the patient described is at high risk of ICM-induced thyrotoxicosis; because the proposed treatments have a risk of potentially serious adverse effects, neither of these options is correct.
+
+β-Receptor antagonists (Answer A) are widely used in the management of hyperthyroidism; however, they do not have proven effectiveness in preventing the development of thyrotoxicosis in at-risk patients. The use of oral corticosteroids (Answer B) would also not be indicated in the prevention of thyroid dysfunction in this patient.
+
+##### Educational Objective:
+
+Provide advice regarding the use of iodinated contrast medium and prevention of thyroid dysfunction in this setting.
+
+UpToDate Topic Review(s):
+
+Iodine-induced thyroid dysfunction
+
+##### Reference(s):
+
+Huazik B, Zubelewicz-Szkodzinska B. Radiocontrast-induced thyroid dysfunction: is it common and what should we do about it? Clin Endocrinol (Oxf). 2014;80(3):322-327.
+
+Pearce EN. Iodine-induced thyroid dysfunction: comment on “association between iodinated contrast media exposure and incident hyperthyroidism and hypothyroidism”. Arch Intern Med. 2012;172(2):159-161.
+
+Nolte, Muller R, Siggelkow H, Emrich D, Hufner M. Prophylactic application of thyrostatic drugs during excessive iodine exposure in euthyroid patients with thyroid autonomy: a randomized study. Eur J Endocrinol. 1996;134(3):337-341.
+
+##### ANSWER: A) Inaccurate glucose meter data due to dialysate type
+
+This patient's diabetes is complicated by end-stage renal disease requiring the relatively recent initiation of renal replacement therapy. Subsequent to the initiation of peritoneal dialysis he has had persistent elevation in his self-monitored blood glucose values, resulting in recent increases in his prescribed insulin doses. Although the patient was not reported to have had hypoglycemia at home, he has experienced an episode of severe hypoglycemia on this occasion requiring the intervention of emergency medical personnel.
+
+In this situation, it is critical to note that the patient is using an icodextrin-containing peritoneal dialysate solution. Icodextrin is commonly used as an osmotic agent in such solutions, and it is primarily metabolized to the sugar maltose. Many glucose meters and test strips do not measure glucose via glucose-specific methodologies. These devices cannot distinguish glucose from xylose, maltose, or galactose, and they may provide falsely elevated readings in the presence of such sugars. Indeed, numerous reports document individuals using icodextrin-containing dialysate being prescribed excessive insulin doses in response to erroneous glucose meter data. In some cases, this has resulted in severe hypoglycemia, coma, and even death. Thus, inaccurate glucose meter data due to the patient's dialysate type (Answer A) is most likely the primary contributor to his hypoglycemia. Patients prescribed this type of dialysate should always use glucose-specific monitors and test strips. A list of devices (glucose-specific vs non-glucose-specific) is available at www.glucosesafety.com. Also important to note is that in patients with clinically significant renal dysfunction, icodextrin and maltose metabolites may not be cleared for 2 or more weeks after icodextrin is discontinued.
+
+Compared with individuals with normal renal function, patients with chronic kidney disease are at increased risk for hypoglycemia. In patients with diabetes and end-stage renal disease, multiple factors contribute to this increased risk. These factors may include decreased renal gluconeogenesis due to decreased renal mass (Answer B), decreased renal clearance of insulin and other antihyperglycemic medications (Answer C), decreased degradation of insulin in peripheral tissues, and reduced glycogen stores due to anorexia. Although all of these factors may contribute to this increase due to bacterial peritonitis (Answer D) is always a possibility in a patient receiving peritoneal disease.
+
+Sepsis due to bacterial peritonitis (Answer D) is always a possibility in a patient receiving peritoneal dialysis. This patient was hypotensive on presentation, but he has responded well to intravenous fluid resuscitation. He is also afebrile and has no signs suggestive of peritonitis on physical examination; thus, sepsis due to peritonitis does not appear a likely explanation of his current hypoglycemia. Although previously undetected adrenal insufficiency (Answer E) should be considered in a patient with unexplained hypotension and hypoglycemia, it is not the most likely explanation for this patient's severe hypoglycemic episode.
+
+#### Educational Objective:
+
+Anticipate the potential effect of icodextrin-containing dialysate on glucose meter results.
+
+UpToDate Topic Review(s):
+
+Insulin therapy in type 2 diabetes mellitus
+
+#### Reference(s):
+
+Frias JP, Lim CG, Ellison JM, Montandon CM. Review of adverse events associated with false glucose readings measured by GDH-PQQ-based glucose test strips in the presence of interfering sugars. Diabetes Care. 2010;33(4):728-729.
+
+Sloand JA. Dialysis patient safety: safeguards to prevent iatrogenic hypoglycemia in patients receiving icodextrin. Am J Kidney Dis. 2012;60(4):514-516. Moen MF, Zhan M, Hsu VD, et al. Frequency of hypoglycemia and its significance in chronic kidney disease. Clin J Am Soc Nephrol. 2009;4(6):1121-1127.
 
 ## Question 100
 
-*[question text missing in OCR]*
+A 45-year-old woman presents with a 6-month history of bone pain that is most severe in her shins. She describes the pain as dull, aching, and worse with activity. She has also noted fatigue and muscle weakness that makes rising from seated or supine positions difficult. She has noticed that these symptoms of weakness often occur after eating a meal. She underwent Roux-en-Y gastric bypass surgery 2 years ago. Before her bariatric operation, she had type 2 diabetes that was managed with insulin glargine and lispro. She also had a history of hyperlipidemia, and preoperative testing revealed elevated liver enzymes that were attributed to fatty liver. Since her operation, she has successfully lost 85 lb (38.6 kg). She no longer requires insulin for management of her diabetes. She currently does not take any medications or over-the-counter vitamins or supplements.
 
+On physical examination, weight is 190 lb (86.4 kg) and height is 64 in (162.6 cm) (BMI = 32.6 kg/m²). Blood pressure is 110/70 mm Hg, and heart rate is 72 beats/min. Findings on thyroid examination are normal. There are well-healed surgical scars on her abdomen. She has no kyphosis or tenderness to spinal palpation. She has difficulty standing from a seated position. She has tenderness over her tibial surfaces. Reflexes are 2+ throughout and the Chvostek sign is negative. The rest of her examination findings are normal.
+
+Fasting laboratory test results:
+
+Serum calcium = 8.9 mg/dL (2.2 mmol/L)
+
+Phosphate = 1.9 mg/dL (0.6 mmol/L)
+
+Albumin = 3.7 g/dL (37 g/L)
+
+PTH = 123 pg/mL (123 ng/L)
+
+Creatinine = 0.9 mg/dL (79.6 μmol/L)
+
+Alkaline phosphatase = 250 U/L (4.2  $ \mu $kat/L)
+
+Which of the following would assist in the diagnosis?
+
+A. Measurement of 1,25-dihydroxyvitamin D
+
+B. Measurement of 25-hydroxyvitamin D
+
+C. DXA scan
+
+D. Technetium bone scan
+
+E. Iliac crest bone biopsy
 
 ### Answer 100: B) Measurement of 25-hydroxyvitamin D
 
@@ -1183,11 +973,6 @@ UpToDate Topic Review(s): Clinical manifestations, diagnosis, and treatment of o
 Johnson JM, Maher JW, DeMaria EJ, Downs RW, Wolfe LG, Kellum JM. The long-term effects of gastric bypass on vitamin D metabolism. Ann Surg. 2006;243(5):701-704.
 
 Service GJ, Thompson GB, Service FJ, Andrews JC, Collazo-Clavell ML, Lloyd RV. Hyperinsulinemic hypoglycemia with nesidioblastosis after gastric-bypass surgery. N Engl J Med. 2005;353(3):249-254.
-
-## Question 108
-
-*[question text missing in OCR]*
-
 
 ## Question 111
 
@@ -1220,175 +1005,6 @@ C. Discontinue risedronate and start monthly oral ibandronate
 D. Discontinue risedronate and start intravenous zoledronic acid
 
 E. Discontinue risedronate and start denosumab
-
-112 A 40-year-old woman with newly diagnosed type 2 diabetes mellitus presents with dysuria and dyspareunia. Two months ago, type 2 diabetes was diagnosed on the basis of a random blood glucose measurement of 210 mg/dL (11.66 mmol/L) and an elevated hemoglobin  $ A_{1c} $ measurement of 7.0% (0.070). Treatment with canagliflozin, 300 mg daily, was initiated. Other medications include lisinopril for hypertension and simvastatin for hypercholesterolemia. She uses an intrauterine device for contraception.
-
-She has no symptomatic or documented hypoglycemia, but she does report mild polyuria, polydipsia, and nocturia. In addition, she has started experiencing pain and discomfort during sexual intercourse during the past week and has some discomfort with urine voiding.
-
-On physical examination, she is an afebrile obese woman in no apparent distress. Weight is 190 lb (86.4 kg), and height is 65 in (165.1 cm) (BMI = 31.6 kg/m²). Blood pressure is 128/82 mm Hg, and pulse rate is 76 beats/min. Physical examination findings are normal.
-
-A hemoglobin  $ A_{lc} $ measurement is 6.8% (0.068), and urine dipstick analysis shows a yellow and cloudy sample, 2+ positive glucose, negative protein, and 2+ leukocyte esterase.
-
-In addition to a urine culture and treatment of the suspected urinary tract infection with antibiotics, which of the following additional steps would be appropriate?
-
-A. Remove the intrauterine device
-
-B. Reduce the canagliflozin dosage
-
-C. Discontinue canagliflozin
-
-D. Begin additional treatment for endometritis
-
-E. Recommend no additional therapy at this time
-
-113 A 62-year-old woman is referred for evaluation of goiter. She was found to have asymmetric, right-side neck enlargement with a palpable  $ 1.5 \times 2 $-cm thyroid nodule.
-
-Laboratory test results:
-
-Serum TSH = 4.2 mIU/L
-
-Serum free  $ T_{4}=1.1 $ ng/dL (14.2 pmol/L)
-
-TPO antibodies, mildly elevated
-
-On physical examination, weight is 173 lb (78.6 kg) and height is 65 in (165 cm) (BMI = 28.8 kg/m²). Her blood pressure is 145/84 mm Hg. On direct questioning, she reports no symptoms of thyroid dysfunction or compression. You confirm the presence a right-sided multinodular goiter with a palpable thyroid nodule measuring 2 × 2.5 cm. Thyroid ultrasonography is performed. This confirms the presence of a right-sided multinodular goiter with 3 nodules measuring 20 × 16 × 26 mm, 10 × 14 × 11 mm, and 9 × 12 × 10 mm. There is no evidence of increased vascular flow on Doppler sonography in any of the nodules. There are no thyroid nodules on the left side and no enlarged or abnormal neck nodes. The images of the palpable nodule and 2 other right-sided nodules are displayed below.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_114_959_403_1303.jpg" alt="Image" width="29%" /></div>
-
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_409_952_698_1303.jpg" alt="Image" width="29%" /></div>
-
-
-(Palpable nodule, 20 × 16 × 26 mm) (Nodule 2, 10 × 14 × 11 mm)
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_701_948_993_1306.jpg" alt="Image" width="29%" /></div>
-
-
-(Nodule 3, 9 × 12 × 10 mm)
-
-Which of the following best describes the most appropriate management?
-
-A. Perform FNAB of the palpable thyroid nodule
-
-B. Perform FNAB of all 3 thyroid nodules
-
-C. Measure serum thyroglobulin and thyroglobulin antibodies
-
-D. Perform ultrasonography again in 6 months to determine interval growth
-
-E. Perform thyroid scintigraphy
-
-You are asked to evaluate a 74-year-old woman with type 2 diabetes mellitus who has been admitted to the hospital with hyperglycemia. She lives alone and is periodically visited by family members who live in a nearby town. The patient's brother brought her to the emergency department today after he found her to be confused and incontinent of urine. There was little food in her home and it is unclear whether she had been eating regularly or taking any medications for the management of hyperglycemia.
-
-On physical examination, the patient is quite somnolent. She is afebrile. Blood pressure is 110/68 mm Hg and pulse rate is 92 beats/min. Height is 66 in (167.6 cm), and weight is 185 lb (84.1 kg) (BMI = 29.9 kg/m^{2}). She has dry mucous membranes and skin tending is evident. Findings on examination of the chest and abdomen are normal. A comprehensive neurologic examination is limited by her somnolence. She is irritable when aroused but is without obvious focal neurologic deficit.
-
-Laboratory test results:
-Sodium = 134 mEq/L (134 mmol/L)
-Potassium = 5.3 mEq/L (5.3 mmol/L)
-Chloride = 106 mEq/L (106 mmol/L)
-Serum bicarbonate = 18 mEq/L (18 mmol/L)
-Serum urea nitrogen = 79 mg/dL (28.2 mmol/L)
-Creatinine = 1.9 mg/dL (168.0 μmol/L)
-
-Effective serum osmolality = 321.4 mOsm/kg (321.4 mmol/kg)
-
-Arterial pH = 7.35
-
-Glucose = 961 mg/dL (53.3 mmol/L)
-
-Urinary ketones, small
-
-Serum  $ \beta $-hydroxybutyrate = 2.8 mg/dL (269.0  $ \mu $mol/L)
-
-##### Which of the following should be included in this patient's initial care plan?
-
-A. 1.5 L of hypertonic saline over the next hour, and intravenous insulin infusion at 12 units per hour
-
-B. 1.5 L of isotonic saline over the next hour, and intravenous insulin infusion at 12 units per hour
-
-C. 1.5 L of isotonic saline over the next hour, and intravenous insulin infusion at 4 units per hour
-
-D. 1.5 L of 0.45% saline over the next hour, and intravenous insulin infusion at 12 units per hour
-
-E. 1.5 L of 0.45% saline over the next hour, and intravenous insulin infusion at 4 units per hour
-
-115 A 53-year-old man with chronic back pain is referred by his internist for counseling regarding sexual adverse effects of opioid analgesic use. The patient has a 14-month history of chronic back pain in the lumbar region as a result of motor vehicle crash. Radiologic evaluation revealed only some degenerative changes in the spine. Thus far, his pain has been managed with nonsteroidal anti-inflammatory agents. However because of worsening pain, his internist would like to prescribe an opioid analgesic. While discussing the various adverse effects of opioids, his doctor also mentioned sexual adverse effects. This is concerning for the patient because he already has a history of intermittent erectile dysfunction. He has been referred to the endocrine clinic for further counseling and also to learn which opioid analgesic least influences the gonadal axis.
-
-The patient has no history of pituitary or testicular disease. He is married and has 2 biologic children. He has normal libido, but experiences intermittent erectile dysfunction that is successfully managed with sildenafil. He reports that the frequency of sexual activity has decreased because of worsening back pain.
-
-On physical examination, pulse rate is 78 beats/min and blood pressure is 134/78 mm Hg. Weight is 197 lb (89.5 kg), and height is 71 in (180.3 cm) (BMI = 27.5 kg/m $ ^{2} $). His physical examination findings are notable only for tenderness in the lower back.
-
-His total testosterone concentration (drawn in the morning at his primary care physician's office) is 491 ng/dL (17.04 nmol/L).
-
-Given his concerns, which analgesic would be the best option for this patient?
-
-A. Methadone
-
-B. Oxycodone
-
-C. Fentanyl
-
-D. Buprenorphine
-
-E. Morphine
-
-You are asked to see a 42-year-old woman who is concerned about her bone health. Her mother received a 65 years and osteoporosis was subsequently diagnosed. The experienced a vertebral fracture at age 65 years has never been assessed. She has no patient has never had a bone fracture herself, and her bone mineral density has never been assessed. Her menses are regular history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or sodium andฆoo, and no gastrointestinal symptoms such as diarrhea. Six months as calcium). She has no history of bowel disease and no separate vitamin D supplement. She is interested in knowing whether her calcium and vitamin D supplementation is sufficient.
-
-Current medications are elemental calcium 500 mg/vitamin D₃ 400 IU twice daily, with additional vitamin D 5000 IU once daily.
-
-On physical examination, weight is 210 lb (95.5 kg) and height is 64 in (162.6 cm) (BMI = 30 kg/m $ ^{2} $). Asid from obesity, examination findings are normal.
-
-Which of the following is the best next step in counseling her regarding nutritional intervention?
-
-A. Increase elemental calcium supplementation to 1500 mg daily
-
-B. Decrease elemental calcium supplementation to 500 mg daily
-
-C. Decrease vitamin D intake to 800 IU daily
-
-D. Switch to 50,000 IU weekly of vitamin D $ _{2} $
-
-E. Continue current regimen
-
-117 A 50-year-old man is referred for evaluation of hypercalcemia. He presented to the emergency department with concerns of fever, dyspnea, muscle weakness, fatigue, anorexia, and constipation. His symptoms had started a few weeks earlier and had gradually worsened. He has a history of HIV infection, which had been managed with antiretroviral medications in the past. However, he stopped taking his medication more than 6 months ago.
-
-On physical examination, the patient appears to be in respiratory distress. Respiratory rate is 30 breaths/min, with an oxygen saturation of 93% while he is at rest and breathing room air. Pulse rate is 85 beats/min, blood pressure is 135/80 mm Hg, and temperature is 101.1°F (38.4°C). Weight is 165 lb (75 kg), and height is 68.5 in (cm) (BMI = 24.7 kg/m²). The heart sounds are normal, and lung auscultation reveals bilateral crackles at the base radiograph demonstrates bilateral basilar infiltrates.
-
-Chest radiograph demonstrates bilateral basilar in
-
-Laboratory test results:
-
-White blood cell count = 11,300/μL (11.3 × 10⁹/L)
-
-Creatinine = 1.8 mg/dL (159.1 μmol/L)
-
-Alkaline phosphatase = 100 U/L (1.7  $ \mu $kat/L)
-
- $ CD_4 $ count = 125/μL (0.125 × 10⁹/L)
-
-Intact PTH = <5 pg/mL (<5 ng/L)
-
-PTHrP, undetectable
-
-25-Hydroxyvitamin D = 15 ng/mL (37.4 nmol/L)
-
-Calcium = 13.2 mg/dL (3.3 mmol/L)
-
-1,25-Dihydroxyvitamin D = 140 pg/mL (364 pmol/L)
-
-Phosphorus: 4.0 mg/dL (1.3 mmol/L)
-
-After aggressive intravenous hydration, which of the following is the best next step in the management of his hypercalcemia?
-
-A. Oral cinacalcet
-
-B. Zoledronic acid
-
-C. Denosumab
-
-D. Prednisone
-
-E. Subcutaneous calcitonin
 
 ### Answer 111: E) Discontinue risedronate and start denosumab
 
@@ -2084,8 +1700,45 @@ Stenlöf K, Cefalu WT, Kim KA, et al. Efficacy and safety of canagliflozin monot
 
 ## Question 117
 
-*[question text missing in OCR]*
+A 50-year-old man is referred for evaluation of hypercalcemia. He presented to the emergency department with concerns of fever, dyspnea, muscle weakness, fatigue, anorexia, and constipation. His symptoms had started a few weeks earlier and had gradually worsened. He has a history of HIV infection, which had been managed with antiretroviral medications in the past. However, he stopped taking his medication more than 6 months ago.
 
+On physical examination, the patient appears to be in respiratory distress. Respiratory rate is 30 breaths/min, with an oxygen saturation of 93% while he is at rest and breathing room air. Pulse rate is 85 beats/min, blood pressure is 135/80 mm Hg, and temperature is 101.1°F (38.4°C). Weight is 165 lb (75 kg), and height is 68.5 in (cm) (BMI = 24.7 kg/m²). The heart sounds are normal, and lung auscultation reveals bilateral crackles at the base radiograph demonstrates bilateral basilar infiltrates.
+
+Chest radiograph demonstrates bilateral basilar in
+
+Laboratory test results:
+
+White blood cell count = 11,300/μL (11.3 × 10⁹/L)
+
+Creatinine = 1.8 mg/dL (159.1 μmol/L)
+
+Alkaline phosphatase = 100 U/L (1.7  $ \mu $kat/L)
+
+ $ CD_4 $ count = 125/μL (0.125 × 10⁹/L)
+
+Intact PTH = <5 pg/mL (<5 ng/L)
+
+PTHrP, undetectable
+
+25-Hydroxyvitamin D = 15 ng/mL (37.4 nmol/L)
+
+Calcium = 13.2 mg/dL (3.3 mmol/L)
+
+1,25-Dihydroxyvitamin D = 140 pg/mL (364 pmol/L)
+
+Phosphorus: 4.0 mg/dL (1.3 mmol/L)
+
+After aggressive intravenous hydration, which of the following is the best next step in the management of his hypercalcemia?
+
+A. Oral cinacalcet
+
+B. Zoledronic acid
+
+C. Denosumab
+
+D. Prednisone
+
+E. Subcutaneous calcitonin
 
 ### Answer 117: D) Prednisone The critical element in this
 

@@ -3,30 +3,89 @@ Questions: 5, 27, 44, 60, 72, 83, 101, 109
 
 ## Question 5
 
-*[question text missing in OCR]*
+In addition to smoking cessation, initiation of which of the following would lead to the greatest reduction in his lifetime cardiovascular risk?
 
+A. Intensified glucose control
 
-### Answer 5: E) Do not start a statin; it has no cardiovascular risk and the role of statins to reduce cardiovascular risk has been studied in many groups of patients, and the role of statins to reduce cardiovascular disease and mortality in the settings of primary and secondary care. However, end-stage kidney disease (patients on the setings of primary and secondary care) is more likely to be associated with the risk of the risk of
+B. Fibrate
 
-5 ANSWER: E) Do not start a statin; it has no cardiovascular risk and the role of statins to reduce cardiovascular risk has been studied in many groups of patients, and the role of statins to reduce cardiovascular disease and mortality in the settings of primary and secondary care. However, end-stage kidney disease (patients on the setings of primary and secondary care) is more likely to be associated with the risk of the risk of
+C. Statin
 
-The AURORA trial (A Study to Evaluate the Use of Rosuvastatin in Subjects on Regular Hemodialysis: An Assessment of Survival and Cardiovascular Events) evaluated rosuvastatin's effect on cardiovascular end points in patients receiving hemodialysis and found no benefit compared with observations in the placebo group. The Study of Heart and Renal Protection (SHARP) randomly assigned patients with chronic kidney disease 3 through 7 to placebo or simvastatin plus ezetimibe. Although there was evidence of benefit overall, the subgroup analysis suggested that this was mainly driven by the nondialysis group and the patients undergoing dialysis had no benefit. It is important to note that statins reduce the relative risk of cardiovascular disease to a similar extent in patients with predialysis chronic kidney disease as they do in patients without chronic kidney disease, but because patients with chronic kidney disease have a greater baseline risk, the absolute risk reduction with statin treatment is greater in patients with predialysis chronic kidney disease than in patients without chronic kidney disease.
+D. Niacin
 
-Although several post hoc analyses of these trials have suggested potential benefit for various subgroups of patients receiving dialysis, conclusions from 3 major trials have not found a conclusive benefit for statin use in patients receiving dialysis. Statins are not routinely recommended; however, they are not contraindicated (thus, Answers D is incorrect). There are no guidelines for patients who are taking statins at the time of progression to dialysis; thus, the decision to continue or cease statin therapy should be made on a personalized basis. However, there is fairly good evidence that statin therapy improves cardiovascular survival after renal transplant and statin should be considered in that setting.
+E. Low-fat diet
+
+### Answer 5: D) Karyotype analysis
+
+## 5 ANSWER: D) Karyotype analysis
+
+In women with primary ovarian insufficiency (previously termed premature ovarian failure), it is important to determine the underlying cause. The most common causes, after excluding radiation exposure, chemotherapy or ovarian surgery, are autoimmune etiologies and abnormal karyotypes, with Turner syndrome being the most common cause of primary ovarian insufficiency. In addition, expansion of the CGG repeats in the 5' untranslated region of the FMR1 gene is common in this patient population. When the number of CGG repeats expands to greater than 200, the gene is methylated and silenced and Fragile X syndrome can result. Women who carry 5' 200 repeats are at risk for primary ovarian insufficiency. Therefore, all women with primary ovarian insufficiency should have assessment of FMR1 repeat length, measurement of adrenal antibodies (which are indicative of autoimmunity against steroid-secreting cells in the adrenal and ovary), and karyotype analysis (Answer D). The patient's karvotype was 45.X, which is diagnostic of Turner syndrome.
+
+Patient's karyotype was 45,X, which is diagnosed as a tumor of the X chromosome.
+
+Turner syndrome classically results from loss of an X chromosome, but it can be caused by loss of the shown of the X chromosome or by mosaic 45,X/46,XX; 45,X,i(Xq) consisting of 2 long arms of the X chromosome, 46,XY; or 46,X,del(Xp), among others. In women with Turner syndrome and a 45,X karyotype, the�otype can be quite variable as demonstrated by this patient. In the classic presentation, affected patients have a long arm of the X chromosome, but it can be caused by loss of the X chromosome or by mosaic 45,X/46,XX; 45,X,i(Xq) consisting of 2 long arms of the X chromosome, 46,XY; or 46,X,del(Xp), among others. In women with Turner syndrome and a 45,X karyotype, the
+
+fetuses with Turner syndrome, the complement of primordial germ cells is normal up to 12 weeks' gesta
+
+subsequently decreased. Therefore, it appears that follicle atresia occurs more rapidly than normal and can
+
+complete loss of oocytes before the onset of puberty. Ovaries may become fibrotic and appear as streak
+
+sonography (Answer B) would not be helpful in this patient who had normal menstrual function and m
+
+w has small ovaries on the basis of her high FSH level.
+
+nts with Turner syndrome should be followed up for common medical complications. A baseline program is required for diagnosis of congenital left-sided cardiac defects and follow-up every 5 years with program or MRI is needed to evaluate for aortic dilatation. Other assessments should include hearing loss for renal anomalies, along with close follow-up for obesity, hypertension, hyperlipidemia, type 2 mellitus, celiac disease, osteoporosis, and liver function abnormalities. Hypothyroidism is also common syndrome, as it is in women with other causes of primary ovarian insufficiency. However, adrenal not thyroid antibodies (Answer A), are indicative of concomitant ovarian autoimmunity, and assess the need for the treatment of the patients who has already presented with hypothyroidism.
+
+A gonadotropin-secreting pituitary adenoma in a woman of reproductive age may secrete functional FSH. The presentation would consist of ovarian enlargement from multiple follicle development (as seen with FSH stimulation during ovarian hyperstimulation for fertility treatment), elevated estradiol from multiple follicle development, and, possibly, slightly elevated prolactin due to pituitary stalk compression. This patient has high FSH, low estradiol, and normal prolactin; therefore, a pituitary-directed MRI (Answer C) is not warranted.
+
+Short stature in women with Turner syndrome is related to loss of the SHOX gene on the short arm of the X chromosome. There is no need to workup a central cause of short stature with an IGF-1 measurement (Answer E) in a patient with an elevated FSH level and low estradiol level because the cause of amenorrhea is primary to the ovary.
 
 ##### Educational Objective:
 
-Advise patients on the use of statins in the setting of chronic kidney disease.
+Order a complete workup that includes karyotype analysis in a patient with primary ovarian insufficiency.
 
 UpToDate Topic Review(s):
 
-Statins and chronic kidney disease
+Clinical manifestations and evaluation of spontaneous primary ovarian insufficiency (premature ovarian failure)
 
 ##### Reference(s):
 
-Palmer SC, Navaneethan SD, Craig JC, et al. HMG CoA reductase inhibitors (statins) for dialysis patients. Cochrane Database Syst Rev. 2013;9:CD004289.
+Bondv Endocrinol
 
-Kidney Disease: Synopsis of the Kidney Disease: Improving Global Outcomes 2013 Clinical Practice Guideline. Ann Intern Med. 2014;160(3):182.
+Zhong Q, Layman LC. Genetic considerations in the patient with Turner syndrome--45,X with or without mosaicism. Fertil Steril. 2012;98(4):775-779.
+
+##### ANSWER: D) Subtotal parathyroidectomy
+
+More than 95% of patients with chronic kidney disease develop evidence of secondary hyperparathyroidism by the time hemodialysis is needed. A number of potential physiologic explanations account for the rise in PTH, including the diminution in phosphate excretion with resultant hyperphosphatemia, which directly increases PTH secretion; a reduction in renal 1α-hydroxylase activity resulting in decreased 1,25-dihydroxyvitamin D levels and increased PTH levels; and the indirect effects of uremia blunting the actions of PTH itself. These stimuli result in both polyclonal glandular hyperplasia, as well as monoclonal expansion with autonomous function and nonsuppressible PTH secretion. In some instances, all 4 glands are involved (as observed on this patient's parathyroid scan), whereas a single, solitary gland may be the source of hyperparathyroidism in other patients.
+
+The rise in PTH levels in the setting of renal failure is referred to as secondary hyperparathyroidism. Because the elevated PTH results from dysregulation of mineral and vitamin D metabolism, the term secondary hyperparathyroidism is used to describe the scenario of elevated PTH, elevated (or upper-normal) phosphorus, and normal (or below normal) calcium levels. In contrast, tertiary hyperparathyroidism reflects autonomous PTH secretion with resultant hypercalcemia and hypophosphatemia, as is the case for this patient. Tertiary hyperparathyroidism is usually seen in patients with previous secondary hyperparathyroidism after renal transplant, but it can also occur in X-linked hypophosphatemic rickets, oncogenic osteomalacia and longstanding hypercalciuria.
+
+In tertiary hyperparathyroidism, as in primary hyperparathyroidism, hypercalcemia can cause end-organ damage. Thus, protection of the renal transplant is of utmost importance. Although there are no universally accepted indications for intervention, general guidelines for management of patients with renal transplant and tertiary hyperparathyroidism have been proposed. Intervention should be considered in the presence of hypercalcemia (1.0 mg/dL above the reference range) persisting more than 3 to 12 months after transplant; hypercalciuria, nephrolithiasis, and/or nephrocalcinosis; renal phosphate wasting; low or declining bone mineral density; pruritus; and parathyroid glands estimated to weigh more than 500 mg on ultrasonography. Treatment of this patient's tertiary hyperparathyroidism is warranted because of the degree of hypercalcemia. Thus, simply continued observation (Answer A) is incorrect. Although parathyroid ultrasonography (Answer B) would be helpful to estimate gland size and extent of disease, it is not needed to determine the therapeutic course. Similarly, ultrasonography of the transplanted kidney (Answer C) to look for evidence of nephrocalcinosis in the transplant would be helpful, but is not needed to determine management.
+
+Four-gland parathyroidectomy with autotransplant and subtotal parathyroidectomy (ie, resection of 3 to 3.5 glands) are both effective in correcting hypercalcemia associated with tertiary hyperparathyroidism after renal transplant with similar risk of recurrence requiring reoperation and hypoparathyroidism. No randomized controlled trials have compared these 2 procedures head to head. Four-gland parathyroidectomy (Answer E) renders patients
+
+hypoparathyroid and is not recommended because this procedure is associated with the development of adyn bone disease, osteomalacia, impaired bone healing, and the need for long-term high-dosage calcium and vitamin D supplementation. Subtotal parathyroidectomy (Answer D), often done with measurement of intraoperative levels, is the best next step in this patient's care. A third option, which has been used in some patients with hyperparathyroidism, includes 4-gland parathyroidectomy with autotransplant of some parathyroid tissue, and the forearm or the neck. This approach is undertaken in other conditions such as primary hyperparathyroid associated with multiple endocrine neoplasia type 1, when all 4 glands are involved.
+
+As an alternative to parathyroidectomy, some studies have evaluated the effect of cinacalcet on calcium regulation and allograft function in patients with tertiary hyperparathyroidism. Cinacalcet, although not appropriate for use in tertiary hyperparathyroidism, may reduce serum calcium levels and most reports show no deleterious effects on renal function. For patients with an unacceptably high surgical risk, use of a calcium receptor mine such as cinacalcet may be an option.
+
+##### Educational Objective:
+
+Evaluate persistent hyperparathyroidism after renal transplant and review indications for parathyroidectomy.
+
+UpToDate Topic Review(s):
+
+Management of primary hyperparathyroidism
+
+##### Reference(s):
+
+Jamal SA, Miller PD. Secondary and tertiary hyperparathyroidism. J Clin Densitom. 2013;16(1):64-68.
+
+Gioviale MC, Bellavia M, Damiano G, Lo Monte AI. Post-transplantation tertiary hyperparathyroidism. Ann Transplant. 2012;17(3):111-119.
+
+Kidney Disease: Improving Global Outcomes (KDIGO) CKD-MBD Work Group. KDIGO clinical practice guideline for the diagnosis, evaluation, prevention and treatment of chronic kidney disease-mineral and bone disorder (CKD-MBD). Kidney Int. 2009;76(Suppl 113):S1-S130.
+
+Uhlig K, Berns JS, Kestenbaum B, et al. KDOQI US commentary on the 2009 KDIGO Clinical Practice Guideline for the Diagnosis, Evaluation, and Treatment of CKD-Mineral and Bone Disorder (CKD-MBD). Am J Kidney Dis. 2010;55(5):773-799.
 
 ## Question 27
 
@@ -64,35 +123,9 @@ D. Pregnancy
 
 E. Primary ovarian insufficiency
 
-### Answer 27: A) This patient had irregular menses before starting hormonal contraception and now has amenorrhea after stopping. Therefore, it is likely that the underlying problem that caused irregular menses at puberty is now resulting in amenorrhea. An evidence-based methodology workshop examining polycystic ovary syndrome recommended that the Rotterdam criteria be used to make the diagnosis. Using these criteria, patients must have 2 out of 3 of the following symptoms or signs to make the diagnosis: (1) hyperandrogenism, either clinical (hirsutism or acne) or biochemical (elevated testosterone); (2) irregular menses; and/or (3) polycystic ovaries of ultrasonography, in the absence of other disorders causing the same symptoms. The patient in this vignette has amenorrhea and hyperandrogenism, as manifested by an elevated testosterone concentration and acne. Polycystic ovary syndrome (Answer A) is on the differential diagnosis list, but it can only be diagnosed after other causes of amenorrhea and hyperandrogenism have been excluded.
+### Answer 27: A) Polycystic ovary syndrome
 
-27 ANSWER: A) This patient had irregular menses before starting hormonal contraception and now has amenorrhea after stopping. Therefore, it is likely that the underlying problem that caused irregular menses at puberty is now resulting in amenorrhea. An evidence-based methodology workshop examining polycystic ovary syndrome recommended that the Rotterdam criteria be used to make the diagnosis. Using these criteria, patients must have 2 out of 3 of the following symptoms or signs to make the diagnosis: (1) hyperandrogenism, either clinical (hirsutism or acne) or biochemical (elevated testosterone); (2) irregular menses; and/or (3) polycystic ovaries of ultrasonography, in the absence of other disorders causing the same symptoms. The patient in this vignette has amenorrhea and hyperandrogenism, as manifested by an elevated testosterone concentration and acne. Polycystic ovary syndrome (Answer A) is on the differential diagnosis list, but it can only be diagnosed after other causes of amenorrhea and hyperandrogenism have been excluded.
-
-Distinguishing between polycystic ovary syndrome and functional hypothalamic amenorrhea (Answer C) can be difficult. This patient has amenorrhea in the setting of training for a half-marathon, suggesting that her increased exercise caused the amenorrhea. However, functional hypothalamic amenorrhea is caused by low energy availability, which suppresses GnRH pulse secretion. The decreased GnRH pulsatility results in decreased LH levels with a normal FSH level, such that FSH is higher than LH. The low LH does not stimulate androstenedione and testosterone production from theca cells, and estradiol is low because of the absence of androgen precursor for aromatization. In the vignette, the patient has an elevated LH-to-FSH ratio, an elevated testosterone concentration, and an estradiol concentration in normal range—this pattern of test results is not consistent with functional hypothalamic amenorrhea.
-
-In addition to hypothalamic amenorrhea, other causes of irregular menses must be excluded to diagnose polycystic ovary syndrome. The patient has a normal FSH level, which excludes primary ovarian insufficiency, which was previously termed premature ovarian failure (Answer E). The prolactin and TSH levels are normal, which excludes hyperprolactinemia and thyroid disease. There is no pregnancy test reported, but if she were pregnant, her estradiol level would be higher and her FSH and LH would be suppressed, so pregnancy (Answer D) is an unlikely cause of her amenorrhea. Other causes of hyperandrogenism must be excluded by history or by laboratory testing. The long history of acne starting at puberty is not consistent with an androgen-secreting tumor. The normal 17-hydroxyprogesterone level rules out nonclassic congenital adrenal hyperplasia; and there is no evidence for Cushing syndrome on physical examination.
-
-Hormonal contraception will not cause amenorrhea after it has been stopped. At the hormone dosages current available, “postpill amenorrhea” (Answer B) is unlikely. FSH begins to rise in the 7 days of the placebo week and follicles can grow in the short interval. Therefore, there is no prolonged suppression of the reproductive axis after stopping hormonal contraception. Taken together, other causes of irregular menses and hyperandrogenism have been ruled out and polycystic ovary syndrome is the correct diagnosis (Answer A).
-
-##### Educational Objective:
-
-Differentiate among the causes of amenorrhea in a woman who has stopped hormonal contraception.
-
-UpToDate Topic Review(s):
-
-Diagnosis of polycystic ovary syndrome in adults
-
-##### Reference(s):
-
-Legro RS, Arslanian SA, Ehrmann DA, et al; Endocrine Society. Diagnosis and treatment of polycystic ovary syndrome: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2013;98(12):4565-4592.
-
-Wang JG, Lobo RA. The complex relationship between hypothalamic amenorrhea and polycystic ovary syndrome. J Clin Endocrinol Metab. 2008;93(4):1394
-
-Sum M, Warren MP. Hypothalamic amenorrhea in young women with underlving polycystic ovary syndrome. Fertil Steril 2009:92(6):2106-21
-
-National Institutes of Health. Evidence-Based Methodology Workshop on Polycystic Ovary Syndrome. December 3-5, 2012. Available at: https://prevention.gov/docs/programs/pcos/FinalReport.pdf. Accessed for verification September 2, 2014.
-
-Duijkers I, Engels L, Klipping C. Length of the menstrual cycle after discontinuation of oral contraceptives. Gynecol Endocrinol. 2005;20(2):74-79.
+## 27 ANSWER: A) Polycystic ovary syndrome
 
 ## Question 44
 
@@ -158,8 +191,29 @@ Franik S, Kremer JA, Nelen WL, Farquhar C. Aromatase inhibitors for subfertile w
 
 ## Question 60
 
-*[question text missing in OCR]*
+A 20-year-old woman with polycystic ovary syndrome seeks advice regarding treatment of acne, hirsutism, and irregular menses. Her menstrual cycles have been irregular (3 to 4 cycles per year) since menarche at age 12 years. Acne has been a problem since puberty. She also notes hair growth on her upper lip, chin, abdomen, and upper thighs. She has a history of migraine headaches with a visual aura, which begins with a flashing light or a black area in the visual fields that spreads. She has not been treated for polycystic ovary syndrome in the past, but her acne and hirsutism have worsened and she would like definitive treatment. She is sexually active, but does not desire pregnancy.
 
+On physical examination, blood pressure is 110/60 mm Hg. Weight is 114 lb (51.8 kg), and height is 62.5 in (158.8 cm) (BMI = 20.5 kg/m $ ^{2} $). On skin examination, she has cystic acne on her chin, a Ferriman-Gallwey score of 12, and no acanthosis nigricans.
+
+Laboratory test results:
+
+Testosterone = 63 ng/dL (2.19 nmol/L)
+
+DHEA-S = 257  $ \mu $g/dL (6.9  $ \mu $mol/L)
+
+17-Hydroxyprogesterone (8 AM) = 40 ng/dL (1.21 nmol/L)
+
+Which of the following treatments should you recommend for this woman with polycystic ovary syndrome?
+
+A. Monthly micronized progesterone for 12 days
+
+B. Metformin
+
+C. Levonorgestrel-coated intrauterine device
+
+D.Combination hormonal contraception
+
+E. Spironolactone and norethindrone-only hormonal contraception
 
 ### Answer 60: E) Spironolactone and norethindrone-only hormonal contraception
 
@@ -193,42 +247,48 @@ U.S. Selected Practice Recommendations for Contraceptive Use, 2013: adapted from
 
 ## Question 72
 
-*[question text missing in OCR]*
+A 15-year-old girl presents with primary amenorrhea. She underwent adrenarche at age 9 years with axillary and pubic hair development and thelarche at age 10 years. However, she has not undergone menarche, with the exception of scant vaginal bleeding on one occasion at age 13 years. She has developed acne and hirsutism along with cramping and mood changes suggestive of hormone production. She has also been overweight since age 9 years, and her BMI is at the 92nd percentile.
 
-
-## Question 83
-
-An 18-year-old woman with 21-hydroxylase deficiency (classic congenital adrenal hyperplasia) presents to your clinic in a transition to adult care. Congenital adrenal hyperplasia was diagnosed at birth because of ambiguous genitalia and has since been treated with hydrocortisone taken at 7:30 AM and 3:30 PM, along with fludrocortisone daily. Her menstrual cycles are irregular, and she typically has 3 menses per year. She is concerned about hirsutism on her face and abdomen. She has had vaginal reconstructive surgery and is not currently interested in pregnancy.
-
-On physical examination, blood pressure is 100/60 mm Hg, and pulse rate is 84 beats/min with no orthostatic signs. Height is 64 in (162.6 cm), and weight is 125 lb (56.8 kg) (BMI = 21.5 kg/m²). Her midparental height is 64.2 in (163 cm). Skin examination reveals mild acne and a Ferriman-Gallwey score of 12. Face shape is not rounded, and no bruising or violaceous striae are visible. She has no supraclavicular or dorsal cervical fat. Genital examination reveals mild clitoromegaly and a posteriorly displaced and small introitus.
+On physical examination, blood pressure is 110/80 mm Hg. Weight is 220 lb (100 kg), and height is 68.5 in (174 cm) (BMI = 33 kg/m²). On skin examination, she has mild acne, as well as acanthosis nigricans on the neck and in the axillae. Her breasts and pubic hair are Tanner stage 5.
 
 Laboratory test results:
 
- $$  Sodium=141\ mEq/L\ (141\ mmol/L) $$ 
+TSH = 3.72 mIU/L
 
- $$  Potassium=3.6mEq/L(3.6mmol/L) $$ 
+Prolactin = 8.6 ng/mL (373.9 pmol/L)
 
-Sex hormone-binding globulin = 2.8  $ \mu $g/mL (24.9 nmol/L)
+Sex hormone-binding globulin = 1.91  $ \mu $g/mL (17.0 nmol/L)
 
- $$  Renin~activity=1.0\ ng/mL\ per\ h $$ 
+FSH = 6.7 mIU/mL (6.7 IU/L)
 
- $$ \mathrm{DHEA-S}=25.7\ \mu\mathrm{g}/\mathrm{dL}\ (0.70\ \mu\mathrm{mol}/\mathrm{L}) $$ 
+DHEA-S = 285 μg/dL (7.7 μmol/L)
 
-Testosterone = 64 ng/dL (2.22 nmol/L)
+LH = 14.3 mIU/mL (14.3 IU/L)
 
-17-Hydroxyprogesterone=1060 ng/dL (32.1 nmol/L)
+17-Hydroxyprogesterone 126 ng/dL (3.82 nmol/L)
 
-Which of the following treatment changes should you make to address the patient's main concerns?
+Testosterone = 63 ng/dL (2.19 nmol/L)
 
-A. Increase the mineralocorticoid (fludrocortisone)
+β-hCG = <6 mIU/mL (<6 IU/L)
 
-B. Add a hormonal contraceptive
+Pelvic ultrasonography reveals ovarian volumes of 17 mL (right ovary) and 14 mL (left ovary) and a normal uterus with an endometrial thickness of 5.8 mm.
 
-C. Increase the glucocorticoid (hydrocortisone)
+Which of the following is the most likely diagnosis?
 
-D. Switch to a long-acting glucocorticoid (prednisolone)
+A. Constitutional delay of puberty
 
-E. Add spironolactone
+B. Polycystic ovary syndrome
+
+C. Primary ovarian insufficiency
+
+D. Complete androgen insensitivity
+
+E. 5α-Reductase deficiency
+
+## Question 83
+
+*[question text missing in OCR]*
+
 
 ### Answer 83: B) Add a hormonal contraceptive
 
@@ -306,8 +366,29 @@ Varila E, Wahlström T, Rauramo I. A 5-year follow-up study on the use of a levo
 
 ## Question 109
 
-*[question text missing in OCR]*
+A 38-year-old female-to-male transgender individual presents for a new patient appointment. He has been treated with intramuscular testosterone, 200 mg every 2 weeks, for 5 years with satisfactory facial and body hair, deepening of the voice, and enlargement of the clitoris. He also has acne and balding, which are acceptable to him. He has not undergone a mastectomy, hysterectomy, or oophorectomy. There has been no vagin bleeding. He has never smoked cigarettes.
 
+On physical examination, blood pressure is 130/80 mm Hg. Weight is 197 lb (89.5 kg), and height is 66.5 in (168.9 cm) (BMI = 31.3 kg/m²). Skin examination reveals mild acne, male-pattern hair over the face, chest, and extremities and occipital balding. Breasts are without masses. Pelvic examination reveals a small uterus and no adnexal masses.
+
+Laboratory test results:
+
+Total testosterone (mid-dose) = 769 ng/dL (26.7 nmol/L)
+
+Hematocrit = 43% (0.43)
+
+Platelet count = 375 × 10³/μL (375 × 10⁹/L)
+
+Which of the following is the most likely complication of intramuscular testosterone injections if this patient?
+
+A. Abnormal liver function
+
+B. Thromboembolism
+
+C. Low bone mineral density
+
+D. Endometrial cancer
+
+E. Erythrocytosis
 
 ### Answer 109: E) Erythrocytosis
 

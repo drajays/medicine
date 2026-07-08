@@ -1,5 +1,5 @@
 # ESAP 2015 — Reproduction Male
-Questions: 1, 2, 4, 5, 6, 11, 16, 18, 28, 46, 47, 70, 79, 103, 115
+Questions: 1, 2, 6, 11, 18, 28, 46, 70, 79, 103, 115
 
 ## Question 1
 
@@ -23,7 +23,39 @@ D. Magnetic resonance angiography of the renal arteries
 
 E. No change in current treatment
 
-2 A 52-year-old man is referred to the endocrine clinic for management of hypogonadism. Idiopathic hypogonadism was diagnosed 4 years ago when he had presented with fatigue, sleepiness, and reduced libido. He recalls having “low” testosterone levels at that time. He was started on transdermal testosterone gel, 7.5 g daily, which has improved his symptoms.
+### Answer 1: E) No change in current treatment
+
+#### ANSWER: E) No change in current treatment
+
+The use of a mineralocorticoid receptor antagonist such as spironolactone or eplerenone improves blood pressure and potassium homeostasis in patients with primary hyperaldosteronism. It is less well appreciated that there is a decline in glomerular filtration rate in the early phase after treatment initiation. This observation has been explained by aldosterone-induced hyperfiltration, which is abolished with either surgery or mineralocorticoid receptor blockade. The observed glomerular hyperfiltration in patients with primary hyperaldosteronism is associated with decreased intrarenal vascular resistance. The decline in glomerular filtration rate after treatment is significantly lower in patients with low pretreatment plasma aldosterone levels. Mineralocorticoid receptor antagonists can also decrease serum sodium levels indicating the reversal of aldosterone-induced sodium-retinic effects and hypervolemia. Urinary albumin excretion decreases in patients who are treated with mineralocorticoid receptor antagonists.
+
+Despite this initial decrease in glomerular filtration rate in patients treated for primary aldosteronism, the decline in renal function appears to be reversible and long-term renal function stabilizes. Therefore, no change in the patient's current treatment is indicated (Answer E). Substitution of eplerenone for spironolactone (Answer A) would not be expected to provide any additional benefit. In fact, on a milligram-for-milligram basis, higher dose of eplerenone are usually needed to adequately treat primary aldosteronism.
+
+of eplerenone are usually needed to adequately treat primary. The adrenal venous sampling procedure in this patient provided good sampling as reflected by the elevated cortisol and epinephrine levels. Repeating the procedure with ACTH stimulation (Answer C) would not provide any new information. Although ACTH infusion is generally recommended during adrenal venous sampling, there is no compelling evidence that it greatly improves the diagnostic accuracy of the procedure. The findings here are clearly consistent with bilateral adrenal hyperplasia. The aldosterone-to-cortisol ratio in each adrenal vein is similar and both ratios are considerably greater than that of the inferior vena cava. Since there is less venous admixture in the right adrenal vein (directly off the inferior vena cava), it is not surprising to find higher steroid levels here. The epinephrine levels serve as another useful means to verify the integrity of adrenal venous effluent; however, the absolute measurements have no diagnostic utility. The epinephrine level in the inferior vena cava is usually very low. Consequently, a laparoscopic right adrenalectomy (Answer B) would not be indicated.
+
+Since this woman had no evidence of secondary hyperaldosteronism that would be expected with renal arterial stenosis, magnetic resonance angiography of the renal arteries (Answer D) is not warranted. Moreover, the use of an ACE inhibitor such as lisinopril in a patient with renal artery stenosis would have caused very significant increases in plasma renin activity, as well as probable deterioration in renal function before the introduction of a mineralocorticoid receptor antagonist.
+
+##### Educational Objective:
+
+Identify the early and transient decrease in renal function that accompanies the treatment of primary aldosteronism
+
+UpToDate Topic Review(s):
+
+Treatment of primary aldosteronism
+
+##### Reference(s):
+
+Reincke M, Rump LC, Quinkler M, Hahner S, et al; Participants of German Conn's Registry. Risk factors associated with a low glomerular filtration rate in primary aldosteronism. J Clin Endocrinol Metab. 2009;94(3):869-875.
+
+Fourkiotis V, Vonend O, Diearicn S, et al; Mephisto Study Group. Effectiveness of eplerenone or spironolactone in preserving renal function in primary aldosteronism. Euro J Endocrinol. 2012;168(1):75-81.
+
+Sechi LA, Colussi G, Di Fabio A, Catena C. Cardiovascular and renal damage in primary aldosteronism: outcomes after treatment. Am J Hypertens. 2010;23(12):1253-1260.
+
+Magill SB, Katt H, Shaker JL, et al. Comparison of adrenal vein sampling and computed tomography in the differentiation of primary aldosteronism. J Clin Endocrinol Metab. 2001;86(3):1066-1071.
+
+## Question 2
+
+A 52-year-old man is referred to the endocrine clinic for management of hypogonadism. Idiopathic hypogonadism was diagnosed 4 years ago when he had presented with fatigue, sleepiness, and reduced libido. He recalls having “low” testosterone levels at that time. He was started on transdermal testosterone gel, 7.5 g daily, which has improved his symptoms.
 
 At the time of his diagnosis, the patient was morbidly obese with a BMI of 42.0 kg/m². He also had difficult-to-control hypertension and impaired fasting glucose. Approximately 18 months ago, he underwent gastric bypass surgery that resulted in clinically significant weight loss. His fasting glucose is now normal and he takes only 1 antihypertensive medication. He continues to apply testosterone gel at the same dosage. The patient has no history of pituitary or testicular disease. He is married with 2 children and does not desire to extend his family. He would like to know if his weight loss has any impact on the management of his hypogonadism.
 
@@ -45,105 +77,54 @@ D. Replace testosterone with tamoxifen, 10 mg twice daily
 
 E. Replace testosterone with intramuscular hCG, 1500 units 3 times a week
 
-3 A 67-year-old man with no notable medical history is referred for evaluation of symptoms suspicious for hypoglycemia. These symptoms occur when the patient avoids calories for a period exceeding 2 to 3 hours and are characterized by sweating, tremor, and tachycardia. He has been waking up 3 times each night to consume a snack, and he carries orange juice with him constantly. These symptoms have been present to some degree for about 4 years, but have worsened in the past 6 months. Over the 4-year period, he has gained approximately 100 lb (45.5 kg). His current BMI is 43 kg/m².
+### Answer 2: C) Discontinue testosterone therapy and check testosterone levels in 3 months and case series show that serum testosterone levels are lower in obese men. Data from epidemiological studies testicular disease) than in nonobese control patients. Although the exact mechanism behind this “functional”
 
-On the basis of this history, his primary care physician ordered CT of the abdomen, which suggested the presence of a discrete mass in the head of the pancreas. At the time of his initial evaluation, the patient was asymptomatic after a 2-hour fast. However, the following laboratory values were obtained:
+2 ANSWER: C) Discontinue testosterone therapy and check testosterone levels in 3 months and case series show that serum testosterone levels are lower in obese men. Data from epidemiological studies testicular disease) than in nonobese control patients. Although the exact mechanism behind this “functional”
 
- $$ \mathrm{Glucose}=50\mathrm{mg}/\mathrm{dL}(2.78\mathrm{mmol/L}) $$ 
+androgen deficiency remains unclear, the posited mechanisms depend on the degree of obesity. For example, men with mild-to-moderate obesity (BMI <40 kg/m²) have low total testosterone levels (due to low serum sex hormone-binding globulin levels); however, their free testosterone levels are normal. To the contrary, in men who are morbidly obese, even free testosterone levels are low (presumably due to elevated circulating estradiol levels, although frankly elevated estradiol levels are rarely seen). Weight loss after gastric bypass surgery is associated with a significant increase in both total and free testosterone levels (Figure 1). Similarly, weight loss resulting from calorie restriction is also associated with increased total and free testosterone levels (Figure 2). Serum sex hormone-binding globulin levels also increase (due to a decrease in insulin resistance and resumption in its hepatic synthesis). This patient has experienced clinically significant weight loss, and his gonadal axis will most likely recover once exogenous testosterone therapy is discontinued. Hence, discontinuing testosterone therapy is the best next step in his management rather than subjecting him to lifelong testosterone therapy (thus, Answer C is correct and Answer B is incorrect).
 
- $$ \mathrm{Proinsulin}=1587\mathrm{pg}/\mathrm{mL}(180\mathrm{pmol/L}) $$ 
+##### Effects of Gastric Bypass Surgery on Serum Testosterone
 
- $$  C-peptide=14.3\ ng/mL(4.7nmol/L) $$ 
+<div style="text-align: center;"><img src="imgs/img_in_chart_box_44_530_491_910.jpg" alt="Image" width="39%" /></div>
 
-Insulin antibodies, undetectable
 
- $$  Insulin=112\ \mu IU/mL\ (777.8\ pmol/L) $$ 
+<div style="text-align: center;"><img src="imgs/img_in_chart_box_563_532_999_911.jpg" alt="Image" width="38%" /></div>
 
-Sulfonylurea screen (including repaglinide and glimepiride), negative
 
-Review of the abdominal CT performed at an outside institution documents the presence of a 2.4-cm enhancing mass in the head of the pancreas with central inhomogeneity and areas of low attenuation. The appearance is consistent with an islet-cell tumor of the pancreas. No other masses are seen, but the mass is encasing the pancreatic duct. The pancreas and the liver are also characterized by extensive fatty infiltration.
+<div style="text-align: center;"><div style="text-align: center;">Figure 1. Data derived from Hammond A, Gibson M, Hunt SC, et al. Effect of Roux-en-Y gastric bypass surgery on the sex steroids and quality of life in obese men. J Clin Endocrinol Metab. 2009;94:1329-1332.</div> </div>
 
-Which of the following describes appropriate management?
 
-A. Initiate chemotherapy
+##### Effects of Weight Loss on Serum Testosterone and Sex Hormone-Binding Globulin
 
-B. Recommend a weight-loss program before considering surgery
+<div style="text-align: center;"><img src="imgs/img_in_chart_box_36_1065_381_1388.jpg" alt="Image" width="30%" /></div>
 
-C. Refer the patient for ethanol ablation under the guidance of endoscopic ultrasonography
 
-D. Ask an experienced endocrine surgeon to enucleate the tumor
+<div style="text-align: center;"><img src="imgs/img_in_chart_box_388_1067_716_1385.jpg" alt="Image" width="28%" /></div>
 
-E. Initiate verapamil
 
-4 A 19-year-old man presents to establish care. Type 1 diabetes mellitus was diagnosed at age 7 years. He reports a history of poor diabetes control, with hemoglobin  $ A_{1c} $ levels in the 8% to 10% (0.080 to 0.100) range for the past several years, but he has recently refocused his efforts with therapy adherence and has noted some improvement in his glycemic control. He currently uses an insulin pump. He has retinopathy, but no other diabetes complications. He is the only member of his family with type 1 diabetes, but several maternal relatives have type 2 diabetes. His family history is also notable for heart disease in his paternal grandparents who are in their 60s, as well as hypertension and obesity in both parents. He does not consume alcohol, but smokes 1 pack of cigarettes per day.
+<div style="text-align: center;"><img src="imgs/img_in_chart_box_721_1070_1064_1382.jpg" alt="Image" width="29%" /></div>
 
-On physical examination, height is 68 in (172.7 cm) and weight is 266 lb (120.9 kg) (BMI = 40.4 kg/m $ ^{2} $). Pulse rate is 99 beats/min, and blood pressure is 125/80 mm Hg. Physical examination findings are normal except for obesity and acanthosis nigricans.
 
-Laboratory test results (fasting):
+<div style="text-align: center;"><div style="text-align: center;">Figure 2. Data derived from Niksanen L, Laaksonen DE, Punnonen K, Mustajoki P, Kaukua J, Rissanen A. Changes in sex hormone-bingin globulin and testosterone during weight loss and weight maintenance in abdominally obese men with metabolic syndrome. Diabetes Obes Metab. 2004;6(3):208-215.</div> </div>
 
-Hemoglobin  $ A_{lc}=7.8\% $ (0.078)
 
-Aspartate aminotransferase = 43 U/L (0.7 μkat/L)
+# Educational Objective: Assess the effects of weight loss on the hypothalamic-pituitary-gonadal axis.
 
-Total cholesterol = 224 mg/dL (5.80 mmol/L)
+UpToDate Topic Review(s): Testosterone treatment of male hypogonadism
 
-Alanine aminotransferase = 95 U/L (1.6 μkat/L)
+##### Reference(s):
 
-HDL cholesterol = 26 mg/dL (0.67 mmol/L)
+Glass AR, Swerdloff RS, Bray GA, Dahms WT, Atkinson RL. Low serum testosterone and sex-hormone-binding globulin in massively obese men. J Clin Endocrinol Metab. 1977;45(6):1211-1219.
 
-LDL cholesterol = 186 mg/dL (4.82 mmol/L)
+Hammoud A, Gibson M, Hunt SC, et al. Effect of Roux-en-Y gastric bypass surgery on the sex steroids and quality of life in obese men. J Clin Endocrinol Metab. 2009;94(4):1329-1332.
 
-Creatinine = 0.77 mg/dL (68.1 μmol/L)
+Niskanen L, Laaksonen DE, Punnonen K, Mustajoki P, Kaukua J, Rissanen A. Changes in sex hormone-binding globulin and testosterone during weight loss, weight maintenance in abdominally obese men with the metabolic syndrome. Diabetes Obes Metab. 2004;6(3):208-215.
 
-Triglycerides = 229 mg/dL (2.59 mmol/L)
+Pellitero S, Olaizola I, Alastrue A, et al. Hypogonadotropic hypogonadism in morbidly obese males is reversed after bariatric surgery. Obes Surg. 2012;22(12):1835-1840
 
-TSH = 2.83 mIU/L
+## Question 6
 
-In addition to smoking cessation, initiation of which of the following would lead to the greatest reduction in his lifetime cardiovascular risk?
-
-A. Intensified glucose control
-
-B. Fibrate
-
-C. Statin
-
-D. Niacin
-
-E. Low-fat diet
-
-A 38-year-old woman presents with amenorrhea. She experienced menarche at age 15 years and had regular menstrual cycles. Five years ago, she underwent treatment for infertility using in vitro fertilization, but was unsuccessful. At that time, her husband had a normal semen analysis. She began to miss occasional menses 1 year ago and developed amenorrhea 9 months ago. She has not flashed several times per week, along with vaginal dryness. She does not exercise excessively and she has no galactorrhea, hyperandrogenism, headaches, or peripheral vision loss. Her medical history is remarkable for hypothyroidism treated with levothyroxine. Family history is notable for her mother undergoing menopause at age 45 to 50 years. Her mother's height is 64 in (162.6 cm), and her father's height is 69 in (175.3 cm).
-
-On physical examination, blood pressure is 108/68 mm Hg. Height is 59 in (149.9 cm), and weight is 118 lb (53.6 kg) (BMI = 23.8 kg/m²). She has no acne, hirsutism, or vitiligo. Findings on head and neck examination are normal. Her thyroid gland is small at approximately 10 g. Pelvic examination reveals no masses.
-
-Laboratory test results:
-
-FSH = 23.6 mIU/mL (23.6 IU/L)
-
-Estradiol = <20 pg/mL (<73.4 pmol/L)
-
-β-hCG = <6 mIU/mL (<6 IU/L)
-
-Adrenal antibodies, undetectable
-
-Prolactin = 5.7 ng/mL (0.25 nmol/L)
-
-FMR1 repeat length, normal
-
-TSH = 0.99 mIU/L
-
-Which additional diagnostic test is needed?
-
-A. Thyroid antibody measurement
-
-B. Pelvic ultrasonography
-
-C. Pituitary-directed MRI
-
-D. Karyotype analysis
-
-E. IGF-1 measurement
-
-6 A 35-year-old man with a history of end-stage renal disease secondary to hemolytic uremic syndrome is referred to you for evaluation of hypercalcemia. He required hemodialysis by the age of 27 years, and by age 31 years, he had undergone a successful renal transplant from a living, unrelated donor. Despite treatment with appropriate phosphorus binders and vitamin D analogues before transplant, his PTH concentrations were generally greater than 500 pg/mL (>500 ng/L).
+A 35-year-old man with a history of end-stage renal disease secondary to hemolytic uremic syndrome is referred to you for evaluation of hypercalcemia. He required hemodialysis by the age of 27 years, and by age 31 years, he had undergone a successful renal transplant from a living, unrelated donor. Despite treatment with appropriate phosphorus binders and vitamin D analogues before transplant, his PTH concentrations were generally greater than 500 pg/mL (>500 ng/L).
 
 In recent months, laboratory studies have documented progressive hypercalcemia and a persistently elevated PTH level (most recent results displayed below). Although not typically recommended in transplant recipients who develop hypercalcemia, the nephrologist caring for him ordered a parathyroid scan (see image). All 4 parathyroid glands were identified (arrows), with greater uptake in both superior glands.
 
@@ -184,162 +165,55 @@ D. Subtotal parathyroidectomy
 
 E. 4-Gland parathyroidectomy
 
-### Answer 1: E) No change in current treatment
-
-#### ANSWER: E) No change in current treatment
-
-The use of a mineralocorticoid receptor antagonist such as spironolactone or eplerenone improves blood pressure and potassium homeostasis in patients with primary hyperaldosteronism. It is less well appreciated that there is a decline in glomerular filtration rate in the early phase after treatment initiation. This observation has been explained by aldosterone-induced hyperfiltration, which is abolished with either surgery or mineralocorticoid receptor blockade. The observed glomerular hyperfiltration in patients with primary hyperaldosteronism is associated with decreased intrarenal vascular resistance. The decline in glomerular filtration rate after treatment is significantly lower in patients with low pretreatment plasma aldosterone levels. Mineralocorticoid receptor antagonists can also decrease serum sodium levels indicating the reversal of aldosterone-induced sodium-retinic effects and hypervolemia. Urinary albumin excretion decreases in patients who are treated with mineralocorticoid receptor antagonists.
-
-Despite this initial decrease in glomerular filtration rate in patients treated for primary aldosteronism, the decline in renal function appears to be reversible and long-term renal function stabilizes. Therefore, no change in the patient's current treatment is indicated (Answer E). Substitution of eplerenone for spironolactone (Answer A) would not be expected to provide any additional benefit. In fact, on a milligram-for-milligram basis, higher dose of eplerenone are usually needed to adequately treat primary aldosteronism.
-
-of eplerenone are usually needed to adequately treat primary. The adrenal venous sampling procedure in this patient provided good sampling as reflected by the elevated cortisol and epinephrine levels. Repeating the procedure with ACTH stimulation (Answer C) would not provide any new information. Although ACTH infusion is generally recommended during adrenal venous sampling, there is no compelling evidence that it greatly improves the diagnostic accuracy of the procedure. The findings here are clearly consistent with bilateral adrenal hyperplasia. The aldosterone-to-cortisol ratio in each adrenal vein is similar and both ratios are considerably greater than that of the inferior vena cava. Since there is less venous admixture in the right adrenal vein (directly off the inferior vena cava), it is not surprising to find higher steroid levels here. The epinephrine levels serve as another useful means to verify the integrity of adrenal venous effluent; however, the absolute measurements have no diagnostic utility. The epinephrine level in the inferior vena cava is usually very low. Consequently, a laparoscopic right adrenalectomy (Answer B) would not be indicated.
-
-Since this woman had no evidence of secondary hyperaldosteronism that would be expected with renal arterial stenosis, magnetic resonance angiography of the renal arteries (Answer D) is not warranted. Moreover, the use of an ACE inhibitor such as lisinopril in a patient with renal artery stenosis would have caused very significant increases in plasma renin activity, as well as probable deterioration in renal function before the introduction of a mineralocorticoid receptor antagonist.
-
-##### Educational Objective:
-
-Identify the early and transient decrease in renal function that accompanies the treatment of primary aldosteronism
-
-UpToDate Topic Review(s):
-
-Treatment of primary aldosteronism
-
-##### Reference(s):
-
-Reincke M, Rump LC, Quinkler M, Hahner S, et al; Participants of German Conn's Registry. Risk factors associated with a low glomerular filtration rate in primary aldosteronism. J Clin Endocrinol Metab. 2009;94(3):869-875.
-
-Fourkiotis V, Vonend O, Diearicn S, et al; Mephisto Study Group. Effectiveness of eplerenone or spironolactone in preserving renal function in primary aldosteronism. Euro J Endocrinol. 2012;168(1):75-81.
-
-Sechi LA, Colussi G, Di Fabio A, Catena C. Cardiovascular and renal damage in primary aldosteronism: outcomes after treatment. Am J Hypertens. 2010;23(12):1253-1260.
-
-Magill SB, Katt H, Shaker JL, et al. Comparison of adrenal vein sampling and computed tomography in the differentiation of primary aldosteronism. J Clin Endocrinol Metab. 2001;86(3):1066-1071.
-
-## Question 2
-
-*[question text missing in OCR]*
-
-
-### Answer 2: B) FNAB of the 1.2-cm nodule
-
-## 02 ANSWER: B) FNAB of the 1.2-cm nodule
-
-The incidence of differentiated thyroid cancer has been increasing in recent years, at least in part due to increased diagnosis. Thyroid cancer is predicted to become the third most common malignancy diagnosed in women and to exceed the incidence of colorectal cancer by the year 2019. Despite the steadily rising incidence of thyroid cancer, the number of deaths caused by thyroid cancer has remained relatively stable. Although this patient's imaging was performed because of a palpable thyroid nodule, her malignant nodule was actually incidentally found.
-
-This patient's 2.2-cm cystic nodule does not require FNAB (thus, Answers A and C are incorrect). Purely cystic nodules without a mural component do not require FNAB, even if they are larger than 1.5 or 2.0 cm. Cystic composition and spongiform appearance is each an excellent predictor of a benign nodule. Cystic nodules are typically only biopsied if there are other components, such that the nodule is mixed cystic and solid, with the solid component being the target of the biopsy. The risk of malignancy in mixed cystic and solid nodules decreases as the cystic proportion of the nodule increases. Cystic nodules may require aspiration to alleviate compressive symptoms or pain if they increase in size. In addition, such nodules may be managed by surgical excision if the fluid reaccumulates after repeated aspirations.
-
-The smaller 1.2-cm nodule shown in the vignette's image was incidentally found on ultrasonography initially performed to evaluate the palpable cystic nodule. This incidental nodule is suspicious in many ways. It has microcalcifications, irregular borders, and hypoechogenicity. Thus, this nodule should be biopsied now (Answer B) despite the fact that it was incidentally found and is not much larger than 1.0 cm. Given the suspicious features of this nodule, simply obtaining follow-up ultrasonography in 6 months (Answer D) is incorrect. In a recent meta-analysis, nodules with taller than wide shape had the highest odds ratio of being malignant. Various other studies show that microcalcifications, irregular margins, and taller than wide structure have good specificity for malignancy (approximately 89%-92%). Hypoechogenicity of nodules has a reasonable sensitivity for malignancy. Extrathyroidal extension and abnormal cervical lymph nodes are particularly worrisome features. In the case of a patient with multiple thyroid nodules, the nodules should be prioritized for biopsy on the basis of presence or absence of the features described above and the size. The risk of malignancy is thought to be similar regardless of whether the patient has a solitary nodule or a multinodular gland.
-
-A thyroid scan and uptake (scintigraphy) (Answer E) will determine whether a nodule is functioning or nonfunctioning, but is not the best test to determine whether a thyroid nodule is malignant. Although many thyroid cancers have decreased isotope uptake compared with the surrounding thyroid tissue (i.e., appear "cold"), other lesions, such as the larger cystic nodule present in this patient, may also appear "cold" with such imaging.
-
-Note: Image in the vignette is reprinted from Bahn RS, Castro MR. Approach to the patient with nontoxic multinodular goiter. J Clin Endocrinol Metab. 2011;96(5):1202-1212.
-
-#### Educational Objective:
-
-Interpret ultrasound characteristics of a thyroid nodule to determine whether fine-needle aspiration biopsy is warranted.
-
-UpToDate Topic Review(s):
-
-Diagnostic approach to and treatment of thyroid nodules
-
-##### Reference(s):
-
-Moon WJ, Jung SL, Lee JH, et al; Thyroid Study Group, Korean Society of Neuro- and Head and Neck Radiology. Benign and malignant thyroid nodules: US differentiation--multicenter retrospective study. Radiology. 2008;247(3):762-770.
-
-Brito JP, Gionfriddo MR, Al Nofal A, et al. The accuracy of thyroid nodule ultrasound to predict thyroid cancer: systematic review and meta-analysis. J Clin Endocrinol Metab. 2014;99(4):1253-1263.
-
-Frates MC, Benson CB, Charboneau JW, et al; society of Radiologists in Ultrasound. Management of thyroid nodules detected at US: Society of Radiologists in Ultrasound consensus conference statement. Radiology. 2005;237(3):794-800.
-
-Fish SA. Langer JE, Mandel SJ. Sonographic imaging of thyroid nodules and cervical lymph nodes. Endocrinol Metab Clin North Am. 2008;37(2):401-417.
-
-## Question 4
-
-*[question text missing in OCR]*
-
-
-## Question 5
-
-*[question text missing in OCR]*
-
-
-### Answer 5: E) Do not start a statin; it has no cardiovascular risk and the role of statins to reduce cardiovascular risk has been studied in many groups of patients, and the role of statins to reduce cardiovascular disease and mortality in the settings of primary and secondary care. However, end-stage kidney disease (patients on the setings of primary and secondary care) is more likely to be associated with the risk of the risk of
-
-5 ANSWER: E) Do not start a statin; it has no cardiovascular risk and the role of statins to reduce cardiovascular risk has been studied in many groups of patients, and the role of statins to reduce cardiovascular disease and mortality in the settings of primary and secondary care. However, end-stage kidney disease (patients on the setings of primary and secondary care) is more likely to be associated with the risk of the risk of
-
-The AURORA trial (A Study to Evaluate the Use of Rosuvastatin in Subjects on Regular Hemodialysis: An Assessment of Survival and Cardiovascular Events) evaluated rosuvastatin's effect on cardiovascular end points in patients receiving hemodialysis and found no benefit compared with observations in the placebo group. The Study of Heart and Renal Protection (SHARP) randomly assigned patients with chronic kidney disease 3 through 7 to placebo or simvastatin plus ezetimibe. Although there was evidence of benefit overall, the subgroup analysis suggested that this was mainly driven by the nondialysis group and the patients undergoing dialysis had no benefit. It is important to note that statins reduce the relative risk of cardiovascular disease to a similar extent in patients with predialysis chronic kidney disease as they do in patients without chronic kidney disease, but because patients with chronic kidney disease have a greater baseline risk, the absolute risk reduction with statin treatment is greater in patients with predialysis chronic kidney disease than in patients without chronic kidney disease.
-
-Although several post hoc analyses of these trials have suggested potential benefit for various subgroups of patients receiving dialysis, conclusions from 3 major trials have not found a conclusive benefit for statin use in patients receiving dialysis. Statins are not routinely recommended; however, they are not contraindicated (thus, Answers D is incorrect). There are no guidelines for patients who are taking statins at the time of progression to dialysis; thus, the decision to continue or cease statin therapy should be made on a personalized basis. However, there is fairly good evidence that statin therapy improves cardiovascular survival after renal transplant and statin should be considered in that setting.
-
-##### Educational Objective:
-
-Advise patients on the use of statins in the setting of chronic kidney disease.
-
-UpToDate Topic Review(s):
-
-Statins and chronic kidney disease
-
-##### Reference(s):
-
-Palmer SC, Navaneethan SD, Craig JC, et al. HMG CoA reductase inhibitors (statins) for dialysis patients. Cochrane Database Syst Rev. 2013;9:CD004289.
-
-Kidney Disease: Synopsis of the Kidney Disease: Improving Global Outcomes 2013 Clinical Practice Guideline. Ann Intern Med. 2014;160(3):182.
-
-## Question 6
-
-*[question text missing in OCR]*
-
-
 ## Question 11
 
-*[question text missing in OCR]*
+A 60-year-old woman seeks an evaluation for low bone density. She has a history of rheumatoid arthritis and has been treated with prednisone, 10 mg daily, for the last 6 months. She has no personal history of fractures, has no family history of fractures or osteoporosis, and has not experienced height loss. She takes calcium supplements, 1200 mg daily (in divided doses), and vitamin D, 2000 IU daily. She walks 30 minutes a day, engages in resistance training 3 times per week, and remains active.
 
+On physical examination, weight is 131 lb (59.5 kg) and height is 65 in (165.1 cm) (BMI = 21.8 kg/m $ ^2 $). Blood pressure is 110/72 mm Hg, and heart rate is 72 beats/min. Her examination findings are normal.
 
-## Question 16
+Results from a complete blood cell count and comprehensive metabolic panel are within the reference range. Her vitamin D concentration is 32 ng/mL (79.9 nmol/L).
 
-*[question text missing in OCR]*
+DXA scan reveals osteopenia with a femoral neck T score of -2.2 and a lumbar spine T score of -2.3.
 
+Which of the following is the best next treatment step?
 
-### Answer 16: C) Once blood glucose falls below 200 mg/dL (11.10 mmol/L), add 5% dextrose to the intravenous fluids and continue intravenous insulin until the acidosis has resolved
+A. Increase daily calcium supplementation to 2400 mg
 
-## 16 ANSWER: C) Once blood glucose falls below 200 mg/dL (11.10 mmol/L), add 5% dextrose to the intravenous fluids and continue intravenous insulin until the acidosis has resolved
+B. Increase daily vitamin D supplementation to 4000 IU
 
-intravenous fluid
+C. Start raloxifene
 
-Diabetic ketoacidosis is a life-threatening complication of severe insulin deficiency that is commonly seen in patients with newly diagnosed type 1 diabetes. However, it can also occur in patients with type 1 diabetes who interrupt basal and bolus insulin for more than 24 hours, or in those on insulin pump therapy whose rapid-acting insulin analogue infusion is interrupted for more than 4 to 6 hours. Diabetic ketoacidosis may also complicate severe stressful illness in patients with type 1 or type 2 diabetes.
+D. Start denosumab
 
-The severity of ketoacidosis is determined on the basis of the arterial pH, serum bicarbonate, and alteration of sensorium:
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan="2">Measurement</td><td colspan="3">Severity of Ketoacidosis</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Mild</td><td style='text-align: center; word-wrap: break-word;'>Moderate</td><td style='text-align: center; word-wrap: break-word;'>Severe</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Arterial pH</td><td style='text-align: center; word-wrap: break-word;'>7.25-7.30</td><td style='text-align: center; word-wrap: break-word;'>7.00-7.24</td><td style='text-align: center; word-wrap: break-word;'>&lt;7.00</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Serum bicarbonate</td><td style='text-align: center; word-wrap: break-word;'>15-18 mEq/L\n(15-18 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>10-14 mEq/L\n(10-14 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;10 mEq/L\n(&lt;10 mmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Alteration in sensorium</td><td style='text-align: center; word-wrap: break-word;'>Alert</td><td style='text-align: center; word-wrap: break-word;'>Alert/drowsy</td><td style='text-align: center; word-wrap: break-word;'>Stupor/coma</td></tr></table>
-
-The standard of treatment of severe diabetic ketoacidosis involves aggressive fluid resuscitation; intravenous insulin; repletion of potassium; and close monitoring of hydration status, glucose, acidosis, and electrolytes. Following serum carbon dioxide or venous pH has mostly replaced following the arterial pH (Answer A) to assess adequacy of therapy. This avoids the pain and potential complications of serial arterial blood gas determination.
-
-Venous pH is about 0.03 units lower than arterial pH, a nonclinically significant difference. Insulin therapy is the primary intervention to correct acidosis and it acts by inducing the metabolism of the ketoacids  $ \beta $-hydroxybutyrate and acetoacetate to bicarbonate. Insulin directly inhibits lipolysis and ketogenesis, promotes clearance of free fatty acids, and inhibits fatty acid oxidation to ketones in the liver. Administration of bicarbonate (Answer B) to patients with diabetic ketoacidosis who present with a pH as low as 6.9 has not been shown to speed correction of acidosis or reduce mortality. No randomized controlled studies of bicarbonate use have been performed in patients with a pH below 6.9. In those with marked hyperkalemia complicating ketoacidosis, bicarbonate can be used to accelerate the intracellular translocation of potassium from the intravascular space.
-
-When treating ketoacidosis, intravenous insulin must be continued until the acidosis has cleared. To prevent hypoglycemia from occurring with continued intravenous insulin infusion, it is recommended that 5% dextrose be added to intravenous fluids when glucose levels fall below 200 mg/dL (<11.10 mmol/L) (thus, Answer C is correct). Normalization of acidosis, ketosis, and hyperglycemia is similar when intravenous regular insulin is compared with intravenous rapid-acting insulin (thus, Answer D is incorrect). In studies of patients with mild to moderate acidosis, equivalent rates of correction of acidosis, clearance of ketones, and glucose decline have been documented with intravenous regular insulin vs subcutaneous rapid-acting insulin administered every 1 to 2 hours. However, comparison of these 2 insulin regimens has not been well studied in patients with severe acidosis, in whom the rate of insulin administration can be more rapidly titrated with an intravenous insulin drip (thus, Answer E is incorrect).
-
-Alterations in serum sodium are common in patients presenting with ketoacidosis. Hyperglycemia leads to the movement of intracellular water osmotically to the intravascular space, causing hyponatremia. Glucosuria leads to an osmotic diuresis of water in excess of sodium, increasing serum sodium. Hypernatremia is typically seen only with more severe hyperglycemia and dehydration. Marked hyperlipidemia can be seen in ketoacidosis, causing pseudohyponatremia as elevated lipids reduce the measured serum sodium concentration. Abnormalities of serum sodium in ketoacidosis correct after treatment with insulin and fluid resuscitation.
-
-##### Educational Objective:
-
-Treat advanced diabetic ketoacidosis.
-
-UpToDate Topic Review(s):
-
-Diabetic ketoacidosis and hyperosmolar hyperglycemic state in adults: Treatment
-
-Reference(s):
-
-Umpierrez GE, Cuervo R, Karabell A, Latif K, Freire AX, Kitabchi AE. Treatment of diabetic ketoacidosis with subcutaneous insulin aspart. Diabetes Care. 2004;27(8):1873-1878.
-
-Umpierrez GE, Jones S, Smiley D, et al. Insulin analogs versus human insulin in the treatment of patients with diabetic ketoacidosis: a randomized controlled trial. Diabetes Care. 2009;32(7):1164-1169.
-
-Kitabchi AE, Umpierrez GE, Miles JM, Fisher JN. Hyperglycemic crises in adult patients with diabetes. Diabetes Care. 2009;32(7):1335-1342.
+E. Start risedronate
 
 ## Question 18
 
-*[question text missing in OCR]*
+A 33-year-old man comes to the endocrine clinic for evaluation of infertility. Three years ago, a 2.8-cm nonsecreting pituitary macroadenoma was diagnosed after he presented with symptoms of mass effects. He underwent hypophysectomy without complications. Postoperative endocrine evaluation confirmed central hypogonadism. He was prescribed transdermal testosterone patches for the maintenance of secondary sexual characteristics and on this therapy he has had normal sexual function and quality of life.
 
+The patient and his wife started trying for a second child 10 months ago without any success. Two semen analyses had shown severe oligospermia (<5 million/mL). He has been referred for further evaluation. The patient does not have any other notable medical history. He underwent normal puberty. He has noticed a slight decrease in testicular size since the hypophysectomy.
+
+On physical examination, his pulse rate is 88 beats/min and blood pressure is 138/78 mm Hg. Weight is 202 kg (91.8 kg), and height is 71 in (180.3 cm) (BMI = 28.2 kg/m $ ^{2} $). There is no gynecomastia. Testicular volume is 13 mL bilaterally. The rest of his examination findings are normal.
+
+Laboratory test results:
+
+Testosterone = 542 ng/dL (18.8 nmol/L)
+
+LH = 0.8 mIU/mL (0.8 IU/L)
+
+FSH = 1.1 mIU/mL (1.1 IU/L)
+
+Which of the following is the most appropriate treatment option to induce fertility in this patient?
+
+A. hCG injections
+
+B. hCG and FSH injections
+
+C. Subcutaneous GnRH pump
+
+D. Oral clomiphene citrate
+
+E. Oral letrozole
 
 ## Question 28
 
@@ -393,64 +267,6 @@ D. Measurement of interleukin 6 and C-reactive protein
 
 E. High-resolution and color-flow Doppler ultrasonography
 
-29 A 50-year-old woman with a history of type 2 diabetes mellitus, hypertension, lactose intolerance, andột mối obesity is referred to you for evaluation of hyperparathyroidism and bone loss. Roux-en-Y bariatric surgery was performed 2 years ago. She has successfully lost nearly 100 lb (45.5 kg), and her diabetes is now well controlled off medication. She currently weighs 225 lb (102.4 kg), and height is 65 in (165.1 cm) (BMI = 37.4 kg/m²). Since her surgery, she has taken 4000 IU of vitamin D₃ daily and metoprolol for hypertension.
-
-She is seen every 6 months for routine follow-up. DXA was performed last year, as well as at her most recent visit, to evaluate bone mineral density. Results from her current DXA scan reveal a lumbar spine T score of -2.2 (representing a 5.7% decline from the previous study) and a femoral neck T score of -2.7 (representing a 2.5% decline from the previous study). As a result, her primary care physician initiated an evaluation for the cause of bone loss.
-
-Laboratory test results:
-
- $$  Serum~calcium=8.4mg/dL(2.10mmol/L) $$ 
-
- $$ \mathrm{Albumin}=4.0\mathrm{~g/dL}\left(40\mathrm{~g/L}\right) $$ 
-
- $$ \mathrm{PTH}=141\mathrm{pg}/\mathrm{mL}(141\mathrm{ng}/\mathrm{L}) $$ 
-
- $$ 25-Hydroxyvitamin~D=66ng/mL(164.7nmol/L) $$ 
-
- $$ \mathrm{U r i n a r y c a l c i u m}=19\mathrm{m g}/24\mathrm{h}(0.48\mathrm{m m o l/d}) $$ 
-
- $$ (s i m u l t a n e o u s c r e a t i n i n e o f0.99g/24h[8.75m m o l/d]) $$ 
-
- $$ \mathrm{Serum~phosphorus}=2.0\mathrm{mg/dL}(0.65\mathrm{mmol/L}) $$ 
-
-In addition to continuing her current medications and nutritional supplements, which of the following is the best therapeutic intervention?
-
-A. Elemental calcium, 2000 mg daily
-
-B. Elemental calcium, 2000 mg daily, and ergocalciferol, 50,000 IU weekly
-
-C. Elemental calcium, 2000 mg daily, and alendronate, 70 mg weekly
-
-D. Elemental calcium, 2000 mg daily, and cinacalcet, 30 mg daily
-
-E. Referral for parathyroidectomy
-
-A 54-year-old woman is referred to you for assistance with type 1 diabetes management. Diabetes was diagnosed at age 44 years. Her current insulin regimen includes insulin glargine, 10 units in the morning and 5 units in the evening. She boluses insulin aspart before meals using an insulin-to-carbohydrate ratio of 1 unit for each 15 g of carbohydrate and a sensitivity factor of 1 unit to lower her glucose 100 mg/dL (5.55 mmol/L) to a target level of 100 mg/dL (5.55 mmol/L). She participates in aerobic exercises for 60 to 90 minutes daily and weight training for 30 minutes 3 times per week. Her diet is rich in fruits, vegetables, lean meats, and mostly high-fiber carbohydrates. She feels comfortable with carbohydrate counting when eating at home, but has more difficulty accurately assessing the carbohydrate content of foods eaten at restaurants. She measures her glucose level 4 to 8 times daily. Her downloaded glucose meter shows glucose concentrations that range from 42 to 493 mg/dL (2.33 to 27.36 mmol/L) with a mean of 168 mg/dL (9.32 mmol/L) and a standard deviation of 76 mg/dL (4.22 mmol/L). Glucose levels are least variable after eating a similar daily breakfast and are quite variable throughout the rest of the day. She senses that her glucose levels are low when they fall below 60 mg/dL (3.33 mmol/L) because she feels “different.” She has not had any episodes of severe hypoglycemia requiring assistance. She takes atorvastatin, 10 mg daily, for hyperlipidemia and ramipril, 2.5 mg daily, for hypertension.
-
-On physical examination, her blood pressure is 114/69 mm Hg and pulse rate is 72 beats/min. Height is 69 in (175.3 cm), and weight is 133 lb (60.5 kg) (BMI = 19.6 kg/m $ ^{2} $). Findings on eye, cardiovascular, abdominal, and peripheral nerve examinations are normal.
-
-Laboratory test results:
-
-Hemoglobin  $ A_{1c}=7.6\% $ (0.076)
-
-LDL cholesterol = 52 mg/dL (1.35 mmol/L)
-
-Urinary albumin = 7 mg/g creatinine
-
-The patient asks whether insulin pump therapy would assist with her diabetes control.
-
-Which of the following outcomes would be most likely if this patient's insulin regimen were changed to insulin pump therapy?
-
-A. Reduced hemoglobin  $ A_{1c} $
-
-B. Reduced flexibility in the timing of her meals
-
-C. Reduced risk of diabetic ketoacidosis
-
-D. Increased total daily insulin dose requirement
-
-E. Increased frequency of severe hypoglycemia
-
 ### Answer 28: E) High-resolution and color-flow Doppler ultrasonography The use of amiodarone, an iodine-containing drug (27%)
 
 ## 28 ANSWER: E) High-resolution and color-flow Doppler ultrasonography The use of amiodarone, an iodine-containing drug (27%)
@@ -491,8 +307,35 @@ Piga M, Cocco MC, Serra A, Boi F, Loy M, Mariotti S. The usefulness of 99mTc-ses
 
 ## Question 46
 
-*[question text missing in OCR]*
+A 47-year-old man comes to the endocrine clinic for evaluation of androgen deficiency. For the past 2 years, he has been increasingly fatigued and often experiences daytime somnolence, which is affecting his work performance. He also describes fragmented sleep and morning headache. He recently saw an advertisement on television indicating that men with “low-T” have these symptoms. He saw his primary care physician and requested a testosterone measurement. A morning total testosterone level was 269 ng/dL (9.33 nmol/L). His serum cortisol was normal. He has been referred for further evaluation.
 
+The patient is married and has 3 biologic children. He has normal libido, but he does not report intermittent erectile dysfunction, which is successfully managed with a phosphodiesterase-5 inhibitor. He has hyperlipidemia treated with simvastatin and hypertension treated with amlodipine and hydrochlorothiazide. Family history is positive for obesity and type 2 diabetes mellitus.
+
+On physical examination, the patient looks tired. Cushingoid features are not present. His pulse rate is 88 beats/min, and blood pressure is 146/84 mm Hg. Weight is 250 lb (113.6 kg), and height is 70 in (177.8 cm) (BMI = 35.9 kg/m²). His visual fields are normal to confrontation. Acanthosis nigricans is present on the nape of the neck. He has pseudogynecomastia. Cardiac auscultation reveals an S₄. His abdomen is obese without striae. His testes are 20 mL bilaterally. Muscle strength is normal.
+
+Laboratory test results:
+
+Total testosterone (8 AM) = 285 ng/dL (9.89 nmol/L)
+
+Albumin = 3.5 g/dL (35 g/L)
+
+(measured with mass spectrometry)
+
+Hematocrit = 43.3% (0.43)
+
+Fasting glucose = 107 mg/dL (5.94 mmol/L)
+
+Which of the following should be the next diagnostic step in this patient's evaluation?
+
+A. Pituitary-directed MRI
+
+B. Iron studies
+
+C. Prolactin measurement
+
+D. Gonadotropin measurement
+
+E. Free testosterone measurement
 
 ### Answer 46: E) Free testosterone measurement
 
@@ -537,112 +380,33 @@ prolactin. J Clin Endocrinol Metab. 1988;67(3):460-464.
 
 Mazer NA. A novel spreadsheet method for calculating the free serum concentrations of testosterone, dihydrotestosterone, estradiol, estrone and cortisol: illustrative examples from male and female populations [published correction in Steroids. 2010;75(7):517]. Steroids. 2009;74(6):512-519.
 
-## Question 47
+## Question 70
 
-A 56-year-old man is referred to you for further evaluation of Cushing syndrome. He initially presented 2 months ago with central weight gain, facial fullness, and muscle weakness that had developed over the preceding 3 to 6 months. Physical examination performed by his primary care physician demonstrated plethora, supraclavicular fullness and a dorsocervical fat pad, central obesity with purple striae, proximal muscle weakness and new-onset hypertension. Cushing syndrome was suspected.
+A 72-year-old man is referred to the endocrine clinic for further management of late-onset hypogonadism. Testosterone deficiency was diagnosed 7 months ago after he presented to his primary care physician with symptoms of impaired concentrating ability, reduced vigor, and weight gain. He did not have sexual dysfunction or loss of body hair. His morning total testosterone concentration was 293 ng/dL (10.2 nmol/L). He was prescribed axillary testosterone solution, 60 mg daily. Although adherent to this medication regimen, he reported lack of benefit to his doctor, which triggered this referral.
+
+The patient continues to have mental cloudiness. He is also unhappy because he has not lost any weight on testosterone therapy. He is requesting another modality of testosterone replacement that might be more effective. He has a decade-long history of hypertension treated with hydrochlorothiazide and gout treated with probenecid. Otherwise he is healthy. He lives with his wife of 40 years.
+
+On physical examination, he is a lively, overweight man. Weight is 193 lb (87.7 kg), and height is 68 in (172.7 cm) (BMI = 29.3 kg/m²). Pulse rate is 76 beats/min, and blood pressure is 138/64 mm Hg. The rest of his examination findings are normal.
 
 Laboratory test results:
 
-ACTH = 140 pg/mL (30.8 pmol/L)
+Testosterone = 487 ng/dL (16.9 nmol/L)
 
-Urinary free cortisol = 210  $ \mu $g/24 h (579.6 nmol/d)
+Prostate-specific antigen = 2.3 ng/mL (2.3  $ \mu $g/L)
 
-Potassium = 2.8 mEq/L (2.8 mmol/L)
+Hematocrit = 42.8% (0.428)
 
-Dexamethasone suppression testing:
+Which of the following is the most appropriate course of action in this patient's care?
 
-Serum cortisol (8 AM) = 18  $ \mu $g/dL (496.6 nmol/L)
+A. Discontinue probenecid
 
-Serum cortisol (8 AM) after dexamethasone, 1 mg the evening before = 17  $ \mu $g/dL (469.0 nmol/L)
+B. Change testosterone therapy to transdermal gel
 
-Serum cortisol (8 AM) after dexamethasone, 8 mg the evening before = 15  $ \mu $g/dL (413.8 nmol/L)
+C. Change testosterone therapy to buccal testosterone
 
-MRI of the pituitary and sellar region shows a 2-mm microadenoma in the right side of the pituitary gland. The patient is prescribed ketoconazole therapy that is titrated to achieve a normal urinary free cortisol measurement, which is sustained for 3 months.
+D. Discontinue testosterone therapy
 
-Petrosal sinus sampling with the administration of 100 mcg ovine corticotropin-releasing hormone is then performed with the following results:
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td colspan="3">Plasma ACTH Concentration</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Time, min</td><td style='text-align: center; word-wrap: break-word;'>Left Petrosal Sinus</td><td style='text-align: center; word-wrap: break-word;'>Right Petrosal Sinus</td><td style='text-align: center; word-wrap: break-word;'>Peripheral Vein</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>0</td><td style='text-align: center; word-wrap: break-word;'>108 pg/mL (23.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>86 pg/mL (18.9 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>90 pg/mL (19.8 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2</td><td style='text-align: center; word-wrap: break-word;'>310 pg/mL (68.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>280 pg/mL (61.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>96 pg/mL (21.1 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>5</td><td style='text-align: center; word-wrap: break-word;'>420 pg/mL (92.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>320 pg/mL (70.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>110 pg/mL (24.2 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>510 pg/mL (112.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>480 pg/mL (105.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>120 pg/mL (26.4 pmol/L)</td></tr></table>
-
-He undergoes transsphenoidal surgery, but no tumoral tissue is visualized or removed. Postoperatively, signs and symptoms of Cushing syndrome persist and he does not enter biochemical remission. Urinary free cortisol is  $ 230 \mu g/24\ h $ (634.8 nmol/d), and his ACTH concentration is  $ 125 pg/mL $ (27.5 pmol/L).
-
-Which of the following most likely explains the unsuccessful pituitary surgery in this patient?
-
-A. An adrenal gland tumor is the cause of Cushing syndrome
-
-B. A petrosal sinus vessel was not fully cannulated
-
-C. The patient has pseudo-Cushing syndrome
-
-D. The ACTH-secreting tumor is located in the cavernous sinus
-
-E. The petrosal sinus sampling study yielded false-positive results
-
-48 A 65-year-old man with a history of dyslipidemia, coronary artery disease, and uncontrolled type 2 diabetes mellitus has been referred to you for glycemic management. Despite continued up-titration of his insulin dosing, his hemoglobin  $ A_{1c} $ level has consistently remained markedly elevated. For the past 6 months, his medication regimen has included maximally dosed metformin; insulin glargine, 75 units injected subcutaneously twice daily; and regular insulin, 100 units injected subcutaneously 3 times daily before meals. The patient reports good adherence to his prescribed medication regimen, with no problems understanding or accurately administering his insulin doses. He does share that he has trouble with dietary indiscretion and minimal regular exercise despite having seen a nutritionist and diabetes nurse educator for lifestyle counseling on several previous occasions. He checks his blood glucose levels several times daily. His blood glucose log reveals blood glucose concentrations that generally range between 200 and 250 mg/dL (11.10-13.88 mmol/L) before meals and often close to 300 mg/dL (16.65 mmol/L) at bedtime. He has never had problems with hypoglycemia.
-
-Blood pressure is 140/81 mm Hg, and pulse rate is 85 beats/min. Height is 66 in (167.6 cm), and weight is 223 lb (101.4 kg) (BMI = 36 kg/m²). He has no palpable lipohypertrophy or other abnormalities identified at his insulin injection sites. Skin changes consistent with acanthosis nigricans are present.
-
-Recent laboratory test results:
-
-Hemoglobin  $ A_{lc}=9.1\% $ (0.091)
-
-Glomerular filtration rate = 71.4 mL/min per 1.73 m²
-
-Creatinine = 1.1 mg/dL (97.2 μmol/L)
-
-TSH = 2.40 mIU/L
-
-Which of the following is the best next step in this patient's care?
-
-A. Change to U500 regular insulin, 0.20 mL (100 units) 3 times daily before meals
-
-B. Change to U500 regular insulin, 0.45 mL (225 units) twice daily before meals
-
-C. Change to U500 regular insulin, 0.30 mL (150 units) 3 times daily before meals
-
-D. Change to U500 regular insulin,0.40 mL (200 units)3 times daily before meals
-
-E. Refer for insulin pump training in preparation for initiating U500 regular insulin via continuous subcutaneous insulin infusion
-
-### Answer 47: E) The petrosal sinus sampling study
-
-47 ANSWER: E) The petrosal sinus sampling study
-
-This patient has clear clinical and biochemical evidence of Cushing syndrome and a high ACTH level, supporting a diagnosis of ACTH-dependent Cushing syndrome. The next step in the evaluation is to distinguish between ACTH-dependent Cushing syndrome (Cushing disease) due to an ACTH-secreting pituitary tumor vs an ectopic source of ACTH hypersecretion. This patient underwent dexamethasone suppression testing to help differentiate among the causes. This patient failed to suppress serum cortisol (50%). Suppression of either cortisol levels is a common condition that is not well-classified by the patient. The patient is also a patient who has been农家-skilled with other health-related conditions, such as the use of anticoagulants, and other medical methods.
-
-Petrosal sinus sampling is susceptible to a number of pitfalls. Importantly, for accurate results, hypercortisolemia must be present when inferior petrosal sinus sampling is done. Hypercortisolism in ectopic ACTH syndrome suppresses normal pituitary corticotrophs; thus, administration of corticotropin-releasing hormone does not stimulate ACTH secretion during the sampling procedure. In the presence of eucortisolemia, however, endogenous ACTH production from normal pituitary corticotrophs may no longer be suppressed and stimulation can occur. In this patient, ketoconazole therapy had normalized his cortisol excess, which therefore led to a false-positive result after corticotropin-releasing hormone stimulation (Answer E). The lack of central-peripheral gradient at baseline sampling might be suspicious in this patient, but the stimulation after corticotropin-releasing hormone would be the criterion used to determine whether a positive central-to-peripheral stimulation exists. Guidelines for interpretation of the ACTH gradient obtained from inferior petrosal sinus sampling state that a central-to-peripheral gradient greater than 2.0 at baseline or greater than 3.0 after corticotropin-releasing hormone stimulation is consistent with a pituitary source of Cushing disease. Were the inferior petrosal sinus sampling to have been done properly without pretreatment with ketoconazole, the results would have yielded the little or no central-to-peripheral ACTH gradient, consistent with ectopic ACTH syndrome.
-
-Failure to fully cannulate petrosal sinus vessels (Answer B) can also be a pitfall in test interpretation. Result may fail to show a central-to-peripheral ACTH gradient despite the presence of an ACTH-producing pituitary
-
-tumor if a catheter was not fully advanced into the petrosal sinus. If blood was sampled from a different vein where ACTH hypersecretion was diluted, false-negative results could be obtained. In this patient, a central-to-peripheral gradient was seen after stimulation with corticotropin-releasing hormone, proving the catheters were in place, although the lack of a gradient at time “0” relates to the ectopic source of the ACTH.
-
-Because the patient has a high ACTH level, he clearly does not have ACTH-independent Cushing syndrome from an adrenal source (Answer A). Although patients with pseudo-Cushing syndrome (Answer C) have a central-to-peripheral ACTH gradient on petrosal sinus sampling, as do healthy persons, this patient has clear clinical evidence of Cushing syndrome. Therefore, pseudo-Cushing syndrome is unlikely. A false-positive central-to-peripheral gradient is more likely in this case than a tumor in the cavernous sinus (Answer D). An ectopic corticotropin-releasing hormone-producing pituitary tumor can be associated with false-positive stimulation of ACTH after corticotropin-releasing hormone administration. However, such tumors are extremely rare. Another cause of false-positive central-to-peripheral gradient is intermittent hormonogenesis from an ectopic ACTH source.
-
-##### Educational Objective:
-
-Identify pitfalls of inferior petrosal sinus sampling for the differential diagnosis of Cushing syndrome.
-
-UpToDate Topic Review(s):
-
-Establishing the cause of Cushing's syndrome
-
-##### Reference(s):
-
-Nieman LK, Biller BM, Findling JW, et al. The diagnosis of Cushing's syndrome: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2008;93(5):1526-1540.
-
-Young J, Deneux C, Grino M, Oliver C, Chanson P, Schaison G. Pitfall of petrosal sinus sampling in a Cushing's syndrome secondary to ectopic adrenocorticotropin-corticotropin releasing hormone (ACTH-CRH) secretion. J Clin Endocrinol Metab. 1998;83(2):305-308.
-
-Swearingen B, Katznelson L, Miller K, et al. Diagnostic errors after inferior petrosal sinus sampling. J Clin Endocrinol Metab. 2004;89(8):3752-3763.
-
-Yamamoto Y, Davis DH, Nippoldt TB, Young WF Jr, Huston J 3rd, Parisi JE. False-positive inferior petrosal sinus sampling in the diagnosis of Cushing's disease. Report of two cases. J Neurosurg. 1995;83(6):1087-1091.
-
-Oldfield EH, Doppman JL, Nieman LK, et al. Petrosal sinus sampling with and without corticotropin-releasing hormone for the differential diagnosis of Cushing's syndrome [published correction appears in N Engl J Med. 1992;326(17):1172]. N Engl J Med. 1991;325(13):897-905.
-
-## Question 70
-
-*[question text missing in OCR]*
-
+E. Start an antidepressant
 
 ### Answer 70: D) Discontinue testosterone therapy
 
@@ -703,109 +467,6 @@ D. Change the current regimen to monthly injections of 400 mg
 
 E. Discontinue injections and start transdermal gel, 5 g daily
 
-80 A 56-year-old woman returns for her annual follow-up appointment for Hashimoto hypothyroidism. Hypothyroidism was diagnosed at age 31 years, at which time her serum TSH concentration was 49.0 mIU/L and her TPO antibodies were strongly positive. She had been clinically and biochemically euthyroid for
-
-She has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral 188 mcg daily. Her heart rate is 95 beats/min. Her physical examination, height is 64 in (162.6 cm) and 188 mcg daily. She has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral 188 mcg daily.
-
-On physical examination, height is 64 in (162.6 cm) and weight is 156 kg. Pressure is 134/78 mm Hg. Her heart rate is 95 beats/min. Her thyroid gland is not palpable. Her outstretched hands, and her skin is warm and moist. Otherwise, she has no abnormal physical examination findings.
-
-Laboratory test results:
-
-TSH = 17.0 mIU/L
-
-Free  $ T_{4} $ = 1.9 ng/dL (24.5 pmol/L)
-
-<div style="text-align: center;"><div style="text-align: center;">Past thyroid function test results:</div> </div>
-
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Year</td><td style='text-align: center; word-wrap: break-word;'>TSH</td><td style='text-align: center; word-wrap: break-word;'>Free  $ T_{4} $</td><td style='text-align: center; word-wrap: break-word;'>Levothyroxine Dosage</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2007</td><td style='text-align: center; word-wrap: break-word;'>0.7 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>0.9 ng/dL (11.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2008</td><td style='text-align: center; word-wrap: break-word;'>1.5 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.1 ng/dL (14.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2009</td><td style='text-align: center; word-wrap: break-word;'>3.7 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.4 ng/dL (18.0 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2010</td><td style='text-align: center; word-wrap: break-word;'>4.9 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.3 ng/dL (16.7 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2011</td><td style='text-align: center; word-wrap: break-word;'>5.4 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.7 ng/dL (21.9 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>125 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2012</td><td style='text-align: center; word-wrap: break-word;'>7.5 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>2.0 ng/dL (25.7 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>137 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2013</td><td style='text-align: center; word-wrap: break-word;'>9.8 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.9 ng/dL (24.5 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>150 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2014</td><td style='text-align: center; word-wrap: break-word;'>12.0 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>2.1 ng/dL (27.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>175 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2015</td><td style='text-align: center; word-wrap: break-word;'>17.0 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>2.2 ng/dL (28.3 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>188 mcg daily</td></tr></table>
-
-Which of the following best explains this patient's presentation, physical examination findings, and laboratory results?
-
-A. Intermittent nonadherence with levothyroxine therapy
-
-B. Impaired absorption of levothyroxine associated with aging
-
-C. Pituitary resistance to thyroid hormone
-
-D. Interfering antibodies for the TSH assay
-
-E. TSH-secreting adenoma
-
-81 A 49-year-old woman with no notable medical history is referred for evaluation of symptoms suspicious for hypoglycemia. These symptoms are most likely to occur when she has had no caloric intake for a period exceeding 4 to 5 hours, and the episodes are characterized by sweating, tremor, tachycardia, and confusion. Exercise worsens the frequency and severity of symptoms. She has had these symptoms for at least 6 months.
-
-During a spontaneous episode of hypoglycemia, the following laboratory values are documented:
-
-Glucose = 54 mg/dL (3.00 mmol/L)
-
-C-peptide = 1.8 ng/mL (0.60 nmol/L)
-
-β-Hydroxybutyrate = 0.1 mg/dL (9.6 μmol/L)
-
-Insulin = 6.3 μIU/mL (43.8 pmol/L)
-
-Insulin antibodies, undetectable
-
-Proinsulin = 273 pg/mL (31 pmol/L)
-
-Sulfonylurea screen (including repaglinide and glimepiride), negat
-
-Triple-phase CT of the abdomen shows a 0.6-cm enhancing mass in the head of the pancreas consistent with an islet-cell tumor. The tumor is subsequently enucleated successfully and her symptoms resolve. Pathologic examination confirms that an insulinoma was resected.
-
-Fourteen months later, the patient returns with symptoms similar to those she experienced before her operation. Hyperinsulinemic hypoglycemia is again documented. Neither abdominal CT nor endoscopic ultrasonography reveals a tumor.
-
-### Which of the following is the most appropriate management step now?
-
-A. No further testing needed; initiate medical therapy with diazoxide or a long-acting somatostatin analogue to prevent hypoglycemia
-
-B. Order a selective arterial calcium stimulation test
-
-C. Recommend ethanol ablation under the guidance of endoscopic ultrasonography
-
-D. Refer to surgery for an extended distal pancreatectomy
-
-E. Refer to surgery for a Whipple procedure
-
-82 A 51-year-old man presents for evaluation of hypercalcemia. He has had progressive onset of increasing fatigue, irritability, and episodes of atypical chest pain, and initial assessment documented markedly elevated calcium levels. The patient has no family history of hypercalcemia or kidney stones. He has no personal history of kidney stones, bone pain, or joint pain.
-
-On physical examination, he is alert, oriented, and in no acute distress. Pulse rate is 60 beats/min, and blood pressure is 133/80 mm Hg. Weight is 173.5 lb (78.9 kg), and height is 72 in (182.9 cm) (BMI = 23.5 kg/m $ ^{2} $). His neck is supple with no palpable cervical or supraclavicular lymphadenopathy. He has a large, left-sided neck mass that is freely mobile with deglutition. Neck ultrasonography is performed (see images).
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_85_787_567_1161.jpg" alt="Image" width="42%" /></div>
-
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_571_764_1092_1146.jpg" alt="Image" width="46%" /></div>
-
-
-LEFT NODULE TRANS
-
-The left ultrasound image measures the left nodule at 27.9 mm; the right ultrasound image measures the left nodule at 32.6 × 21.5 mm.
-
-Laboratory test results:
-
- $$ Serum~calcium=14.2mg/dL(3.6mmol/L) $$ 
-
-Serum phosphorus = 2.1 mg/dL (0.68 mmol/L)
-
- $$  PTH=609\ pg/mL(609\ ng/L) $$ 
-
-Serum creatinine = 2.7 mg/dL (238.7 μmol/L)
-
- $$ 25-Hydroxyvitamin D=13ng/mL(32.5nmol/L) $$ 
-
-Which of the following is the best management plan?
-
-A. Perform FNAB of the neck mass
-
-B. Measure calcitonin
-
-C. Perform sestambi scintigraphy (technetium Tc 99 sestambi scanning)
-
-D. Refer for nodule resection and neck dissection
-
-E. Refer to medical oncology for adjuvant chemotherapy
-
 ## Question 103
 
 *[question text missing in OCR]*
@@ -847,8 +508,25 @@ Gormley GJ, Stoner E, Bruskewitz RC, et al. The effect of finasteride in men wit
 
 ## Question 115
 
-*[question text missing in OCR]*
+A 53-year-old man with chronic back pain is referred by his internist for counseling regarding sexual adverse effects of opioid analgesic use. The patient has a 14-month history of chronic back pain in the lumbar region as a result of motor vehicle crash. Radiologic evaluation revealed only some degenerative changes in the spine. Thus far, his pain has been managed with nonsteroidal anti-inflammatory agents. However because of worsening pain, his internist would like to prescribe an opioid analgesic. While discussing the various adverse effects of opioids, his doctor also mentioned sexual adverse effects. This is concerning for the patient because he already has a history of intermittent erectile dysfunction. He has been referred to the endocrine clinic for further counseling and also to learn which opioid analgesic least influences the gonadal axis.
 
+The patient has no history of pituitary or testicular disease. He is married and has 2 biologic children. He has normal libido, but experiences intermittent erectile dysfunction that is successfully managed with sildenafil. He reports that the frequency of sexual activity has decreased because of worsening back pain.
+
+On physical examination, pulse rate is 78 beats/min and blood pressure is 134/78 mm Hg. Weight is 197 lb (89.5 kg), and height is 71 in (180.3 cm) (BMI = 27.5 kg/m $ ^{2} $). His physical examination findings are notable only for tenderness in the lower back.
+
+His total testosterone concentration (drawn in the morning at his primary care physician's office) is 491 ng/dL (17.04 nmol/L).
+
+Given his concerns, which analgesic would be the best option for this patient?
+
+A. Methadone
+
+B. Oxycodone
+
+C. Fentanyl
+
+D. Buprenorphine
+
+E. Morphine
 
 ### Answer 115: D) Buprenorphine
 

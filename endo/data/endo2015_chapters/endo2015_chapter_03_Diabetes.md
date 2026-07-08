@@ -3,104 +3,35 @@ Questions: 3, 7, 9, 12, 16, 22, 26, 30, 34, 38, 42, 48, 51, 55, 59, 64, 68, 76, 
 
 ## Question 3
 
-A 54-year-old postmenopausal woman presents to your office for evaluation of low bone density and the pending administration of an aromatase inhibitor for breast cancer. Estrogen receptor-positive breast cancer was recently diagnosed after a routine mammogram revealed the presence of a breast mass. She underwent
+A 67-year-old man with no notable medical history is referred for evaluation of symptoms suspicious for hypoglycemia. These symptoms occur when the patient avoids calories for a period exceeding 2 to 3 hours and are characterized by sweating, tremor, and tachycardia. He has been waking up 3 times each night to consume a snack, and he carries orange juice with him constantly. These symptoms have been present to some degree for about 4 years, but have worsened in the past 6 months. Over the 4-year period, he has gained approximately 100 lb (45.5 kg). His current BMI is 43 kg/m².
 
-bilateral mastectomy 2 months ago, and sentinel lymph node biopsy at the time of surgery was negative. Her oncologist is planning to begin therapy with anastrozole. A recent bone density test revealed a femoral neck T score of -2.2 and a lumbar spine T score of -1.9. She has no history of fractures or height loss. Other than a daily multivitamin, she takes no medications.
+On the basis of this history, his primary care physician ordered CT of the abdomen, which suggested the presence of a discrete mass in the head of the pancreas. At the time of his initial evaluation, the patient was asymptomatic after a 2-hour fast. However, the following laboratory values were obtained:
 
-On physical examination, weight is 160 lb (72.7 kg) and height is 64 in (162.6 cm) (BMI = 27.5 kg/m²). Blood pressure is 130/68 mm Hg, and heart rate is 75 beats/min. She appears well, and her examination findings are notable only for mastectomy scars.
+ $$ \mathrm{Glucose}=50\mathrm{mg}/\mathrm{dL}(2.78\mathrm{mmol/L}) $$ 
 
-Results from a complete blood cell count, comprehensive metabolic panel, and thyroid function tests are within normal limits. Her 25-hydroxyvitamin D concentration is 40 ng/mL (99.8 nmol/L).
+ $$ \mathrm{Proinsulin}=1587\mathrm{pg}/\mathrm{mL}(180\mathrm{pmol/L}) $$ 
 
-Which of the following should be initiated along with the anastrozole?
+ $$  C-peptide=14.3\ ng/mL(4.7nmol/L) $$ 
 
-A. Tamoxifen
+Insulin antibodies, undetectable
 
-B. GnRH agonist
+ $$  Insulin=112\ \mu IU/mL\ (777.8\ pmol/L) $$ 
 
-C. Denosumab
+Sulfonylurea screen (including repaglinide and glimepiride), negative
 
-D. Calcitonin
+Review of the abdominal CT performed at an outside institution documents the presence of a 2.4-cm enhancing mass in the head of the pancreas with central inhomogeneity and areas of low attenuation. The appearance is consistent with an islet-cell tumor of the pancreas. No other masses are seen, but the mass is encasing the pancreatic duct. The pancreas and the liver are also characterized by extensive fatty infiltration.
 
-E. No additional treatment
+Which of the following describes appropriate management?
 
-24 A 28-year-old man presents to the emergency department with a severe headache and vision problems, both of which have progressively worsened over the last 6 months. Head CT reveals a large sellar mass that extends suprasellarly and distorts the optic chiasm. The mass extends into the clivus and cavernous sinuses bilaterally. The patient has no relevant medical history and takes no medications. On further questioning, he describes noticing reduced libido and sexual dysfunction for about 1 year.
+A. Initiate chemotherapy
 
-On physical examination, he appears healthy. Heart rate is 76 beats/min, and blood pressure is 125/80 mm Hg. Weight is 187 lb (85 kg), and height is 71 in (180.3 cm) (BMI = 26.1 kg/m²). Findings on neurologic examination are normal, except for bitemporal hemianopsia documented on visual field examination.
+B. Recommend a weight-loss program before considering surgery
 
-Laboratory test results (blood drawn at 8 AM):
+C. Refer the patient for ethanol ablation under the guidance of endoscopic ultrasonography
 
-TSH = 1.0 mIU/L
+D. Ask an experienced endocrine surgeon to enucleate the tumor
 
-Prolactin = 1280 ng/mL (55.7 nmol/L)
-
-Free  $ T_4 = 0.9 $ ng/dL (11.6 pmol/L) GH = 0.5 ng/mL (0.5  $ \mu $g/L)
-
-Cortisol = 18.0  $ \mu $g/dL (497 nmol/L)
-
-Transsphenoidal surgical removal of the lesion is scheduled for tomorrow morning. Because of the hormonal abnormalities, the neurosurgeon contacts you for an opinion regarding the patient's management.
-
-Which of the following should you recommend next?
-
-A. Proceed with surgery
-
-B. Proceed with surgery and add dexamethasone, 4 mg every 6 hours
-
-C. Proceed with surgery and plan for gamma-knife radiotherapy postoperatively
-
-D. Postpone surgery and begin octreotide, 50 mcg twice daily
-
-E. Postpone surgery and begin bromocriptine, 2.5 mg daily
-
-25 A 31-year-old man has a history of Rathke cleft cyst treated with transsphenoidal surgery. He presents for follow-up of his persistent anterior pituitary failure and review of his hormone replacement regimen. He is doing well, but he is concerned about ongoing weight gain. His thyroid hormone replacement dosage was adjusted several times, but it has now been stable for the past 6 months. He otherwise has no concerns. He has been following a calorie-counting weight-loss program and has lost about 4.4 lb (2 kg) in the last month. He has instituted an exercise program and visits the gym 3 times per week to participate in both aerobic and resistance exercises.
-
-Weight history:
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan="2">Measurement</td><td colspan="3">Time Point</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>High School</td><td style='text-align: center; word-wrap: break-word;'>Before Transsphenoidal Surgery</td><td style='text-align: center; word-wrap: break-word;'>Today</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Weight</td><td style='text-align: center; word-wrap: break-word;'>268 lb (121.8 kg)</td><td style='text-align: center; word-wrap: break-word;'>286 (130 kg)</td><td style='text-align: center; word-wrap: break-word;'>321 lb (145.9 kg)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>BMI</td><td style='text-align: center; word-wrap: break-word;'>34  $ kg/m^{{2}} $</td><td style='text-align: center; word-wrap: break-word;'>36  $ kg/m^{{2}} $</td><td style='text-align: center; word-wrap: break-word;'>41.2  $ kg/m^{{2}} $</td></tr></table>
-
-Medications include testosterone gel, 20.25/1.25 g, 3 pumps applied to the chest and shoulders topically daily; hydrocortisone, 15 mg in the morning and 5 mg in the evening; levothyroxine, 125 mcg daily; and vitamin D $ ^{3} $, 1000 IU daily.
-
-On physical examination, he appears well. Blood pressure is 120/65 mm Hg. His thyroid gland is normal. He does not have striae on skin examination, his obesity is primarily central in distribution, and his muscle strength is normal. Testicular volume is 12 mL bilaterally.
-
-Laboratory test results:
-
-TSH = 0.9 mIU/L
-
-Bioavailable testosterone = 179 ng/dL (6.2 nmol/L)
-
-Free  $ T_{4} $ = 0.9 ng/dL (11.6 pmol/L)
-
- $$  GH=0.04ng/mL(0.04\mu g/L) $$ 
-
-Total testosterone = 416 ng/dL (14.4 nmol/L)
-
-He undergoes indirect calorimetry, which reveals a measured basal metabolic rate of 1844 kcal. This corresponds to 69% of predicted basal caloric requirements on the basis of his age, height, and weight.
-
-Which of the following is the best next step to facilitate this patient's weight loss efforts?
-
-A. Start DHEA supplementation
-
-B. Increase his levothyroxine dosage
-
-C. Start GH supplementation
-
-D. Start liothyronine supplementation
-
-E. Increase his testosterone dosage
-
-26 A 35-year-old woman has been evaluated on multiple occasions for frequent symptoms of tachycardia, sweating, tremor, and anxiety that are relieved by food intake. The spells are disruptive and have become noticeable over the past 6 months, but she has not required any assistance during these episodes. Recently, at the time of a routine blood draw and after a 14-hour fast, the patient was found to have a venous glucose concentration of 48 mg/dL (2.66 mmol/L). She is referred to you for evaluation. The patient has no notable medical history and is not taking any medication. She has never had surgery. She exercises regularly, and over the past 2 years she has participated in 4 half-marathons.
-
-On physical examination, her resting heart rate is 45 beats/min and blood pressure is 105/60 mm Hg. Weight is 118 lb (53.6 kg), and height is 63 in (160 cm) (BMI = 20.9 kg/m $ ^{2} $). There has been no change in weight over the past year.
-
-An outpatient fast is undertaken. The patient last ate at 6:00 PM the preceding day and presents to the endocrine testing center at 8:00 AM. Symptoms occur at 9:45 AM. A point-of-care glucose value is 49 mg/dL (2.72 mmol/L). Blood is drawn for a hypoglycemia survey and glucagon is administered, with blood sampling every 10 minutes for the subsequent 30 minutes.
-
-<div style="text-align: center;"><div style="text-align: center;">The patient's glucose concentration is 52 mg/dL (2.89 mmol/L). Imaging studies of the pancreas would be indicated on the basis of which of the following sets of laboratory values?</div> </div>
-
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Insulin</td><td style='text-align: center; word-wrap: break-word;'>C-Peptide</td><td style='text-align: center; word-wrap: break-word;'>Proinsulin</td><td style='text-align: center; word-wrap: break-word;'>Glucose Rise After Glucagon ( $ \Delta $)</td><td style='text-align: center; word-wrap: break-word;'>Insulin Antibodies</td><td style='text-align: center; word-wrap: break-word;'>Sulfonylurea Screen</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>3.2  $ \mu $IU/mL (22.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.0 ng/mL (1.3 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>16 pg/mL (1.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>31 mg/dL (1.72 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>15.0  $ \mu $IU/mL (101.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.5 ng/mL (1.5 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>32 pg/mL (3.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>31 mg/dL (1.72 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Positive</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>112.0  $ \mu $IU/mL (777.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL (&lt;0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL (&lt;0.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>38 mg/dL (2.11 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>212.0  $ \mu $IU/mL (1472.3 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>10.3 ng/mL (3.4 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>230 pg/mL (26.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>45 mg/dL (2.50 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Positive</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>5.0  $ \mu $IU/mL (34.7 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL (0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL (&lt;0.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>5 mg/dL (0.28 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr></table>
+E. Initiate verapamil
 
 ### Answer 3: C) Refer the patient for ethanol ablation under the guidance of endoscopic ultrasonography. A typical approach to insulinoma would be to consider enucleation and, in normal circumstances, Answer D would be correct. However, there are several unusual features of this patient's presentation. Typically, insulinoma does not cause an elevation in β-cell polypeptides that is as marked as that observed in this vignette and elevations of such magnitude should raise the possibility that hypoglycemia is caused by insulin antibodies. However, this possibility is excluded by undetectable insulin antibodies. There is a strong possibility that this insulinoma is malignant given its size, behavior, and inhomogeneous appearance. Their relatively slow growth often makes chemotherapy ineffective and in the absence of a tissue diagnosis, initiating chemotherapy (Answer A) is incorrect. The proximity to the main pancreatic duct and the location in the head strongly suggests that enucleation (Answer D) is not technically possible. Moreover, a Whipple procedure or any pancreatic procedure in the presence of fat infiltration places the patient at high risk of complications such as pancreatic fistula or anastomotic breakdown.
 
@@ -248,8 +179,37 @@ Reference(s):
 
 ## Question 9
 
-*[question text missing in OCR]*
+A 65-year-old man with a 30-year history of type 1 diabetes mellitus returns to see you for a routine follow-up appointment. He was referred to you for management 2 years ago after recurrent episodes of hypoglycemia, some of which had been severe and required the assistance of others. At that time, his insulin therapy was changed to a regimen including once-daily dosing of insulin glargine and multiple daily doses of insulin aspart with meals.
 
+The patient keeps a careful blood glucose log in which he records 8 to 10 fingerstick blood glucose readings daily. His glycemic control stabilized following the change in his insulin regimen. Although he periodically experiences blood glucose levels between 60 and 70 mg/dL (3.33-3.89 mmol/L) in the very early morning, his ability to sense hypoglycemia has improved. The patient's most recent episode of severe hypoglycemia occurred 18 months ago during the nighttime while he was asleep. His diabetes is complicated by microalbuminuria, peripheral neuropathy, and retinopathy that has required photocoagulation but not resulted in clinically significant vision impairment.
+
+Although he has never experienced a driving mishap related to hypoglycemia, he voluntarily stopped driving when he was referred to you for care. He now asks whether it would be advisable for him to resume operation of a motor vehicle for personal use.
+
+On physical examination, the patient is alert and appears well. Blood pressure is 127/64 mm Hg, and pulse rate is 62 beats/min. Height is 67.5 in (171.5 cm), and weight is 162 lb (73.6 kg) (BMI = 25.0 kg/m²). He has evidence of previous photocoagulation on undilated fundoscopic examination, but visual fields are grossly intact. He has no foot deformities, foot lesions, or gait abnormalities. He has a few areas of sensory loss on monofilament testing of the plantar surfaces of both feet, but proprioception is preserved.
+
+Laboratory test results:
+
+Hemoglobin  $ A_{1c}=7.6\% $ (0.076)
+
+Sodium = 141 mEq/L (141 mmol/L)
+
+Glomerular filtration rate = 70.2 mL/min per 1.73 m²
+
+Creatinine = 1.3 mg/dL (114.9 μmol/L)
+
+TSH = 1.85 mIU/L
+
+In addition to reducing the patient's dosage of insulin glargine, which of the following should you recommend now?
+
+A. Continued avoidance of driving given his high risk of hypoglycemia-related mishaps
+
+B. Continued avoidance of driving given his diabetes-related complications
+
+C. Resumption of driving after education to minimize risk of hypoglycemia while driving
+
+D. Transition to insulin pump therapy before resumption of driving
+
+E. Use of a continuous glucose-monitoring device during all periods of driving
 
 ### Answer 9: C) Resumption of driving after education to minimize risk of hypoglycemia while driving. Although most patients with diabetes are able to safely operate a motor vehicle, care must be taken to ideal those patients at high risk for driving-related mishaps. Patients with a history of hypoglycemia, impaired vision, peripheral neuropathy may be at increased risk for such events; however, the presence of these conditions should not automatically disqualify a patient from driving. Personalized assessment of driving safety and appropriate counseling and care to minimize the risk of hypoglycemia are essential to reducing the risk of motor vehicle accidents. Patients with hypoglycemia that occur without explanation or warning and those with a history of severe hypoglycemia within the past year are considered to be at higher risk; however, hypoglycemia that has occurred only during sleep should not automatically result in driving restrictions. Notably, the most significant predictor of collisions appears to be a history of hypoglycemia and/or mishaps occurring while driving.
 
@@ -331,8 +291,16 @@ rossman JM, Gordon R, Ranganath VK, et al. American College of Rheumatology 2010
 
 ## Question 12
 
-*[question text missing in OCR]*
+A 72-year-old man with no history of diabetes mellitus is confused after being involved in a car crash and is brought to the emergency department. A fingerstick glucose measurement is 45 mg/dL (2.50 mmol/L).
 
+Venous blood is drawn, which confirms the presence of a low venous glucose concentration (39 mg/dL [2.16 mmol/L]). The hypoglycemia is treated with intravenous glucose and the patient's confusion resolves. Abdominal CT is subsequently performed and is remarkable for the presence of multiple vascular hepatic metastases, the largest of which is 2.3 cm in diameter. His pancreas is well visualized and normal in appearance. The right kidney is remarkable for the presence of a 4-cm, complex cystic mass whose appearance is strongly suggestive of renal cell carcinoma, occupying the upper pole. As far as can be ascertained, the patient was asymptomatic before this presentation, and his weight has been stable.
+
+<div style="text-align: center;"><div style="text-align: center;">Which of the following sets of laboratory values obtained at the time of hypoglycemia will you most likely find?</div> </div>
+
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Insulin</td><td style='text-align: center; word-wrap: break-word;'>C-Peptide</td><td style='text-align: center; word-wrap: break-word;'>Proinsulin</td><td style='text-align: center; word-wrap: break-word;'>Insulin Antibodies</td><td style='text-align: center; word-wrap: break-word;'>Sulfonylurea Screen</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>112  $ \mu $IU/mL\n(777.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>14.3 ng/mL\n(4.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>180 pg/mL\n(20.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Positive</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>15  $ \mu $IU/mL\n(104.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.5 ng/mL\n(1.5 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>32 pg/mL\n(3.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Positive</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>112  $ \mu $IU/mL\n(777.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL\n(&lt;0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL\n(&lt;0.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>15  $ \mu $IU/mL\n(104.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.5 ng/mL\n(1.5 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>32 pg/mL\n(3.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>&lt;3  $ \mu $IU/mL\n(&lt;20.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL\n(&lt;0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL\n(&lt;0.3 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr></table>
 
 ### Answer 12: E) Insulin, <3 μIU/mL (<20.8 pmol/L)/C-Peptide, <2.0 ng/mL (<0.7 nmol/L)/Proinsulin, <5 pg/mL (<0.6 pmol/L)/Insulin Antibodies, Negative//Sulfonylurea Screen, Negative
 
@@ -392,8 +360,47 @@ response to therapy variables to modify the initial risk estimates predicted by 
 
 ## Question 16
 
-*[question text missing in OCR]*
+You are asked to help care for a 39-year-old woman with type 1 diabetes mellitus who presented to the emergency department by ambulance for increasing lethargy and altered mental status. She is unable to provide any. Her daughters report that she has had abdominal pain for the past 2 days and that she began vomiting 2 before she became less responsive at home. She has had diabetes for 24 years, which has been complicated heranuropathy and retinopathy. She uses an insulin pump. Her hemoglobin  $ A_{1c} $ level was 8.4% (0.084) before today's presentation. In the past 6 months, she has been admitted to the hospital twice.
 
+On physical examination, her temperature is  $ 97^{\circ} $F ( $ 36.1^{\circ} $C), supine blood pressure is 92/61 mm Hg, and pulse rate is 124 beats/min. She has deep respirations at a rate of 28 breaths/min. Her breath has a fruity odor. She is oriented only to person, speaks in broken sentences, and is confused. There are dry oral mucus membranes and no pharyngeal injection or exudates. Her lungs are clear. There are no murmurs on cardiac examination. Her abdomen is soft, moderately tender throughout, and nondistended. She has decreased skin turgor. Her insulin pump infusion set is located on her left lower abdomen, with no erythema or discharge. The insulin pump's battery is not functioning.
+
+Laboratory test results:
+
+ $$ \mathrm{Venous~pH}=6.96 $$ 
+
+ $$  Glucose=999\ mg/dL(55.44\ mmol/L) $$ 
+
+ $$ \mathrm{Lactic~acid}=57.8\mathrm{mg/dL}(6.3\mathrm{mmol/L}) $$ 
+
+ $$ \mathrm{Sodium}=129\mathrm{m E q/L}(129\mathrm{mmol/L}) $$ 
+
+ $$ \mathrm{P o t a s s i u m}=5.6\mathrm{m E q/L}(5.6\mathrm{m o m o l/L}) $$ 
+
+ $$ \mathrm{White~blood~cell~count}=33,140/\mu\mathrm{L}(33.14\times10^{9}/\mathrm{L}) $$ 
+
+ $$ \mathrm{CO}_{2}=8\mathrm{mEq}/\mathrm{L}(8\mathrm{mmol}/\mathrm{L}) $$ 
+
+ $$ \mathrm{Anion~gap}=36\mathrm{mEq/L} $$ 
+
+ $$ \mathrm{Platelet\ count}=165\times10^{3}/\mu\mathrm{L}(165\times10^{9}/\mathrm{L}) $$ 
+
+Creatinine = 2.1 mg/dL (185.6 μmol/L)
+
+Urine toxicology screen, negative
+
+Plasma osmolality = 359 mOsm/kg (359 mmol/kg) (5 hours after presentation)
+
+#### In addition to administration of intravenous isotonic saline, which of the following actions will ensure the best outcome in this patient?
+
+A. Modify insulin treatment on the basis of serial arterial pH
+
+B. Administer sodium bicarbonate together with insulin
+
+C. Once blood glucose falls below 200 mg/dL (11.10 mmol/L), add 5% dextrose to the intravenous fluids and continue intravenous insulin until the acidosis has resolved
+
+D. Use intravenous insulin analogues rather than human regular insulin
+
+E. Administer a subcutaneous rapid-acting insulin analogue every 2 hours
 
 ### Answer 16: C) Once blood glucose falls below 200 mg/dL (11.10 mmol/L), add 5% dextrose to the intravenous fluids and continue intravenous insulin until the acidosis has resolved
 
@@ -435,13 +442,70 @@ Kitabchi AE, Umpierrez GE, Miles JM, Fisher JN. Hyperglycemic crises in adult pa
 
 ## Question 22
 
-*[question text missing in OCR]*
+A 22-year-old woman with type 1 diabetes mellitus presents for a follow-up visit with concerns of weight loss and a declining sense of well-being. Her diabetes is treated with intensive insulin therapy including insulin glargine in combination with insulin lispro. She has always had modest glycemic control with hemoglobin  $ A_{1c} $ values between 8.0% and 8.5% (0.080 and 0.085) and hyperglycemia. However, she reports unexplained hypoglycemia. Low blood glucose values occur at any time day or night. She has little warning, she does experience hunger, anxiety, and diaphoresis when her glucose levels are low. She has recorded values between 20 and 40 mg/dL (1.11 and 2.22 mmol/L) on numerous occasions in the past 3 weeks. Additionally, expresses concerns over a concurrent 10-lb (4.5-kg) weight loss. She has had no diarrhea, palpitations, tremor temperature intolerance.
 
+On physical examination, weight is 105 lb (47.7 kg) and height is 60.5 in (153.7 cm) (BMI = 20.2 kg/m²). Blood pressure is 95/70 mm Hg, and pulse rate is 96 beats/min. Mucus membranes are moist without lesions. thyroid gland is normal without nodularity. Her reflexes are normal. Findings on cardiac examination are normal. There is no tremor of the outstretched hands.
+
+Laboratory test results:
+
+Hemoglobin  $ A_{lc}=7.7\% $ (0.077)
+
+Creatinine = 0.8 mg/dL (70.7 μmol/L)
+
+Sodium = 133 mEq/L (133 mmol/L)
+
+Calcium = 9.4 mg/dL (2.35 mmol/L)
+
+Potassium = 5.8 mEq/L (5.8 mmol/L)
+
+Urinary albumin excretion = 10 mg/24 h
+
+Which of the following diagnostic tests should you order?
+
+A. TSH measurement
+
+B. Tissue transglutaminase antibody assessment
+
+C. Cortisol and ACTH measurement
+
+D. Tryptophan hydroxylase antibody assessment
+
+E. AIRE gene mutation analysis
+
+3 A 54-year-old postmenopausal woman presents to your office for evaluation of low bone density and the pending administration of an aromatase inhibitor for breast cancer. Estrogen receptor-positive breast cancer was recently diagnosed after a routine mammogram revealed the presence of a breast mass. She underwent
+
+bilateral mastectomy 2 months ago, and sentinel lymph node biopsy at the time of surgery was negative. Her oncologist is planning to begin therapy with anastrozole. A recent bone density test revealed a femoral neck T score of -2.2 and a lumbar spine T score of -1.9. She has no history of fractures or height loss. Other than a daily multivitamin, she takes no medications.
+
+On physical examination, weight is 160 lb (72.7 kg) and height is 64 in (162.6 cm) (BMI = 27.5 kg/m²). Blood pressure is 130/68 mm Hg, and heart rate is 75 beats/min. She appears well, and her examination findings are notable only for mastectomy scars.
+
+Results from a complete blood cell count, comprehensive metabolic panel, and thyroid function tests are within normal limits. Her 25-hydroxyvitamin D concentration is 40 ng/mL (99.8 nmol/L).
+
+Which of the following should be initiated along with the anastrozole?
+
+A. Tamoxifen
+
+B. GnRH agonist
+
+C. Denosumab
+
+D. Calcitonin
+
+E. No additional treatment
 
 ## Question 26
 
-*[question text missing in OCR]*
+A 35-year-old woman has been evaluated on multiple occasions for frequent symptoms of tachycardia, sweating, tremor, and anxiety that are relieved by food intake. The spells are disruptive and have become noticeable over the past 6 months, but she has not required any assistance during these episodes. Recently, at the time of a routine blood draw and after a 14-hour fast, the patient was found to have a venous glucose concentration of 48 mg/dL (2.66 mmol/L). She is referred to you for evaluation. The patient has no notable medical history and is not taking any medication. She has never had surgery. She exercises regularly, and over the past 2 years she has participated in 4 half-marathons.
 
+On physical examination, her resting heart rate is 45 beats/min and blood pressure is 105/60 mm Hg. Weight is 118 lb (53.6 kg), and height is 63 in (160 cm) (BMI = 20.9 kg/m $ ^{2} $). There has been no change in weight over the past year.
+
+An outpatient fast is undertaken. The patient last ate at 6:00 PM the preceding day and presents to the endocrine testing center at 8:00 AM. Symptoms occur at 9:45 AM. A point-of-care glucose value is 49 mg/dL (2.72 mmol/L). Blood is drawn for a hypoglycemia survey and glucagon is administered, with blood sampling every 10 minutes for the subsequent 30 minutes.
+
+<div style="text-align: center;"><div style="text-align: center;">The patient's glucose concentration is 52 mg/dL (2.89 mmol/L). Imaging studies of the pancreas would be indicated on the basis of which of the following sets of laboratory values?</div> </div>
+
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Insulin</td><td style='text-align: center; word-wrap: break-word;'>C-Peptide</td><td style='text-align: center; word-wrap: break-word;'>Proinsulin</td><td style='text-align: center; word-wrap: break-word;'>Glucose Rise After Glucagon ( $ \Delta $)</td><td style='text-align: center; word-wrap: break-word;'>Insulin Antibodies</td><td style='text-align: center; word-wrap: break-word;'>Sulfonylurea Screen</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>3.2  $ \mu $IU/mL (22.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.0 ng/mL (1.3 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>16 pg/mL (1.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>31 mg/dL (1.72 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>15.0  $ \mu $IU/mL (101.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.5 ng/mL (1.5 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>32 pg/mL (3.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>31 mg/dL (1.72 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Positive</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>112.0  $ \mu $IU/mL (777.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL (&lt;0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL (&lt;0.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>38 mg/dL (2.11 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>212.0  $ \mu $IU/mL (1472.3 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>10.3 ng/mL (3.4 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>230 pg/mL (26.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>45 mg/dL (2.50 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Positive</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>5.0  $ \mu $IU/mL (34.7 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;2.0 ng/mL (0.7 nmol/L)</td><td style='text-align: center; word-wrap: break-word;'>&lt;5 pg/mL (&lt;0.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>5 mg/dL (0.28 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Negative</td><td style='text-align: center; word-wrap: break-word;'>Negative</td></tr></table>
 
 ### Answer 26: A) insulin, 3.2 µIU/mL (22.3 pmol/L); C-peptide, 4.0 ng/mL (1.3 nmol/L); proinsulin, 16 pg/mL (1.8 pmol/L); glucose rise after glucagon (Δ), 31 mg/dL (1.72 mmol/L); insulin antibodies, negative; sulfonylurea screen, negative
 
@@ -477,8 +541,31 @@ Cryer PE, Axelrod L, Grossman AB, et al; Endocrine Society. Evaluation and manag
 
 ## Question 30
 
-*[question text missing in OCR]*
+A 54-year-old woman is referred to you for assistance with type 1 diabetes management. Diabetes was diagnosed at age 44 years. Her current insulin regimen includes insulin glargine, 10 units in the morning and 5 units in the evening. She boluses insulin aspart before meals using an insulin-to-carbohydrate ratio of 1 unit for each 15 g of carbohydrate and a sensitivity factor of 1 unit to lower her glucose 100 mg/dL (5.55 mmol/L) to a target level of 100 mg/dL (5.55 mmol/L). She participates in aerobic exercises for 60 to 90 minutes daily and weight training for 30 minutes 3 times per week. Her diet is rich in fruits, vegetables, lean meats, and mostly high-fiber carbohydrates. She feels comfortable with carbohydrate counting when eating at home, but has more difficulty accurately assessing the carbohydrate content of foods eaten at restaurants. She measures her glucose level 4 to 8 times daily. Her downloaded glucose meter shows glucose concentrations that range from 42 to 493 mg/dL (2.33 to 27.36 mmol/L) with a mean of 168 mg/dL (9.32 mmol/L) and a standard deviation of 76 mg/dL (4.22 mmol/L). Glucose levels are least variable after eating a similar daily breakfast and are quite variable throughout the rest of the day. She senses that her glucose levels are low when they fall below 60 mg/dL (3.33 mmol/L) because she feels “different.” She has not had any episodes of severe hypoglycemia requiring assistance. She takes atorvastatin, 10 mg daily, for hyperlipidemia and ramipril, 2.5 mg daily, for hypertension.
 
+On physical examination, her blood pressure is 114/69 mm Hg and pulse rate is 72 beats/min. Height is 69 in (175.3 cm), and weight is 133 lb (60.5 kg) (BMI = 19.6 kg/m $ ^{2} $). Findings on eye, cardiovascular, abdominal, and peripheral nerve examinations are normal.
+
+Laboratory test results:
+
+Hemoglobin  $ A_{1c}=7.6\% $ (0.076)
+
+LDL cholesterol = 52 mg/dL (1.35 mmol/L)
+
+Urinary albumin = 7 mg/g creatinine
+
+The patient asks whether insulin pump therapy would assist with her diabetes control.
+
+Which of the following outcomes would be most likely if this patient's insulin regimen were changed to insulin pump therapy?
+
+A. Reduced hemoglobin  $ A_{1c} $
+
+B. Reduced flexibility in the timing of her meals
+
+C. Reduced risk of diabetic ketoacidosis
+
+D. Increased total daily insulin dose requirement
+
+E. Increased frequency of severe hypoglycemia
 
 ### Answer 30: A) Reduced hemoglobin  $ A_{1c} $
 
@@ -566,8 +653,21 @@ Bril V, England J, Franklin GM, et al; American Academy of Neurology; American A
 
 ## Question 38
 
-*[question text missing in OCR]*
+A 19-year-old man is transitioning from the pediatric endocrinology clinic. In infancy, he was admitted to the hospital for new-onset hyperglycemia. He had presented with acute hyperglycemia (blood glucose concentration of 578 mg/dL [32.1 mmol/L]) associated with weight loss, polyuria, and polydipsia. He was initially treated with insulin and his regimen was subsequently transitioned to oral sulfonylurea treatment. He had done well with this treatment, reports good glycemic control, and has no diabetes-related complications. The patient's father has a history of diabetes mellitus that is well controlled with oral hypoglycemic therapy.
 
+Physical examination findings are normal. His hemoglobin  $ A_{1c} $ measurement is 6.3% (0.063).
+
+Which of the following tests should you order to establish the etiology of his hyperglycemia?
+
+A. Islet-cell antibody assessment
+
+B. Glutamic acid decarboxylase antibody assessment
+
+C. Genetic testing for a GCK mutation (glucokinase gene)
+
+D. Genetic testing for a FOXP3 mutation (forkhead box P3 gene)
+
+E. Genetic testing for a KCNJ11 mutation (ATP-sensitive potassium channel gene)
 
 ### Answer 38: E) Genetic testing for a KCNJ11 mutation (ATP-sensitive potassium channel gene)
 
@@ -687,8 +787,31 @@ Luijf YM, van Bon AC, Hoekstra JB, Devries JH. Premeal injection of rapid-acting
 
 ## Question 48
 
-*[question text missing in OCR]*
+A 65-year-old man with a history of dyslipidemia, coronary artery disease, and uncontrolled type 2 diabetes mellitus has been referred to you for glycemic management. Despite continued up-titration of his insulin dosing, his hemoglobin  $ A_{1c} $ level has consistently remained markedly elevated. For the past 6 months, his medication regimen has included maximally dosed metformin; insulin glargine, 75 units injected subcutaneously twice daily; and regular insulin, 100 units injected subcutaneously 3 times daily before meals. The patient reports good adherence to his prescribed medication regimen, with no problems understanding or accurately administering his insulin doses. He does share that he has trouble with dietary indiscretion and minimal regular exercise despite having seen a nutritionist and diabetes nurse educator for lifestyle counseling on several previous occasions. He checks his blood glucose levels several times daily. His blood glucose log reveals blood glucose concentrations that generally range between 200 and 250 mg/dL (11.10-13.88 mmol/L) before meals and often close to 300 mg/dL (16.65 mmol/L) at bedtime. He has never had problems with hypoglycemia.
 
+Blood pressure is 140/81 mm Hg, and pulse rate is 85 beats/min. Height is 66 in (167.6 cm), and weight is 223 lb (101.4 kg) (BMI = 36 kg/m²). He has no palpable lipohypertrophy or other abnormalities identified at his insulin injection sites. Skin changes consistent with acanthosis nigricans are present.
+
+Recent laboratory test results:
+
+Hemoglobin  $ A_{lc}=9.1\% $ (0.091)
+
+Glomerular filtration rate = 71.4 mL/min per 1.73 m²
+
+Creatinine = 1.1 mg/dL (97.2 μmol/L)
+
+TSH = 2.40 mIU/L
+
+Which of the following is the best next step in this patient's care?
+
+A. Change to U500 regular insulin, 0.20 mL (100 units) 3 times daily before meals
+
+B. Change to U500 regular insulin, 0.45 mL (225 units) twice daily before meals
+
+C. Change to U500 regular insulin, 0.30 mL (150 units) 3 times daily before meals
+
+D. Change to U500 regular insulin,0.40 mL (200 units)3 times daily before meals
+
+E. Refer for insulin pump training in preparation for initiating U500 regular insulin via continuous subcutaneous insulin infusion
 
 ### Answer 48: C) Change to U500 regular insulin, 0.30 mL (150 units) 3 times daily before meals
 
@@ -802,8 +925,35 @@ Dyck PJ, Windebank AJ. Diabetic and nondiabetic lumbosacral radiculoplexus neuro
 
 ## Question 55
 
-*[question text missing in OCR]*
+A 62-year-old man with a history of type 2 diabetes mellitus complicated by nonproliferative retinopathy and microalbuminuria returns to see you for a follow-up appointment and management of his blood glucose levels. His diabetes was initially treated with oral antihyperglycemic medications; however, he required the addition of insulin to his regimen approximately 5 years ago. In addition to metformin, he takes 2 daily injections
 
+of 75% insulin lispro protamine suspension/25% insulin lispro injection (75/25 insulin) with his morning and evening meals. Because of persistently elevated hemoglobin  $ A_{1c} $ levels, his insulin daily doses have been repeated increased up to his current regimen of 50 units before breakfast and 30 units before his evening meal.
+
+The patient reports consistently eating 3 meals per day, generally at 7:00 AM, 11:30 AM, and 7:00 PM. He had no difficulty remembering to take his insulin doses as prescribed, and he reports good adherence to his medical therapy. He has expressed frustration over his hemoglobin  $ A_{1c} $ values, as his fingerstick glucose levels checked twice daily before administration of his insulin doses are almost always 150 mg/dL (8.32 mmol/L) or lower. He had no problems with hypoglycemia or hypoglycemia unawareness.
+
+On physical examination, blood pressure is 138/75 mm Hg, and pulse rate is 80 beats/min. Height is 71 in (180.3 cm), and weight is 196 lb (89.1 kg) (BMI = 27.3 kg/m $ ^{2} $).
+
+His point-of-care hemoglobin  $ A_{tc} $ level at today's visit is unchanged at 9.1% (0.091).
+
+The patient has worn a continuous glucose monitor for 5 days before today's office visit. He reports no notal alteration in his medication use, dietary habits, or physical activity during this period. The data obtained from the continuous glucose monitor are displayed below.
+
+<div style="text-align: center;"><div style="text-align: center;">Continuous Glucose Sensor Data, mg/dL</div> </div>
+
+
+<div style="text-align: center;"><img src="imgs/img_in_chart_box_131_520_1032_1188.jpg" alt="Image" width="87%" /></div>
+
+
+Which of the following is the best next step in this patient's care?
+
+A. Give the patient a new blood glucose testing meter
+
+B. Change timing of blood glucose testing to 2 hours after the start of each meal
+
+C. Change to 45 units of once-daily basal, long-acting insulin and 15 units of rapid-acting insulin before meals
+
+D. Modify 75/25 insulin dosing to 60 units before breakfast and 30 units before the evening meal
+
+E. Modify 75/25 insulin dosing to 50 units before breakfast and 40 units before the evening meal
 
 ### Answer 55: C) Change to 45 units of once-daily basal, long-acting insulin and 15 units of rapid-acting insulin before meals
 
@@ -838,8 +988,37 @@ American Diabetes Association. Standards of medical care in diabetes--2014. Diab
 
 ## Question 59
 
-*[question text missing in OCR]*
+A 74-year-old woman is referred for management of hypoglycemia after hyperinsulinemic hypoglycemia is documented. She has been experiencing symptoms for the past 14 months, and episodes are precipitated by skipping meals and by exercise. She finds it necessary to have a bedtime snack to avoid nocturnal or early-morning symptoms. The following laboratory test results were obtained from blood samples drawn when she presented with confusion:
 
+Glucose = 44 mg/dL (2.44 mmol/L)
+
+C-peptide = 3.3 ng/mL (1.09 nmol/L)
+
+ $$ \mathrm{I n s u l i n}=10\upmu\mathrm{I U/m L}(69.4\mathrm{p m o l/L}) $$ 
+
+Sulfonylurea screen (including repaglinide and glimepiride), negative
+
+She has a medical history that is remarkable for hypertension and dyslipidemia. She has not had any abdominal operations. Family history reveals no instances of endocrine disease or malignancy. Physical examination findings are normal. Weight is 114.5 lb (52 kg), and height is 57.5 in (146.1 cm) (BMI = 24.3 kg/m $ ^{2} $).
+
+She has a normal chemistry panel (including serum calcium) and normal complete blood cell count. Findings from triphasic CT of the abdomen and transabdominal ultrasonography are normal (other than the detection of extensive vascular calcification by CT scan). You then order a selective arterial calcium stimulation test. The following results are obtained:
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'></td><td colspan="3">Insulin</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Time</td><td style='text-align: center; word-wrap: break-word;'>Gastroduodenal Artery $ ^{a} $</td><td style='text-align: center; word-wrap: break-word;'>Superior Mesenteric Artery $ ^{a} $</td><td style='text-align: center; word-wrap: break-word;'>Spenlic Artery $ ^{a} $</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Baseline</td><td style='text-align: center; word-wrap: break-word;'>28.6  $ \mu $IU/mL(198.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>252  $ \mu $IU/mL(1750.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>12.5  $ \mu $IU/mL(86.8 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>20 sec</td><td style='text-align: center; word-wrap: break-word;'>65.4  $ \mu $IU/mL(464.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>229  $ \mu $IU/mL(1590.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>24.9  $ \mu $IU/mL(172.9 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>40 sec</td><td style='text-align: center; word-wrap: break-word;'>161  $ \mu $IU/mL(1118.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>447  $ \mu $IU/mL(3104.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>450  $ \mu $IU/mL(3125.2 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>60 sec</td><td style='text-align: center; word-wrap: break-word;'>603  $ \mu $IU/mL(4187.8 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>829  $ \mu $IU/mL(5757.4 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>347  $ \mu $IU/mL(2409.9 pmol/L)</td></tr></table>
+
+ $ ^{a} $Insulin values are measured in blood sampled from the hepatic vein after intra-arterial injection of calcium into the respective arteries supplying the pancreas.
+
+Which of the following should be your next step?
+
+A. Order genetic testing for multiple endocrine neoplasia type 1
+
+B. Ask a surgeon to explore the pancreas, and, if normal, perform an extended distal pancreatectomy
+
+C. Perform MRI
+
+D. Review the angiogram with the radiologist
+
+E. Perform positron emission tomography using  $ ^{18} $F-DOPA
 
 ### Answer 59: D) Review the angiogram with the radiologist
 
@@ -881,13 +1060,79 @@ Tessonnier L, Sebag F, Ghander C, et al. Limited value of 18F-F-DOPA PET to loca
 
 ## Question 64
 
-*[question text missing in OCR]*
+A 29-year-old woman with polycystic ovary syndrome returns to your clinic for a routine follow-up appointment. She has a history of obesity, hirsutism, irregular menses, and infertility, but has no current plans for pregnancy. A previous evaluation for Cushing syndrome revealed no evidence of hypercortisolism. Prediabetes was diagnosed approximately 2 years ago on the basis of an elevated fasting glucose concentration and a hemoglobin  $ A_{1c} $ value of 5.7% (0.057). At that time, the patient received comprehensive lifestyle education with an emphasis on weight loss through caloric restriction and regular physical activity. She reports that she exercises regularly and that she has been able to lose approximately 5% of her initial body weight, primarily by reducing her fat intake. The patient has taken metformin at a dosage of 1000 mg twice daily for the past year; she has tolerated the medication well and has had no difficulty with adherence.
 
+On physical examination, blood pressure is 135/78 mm Hg, and pulse rate is 88 beats/min. Height is 63 in (160 cm), and weight is 317 lb (144.1 kg) (BMI = 56.1 kg/m $ ^{2} $). Her weight is unchanged from that documented at her last appointment 4 months ago.
+
+Laboratory test results:
+
+Hemoglobin  $ A_{1c}=6.1\% $ (0.061)
+
+Creatinine = 0.7 mg/dL (61.9 μmol/L)
+
+Sodium = 141 mEq/L (141 mmol/L)
+
+Glomerular filtration rate = 104 mL/min per 1.73 m²
+
+Potassium = 3.8 mEq/L (3.8 mmol/L)
+
+Fasting glucose = 115 mg/dL (6.38 mmol/L)
+
+Which of the following is the best management plan?
+
+A. Substitute an  $ \alpha $-glucosidase inhibitor for metformin
+
+B. Substitute a thiazolidinedione for metformin
+
+C. Begin an ACE inhibitor
+
+D. Recommend changing to a very low-carbohydrate diet
+
+E. Refer to a bariatric surgeon for consultation
 
 ## Question 68
 
-*[question text missing in OCR]*
+A 59-year-old woman presents for assistance with diabetes control. She was first noted to have diabetes-range fasting hyperglycemia on screening laboratory tests at age 19 years. This followed a 15-lb (6.8 kg) weight gain during her freshman year at college. She was placed on a low-concentrated sweets diet, and she successfully lost weight and was not followed up closely thereafter. At age 29 years, hyperglycemia was again not on routine blood work. Her BMI was 20.8 kg/m². Referral to an endocrinologist led to a presumptive diagnosis of type 1 diabetes, and she was prescribed a multiple daily injection insulin regimen.
 
+Over the past 10 years, her hemoglobin  $ A_{1c} $ levels have ranged from 6.3% to 7.2% (0.063 to 0.072). There are no known diabetes complications. She eats a low-carbohydrate, low-fat diet and exercises for 90 minutes daily. Stakes bupropion for depression and alendronate for osteoporosis.
+
+Her current insulin regimen consists of insulin glargine, 13 units at bedtime, and insulin aspart, 4 to 6 units before meals. She has been measuring glucose levels 0 to 2 times daily since she started insulin therapy, mostly fasting and at bedtime. Her 3-month glucose average is 132 mg/dL (7.33 mmol/L) with a range of 28 to 250 mg/d (1.55 to 13.88 mmol/L). Hypoglycemia occurs mostly overnight. She has a history of hypoglycemia unawareness and has had 3 instances of severe hypoglycemia since her diagnosis.
+
+Her family history is notable for insulin-requiring diabetes mellitus diagnosed in her father at age 20 years and diabetes mellitus diagnosed in her paternal grandmother in her 20s.
+
+On physical examination, height is 65 in (165.1 cm) and weight is 118 lb (53.6 kg) (BMI = 19.6 kg/m $ ^{2} $). Her blood pressure is 117/55 mm Hg, and pulse rate is 66 beats/min. She has normal findings on funduscopic examination, normal peripheral pulses, normal findings on peripheral nerve examination, and no acanthosis nigricans.
+
+Laboratory test results:
+
+Hemoglobin  $ A_{lc} = 7.0\% $ (0.070)
+
+Creatinine = 0.78 mg/dL (70.0 μmol/L)
+
+LDL cholesterol = 135 mg/dL (3.49 mmol/L)
+
+Urinary albumin = 6.8 mg/g creatinine
+
+Triglycerides = 82 mg/dL (0.93 mmol/L)
+
+C-peptide (fasting) = 0.63 ng/mL (0.21 nmol/L)
+
+Total cholesterol = 276 mg/dL (7.15 mmol/L)
+
+HDL cholesterol = 125 mg/dL (3.24 mmol/L)
+
+Glucose (fasting) = 154 mg/dL (8.55 mmol/L)
+
+#### Which of the following actions would most significantly affect her diabetes management?
+
+A. Instructing her in carbohydrate counting to reduce glucose vanity.
+
+B. Increasing the frequency of glucose monitoring to 4 times daily and when she has any symptoms of hypoglycemia.
+
+C. Reducing her insulin aspart dose at the meal before she exercises.
+
+D. Referring her for genetic testing.
+
+E. Switching to insulin pump therapy.
 
 ### Answer 68: D) Referring her for genetic testing This patient's presentation is at
 
@@ -1130,8 +1375,39 @@ Edelstein D, Sivanandy M, Shahani S, Basaria S. The latest options and future ag
 
 ## Question 81
 
-*[question text missing in OCR]*
+A 49-year-old woman with no notable medical history is referred for evaluation of symptoms suspicious for hypoglycemia. These symptoms are most likely to occur when she has had no caloric intake for a period exceeding 4 to 5 hours, and the episodes are characterized by sweating, tremor, tachycardia, and confusion. Exercise worsens the frequency and severity of symptoms. She has had these symptoms for at least 6 months.
 
+During a spontaneous episode of hypoglycemia, the following laboratory values are documented:
+
+Glucose = 54 mg/dL (3.00 mmol/L)
+
+C-peptide = 1.8 ng/mL (0.60 nmol/L)
+
+β-Hydroxybutyrate = 0.1 mg/dL (9.6 μmol/L)
+
+Insulin = 6.3 μIU/mL (43.8 pmol/L)
+
+Insulin antibodies, undetectable
+
+Proinsulin = 273 pg/mL (31 pmol/L)
+
+Sulfonylurea screen (including repaglinide and glimepiride), negat
+
+Triple-phase CT of the abdomen shows a 0.6-cm enhancing mass in the head of the pancreas consistent with an islet-cell tumor. The tumor is subsequently enucleated successfully and her symptoms resolve. Pathologic examination confirms that an insulinoma was resected.
+
+Fourteen months later, the patient returns with symptoms similar to those she experienced before her operation. Hyperinsulinemic hypoglycemia is again documented. Neither abdominal CT nor endoscopic ultrasonography reveals a tumor.
+
+### Which of the following is the most appropriate management step now?
+
+A. No further testing needed; initiate medical therapy with diazoxide or a long-acting somatostatin analogue to prevent hypoglycemia
+
+B. Order a selective arterial calcium stimulation test
+
+C. Recommend ethanol ablation under the guidance of endoscopic ultrasonography
+
+D. Refer to surgery for an extended distal pancreatectomy
+
+E. Refer to surgery for a Whipple procedure
 
 ### Answer 81: B) Order a selective arterial calcium stimulation test
 
@@ -1181,22 +1457,6 @@ D. A thiazolidinedione
 
 E. Basal insulin with titration instructions
 
-A 66-year-old man is interested in bariatric surgery. He has a longstanding history of being obese despite multiple weight-loss attempts. He is currently at his heaviest weight of 338 lb (153.6 kg). He has difficulty adhering to dietary recommendations. He struggles with enforcing portion control, making healthful choices, and managing hunger and cravings. Three years ago, he lost weight in preparation for total knee arthroplasty (left knee), which was complicated by deep venous thrombosis. Unfortunately, he regained the weight initially lost. Over the past year, he has been more limited in his activity because of symptomatic osteoarthritis involving his right knee. He has been advised that he will need a total knee arthroplasty for his right knee, but that he is not eligible at his current weight. He experienced a myocardial infarction 6 years ago, but he currently has no active angina symptoms and at his most recent cardiac assessment, he was not advised to make any changes to his program. Other health concerns include hypertension, hyperlipidemia, impaired fasting hyperglycemia, and obstructive sleep apnea for which he uses continuous positive airway pressure. According to his pulmonologist, his sleep has markedly improved with this treatment, and his pulmonary function is within normal limits while using continuous positive airway pressure. He does not currently smoke cigarettes; he quit after his myocardial infarction. His current medications are aspirin, 81 mg daily; a calcium and vitamin D supplement; furosemide, 20 mg daily; metoprolol, 100 mg daily; simvastatin, 20 mg daily; and a multivitamin daily.
-
-On physical examination, weight is 338 lb (153.6 kg) and height is 70.5 in (179.1 cm) (BMI = 48.0 kg/m²). Pulse rate is 68 beats/min, and blood pressure is 110/71 mm Hg. He has lower-extremity edema and hyperpigmentation consistent with venous stasis. The rest of the examination findings are normal.
-
-As you discuss bariatric surgery with this patient, which of the following aspects of his history and physical examination is associated with higher perioperative mortality?
-
-A. Obstructive sleep apnea
-
-B. History of coronary artery disease
-
-C. BMI of 48 kg/m²
-
-D. History of deep venous thrombosis
-
-E. History of cigarette smoking
-
 ## Question 91
 
 A 55-year-old woman seeks your opinion for apparent episodes of hypoglycemia. She underwent Rouxen-Y gastric bypass 8 years ago for the treatment of medically complicated obesity. At that time, she had hypertension and type 2 diabetes mellitus treated with 2 oral medications. The patient experienced diabetes remission within weeks of the procedure. Her preoperative weight was 300 lb (136.4 kg). The procedure and subsequent weight loss were uncomplicated, with nadir weight being reached approximately 14 months after surgery. She has regained some weight, and at today's visit she weighs 240 lb (109.1 kg).
@@ -1224,33 +1484,6 @@ C. 72-Hour fast
 D. Triphasic CT of the pancreas
 
 E. Referral to a dietician
-
-92 A 25-year-old woman presents for further evaluation and management of a newly discovered thyroid nodule. During a visit for an annual examination, her gynecologist palpated a left-sided thyroid nodule. The gynecologist had ordered thyroid function testing and thyroid ultrasonography and referred her to you. The patient has no history of thyroid dysfunction. She has no symptoms suggestive of either hypothyroidism or hyperthyroidism and no compressive symptoms. She has no medical problems. Her only medication is oral contracentives.
-
-On physical examination, height is 66 in (167.6 cm) and weight is 136.5 lb (62 kg) (BMI = 22 kg/m²). Blood pressure is 124/68 mm Hg. On visual inspection, you note that her thyroid gland is asymmetric, with the left lobe being larger than the right lobe. You palpate a mobile, soft, 2-cm nodule within the left lobe of the thyroid. Otherwise, she has no abnormal examination findings.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_24_333_528_651.jpg" alt="Image" width="44%" /></div>
-
-
-Thyroid function test results:
-
- $$  TSH=1.2mIU/L $$ 
-
- $$ \mathrm{Free~T}_{4}=1.3\mathrm{~ng/dL}(16.7\mathrm{~pmol/L}) $$ 
-
-You review her ultrasonography, which shows that the 2.2-cm nodule palpated on the left side of her thyroid is purely cystic. However, the ultrasound images also show a smaller 1.2-cm, nonpalpable nodule in the contralateral lobe (see image, arrow).
-
-Which of the following is the best next diagnostic step?
-
-A. FNAB of the 2.2-cm nodule
-
-B. FNAB of the 1.2-cm nodule
-
-C. FNAB of both the 2.2-cm and 1.2-cm nodules
-
-D. Repeated ultrasonography in 6 months
-
-E.  $ {}^{123} $I thyroid scan and uptake
 
 ### Answer 91: E) Referral to a dietician
 
@@ -1335,72 +1568,6 @@ C. Increase his lisinopril dosage
 D. Switch from an ACE inhibitor to an angiotensin-receptor blocker
 
 E. Add an angiotensin-receptor blocker
-
-A 50-year-old woman is referred for evaluation of paresthesias involving her feet. She has a history of medically complicated obesity and impaired fasting hyperglycemia for which she underwent Roux-en-Y stric bypass 5 years ago. Since her operation, she has lost approximately 100 lb (45.5 kg). Her impaired fasting hyperglycemia promptly resolved after surgery. Her procedure was uncomplicated, and her last visit with her stric team was about 4 years ago. She has since been under the care of her local primary care physician. She is a multivitamin, 2 tablets daily; a daily calcium supplement; vitamin D, 4000 IU daily; and vitamin B₁₂, 500 daily orally.
-
-On physical examination, blood pressure is 130/80 mm Hg and pulse rate is 72 beats/min. Weight is 220 lb and height is 64.5 in (163.8 cm) (BMI = 37.2 kg/m²). Neurologic examination reveals no focal findings, but sensory impairment is noted by monofilament in the lower extremities. Deep tendon reflexes are present.
-
-Laboratory test results (ordered by referring physician):
-
-Hemoglobin = 12.0 g/dL (120 g/L)
-
-Mean corpuscular volume = 100.0 μm³ (100.0 fL)
-
-White blood cell count = 8300/μL (8.3 × 10⁹/L)
-
-Platelet count = 288 × 10³/μL (288 × 10⁹/L)
-
-Blood glucose (fasting) = 98 mg/dL (5.44 mmol/L)
-
-Creatinine = 0.7 mg/dL (61.9 μmol/L)
-
-Vitamin B $ _{12} $ = 210 pg/mL (210 ng/L)
-
-Ferritin = 29 ng/mL (65.2 pmol/L)
-
-Folate = 5.3 ng/mL (5.3  $ \mu $g/L)
-
-Which of the following is the most appropriate next step in the evaluation of this patient's symptoms?
-
-A. Serum thiamine measurement
-
-B. Hemoglobin  $ A_{1c} $ measurement
-
-C. Copper measurement
-
-D. Methylmalonic acid measurement
-
-E. Reassurance; no other action is required
-
-100 A 45-year-old woman presents with a 6-month history of bone pain that is most severe in her shins. She describes the pain as dull, aching, and worse with activity. She has also noted fatigue and muscle weakness that makes rising from seated or supine positions difficult. She has noticed that these symptoms of weakness often occur after eating a meal. She underwent Roux-en-Y gastric bypass surgery 2 years ago. Before her bariatric operation, she had type 2 diabetes that was managed with insulin glargine and lispro. She also had a history of hyperlipidemia, and preoperative testing revealed elevated liver enzymes that were attributed to fatty liver. Since her operation, she has successfully lost 85 lb (38.6 kg). She no longer requires insulin for management of her diabetes. She currently does not take any medications or over-the-counter vitamins or supplements.
-
-On physical examination, weight is 190 lb (86.4 kg) and height is 64 in (162.6 cm) (BMI = 32.6 kg/m²). Blood pressure is 110/70 mm Hg, and heart rate is 72 beats/min. Findings on thyroid examination are normal. There are well-healed surgical scars on her abdomen. She has no kyphosis or tenderness to spinal palpation. She has difficulty standing from a seated position. She has tenderness over her tibial surfaces. Reflexes are 2+ throughout and the Chvostek sign is negative. The rest of her examination findings are normal.
-
-Fasting laboratory test results:
-
-Serum calcium = 8.9 mg/dL (2.2 mmol/L)
-
-Phosphate = 1.9 mg/dL (0.6 mmol/L)
-
-Albumin = 3.7 g/dL (37 g/L)
-
-PTH = 123 pg/mL (123 ng/L)
-
-Creatinine = 0.9 mg/dL (79.6 μmol/L)
-
-Alkaline phosphatase = 250 U/L (4.2  $ \mu $kat/L)
-
-Which of the following would assist in the diagnosis?
-
-A. Measurement of 1,25-dihydroxyvitamin D
-
-B. Measurement of 25-hydroxyvitamin D
-
-C. DXA scan
-
-D. Technetium bone scan
-
-E. Iliac crest bone biopsy
 
 ## Question 102
 
@@ -1500,8 +1667,23 @@ a report of the American College of Cardiology/American Heart Association Task F
 
 ## Question 106
 
-*[question text missing in OCR]*
+A 20-year-old woman presents for evaluation of polyuria and polydipsia. Her medical history includes cystic fibrosis that was diagnosed at age 10 months. Recently, she has begun to lose weight despite adhering to treatment of her exocrine pancreatic insufficiency. Her pulmonary status appears to be stable at this visit and she reports no acute pulmonary symptoms.
 
+On physical examination, she is a thin, well-appearing young woman in no distress. Height is 59 in (149.9 cm), and weight is 93 lb (37.7 kg) (BMI = 18.8 kg/m²). She is afebrile, blood pressure is 100/68 mm Hg, and puls rate is 100 beats/min. You detect a few scattered crackles bilaterally on lung examination and sinus tachycardia cardiac examination. Conjunctivae are pale. Her thyroid gland is normal, as are her neurologic reflexes. She has digital clubbing.
+
+A random blood glucose measurement is 147 mg/dL (8.2 mmol/L).
+
+Which of the following is the best diagnostic test?
+
+A. Hemoglobin  $ A_{1c} $ measurement
+
+B. 75-g oral glucose tolerance test
+
+C. Fructosamine measurement
+
+D. Continuous glucose monitoring
+
+E. Measurement of glutamic acid decarboxylase antibodies
 
 ### Answer 106: B) 75-g oral glucose tolerance test Diseases
 
@@ -1553,109 +1735,7 @@ C. Measurement of fasting glucose, insulin, and C-peptide levels
 
 D. Screening for islet-cell cytoplasmic autoantibodies and glutamic acid decarboxylase autoantibodies
 
-E. Screening for insulinoma-2-associated autoantibodies and zinc transporter 8 autoantibodies
-
-From: Endo doctor [endodocctor@healthcare.com]
-
-Sent: Wednesday, November 06, 2014 4:05 PM
-
-To: compoundF@zonafasciculata.com
-
-Subject: interesting patient question
-
-Hi, Dr. Compound F,
-
-I would like your help with an interesting patient I saw recently at the request of her family physician. This is an unusual case, and I am feeling stuck on the workup. The patient is a 71-year-old woman with hypertension diagnosed at age 37 years. Earlier this year, bilateral renal artery stenosis was diagnosed and she underwent bilateral stenting. I did not meet her until after that procedure. I don't have access to hormonal testing done before the procedure, and she hasn't had imaging studies showing the adrenal glands. Before the stenting, she had a normal serum creatinine level and her chemistry panel was normal except for some intermittent low sodium measurements (as low 126 mEq/L [126 mmol/L] on one occasion, but usually between 130 and 136 mEq/L [130-136 mmol/L]). After the stenting, her uncontrolled hypertension persisted. Her potassium level is just mildly low: 3.3 mEq/L (3.3 mmol/L). Renal ultrasonography showed good patent flow.
-
-Her family doctor tested her for secondary causes of hypertension before sending her to me:
-
-Urinary catecholamines and metanephrines, normal Plasma renin activity = 22 ng/mL per h
-
-Aldosterone = 4.6 ng/dL (127.6 pmol/L)
-
-Urinary cortisol = <2.2  $ \mu $g/24 h (6.07 nmol/d)
-
-She was sent to me to exclude an adrenal disorder. She had no history or features consistent with low cortisol, blood pressure was 190/70 mm Hg, and heart rate was 120 beats/min (she was nervous; her heart rate did slow down after a while). She appeared very cushingoid with facial rounding, skin thinning with many bruises on her arms, and increased dorsocervical and supraclavicular fat. Her medications included amlodipine, valsartan, atenolol, and hydrochlorothiazide. She recalled taking hydrocodone/acetaminophen 3 months ago for back pain, but had not taken any narcotics for 2 months.
-
-I checked a morning serum cortisol level, expecting a normal result.
-
-Serum cortisol (9 AM) = 1.6 µg/dL (44.1 nmol/L)
-
-ACTH = <5 pg/mL (<1.1 pmol/L)
-
-After cosyntropin serum cortisol = 8.1  $ \mu $g/dL (223.5 nmol/L)
-
-I also measured a morning salivary cortisol level, which was only  $ 0.08\ \mu g/dL $ ( $ 2.1\ nmol/L $)—this must be low sin it is in the normal range for midnight.
-
-No pituitary abnormalities were noted on brain MRI done last year. Free  $ T_{4} $ and TSH levels were normal.
-
-I don't know what to do next and I would appreciate any help you can provide. Thanks.
-
-Endo Doc
-
-Which of the following studies should you recommend to establish the cause of the low cortisol level in this patient?
-
-A. Corticosteroid-binding globulin measurement
-
-B. CT of the adrenal glands
-
-C. Pituitary-directed MRI
-
-D. Screening for synthetic glucocorticoids
-
-E. 11-Deoxycortisol measurement
-
-109 A 38-year-old female-to-male transgender individual presents for a new patient appointment. He has been treated with intramuscular testosterone, 200 mg every 2 weeks, for 5 years with satisfactory facial and body hair, deepening of the voice, and enlargement of the clitoris. He also has acne and balding, which are acceptable to him. He has not undergone a mastectomy, hysterectomy, or oophorectomy. There has been no vagin bleeding. He has never smoked cigarettes.
-
-On physical examination, blood pressure is 130/80 mm Hg. Weight is 197 lb (89.5 kg), and height is 66.5 in (168.9 cm) (BMI = 31.3 kg/m²). Skin examination reveals mild acne, male-pattern hair over the face, chest, and extremities and occipital balding. Breasts are without masses. Pelvic examination reveals a small uterus and no adnexal masses.
-
-Laboratory test results:
-
-Total testosterone (mid-dose) = 769 ng/dL (26.7 nmol/L)
-
-Hematocrit = 43% (0.43)
-
-Platelet count = 375 × 10³/μL (375 × 10⁹/L)
-
-Which of the following is the most likely complication of intramuscular testosterone injections if this patient?
-
-A. Abnormal liver function
-
-B. Thromboembolism
-
-C. Low bone mineral density
-
-D. Endometrial cancer
-
-E. Erythrocytosis
-
-110 A 48-year-old man presents to discuss cardiovascular risk. He has treated hypertension, he smokes cigars occasionally (but not cigarettes), and he describes having a high-stress life. He works 60 to 80 hours per week, eats most of his meals at restaurants, and struggles to find time to exercise. His father died in a car crash at age 35 years, but his mother is alive and healthy and takes no medications. However, several paternal male relatives (2 uncles and his grandfather) had cardiovascular events in their 40s and 50s. The patient's primary care physician has told him that he should be on a statin, but he has seen advertisements for a variety of tests that can assess cardiovascular risk, and he wants to know if he really needs medication. He asks which tests he should have.
-
-On physical examination, height is 74 in (188 cm) and weight is 250 lb (113.6 kg) (BMI = 32.1 kg/m $ ^{2} $). Blood pressure is 128/74 mm Hg. The rest of his examination findings are normal.
-
-Laboratory test results (fasting):
-
-Total cholesterol = 264 mg/dL (6.84 mmol/L)
-
-LDL cholesterol = 160 mg/dL (4.14 mmol/L)
-
-HDL cholesterol = 41 mg/dL (1.06 mmol/L)
-
-Triglycerides = 189 mg/dL (2.14 mmol/L)
-
-You enter these results into a risk calculator and conclude that he falls into the intermediate-risk category.
-
-Which of the following is the most cost-effective test to order for this patient?
-
-A. Assessment of coronary-artery calcium score
-
-B. Assessment of HDL function
-
-C. Contrast-enhanced coronary CT angiography
-
-D. Measurement of lipoprotein(a)
-
-E. Measurement of apolipoprotein B or LDL particle number
+E
 
 ### Answer 107: A) Referral to a clinical research study that performs type 1 diabetes screening. This young woman has a sibling who has recently received a diagnosis of type 1 diabetes; thus, she is understandably concerned regarding her own likelihood of developing diabetes. In general, type 1 diabetes is diagnosed when patients present with acute symptoms of hyperglycemia and possibly diabetic ketoacidosis. There is much interest in predicting which individuals will develop type 1 diabetes with the aim of more closely monitoring at-risk patients and perhaps intervening to prevent or delay disease. However, clear guidelines for the screening of at-risk but asymptomatic individuals in routine clinical practice are not yet established. Because this patient has a nontwin sibling with a diagnosis of type 1 diabetes, her personal risk of developing the same condition is estimated to be approximately 10%.
 
@@ -1744,13 +1824,61 @@ Duclos M, Guinot M, Colsy M, et al. High risk of adrenal insufficiency after a s
 
 ## Question 112
 
-*[question text missing in OCR]*
+A 40-year-old woman with newly diagnosed type 2 diabetes mellitus presents with dysuria and dyspareunia. Two months ago, type 2 diabetes was diagnosed on the basis of a random blood glucose measurement of 210 mg/dL (11.66 mmol/L) and an elevated hemoglobin  $ A_{1c} $ measurement of 7.0% (0.070). Treatment with canagliflozin, 300 mg daily, was initiated. Other medications include lisinopril for hypertension and simvastatin for hypercholesterolemia. She uses an intrauterine device for contraception.
 
+She has no symptomatic or documented hypoglycemia, but she does report mild polyuria, polydipsia, and nocturia. In addition, she has started experiencing pain and discomfort during sexual intercourse during the past week and has some discomfort with urine voiding.
+
+On physical examination, she is an afebrile obese woman in no apparent distress. Weight is 190 lb (86.4 kg), and height is 65 in (165.1 cm) (BMI = 31.6 kg/m²). Blood pressure is 128/82 mm Hg, and pulse rate is 76 beats/min. Physical examination findings are normal.
+
+A hemoglobin  $ A_{lc} $ measurement is 6.8% (0.068), and urine dipstick analysis shows a yellow and cloudy sample, 2+ positive glucose, negative protein, and 2+ leukocyte esterase.
+
+In addition to a urine culture and treatment of the suspected urinary tract infection with antibiotics, which of the following additional steps would be appropriate?
+
+A. Remove the intrauterine device
+
+B. Reduce the canagliflozin dosage
+
+C. Discontinue canagliflozin
+
+D. Begin additional treatment for endometritis
+
+E. Recommend no additional therapy at this time
 
 ## Question 114
 
-*[question text missing in OCR]*
+You are asked to evaluate a 74-year-old woman with type 2 diabetes mellitus who has been admitted to the hospital with hyperglycemia. She lives alone and is periodically visited by family members who live in a nearby town. The patient's brother brought her to the emergency department today after he found her to be confused and incontinent of urine. There was little food in her home and it is unclear whether she had been eating regularly or taking any medications for the management of hyperglycemia.
 
+On physical examination, the patient is quite somnolent. She is afebrile. Blood pressure is 110/68 mm Hg and pulse rate is 92 beats/min. Height is 66 in (167.6 cm), and weight is 185 lb (84.1 kg) (BMI = 29.9 kg/m^{2}). She has dry mucous membranes and skin tending is evident. Findings on examination of the chest and abdomen are normal. A comprehensive neurologic examination is limited by her somnolence. She is irritable when aroused but is without obvious focal neurologic deficit.
+
+Laboratory test results:
+Sodium = 134 mEq/L (134 mmol/L)
+Potassium = 5.3 mEq/L (5.3 mmol/L)
+Chloride = 106 mEq/L (106 mmol/L)
+Serum bicarbonate = 18 mEq/L (18 mmol/L)
+Serum urea nitrogen = 79 mg/dL (28.2 mmol/L)
+Creatinine = 1.9 mg/dL (168.0 μmol/L)
+
+Effective serum osmolality = 321.4 mOsm/kg (321.4 mmol/kg)
+
+Arterial pH = 7.35
+
+Glucose = 961 mg/dL (53.3 mmol/L)
+
+Urinary ketones, small
+
+Serum  $ \beta $-hydroxybutyrate = 2.8 mg/dL (269.0  $ \mu $mol/L)
+
+##### Which of the following should be included in this patient's initial care plan?
+
+A. 1.5 L of hypertonic saline over the next hour, and intravenous insulin infusion at 12 units per hour
+
+B. 1.5 L of isotonic saline over the next hour, and intravenous insulin infusion at 12 units per hour
+
+C. 1.5 L of isotonic saline over the next hour, and intravenous insulin infusion at 4 units per hour
+
+D. 1.5 L of 0.45% saline over the next hour, and intravenous insulin infusion at 12 units per hour
+
+E. 1.5 L of 0.45% saline over the next hour, and intravenous insulin infusion at 4 units per hour
 
 ### Answer 114: B) 1.5 L of isotonic saline over the next hour, and intravenous insulin infusion at 12 units per hour
 
@@ -1823,29 +1951,6 @@ C. Iothalamate clearance
 D. Bone mineral density
 
 E. Glutamic acid decarboxylase antibodies
-
-A 58-year-old woman sees her oncologist to address a 6-month history of daily headache. Her medicine history includes treatment of estrogen-receptor positive breast cancer 4 years ago. She had clear surgical margins and negative nodes at the time of surgery. She was treated with both radiation and chemotherapy. Anastrozole, 1 mg daily, was prescribed, and she still takes this medication. There has been no evidence of recurrence and mammography of the cancer. Recurrence, and mammography of the contralateral breast has been normal.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_129_489_620_1031.jpg" alt="Image" width="45%" /></div>
-
-
-In the past several months, she has begun to experience vague, general headaches that occur at random times. She has no history of headaches, and because they have become more frequent, she has sought advice from her oncologist. She has no evidence of polyuria, polydipsia, or nocturia. She has no history of changes in her ring or shoe size. Physical examination findings are unremarkable. There is no evidence of altered visual fields, hyperpigmentation, skin tags, striae, ecchymosis, galactorrhea.
-
-Laboratory evaluation reveals a normal chemistry panel, including a normal blood glucose concentration (fasting) and complete blood cell count. The oncologist orders brain MRI (see image) Because of the observed abnormality (arrow), she sent to you for further evaluation.
-
-You confirm the patient's history, review of systems, and physical examination findings.
-
-Dysfunction of which of the following pituitary hormones would be most likely to develop in the near term?
-
-A. TSH
-
-B. Antidiuretic hormone
-
-C. ACTH
-
-D. GH
-
-E. Prolactin
 
 ### Answer 119: B) Tissue transglutaminase antibodies
 

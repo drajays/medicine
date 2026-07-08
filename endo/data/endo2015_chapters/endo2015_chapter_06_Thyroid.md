@@ -1,5 +1,57 @@
 # ESAP 2015 — Thyroid
-Questions: 13, 20, 21, 32, 43, 50, 53, 63, 66, 80, 84, 85, 90, 94, 97, 113
+Questions: 10, 13, 21, 32, 37, 43, 50, 53, 56, 63, 69, 80, 84, 85, 90, 92, 95, 97, 113
+
+## Question 10
+
+During an appointment with her primary care physician, a 28-year-old woman reports that she is pregnant. Your assistance in interpreting her thyroid hormone levels is requested. She has regular menstrual cycles every 28 to 30 days, and her last menstrual period was 6 weeks ago. A home urine test kit for pregnancy has confirmed a positive result. She delivered a healthy baby boy 30 months ago following an uncomplicated pregnancy. Thirteen months ago, she had a miscarriage at 7 weeks' gestation. The patient reports tiredness that has been present for 3 months, but has worsened over the past 2 weeks. She has also developed mild nausea, mainly in the morning over the last week. She has not been able to take any�a to the medical records, it becomes apparent that the biochemical tests performed 7 weeks ago documented a serum TSH level of 3.8 mIU/L with a serum free T₄ level of 1.1 ng/dL (14.2 pmol/L). She reports a family history of rheumatoid arthritis and pernicious anemia in her maternal grandmother and Hashimoto thyroiditis in her mother.
+
+On physical examination, weight is 128 lb (58.2 kg) (which has been stable) and height is 63 in (160 cm) (BMI = 22.7 kg/m²). Her pulse rate is 78 beats/min, and blood pressure is 126/72 mm Hg. She has a small palpa goiter, the outline of which is smooth. Physical examination findings are otherwise unremarkable. A pregnancy to done in the clinic is positive.
+
+Thyroid function test results:
+
+Serum TSH = 4.1 mIU/L
+
+Serum free  $ T_{4}=1.0 $ ng/dL (12.9 pmol/L)
+
+TPO antibodies = 32 IU/mL (32 kIU/L)
+
+Which of the following should you recommend?
+
+A. Levothyroxine replacement
+
+B. Liothyronine replacement
+
+C. No therapy now; assessment of thyroid function again in 4 weeks
+
+D. Desiccated thyroid extract containing both T_{4} and T_{3}
+
+E. Prednisone
+
+### Answer 10: C) BMI, normal; cardiovascular risk, increased
+
+## 10 ANSWER: C) BMI, normal; cardiovascular risk, increased
+
+BMI determination (weight [kg]/height [m²]) has been the accepted criterion for the diagnosis of obesity. BMI values can identify persons at risk for weight-related medical complications and increased mortality. However,
+
+BMI has limitations in that it does not provide information regarding body adiposity, which is well recognized contribute to pathophysiologic processes affecting health and mortality. This is particularly true for persons in normal-weight category (18.5-24.9 kg/m²) or overweight category (25.0-29.9 kg/m²). This patient's BMI of 23 kg/m² is considered normal (thus, Answers A, B, and E are incorrect). For patients with a BMI in this range, both composition can provide additional information regarding health risks. In individuals with an elevated BMI, those who have a healthy body composition (defined as a body fat percentage of less than 23.1% in men and less than 33.3% in women) may not have an increased risk for metabolic complications. This patient has a high body percentage (37%). Recent studies suggest that despite a normal BMI, increased adiposity confers an increased risk for metabolic complications and increased mortality, particularly for women. The state of having a normal BMI increased body fat has been termed normal-weight obesity. Romero-Corral et al reported that women with normal weight obesity have a 2.2-fold increased risk for cardiovascular mortality when compared with the risk of women with normal body adiposity (thus, Answers C is correct and Answers D is incorrect).
+
+weight obesity have a 2.2-fold increase with normal body adiposity (thus, Answer C is correct and). There are several methods for measuring body composition. The most accurate tend to be cumbersome (underwater weighing) and not applicable to routine clinical practice. Anthropometric measurements (height, weight, waist circumference, skin-fold thickness) are easily assessed and provide valuable information regarding a patient's health risks, but they have limitations. Waist circumference measurement requires a consistent measure of the level of the iliac crest. Waist circumference for accuracy: flexible measuring tape in the horizontal view at the level of the iliac crest. Waist circumference identifies individuals with abdominal adiposity, which confers the highest risk for metabolic complications. Measurement of skin-fold thickness is less accurate and is most often used as a research tool. DXA provides a 3-compartment model for body composition, but it can have substantial intraindividual variability and it is a Body plethysmography uses air displacement instead of water displacement to measure body fat. Measurement correlates well with underwater weighing and are accurate. Impedance measurements are widely available (weeks), but have limitations. Impedance determines body water content, and formulas have been developed to convert that measurement to body fat. Several studies suggest that these methods underestimate body fat (2% variability) when compared with fat measurement determined by DXA. Documenting how this patient had the percentage of body fat determined is important. If it was determined by body plethysmography, the measurement most likely accurate.
+
+##### Educational Objective:
+
+Describe health risks associated with increased body adiposity regardless of body mass index.
+
+UpToDate Topic Review(s):
+
+Determining body composition in adults
+
+##### Reference(s):
+
+Romero-Corral A, Somer VK, Sierra-Johnson J, et al. Normal weight obesity: a risk factor for cardiometabolic dysregulation and cardiovascular mortality. Heart J. 2010;31(6):737-746.
+
+Lee SY, Gallagher D. Assessment methods in human body composition. Curr Opin Clin Nutr Metab Care. 2008;11(5):566-572.
+
+Ginde SR, Geliebter A, Rubiano F, et al. Air displacement plethysmography: validation in overweight and obese subjects. Obes Res. 2005;13(7):1232-1234
 
 ## Question 13
 
@@ -31,51 +83,9 @@ D. Continue the current levothyroxine dosage and add a  $ \beta $-adrenergic blo
 
 E. Order a recombinant TSH-stimulated whole-body radioiodine scan and thyroglobulin measurement
 
-## Question 20
+## Question 21
 
-A urologist asks you to see a 58-year-old man because of hypokalemia, edema, and hypertension that developed 6 weeks after the initiation of abiraterone (CYP17A1 inhibitor) for prostate cancer. Prostate cancer (Gleason score 9) was diagnosed 7 years earlier and was treated with a prostatectomy, radiotherapy, and a brief course of a GnRH agonist. He eventually developed bone and liver metastases. Severe bone pain required narcotics, and castration was performed with a subsequent decrease in the prostate-specific antigen concentration (5.0 ng/mL [5.0 μg/L]) and a marked improvement in bone pain. One year later, there was further disease progression (prostate-specific antigen concentration of 110.0 ng/mL [110.0 μg/L]). He had no history of hypertension or diabetes.
-
-Medications now include abiraterone, 1000 mg daily; hydrocodone/acetaminophen 10 mg/325 mg, every 6 hours as needed; and amlodipine, 5 mg daily.
-
-On physical examination, he is a non-cushingoid-appearing man who is alert and seems comfortable. Blood pressure is 164/100 mm Hg, and pulse rate is 82 beats/min. Height is 69 in (175.3 cm), and weight is 170 lb (77.3 kg) (BMI = 25.1 kg/m²). He appears chronically ill. Except for some tenderness over his lumbar spine and 2+ pretibial and pedal edema, his examination findings are normal.
-
-Laboratory test results (sample drawn in the morning):
-
- $$ \mathrm{Sodium}=140\mathrm{m E q/L}(140\mathrm{~m m o l/L}) $$ 
-
- $$  Potassium=2.9mEq/L(2.9mmol/L) $$ 
-
-ACTH = 127 pg/mL (27.9 pmol/L)
-
- $$ \mathrm{Chloride}=100\mathrm{m E q/L}(100\mathrm{~m m o l/L}) $$ 
-
-Aldosterone = 5 ng/dL (138.7 pmol/L)
-
-Glucose = 101 mg/dL (5.60 mmol/L)
-
-Testosterone = <2 ng/dL (<0.07 nmol/L)
-
-Calcium = 9.0 mg/dL (2.25 mmol/L)
-
-Deoxycorticosterone = 100 ng/dL (3.03 nmol/L)
-
-Albumin = 3.4 g/dL (34 g/L)
-
-Abdominal CT performed 4 months earlier showed liver and bone metastases (lumbar spine) and normal adrenal glands.
-
-Which medication would you recommend to treat this man?
-
-A. DHEA, 25 mg daily
-
-B. Dexamethasone, 0.5 mg daily
-
-C. Mifepristone, 300 mg daily
-
-D. Fludrocortisone, 50 mcg daily
-
-E. Metyrapone, 500 mg 3 times daily
-
-21 A 34-year-old man presents to his primary care physician after noticing the rapid development of a neck mass and some difficulty swallowing because of neck tenderness. Both the swelling and the neck symptoms have developed over the past 2 months. His primary care physician thought the mass was actually the patient's thyroid gland and hence referred the patient to you for further evaluation.
+A 34-year-old man presents to his primary care physician after noticing the rapid development of a neck mass and some difficulty swallowing because of neck tenderness. Both the swelling and the neck symptoms have developed over the past 2 months. His primary care physician thought the mass was actually the patient's thyroid gland and hence referred the patient to you for further evaluation.
 
 His recent medical history is notable for Hashimoto hypothyroidism that was diagnosed after he began experience fatigue and cold sensitivity 8 years ago. He takes levothyroxine, 88 mcg daily.
 
@@ -101,142 +111,9 @@ D. Calcitonin measurement
 
 E. Thyroglobulin measurement
 
-22 A 22-year-old woman with type 1 diabetes mellitus presents for a follow-up visit with concerns of weight loss and a declining sense of well-being. Her diabetes is treated with intensive insulin therapy including insulin glargine in combination with insulin lispro. She has always had modest glycemic control with hemoglobin  $ A_{1c} $ values between 8.0% and 8.5% (0.080 and 0.085) and hyperglycemia. However, she reports unexplained hypoglycemia. Low blood glucose values occur at any time day or night. She has little warning, she does experience hunger, anxiety, and diaphoresis when her glucose levels are low. She has recorded values between 20 and 40 mg/dL (1.11 and 2.22 mmol/L) on numerous occasions in the past 3 weeks. Additionally, expresses concerns over a concurrent 10-lb (4.5-kg) weight loss. She has had no diarrhea, palpitations, tremor temperature intolerance.
+### Answer 21: D) Core biopsy of the largest thyroid nodule with repeated flow cytometry
 
-On physical examination, weight is 105 lb (47.7 kg) and height is 60.5 in (153.7 cm) (BMI = 20.2 kg/m²). Blood pressure is 95/70 mm Hg, and pulse rate is 96 beats/min. Mucus membranes are moist without lesions. thyroid gland is normal without nodularity. Her reflexes are normal. Findings on cardiac examination are normal. There is no tremor of the outstretched hands.
-
-Laboratory test results:
-
-Hemoglobin  $ A_{lc}=7.7\% $ (0.077)
-
-Creatinine = 0.8 mg/dL (70.7 μmol/L)
-
-Sodium = 133 mEq/L (133 mmol/L)
-
-Calcium = 9.4 mg/dL (2.35 mmol/L)
-
-Potassium = 5.8 mEq/L (5.8 mmol/L)
-
-Urinary albumin excretion = 10 mg/24 h
-
-Which of the following diagnostic tests should you order?
-
-A. TSH measurement
-
-B. Tissue transglutaminase antibody assessment
-
-C. Cortisol and ACTH measurement
-
-D. Tryptophan hydroxylase antibody assessment
-
-E. AIRE gene mutation analysis
-
-### Answer 20: B) Dexamethasone, 0.5 mg daily
-
-## 20 ANSWER: B) Dexamethasone, 0.5 mg daily
-
-20 Androgen deprivation therapy is the standard of care for patients with advanced prostate cancer. How many patients eventually develop castration-resistant prostate cancer and less than 20% of these men survive beyond 3 years. The evidence now suggests that many of these men with castration-resistant prostate cancer have up-regulation of androgen biosynthesis enzymes resulting in an increase in intratumoral androgen concentration. Abiraterone is a selective inhibitor of CYP17A1, a key enzyme in cortisol synthesis, by inhibiting  $ 17\alpha $-hydroxyactivity. It also inhibits androgen biosynthesis by inhibiting 17,20-lyase activity, which catalyzes the conversion of 17-hydroxyprognenolone to the main androgen precursor DHEA. In men with castration-resistant prostate cancer, abiraterone prolongs overall survival.
-
-Most patients treated with abiraterone develop ACTH-driven mineralocorticoid excess. There is an expect significant increase in serum deoxycorticosterone, corticosterone, and 11-deoxycortisol levels after treatment with abiraterone. ACTH levels increase by 200% to 1400% with abiraterone therapy. Despite subnormal cortisol levels, the risk of other diseases is higher than the risk of other conditions.
-
-secretion, these patients have no signs or symptoms of glucocorticoid deficiency. The most likely explanation for this is the glucocorticoid activity of corticosterone whose levels are markedly elevated in patients treated with abiraterone. Most importantly, abiraterone effectively lowers adrenal, testicular, and intratumoral androgen production resulting in some attenuation of disease progression.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_163_242_934_821.jpg" alt="Image" width="64%" /></div>
-
-
-Because aldosterone secretion is regulated by the renin-angiotensin system, abiraterone has no effect on aldosterone secretion per se. Although aldosterone increases acutely with an ACTH infusion, chronic ACTH elevations have no direct effect on aldosterone. In fact, the mineralocorticoid excess state that ensues (due to elevations of deoxycorticosterone) suppresses the plasma renin activity and keeps aldosterone levels in the low-normal range. The aldosterone-to-plasma renin activity ratio is meaningless in this patient (because the aldosterone is low). Therefore, he does not have primary hyperaldosteronism and the state of hypermineralocorticoidism would preclude the use of fludrocortisone (Answer D). However, the addition of exogenous nonmineralocorticoid steroids such as dexamethasone (Answer B) to abiraterone therapy promptly decreases ACTH and resolves the hypermineralocorticoid state. Either dexamethasone (0.25 to 0.50 mg daily) or prednisone (5 to 10 mg daily) is now recommended when abiraterone therapy is initiated.
-
-Concomitant inhibition of 17,20-lyase by abiraterone also diverts 17-hydroxyprogesterone metabolites toward androgen synthesis via a backdoor pathway. Dexamethasone therapy further suppresses any rise in androgens from this unique mechanism.  $ 3\alpha,5\alpha $-17-Hydroxyprogesterone is a metabolite of 17-hydroxyprogesterone, which increases with abiraterone therapy. This metabolite can then be converted to dihydrotestosterone, probably in the adrenal gland or the prostate cancer itself.
-
-Mifepristone (Answer C) is a potent progesterone and glucocorticoid receptor antagonist that is effective in patients with all forms of endogenous hypercortisolism. Although it is a weak androgen receptor antagonist, it has no role in the management of patients with prostate cancer. The administration of mifepristone causes further increases in ACTH and cortisol, which would only serve to further aggravate the hypermineralocorticoid state in this man. Adrenal androgen (DHEA) therapy (Answer A) is certainly not indicated in a patient with metastatic prostate cancer. Metyrapone (CYP11A—11β-hydroxylase inhibitor) (Answer E) would only serve to further increase the mineralocorticoid deoxycorticosterone and exacerbate his hypokalemia and hypertension.
-
-##### Educational Objective:
-
-Educational Objective: Describe the physiology of ACTH-driven hypermineralocorticoidism in patients with abiraterone-induced inhibition of CYP17A1 and recommend therapy to resolve the hypermineralocorticoid state.
-
-UpToDate Topic Review(s):
-
-Castrate resistant prostate cancer: treatments targeting the androgen pathway
-
-##### Reference(s):
-
-Attard G, Reid AH, Auchus RJ, et al. Clinical and biochemical consequences of CYP17A1 inhibition with abiraterone given with and without exogenous need prostate cancer. J Clin Endocrinol Metab. 2012;97(2):507-516.
-
-glucocorticoids in castrate men with advanceo de Bono JS, Logothetis CJ, Molina A, et al; COU-AA-301 Investigators. Abiraterone and increased survival in metastatic prostate cancer. N Engl J Med. 2011;364(21):1995-2005.
-
-## Question 21
-
-*[question text missing in OCR]*
-
-
-### Answer 21: D) Core biopsy of the largest thyroid nodule with repeated how� to present with goiter, but it is rarely, if ever, rapidly expanding. Painful thyroiditis can present with a diffuse goit or nodularity, but the physician should make every effort to eliminate the possibility that the growth represents an underlying malignancy. In the thyroid, anaplastic thyroid cancer, medullary carcinoma, and an intrathyroid lymphoma can present in this fashion. Rarely, the thyroid is the site of metastatic disease from a malignancy elsewhere.
-
-21 ANSWER: D) Core biopsy of the largest thyroid nodule with repeated how� to present with goiter, but it is rarely, if ever, rapidly expanding. Painful thyroiditis can present with a diffuse goit or nodularity, but the physician should make every effort to eliminate the possibility that the growth represents an underlying malignancy. In the thyroid, anaplastic thyroid cancer, medullary carcinoma, and an intrathyroid lymphoma can present in this fashion. Rarely, the thyroid is the site of metastatic disease from a malignancy elsewhere.
-
-Many different autoimmune diseases have an increased risk of lymphoma development. This has been well described in rheumatoid arthritis, Sjogren syndrome, systemic lupus erythematosus, celiac disease, and Hashimoto thyroiditis. Sjogren syndrome, Hashimoto thyroiditis, and celiac disease are linked to the development of lymphoma in the involved target organ. For example, Sjogren syndrome is associated with mucosa-associated lymphoid tissue in the parotid gland, Hashimoto thyroiditis is associated with mucosa-associated lymphoid tissue in the thyroid gland, and celiac disease is associated with T-cell lymphoma in the small intestine. Thus, in this patient, further sampling to obtain lymphoid tissue for the evaluation of lymphoma is indicated (Answer D).
-
-In this patient, findings from a core biopsy of the thyroid nodule suggested B-cell lymphoma. As a means of staging disease, not for a diagnostic evaluation, a bone marrow biopsy (Answer C) done after the diagnosis was established and comprehensive imaging, including a fluorodeoxyglucose positron emission tomography scan (Answer A), showed disease dissemination. The avid fluorodeoxyglucose uptake within the patient's neck and its localization with a fused CT scan is shown in the Figure. The patient was referred for chemotherapy and radiotherapy for diffuse large B-cell lymphoma. In addition, his levothyroxine dosage was increased.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_191_1029_1172_1451.jpg" alt="Image" width="82%" /></div>
-
-
-<div style="text-align: center;"><div style="text-align: center;">Primary thyroid lymphoma presents as a rapidly enlarging neck mass, as in this patient. The neck mass is often hard with a smooth surface and can be unilateral or bilateral and associated with lymphadenopathy. Affected</div> </div>
-
-
-patients may be hypothyroid or euthyroid, depending on whether their Hashimoto disease has been recognized and treated and/or whether their Hashimoto thyroiditis has progressed into hypothyroidism. In 1 case series, approximately one-third of patients had an elevated TSH concentration. Unlike differentiated thyroid cancer, an elevated serum TSH concentration per se is not known to be a risk factor for lymphoma development, as might be anticipated given the association of lymphoma with diverse nonthyroid autoimmune diseases. A rapidly growing neck mass with associated compressive symptoms in a patient with Hashimoto hypothyroidism should alert the treating physician to the possibility of thyroid lymphoma, particularly the more aggressive diffuse large B-cell lymphoma. In fact, the most common type of lymphoma seen in association with Hashimoto thyroiditis is diffuse large B-cell lymphoma, which occurs in more than 50% of lymphoma cases.
-
-Measurement of either calcitonin for medullary thyroid carcinoma (Answer B) or thyroglobulin for differentiated thyroid cancer (Answer E) is incorrect, as the FNAB results are not consistent with either of these diagnoses. Securing a tissue diagnosis is the mandatory first step on the basis of the presentation and the patient's history.
-
-##### Educational Objective:
-
-Identify the link between autoimmune hypothyroidism and the development of lymphoma.
-
-UpToDate Topic Review(s):
-
-Disorders that cause hypothyroidism
-
-##### Reference(s):
-
-Baecklund E, Smedby KE, Sutton LA, Askling J, Rosenquist R. Lymphoma development in patients with autoimmune and inflammatory disorders--what are the driving forces? Semin Cancer Biol. 2014;24:61-70.
-
-Stein SA, Wartofsky L. Primary thyroid lymphoma: a clinical review. J Clin Endocrinol Metab. 2013;98(8):3131-3138.
-
-Watanabe N, Noh JY, Narimatsu H, et al. Clinicopathological features of 171 cases of primary thyroid lymphoma: a long-term study involving 24553 patients with Hashimoto's disease. Br J Haematol. 2011;153(2):236-243.
-
-##### ANSWER: C) Cortisol and ACTH measurement
-
-Adrenal insufficiency is a rare disorder that can be caused by autoimmune adrenalitis, infectious adrenalitis, hemorrhagic disease, metastatic invasion, and drugs. Autoimmune causes account for approximately 70% to 90% of adrenal insufficiency cases, although worldwide infectious causes are noted at a higher incidence.
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_38_938_320_1315.jpg" alt="Image" width="23%" /></div>
-
-
-Adrenal insufficiency is also known as Addison disease, so named after Thomas Addison who first described this condition. In this vignette, symptoms of nausea, weight loss, and unexplained hypoglycemia, along with the finding of moderate hypotension, should alert the physician to consider Addison disease. In addition, female gender and an existing diagnosis of type 1 diabetes make Addison disease a very likely possibility in this patient (polyglandular autoimmune syndrome type 2). In an ill patient, the diagnosis of primary adrenal insufficiency is simply made by measuring random cortisol and ACTH levels (Answer C). Although cortisol levels are low in adrenal insufficiency (as well as in healthy persons in the afternoon and evening hours), healthy persons will have low simultaneous ACTH levels, while persons with adrenal insufficiency will have elevated ACTH levels. ACTH stimulation testing can help confirm the diagnosis. Hyperpigmentation (see image) is associated with chronic ACTH stimulation and may occur in later stages of the disease. Persons with undiagnosed adrenal insufficiency can present with an acute adrenal crisis if they experience increased stress in the form of severe infection, infarction, or surgery.
-
-Polyglandular autoimmune syndromes are characterized by endocrine glandular destruction related to autoimmune processes. Women often develop primary adrenal insufficiency related to polyglandular autoimmune syndromes, whereas men generally develop this condition as an isolated autoimmune process. The age of onset is typically between 20 and 40 years. Polyglandular autoimmune syndrome type 1 (APS 1) is also called autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy (APECED). This is a rare autosomal recessive disorder due
-
-to mutations in the autoimmune regulator gene (AIRE). Mucocutaneous candidiasis, mainly involving the mouth, nail beds, and hypoparathyroidism causing hypocalcemia are the initial manifestations, usually seen in childhood. Adrenal insufficiency manifests later. APS 1 is a very unlikely diagnosis in this patient given that she has no evidence of hypoparathyroidism or mucocutaneous candidiasis (thus, Answer E is incorrect).
-
-Malabsorptive autoimmune disorders of the gastrointestinal tract are associated with tryptophan hydroxylase antibodies. Celiac disease is a chronic malabsorptive disorder associated with the presence of IgA antibodies to gliadin and endomysium. Clinical manifestations vary from an asymptomatic state to subclinical disease with nonspecific symptoms of fatigue and mild iron deficiency anemia to classic symptoms of flatulence and diarrhea with bulky, foul-smelling, floating stools due to steatorrhea. Malabsorption can result in growth failure in children weight loss, severe anemia, or deficiency of calcium or vitamins B and D. Type 1 diabetes and celiac disease share multiple genetic loci such as HLA-DR3, HLA-DQ2, and HLA-DQ8 and hence are often seen concurrently. Although this patient has weight loss, her hypoglycemia, electrolyte disturbances, and physical findings are not explained by autoimmune bowel disease (thus. Answers B and D are incorrect).
-
-Thyroid disease is an unlikely cause of this patient's symptoms because she has no goiter or other typical findings of hyperthyroidism such as tachycardia or diarrhea. Thyroid disease is not a common factor causing hypoglycemia. Thus, TSH measurement (Answer A) is an incorrect next step.
-
-##### Educational Objective:
-
-Suspect adrenal insufficiency (Addison disease) in a patient with type 1 diabetes mellitus and order appropriate diagnostic testing.
-
-UpToDate Topic Review(s):
-
-Diagnosis of adrenal insufficiency in adults
-
-##### Reference(s):
-
-Ahonen P, Myllärniemi S, Sipilä I, Perheentupa J. Clinical variation of autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy (APECED) in a of 68 patients. N Engl J Med. 1990;322(26):1829-1836.
-
-Neufeld M, Maclaren NK, Blizzard RM. Two types of autoimmune Addison's disease associated with different polyglandular autoimmune (PGA) syndrome Medicine (Baltimore). 1981;60(5):355-362.
-
-Tobin MV, Aldridge SA, Morris AI, Belchetz PE, Gilmore IT. Gastrointestinal manifestations of Addison's disease. Am J Gastroenterol. 1989;84(10):1302
-
-Aktay AN, Lee PC, Kumar V, Parton E, Wyatt DT, Werlin SL. The prevalence and clinical characteristics of celiac disease in juvenile diabetes in Wisconsin. Pediatr Gastroenterol Nutr. 2001;33(4):462-465.
+## 21 ANSWER: D) Core biopsy of the largest thyroid nodule with repeated flow cytometry
 
 ## Question 32
 
@@ -267,38 +144,6 @@ C. Classic congenital adrenal hyperplasia (11β-hydroxylase deficiency)
 D. Classic congenital adrenal hyperplasia (21α-hydroxylase deficiency)
 
 E. Congenital adrenal hypoplasia
-
-A 56-year-old African American man seeks your advice regarding his cardiovascular risk. He is adopted and knows no details about his family history. He has hypertension controlled on 2 drugs. He has no other conditions. He does not smoke cigarettes and has no known cardiovascular disease. His primary care is to reduce risk. He is a risk for a cardiovascular disease event and recommended that he take a statin to reduce risk. He is coming to you for a second opinion. He states he is reasonably physically active, eats a balanced food, feels healthy. He is willing to take medication if it will help reduce his risk of heart disease, but he is not a risk.
-
-physical examination, blood pressure is 133/82 mm Hg (while on his medications). Height is 66 in (167.6 weight is 170 lb (77.3 kg) (BMI = 27.4 kg/m $ ^{2} $). A full examination reveals no abnormalities.
-
-Laboratory test results (fasting):
-
-Glucose = 105 mg/dL (5.83 mmol/L)
-
-HDL cholesterol = 42 mg/dL (1.09 mmol/L)
-
-Hemoglobin  $ A_{1c}=5.9\% $ (0.059)
-
-LDL cholesterol = 155 mg/dL (4.01 mmol/L)
-
-Total cholesterol = 202 mg/dL (5.23 mmol/L)
-
-Triglycerides = 95 mg/dL (1.07 mmol/L)
-
-His 10-year cardiovascular risk is estimated at 16% using the Adult Treatment Panel III calculator, or 12.9% (lifetime risk 50%) using the American Heart Association/American College of Cardiology risk calculator.
-
-In this patient, starting statin therapy is:
-
-A. Indicated and should be initiated now
-
-B. Indicated and should be initiated now, but in addition to a fibrate
-
-C. Contraindicated because of the risk of causing myopathy
-
-D. Contraindicated because of the risk of causing hemorrhagic stroke
-
-E. Contraindicated because of the risk of causing overt diabetes mellitus
 
 ### Answer 32: E) Congenital adrenal hypoplasia
 
@@ -363,6 +208,68 @@ Suppl 2):S1-S45.
 ATP III risk calculator: http://cvdrisk.nhlbi.nih.gov/
 
 AHA/ACC risk calculator: http://tools.cardiosource.org/ASCVD-Risk-Estimator/
+
+## Question 37
+
+A 66-year-old woman is referred to you after her primary care physician documented an elevated TSH level at a routine visit. She has no specific concerns. Since retiring from her job a year ago, she has noticed an
+
+improved quality of life with a regular exercise routine. She has managed to lose a little weight. She smokes 1 pack of cigarettes daily and has done so for 40 years. For personal reasons, she maintains a low-sodium diet, which is also low in iodine content.
+
+On physical examination, weight is 182 lb (82.7 kg) and height is 64 in (162.6 cm) (BMI = 31.2 kg/m²). Blood pressure is 128/78 mm Hg. Her 20-g thyroid gland has no discrete nodules. Her physical examination findings are normal.
+
+Laboratory test results:
+
+Serum TSH = 6.5 mIU/L
+
+TPO antibodies = 200 IU/mL (200 KIU/L)
+
+Measurements 1 month later:
+
+TSH = 7.0 mIU/L
+
+Serum free  $ T_{4}=1.1 $ ng/dL (14.2 pmol/L)
+
+She has no records of being screened for thyroid dysfunction in the past.
+
+Which of the following factors confers the greatest future risk of her becoming overtly hypothyroid?
+
+A. Cigarette smoking
+
+B. Age older than 65 years
+
+C. Presence of TPO antibodies
+
+D. Adherence to a low-iodine diet
+
+E. Obesity
+
+### Answer 37: C) Presence of TPO antibodies
+
+## 37 ANSWER: C) Presence of TPO antibodies
+
+37 Subclinical hypothyroidism is diagnosed when a patient has an elevated serum TSH value accompanied by normal thyroid hormone levels. The natural history of subclinical hypothyroidism is particularly affected by 2 factors: the magnitude of the serum TSH elevation and the presence or absence of TPO antibodies.
+
+Regarding TSH elevation, the study showed that 52% of patients documented to have baseline serum TSH values that were mildly elevated (5.0-9.9 mIU/L) had normal TSH values at the end of a 3-year period. The percentage of baseline TSH values in the ranges of 10.0 to 14.9 mIU/L and 15.0 to 19.9 mIU/L that normalized after 3 years in the same study were 13% and 5%, respectively. These observations have been confirmed in other studies. For example, in a study of patients older than 65 years, resolution of subclinical hypothyroidism occurred at the 2-year follow-up in 46% of those with TSH values between 4.5 and 6.9 mIU/L, in 10% of those with values between 7.0 and 9.9 mIU/L, and in 7% of those with values of 10.0 mIU/L or greater.
+
+Nevertheless, there is an increased risk of developing overt hypothyroidism even with successively increasing baseline TSH values that fall within the normal range. This risk is affected by TPO antibody status. A study examined the risk of developing overt hypothyroidism during a longer follow-up period of 13 years according to initial TSH groupings of less than 2.5 mIU/L, 2.5 to 4.0 mIU/L, and greater than 4.0 mIU/L in patients with positive thyroid antibodies. Compared with an odds ratio of 1.4 in the group with TSH values less than 2.5 mIU/L, the odds ratio for hypothyroidism was 10 in the group with TSH values between 2.5 and 4.0 mIU/L and 108 for the group with TSH values greater than 4.0 mIU/L. The odds ratios were lower (1, 1.8, and 50, respectively) for the same TSH groups in patients without thyroid antibodies. Thus, some patients with mild TSH elevation, such as this patient, progress to overt hypothyroidism over prolonged periods and monitoring of thyroid function is indicated. A prospective study showed that the calculated risk ratios of overt hypothyroidism in the 3 TSH categories of less than 6.0 mIU/L, 6.0 to 12.0 mIU/L, and greater than 12.0 mIU/L were 1.2, 6.4, and 11.5, respectively, over 10 years of follow-up. These risk ratios increased to 5.3, 10.5, and 15.6 in patients with markedly elevated TPO antibody titers. Similarly, in one of the aforementioned studies, progression to overt hypothyroidism occurred with greater frequency in those with positive thyroid autoantibodies. Conversely, another study demonstrated that resolution of subclinical hypothyroidism is less likely in patients older than 65 years who have positive TPO antibodies than in those with negative antibodies (15% vs 48% of patients) (thus, Answer C is correct). The results of such studies have led to the recommendation to consider measurement of TPO antibodies as part of the evaluation of patients who have subclinical hypothyroidism.
+
+However, in all these studies, patient age did not appear to predict progression to overt hypothyroidism (thus, Answer B is incorrect). Patient sex does not affect the likelihood of progression in some studies, although other studies do find a greater risk of progression in women. The reason for these discrepant findings with respect to sex may relate to the association between female sex and TPO antibodies, such that they are not independent factors. In the studies that have examined BMI, this factor did not affect the risk of developing overt hypothyroidism (thus, Answer E is incorrect). In some studies, the presence of a goiter increases the risk of future hypothyroidism. In one study of populations with different iodine intakes, a high-iodine intake is a further risk factor for development of overt hypothyroidism in patients with TPO antibodies (thus, Answer D is incorrect). Smoking has either been found to have no influence on progression to overt hypothyroidism or has been associated with less likelihood of having TPO antibodies (thus, Answer A is incorrect).
+
+##### Educational Objective:
+
+Explain the natural history of subclinical hypothyroidism and determine the factors most likely to affect its progression to overt hypothyroidism.
+
+UpToDate Topic Review(s): Subclinical hypothyroidism
+
+##### Reference(s):
+
+Diez JJ, Iglesias P. Spontaneous subclinical hypotyroidism in patients older than 55 years: an analysis of natural course and risk factors for the development over the thyroid failure. J Clin Endocrinol Metab. 2004; 89(10):4890-4897.
+
+Somwaru LL, Rariy CM, Arnold AM, Cappola AR. The natural history of subclinical hypothyroidism in the elderly: the cardiovascular health study. J Clin Endocrinol Metab. 2012;97(6):1962-1969.
+
+Walsh JP, Bremner AP, Feddema PJ, Brown SJ, O'Leary P. Thyrotropin and thyroid antibodies as predictors of hypothyroidism: a 13-year, longitudinal study of a community-based cohort using current immunoassay techniques. J Clin Endocrinol Metab. 2010;95(3):1095-1104.
+
+Huber G, Staub JJ, Meier C, Mitrache C, Guglielmetti M, et al. J Clin Endocrinol Metab. 2002;87(7):3221-3226. hypothyroidism: prognostic value of thyrotropin, thyroid reserve, and thyroid antibodies. J Clin Endocrinol Metab. 2002;87(7):3221-3226.
 
 ## Question 43
 
@@ -611,10 +518,112 @@ Xing M, Haugen BR, Schlumberger M. Progress in molecular-based management of dif
 
 Fadda G, Rossi ED, Raffaelli M, et al. Follicular thyroid neoplasms can be classified as low- and high-risk according to HBME-1 and Galectin-3 expression liquid-based fine-needle cytology. Eur J Endocrinol. 2011;165(3):447-453
 
+## Question 56
+
+You are asked to evaluate a 43-year-old woman after thyroidectomy to determine the best next step in her care. She has a 10-year history of bilateral thyroid nodules that were initially identified when she felt fullness in her neck. Ultrasonography at that time showed multiple nodules, all smaller than 2.1 cm. FNAB was performed on the 2 largest nodules, and findings from cytologic analysis were benign. Her TSH level at the time was normal. She was followed up with annual examinations and had no further intervention.
+
+In the past 6 months, she has been concerned that the sensation of neck fullness is increasing and that the nodules are enlarging. Repeated ultrasonography verifies that nodules on both lobes are larger. She undergoes elective total thyroidectomy. The pathologic findings for the larger nodules are benign, documenting nodular hyperplasia. There are no abnormal lymph nodes noted on inspection, and findings on histologic examination of 2 nodes included in the surgical specimen are negative. However, 6 abnormal foci of cells are also identified. The largest of the lesions is 4.5 mm in diameter. Two of these are shown in the image on the left (black arrows). A higher-power view documents nuclear ballooning (black arrows) and nuclear grooves (green arrow) in these lesions.
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_90_363_491_696.jpg" alt="Image" width="36%" /></div>
+
+
+Hematoxylin and eosin stain.
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_496_363_907_696.jpg" alt="Image" width="37%" /></div>
+
+
+Hematoxylin and eosin stain.
+
+After surgery, she is prescribed levothyroxine, 100 mcg daily. She has no complications from surgery and her postoperative calcium level has remained normal. You see her 1 month later.
+
+On physical examination, weight is 204 lb (92.7 kg) and height is 69 in (175.3 cm) (BMI = 30.1 kg/m²). Pulse rate is 84 beats/min, and blood pressure is 112/80 mm Hg. On head and neck examination, her scar is healing well. She has a negative Chvostek sign.
+
+Laboratory test results:
+
+TSH = 3.5 mIU/mL
+
+Calcium = 9.2 mg/dL (2.30 mmol/L)
+
+Thyroglobulin = 0.7 ng/mL (0.7  $ \mu $g/L) (negative thyroglobulin antibodies)
+
+Which of the following should you recommend as the best next management step?
+
+A. Recombinant hTSH followed by 30 mCi  $ ^{131} $iodine for remnant ablation
+
+B. Recombinant hTSH followed by 4 mCi  $ ^{131} $iodine for whole-body scan
+
+C. Recombinant hTSH followed by 150 mCi  $ ^{131} $iodine for adjuvant therapy
+
+D. Return to surgery for more extensive sampling and resection of regional lymph nodes
+
+E. Increase in levothyroxine dosage to reduce TSH into the lower part of the reference range
+
+### Answer 56: E) Increase in levothyroxine dosage to range
+
+## 56 ANSWER: E) Increase in levothyroxine dosage to range
+
+This patient has incidentally identified papillary thyroid care not contain PTC, but rather multiple microscopic foci were operative specimen.
+
+Two foci of PTC are shown in the first image at a magnistructural findings of PTC include the presence of papillae
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_19_542_557_1437.jpg" alt="Image" width="96%" /></div>
+
+
+patients undergoing total thyroidectomy have some small ablated before treating distant disease. Malignant/metasthen the radioactive iodine than normal thyroid tissue and her adjuvant therapy is not indicated, neither is remnant able
+
+Because of the extremely low risk of extrathyroidal spread of microscopic PTC, further neck exploration (Answer D) is not needed for this patient. The proper approach is to increase the levothyroxine dosage (Answer to reduce the TSH level. Whether the TSH level should be maintained in the low-normal range, or slightly below normal, remains under discussion. In this case, the patient's TSH level was maintained between 0.3 and 0.5 m
+
+Protocols for monitoring patients with microscopic multifocal PTC vary. One common practice is to follow up patients with thyroglobulin measurement and annual neck ultrasonography for the first few years, and possibly longer if there is a change in the thyroglobulin level. Patients who do not undergo remnant ablation generally have measureable but low thyroglobulin levels, whereas patients who have had any residual thyroid tissue removed by
+
+##### Educational Objective:
+
+Interpret the histologic and prognostic factors of papillary thyroid cancer and identity patients who will not benefit from radioactive iodine treatment.
+
+UpToDate Topic Review(s):
+
+Overview of papillary thyroid cancer
+
+Reference(s):
+
+Patel SS, Goldfarb M. Well-differentiated thyroid carcinoma: the role of post-operative radioactive iodine administration. J Surg Oncol. 2013;107(6):665-671
+
 ## Question 63
 
-*[question text missing in OCR]*
+A 78-year-old man is seen by his primary care physician for his annual check-up. Generally, he feels well and has no specific concerns, except for a gradual decrement in his energy level and strength. He continues to work part-time. He enjoys single-handed sailing and has noticed it is now harder to complete the tasks necessary to sail the boat by himself. His only chronic medical problems are hypertension, for which he takes hydrochlorothiazide, and osteoarthritis.
 
+On physical examination, weight is 167 lb (75.9 kg) and height is 70 in (177.8 cm) (BMI = 24 kg/m²), both of which are stable since he was last seen 1 year ago. Blood pressure is 134/80 mm Hg. Palpation of the neck reveals a normal-sized, slightly firm thyroid gland. Other findings on physical examination are unremarkable other than some thinning of his skin and osteoarthritic changes in his hands.
+
+Laboratory test results at today's appointment:
+
+ $$ \mathrm{S e r u m~s o d i u m}=134\mathrm{m E q/L}(134\mathrm{m m o l/L}) $$ 
+
+ $$ \mathrm{Other~serum~electrolytes,normal} $$ 
+
+Laboratory test results 2 months later:
+
+TSH = 5.9 mIU/L
+
+ $$ \mathrm{Total~cholesterol}=180\mathrm{mg/dL}(4.66\mathrm{mmol/L}) $$ 
+
+ $$ \mathrm{Free~T}_{4}=1.0\mathrm{~ng/dL} $$ 
+
+ $$ \mathrm{LDL~cholesterol}=129\mathrm{mg/dL}(3.34\mathrm{mmol/L}) $$ 
+
+TPO antibodies = <2.0 IU/mL
+
+ $$  TSH=5.7mIU/L $$ 
+
+In addition to explaining that his thyroid function should be monitored going forward, which of the following would you recommend now?
+
+A. Levothyroxine, 1.6 mcg/kg per day
+
+B. Levothyroxine, 25 mcg daily
+
+C. Levothyroxine initiation if his serum LDL-cholesterol concentration rises above 130 mg/dL (3.37 mmol/L)
+
+D. Levothyroxine initiation if his serum sodium remains below the normal range during routine follow-up testing
+
+E. No thyroid hormone replacement
 
 ### Answer 63: E) No thyroid hormone replacement
 
@@ -686,100 +695,7 @@ Garber AJ, Abrahamson MJ, Barzilay JI, et al. American Association of Clinical E
 
 consensus statement—executive summary. Endocr Pract. 2013;19(3):536-557.
 
-## Question 66
-
-You are asked to consult on a 56-year-old woman who has a 3-month history of unintentional weight loss (20 lb [9.1 kg]), cognitive decline, fatigue, weakness, and hypercalcemia. Her medical history is remarkable for hypertension treated with amlodipine. In the past 2 weeks, her clinical picture has deteriorated, and when her husband brought her to the emergency department, she was experiencing profound weakness, confusion, and hallucinations.
-
-On physical examination, she is a thin woman with bilateral temporal wasting. Height is 65 in (165.1 cm), and weight is 143 lb (65 kg) (BMI = 23.8 kg/m $ ^{2} $). Blood pressure is 164/87 mm Hg. Her breathing is shallow, and finding on abdominal examination are remarkable for an enlarged and palpable spleen. She is oriented only to person.
-
-Laboratory test results:
-
-Serum calcium = 14.7 mg/dL (3.7 mmol/L)
-
-Serum creatinine = 1.9 mg/dL (1299.5 μmol/L)
-
-Serum phosphorus = 4.5 mg/dL (1.5 mmol/L)
-
-Serum albumin = 2.9 g/dL (29 g/L)
-
-Serum alkaline phosphatase = 49 U/L (0.82  $ \mu $kat/L)
-
-Serum lactate dehydrogenase = 625 U/L (10.4  $ \mu $kat/L)
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_2_1004_596_1439.jpg" alt="Image" width="56%" /></div>
-
-
-CT of the abdomen and pelvis reveals an enlarged spleen with numerous low-density masses (see image). The largest splenic mass measures  $ 7.2 \times 6.6 $ cm. The spleen is larger than 18 cm in greatest craniocaudal dimension and is nearly replaced by mass lesions. The pancreas and adrenal glands are normal. There are nonobstructing calculi within the interpolar portion of the left kidney and within the lower pole. A long-bone survey does not reveal any lesions or fractures.
-
-Which of the following patterns of laboratory results is most characteristic of this patient's disease?
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Answer</td><td style='text-align: center; word-wrap: break-word;'>Urinary Calcium Excretion</td><td style='text-align: center; word-wrap: break-word;'>PTH</td><td style='text-align: center; word-wrap: break-word;'>PTHrP</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A.</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>Low</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>B.</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>C.</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>D.</td><td style='text-align: center; word-wrap: break-word;'>High</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>High</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>E.</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>Low</td><td style='text-align: center; word-wrap: break-word;'>High</td></tr></table>
-
-67 A 38-year-old biologic male patient presents to discuss transgender hormone therapy. The patient reports a lifelong feeling of having been born in the wrong body, and she struggled with anxiety and depression in her teenage years and 20s. She states that she drank alcohol heavily in the past, but quit completely after she had an episode of pancreatitis in her late 20s. She struggles with her weight. She recently sought psychological evaluation, and her psychologist concluded that she has gender dysphoria. At today's appointment, the patient requests estrogen therapy, and she presents a letter from her psychologist confirming the diagnosis of gender dysphoria and stating that the patient is ready to transition.
-
-On physical examination, height is 71 in (180.3 cm) and weight is 215 lb (97.7 kg) (BMI = 30.0 kg/m $ ^{2} $). Blood pressure is 136/86 mm Hg, and pulse rate is 72 beats/min. Physical examination findings are otherwise normal.
-
-You counsel the patient regarding potential adverse effects of medications and then prescribe transdermal estradiol and spironolactone. Two months later, she returns for follow-up assessment.
-
-
-
-<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Measurement</td><td style='text-align: center; word-wrap: break-word;'>Before Therapy</td><td style='text-align: center; word-wrap: break-word;'>After 2 Months of Therapy</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Total cholesterol</td><td style='text-align: center; word-wrap: break-word;'>210 mg/dL (5.344 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>245 mg/dL (6.35 mmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>HDL cholesterol</td><td style='text-align: center; word-wrap: break-word;'>26 mg/dL (0.67 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>24 mg/dL (0.62 mmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>LDL cholesterol</td><td style='text-align: center; word-wrap: break-word;'>166 mg/dL (4.30 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Not calculated</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Triglycerides</td><td style='text-align: center; word-wrap: break-word;'>204 mg/dL (2.31 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>780 mg/dL (8.81 mmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Estradiol</td><td style='text-align: center; word-wrap: break-word;'>Not measured</td><td style='text-align: center; word-wrap: break-word;'>43 pg/mL (157.9 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Potassium</td><td style='text-align: center; word-wrap: break-word;'>3.6 mEq/L (3.6 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.2 mEq/L (4.2 mmol/L)</td></tr></table>
-
-In addition to counseling regarding a low-fat diet, which of the following is the best next step in this patient's care?
-
-A. Discontinue estradiol therapy
-
-B. Change the route of estrogen administration to oral delivery
-
-C. Prescribe a fibrate
-
-D. Prescribe niacin
-
-E. Discontinue spironolactone
-
-68 A 59-year-old woman presents for assistance with diabetes control. She was first noted to have diabetes-range fasting hyperglycemia on screening laboratory tests at age 19 years. This followed a 15-lb (6.8 kg) weight gain during her freshman year at college. She was placed on a low-concentrated sweets diet, and she successfully lost weight and was not followed up closely thereafter. At age 29 years, hyperglycemia was again not on routine blood work. Her BMI was 20.8 kg/m². Referral to an endocrinologist led to a presumptive diagnosis of type 1 diabetes, and she was prescribed a multiple daily injection insulin regimen.
-
-Over the past 10 years, her hemoglobin  $ A_{1c} $ levels have ranged from 6.3% to 7.2% (0.063 to 0.072). There are no known diabetes complications. She eats a low-carbohydrate, low-fat diet and exercises for 90 minutes daily. Stakes bupropion for depression and alendronate for osteoporosis.
-
-Her current insulin regimen consists of insulin glargine, 13 units at bedtime, and insulin aspart, 4 to 6 units before meals. She has been measuring glucose levels 0 to 2 times daily since she started insulin therapy, mostly fasting and at bedtime. Her 3-month glucose average is 132 mg/dL (7.33 mmol/L) with a range of 28 to 250 mg/d (1.55 to 13.88 mmol/L). Hypoglycemia occurs mostly overnight. She has a history of hypoglycemia unawareness and has had 3 instances of severe hypoglycemia since her diagnosis.
-
-Her family history is notable for insulin-requiring diabetes mellitus diagnosed in her father at age 20 years and diabetes mellitus diagnosed in her paternal grandmother in her 20s.
-
-On physical examination, height is 65 in (165.1 cm) and weight is 118 lb (53.6 kg) (BMI = 19.6 kg/m $ ^{2} $). Her blood pressure is 117/55 mm Hg, and pulse rate is 66 beats/min. She has normal findings on funduscopic examination, normal peripheral pulses, normal findings on peripheral nerve examination, and no acanthosis nigricans.
-
-Laboratory test results:
-
-Hemoglobin  $ A_{lc} = 7.0\% $ (0.070)
-
-Creatinine = 0.78 mg/dL (70.0 μmol/L)
-
-LDL cholesterol = 135 mg/dL (3.49 mmol/L)
-
-Urinary albumin = 6.8 mg/g creatinine
-
-Triglycerides = 82 mg/dL (0.93 mmol/L)
-
-C-peptide (fasting) = 0.63 ng/mL (0.21 nmol/L)
-
-Total cholesterol = 276 mg/dL (7.15 mmol/L)
-
-HDL cholesterol = 125 mg/dL (3.24 mmol/L)
-
-Glucose (fasting) = 154 mg/dL (8.55 mmol/L)
-
-#### Which of the following actions would most significantly affect her diabetes management?
-
-A. Instructing her in carbohydrate counting to reduce glucose vanity.
-
-B. Increasing the frequency of glucose monitoring to 4 times daily and when she has any symptoms of hypoglycemia.
-
-C. Reducing her insulin aspart dose at the meal before she exercises.
-
-D. Referring her for genetic testing.
-
-E. Switching to insulin pump therapy.
+## Question 69
 
 A 32-year-old woman presents to the emergency department with a 2-day history of a sore throat, general malaise, anorexia, and a high fever associated with rigors. Severe Graves hyperthyroidism was diagnosed months earlier, and she has since been treated with methimazole, 30 mg daily, and propranolol, 80 mg twice daily. She had lost 15.5 lb (7 kg) before Graves hyperthyroidism was diagnosed, and she has regained 2.2 lb (1 kg) since starting methimazole therapy.
 
@@ -819,36 +735,38 @@ D. Administer granulocyte colony-stimulating factors
 
 E. Perform total thyroidectomy after administration of inorganic iodine
 
-70 A 72-year-old man is referred to the endocrine clinic for further management of late-onset hypogonadism. Testosterone deficiency was diagnosed 7 months ago after he presented to his primary care physician with symptoms of impaired concentrating ability, reduced vigor, and weight gain. He did not have sexual dysfunction or loss of body hair. His morning total testosterone concentration was 293 ng/dL (10.2 nmol/L). He was prescribed axillary testosterone solution, 60 mg daily. Although adherent to this medication regimen, he reported lack of benefit to his doctor, which triggered this referral.
+## Question 80
 
-The patient continues to have mental cloudiness. He is also unhappy because he has not lost any weight on testosterone therapy. He is requesting another modality of testosterone replacement that might be more effective. He has a decade-long history of hypertension treated with hydrochlorothiazide and gout treated with probenecid. Otherwise he is healthy. He lives with his wife of 40 years.
+A 56-year-old woman returns for her annual follow-up appointment for Hashimoto hypothyroidism. Hypothyroidism was diagnosed at age 31 years, at which time her serum TSH concentration was 49.0 mIU/L and her TPO antibodies were strongly positive. She had been clinically and biochemically euthyroid for
 
-On physical examination, he is a lively, overweight man. Weight is 193 lb (87.7 kg), and height is 68 in (172.7 cm) (BMI = 29.3 kg/m²). Pulse rate is 76 beats/min, and blood pressure is 138/64 mm Hg. The rest of his examination findings are normal.
+She has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral 188 mcg daily. Her heart rate is 95 beats/min. Her physical examination, height is 64 in (162.6 cm) and 188 mcg daily. She has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral involved in 2 motor vehicle crashes in which she has developed a slight bilateral 188 mcg daily.
+
+On physical examination, height is 64 in (162.6 cm) and weight is 156 kg. Pressure is 134/78 mm Hg. Her heart rate is 95 beats/min. Her thyroid gland is not palpable. Her outstretched hands, and her skin is warm and moist. Otherwise, she has no abnormal physical examination findings.
 
 Laboratory test results:
 
-Testosterone = 487 ng/dL (16.9 nmol/L)
+TSH = 17.0 mIU/L
 
-Prostate-specific antigen = 2.3 ng/mL (2.3  $ \mu $g/L)
+Free  $ T_{4} $ = 1.9 ng/dL (24.5 pmol/L)
 
-Hematocrit = 42.8% (0.428)
+<div style="text-align: center;"><div style="text-align: center;">Past thyroid function test results:</div> </div>
 
-Which of the following is the most appropriate course of action in this patient's care?
 
-A. Discontinue probenecid
 
-B. Change testosterone therapy to transdermal gel
 
-C. Change testosterone therapy to buccal testosterone
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Year</td><td style='text-align: center; word-wrap: break-word;'>TSH</td><td style='text-align: center; word-wrap: break-word;'>Free  $ T_{4} $</td><td style='text-align: center; word-wrap: break-word;'>Levothyroxine Dosage</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2007</td><td style='text-align: center; word-wrap: break-word;'>0.7 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>0.9 ng/dL (11.6 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2008</td><td style='text-align: center; word-wrap: break-word;'>1.5 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.1 ng/dL (14.2 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2009</td><td style='text-align: center; word-wrap: break-word;'>3.7 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.4 ng/dL (18.0 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2010</td><td style='text-align: center; word-wrap: break-word;'>4.9 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.3 ng/dL (16.7 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>112 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2011</td><td style='text-align: center; word-wrap: break-word;'>5.4 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.7 ng/dL (21.9 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>125 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2012</td><td style='text-align: center; word-wrap: break-word;'>7.5 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>2.0 ng/dL (25.7 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>137 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2013</td><td style='text-align: center; word-wrap: break-word;'>9.8 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>1.9 ng/dL (24.5 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>150 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2014</td><td style='text-align: center; word-wrap: break-word;'>12.0 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>2.1 ng/dL (27.1 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>175 mcg daily</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>2015</td><td style='text-align: center; word-wrap: break-word;'>17.0 mIU/L</td><td style='text-align: center; word-wrap: break-word;'>2.2 ng/dL (28.3 pmol/L)</td><td style='text-align: center; word-wrap: break-word;'>188 mcg daily</td></tr></table>
 
-D. Discontinue testosterone therapy
+Which of the following best explains this patient's presentation, physical examination findings, and laboratory results?
 
-E. Start an antidepressant
+A. Intermittent nonadherence with levothyroxine therapy
 
-## Question 80
+B. Impaired absorption of levothyroxine associated with aging
 
-*[question text missing in OCR]*
+C. Pituitary resistance to thyroid hormone
 
+D. Interfering antibodies for the TSH assay
+
+E. TSH-secreting adenoma
 
 ### Answer 80: E) TSH-secreting adenoma
 
@@ -1049,8 +967,33 @@ E. Radioactive iodine ablation following administration of recombinant human TSH
 
 ## Question 90
 
-*[question text missing in OCR]*
+A 39-year-old woman with Hashimoto hypothyroidism returns for follow-up after adjustment of the levothyroxine dosage. Hypothyroidism was diagnosed at age 31 years in the postpartum period. She had a high titer of TPO antibodies and did not recover normal thyroid function. She ultimately developed a serum TSH concentration of 70 mIU/L before levothyroxine was prescribed at a dosage of 112 mcg daily. Her levothyroxine dosage was gradually increased to 150 mcg daily. She had been clinically and biochemically euthyroid while taking this dosage for several years, with her serum TSH concentration being between 1.0 and 3.0 mIU/L.
 
+Over the past 6 months, she has unintentionally lost 8.8 lb (4 kg). She describes being more irritable, having modest heat intolerance, and having a diminished exercise capacity. You have had her return 3 times in the last 6 months for thyroid hormone testing and on each occasion her TSH was suppressed. Thus, her levothyroxine dosage was reduced to 50 mcg daily (her current dosage).
+
+On physical examination, height is 65.5 in (166.4 cm) and weight is 153 lb (69.5 kg) (BMI = 25.1 kg/m $ ^{2} $). Blood pressure is 124/74 mm Hg, and heart rate is 88 beats/min. Her thyroid gland is slightly enlarged and has an irregular texture. She has brisk patellar reflexes.
+
+Thyroid function test results:
+
+Serum TSH = 0.01 mIU/L
+
+Free  $ T_{4} $ = 2.1 ng/dL (27.0 pmol/L)
+
+She confirms that levothyroxine is her only prescription medication. She never takes extra tablets. You inspect the tablets in her levothyroxine pill container and find no error in the prescription. She takes no over-the-counter supplements. Your review of her history does not uncover any reason accounting for her decreased levothyroxine requirement.
+
+Over several subsequent visits, and after further levothyroxine dosage adjustments, you discontinue her levothyroxine. Thyroid function testing 6 weeks later shows a TSH concentration of 2.1 mIU/L and a free T₄ concentration of 1.4 ng/dL (18.0 pmol/L). With this last blood test, you also measure a serum total T₃ level, a serum thyroglobulin concentration, and a spot urinary iodine concentration. Her total T₃ level is 120 ng/dL (1.8 nmol/L), her thyroglobulin concentration is 43 ng/mL (43 μg/L), and her random urinary iodine excretion is 177 μg/L (reference range, 28-544 μg/L).
+
+#### Which of the following best explains euthyroidism after the discontinuation of levothyroxine in this patient?
+
+A. Surreptitious ingestion of liothyronine
+
+B. Ingestion of an over-the-counter supplement containing tiratricol
+
+C. Ingestion of large amounts of nutritional supplements containing iodine
+
+D. Autoimmune thyroid disease with current predominance of thyrotropin receptor-stimulating antibodies
+
+E. Surreptitious ingestion of desiccated porcine thyroid extract
 
 ### Answer 90: D) Autoimmune thyroid disease with current predominance of thyrotropin receptor-stimulating antibodies
 
@@ -1082,102 +1025,64 @@ Hoang TD, Mai VQ, Clyde PW, Shakir MK. Over-the-counter-drug-induced thyroid dis
 
 McLachlan SM, Rapoport B. Thyrotropin-blocking autoantibodies and thyroid-stimulating autoantibodies: potential mechanisms involved in the pendulum swinging from hypothyroidism to hyperthyroidism or vice versa. Thyroid. 2013;23(1):14-24.
 
-## Question 94
+## Question 92
 
-*[question text missing in OCR]*
+A 25-year-old woman presents for further evaluation and management of a newly discovered thyroid nodule. During a visit for an annual examination, her gynecologist palpated a left-sided thyroid nodule. The gynecologist had ordered thyroid function testing and thyroid ultrasonography and referred her to you. The patient has no history of thyroid dysfunction. She has no symptoms suggestive of either hypothyroidism or hyperthyroidism and no compressive symptoms. She has no medical problems. Her only medication is oral contracentives.
+
+On physical examination, height is 66 in (167.6 cm) and weight is 136.5 lb (62 kg) (BMI = 22 kg/m²). Blood pressure is 124/68 mm Hg. On visual inspection, you note that her thyroid gland is asymmetric, with the left lobe being larger than the right lobe. You palpate a mobile, soft, 2-cm nodule within the left lobe of the thyroid. Otherwise, she has no abnormal examination findings.
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_24_333_528_651.jpg" alt="Image" width="44%" /></div>
 
 
-### Answer 94: B) Intravenous zoledronic acid
+Thyroid function test results:
 
-## 94 ANSWER: B) Intravenous zoledronic acid
+ $$  TSH=1.2mIU/L $$ 
 
-Vertebral compression fractures are a risk factor for subsequent vertebral fractures, as well as other osteoporotic fractures. They are also associated with significant morbidity, including chronic back pain, restricted lung function, reduced mobility, and decreased quality of life. Unfortunately, most patients with fragility fractures are not treated for osteoporosis, despite evidence that treatment is beneficial.
+ $$ \mathrm{Free~T}_{4}=1.3\mathrm{~ng/dL}(16.7\mathrm{~pmol/L}) $$ 
 
-Patients who present with vertebral fractures should be worked up for secondary causes of osteoporosis. This patient had a full secondary osteoporosis evaluation, which was unrevealing. Of interest, there is a potential connection between proton-pump inhibitors and bone loss, such as is seen in this patient. Although the exact mechanism remains unproven, the increase in gastric pH reduces the absorption of calcium and thereby results in one loss when these medications are used long term.
+You review her ultrasonography, which shows that the 2.2-cm nodule palpated on the left side of her thyroid is purely cystic. However, the ultrasound images also show a smaller 1.2-cm, nonpalpable nodule in the contralateral lobe (see image, arrow).
 
-This vignette presents a common scenario in which an asymptomatic vertebral compression fracture is noted on imaging obtained for other reasons. It is the clinician's role to recognize these events as skeletal failure that requires prompt evaluation and treatment. This patient's atraumatic spinal compression fracture confirms the diagnosis of osteoporosis, despite the fact that his bone mineral density does not meet the T-score definition of osteoporosis (-2.5 or less). The National Osteoporosis Foundation recommends the following: (1) initiating pharmacologic treatment in patients with hip or vertebral fractures (clinical or asymptomatic) regardless of T-score; (2) initiating therapy in patients with T scores of -2.5 or less at the femoral neck, total hip, or lumbar spine by OXA after appropriate evaluation; and (3) initiating therapy in postmenopausal women and men 50 years or older who have low bone mineral density (T score between -1.0 and -2.5 [osteopenia]) at the femoral neck, total hip, or lumbar spine by DXA and 10-year probabilities of hip fracture or major osteoporotic fracture of ≥3% and ≥20%, respectively (based on the US-adapted WHO absolute fracture risk model [FRAX; www.NOF.org and www.shefac.uk/FRAX]). Although the FRAX score in this patient is under the threshold for treatment, as it only accounts for femoral neck T score, on the basis of his recent vertebral fracture, treatment is warranted.
+Which of the following is the best next diagnostic step?
 
-Oral bisphosphonates (such as alendronate and risedronate) and zoledronic acid are good options for first-line therapy because they reduce the risk of hip and spine fracture. Although oral alendronate (Answer A) would be a treatment option in this patient, given his recent duodenal ulcer and esophageal reflux disease, it may not be the best choice. Gastroesophageal disease is not an absolute contraindication to use of oral bisphosphonates, but caution should be used in patient with active upper gastrointestinal problems such as Barrett esophagus, dysphagia, other esophageal diseases, gastritis, duodenitis, or ulcers. Intravenous zoledronic acid (Answer B) confers no gastrointestinal risk for this patient and therefore would be the preferred choice.
+A. FNAB of the 2.2-cm nodule
 
-Calcitonin (Answer D) reduces risk of spine fracture and may offer analgesic effects in some patients with back pain related to acute fracture; however, it is less potent than other available options and this patient is asymptomatic. Although results from randomized, placebo-controlled trials have suggested little or no benefit in patients with acute vertebral compression fracture, kyphoplasty (Answer C) (the installation of bone cement after inflation of the vertebral body) has been used in patients with severe, incapacitating pain related to the fracture expansion of the vertebral body. These procedures also have been shown to provide clinical pain relief in when pain management has failed. However, kyphoplasty is not the best choice because this patient is patients with fractures due to metastatic disease. However, kyphoplasty is not the best choice because this patient is asymptomatic and the age of the compression fracture appears to be on the order of months.
+B. FNAB of the 1.2-cm nodule
 
-Adding calcium (Answer E) would not be appropriate as the sole intervention, as calcium alone does not reduce hip fracture risk. In addition, he is already consuming at least 600 mg of calcium daily in his diet, as well as 500 mg daily in his multivitamin.
+C. FNAB of both the 2.2-cm and 1.2-cm nodules
 
-#### Educational Objective:
+D. Repeated ultrasonography in 6 months
 
-Diagnose osteoporosis on the basis of a fragility fracture, even without a T score of -2.5 or less, and recommend appropriate osteoporosis treatment.
+E.  $ {}^{123} $I thyroid scan and uptake
 
-UpToDate Topic Review(s):
+## Question 95
 
-Clinical manifestations, diagnosis, and evaluation of osteoporosis in men
+A 52-year-old man attends an urgently scheduled appointment with a cardiologist. He reports increasing symptoms of exertional angina over the past 4 weeks. He has no medical history of cardiovascular disease. He has bipolar disorder for which he takes lithium regularly. He smokes 40 cigarettes daily and has done so for more than 30 years. He reports a family history of hypothyroidism in both his mother and a maternal aunt.
 
-#### Reference(s):
+On physical examination, weight is 202 lb (91.8 kg) and height is 69 in (175.3 cm) (BMI = 29.8 kg/m²). His pulse rate is 94 beats/min and regular, and blood pressure is 152/85 mm Hg. He has a moderately sized multinodular goiter. Other examination findings are unremarkable. His electrocardiogram indicates ischemic changes in the anterior leads, but does not show evidence of an acute coronary event.
 
-National Osteoporosis Foundation. Clinician's Guide to Prevention and Treatment of Osteoporosis. Washington, DC: National Osteoporosis Foundation; 2014.
+Laboratory test results:
 
-Compression Fractures. London, United Kingdom: National Institute for Health and Care Excellence; 2013.
+Tropinin I = <0.6 ng/mL (<0.6  $ \mu $g/L)
 
-Lyles KW, Colón-Emeric CS, Magaziner JS, et al; HORIZON Recurrent Fracture Trial. Zoledronic acid and clinical fracture and mortality after hip fracture. N Engl J Med. 2007;357(18):1799-1809.
+Serum TSH = 0.07 mIU/L
 
-Chestnut CH 3rd, Silverman S, Andriano K, et al. A randomized trial of nasal spray salmon calcitonin in postmenopausal women with established osteoporosis: the prevent recurrence of osteoporotic fractures study. PROOF Study Group. Am J Med. 2000;109(4):267-276.
+Creatinine kinase = 163 U/L (2.7  $ \mu $kat/L)
 
-#### ANSWER: E) Proceed with the angiogram; no additional treatment required
+Serum free  $ T_{4} $ = 1.6 ng/dL (20.6 pmol/L)
 
-95 A substantial increase in the use of radiocontrast-enhanced imaging studies has occurred over the past 2 decades (particularly CT and coronary angiography). Thyroid dysfunction may result as a consequence of sudden exposure to high iodide levels, and both hyperthyroidism and hypothyroidism may occur as a consequence of using iodinated contrast medium (ICM). Radiocontrast agents vary with respect to their iodine content. The usual iodine load in coronary angiography is 100 mL of ICM, conveying 13,500 mcg of free iodide and 30 to 35 g of bound iodine. If coronary angiography is associated with percutaneous coronary intervention, up to 250 mL may be used, resulting in an iodine load of 75 to 87.5 g. The recommended daily intake of iodine for nonpregnant adults is only 150 mcg. However, supraphysiologic doses are well tolerated and the approximate levels above which significant adverse effects are likely to occur in the healthy population are actually much higher. The US Institute of Medicine reports the tolerable upper limit of iodine as 1100 mcg daily.
+The cardiologist wishes to perform a coronary angiogram and asks for your advice regarding the risk and potential management of thyroid dysfunction caused by iodinated contrast medium in this patient.
 
-In individuals with preexisting autoimmunity, supraphysiologic levels of iodine may lead to iodine-induced hyperthyroidism (Jod-Basedow phenomenon). Iodine overload is accompanied by the Wolff-Chaikoff effect, which inhibits iodine organization and thereby reduces formation and release of thyroid hormones. After 8 to 10 days, there usually is an escape phenomenon secondary to low inorganic iodine concentration as a consequence of downregulation of the sodium-iodide symporter on the basolateral membrane of follicular thyroid cells. The presence of autonomous thyroid function permits the synthesis and release of excess quantities of thyroid hormones, resulting in iodine-induced thyrotoxicosis. Risk factors for this condition include Graves disease, nontoxic diffuse or multinodular goiter with thyroid autonomy, age older than 65 years, and residing in an iodine-deficient area. The link between exposure to ICM and new thyroid dysfunction is more common than was previously thought. Iodine-induced thyrotoxicosis cannot easily be differentiated from other forms of thyrotoxicosis.
+How should you advise the cardiologist?
 
-Failure to escape from the Wolff-Chaikoff effect results in iodine-induced hypothyroidism. This may occur in apparently healthy individuals, especially in neonates and infants; in patients older than 65 years; or in patients
+A. Administer metoprolol after coronary angiography
 
-with chronic nonthyroidal illness such as cystic fibrosis, chronic dialysis, thalassemia major, or anorexia nervosa. It may also occur in patients with underlying thyroid disease including euthyroid Graves disease previously treated with surgery, in patients treated with antithyroid drugs or radioiodine, in patients with Hashimoto thyroiditis, and in euthyroid patients with a history of thyroiditis. Furthermore, patients treated with other goitrogens including lithium, phenytoin, carbamazepine, and rifampicin are at risk of ICM-induced hypothyroidism.
+B. Administer prednisone after coronary angiography
 
-The patient described in this vignette has a number of risk factors for ICM-induced thyrotoxicosis including a family history of thyroid dysfunction and the presence of a multinodular goiter. Prophylactic measures have been proposed for patients at high risk, especially if the serum TSH is undetectable. The patient has a low but detectable serum TSH and taking the information provided together, he is not at high risk of ICM-induced hyperthyroidism (thus. Answer E is correct).
+C. Administer methimazole after coronary angiography
 
-(thus, Answer E is correct).
+D. Administer methimazole before coronary angiography
 
-Various regimens have been proposed to prevent hyperthyroidism after administration of ICM. The use of combined therapy with antithyroid drugs and perchlorate has been proposed as effective preventative therapy, although since perchlorate is not widely available, the use of antithyroid drug therapy starting the day before the examination and for 7 to 14 days afterwards (Answers C and D) is a viable alternative. There is insufficient evidence that the patient described is at high risk of ICM-induced thyrotoxicosis; because the proposed treatments have a risk of potentially serious adverse effects, neither of these options is correct.
-
-β-Receptor antagonists (Answer A) are widely used in the management of hyperthyroidism; however, they do not have proven effectiveness in preventing the development of thyrotoxicosis in at-risk patients. The use of oral corticosteroids (Answer B) would also not be indicated in the prevention of thyroid dysfunction in this patient.
-
-##### Educational Objective:
-
-Provide advice regarding the use of iodinated contrast medium and prevention of thyroid dysfunction in this setting.
-
-UpToDate Topic Review(s):
-
-Iodine-induced thyroid dysfunction
-
-##### Reference(s):
-
-Huazik B, Zubelewicz-Szkodzinska B. Radiocontrast-induced thyroid dysfunction: is it common and what should we do about it? Clin Endocrinol (Oxf). 2014;80(3):322-327.
-
-Pearce EN. Iodine-induced thyroid dysfunction: comment on “association between iodinated contrast media exposure and incident hyperthyroidism and hypothyroidism”. Arch Intern Med. 2012;172(2):159-161.
-
-Nolte, Muller R, Siggelkow H, Emrich D, Hufner M. Prophylactic application of thyrostatic drugs during excessive iodine exposure in euthyroid patients with thyroid autonomy: a randomized study. Eur J Endocrinol. 1996;134(3):337-341.
-
-##### ANSWER: A) Inaccurate glucose meter data due to dialysate type
-
-This patient's diabetes is complicated by end-stage renal disease requiring the relatively recent initiation of renal replacement therapy. Subsequent to the initiation of peritoneal dialysis he has had persistent elevation in his self-monitored blood glucose values, resulting in recent increases in his prescribed insulin doses. Although the patient was not reported to have had hypoglycemia at home, he has experienced an episode of severe hypoglycemia on this occasion requiring the intervention of emergency medical personnel.
-
-In this situation, it is critical to note that the patient is using an icodextrin-containing peritoneal dialysate solution. Icodextrin is commonly used as an osmotic agent in such solutions, and it is primarily metabolized to the sugar maltose. Many glucose meters and test strips do not measure glucose via glucose-specific methodologies. These devices cannot distinguish glucose from xylose, maltose, or galactose, and they may provide falsely elevated readings in the presence of such sugars. Indeed, numerous reports document individuals using icodextrin-containing dialysate being prescribed excessive insulin doses in response to erroneous glucose meter data. In some cases, this has resulted in severe hypoglycemia, coma, and even death. Thus, inaccurate glucose meter data due to the patient's dialysate type (Answer A) is most likely the primary contributor to his hypoglycemia. Patients prescribed this type of dialysate should always use glucose-specific monitors and test strips. A list of devices (glucose-specific vs non-glucose-specific) is available at www.glucosesafety.com. Also important to note is that in patients with clinically significant renal dysfunction, icodextrin and maltose metabolites may not be cleared for 2 or more weeks after icodextrin is discontinued.
-
-Compared with individuals with normal renal function, patients with chronic kidney disease are at increased risk for hypoglycemia. In patients with diabetes and end-stage renal disease, multiple factors contribute to this increased risk. These factors may include decreased renal gluconeogenesis due to decreased renal mass (Answer B), decreased renal clearance of insulin and other antihyperglycemic medications (Answer C), decreased degradation of insulin in peripheral tissues, and reduced glycogen stores due to anorexia. Although all of these factors may contribute to this increase due to bacterial peritonitis (Answer D) is always a possibility in a patient receiving peritoneal disease.
-
-Sepsis due to bacterial peritonitis (Answer D) is always a possibility in a patient receiving peritoneal dialysis. This patient was hypotensive on presentation, but he has responded well to intravenous fluid resuscitation. He is also afebrile and has no signs suggestive of peritonitis on physical examination; thus, sepsis due to peritonitis does not appear a likely explanation of his current hypoglycemia. Although previously undetected adrenal insufficiency (Answer E) should be considered in a patient with unexplained hypotension and hypoglycemia, it is not the most likely explanation for this patient's severe hypoglycemic episode.
-
-#### Educational Objective:
-
-Anticipate the potential effect of icodextrin-containing dialysate on glucose meter results.
-
-UpToDate Topic Review(s):
-
-Insulin therapy in type 2 diabetes mellitus
-
-#### Reference(s):
-
-Frias JP, Lim CG, Ellison JM, Montandon CM. Review of adverse events associated with false glucose readings measured by GDH-PQQ-based glucose test strips in the presence of interfering sugars. Diabetes Care. 2010;33(4):728-729.
-
-Sloand JA. Dialysis patient safety: safeguards to prevent iatrogenic hypoglycemia in patients receiving icodextrin. Am J Kidney Dis. 2012;60(4):514-516. Moen MF, Zhan M, Hsu VD, et al. Frequency of hypoglycemia and its significance in chronic kidney disease. Clin J Am Soc Nephrol. 2009;4(6):1121-1127.
+E. Proceed with the angiogram; no additional treatment required
 
 ## Question 97
 
@@ -1335,8 +1240,42 @@ Griffith DP, Liff DA, Ziegler TR, Esper GJ, Winton EF. Acquired copper deficienc
 
 ## Question 113
 
-*[question text missing in OCR]*
+A 62-year-old woman is referred for evaluation of goiter. She was found to have asymmetric, right-side neck enlargement with a palpable  $ 1.5 \times 2 $-cm thyroid nodule.
 
+Laboratory test results:
+
+Serum TSH = 4.2 mIU/L
+
+Serum free  $ T_{4}=1.1 $ ng/dL (14.2 pmol/L)
+
+TPO antibodies, mildly elevated
+
+On physical examination, weight is 173 lb (78.6 kg) and height is 65 in (165 cm) (BMI = 28.8 kg/m²). Her blood pressure is 145/84 mm Hg. On direct questioning, she reports no symptoms of thyroid dysfunction or compression. You confirm the presence a right-sided multinodular goiter with a palpable thyroid nodule measuring 2 × 2.5 cm. Thyroid ultrasonography is performed. This confirms the presence of a right-sided multinodular goiter with 3 nodules measuring 20 × 16 × 26 mm, 10 × 14 × 11 mm, and 9 × 12 × 10 mm. There is no evidence of increased vascular flow on Doppler sonography in any of the nodules. There are no thyroid nodules on the left side and no enlarged or abnormal neck nodes. The images of the palpable nodule and 2 other right-sided nodules are displayed below.
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_114_959_403_1303.jpg" alt="Image" width="29%" /></div>
+
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_409_952_698_1303.jpg" alt="Image" width="29%" /></div>
+
+
+(Palpable nodule, 20 × 16 × 26 mm) (Nodule 2, 10 × 14 × 11 mm)
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_701_948_993_1306.jpg" alt="Image" width="29%" /></div>
+
+
+(Nodule 3, 9 × 12 × 10 mm)
+
+Which of the following best describes the most appropriate management?
+
+A. Perform FNAB of the palpable thyroid nodule
+
+B. Perform FNAB of all 3 thyroid nodules
+
+C. Measure serum thyroglobulin and thyroglobulin antibodies
+
+D. Perform ultrasonography again in 6 months to determine interval growth
+
+E. Perform thyroid scintigraphy
 
 ### Answer 113: A) Perform FNAB of the palpable thyroid nodule
 

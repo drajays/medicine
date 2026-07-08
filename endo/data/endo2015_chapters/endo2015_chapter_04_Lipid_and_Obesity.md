@@ -3,8 +3,29 @@ Questions: 4, 8, 19, 25, 33, 41, 52, 58, 67, 75, 87, 99, 110, 116
 
 ## Question 4
 
-*[question text missing in OCR]*
+A 19-year-old man presents to establish care. Type 1 diabetes mellitus was diagnosed at age 7 years. He reports a history of poor diabetes control, with hemoglobin  $ A_{1c} $ levels in the 8% to 10% (0.080 to 0.100) range for the past several years, but he has recently refocused his efforts with therapy adherence and has noted some improvement in his glycemic control. He currently uses an insulin pump. He has retinopathy, but no other diabetes complications. He is the only member of his family with type 1 diabetes, but several maternal relatives have type 2 diabetes. His family history is also notable for heart disease in his paternal grandparents who are in their 60s, as well as hypertension and obesity in both parents. He does not consume alcohol, but smokes 1 pack of cigarettes per day.
 
+On physical examination, height is 68 in (172.7 cm) and weight is 266 lb (120.9 kg) (BMI = 40.4 kg/m $ ^{2} $). Pulse rate is 99 beats/min, and blood pressure is 125/80 mm Hg. Physical examination findings are normal except for obesity and acanthosis nigricans.
+
+Laboratory test results (fasting):
+
+Hemoglobin  $ A_{lc}=7.8\% $ (0.078)
+
+Aspartate aminotransferase = 43 U/L (0.7 μkat/L)
+
+Total cholesterol = 224 mg/dL (5.80 mmol/L)
+
+Alanine aminotransferase = 95 U/L (1.6 μkat/L)
+
+HDL cholesterol = 26 mg/dL (0.67 mmol/L)
+
+LDL cholesterol = 186 mg/dL (4.82 mmol/L)
+
+Creatinine = 0.77 mg/dL (68.1 μmol/L)
+
+Triglycerides = 229 mg/dL (2.59 mmol/L)
+
+TSH = 2.83 mIU/L
 
 ## Question 8
 
@@ -32,38 +53,6 @@ D. Risk of developing diabetic microvascular disease
 
 E. Need for insulin therapy
 
-A 65-year-old man with a 30-year history of type 1 diabetes mellitus returns to see you for a routine follow-up appointment. He was referred to you for management 2 years ago after recurrent episodes of hypoglycemia, some of which had been severe and required the assistance of others. At that time, his insulin therapy was changed to a regimen including once-daily dosing of insulin glargine and multiple daily doses of insulin aspart with meals.
-
-The patient keeps a careful blood glucose log in which he records 8 to 10 fingerstick blood glucose readings daily. His glycemic control stabilized following the change in his insulin regimen. Although he periodically experiences blood glucose levels between 60 and 70 mg/dL (3.33-3.89 mmol/L) in the very early morning, his ability to sense hypoglycemia has improved. The patient's most recent episode of severe hypoglycemia occurred 18 months ago during the nighttime while he was asleep. His diabetes is complicated by microalbuminuria, peripheral neuropathy, and retinopathy that has required photocoagulation but not resulted in clinically significant vision impairment.
-
-Although he has never experienced a driving mishap related to hypoglycemia, he voluntarily stopped driving when he was referred to you for care. He now asks whether it would be advisable for him to resume operation of a motor vehicle for personal use.
-
-On physical examination, the patient is alert and appears well. Blood pressure is 127/64 mm Hg, and pulse rate is 62 beats/min. Height is 67.5 in (171.5 cm), and weight is 162 lb (73.6 kg) (BMI = 25.0 kg/m²). He has evidence of previous photocoagulation on undilated fundoscopic examination, but visual fields are grossly intact. He has no foot deformities, foot lesions, or gait abnormalities. He has a few areas of sensory loss on monofilament testing of the plantar surfaces of both feet, but proprioception is preserved.
-
-Laboratory test results:
-
-Hemoglobin  $ A_{1c}=7.6\% $ (0.076)
-
-Sodium = 141 mEq/L (141 mmol/L)
-
-Glomerular filtration rate = 70.2 mL/min per 1.73 m²
-
-Creatinine = 1.3 mg/dL (114.9 μmol/L)
-
-TSH = 1.85 mIU/L
-
-In addition to reducing the patient's dosage of insulin glargine, which of the following should you recommend now?
-
-A. Continued avoidance of driving given his high risk of hypoglycemia-related mishaps
-
-B. Continued avoidance of driving given his diabetes-related complications
-
-C. Resumption of driving after education to minimize risk of hypoglycemia while driving
-
-D. Transition to insulin pump therapy before resumption of driving
-
-E. Use of a continuous glucose-monitoring device during all periods of driving
-
 ## Question 19
 
 A 40-year-old woman comes to your office for a preventative examination. She considers herself to be healthy, but she is concerned about her family history, which includes several family members with type 2 diabetes mellitus and its complications. Her fasting blood glucose was measured 2 years ago and it was normal. She is very conscientious about her eating habits—adopting a Mediterranean-style diet and participating in a regular activity program with a trainer. She attends the gym 4 to 5 times per week and engages in aerobic, resistance, and toning activities. She has never been overweight, although she has gained a few pounds over the past couple years. As part of a research study, she had a body composition measurement. She was provided a copy of her test results, which reported her percent body fat to be 37%. She is unsure of the implications of this result to her overall health and risk for a cardiac event. She takes no prescription medications, but she does take a daily calcium and vitamin D supplement.
@@ -79,8 +68,43 @@ On physical examination, she appears well. Height is 65 in (165.1 cm), and weigh
 
 ## Question 25
 
-*[question text missing in OCR]*
+A 31-year-old man has a history of Rathke cleft cyst treated with transsphenoidal surgery. He presents for follow-up of his persistent anterior pituitary failure and review of his hormone replacement regimen. He is doing well, but he is concerned about ongoing weight gain. His thyroid hormone replacement dosage was adjusted several times, but it has now been stable for the past 6 months. He otherwise has no concerns. He has been following a calorie-counting weight-loss program and has lost about 4.4 lb (2 kg) in the last month. He has instituted an exercise program and visits the gym 3 times per week to participate in both aerobic and resistance exercises.
 
+Weight history:
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan="2">Measurement</td><td colspan="3">Time Point</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>High School</td><td style='text-align: center; word-wrap: break-word;'>Before Transsphenoidal Surgery</td><td style='text-align: center; word-wrap: break-word;'>Today</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Weight</td><td style='text-align: center; word-wrap: break-word;'>268 lb (121.8 kg)</td><td style='text-align: center; word-wrap: break-word;'>286 (130 kg)</td><td style='text-align: center; word-wrap: break-word;'>321 lb (145.9 kg)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>BMI</td><td style='text-align: center; word-wrap: break-word;'>34  $ kg/m^{{2}} $</td><td style='text-align: center; word-wrap: break-word;'>36  $ kg/m^{{2}} $</td><td style='text-align: center; word-wrap: break-word;'>41.2  $ kg/m^{{2}} $</td></tr></table>
+
+Medications include testosterone gel, 20.25/1.25 g, 3 pumps applied to the chest and shoulders topically daily; hydrocortisone, 15 mg in the morning and 5 mg in the evening; levothyroxine, 125 mcg daily; and vitamin D $ ^{3} $, 1000 IU daily.
+
+On physical examination, he appears well. Blood pressure is 120/65 mm Hg. His thyroid gland is normal. He does not have striae on skin examination, his obesity is primarily central in distribution, and his muscle strength is normal. Testicular volume is 12 mL bilaterally.
+
+Laboratory test results:
+
+TSH = 0.9 mIU/L
+
+Bioavailable testosterone = 179 ng/dL (6.2 nmol/L)
+
+Free  $ T_{4} $ = 0.9 ng/dL (11.6 pmol/L)
+
+ $$  GH=0.04ng/mL(0.04\mu g/L) $$ 
+
+Total testosterone = 416 ng/dL (14.4 nmol/L)
+
+He undergoes indirect calorimetry, which reveals a measured basal metabolic rate of 1844 kcal. This corresponds to 69% of predicted basal caloric requirements on the basis of his age, height, and weight.
+
+Which of the following is the best next step to facilitate this patient's weight loss efforts?
+
+A. Start DHEA supplementation
+
+B. Increase his levothyroxine dosage
+
+C. Start GH supplementation
+
+D. Start liothyronine supplementation
+
+E. Increase his testosterone dosage
 
 ### Answer 25: B) Increase his levothyroxine dosage This
 
@@ -116,8 +140,37 @@ Bhasin S, Cunningham GR, Hayes FJ, Matsumoto AM, Snyder PJ, Swerdloff RS, Montor
 
 ## Question 33
 
-*[question text missing in OCR]*
+A 56-year-old African American man seeks your advice regarding his cardiovascular risk. He is adopted and knows no details about his family history. He has hypertension controlled on 2 drugs. He has no other conditions. He does not smoke cigarettes and has no known cardiovascular disease. His primary care is to reduce risk. He is a risk for a cardiovascular disease event and recommended that he take a statin to reduce risk. He is coming to you for a second opinion. He states he is reasonably physically active, eats a balanced food, feels healthy. He is willing to take medication if it will help reduce his risk of heart disease, but he is not a risk.
 
+physical examination, blood pressure is 133/82 mm Hg (while on his medications). Height is 66 in (167.6 weight is 170 lb (77.3 kg) (BMI = 27.4 kg/m $ ^{2} $). A full examination reveals no abnormalities.
+
+Laboratory test results (fasting):
+
+Glucose = 105 mg/dL (5.83 mmol/L)
+
+HDL cholesterol = 42 mg/dL (1.09 mmol/L)
+
+Hemoglobin  $ A_{1c}=5.9\% $ (0.059)
+
+LDL cholesterol = 155 mg/dL (4.01 mmol/L)
+
+Total cholesterol = 202 mg/dL (5.23 mmol/L)
+
+Triglycerides = 95 mg/dL (1.07 mmol/L)
+
+His 10-year cardiovascular risk is estimated at 16% using the Adult Treatment Panel III calculator, or 12.9% (lifetime risk 50%) using the American Heart Association/American College of Cardiology risk calculator.
+
+In this patient, starting statin therapy is:
+
+A. Indicated and should be initiated now
+
+B. Indicated and should be initiated now, but in addition to a fibrate
+
+C. Contraindicated because of the risk of causing myopathy
+
+D. Contraindicated because of the risk of causing hemorrhagic stroke
+
+E. Contraindicated because of the risk of causing overt diabetes mellitus
 
 ## Question 41
 
@@ -253,8 +306,33 @@ Kiani J, Imam SZ. Medicinal importance of grapefruit juice and its interaction w
 
 ## Question 58
 
-*[question text missing in OCR]*
+A 54-year-old woman is seen for follow-up after undergoing Roux-en-Y gastric bypass 6 months ago to experience remission of her impaired fasting hyperglycemia, hypertension, hyperlipidemia, and obstructive sleep apnea. Her preoperative weight was 306.5 lb (139.3 kg), and her weight today was 224 lb (101.8 kg).
 
+Two weeks ago, she developed severe back and groin pain for which she went to her local emergency department. After testing and x-rays, she was told she had kidney stones. You review the emergency department records that document a urinalysis with hematuria (no other abnormalities) and a kidneys-ureter-bladder radiograph showing a radiopaque stone. She has no personal or family history of nephrolithiasis.
+
+Her current medications are calcium carbonate, 750-mg chewable tablet, 2 tablets by mouth twice daily; vitamin B $ _{12} $, 1000 mcg subcutaneously once monthly; a children's chewable multivitamin, twice daily; and vitamin D $ _{3} $, 2000 IU once daily.
+
+On physical examination, BMI is $37 \, \text{kg/m}^2$. Her blood pressure is $104/84 \, \text{mm Hg}$, and pulse rate is $84 \, \text{beats/min}$. The rest of her examination findings are unremarkable.
+
+You order the laboratory testing recommended by her bariatric surgery program:
+
+Complete blood cell count, normal Lipid profile, normal
+
+Ferritin, normal Serum calcium = 9.7 mg/dL (2.4 mmol/L)
+
+Blood glucose (fasting), normal 25-Hydroxyvitamin D = 28 ng/mL (69.9 nmol/L)
+
+You next order a 24-hour urine supersaturation profile. An increase in which of the following is the most likely finding?
+
+A. Calcium excretion
+
+B. Citrate excretion
+
+C. Uric acid crystals
+
+D. Calcium oxalate crystals
+
+E. Urine volume
 
 ### Answer 58: D) Calcium oxalate crystals
 
@@ -284,8 +362,27 @@ Park AM, Storm DW, Fulmer BR, Still CD, Wood GC, Hartle JE 2nd. A prospective st
 
 ## Question 67
 
-*[question text missing in OCR]*
+A 38-year-old biologic male patient presents to discuss transgender hormone therapy. The patient reports a lifelong feeling of having been born in the wrong body, and she struggled with anxiety and depression in her teenage years and 20s. She states that she drank alcohol heavily in the past, but quit completely after she had an episode of pancreatitis in her late 20s. She struggles with her weight. She recently sought psychological evaluation, and her psychologist concluded that she has gender dysphoria. At today's appointment, the patient requests estrogen therapy, and she presents a letter from her psychologist confirming the diagnosis of gender dysphoria and stating that the patient is ready to transition.
 
+On physical examination, height is 71 in (180.3 cm) and weight is 215 lb (97.7 kg) (BMI = 30.0 kg/m $ ^{2} $). Blood pressure is 136/86 mm Hg, and pulse rate is 72 beats/min. Physical examination findings are otherwise normal.
+
+You counsel the patient regarding potential adverse effects of medications and then prescribe transdermal estradiol and spironolactone. Two months later, she returns for follow-up assessment.
+
+
+
+<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Measurement</td><td style='text-align: center; word-wrap: break-word;'>Before Therapy</td><td style='text-align: center; word-wrap: break-word;'>After 2 Months of Therapy</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Total cholesterol</td><td style='text-align: center; word-wrap: break-word;'>210 mg/dL (5.344 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>245 mg/dL (6.35 mmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>HDL cholesterol</td><td style='text-align: center; word-wrap: break-word;'>26 mg/dL (0.67 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>24 mg/dL (0.62 mmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>LDL cholesterol</td><td style='text-align: center; word-wrap: break-word;'>166 mg/dL (4.30 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>Not calculated</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Triglycerides</td><td style='text-align: center; word-wrap: break-word;'>204 mg/dL (2.31 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>780 mg/dL (8.81 mmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Estradiol</td><td style='text-align: center; word-wrap: break-word;'>Not measured</td><td style='text-align: center; word-wrap: break-word;'>43 pg/mL (157.9 pmol/L)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Potassium</td><td style='text-align: center; word-wrap: break-word;'>3.6 mEq/L (3.6 mmol/L)</td><td style='text-align: center; word-wrap: break-word;'>4.2 mEq/L (4.2 mmol/L)</td></tr></table>
+
+In addition to counseling regarding a low-fat diet, which of the following is the best next step in this patient's care?
+
+A. Discontinue estradiol therapy
+
+B. Change the route of estrogen administration to oral delivery
+
+C. Prescribe a fibrate
+
+D. Prescribe niacin
+
+E. Discontinue spironolactone
 
 ### Answer 67: C) Prescribe a fibrate
 
@@ -317,13 +414,49 @@ Meriggiola MC, Jannini EA, Lenzi A, Maggi M, Manieri C. Endocrine treatment of t
 
 ## Question 75
 
-*[question text missing in OCR]*
+A 54-year-old man makes an appointment to discuss hyperlipidemia (self-referral). He has a history of focal segmental glomerulosclerosis causing progressive renal failure and he recently started hemodialysis. His nephrologist has been counseling him regarding his elevated risk for cardiovascular disease and advising him about risk reduction. He is being assessed for possible renal transplant. He does not smoke cigarettes. He has longstanding hypertension (controlled on 3 medications) and a family history of cardiovascular disease in his father and paternal uncle who had myocardial infarctions at age 52 years and 48 years, respectively.
 
+On physical examination, height is 73 in (185.4 cm) and weight is 195 lb (88.6 kg) (BMI = 25.7 kg/m $ ^{2} $). Blood pressure is 128/64 mm Hg, and pulse rate is 74 beats/min. Examination findings are abnormal only for a vascular thrill in his left arm where he has an arteriovenous fistula.
+
+Laboratory test results (fasting):
+
+Total cholesterol = 200 mg/dL (5.18 mmol/L)
+
+LDL cholesterol = 158 mg/dL (4.09 mmol/L)
+
+HDL cholesterol = 32 mg/dL (0.83 mmol/L)
+
+Triglycerides = 176 mg/dL (1.99 mmol/L)
+
+He wants to know whether he should start a statin to reduce his cardiovascular risk. Which of the following should you recommend?
+
+A. Start a statin; he will have the same relative risk reduction as that of a patient with normal renal function
+
+B. Start a statin; however, his relative risk reduction is less than that of a patient without chronic kidney disease
+
+C. Start a statin; specifically, simvastatin—no other statin has been shown to reduce cardiovascular risk in patients with chronic kidney disease
+
+D. Do not start a statin; it is contraindicated in this patient
+
+E. Do not start a statin; it has no cardiovascular benefit in this patient
 
 ## Question 87
 
-*[question text missing in OCR]*
+A 66-year-old man is interested in bariatric surgery. He has a longstanding history of being obese despite multiple weight-loss attempts. He is currently at his heaviest weight of 338 lb (153.6 kg). He has difficulty adhering to dietary recommendations. He struggles with enforcing portion control, making healthful choices, and managing hunger and cravings. Three years ago, he lost weight in preparation for total knee arthroplasty (left knee), which was complicated by deep venous thrombosis. Unfortunately, he regained the weight initially lost. Over the past year, he has been more limited in his activity because of symptomatic osteoarthritis involving his right knee. He has been advised that he will need a total knee arthroplasty for his right knee, but that he is not eligible at his current weight. He experienced a myocardial infarction 6 years ago, but he currently has no active angina symptoms and at his most recent cardiac assessment, he was not advised to make any changes to his program. Other health concerns include hypertension, hyperlipidemia, impaired fasting hyperglycemia, and obstructive sleep apnea for which he uses continuous positive airway pressure. According to his pulmonologist, his sleep has markedly improved with this treatment, and his pulmonary function is within normal limits while using continuous positive airway pressure. He does not currently smoke cigarettes; he quit after his myocardial infarction. His current medications are aspirin, 81 mg daily; a calcium and vitamin D supplement; furosemide, 20 mg daily; metoprolol, 100 mg daily; simvastatin, 20 mg daily; and a multivitamin daily.
 
+On physical examination, weight is 338 lb (153.6 kg) and height is 70.5 in (179.1 cm) (BMI = 48.0 kg/m²). Pulse rate is 68 beats/min, and blood pressure is 110/71 mm Hg. He has lower-extremity edema and hyperpigmentation consistent with venous stasis. The rest of the examination findings are normal.
+
+As you discuss bariatric surgery with this patient, which of the following aspects of his history and physical examination is associated with higher perioperative mortality?
+
+A. Obstructive sleep apnea
+
+B. History of coronary artery disease
+
+C. BMI of 48 kg/m²
+
+D. History of deep venous thrombosis
+
+E. History of cigarette smoking
 
 ### Answer 87: D) History of deep venous thrombosis
 
@@ -349,13 +482,71 @@ Finks JF, English WJ, Carlin AM, et al; Michigan Bariatric Surgery Collaborative
 
 ## Question 99
 
-*[question text missing in OCR]*
+A 50-year-old woman is referred for evaluation of paresthesias involving her feet. She has a history of medically complicated obesity and impaired fasting hyperglycemia for which she underwent Roux-en-Y stric bypass 5 years ago. Since her operation, she has lost approximately 100 lb (45.5 kg). Her impaired fasting hyperglycemia promptly resolved after surgery. Her procedure was uncomplicated, and her last visit with her stric team was about 4 years ago. She has since been under the care of her local primary care physician. She is a multivitamin, 2 tablets daily; a daily calcium supplement; vitamin D, 4000 IU daily; and vitamin B₁₂, 500 daily orally.
 
+On physical examination, blood pressure is 130/80 mm Hg and pulse rate is 72 beats/min. Weight is 220 lb and height is 64.5 in (163.8 cm) (BMI = 37.2 kg/m²). Neurologic examination reveals no focal findings, but sensory impairment is noted by monofilament in the lower extremities. Deep tendon reflexes are present.
+
+Laboratory test results (ordered by referring physician):
+
+Hemoglobin = 12.0 g/dL (120 g/L)
+
+Mean corpuscular volume = 100.0 μm³ (100.0 fL)
+
+White blood cell count = 8300/μL (8.3 × 10⁹/L)
+
+Platelet count = 288 × 10³/μL (288 × 10⁹/L)
+
+Blood glucose (fasting) = 98 mg/dL (5.44 mmol/L)
+
+Creatinine = 0.7 mg/dL (61.9 μmol/L)
+
+Vitamin B $ _{12} $ = 210 pg/mL (210 ng/L)
+
+Ferritin = 29 ng/mL (65.2 pmol/L)
+
+Folate = 5.3 ng/mL (5.3  $ \mu $g/L)
+
+Which of the following is the most appropriate next step in the evaluation of this patient's symptoms?
+
+A. Serum thiamine measurement
+
+B. Hemoglobin  $ A_{1c} $ measurement
+
+C. Copper measurement
+
+D. Methylmalonic acid measurement
+
+E. Reassurance; no other action is required
 
 ## Question 110
 
-*[question text missing in OCR]*
+A 48-year-old man presents to discuss cardiovascular risk. He has treated hypertension, he smokes cigars occasionally (but not cigarettes), and he describes having a high-stress life. He works 60 to 80 hours per week, eats most of his meals at restaurants, and struggles to find time to exercise. His father died in a car crash at age 35 years, but his mother is alive and healthy and takes no medications. However, several paternal male relatives (2 uncles and his grandfather) had cardiovascular events in their 40s and 50s. The patient's primary care physician has told him that he should be on a statin, but he has seen advertisements for a variety of tests that can assess cardiovascular risk, and he wants to know if he really needs medication. He asks which tests he should have.
 
+On physical examination, height is 74 in (188 cm) and weight is 250 lb (113.6 kg) (BMI = 32.1 kg/m $ ^{2} $). Blood pressure is 128/74 mm Hg. The rest of his examination findings are normal.
+
+Laboratory test results (fasting):
+
+Total cholesterol = 264 mg/dL (6.84 mmol/L)
+
+LDL cholesterol = 160 mg/dL (4.14 mmol/L)
+
+HDL cholesterol = 41 mg/dL (1.06 mmol/L)
+
+Triglycerides = 189 mg/dL (2.14 mmol/L)
+
+You enter these results into a risk calculator and conclude that he falls into the intermediate-risk category.
+
+Which of the following is the most cost-effective test to order for this patient?
+
+A. Assessment of coronary-artery calcium score
+
+B. Assessment of HDL function
+
+C. Contrast-enhanced coronary CT angiography
+
+D. Measurement of lipoprotein(a)
+
+E. Measurement of apolipoprotein B or LDL particle number
 
 ### Answer 110: E) Measurement of apolipoprotein B or LDL particle number
 
@@ -405,8 +596,23 @@ Sniderman AD, Williams K, Contois JH, Monroe HM, McQueen MJ, de Graaf J, Furberg
 
 ## Question 116
 
-*[question text missing in OCR]*
+You are asked to see a 42-year-old woman who is concerned about her bone health. Her mother received a 65 years and osteoporosis was subsequently diagnosed. The experienced a vertebral fracture at age 65 years has never been assessed. She has no patient has never had a bone fracture herself, and her bone mineral density has never been assessed. Her menses are regular history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or steroid therapy. She does not smoke cigarettes. Her history of hypercalcemia, renal stones, or sodium andฆoo, and no gastrointestinal symptoms such as diarrhea. Six months as calcium). She has no history of bowel disease and no separate vitamin D supplement. She is interested in knowing whether her calcium and vitamin D supplementation is sufficient.
 
+Current medications are elemental calcium 500 mg/vitamin D₃ 400 IU twice daily, with additional vitamin D 5000 IU once daily.
+
+On physical examination, weight is 210 lb (95.5 kg) and height is 64 in (162.6 cm) (BMI = 30 kg/m $ ^{2} $). Asid from obesity, examination findings are normal.
+
+Which of the following is the best next step in counseling her regarding nutritional intervention?
+
+A. Increase elemental calcium supplementation to 1500 mg daily
+
+B. Decrease elemental calcium supplementation to 500 mg daily
+
+C. Decrease vitamin D intake to 800 IU daily
+
+D. Switch to 50,000 IU weekly of vitamin D $ _{2} $
+
+E. Continue current regimen
 
 ### Answer 116: C) Decrease vitamin D intake to 800 IU daily. Maintaining adequate calcium and vitamin D intake is a cornerstone in the management and prevention of osteoporosis. The current recommended intake for calcium and vitamin D for women with postmenopausal osteoporosis is 1200 mg daily and 800 IU daily, respectively. With discontinuation of the additional vitamin D₃ tablet, this patient's intake will be consistent with these dosages (thus, Answer C is correct and Answer E is incorrect). The patient's total daily intake of elemental calcium is 1200 mg, so Answers A and B are incorrect. No studies have clearly determined the optimal intake for calcium and vitamin D in premenopausal women. The current recommendations are 1000 mg daily of calcium and 600 IU daily of vitamin D.
 
