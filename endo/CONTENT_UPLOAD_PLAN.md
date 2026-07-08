@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 28/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 29/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -142,8 +142,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-26 Endocrine function & aging | ✅ authored | 77 | 88% |
 | w15-27 Hormones & disorders of mineral metabolism | ✅ authored | 77 | 100% |
 | w15-28 Endocrine functions of bone | ✅ authored | 77 | 85% |
+| w15-29 Osteoporosis: basic & clinical aspects | ✅ authored | 77 | 62% |
 
-**Phase 2 Williams 15e: 28/48 chapters complete** (~2,156 items)
+**Phase 2 Williams 15e: 29/48 chapters complete** (~2,233 items)
 
 ## Phase 3 — ESAP 2015
 
