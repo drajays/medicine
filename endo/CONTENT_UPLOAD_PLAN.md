@@ -7,7 +7,7 @@ Structured pipeline to bring **`endo_masterapp`** to Harrison-quality production
 | Tree | Entries | Source | On portal | Quality |
 |------|---------|--------|-----------|---------|
 | ESAP 2021 | 43 (`e21-01`–`e21-43`) | ✅ MD split | ✅ `endo/data/` | ✅ 43/43 remediated |
-| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 37/48 authored · ⏳ w15-00 skip |
+| Williams 15e | 49 (`w15-00`–`w15-48`) | ✅ MD split | ✅ `endo/data/` | ✅ 38/48 authored · ⏳ w15-00 skip |
 | ESAP 2015 | 4 placeholders | ⚠️ OCR only | ❌ | ❌ Wrong TOC |
 | Hot Topics / Cases / Trials | 0 | — | — | Empty |
 
@@ -151,8 +151,9 @@ Batches A–J (w15-01 → w15-48). Skip or minimal w15-00 Front Matter.
 | w15-35 Type 1 diabetes mellitus | ✅ authored | 77 | 100% |
 | w15-36 Digitized diabetes approaches | ✅ authored | 77 | 100% |
 | w15-37 Monogenic diabetes | ✅ authored | 77 | 100% |
+| w15-38 Complications of diabetes | ✅ authored | 77 | 100% |
 
-**Phase 2 Williams 15e: 37/48 chapters complete** (~2,849 items)
+**Phase 2 Williams 15e: 38/48 chapters complete** (~2,926 items)
 
 ## Phase 3 — ESAP 2015
 
