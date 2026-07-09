@@ -4,12 +4,20 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
+from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 PORTAL_DATA = ROOT / "endo" / "data"
+PORTAL_IMGS = ROOT / "endo" / "imgs"
 MASTER_DATA = Path("/Users/dr.ajayshukla/endo_masterapp/data")
+IMG_SOURCES = [
+    Path("/Users/dr.ajayshukla/endo_masterapp/williams_2024_chapters/imgs"),
+    Path("/Users/dr.ajayshukla/endo_masterapp/endo2015_chapters/imgs"),
+    Path("/Users/dr.ajayshukla/endo_masterapp/endo2024_chapters/imgs"),
+]
 
 TEXT_KEYS = ("question", "stem", "text", "explanation", "assertion", "reason", "statement", "title")
 LIST_KEYS = ("options",)
@@ -105,7 +113,177 @@ def polish_units(s: str) -> str:
     s = re.sub(r"μ\s+IU", "μIU", s)
     s = re.sub(r"×10\^\{(\d+)\}", r"×10^\1", s)
     s = re.sub(r"10\^\{(\d+)\}", r"10^\1", s)
+    s = re.sub(r"kg/m\s*\^\{2\}", "kg/m²", s)
+    s = re.sub(r"kg/m\s*\^2", "kg/m²", s)
+    s = re.sub(r"(?<![A-Za-z])m\s*\^\{2\}", "m²", s)
+    s = re.sub(r"(?<![A-Za-z])m\s*\^2", "m²", s)
+    s = re.sub(r"\\%", "%", s)
     return s
+
+
+def fix_ocr_glitches(s: str) -> str:
+    s = re.sub(r"\bF=+ucose\b", "Glucose", s, flags=re.I)
+    s = re.sub(r"\bupmuI\s*U/m\s*L\b", "μIU/mL", s, flags=re.I)
+    s = re.sub(r"\bSpenlic\b", "Splenic", s)
+    s = re.sub(r"\bPrefunch\b", "Prelunch", s)
+    s = re.sub(r"\bhemoglobin\s{2,}A(?:1c|lc|tc)\b", "Hemoglobin A1c", s, flags=re.I)
+    s = re.sub(r"\bhemoglobin\s+A(?:lc|tc)\b", "Hemoglobin A1c", s, flags=re.I)
+    s = re.sub(r"\bHemoglobin\s{2,}A1c\b", "Hemoglobin A1c", s)
+    s = re.sub(r"\bhemoglobin\s{2,}A1c\b", "Hemoglobin A1c", s, flags=re.I)
+    s = re.sub(r"\^\{([^}]+)\}", r"^\1", s)
+    return s
+
+
+SOURCE_CHAPTERS = [
+    Path("/Users/dr.ajayshukla/endo_masterapp/endo2015_chapters"),
+    Path("/Users/dr.ajayshukla/endo_masterapp/endo2024_chapters"),
+]
+_MD_TABLES: list[str] | None = None
+
+
+def _md_tables() -> list[str]:
+    global _MD_TABLES
+    if _MD_TABLES is not None:
+        return _MD_TABLES
+    tables: list[str] = []
+    for base in SOURCE_CHAPTERS:
+        if not base.is_dir():
+            continue
+        for md in base.glob("*.md"):
+            text = md.read_text(encoding="utf-8", errors="ignore")
+            tables.extend(re.findall(r"<table[^>]*>.*?</table>", text, flags=re.DOTALL | re.I))
+    _MD_TABLES = tables
+    return tables
+
+
+def _normalize_table_marker(s: str) -> str:
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = re.sub(r"\$+", "", s)
+    s = re.sub(r"\^\{([^}]+)\}", r"^\1", s)
+    s = re.sub(r"\s+", " ", s)
+    return s.strip().lower()
+
+
+def recover_truncated_tables(s: str) -> str:
+    if "<table" not in s:
+        return s
+    if "</table>" in s:
+        return s
+    start = s.find("<table")
+    partial = s[start:]
+    markers = [
+        re.sub(r"\s+", " ", m).strip()
+        for m in re.findall(r">([^<>]{4,}?)</t[dh]>", partial, flags=re.I)
+    ]
+    header_markers = [m for m in markers[:8] if m.lower() in {"time", "glucose", "insulin", "c-peptide", "symptoms"}]
+    if len(header_markers) >= 3:
+        for table in _md_tables():
+            norm = _normalize_table_marker(table)
+            if all(_normalize_table_marker(m) in norm for m in header_markers):
+                return s[:start] + table
+    for marker in markers:
+        norm_marker = _normalize_table_marker(marker)
+        if len(norm_marker) < 8:
+            continue
+        for table in _md_tables():
+            if norm_marker in _normalize_table_marker(table):
+                return s[:start] + table
+    if partial.count("</td>") < 2:
+        return s[:start].rstrip()
+    return s
+
+
+def clean_table_cell(chunk: str) -> str:
+    chunk = clean_math_blocks(chunk)
+    chunk = re.sub(r"<br\s*/?>", " ", chunk, flags=re.I)
+    chunk = re.sub(r"<[^>]+>", "", chunk)
+    chunk = polish_units(chunk)
+    chunk = fix_ocr_glitches(chunk)
+    chunk = re.sub(r"\s+", " ", chunk)
+    return chunk.strip()
+
+
+def clean_html_tables(s: str) -> str:
+    if "<table" not in s:
+        return s
+
+    def table_repl(m: re.Match[str]) -> str:
+        table = m.group(0)
+        table = re.sub(r"\sstyle='[^']*'", "", table)
+        table = re.sub(r'\sstyle="[^"]*"', "", table)
+        table = re.sub(r"\sborder=\d+", "", table)
+
+        def cell_repl(cm: re.Match[str]) -> str:
+            return cm.group(1) + clean_table_cell(cm.group(2)) + cm.group(3)
+
+        return re.sub(
+            r"(<t[dh][^>]*>)(.*?)(</t[dh]>)",
+            cell_repl,
+            table,
+            flags=re.DOTALL | re.I,
+        )
+
+    s = recover_truncated_tables(s)
+    s = re.sub(r"<table[^>]*>[\s\S]*?</table>", table_repl, s, flags=re.I)
+    if "<table" in s:
+        s = re.sub(r"<table[^>]*>[\s\S]*$", table_repl, s, flags=re.I)
+    return s
+
+
+def pipe_tables_to_html(s: str) -> str:
+    """Convert flattened pipe-separated table rows back to simple HTML tables."""
+    if "<table" in s:
+        return s
+    lines = s.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        ln = lines[i]
+        pipe_count = ln.count("|")
+        if pipe_count >= 2:
+            col_count = pipe_count + 1
+            block: list[str] = []
+            while i < len(lines) and lines[i].count("|") + 1 == col_count:
+                block.append(lines[i])
+                i += 1
+            if len(block) >= 2:
+                rows = []
+                for row in block:
+                    cells = [clean_table_cell(part.strip()) for part in row.split("|")]
+                    rows.append("<tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>")
+                out.append("<table>" + "".join(rows) + "</table>")
+                continue
+            out.extend(block)
+            continue
+        out.append(ln)
+        i += 1
+    return "\n".join(out)
+
+
+def resolve_image_src(src: str) -> str:
+    src = src.strip()
+    if src.startswith("imgs/"):
+        return src
+    name = unquote(src.split("?")[0].split("/")[-1])
+    for base in IMG_SOURCES:
+        candidate = base / name
+        if candidate.is_file():
+            return f"imgs/{name}"
+    return src
+
+
+def normalize_embedded_images(s: str) -> str:
+    if "<img" not in s:
+        return s
+
+    def img_repl(m: re.Match[str]) -> str:
+        tag = m.group(0)
+        src_m = re.search(r'\bsrc="([^"]+)"', tag)
+        if not src_m:
+            return tag
+        return tag.replace(src_m.group(1), resolve_image_src(src_m.group(1)))
+
+    return re.sub(r"<img[^>]+/?>", img_repl, s)
 
 
 def clean_ocr_text(s: str) -> str:
@@ -116,6 +294,10 @@ def clean_ocr_text(s: str) -> str:
         s = clean_math_blocks(s)
         s = re.sub(r"^#{1,6}\s+", "", s, flags=re.MULTILINE)
     s = polish_units(s)
+    s = fix_ocr_glitches(s)
+    s = clean_html_tables(s)
+    s = pipe_tables_to_html(s)
+    s = normalize_embedded_images(s)
     s = re.sub(r"\n{3,}", "\n\n", s)
     s = tighten_lab_lines(s)
     return s.strip()
@@ -142,6 +324,51 @@ def clean_item(item: dict) -> bool:
                     new_opts.append(opt)
             item[key] = new_opts
     return changed
+
+
+def collect_image_names(data: dict) -> set[str]:
+    names: set[str] = set()
+
+    def scan(value: object) -> None:
+        if not isinstance(value, str) or "<img" not in value:
+            return
+        for m in re.finditer(r'<img[^>]+src="([^"]+)"', value):
+            src = m.group(1)
+            if src.startswith("imgs/"):
+                names.add(src.split("/", 1)[1])
+            elif src.startswith("http"):
+                names.add(unquote(src.split("?")[0].split("/")[-1]))
+
+    for item in data.get("items", []):
+        for key in TEXT_KEYS:
+            if key in item:
+                scan(item[key])
+        for opt in item.get("options") or []:
+            scan(opt)
+    return names
+
+
+def sync_portal_images(paths: list[Path]) -> int:
+    needed: set[str] = set()
+    for path in paths:
+        if not path.is_file() or path.name == "index.json":
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
+        needed.update(collect_image_names(data))
+
+    PORTAL_IMGS.mkdir(parents=True, exist_ok=True)
+    copied = 0
+    for name in sorted(needed):
+        dest = PORTAL_IMGS / name
+        if dest.is_file():
+            continue
+        for base in IMG_SOURCES:
+            src = base / name
+            if src.is_file():
+                shutil.copy2(src, dest)
+                copied += 1
+                break
+    return copied
 
 
 def clean_module(path: Path) -> int:
@@ -177,7 +404,8 @@ def main() -> int:
             print(f"{path.name}: cleaned {n} items")
             total_items += n
             total_files += 1
-    print(f"Done: {total_files} files, {total_items} items updated")
+    copied = sync_portal_images(paths)
+    print(f"Done: {total_files} files, {total_items} items updated, {copied} images copied")
     return 0
 
 

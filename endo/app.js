@@ -36,6 +36,135 @@ backBtn.addEventListener('click', () => {
 
 /* ---------- utils ---------- */
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+const FIG_PH = '\uFFFC';
+const TBL_PH = '\uFFFD';
+
+function normalizeImgSrc(src){
+  src = String(src || '').trim();
+  if (!src) return '';
+  if (/^https?:\/\//i.test(src)) return src;
+  if (src.startsWith('imgs/')) return src;
+  return src;
+}
+
+function cleanTableCell(raw){
+  return esc(String(raw || '')
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\^\{([^}]+)\}/g, '^$1')
+    .replace(/\s+/g, ' ')
+    .trim());
+}
+
+function extractLabTables(t){
+  const tables = [];
+  t = t.replace(/<table[\s\S]*?(?:<\/table>|$)/gi, (block) => {
+    const rows = [];
+    const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+    let rowMatch;
+    while ((rowMatch = rowRe.exec(block)) !== null) {
+      const cells = [];
+      const cellRe = /<t(d|h)([^>]*)>([\s\S]*?)<\/t\1>/gi;
+      let cellMatch;
+      while ((cellMatch = cellRe.exec(rowMatch[1])) !== null) {
+        const tag = 't' + cellMatch[1].toLowerCase();
+        const attrs = cellMatch[2] || '';
+        const colspanM = attrs.match(/colspan=["']?(\d+)/i);
+        const rowspanM = attrs.match(/rowspan=["']?(\d+)/i);
+        const span = (colspanM ? ` colspan="${colspanM[1]}"` : '') + (rowspanM ? ` rowspan="${rowspanM[1]}"` : '');
+        cells.push(`<${tag}${span}>${cleanTableCell(cellMatch[3])}</${tag}>`);
+      }
+      if (cells.length) rows.push(`<tr>${cells.join('')}</tr>`);
+    }
+    if (!rows.length) return esc(block);
+    const id = tables.length;
+    tables.push(`<table class="lab-table"><tbody>${rows.join('')}</tbody></table>`);
+    return `${TBL_PH}${id}${TBL_PH}`;
+  });
+  return { t, tables };
+}
+
+function extractPipeTables(t, tables){
+  const lines = t.split('\n');
+  const out = [];
+  let i = 0;
+  while (i < lines.length) {
+    const pipeCount = (lines[i].match(/\|/g) || []).length;
+    if (pipeCount >= 2) {
+      const colCount = pipeCount + 1;
+      const block = [];
+      while (i < lines.length && (lines[i].match(/\|/g) || []).length + 1 === colCount) {
+        block.push(lines[i]);
+        i++;
+      }
+      if (block.length >= 2) {
+        const rows = block.map(row =>
+          `<tr>${row.split('|').map(c => `<td>${cleanTableCell(c.trim())}</td>`).join('')}</tr>`
+        ).join('');
+        const id = tables.length;
+        tables.push(`<table class="lab-table"><tbody>${rows}</tbody></table>`);
+        out.push(`${TBL_PH}${id}${TBL_PH}`);
+        continue;
+      }
+      out.push(...block);
+      continue;
+    }
+    out.push(lines[i]);
+    i++;
+  }
+  return out.join('\n');
+}
+
+function formatText(s){
+  if (s == null || s === '') return '';
+  let t = String(s);
+  const figures = [];
+  const tablePack = extractLabTables(t);
+  t = extractPipeTables(tablePack.t, tablePack.tables);
+  const tables = tablePack.tables;
+
+  function pushFigure(src, caption){
+    const id = figures.length;
+    figures.push({ src: normalizeImgSrc(src), caption: String(caption || '').trim() });
+    return `${FIG_PH}${id}${FIG_PH}`;
+  }
+
+  t = t.replace(
+    /<div[^>]*>\s*(?:<div[^>]*>([^<]*)<\/div>\s*)?<\/div>\s*<div[^>]*>\s*<img([^>]+)\/?>\s*<\/div>/gi,
+    (_, caption, imgAttrs) => {
+      const srcM = imgAttrs.match(/\bsrc="([^"]+)"/i);
+      return srcM ? pushFigure(srcM[1], caption) : _;
+    }
+  );
+
+  t = t.replace(/<div[^>]*>\s*<img([^>]+)\/?>\s*<\/div>/gi, (_, imgAttrs) => {
+    const srcM = imgAttrs.match(/\bsrc="([^"]+)"/i);
+    return srcM ? pushFigure(srcM[1], '') : _;
+  });
+
+  t = t.replace(/<img([^>]+)\/?>/gi, (_, imgAttrs) => {
+    const srcM = imgAttrs.match(/\bsrc="([^"]+)"/i);
+    return srcM ? pushFigure(srcM[1], '') : '';
+  });
+
+  t = t.replace(/<\/?div[^>]*>/gi, '');
+  t = esc(t).replace(/\n/g, '<br>');
+
+  figures.forEach((fig, i) => {
+    const cap = fig.caption
+      ? `<figcaption class="q-caption">${esc(fig.caption)}</figcaption>`
+      : '';
+    const html = `<figure class="q-figure inline-fig"><img class="q-image" src="${esc(fig.src)}" alt="${esc(fig.caption || 'Clinical image')}">${cap}</figure>`;
+    t = t.split(`${FIG_PH}${i}${FIG_PH}`).join(html);
+  });
+
+  tables.forEach((tableHtml, i) => {
+    t = t.split(`${TBL_PH}${i}${TBL_PH}`).join(tableHtml);
+  });
+
+  return t;
+}
 function el(html){ const t=document.createElement('template'); t.innerHTML=html.trim(); return t.content.firstElementChild; }
 
 async function loadJSON(path){
@@ -560,7 +689,7 @@ function renderNote(nte){
     <div class="sub">${esc(nte.subtopic||'')}</div>
     ${skepticBlock}
     <h3>${esc(nte.title||'')}</h3>
-    <div class="body">${esc(nte.content||nte.text||'')}</div>
+    <div class="body">${formatText(nte.content||nte.text||'')}</div>
     ${kp}
     ${refBlock(nte.reference)}
   </div>`;
@@ -583,14 +712,15 @@ function wireSkepticismToggles(scope){
 
 function renderMCQ(q, idx){
   const opts = q.options.map((o,i)=>
-    `<button class="opt" data-i="${i}"><span class="key">${String.fromCharCode(65+i)}.</span>${esc(o)}</button>`).join('');
-  const img = q.image ? `<figure class="q-figure"><img class="q-image" src="${esc(q.image)}" alt="${esc(q.imageAlt||'Clinical reference image')}"><figcaption class="q-caption">${esc(q.imageCaption||q.imageAlt||'')}</figcaption></figure>` : '';
+    `<button class="opt" data-i="${i}"><span class="key">${String.fromCharCode(65+i)}.</span>${formatText(o)}</button>`).join('');
+  const hasInlineFigure = q.question && q.question.includes('<img');
+  const img = (!hasInlineFigure && q.image) ? `<figure class="q-figure"><img class="q-image" src="${esc(q.image)}" alt="${esc(q.imageAlt||'Clinical reference image')}"><figcaption class="q-caption">${esc(q.imageCaption||q.imageAlt||'')}</figcaption></figure>` : '';
   return `<div class="q" data-correct="${q.correctOption}" data-type="mcq">
     <div class="q-top"><span class="q-type">MCQ ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span></div>
     ${img}
-    <div class="q-stem">${esc(q.question)}</div>
+    <div class="q-stem">${formatText(q.question)}</div>
     <div class="opts">${opts}</div>
-    <div class="explain"><div class="verdict"></div><div class="exp-text">${esc(q.explanation||'')}</div>${refBlock(q.reference)}</div>
+    <div class="explain"><div class="verdict"></div><div class="exp-text">${formatText(q.explanation||'')}</div>${refBlock(q.reference)}</div>
   </div>`;
 }
 
@@ -598,12 +728,12 @@ function renderTF(q, idx){
   const correctIdx = q.correctAnswer === true ? 0 : 1;
   return `<div class="q" data-correct="${correctIdx}" data-type="tf">
     <div class="q-top"><span class="q-type">True / False ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span></div>
-    <div class="q-stem">${esc(q.statement)}</div>
+    <div class="q-stem">${formatText(q.statement)}</div>
     <div class="tf-row">
       <button class="opt" data-i="0"><span class="key">T</span>True</button>
       <button class="opt" data-i="1"><span class="key">F</span>False</button>
     </div>
-    <div class="explain"><div class="verdict"></div><div class="exp-text">${esc(q.explanation||'')}</div>${refBlock(q.reference)}</div>
+    <div class="explain"><div class="verdict"></div><div class="exp-text">${formatText(q.explanation||'')}</div>${refBlock(q.reference)}</div>
   </div>`;
 }
 
@@ -615,8 +745,8 @@ function renderWhyHow(q, idx, label){
   }
   return `<div class="note why-how-note${viewMode==='clinical_trial'?' trial-why-how':''}">
     <div class="q-top"><span class="q-type">${esc(label)} ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span></div>
-    <h3>${esc(q.question||'')}</h3>
-    <div class="body why-how-answer"><span class="why-how-label">Answer:</span> ${esc(q.answer||'')}</div>
+    <h3>${formatText(q.question||'')}</h3>
+    <div class="body why-how-answer"><span class="why-how-label">Answer:</span> ${formatText(q.answer||'')}</div>
     ${kp}
     ${refBlock(q.reference)}
   </div>`;
@@ -624,15 +754,15 @@ function renderWhyHow(q, idx, label){
 
 function renderAR(q, idx){
   const opts = AR_OPTIONS.map((o,i)=>
-    `<button class="opt" data-i="${i}"><span class="key">${String.fromCharCode(65+i)}.</span>${esc(o)}</button>`).join('');
+    `<button class="opt" data-i="${i}"><span class="key">${String.fromCharCode(65+i)}.</span>${formatText(o)}</button>`).join('');
   return `<div class="q" data-correct="${q.correctOption}" data-type="ar">
     <div class="q-top"><span class="q-type">Assertion–Reason ${idx}</span><span class="q-sub">${esc(q.subtopic||'')}</span></div>
     <div class="ar-block">
-      <div class="ar-line"><b>Assertion (A):</b> ${esc(q.assertion)}</div>
-      <div class="ar-line"><b>Reason (R):</b> ${esc(q.reason)}</div>
+      <div class="ar-line"><b>Assertion (A):</b> ${formatText(q.assertion)}</div>
+      <div class="ar-line"><b>Reason (R):</b> ${formatText(q.reason)}</div>
     </div>
     <div class="opts">${opts}</div>
-    <div class="explain"><div class="verdict"></div><div class="exp-text">${esc(q.explanation||'')}</div>${refBlock(q.reference)}</div>
+    <div class="explain"><div class="verdict"></div><div class="exp-text">${formatText(q.explanation||'')}</div>${refBlock(q.reference)}</div>
   </div>`;
 }
 
