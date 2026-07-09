@@ -5,9 +5,12 @@ from __future__ import annotations
 import json
 import re
 import shutil
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from clean_endo_ocr_text import clean_ocr_text  # noqa: E402
 MASTER = Path("/Users/dr.ajayshukla/endo_masterapp")
 CHAPTERS = MASTER / "endo2024_chapters"
 PORTAL_DATA = ROOT / "endo" / "data"
@@ -108,10 +111,10 @@ def parse_topic_md(text: str) -> list[dict]:
                 "id": f"{prefix}-mcq",
                 "type": "mcq",
                 "subtopic": f"EBR 2024 Case {qnum}",
-                "question": stem[:3000],
-                "options": options[:5],
+                "question": clean_ocr_text(stem)[:3000],
+                "options": [clean_ocr_text(o) for o in options[:5]],
                 "correctOption": letter_to_index(letter),
-                "explanation": discussion[:4000] if discussion else f"Correct answer: {letter}.",
+                "explanation": clean_ocr_text(discussion)[:4000] if discussion else f"Correct answer: {letter}.",
                 "reference": ref(f"EBR 2024 Question {qnum}", quote),
             }
         )
