@@ -1,0 +1,1094 @@
+{
+  "id": "h2-154",
+  "volume": 2,
+  "chapterNo": "502",
+  "title": "Metabolomics",
+  "section": "Genetics, Aging, and Frontiers in Medicine",
+  "authors": "Jared R. Mayers, Mathew G. Vander Heiden",
+  "sourceFile": "noupload/harrison/Harrison2_studypacks/154_Metabolomics/h22-154_metabolomics.json",
+  "items": [
+    {
+      "id": "h2-154-n1",
+      "type": "note",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "title": "Understanding Metabolomics Approaches: Untargeted vs. Targeted",
+      "content": "Untargeted metabolomics aims to measure as many analytes in a sample as possible without prior knowledge of their identity, allowing for the discovery of novel molecules but with potential biases toward high-abundance molecules and challenges in data handling. In contrast, targeted metabolomics focuses on measuring a predefined group of chemically characterized metabolites, providing higher confidence in detection and enabling absolute quantification.",
+      "keyPoints": [
+        "Untargeted metabolomics is agnostic to the identity of analytes, allowing for novel discoveries but with biases toward high-abundance molecules.",
+        "Targeted metabolomics measures a predefined subset of metabolites, offering higher confidence and potential for absolute quantification.",
+        "No single metabolomics technique can capture the entire metabolome; each has inherent limitations."
+      ],
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-n2",
+      "type": "note",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "title": "Dynamic Nature of Metabolomics in Reflecting Cellular Conditions",
+      "content": "The metabolome is highly dynamic and sensitive to changes, reflecting the current condition of cells or tissues. This sensitivity allows metabolomics to assess acute or chronic changes effectively, integrating outputs from other omics layers like the genome and proteome.",
+      "keyPoints": [
+        "Metabolite levels can change rapidly in response to upstream or downstream perturbations.",
+        "The metabolome integrates information from the genome, epigenome, transcriptome, and proteome.",
+        "Metabolomics is a powerful tool for assessing both acute and chronic cellular changes."
+      ],
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-n3",
+      "type": "note",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "title": "Technical Considerations in Metabolomics Measurements",
+      "content": "Both untargeted and targeted metabolomics are influenced by technical considerations such as sample preparation, separation techniques, and analytical sensitivity. These factors affect the comprehensiveness of metabolite measurement and data interpretation.",
+      "keyPoints": [
+        "Sample preparation and separation techniques significantly influence metabolite detection.",
+        "Untargeted approaches may miss low-abundance molecules due to inherent biases.",
+        "Targeted approaches allow for optimized detection of specific metabolites, improving confidence in measurements."
+      ],
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-n4",
+      "type": "note",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "title": "Impact of Biological Confounders on Metabolomic Analysis",
+      "content": "Biological confounders such as age, sex, BMI, time of day, fasting status, diet, and comorbid conditions can significantly influence metabolite levels in patient-derived samples. These factors must be accounted for to ensure accurate data interpretation.",
+      "keyPoints": [
+        "Age affects antioxidant and redox pathways, and macromolecule breakdown products.",
+        "Sex differences impact steroid and lipid metabolism.",
+        "Diet and fasting status alter almost every category of metabolite measured in biological fluids."
+      ],
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-n5",
+      "type": "note",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "title": "Influence of Sample Handling on Metabolomic Measurements",
+      "content": "Variations in sample handling, processing times, and storage conditions can introduce errors in metabolite measurements. Immediate quenching of metabolism is ideal but often impractical, necessitating focus on metabolites less sensitive to these changes.",
+      "keyPoints": [
+        "Sample handling can lead to falsely positive associations between metabolite changes and disease risk.",
+        "Immediate versus delayed processing affects certain metabolites more than others.",
+        "Rapid quenching of metabolism is ideal but sometimes impractical, so analysis may focus on stable metabolites."
+      ],
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-n6",
+      "type": "note",
+      "subtopic": "METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE",
+      "title": "Why Choose NMR for Metabolomics?",
+      "content": "Nuclear Magnetic Resonance (NMR) is a nondestructive, reproducible technique that allows quantitative analysis of metabolites in living samples. It leverages the magnetic properties of atomic nuclei to generate data and can assess multiple elements simultaneously due to distinct resonance frequencies.",
+      "keyPoints": [
+        "Nondestructive and applicable to living samples such as patients, cells, or tissues.",
+        "High reproducibility with minimal sample preparation required.",
+        "Quantitative measurements directly reflecting metabolite concentration.",
+        "Allows multidimensional cross-referencing of signals (e.g., hydrogen and carbon).",
+        "Can return data on up to a couple of hundred metabolites at concentrations >1 µM."
+      ],
+      "reference": "Metabolomics · METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE"
+    },
+    {
+      "id": "h2-154-n7",
+      "type": "note",
+      "subtopic": "METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE",
+      "title": "Limitations of NMR in Metabolomics",
+      "content": "While NMR offers several advantages, its primary limitation is sensitivity. The technique struggles to detect less abundant metabolites due to the time required for signal detection being proportional to concentration.",
+      "keyPoints": [
+        "Lack of sensitivity limits detection of low-abundance species.",
+        "Typical analysis detects up to a couple of hundred metabolites at concentrations >1 µM.",
+        "MS-based approaches can distinguish more than 1000 metabolites at concentrations one to two orders of magnitude lower."
+      ],
+      "reference": "Metabolomics · METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE"
+    },
+    {
+      "id": "h2-154-n8",
+      "type": "note",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "title": "Importance of Sample Preparation in MS-based Metabolomics",
+      "content": "Sample preparation is crucial for MS-based metabolomics as it involves extraction, which partitions metabolites into distinct phases and may include derivatization to enhance detection. The choice of extraction protocol depends on the metabolite class of interest.",
+      "keyPoints": [
+        "Extraction destroys the original sample by partitioning metabolites into polar and nonpolar phases.",
+        "Derivatization chemically modifies extracted metabolites to improve stability, solubility, volatility, or separation from related compounds."
+      ],
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-n9",
+      "type": "note",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "title": "Role of Chromatography in Metabolomics",
+      "content": "Chromatography separates complex mixtures into individual components. LC-MS is versatile and sensitive, while GC-MS is more reproducible but limited to volatile metabolites.",
+      "keyPoints": [
+        "LC-MS uses a liquid mobile phase and solid stationary phase; it's highly sensitive and versatile.",
+        "GC-MS uses a gas mobile phase; it's more reproducible across platforms and measures fewer metabolites."
+      ],
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-n10",
+      "type": "note",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "title": "Mass Spectrometry Techniques in Metabolomics",
+      "content": "Mass spectrometry involves generating charged ions for m/z ratio measurement. Tandem MS uses quadrupole magnets for specific analysis through sequential mass analyses.",
+      "keyPoints": [
+        "Charged ions are generated by applying high voltage or striking with a laser.",
+        "Tandem MS uses three quadrupoles to measure parent and daughter ions, providing specificity."
+      ],
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-n11",
+      "type": "note",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "title": "Ion Trap Mass Spectrometry in Metabolomics",
+      "content": "Ion trap mass spectrometers, including the orbital trap subtype, are highly flexible tools for metabolomic analysis. They allow for specific mass range selection and repeated fragmentation of metabolites to increase sensitivity and specificity.",
+      "keyPoints": [
+        "Ion traps can filter and accumulate low-abundance compounds, enhancing sensitivity.",
+        "Repeated fragmentation (MS^n) produces characteristic daughter ions, increasing specificity.",
+        "High mass accuracy in ion trap MS is advancing rapidly but may be limited by cost."
+      ],
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-n12",
+      "type": "note",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "title": "Clinical Applications of Metabolomics",
+      "content": "Metabolomics allows for the assessment of multiple metabolites simultaneously, providing a comprehensive metabolic state. It is useful when single analyte tests are insufficient or when multiple species provide additional insights.",
+      "keyPoints": [
+        "Standard tests measure metabolites like glucose, lactate, and ammonia individually.",
+        "Metabolomics can assess many metabolites in one sample for broader metabolic insight."
+      ],
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-n13",
+      "type": "note",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "title": "Magnetic Resonance Spectroscopy in Brain Mass Diagnosis",
+      "content": "MRS, an adaptation of MRI, can identify and quantify metabolites like N-acetylaspartate (NAA) and choline. Changes in their levels or ratios help diagnose brain masses by indicating cellularity changes.",
+      "keyPoints": [
+        "Increased choline/NAA ratio suggests cancer due to increased cellularity.",
+        "Loss of NAA signal indicates exclusion of normal neurons, common in tumors.",
+        "Choline levels may decrease in brain abscesses, unlike in tumors."
+      ],
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-n14",
+      "type": "note",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "title": "Early Identification and Management of Inborn Errors of Metabolism through Newborn Screening",
+      "content": "Newborn screening programs are essential for the early detection of inborn errors of metabolism by measuring specific metabolites in blood or urine. These programs allow for timely intervention, which can prevent severe outcomes associated with untreated metabolic disorders.",
+      "keyPoints": [
+        "Screening identifies diseases within the first few days of life.",
+        "Phenylketonuria was one of the first conditions tested; it results from an inability to metabolize phenylalanine.",
+        "Blood samples are collected via heel prick and analyzed using targeted LC-tandem MS for specific metabolites."
+      ],
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-n15",
+      "type": "note",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "title": "Role of Metabolite Measurements in Diagnosing and Managing Metabolic Disorders beyond Newborn Screening",
+      "content": "In pediatric and adult patients, metabolite measurements using targeted LC-tandem MS can diagnose milder or secondary metabolic defects missed by newborn screening. These analyses are crucial for identifying conditions like noncirrhotic hyperammonemia due to urea-cycle defects.",
+      "keyPoints": [
+        "Metabolite levels in serum, cerebrospinal fluid, or urine are measured using targeted LC-tandem MS.",
+        "Helps diagnose milder cases of inborn errors and secondary metabolic defects.",
+        "Useful for determining etiology of conditions like noncirrhotic hyperammonemia."
+      ],
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-n16",
+      "type": "note",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "title": "Metabolomics for Disease Prognostication and Diagnosis",
+      "content": "Ongoing research in metabolomics, particularly MS-based approaches, is identifying metabolic signatures associated with diseases like diabetes, cardiovascular disease, and cancers. These studies aim to use altered metabolite levels as biomarkers for early diagnosis or prognostic information.",
+      "keyPoints": [
+        "MS-based approaches are used to identify small groups of metabolites linked to disease development or progression.",
+        "Altered amino acid levels have been associated with future diagnoses of diabetes and pancreatic cancer.",
+        "Metabolomics is expanding into various conditions, including chronic lung diseases and neurologic/developmental disorders."
+      ],
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-n17",
+      "type": "note",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "title": "Metabolomics in Acute Clinical Settings: Sepsis Example",
+      "content": "In acute clinical settings, metabolomics can aid diagnosis and prognosis by identifying specific metabolite signatures. For instance, blood lactate levels combined with APACHE II or SOFA scores are used in sepsis management. Recent studies have linked certain modified amino acids to mitochondrial dysfunction, suggesting a mechanistic link between sepsis pathogenesis and metabolic changes.",
+      "keyPoints": [
+        "Blood lactate levels are assessed alongside clinical tools like APACHE II or SOFA in sepsis cases.",
+        "Modified amino acids associated with mitochondrial dysfunction correlate strongly with mortality in sepsis.",
+        "Metabolomics can provide diagnostic and prognostic insights by identifying specific metabolite signatures."
+      ],
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-n18",
+      "type": "note",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "title": "Diagnosis and Prognosis of IDH-Mutant Gliomas via Metabolomics",
+      "content": "Metabolomics can refine the diagnosis and prognosis of specific cancers by detecting unique metabolite accumulations. In gliomas, mutations in isocitrate dehydrogenase (IDH) lead to elevated levels of 2-hydroxyglutarate (2-HG), which can be detected using LC-MS or NMR-based approaches. This detection helps identify IDH-mutant subsets noninvasively, providing crucial prognostic information and guiding targeted therapy.",
+      "keyPoints": [
+        "IDH mutations in isoforms 1 and 2 alter enzyme function to produce 2-HG from isocitrate.",
+        "Elevated levels of 2-HG are associated with malignancy in certain cancers, including gliomas.",
+        "Detection of 2-HG can noninvasively identify IDH-mutant gliomas, aiding diagnosis and prognosis."
+      ],
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-n19",
+      "type": "note",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "title": "Pharmacometabolomics for Personalized Medicine",
+      "content": "Pharmacometabolomics aims to personalize medicine by linking pharmacokinetics (PK) and pharmacodynamics (PD) with baseline metabolomic profiles. This approach seeks to predict individual responses to drugs, allowing clinicians to tailor specific drug doses a priori based on a patient's unique metabolic profile. If successful, it could reduce the need for prolonged medication titration or switching.",
+      "keyPoints": [
+        "Pharmacometabolomics integrates PK and PD data with metabolomic profiling.",
+        "The goal is to predict individual drug responses and optimize dosing.",
+        "This approach could streamline therapy by reducing trial-and-error in medication management."
+      ],
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-n20",
+      "type": "note",
+      "subtopic": "EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING",
+      "title": "Mass Spectrometry Imaging for Defining Tumor Margins",
+      "content": "Mass spectrometry imaging (MSI) is an advanced technique that combines histologic evaluation with MS-based approaches to assess spatial differences in metabolites, providing subcellular resolution. It overcomes the limitations of MRS and traditional mass spectrometry by allowing for non-destructive analysis of tissue samples.",
+      "keyPoints": [
+        "MSI provides subcellular resolution, especially refined in neurosciences.",
+        "Utilizes matrix-assisted laser desorption/ionization (MALDI) coupled with MS.",
+        "Potential application: Defining tumor margins during resection to distinguish between normal and abnormal tissues."
+      ],
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    },
+    {
+      "id": "h2-154-n21",
+      "type": "note",
+      "subtopic": "EMERGING TECHNIQUES | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES",
+      "title": "Multi-Omics Analysis for Comprehensive Biological Insight",
+      "content": "Integrating metabolomics data with other '-omics' techniques, such as transcriptomics and proteomics, enhances understanding of biological mechanisms. This multi-omics approach is valuable in studying cellular heterogeneity and discovering new metabolic pathways within complex communities like the gut microbiome.",
+      "keyPoints": [
+        "Multi-omics analysis integrates data from various '-omics' fields.",
+        "Aids in understanding biological mechanisms behind observed phenotypes.",
+        "Used to study cell population heterogeneity via spatial and single-cell approaches.",
+        "Helps discover new metabolic pathways impacting human health, particularly within the gut microbiome."
+      ],
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    },
+    {
+      "id": "h2-154-n22",
+      "type": "note",
+      "subtopic": "IMPROVING UNTARGETED METABOLOMICS",
+      "title": "Leveraging Machine Learning for Metabolite Identification in Untargeted Metabolomics",
+      "content": "Machine learning algorithms are utilized to enhance the identification of unknown metabolites in untargeted metabolomics. By analyzing large datasets, these algorithms can identify patterns and correlations that traditional methods might miss, integrating known biological perturbations and empirical data from mass spectrometry (MS) analysis.",
+      "keyPoints": [
+        "Machine learning is a subset of artificial intelligence applied to analyze large amounts of metabolomics data.",
+        "Algorithms help in identifying unknowns by finding patterns between metabolites and other datasets.",
+        "Integration of known biological perturbations, empirical mass/structural information from MS, and correlations with known metabolites/pathways aids in placing unknown metabolites within metabolic networks."
+      ],
+      "reference": "Metabolomics · IMPROVING UNTARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-n23",
+      "type": "note",
+      "subtopic": "IMPROVING UNTARGETED METABOLOMICS",
+      "title": "Combining Computational Techniques to Enhance Sensitivity of Metabolomics Analysis",
+      "content": "Researchers are applying computational techniques, including network-style analyses and machine learning, to overcome the limitations of NMR in sensitivity compared to MS-based approaches. These methods streamline metabolite identification by integrating various data sources.",
+      "keyPoints": [
+        "NMR is less sensitive than MS-based approaches for detecting signals in a sample.",
+        "Computational techniques such as network-style analyses and machine learning are used to enhance the sensitivity of MS-based detection.",
+        "Combining information from biological perturbations, empirical mass/structural data, and known metabolites/pathways helps identify unknown metabolites."
+      ],
+      "reference": "Metabolomics · IMPROVING UNTARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq1",
+      "type": "mcq",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "question": "Which statement best describes the primary difference between untargeted and targeted metabolomics?",
+      "options": [
+        "Untargeted metabolomics measures a predefined subset of metabolites, while targeted metabolomics does not.",
+        "Targeted metabolomics aims to measure as many analytes as possible without regard for their identity.",
+        "Untargeted metabolomics involves the measurement of all metabolites in a sample, whereas targeted metabolomics focuses on specific, predetermined metabolites.",
+        "Both approaches aim to capture the entire metabolome comprehensively."
+      ],
+      "correctOption": 2,
+      "explanation": "Untargeted metabolomics measures as many analytes as possible without prior knowledge of their identity, while targeted metabolomics focuses on a predefined subset of known metabolites.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq2",
+      "type": "mcq",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "question": "What is a major drawback of untargeted metabolomics?",
+      "options": [
+        "It can only measure high-abundance molecules with absolute confidence.",
+        "It provides absolute quantification for all detected metabolites.",
+        "It carries an inherent bias toward the detection of high-abundance molecules and may miss low-abundance ones.",
+        "It generates a smaller data set compared to targeted metabolomics."
+      ],
+      "correctOption": 2,
+      "explanation": "Untargeted metabolomics is biased towards detecting high-abundance molecules, potentially missing less abundant ones.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq3",
+      "type": "mcq",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "question": "Which of the following best describes a benefit of targeted metabolomics?",
+      "options": [
+        "It allows for the discovery of novel or unexpected molecules.",
+        "It generates large amounts of data that require complex analysis.",
+        "It provides higher confidence in detecting individual metabolites due to known identities and standards.",
+        "It measures all measurable analytes irrespective of their identity."
+      ],
+      "correctOption": 2,
+      "explanation": "Targeted metabolomics allows for the detection of specific, predefined metabolites with high confidence using known standards.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq4",
+      "type": "mcq",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "question": "Why is it important to recognize that no single metabolomics technique can capture the entire metabolome?",
+      "options": [
+        "Because all techniques are equally comprehensive.",
+        "Because each method has inherent biases and limitations in detecting certain metabolites.",
+        "Because targeted metabolomics alone can measure every metabolite present.",
+        "Because untargeted metabolomics provides absolute quantification for all detected metabolites."
+      ],
+      "correctOption": 1,
+      "explanation": "Each metabolomics technique has its own biases and limitations, preventing the capture of the entire metabolome.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq5",
+      "type": "mcq",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "question": "Which of the following factors is NOT mentioned as a biological confounder in patient-derived materials for metabolomics?",
+      "options": [
+        "Age",
+        "Sex",
+        "Dietary differences",
+        "Physical activity level"
+      ],
+      "correctOption": 3,
+      "explanation": "Physical activity level is not listed as an established biological confounder in the passage.",
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-mcq6",
+      "type": "mcq",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "question": "What impact does fasting have on metabolite measurements according to the passage?",
+      "options": [
+        "It has no significant effect.",
+        "It affects only lipid metabolism.",
+        "It impacts almost every category of metabolite measured in biological fluids.",
+        "It reduces variability in metabolite levels."
+      ],
+      "correctOption": 2,
+      "explanation": "Fasting is shown to impact almost every category of metabolite frequently measured in biological fluids.",
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-mcq7",
+      "type": "mcq",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "question": "Why might focusing analysis on metabolites less sensitive to processing delays be important?",
+      "options": [
+        "To reduce the cost of sample storage.",
+        "To ensure rapid quenching is always possible.",
+        "To gain biological insight despite practical collection limitations.",
+        "To increase the number of samples available for each individual."
+      ],
+      "correctOption": 2,
+      "explanation": "Focusing on metabolites less sensitive to processing delays can provide insights when rapid quenching is not feasible due to practical considerations.",
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-mcq8",
+      "type": "mcq",
+      "subtopic": "METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE",
+      "question": "Which nuclei are mentioned as having a non-zero spin that can be exploited in NMR-based metabolomics?",
+      "options": [
+        "$^{12}C$",
+        "$^{1}H$",
+        "$^{16}O$",
+        "$^{14}N$"
+      ],
+      "correctOption": 1,
+      "explanation": "The passage states that nuclei with an odd total number of protons and neutrons, such as $^{1}H$, have a non-zero spin.",
+      "reference": "Metabolomics · METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE"
+    },
+    {
+      "id": "h2-154-mcq9",
+      "type": "mcq",
+      "subtopic": "METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE",
+      "question": "What is the primary benefit of using NMR-based approaches in clinical applications?",
+      "options": [
+        "High sensitivity",
+        "Nondestructive and can be performed on living samples",
+        "Minimal computational requirements",
+        "Low cost"
+      ],
+      "correctOption": 1,
+      "explanation": "The passage highlights that NMR-based approaches are nondestructive and can be performed on living samples as a primary benefit.",
+      "reference": "Metabolomics · METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE"
+    },
+    {
+      "id": "h2-154-mcq10",
+      "type": "mcq",
+      "subtopic": "METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE",
+      "question": "What is the main challenge of using NMR-based metabolomics?",
+      "options": [
+        "High cost",
+        "Complex sample preparation",
+        "Lack of sensitivity",
+        "Inability to measure multiple elements"
+      ],
+      "correctOption": 2,
+      "explanation": "The passage identifies a lack of sensitivity as the primary challenge of NMR-based approaches.",
+      "reference": "Metabolomics · METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE"
+    },
+    {
+      "id": "h2-154-mcq11",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "question": "Which chromatography technique is characterized by a mobile phase that is a liquid?",
+      "options": [
+        "Gas Chromatography",
+        "Liquid Chromatography",
+        "Tandem Mass Spectrometry",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "explanation": "Liquid chromatography-mass spectrometry (LC-MS) uses a mobile phase that is a liquid.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-mcq12",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "question": "What is the primary purpose of derivatization in sample preparation for mass spectrometry?",
+      "options": [
+        "To destroy the original sample",
+        "To facilitate separation or detection of metabolites",
+        "To generate charged ions",
+        "To measure compounds based on their m/z ratio"
+      ],
+      "correctOption": 1,
+      "explanation": "Derivatization chemically modifies extracted metabolites to improve properties like stability, solubility, or volatility.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-mcq13",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "question": "Which type of chromatography is more reproducible across platforms and requires less specialized training?",
+      "options": [
+        "Liquid Chromatography",
+        "Gas Chromatography",
+        "Tandem Mass Spectrometry",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "explanation": "GC-MS is noted for being more reproducible than LC-MS across platforms and requires less specialized training.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-mcq14",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "question": "What does the first quadrupole in tandem mass spectrometry measure?",
+      "options": [
+        "Daughter ions",
+        "Parent ion",
+        "Both parent and daughter ions simultaneously",
+        "None of the above"
+      ],
+      "correctOption": 1,
+      "explanation": "In tandem MS, the first quadrupole measures the 'parent' or full ion before it is fragmented.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-mcq15",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "question": "Which type of mass spectrometer offers the highest degree of flexibility for MS-based metabolomics?",
+      "options": [
+        "Time-of-flight mass spectrometry",
+        "Orbital trap mass spectrometry",
+        "Ion trap mass spectrometry",
+        "Quadrupole mass spectrometry"
+      ],
+      "correctOption": 2,
+      "explanation": "Ion trap mass spectrometers offer the highest degree of flexibility for MS-based metabolomics.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-mcq16",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "question": "What is the primary advantage of using ion trap mass spectrometers in metabolomics?",
+      "options": [
+        "They can measure only high-abundance compounds.",
+        "They provide low mass accuracy.",
+        "They allow repeated fragmentation of metabolites for increased specificity.",
+        "They are less expensive than other types."
+      ],
+      "correctOption": 2,
+      "explanation": "Ion trap mass spectrometers allow repeated fragmentation of metabolites, increasing the specificity of analysis.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-mcq17",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "question": "What is a limitation in accessing the latest versions of ion trap mass spectrometers?",
+      "options": [
+        "They are limited by their low sensitivity.",
+        "They cannot measure multiple metabolites simultaneously.",
+        "They have high costs which can limit access.",
+        "They require large sample volumes."
+      ],
+      "correctOption": 2,
+      "explanation": "Access to the latest versions of ion trap mass spectrometers is often limited by cost.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-mcq18",
+      "type": "mcq",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "question": "Which metabolite's level correlates with cellularity and/or proliferation as measured by MRS?",
+      "options": [
+        "N-acetylaspartate",
+        "Glutamine",
+        "Choline",
+        "Lactate"
+      ],
+      "correctOption": 2,
+      "explanation": "The level of choline correlates with cellularity and/or proliferation as measured by MRS.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-mcq19",
+      "type": "mcq",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "question": "Which method is typically used for analyzing blood samples in newborn screening programs?",
+      "options": [
+        "Targeted LC-tandem MS",
+        "First-generation immunoassays",
+        "Gas chromatography-mass spectrometry (GC-MS)",
+        "High-performance liquid chromatography (HPLC)"
+      ],
+      "correctOption": 0,
+      "explanation": "Newborn screening programs typically use targeted LC-tandem MS for metabolomics measurements.",
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-mcq20",
+      "type": "mcq",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "question": "What is the primary purpose of newborn screening programs?",
+      "options": [
+        "To diagnose genetic disorders in adults",
+        "To identify diseases early for treatment or management",
+        "To monitor nutritional deficiencies in infants",
+        "To assess developmental milestones"
+      ],
+      "correctOption": 1,
+      "explanation": "Newborn screening programs aim to identify diseases within the first few days of life so they can be treated or managed with early intervention.",
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-mcq21",
+      "type": "mcq",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "question": "Which disease was one of the first to be tested in newborn screening programs?",
+      "options": [
+        "Galactosemia",
+        "Cystic fibrosis",
+        "Phenylketonuria",
+        "Hemophilia"
+      ],
+      "correctOption": 2,
+      "explanation": "One of the first diseases tested in newborn screening programs was phenylketonuria.",
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-mcq22",
+      "type": "mcq",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "question": "Which of the following diseases has metabolomics been used to identify altered levels of amino acids associated with future diagnosis?",
+      "options": [
+        "Diabetes and pancreatic cancer",
+        "Hypertension and asthma",
+        "Rheumatoid arthritis and osteoporosis",
+        "Alzheimer's disease and Parkinson's disease"
+      ],
+      "correctOption": 0,
+      "explanation": "Metabolomics has identified altered amino acid levels associated with future diagnosis of diabetes or pancreatic cancer.",
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-mcq23",
+      "type": "mcq",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "question": "In the context of sepsis and septic shock, what is one method used to assess metabolite levels?",
+      "options": [
+        "Assessing blood glucose levels",
+        "Measuring serum cholesterol levels",
+        "Evaluating blood lactate levels",
+        "Analyzing urine ketone bodies"
+      ],
+      "correctOption": 2,
+      "explanation": "Blood lactate levels are assessed in combination with clinical tools for sepsis and septic shock.",
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-mcq24",
+      "type": "mcq",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "question": "What is a key limitation of studies assessing blood plasma metabolite levels in relation to complex diseases?",
+      "options": [
+        "They are too expensive to conduct.",
+        "They primarily assess correlations without understanding mechanisms.",
+        "They only focus on rare genetic disorders.",
+        "They do not use advanced analytical techniques."
+      ],
+      "correctOption": 1,
+      "explanation": "A key limitation is the difficulty in obtaining a biological understanding of the mechanisms driving changes from human data alone.",
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-mcq25",
+      "type": "mcq",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "question": "Which metabolite accumulates in high levels due to cancer-specific point mutations in isocitrate dehydrogenase (IDH) isoforms 1 and 2?",
+      "options": [
+        "2-hydroxyglutarate (2-HG)",
+        "$ \\alpha $-ketoglutarate",
+        "Isocitrate",
+        "Glutamate"
+      ],
+      "correctOption": 0,
+      "explanation": "Mutant IDH enzymes convert isocitrate into 2-hydroxyglutarate (2-HG), which accumulates in high levels.",
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq26",
+      "type": "mcq",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "question": "In the context of IDH-mutant gliomas, what noninvasive technique can identify patients with this cancer subset?",
+      "options": [
+        "LC-MS",
+        "NMR-based approaches",
+        "MRS-based approaches",
+        "PCR"
+      ],
+      "correctOption": 2,
+      "explanation": "MRS-based approaches are used to assess the accumulation of 2-HG in gliomas, identifying IDH-mutant subsets.",
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq27",
+      "type": "mcq",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "question": "What is the primary goal of pharmacometabolomics?",
+      "options": [
+        "To identify new drug targets",
+        "To link PK and PD data with metabolomic profiles for predictive modeling",
+        "To replace traditional diagnostic methods",
+        "To develop new metabolic enzymes"
+      ],
+      "correctOption": 1,
+      "explanation": "Pharmacometabolomics aims to link pharmacokinetics (PK) and pharmacodynamics (PD) data with baseline metabolomic profiling to predict individual responses.",
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq28",
+      "type": "mcq",
+      "subtopic": "EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES",
+      "question": "Which technique is most highly refined in the neurosciences and can provide subcellular resolution?",
+      "options": [
+        "Matrix-assisted laser desorption/ionization (MALDI) coupled to mass spectrometry imaging (MSI)",
+        "Magnetic resonance spectroscopy (MRS)",
+        "Nuclear magnetic resonance (NMR)",
+        "Bulk material analysis"
+      ],
+      "correctOption": 0,
+      "explanation": "Mass spectrometry imaging (MSI), particularly with MALDI, is highly refined in the neurosciences and provides subcellular resolution.",
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    },
+    {
+      "id": "h2-154-mcq29",
+      "type": "mcq",
+      "subtopic": "EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES",
+      "question": "What limitation does mass spectrometry imaging (MSI) overcome compared to magnetic resonance spectroscopy (MRS)?",
+      "options": [
+        "Lack of spatial resolution",
+        "Reliance on specimen destruction and homogenization",
+        "Inability to perform macroscopic imaging",
+        "Insensitivity in metabolomics approaches"
+      ],
+      "correctOption": 1,
+      "explanation": "MSI overcomes the limitation of reliance on specimen destruction and homogenization inherent in mass spectrometry.",
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    },
+    {
+      "id": "h2-154-mcq30",
+      "type": "mcq",
+      "subtopic": "EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES",
+      "question": "What is the purpose of integrating metabolomics data with other '-omics' techniques?",
+      "options": [
+        "To reduce the complexity of biological data",
+        "To provide a more complete understanding of biological mechanisms",
+        "To simplify the process of tissue imaging",
+        "To eliminate the need for histologic evaluation"
+      ],
+      "correctOption": 1,
+      "explanation": "Integrating metabolomics with other '-omics' techniques aims to provide a more comprehensive understanding of biological mechanisms.",
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    },
+    {
+      "id": "h2-154-mcq31",
+      "type": "mcq",
+      "subtopic": "IMPROVING UNTARGETED METABOLOMICS",
+      "question": "Which technique is noted for its superior sensitivity in detecting signals compared to NMR in untargeted metabolomics?",
+      "options": [
+        "NMR",
+        "MS-based approaches",
+        "Computational techniques",
+        "Machine learning"
+      ],
+      "correctOption": 1,
+      "explanation": "MS-based approaches are noted for their superior sensitivity over NMR.",
+      "reference": "Metabolomics · IMPROVING UNTARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq32",
+      "type": "mcq",
+      "subtopic": "IMPROVING UNTARGETED METABOLOMICS",
+      "question": "What is one of the main challenges in untargeted metabolomics analysis?",
+      "options": [
+        "Identifying known signals",
+        "Increasing sample size",
+        "Reducing computational time",
+        "Identifying unknown signals"
+      ],
+      "correctOption": 3,
+      "explanation": "Identifying unknown signals remains a central challenge.",
+      "reference": "Metabolomics · IMPROVING UNTARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-mcq33",
+      "type": "mcq",
+      "subtopic": "IMPROVING UNTARGETED METABOLOMICS",
+      "question": "Which of the following is NOT mentioned as a method to improve metabolite identification in untargeted metabolomics?",
+      "options": [
+        "Network-style analyses",
+        "Machine learning approaches",
+        "Increasing NMR sensitivity",
+        "Empirical mass and structural information"
+      ],
+      "correctOption": 2,
+      "explanation": "Increasing NMR sensitivity is not mentioned as an approach.",
+      "reference": "Metabolomics · IMPROVING UNTARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-tf1",
+      "type": "true_false",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "statement": "Untargeted metabolomics provides absolute quantification for all detected metabolites.",
+      "correctAnswer": false,
+      "explanation": "Untargeted metabolomics typically yields only relative quantification, not absolute.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-tf2",
+      "type": "true_false",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "statement": "Targeted metabolomics can be optimized for the detection of specific metabolites.",
+      "correctAnswer": true,
+      "explanation": "Sample preparation and chromatographic separation in targeted metabolomics can be tailored to improve detection of certain metabolites.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-tf3",
+      "type": "true_false",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "statement": "Metabolite levels are unaffected by the time of day they are collected.",
+      "correctAnswer": false,
+      "explanation": "Time of day is mentioned as a potential source of error affecting metabolite measurements.",
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-tf4",
+      "type": "true_false",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "statement": "Rapid freezing or chemical extraction can halt metabolism in samples immediately after collection.",
+      "correctAnswer": true,
+      "explanation": "The passage states that metabolism is ideally halted via rapid freezing or chemical extraction.",
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-tf5",
+      "type": "true_false",
+      "subtopic": "METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE",
+      "statement": "NMR-based metabolomics can distinguish more than 1000 metabolites at concentrations one to two orders of magnitude lower.",
+      "correctAnswer": false,
+      "explanation": "The passage states that MS-based approaches, not NMR, can distinguish more than 1000 metabolites at such low concentrations.",
+      "reference": "Metabolomics · METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE"
+    },
+    {
+      "id": "h2-154-tf6",
+      "type": "true_false",
+      "subtopic": "METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE",
+      "statement": "NMR measurements are quantitative and reflect concentration directly.",
+      "correctAnswer": true,
+      "explanation": "The passage confirms that the signal measured in NMR reflects concentration, making measurements quantitative.",
+      "reference": "Metabolomics · METABOLOMICS TECHNOLOGIES | NUCLEAR MAGNETIC RESONANCE"
+    },
+    {
+      "id": "h2-154-tf7",
+      "type": "true_false",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "statement": "Gas chromatography-mass spectrometry can be used to detect non-volatile metabolites.",
+      "correctAnswer": false,
+      "explanation": "GC-MS is limited to volatile metabolites that enter a gaseous phase.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-tf8",
+      "type": "true_false",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "statement": "Liquid chromatography-mass spectrometry is highly sensitive and versatile.",
+      "correctAnswer": true,
+      "explanation": "LC-MS allows detection of a broad range of metabolites, making it highly sensitive and versatile.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-tf9",
+      "type": "true_false",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "statement": "Magnetic resonance spectroscopy is a capability built into almost every MRI machine.",
+      "correctAnswer": true,
+      "explanation": "MRS is indeed a capability that can be utilized in most MRI machines.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-tf10",
+      "type": "true_false",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "statement": "Ion trap mass spectrometers cannot select for a specific mass range of metabolites.",
+      "correctAnswer": false,
+      "explanation": "Ion trap mass spectrometers can select for a specific mass range of metabolites.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-tf11",
+      "type": "true_false",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "statement": "Metabolomics measurements are used only in newborn screening programs.",
+      "correctAnswer": false,
+      "explanation": "Metabolomics measurements are also used in pediatric and adult patients, as well as by athletic organizations and the pharmaceutical industry.",
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-tf12",
+      "type": "true_false",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "statement": "Targeted LC-tandem MS can detect a range of drug metabolites in urine.",
+      "correctAnswer": true,
+      "explanation": "Targeted LC-tandem MS is more sensitive than first-generation immunoassays and can detect various drug metabolites.",
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-tf13",
+      "type": "true_false",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "statement": "Metabolomics has been used to identify metabolic signatures primarily in rare, single-gene disorders.",
+      "correctAnswer": false,
+      "explanation": "Efforts have focused on common, multifactorial diseases such as diabetes and cardiovascular disease.",
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-tf14",
+      "type": "true_false",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "statement": "Modified amino acids linked to mitochondrial dysfunction have been associated with mortality in sepsis.",
+      "correctAnswer": true,
+      "explanation": "Recent efforts identified a strong association between certain modified amino acids and mortality in sepsis.",
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-tf15",
+      "type": "true_false",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "statement": "Detection of 2-HG is used for diagnostic purposes in IDH-mutant gliomas.",
+      "correctAnswer": true,
+      "explanation": "Detection of 2-HG helps diagnose and assess drug response in IDH-mutant gliomas.",
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-tf16",
+      "type": "true_false",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "statement": "Pharmacometabolomics aims to eliminate the need for baseline metabolomic profiling.",
+      "correctAnswer": false,
+      "explanation": "Pharmacometabolomics relies on linking PK and PD data with baseline metabolomic profiles.",
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-tf17",
+      "type": "true_false",
+      "subtopic": "EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES",
+      "statement": "Mass spectrometry imaging (MSI) allows for the analysis of metabolites without destroying the tissue specimen.",
+      "correctAnswer": true,
+      "explanation": "MSI overcomes the limitation of mass spectrometry that requires specimen destruction and homogenization.",
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    },
+    {
+      "id": "h2-154-tf18",
+      "type": "true_false",
+      "subtopic": "EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES",
+      "statement": "Magnetic resonance spectroscopy (MRS) provides subcellular resolution in neurosciences.",
+      "correctAnswer": false,
+      "explanation": "MRS is limited to macroscopic imaging and relatively insensitive metabolomics approaches, unlike MSI.",
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    },
+    {
+      "id": "h2-154-tf19",
+      "type": "true_false",
+      "subtopic": "IMPROVING UNTARGETED METABOLOMICS",
+      "statement": "Machine learning can be used to find patterns of linked metabolites in untargeted metabolomics datasets.",
+      "correctAnswer": true,
+      "explanation": "Machine learning is applied to identify patterns that might otherwise be missed.",
+      "reference": "Metabolomics · IMPROVING UNTARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-tf20",
+      "type": "true_false",
+      "subtopic": "IMPROVING UNTARGETED METABOLOMICS",
+      "statement": "NMR-based approaches are superior in sensitivity compared to MS-based methods.",
+      "correctAnswer": false,
+      "explanation": "MS-based approaches have greater sensitivity than NMR.",
+      "reference": "Metabolomics · IMPROVING UNTARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-ar1",
+      "type": "assertion_reason",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "assertion": "Untargeted metabolomics is useful for discovering novel or unexpected molecules.",
+      "reason": "It measures as many analytes as possible without regard to their identity, allowing for the identification of unknowns.",
+      "correctOption": 0,
+      "explanation": "The agnostic nature of untargeted metabolomics facilitates the discovery of new molecules.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-ar2",
+      "type": "assertion_reason",
+      "subtopic": "Metabolomics | UNTARGETED AND TARGETED METABOLOMICS",
+      "assertion": "Targeted metabolomics generates a larger data set than untargeted metabolomics.",
+      "reason": "It measures a predefined group of known metabolites, resulting in more comprehensive data collection.",
+      "correctOption": 2,
+      "explanation": "Targeted metabolomics focuses on specific metabolites and thus produces a smaller data set compared to the broad approach of untargeted metabolomics.",
+      "reference": "Metabolomics · Metabolomics | UNTARGETED AND TARGETED METABOLOMICS"
+    },
+    {
+      "id": "h2-154-ar3",
+      "type": "assertion_reason",
+      "subtopic": "SAMPLING CONSIDERATIONS",
+      "assertion": "Metabolite levels can continue to change even if the sample is stored on ice.",
+      "reason": "Because metabolism occurs on a very rapid time scale, some metabolites are sensitive to delays in processing.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why metabolite levels can change even when stored on ice.",
+      "reference": "Metabolomics · SAMPLING CONSIDERATIONS"
+    },
+    {
+      "id": "h2-154-ar4",
+      "type": "assertion_reason",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "assertion": "The extraction process in sample preparation is critical for determining the optimal protocol.",
+      "reason": "It helps to determine the general class of metabolites to be measured, influencing downstream decisions.",
+      "correctOption": 0,
+      "explanation": "Both statements are true and the reason correctly explains why the assertion is true.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-ar5",
+      "type": "assertion_reason",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)",
+      "assertion": "Tandem mass spectrometry uses a single quadrupole for ion measurement.",
+      "reason": "It relies on three sets of quadrupole magnets arranged in series.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because tandem MS uses three quadrupoles, not one.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 1)"
+    },
+    {
+      "id": "h2-154-ar6",
+      "type": "assertion_reason",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "assertion": "An increase in the ratio of choline to NAA correlates with cancer.",
+      "reason": "Tumors are associated with increased cellularity from proliferation and exclusion of normal neurons.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-ar7",
+      "type": "assertion_reason",
+      "subtopic": "CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY",
+      "assertion": "MRS can only measure amino acids.",
+      "reason": "MRS is an adaptation of MRI, which measures proton NMR.",
+      "correctOption": 2,
+      "explanation": "The assertion is false because MRS can measure various metabolites including lipids and sugars, not just amino acids.",
+      "reference": "Metabolomics · CHROMATOGRAPHY/MASS SPECTROMETRY (part 2) | CURRENT CLINICAL APPLICATIONS | MAGNETIC RESONANCE SPECTROSCOPY"
+    },
+    {
+      "id": "h2-154-ar8",
+      "type": "assertion_reason",
+      "subtopic": "NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS",
+      "assertion": "Newborn screening programs have expanded to include a wide range of inborn errors of metabolism.",
+      "reason": "The use of targeted LC-tandem MS allows for the detection of abnormal levels of specific metabolites.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the ability to detect abnormal metabolite levels explains the expansion of screening programs.",
+      "reference": "Metabolomics · NEWBORN SCREENING PROGRAMS | METABOLITE MEASUREMENTS IN CHILDREN AND ADULTS"
+    },
+    {
+      "id": "h2-154-ar9",
+      "type": "assertion_reason",
+      "subtopic": "EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE",
+      "assertion": "Metabolomics can provide prognostic information in acute clinical presentations.",
+      "reason": "Altered metabolite levels are associated with specific clinical diagnoses and outcomes.",
+      "correctOption": 0,
+      "explanation": "The reason correctly explains that altered metabolite levels facilitate diagnosis or provide prognostic information.",
+      "reference": "Metabolomics · EMERGING AND EXPERIMENTAL CLINICAL APPLICATIONS | METABOLITES AS BIOMARKERS OF DISEASE"
+    },
+    {
+      "id": "h2-154-ar10",
+      "type": "assertion_reason",
+      "subtopic": "REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS",
+      "assertion": "Metabolomics can aid in the diagnosis of specific cancer subsets.",
+      "reason": "Detection of 2-HG, a metabolite accumulated due to IDH mutations, helps identify IDH-mutant cancers.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "Metabolomics · REFINING DIAGNOSIS AND PREDICTION OF DRUG SUSCEPTIBILITY | PHARMACOMETABOLOMICS"
+    },
+    {
+      "id": "h2-154-ar11",
+      "type": "assertion_reason",
+      "subtopic": "EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES",
+      "assertion": "Mass spectrometry imaging (MSI) is being tested for defining tumor margins in real time during resection.",
+      "reason": "This approach provides insight into boundaries between normal and abnormal tissues by assessing spatial differences in metabolites.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why MSI is used for defining tumor margins.",
+      "reference": "Metabolomics · EMERGING TECHNIQUES | MASS SPECTROMETRY IMAGING | INTEGRATION WITH ADDITIONAL \"-OMICS\" TECHNIQUES"
+    }
+  ]
+}

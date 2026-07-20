@@ -774,6 +774,831 @@
       "correctOption": 0,
       "explanation": "Both are true and the reason explains the assertion: increasing the dose at the same interval is usually preferred because more frequent dosing reduces adherence.",
       "reference": "Concentration of Drugs in Plasma as a Guide to Therapy: \"occasionally the dosing interval is shortened to avoid high peak concentrations recognizing that adherence is decreased with regimens requiring frequent dosing.\""
+    },
+    {
+      "id": "h1-064-sp-n1",
+      "type": "note",
+      "subtopic": "Principles of Clinical Pharmacology",
+      "title": "Understanding Variability in Drug Therapy: The Role of Pharmacokinetics and Pharmacodynamics",
+      "content": "Drug therapy outcomes vary among individuals due to differences in pharmacokinetics (drug delivery and removal) and pharmacodynamics (relationship between drug concentration and effect). Understanding these components helps predict and manage variability in drug actions.",
+      "keyPoints": [
+        "Pharmacokinetics involves drug delivery and removal processes affecting drug concentration over time.",
+        "Pharmacodynamics describes the relationship between drug concentration and its effects, independent of delivery variations.",
+        "Variability in drug action is influenced by pharmacokinetics and pharmacodynamics."
+      ],
+      "reference": "Principles of Clinical Pharmacology · Principles of Clinical Pharmacology"
+    },
+    {
+      "id": "h1-064-sp-n2",
+      "type": "note",
+      "subtopic": "Principles of Clinical Pharmacology",
+      "title": "The Impact of Genetic Factors on Drug Therapy: Introduction to Pharmacogenomics",
+      "content": "Genetic variability can influence drug actions through differences in gene expression or function, affecting both pharmacokinetics and pharmacodynamics. This forms the basis for pharmacogenomic science, which aims to tailor drug therapy based on genetic profiles.",
+      "keyPoints": [
+        "Disease, coadministered drugs, or familial factors modulate drug action via genetic variability.",
+        "Pharmacogenomics studies how gene expression/function affects drug response.",
+        "Understanding molecular mechanisms of variability can improve existing therapies and guide new drug development."
+      ],
+      "reference": "Principles of Clinical Pharmacology · Principles of Clinical Pharmacology"
+    },
+    {
+      "id": "h1-064-sp-n3",
+      "type": "note",
+      "subtopic": "A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT",
+      "title": "Understanding Drug Effects through Systems Biology",
+      "content": "Systems biology offers a refined approach to understanding drug effects by integrating complex computational models and advanced tools like gene editing and omics measurements. This perspective acknowledges the non-linear interactions between drugs and disease mechanisms, which evolve over time.",
+      "keyPoints": [
+        "Drug actions are initially viewed as linear but are more accurately described through systems biology.",
+        "Complex models and omics technologies (transcriptomics, metabolomics, proteomics) enhance understanding of drug-disease interactions."
+      ],
+      "reference": "Principles of Clinical Pharmacology · A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT"
+    },
+    {
+      "id": "h1-064-sp-n4",
+      "type": "note",
+      "subtopic": "A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT",
+      "title": "Balancing Risk and Benefit in Drug Therapy",
+      "content": "The decision to use drug therapy hinges on a risk-benefit analysis, considering symptom relief, disease progression prevention, and life prolongation. This balance is complex due to patient variability, comorbidities, and potential adverse effects.",
+      "keyPoints": [
+        "Benefits of drug therapy include symptom alleviation, disease progression prevention, and life extension.",
+        "Risk assessment must account for individual patient responses, which may differ from clinical trial observations.",
+        "Adverse Drug Reactions (ADRs) can be common or rare; postmarketing surveillance helps detect uncommon ADRs.",
+        "Therapeutic index is crucial: it represents the margin between therapeutic and toxic doses."
+      ],
+      "reference": "Principles of Clinical Pharmacology · A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT"
+    },
+    {
+      "id": "h1-064-sp-n5",
+      "type": "note",
+      "subtopic": "PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT",
+      "title": "Understanding Bioavailability and First-Pass Effect in Drug Absorption",
+      "content": "Bioavailability is the fraction of an administered drug that reaches systemic circulation. It can be less than 100% due to incomplete absorption or metabolism before entering the bloodstream. The first-pass effect significantly reduces bioavailability as drugs undergo metabolism in the liver after passing through the intestinal epithelium and portal venous system.",
+      "keyPoints": [
+        "Bioavailability may be <100% due to incomplete absorption or pre-systemic elimination.",
+        "First-pass effect involves drug metabolism in the intestine and liver, reducing systemic delivery.",
+        "P-glycoprotein limits drug availability by acting as an efflux pump in enterocytes and hepatocytes."
+      ],
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT"
+    },
+    {
+      "id": "h1-064-sp-n6",
+      "type": "note",
+      "subtopic": "PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT",
+      "title": "Role of Drug Transporters in Modulating Bioavailability",
+      "content": "Drug transport across cell membranes involves passive diffusion and active transport. P-glycoprotein, an efflux pump expressed on enterocytes and hepatocytes, limits drug availability to the systemic circulation by actively transporting drugs out of cells.",
+      "keyPoints": [
+        "P-glycoprotein is a key transporter that reduces bioavailability by limiting drug absorption into systemic circulation.",
+        "It acts as part of the blood-brain barrier, restricting drug penetration into the brain.",
+        "Drug transport involves both passive diffusion and active mechanisms mediated by specific molecules."
+      ],
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT"
+    },
+    {
+      "id": "h1-064-sp-n7",
+      "type": "note",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "title": "Understanding Drug Elimination and Half-Life",
+      "content": "Drug elimination typically follows first-order kinetics, where the rate depends on drug concentration. The half-life is crucial for determining how long a drug remains in the system.",
+      "keyPoints": [
+        "Elimination processes are usually first-order; 50% of the drug is eliminated after one half-life.",
+        "Near-complete elimination occurs after four to five half-lives.",
+        "The elimination half-life determines the time needed to reach steady-state concentrations and for drug levels to fall near-unmeasurable post-bolus."
+      ],
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-n8",
+      "type": "note",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "title": "Clinical Implications of Half-Life in Dosing Regimens",
+      "content": "The half-life of a drug is pivotal for designing dosing regimens, particularly to achieve steady-state concentrations and manage therapeutic levels.",
+      "keyPoints": [
+        "Steady state is achieved when the rate of drug administration equals the rate of elimination.",
+        "With continuous intravenous infusion, plasma concentrations remain stable at steady state.",
+        "For oral drugs, plasma concentrations fluctuate within dosing intervals but stabilize between doses."
+      ],
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-n9",
+      "type": "note",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "title": "Impact of Distribution on Drug Half-Life",
+      "content": "Drug distribution to peripheral compartments can affect the observed plasma concentration-time profile, distinguishing initial distribution from actual elimination.",
+      "keyPoints": [
+        "Initial rapid decline in drug concentration often reflects distribution rather than elimination.",
+        "This is more apparent with intravenous administration compared to other routes.",
+        "After four to five distribution half-lives, plasma and tissue concentrations decline in parallel."
+      ],
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-n10",
+      "type": "note",
+      "subtopic": "DRUG DISTRIBUTION",
+      "title": "Importance of Loading Doses for Rapid Therapeutic Effects",
+      "content": "Loading doses are used to achieve rapid therapeutic effects by quickly elevating drug concentrations, especially when urgent treatment is needed. However, the time required to reach a true steady state remains dependent on the drug's elimination half-life.",
+      "keyPoints": [
+        "Loading doses can rapidly elevate drug concentration for urgent indications.",
+        "Time to true steady state is determined by the elimination half-life."
+      ],
+      "reference": "Principles of Clinical Pharmacology · DRUG DISTRIBUTION"
+    },
+    {
+      "id": "h1-064-sp-n11",
+      "type": "note",
+      "subtopic": "DRUG DISTRIBUTION",
+      "title": "Clinical Implications of Altered Protein Binding on Drug Efficacy",
+      "content": "Drug response is influenced by free drug concentration, which can be affected by changes in protein binding. Conditions like chronic kidney or liver disease may decrease protein binding and increase drug actions. Conversely, acute phase reactants during conditions such as myocardial infarction or infection can increase protein binding and reduce efficacy.",
+      "keyPoints": [
+        "Only unbound (free) drug can exert pharmacologic effects.",
+        "Decreased protein binding in chronic kidney or liver disease increases drug action.",
+        "Acute phase reactants can transiently increase protein binding, reducing drug efficacy.",
+        "A decrease in binding from 99% to 98% doubles the free drug concentration from 1% to 2%.",
+        "Monitoring free drug concentrations is useful for drugs like phenytoin."
+      ],
+      "reference": "Principles of Clinical Pharmacology · DRUG DISTRIBUTION"
+    },
+    {
+      "id": "h1-064-sp-n12",
+      "type": "note",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "title": "Understanding High-Risk Pharmacokinetics in Drug Elimination",
+      "content": "High-risk pharmacokinetics occurs when drug plasma concentrations depend on a single metabolic pathway. Inhibition of this pathway can cause significant changes in drug levels and effects, leading to variability in therapeutic outcomes or increased toxicity.",
+      "keyPoints": [
+        "Clearance is defined as volume/time.",
+        "Genetic variants, drug interactions, or diseases can decrease clearance, necessitating dose adjustments.",
+        "Prodrugs require metabolism for activation; examples include codeine and clopidogrel.",
+        "High-risk pharmacokinetics involves variability in bioactivation of prodrugs (e.g., CYP2D6 activity affecting codeine) or reliance on a single elimination pathway.",
+        "Inhibition of a single metabolic pathway can lead to elevated drug concentrations, especially for drugs with narrow therapeutic windows."
+      ],
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-n13",
+      "type": "note",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "title": "Implications of Single Pathway Drug Elimination on Therapeutic Management",
+      "content": "Drugs eliminated via a single pathway are susceptible to significant concentration changes due to genetic variants or drug interactions. This can result in either therapeutic failure or toxicity, particularly for drugs with narrow therapeutic indices.",
+      "keyPoints": [
+        "Single metabolic pathways increase risk of variability in drug action and concentrations.",
+        "Examples include CYP2C19 affecting clopidogrel's antiplatelet effects.",
+        "Drugs with multiple elimination pathways are less affected by the absence of one pathway.",
+        "Therapeutic management must consider potential interactions that inhibit single pathways to prevent toxicity."
+      ],
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-n14",
+      "type": "note",
+      "subtopic": "PRINCIPLES OF PHARMACODYNAMICS",
+      "title": "Understanding the Time Course of Drug Action",
+      "content": "The time course of drug action is influenced by both pharmacokinetic parameters and pharmacodynamic mechanisms. For urgent treatments, immediate clinical effects are desired following drug administration due to rapid drug-target interactions. In contrast, for non-urgent conditions, delays in onset can occur due to factors like slow elimination or tissue uptake.",
+      "keyPoints": [
+        "Urgent treatment drugs require no delay between administration and effect (e.g., vascular thrombosis, shock).",
+        "Non-urgent treatments may experience delayed effects due to pharmacokinetic mechanisms such as slow accumulation to steady state.",
+        "Example: Clopidogrel has a plasma half-life of ~6 hours but its antiplatelet effect lasts 7–10 days."
+      ],
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACODYNAMICS"
+    },
+    {
+      "id": "h1-064-sp-n15",
+      "type": "note",
+      "subtopic": "PRINCIPLES OF PHARMACODYNAMICS",
+      "title": "Disease-Specific Drug Effects and Receptor Modulation",
+      "content": "Drugs may exhibit different effects in patients with underlying diseases compared to unaffected individuals. Disease states can alter drug response, complicating the interpretation of adverse drug reactions (ADRs). Additionally, chronic therapy can lead to receptor regulation changes, such as upregulation or downregulation, affecting drug efficacy and withdrawal responses.",
+      "keyPoints": [
+        "Drug effects may vary in patients with underlying diseases; e.g., amiodarone-induced dyspnea in chronic lung disease.",
+        "Receptor modulation during chronic therapy can lead to altered drug responses (e.g., upregulation of $ \\beta $-receptors by $ \\beta $-adrenergic blockers).",
+        "Abrupt withdrawal from drugs that cause receptor upregulation may result in severe effects like hypertension or tachycardia."
+      ],
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACODYNAMICS"
+    },
+    {
+      "id": "h1-064-sp-n16",
+      "type": "note",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "title": "Defining Target Drug Effect and Monitoring Response",
+      "content": "The initiation of drug therapy should begin with a clear definition of the desired therapeutic effect, which can vary in its measurability. For some drugs, effects are objectively measured through clinical or laboratory tests (e.g., anticoagulation), while others rely on patient-reported outcomes (e.g., pain relief). Monitoring response is crucial and may involve measuring plasma drug concentrations to ensure efficacy and avoid toxicity.",
+      "keyPoints": [
+        "Define target effect at therapy start; varies by condition (e.g., cancer, hypertension)",
+        "Objective tests for some drugs; patient report for symptoms like pain",
+        "Monitor plasma concentration if available, especially in chronic diseases"
+      ],
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-n17",
+      "type": "note",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "title": "Starting Dose and Anticipated Toxicity Considerations",
+      "content": "The starting dose of a drug is often influenced by the nature of its anticipated side effects. For drugs with minor side effects, initiating at a higher dose may be acceptable to achieve efficacy quickly, followed by down-titration if needed. However, for drugs with serious or life-threatening potential toxicities, it's safer to start at the lowest effective dose. This is particularly relevant in cancer chemotherapy where maximally tolerated doses are common.",
+      "keyPoints": [
+        "Start high and titrate down for minor side effects",
+        "Lowest possible starting dose for serious toxicity",
+        "Maximally tolerated doses used in cancer chemotherapy"
+      ],
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-n18",
+      "type": "note",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "title": "Adjusting Drug Dosage Based on Plasma Concentration",
+      "content": "When a drug does not achieve its desired effect, dosage adjustments should be considered only if toxicity is absent and serious toxicity risk is low. Therapeutic drug monitoring can guide these adjustments by measuring plasma concentrations at specific times (e.g., trough for vancomycin to avoid nephrotoxicity). Understanding the pharmacokinetics, such as first-order versus zero-order elimination, is essential for appropriate dose modification.",
+      "keyPoints": [
+        "Increase dosage only if no toxicity and low serious risk",
+        "Monitor plasma concentration for drugs like anticonvulsants at steady state trough levels",
+        "Adjust maintenance dose based on desired/measured concentrations; consider pharmacokinetics (first-order vs. zero-order elimination)"
+      ],
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-mcq1",
+      "type": "mcq",
+      "subtopic": "Principles of Clinical Pharmacology",
+      "question": "Which component of drug action variability is concerned with the processes that determine drug delivery to, and removal from, molecular targets?",
+      "options": [
+        "Pharmacokinetics",
+        "Pharmacodynamics",
+        "Drug metabolism",
+        "Therapeutic index"
+      ],
+      "correctOption": 0,
+      "explanation": "Pharmacokinetics describes the relationship between drug concentration and time.",
+      "reference": "Principles of Clinical Pharmacology · Principles of Clinical Pharmacology"
+    },
+    {
+      "id": "h1-064-sp-mcq2",
+      "type": "mcq",
+      "subtopic": "Principles of Clinical Pharmacology",
+      "question": "What term is used to describe the processes that determine variability in drug actions independent of variability in drug delivery?",
+      "options": [
+        "Pharmacokinetics",
+        "Pharmacodynamics",
+        "Drug metabolism",
+        "Therapeutic index"
+      ],
+      "correctOption": 1,
+      "explanation": "Pharmacodynamics describes the relationship between drug concentration and effect.",
+      "reference": "Principles of Clinical Pharmacology · Principles of Clinical Pharmacology"
+    },
+    {
+      "id": "h1-064-sp-mcq3",
+      "type": "mcq",
+      "subtopic": "Principles of Clinical Pharmacology",
+      "question": "What is one of the two important goals of clinical pharmacology?",
+      "options": [
+        "To eliminate all adverse drug reactions",
+        "To provide a description of conditions under which drug actions vary among human subjects",
+        "To ensure uniform drug response in all individuals",
+        "To develop drugs that do not require metabolism"
+      ],
+      "correctOption": 1,
+      "explanation": "One goal is to describe the variability in drug actions among different individuals.",
+      "reference": "Principles of Clinical Pharmacology · Principles of Clinical Pharmacology"
+    },
+    {
+      "id": "h1-064-sp-mcq4",
+      "type": "mcq",
+      "subtopic": "A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT",
+      "question": "Which term is preferred over 'compliance' to describe a patient's adherence to drug therapy, and why?",
+      "options": [
+        "\"Adherence\", because it removes the idea that the patient is at fault.",
+        "\"Compliance\", as it implies following medical advice strictly.",
+        "\"Conformity\", since it denotes agreement with prescribed treatment.",
+        "\"Obedience\", due to its emphasis on following doctor's orders."
+      ],
+      "correctOption": 0,
+      "explanation": "'Adherence' is preferred because it removes the implication that the patient is at fault for not taking medication as prescribed.",
+      "reference": "Principles of Clinical Pharmacology · A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT"
+    },
+    {
+      "id": "h1-064-sp-mcq5",
+      "type": "mcq",
+      "subtopic": "A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT",
+      "question": "Which of the following best describes the concept of 'therapeutic index'?",
+      "options": [
+        "\"The ratio between doses that produce therapeutic effects and those causing toxicity.",
+        "\"A measure of how quickly a drug is metabolized by the body.",
+        "\"The time it takes for a drug to reach its peak concentration in the bloodstream.",
+        "\"An indicator of the maximum dose a patient can tolerate without adverse effects."
+      ],
+      "correctOption": 0,
+      "explanation": "Therapeutic index describes the margin between doses that produce therapeutic effects and those causing toxicity.",
+      "reference": "Principles of Clinical Pharmacology · A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT"
+    },
+    {
+      "id": "h1-064-sp-mcq6",
+      "type": "mcq",
+      "subtopic": "A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT",
+      "question": "What is one reason why establishing the balance between risk and benefit for drug therapy can be complex?",
+      "options": [
+        "\"Patients in clinical settings may display responses not observed in trials due to comorbidities.",
+        "\"All patients respond uniformly to drugs as demonstrated in controlled trials.",
+        "\"Drug interactions are rare and do not significantly affect outcomes.",
+        "\"Cultural factors have no impact on drug therapy decisions."
+      ],
+      "correctOption": 0,
+      "explanation": "Patients may display responses not observed in trials due to comorbidities that were exclusion criteria, making risk-benefit balance complex.",
+      "reference": "Principles of Clinical Pharmacology · A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT"
+    },
+    {
+      "id": "h1-064-sp-mcq7",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT",
+      "question": "Which of the following is NOT a reason for bioavailability being less than 100% when a drug is administered by routes other than intravenous?",
+      "options": [
+        "Incomplete absorption",
+        "Metabolism or elimination prior to entering systemic circulation",
+        "First-pass effect in the liver",
+        "Increased peak plasma concentration compared to intravenous administration"
+      ],
+      "correctOption": 3,
+      "explanation": "Bioavailability is less than 100% due to incomplete absorption, metabolism, or first-pass effect, not increased peak plasma concentration.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT"
+    },
+    {
+      "id": "h1-064-sp-mcq8",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT",
+      "question": "What is the primary function of P-glycoprotein in enterocytes and hepatocytes?",
+      "options": [
+        "Facilitates drug absorption into systemic circulation",
+        "Increases drug metabolism in the liver",
+        "Limits availability of drugs to the systemic circulation by acting as an efflux pump",
+        "Enhances drug penetration across the blood-brain barrier"
+      ],
+      "correctOption": 2,
+      "explanation": "P-glycoprotein acts as an efflux pump, limiting drug availability to systemic circulation.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT"
+    },
+    {
+      "id": "h1-064-sp-mcq9",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT",
+      "question": "Which of the following processes is deliberately designed into slow-release or sustained-release formulations?",
+      "options": [
+        "Increased peak plasma concentration",
+        "Rapid absorption rate",
+        "Minimized variation in plasma concentrations between doses",
+        "Enhanced first-pass metabolism"
+      ],
+      "correctOption": 2,
+      "explanation": "Slow-release formulations are designed to minimize variation in plasma concentrations during the dosing interval.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT"
+    },
+    {
+      "id": "h1-064-sp-mcq10",
+      "type": "mcq",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "question": "Which of the following best describes Phase I metabolism?",
+      "options": [
+        "Involves conjugation with endogenous compounds.",
+        "Most often involves oxidation by cytochrome P450 enzymes.",
+        "Results in drug elimination from the body.",
+        "Occurs predominantly in peripheral tissues."
+      ],
+      "correctOption": 1,
+      "explanation": "Phase I metabolism involves chemical modification, most often oxidation accomplished by members of the cytochrome P450 (CYP) monooxygenase superfamily.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-mcq11",
+      "type": "mcq",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "question": "What is a clinical implication of reduced bioavailability due to presystemic metabolism?",
+      "options": [
+        "Drugs can be administered orally without any modifications.",
+        "Some drugs require alternative routes of administration like sublingual or transdermal.",
+        "Presystemic metabolism increases the half-life of all drugs.",
+        "All drugs undergo complete elimination in the liver."
+      ],
+      "correctOption": 1,
+      "explanation": "Drugs that undergo near-complete presystemic metabolism cannot be administered orally and require alternative routes like sublingual or transdermal to bypass this metabolism.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-mcq12",
+      "type": "mcq",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "question": "What does the term 'half-life' refer to in pharmacokinetics?",
+      "options": [
+        "The time required for 100% of a drug to be eliminated.",
+        "The duration for which a drug remains effective.",
+        "The time required for 50% of a first-order process to be completed.",
+        "The period during which plasma concentration is stable."
+      ],
+      "correctOption": 2,
+      "explanation": "Half-life is the time required for 50% of a first-order process, such as drug elimination, to be completed.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-mcq13",
+      "type": "mcq",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "question": "Which statement best describes the clinical implications of half-life measurements?",
+      "options": [
+        "Half-life determines the duration for which a drug remains in peripheral tissues.",
+        "The elimination half-life is crucial for determining steady-state plasma concentrations after dosing changes.",
+        "Half-life affects only the initial distribution phase of a drug.",
+        "Steady state can be achieved without considering the half-life."
+      ],
+      "correctOption": 1,
+      "explanation": "The elimination half-life determines the time required to achieve steady-state plasma concentrations after any change in drug dosing.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-mcq14",
+      "type": "mcq",
+      "subtopic": "DRUG DISTRIBUTION",
+      "question": "Which of the following best explains why loading doses are used for some drugs?",
+      "options": [
+        "To achieve rapid elevations of drug concentration and therapeutic effects earlier than with chronic maintenance therapy.",
+        "To ensure that a true steady state is achieved more quickly.",
+        "To reduce the risk of side effects related to transiently very high concentrations.",
+        "To maintain constant drug levels in the plasma over time."
+      ],
+      "correctOption": 0,
+      "explanation": "Loading doses are used to achieve rapid elevations of drug concentration and therapeutic effects earlier than with chronic maintenance therapy.",
+      "reference": "Principles of Clinical Pharmacology · DRUG DISTRIBUTION"
+    },
+    {
+      "id": "h1-064-sp-mcq15",
+      "type": "mcq",
+      "subtopic": "DRUG DISTRIBUTION",
+      "question": "Why is midazolam administered rapidly for intravenous sedation?",
+      "options": [
+        "To prevent elimination by very rapid uptake into erythrocytes.",
+        "To ensure it reaches the clinical site of action before redistribution occurs.",
+        "To produce sedation quickly through its rapid uptake by the brain during the distribution phase.",
+        "To avoid transiently high drug concentrations that can cause side effects."
+      ],
+      "correctOption": 2,
+      "explanation": "Midazolam is administered rapidly to produce sedation quickly through its rapid uptake by the brain during the distribution phase.",
+      "reference": "Principles of Clinical Pharmacology · DRUG DISTRIBUTION"
+    },
+    {
+      "id": "h1-064-sp-mcq16",
+      "type": "mcq",
+      "subtopic": "DRUG DISTRIBUTION",
+      "question": "What is a clinical implication of altered protein binding in chronic kidney or liver disease?",
+      "options": [
+        "Drug actions are decreased due to increased protein binding.",
+        "Only unbound drug can distribute to sites of pharmacologic action, leading to increased drug actions when protein binding is decreased.",
+        "Total circulating plasma drug concentration becomes more relevant than free drug concentration.",
+        "Protein binding changes have no significant impact on drug efficacy."
+      ],
+      "correctOption": 1,
+      "explanation": "Only unbound drug can distribute to sites of pharmacologic action, leading to increased drug actions when protein binding is decreased in chronic kidney or liver disease.",
+      "reference": "Principles of Clinical Pharmacology · DRUG DISTRIBUTION"
+    },
+    {
+      "id": "h1-064-sp-mcq17",
+      "type": "mcq",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "question": "Which enzyme's decreased activity can prevent analgesia by codeine?",
+      "options": [
+        "CYP2D6",
+        "CYP3A4",
+        "CYP1A2",
+        "MAO-A"
+      ],
+      "correctOption": 0,
+      "explanation": "Decreased CYP2D6 activity prevents the conversion of codeine to its active metabolite, morphine.",
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-mcq18",
+      "type": "mcq",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "question": "What is a potential consequence of inhibiting a single metabolic pathway responsible for drug elimination?",
+      "options": [
+        "Decreased drug efficacy due to increased metabolism",
+        "Increased likelihood of dose-related toxicity",
+        "No significant change in drug concentration",
+        "Enhanced bioactivation of prodrugs"
+      ],
+      "correctOption": 1,
+      "explanation": "Inhibition of a single metabolic pathway can lead to elevated drug concentrations and potential toxicity, especially for drugs with narrow therapeutic windows.",
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-mcq19",
+      "type": "mcq",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "question": "Which scenario is an example of high-risk pharmacokinetics?",
+      "options": [
+        "Variability in bioactivation of a prodrug due to decreased enzyme activity",
+        "Multiple pathways for drug elimination",
+        "Stable drug concentrations despite genetic variants",
+        "Increased clearance through multiple excretory mechanisms"
+      ],
+      "correctOption": 0,
+      "explanation": "High-risk pharmacokinetics can occur when variability in the bioactivation of a prodrug, such as decreased CYP2D6 activity affecting codeine, leads to significant differences in drug action.",
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-mcq20",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF PHARMACODYNAMICS",
+      "question": "Which of the following factors can cause a delay in the onset of action of drugs used for non-urgent conditions?",
+      "options": [
+        "Slow elimination resulting in slow accumulation to steady state",
+        "Immediate drug-target interaction",
+        "Rapid uptake into target tissue",
+        "Fast clearance from plasma"
+      ],
+      "correctOption": 0,
+      "explanation": "Delay can be due to pharmacokinetic mechanisms such as slow elimination.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACODYNAMICS"
+    },
+    {
+      "id": "h1-064-sp-mcq21",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF PHARMACODYNAMICS",
+      "question": "What is the reason for the prolonged antiplatelet effect of clopidogrel despite its short plasma half-life?",
+      "options": [
+        "Clopidogrel has a long elimination half-life in plasma.",
+        "The drug's interaction with P2Y12 receptors leads to irreversible binding.",
+        "Clopidogrel is rapidly metabolized into active metabolites.",
+        "The antiplatelet effect is due to reversible receptor interactions."
+      ],
+      "correctOption": 1,
+      "explanation": "The antiplatelet effect persists because the drug's interaction with its receptor (P2Y12) is irreversible.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACODYNAMICS"
+    },
+    {
+      "id": "h1-064-sp-mcq22",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF PHARMACODYNAMICS",
+      "question": "Which of the following best explains why $\\beta$-adrenergic blockers can cause severe effects upon abrupt withdrawal?",
+      "options": [
+        "They increase $\\beta$-receptor density, leading to receptor downregulation.",
+        "They decrease $\\beta$-receptor density, causing upregulation when withdrawn.",
+        "They have a long half-life in plasma.",
+        "They cause irreversible binding to $\\beta$ receptors."
+      ],
+      "correctOption": 1,
+      "explanation": "$\\beta$-adrenergic blockers upregulate $\\beta$-receptor density, which can lead to severe effects if the drug is abruptly withdrawn.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACODYNAMICS"
+    },
+    {
+      "id": "h1-064-sp-mcq23",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "question": "Which of the following scenarios justifies initiating therapy at a dose highly likely to achieve efficacy?",
+      "options": [
+        "When side effects are minor and can be managed by down-titration.",
+        "When the anticipated toxicity is serious or life-threatening.",
+        "When there is no established relationship between drug dose and effect.",
+        "When plasma concentration monitoring is not feasible."
+      ],
+      "correctOption": 0,
+      "explanation": "Starting at a high dose to achieve efficacy is acceptable when side effects are minor, as they can be managed by reducing the dose if necessary.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-mcq24",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "question": "What is an appropriate method for adjusting vancomycin dosage?",
+      "options": [
+        "Measuring plasma concentration at peak levels.",
+        "Adjusting based on trough (predose) concentrations.",
+        "Doubling the dose if efficacy is not achieved.",
+        "Shortening the dosing interval to increase frequency."
+      ],
+      "correctOption": 1,
+      "explanation": "Vancomycin dosage should be adjusted based on plasma concentrations measured at trough levels to minimize nephrotoxicity risk.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-mcq25",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "question": "When is it most appropriate to evaluate the electrocardiogram during treatment with sotalol or dofetilide?",
+      "options": [
+        "At trough levels.",
+        "Just before a dose at steady state.",
+        "During peak plasma concentration and effect (1–2 h postdose).",
+        "When no relationship between drug dose and effect is established."
+      ],
+      "correctOption": 2,
+      "explanation": "The electrocardiogram should be evaluated at the time of anticipated peak plasma concentration and effect, typically 1-2 hours postdose at steady state.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-mcq26",
+      "type": "mcq",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "question": "Which type of drug elimination implies that average, maximum, and minimum steady-state concentrations are related linearly to the dosing rate?",
+      "options": [
+        "Zero-order kinetics.",
+        "First-order elimination.",
+        "Non-linear pharmacokinetics.",
+        "Variable-rate elimination."
+      ],
+      "correctOption": 1,
+      "explanation": "First-order elimination implies a linear relationship between steady-state concentrations and the dosing rate, allowing for proportional dose adjustments.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-tf1",
+      "type": "true_false",
+      "subtopic": "Principles of Clinical Pharmacology",
+      "statement": "The outcome of drug therapy is predictable and consistent across all individuals.",
+      "correctAnswer": false,
+      "explanation": "Drug therapy outcomes vary widely among individuals due to pharmacokinetic and pharmacodynamic variability.",
+      "reference": "Principles of Clinical Pharmacology · Principles of Clinical Pharmacology"
+    },
+    {
+      "id": "h1-064-sp-tf2",
+      "type": "true_false",
+      "subtopic": "Principles of Clinical Pharmacology",
+      "statement": "Pharmacogenomic science is based on the idea that variability in drug action can be linked to specific gene expressions.",
+      "correctAnswer": true,
+      "explanation": "Variability in drug actions reflects differences in expression or function of genes affecting pharmacokinetics and pharmacodynamics.",
+      "reference": "Principles of Clinical Pharmacology · Principles of Clinical Pharmacology"
+    },
+    {
+      "id": "h1-064-sp-tf3",
+      "type": "true_false",
+      "subtopic": "A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT",
+      "statement": "Serious adverse drug reactions (ADRs) are always detected during initial clinical trials.",
+      "correctAnswer": false,
+      "explanation": "Serious ADRs may be uncommon and escape detection for many years after a drug is widely used.",
+      "reference": "Principles of Clinical Pharmacology · A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT"
+    },
+    {
+      "id": "h1-064-sp-tf4",
+      "type": "true_false",
+      "subtopic": "A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT",
+      "statement": "The benefits of drug therapy should outweigh the risks.",
+      "correctAnswer": true,
+      "explanation": "It is self-evident that the benefits of drug therapy should outweigh the risks.",
+      "reference": "Principles of Clinical Pharmacology · A SYSTEMS BIOLOGY VIEW | GLOBAL CONSIDERATIONS | INDICATIONS FOR DRUG THERAPY: RISK VERSUS BENEFIT"
+    },
+    {
+      "id": "h1-064-sp-tf5",
+      "type": "true_false",
+      "subtopic": "PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT",
+      "statement": "P-glycoprotein enhances drug penetration across the blood-brain barrier.",
+      "correctAnswer": false,
+      "explanation": "P-glycoprotein limits drug brain penetration by serving as an efflux pump in cerebral capillaries.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT"
+    },
+    {
+      "id": "h1-064-sp-tf6",
+      "type": "true_false",
+      "subtopic": "PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT",
+      "statement": "First-pass elimination can occur both in the intestine and liver.",
+      "correctAnswer": true,
+      "explanation": "First-pass elimination involves metabolism or excretion in the intestine and liver, reducing drug delivery to systemic circulation.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACOKINETICS | ABSORPTION AND BIOAVAILABILITY | DRUG TRANSPORT"
+    },
+    {
+      "id": "h1-064-sp-tf7",
+      "type": "true_false",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "statement": "Drug metabolism is exclusively a first-order process.",
+      "correctAnswer": false,
+      "explanation": "While most pharmacokinetic processes like elimination are first-order, drug elimination can occasionally be zero-order.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-tf8",
+      "type": "true_false",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "statement": "Steady state is achieved when the amount of drug administered equals the amount eliminated per unit time.",
+      "correctAnswer": true,
+      "explanation": "Steady state occurs during chronic drug administration when the amount of drug administered per unit time equals the amount eliminated per unit time.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-tf9",
+      "type": "true_false",
+      "subtopic": "DRUG DISTRIBUTION",
+      "statement": "The time required for a true steady state to be achieved is determined by the loading dose.",
+      "correctAnswer": false,
+      "explanation": "The time required for a true steady state is determined only by the elimination half-life, not by the loading dose.",
+      "reference": "Principles of Clinical Pharmacology · DRUG DISTRIBUTION"
+    },
+    {
+      "id": "h1-064-sp-tf10",
+      "type": "true_false",
+      "subtopic": "DRUG DISTRIBUTION",
+      "statement": "Adenosine must be administered as a rapid bolus to prevent its elimination before reaching the atrioventricular node.",
+      "correctAnswer": true,
+      "explanation": "Adenosine is administered rapidly to prevent its elimination by uptake into erythrocytes and endothelial cells before it can reach the atrioventricular node.",
+      "reference": "Principles of Clinical Pharmacology · DRUG DISTRIBUTION"
+    },
+    {
+      "id": "h1-064-sp-tf11",
+      "type": "true_false",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "statement": "Decreased clearance of a drug always requires an increase in dosage.",
+      "correctAnswer": false,
+      "explanation": "Decreased clearance typically necessitates a downward dose adjustment to avoid toxicity, not an increase.",
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-tf12",
+      "type": "true_false",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "statement": "Prodrugs require metabolism to become pharmacologically active.",
+      "correctAnswer": true,
+      "explanation": "Prodrugs are inactive until metabolized into their active forms, which mediate the drug's effects.",
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-tf13",
+      "type": "true_false",
+      "subtopic": "PRINCIPLES OF PHARMACODYNAMICS",
+      "statement": "The pharmacodynamic action of a drug is always immediate after administration.",
+      "correctAnswer": false,
+      "explanation": "For many conditions, there can be a clinically acceptable delay in the onset of action.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACODYNAMICS"
+    },
+    {
+      "id": "h1-064-sp-tf14",
+      "type": "true_false",
+      "subtopic": "PRINCIPLES OF PHARMACODYNAMICS",
+      "statement": "Disease-specific effects are an important consideration when evaluating drug actions.",
+      "correctAnswer": true,
+      "explanation": "A drug may produce different actions in patients with underlying disease compared to unaffected individuals.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF PHARMACODYNAMICS"
+    },
+    {
+      "id": "h1-064-sp-tf15",
+      "type": "true_false",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "statement": "Therapeutic drug monitoring is useful for all types of drugs.",
+      "correctAnswer": false,
+      "explanation": "Therapeutic drug monitoring is particularly useful for certain drugs like anticonvulsants and antibiotics, but not universally applicable.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-tf16",
+      "type": "true_false",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "statement": "For drugs eliminated by zero-order kinetics, small dosage increases lead to proportional increases in plasma concentration.",
+      "correctAnswer": false,
+      "explanation": "Zero-order kinetics means that small dosage increases can cause disproportionate increases in plasma concentration.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-ar1",
+      "type": "assertion_reason",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "assertion": "The initial rapid drop in plasma concentration after a bolus is due to drug elimination.",
+      "reason": "This rapid decline represents distribution into and out of peripheral tissues, not elimination.",
+      "correctOption": 3,
+      "explanation": "The assertion is false; the reason correctly explains that the initial rapid drop is due to distribution, not elimination.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-ar2",
+      "type": "assertion_reason",
+      "subtopic": "DRUG METABOLISM | PLASMA HALF-LIFE",
+      "assertion": "Drugs with extensive presystemic metabolism can be administered orally at higher doses.",
+      "reason": "This approach compensates for the drug being extensively metabolized before reaching systemic circulation.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why drugs with extensive presystemic metabolism can still be administered orally at higher doses.",
+      "reference": "Principles of Clinical Pharmacology · DRUG METABOLISM | PLASMA HALF-LIFE"
+    },
+    {
+      "id": "h1-064-sp-ar3",
+      "type": "assertion_reason",
+      "subtopic": "DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS",
+      "assertion": "Prodrugs can lead to variability in drug action due to differences in metabolic activity.",
+      "reason": "Variability in enzyme activity, such as CYP2D6 for codeine, affects the conversion of prodrugs into their active metabolites.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true; variability in metabolism directly explains differences in drug action for prodrugs.",
+      "reference": "Principles of Clinical Pharmacology · DRUG ELIMINATION | THE CONCEPT OF HIGH-RISK PHARMACOKINETICS"
+    },
+    {
+      "id": "h1-064-sp-ar4",
+      "type": "assertion_reason",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "assertion": "A complete therapeutic response is often absent with antihypertensive or antidepressant drugs.",
+      "reason": "Patient-specific predictors of drug response are challenging to identify.",
+      "correctOption": 1,
+      "explanation": "Both the assertion and reason are true, but the reason does not explain why a complete therapeutic response is often absent.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
+    },
+    {
+      "id": "h1-064-sp-ar5",
+      "type": "assertion_reason",
+      "subtopic": "PRINCIPLES OF DOSE SELECTION",
+      "assertion": "Maintained high vancomycin levels carry no risk of nephrotoxicity.",
+      "reason": "Dosages should be adjusted based on trough plasma concentrations to avoid toxicity.",
+      "correctOption": 3,
+      "explanation": "The assertion is false as maintained high vancomycin levels do carry a risk of nephrotoxicity, but the reason is true.",
+      "reference": "Principles of Clinical Pharmacology · PRINCIPLES OF DOSE SELECTION"
     }
+  ],
+  "_studypackMergedFrom": [
+    "noupload/harrison/Harrison1_studypacks/064_Principles_of_Clinical_Pharmacology/h22-064_principles_of_clinical_pharmacology.json"
   ]
 }

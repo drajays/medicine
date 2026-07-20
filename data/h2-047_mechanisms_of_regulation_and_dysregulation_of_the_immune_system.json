@@ -1,0 +1,690 @@
+{
+  "id": "h2-047",
+  "volume": 2,
+  "chapterNo": "361",
+  "title": "Mechanisms of Regulation and Dysregulation of the Immune System",
+  "section": "The Immune System in Health and Disease",
+  "authors": "Barton F. Haynes, Kelly A. Cuttle, Anthony S. Fauci",
+  "sourceFile": "noupload/harrison/Harrison2_studypacks/047_Mechanisms_of_Regulation_and_Dysregulation_of_the_Immune_System/h22-047_mechanisms_of_regulation_and_dysregulation_of_the_immune_system.json",
+  "items": [
+    {
+      "id": "h2-047-n1",
+      "type": "note",
+      "subtopic": "Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS",
+      "title": "Understanding Anergy in T and B Cells",
+      "content": "Anergy is a reversible tolerance mechanism where T or B cells become unresponsive after encountering an antigen but remain alive. This state prevents inappropriate immune responses.",
+      "keyPoints": [
+        "Anergy involves T or B cells becoming unresponsive post-antigen encounter.",
+        "The state is reversible, meaning the cells can potentially regain responsiveness."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS"
+    },
+    {
+      "id": "h2-047-n2",
+      "type": "note",
+      "subtopic": "Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS",
+      "title": "Role of Checkpoint Inhibition Therapy in Cancer Treatment",
+      "content": "Checkpoint inhibition therapy is a cancer immunotherapy approach that uses antibodies to block regulators of immune cell inhibition, thereby activating cytotoxic T cells to target and destroy tumor cells.",
+      "keyPoints": [
+        "Involves using antibodies against T-cell or antigen-presenting cell regulators.",
+        "Activates cytotoxic T cells to kill tumor cells."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS"
+    },
+    {
+      "id": "h2-047-n3",
+      "type": "note",
+      "subtopic": "INTRODUCTION",
+      "title": "Understanding Immune Homeostasis for Therapeutic Interventions",
+      "content": "Immune homeostasis involves maintaining a balanced immune response to protect the host while preventing dysregulation that can lead to immunodeficiency, autoimmunity, malignancy, or harmful responses. Disruption in this balance contributes to various diseases. The goal of immunotherapy is to maintain or reestablish this balance.",
+      "keyPoints": [
+        "Immune homeostasis prevents immunodeficiency, autoimmunity, and harmful immune responses.",
+        "Disruption leads to disease; thus, maintaining balance is crucial for treatment.",
+        "Immunotherapy aims to maintain or restore immune balance."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · INTRODUCTION"
+    },
+    {
+      "id": "h2-047-n4",
+      "type": "note",
+      "subtopic": "INTRODUCTION",
+      "title": "Leveraging Advanced Technologies in Immunology Research",
+      "content": "Recent advancements such as high-throughput genome sequencing, transcriptome analysis, proteomics, metabolomics, and understanding of the human microbiome have opened new avenues for developing treatments for immune-mediated and malignant diseases. These technologies help manipulate the immune system for therapeutic interventions.",
+      "keyPoints": [
+        "High-throughput genome sequencing and other advanced technologies are pivotal in immunology research.",
+        "These advancements enable development of new treatments for immune-related and cancerous conditions.",
+        "Manipulating the immune system can control autoimmune diseases and treat malignancies."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · INTRODUCTION"
+    },
+    {
+      "id": "h2-047-n5",
+      "type": "note",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "title": "Dual Signal Requirement for T-Cell Activation",
+      "content": "T-cell activation necessitates two signals: antigen presentation via MHC and a co-stimulatory signal. Without the co-stimulatory signal, T cells become anergic.",
+      "keyPoints": [
+        "Two stimulatory signals are required for T-cell activation.",
+        "Absence of co-stimulating signal results in T cell anergy or unresponsiveness."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-n6",
+      "type": "note",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "title": "Role of CD28 and CTLA-4 in T-Cell Activation Regulation",
+      "content": "CD28 is a co-stimulatory molecule essential for T-cell activation, while CTLA-4 acts as an inhibitory regulator by competing with CD28 for B7 ligands.",
+      "keyPoints": [
+        "CD28 stimulates intracellular signaling pathways critical for T-cell activation and differentiation.",
+        "CTLA-4 downmodulates the T-cell response by interacting with B7-1 and B7-2, having higher affinity than CD28."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-n7",
+      "type": "note",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "title": "PD-1 as an Inhibitory Molecule in T-Cell Activation",
+      "content": "PD-1 inhibits T-cell activation by dephosphorylating CD28 via SHP2, and is a marker for both activated and exhausted T cells.",
+      "keyPoints": [
+        "PD-1 interacts with PD-L1 and PD-L2 to inhibit T-cell activation.",
+        "PD-1 expression indicates T-cell exhaustion in chronic antigenic stimulation scenarios like cancer or chronic viral infections."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-n8",
+      "type": "note",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "title": "Mechanisms of CTLA-4 Blockade in Cancer Therapy",
+      "content": "CTLA-4 blockade enhances antitumor immunity through multiple mechanisms. It blocks the competition between CTLA-4 and CD28 for B7 co-stimulatory ligands, allowing T-cell activation primarily in tumor-draining lymph nodes. Additionally, it reduces suppressive effects of regulatory T cells (Tregs) by decreasing secretion of immunosuppressive cytokines like TGF-$\\beta$ or IL-10. Furthermore, CTLA-4 blockade remodels and broadens the peripheral TCR repertoire for tumor antigens, primarily affecting neoantigen-specific CD8 T cells within tumors.",
+      "keyPoints": [
+        "CTLA-4 blockade allows CD28-mediated T-cell activation by blocking competition with B7 ligands.",
+        "Reduction in suppressive effects of Tregs through decreased secretion of cytokines like TGF-$\\beta$ or IL-10.",
+        "Remodeling and broadening of the peripheral TCR repertoire for tumor antigens, affecting neoantigen-specific CD8 T cells within tumors."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-n9",
+      "type": "note",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "title": "PD-1 Blockade and Its Role in Reversing T-cell Exhaustion",
+      "content": "PD-1 blockade reverses T-cell exhaustion, enhancing their cytolytic function against tumor cells. This is most effective when CD8 T cells are present within the tumor microenvironment. PD-1 blockade also corrects metabolic reprogramming of exhausted T cells and can induce tumor cell killing through antibody-dependent cellular cytotoxicity (ADCC). Anti-PD-L1 antibodies, which target the primary ligand for PD-1, have shown efficacy in non-small-cell lung cancer by reversing T-cell exhaustion.",
+      "keyPoints": [
+        "PD-1 blockade reverses T-cell exhaustion and enhances cytolytic function of CD8 T cells.",
+        "Effectiveness is heightened when CD8 T cells are present within the tumor microenvironment.",
+        "Anti-PD-L1 antibodies approved for non-small-cell lung cancer treatment by reversing T-cell exhaustion."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-n10",
+      "type": "note",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "title": "Strategies to Enhance Checkpoint Inhibition Therapy",
+      "content": "Combining checkpoint inhibitors with other therapies can improve antitumor responses. Strategies include using combinations of anti-PD-1, anti-CTLA-4, or anti-PD-L1 antibodies with other checkpoint inhibitors like ICOS, TIM-3, TIGIT, or LAG-3. Inhibition of the transcription factor TOX may synergize with checkpoint inhibition to reverse CD8 T-cell exhaustion. Additionally, combining checkpoint inhibitors with chemotherapy, radiation, signaling pathway inhibitors, and epigenetic modulators is under investigation.",
+      "keyPoints": [
+        "Combination strategies include anti-PD-1, anti-CTLA-4, or anti-PD-L1 antibodies with other checkpoint inhibitors like ICOS, TIM-3, TIGIT, or LAG-3.",
+        "TOX inhibition may synergize with checkpoint therapy to reverse CD8 T-cell exhaustion.",
+        "Testing combinations of checkpoint inhibitors with chemotherapy, radiation, signaling pathway inhibitors, and epigenetic modulators."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-n11",
+      "type": "note",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS",
+      "title": "Mechanisms and Adverse Effects of Checkpoint Inhibition Therapy",
+      "content": "Checkpoint inhibition therapy, including anti-PD-L1 antibodies, enhances antitumor effects through ADCC involving NK cells. These therapies can lead to immune-related adverse events (irAEs), commonly affecting skin, lungs, and the GI tract. The gut microbiome influences both efficacy and occurrence of irAEs.",
+      "keyPoints": [
+        "Anti-PD-L1 antibodies mediate antitumor effects via ADCC using NK cells.",
+        "Checkpoint inhibitors target molecules like CTLA-4, PD-1, LAG-3, TIGIT, TIM-3 on NK cells.",
+        "Monalizumab, an anti-NKG2A antibody, is in human clinical trials to enhance NK cell activity against tumors.",
+        "irAEs frequently occur at barrier sites: skin, lungs, and GI tract.",
+        "Colitis is a common irAE; endocrinopathies with organ-specific autoantibodies have been reported.",
+        "Gut microbiome composition affects both the efficacy of therapy and occurrence of irAEs."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS"
+    },
+    {
+      "id": "h2-047-n12",
+      "type": "note",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS",
+      "title": "CAR T-Cell Therapy: Mechanisms and Clinical Outcomes",
+      "content": "Chimeric antigen receptor (CAR) T cells are engineered to target specific antigens on malignant cells, such as CD19 in B-cell malignancies. They have shown high complete response rates of 70–90%. CAR T cells targeting NY-ESO and BCMA have also induced remissions. Next-generation CAR T cells, including TRUCKs, aim to enhance efficacy while reducing cytokine release syndrome.",
+      "keyPoints": [
+        "CAR T cells combine an antibody-derived extracellular domain with intracellular signaling domains for targeted therapy.",
+        "CD19-targeting CAR T cells show complete response rates of 70–90% in B-cell malignancies.",
+        "CAR T cells targeting NY-ESO and BCMA have induced remissions in sarcoma and myeloma, respectively.",
+        "Universal CAR T cells are being developed to avoid MHC matching issues.",
+        "TRUCKs represent next-generation CAR T cells designed to reduce cytokine release syndrome by local cytokine delivery."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS"
+    },
+    {
+      "id": "h2-047-n13",
+      "type": "note",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "title": "Role of Tregs in Autoimmune Disease Prevention and Pathogenesis",
+      "content": "T regulatory cells (Tregs) are crucial in maintaining immune tolerance by downmodulating B- and T-cell responses. Mutations affecting Treg function, such as those in FOXP3 or CTLA-4, lead to autoimmune syndromes due to loss of peripheral tolerance.",
+      "keyPoints": [
+        "Autoimmune diseases occur in ~5% of people.",
+        "Tregs are CD4 or CD8 T cells that prevent autoimmune diseases.",
+        "Mutations in FOXP3 cause IPEX syndrome with immune dysregulation, polyendocrinopathy, and enteropathy.",
+        "CTLA-4 mutations lead to multiple autoimmune syndromes; CTLA-4-Fc is used for immune suppression in RA.",
+        "Treg therapy involves expanding autologous Tregs for reinfusion to restore tolerance."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-n14",
+      "type": "note",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "title": "Impact of Chronic Viral Infections on Autoimmunity",
+      "content": "Chronic viral infections, such as HIV-1, can disrupt Treg function and lead to autoimmunity. This is due to chronic antigenic stimulation causing a shift in the B-cell repertoire towards an autoimmune permissive state.",
+      "keyPoints": [
+        "In untreated HIV-1-infected individuals, ~50% develop serum autoantibodies or clinical manifestations of autoimmune disease.",
+        "Chronic viral infections decrease CD4+ Tregs and increase autoreactive B cells."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-n15",
+      "type": "note",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "title": "Monoclonal Antibodies in Autoimmune Disease Treatment",
+      "content": "Monoclonal antibodies are used to modulate immune responses in autoimmune diseases. They target specific molecules involved in the pathogenesis of these conditions, such as TNF-α and IL-17.",
+      "keyPoints": [
+        "Anti-TNF-α antibodies treat RA and other autoimmune syndromes like inflammatory bowel disease and psoriasis.",
+        "Anti-IL-17 antibody therapy is FDA-approved for psoriasis treatment.",
+        "Anti-CD20 (rituximab) targets B-cell malignancies and autoimmune diseases."
+      ],
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-mcq1",
+      "type": "mcq",
+      "subtopic": "Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS",
+      "question": "Which mechanism describes a reversible tolerance state where T or B cells remain unresponsive but alive after encountering an antigen?",
+      "options": [
+        "Anergy",
+        "T-cell exhaustion",
+        "Immunoediting",
+        "Checkpoint inhibition therapy"
+      ],
+      "correctOption": 0,
+      "explanation": "Anergy is defined as a reversible tolerance mechanism in which the T or B cell remains unresponsive yet alive following an antigen encounter.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS"
+    },
+    {
+      "id": "h2-047-mcq2",
+      "type": "mcq",
+      "subtopic": "Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS",
+      "question": "What are Chimeric Antigen Receptor T cells (CAR T) designed to do?",
+      "options": [
+        "Enhance B-cell antibody production against pathogens",
+        "Retarget T cells to antigens on malignant cells",
+        "Inhibit natural killer cell activity",
+        "Induce immune homeostasis"
+      ],
+      "correctOption": 1,
+      "explanation": "CAR T cells are synthetic hybrid receptors that retarget T cells to antigens on malignant cells.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS"
+    },
+    {
+      "id": "h2-047-mcq3",
+      "type": "mcq",
+      "subtopic": "Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS",
+      "question": "What is a primary mediator of co-stimulation for T cell activation?",
+      "options": [
+        "CD28 molecule binding to B7-1 (CD80, CD86) on antigen-presenting cells",
+        "FOXP3 transcription factor in T regulatory cells",
+        "Antigen recognition by natural killer cells",
+        "Cytokine interaction with immune receptors"
+      ],
+      "correctOption": 0,
+      "explanation": "The primary mediator of co-stimulation for T cell activation is the CD28 molecule binding to B7-1 (CD80, CD86) on antigen-presenting cells.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS"
+    },
+    {
+      "id": "h2-047-mcq4",
+      "type": "mcq",
+      "subtopic": "INTRODUCTION",
+      "question": "What is the primary goal of immunotherapy according to the passage?",
+      "options": [
+        "To maintain or reestablish immune balance in diseases of immune dysregulation.",
+        "To enhance innate and adaptive immunity to prevent infections.",
+        "To suppress all forms of immune responses to avoid autoimmunity.",
+        "To eliminate all malignancies using immune system manipulation."
+      ],
+      "correctOption": 0,
+      "explanation": "The passage states that a major goal of immunotherapy is to maintain or reestablish immune balance in diseases of immune dysregulation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · INTRODUCTION"
+    },
+    {
+      "id": "h2-047-mcq5",
+      "type": "mcq",
+      "subtopic": "INTRODUCTION",
+      "question": "Which technological advancements have contributed to the study of the biology of the immune system?",
+      "options": [
+        "High-throughput genome sequencing and full genome transcriptome analysis.",
+        "The development of new vaccines for infectious diseases.",
+        "Advancements in surgical techniques for organ transplantation.",
+        "Improvements in radiological imaging technologies."
+      ],
+      "correctOption": 0,
+      "explanation": "The passage mentions high-throughput genome sequencing, full genome transcriptome analysis, proteomics, metabolomics, and the human microbiome as advancements contributing to immune system studies.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · INTRODUCTION"
+    },
+    {
+      "id": "h2-047-mcq6",
+      "type": "mcq",
+      "subtopic": "INTRODUCTION",
+      "question": "What is a new frontier in medicine according to the passage?",
+      "options": [
+        "Developing new antibiotics for resistant bacterial infections.",
+        "Understanding basic regulatory mechanisms of the innate and adaptive immune system.",
+        "Creating synthetic organs for transplantation.",
+        "Enhancing cardiovascular health through lifestyle changes."
+      ],
+      "correctOption": 1,
+      "explanation": "The passage describes understanding basic regulatory mechanisms of the immune system as a new frontier in medicine to maintain immune homeostasis.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · INTRODUCTION"
+    },
+    {
+      "id": "h2-047-mcq7",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "question": "Which molecule is primarily responsible for initiating intracellular signaling that leads to T-cell activation and differentiation?",
+      "options": [
+        "CTLA-4",
+        "PD-1",
+        "CD28",
+        "BTLA"
+      ],
+      "correctOption": 2,
+      "explanation": "CD28 stimulates intracellular signaling through AKT and PI3 kinase, which is critical for T-cell activation and differentiation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-mcq8",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "question": "What is the primary function of CTLA-4 in regulating T-cell activation?",
+      "options": [
+        "It stimulates T-cell proliferation.",
+        "It competes with CD28 for binding to B7 ligands, thereby inhibiting T-cell activation.",
+        "It enhances cytokine production by T cells.",
+        "It acts as a co-stimulatory molecule."
+      ],
+      "correctOption": 1,
+      "explanation": "CTLA-4 downmodulates the T-cell response by competing with CD28 for B7 ligands, thus inhibiting activation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-mcq9",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "question": "Which of the following molecules is associated with T-cell exhaustion in chronic viral infections and cancer?",
+      "options": [
+        "CD28",
+        "CTLA-4",
+        "PD-1",
+        "ICOS"
+      ],
+      "correctOption": 2,
+      "explanation": "PD-1 is a marker for exhausted T cells, which are prevalent in chronic antigenic stimulation such as in chronic viral diseases and cancer.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-mcq10",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "question": "What role does PD-1 play in the regulation of T-cell activation?",
+      "options": [
+        "It induces cell death upon binding to its ligands.",
+        "It enhances CD28 signaling by increasing phosphorylation.",
+        "It dampens T-cell activation by dephosphorylating CD28 via SHP2.",
+        "It acts as a co-stimulatory molecule for T cells."
+      ],
+      "correctOption": 2,
+      "explanation": "PD-1 inhibits T-cell activation by dephosphorylating CD28 through the action of SHP2.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-mcq11",
+      "type": "mcq",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "question": "Which of the following is a primary mechanism by which CTLA-4 blockade induces tumor rejection?",
+      "options": [
+        "Directly targeting and killing tumor cells",
+        "Blocking CTLA-4 competition with CD28 for B7 co-stimulatory ligands, allowing T-cell activation",
+        "Inducing apoptosis in regulatory T cells (Tregs)",
+        "Enhancing the metabolic reprogramming of exhausted T cells"
+      ],
+      "correctOption": 1,
+      "explanation": "CTLA-4 blockade mediates direct blockade of CTLA-4 competition with CD28 for B7 co-stimulatory ligands, allowing CD28-mediated T-cell activation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-mcq12",
+      "type": "mcq",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "question": "What is the primary target of checkpoint inhibitor antibodies in cancer therapy?",
+      "options": [
+        "Specific molecules on tumor cells",
+        "Immunoregulatory molecules on host T cells",
+        "Tumor neoantigens within the tumor microenvironment",
+        "Cytokines produced by Tregs"
+      ],
+      "correctOption": 1,
+      "explanation": "Checkpoint inhibitor antibodies target immunoregulatory molecules on host T cells, rather than specific molecules on tumors.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-mcq13",
+      "type": "mcq",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "question": "Which of the following is a potential mechanism by which PD-1 blockade induces tumor regression?",
+      "options": [
+        "Directly killing tumor cells",
+        "Reversing metabolic reprogramming of exhausted T cells",
+        "Increasing production of immunosuppressive cytokines",
+        "Enhancing Treg proliferation"
+      ],
+      "correctOption": 1,
+      "explanation": "PD-1 blockade can reverse the metabolic reprogramming of exhausted T cells, leading to enhanced cytolytic T-cell effector function.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-mcq14",
+      "type": "mcq",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "question": "What is a reason for the limited efficacy of checkpoint blockade therapy in some tumors?",
+      "options": [
+        "High number of tumor-infiltrating lymphocytes",
+        "Low production of immunosuppressive indoleamine 2,3-dioxygenase (IDO) by the tumor microenvironment",
+        "Tumor cells presenting few or mutated neoantigens",
+        "Excessive T-cell activation in the tumor microenvironment"
+      ],
+      "correctOption": 2,
+      "explanation": "Immune pressure can select for tumor cells that present few or mutated neoantigens, allowing them to escape antitumor immunity.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-mcq15",
+      "type": "mcq",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS",
+      "question": "Which of the following checkpoint inhibitor molecules is expressed on NK cells?",
+      "options": [
+        "CTLA-4",
+        "PD-L1",
+        "CD28",
+        "TCR"
+      ],
+      "correctOption": 0,
+      "explanation": "CTLA-4, PD-1, LAG-3, TIGIT, and TIM-3 are checkpoint inhibitor molecules expressed on NK cells.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS"
+    },
+    {
+      "id": "h2-047-mcq16",
+      "type": "mcq",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS",
+      "question": "What is a common immune-related adverse event associated with checkpoint blockade therapy?",
+      "options": [
+        "Colitis",
+        "Pneumonia",
+        "Diabetes",
+        "Hypertension"
+      ],
+      "correctOption": 0,
+      "explanation": "Colitis is among the most common immune-related adverse events (irAEs) occurring in barrier sites like skin, lungs, and GI tract.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS"
+    },
+    {
+      "id": "h2-047-mcq17",
+      "type": "mcq",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS",
+      "question": "Which CAR T cell target has shown complete response rates of 70–90% in B-cell malignancies?",
+      "options": [
+        "BCMA",
+        "NY-ESO",
+        "CD19",
+        "TCR"
+      ],
+      "correctOption": 2,
+      "explanation": "CAR T cells targeting the CD19 molecule on malignant B cells have shown complete response rates of 70–90%.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS"
+    },
+    {
+      "id": "h2-047-mcq18",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "question": "Which transcriptional regulator is centrally involved in the establishment of the Treg phenotype?",
+      "options": [
+        "FOXP3",
+        "CTLA-4",
+        "IL-2 receptor α",
+        "TGF-β"
+      ],
+      "correctOption": 0,
+      "explanation": "FOXP3 is crucial for establishing the Treg phenotype.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-mcq19",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "question": "What syndrome results from mutations in FOXP3?",
+      "options": [
+        "IPEX",
+        "RA",
+        "Inflammatory bowel disease",
+        "Psoriasis"
+      ],
+      "correctOption": 0,
+      "explanation": "Mutations in FOXP3 lead to IPEX syndrome.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-mcq20",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "question": "Which monoclonal antibody is used for blocking CD28-induced T-cell activation?",
+      "options": [
+        "Rituximab",
+        "CTLA-4-Fc",
+        "Anti-TNF-α",
+        "Anti-IL-17"
+      ],
+      "correctOption": 1,
+      "explanation": "CTLA-4-Fc prevents CD28-induced T-cell activation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-mcq21",
+      "type": "mcq",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "question": "Which cytokine is overproduced in psoriasis and targeted by monoclonal antibody therapy?",
+      "options": [
+        "IL-10",
+        "TGF-β",
+        "TNF-α",
+        "IL-17"
+      ],
+      "correctOption": 3,
+      "explanation": "IL-17 is overproduced in psoriasis and targeted by therapy.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-tf1",
+      "type": "true_false",
+      "subtopic": "Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS",
+      "statement": "Immunoediting is a process that enhances the immunogenicity of cancer cells.",
+      "correctAnswer": false,
+      "explanation": "Immunoediting selects for clones of cancer cells with reduced immunogenicities, leading to tumor escape.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS"
+    },
+    {
+      "id": "h2-047-tf2",
+      "type": "true_false",
+      "subtopic": "Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS",
+      "statement": "Tumor-infiltrating lymphocytes can be in an exhausted state.",
+      "correctAnswer": true,
+      "explanation": "Tumor-infiltrating lymphocytes may be in the exhausted state, which is targeted by checkpoint inhibition therapy.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · Mechanisms of Regulation and Dysregulation of the Immune System | DEFINITIONS"
+    },
+    {
+      "id": "h2-047-tf3",
+      "type": "true_false",
+      "subtopic": "INTRODUCTION",
+      "statement": "Disruption of immune homeostasis can lead directly or indirectly to many forms of disease.",
+      "correctAnswer": true,
+      "explanation": "The passage states that disruption of immune homeostasis contributes either directly or indirectly to many forms of disease.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · INTRODUCTION"
+    },
+    {
+      "id": "h2-047-tf4",
+      "type": "true_false",
+      "subtopic": "INTRODUCTION",
+      "statement": "Immune dysregulation is only related to autoimmune diseases and not to other conditions.",
+      "correctAnswer": false,
+      "explanation": "The passage indicates that immune dysregulation is also thought of in the context of neurodegenerative diseases, atherosclerotic cardiovascular disease, and aging.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · INTRODUCTION"
+    },
+    {
+      "id": "h2-047-tf5",
+      "type": "true_false",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "statement": "CTLA-4 is upregulated following TCR engagement with MHC/peptide to enhance T-cell activation.",
+      "correctAnswer": false,
+      "explanation": "CTLA-4 is upregulated following TCR engagement but acts to dampen, not enhance, T-cell activation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-tf6",
+      "type": "true_false",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "statement": "T-cell exhaustion is beneficial for maintaining immune homeostasis and preventing tissue damage.",
+      "correctAnswer": true,
+      "explanation": "T-cell exhaustion helps maintain immune homeostasis and prevents host tissue damage, although it can lead to immune dysfunction in chronic infections.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-tf7",
+      "type": "true_false",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "statement": "PD-1 blockade is effective only when PD-L1 is expressed on tumor cells.",
+      "correctAnswer": false,
+      "explanation": "PD-1 blockade can be effective even without PD-L1 expression, as it reverses T-cell exhaustion and enhances cytolytic activity.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-tf8",
+      "type": "true_false",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "statement": "Combination therapy using anti-PD-1 and anti-CTLA-4 antibodies has induced significant tumor regression in about 50% of melanoma patients.",
+      "correctAnswer": true,
+      "explanation": "The combination therapy has been especially useful, inducing significant tumor regression in approximately 50% of melanoma patients.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-tf9",
+      "type": "true_false",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS",
+      "statement": "The gut microbiome has no impact on the efficacy of checkpoint inhibition therapy.",
+      "correctAnswer": false,
+      "explanation": "The makeup of the gut microbiome can affect the efficacy of checkpoint inhibition therapy.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS"
+    },
+    {
+      "id": "h2-047-tf10",
+      "type": "true_false",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS",
+      "statement": "CAR T cells targeting BCMA on myeloma cells have induced clinical responses.",
+      "correctAnswer": true,
+      "explanation": "CAR T cells targeting B-cell maturation antigen (BCMA) on myeloma cells have indeed induced clinical responses.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 2) | CHIMERIC ANTIGEN RECEPTOR T CELLS"
+    },
+    {
+      "id": "h2-047-tf11",
+      "type": "true_false",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "statement": "Mutations in CTLA-4 lead to loss of Treg function and result in multiple autoimmune syndromes.",
+      "correctAnswer": true,
+      "explanation": "CTLA-4 mutations impair Treg function, causing autoimmune conditions.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-tf12",
+      "type": "true_false",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "statement": "Aging is associated with enhanced adaptive immunity.",
+      "correctAnswer": false,
+      "explanation": "Aging is characterized by a decline in both innate and adaptive immunity.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-ar1",
+      "type": "assertion_reason",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "assertion": "PD-1 is a marker of immune cell activation.",
+      "reason": "PD-1 expression increases upon the activation of T and B cells.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains why PD-1 is considered a marker of immune cell activation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-ar2",
+      "type": "assertion_reason",
+      "subtopic": "MECHANISMS OF REGULATION OF T-CELL ACTIVATION",
+      "assertion": "CTLA-4 mediates its effects solely through direct interaction with CD28.",
+      "reason": "CTLA-4 competes with CD28 for binding to B7 ligands on APCs.",
+      "correctOption": 1,
+      "explanation": "While both the assertion and reason are true, CTLA-4 also mediates its effects through Treg suppression, not solely by competing with CD28.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF REGULATION OF T-CELL ACTIVATION"
+    },
+    {
+      "id": "h2-047-ar3",
+      "type": "assertion_reason",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "assertion": "Anti-PD-L1 antibodies can induce reversal of T-cell exhaustion and tumor killing.",
+      "reason": "PD-L1 is induced on tumor cells by T_H1 cytokines, which drive cytotoxic T-cell responses.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true; the induction of PD-L1 by T_H1 cytokines explains the efficacy of anti-PD-L1 antibodies.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-ar4",
+      "type": "assertion_reason",
+      "subtopic": "CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)",
+      "assertion": "The effects of anti-CTLA-4 antibody are restricted primarily to tumor neoantigen-specific CD8 T cells within the tumor microenvironment.",
+      "reason": "Anti-CTLA-4 therapy targets B7 molecules expressed on tumor cells.",
+      "correctOption": 2,
+      "explanation": "The assertion is true, but the reason is false; CTLA-4 blockade occurs in lymph nodes where T cells interact with APCs, not directly targeting B7 on tumor cells.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · CHECKPOINT INHIBITION THERAPY FOR CANCER (part 1)"
+    },
+    {
+      "id": "h2-047-ar5",
+      "type": "assertion_reason",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "assertion": "Treg therapy involves expanding autologous Treg cells in vitro.",
+      "reason": "CAR T technology is used to redirect Tregs to pathogenic T and B cells.",
+      "correctOption": 1,
+      "explanation": "Both statements are true, but the reason does not explain the assertion.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    },
+    {
+      "id": "h2-047-ar6",
+      "type": "assertion_reason",
+      "subtopic": "MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING",
+      "assertion": "Inflammaging is a state of reduced inflammation in aging.",
+      "reason": "Aging is paradoxically associated with chronic inflammation termed 'inflammaging'.",
+      "correctOption": 2,
+      "explanation": "The assertion is false; inflammaging refers to increased, not reduced, inflammation.",
+      "reference": "Mechanisms of Regulation and Dysregulation of the Immune System · MECHANISMS OF IMMUNE DYSREGULATION IN AUTOIMMUNE DISEASE | IMMUNE DYSREGULATION IN AGING"
+    }
+  ]
+}

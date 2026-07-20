@@ -1,0 +1,793 @@
+{
+  "id": "h2-002",
+  "volume": 2,
+  "chapterNo": "313",
+  "title": "313 Mechanical Ventilatory Support",
+  "section": "Critical Care Medicine",
+  "authors": "Scott Schissel",
+  "sourceFile": "noupload/harrison/Harrison2_studypacks/002_313_Mechanical_Ventilatory_Support/h22-002_313_mechanical_ventilatory_support.json",
+  "items": [
+    {
+      "id": "h2-002-n1",
+      "type": "note",
+      "subtopic": "313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION",
+      "title": "Optimal Tidal Volume for Preventing Ventilator-Induced Lung Injury in ARDS",
+      "content": "In patients with Acute Respiratory Distress Syndrome (ARDS), using a lower tidal volume ventilation strategy is crucial to prevent ventilator-induced lung injury. This approach minimizes barotrauma and volume trauma by keeping the plateau pressure below 30 cmH₂O.",
+      "keyPoints": [
+        "Lower tidal volume ventilation goal: 6 mL/kg of ideal body weight",
+        "Plateau pressure should not exceed 30 cmH₂O to minimize lung injury",
+        "ARDS patients are particularly susceptible to ventilator-induced lung injury"
+      ],
+      "reference": "313 Mechanical Ventilatory Support · 313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-n2",
+      "type": "note",
+      "subtopic": "313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION",
+      "title": "Use of Positive End-Expiratory Pressure (PEEP) in Mechanical Ventilation",
+      "content": "Positive end-expiratory pressure (PEEP) is used to prevent alveolar collapse at the end of exhalation by maintaining a specified positive pressure. This helps optimize lung volumes and prevents cycles of recruitment and collapse.",
+      "keyPoints": [
+        "PEEP maintains positive pressure at end-exhalation",
+        "Prevents alveolar collapse, optimizing respiratory system compliance",
+        "Helps maintain lung volume along the pressure-volume curve where compliance is greatest"
+      ],
+      "reference": "313 Mechanical Ventilatory Support · 313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-n3",
+      "type": "note",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "title": "AC Mode Provides Complete Operator Control Over Ventilation Variables",
+      "content": "Assist control (AC) mode allows clinicians to set and maintain specific ventilation parameters, ensuring minimum minute ventilation. This is crucial for patients unable to participate in their own ventilatory efforts.",
+      "keyPoints": [
+        "AC mode allows complete operator control over variables such as respiratory rate, tidal volume ($ V_{T} $), inspiratory flow rate, PEEP, and $ FiO_{2} $.",
+        "In AC volume mode, the clinician sets a specific $ V_{T} $ and respiratory rate to assure minimum minute ventilation ($ V_{E} $).",
+        "Patients can trigger additional supported breaths by making an inspiratory effort, which is sensed by the ventilator."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-n4",
+      "type": "note",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "title": "Monitoring Inspiratory Pressures in AC Volume Mode to Prevent Barotrauma",
+      "content": "In AC volume mode, the clinician sets tidal volume and respiratory rate, but the end-inhalation pressure is dependent on lung compliance. Monitoring inspiratory pressures is essential to minimize barotrauma.",
+      "keyPoints": [
+        "End-inhalation (plateau) pressure is a dependent variable determined by lung compliance in AC volume mode.",
+        "Inspiratory pressures must be monitored to prevent barotrauma due to high pressures."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-n5",
+      "type": "note",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "title": "Using PCV Mode to Limit Peak Airway and Lung Distending Pressures in High-Risk Patients",
+      "content": "Pressure control ventilation (PCV) is used to limit peak airway pressures, particularly beneficial in conditions like ARDS or post-thoracic surgery. It sets inspiratory pressure instead of tidal volume, with the resulting tidal volume varying based on lung compliance.",
+      "keyPoints": [
+        "In PCV mode, an inspiratory pressure is set rather than a tidal volume.",
+        "Tidal volume varies depending on lung compliance in PCV mode.",
+        "PCV helps limit peak airway and lung distending pressures to prevent harm in high-risk conditions like ARDS."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-n6",
+      "type": "note",
+      "subtopic": "PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION",
+      "title": "Understanding PRVC: Balancing Tidal Volume and Patient Effort",
+      "content": "Pressure-regulated volume control (PRVC) ventilation combines the benefits of both volume and pressure control by allowing patient-initiated respiratory efforts while targeting a set tidal volume. It adapts to varying inspiratory flows, enhancing comfort and synchrony but can lead to variable tidal volumes due to non-instantaneous ventilator adaptation.",
+      "keyPoints": [
+        "PRVC allows spontaneous respiratory efforts with target tidal volume settings.",
+        "Tidal volumes may vary from breath to breath due to patient effort variability.",
+        "Caution is advised in ARDS where tight control of tidal volume is necessary."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION"
+    },
+    {
+      "id": "h2-002-n7",
+      "type": "note",
+      "subtopic": "PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION",
+      "title": "Key Aspects of PSV: Monitoring and Patient Triggering",
+      "content": "Pressure support ventilation (PSV) is patient-triggered, with no set mechanical respiratory rate. It requires close monitoring as tidal volume depends on lung compliance and the patient's inspiratory effort. The ventilator supports breathing by maintaining a preset inspiratory pressure until flow decreases below ~20% of peak inspiratory flow.",
+      "keyPoints": [
+        "PSV is entirely patient-triggered with no mandated ventilation rate.",
+        "Clinicians set $F_{IO}$, PEEP, and maximum inspiratory pressure.",
+        "Tidal volume on PSV depends on lung compliance and patient effort.",
+        "Monitoring for hypopnea/apnea and hypoventilation is crucial."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION"
+    },
+    {
+      "id": "h2-002-n8",
+      "type": "note",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "title": "When to Use Noninvasive Ventilation in COPD Exacerbations",
+      "content": "Noninvasive ventilation (NIV) is beneficial for managing moderate acute hypercarbia with a blood pH between 7.25 and 7.35 due to COPD exacerbations, reducing the need for intubation and shortening hospital stays.",
+      "keyPoints": [
+        "Use NIV for COPD exacerbations with blood pH 7.25-7.35",
+        "Reduces need for endotracheal intubation",
+        "Shortens hospital length of stay"
+      ],
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-n9",
+      "type": "note",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "title": "Optimal Oxygen Targets in Mechanical Ventilation",
+      "content": "There is no clear advantage to conservative oxygen delivery strategies over liberal ones. In ARDS, targeting PaO₂ of 55–70 mmHg (or SpO₂ of 88–92%) did not lower mortality compared to higher targets.",
+      "keyPoints": [
+        "No definitive benefit from supraphysiologic PaO₂ (>100 mmHg)",
+        "In ARDS: target PaO₂ 55-70 mmHg or SpO₂ 88-92%",
+        "Avoid sustained hyperoxia"
+      ],
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-n10",
+      "type": "note",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "title": "Managing Refractory Hypoxemia in Severe Lung Disease",
+      "content": "For severe acute lung disease like ARDS, if FiO₂ >0.6 or PaO₂:FiO₂ ratio <150 mmHg, consider additional interventions such as PEEP, neuromuscular blockade, prone positioning, and pulmonary vasodilators.",
+      "keyPoints": [
+        "Consider additional interventions if FiO₂ >0.6 or PaO₂:FiO₂ <150 mmHg",
+        "PEEP can improve oxygenation by reducing V/Q mismatch",
+        "Neuromuscular blockade may be necessary for dyssynchronous respiratory efforts"
+      ],
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-n11",
+      "type": "note",
+      "subtopic": "HYPERCAPNIA",
+      "title": "Mechanisms and Management of Hypercapnia in ARDS",
+      "content": "Hypercapnia is primarily due to inadequate alveolar ventilation, often caused by an increase in dead space relative to minute ventilation. In acute respiratory failure like ARDS, poorly perfused but ventilated lung areas can lead to increased dead space, resulting in hypercapnia. Management involves using higher respiratory rates up to 30 breaths/min and tolerating permissive hypercapnia with a pH as low as 7.2.",
+      "keyPoints": [
+        "Normal physiologic dead space is approximately 150 mL (~2 mL/kg).",
+        "Vₑ/Vₔ for a 500-mL tidal volume breath is 0.3.",
+        "In ARDS, Vₔ may increase to 200 mL and low Vₑ of 300 mL results in Vₑ/Vₔ of 0.66.",
+        "Respiratory acidosis can be managed with higher respiratory rates up to 30 breaths/min.",
+        "Permissive hypercapnia is often tolerated down to a pH of 7.2."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · HYPERCAPNIA"
+    },
+    {
+      "id": "h2-002-n12",
+      "type": "note",
+      "subtopic": "HYPERCAPNIA",
+      "title": "Optimal Ventilatory Strategy for Severe Obstructive Lung Disease",
+      "content": "In severe obstructive lung disease, hypercapnia is common despite mechanical ventilation due to alveolar capillary compression and lung hyperinflation. Optimal management involves using lower respiratory rates (9–12 breaths/min) and moderate tidal volumes (7–9 mL/kg) to maintain minute ventilation of ~10 L/min. Higher minute ventilation can worsen hyperinflation and cause barotrauma.",
+      "keyPoints": [
+        "Average Paco₂ values in severe exacerbations are 65 mmHg with a blood pH of 7.20 after intubation.",
+        "Poor alveolar ventilation is due to dead space from alveolar capillary compression.",
+        "Increasing minute ventilation paradoxically worsens hypercapnia by increasing gas trapping.",
+        "Lower respiratory rates (9–12 breaths/min) and moderate tidal volumes (7–9 mL/kg) are optimal.",
+        "Higher minute ventilation usually worsens hyperinflation and can cause barotrauma."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · HYPERCAPNIA"
+    },
+    {
+      "id": "h2-002-n13",
+      "type": "note",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "title": "Risk Factors and Management of Postextubation Stridor (PES)",
+      "content": "Postextubation stridor can occur due to vocal cord injury from prolonged or traumatic intubation, large endotracheal tube size, previous episodes of PES, or head/neck surgery. The cuff leak test helps assess the risk; absence of a cuff leak indicates approximately 30% risk for PES.",
+      "keyPoints": [
+        "Prolonged (>7 days) or traumatic intubation increases PES risk.",
+        "Cuff leak test: Absence of leak suggests ~30% risk of PES.",
+        "Consider delaying endotracheal tube removal until underlying issues are addressed."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-n14",
+      "type": "note",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "title": "Cardiopulmonary Effects of Positive-Pressure Ventilation",
+      "content": "Positive-pressure ventilation can exacerbate right ventricular failure and pulmonary arterial hypertension due to increased afterload and decreased preload. It may also cause lung barotrauma with inspiratory plateau pressures >30 cmH₂O or high PEEP.",
+      "keyPoints": [
+        "Inspiratory plateau pressures >30 cmH₂O increase risk of lung barotrauma.",
+        "High PEEP can worsen right ventricular failure and pulmonary hypertension.",
+        "Consider ventilatory strategy carefully in patients with severe right-sided heart disease."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-n15",
+      "type": "note",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "title": "Diagnosis and Management of Ventilator-Associated Pneumonia (VAP)",
+      "content": "VAP occurs in up to 15% of ventilated patients, with a mortality rate near 50%. Diagnosis requires new pulmonary opacities on chest x-ray, clinical signs of pneumonia, and positive microbial culture from the lower respiratory tract. Empiric antibiotic therapy should be guided by ICU data.",
+      "keyPoints": [
+        "VAP occurs in ~15% of mechanically ventilated patients; mortality is ~50%.",
+        "Diagnosis: New pulmonary opacities, clinical signs, positive lower respiratory tract culture.",
+        "Empiric therapy: Intravenous β-lactam with broad gram-negative coverage; adjust based on ICU data."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-n16",
+      "type": "note",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "title": "Minimize Adverse Events in Mechanical Ventilation with Care Bundles",
+      "content": "Implementing care bundles can reduce the risk of extrathoracic complications associated with mechanical ventilation, such as gastrointestinal stress ulcers and deep venous thrombosis.",
+      "keyPoints": [
+        "ICUs should institute care bundles including daily interruption of sedatives and assessment for extubation.",
+        "Prophylaxis for deep venous thrombosis is recommended to minimize adverse events."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-n17",
+      "type": "note",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "title": "Optimize Ventilator Liberation with Active Assessment and SBT",
+      "content": "Active assessment of a patient's readiness for spontaneous breathing, followed by a Spontaneous Breathing Trial (SBT), can reduce unnecessary mechanical ventilation time.",
+      "keyPoints": [
+        "Criteria for extubation readiness include: $ F_{IO_2} \\<= 0.5 $, PEEP < 8 cmH$_2$O, $ S_{AO_2} > 88\text{%}$, stable hemodynamics, and manageable respiratory secretions.",
+        "SBT involves positive pressure set to 5-7 cmH$_2$O for 30 to 120 minutes; successful if $ S_{AO_2} > 90\text{%}$, respiratory rate <35, systolic BP between 90 and 180 mmHg, heart rate change of <20%.",
+        "Patients passing an SBT have a >70% chance of successful extubation.",
+        "Incorporating readiness screening and SBT reduces ventilator days by 25% and ICU length of stay by 10%.",
+        "Risk factors for failing extubation post-SBT include age >65, congestive heart failure, COPD, APACHE-II score >12, BMI >30, significant secretions, more than two comorbidities, and >7 days on ventilation."
+      ],
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq1",
+      "type": "mcq",
+      "subtopic": "313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION",
+      "question": "Which of the following conditions is most commonly associated with hypoxemic respiratory failure that requires mechanical ventilation?",
+      "options": [
+        "Ventilation-perfusion mismatch or shunt caused by pneumonia",
+        "Hypercapnic respiratory failure due to COPD exacerbation",
+        "Respiratory muscle weakness from Guillain-Barré syndrome",
+        "Poor airway protection in the context of a large upper gastrointestinal hemorrhage"
+      ],
+      "correctOption": 0,
+      "explanation": "Hypoxemic respiratory failure refractory to supplemental oxygen is often due to ventilation-perfusion mismatch or shunt, commonly caused by pneumonia.",
+      "reference": "313 Mechanical Ventilatory Support · 313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq2",
+      "type": "mcq",
+      "subtopic": "313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION",
+      "question": "What is the primary goal of using lower tidal volume ventilation in ARDS patients?",
+      "options": [
+        "To increase the work of breathing and strengthen respiratory muscles",
+        "To maintain a plateau pressure below 30 cmH₂O to minimize lung injury",
+        "To ensure alveolar collapse at end-exhalation for better gas exchange",
+        "To reduce positive end-expiratory pressure (PEEP) requirements"
+      ],
+      "correctOption": 1,
+      "explanation": "Lower tidal volume ventilation aims to keep the plateau pressure below 30 cmH₂O, minimizing barotrauma and volume trauma-induced lung injury.",
+      "reference": "313 Mechanical Ventilatory Support · 313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq3",
+      "type": "mcq",
+      "subtopic": "313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION",
+      "question": "What is the purpose of setting a positive end-expiratory pressure (PEEP) on a ventilator?",
+      "options": [
+        "To prevent alveolar overinflation and barotrauma",
+        "To increase tidal volume during mechanical ventilation",
+        "To maintain specified positive pressure at end-exhalation and prevent alveolar collapse",
+        "To reduce the need for sedation in mechanically ventilated patients"
+      ],
+      "correctOption": 2,
+      "explanation": "PEEP is set to maintain a specified positive pressure at end-exhalation, preventing alveolar collapse.",
+      "reference": "313 Mechanical Ventilatory Support · 313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq4",
+      "type": "mcq",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "question": "In assist control (AC) ventilation mode, what variable is primarily controlled by the clinician?",
+      "options": [
+        "Respiratory rate and tidal volume ($V_{T}$)",
+        "Patient's inspiratory flow rate",
+        "Fraction of inspired oxygen ($FiO_{2}$) only",
+        "End-inhalation (plateau) pressure"
+      ],
+      "correctOption": 0,
+      "explanation": "In AC mode, the clinician controls respiratory rate and tidal volume.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq5",
+      "type": "mcq",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "question": "What is a potential issue for a dyspneic patient in AC volume control mode?",
+      "options": [
+        "The ventilator will not trigger additional breaths.",
+        "The inspiratory flow rate set by the operator may be lower than desired, leading to distress.",
+        "The PEEP setting cannot be adjusted during ventilation.",
+        "Minute ventilation is not assured."
+      ],
+      "correctOption": 1,
+      "explanation": "A dyspneic patient may experience resistance if their desired inspiratory flow rate exceeds the set rate.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq6",
+      "type": "mcq",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "question": "In assist control volume mode, what is a dependent variable?",
+      "options": [
+        "Tidal volume ($V_{T}$)",
+        "Respiratory rate",
+        "End-inhalation (plateau) pressure",
+        "PEEP"
+      ],
+      "correctOption": 2,
+      "explanation": "The end-inhalation (or plateau) pressure is a dependent variable determined by lung compliance.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq7",
+      "type": "mcq",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "question": "Which statement best describes the difference between AC volume control and PCV?",
+      "options": [
+        "In PCV, tidal volume is set by the clinician.",
+        "PCV sets an inspiratory pressure instead of a tidal volume.",
+        "AC mode allows patient-controlled respiratory rate in both modes.",
+        "PEEP cannot be adjusted in PCV."
+      ],
+      "correctOption": 1,
+      "explanation": "In PCV, an inspiratory (driving) pressure is set rather than a tidal volume.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq8",
+      "type": "mcq",
+      "subtopic": "PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION",
+      "question": "Which of the following is true about Pressure-regulated Volume Control (PRVC) ventilation?",
+      "options": [
+        "It allows for patient-triggered respiratory efforts and variable inspiratory flow rates.",
+        "It mandates a fixed tidal volume with no variability from breath to breath.",
+        "It requires a set mechanical respiratory rate similar to PCV.",
+        "It is primarily used when patients are less sedated."
+      ],
+      "correctOption": 0,
+      "explanation": "PRVC allows patient-triggered efforts and variable inspiratory flow rates, enhancing comfort and synchrony.",
+      "reference": "313 Mechanical Ventilatory Support · PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq9",
+      "type": "mcq",
+      "subtopic": "PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION",
+      "question": "In Pressure Support Ventilation (PSV), which of the following is monitored but not assured?",
+      "options": [
+        "Tidal volume",
+        "Minute ventilation",
+        "Respiratory rate",
+        "PEEP"
+      ],
+      "correctOption": 0,
+      "explanation": "The tidal volume on PSV is determined by lung compliance and patient effort, thus monitored but not assured.",
+      "reference": "313 Mechanical Ventilatory Support · PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq10",
+      "type": "mcq",
+      "subtopic": "PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION",
+      "question": "When using Pressure Support Ventilation (PSV), what must be closely monitored to detect hypopnea/apnea and hypoventilation?",
+      "options": [
+        "Tidal volume, minute ventilation, and respiratory rate",
+        "PEEP and maximum inspiratory pressure",
+        "Patient's $ F_{IO} $ levels",
+        "Inspiratory flow rates"
+      ],
+      "correctOption": 0,
+      "explanation": "Tidal volume, minute ventilation, and respiratory rate must be monitored to detect hypopnea/apnea and hypoventilation in PSV.",
+      "reference": "313 Mechanical Ventilatory Support · PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq11",
+      "type": "mcq",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "question": "Which of the following is a contraindication for using noninvasive ventilation (NIV) without securing an airway?",
+      "options": [
+        "Delirium",
+        "Mild hypercapnia",
+        "Chronic respiratory failure from restrictive lung diseases",
+        "Acute cardiogenic pulmonary edema"
+      ],
+      "correctOption": 0,
+      "explanation": "Contraindications for NIV without a secure airway include delirium, difficulty managing secretions, and hemodynamic instability.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-mcq12",
+      "type": "mcq",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "question": "In the management of moderate acute hypercarbia due to COPD exacerbations with a blood pH between 7.25 and 7.35, what is one benefit of using noninvasive ventilation (NIV)?",
+      "options": [
+        "Increases need for endotracheal intubation",
+        "Shortens hospital length of stay",
+        "Worsens gas exchange",
+        "Requires mechanical ventilation with an endotracheal tube"
+      ],
+      "correctOption": 1,
+      "explanation": "NIV reduces the need for endotracheal intubation and shortens hospital length of stay in moderate acute hypercarbia due to COPD exacerbations.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-mcq13",
+      "type": "mcq",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "question": "What is the recommended FiO2 requirement that suggests additional interventions should be considered for improving arterial oxygenation in severe acute lung disease?",
+      "options": [
+        ">0.3",
+        ">0.4",
+        ">0.5",
+        ">0.6"
+      ],
+      "correctOption": 3,
+      "explanation": "If the FiO2 requirement is >0.6 or the PaO2:FiO2 ratio is <150 mmHg, additional interventions should be considered.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-mcq14",
+      "type": "mcq",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "question": "Which of the following is a potential adverse effect of applying optimal PEEP in mechanical ventilation?",
+      "options": [
+        "Improves clinical outcomes definitively",
+        "Decreases barotrauma risk",
+        "Causes hypotension from decreased venous return",
+        "Prevents alveolar collapse without side effects"
+      ],
+      "correctOption": 2,
+      "explanation": "Optimal PEEP may have deleterious effects, including causing hypotension due to decreased venous return.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-mcq15",
+      "type": "mcq",
+      "subtopic": "HYPERCAPNIA",
+      "question": "Which condition is NOT typically associated with excess CO₂ production (VCO₂) leading to hypercapnia?",
+      "options": [
+        "Fever",
+        "Sepsis",
+        "Overfeeding",
+        "Obstructive lung disease"
+      ],
+      "correctOption": 3,
+      "explanation": "Excess CO₂ production is typically associated with fever, sepsis, and overfeeding, but not obstructive lung disease.",
+      "reference": "313 Mechanical Ventilatory Support · HYPERCAPNIA"
+    },
+    {
+      "id": "h2-002-mcq16",
+      "type": "mcq",
+      "subtopic": "HYPERCAPNIA",
+      "question": "In the context of ARDS, what can lead to hypercapnia despite low Vₑ/Vₔ?",
+      "options": [
+        "Increased dead space due to poorly perfused but ventilated lung areas",
+        "Decreased respiratory rate",
+        "High tidal volume ventilation",
+        "Reduced minute ventilation"
+      ],
+      "correctOption": 0,
+      "explanation": "Hypercapnia can develop in ARDS due to increased dead space from poorly perfused but ventilated lung areas.",
+      "reference": "313 Mechanical Ventilatory Support · HYPERCAPNIA"
+    },
+    {
+      "id": "h2-002-mcq17",
+      "type": "mcq",
+      "subtopic": "HYPERCAPNIA",
+      "question": "Which strategy is optimal for managing severe obstructive lung disease during mechanical ventilation?",
+      "options": [
+        "High respiratory rates and high tidal volumes",
+        "Low respiratory rates and moderate tidal volumes",
+        "Increasing minute ventilation by increasing both rate and volume",
+        "Deep sedation without adjusting ventilator settings"
+      ],
+      "correctOption": 1,
+      "explanation": "Optimal management involves using lower respiratory rates (9–12 breaths/min) and moderate tidal volumes (7–9 mL/kg).",
+      "reference": "313 Mechanical Ventilatory Support · HYPERCAPNIA"
+    },
+    {
+      "id": "h2-002-mcq18",
+      "type": "mcq",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "question": "Which of the following is a risk factor for postextubation stridor (PES)?",
+      "options": [
+        "Short duration of intubation (<7 days)",
+        "Small endotracheal tube size",
+        "Previous episode of PES",
+        "Absence of head/neck surgery or trauma"
+      ],
+      "correctOption": 2,
+      "explanation": "A previous episode of PES is a risk factor for postextubation stridor.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-mcq19",
+      "type": "mcq",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "question": "What is a potential complication of high positive intrathoracic pressure during mechanical ventilation?",
+      "options": [
+        "Decreased left ventricular preload and afterload",
+        "Pneumothorax",
+        "Improved right ventricular function",
+        "Reduced pulmonary vascular resistance"
+      ],
+      "correctOption": 1,
+      "explanation": "High positive intrathoracic pressure can cause lung barotrauma, including pneumothorax.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-mcq20",
+      "type": "mcq",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "question": "Which intervention is supported by clinical trial evidence to reduce the incidence of ventilator-associated pneumonia (VAP)?",
+      "options": [
+        "Routine deep tracheal suctioning",
+        "Head-of-bed elevation to at least 30–45°",
+        "Frequent ventilator circuit tubing changes",
+        "Avoidance of hand hygiene before handling the ventilatory circuit"
+      ],
+      "correctOption": 1,
+      "explanation": "Head-of-bed elevation to at least 30–45° is a proven intervention for reducing VAP.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-mcq21",
+      "type": "mcq",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "question": "What is the approximate risk of postextubation stridor in patients with no cuff leak on the endotracheal tube?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "40%"
+      ],
+      "correctOption": 2,
+      "explanation": "Patients with no cuff leak have an approximate 30% risk of postextubation stridor.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-mcq22",
+      "type": "mcq",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "question": "Which of the following is NOT a common disorder associated with systemic physiologic stress from mechanical ventilation?",
+      "options": [
+        "Gastrointestinal stress ulcers and bleeding",
+        "Deep venous thrombosis and pulmonary embolism",
+        "Sleep disruption and delirium",
+        "Hypertension"
+      ],
+      "correctOption": 3,
+      "explanation": "Hypertension is not listed as a common disorder associated with mechanical ventilation.",
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq23",
+      "type": "mcq",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "question": "What should ICUs institute to minimize adverse events from mechanical ventilation?",
+      "options": [
+        "Daily interruption of sedatives and assessment for extubation",
+        "Continuous sedative administration",
+        "Avoidance of deep venous thrombosis prophylaxis",
+        "Extended use of neuromuscular blockade"
+      ],
+      "correctOption": 0,
+      "explanation": "ICUs should institute care bundles including daily interruption of sedatives and assessment for extubation.",
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-mcq24",
+      "type": "mcq",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "question": "Which criteria is NOT part of assessing a patient's readiness for spontaneous breathing?",
+      "options": [
+        "$ F_{IO_2} \\<= 0.5 $",
+        "PEEP < 8 cmH $ _2 $O",
+        "$ S_{AO_2} > 88\text{%}$",
+        "Respiratory rate >35"
+      ],
+      "correctOption": 3,
+      "explanation": "A respiratory rate >35 is not part of the criteria for readiness; a rate <35 indicates passing an SBT.",
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-tf1",
+      "type": "true_false",
+      "subtopic": "313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION",
+      "statement": "Mechanical ventilation can be used to lower the work of breathing in patients with multiorgan system failure.",
+      "correctAnswer": true,
+      "explanation": "Mechanical ventilation reduces the work of breathing, making it useful as an adjunct therapy for shock and multiorgan system failure.",
+      "reference": "313 Mechanical Ventilatory Support · 313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-tf2",
+      "type": "true_false",
+      "subtopic": "313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION",
+      "statement": "In ARDS patients on mechanical ventilation with no spontaneous respiratory effort, the pressure needed to inflate the lung is different from that required if they were spontaneously breathing.",
+      "correctAnswer": false,
+      "explanation": "The amount of positive pressure needed to inflate the lung is equal whether applied positively via mechanical ventilation or negatively using spontaneous breathing.",
+      "reference": "313 Mechanical Ventilatory Support · 313 Mechanical Ventilatory Support | PRINCIPLES OF MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-tf3",
+      "type": "true_false",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "statement": "In assist control ventilation, the clinician sets both PEEP and $FiO_{2}$.",
+      "correctAnswer": true,
+      "explanation": "The clinician sets PEEP and $FiO_{2}$ in AC volume mode.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-tf4",
+      "type": "true_false",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "statement": "In pressure control ventilation, tidal volume is a controlled variable set by the clinician.",
+      "correctAnswer": false,
+      "explanation": "Tidal volume in PCV is not controlled by the clinician; it varies with lung compliance.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-tf5",
+      "type": "true_false",
+      "subtopic": "PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION",
+      "statement": "In Pressure Support Ventilation, the clinician sets a mandated mechanical respiratory rate.",
+      "correctAnswer": false,
+      "explanation": "PSV does not have a set mechanical respiratory rate; it is entirely patient-triggered.",
+      "reference": "313 Mechanical Ventilatory Support · PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION"
+    },
+    {
+      "id": "h2-002-tf6",
+      "type": "true_false",
+      "subtopic": "PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION",
+      "statement": "Pressure-regulated Volume Control ventilation can be used cautiously in ARDS if the patient makes significant respiratory efforts.",
+      "correctAnswer": true,
+      "explanation": "PRVC must be used cautiously in ARDS due to potential variability in tidal volume from patient effort.",
+      "reference": "313 Mechanical Ventilatory Support · PRESSURE-REGULATED VOLUME CONTROL VENTILATION | PRESSURE SUPPORT VENTILATION"
+    },
+    {
+      "id": "h2-002-tf7",
+      "type": "true_false",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "statement": "Targeting a lower PaO2 of 55–70 mmHg in ARDS patients has been shown to reduce mortality compared to higher PaO2 levels.",
+      "correctAnswer": false,
+      "explanation": "Lower PaO2 targets did not show reduced mortality and were associated with more adverse events.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-tf8",
+      "type": "true_false",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "statement": "Neuromuscular blockade in ARDS improves overall outcomes.",
+      "correctAnswer": false,
+      "explanation": "While it helps with refractory hypoxemia, neuromuscular blockade does not improve overall outcomes in ARDS.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-tf9",
+      "type": "true_false",
+      "subtopic": "HYPERCAPNIA",
+      "statement": "Permissive hypercapnia is often tolerated down to a pH of 7.2.",
+      "correctAnswer": true,
+      "explanation": "Respiratory acidosis due to permissive hypercapnia can be tolerated down to a pH of 7.2.",
+      "reference": "313 Mechanical Ventilatory Support · HYPERCAPNIA"
+    },
+    {
+      "id": "h2-002-tf10",
+      "type": "true_false",
+      "subtopic": "HYPERCAPNIA",
+      "statement": "Increasing minute ventilation by increasing both respiratory rate and tidal volume will always improve alveolar ventilation in obstructive lung disease.",
+      "correctAnswer": false,
+      "explanation": "Increasing minute ventilation can worsen hypercapnia by increasing gas trapping and Vₑ/Vₑ in obstructive lung disease.",
+      "reference": "313 Mechanical Ventilatory Support · HYPERCAPNIA"
+    },
+    {
+      "id": "h2-002-tf11",
+      "type": "true_false",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "statement": "Positive-pressure ventilation can worsen right ventricular failure and pulmonary arterial hypertension.",
+      "correctAnswer": true,
+      "explanation": "Positive-pressure ventilation can increase right ventricular afterload, worsening right-sided heart issues.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-tf12",
+      "type": "true_false",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "statement": "Ventilator-associated pneumonia (VAP) occurs within 48 hours of initiating mechanical ventilation.",
+      "correctAnswer": false,
+      "explanation": "VAP is defined as occurring ≥48 hours after the initiation of mechanical ventilation.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-tf13",
+      "type": "true_false",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "statement": "Patients on prolonged mechanical ventilation often develop respiratory muscle weakness.",
+      "correctAnswer": false,
+      "explanation": "Respiratory muscle weakness occurs in a minority of patients.",
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-tf14",
+      "type": "true_false",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "statement": "Incorporating extubation readiness screening followed by SBT reduces ventilator days and ICU length of stay.",
+      "correctAnswer": true,
+      "explanation": "This approach leads to 25% fewer ventilator days and a 10% decrease in ICU length of stay.",
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    },
+    {
+      "id": "h2-002-ar1",
+      "type": "assertion_reason",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "assertion": "In assist control ventilation, tidal volume can vary depending on patient effort.",
+      "reason": "The ventilator provides fully supported breaths at the set $V_{T}$ when an inspiratory effort is sensed.",
+      "correctOption": 2,
+      "explanation": "Tidal volume does not vary with patient effort in AC mode; it remains constant as set by the clinician.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-ar2",
+      "type": "assertion_reason",
+      "subtopic": "MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION",
+      "assertion": "In pressure control ventilation, inspiratory flow rate is a dependent variable.",
+      "reason": "The ventilator adjusts gas flow to maintain the set pressure in response to patient effort.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true; the inspiratory flow rate varies with patient effort in PCV.",
+      "reference": "313 Mechanical Ventilatory Support · MECHANICAL VENTILATION MODES | ASSIST CONTROL VENTILATION"
+    },
+    {
+      "id": "h2-002-ar3",
+      "type": "assertion_reason",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "assertion": "Prone positioning can significantly improve arterial oxygenation in patients with ARDS.",
+      "reason": "Diseased lung is predominantly dependent, and prone positioning improves ventilation/perfusion matching.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-ar4",
+      "type": "assertion_reason",
+      "subtopic": "NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION",
+      "assertion": "Sustained hyperoxia has clinical benefits in mechanically ventilated patients.",
+      "reason": "Higher PaO2 levels are associated with better outcomes in some studies.",
+      "correctOption": 3,
+      "explanation": "The assertion is false; there is no evidence that sustained hyperoxia provides clinical benefit.",
+      "reference": "313 Mechanical Ventilatory Support · NONINVASIVE POSITIVE PRESSURE VENTILATION | ARTERIAL OXYGENATION"
+    },
+    {
+      "id": "h2-002-ar5",
+      "type": "assertion_reason",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "assertion": "Prolonged intubation can lead to tracheal stricture.",
+      "reason": "Tracheal stricture is caused by granulation tissue formation due to prolonged intubation.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, with the reason correctly explaining the assertion.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-ar6",
+      "type": "assertion_reason",
+      "subtopic": "AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA",
+      "assertion": "Hand hygiene before handling the ventilatory circuit is unnecessary for preventing VAP.",
+      "reason": "Hand hygiene reduces bacterial entry into the respiratory tract, lowering VAP risk.",
+      "correctOption": 3,
+      "explanation": "The assertion is false; hand hygiene is a recommended practice to prevent VAP.",
+      "reference": "313 Mechanical Ventilatory Support · AIRWAY | ADVERSE CARDIOPULMONARY EFFECTS OF POSITIVE-PRESSURE VENTILATION | VENTILATOR-ASSOCIATED PNEUMONIA"
+    },
+    {
+      "id": "h2-002-ar7",
+      "type": "assertion_reason",
+      "subtopic": "OTHER | LIBERATION FROM MECHANICAL VENTILATION",
+      "assertion": "Overrelying on physiologic variables leads to unnecessary delays in extubation.",
+      "reason": "Successful liberation from mechanical ventilation is better indicated by the outcome of an SBT.",
+      "correctOption": 0,
+      "explanation": "Both the assertion and reason are true, and the reason correctly explains the assertion.",
+      "reference": "313 Mechanical Ventilatory Support · OTHER | LIBERATION FROM MECHANICAL VENTILATION"
+    }
+  ]
+}
